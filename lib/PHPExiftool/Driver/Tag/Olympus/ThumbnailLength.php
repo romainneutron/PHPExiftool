@@ -5,11 +5,11 @@ namespace PHPExiftool\Driver\Tag\Olympus;
 class ThumbnailLength extends \PHPExiftool\Driver\Tag
 {
 
-    protected $Id = 301;
+    protected $Id = 'mixed';
 
     protected $Name = 'ThumbnailLength';
 
-    protected $FullName = 'Olympus::AVI';
+    protected $FullName = 'mixed';
 
     protected $GroupName = 'Olympus';
 

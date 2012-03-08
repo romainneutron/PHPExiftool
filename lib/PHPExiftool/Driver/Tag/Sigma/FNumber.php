@@ -5,7 +5,7 @@ namespace PHPExiftool\Driver\Tag\Sigma;
 class FNumber extends \PHPExiftool\Driver\Tag
 {
 
-    protected $Id = 49;
+    protected $Id = 'mixed';
 
     protected $Name = 'FNumber';
 

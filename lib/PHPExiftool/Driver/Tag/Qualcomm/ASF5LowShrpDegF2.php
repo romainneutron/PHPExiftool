@@ -1,0 +1,28 @@
+<?php
+
+namespace PHPExiftool\Driver\Tag\Qualcomm;
+
+class ASF5LowShrpDegF2 extends \PHPExiftool\Driver\Tag
+{
+
+    protected $Id = 'asf5_low_shrp_deg_f2';
+
+    protected $Name = 'ASF5LowShrpDegF2';
+
+    protected $FullName = 'Qualcomm::Main';
+
+    protected $GroupName = 'Qualcomm';
+
+    protected $g0 = 'MakerNotes';
+
+    protected $g1 = 'Qualcomm';
+
+    protected $g2 = 'Camera';
+
+    protected $Type = '?';
+
+    protected $Writable = false;
+
+    protected $Description = 'ASF5 Low Shrp Deg F2';
+
+}

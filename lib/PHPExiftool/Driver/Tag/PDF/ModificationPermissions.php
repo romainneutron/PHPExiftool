@@ -44,7 +44,7 @@ class ModificationPermissions extends \PHPExiftool\Driver\Tag
         ),
         true => array(
             'Id' => true,
-            'Label' => 'Restrict al applications to reader permissions',
+            'Label' => 'Restrict all applications to reader permissions',
         ),
     );
 

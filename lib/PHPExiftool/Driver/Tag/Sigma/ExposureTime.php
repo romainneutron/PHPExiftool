@@ -5,7 +5,7 @@ namespace PHPExiftool\Driver\Tag\Sigma;
 class ExposureTime extends \PHPExiftool\Driver\Tag
 {
 
-    protected $Id = 50;
+    protected $Id = 'mixed';
 
     protected $Name = 'ExposureTime';
 

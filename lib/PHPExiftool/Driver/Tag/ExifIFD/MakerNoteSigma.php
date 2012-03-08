@@ -27,6 +27,6 @@ class MakerNoteSigma extends \PHPExiftool\Driver\Tag
 
     protected $local_g1 = 'ExifIFD';
 
-    protected $Index = 60;
+    protected $Index = 61;
 
 }

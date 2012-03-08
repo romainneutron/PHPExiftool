@@ -5,7 +5,7 @@ namespace PHPExiftool\Driver\Tag\Sigma;
 class PreviewImageStart extends \PHPExiftool\Driver\Tag
 {
 
-    protected $Id = 26;
+    protected $Id = 'mixed';
 
     protected $Name = 'PreviewImageStart';
 
@@ -24,5 +24,7 @@ class PreviewImageStart extends \PHPExiftool\Driver\Tag
     protected $Writable = true;
 
     protected $Description = 'Preview Image Start';
+
+    protected $Index = 'mixed';
 
 }

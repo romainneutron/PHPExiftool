@@ -1,0 +1,28 @@
+<?php
+
+namespace PHPExiftool\Driver\Tag\Microsoft;
+
+class BusinessFax extends \PHPExiftool\Driver\Tag
+{
+
+    protected $Id = '{91EFF6F3-2E27-42CA-933E-7C999FBE310B} 100';
+
+    protected $Name = 'BusinessFax';
+
+    protected $FullName = 'Microsoft::Xtra';
+
+    protected $GroupName = 'Microsoft';
+
+    protected $g0 = 'QuickTime';
+
+    protected $g1 = 'Microsoft';
+
+    protected $g2 = 'Video';
+
+    protected $Type = '?';
+
+    protected $Writable = false;
+
+    protected $Description = 'Business Fax';
+
+}

@@ -19,7 +19,7 @@ class VideoFrameRate extends \PHPExiftool\Driver\Tag
 
     protected $g2 = 'Video';
 
-    protected $Type = '?';
+    protected $Type = 'undef';
 
     protected $Writable = false;
 

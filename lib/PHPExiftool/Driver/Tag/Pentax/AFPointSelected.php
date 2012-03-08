@@ -26,6 +26,10 @@ class AFPointSelected extends \PHPExiftool\Driver\Tag
     protected $Description = 'AF Point Selected';
 
     protected $Values = array(
+        0 => array(
+            'Id' => 0,
+            'Label' => 'None',
+        ),
         1 => array(
             'Id' => 1,
             'Label' => 'Upper-left',
@@ -69,6 +73,10 @@ class AFPointSelected extends \PHPExiftool\Driver\Tag
         11 => array(
             'Id' => 11,
             'Label' => 'Lower-right',
+        ),
+        65531 => array(
+            'Id' => 65531,
+            'Label' => 'AF Select',
         ),
         65532 => array(
             'Id' => 65532,

@@ -27,6 +27,6 @@ class MakerNoteJVCText extends \PHPExiftool\Driver\Tag
 
     protected $local_g1 = 'ExifIFD';
 
-    protected $Index = 12;
+    protected $Index = 13;
 
 }

@@ -1,0 +1,63 @@
+<?php
+
+namespace PHPExiftool\Driver\Tag\Radiance;
+
+class Orientation extends \PHPExiftool\Driver\Tag
+{
+
+    protected $Id = '_orient';
+
+    protected $Name = 'Orientation';
+
+    protected $FullName = 'Radiance::Main';
+
+    protected $GroupName = 'Radiance';
+
+    protected $g0 = 'Radiance';
+
+    protected $g1 = 'Radiance';
+
+    protected $g2 = 'Image';
+
+    protected $Type = '?';
+
+    protected $Writable = false;
+
+    protected $Description = 'Orientation';
+
+    protected $Values = array(
+        '+X +Y' => array(
+            'Id' => '+X +Y',
+            'Label' => 'Rotate 90 CW',
+        ),
+        '+X -Y' => array(
+            'Id' => '+X -Y',
+            'Label' => 'Mirror horizontal and rotate 270 CW',
+        ),
+        '+Y +X' => array(
+            'Id' => '+Y +X',
+            'Label' => 'Mirror vertical',
+        ),
+        '+Y -X' => array(
+            'Id' => '+Y -X',
+            'Label' => 'Rotate 180',
+        ),
+        '-X +Y' => array(
+            'Id' => '-X +Y',
+            'Label' => 'Mirror horizontal and rotate 90 CW',
+        ),
+        '-X -Y' => array(
+            'Id' => '-X -Y',
+            'Label' => 'Rotate 270 CW',
+        ),
+        '-Y +X' => array(
+            'Id' => '-Y +X',
+            'Label' => 'Horizontal (normal)',
+        ),
+        '-Y -X' => array(
+            'Id' => '-Y -X',
+            'Label' => 'Mirror horizontal',
+        ),
+    );
+
+}

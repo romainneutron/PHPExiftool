@@ -100,6 +100,10 @@ class PentaxImageSize extends \PHPExiftool\Driver\Tag
             'Id' => 30,
             'Label' => '4288x3216',
         ),
+        31 => array(
+            'Id' => 31,
+            'Label' => '4608x3456',
+        ),
         129 => array(
             'Id' => 129,
             'Label' => '1920x1080',

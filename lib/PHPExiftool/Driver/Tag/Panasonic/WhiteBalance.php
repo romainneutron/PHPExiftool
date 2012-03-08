@@ -62,6 +62,10 @@ class WhiteBalance extends \PHPExiftool\Driver\Tag
             'Id' => 12,
             'Label' => 'Shade',
         ),
+        13 => array(
+            'Id' => 13,
+            'Label' => 'Kelvin',
+        ),
     );
 
 }

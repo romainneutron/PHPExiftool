@@ -19,10 +19,12 @@ class EffectiveLV extends \PHPExiftool\Driver\Tag
 
     protected $g2 = 'Camera';
 
-    protected $Type = 'int16u';
+    protected $Type = 'mixed';
 
     protected $Writable = true;
 
     protected $Description = 'Effective LV';
+
+    protected $Index = 'mixed';
 
 }

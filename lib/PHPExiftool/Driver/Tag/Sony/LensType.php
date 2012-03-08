@@ -144,10 +144,6 @@ class LensType extends \PHPExiftool\Driver\Tag
         ),
         '24.5' => array(
             'Id' => '24.5',
-            'Label' => 'Sigma 20-40mm F2.8 EX DG Aspherical IF',
-        ),
-        '24.6' => array(
-            'Id' => '24.6',
             'Label' => 'Tamron SP AF 28-75mm F2.8 XR Di (IF) Macro',
         ),
         25 => array(
@@ -168,7 +164,11 @@ class LensType extends \PHPExiftool\Driver\Tag
         ),
         '25.4' => array(
             'Id' => '25.4',
-            'Label' => 'Sigma 30mm F1.4 DG EX',
+            'Label' => 'Sigma 30mm F1.4 EX DC',
+        ),
+        '25.5' => array(
+            'Id' => '25.5',
+            'Label' => 'Sigma 24mm F1.8 EX DG ASP Macro',
         ),
         27 => array(
             'Id' => 27,
@@ -181,6 +181,10 @@ class LensType extends \PHPExiftool\Driver\Tag
         '28.1' => array(
             'Id' => '28.1',
             'Label' => 'Tamron SP AF 90mm F2.8 Di Macro',
+        ),
+        '28.2' => array(
+            'Id' => '28.2',
+            'Label' => 'Tamron AF 180mm F3.5 SP Di LD [IF] Macro',
         ),
         29 => array(
             'Id' => 29,
@@ -240,11 +244,7 @@ class LensType extends \PHPExiftool\Driver\Tag
         ),
         40 => array(
             'Id' => 40,
-            'Label' => 'Minolta/Sony AF DT 18-70mm F3.5-5.6 (D) or 18-200m F3.5-6.3',
-        ),
-        '40.1' => array(
-            'Id' => '40.1',
-            'Label' => 'Sony AF DT 18-200mm F3.5-6.3',
+            'Label' => 'Minolta/Sony AF DT 18-70mm F3.5-5.6 (D)',
         ),
         41 => array(
             'Id' => 41,
@@ -260,87 +260,91 @@ class LensType extends \PHPExiftool\Driver\Tag
         ),
         43 => array(
             'Id' => 43,
-            'Label' => 'Sony 35mm F1.4 G (SAL-35F14G)',
+            'Label' => 'Sony 35mm F1.4 G (SAL35F14G)',
         ),
         44 => array(
             'Id' => 44,
-            'Label' => 'Sony 50mm F1.4 (SAL-50F14)',
+            'Label' => 'Sony 50mm F1.4 (SAL50F14)',
         ),
         45 => array(
             'Id' => 45,
-            'Label' => 'Carl Zeiss Planar T* 85mm F1.4 ZA',
+            'Label' => 'Carl Zeiss Planar T* 85mm F1.4 ZA (SAL85F14Z)',
         ),
         46 => array(
             'Id' => 46,
-            'Label' => 'Carl Zeiss Vario-Sonnar T* DT 16-80mm F3.5-4.5 ZA',
+            'Label' => 'Carl Zeiss Vario-Sonnar T* DT 16-80mm F3.5-4.5 ZA (SAL1680Z)',
         ),
         47 => array(
             'Id' => 47,
-            'Label' => 'Carl Zeiss Sonnar T* 135mm F1.8 ZA',
+            'Label' => 'Carl Zeiss Sonnar T* 135mm F1.8 ZA (SAL135F18Z)',
         ),
         48 => array(
             'Id' => 48,
-            'Label' => 'Carl Zeiss Vario-Sonnar T* 24-70mm F2.8 ZA SSM (SAL-2470Z)',
+            'Label' => 'Carl Zeiss Vario-Sonnar T* 24-70mm F2.8 ZA SSM (SAL2470Z)',
         ),
         49 => array(
             'Id' => 49,
-            'Label' => 'Sony AF DT 55-200mm F4-5.6',
+            'Label' => 'Sony DT 55-200mm F4-5.6 (SAL55200)',
         ),
         50 => array(
             'Id' => 50,
-            'Label' => 'Sony AF DT 18-250mm F3.5-6.3',
+            'Label' => 'Sony DT 18-250mm F3.5-6.3 (SAL18250)',
         ),
         51 => array(
             'Id' => 51,
-            'Label' => 'Sony AF DT 16-105mm F3.5-5.6 or 55-200mm F4-5.5',
-        ),
-        '51.1' => array(
-            'Id' => '51.1',
-            'Label' => 'Sony AF DT 55-200mm F4-5.5',
+            'Label' => 'Sony DT 16-105mm F3.5-5.6 (SAL16105)',
         ),
         52 => array(
             'Id' => 52,
-            'Label' => 'Sony 70-300mm F4.5-5.6 G SSM',
+            'Label' => 'Sony 70-300mm F4.5-5.6 G SSM (SAL70300G)',
         ),
         53 => array(
             'Id' => 53,
-            'Label' => 'Sony AF 70-400mm F4-5.6 G SSM (SAL-70400G)',
+            'Label' => 'Sony 70-400mm F4-5.6 G SSM (SAL70400G)',
         ),
         54 => array(
             'Id' => 54,
-            'Label' => 'Carl Zeiss Vario-Sonnar T* 16-35mm F2.8 ZA SSM (SAL-1635Z)',
+            'Label' => 'Carl Zeiss Vario-Sonnar T* 16-35mm F2.8 ZA SSM (SAL1635Z)',
         ),
         55 => array(
             'Id' => 55,
-            'Label' => 'Sony DT 18-55mm F3.5-5.6 SAM (SAL-1855)',
+            'Label' => 'Sony DT 18-55mm F3.5-5.6 SAM (SAL1855)',
         ),
         56 => array(
             'Id' => 56,
-            'Label' => 'Sony AF DT 55-200mm F4-5.6 SAM',
+            'Label' => 'Sony DT 55-200mm F4-5.6 SAM (SAL55200-2)',
         ),
         57 => array(
             'Id' => 57,
-            'Label' => 'Sony AF DT 50mm F1.8 SAM',
+            'Label' => 'Sony DT 50mm F1.8 SAM (SAL50F18) or Tamron Lens',
+        ),
+        '57.1' => array(
+            'Id' => '57.1',
+            'Label' => 'Tamron SP AF 60mm F2 Di II LD [IF] Macro 1:1',
         ),
         58 => array(
             'Id' => 58,
-            'Label' => 'Sony AF DT 30mm F2.8 SAM Macro',
+            'Label' => 'Sony DT 30mm F2.8 Macro SAM (SAL30M28)',
         ),
         59 => array(
             'Id' => 59,
-            'Label' => 'Sony 28-75/2.8 SAM',
+            'Label' => 'Sony 28-75 F2.8 SAM (SAL2875)',
         ),
         60 => array(
             'Id' => 60,
-            'Label' => 'Carl Zeiss Distagon T* 24mm F2 SSM',
+            'Label' => 'Carl Zeiss Distagon T* 24mm F2 ZA SSM (SAL24F20Z)',
         ),
         61 => array(
             'Id' => 61,
-            'Label' => 'Sony 85mm F2.8 SAM (SAL-85F28)',
+            'Label' => 'Sony 85mm F2.8 SAM (SAL85F28)',
         ),
         62 => array(
             'Id' => 62,
-            'Label' => 'Sony DT 35mm F1.8 SAM (SAL-35F18)',
+            'Label' => 'Sony DT 35mm F1.8 SAM (SAL35F18)',
+        ),
+        63 => array(
+            'Id' => 63,
+            'Label' => 'Sony DT 16-50mm F2.8 SSM (SAL1650)',
         ),
         128 => array(
             'Id' => 128,
@@ -353,6 +357,14 @@ class LensType extends \PHPExiftool\Driver\Tag
         '128.1' => array(
             'Id' => '128.1',
             'Label' => 'Tamron 18-200mm F3.5-6.3',
+        ),
+        '128.11' => array(
+            'Id' => '128.11',
+            'Label' => 'Sigma 85mm F1.4 EX DG HSM',
+        ),
+        '128.12' => array(
+            'Id' => '128.12',
+            'Label' => 'Sigma 24-70mm F2.8 IF EX DG HSM',
         ),
         '128.2' => array(
             'Id' => '128.2',
@@ -518,6 +530,10 @@ class LensType extends \PHPExiftool\Driver\Tag
             'Id' => '2552.7',
             'Label' => 'Angenieux AF 28-70mm F2.6',
         ),
+        '2552.8' => array(
+            'Id' => '2552.8',
+            'Label' => 'Tokina AT-X 17 AF 17mm F3.5',
+        ),
         2553 => array(
             'Id' => 2553,
             'Label' => 'Minolta AF 28-135mm F4-4.5 or Sigma Lens',
@@ -598,6 +614,14 @@ class LensType extends \PHPExiftool\Driver\Tag
             'Id' => '2561.7',
             'Label' => 'Tokina AF 730 II 75-300mm F4.5-5.6',
         ),
+        '2561.8' => array(
+            'Id' => '2561.8',
+            'Label' => 'Sigma 800mm F5.6 APO',
+        ),
+        '2561.9' => array(
+            'Id' => '2561.9',
+            'Label' => 'Sigma AF 400mm F5.6 APO Macro',
+        ),
         2562 => array(
             'Id' => 2562,
             'Label' => 'Minolta AF 50mm F1.4 [New]',
@@ -636,7 +660,11 @@ class LensType extends \PHPExiftool\Driver\Tag
         ),
         2566 => array(
             'Id' => 2566,
-            'Label' => 'Minolta AF 24mm F2.8',
+            'Label' => 'Minolta AF 24mm F2.8 or Sigma Lens',
+        ),
+        '2566.1' => array(
+            'Id' => '2566.1',
+            'Label' => 'Sigma 17-35mm F2.8-4 EX Aspherical',
         ),
         2572 => array(
             'Id' => 2572,
@@ -660,7 +688,11 @@ class LensType extends \PHPExiftool\Driver\Tag
         ),
         2579 => array(
             'Id' => 2579,
-            'Label' => 'Minolta/Sony AF 20mm F2.8',
+            'Label' => 'Minolta/Sony AF 20mm F2.8 or Tokina Lens',
+        ),
+        '2579.1' => array(
+            'Id' => '2579.1',
+            'Label' => 'Tokina AT-X Pro DX 11-16mm F2.8',
         ),
         2581 => array(
             'Id' => 2581,
@@ -680,6 +712,10 @@ class LensType extends \PHPExiftool\Driver\Tag
         ),
         '2581.4' => array(
             'Id' => '2581.4',
+            'Label' => 'Sigma 180mm F3.5 EX DG Macro',
+        ),
+        '2581.5' => array(
+            'Id' => '2581.5',
             'Label' => 'Tamron 90mm F2.8 Macro',
         ),
         2585 => array(
@@ -705,6 +741,14 @@ class LensType extends \PHPExiftool\Driver\Tag
         '2589.1' => array(
             'Id' => '2589.1',
             'Label' => 'Tokina 80-200mm F2.8',
+        ),
+        2590 => array(
+            'Id' => 2590,
+            'Label' => 'Minolta AF 200mm F2.8 G APO + Minolta AF 1.4x APO or Other Lens + 1.4x',
+        ),
+        '2590.1' => array(
+            'Id' => '2590.1',
+            'Label' => 'Minolta AF 600mm F4 HS-APO G + Minolta AF 1.4x APO',
         ),
         2591 => array(
             'Id' => 2591,
@@ -733,6 +777,14 @@ class LensType extends \PHPExiftool\Driver\Tag
         2598 => array(
             'Id' => 2598,
             'Label' => 'Minolta AF 100mm F2',
+        ),
+        2601 => array(
+            'Id' => 2601,
+            'Label' => 'Minolta AF 200mm F2.8 G APO + Minolta AF 2x APO or Other Lens + 2x',
+        ),
+        '2601.1' => array(
+            'Id' => '2601.1',
+            'Label' => 'Minolta AF 600mm F4 HS-APO G + Minolta AF 2x APO',
         ),
         2604 => array(
             'Id' => 2604,
@@ -880,7 +932,7 @@ class LensType extends \PHPExiftool\Driver\Tag
         ),
         6553 => array(
             'Id' => 6553,
-            'Label' => 'T-Mount or Other Lens or no lens',
+            'Label' => 'E-Mount, T-Mount, Other Lens or no lens',
         ),
         '6553.1' => array(
             'Id' => '6553.1',
@@ -966,6 +1018,10 @@ class LensType extends \PHPExiftool\Driver\Tag
             'Id' => '25521.7',
             'Label' => 'Angenieux AF 28-70mm F2.6',
         ),
+        '25521.8' => array(
+            'Id' => '25521.8',
+            'Label' => 'Tokina AT-X 17 AF 17mm F3.5',
+        ),
         25531 => array(
             'Id' => 25531,
             'Label' => 'Minolta AF 28-135mm F4-4.5 or Sigma Lens',
@@ -1046,6 +1102,14 @@ class LensType extends \PHPExiftool\Driver\Tag
             'Id' => '25611.7',
             'Label' => 'Tokina AF 730 II 75-300mm F4.5-5.6',
         ),
+        '25611.8' => array(
+            'Id' => '25611.8',
+            'Label' => 'Sigma 800mm F5.6 APO',
+        ),
+        '25611.9' => array(
+            'Id' => '25611.9',
+            'Label' => 'Sigma AF 400mm F5.6 APO Macro',
+        ),
         25621 => array(
             'Id' => 25621,
             'Label' => 'Minolta AF 50mm F1.4 [New]',
@@ -1084,7 +1148,11 @@ class LensType extends \PHPExiftool\Driver\Tag
         ),
         25661 => array(
             'Id' => 25661,
-            'Label' => 'Minolta AF 24mm F2.8',
+            'Label' => 'Minolta AF 24mm F2.8 or Sigma Lens',
+        ),
+        '25661.1' => array(
+            'Id' => '25661.1',
+            'Label' => 'Sigma 17-35mm F2.8-4 EX Aspherical',
         ),
         25721 => array(
             'Id' => 25721,
@@ -1108,7 +1176,11 @@ class LensType extends \PHPExiftool\Driver\Tag
         ),
         25791 => array(
             'Id' => 25791,
-            'Label' => 'Minolta/Sony AF 20mm F2.8',
+            'Label' => 'Minolta/Sony AF 20mm F2.8 or Tokina Lens',
+        ),
+        '25791.1' => array(
+            'Id' => '25791.1',
+            'Label' => 'Tokina AT-X Pro DX 11-16mm F2.8',
         ),
         25811 => array(
             'Id' => 25811,
@@ -1128,6 +1200,10 @@ class LensType extends \PHPExiftool\Driver\Tag
         ),
         '25811.4' => array(
             'Id' => '25811.4',
+            'Label' => 'Sigma 180mm F3.5 EX DG Macro',
+        ),
+        '25811.5' => array(
+            'Id' => '25811.5',
             'Label' => 'Tamron 90mm F2.8 Macro',
         ),
         25851 => array(
@@ -1153,6 +1229,14 @@ class LensType extends \PHPExiftool\Driver\Tag
         '25891.1' => array(
             'Id' => '25891.1',
             'Label' => 'Tokina 80-200mm F2.8',
+        ),
+        25901 => array(
+            'Id' => 25901,
+            'Label' => 'Minolta AF 200mm F2.8 G APO + Minolta AF 1.4x APO or Other Lens + 1.4x',
+        ),
+        '25901.1' => array(
+            'Id' => '25901.1',
+            'Label' => 'Minolta AF 600mm F4 HS-APO G + Minolta AF 1.4x APO',
         ),
         25911 => array(
             'Id' => 25911,
@@ -1181,6 +1265,14 @@ class LensType extends \PHPExiftool\Driver\Tag
         25981 => array(
             'Id' => 25981,
             'Label' => 'Minolta AF 100mm F2',
+        ),
+        26011 => array(
+            'Id' => 26011,
+            'Label' => 'Minolta AF 200mm F2.8 G APO + Minolta AF 2x APO or Other Lens + 2x',
+        ),
+        '26011.1' => array(
+            'Id' => '26011.1',
+            'Label' => 'Minolta AF 600mm F4 HS-APO G + Minolta AF 2x APO',
         ),
         26041 => array(
             'Id' => 26041,
@@ -1328,7 +1420,7 @@ class LensType extends \PHPExiftool\Driver\Tag
         ),
         65535 => array(
             'Id' => 65535,
-            'Label' => 'T-Mount or Other Lens or no lens',
+            'Label' => 'E-Mount, T-Mount, Other Lens or no lens',
         ),
         '65535.1' => array(
             'Id' => '65535.1',

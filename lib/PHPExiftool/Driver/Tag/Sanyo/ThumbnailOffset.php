@@ -5,11 +5,11 @@ namespace PHPExiftool\Driver\Tag\Sanyo;
 class ThumbnailOffset extends \PHPExiftool\Driver\Tag
 {
 
-    protected $Id = 'mixed';
+    protected $Id = 4;
 
     protected $Name = 'ThumbnailOffset';
 
-    protected $FullName = 'Sanyo::MP4';
+    protected $FullName = 'Sanyo::Thumbnail';
 
     protected $GroupName = 'Sanyo';
 

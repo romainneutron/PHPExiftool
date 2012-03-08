@@ -17,7 +17,7 @@ class FNumber extends \PHPExiftool\Driver\Tag
 
     protected $g1 = 'Kodak';
 
-    protected $g2 = 'Camera';
+    protected $g2 = 'mixed';
 
     protected $Type = 'mixed';
 

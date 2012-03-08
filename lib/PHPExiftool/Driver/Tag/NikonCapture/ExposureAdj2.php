@@ -21,7 +21,7 @@ class ExposureAdj2 extends \PHPExiftool\Driver\Tag
 
     protected $Type = 'double';
 
-    protected $Writable = false;
+    protected $Writable = true;
 
     protected $Description = 'Exposure Adj 2';
 

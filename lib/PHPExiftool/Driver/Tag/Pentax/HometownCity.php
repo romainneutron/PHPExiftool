@@ -46,7 +46,7 @@ class HometownCity extends \PHPExiftool\Driver\Tag
         ),
         4 => array(
             'Id' => 4,
-            'Label' => 'San Fransisco',
+            'Label' => 'San Francisco',
         ),
         5 => array(
             'Id' => 5,

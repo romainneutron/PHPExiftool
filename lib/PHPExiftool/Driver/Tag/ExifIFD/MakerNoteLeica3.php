@@ -27,6 +27,6 @@ class MakerNoteLeica3 extends \PHPExiftool\Driver\Tag
 
     protected $local_g1 = 'ExifIFD';
 
-    protected $Index = 38;
+    protected $Index = 39;
 
 }

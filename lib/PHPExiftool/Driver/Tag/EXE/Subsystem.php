@@ -44,7 +44,7 @@ class Subsystem extends \PHPExiftool\Driver\Tag
         ),
         5 => array(
             'Id' => 5,
-            'Label' => 'OS/2 Command line',
+            'Label' => 'OS/2 command line',
         ),
         7 => array(
             'Id' => 7,

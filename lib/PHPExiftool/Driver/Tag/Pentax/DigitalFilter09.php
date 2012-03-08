@@ -98,6 +98,14 @@ class DigitalFilter09 extends \PHPExiftool\Driver\Tag
             'Id' => 19,
             'Label' => 'Sketch Filter',
         ),
+        20 => array(
+            'Id' => 20,
+            'Label' => 'Shading',
+        ),
+        21 => array(
+            'Id' => 21,
+            'Label' => 'Invert Color',
+        ),
         254 => array(
             'Id' => 254,
             'Label' => 'Custom Filter',

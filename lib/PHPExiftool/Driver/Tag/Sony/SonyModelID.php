@@ -110,6 +110,26 @@ class SonyModelID extends \PHPExiftool\Driver\Tag
             'Id' => 283,
             'Label' => 'DSLR-A580',
         ),
+        284 => array(
+            'Id' => 284,
+            'Label' => 'NEX-C3',
+        ),
+        286 => array(
+            'Id' => 286,
+            'Label' => 'SLT-A65V',
+        ),
+        287 => array(
+            'Id' => 287,
+            'Label' => 'SLT-A77V',
+        ),
+        288 => array(
+            'Id' => 288,
+            'Label' => 'NEX-5N',
+        ),
+        289 => array(
+            'Id' => 289,
+            'Label' => 'NEX-7',
+        ),
     );
 
 }

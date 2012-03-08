@@ -5,11 +5,11 @@ namespace PHPExiftool\Driver\Tag\Olympus;
 class ISO extends \PHPExiftool\Driver\Tag
 {
 
-    protected $Id = 193;
+    protected $Id = 'mixed';
 
     protected $Name = 'ISO';
 
-    protected $FullName = 'Olympus::MOV2';
+    protected $FullName = 'mixed';
 
     protected $GroupName = 'Olympus';
 
@@ -19,7 +19,7 @@ class ISO extends \PHPExiftool\Driver\Tag
 
     protected $g2 = 'Camera';
 
-    protected $Type = 'int16u';
+    protected $Type = 'mixed';
 
     protected $Writable = false;
 

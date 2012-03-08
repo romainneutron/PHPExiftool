@@ -5,11 +5,11 @@ namespace PHPExiftool\Driver\Tag\Minolta;
 class FocusDistance extends \PHPExiftool\Driver\Tag
 {
 
-    protected $Id = 19;
+    protected $Id = 'mixed';
 
     protected $Name = 'FocusDistance';
 
-    protected $FullName = 'Minolta::CameraSettings';
+    protected $FullName = 'mixed';
 
     protected $GroupName = 'Minolta';
 
@@ -19,7 +19,7 @@ class FocusDistance extends \PHPExiftool\Driver\Tag
 
     protected $g2 = 'Camera';
 
-    protected $Type = 'int32u';
+    protected $Type = 'mixed';
 
     protected $Writable = true;
 

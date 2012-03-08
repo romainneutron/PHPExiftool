@@ -25,15 +25,4 @@ class ImageType extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Image Type';
 
-    protected $Values = array(
-        '\x00\x00\x00\x0d' => array(
-            'Id' => '\x00\x00\x00\x0d',
-            'Label' => 'JPEG',
-        ),
-        'PNGf' => array(
-            'Id' => 'PNGf',
-            'Label' => 'PNG',
-        ),
-    );
-
 }

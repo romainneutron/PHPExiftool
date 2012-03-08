@@ -19,7 +19,7 @@ class URL extends \PHPExiftool\Driver\Tag
 
     protected $g2 = 'Other';
 
-    protected $Type = '?';
+    protected $Type = 'undef';
 
     protected $Writable = false;
 

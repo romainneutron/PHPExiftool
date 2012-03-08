@@ -30,7 +30,7 @@ class LensType extends \PHPExiftool\Driver\Tag
     protected $Values = array(
         0 => array(
             'Id' => 0,
-            'Label' => 'Built-in',
+            'Label' => 'Built-in or Manual Lens',
         ),
         1 => array(
             'Id' => 1,
@@ -51,6 +51,14 @@ class LensType extends \PHPExiftool\Driver\Tag
         5 => array(
             'Id' => 5,
             'Label' => 'Samsung 20mm F2.8 Pancake',
+        ),
+        7 => array(
+            'Id' => 7,
+            'Label' => 'Samsung 60mm F2.8 Macro ED OIS SSA',
+        ),
+        8 => array(
+            'Id' => 8,
+            'Label' => 'Samsung 16mm F2.4 Ultra Wide Pancake',
         ),
     );
 

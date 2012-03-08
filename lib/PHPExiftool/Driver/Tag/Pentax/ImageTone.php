@@ -62,6 +62,10 @@ class ImageTone extends \PHPExiftool\Driver\Tag
             'Id' => 8,
             'Label' => 'Bleach Bypass',
         ),
+        9 => array(
+            'Id' => 9,
+            'Label' => 'Radiant',
+        ),
     );
 
 }

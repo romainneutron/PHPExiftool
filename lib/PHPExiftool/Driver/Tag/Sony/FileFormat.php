@@ -50,6 +50,10 @@ class FileFormat extends \PHPExiftool\Driver\Tag
             'Id' => '3 2 0 0',
             'Label' => 'ARW 2.2',
         ),
+        '3 3 0 0' => array(
+            'Id' => '3 3 0 0',
+            'Label' => 'ARW 2.3',
+        ),
     );
 
 }

@@ -72,7 +72,7 @@ class LensType extends \PHPExiftool\Driver\Tag
         ),
         '0 5 16' => array(
             'Id' => '0 5 16',
-            'Label' => 'Olympus M.Zuiko Digital ED 14-42mm F3.5-5.6',
+            'Label' => 'Olympus M.Zuiko Digital ED 14-42mm F3.5-5.6 L',
         ),
         '0 6 0' => array(
             'Id' => '0 6 0',
@@ -96,7 +96,7 @@ class LensType extends \PHPExiftool\Driver\Tag
         ),
         '0 7 16' => array(
             'Id' => '0 7 16',
-            'Label' => 'Olumpus M.Zuiko Digital ED 12mm F2.0',
+            'Label' => 'Olympus M.Zuiko Digital ED 12mm F2.0',
         ),
         '0 8 1' => array(
             'Id' => '0 8 1',
@@ -110,9 +110,17 @@ class LensType extends \PHPExiftool\Driver\Tag
             'Id' => '0 9 16',
             'Label' => 'Olympus M.Zuiko Digital 14-42mm F3.5-5.6 II',
         ),
+        '0 17 16' => array(
+            'Id' => '0 17 16',
+            'Label' => 'Olympus M.Zuiko Digital 45mm F1.8',
+        ),
         '0 19 16' => array(
             'Id' => '0 19 16',
             'Label' => 'Olympus M.Zuiko Digital ED 14-42mm F3.5-5.6 II R',
+        ),
+        '0 20 16' => array(
+            'Id' => '0 20 16',
+            'Label' => 'Olympus M.Zuiko Digital ED 14-150mm F4.0-5.6 II',
         ),
         '0 21 0' => array(
             'Id' => '0 21 0',
@@ -210,6 +218,10 @@ class LensType extends \PHPExiftool\Driver\Tag
             'Id' => '1 18 0',
             'Label' => 'Sigma 300-800mm F5.6 EX DG APO',
         ),
+        '1 19 0' => array(
+            'Id' => '1 19 0',
+            'Label' => 'Sigma 30mm F1.4 EX DC HSM',
+        ),
         '1 20 0' => array(
             'Id' => '1 20 0',
             'Label' => 'Sigma 50-500mm F4.0-6.3 EX DG APO HSM RF',
@@ -242,6 +254,10 @@ class LensType extends \PHPExiftool\Driver\Tag
             'Id' => '2 2 16',
             'Label' => 'Lumix G Vario 45-200mm F4-5.6 Mega OIS',
         ),
+        '2 3 0' => array(
+            'Id' => '2 3 0',
+            'Label' => 'Leica D Vario Elmar 14-50mm F3.8-5.6 Asph. Mega OIS',
+        ),
         '2 3 1' => array(
             'Id' => '2 3 1',
             'Label' => 'Leica D Vario Elmar 14-50mm F3.8-5.6 Asph.',
@@ -269,6 +285,14 @@ class LensType extends \PHPExiftool\Driver\Tag
         '2 8 16' => array(
             'Id' => '2 8 16',
             'Label' => 'Lumix G Fisheye 8mm F3.5',
+        ),
+        '2 9 16' => array(
+            'Id' => '2 9 16',
+            'Label' => 'Lumix G Vario 100-300mm F4.0-5.6 OIS',
+        ),
+        '2 16 16' => array(
+            'Id' => '2 16 16',
+            'Label' => 'Lumix G 14mm F2.5 Asph.',
         ),
         '3 1 0' => array(
             'Id' => '3 1 0',

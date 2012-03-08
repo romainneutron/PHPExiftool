@@ -19,7 +19,7 @@ class YCbCrSubSampling extends \PHPExiftool\Driver\Tag
 
     protected $g2 = 'Image';
 
-    protected $Type = 'string';
+    protected $Type = 'integer';
 
     protected $Writable = true;
 

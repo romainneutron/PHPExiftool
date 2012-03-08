@@ -5,7 +5,7 @@ namespace PHPExiftool\Driver\Tag\Sigma;
 class FileFormat extends \PHPExiftool\Driver\Tag
 {
 
-    protected $Id = 34;
+    protected $Id = 'mixed';
 
     protected $Name = 'FileFormat';
 

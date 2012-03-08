@@ -5,11 +5,11 @@ namespace PHPExiftool\Driver\Tag\Sanyo;
 class ThumbnailLength extends \PHPExiftool\Driver\Tag
 {
 
-    protected $Id = 'mixed';
+    protected $Id = 3;
 
     protected $Name = 'ThumbnailLength';
 
-    protected $FullName = 'Sanyo::MP4';
+    protected $FullName = 'Sanyo::Thumbnail';
 
     protected $GroupName = 'Sanyo';
 

@@ -62,6 +62,10 @@ class MediaType extends \PHPExiftool\Driver\Tag
             'Id' => 14,
             'Label' => 'Ringtone',
         ),
+        21 => array(
+            'Id' => 21,
+            'Label' => 'Podcast',
+        ),
     );
 
 }

@@ -25,6 +25,6 @@ class TextJunk extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Text Junk';
 
-    protected $Index = 4;
+    protected $Index = 5;
 
 }

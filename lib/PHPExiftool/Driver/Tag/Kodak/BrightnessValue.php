@@ -5,11 +5,11 @@ namespace PHPExiftool\Driver\Tag\Kodak;
 class BrightnessValue extends \PHPExiftool\Driver\Tag
 {
 
-    protected $Id = 'Brightness Value';
+    protected $Id = 'mixed';
 
     protected $Name = 'BrightnessValue';
 
-    protected $FullName = 'Kodak::TextualInfo';
+    protected $FullName = 'mixed';
 
     protected $GroupName = 'Kodak';
 
@@ -17,9 +17,9 @@ class BrightnessValue extends \PHPExiftool\Driver\Tag
 
     protected $g1 = 'Kodak';
 
-    protected $g2 = 'Image';
+    protected $g2 = 'mixed';
 
-    protected $Type = '?';
+    protected $Type = 'mixed';
 
     protected $Writable = false;
 

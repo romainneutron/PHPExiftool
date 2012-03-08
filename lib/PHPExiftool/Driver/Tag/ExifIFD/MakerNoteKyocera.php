@@ -27,6 +27,6 @@ class MakerNoteKyocera extends \PHPExiftool\Driver\Tag
 
     protected $local_g1 = 'ExifIFD';
 
-    protected $Index = 27;
+    protected $Index = 28;
 
 }

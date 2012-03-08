@@ -70,6 +70,50 @@ class ArtFilter extends \PHPExiftool\Driver\Tag
             'Id' => 13,
             'Label' => 'Drawing',
         ),
+        14 => array(
+            'Id' => 14,
+            'Label' => 'Gentle Sepia',
+        ),
+        15 => array(
+            'Id' => 15,
+            'Label' => 'Tender Light',
+        ),
+        16 => array(
+            'Id' => 16,
+            'Label' => 'Pop Art II',
+        ),
+        17 => array(
+            'Id' => 17,
+            'Label' => 'Pin Hole II',
+        ),
+        18 => array(
+            'Id' => 18,
+            'Label' => 'Pin Hole III',
+        ),
+        19 => array(
+            'Id' => 19,
+            'Label' => 'Grainy Film II',
+        ),
+        20 => array(
+            'Id' => 20,
+            'Label' => 'Dramatic Tone',
+        ),
+        21 => array(
+            'Id' => 21,
+            'Label' => 'Punk',
+        ),
+        22 => array(
+            'Id' => 22,
+            'Label' => 'Soft Focus 2',
+        ),
+        23 => array(
+            'Id' => 23,
+            'Label' => 'Sparkle',
+        ),
+        24 => array(
+            'Id' => 24,
+            'Label' => 'Watercolor',
+        ),
     );
 
 }

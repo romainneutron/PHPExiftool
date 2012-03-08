@@ -102,6 +102,10 @@ class AEProgramMode extends \PHPExiftool\Driver\Tag
             'Id' => 99,
             'Label' => 'Surf & Snow',
         ),
+        104 => array(
+            'Id' => 104,
+            'Label' => 'Night Snap',
+        ),
         107 => array(
             'Id' => 107,
             'Label' => 'Text',
@@ -122,13 +126,25 @@ class AEProgramMode extends \PHPExiftool\Driver\Tag
             'Id' => 139,
             'Label' => 'Candlelight',
         ),
+        144 => array(
+            'Id' => 144,
+            'Label' => 'SCN',
+        ),
         147 => array(
             'Id' => 147,
             'Label' => 'Museum',
         ),
+        160 => array(
+            'Id' => 160,
+            'Label' => 'Program',
+        ),
         184 => array(
             'Id' => 184,
             'Label' => 'Shallow DOF Program',
+        ),
+        216 => array(
+            'Id' => 216,
+            'Label' => 'HDR',
         ),
     );
 

@@ -25,4 +25,6 @@ class FocalLength extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Focal Length';
 
+    protected $local_g2 = 'Camera';
+
 }

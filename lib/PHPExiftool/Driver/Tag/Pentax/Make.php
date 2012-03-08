@@ -5,11 +5,11 @@ namespace PHPExiftool\Driver\Tag\Pentax;
 class Make extends \PHPExiftool\Driver\Tag
 {
 
-    protected $Id = 0;
+    protected $Id = 'mixed';
 
     protected $Name = 'Make';
 
-    protected $FullName = 'Pentax::MOV';
+    protected $FullName = 'mixed';
 
     protected $GroupName = 'Pentax';
 

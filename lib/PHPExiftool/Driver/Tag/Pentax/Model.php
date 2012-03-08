@@ -5,11 +5,11 @@ namespace PHPExiftool\Driver\Tag\Pentax;
 class Model extends \PHPExiftool\Driver\Tag
 {
 
-    protected $Id = 12;
+    protected $Id = 'mixed';
 
     protected $Name = 'Model';
 
-    protected $FullName = 'Pentax::Junk';
+    protected $FullName = 'mixed';
 
     protected $GroupName = 'Pentax';
 
@@ -23,6 +23,6 @@ class Model extends \PHPExiftool\Driver\Tag
 
     protected $Writable = false;
 
-    protected $Description = 'Model';
+    protected $Description = 'mixed';
 
 }

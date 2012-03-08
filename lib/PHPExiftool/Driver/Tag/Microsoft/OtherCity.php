@@ -1,0 +1,28 @@
+<?php
+
+namespace PHPExiftool\Driver\Tag\Microsoft;
+
+class OtherCity extends \PHPExiftool\Driver\Tag
+{
+
+    protected $Id = '{6E682923-7F7B-4F0C-A337-CFCA296687BF} 100';
+
+    protected $Name = 'OtherCity';
+
+    protected $FullName = 'Microsoft::Xtra';
+
+    protected $GroupName = 'Microsoft';
+
+    protected $g0 = 'QuickTime';
+
+    protected $g1 = 'Microsoft';
+
+    protected $g2 = 'Video';
+
+    protected $Type = '?';
+
+    protected $Writable = false;
+
+    protected $Description = 'Other City';
+
+}

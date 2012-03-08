@@ -25,6 +25,6 @@ class UUIDUnknown extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'UUID-Unknown';
 
-    protected $Index = 4;
+    protected $Index = 7;
 
 }

@@ -27,6 +27,6 @@ class MakerNotePentax6 extends \PHPExiftool\Driver\Tag
 
     protected $local_g1 = 'ExifIFD';
 
-    protected $Index = 49;
+    protected $Index = 50;
 
 }

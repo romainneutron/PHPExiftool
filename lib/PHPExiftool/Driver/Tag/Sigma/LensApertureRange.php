@@ -5,7 +5,7 @@ namespace PHPExiftool\Driver\Tag\Sigma;
 class LensApertureRange extends \PHPExiftool\Driver\Tag
 {
 
-    protected $Id = 48;
+    protected $Id = 'mixed';
 
     protected $Name = 'LensApertureRange';
 

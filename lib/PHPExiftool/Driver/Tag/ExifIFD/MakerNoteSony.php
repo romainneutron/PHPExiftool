@@ -27,6 +27,6 @@ class MakerNoteSony extends \PHPExiftool\Driver\Tag
 
     protected $local_g1 = 'ExifIFD';
 
-    protected $Index = 61;
+    protected $Index = 62;
 
 }

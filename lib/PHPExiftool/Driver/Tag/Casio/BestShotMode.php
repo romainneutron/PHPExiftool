@@ -25,4 +25,8 @@ class BestShotMode extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Best Shot Mode';
 
+    protected $Values = 'mixed';
+
+    protected $Index = 'mixed';
+
 }

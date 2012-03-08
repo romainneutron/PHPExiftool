@@ -5,7 +5,7 @@ namespace PHPExiftool\Driver\Tag\Sony;
 class AFAreaMode extends \PHPExiftool\Driver\Tag
 {
 
-    protected $Id = 17;
+    protected $Id = 'mixed';
 
     protected $Name = 'AFAreaMode';
 
@@ -19,25 +19,12 @@ class AFAreaMode extends \PHPExiftool\Driver\Tag
 
     protected $g2 = 'Camera';
 
-    protected $Type = 'int16u';
+    protected $Type = 'mixed';
 
     protected $Writable = true;
 
     protected $Description = 'AF Area Mode';
 
-    protected $Values = array(
-        0 => array(
-            'Id' => 0,
-            'Label' => 'Wide',
-        ),
-        1 => array(
-            'Id' => 1,
-            'Label' => 'Local',
-        ),
-        2 => array(
-            'Id' => 2,
-            'Label' => 'Spot',
-        ),
-    );
+    protected $Values = 'mixed';
 
 }

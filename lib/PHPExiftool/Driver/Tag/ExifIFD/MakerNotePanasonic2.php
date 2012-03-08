@@ -27,6 +27,6 @@ class MakerNotePanasonic2 extends \PHPExiftool\Driver\Tag
 
     protected $local_g1 = 'ExifIFD';
 
-    protected $Index = 43;
+    protected $Index = 44;
 
 }

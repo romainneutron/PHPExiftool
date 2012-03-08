@@ -27,6 +27,6 @@ class MakerNoteNikon3 extends \PHPExiftool\Driver\Tag
 
     protected $local_g1 = 'ExifIFD';
 
-    protected $Index = 33;
+    protected $Index = 34;
 
 }

@@ -5,11 +5,11 @@ namespace PHPExiftool\Driver\Tag\Nikon;
 class MeteringMode extends \PHPExiftool\Driver\Tag
 {
 
-    protected $Id = 12;
+    protected $Id = 'mixed';
 
     protected $Name = 'MeteringMode';
 
-    protected $FullName = 'Nikon::AVITags';
+    protected $FullName = 'mixed';
 
     protected $GroupName = 'Nikon';
 
@@ -19,7 +19,7 @@ class MeteringMode extends \PHPExiftool\Driver\Tag
 
     protected $g2 = 'Camera';
 
-    protected $Type = 'int16u';
+    protected $Type = 'mixed';
 
     protected $Writable = false;
 

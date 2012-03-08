@@ -27,6 +27,6 @@ class MakerNoteOlympus extends \PHPExiftool\Driver\Tag
 
     protected $local_g1 = 'ExifIFD';
 
-    protected $Index = 34;
+    protected $Index = 35;
 
 }

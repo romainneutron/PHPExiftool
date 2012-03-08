@@ -19,7 +19,7 @@ class ExposureCompensation extends \PHPExiftool\Driver\Tag
 
     protected $g2 = 'Camera';
 
-    protected $Type = 'rational64s';
+    protected $Type = 'mixed';
 
     protected $Writable = false;
 

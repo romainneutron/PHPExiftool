@@ -5,7 +5,7 @@ namespace PHPExiftool\Driver\Tag\Sigma;
 class FlashExposureComp extends \PHPExiftool\Driver\Tag
 {
 
-    protected $Id = 58;
+    protected $Id = 'mixed';
 
     protected $Name = 'FlashExposureComp';
 

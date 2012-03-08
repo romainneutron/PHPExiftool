@@ -32,11 +32,23 @@ class AFMode extends \PHPExiftool\Driver\Tag
         ),
         1 => array(
             'Id' => 1,
-            'Label' => 'On',
+            'Label' => 'Spot',
+        ),
+        2 => array(
+            'Id' => 2,
+            'Label' => 'Multi',
+        ),
+        3 => array(
+            'Id' => 3,
+            'Label' => 'Face Detection',
         ),
         4 => array(
             'Id' => 4,
-            'Label' => 'Face Recognition',
+            'Label' => 'Tracking',
+        ),
+        5 => array(
+            'Id' => 5,
+            'Label' => 'Intelligent',
         ),
     );
 

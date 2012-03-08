@@ -770,6 +770,10 @@ class LensType extends \PHPExiftool\Driver\Tag
             'Id' => '8 14',
             'Label' => 'Sigma 17-70mm F2.8-4.0 DC Macro OS HSM',
         ),
+        '8 16' => array(
+            'Id' => '8 16',
+            'Label' => 'Sigma 70-200mm F2.8 EX DG Macro HSM II',
+        ),
         '8 17' => array(
             'Id' => '8 17',
             'Label' => 'Sigma 50-500mm F4.5-6.3 DG OS HSM',
@@ -777,6 +781,14 @@ class LensType extends \PHPExiftool\Driver\Tag
         '8 18' => array(
             'Id' => '8 18',
             'Label' => 'Sigma 8-16mm F4.5-5.6 DC HSM',
+        ),
+        '8 21' => array(
+            'Id' => '8 21',
+            'Label' => 'Sigma 17-50mm F2.8 EX DC OS HSM',
+        ),
+        '8 22' => array(
+            'Id' => '8 22',
+            'Label' => 'Sigma 85mm F1.4 EX DG HSM',
         ),
         '8 215' => array(
             'Id' => '8 215',
@@ -826,6 +838,14 @@ class LensType extends \PHPExiftool\Driver\Tag
             'Id' => '8 255.3',
             'Label' => 'Sigma 4.5mm F2.8 EX DC HSM Circular Fisheye',
         ),
+        '8 255.4' => array(
+            'Id' => '8 255.4',
+            'Label' => 'Sigma 50-200mm F4-5.6 DC OS',
+        ),
+        '9 0' => array(
+            'Id' => '9 0',
+            'Label' => '645 Manual Lens',
+        ),
         '11 4' => array(
             'Id' => '11 4',
             'Label' => 'smc PENTAX-FA 645 45-85mm F4.5',
@@ -845,6 +865,10 @@ class LensType extends \PHPExiftool\Driver\Tag
         '13 18' => array(
             'Id' => '13 18',
             'Label' => 'smc PENTAX-D FA 645 55mm F2.8 AL [IF] SDM AW',
+        ),
+        '21 0' => array(
+            'Id' => '21 0',
+            'Label' => 'Pentax Q manual lens',
         ),
         '21 1' => array(
             'Id' => '21 1',

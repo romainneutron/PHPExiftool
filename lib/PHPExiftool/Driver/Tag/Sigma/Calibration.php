@@ -5,7 +5,7 @@ namespace PHPExiftool\Driver\Tag\Sigma;
 class Calibration extends \PHPExiftool\Driver\Tag
 {
 
-    protected $Id = 36;
+    protected $Id = 'mixed';
 
     protected $Name = 'Calibration';
 
@@ -24,5 +24,7 @@ class Calibration extends \PHPExiftool\Driver\Tag
     protected $Writable = true;
 
     protected $Description = 'Calibration';
+
+    protected $Index = 'mixed';
 
 }

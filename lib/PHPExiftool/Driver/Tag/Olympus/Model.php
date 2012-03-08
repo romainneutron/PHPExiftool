@@ -23,6 +23,8 @@ class Model extends \PHPExiftool\Driver\Tag
 
     protected $Writable = false;
 
-    protected $Description = 'Model';
+    protected $Description = 'Camera Model Name';
+
+    protected $Values = 'mixed';
 
 }

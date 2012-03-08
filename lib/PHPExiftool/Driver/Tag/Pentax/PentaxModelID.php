@@ -442,6 +442,10 @@ class PentaxModelID extends \PHPExiftool\Driver\Tag
             'Id' => 77540,
             'Label' => 'Q',
         ),
+        77580 => array(
+            'Id' => 77580,
+            'Label' => 'Optio RZ18',
+        ),
     );
 
 }

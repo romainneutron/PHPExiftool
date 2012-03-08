@@ -27,6 +27,6 @@ class MakerNoteReconyx extends \PHPExiftool\Driver\Tag
 
     protected $local_g1 = 'ExifIFD';
 
-    protected $Index = 51;
+    protected $Index = 52;
 
 }

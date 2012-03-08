@@ -5,7 +5,7 @@ namespace PHPExiftool\Driver\Tag\Sigma;
 class SensorTemperature extends \PHPExiftool\Driver\Tag
 {
 
-    protected $Id = 57;
+    protected $Id = 'mixed';
 
     protected $Name = 'SensorTemperature';
 

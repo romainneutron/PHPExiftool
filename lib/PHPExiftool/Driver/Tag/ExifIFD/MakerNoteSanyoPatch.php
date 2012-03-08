@@ -27,6 +27,6 @@ class MakerNoteSanyoPatch extends \PHPExiftool\Driver\Tag
 
     protected $local_g1 = 'ExifIFD';
 
-    protected $Index = 59;
+    protected $Index = 60;
 
 }

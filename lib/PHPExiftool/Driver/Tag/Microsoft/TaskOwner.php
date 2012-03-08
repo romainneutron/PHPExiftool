@@ -1,0 +1,28 @@
+<?php
+
+namespace PHPExiftool\Driver\Tag\Microsoft;
+
+class TaskOwner extends \PHPExiftool\Driver\Tag
+{
+
+    protected $Id = '{08C7CC5F-60F2-4494-AD75-55E3E0B5ADD0} 100';
+
+    protected $Name = 'TaskOwner';
+
+    protected $FullName = 'Microsoft::Xtra';
+
+    protected $GroupName = 'Microsoft';
+
+    protected $g0 = 'QuickTime';
+
+    protected $g1 = 'Microsoft';
+
+    protected $g2 = 'Video';
+
+    protected $Type = '?';
+
+    protected $Writable = false;
+
+    protected $Description = 'Task Owner';
+
+}

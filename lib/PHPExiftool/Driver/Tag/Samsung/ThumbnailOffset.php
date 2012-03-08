@@ -5,11 +5,11 @@ namespace PHPExiftool\Driver\Tag\Samsung;
 class ThumbnailOffset extends \PHPExiftool\Driver\Tag
 {
 
-    protected $Id = 260;
+    protected $Id = 4;
 
     protected $Name = 'ThumbnailOffset';
 
-    protected $FullName = 'Samsung::MP4';
+    protected $FullName = 'Samsung::Thumbnail';
 
     protected $GroupName = 'Samsung';
 

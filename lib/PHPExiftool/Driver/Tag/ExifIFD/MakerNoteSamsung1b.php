@@ -27,6 +27,6 @@ class MakerNoteSamsung1b extends \PHPExiftool\Driver\Tag
 
     protected $local_g1 = 'ExifIFD';
 
-    protected $Index = 55;
+    protected $Index = 56;
 
 }

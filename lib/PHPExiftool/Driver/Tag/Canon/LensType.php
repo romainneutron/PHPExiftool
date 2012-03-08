@@ -338,6 +338,10 @@ class LensType extends \PHPExiftool\Driver\Tag
             'Id' => 52,
             'Label' => 'Canon EF-S 18-55mm f/3.5-5.6 IS II',
         ),
+        53 => array(
+            'Id' => 53,
+            'Label' => 'Canon EF-S 18-55mm f/3.5-5.6 III',
+        ),
         94 => array(
             'Id' => 94,
             'Label' => 'Canon TS-E 17mm f/4L',
@@ -418,9 +422,21 @@ class LensType extends \PHPExiftool\Driver\Tag
             'Id' => 137,
             'Label' => 'Canon EF 85mm f/1.2L or Sigma or Tamron Lens',
         ),
+        '137.10' => array(
+            'Id' => '137.10',
+            'Label' => 'Sigma 8-16mm f/4.5-5.6 DC HSM',
+        ),
         '137.1' => array(
             'Id' => '137.1',
             'Label' => 'Sigma 18-50mm f/2.8-4.5 DC OS HSM',
+        ),
+        '137.11' => array(
+            'Id' => '137.11',
+            'Label' => 'Tamron SP 17-50mm f/2.8 XR Di II VC',
+        ),
+        '137.12' => array(
+            'Id' => '137.12',
+            'Label' => 'Tamron SP 60mm f/2 Macro Di II',
         ),
         '137.2' => array(
             'Id' => '137.2',
@@ -448,6 +464,10 @@ class LensType extends \PHPExiftool\Driver\Tag
         ),
         '137.8' => array(
             'Id' => '137.8',
+            'Label' => 'Sigma 18-200mm f/3.5-6.3 II DC OS HSM',
+        ),
+        '137.9' => array(
+            'Id' => '137.9',
             'Label' => 'Tamron AF 18-270mm f/3.5-6.3 Di II VC PZD',
         ),
         138 => array(
@@ -961,6 +981,14 @@ class LensType extends \PHPExiftool\Driver\Tag
         489 => array(
             'Id' => 489,
             'Label' => 'Canon EF 70-300mm f/4-5.6L IS USM',
+        ),
+        490 => array(
+            'Id' => 490,
+            'Label' => 'Canon EF 8-15mm f/4L USM',
+        ),
+        491 => array(
+            'Id' => 491,
+            'Label' => 'Canon EF 300mm f/2.8L IS II USM',
         ),
     );
 

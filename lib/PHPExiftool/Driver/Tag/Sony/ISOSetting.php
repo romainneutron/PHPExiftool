@@ -19,10 +19,12 @@ class ISOSetting extends \PHPExiftool\Driver\Tag
 
     protected $g2 = 'Camera';
 
-    protected $Type = 'int16u';
+    protected $Type = 'mixed';
 
     protected $Writable = true;
 
     protected $Description = 'ISO Setting';
+
+    protected $Values = 'mixed';
 
 }

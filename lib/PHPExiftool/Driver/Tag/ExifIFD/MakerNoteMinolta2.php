@@ -27,6 +27,6 @@ class MakerNoteMinolta2 extends \PHPExiftool\Driver\Tag
 
     protected $local_g1 = 'ExifIFD';
 
-    protected $Index = 29;
+    protected $Index = 30;
 
 }

@@ -27,6 +27,6 @@ class MakerNoteUnknownText extends \PHPExiftool\Driver\Tag
 
     protected $local_g1 = 'ExifIFD';
 
-    protected $Index = 67;
+    protected $Index = 68;
 
 }

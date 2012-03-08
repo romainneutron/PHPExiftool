@@ -25,6 +25,6 @@ class ColorBalanceUnknown extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Color Balance Unknown';
 
-    protected $Index = 6;
+    protected $Index = 9;
 
 }

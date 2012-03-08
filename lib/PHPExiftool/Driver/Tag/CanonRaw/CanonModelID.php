@@ -512,7 +512,7 @@ class CanonModelID extends \PHPExiftool\Driver\Tag
         ),
         42074112 => array(
             'Id' => 42074112,
-            'Label' => 'PowerShot A3100 IS',
+            'Label' => 'PowerShot A3100 IS / A3150 IS',
         ),
         42139648 => array(
             'Id' => 42139648,
@@ -568,7 +568,7 @@ class CanonModelID extends \PHPExiftool\Driver\Tag
         ),
         50331648 => array(
             'Id' => 50331648,
-            'Label' => 'PowerShot ELPH 500 HS / IXUS 310 HS / IXY 31 S',
+            'Label' => 'PowerShot ELPH 500 HS / IXUS 310 HS / IXY 31S',
         ),
         50397184 => array(
             'Id' => 50397184,
@@ -601,6 +601,58 @@ class CanonModelID extends \PHPExiftool\Driver\Tag
         50790400 => array(
             'Id' => 50790400,
             'Label' => 'PowerShot SX220 HS',
+        ),
+        50855936 => array(
+            'Id' => 50855936,
+            'Label' => 'PowerShot G1 X',
+        ),
+        50921472 => array(
+            'Id' => 50921472,
+            'Label' => 'PowerShot SX150 IS',
+        ),
+        51380224 => array(
+            'Id' => 51380224,
+            'Label' => 'PowerShot ELPH 510 HS / IXUS 1100 HS / IXY 51S',
+        ),
+        51445760 => array(
+            'Id' => 51445760,
+            'Label' => 'PowerShot S100 (new)',
+        ),
+        51511296 => array(
+            'Id' => 51511296,
+            'Label' => 'PowerShot ELPH 310 HS / IXUS 230 HS / IXY 600F',
+        ),
+        51576832 => array(
+            'Id' => 51576832,
+            'Label' => 'PowerShot SX40 HS',
+        ),
+        51642368 => array(
+            'Id' => 51642368,
+            'Label' => 'PowerShot ELPH 500 HS / IXUS 320 HS / IXY 32S',
+        ),
+        51970048 => array(
+            'Id' => 51970048,
+            'Label' => 'PowerShot ELPH 110 HS / IXUS 125 HS / IXY 220F',
+        ),
+        52428800 => array(
+            'Id' => 52428800,
+            'Label' => 'PowerShot D20',
+        ),
+        52559872 => array(
+            'Id' => 52559872,
+            'Label' => 'PowerShot SX260 HS',
+        ),
+        52756480 => array(
+            'Id' => 52756480,
+            'Label' => 'PowerShot ELPH 520 HS / IXUS 500 HS / IXY 3',
+        ),
+        52822016 => array(
+            'Id' => 52822016,
+            'Label' => 'A3400IS',
+        ),
+        52953088 => array(
+            'Id' => 52953088,
+            'Label' => 'PowerShot A2300',
         ),
         67371008 => array(
             'Id' => 67371008,
@@ -658,6 +710,10 @@ class CanonModelID extends \PHPExiftool\Driver\Tag
             'Id' => 1074255992,
             'Label' => 'HV30',
         ),
+        1074255996 => array(
+            'Id' => 1074255996,
+            'Label' => 'XH A1S',
+        ),
         1074255998 => array(
             'Id' => 1074255998,
             'Label' => 'DC301/DC310/DC311/DC320/DC330',
@@ -688,7 +744,7 @@ class CanonModelID extends \PHPExiftool\Driver\Tag
         ),
         1074256263 => array(
             'Id' => 1074256263,
-            'Label' => 'DC410/DC420',
+            'Label' => 'DC410/DC411/DC420',
         ),
         1074256264 => array(
             'Id' => 1074256264,
@@ -704,7 +760,7 @@ class CanonModelID extends \PHPExiftool\Driver\Tag
         ),
         1074256526 => array(
             'Id' => 1074256526,
-            'Label' => 'HF R16/R17/R18/R100/R106',
+            'Label' => 'HF R10/R16/R17/R18/R100/R106',
         ),
         1074256527 => array(
             'Id' => 1074256527,
@@ -716,7 +772,7 @@ class CanonModelID extends \PHPExiftool\Driver\Tag
         ),
         1074256530 => array(
             'Id' => 1074256530,
-            'Label' => 'FS36/FS37/FS305/FS306/FS307',
+            'Label' => 'FS31/FS36/FS37/FS300/FS305/FS306/FS307',
         ),
         2147483649 => array(
             'Id' => 2147483649,
@@ -774,6 +830,10 @@ class CanonModelID extends \PHPExiftool\Driver\Tag
             'Id' => 2147484184,
             'Label' => 'EOS 5D Mark II',
         ),
+        2147484185 => array(
+            'Id' => 2147484185,
+            'Label' => 'WFT-E1',
+        ),
         2147484210 => array(
             'Id' => 2147484210,
             'Label' => 'EOS-1D Mark II N',
@@ -785,6 +845,14 @@ class CanonModelID extends \PHPExiftool\Driver\Tag
         2147484214 => array(
             'Id' => 2147484214,
             'Label' => 'EOS Digital Rebel XTi / 400D / Kiss Digital X',
+        ),
+        2147484225 => array(
+            'Id' => 2147484225,
+            'Label' => 'WFT-E2',
+        ),
+        2147484230 => array(
+            'Id' => 2147484230,
+            'Label' => 'WFT-E3',
         ),
         2147484240 => array(
             'Id' => 2147484240,
@@ -802,9 +870,21 @@ class CanonModelID extends \PHPExiftool\Driver\Tag
             'Id' => 2147484257,
             'Label' => 'EOS 50D',
         ),
+        2147484265 => array(
+            'Id' => 2147484265,
+            'Label' => 'EOS-1D X',
+        ),
         2147484272 => array(
             'Id' => 2147484272,
             'Label' => 'EOS Rebel T2i / 550D / Kiss X4',
+        ),
+        2147484273 => array(
+            'Id' => 2147484273,
+            'Label' => 'WFT-E4',
+        ),
+        2147484275 => array(
+            'Id' => 2147484275,
+            'Label' => 'WFT-E5',
         ),
         2147484289 => array(
             'Id' => 2147484289,
@@ -821,6 +901,14 @@ class CanonModelID extends \PHPExiftool\Driver\Tag
         2147484296 => array(
             'Id' => 2147484296,
             'Label' => 'EOS Rebel T3 / 1100D / Kiss X50',
+        ),
+        2147484311 => array(
+            'Id' => 2147484311,
+            'Label' => 'WFT-E2 II',
+        ),
+        2147484312 => array(
+            'Id' => 2147484312,
+            'Label' => 'WFT-E4 II',
         ),
     );
 

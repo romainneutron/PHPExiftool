@@ -32,19 +32,27 @@ class Teleconverter extends \PHPExiftool\Driver\Tag
         ),
         72 => array(
             'Id' => 72,
-            'Label' => 'Minolta AF 2x APO (D)',
+            'Label' => 'Minolta/Sony AF 2x APO (D)',
         ),
         80 => array(
             'Id' => 80,
             'Label' => 'Minolta AF 2x APO II',
         ),
+        96 => array(
+            'Id' => 96,
+            'Label' => 'Minolta AF 2x APO',
+        ),
         136 => array(
             'Id' => 136,
-            'Label' => 'Minolta AF 1.4x APO (D)',
+            'Label' => 'Minolta/Sony AF 1.4x APO (D)',
         ),
         144 => array(
             'Id' => 144,
             'Label' => 'Minolta AF 1.4x APO II',
+        ),
+        160 => array(
+            'Id' => 160,
+            'Label' => 'Minolta AF 1.4x APO',
         ),
     );
 

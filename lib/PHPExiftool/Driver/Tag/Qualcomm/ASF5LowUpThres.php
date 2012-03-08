@@ -1,0 +1,28 @@
+<?php
+
+namespace PHPExiftool\Driver\Tag\Qualcomm;
+
+class ASF5LowUpThres extends \PHPExiftool\Driver\Tag
+{
+
+    protected $Id = 'asf5_low_up_thres';
+
+    protected $Name = 'ASF5LowUpThres';
+
+    protected $FullName = 'Qualcomm::Main';
+
+    protected $GroupName = 'Qualcomm';
+
+    protected $g0 = 'MakerNotes';
+
+    protected $g1 = 'Qualcomm';
+
+    protected $g2 = 'Camera';
+
+    protected $Type = '?';
+
+    protected $Writable = false;
+
+    protected $Description = 'ASF5 Low Up Thres';
+
+}

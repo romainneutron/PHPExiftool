@@ -5,11 +5,11 @@ namespace PHPExiftool\Driver\Tag\Samsung;
 class ThumbnailWidth extends \PHPExiftool\Driver\Tag
 {
 
-    protected $Id = 248;
+    protected $Id = 1;
 
     protected $Name = 'ThumbnailWidth';
 
-    protected $FullName = 'Samsung::MP4';
+    protected $FullName = 'Samsung::Thumbnail';
 
     protected $GroupName = 'Samsung';
 

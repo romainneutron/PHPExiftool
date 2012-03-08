@@ -30,13 +30,33 @@ class FlashLevel extends \PHPExiftool\Driver\Tag
             'Id' => '-32768',
             'Label' => 'Low',
         ),
+        '-3' => array(
+            'Id' => '-3',
+            'Label' => '-3/3',
+        ),
+        '-2' => array(
+            'Id' => '-2',
+            'Label' => '-2/3',
+        ),
         '-1' => array(
             'Id' => '-1',
-            'Label' => 'n/a',
+            'Label' => '-1/3',
         ),
         0 => array(
             'Id' => 0,
             'Label' => 'Normal',
+        ),
+        1 => array(
+            'Id' => 1,
+            'Label' => '+1/3',
+        ),
+        2 => array(
+            'Id' => 2,
+            'Label' => '+2/3',
+        ),
+        3 => array(
+            'Id' => 3,
+            'Label' => '+3/3',
         ),
         32767 => array(
             'Id' => 32767,

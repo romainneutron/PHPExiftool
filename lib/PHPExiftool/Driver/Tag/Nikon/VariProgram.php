@@ -5,11 +5,11 @@ namespace PHPExiftool\Driver\Tag\Nikon;
 class VariProgram extends \PHPExiftool\Driver\Tag
 {
 
-    protected $Id = 171;
+    protected $Id = 'mixed';
 
     protected $Name = 'VariProgram';
 
-    protected $FullName = 'Nikon::Main';
+    protected $FullName = 'mixed';
 
     protected $GroupName = 'Nikon';
 

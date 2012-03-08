@@ -25,4 +25,15 @@ class Compilation extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Compilation';
 
+    protected $Values = array(
+        0 => array(
+            'Id' => 0,
+            'Label' => 'No',
+        ),
+        1 => array(
+            'Id' => 1,
+            'Label' => 'Yes',
+        ),
+    );
+
 }

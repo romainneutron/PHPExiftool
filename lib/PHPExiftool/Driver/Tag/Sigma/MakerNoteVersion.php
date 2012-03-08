@@ -5,7 +5,7 @@ namespace PHPExiftool\Driver\Tag\Sigma;
 class MakerNoteVersion extends \PHPExiftool\Driver\Tag
 {
 
-    protected $Id = 29;
+    protected $Id = 'mixed';
 
     protected $Name = 'MakerNoteVersion';
 
@@ -24,5 +24,7 @@ class MakerNoteVersion extends \PHPExiftool\Driver\Tag
     protected $Writable = true;
 
     protected $Description = 'Maker Note Version';
+
+    protected $Index = 'mixed';
 
 }

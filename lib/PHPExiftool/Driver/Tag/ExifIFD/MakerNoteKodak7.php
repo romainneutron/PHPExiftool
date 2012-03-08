@@ -27,6 +27,6 @@ class MakerNoteKodak7 extends \PHPExiftool\Driver\Tag
 
     protected $local_g1 = 'ExifIFD';
 
-    protected $Index = 21;
+    protected $Index = 22;
 
 }

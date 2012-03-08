@@ -38,17 +38,29 @@ class ImageStabilization extends \PHPExiftool\Driver\Tag
             'Id' => 2,
             'Label' => 'Best Shot',
         ),
+        3 => array(
+            'Id' => 3,
+            'Label' => 'Movie Anti-Shake',
+        ),
         '0 0' => array(
             'Id' => '0 0',
             'Label' => 'Off',
+        ),
+        '0 1' => array(
+            'Id' => '0 1',
+            'Label' => 'Off (1)',
         ),
         '0 3' => array(
             'Id' => '0 3',
             'Label' => 'CCD Shift',
         ),
+        '2 1' => array(
+            'Id' => '2 1',
+            'Label' => 'High Sensitivity',
+        ),
         '2 3' => array(
             'Id' => '2 3',
-            'Label' => 'High Speed Anti-Shake',
+            'Label' => 'CCD Shift + High Sensitivity',
         ),
         '16 0' => array(
             'Id' => '16 0',
