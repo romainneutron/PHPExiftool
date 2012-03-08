@@ -97,6 +97,11 @@ class ClassesBuilder extends Command
     }
     else
     {
+      $this->output->writeln('Erasing previous files... ');
+
+      system('rm -R '.__DIR__.'/../../Driver/Tag/*');
+      system('rm -R '.__DIR__.'/../../Driver/Type/*');
+
       $this->output->writeln('Writing files... ');
       $this->writeClasses($input->getOption('force'));
     }
@@ -224,6 +229,7 @@ class ClassesBuilder extends Command
       case 'ShortLine':
       case 'PointText':
       case 'FontName':
+      case 'pstring':
         return 'string';
         break;
       case 'date':
