@@ -19,7 +19,7 @@
  * IN THE SOFTWARE.
  */
 
-namespace PHPExiftool\Driver\Metadata;
+namespace PHPExiftool\Driver;
 
 /**
  * Metadata Object for mapping a Tag to a value
@@ -27,7 +27,7 @@ namespace PHPExiftool\Driver\Metadata;
  * @author      Romain Neutron - imprec@gmail.com
  * @license     http://opensource.org/licenses/MIT MIT
  */
-class Factory
+class TagFactory
 {
 
   public static function getFromRDFTagname($tagname)
