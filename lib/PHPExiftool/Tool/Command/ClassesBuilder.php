@@ -2,27 +2,27 @@
 
 /**
  * Copyright (c) 2012 Romain Neutron
- * 
- * Permission is hereby granted, free of charge, to any person obtaining a copy 
- * of this software and associated documentation files (the "Software"), 
- * to deal in the Software without restriction, including without limitation 
- * the rights to use, copy, modify, merge, publish, distribute, sublicense, 
- * and/or sell copies of the Software, and to permit persons to whom the 
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"),
+ * to deal in the Software without restriction, including without limitation
+ * the rights to use, copy, modify, merge, publish, distribute, sublicense,
+ * and/or sell copies of the Software, and to permit persons to whom the
  * Software is furnished to do so, subject to the following conditions:
- * 
- * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS 
- * OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, 
- * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE 
- * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER 
- * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING 
- * FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS 
- * IN THE SOFTWARE. 
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
+ * OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+ * FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
+ * IN THE SOFTWARE.
  */
 
 namespace PHPExiftool\Tool\Command;
 
 /**
- * 
+ *
  * @author      Romain Neutron - imprec@gmail.com
  * @license     http://opensource.org/licenses/MIT MIT
  */
@@ -39,20 +39,20 @@ class ClassesBuilder extends Command
 
   /**
    * Output interface for Command
-   * 
-   * @var ConsoleOutput 
+   *
+   * @var ConsoleOutput
    */
   protected $output;
 
   /**
    *
-   * @var array 
+   * @var array
    */
   protected $classes = array();
 
   /**
    *
-   * @var array 
+   * @var array
    */
   protected $types = array();
 
@@ -111,7 +111,7 @@ class ClassesBuilder extends Command
 
   /**
    *
-   * @return \PHPExiftool\Tool\Command\ClassesBuilder 
+   * @return \PHPExiftool\Tool\Command\ClassesBuilder
    */
   protected function writeClasses($force = false)
   {
@@ -146,7 +146,7 @@ class ClassesBuilder extends Command
 
       $classname = self::generateClassname($type);
 
-      $properties = array('ExiftoolName' => $data, 'PHPMap'=>$this->getTypeMap($type));
+      $properties = array('ExiftoolName' => $data, 'PHPMap'       => $this->getTypeMap($type));
 
       $classpath = sprintf('%s', $classname);
 
@@ -155,15 +155,22 @@ class ClassesBuilder extends Command
 
     return;
   }
-  
+
   protected function getTypeMap($type)
   {
-    switch($type)
+    switch ($type)
     {
       case 'Int16Data':
       case 'Int8uText':
       case 'Int8u2Text':
       case 'int64u':
+      case 'var_int8u':
+      case 'Int32uData':
+      case 'rational64s':
+      case 'fixed16s':
+      case 'rational':
+      case 'integer':
+      case 'real':
       case 'int32s':
       case 'int16s':
       case 'int32u':
@@ -171,6 +178,16 @@ class ClassesBuilder extends Command
       case 'var_int16u':
       case 'int8u':
       case 'int8s':
+      case 'int16uRev':
+      case 'rational32u':
+      case 'rational64u':
+      case 'rational32s':
+      case 'fixed32u':
+      case 'fixed32s':
+      case 'digits':
+      case 'double':
+      case 'int64s':
+      case 'unsigned':
         return 'int';
         break;
       case 'float':
@@ -180,19 +197,46 @@ class ClassesBuilder extends Command
         return 'binary';
         break;
       case '?':
+      case 'unknown':
+      case 'extended':
+      case 'Arc':
+      case 'Polygon':
+      case 'BitsRect#':
+      case 'BitsRgn#':
+      case 'DirectBitsRect':
+      case 'DirectBitsRgn':
+      case 'CompressedQuickTime':
       case 'lang-alt':
       case 'string':
       case 'var_string':
+      case 'undef':
+      case 'resize':
+      case 'var_pstr32':
+      case 'utf8':
+      case 'signed':
+      case 'null':
+      case 'Rgn':
+      case 'Point':
+      case 'Rect':
+      case 'PixPat':
+      case 'Unknown':
+      case 'RGBColor':
+      case 'ShortLine':
+      case 'PointText':
+      case 'FontName':
         return 'string';
         break;
       case 'date':
         return 'date';
         break;
+      case 'boolean':
+        return 'boolean';
+        break;
       default:
-        $this->output->writeln(sprintf("No type found for %s", $type)); 
+        $this->output->writeln(sprintf("No type found for %s", $type));
         break;
     }
-    
+
     return;
   }
 
@@ -203,7 +247,7 @@ class ClassesBuilder extends Command
       return;
     }
 
-    $namespace = 'Tag\\' . $namespace;
+    $namespace = self::generateNamespace('Tag\\' . $namespace);
 
     $classpath = sprintf('%s\\%s', $namespace, $classname);
 
@@ -219,7 +263,7 @@ class ClassesBuilder extends Command
     }
     else
     {
-      $this->classes[$classpath] = new Builder($namespace, $classname, $properties);
+      $this->classes[$classpath] = new Builder($namespace, $classname, $properties, '\\PHPExiftool\\Driver\\Tag');
     }
     return;
   }
@@ -235,28 +279,61 @@ class ClassesBuilder extends Command
       $table_crawler = new Crawler();
       $table_crawler->addNode($table);
 
-      $tag_group_name = $table_crawler->attr('name');
+      $tag_group_name = $table_crawler->attr('g1');
+      $tag_full_name  = $table_crawler->attr('name');
+
+      $tag_g0 = $table_crawler->attr('g0');
+      $tag_g2 = $table_crawler->attr('g2');
 
       $tags = $table_crawler->filter('tag');
 
       foreach ($tags as $tag)
       {
+
         $tag_crawler = new Crawler();
         $tag_crawler->addNode($tag);
 
-        $subspace = str_replace('::', '\\', $tag_group_name);
+        $extra = array();
 
-        $tag_name  = $tag_crawler->attr('name');
+        if ($tag_crawler->attr('g0'))
+        {
+          $extra['local_g0'] = $tag_crawler->attr('g0');
+        }
+
+        if ($tag_crawler->attr('g1') && !in_array($tag_crawler->attr('g1'), array('MakerNotes', 'Chapter#')))
+        {
+          $g_name            = $tag_crawler->attr('g1');
+          $extra['local_g1'] = $tag_crawler->attr('g1');
+        }
+        else
+        {
+          $g_name = $tag_group_name;
+        }
+
+        if ($tag_crawler->attr('g2'))
+        {
+          $extra['local_g2'] = $tag_crawler->attr('g2');
+        }
+
+        $subspace = str_replace('::', '\\', $g_name);
+
+        $tag_name = $tag_crawler->attr('name');
+
         $classname = self::generateClassname($tag_name);
         $tag_id    = $tag_crawler->attr('id');
 
-        $properties = array(
+        $properties = array_merge(array(
           'Id'          => $tag_id,
           'Name'        => $tag_name,
+          'FullName'    => $tag_full_name,
+          'GroupName'   => $g_name,
+          'g0'          => $tag_g0,
+          'g1'          => $tag_group_name,
+          'g2'          => $tag_g2,
           'Type'        => $tag_crawler->attr('type'),
           'Writable'    => $tag_crawler->attr('writable'),
           'Description' => $tag_crawler->filter('desc[lang="en"]')->first()->text(),
-        );
+        ), $extra);
 
         $this->types[$tag_crawler->attr('type')] = $tag_crawler->attr('type');
 
@@ -297,7 +374,7 @@ class ClassesBuilder extends Command
   /**
    *
    * @param type $name
-   * @return type 
+   * @return type
    */
   public static function generateClassname($name)
   {
@@ -306,9 +383,26 @@ class ClassesBuilder extends Command
     foreach ($values as $key => $value)
     {
       $values[$key] = ucfirst($value);
+
+      if($values[$key] == 'Class')
+      {
+        $values[$key] = 'Class0';
+      }
     }
 
     return implode('', $values);
+  }
+
+  public static function generateNamespace($namespace)
+  {
+    $values = explode('\\', $namespace);
+
+    foreach ($values as $key => $value)
+    {
+      $values[$key] = ucfirst(self::generateClassname($value));
+    }
+
+    return implode('\\', $values);
   }
 
 }
