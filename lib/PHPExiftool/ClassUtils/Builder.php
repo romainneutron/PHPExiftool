@@ -2,28 +2,28 @@
 
 /**
  * Copyright (c) 2012 Romain Neutron
- * 
- * Permission is hereby granted, free of charge, to any person obtaining a copy 
- * of this software and associated documentation files (the "Software"), 
- * to deal in the Software without restriction, including without limitation 
- * the rights to use, copy, modify, merge, publish, distribute, sublicense, 
- * and/or sell copies of the Software, and to permit persons to whom the 
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"),
+ * to deal in the Software without restriction, including without limitation
+ * the rights to use, copy, modify, merge, publish, distribute, sublicense,
+ * and/or sell copies of the Software, and to permit persons to whom the
  * Software is furnished to do so, subject to the following conditions:
- * 
- * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS 
- * OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, 
- * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE 
- * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER 
- * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING 
- * FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS 
- * IN THE SOFTWARE. 
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
+ * OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+ * FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
+ * IN THE SOFTWARE.
  */
 
 namespace PHPExiftool\ClassUtils;
 
 /**
  * Buil and write Tag classes
- * 
+ *
  * @author      Romain Neutron - imprec@gmail.com
  * @license     http://opensource.org/licenses/MIT MIT
  */
@@ -33,12 +33,22 @@ class Builder
   protected $namespace;
   protected $classname;
   protected $properties;
+  protected $extends;
 
-  public function __construct($namespace, $classname, array $properties)
+  public function __construct($namespace, $classname, array $properties, $extends = null)
   {
-    $this->namespace = '\\PHPExiftool\\Driver\\' . $namespace;
+    foreach(explode('\\', $namespace) as $piece)
+    {
+      if(!$this->checkPHPVarName($piece))
+        throw new \Exception(sprintf('Invalid namespace %s', $namespace));
+    }
+    if(!$this->checkPHPVarName($classname))
+      throw new \Exception(sprintf('Invalid namespace %s', $namespace));
+
+    $this->namespace = 'PHPExiftool\\Driver\\' . $namespace;
     $this->classname = $classname;
     $this->properties = $properties;
+    $this->extends = $extends;
 
     return $this;
   }
@@ -52,7 +62,7 @@ class Builder
   {
     $this->properties[$property] = $value;
   }
-  
+
   public function getPathfile()
   {
     return  __DIR__ . '/../../'
@@ -64,7 +74,14 @@ class Builder
   {
     $content = "<?php\n\nnamespace <namespace>;\n\n";
 
-    $content .= "class <classname>\n{\n";
+    $content .= "class <classname>";
+
+    if($this->extends)
+    {
+      $content .= " extends <extends>";
+    }
+
+    $content .= "\n{\n";
 
     $content .= $this->generateClassProperties($this->properties);
 
@@ -78,14 +95,14 @@ class Builder
     }
 
     $content = str_replace(
-      array('<namespace>', '<classname>', '<spaces>')
-      , array($this->namespace, $this->classname, '    ')
+      array('<namespace>', '<classname>', '<spaces>', '<extends>')
+      , array($this->namespace, $this->classname, '    ', $this->extends)
       , $content
     );
 
     if (!$force && file_exists($pathfile))
       throw new \Exception(sprintf('%s already exists', $pathfile));
-    
+
     file_put_contents($pathfile, $content);
 
     return $this;
