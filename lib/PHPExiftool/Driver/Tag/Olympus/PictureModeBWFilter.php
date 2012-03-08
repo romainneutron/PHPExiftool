@@ -1,0 +1,55 @@
+<?php
+
+namespace PHPExiftool\Driver\Tag\Olympus;
+
+class PictureModeBWFilter extends \PHPExiftool\Driver\Tag
+{
+
+    protected $Id = 1317;
+
+    protected $Name = 'PictureModeBWFilter';
+
+    protected $FullName = 'Olympus::CameraSettings';
+
+    protected $GroupName = 'Olympus';
+
+    protected $g0 = 'MakerNotes';
+
+    protected $g1 = 'Olympus';
+
+    protected $g2 = 'Camera';
+
+    protected $Type = 'int16s';
+
+    protected $Writable = true;
+
+    protected $Description = 'Picture Mode BW Filter';
+
+    protected $Values = array(
+        0 => array(
+            'Id' => 0,
+            'Label' => 'n/a',
+        ),
+        1 => array(
+            'Id' => 1,
+            'Label' => 'Neutral',
+        ),
+        2 => array(
+            'Id' => 2,
+            'Label' => 'Yellow',
+        ),
+        3 => array(
+            'Id' => 3,
+            'Label' => 'Orange',
+        ),
+        4 => array(
+            'Id' => 4,
+            'Label' => 'Red',
+        ),
+        5 => array(
+            'Id' => 5,
+            'Label' => 'Green',
+        ),
+    );
+
+}

@@ -1,0 +1,47 @@
+<?php
+
+namespace PHPExiftool\Driver\Tag\MPEG;
+
+class ModeExtension extends \PHPExiftool\Driver\Tag
+{
+
+    protected $Id = 'Bit26-27';
+
+    protected $Name = 'ModeExtension';
+
+    protected $FullName = 'MPEG::Audio';
+
+    protected $GroupName = 'MPEG';
+
+    protected $g0 = 'MPEG';
+
+    protected $g1 = 'MPEG';
+
+    protected $g2 = 'Audio';
+
+    protected $Type = '?';
+
+    protected $Writable = false;
+
+    protected $Description = 'Mode Extension';
+
+    protected $Values = array(
+        0 => array(
+            'Id' => 0,
+            'Label' => 'Bands 4-31',
+        ),
+        1 => array(
+            'Id' => 1,
+            'Label' => 'Bands 8-31',
+        ),
+        2 => array(
+            'Id' => 2,
+            'Label' => 'Bands 12-31',
+        ),
+        3 => array(
+            'Id' => 3,
+            'Label' => 'Bands 16-31',
+        ),
+    );
+
+}

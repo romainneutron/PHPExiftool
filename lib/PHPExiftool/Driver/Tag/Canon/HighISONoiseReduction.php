@@ -1,0 +1,47 @@
+<?php
+
+namespace PHPExiftool\Driver\Tag\Canon;
+
+class HighISONoiseReduction extends \PHPExiftool\Driver\Tag
+{
+
+    protected $Id = 'mixed';
+
+    protected $Name = 'HighISONoiseReduction';
+
+    protected $FullName = 'mixed';
+
+    protected $GroupName = 'Canon';
+
+    protected $g0 = 'MakerNotes';
+
+    protected $g1 = 'Canon';
+
+    protected $g2 = 'Camera';
+
+    protected $Type = 'int8u';
+
+    protected $Writable = true;
+
+    protected $Description = 'High ISO Noise Reduction';
+
+    protected $Values = array(
+        0 => array(
+            'Id' => 0,
+            'Label' => 'Standard',
+        ),
+        1 => array(
+            'Id' => 1,
+            'Label' => 'Low',
+        ),
+        2 => array(
+            'Id' => 2,
+            'Label' => 'Strong',
+        ),
+        3 => array(
+            'Id' => 3,
+            'Label' => 'Off',
+        ),
+    );
+
+}

@@ -1,0 +1,43 @@
+<?php
+
+namespace PHPExiftool\Driver\Tag\NikonCustom;
+
+class CHModeShootingSpeed extends \PHPExiftool\Driver\Tag
+{
+
+    protected $Id = '10.3';
+
+    protected $Name = 'CHModeShootingSpeed';
+
+    protected $FullName = 'NikonCustom::SettingsD3';
+
+    protected $GroupName = 'NikonCustom';
+
+    protected $g0 = 'MakerNotes';
+
+    protected $g1 = 'NikonCustom';
+
+    protected $g2 = 'Camera';
+
+    protected $Type = 'int8u';
+
+    protected $Writable = true;
+
+    protected $Description = 'CH Mode Shooting Speed';
+
+    protected $Values = array(
+        0 => array(
+            'Id' => 0,
+            'Label' => '9 fps',
+        ),
+        16 => array(
+            'Id' => 16,
+            'Label' => '10 fps',
+        ),
+        32 => array(
+            'Id' => 32,
+            'Label' => '11 fps',
+        ),
+    );
+
+}

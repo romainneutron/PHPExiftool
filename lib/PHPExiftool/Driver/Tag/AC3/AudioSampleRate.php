@@ -1,0 +1,43 @@
+<?php
+
+namespace PHPExiftool\Driver\Tag\AC3;
+
+class AudioSampleRate extends \PHPExiftool\Driver\Tag
+{
+
+    protected $Id = 'AudioSampleRate';
+
+    protected $Name = 'AudioSampleRate';
+
+    protected $FullName = 'M2TS::AC3';
+
+    protected $GroupName = 'AC3';
+
+    protected $g0 = 'M2TS';
+
+    protected $g1 = 'AC3';
+
+    protected $g2 = 'Audio';
+
+    protected $Type = '?';
+
+    protected $Writable = false;
+
+    protected $Description = 'Audio Sample Rate';
+
+    protected $Values = array(
+        0 => array(
+            'Id' => 0,
+            'Label' => 48000,
+        ),
+        1 => array(
+            'Id' => 1,
+            'Label' => 44100,
+        ),
+        2 => array(
+            'Id' => 2,
+            'Label' => 32000,
+        ),
+    );
+
+}
