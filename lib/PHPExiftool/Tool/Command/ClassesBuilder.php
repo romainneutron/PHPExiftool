@@ -99,8 +99,8 @@ class ClassesBuilder extends Command
     {
       $this->output->writeln('Erasing previous files... ');
 
-      system('rm -R '.__DIR__.'/../../Driver/Tag/*');
-      system('rm -R '.__DIR__.'/../../Driver/Type/*');
+      system('rm -R ' . __DIR__ . '/../../Driver/Tag/*');
+      system('rm -R ' . __DIR__ . '/../../Driver/Type/*');
 
       $this->output->writeln('Writing files... ');
       $this->writeClasses($input->getOption('force'));
@@ -321,6 +321,50 @@ class ClassesBuilder extends Command
           $extra['local_g2'] = $tag_crawler->attr('g2');
         }
 
+        $flags = explode(',', $tag_crawler->attr('flags'));
+
+
+        if(in_array('Avoid', $flags))
+        {
+          $extra['flag_Avoid']  = 'true';
+        }
+        if(in_array('Binary', $flags))
+        {
+        $extra['flag_Binary']  = 'true';
+        }
+        if(in_array('Permanent', $flags))
+        {
+          $extra['flag_Permanent']  = 'true';
+        }
+        if(in_array('Protected', $flags))
+        {
+          $extra['flag_Protected'] = 'true';
+        }
+        if(in_array('Unsafe', $flags))
+        {
+          $extra['flag_Unsafe']   = 'true';
+        }
+        if(in_array('List', $flags))
+        {
+          $extra['flag_List']    = 'true';
+        }
+        if(in_array('Mandatory', $flags))
+        {
+          $extra['flag_Mandatory']  = 'true';
+        }
+        if(in_array('Bag', $flags))
+        {
+          $extra['flag_Bag']    = 'true';
+        }
+        if(in_array('Seq', $flags))
+        {
+          $extra['flag_Seq']     = 'true';
+        }
+        if(in_array('Alt', $flags))
+        {
+          $extra['flag_Alt']     = 'true';
+        }
+
         $subspace = str_replace('::', '\\', $g_name);
 
         $tag_name = $tag_crawler->attr('name');
@@ -329,17 +373,17 @@ class ClassesBuilder extends Command
         $tag_id    = $tag_crawler->attr('id');
 
         $properties = array_merge(array(
-          'Id'          => $tag_id,
-          'Name'        => $tag_name,
-          'FullName'    => $tag_full_name,
-          'GroupName'   => $g_name,
-          'g0'          => $tag_g0,
-          'g1'          => $tag_group_name,
-          'g2'          => $tag_g2,
-          'Type'        => $tag_crawler->attr('type'),
-          'Writable'    => $tag_crawler->attr('writable'),
-          'Description' => $tag_crawler->filter('desc[lang="en"]')->first()->text(),
-        ), $extra);
+          'Id'             => $tag_id,
+          'Name'           => $tag_name,
+          'FullName'       => $tag_full_name,
+          'GroupName'      => $g_name,
+          'g0'             => $tag_g0,
+          'g1'             => $tag_group_name,
+          'g2'             => $tag_g2,
+          'Type'           => $tag_crawler->attr('type'),
+          'Writable'       => $tag_crawler->attr('writable'),
+          'Description'    => $tag_crawler->filter('desc[lang="en"]')->first()->text(),
+          ), $extra);
 
         $this->types[$tag_crawler->attr('type')] = $tag_crawler->attr('type');
 
@@ -390,7 +434,7 @@ class ClassesBuilder extends Command
     {
       $values[$key] = ucfirst($value);
 
-      if($values[$key] == 'Class')
+      if ($values[$key] == 'Class')
       {
         $values[$key] = 'Class0';
       }

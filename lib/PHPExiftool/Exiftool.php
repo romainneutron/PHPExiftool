@@ -69,7 +69,7 @@ class Exiftool
     if (!in_array($type, $available))
       throw new \Exception('Unknown list attribute');
 
-    return static::executeCommand(self::getBinary() . ' -list' . $type);
+    return static::executeCommand(self::getBinary() . ' -f -list' . $type);
   }
 
   private static function executeCommand($command)
