@@ -25,4 +25,8 @@ class Tracks extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Tracks';
 
+    protected $flag_List = true;
+
+    protected $flag_Bag = true;
+
 }

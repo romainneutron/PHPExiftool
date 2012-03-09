@@ -25,4 +25,8 @@ class PhotoEffectHistoryXML extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Photo Effect History XML';
 
+    protected $flag_Binary = true;
+
+    protected $flag_Permanent = true;
+
 }

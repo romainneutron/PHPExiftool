@@ -25,6 +25,8 @@ class AFFineTuneAdj extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'AF Fine Tune Adj';
 
+    protected $flag_Permanent = true;
+
     protected $Values = 'mixed';
 
 }

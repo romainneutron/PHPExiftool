@@ -25,4 +25,10 @@ class Organization extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Organization';
 
+    protected $flag_Avoid = true;
+
+    protected $flag_List = true;
+
+    protected $flag_Bag = true;
+
 }

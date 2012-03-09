@@ -25,4 +25,6 @@ class FlashSerialNumber extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Flash Serial Number';
 
+    protected $flag_Permanent = true;
+
 }

@@ -25,4 +25,6 @@ class PF23ShutterButtonTime extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'PF23 Shutter Button Time';
 
+    protected $flag_Permanent = true;
+
 }

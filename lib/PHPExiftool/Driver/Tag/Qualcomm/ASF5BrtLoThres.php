@@ -25,4 +25,6 @@ class ASF5BrtLoThres extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'ASF5 Brt Lo Thres';
 
+    protected $flag_Permanent = true;
+
 }

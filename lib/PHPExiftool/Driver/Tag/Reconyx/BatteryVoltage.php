@@ -25,4 +25,6 @@ class BatteryVoltage extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Battery Voltage';
 
+    protected $flag_Permanent = true;
+
 }

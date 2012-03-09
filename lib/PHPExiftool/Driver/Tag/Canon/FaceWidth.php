@@ -25,4 +25,6 @@ class FaceWidth extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Face Width';
 
+    protected $flag_Permanent = true;
+
 }

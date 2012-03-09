@@ -25,6 +25,8 @@ class MinoltaQuality extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Minolta Quality';
 
+    protected $flag_Permanent = true;
+
     protected $Values = 'mixed';
 
 }

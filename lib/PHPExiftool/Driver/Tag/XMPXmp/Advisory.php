@@ -25,4 +25,8 @@ class Advisory extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Advisory';
 
+    protected $flag_List = true;
+
+    protected $flag_Bag = true;
+
 }

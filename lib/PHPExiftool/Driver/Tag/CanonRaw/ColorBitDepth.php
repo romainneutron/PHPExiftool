@@ -25,4 +25,6 @@ class ColorBitDepth extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Color Bit Depth';
 
+    protected $flag_Permanent = true;
+
 }

@@ -25,6 +25,8 @@ class ColorToneNeutral extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Color Tone Neutral';
 
+    protected $flag_Permanent = true;
+
     protected $Values = 'mixed';
 
 }

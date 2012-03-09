@@ -25,4 +25,6 @@ class CompositionAdjustY extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Composition Adjust Y';
 
+    protected $flag_Permanent = true;
+
 }

@@ -25,4 +25,6 @@ class WBRBLevelsCWB4 extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'WB RB Levels CWB4';
 
+    protected $flag_Permanent = true;
+
 }

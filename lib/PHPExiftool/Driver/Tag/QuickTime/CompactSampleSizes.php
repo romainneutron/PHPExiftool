@@ -25,4 +25,6 @@ class CompactSampleSizes extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Compact Sample Sizes';
 
+    protected $flag_Binary = true;
+
 }

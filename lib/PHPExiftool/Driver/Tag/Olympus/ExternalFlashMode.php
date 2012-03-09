@@ -25,4 +25,6 @@ class ExternalFlashMode extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'External Flash Mode';
 
+    protected $flag_Permanent = true;
+
 }

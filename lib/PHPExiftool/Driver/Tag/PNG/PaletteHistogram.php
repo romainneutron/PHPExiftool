@@ -25,4 +25,6 @@ class PaletteHistogram extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Palette Histogram';
 
+    protected $flag_Binary = true;
+
 }

@@ -25,4 +25,6 @@ class ColorTempPC3 extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Color Temp PC3';
 
+    protected $flag_Permanent = true;
+
 }

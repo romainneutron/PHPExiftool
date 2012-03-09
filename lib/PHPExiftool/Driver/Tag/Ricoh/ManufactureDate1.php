@@ -27,4 +27,6 @@ class ManufactureDate1 extends \PHPExiftool\Driver\Tag
 
     protected $local_g2 = 'Time';
 
+    protected $flag_Permanent = true;
+
 }

@@ -25,6 +25,8 @@ class RecordMode extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Record Mode';
 
+    protected $flag_Permanent = true;
+
     protected $Values = array(
         2 => array(
             'Id' => 2,

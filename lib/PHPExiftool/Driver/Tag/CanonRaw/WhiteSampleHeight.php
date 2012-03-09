@@ -25,4 +25,6 @@ class WhiteSampleHeight extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'White Sample Height';
 
+    protected $flag_Permanent = true;
+
 }

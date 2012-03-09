@@ -25,4 +25,6 @@ class ColorMatrixNumber extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Color Matrix Number';
 
+    protected $flag_Permanent = true;
+
 }

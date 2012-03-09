@@ -25,6 +25,8 @@ class AFPointsInFocus extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'AF Points In Focus';
 
+    protected $flag_Permanent = true;
+
     protected $local_g2 = 'mixed';
 
     protected $Values = 'mixed';

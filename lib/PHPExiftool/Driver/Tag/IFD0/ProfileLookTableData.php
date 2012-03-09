@@ -25,4 +25,8 @@ class ProfileLookTableData extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Profile Look Table Data';
 
+    protected $flag_Binary = true;
+
+    protected $flag_Unsafe = true;
+
 }

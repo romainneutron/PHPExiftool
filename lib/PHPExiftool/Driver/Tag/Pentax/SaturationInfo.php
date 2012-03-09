@@ -25,4 +25,8 @@ class SaturationInfo extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Saturation Info';
 
+    protected $flag_Binary = true;
+
+    protected $flag_Permanent = true;
+
 }

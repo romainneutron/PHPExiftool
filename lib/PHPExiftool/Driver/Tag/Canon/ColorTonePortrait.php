@@ -25,6 +25,8 @@ class ColorTonePortrait extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Color Tone Portrait';
 
+    protected $flag_Permanent = true;
+
     protected $Values = 'mixed';
 
 }

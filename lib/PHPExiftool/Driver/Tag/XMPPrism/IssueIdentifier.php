@@ -25,4 +25,6 @@ class IssueIdentifier extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Issue Identifier';
 
+    protected $flag_Avoid = true;
+
 }

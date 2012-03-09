@@ -25,4 +25,6 @@ class ProfileName extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Profile Name';
 
+    protected $flag_Unsafe = true;
+
 }

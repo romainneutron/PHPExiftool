@@ -25,6 +25,8 @@ class Quality extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Quality';
 
+    protected $flag_Permanent = true;
+
     protected $Values = 'mixed';
 
 }

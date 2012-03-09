@@ -25,4 +25,6 @@ class Unsharp2HaloWidth extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Unsharp 2 Halo Width';
 
+    protected $flag_Permanent = true;
+
 }

@@ -25,6 +25,8 @@ class FillOrder extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Fill Order';
 
+    protected $flag_Unsafe = true;
+
     protected $Values = array(
         1 => array(
             'Id' => 1,

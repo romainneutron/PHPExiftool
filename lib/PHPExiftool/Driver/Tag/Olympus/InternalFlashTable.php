@@ -25,4 +25,6 @@ class InternalFlashTable extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Internal Flash Table';
 
+    protected $flag_Permanent = true;
+
 }

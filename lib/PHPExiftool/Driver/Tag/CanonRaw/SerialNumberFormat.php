@@ -25,6 +25,8 @@ class SerialNumberFormat extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Serial Number Format';
 
+    protected $flag_Permanent = true;
+
     protected $Values = array(
         2415919104 => array(
             'Id' => 2415919104,

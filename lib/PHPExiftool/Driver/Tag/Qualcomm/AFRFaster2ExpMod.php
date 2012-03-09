@@ -25,4 +25,6 @@ class AFRFaster2ExpMod extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'AFR Faster 2 Exp Mod';
 
+    protected $flag_Permanent = true;
+
 }

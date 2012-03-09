@@ -25,4 +25,6 @@ class ShortOwnerName extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Short Owner Name';
 
+    protected $flag_Permanent = true;
+
 }

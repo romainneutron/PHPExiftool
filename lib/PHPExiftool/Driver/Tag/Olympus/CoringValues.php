@@ -25,4 +25,6 @@ class CoringValues extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Coring Values';
 
+    protected $flag_Permanent = true;
+
 }

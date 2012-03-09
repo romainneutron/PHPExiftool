@@ -25,4 +25,6 @@ class Application extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Application';
 
+    protected $flag_Binary = true;
+
 }

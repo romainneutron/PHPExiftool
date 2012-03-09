@@ -25,4 +25,8 @@ class PersonInImage extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Person In Image';
 
+    protected $flag_List = true;
+
+    protected $flag_Bag = true;
+
 }

@@ -25,6 +25,8 @@ class BracketMode extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Bracket Mode';
 
+    protected $flag_Permanent = true;
+
     protected $Values = array(
         0 => array(
             'Id' => 0,

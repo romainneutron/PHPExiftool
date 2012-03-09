@@ -25,4 +25,6 @@ class ColorBoostLevel extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Color Boost Level';
 
+    protected $flag_Permanent = true;
+
 }

@@ -25,4 +25,6 @@ class AnalogBalance extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Analog Balance';
 
+    protected $flag_Unsafe = true;
+
 }

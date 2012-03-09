@@ -25,4 +25,6 @@ class AECAggressiveness extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'AEC Aggressiveness';
 
+    protected $flag_Permanent = true;
+
 }

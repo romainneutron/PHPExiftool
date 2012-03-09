@@ -25,4 +25,6 @@ class FormFields extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Form Fields';
 
+    protected $flag_List = true;
+
 }

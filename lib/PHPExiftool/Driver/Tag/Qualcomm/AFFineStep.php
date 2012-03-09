@@ -25,4 +25,6 @@ class AFFineStep extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'AF Fine Step';
 
+    protected $flag_Permanent = true;
+
 }

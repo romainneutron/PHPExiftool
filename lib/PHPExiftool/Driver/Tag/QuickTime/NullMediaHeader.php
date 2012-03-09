@@ -25,4 +25,6 @@ class NullMediaHeader extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Null Media Header';
 
+    protected $flag_Binary = true;
+
 }

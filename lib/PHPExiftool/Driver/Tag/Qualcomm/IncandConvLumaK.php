@@ -25,4 +25,6 @@ class IncandConvLumaK extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Incand Conv Luma K';
 
+    protected $flag_Permanent = true;
+
 }

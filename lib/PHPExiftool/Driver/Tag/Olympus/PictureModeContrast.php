@@ -25,4 +25,6 @@ class PictureModeContrast extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Picture Mode Contrast';
 
+    protected $flag_Permanent = true;
+
 }

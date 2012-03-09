@@ -25,4 +25,6 @@ class RecognizedFace2Name extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Recognized Face 2 Name';
 
+    protected $flag_Permanent = true;
+
 }

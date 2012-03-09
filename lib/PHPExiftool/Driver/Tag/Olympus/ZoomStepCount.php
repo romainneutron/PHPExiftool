@@ -25,4 +25,6 @@ class ZoomStepCount extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Zoom Step Count';
 
+    protected $flag_Permanent = true;
+
 }

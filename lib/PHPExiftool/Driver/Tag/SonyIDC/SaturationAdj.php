@@ -25,4 +25,6 @@ class SaturationAdj extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Saturation Adj';
 
+    protected $flag_Permanent = true;
+
 }

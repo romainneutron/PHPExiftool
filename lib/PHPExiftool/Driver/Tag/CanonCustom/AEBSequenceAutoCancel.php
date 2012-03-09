@@ -25,6 +25,8 @@ class AEBSequenceAutoCancel extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'AEB Sequence/Auto Cancel';
 
+    protected $flag_Permanent = true;
+
     protected $Values = array(
         0 => array(
             'Id' => 0,

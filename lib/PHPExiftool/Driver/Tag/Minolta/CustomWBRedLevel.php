@@ -25,4 +25,6 @@ class CustomWBRedLevel extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Custom WB Red Level';
 
+    protected $flag_Permanent = true;
+
 }

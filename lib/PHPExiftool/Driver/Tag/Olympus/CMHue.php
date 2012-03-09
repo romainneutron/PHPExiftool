@@ -25,4 +25,6 @@ class CMHue extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'CM Hue';
 
+    protected $flag_Permanent = true;
+
 }

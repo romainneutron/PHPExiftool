@@ -25,4 +25,6 @@ class OriginalRawFileName extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Original Raw File Name';
 
+    protected $flag_Unsafe = true;
+
 }

@@ -25,6 +25,8 @@ class MirrorLockup extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Mirror Lockup';
 
+    protected $flag_Permanent = true;
+
     protected $Values = 'mixed';
 
 }

@@ -25,6 +25,8 @@ class AELockButton extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'AE Lock Button';
 
+    protected $flag_Permanent = true;
+
     protected $Values = 'mixed';
 
     protected $Index = 'mixed';

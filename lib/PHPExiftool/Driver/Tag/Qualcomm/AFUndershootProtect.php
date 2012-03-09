@@ -25,4 +25,6 @@ class AFUndershootProtect extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'AF Undershoot Protect';
 
+    protected $flag_Permanent = true;
+
 }

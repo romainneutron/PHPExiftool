@@ -25,4 +25,6 @@ class RecordID extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Record ID';
 
+    protected $flag_Permanent = true;
+
 }

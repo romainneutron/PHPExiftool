@@ -25,4 +25,6 @@ class XResolution extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'X Resolution';
 
+    protected $flag_Mandatory = true;
+
 }

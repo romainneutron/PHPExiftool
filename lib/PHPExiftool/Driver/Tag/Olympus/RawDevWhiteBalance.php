@@ -25,6 +25,8 @@ class RawDevWhiteBalance extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Raw Dev White Balance';
 
+    protected $flag_Permanent = true;
+
     protected $Values = array(
         1 => array(
             'Id' => 1,

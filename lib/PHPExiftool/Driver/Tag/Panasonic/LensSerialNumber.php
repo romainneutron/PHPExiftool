@@ -25,4 +25,6 @@ class LensSerialNumber extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Lens Serial Number';
 
+    protected $flag_Permanent = true;
+
 }

@@ -25,4 +25,6 @@ class WBBracketValueGM extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'WB Bracket Value GM';
 
+    protected $flag_Permanent = true;
+
 }

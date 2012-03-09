@@ -25,6 +25,8 @@ class UserDef3PictureStyle extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'User Def 3 Picture Style';
 
+    protected $flag_Permanent = true;
+
     protected $Values = array(
         65 => array(
             'Id' => 65,

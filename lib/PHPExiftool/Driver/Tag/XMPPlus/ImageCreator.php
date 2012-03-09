@@ -25,4 +25,8 @@ class ImageCreator extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Image Creator';
 
+    protected $flag_List = true;
+
+    protected $flag_Seq = true;
+
 }

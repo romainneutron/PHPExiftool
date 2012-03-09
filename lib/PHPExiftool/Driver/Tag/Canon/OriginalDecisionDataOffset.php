@@ -25,4 +25,8 @@ class OriginalDecisionDataOffset extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Original Decision Data Offset';
 
+    protected $flag_Permanent = true;
+
+    protected $flag_Protected = true;
+
 }

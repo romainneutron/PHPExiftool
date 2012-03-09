@@ -25,4 +25,6 @@ class RicohImageHeight extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Ricoh Image Height';
 
+    protected $flag_Permanent = true;
+
 }

@@ -25,4 +25,6 @@ class AFAreaWidth extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'AF Area Width';
 
+    protected $flag_Permanent = true;
+
 }

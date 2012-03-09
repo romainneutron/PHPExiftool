@@ -25,4 +25,6 @@ class WBAdjLightingSubtype extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'WB Adj Lighting Subtype';
 
+    protected $flag_Permanent = true;
+
 }

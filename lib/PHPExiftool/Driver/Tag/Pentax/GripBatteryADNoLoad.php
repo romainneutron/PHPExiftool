@@ -25,4 +25,6 @@ class GripBatteryADNoLoad extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Grip Battery A/D No Load';
 
+    protected $flag_Permanent = true;
+
 }

@@ -25,4 +25,6 @@ class AutoISO extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Auto ISO';
 
+    protected $flag_Permanent = true;
+
 }

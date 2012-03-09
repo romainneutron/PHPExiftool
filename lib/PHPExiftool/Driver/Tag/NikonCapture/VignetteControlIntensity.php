@@ -25,4 +25,6 @@ class VignetteControlIntensity extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Vignette Control Intensity';
 
+    protected $flag_Permanent = true;
+
 }

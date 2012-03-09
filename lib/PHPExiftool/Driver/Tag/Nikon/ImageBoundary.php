@@ -25,4 +25,6 @@ class ImageBoundary extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Image Boundary';
 
+    protected $flag_Permanent = true;
+
 }

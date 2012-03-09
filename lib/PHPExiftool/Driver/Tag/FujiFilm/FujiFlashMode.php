@@ -25,6 +25,8 @@ class FujiFlashMode extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Fuji Flash Mode';
 
+    protected $flag_Permanent = true;
+
     protected $Values = array(
         0 => array(
             'Id' => 0,

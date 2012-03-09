@@ -25,4 +25,6 @@ class ISO2 extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'ISO2';
 
+    protected $flag_Permanent = true;
+
 }

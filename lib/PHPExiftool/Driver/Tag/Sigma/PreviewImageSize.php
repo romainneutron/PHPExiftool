@@ -25,4 +25,6 @@ class PreviewImageSize extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Preview Image Size';
 
+    protected $flag_Permanent = true;
+
 }

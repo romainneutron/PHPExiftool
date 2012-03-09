@@ -25,4 +25,6 @@ class LightValueCenter extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Light Value Center';
 
+    protected $flag_Permanent = true;
+
 }

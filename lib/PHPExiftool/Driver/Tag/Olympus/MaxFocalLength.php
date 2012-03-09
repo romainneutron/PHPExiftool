@@ -25,4 +25,6 @@ class MaxFocalLength extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Max Focal Length';
 
+    protected $flag_Permanent = true;
+
 }

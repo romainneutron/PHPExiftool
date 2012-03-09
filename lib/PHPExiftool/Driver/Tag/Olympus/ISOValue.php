@@ -25,4 +25,6 @@ class ISOValue extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'ISO Value';
 
+    protected $flag_Permanent = true;
+
 }

@@ -25,4 +25,6 @@ class WhiteSampleLeftBorder extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'White Sample Left Border';
 
+    protected $flag_Permanent = true;
+
 }

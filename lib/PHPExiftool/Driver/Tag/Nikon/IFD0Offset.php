@@ -25,4 +25,6 @@ class IFD0Offset extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'IFD0 Offset';
 
+    protected $flag_Permanent = true;
+
 }

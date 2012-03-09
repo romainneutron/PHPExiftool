@@ -25,4 +25,6 @@ class ZoomTargetWidth extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Zoom Target Width';
 
+    protected $flag_Permanent = true;
+
 }

@@ -25,4 +25,6 @@ class BodySerialNumber extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Body Serial Number';
 
+    protected $flag_Permanent = true;
+
 }

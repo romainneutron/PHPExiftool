@@ -25,6 +25,8 @@ class DistortionCorrection2 extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Distortion Correction 2';
 
+    protected $flag_Permanent = true;
+
     protected $Values = array(
         0 => array(
             'Id' => 0,

@@ -25,4 +25,6 @@ class CompositionAdjustX extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Composition Adjust X';
 
+    protected $flag_Permanent = true;
+
 }

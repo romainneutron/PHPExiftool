@@ -25,4 +25,6 @@ class PeripheralIllumCentralRadius extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Peripheral Illum Central Radius';
 
+    protected $flag_Permanent = true;
+
 }

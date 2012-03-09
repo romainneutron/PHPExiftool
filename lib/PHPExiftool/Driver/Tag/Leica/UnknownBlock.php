@@ -25,4 +25,8 @@ class UnknownBlock extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Unknown Block';
 
+    protected $flag_Binary = true;
+
+    protected $flag_Permanent = true;
+
 }

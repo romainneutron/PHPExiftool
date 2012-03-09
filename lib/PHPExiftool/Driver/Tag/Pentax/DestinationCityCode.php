@@ -25,4 +25,6 @@ class DestinationCityCode extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Destination City Code';
 
+    protected $flag_Permanent = true;
+
 }

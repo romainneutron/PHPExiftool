@@ -25,4 +25,6 @@ class TIFFPreview extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'TIFF Preview';
 
+    protected $flag_Binary = true;
+
 }

@@ -25,4 +25,6 @@ class DiscardFrstFrm extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Discard Frst Frm';
 
+    protected $flag_Permanent = true;
+
 }

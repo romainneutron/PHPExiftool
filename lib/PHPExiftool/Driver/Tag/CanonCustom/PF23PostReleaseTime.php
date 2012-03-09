@@ -25,4 +25,6 @@ class PF23PostReleaseTime extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'PF23 Post Release Time';
 
+    protected $flag_Permanent = true;
+
 }

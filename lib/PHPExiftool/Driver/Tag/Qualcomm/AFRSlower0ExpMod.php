@@ -25,4 +25,6 @@ class AFRSlower0ExpMod extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'AFR Slower 0 Exp Mod';
 
+    protected $flag_Permanent = true;
+
 }

@@ -25,4 +25,8 @@ class ProfileToneCurve extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Profile Tone Curve';
 
+    protected $flag_Binary = true;
+
+    protected $flag_Unsafe = true;
+
 }

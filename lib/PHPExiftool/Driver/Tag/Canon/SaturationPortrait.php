@@ -25,6 +25,8 @@ class SaturationPortrait extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Saturation Portrait';
 
+    protected $flag_Permanent = true;
+
     protected $Values = 'mixed';
 
 }

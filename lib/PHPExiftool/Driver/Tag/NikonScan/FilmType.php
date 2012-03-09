@@ -25,4 +25,6 @@ class FilmType extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Film Type';
 
+    protected $flag_Permanent = true;
+
 }

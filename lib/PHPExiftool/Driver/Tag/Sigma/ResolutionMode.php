@@ -25,4 +25,6 @@ class ResolutionMode extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Resolution Mode';
 
+    protected $flag_Permanent = true;
+
 }

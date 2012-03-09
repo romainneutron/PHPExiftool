@@ -25,6 +25,8 @@ class ExposureAdjust extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Exposure Adjust';
 
+    protected $flag_Permanent = true;
+
     protected $Index = 1;
 
 }

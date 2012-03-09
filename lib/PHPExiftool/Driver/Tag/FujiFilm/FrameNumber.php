@@ -25,4 +25,6 @@ class FrameNumber extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Frame Number';
 
+    protected $flag_Permanent = true;
+
 }

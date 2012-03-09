@@ -25,4 +25,6 @@ class PictureWizard extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Picture Wizard';
 
+    protected $flag_Permanent = true;
+
 }

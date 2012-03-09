@@ -25,4 +25,6 @@ class AFGrossStep extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'AF Gross Step';
 
+    protected $flag_Permanent = true;
+
 }

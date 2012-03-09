@@ -25,4 +25,6 @@ class CCDVersion extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'CCD Version';
 
+    protected $flag_Permanent = true;
+
 }

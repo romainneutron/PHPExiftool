@@ -25,4 +25,8 @@ class HierarchicalSubject extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Hierarchical Subject';
 
+    protected $flag_List = true;
+
+    protected $flag_Bag = true;
+
 }

@@ -25,6 +25,8 @@ class HighISONoiseReduction extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'High ISO Noise Reduction';
 
+    protected $flag_Permanent = true;
+
     protected $Values = 'mixed';
 
     protected $Index = 'mixed';

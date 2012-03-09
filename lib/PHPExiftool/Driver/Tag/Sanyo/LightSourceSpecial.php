@@ -25,6 +25,8 @@ class LightSourceSpecial extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Light Source Special';
 
+    protected $flag_Permanent = true;
+
     protected $Values = array(
         0 => array(
             'Id' => 0,

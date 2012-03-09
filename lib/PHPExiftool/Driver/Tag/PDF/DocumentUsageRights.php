@@ -25,4 +25,6 @@ class DocumentUsageRights extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Document Usage Rights';
 
+    protected $flag_List = true;
+
 }

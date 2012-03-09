@@ -25,4 +25,6 @@ class WBScale extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'WB Scale';
 
+    protected $flag_Permanent = true;
+
 }

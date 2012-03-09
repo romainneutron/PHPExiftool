@@ -25,4 +25,6 @@ class DayltConvChrmBP extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Daylt Conv Chrm B P';
 
+    protected $flag_Permanent = true;
+
 }

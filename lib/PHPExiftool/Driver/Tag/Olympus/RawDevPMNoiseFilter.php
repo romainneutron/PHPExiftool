@@ -25,4 +25,6 @@ class RawDevPMNoiseFilter extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Raw Dev PM Noise Filter';
 
+    protected $flag_Permanent = true;
+
 }

@@ -25,4 +25,8 @@ class Ingredients extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Ingredients';
 
+    protected $flag_List = true;
+
+    protected $flag_Bag = true;
+
 }

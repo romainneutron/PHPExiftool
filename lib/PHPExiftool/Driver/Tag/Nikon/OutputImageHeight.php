@@ -25,4 +25,6 @@ class OutputImageHeight extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Output Image Height';
 
+    protected $flag_Permanent = true;
+
 }

@@ -25,6 +25,8 @@ class ShootingInfoDisplay extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Shooting Info Display';
 
+    protected $flag_Permanent = true;
+
     protected $Values = 'mixed';
 
 }

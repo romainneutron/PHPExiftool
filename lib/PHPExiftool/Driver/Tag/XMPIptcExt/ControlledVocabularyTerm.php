@@ -25,4 +25,8 @@ class ControlledVocabularyTerm extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Controlled Vocabulary Term';
 
+    protected $flag_List = true;
+
+    protected $flag_Bag = true;
+
 }

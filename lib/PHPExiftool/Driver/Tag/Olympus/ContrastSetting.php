@@ -25,4 +25,6 @@ class ContrastSetting extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Contrast Setting';
 
+    protected $flag_Permanent = true;
+
 }

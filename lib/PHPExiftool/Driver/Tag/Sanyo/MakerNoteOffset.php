@@ -25,4 +25,6 @@ class MakerNoteOffset extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Maker Note Offset';
 
+    protected $flag_Permanent = true;
+
 }

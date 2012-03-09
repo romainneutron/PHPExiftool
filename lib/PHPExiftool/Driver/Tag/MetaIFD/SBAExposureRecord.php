@@ -25,4 +25,6 @@ class SBAExposureRecord extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'SBA Exposure Record';
 
+    protected $flag_Binary = true;
+
 }

@@ -25,4 +25,6 @@ class RawImageDigest extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Raw Image Digest';
 
+    protected $flag_Unsafe = true;
+
 }

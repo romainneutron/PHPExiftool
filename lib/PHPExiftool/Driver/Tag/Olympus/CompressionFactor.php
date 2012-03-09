@@ -25,4 +25,6 @@ class CompressionFactor extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Compression Factor';
 
+    protected $flag_Permanent = true;
+
 }

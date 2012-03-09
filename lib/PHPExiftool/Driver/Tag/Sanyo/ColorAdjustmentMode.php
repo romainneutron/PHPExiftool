@@ -25,6 +25,8 @@ class ColorAdjustmentMode extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Color Adjustment Mode';
 
+    protected $flag_Permanent = true;
+
     protected $Values = array(
         0 => array(
             'Id' => 0,

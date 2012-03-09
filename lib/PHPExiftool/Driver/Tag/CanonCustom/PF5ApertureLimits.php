@@ -25,4 +25,6 @@ class PF5ApertureLimits extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'PF5 Aperture Limits';
 
+    protected $flag_Permanent = true;
+
 }

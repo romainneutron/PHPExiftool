@@ -25,4 +25,6 @@ class AspectFrame extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Aspect Frame';
 
+    protected $flag_Permanent = true;
+
 }

@@ -25,4 +25,6 @@ class PeripheralIllumPeriphValue extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Peripheral Illum Periph Value';
 
+    protected $flag_Permanent = true;
+
 }

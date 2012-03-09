@@ -25,4 +25,6 @@ class ColorNoiseReductionIntensity extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Color Noise Reduction Intensity';
 
+    protected $flag_Permanent = true;
+
 }

@@ -25,4 +25,6 @@ class BitsPerSample extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Bits Per Sample';
 
+    protected $flag_Unsafe = true;
+
 }

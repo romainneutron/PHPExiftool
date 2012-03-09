@@ -25,4 +25,6 @@ class HJREnable extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'HJR Enable';
 
+    protected $flag_Permanent = true;
+
 }

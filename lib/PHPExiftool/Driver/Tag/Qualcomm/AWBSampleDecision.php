@@ -25,4 +25,6 @@ class AWBSampleDecision extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'AWB Sample Decision';
 
+    protected $flag_Permanent = true;
+
 }

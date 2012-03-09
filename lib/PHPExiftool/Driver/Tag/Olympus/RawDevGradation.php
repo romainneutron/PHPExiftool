@@ -25,4 +25,6 @@ class RawDevGradation extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Raw Dev Gradation';
 
+    protected $flag_Permanent = true;
+
 }

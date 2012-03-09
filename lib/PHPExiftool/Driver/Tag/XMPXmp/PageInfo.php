@@ -25,4 +25,8 @@ class PageInfo extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Page Info';
 
+    protected $flag_List = true;
+
+    protected $flag_Seq = true;
+
 }

@@ -25,6 +25,10 @@ class CameraParameters extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Camera Parameters';
 
+    protected $flag_Binary = true;
+
+    protected $flag_Permanent = true;
+
     protected $Index = 2;
 
 }

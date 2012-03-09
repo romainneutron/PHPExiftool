@@ -25,6 +25,8 @@ class SetButtonCrossKeysFunc extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Set Button Cross Keys Func';
 
+    protected $flag_Permanent = true;
+
     protected $Values = 'mixed';
 
 }

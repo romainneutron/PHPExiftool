@@ -25,4 +25,6 @@ class CroppedImageHeight extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Cropped Image Height';
 
+    protected $flag_Permanent = true;
+
 }

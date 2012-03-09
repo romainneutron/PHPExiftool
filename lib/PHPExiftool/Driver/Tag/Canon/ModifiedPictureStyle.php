@@ -25,6 +25,8 @@ class ModifiedPictureStyle extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Modified Picture Style';
 
+    protected $flag_Permanent = true;
+
     protected $Values = array(
         0 => array(
             'Id' => 0,

@@ -25,6 +25,8 @@ class Shadow extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Shadow';
 
+    protected $flag_Permanent = true;
+
     protected $Index = 'mixed';
 
 }

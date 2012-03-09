@@ -25,4 +25,6 @@ class AWBMaxRGain extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'AWB Max R Gain';
 
+    protected $flag_Permanent = true;
+
 }

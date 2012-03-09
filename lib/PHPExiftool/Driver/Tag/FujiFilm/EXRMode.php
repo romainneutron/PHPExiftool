@@ -25,6 +25,8 @@ class EXRMode extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'EXR Mode';
 
+    protected $flag_Permanent = true;
+
     protected $Values = array(
         256 => array(
             'Id' => 256,

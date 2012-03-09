@@ -25,4 +25,6 @@ class CameraID extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Camera ID';
 
+    protected $flag_Permanent = true;
+
 }

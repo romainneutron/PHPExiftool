@@ -25,6 +25,8 @@ class LCDIllumination extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'LCD Illumination';
 
+    protected $flag_Permanent = true;
+
     protected $Values = 'mixed';
 
 }

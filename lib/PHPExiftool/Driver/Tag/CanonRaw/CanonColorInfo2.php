@@ -25,4 +25,6 @@ class CanonColorInfo2 extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Canon Color Info 2';
 
+    protected $flag_Permanent = true;
+
 }

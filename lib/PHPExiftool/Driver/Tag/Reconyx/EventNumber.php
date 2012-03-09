@@ -25,4 +25,6 @@ class EventNumber extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Event Number';
 
+    protected $flag_Permanent = true;
+
 }

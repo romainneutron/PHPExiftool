@@ -25,4 +25,6 @@ class ImageDataSize extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Image Data Size';
 
+    protected $flag_Permanent = true;
+
 }

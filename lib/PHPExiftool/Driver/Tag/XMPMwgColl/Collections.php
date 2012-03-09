@@ -25,4 +25,8 @@ class Collections extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Collections';
 
+    protected $flag_List = true;
+
+    protected $flag_Bag = true;
+
 }

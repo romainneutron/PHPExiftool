@@ -25,6 +25,8 @@ class BodyBatteryVoltage2 extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Body Battery Voltage 2';
 
+    protected $flag_Permanent = true;
+
     protected $Index = 1;
 
 }

@@ -25,6 +25,8 @@ class FileFormat extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'File Format';
 
+    protected $flag_Permanent = true;
+
     protected $Values = array(
         65536 => array(
             'Id' => 65536,

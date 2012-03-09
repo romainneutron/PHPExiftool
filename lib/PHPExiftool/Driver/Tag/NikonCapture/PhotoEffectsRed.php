@@ -25,4 +25,6 @@ class PhotoEffectsRed extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Photo Effects Red';
 
+    protected $flag_Permanent = true;
+
 }

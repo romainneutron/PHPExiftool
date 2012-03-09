@@ -25,6 +25,8 @@ class ContrastUserDef2 extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Contrast User Def 2';
 
+    protected $flag_Permanent = true;
+
     protected $Values = 'mixed';
 
 }

@@ -25,6 +25,8 @@ class ColorBalanceAdj extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Color Balance Adj';
 
+    protected $flag_Permanent = true;
+
     protected $Values = array(
         0 => array(
             'Id' => 0,

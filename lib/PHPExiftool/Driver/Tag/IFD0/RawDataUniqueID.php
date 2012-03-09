@@ -25,4 +25,6 @@ class RawDataUniqueID extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Raw Data Unique ID';
 
+    protected $flag_Unsafe = true;
+
 }

@@ -25,4 +25,6 @@ class BabyName extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Baby Name';
 
+    protected $flag_Permanent = true;
+
 }

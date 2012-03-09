@@ -25,6 +25,8 @@ class FilterEffectUnknown extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Filter Effect Unknown';
 
+    protected $flag_Permanent = true;
+
     protected $Values = array(
         '-559038737' => array(
             'Id' => '-559038737',

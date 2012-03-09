@@ -25,4 +25,6 @@ class DistortionVersion extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Distortion Version';
 
+    protected $flag_Permanent = true;
+
 }

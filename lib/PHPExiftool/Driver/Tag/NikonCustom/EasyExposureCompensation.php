@@ -25,6 +25,8 @@ class EasyExposureCompensation extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Easy Exposure Compensation';
 
+    protected $flag_Permanent = true;
+
     protected $Values = 'mixed';
 
 }

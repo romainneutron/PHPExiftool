@@ -25,4 +25,6 @@ class CropHiSpeed extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Crop Hi Speed';
 
+    protected $flag_Permanent = true;
+
 }

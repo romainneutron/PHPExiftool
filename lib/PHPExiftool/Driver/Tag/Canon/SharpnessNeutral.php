@@ -25,6 +25,8 @@ class SharpnessNeutral extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Sharpness Neutral';
 
+    protected $flag_Permanent = true;
+
     protected $Values = 'mixed';
 
 }

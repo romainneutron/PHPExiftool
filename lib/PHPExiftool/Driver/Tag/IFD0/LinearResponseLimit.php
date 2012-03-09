@@ -25,4 +25,6 @@ class LinearResponseLimit extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Linear Response Limit';
 
+    protected $flag_Unsafe = true;
+
 }

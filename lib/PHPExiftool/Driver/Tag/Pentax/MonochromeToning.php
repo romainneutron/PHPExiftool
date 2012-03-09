@@ -25,6 +25,8 @@ class MonochromeToning extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Monochrome Toning';
 
+    protected $flag_Permanent = true;
+
     protected $Values = array(
         0 => array(
             'Id' => 0,

@@ -25,6 +25,8 @@ class DynamicAFArea extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Dynamic AF Area';
 
+    protected $flag_Permanent = true;
+
     protected $Values = array(
         0 => array(
             'Id' => 0,

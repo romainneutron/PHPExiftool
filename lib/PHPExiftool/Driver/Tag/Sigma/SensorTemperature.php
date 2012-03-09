@@ -25,4 +25,6 @@ class SensorTemperature extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Sensor Temperature';
 
+    protected $flag_Permanent = true;
+
 }

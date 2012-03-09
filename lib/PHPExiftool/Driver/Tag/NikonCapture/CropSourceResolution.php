@@ -25,4 +25,6 @@ class CropSourceResolution extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Crop Source Resolution';
 
+    protected $flag_Permanent = true;
+
 }

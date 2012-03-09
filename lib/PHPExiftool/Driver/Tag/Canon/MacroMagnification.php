@@ -25,4 +25,6 @@ class MacroMagnification extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Macro Magnification';
 
+    protected $flag_Permanent = true;
+
 }

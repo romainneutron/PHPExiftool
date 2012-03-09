@@ -25,4 +25,10 @@ class URL extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'URL';
 
+    protected $flag_Avoid = true;
+
+    protected $flag_List = true;
+
+    protected $flag_Bag = true;
+
 }

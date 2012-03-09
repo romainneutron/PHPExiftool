@@ -25,4 +25,6 @@ class PF25ImageSize extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'PF25 Image Size';
 
+    protected $flag_Permanent = true;
+
 }

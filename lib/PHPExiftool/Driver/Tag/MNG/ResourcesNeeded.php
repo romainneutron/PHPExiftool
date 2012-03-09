@@ -25,4 +25,6 @@ class ResourcesNeeded extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Resources Needed';
 
+    protected $flag_Binary = true;
+
 }

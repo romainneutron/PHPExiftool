@@ -27,4 +27,6 @@ class PreviewDateTime extends \PHPExiftool\Driver\Tag
 
     protected $local_g2 = 'Time';
 
+    protected $flag_Unsafe = true;
+
 }

@@ -25,6 +25,8 @@ class ContinuousShootingSpeed extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Continuous Shooting Speed';
 
+    protected $flag_Permanent = true;
+
     protected $Values = array(
         0 => array(
             'Id' => 0,

@@ -25,6 +25,8 @@ class SharpnessFrequency extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Sharpness Frequency';
 
+    protected $flag_Permanent = true;
+
     protected $Values = array(
         0 => array(
             'Id' => 0,

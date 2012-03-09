@@ -25,4 +25,6 @@ class FocalRange extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Focal Range';
 
+    protected $flag_Permanent = true;
+
 }

@@ -25,4 +25,6 @@ class DocumentAncestors extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Document Ancestors';
 
+    protected $flag_List = true;
+
 }

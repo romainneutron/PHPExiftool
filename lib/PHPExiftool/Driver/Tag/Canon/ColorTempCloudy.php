@@ -25,4 +25,6 @@ class ColorTempCloudy extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Color Temp Cloudy';
 
+    protected $flag_Permanent = true;
+
 }

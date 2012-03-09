@@ -25,4 +25,6 @@ class AEBBracketValue extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'AEB Bracket Value';
 
+    protected $flag_Permanent = true;
+
 }

@@ -25,4 +25,6 @@ class AWBLowLigColCorEna extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'AWB Low Lig Col Cor Ena';
 
+    protected $flag_Permanent = true;
+
 }

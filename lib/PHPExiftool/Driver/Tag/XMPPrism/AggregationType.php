@@ -25,4 +25,10 @@ class AggregationType extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Aggregation Type';
 
+    protected $flag_Avoid = true;
+
+    protected $flag_List = true;
+
+    protected $flag_Bag = true;
+
 }

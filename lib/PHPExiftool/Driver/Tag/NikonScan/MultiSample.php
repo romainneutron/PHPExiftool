@@ -25,4 +25,6 @@ class MultiSample extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Multi Sample';
 
+    protected $flag_Permanent = true;
+
 }

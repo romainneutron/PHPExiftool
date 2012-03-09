@@ -25,4 +25,6 @@ class CropBottom extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Crop Bottom';
 
+    protected $flag_Permanent = true;
+
 }

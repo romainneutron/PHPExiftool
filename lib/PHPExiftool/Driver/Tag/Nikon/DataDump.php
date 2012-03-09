@@ -25,4 +25,8 @@ class DataDump extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Data Dump';
 
+    protected $flag_Binary = true;
+
+    protected $flag_Permanent = true;
+
 }

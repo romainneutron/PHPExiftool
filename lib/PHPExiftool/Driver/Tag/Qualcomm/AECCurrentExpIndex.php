@@ -25,4 +25,6 @@ class AECCurrentExpIndex extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'AEC Current Exp Index';
 
+    protected $flag_Permanent = true;
+
 }

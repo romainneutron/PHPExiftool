@@ -25,4 +25,6 @@ class About extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'About';
 
+    protected $flag_Unsafe = true;
+
 }

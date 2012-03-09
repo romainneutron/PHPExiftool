@@ -25,6 +25,8 @@ class HighLowKeyAdj extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'High/Low Key Adj';
 
+    protected $flag_Permanent = true;
+
     protected $Values = array(
         '-1 0' => array(
             'Id' => '-1 0',

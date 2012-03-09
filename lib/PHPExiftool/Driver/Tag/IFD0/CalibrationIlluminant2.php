@@ -25,6 +25,8 @@ class CalibrationIlluminant2 extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Calibration Illuminant 2';
 
+    protected $flag_Unsafe = true;
+
     protected $Values = array(
         0 => array(
             'Id' => 0,

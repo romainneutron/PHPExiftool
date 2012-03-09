@@ -25,4 +25,6 @@ class ProfileHueSatMapDims extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Profile Hue Sat Map Dims';
 
+    protected $flag_Unsafe = true;
+
 }

@@ -25,6 +25,8 @@ class ModelingFlash extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Modeling Flash';
 
+    protected $flag_Permanent = true;
+
     protected $Values = 'mixed';
 
 }

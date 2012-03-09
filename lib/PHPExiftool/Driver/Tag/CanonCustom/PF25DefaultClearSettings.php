@@ -25,4 +25,6 @@ class PF25DefaultClearSettings extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'PF25 Default Clear Settings';
 
+    protected $flag_Permanent = true;
+
 }

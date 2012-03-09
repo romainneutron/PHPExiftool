@@ -25,4 +25,6 @@ class R2D65RedCtbl26 extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'R2 D65 Red Ctbl 26';
 
+    protected $flag_Permanent = true;
+
 }

@@ -25,6 +25,8 @@ class AFCPrioritySelection extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'AF-C Priority Selection';
 
+    protected $flag_Permanent = true;
+
     protected $Values = 'mixed';
 
 }

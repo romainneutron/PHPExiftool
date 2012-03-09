@@ -25,4 +25,6 @@ class WordCount extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Word Count';
 
+    protected $flag_Avoid = true;
+
 }

@@ -25,6 +25,8 @@ class MiniatureFilterOrientation extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Miniature Filter Orientation';
 
+    protected $flag_Permanent = true;
+
     protected $Values = array(
         0 => array(
             'Id' => 0,

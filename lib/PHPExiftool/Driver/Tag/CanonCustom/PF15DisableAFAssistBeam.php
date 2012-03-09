@@ -25,4 +25,6 @@ class PF15DisableAFAssistBeam extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'PF15 Disable AF Assist Beam';
 
+    protected $flag_Permanent = true;
+
 }

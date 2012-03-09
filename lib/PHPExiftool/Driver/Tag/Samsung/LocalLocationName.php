@@ -25,4 +25,6 @@ class LocalLocationName extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Local Location Name';
 
+    protected $flag_Permanent = true;
+
 }

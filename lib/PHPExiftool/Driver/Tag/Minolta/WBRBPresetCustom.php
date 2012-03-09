@@ -25,4 +25,6 @@ class WBRBPresetCustom extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'WB RB Preset Custom';
 
+    protected $flag_Permanent = true;
+
 }

@@ -25,4 +25,6 @@ class AmbientTemperature extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Ambient Temperature';
 
+    protected $flag_Permanent = true;
+
 }

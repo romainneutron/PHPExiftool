@@ -25,4 +25,6 @@ class KodakSubIFD30x2007 extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Kodak Sub IFD3 0x2007';
 
+    protected $flag_Permanent = true;
+
 }

@@ -25,4 +25,6 @@ class ShortFocal extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Short Focal';
 
+    protected $flag_Permanent = true;
+
 }

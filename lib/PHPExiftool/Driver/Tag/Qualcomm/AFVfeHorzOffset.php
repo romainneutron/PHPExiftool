@@ -25,4 +25,6 @@ class AFVfeHorzOffset extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'AF Vfe Horz Offset';
 
+    protected $flag_Permanent = true;
+
 }

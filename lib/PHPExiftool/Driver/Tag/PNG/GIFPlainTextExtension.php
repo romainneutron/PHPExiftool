@@ -25,4 +25,6 @@ class GIFPlainTextExtension extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'GIF Plain Text Extension';
 
+    protected $flag_Binary = true;
+
 }

@@ -25,4 +25,6 @@ class PF10RetainProgramShift extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'PF10 Retain Program Shift';
 
+    protected $flag_Permanent = true;
+
 }

@@ -27,4 +27,6 @@ class FrameWidth extends \PHPExiftool\Driver\Tag
 
     protected $local_g2 = 'Video';
 
+    protected $flag_Permanent = true;
+
 }

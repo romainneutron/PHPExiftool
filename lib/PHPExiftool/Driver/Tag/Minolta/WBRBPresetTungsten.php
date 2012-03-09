@@ -25,4 +25,6 @@ class WBRBPresetTungsten extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'WB RB Preset Tungsten';
 
+    protected $flag_Permanent = true;
+
 }

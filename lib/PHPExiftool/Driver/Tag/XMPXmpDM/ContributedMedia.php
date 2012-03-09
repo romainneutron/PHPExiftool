@@ -25,4 +25,8 @@ class ContributedMedia extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Contributed Media';
 
+    protected $flag_List = true;
+
+    protected $flag_Bag = true;
+
 }

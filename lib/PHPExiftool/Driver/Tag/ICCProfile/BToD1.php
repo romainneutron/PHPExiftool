@@ -25,4 +25,6 @@ class BToD1 extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'B To D1';
 
+    protected $flag_Binary = true;
+
 }

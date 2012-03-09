@@ -25,4 +25,6 @@ class Tagged extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Tagged';
 
+    protected $flag_Avoid = true;
+
 }

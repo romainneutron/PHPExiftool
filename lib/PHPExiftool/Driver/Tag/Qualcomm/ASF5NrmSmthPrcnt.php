@@ -25,4 +25,6 @@ class ASF5NrmSmthPrcnt extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'ASF5 Nrm Smth Prcnt';
 
+    protected $flag_Permanent = true;
+
 }

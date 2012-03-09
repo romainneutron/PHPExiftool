@@ -25,4 +25,6 @@ class DataSetTrailingPadding extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Data Set Trailing Padding';
 
+    protected $flag_Binary = true;
+
 }

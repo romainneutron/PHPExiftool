@@ -25,4 +25,6 @@ class ImageHeight extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Image Height';
 
+    protected $flag_Unsafe = true;
+
 }

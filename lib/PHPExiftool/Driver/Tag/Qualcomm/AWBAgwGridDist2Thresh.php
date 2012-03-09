@@ -25,4 +25,6 @@ class AWBAgwGridDist2Thresh extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'AWB Agw Grid Dist 2 Thresh';
 
+    protected $flag_Permanent = true;
+
 }

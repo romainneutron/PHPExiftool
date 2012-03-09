@@ -25,6 +25,8 @@ class LevelOrientation extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Level Orientation';
 
+    protected $flag_Permanent = true;
+
     protected $Values = array(
         1 => array(
             'Id' => 1,

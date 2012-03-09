@@ -25,4 +25,6 @@ class PreviewPNG extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Preview PNG';
 
+    protected $flag_Binary = true;
+
 }

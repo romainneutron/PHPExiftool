@@ -25,4 +25,6 @@ class DefCorC7 extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Def Cor C7';
 
+    protected $flag_Permanent = true;
+
 }

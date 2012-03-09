@@ -25,4 +25,6 @@ class ASF5NrmUpThres extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'ASF5 Nrm Up Thres';
 
+    protected $flag_Permanent = true;
+
 }

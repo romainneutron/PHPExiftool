@@ -25,4 +25,6 @@ class WBBluePresetsFluorescent extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'WB Blue Presets Fluorescent';
 
+    protected $flag_Permanent = true;
+
 }

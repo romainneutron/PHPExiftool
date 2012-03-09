@@ -25,4 +25,6 @@ class ProfileCalibrationSig extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Profile Calibration Sig';
 
+    protected $flag_Unsafe = true;
+
 }

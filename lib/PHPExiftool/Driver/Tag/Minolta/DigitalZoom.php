@@ -25,6 +25,8 @@ class DigitalZoom extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Digital Zoom';
 
+    protected $flag_Permanent = true;
+
     protected $Values = array(
         0 => array(
             'Id' => 0,

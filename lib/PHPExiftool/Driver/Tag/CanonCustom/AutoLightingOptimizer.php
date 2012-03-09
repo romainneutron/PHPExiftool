@@ -25,6 +25,8 @@ class AutoLightingOptimizer extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Auto Lighting Optimizer';
 
+    protected $flag_Permanent = true;
+
     protected $Values = 'mixed';
 
     protected $Index = 'mixed';

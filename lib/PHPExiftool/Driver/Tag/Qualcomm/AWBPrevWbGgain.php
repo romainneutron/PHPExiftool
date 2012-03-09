@@ -25,4 +25,6 @@ class AWBPrevWbGgain extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'AWB Prev Wb Ggain';
 
+    protected $flag_Permanent = true;
+
 }

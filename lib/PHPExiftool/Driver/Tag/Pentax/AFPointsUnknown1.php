@@ -25,6 +25,8 @@ class AFPointsUnknown1 extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'AF Points Unknown 1';
 
+    protected $flag_Permanent = true;
+
     protected $Values = array(
         1 => array(
             'Id' => 1,

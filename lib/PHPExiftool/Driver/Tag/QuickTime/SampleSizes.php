@@ -25,4 +25,6 @@ class SampleSizes extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Sample Sizes';
 
+    protected $flag_Binary = true;
+
 }

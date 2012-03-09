@@ -25,4 +25,6 @@ class AFFineTuneIndex extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'AF Fine Tune Index';
 
+    protected $flag_Permanent = true;
+
 }

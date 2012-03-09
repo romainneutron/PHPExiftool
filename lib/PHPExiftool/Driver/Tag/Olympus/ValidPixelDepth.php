@@ -25,4 +25,6 @@ class ValidPixelDepth extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Valid Pixel Depth';
 
+    protected $flag_Permanent = true;
+
 }

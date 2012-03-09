@@ -25,4 +25,6 @@ class Title extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Title';
 
+    protected $flag_Avoid = true;
+
 }

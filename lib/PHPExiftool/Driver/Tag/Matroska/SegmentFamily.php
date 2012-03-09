@@ -25,4 +25,6 @@ class SegmentFamily extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Segment Family';
 
+    protected $flag_Binary = true;
+
 }

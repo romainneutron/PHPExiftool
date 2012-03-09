@@ -25,4 +25,6 @@ class ToyCameraFilter extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Toy Camera Filter';
 
+    protected $flag_Permanent = true;
+
 }

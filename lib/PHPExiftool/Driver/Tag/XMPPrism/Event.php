@@ -25,4 +25,10 @@ class Event extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Event';
 
+    protected $flag_Avoid = true;
+
+    protected $flag_List = true;
+
+    protected $flag_Bag = true;
+
 }

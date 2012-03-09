@@ -25,6 +25,8 @@ class LuminanceNoiseReduction extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Luminance Noise Reduction';
 
+    protected $flag_Permanent = true;
+
     protected $Index = 1;
 
 }

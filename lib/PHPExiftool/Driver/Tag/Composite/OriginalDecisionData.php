@@ -27,4 +27,6 @@ class OriginalDecisionData extends \PHPExiftool\Driver\Tag
 
     protected $local_g2 = 'Camera';
 
+    protected $flag_Unsafe = true;
+
 }

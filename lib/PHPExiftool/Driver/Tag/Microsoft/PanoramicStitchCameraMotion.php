@@ -25,6 +25,8 @@ class PanoramicStitchCameraMotion extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Panoramic Stitch Camera Motion';
 
+    protected $flag_Permanent = true;
+
     protected $Values = array(
         2 => array(
             'Id' => 2,

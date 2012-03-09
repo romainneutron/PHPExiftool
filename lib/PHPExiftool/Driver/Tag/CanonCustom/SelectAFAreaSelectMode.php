@@ -25,6 +25,8 @@ class SelectAFAreaSelectMode extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Select AF Area Select Mode';
 
+    protected $flag_Permanent = true;
+
     protected $Values = array(
         0 => array(
             'Id' => 0,

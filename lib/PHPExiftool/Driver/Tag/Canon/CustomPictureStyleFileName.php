@@ -25,4 +25,6 @@ class CustomPictureStyleFileName extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Custom Picture Style File Name';
 
+    protected $flag_Permanent = true;
+
 }

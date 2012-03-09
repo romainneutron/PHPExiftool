@@ -25,4 +25,6 @@ class SensorTopBorder extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Sensor Top Border';
 
+    protected $flag_Permanent = true;
+
 }

@@ -25,4 +25,6 @@ class PictureControlVersion extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Picture Control Version';
 
+    protected $flag_Permanent = true;
+
 }

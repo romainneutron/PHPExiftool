@@ -25,4 +25,6 @@ class RicohImageWidth extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Ricoh Image Width';
 
+    protected $flag_Permanent = true;
+
 }

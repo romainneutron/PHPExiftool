@@ -25,4 +25,6 @@ class ImageProcessing extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Image Processing';
 
+    protected $flag_Permanent = true;
+
 }

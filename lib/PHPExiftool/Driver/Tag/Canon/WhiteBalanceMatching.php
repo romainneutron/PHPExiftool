@@ -25,4 +25,6 @@ class WhiteBalanceMatching extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'White Balance Matching';
 
+    protected $flag_Permanent = true;
+
 }

@@ -25,6 +25,8 @@ class ShutterReleaseNoCFCard extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Shutter Release W/O CF Card';
 
+    protected $flag_Permanent = true;
+
     protected $Values = array(
         0 => array(
             'Id' => 0,

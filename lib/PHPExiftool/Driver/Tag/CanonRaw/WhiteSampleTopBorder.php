@@ -25,4 +25,6 @@ class WhiteSampleTopBorder extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'White Sample Top Border';
 
+    protected $flag_Permanent = true;
+
 }

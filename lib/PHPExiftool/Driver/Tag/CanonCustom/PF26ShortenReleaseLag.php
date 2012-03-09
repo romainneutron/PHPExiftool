@@ -25,4 +25,6 @@ class PF26ShortenReleaseLag extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'PF26 Shorten Release Lag';
 
+    protected $flag_Permanent = true;
+
 }

@@ -25,4 +25,6 @@ class ToneCurveMatching extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Tone Curve Matching';
 
+    protected $flag_Permanent = true;
+
 }

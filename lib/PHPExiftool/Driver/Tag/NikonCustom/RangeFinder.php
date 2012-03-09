@@ -25,6 +25,8 @@ class RangeFinder extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Range Finder';
 
+    protected $flag_Permanent = true;
+
     protected $Values = array(
         0 => array(
             'Id' => 0,

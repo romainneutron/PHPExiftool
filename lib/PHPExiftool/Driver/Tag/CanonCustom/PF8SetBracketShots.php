@@ -25,4 +25,6 @@ class PF8SetBracketShots extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'PF8 Set Bracket Shots';
 
+    protected $flag_Permanent = true;
+
 }

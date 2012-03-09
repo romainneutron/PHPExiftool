@@ -25,6 +25,8 @@ class ISOExpansion extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'ISO Expansion';
 
+    protected $flag_Permanent = true;
+
     protected $Index = 1;
 
     protected $Values = array(

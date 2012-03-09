@@ -25,4 +25,6 @@ class BlackMaskTopBorder extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Black Mask Top Border';
 
+    protected $flag_Permanent = true;
+
 }

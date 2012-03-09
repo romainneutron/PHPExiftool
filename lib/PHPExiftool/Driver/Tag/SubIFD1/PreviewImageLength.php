@@ -27,6 +27,8 @@ class PreviewImageLength extends \PHPExiftool\Driver\Tag
 
     protected $local_g1 = 'SubIFD1';
 
+    protected $flag_Protected = true;
+
     protected $Index = 3;
 
 }

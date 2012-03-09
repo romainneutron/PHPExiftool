@@ -25,4 +25,6 @@ class ColorTempFlash extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Color Temp Flash';
 
+    protected $flag_Permanent = true;
+
 }

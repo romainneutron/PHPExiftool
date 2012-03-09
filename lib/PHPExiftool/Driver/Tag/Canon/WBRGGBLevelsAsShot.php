@@ -25,4 +25,6 @@ class WBRGGBLevelsAsShot extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'WB RGGB Levels As Shot';
 
+    protected $flag_Permanent = true;
+
 }

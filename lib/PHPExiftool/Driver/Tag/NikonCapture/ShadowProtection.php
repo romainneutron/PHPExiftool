@@ -25,4 +25,6 @@ class ShadowProtection extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Shadow Protection';
 
+    protected $flag_Permanent = true;
+
 }

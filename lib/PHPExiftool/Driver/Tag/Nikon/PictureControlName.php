@@ -25,4 +25,6 @@ class PictureControlName extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Picture Control Name';
 
+    protected $flag_Permanent = true;
+
 }

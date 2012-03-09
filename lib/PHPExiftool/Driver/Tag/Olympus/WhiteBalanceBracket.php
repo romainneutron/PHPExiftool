@@ -25,4 +25,6 @@ class WhiteBalanceBracket extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'White Balance Bracket';
 
+    protected $flag_Permanent = true;
+
 }

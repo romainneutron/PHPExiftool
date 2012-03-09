@@ -25,4 +25,6 @@ class AWBRedGainAdjRef8 extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'AWB Red Gain Adj Ref8';
 
+    protected $flag_Permanent = true;
+
 }

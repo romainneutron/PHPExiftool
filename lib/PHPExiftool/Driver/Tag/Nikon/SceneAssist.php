@@ -25,4 +25,6 @@ class SceneAssist extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Scene Assist';
 
+    protected $flag_Permanent = true;
+
 }

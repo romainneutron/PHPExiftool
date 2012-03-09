@@ -25,4 +25,6 @@ class WBBlueLevel extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'WB Blue Level';
 
+    protected $flag_Permanent = true;
+
 }

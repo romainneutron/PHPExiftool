@@ -25,4 +25,6 @@ class BurstShot extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Burst Shot';
 
+    protected $flag_Permanent = true;
+
 }

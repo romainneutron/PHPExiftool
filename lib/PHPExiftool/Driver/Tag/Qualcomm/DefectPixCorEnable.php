@@ -25,4 +25,6 @@ class DefectPixCorEnable extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Defect Pix Cor Enable';
 
+    protected $flag_Permanent = true;
+
 }

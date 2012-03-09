@@ -25,4 +25,6 @@ class SynchronizedLyricText extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Synchronized Lyric Text';
 
+    protected $flag_Binary = true;
+
 }

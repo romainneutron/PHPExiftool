@@ -25,4 +25,6 @@ class WBRBLevelsDaylightFluor extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'WB RB Levels Daylight Fluor';
 
+    protected $flag_Permanent = true;
+
 }

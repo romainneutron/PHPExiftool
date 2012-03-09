@@ -25,4 +25,6 @@ class ExposureShift extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Exposure Shift';
 
+    protected $flag_Permanent = true;
+
 }

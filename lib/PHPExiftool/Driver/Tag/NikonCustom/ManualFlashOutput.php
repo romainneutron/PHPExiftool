@@ -25,4 +25,6 @@ class ManualFlashOutput extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Manual Flash Output';
 
+    protected $flag_Permanent = true;
+
 }

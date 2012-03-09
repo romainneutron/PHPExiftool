@@ -25,4 +25,6 @@ class ColorGain extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Color Gain';
 
+    protected $flag_Permanent = true;
+
 }

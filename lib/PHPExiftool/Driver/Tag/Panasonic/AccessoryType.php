@@ -25,4 +25,6 @@ class AccessoryType extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Accessory Type';
 
+    protected $flag_Permanent = true;
+
 }

@@ -25,4 +25,6 @@ class OlympusImageHeight extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Olympus Image Height';
 
+    protected $flag_Permanent = true;
+
 }

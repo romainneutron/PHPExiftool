@@ -25,4 +25,6 @@ class BaselineSharpness extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Baseline Sharpness';
 
+    protected $flag_Unsafe = true;
+
 }

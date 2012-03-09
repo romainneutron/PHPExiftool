@@ -25,4 +25,6 @@ class CCDBoardVersion extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'CCD Board Version';
 
+    protected $flag_Permanent = true;
+
 }

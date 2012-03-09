@@ -25,6 +25,8 @@ class CPUSubtype extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'CPU Subtype';
 
+    protected $flag_List = true;
+
     protected $Values = array(
         '1 0' => array(
             'Id' => '1 0',

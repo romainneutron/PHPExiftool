@@ -25,4 +25,6 @@ class AWBCcBias extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'AWB Cc Bias';
 
+    protected $flag_Permanent = true;
+
 }

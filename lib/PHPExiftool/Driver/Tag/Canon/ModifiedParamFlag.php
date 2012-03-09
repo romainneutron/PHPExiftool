@@ -25,4 +25,6 @@ class ModifiedParamFlag extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Modified Param Flag';
 
+    protected $flag_Permanent = true;
+
 }

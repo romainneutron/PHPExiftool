@@ -25,6 +25,8 @@ class ToningEffectUserDef3 extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Toning Effect User Def 3';
 
+    protected $flag_Permanent = true;
+
     protected $Values = array(
         '-559038737' => array(
             'Id' => '-559038737',

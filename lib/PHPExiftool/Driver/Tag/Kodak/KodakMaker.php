@@ -25,4 +25,6 @@ class KodakMaker extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Kodak Maker';
 
+    protected $flag_Permanent = true;
+
 }

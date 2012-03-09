@@ -25,6 +25,8 @@ class GripBatteryState extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Grip Battery State';
 
+    protected $flag_Permanent = true;
+
     protected $Values = array(
         1 => array(
             'Id' => 1,

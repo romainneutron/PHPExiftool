@@ -25,4 +25,6 @@ class EIssn extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'E Issn';
 
+    protected $flag_Avoid = true;
+
 }

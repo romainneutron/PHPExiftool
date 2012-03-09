@@ -25,4 +25,6 @@ class PanoramaCropLeft extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Panorama Crop Left';
 
+    protected $flag_Permanent = true;
+
 }

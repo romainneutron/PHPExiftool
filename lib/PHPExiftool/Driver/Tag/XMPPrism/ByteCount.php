@@ -25,4 +25,6 @@ class ByteCount extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Byte Count';
 
+    protected $flag_Avoid = true;
+
 }

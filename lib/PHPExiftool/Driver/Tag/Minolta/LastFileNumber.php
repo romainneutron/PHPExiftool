@@ -25,4 +25,6 @@ class LastFileNumber extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Last File Number';
 
+    protected $flag_Permanent = true;
+
 }

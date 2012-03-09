@@ -25,4 +25,6 @@ class SpecialMode extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Special Mode';
 
+    protected $flag_Permanent = true;
+
 }

@@ -25,6 +25,8 @@ class ISOAutoParameters extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'ISO Auto Parameters';
 
+    protected $flag_Permanent = true;
+
     protected $Values = array(
         '1 0' => array(
             'Id' => '1 0',

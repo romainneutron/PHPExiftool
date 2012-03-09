@@ -25,4 +25,6 @@ class PanoramaSourceWidth extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Panorama Source Width';
 
+    protected $flag_Permanent = true;
+
 }

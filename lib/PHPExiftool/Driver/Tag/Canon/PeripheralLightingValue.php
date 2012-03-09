@@ -25,4 +25,6 @@ class PeripheralLightingValue extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Peripheral Lighting Value';
 
+    protected $flag_Permanent = true;
+
 }

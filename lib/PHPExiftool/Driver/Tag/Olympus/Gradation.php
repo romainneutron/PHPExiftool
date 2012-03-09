@@ -25,6 +25,8 @@ class Gradation extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Gradation';
 
+    protected $flag_Permanent = true;
+
     protected $Values = array(
         '-1 -1 1' => array(
             'Id' => '-1 -1 1',

@@ -25,6 +25,8 @@ class PentaxModelID extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Pentax Model ID';
 
+    protected $flag_Permanent = true;
+
     protected $Values = array(
         13 => array(
             'Id' => 13,

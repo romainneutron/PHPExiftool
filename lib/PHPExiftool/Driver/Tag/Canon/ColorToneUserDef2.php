@@ -25,6 +25,8 @@ class ColorToneUserDef2 extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Color Tone User Def 2';
 
+    protected $flag_Permanent = true;
+
     protected $Values = 'mixed';
 
 }

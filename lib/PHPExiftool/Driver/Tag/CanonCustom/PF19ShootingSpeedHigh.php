@@ -25,4 +25,6 @@ class PF19ShootingSpeedHigh extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'PF19 Shooting Speed High';
 
+    protected $flag_Permanent = true;
+
 }

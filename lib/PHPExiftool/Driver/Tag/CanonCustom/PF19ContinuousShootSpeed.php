@@ -25,4 +25,6 @@ class PF19ContinuousShootSpeed extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'PF19 Continuous Shoot Speed';
 
+    protected $flag_Permanent = true;
+
 }

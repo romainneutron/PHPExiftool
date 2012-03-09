@@ -25,4 +25,6 @@ class PF17DisableAFPointSel extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'PF17 Disable AF Point Sel';
 
+    protected $flag_Permanent = true;
+
 }

@@ -25,4 +25,6 @@ class WBRBPresetShade extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'WB RB Preset Shade';
 
+    protected $flag_Permanent = true;
+
 }

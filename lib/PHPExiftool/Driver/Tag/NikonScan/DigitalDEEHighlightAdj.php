@@ -25,4 +25,6 @@ class DigitalDEEHighlightAdj extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Digital DEE Highlight Adj';
 
+    protected $flag_Permanent = true;
+
 }

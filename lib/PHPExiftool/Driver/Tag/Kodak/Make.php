@@ -25,4 +25,6 @@ class Make extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Make';
 
+    protected $flag_Permanent = true;
+
 }

@@ -25,4 +25,8 @@ class ZoomedPreviewStart extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Zoomed Preview Start';
 
+    protected $flag_Permanent = true;
+
+    protected $flag_Protected = true;
+
 }

@@ -25,4 +25,6 @@ class CropHeight extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Crop Height';
 
+    protected $flag_Permanent = true;
+
 }

@@ -25,4 +25,6 @@ class PF25Parameters extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'PF25 Parameters';
 
+    protected $flag_Permanent = true;
+
 }

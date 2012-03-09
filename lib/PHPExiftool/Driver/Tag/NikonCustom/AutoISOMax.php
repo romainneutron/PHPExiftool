@@ -25,6 +25,8 @@ class AutoISOMax extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Auto ISO Max';
 
+    protected $flag_Permanent = true;
+
     protected $Values = 'mixed';
 
 }

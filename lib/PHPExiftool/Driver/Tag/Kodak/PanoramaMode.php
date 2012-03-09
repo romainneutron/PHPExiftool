@@ -25,4 +25,6 @@ class PanoramaMode extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Panorama Mode';
 
+    protected $flag_Permanent = true;
+
 }

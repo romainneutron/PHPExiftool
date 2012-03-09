@@ -25,6 +25,8 @@ class SequenceShotInterval extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Sequence Shot Interval';
 
+    protected $flag_Permanent = true;
+
     protected $Values = array(
         0 => array(
             'Id' => 0,

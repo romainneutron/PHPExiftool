@@ -25,4 +25,8 @@ class Licensee extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Licensee';
 
+    protected $flag_List = true;
+
+    protected $flag_Seq = true;
+
 }

@@ -25,4 +25,6 @@ class TimeSincePowerOn extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Time Since Power On';
 
+    protected $flag_Permanent = true;
+
 }

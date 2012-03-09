@@ -25,4 +25,8 @@ class UserFields extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'User Fields';
 
+    protected $flag_List = true;
+
+    protected $flag_Bag = true;
+
 }

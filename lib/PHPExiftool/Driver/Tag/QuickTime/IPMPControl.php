@@ -25,4 +25,6 @@ class IPMPControl extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'IPMP Control';
 
+    protected $flag_Binary = true;
+
 }

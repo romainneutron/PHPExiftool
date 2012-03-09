@@ -25,4 +25,6 @@ class DirectoryNumber extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Directory Number';
 
+    protected $flag_Permanent = true;
+
 }

@@ -25,4 +25,8 @@ class ModelAge extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Model Age';
 
+    protected $flag_List = true;
+
+    protected $flag_Bag = true;
+
 }

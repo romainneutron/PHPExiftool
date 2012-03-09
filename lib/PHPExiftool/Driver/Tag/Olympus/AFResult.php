@@ -25,4 +25,6 @@ class AFResult extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'AF Result';
 
+    protected $flag_Permanent = true;
+
 }

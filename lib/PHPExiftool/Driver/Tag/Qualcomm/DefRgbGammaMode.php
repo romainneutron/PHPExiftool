@@ -25,4 +25,6 @@ class DefRgbGammaMode extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Def Rgb Gamma Mode';
 
+    protected $flag_Permanent = true;
+
 }

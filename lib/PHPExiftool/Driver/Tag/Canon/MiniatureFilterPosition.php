@@ -25,4 +25,6 @@ class MiniatureFilterPosition extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Miniature Filter Position';
 
+    protected $flag_Permanent = true;
+
 }

@@ -25,4 +25,6 @@ class PreviewSettingsDigest extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Preview Settings Digest';
 
+    protected $flag_Unsafe = true;
+
 }

@@ -25,6 +25,8 @@ class ShootingMode extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Shooting Mode';
 
+    protected $flag_Permanent = true;
+
     protected $Values = array(
         1 => array(
             'Id' => 1,

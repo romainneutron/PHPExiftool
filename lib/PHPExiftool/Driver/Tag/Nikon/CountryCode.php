@@ -25,4 +25,6 @@ class CountryCode extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Country Code';
 
+    protected $flag_Permanent = true;
+
 }

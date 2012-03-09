@@ -25,4 +25,6 @@ class InstantPlaybackTime extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Instant Playback Time';
 
+    protected $flag_Permanent = true;
+
 }

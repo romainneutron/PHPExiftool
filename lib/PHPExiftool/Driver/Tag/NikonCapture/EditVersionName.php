@@ -25,4 +25,6 @@ class EditVersionName extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Edit Version Name';
 
+    protected $flag_Permanent = true;
+
 }

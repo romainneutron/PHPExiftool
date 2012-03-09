@@ -25,4 +25,6 @@ class ChroSupLumaThres2 extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Chro Sup Luma Thres 2';
 
+    protected $flag_Permanent = true;
+
 }

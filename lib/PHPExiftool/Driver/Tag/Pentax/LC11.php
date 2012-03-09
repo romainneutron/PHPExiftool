@@ -25,4 +25,6 @@ class LC11 extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'LC11';
 
+    protected $flag_Permanent = true;
+
 }

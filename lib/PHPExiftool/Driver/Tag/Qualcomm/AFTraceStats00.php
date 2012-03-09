@@ -25,4 +25,6 @@ class AFTraceStats00 extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'AF Trace Stats 00';
 
+    protected $flag_Permanent = true;
+
 }

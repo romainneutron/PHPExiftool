@@ -25,4 +25,6 @@ class ASF3Enable extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'ASF3 Enable';
 
+    protected $flag_Permanent = true;
+
 }

@@ -25,4 +25,6 @@ class DateTimeStamp extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Date Time Stamp';
 
+    protected $flag_Permanent = true;
+
 }

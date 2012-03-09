@@ -25,6 +25,8 @@ class FocalType extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Focal Type';
 
+    protected $flag_Permanent = true;
+
     protected $Values = 'mixed';
 
 }

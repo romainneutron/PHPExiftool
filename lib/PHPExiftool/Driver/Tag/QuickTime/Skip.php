@@ -25,4 +25,6 @@ class Skip extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Skip';
 
+    protected $flag_Binary = true;
+
 }

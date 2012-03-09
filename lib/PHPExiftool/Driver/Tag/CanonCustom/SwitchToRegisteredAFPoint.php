@@ -25,6 +25,8 @@ class SwitchToRegisteredAFPoint extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Switch To Registered AF Point';
 
+    protected $flag_Permanent = true;
+
     protected $Values = 'mixed';
 
     protected $Index = 'mixed';

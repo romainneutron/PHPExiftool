@@ -25,4 +25,6 @@ class FlashLevel extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Flash Level';
 
+    protected $flag_Permanent = true;
+
 }

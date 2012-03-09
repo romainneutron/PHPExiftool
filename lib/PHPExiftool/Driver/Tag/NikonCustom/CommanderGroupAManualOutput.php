@@ -25,4 +25,6 @@ class CommanderGroupAManualOutput extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Commander Group A Manual Output';
 
+    protected $flag_Permanent = true;
+
 }

@@ -25,4 +25,6 @@ class ASF5Filter1A14 extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'ASF5 Filter1 A14';
 
+    protected $flag_Permanent = true;
+
 }

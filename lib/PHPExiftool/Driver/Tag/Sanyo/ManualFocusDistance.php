@@ -25,4 +25,6 @@ class ManualFocusDistance extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Manual Focus Distance';
 
+    protected $flag_Permanent = true;
+
 }

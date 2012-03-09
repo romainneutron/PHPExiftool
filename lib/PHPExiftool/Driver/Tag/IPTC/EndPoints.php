@@ -25,4 +25,6 @@ class EndPoints extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'End Points';
 
+    protected $flag_Binary = true;
+
 }

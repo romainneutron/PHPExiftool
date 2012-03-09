@@ -25,4 +25,6 @@ class AFStepsNearFar extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'AF Steps Near Far';
 
+    protected $flag_Permanent = true;
+
 }

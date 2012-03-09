@@ -25,4 +25,6 @@ class RepeatingFlashRate extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Repeating Flash Rate';
 
+    protected $flag_Permanent = true;
+
 }

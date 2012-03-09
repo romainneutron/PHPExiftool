@@ -25,6 +25,8 @@ class BodyBatteryADLoad extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Body Battery A/D Load';
 
+    protected $flag_Permanent = true;
+
     protected $Index = 'mixed';
 
 }

@@ -25,6 +25,8 @@ class EVStepSize extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'EV Step Size';
 
+    protected $flag_Permanent = true;
+
     protected $Values = 'mixed';
 
 }

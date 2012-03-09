@@ -25,4 +25,6 @@ class SensorFmt extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Sensor Fmt';
 
+    protected $flag_Permanent = true;
+
 }

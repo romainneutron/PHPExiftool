@@ -25,6 +25,8 @@ class ContrastMode extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Contrast Mode';
 
+    protected $flag_Permanent = true;
+
     protected $Values = 'mixed';
 
     protected $Index = 'mixed';

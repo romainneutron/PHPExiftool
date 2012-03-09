@@ -25,4 +25,6 @@ class AFAreaXPosition extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'AF Area X Position';
 
+    protected $flag_Permanent = true;
+
 }

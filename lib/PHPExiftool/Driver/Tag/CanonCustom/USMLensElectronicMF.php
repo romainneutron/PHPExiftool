@@ -25,6 +25,8 @@ class USMLensElectronicMF extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'USM Lens Electronic MF';
 
+    protected $flag_Permanent = true;
+
     protected $Values = 'mixed';
 
 }

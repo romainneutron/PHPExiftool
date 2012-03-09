@@ -25,6 +25,8 @@ class RawDevPMBWFilter extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Raw Dev PM BW Filter';
 
+    protected $flag_Permanent = true;
+
     protected $Values = array(
         1 => array(
             'Id' => 1,

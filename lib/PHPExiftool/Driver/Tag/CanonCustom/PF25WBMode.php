@@ -25,4 +25,6 @@ class PF25WBMode extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'PF25 WB Mode';
 
+    protected $flag_Permanent = true;
+
 }

@@ -25,4 +25,6 @@ class ASF5Enable extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'ASF5 Enable';
 
+    protected $flag_Permanent = true;
+
 }

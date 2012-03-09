@@ -25,4 +25,6 @@ class WBRBPresetDaylight extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'WB RB Preset Daylight';
 
+    protected $flag_Permanent = true;
+
 }

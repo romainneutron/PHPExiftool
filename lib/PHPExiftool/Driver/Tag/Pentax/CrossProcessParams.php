@@ -25,4 +25,6 @@ class CrossProcessParams extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Cross Process Params';
 
+    protected $flag_Permanent = true;
+
 }

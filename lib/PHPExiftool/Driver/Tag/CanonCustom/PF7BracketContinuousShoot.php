@@ -25,4 +25,6 @@ class PF7BracketContinuousShoot extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'PF7 Bracket Continuous Shoot';
 
+    protected $flag_Permanent = true;
+
 }

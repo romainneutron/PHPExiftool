@@ -25,4 +25,6 @@ class ExposureBias extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Exposure Bias';
 
+    protected $flag_Permanent = true;
+
 }

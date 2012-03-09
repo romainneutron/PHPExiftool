@@ -25,4 +25,6 @@ class PF31OriginalDecisionData extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'PF31 Original Decision Data';
 
+    protected $flag_Permanent = true;
+
 }

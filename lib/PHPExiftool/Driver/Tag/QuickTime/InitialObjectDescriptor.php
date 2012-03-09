@@ -25,4 +25,6 @@ class InitialObjectDescriptor extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Initial Object Descriptor';
 
+    protected $flag_Binary = true;
+
 }

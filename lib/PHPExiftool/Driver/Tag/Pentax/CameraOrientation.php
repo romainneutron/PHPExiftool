@@ -25,6 +25,8 @@ class CameraOrientation extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Camera Orientation';
 
+    protected $flag_Permanent = true;
+
     protected $Values = array(
         16 => array(
             'Id' => 16,

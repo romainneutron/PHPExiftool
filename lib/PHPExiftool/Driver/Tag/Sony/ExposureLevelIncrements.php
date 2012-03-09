@@ -25,6 +25,8 @@ class ExposureLevelIncrements extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Exposure Level Increments';
 
+    protected $flag_Permanent = true;
+
     protected $Values = array(
         33 => array(
             'Id' => 33,

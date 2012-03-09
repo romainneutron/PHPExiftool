@@ -25,4 +25,6 @@ class MusicCDIdentifier extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Music CD Identifier';
 
+    protected $flag_Binary = true;
+
 }

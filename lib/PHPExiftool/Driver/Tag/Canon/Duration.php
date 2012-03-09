@@ -25,4 +25,6 @@ class Duration extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Duration';
 
+    protected $flag_Permanent = true;
+
 }

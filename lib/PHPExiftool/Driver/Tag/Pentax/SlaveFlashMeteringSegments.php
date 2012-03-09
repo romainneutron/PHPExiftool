@@ -25,4 +25,6 @@ class SlaveFlashMeteringSegments extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Slave Flash Metering Segments';
 
+    protected $flag_Permanent = true;
+
 }

@@ -25,4 +25,6 @@ class AECSnapshotLineCount extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'AEC Snapshot Line Count';
 
+    protected $flag_Permanent = true;
+
 }

@@ -25,4 +25,6 @@ class FormExtraUsageRights extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Form Extra Usage Rights';
 
+    protected $flag_List = true;
+
 }

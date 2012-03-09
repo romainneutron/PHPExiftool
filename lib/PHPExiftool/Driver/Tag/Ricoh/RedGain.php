@@ -25,4 +25,6 @@ class RedGain extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Red Gain';
 
+    protected $flag_Permanent = true;
+
 }

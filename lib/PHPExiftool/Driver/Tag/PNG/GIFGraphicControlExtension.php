@@ -25,4 +25,6 @@ class GIFGraphicControlExtension extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'GIF Graphic Control Extension';
 
+    protected $flag_Binary = true;
+
 }

@@ -25,4 +25,6 @@ class PictureModeSaturation extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Picture Mode Saturation';
 
+    protected $flag_Permanent = true;
+
 }

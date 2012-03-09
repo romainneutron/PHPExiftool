@@ -25,4 +25,8 @@ class CopyrightOwner extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Copyright Owner';
 
+    protected $flag_List = true;
+
+    protected $flag_Seq = true;
+
 }

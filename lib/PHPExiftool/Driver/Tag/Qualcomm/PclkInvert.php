@@ -25,4 +25,6 @@ class PclkInvert extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Pclk Invert';
 
+    protected $flag_Permanent = true;
+
 }

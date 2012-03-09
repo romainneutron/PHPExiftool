@@ -25,4 +25,6 @@ class Type extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Type';
 
+    protected $flag_Avoid = true;
+
 }

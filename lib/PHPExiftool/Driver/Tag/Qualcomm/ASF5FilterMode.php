@@ -25,4 +25,6 @@ class ASF5FilterMode extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'ASF5 Filter Mode';
 
+    protected $flag_Permanent = true;
+
 }

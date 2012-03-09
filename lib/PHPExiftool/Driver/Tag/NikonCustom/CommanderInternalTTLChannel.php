@@ -25,6 +25,8 @@ class CommanderInternalTTLChannel extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Commander Internal TTL Channel';
 
+    protected $flag_Permanent = true;
+
     protected $Values = array(
         0 => array(
             'Id' => 0,

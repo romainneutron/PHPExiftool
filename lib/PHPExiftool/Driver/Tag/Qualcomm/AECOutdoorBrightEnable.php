@@ -25,4 +25,6 @@ class AECOutdoorBrightEnable extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'AEC Outdoor Bright Enable';
 
+    protected $flag_Permanent = true;
+
 }

@@ -25,6 +25,8 @@ class CameraByteOrder extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Camera Byte Order';
 
+    protected $flag_Permanent = true;
+
     protected $Values = array(
         'II' => array(
             'Id' => 'II',

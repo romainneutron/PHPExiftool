@@ -25,6 +25,8 @@ class FileNumberSequence extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'File Number Sequence';
 
+    protected $flag_Permanent = true;
+
     protected $Values = 'mixed';
 
     protected $Index = 'mixed';

@@ -25,4 +25,6 @@ class SensrFulWdth extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Sensr Ful Wdth';
 
+    protected $flag_Permanent = true;
+
 }

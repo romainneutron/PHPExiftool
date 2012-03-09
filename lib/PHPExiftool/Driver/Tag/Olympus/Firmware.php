@@ -25,4 +25,6 @@ class Firmware extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Firmware';
 
+    protected $flag_Permanent = true;
+
 }

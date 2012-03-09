@@ -25,4 +25,6 @@ class MultiExposureShots extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Multi Exposure Shots';
 
+    protected $flag_Permanent = true;
+
 }

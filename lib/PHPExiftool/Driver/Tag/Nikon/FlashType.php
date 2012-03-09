@@ -25,4 +25,6 @@ class FlashType extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Flash Type';
 
+    protected $flag_Permanent = true;
+
 }

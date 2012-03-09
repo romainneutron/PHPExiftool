@@ -25,6 +25,12 @@ class OriginPlatform extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Origin Platform';
 
+    protected $flag_Avoid = true;
+
+    protected $flag_List = true;
+
+    protected $flag_Bag = true;
+
     protected $Values = array(
         'broadcast' => array(
             'Id' => 'broadcast',

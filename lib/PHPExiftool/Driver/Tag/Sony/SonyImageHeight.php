@@ -25,4 +25,6 @@ class SonyImageHeight extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Sony Image Height';
 
+    protected $flag_Permanent = true;
+
 }

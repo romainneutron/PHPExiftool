@@ -25,6 +25,8 @@ class DateStampMode extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Date Stamp Mode';
 
+    protected $flag_Permanent = true;
+
     protected $Values = array(
         0 => array(
             'Id' => 0,

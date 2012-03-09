@@ -25,4 +25,6 @@ class ISSN extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'ISSN';
 
+    protected $flag_Avoid = true;
+
 }

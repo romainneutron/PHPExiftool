@@ -25,6 +25,8 @@ class VignettingCorrection extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Vignetting Correction';
 
+    protected $flag_Permanent = true;
+
     protected $Values = array(
         0 => array(
             'Id' => 0,

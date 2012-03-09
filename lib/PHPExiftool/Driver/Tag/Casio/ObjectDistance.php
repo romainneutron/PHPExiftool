@@ -25,4 +25,6 @@ class ObjectDistance extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Object Distance';
 
+    protected $flag_Permanent = true;
+
 }

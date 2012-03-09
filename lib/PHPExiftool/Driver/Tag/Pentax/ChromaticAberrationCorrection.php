@@ -25,6 +25,8 @@ class ChromaticAberrationCorrection extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Chromatic Aberration Correction';
 
+    protected $flag_Permanent = true;
+
     protected $Values = array(
         0 => array(
             'Id' => 0,

@@ -25,4 +25,6 @@ class ThumbnailFileName extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Thumbnail File Name';
 
+    protected $flag_Permanent = true;
+
 }

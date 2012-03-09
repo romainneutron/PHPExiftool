@@ -25,4 +25,8 @@ class EndUser extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'End User';
 
+    protected $flag_List = true;
+
+    protected $flag_Seq = true;
+
 }

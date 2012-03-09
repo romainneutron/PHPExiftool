@@ -25,4 +25,6 @@ class RecognizedFace3Age extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Recognized Face 3 Age';
 
+    protected $flag_Permanent = true;
+
 }

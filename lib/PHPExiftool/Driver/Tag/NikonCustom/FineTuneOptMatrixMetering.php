@@ -25,4 +25,6 @@ class FineTuneOptMatrixMetering extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Fine Tune Opt Matrix Metering';
 
+    protected $flag_Permanent = true;
+
 }

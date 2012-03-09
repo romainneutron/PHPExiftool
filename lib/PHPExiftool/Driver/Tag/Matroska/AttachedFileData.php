@@ -25,4 +25,6 @@ class AttachedFileData extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Attached File Data';
 
+    protected $flag_Binary = true;
+
 }

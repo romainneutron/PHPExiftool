@@ -25,6 +25,8 @@ class ExternalFlashFlags extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'External Flash Flags';
 
+    protected $flag_Permanent = true;
+
     protected $Values = array(
         1 => array(
             'Id' => 1,

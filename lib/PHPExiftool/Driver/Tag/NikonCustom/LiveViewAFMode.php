@@ -25,6 +25,8 @@ class LiveViewAFMode extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Live View AF Mode';
 
+    protected $flag_Permanent = true;
+
     protected $Values = array(
         0 => array(
             'Id' => 0,

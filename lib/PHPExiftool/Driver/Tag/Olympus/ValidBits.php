@@ -25,4 +25,6 @@ class ValidBits extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Valid Bits';
 
+    protected $flag_Permanent = true;
+
 }

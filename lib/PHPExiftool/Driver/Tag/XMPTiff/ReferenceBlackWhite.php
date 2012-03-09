@@ -25,4 +25,8 @@ class ReferenceBlackWhite extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Reference Black White';
 
+    protected $flag_List = true;
+
+    protected $flag_Seq = true;
+
 }

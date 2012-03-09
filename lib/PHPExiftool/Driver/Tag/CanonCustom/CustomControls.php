@@ -25,4 +25,6 @@ class CustomControls extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Custom Controls';
 
+    protected $flag_Permanent = true;
+
 }

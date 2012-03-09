@@ -25,4 +25,6 @@ class Unsharp2Threshold extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Unsharp 2 Threshold';
 
+    protected $flag_Permanent = true;
+
 }

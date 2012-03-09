@@ -25,6 +25,8 @@ class SharpnessStandard extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Sharpness Standard';
 
+    protected $flag_Permanent = true;
+
     protected $Values = 'mixed';
 
 }

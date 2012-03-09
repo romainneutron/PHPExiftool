@@ -25,6 +25,8 @@ class DynamicRangeOptimizerMode extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Dynamic Range Optimizer Mode';
 
+    protected $flag_Permanent = true;
+
     protected $Values = 'mixed';
 
 }

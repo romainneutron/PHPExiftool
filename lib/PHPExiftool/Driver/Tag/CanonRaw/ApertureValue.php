@@ -25,4 +25,6 @@ class ApertureValue extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Aperture Value';
 
+    protected $flag_Permanent = true;
+
 }

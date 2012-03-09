@@ -25,4 +25,6 @@ class R2ABlueStbl18 extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'R2 A Blue Stbl 18';
 
+    protected $flag_Permanent = true;
+
 }

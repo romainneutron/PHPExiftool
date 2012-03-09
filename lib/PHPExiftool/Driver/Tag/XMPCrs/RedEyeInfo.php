@@ -25,4 +25,8 @@ class RedEyeInfo extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Red Eye Info';
 
+    protected $flag_List = true;
+
+    protected $flag_Seq = true;
+
 }

@@ -25,4 +25,6 @@ class SubSampleInformation extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Sub-sample Information';
 
+    protected $flag_Binary = true;
+
 }

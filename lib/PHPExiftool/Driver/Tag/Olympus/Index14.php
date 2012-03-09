@@ -25,4 +25,6 @@ class Index14 extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Index 14';
 
+    protected $flag_Permanent = true;
+
 }

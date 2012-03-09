@@ -25,4 +25,6 @@ class EndingPage extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Ending Page';
 
+    protected $flag_Avoid = true;
+
 }

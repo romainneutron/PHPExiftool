@@ -25,6 +25,8 @@ class MonitorOffTime extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Monitor Off Time';
 
+    protected $flag_Permanent = true;
+
     protected $Values = 'mixed';
 
 }

@@ -25,4 +25,6 @@ class AntiBadingPixelClk extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Anti Bading Pixel Clk';
 
+    protected $flag_Permanent = true;
+
 }

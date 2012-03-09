@@ -25,4 +25,6 @@ class LC7 extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'LC7';
 
+    protected $flag_Permanent = true;
+
 }

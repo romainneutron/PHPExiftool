@@ -25,6 +25,8 @@ class SonyImageSize extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Sony Image Size';
 
+    protected $flag_Permanent = true;
+
     protected $Values = array(
         1 => array(
             'Id' => 1,

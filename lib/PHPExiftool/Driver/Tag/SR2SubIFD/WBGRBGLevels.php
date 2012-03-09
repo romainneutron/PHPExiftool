@@ -25,4 +25,6 @@ class WBGRBGLevels extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'WB GRBG Levels';
 
+    protected $flag_Permanent = true;
+
 }

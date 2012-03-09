@@ -25,4 +25,6 @@ class OrderingRestrictions extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Ordering Restrictions';
 
+    protected $flag_Binary = true;
+
 }

@@ -25,6 +25,8 @@ class PhotometricInterpretation extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Photometric Interpretation';
 
+    protected $flag_Unsafe = true;
+
     protected $Values = array(
         0 => array(
             'Id' => 0,

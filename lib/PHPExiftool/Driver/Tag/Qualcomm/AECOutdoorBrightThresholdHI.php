@@ -25,4 +25,6 @@ class AECOutdoorBrightThresholdHI extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'AEC Outdoor Bright Threshold HI';
 
+    protected $flag_Permanent = true;
+
 }

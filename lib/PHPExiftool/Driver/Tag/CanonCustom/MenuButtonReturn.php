@@ -25,6 +25,8 @@ class MenuButtonReturn extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Menu Button Return';
 
+    protected $flag_Permanent = true;
+
     protected $Values = array(
         0 => array(
             'Id' => 0,

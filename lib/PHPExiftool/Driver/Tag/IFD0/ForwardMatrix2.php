@@ -25,4 +25,6 @@ class ForwardMatrix2 extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Forward Matrix 2';
 
+    protected $flag_Unsafe = true;
+
 }

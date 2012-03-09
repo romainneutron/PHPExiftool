@@ -25,4 +25,6 @@ class PictureWizardContrast extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Picture Wizard Contrast';
 
+    protected $flag_Permanent = true;
+
 }

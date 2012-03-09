@@ -25,6 +25,8 @@ class DLightingHQSelected extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'D-Lighting HQ Selected';
 
+    protected $flag_Permanent = true;
+
     protected $Values = array(
         0 => array(
             'Id' => 0,

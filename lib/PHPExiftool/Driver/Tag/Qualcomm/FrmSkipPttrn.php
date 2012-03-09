@@ -25,4 +25,6 @@ class FrmSkipPttrn extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Frm Skip Pttrn';
 
+    protected $flag_Permanent = true;
+
 }

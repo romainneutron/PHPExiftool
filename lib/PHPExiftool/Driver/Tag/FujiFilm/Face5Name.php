@@ -25,4 +25,6 @@ class Face5Name extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Face 5 Name';
 
+    protected $flag_Permanent = true;
+
 }

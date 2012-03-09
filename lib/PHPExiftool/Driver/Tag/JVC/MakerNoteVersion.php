@@ -25,4 +25,6 @@ class MakerNoteVersion extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Maker Note Version';
 
+    protected $flag_Permanent = true;
+
 }

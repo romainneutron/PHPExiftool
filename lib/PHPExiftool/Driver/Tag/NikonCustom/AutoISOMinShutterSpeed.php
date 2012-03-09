@@ -25,6 +25,8 @@ class AutoISOMinShutterSpeed extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Auto ISO Min Shutter Speed';
 
+    protected $flag_Permanent = true;
+
     protected $Values = 'mixed';
 
 }

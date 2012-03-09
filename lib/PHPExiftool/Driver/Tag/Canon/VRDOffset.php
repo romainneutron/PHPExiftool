@@ -25,4 +25,8 @@ class VRDOffset extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'VRD Offset';
 
+    protected $flag_Permanent = true;
+
+    protected $flag_Protected = true;
+
 }

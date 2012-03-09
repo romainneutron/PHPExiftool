@@ -25,4 +25,6 @@ class AFFineSrchPoints extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'AF Fine Srch Points';
 
+    protected $flag_Permanent = true;
+
 }

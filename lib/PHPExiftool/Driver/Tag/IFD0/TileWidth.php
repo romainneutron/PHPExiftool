@@ -25,4 +25,6 @@ class TileWidth extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Tile Width';
 
+    protected $flag_Unsafe = true;
+
 }

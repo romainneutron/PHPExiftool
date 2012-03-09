@@ -25,4 +25,6 @@ class LightCondition extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Light Condition';
 
+    protected $flag_Permanent = true;
+
 }

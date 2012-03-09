@@ -25,4 +25,6 @@ class DeletedImageCount extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Deleted Image Count';
 
+    protected $flag_Permanent = true;
+
 }

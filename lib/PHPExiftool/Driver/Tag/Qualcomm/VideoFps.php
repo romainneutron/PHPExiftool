@@ -25,4 +25,6 @@ class VideoFps extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Video Fps';
 
+    protected $flag_Permanent = true;
+
 }

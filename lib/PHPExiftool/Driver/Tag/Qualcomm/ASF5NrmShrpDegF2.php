@@ -25,4 +25,6 @@ class ASF5NrmShrpDegF2 extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'ASF5 Nrm Shrp Deg F2';
 
+    protected $flag_Permanent = true;
+
 }

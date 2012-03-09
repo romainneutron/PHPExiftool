@@ -25,4 +25,6 @@ class HasCorrection extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Has Correction';
 
+    protected $flag_Avoid = true;
+
 }

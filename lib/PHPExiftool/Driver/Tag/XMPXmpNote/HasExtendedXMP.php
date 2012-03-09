@@ -25,4 +25,6 @@ class HasExtendedXMP extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Has Extended XMP';
 
+    protected $flag_Protected = true;
+
 }

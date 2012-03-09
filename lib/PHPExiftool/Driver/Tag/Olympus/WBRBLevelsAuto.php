@@ -25,4 +25,6 @@ class WBRBLevelsAuto extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'WB RB Levels Auto';
 
+    protected $flag_Permanent = true;
+
 }

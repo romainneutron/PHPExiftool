@@ -25,4 +25,6 @@ class EffectiveMaxAperture extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Effective Max Aperture';
 
+    protected $flag_Permanent = true;
+
 }

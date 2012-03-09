@@ -25,4 +25,6 @@ class IntervalNumber extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Interval Number';
 
+    protected $flag_Permanent = true;
+
 }

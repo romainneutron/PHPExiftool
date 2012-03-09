@@ -25,4 +25,6 @@ class DNGVersion extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'DNG Version';
 
+    protected $flag_Unsafe = true;
+
 }

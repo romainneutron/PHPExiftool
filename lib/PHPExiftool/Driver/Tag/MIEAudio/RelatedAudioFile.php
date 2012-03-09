@@ -25,4 +25,6 @@ class RelatedAudioFile extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Related Audio File';
 
+    protected $flag_Binary = true;
+
 }

@@ -25,4 +25,6 @@ class CLModeShootingSpeed extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'CL Mode Shooting Speed';
 
+    protected $flag_Permanent = true;
+
 }

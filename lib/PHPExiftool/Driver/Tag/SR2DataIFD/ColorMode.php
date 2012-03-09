@@ -25,4 +25,6 @@ class ColorMode extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Color Mode';
 
+    protected $flag_Permanent = true;
+
 }

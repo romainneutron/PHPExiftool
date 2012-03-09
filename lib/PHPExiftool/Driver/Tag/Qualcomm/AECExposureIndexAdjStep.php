@@ -25,4 +25,6 @@ class AECExposureIndexAdjStep extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'AEC Exposure Index Adj Step';
 
+    protected $flag_Permanent = true;
+
 }

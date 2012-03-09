@@ -25,6 +25,8 @@ class FlashCompensation extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Flash Compensation';
 
+    protected $flag_Permanent = true;
+
     protected $Index = 1;
 
 }

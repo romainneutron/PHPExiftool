@@ -25,4 +25,6 @@ class LongFocal extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Long Focal';
 
+    protected $flag_Permanent = true;
+
 }

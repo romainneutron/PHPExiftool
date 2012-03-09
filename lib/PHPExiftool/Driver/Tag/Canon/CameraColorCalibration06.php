@@ -25,4 +25,6 @@ class CameraColorCalibration06 extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Camera Color Calibration 06';
 
+    protected $flag_Permanent = true;
+
 }

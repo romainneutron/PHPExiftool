@@ -25,4 +25,8 @@ class People extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'People';
 
+    protected $flag_List = true;
+
+    protected $flag_Bag = true;
+
 }

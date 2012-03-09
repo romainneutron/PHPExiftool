@@ -25,6 +25,8 @@ class EVSteps extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'EV Steps';
 
+    protected $flag_Permanent = true;
+
     protected $Values = 'mixed';
 
 }

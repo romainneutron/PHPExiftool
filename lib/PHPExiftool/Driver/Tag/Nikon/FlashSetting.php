@@ -25,4 +25,6 @@ class FlashSetting extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Flash Setting';
 
+    protected $flag_Permanent = true;
+
 }

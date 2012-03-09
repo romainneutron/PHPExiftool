@@ -25,4 +25,6 @@ class GrayPoint extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Gray Point';
 
+    protected $flag_Permanent = true;
+
 }

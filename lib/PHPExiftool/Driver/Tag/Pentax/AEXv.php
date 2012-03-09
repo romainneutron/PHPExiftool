@@ -25,4 +25,6 @@ class AEXv extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'AE Xv';
 
+    protected $flag_Permanent = true;
+
 }

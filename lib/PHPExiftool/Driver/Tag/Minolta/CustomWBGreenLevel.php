@@ -25,4 +25,6 @@ class CustomWBGreenLevel extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Custom WB Green Level';
 
+    protected $flag_Permanent = true;
+
 }

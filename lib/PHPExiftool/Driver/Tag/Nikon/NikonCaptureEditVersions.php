@@ -25,6 +25,8 @@ class NikonCaptureEditVersions extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Nikon Capture Edit Versions';
 
+    protected $flag_Binary = 'mixed';
+
     protected $Index = 'mixed';
 
 }

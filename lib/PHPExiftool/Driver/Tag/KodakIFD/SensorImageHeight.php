@@ -25,4 +25,6 @@ class SensorImageHeight extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Sensor Image Height';
 
+    protected $flag_Permanent = true;
+
 }

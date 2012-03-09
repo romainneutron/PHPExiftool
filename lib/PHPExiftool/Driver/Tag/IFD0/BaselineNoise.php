@@ -25,4 +25,6 @@ class BaselineNoise extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Baseline Noise';
 
+    protected $flag_Unsafe = true;
+
 }

@@ -25,4 +25,6 @@ class LightReading extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Light Reading';
 
+    protected $flag_Permanent = true;
+
 }

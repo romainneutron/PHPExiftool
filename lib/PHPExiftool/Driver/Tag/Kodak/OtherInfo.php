@@ -25,4 +25,6 @@ class OtherInfo extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Other Info';
 
+    protected $flag_Permanent = true;
+
 }

@@ -25,6 +25,8 @@ class NoiseReduction extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Noise Reduction';
 
+    protected $flag_Permanent = true;
+
     protected $Values = array(
         64 => array(
             'Id' => 64,

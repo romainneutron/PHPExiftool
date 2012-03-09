@@ -25,4 +25,6 @@ class Parallax extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Parallax';
 
+    protected $flag_Permanent = true;
+
 }

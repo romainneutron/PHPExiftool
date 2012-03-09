@@ -25,6 +25,8 @@ class AIServoTrackingSensitivity extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'AI Servo Tracking Sensitivity';
 
+    protected $flag_Permanent = true;
+
     protected $Values = 'mixed';
 
 }

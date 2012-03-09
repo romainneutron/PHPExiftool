@@ -25,4 +25,8 @@ class ApplicationNotes extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Application Notes';
 
+    protected $flag_Binary = true;
+
+    protected $flag_Unsafe = true;
+
 }

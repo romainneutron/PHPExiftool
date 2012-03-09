@@ -25,4 +25,6 @@ class BurstMode2 extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Burst Mode 2';
 
+    protected $flag_Permanent = true;
+
 }

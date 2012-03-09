@@ -25,6 +25,8 @@ class FaceInfoUnknown extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Face Info Unknown';
 
+    protected $flag_Permanent = true;
+
     protected $Index = 2;
 
 }

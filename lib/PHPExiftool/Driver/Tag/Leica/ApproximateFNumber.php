@@ -25,4 +25,6 @@ class ApproximateFNumber extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Approximate F Number';
 
+    protected $flag_Permanent = true;
+
 }

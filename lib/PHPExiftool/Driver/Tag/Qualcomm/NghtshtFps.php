@@ -25,4 +25,6 @@ class NghtshtFps extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Nghtsht Fps';
 
+    protected $flag_Permanent = true;
+
 }

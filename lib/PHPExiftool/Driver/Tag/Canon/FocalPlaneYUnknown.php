@@ -25,6 +25,8 @@ class FocalPlaneYUnknown extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Focal Plane Y Unknown';
 
+    protected $flag_Permanent = true;
+
     protected $Index = 1;
 
 }

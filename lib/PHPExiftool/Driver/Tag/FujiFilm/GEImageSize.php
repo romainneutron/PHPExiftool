@@ -25,4 +25,6 @@ class GEImageSize extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'GE Image Size';
 
+    protected $flag_Permanent = true;
+
 }

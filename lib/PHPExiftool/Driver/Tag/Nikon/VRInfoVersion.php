@@ -25,4 +25,6 @@ class VRInfoVersion extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'VR Info Version';
 
+    protected $flag_Permanent = true;
+
 }

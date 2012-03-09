@@ -25,4 +25,6 @@ class ContentSignatureKeyID extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Content Signature Key ID';
 
+    protected $flag_Binary = true;
+
 }

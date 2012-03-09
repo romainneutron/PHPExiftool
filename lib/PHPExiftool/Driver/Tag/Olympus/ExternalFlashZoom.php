@@ -25,4 +25,6 @@ class ExternalFlashZoom extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'External Flash Zoom';
 
+    protected $flag_Permanent = true;
+
 }

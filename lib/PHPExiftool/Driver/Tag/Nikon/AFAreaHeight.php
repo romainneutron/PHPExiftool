@@ -25,4 +25,6 @@ class AFAreaHeight extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'AF Area Height';
 
+    protected $flag_Permanent = true;
+
 }

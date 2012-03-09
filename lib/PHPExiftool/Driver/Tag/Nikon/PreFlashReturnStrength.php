@@ -25,4 +25,6 @@ class PreFlashReturnStrength extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Pre Flash Return Strength';
 
+    protected $flag_Permanent = true;
+
 }

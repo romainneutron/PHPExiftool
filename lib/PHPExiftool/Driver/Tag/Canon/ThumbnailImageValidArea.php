@@ -25,4 +25,6 @@ class ThumbnailImageValidArea extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Thumbnail Image Valid Area';
 
+    protected $flag_Permanent = true;
+
 }

@@ -25,4 +25,6 @@ class MeasuredLV extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Measured LV';
 
+    protected $flag_Permanent = true;
+
 }

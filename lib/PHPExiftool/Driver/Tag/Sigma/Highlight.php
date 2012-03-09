@@ -25,6 +25,8 @@ class Highlight extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Highlight';
 
+    protected $flag_Permanent = true;
+
     protected $Index = 'mixed';
 
 }

@@ -25,4 +25,6 @@ class CustomSaturation extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Custom Saturation';
 
+    protected $flag_Permanent = true;
+
 }

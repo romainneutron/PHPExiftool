@@ -25,4 +25,6 @@ class WBRGGBLevelsDaylight extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'WB RGGB Levels Daylight';
 
+    protected $flag_Permanent = true;
+
 }

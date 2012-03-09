@@ -25,4 +25,6 @@ class PanoramaCropTop extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Panorama Crop Top';
 
+    protected $flag_Permanent = true;
+
 }

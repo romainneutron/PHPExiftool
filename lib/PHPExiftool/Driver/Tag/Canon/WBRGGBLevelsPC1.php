@@ -25,4 +25,6 @@ class WBRGGBLevelsPC1 extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'WB RGGB Levels PC1';
 
+    protected $flag_Permanent = true;
+
 }

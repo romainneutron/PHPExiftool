@@ -25,4 +25,6 @@ class CanonImageType extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Canon Image Type';
 
+    protected $flag_Permanent = true;
+
 }

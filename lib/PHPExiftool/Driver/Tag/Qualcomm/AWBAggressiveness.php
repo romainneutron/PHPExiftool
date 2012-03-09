@@ -25,4 +25,6 @@ class AWBAggressiveness extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'AWB Aggressiveness';
 
+    protected $flag_Permanent = true;
+
 }

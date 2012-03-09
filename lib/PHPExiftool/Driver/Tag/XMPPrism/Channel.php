@@ -25,4 +25,10 @@ class Channel extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Channel';
 
+    protected $flag_Avoid = true;
+
+    protected $flag_List = true;
+
+    protected $flag_Bag = true;
+
 }

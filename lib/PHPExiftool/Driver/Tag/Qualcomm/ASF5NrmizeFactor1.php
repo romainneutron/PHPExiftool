@@ -25,4 +25,6 @@ class ASF5NrmizeFactor1 extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'ASF5 Nrmize Factor1';
 
+    protected $flag_Permanent = true;
+
 }

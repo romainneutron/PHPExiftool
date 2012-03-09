@@ -25,4 +25,6 @@ class WBRGBLevelsTungsten extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'WB RGB Levels Tungsten';
 
+    protected $flag_Permanent = true;
+
 }

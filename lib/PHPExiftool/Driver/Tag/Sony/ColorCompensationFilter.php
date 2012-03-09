@@ -25,4 +25,6 @@ class ColorCompensationFilter extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Color Compensation Filter';
 
+    protected $flag_Permanent = true;
+
 }

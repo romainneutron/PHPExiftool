@@ -44,4 +44,6 @@ class Saturation extends \PHPExiftool\Driver\Tag
         ),
     );
 
+    protected $flag_Avoid = 'mixed';
+
 }

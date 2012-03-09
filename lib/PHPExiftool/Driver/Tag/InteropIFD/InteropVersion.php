@@ -27,4 +27,8 @@ class InteropVersion extends \PHPExiftool\Driver\Tag
 
     protected $local_g1 = 'InteropIFD';
 
+    protected $flag_Unsafe = true;
+
+    protected $flag_Mandatory = true;
+
 }

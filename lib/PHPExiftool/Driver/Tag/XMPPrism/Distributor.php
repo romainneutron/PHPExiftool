@@ -25,4 +25,6 @@ class Distributor extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Distributor';
 
+    protected $flag_Avoid = true;
+
 }

@@ -25,6 +25,8 @@ class SRResult extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'SR Result';
 
+    protected $flag_Permanent = true;
+
     protected $Values = array(
         0 => array(
             'Id' => 0,

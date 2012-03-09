@@ -25,4 +25,8 @@ class PreviewImageStart extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Preview Image Start';
 
+    protected $flag_Permanent = true;
+
+    protected $flag_Protected = true;
+
 }

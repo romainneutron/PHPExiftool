@@ -25,4 +25,6 @@ class HueSetting extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Hue Setting';
 
+    protected $flag_Permanent = true;
+
 }

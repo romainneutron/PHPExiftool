@@ -25,4 +25,6 @@ class AECSnapshotDigitalGain extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'AEC Snapshot Digital Gain';
 
+    protected $flag_Permanent = true;
+
 }

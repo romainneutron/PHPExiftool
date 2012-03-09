@@ -25,4 +25,6 @@ class References extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'References';
 
+    protected $flag_List = true;
+
 }

@@ -25,4 +25,8 @@ class FaceDetectArea extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Face Detect Area';
 
+    protected $flag_Binary = true;
+
+    protected $flag_Permanent = true;
+
 }

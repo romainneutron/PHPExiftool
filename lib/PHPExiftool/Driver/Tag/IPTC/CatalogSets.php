@@ -25,4 +25,6 @@ class CatalogSets extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Catalog Sets';
 
+    protected $flag_List = true;
+
 }

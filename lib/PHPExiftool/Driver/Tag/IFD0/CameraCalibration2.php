@@ -25,4 +25,6 @@ class CameraCalibration2 extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Camera Calibration 2';
 
+    protected $flag_Unsafe = true;
+
 }

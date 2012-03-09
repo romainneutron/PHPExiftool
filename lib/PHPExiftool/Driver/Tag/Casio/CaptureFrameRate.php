@@ -25,4 +25,6 @@ class CaptureFrameRate extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Capture Frame Rate';
 
+    protected $flag_Permanent = true;
+
 }

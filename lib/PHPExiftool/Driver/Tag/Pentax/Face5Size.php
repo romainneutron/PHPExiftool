@@ -25,4 +25,6 @@ class Face5Size extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Face 5 Size';
 
+    protected $flag_Permanent = true;
+
 }

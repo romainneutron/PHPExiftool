@@ -29,4 +29,8 @@ class EXIF extends \PHPExiftool\Driver\Tag
 
     protected $local_g1 = 'EXIF';
 
+    protected $flag_Binary = true;
+
+    protected $flag_Unsafe = true;
+
 }

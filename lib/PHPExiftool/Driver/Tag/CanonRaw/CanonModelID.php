@@ -25,6 +25,8 @@ class CanonModelID extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Canon Model ID';
 
+    protected $flag_Permanent = true;
+
     protected $Values = array(
         16842752 => array(
             'Id' => 16842752,

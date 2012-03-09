@@ -25,4 +25,6 @@ class FlashGroupBOutput extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Flash Group B Output';
 
+    protected $flag_Permanent = true;
+
 }

@@ -25,4 +25,6 @@ class DLightingHSAdjustment extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'D-Lighting HS Adjustment';
 
+    protected $flag_Permanent = true;
+
 }

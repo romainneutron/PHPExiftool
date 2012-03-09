@@ -25,4 +25,6 @@ class ShutterSpeed extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Shutter Speed';
 
+    protected $flag_Permanent = true;
+
 }

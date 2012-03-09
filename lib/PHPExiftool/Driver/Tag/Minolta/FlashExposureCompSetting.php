@@ -25,4 +25,6 @@ class FlashExposureCompSetting extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Flash Exposure Comp. Setting';
 
+    protected $flag_Permanent = true;
+
 }

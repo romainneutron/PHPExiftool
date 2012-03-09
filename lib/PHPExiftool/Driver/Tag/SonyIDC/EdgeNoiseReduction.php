@@ -25,4 +25,6 @@ class EdgeNoiseReduction extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Edge Noise Reduction';
 
+    protected $flag_Permanent = true;
+
 }

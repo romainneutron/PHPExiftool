@@ -25,4 +25,6 @@ class DSPFirmwareVersion extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'DSP Firmware Version';
 
+    protected $flag_Permanent = true;
+
 }

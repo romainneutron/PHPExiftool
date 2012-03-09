@@ -25,4 +25,6 @@ class CoringFilter extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Coring Filter';
 
+    protected $flag_Permanent = true;
+
 }

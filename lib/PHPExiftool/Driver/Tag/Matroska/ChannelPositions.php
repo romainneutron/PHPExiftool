@@ -27,4 +27,6 @@ class ChannelPositions extends \PHPExiftool\Driver\Tag
 
     protected $local_g2 = 'Audio';
 
+    protected $flag_Binary = true;
+
 }

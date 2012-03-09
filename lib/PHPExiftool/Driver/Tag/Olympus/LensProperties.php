@@ -25,4 +25,6 @@ class LensProperties extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Lens Properties';
 
+    protected $flag_Permanent = true;
+
 }

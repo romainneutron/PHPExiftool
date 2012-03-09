@@ -25,4 +25,6 @@ class MultiBurstImageWidth extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Multi Burst Image Width';
 
+    protected $flag_Permanent = true;
+
 }

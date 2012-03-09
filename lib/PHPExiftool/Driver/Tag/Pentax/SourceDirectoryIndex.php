@@ -25,4 +25,6 @@ class SourceDirectoryIndex extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Source Directory Index';
 
+    protected $flag_Permanent = true;
+
 }

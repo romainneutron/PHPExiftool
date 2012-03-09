@@ -25,4 +25,6 @@ class ColorBalanceRed extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Color Balance Red';
 
+    protected $flag_Permanent = true;
+
 }

@@ -25,4 +25,6 @@ class PixelData extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Pixel Data';
 
+    protected $flag_Binary = true;
+
 }

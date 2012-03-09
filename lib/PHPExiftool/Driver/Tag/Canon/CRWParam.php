@@ -25,4 +25,8 @@ class CRWParam extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'CRW Param';
 
+    protected $flag_Binary = true;
+
+    protected $flag_Permanent = true;
+
 }

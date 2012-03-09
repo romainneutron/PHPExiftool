@@ -25,4 +25,6 @@ class PanoramaSourceHeight extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Panorama Source Height';
 
+    protected $flag_Permanent = true;
+
 }

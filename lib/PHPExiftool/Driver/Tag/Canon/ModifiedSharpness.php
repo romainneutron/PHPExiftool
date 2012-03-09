@@ -25,4 +25,6 @@ class ModifiedSharpness extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Modified Sharpness';
 
+    protected $flag_Permanent = true;
+
 }

@@ -25,4 +25,6 @@ class R2D65Cx extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'R2 D65 Cx';
 
+    protected $flag_Permanent = true;
+
 }

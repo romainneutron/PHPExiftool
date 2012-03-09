@@ -25,6 +25,8 @@ class ProgramISO extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Program ISO';
 
+    protected $flag_Permanent = true;
+
     protected $Values = array(
         65534 => array(
             'Id' => 65534,

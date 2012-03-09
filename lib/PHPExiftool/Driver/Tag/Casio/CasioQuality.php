@@ -25,6 +25,8 @@ class CasioQuality extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Casio Quality';
 
+    protected $flag_Permanent = true;
+
     protected $Values = array(
         1 => array(
             'Id' => 1,

@@ -25,4 +25,8 @@ class Thumbnails extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Thumbnails';
 
+    protected $flag_List = true;
+
+    protected $flag_Alt = true;
+
 }

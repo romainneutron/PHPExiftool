@@ -25,6 +25,8 @@ class FNumber extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'F Number';
 
+    protected $flag_Permanent = true;
+
     protected $Index = 'mixed';
 
 }

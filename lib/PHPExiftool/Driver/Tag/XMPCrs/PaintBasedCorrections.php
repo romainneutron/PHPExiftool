@@ -25,4 +25,8 @@ class PaintBasedCorrections extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Paint Based Corrections';
 
+    protected $flag_List = true;
+
+    protected $flag_Seq = true;
+
 }

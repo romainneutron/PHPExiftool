@@ -25,4 +25,8 @@ class Pantry extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Pantry';
 
+    protected $flag_List = true;
+
+    protected $flag_Bag = true;
+
 }

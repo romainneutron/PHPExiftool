@@ -25,4 +25,6 @@ class R2AHeight extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'R2 A Height';
 
+    protected $flag_Permanent = true;
+
 }

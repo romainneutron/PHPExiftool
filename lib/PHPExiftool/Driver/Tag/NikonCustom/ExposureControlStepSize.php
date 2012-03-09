@@ -25,6 +25,8 @@ class ExposureControlStepSize extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Exposure Control Step Size';
 
+    protected $flag_Permanent = true;
+
     protected $Values = 'mixed';
 
 }

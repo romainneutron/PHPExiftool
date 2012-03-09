@@ -25,4 +25,6 @@ class PanoramaFrameNumber extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Panorama Frame Number';
 
+    protected $flag_Permanent = true;
+
 }

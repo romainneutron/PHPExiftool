@@ -25,6 +25,8 @@ class RearDisplay extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Rear Display';
 
+    protected $flag_Permanent = true;
+
     protected $Values = array(
         0 => array(
             'Id' => 0,

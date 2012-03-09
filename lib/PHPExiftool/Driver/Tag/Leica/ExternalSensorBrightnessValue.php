@@ -25,4 +25,6 @@ class ExternalSensorBrightnessValue extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'External Sensor Brightness Value';
 
+    protected $flag_Permanent = true;
+
 }

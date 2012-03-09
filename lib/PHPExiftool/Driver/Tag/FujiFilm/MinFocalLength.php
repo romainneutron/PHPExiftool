@@ -25,4 +25,6 @@ class MinFocalLength extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Min Focal Length';
 
+    protected $flag_Permanent = true;
+
 }

@@ -25,4 +25,6 @@ class JpgFromRawStart extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Jpg From Raw Start';
 
+    protected $flag_Permanent = true;
+
 }

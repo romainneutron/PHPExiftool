@@ -25,4 +25,6 @@ class RightsAgent extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Rights Agent';
 
+    protected $flag_Avoid = true;
+
 }

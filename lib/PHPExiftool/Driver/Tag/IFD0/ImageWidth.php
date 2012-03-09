@@ -25,4 +25,6 @@ class ImageWidth extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Image Width';
 
+    protected $flag_Unsafe = true;
+
 }

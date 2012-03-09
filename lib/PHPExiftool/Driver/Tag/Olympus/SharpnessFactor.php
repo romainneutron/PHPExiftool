@@ -25,4 +25,6 @@ class SharpnessFactor extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Sharpness Factor';
 
+    protected $flag_Permanent = true;
+
 }

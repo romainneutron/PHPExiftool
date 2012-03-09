@@ -25,4 +25,6 @@ class Edition extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Edition';
 
+    protected $flag_Avoid = true;
+
 }

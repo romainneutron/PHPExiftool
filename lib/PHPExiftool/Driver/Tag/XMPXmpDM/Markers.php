@@ -25,4 +25,8 @@ class Markers extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Markers';
 
+    protected $flag_List = true;
+
+    protected $flag_Seq = true;
+
 }

@@ -25,4 +25,6 @@ class AWBCompactClusterR2 extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'AWB Compact Cluster R2';
 
+    protected $flag_Permanent = true;
+
 }

@@ -25,4 +25,6 @@ class AECLumaTarget extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'AEC Luma Target';
 
+    protected $flag_Permanent = true;
+
 }

@@ -25,4 +25,6 @@ class FullSizeImage extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Full Size Image';
 
+    protected $flag_Binary = true;
+
 }

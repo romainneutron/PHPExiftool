@@ -25,4 +25,6 @@ class AWBIndoorSampleInfluence extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'AWB Indoor Sample Influence';
 
+    protected $flag_Permanent = true;
+
 }

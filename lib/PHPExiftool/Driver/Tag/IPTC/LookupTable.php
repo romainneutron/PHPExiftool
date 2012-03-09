@@ -25,4 +25,6 @@ class LookupTable extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Lookup Table';
 
+    protected $flag_Binary = true;
+
 }

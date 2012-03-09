@@ -25,4 +25,6 @@ class PrviewResol extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Prview Resol';
 
+    protected $flag_Permanent = true;
+
 }

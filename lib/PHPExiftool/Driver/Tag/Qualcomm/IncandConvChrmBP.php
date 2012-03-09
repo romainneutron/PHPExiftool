@@ -25,4 +25,6 @@ class IncandConvChrmBP extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Incand Conv Chrm B P';
 
+    protected $flag_Permanent = true;
+
 }

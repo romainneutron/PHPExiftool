@@ -25,4 +25,6 @@ class AFAperture extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'AF Aperture';
 
+    protected $flag_Permanent = true;
+
 }

@@ -25,4 +25,6 @@ class WBRGGBLevelsMeasured extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'WB RGGB Levels Measured';
 
+    protected $flag_Permanent = true;
+
 }

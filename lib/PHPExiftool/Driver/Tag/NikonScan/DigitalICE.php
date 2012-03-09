@@ -25,4 +25,6 @@ class DigitalICE extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Digital ICE';
 
+    protected $flag_Permanent = true;
+
 }

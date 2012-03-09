@@ -25,6 +25,10 @@ class NRWData extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'NRW Data';
 
+    protected $flag_Binary = true;
+
+    protected $flag_Permanent = true;
+
     protected $Index = 1;
 
 }

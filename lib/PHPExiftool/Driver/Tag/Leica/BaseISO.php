@@ -25,4 +25,6 @@ class BaseISO extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Base ISO';
 
+    protected $flag_Permanent = true;
+
 }

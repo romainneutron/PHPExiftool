@@ -25,4 +25,6 @@ class FocusDistanceLower extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Focus Distance Lower';
 
+    protected $flag_Permanent = true;
+
 }

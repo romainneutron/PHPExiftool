@@ -25,4 +25,6 @@ class ASF5BrtSmthPercent extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'ASF5 Brt Smth Percent';
 
+    protected $flag_Permanent = true;
+
 }

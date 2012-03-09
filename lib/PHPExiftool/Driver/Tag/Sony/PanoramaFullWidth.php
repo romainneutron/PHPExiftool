@@ -25,4 +25,6 @@ class PanoramaFullWidth extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Panorama Full Width';
 
+    protected $flag_Permanent = true;
+
 }

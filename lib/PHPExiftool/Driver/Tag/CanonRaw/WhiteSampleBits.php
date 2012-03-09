@@ -25,4 +25,6 @@ class WhiteSampleBits extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'White Sample Bits';
 
+    protected $flag_Permanent = true;
+
 }

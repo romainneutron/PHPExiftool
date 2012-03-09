@@ -25,4 +25,6 @@ class CommanderGroupATTLAAComp extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Commander Group A TTL-AA Comp';
 
+    protected $flag_Permanent = true;
+
 }

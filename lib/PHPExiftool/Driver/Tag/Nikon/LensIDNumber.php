@@ -25,4 +25,6 @@ class LensIDNumber extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Lens ID Number';
 
+    protected $flag_Permanent = true;
+
 }

@@ -25,4 +25,6 @@ class FullImageSize extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Full Image Size';
 
+    protected $flag_Permanent = true;
+
 }

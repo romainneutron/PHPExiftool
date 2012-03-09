@@ -25,6 +25,8 @@ class PictureModeEffect extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Picture Mode Effect';
 
+    protected $flag_Permanent = true;
+
     protected $Values = array(
         '-1 -1 1' => array(
             'Id' => '-1 -1 1',

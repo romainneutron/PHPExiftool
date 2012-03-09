@@ -25,4 +25,6 @@ class LC15 extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'LC15';
 
+    protected $flag_Permanent = true;
+
 }

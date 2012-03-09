@@ -25,6 +25,8 @@ class WhiteBalance extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'White Balance';
 
+    protected $flag_Avoid = true;
+
     protected $Values = array(
         'As Shot' => array(
             'Id' => 'As Shot',

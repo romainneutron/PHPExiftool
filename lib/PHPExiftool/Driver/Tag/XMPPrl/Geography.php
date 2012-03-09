@@ -25,4 +25,10 @@ class Geography extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Geography';
 
+    protected $flag_Avoid = true;
+
+    protected $flag_List = true;
+
+    protected $flag_Bag = true;
+
 }

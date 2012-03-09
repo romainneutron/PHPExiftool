@@ -25,4 +25,8 @@ class Relation extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Relation';
 
+    protected $flag_List = true;
+
+    protected $flag_Bag = true;
+
 }

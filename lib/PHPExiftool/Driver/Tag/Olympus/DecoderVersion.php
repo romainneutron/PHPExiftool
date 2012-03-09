@@ -25,4 +25,6 @@ class DecoderVersion extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Decoder Version';
 
+    protected $flag_Permanent = true;
+
 }

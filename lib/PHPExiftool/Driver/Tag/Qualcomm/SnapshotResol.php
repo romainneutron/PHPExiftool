@@ -25,4 +25,6 @@ class SnapshotResol extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Snapshot Resol';
 
+    protected $flag_Permanent = true;
+
 }

@@ -25,6 +25,8 @@ class ExposureControlStep extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Exposure Control Step';
 
+    protected $flag_Permanent = true;
+
     protected $Values = array(
         0 => array(
             'Id' => 0,

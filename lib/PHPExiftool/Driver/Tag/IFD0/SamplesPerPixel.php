@@ -25,4 +25,6 @@ class SamplesPerPixel extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Samples Per Pixel';
 
+    protected $flag_Unsafe = true;
+
 }

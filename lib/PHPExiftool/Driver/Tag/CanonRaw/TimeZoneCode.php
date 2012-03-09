@@ -25,4 +25,6 @@ class TimeZoneCode extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Time Zone Code';
 
+    protected $flag_Permanent = true;
+
 }

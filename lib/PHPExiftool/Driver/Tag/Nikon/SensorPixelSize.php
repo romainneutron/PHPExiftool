@@ -25,4 +25,6 @@ class SensorPixelSize extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Sensor Pixel Size';
 
+    protected $flag_Permanent = true;
+
 }

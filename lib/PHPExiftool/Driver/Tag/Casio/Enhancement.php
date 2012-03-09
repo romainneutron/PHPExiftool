@@ -25,6 +25,8 @@ class Enhancement extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Enhancement';
 
+    protected $flag_Permanent = true;
+
     protected $Values = 'mixed';
 
 }

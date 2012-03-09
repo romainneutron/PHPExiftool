@@ -25,4 +25,6 @@ class ASF5BrtUpThres extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'ASF5 Brt Up Thres';
 
+    protected $flag_Permanent = true;
+
 }

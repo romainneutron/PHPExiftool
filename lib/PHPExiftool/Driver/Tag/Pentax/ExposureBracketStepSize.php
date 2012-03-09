@@ -25,6 +25,8 @@ class ExposureBracketStepSize extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Exposure Bracket Step Size';
 
+    protected $flag_Permanent = true;
+
     protected $Values = array(
         3 => array(
             'Id' => 3,

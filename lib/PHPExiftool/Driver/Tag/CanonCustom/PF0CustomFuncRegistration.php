@@ -25,4 +25,6 @@ class PF0CustomFuncRegistration extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'PF0 Custom Func Registration';
 
+    protected $flag_Permanent = true;
+
 }

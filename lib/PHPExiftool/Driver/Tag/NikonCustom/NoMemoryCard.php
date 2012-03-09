@@ -25,6 +25,8 @@ class NoMemoryCard extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'No Memory Card';
 
+    protected $flag_Permanent = true;
+
     protected $Values = 'mixed';
 
 }

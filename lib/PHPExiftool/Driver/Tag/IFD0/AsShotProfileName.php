@@ -25,4 +25,6 @@ class AsShotProfileName extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'As Shot Profile Name';
 
+    protected $flag_Unsafe = true;
+
 }

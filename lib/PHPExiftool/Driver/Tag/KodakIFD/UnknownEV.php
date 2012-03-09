@@ -25,4 +25,6 @@ class UnknownEV extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Unknown EV';
 
+    protected $flag_Permanent = true;
+
 }

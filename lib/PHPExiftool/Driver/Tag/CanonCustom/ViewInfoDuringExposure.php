@@ -25,6 +25,8 @@ class ViewInfoDuringExposure extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'View Info During Exposure';
 
+    protected $flag_Permanent = true;
+
     protected $Values = array(
         0 => array(
             'Id' => 0,

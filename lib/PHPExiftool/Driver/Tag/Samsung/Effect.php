@@ -25,4 +25,6 @@ class Effect extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Effect';
 
+    protected $flag_Permanent = true;
+
 }

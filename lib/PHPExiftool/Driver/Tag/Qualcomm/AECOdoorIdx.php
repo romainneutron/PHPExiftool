@@ -25,4 +25,6 @@ class AECOdoorIdx extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'AEC Odoor Idx';
 
+    protected $flag_Permanent = true;
+
 }

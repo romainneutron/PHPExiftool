@@ -25,6 +25,10 @@ class ImageAlterationConstraints extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Image Alteration Constraints';
 
+    protected $flag_List = true;
+
+    protected $flag_Bag = true;
+
     protected $Values = array(
         'AL-CLR' => array(
             'Id' => 'AL-CLR',

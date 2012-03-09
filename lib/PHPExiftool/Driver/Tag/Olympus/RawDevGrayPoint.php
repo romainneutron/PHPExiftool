@@ -25,4 +25,6 @@ class RawDevGrayPoint extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Raw Dev Gray Point';
 
+    protected $flag_Permanent = true;
+
 }

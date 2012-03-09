@@ -25,4 +25,6 @@ class ASF5LumaFilter02 extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'ASF5 Luma Filter 02';
 
+    protected $flag_Permanent = true;
+
 }

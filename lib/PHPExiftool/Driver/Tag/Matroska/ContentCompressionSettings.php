@@ -25,4 +25,6 @@ class ContentCompressionSettings extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Content Compression Settings';
 
+    protected $flag_Binary = true;
+
 }

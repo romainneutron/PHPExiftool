@@ -25,4 +25,6 @@ class ASF3LowerThreshold extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'ASF3 Lower Threshold';
 
+    protected $flag_Permanent = true;
+
 }

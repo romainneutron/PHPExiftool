@@ -25,4 +25,6 @@ class EmbeddedFileUsageRights extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Embedded File Usage Rights';
 
+    protected $flag_List = true;
+
 }

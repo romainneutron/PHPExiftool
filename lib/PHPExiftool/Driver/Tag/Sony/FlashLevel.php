@@ -25,6 +25,8 @@ class FlashLevel extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Flash Level';
 
+    protected $flag_Permanent = true;
+
     protected $Values = array(
         '-32768' => array(
             'Id' => '-32768',

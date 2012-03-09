@@ -25,4 +25,8 @@ class HistogramXML extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Histogram XML';
 
+    protected $flag_Binary = true;
+
+    protected $flag_Permanent = true;
+
 }

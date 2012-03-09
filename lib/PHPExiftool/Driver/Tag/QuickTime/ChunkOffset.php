@@ -25,4 +25,6 @@ class ChunkOffset extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Chunk Offset';
 
+    protected $flag_Binary = true;
+
 }

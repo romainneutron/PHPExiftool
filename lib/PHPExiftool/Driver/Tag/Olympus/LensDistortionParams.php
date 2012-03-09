@@ -25,4 +25,6 @@ class LensDistortionParams extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Lens Distortion Params';
 
+    protected $flag_Permanent = true;
+
 }

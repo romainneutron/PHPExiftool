@@ -25,4 +25,6 @@ class SharpnessAdj extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Sharpness Adj';
 
+    protected $flag_Permanent = true;
+
 }

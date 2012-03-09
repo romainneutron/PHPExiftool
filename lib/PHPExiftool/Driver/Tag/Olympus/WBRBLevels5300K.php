@@ -25,4 +25,6 @@ class WBRBLevels5300K extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'WB RB Levels 5300K';
 
+    protected $flag_Permanent = true;
+
 }

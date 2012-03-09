@@ -25,4 +25,6 @@ class CanonFlashInfo extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Canon Flash Info';
 
+    protected $flag_Permanent = true;
+
 }

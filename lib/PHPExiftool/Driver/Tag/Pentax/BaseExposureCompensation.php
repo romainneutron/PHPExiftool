@@ -25,4 +25,6 @@ class BaseExposureCompensation extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Base Exposure Compensation';
 
+    protected $flag_Permanent = true;
+
 }

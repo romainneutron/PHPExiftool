@@ -25,4 +25,6 @@ class PF2DisableMeteringModes extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'PF2 Disable Metering Modes';
 
+    protected $flag_Permanent = true;
+
 }

@@ -25,4 +25,6 @@ class LensDataVersion extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Lens Data Version';
 
+    protected $flag_Permanent = true;
+
 }

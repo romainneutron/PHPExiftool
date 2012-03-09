@@ -27,4 +27,6 @@ class SensorAreas extends \PHPExiftool\Driver\Tag
 
     protected $local_g2 = 'Camera';
 
+    protected $flag_Permanent = true;
+
 }

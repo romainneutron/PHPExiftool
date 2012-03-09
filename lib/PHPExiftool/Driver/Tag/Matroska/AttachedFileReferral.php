@@ -25,4 +25,6 @@ class AttachedFileReferral extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Attached File Referral';
 
+    protected $flag_Binary = true;
+
 }

@@ -25,4 +25,6 @@ class RPP extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'RPP';
 
+    protected $flag_Binary = true;
+
 }

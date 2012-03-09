@@ -25,4 +25,6 @@ class CameraISO extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Camera ISO';
 
+    protected $flag_Permanent = true;
+
 }

@@ -25,4 +25,6 @@ class LADetect extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'LA Detect';
 
+    protected $flag_Permanent = true;
+
 }

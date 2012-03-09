@@ -25,4 +25,6 @@ class CPUFirmwareVersion extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'CPU Firmware Version';
 
+    protected $flag_Permanent = true;
+
 }

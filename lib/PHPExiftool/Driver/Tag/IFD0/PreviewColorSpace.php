@@ -25,6 +25,8 @@ class PreviewColorSpace extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Preview Color Space';
 
+    protected $flag_Unsafe = true;
+
     protected $Values = array(
         0 => array(
             'Id' => 0,

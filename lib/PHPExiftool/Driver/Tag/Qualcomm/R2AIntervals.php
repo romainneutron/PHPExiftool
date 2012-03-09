@@ -25,4 +25,6 @@ class R2AIntervals extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'R2 A Intervals';
 
+    protected $flag_Permanent = true;
+
 }

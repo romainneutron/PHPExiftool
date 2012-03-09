@@ -25,4 +25,8 @@ class Language extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Language';
 
+    protected $flag_List = true;
+
+    protected $flag_Bag = true;
+
 }

@@ -25,4 +25,6 @@ class FocusDistanceUpper extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Focus Distance Upper';
 
+    protected $flag_Permanent = true;
+
 }

@@ -25,4 +25,6 @@ class SensrQtrHght extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Sensr Qtr Hght';
 
+    protected $flag_Permanent = true;
+
 }

@@ -25,4 +25,6 @@ class MeasuredEV3 extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Measured EV 3';
 
+    protected $flag_Permanent = true;
+
 }

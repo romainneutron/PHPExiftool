@@ -25,4 +25,6 @@ class ColorBW extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Color BW';
 
+    protected $flag_Permanent = true;
+
 }

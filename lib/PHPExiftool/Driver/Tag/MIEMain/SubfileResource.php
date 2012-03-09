@@ -25,4 +25,6 @@ class SubfileResource extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Subfile Resource';
 
+    protected $flag_Binary = true;
+
 }

@@ -25,4 +25,6 @@ class PopupFlash extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Popup Flash';
 
+    protected $flag_Permanent = true;
+
 }

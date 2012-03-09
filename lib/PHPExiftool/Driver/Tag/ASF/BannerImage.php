@@ -25,4 +25,6 @@ class BannerImage extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Banner Image';
 
+    protected $flag_Binary = true;
+
 }

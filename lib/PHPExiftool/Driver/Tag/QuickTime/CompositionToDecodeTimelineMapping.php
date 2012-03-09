@@ -25,4 +25,6 @@ class CompositionToDecodeTimelineMapping extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Composition To Decode Timeline Mapping';
 
+    protected $flag_Binary = true;
+
 }

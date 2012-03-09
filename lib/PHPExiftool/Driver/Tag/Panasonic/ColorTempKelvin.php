@@ -25,4 +25,6 @@ class ColorTempKelvin extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Color Temp Kelvin';
 
+    protected $flag_Permanent = true;
+
 }

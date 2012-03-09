@@ -25,4 +25,6 @@ class SampleDegradationPriority extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Sample Degradation Priority';
 
+    protected $flag_Binary = true;
+
 }

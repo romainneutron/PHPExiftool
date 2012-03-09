@@ -25,6 +25,8 @@ class ExtendedWBDetect extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Extended WB Detect';
 
+    protected $flag_Permanent = true;
+
     protected $Values = array(
         0 => array(
             'Id' => 0,

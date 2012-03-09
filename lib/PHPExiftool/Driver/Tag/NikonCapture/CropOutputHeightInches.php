@@ -25,4 +25,6 @@ class CropOutputHeightInches extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Crop Output Height Inches';
 
+    protected $flag_Permanent = true;
+
 }

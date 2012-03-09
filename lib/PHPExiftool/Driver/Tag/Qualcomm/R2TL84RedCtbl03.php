@@ -25,4 +25,6 @@ class R2TL84RedCtbl03 extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'R2 TL84 Red Ctbl 03';
 
+    protected $flag_Permanent = true;
+
 }

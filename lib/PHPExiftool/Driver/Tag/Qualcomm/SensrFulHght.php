@@ -25,4 +25,6 @@ class SensrFulHght extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Sensr Ful Hght';
 
+    protected $flag_Permanent = true;
+
 }

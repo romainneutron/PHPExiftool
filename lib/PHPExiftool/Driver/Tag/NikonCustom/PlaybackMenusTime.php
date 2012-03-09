@@ -25,6 +25,8 @@ class PlaybackMenusTime extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Playback Menus Time';
 
+    protected $flag_Permanent = true;
+
     protected $Values = array(
         0 => array(
             'Id' => 0,

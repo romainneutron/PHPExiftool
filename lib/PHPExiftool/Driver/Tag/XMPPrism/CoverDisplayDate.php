@@ -25,4 +25,6 @@ class CoverDisplayDate extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Cover Display Date';
 
+    protected $flag_Avoid = true;
+
 }

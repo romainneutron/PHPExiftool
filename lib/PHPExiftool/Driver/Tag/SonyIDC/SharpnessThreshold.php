@@ -25,4 +25,6 @@ class SharpnessThreshold extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Sharpness Threshold';
 
+    protected $flag_Permanent = true;
+
 }

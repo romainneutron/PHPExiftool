@@ -25,4 +25,6 @@ class ModifiedSensorBlueLevel extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Modified Sensor Blue Level';
 
+    protected $flag_Permanent = true;
+
 }

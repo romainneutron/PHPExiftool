@@ -25,4 +25,6 @@ class GammaEnable extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Gamma Enable';
 
+    protected $flag_Permanent = true;
+
 }

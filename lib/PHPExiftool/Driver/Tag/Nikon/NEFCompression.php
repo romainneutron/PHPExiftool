@@ -25,6 +25,8 @@ class NEFCompression extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'NEF Compression';
 
+    protected $flag_Permanent = true;
+
     protected $Values = array(
         1 => array(
             'Id' => 1,

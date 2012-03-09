@@ -25,4 +25,6 @@ class OriginalTHMImage extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Original THM Image';
 
+    protected $flag_Binary = true;
+
 }

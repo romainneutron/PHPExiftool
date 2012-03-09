@@ -25,4 +25,6 @@ class AEUnknown extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'AE Unknown';
 
+    protected $flag_Permanent = true;
+
 }

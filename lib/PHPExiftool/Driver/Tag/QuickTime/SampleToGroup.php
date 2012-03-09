@@ -25,4 +25,6 @@ class SampleToGroup extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Sample To Group';
 
+    protected $flag_Binary = true;
+
 }

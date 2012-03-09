@@ -25,4 +25,6 @@ class AWBGreenOffsetBg extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'AWB Green Offset Bg';
 
+    protected $flag_Permanent = true;
+
 }

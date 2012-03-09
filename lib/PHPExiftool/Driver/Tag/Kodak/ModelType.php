@@ -25,4 +25,6 @@ class ModelType extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Model Type';
 
+    protected $flag_Permanent = true;
+
 }

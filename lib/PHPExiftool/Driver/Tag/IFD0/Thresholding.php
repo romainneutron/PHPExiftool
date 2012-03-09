@@ -25,6 +25,8 @@ class Thresholding extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Thresholding';
 
+    protected $flag_Unsafe = true;
+
     protected $Values = array(
         1 => array(
             'Id' => 1,

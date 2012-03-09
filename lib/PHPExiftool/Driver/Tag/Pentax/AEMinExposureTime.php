@@ -25,4 +25,6 @@ class AEMinExposureTime extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'AE Min Exposure Time';
 
+    protected $flag_Permanent = true;
+
 }

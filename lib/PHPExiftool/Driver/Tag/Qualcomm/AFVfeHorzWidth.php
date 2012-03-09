@@ -25,4 +25,6 @@ class AFVfeHorzWidth extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'AF Vfe Horz Width';
 
+    protected $flag_Permanent = true;
+
 }

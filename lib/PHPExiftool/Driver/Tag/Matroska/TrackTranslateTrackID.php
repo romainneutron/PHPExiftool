@@ -25,4 +25,6 @@ class TrackTranslateTrackID extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Track Translate Track ID';
 
+    protected $flag_Binary = true;
+
 }

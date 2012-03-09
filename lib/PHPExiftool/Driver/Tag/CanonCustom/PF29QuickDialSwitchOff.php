@@ -25,4 +25,6 @@ class PF29QuickDialSwitchOff extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'PF29 Quick Dial Switch Off';
 
+    protected $flag_Permanent = true;
+
 }

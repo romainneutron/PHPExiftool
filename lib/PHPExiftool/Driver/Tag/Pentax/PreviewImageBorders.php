@@ -25,4 +25,6 @@ class PreviewImageBorders extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Preview Image Borders';
 
+    protected $flag_Permanent = true;
+
 }

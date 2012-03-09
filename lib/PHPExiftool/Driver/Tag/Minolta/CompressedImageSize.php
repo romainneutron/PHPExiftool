@@ -25,4 +25,6 @@ class CompressedImageSize extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Compressed Image Size';
 
+    protected $flag_Permanent = true;
+
 }

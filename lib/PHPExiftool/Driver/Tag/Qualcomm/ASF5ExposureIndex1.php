@@ -25,4 +25,6 @@ class ASF5ExposureIndex1 extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'ASF5 Exposure Index 1';
 
+    protected $flag_Permanent = true;
+
 }

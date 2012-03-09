@@ -25,4 +25,6 @@ class HJROneToTwoOffset extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'HJR One To Two Offset';
 
+    protected $flag_Permanent = true;
+
 }

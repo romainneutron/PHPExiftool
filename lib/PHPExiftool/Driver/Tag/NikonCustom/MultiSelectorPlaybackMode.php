@@ -25,6 +25,8 @@ class MultiSelectorPlaybackMode extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Multi Selector Playback Mode';
 
+    protected $flag_Permanent = true;
+
     protected $Values = 'mixed';
 
 }

@@ -25,4 +25,6 @@ class CMWhiteBalance extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'CM White Balance';
 
+    protected $flag_Permanent = true;
+
 }

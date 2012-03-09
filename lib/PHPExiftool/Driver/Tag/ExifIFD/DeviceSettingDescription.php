@@ -29,4 +29,6 @@ class DeviceSettingDescription extends \PHPExiftool\Driver\Tag
 
     protected $local_g2 = 'Camera';
 
+    protected $flag_Binary = true;
+
 }

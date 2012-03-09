@@ -25,4 +25,6 @@ class HJRNReductionTexture extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'HJR N Reduction Texture';
 
+    protected $flag_Permanent = true;
+
 }

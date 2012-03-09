@@ -25,4 +25,8 @@ class IDCPreviewLength extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'IDC Preview Length';
 
+    protected $flag_Permanent = true;
+
+    protected $flag_Protected = true;
+
 }

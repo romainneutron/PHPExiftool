@@ -25,4 +25,6 @@ class SubjectReference extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Subject Reference';
 
+    protected $flag_List = true;
+
 }

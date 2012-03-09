@@ -25,6 +25,8 @@ class CenterWeightedAreaSize extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Center Weighted Area Size';
 
+    protected $flag_Permanent = true;
+
     protected $Values = 'mixed';
 
     protected $Index = 'mixed';

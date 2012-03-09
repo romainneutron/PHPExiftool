@@ -25,4 +25,6 @@ class R2TL84Cx extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'R2 TL84 Cx';
 
+    protected $flag_Permanent = true;
+
 }

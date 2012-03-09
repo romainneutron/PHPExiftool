@@ -25,4 +25,6 @@ class PreviewHeight extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Preview Height';
 
+    protected $flag_Permanent = true;
+
 }

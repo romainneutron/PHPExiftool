@@ -25,4 +25,8 @@ class PlateNames extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Plate Names';
 
+    protected $flag_List = true;
+
+    protected $flag_Seq = true;
+
 }

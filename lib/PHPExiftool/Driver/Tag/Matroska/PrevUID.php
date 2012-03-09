@@ -25,4 +25,6 @@ class PrevUID extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Prev UID';
 
+    protected $flag_Binary = true;
+
 }

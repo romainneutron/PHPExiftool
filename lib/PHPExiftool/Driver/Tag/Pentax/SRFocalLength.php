@@ -25,4 +25,6 @@ class SRFocalLength extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'SR Focal Length';
 
+    protected $flag_Permanent = true;
+
 }

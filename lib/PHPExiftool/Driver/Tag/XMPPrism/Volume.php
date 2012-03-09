@@ -25,4 +25,6 @@ class Volume extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Volume';
 
+    protected $flag_Avoid = true;
+
 }

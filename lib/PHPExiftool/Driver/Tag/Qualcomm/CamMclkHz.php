@@ -25,4 +25,6 @@ class CamMclkHz extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Cam Mclk Hz';
 
+    protected $flag_Permanent = true;
+
 }

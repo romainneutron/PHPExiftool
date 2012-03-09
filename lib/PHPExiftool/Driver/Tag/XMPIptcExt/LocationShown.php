@@ -27,4 +27,8 @@ class LocationShown extends \PHPExiftool\Driver\Tag
 
     protected $local_g2 = 'Location';
 
+    protected $flag_List = true;
+
+    protected $flag_Bag = true;
+
 }

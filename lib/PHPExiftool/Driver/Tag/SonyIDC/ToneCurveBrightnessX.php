@@ -25,4 +25,6 @@ class ToneCurveBrightnessX extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Tone Curve Brightness X';
 
+    protected $flag_Permanent = true;
+
 }

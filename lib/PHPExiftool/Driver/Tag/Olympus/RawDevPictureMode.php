@@ -25,6 +25,8 @@ class RawDevPictureMode extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Raw Dev Picture Mode';
 
+    protected $flag_Permanent = true;
+
     protected $Values = array(
         1 => array(
             'Id' => 1,

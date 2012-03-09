@@ -25,4 +25,6 @@ class M16CVersion extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'M16C Version';
 
+    protected $flag_Permanent = true;
+
 }

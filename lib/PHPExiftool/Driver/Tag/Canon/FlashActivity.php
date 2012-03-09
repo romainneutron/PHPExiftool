@@ -25,4 +25,6 @@ class FlashActivity extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Flash Activity';
 
+    protected $flag_Permanent = true;
+
 }

@@ -25,4 +25,6 @@ class PictInfo extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Pict Info';
 
+    protected $flag_Permanent = true;
+
 }

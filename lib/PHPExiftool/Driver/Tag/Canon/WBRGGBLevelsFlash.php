@@ -25,4 +25,6 @@ class WBRGGBLevelsFlash extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'WB RGGB Levels Flash';
 
+    protected $flag_Permanent = true;
+
 }

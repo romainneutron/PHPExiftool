@@ -25,4 +25,8 @@ class LastKeywordIPTC extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Last Keyword IPTC';
 
+    protected $flag_List = true;
+
+    protected $flag_Bag = true;
+
 }

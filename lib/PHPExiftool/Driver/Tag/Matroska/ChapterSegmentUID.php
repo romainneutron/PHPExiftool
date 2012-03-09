@@ -25,4 +25,6 @@ class ChapterSegmentUID extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Chapter Segment UID';
 
+    protected $flag_Binary = true;
+
 }

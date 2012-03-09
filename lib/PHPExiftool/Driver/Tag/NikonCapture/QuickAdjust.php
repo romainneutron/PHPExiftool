@@ -25,4 +25,6 @@ class QuickAdjust extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Quick Adjust';
 
+    protected $flag_Permanent = true;
+
 }

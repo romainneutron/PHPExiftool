@@ -25,4 +25,6 @@ class AFStepsNearInfinity extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'AF Steps Near Infinity';
 
+    protected $flag_Permanent = true;
+
 }

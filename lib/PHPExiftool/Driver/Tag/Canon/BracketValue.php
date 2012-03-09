@@ -25,4 +25,6 @@ class BracketValue extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Bracket Value';
 
+    protected $flag_Permanent = true;
+
 }

@@ -25,4 +25,6 @@ class RawJpgHeight extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Raw Jpg Height';
 
+    protected $flag_Permanent = true;
+
 }

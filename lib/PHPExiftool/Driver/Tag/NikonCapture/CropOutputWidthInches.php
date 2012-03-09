@@ -25,4 +25,6 @@ class CropOutputWidthInches extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Crop Output Width Inches';
 
+    protected $flag_Permanent = true;
+
 }

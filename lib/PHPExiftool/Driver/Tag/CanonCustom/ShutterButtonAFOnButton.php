@@ -25,6 +25,8 @@ class ShutterButtonAFOnButton extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Shutter Button AF On Button';
 
+    protected $flag_Permanent = true;
+
     protected $Index = 2;
 
     protected $Values = array(

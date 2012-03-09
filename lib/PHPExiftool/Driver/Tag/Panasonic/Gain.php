@@ -25,4 +25,6 @@ class Gain extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Gain';
 
+    protected $flag_Permanent = true;
+
 }

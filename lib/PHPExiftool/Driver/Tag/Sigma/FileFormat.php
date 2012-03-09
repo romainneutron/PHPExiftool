@@ -25,4 +25,6 @@ class FileFormat extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'File Format';
 
+    protected $flag_Permanent = true;
+
 }

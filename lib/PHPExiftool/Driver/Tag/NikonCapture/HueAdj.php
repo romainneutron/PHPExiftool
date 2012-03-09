@@ -25,4 +25,6 @@ class HueAdj extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Hue Adj';
 
+    protected $flag_Permanent = true;
+
 }

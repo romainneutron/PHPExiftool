@@ -25,4 +25,6 @@ class PanoramaFrameWidth extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Panorama Frame Width';
 
+    protected $flag_Permanent = true;
+
 }

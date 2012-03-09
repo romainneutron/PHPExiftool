@@ -25,6 +25,8 @@ class ContrastDetectAFInFocus extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Contrast Detect AF In Focus';
 
+    protected $flag_Permanent = true;
+
     protected $Values = array(
         0 => array(
             'Id' => 0,

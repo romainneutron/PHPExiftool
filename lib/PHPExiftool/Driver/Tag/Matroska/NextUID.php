@@ -25,4 +25,6 @@ class NextUID extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Next UID';
 
+    protected $flag_Binary = true;
+
 }

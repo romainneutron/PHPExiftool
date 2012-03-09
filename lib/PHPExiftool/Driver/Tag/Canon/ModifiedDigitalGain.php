@@ -25,4 +25,6 @@ class ModifiedDigitalGain extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Modified Digital Gain';
 
+    protected $flag_Permanent = true;
+
 }

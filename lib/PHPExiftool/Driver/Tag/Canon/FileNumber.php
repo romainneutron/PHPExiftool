@@ -25,6 +25,8 @@ class FileNumber extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'File Number';
 
+    protected $flag_Permanent = true;
+
     protected $Index = 'mixed';
 
     protected $local_g2 = 'mixed';

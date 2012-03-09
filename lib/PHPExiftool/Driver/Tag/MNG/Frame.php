@@ -25,4 +25,6 @@ class Frame extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Frame';
 
+    protected $flag_Binary = true;
+
 }

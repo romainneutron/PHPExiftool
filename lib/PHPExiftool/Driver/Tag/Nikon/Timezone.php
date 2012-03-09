@@ -25,4 +25,6 @@ class Timezone extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Timezone';
 
+    protected $flag_Permanent = true;
+
 }

@@ -25,4 +25,6 @@ class DefConvLumaV1 extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Def Conv Luma V1';
 
+    protected $flag_Permanent = true;
+
 }

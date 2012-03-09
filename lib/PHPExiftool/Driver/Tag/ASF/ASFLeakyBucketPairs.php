@@ -25,4 +25,6 @@ class ASFLeakyBucketPairs extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'ASF Leaky Bucket Pairs';
 
+    protected $flag_Binary = true;
+
 }

@@ -25,4 +25,6 @@ class NumFacePositions extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Num Face Positions';
 
+    protected $flag_Permanent = true;
+
 }

@@ -25,4 +25,6 @@ class NewsPhotoVersion extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'News Photo Version';
 
+    protected $flag_Mandatory = true;
+
 }

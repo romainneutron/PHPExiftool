@@ -25,6 +25,8 @@ class RawAndJpgRecording extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Raw And Jpg Recording';
 
+    protected $flag_Permanent = true;
+
     protected $Values = array(
         0 => array(
             'Id' => 0,

@@ -25,6 +25,8 @@ class SafetyShift extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Safety Shift';
 
+    protected $flag_Permanent = true;
+
     protected $Values = array(
         0 => array(
             'Id' => 0,

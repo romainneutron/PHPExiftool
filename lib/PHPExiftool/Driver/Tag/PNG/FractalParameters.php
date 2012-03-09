@@ -25,4 +25,6 @@ class FractalParameters extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Fractal Parameters';
 
+    protected $flag_Binary = true;
+
 }

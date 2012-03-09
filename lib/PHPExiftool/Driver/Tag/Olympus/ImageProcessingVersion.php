@@ -25,4 +25,6 @@ class ImageProcessingVersion extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Image Processing Version';
 
+    protected $flag_Permanent = true;
+
 }

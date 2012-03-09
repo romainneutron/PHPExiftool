@@ -25,4 +25,6 @@ class Number extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Number';
 
+    protected $flag_Avoid = true;
+
 }

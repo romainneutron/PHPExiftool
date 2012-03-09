@@ -25,4 +25,6 @@ class RolloffEnable extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Rolloff Enable';
 
+    protected $flag_Permanent = true;
+
 }

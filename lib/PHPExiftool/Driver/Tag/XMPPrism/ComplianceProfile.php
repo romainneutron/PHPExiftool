@@ -25,6 +25,8 @@ class ComplianceProfile extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Compliance Profile';
 
+    protected $flag_Avoid = true;
+
     protected $Values = array(
         'three' => array(
             'Id' => 'three',

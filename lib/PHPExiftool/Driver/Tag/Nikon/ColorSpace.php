@@ -25,6 +25,8 @@ class ColorSpace extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Color Space';
 
+    protected $flag_Permanent = true;
+
     protected $Values = array(
         1 => array(
             'Id' => 1,

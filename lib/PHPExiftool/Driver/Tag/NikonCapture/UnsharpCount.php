@@ -25,4 +25,6 @@ class UnsharpCount extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Unsharp Count';
 
+    protected $flag_Permanent = true;
+
 }

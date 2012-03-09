@@ -25,6 +25,8 @@ class LocalAFAreaPoint extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Local AF Area Point';
 
+    protected $flag_Permanent = true;
+
     protected $Values = array(
         1 => array(
             'Id' => 1,

@@ -25,4 +25,6 @@ class RawDepth extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Raw Depth';
 
+    protected $flag_Permanent = true;
+
 }

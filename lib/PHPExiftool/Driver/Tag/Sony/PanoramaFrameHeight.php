@@ -25,4 +25,6 @@ class PanoramaFrameHeight extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Panorama Frame Height';
 
+    protected $flag_Permanent = true;
+
 }

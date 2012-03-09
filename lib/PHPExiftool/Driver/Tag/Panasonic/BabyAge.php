@@ -25,4 +25,6 @@ class BabyAge extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Baby Age';
 
+    protected $flag_Permanent = true;
+
 }

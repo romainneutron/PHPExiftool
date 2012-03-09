@@ -25,4 +25,6 @@ class EpsonImageHeight extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Epson Image Height';
 
+    protected $flag_Permanent = true;
+
 }

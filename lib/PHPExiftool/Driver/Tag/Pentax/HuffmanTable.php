@@ -25,4 +25,8 @@ class HuffmanTable extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Huffman Table';
 
+    protected $flag_Binary = true;
+
+    protected $flag_Permanent = true;
+
 }

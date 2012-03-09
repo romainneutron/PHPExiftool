@@ -25,4 +25,6 @@ class ToneCurve3 extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Tone Curve 3';
 
+    protected $flag_Permanent = true;
+
 }

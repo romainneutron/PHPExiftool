@@ -25,4 +25,6 @@ class ShotInfoVersion extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Shot Info Version';
 
+    protected $flag_Permanent = true;
+
 }

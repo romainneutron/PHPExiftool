@@ -25,4 +25,6 @@ class OriginalDirectory extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Original Directory';
 
+    protected $flag_Permanent = true;
+
 }

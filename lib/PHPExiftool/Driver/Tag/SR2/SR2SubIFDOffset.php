@@ -25,4 +25,6 @@ class SR2SubIFDOffset extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'SR2 Sub IFD Offset';
 
+    protected $flag_Permanent = true;
+
 }

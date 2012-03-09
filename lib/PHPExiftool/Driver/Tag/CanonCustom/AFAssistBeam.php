@@ -25,6 +25,8 @@ class AFAssistBeam extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'AF Assist Beam';
 
+    protected $flag_Permanent = true;
+
     protected $Values = 'mixed';
 
     protected $Index = 'mixed';

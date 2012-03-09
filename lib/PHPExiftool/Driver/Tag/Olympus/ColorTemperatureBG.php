@@ -25,4 +25,6 @@ class ColorTemperatureBG extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Color Temperature BG';
 
+    protected $flag_Permanent = true;
+
 }

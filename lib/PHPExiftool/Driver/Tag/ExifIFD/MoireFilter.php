@@ -27,4 +27,6 @@ class MoireFilter extends \PHPExiftool\Driver\Tag
 
     protected $local_g1 = 'ExifIFD';
 
+    protected $flag_Avoid = true;
+
 }

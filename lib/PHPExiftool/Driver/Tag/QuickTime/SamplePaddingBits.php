@@ -25,4 +25,6 @@ class SamplePaddingBits extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Sample Padding Bits';
 
+    protected $flag_Binary = true;
+
 }

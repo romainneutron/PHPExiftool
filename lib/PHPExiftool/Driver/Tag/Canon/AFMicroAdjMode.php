@@ -25,6 +25,8 @@ class AFMicroAdjMode extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'AF Micro Adj Mode';
 
+    protected $flag_Permanent = true;
+
     protected $Values = array(
         0 => array(
             'Id' => 0,

@@ -25,6 +25,8 @@ class FocusMode2 extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Focus Mode 2';
 
+    protected $flag_Permanent = true;
+
     protected $Values = array(
         0 => array(
             'Id' => 0,

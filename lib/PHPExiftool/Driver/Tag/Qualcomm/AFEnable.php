@@ -25,4 +25,6 @@ class AFEnable extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'AF Enable';
 
+    protected $flag_Permanent = true;
+
 }

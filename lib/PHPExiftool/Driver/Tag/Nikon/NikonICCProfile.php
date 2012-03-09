@@ -25,4 +25,10 @@ class NikonICCProfile extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Nikon ICC Profile';
 
+    protected $flag_Binary = true;
+
+    protected $flag_Permanent = true;
+
+    protected $flag_Unsafe = true;
+
 }

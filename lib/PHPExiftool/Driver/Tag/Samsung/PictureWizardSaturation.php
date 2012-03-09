@@ -25,4 +25,6 @@ class PictureWizardSaturation extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Picture Wizard Saturation';
 
+    protected $flag_Permanent = true;
+
 }

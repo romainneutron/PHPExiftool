@@ -25,6 +25,8 @@ class ProgramLine extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Program Line';
 
+    protected $flag_Permanent = true;
+
     protected $Values = array(
         0 => array(
             'Id' => 0,

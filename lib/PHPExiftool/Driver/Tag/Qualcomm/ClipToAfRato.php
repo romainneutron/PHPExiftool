@@ -25,4 +25,6 @@ class ClipToAfRato extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Clip To Af Rato';
 
+    protected $flag_Permanent = true;
+
 }

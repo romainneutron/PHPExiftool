@@ -25,4 +25,6 @@ class DNGBackwardVersion extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'DNG Backward Version';
 
+    protected $flag_Unsafe = true;
+
 }

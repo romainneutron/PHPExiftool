@@ -25,4 +25,6 @@ class Equipment extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Equipment';
 
+    protected $flag_Permanent = true;
+
 }

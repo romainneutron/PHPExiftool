@@ -25,4 +25,6 @@ class ExposureValue extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Exposure Value';
 
+    protected $flag_Permanent = true;
+
 }

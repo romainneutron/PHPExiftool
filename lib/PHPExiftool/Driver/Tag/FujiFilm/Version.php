@@ -25,4 +25,6 @@ class Version extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Version';
 
+    protected $flag_Permanent = true;
+
 }

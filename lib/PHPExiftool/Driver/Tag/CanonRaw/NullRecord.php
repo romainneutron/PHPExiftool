@@ -25,4 +25,6 @@ class NullRecord extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Null Record';
 
+    protected $flag_Permanent = true;
+
 }

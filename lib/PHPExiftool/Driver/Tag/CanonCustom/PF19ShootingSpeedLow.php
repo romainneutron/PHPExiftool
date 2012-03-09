@@ -25,4 +25,6 @@ class PF19ShootingSpeedLow extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'PF19 Shooting Speed Low';
 
+    protected $flag_Permanent = true;
+
 }

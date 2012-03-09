@@ -25,6 +25,8 @@ class SubfileType extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Subfile Type';
 
+    protected $flag_Permanent = true;
+
     protected $Values = array(
         0 => array(
             'Id' => 0,

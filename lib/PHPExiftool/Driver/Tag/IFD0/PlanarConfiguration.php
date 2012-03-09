@@ -25,6 +25,8 @@ class PlanarConfiguration extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Planar Configuration';
 
+    protected $flag_Unsafe = true;
+
     protected $Values = array(
         1 => array(
             'Id' => 1,

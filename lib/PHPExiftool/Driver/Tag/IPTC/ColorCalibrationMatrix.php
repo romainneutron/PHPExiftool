@@ -25,4 +25,6 @@ class ColorCalibrationMatrix extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Color Calibration Matrix';
 
+    protected $flag_Binary = true;
+
 }

@@ -27,4 +27,6 @@ class GeoTiffDoubleParams extends \PHPExiftool\Driver\Tag
 
     protected $local_g1 = 'ExifIFD';
 
+    protected $flag_Binary = true;
+
 }

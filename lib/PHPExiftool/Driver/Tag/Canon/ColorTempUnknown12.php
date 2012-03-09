@@ -25,4 +25,6 @@ class ColorTempUnknown12 extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Color Temp Unknown 12';
 
+    protected $flag_Permanent = true;
+
 }

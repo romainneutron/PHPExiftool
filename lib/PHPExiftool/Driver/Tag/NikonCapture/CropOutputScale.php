@@ -25,4 +25,6 @@ class CropOutputScale extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Crop Output Scale';
 
+    protected $flag_Permanent = true;
+
 }

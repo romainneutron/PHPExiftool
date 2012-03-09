@@ -25,4 +25,6 @@ class DigitalROC extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Digital ROC';
 
+    protected $flag_Permanent = true;
+
 }

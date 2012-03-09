@@ -25,4 +25,6 @@ class RawDevExposureBiasValue extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Raw Dev Exposure Bias Value';
 
+    protected $flag_Permanent = true;
+
 }

@@ -25,4 +25,6 @@ class AECHighLumaRegionThreshold extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'AEC High Luma Region Threshold';
 
+    protected $flag_Permanent = true;
+
 }

@@ -25,6 +25,8 @@ class VignetteControl extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Vignette Control';
 
+    protected $flag_Permanent = true;
+
     protected $Values = array(
         0 => array(
             'Id' => 0,

@@ -25,4 +25,6 @@ class Wide extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Wide';
 
+    protected $flag_Binary = true;
+
 }

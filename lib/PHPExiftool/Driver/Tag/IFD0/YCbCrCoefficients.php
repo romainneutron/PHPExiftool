@@ -25,4 +25,6 @@ class YCbCrCoefficients extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Y Cb Cr Coefficients';
 
+    protected $flag_Unsafe = true;
+
 }

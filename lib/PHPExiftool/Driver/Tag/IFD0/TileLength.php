@@ -25,4 +25,6 @@ class TileLength extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Tile Length';
 
+    protected $flag_Unsafe = true;
+
 }

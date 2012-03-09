@@ -25,4 +25,6 @@ class OutlierDistance extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Outlier Distance';
 
+    protected $flag_Permanent = true;
+
 }

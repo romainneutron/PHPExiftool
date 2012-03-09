@@ -25,4 +25,6 @@ class ZoomedPreviewSize extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Zoomed Preview Size';
 
+    protected $flag_Permanent = true;
+
 }

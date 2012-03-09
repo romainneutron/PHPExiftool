@@ -25,4 +25,6 @@ class GIFApplicationExtension extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'GIF Application Extension';
 
+    protected $flag_Binary = true;
+
 }

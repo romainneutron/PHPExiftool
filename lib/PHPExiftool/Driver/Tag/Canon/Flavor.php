@@ -25,4 +25,8 @@ class Flavor extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Flavor';
 
+    protected $flag_Binary = true;
+
+    protected $flag_Permanent = true;
+
 }

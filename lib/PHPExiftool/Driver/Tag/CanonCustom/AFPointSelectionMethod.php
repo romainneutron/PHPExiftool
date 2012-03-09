@@ -25,6 +25,8 @@ class AFPointSelectionMethod extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'AF Point Selection Method';
 
+    protected $flag_Permanent = true;
+
     protected $Values = 'mixed';
 
     protected $Index = 'mixed';

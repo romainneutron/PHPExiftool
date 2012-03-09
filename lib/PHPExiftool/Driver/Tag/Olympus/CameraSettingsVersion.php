@@ -25,4 +25,6 @@ class CameraSettingsVersion extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Camera Settings Version';
 
+    protected $flag_Permanent = true;
+
 }

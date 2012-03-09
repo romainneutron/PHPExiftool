@@ -25,4 +25,6 @@ class RawDevWBFineAdjustment extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Raw Dev WB Fine Adjustment';
 
+    protected $flag_Permanent = true;
+
 }

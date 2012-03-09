@@ -25,4 +25,6 @@ class JpgFromRawLength extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Jpg From Raw Length';
 
+    protected $flag_Permanent = true;
+
 }

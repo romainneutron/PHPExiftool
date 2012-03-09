@@ -25,4 +25,6 @@ class ImageUIDList extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Image UID List';
 
+    protected $flag_Binary = true;
+
 }

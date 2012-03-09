@@ -25,6 +25,8 @@ class ContrastFaithful extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Contrast Faithful';
 
+    protected $flag_Permanent = true;
+
     protected $Values = 'mixed';
 
 }

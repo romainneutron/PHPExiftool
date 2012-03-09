@@ -25,4 +25,8 @@ class Manifest extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Manifest';
 
+    protected $flag_List = true;
+
+    protected $flag_Bag = true;
+
 }

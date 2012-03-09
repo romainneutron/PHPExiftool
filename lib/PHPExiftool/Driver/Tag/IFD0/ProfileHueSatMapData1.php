@@ -25,4 +25,6 @@ class ProfileHueSatMapData1 extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Profile Hue Sat Map Data 1';
 
+    protected $flag_Unsafe = true;
+
 }

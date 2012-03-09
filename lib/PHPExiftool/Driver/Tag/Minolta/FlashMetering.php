@@ -25,6 +25,8 @@ class FlashMetering extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Flash Metering';
 
+    protected $flag_Permanent = true;
+
     protected $Values = 'mixed';
 
 }

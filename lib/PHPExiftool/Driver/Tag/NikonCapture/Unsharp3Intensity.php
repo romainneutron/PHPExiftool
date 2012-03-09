@@ -25,4 +25,6 @@ class Unsharp3Intensity extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Unsharp 3 Intensity';
 
+    protected $flag_Permanent = true;
+
 }

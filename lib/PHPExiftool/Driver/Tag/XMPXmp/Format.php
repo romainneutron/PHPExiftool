@@ -25,4 +25,6 @@ class Format extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Format';
 
+    protected $flag_Avoid = true;
+
 }

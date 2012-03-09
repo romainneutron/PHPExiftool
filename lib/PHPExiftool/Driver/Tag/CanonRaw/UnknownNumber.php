@@ -25,6 +25,8 @@ class UnknownNumber extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Unknown Number';
 
+    protected $flag_Permanent = true;
+
     protected $Index = 2;
 
 }

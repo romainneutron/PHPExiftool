@@ -25,4 +25,6 @@ class FirmwareDate extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Firmware Date';
 
+    protected $flag_Permanent = true;
+
 }

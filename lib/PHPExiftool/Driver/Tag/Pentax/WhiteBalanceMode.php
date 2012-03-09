@@ -25,6 +25,8 @@ class WhiteBalanceMode extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'White Balance Mode';
 
+    protected $flag_Permanent = true;
+
     protected $Values = array(
         1 => array(
             'Id' => 1,

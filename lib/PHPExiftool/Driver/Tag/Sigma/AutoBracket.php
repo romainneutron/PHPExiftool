@@ -25,4 +25,6 @@ class AutoBracket extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Auto Bracket';
 
+    protected $flag_Permanent = true;
+
 }

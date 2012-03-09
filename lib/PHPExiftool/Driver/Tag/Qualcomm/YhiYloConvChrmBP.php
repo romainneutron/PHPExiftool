@@ -25,4 +25,6 @@ class YhiYloConvChrmBP extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Yhi Ylo Conv Chrm B P';
 
+    protected $flag_Permanent = true;
+
 }

@@ -25,4 +25,6 @@ class SensorBitDepth extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Sensor Bit Depth';
 
+    protected $flag_Permanent = true;
+
 }

@@ -25,6 +25,8 @@ class ImageReviewTime extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Image Review Time';
 
+    protected $flag_Permanent = true;
+
     protected $Values = 'mixed';
 
 }

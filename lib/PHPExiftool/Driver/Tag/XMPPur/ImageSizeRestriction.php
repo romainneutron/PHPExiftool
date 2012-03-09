@@ -25,4 +25,6 @@ class ImageSizeRestriction extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Image Size Restriction';
 
+    protected $flag_Avoid = true;
+
 }

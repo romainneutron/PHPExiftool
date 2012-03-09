@@ -25,4 +25,6 @@ class AFDefocus extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'AF Defocus';
 
+    protected $flag_Permanent = true;
+
 }

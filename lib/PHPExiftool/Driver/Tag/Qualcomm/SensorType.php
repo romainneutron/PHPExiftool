@@ -25,4 +25,6 @@ class SensorType extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Sensor Type';
 
+    protected $flag_Permanent = true;
+
 }

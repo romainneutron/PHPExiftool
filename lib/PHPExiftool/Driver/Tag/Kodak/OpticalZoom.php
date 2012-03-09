@@ -25,4 +25,6 @@ class OpticalZoom extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Optical Zoom';
 
+    protected $flag_Permanent = true;
+
 }

@@ -25,4 +25,6 @@ class SelfTimer2 extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Self Timer 2';
 
+    protected $flag_Permanent = true;
+
 }

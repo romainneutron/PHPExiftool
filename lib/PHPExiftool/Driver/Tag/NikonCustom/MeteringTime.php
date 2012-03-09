@@ -25,6 +25,8 @@ class MeteringTime extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Metering Time';
 
+    protected $flag_Permanent = true;
+
     protected $Values = 'mixed';
 
 }

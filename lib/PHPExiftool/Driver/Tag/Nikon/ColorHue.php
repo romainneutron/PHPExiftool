@@ -25,4 +25,6 @@ class ColorHue extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Color Hue';
 
+    protected $flag_Permanent = true;
+
 }

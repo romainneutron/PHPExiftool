@@ -25,4 +25,6 @@ class AFFarEnd extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'AF Far End';
 
+    protected $flag_Permanent = true;
+
 }

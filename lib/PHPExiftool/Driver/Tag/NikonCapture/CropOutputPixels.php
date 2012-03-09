@@ -25,4 +25,6 @@ class CropOutputPixels extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Crop Output Pixels';
 
+    protected $flag_Permanent = true;
+
 }

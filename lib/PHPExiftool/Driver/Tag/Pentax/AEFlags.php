@@ -25,6 +25,8 @@ class AEFlags extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'AE Flags';
 
+    protected $flag_Permanent = true;
+
     protected $Values = array(
         8 => array(
             'Id' => 8,

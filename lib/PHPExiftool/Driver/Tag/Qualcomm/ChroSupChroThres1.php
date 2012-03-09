@@ -25,4 +25,6 @@ class ChroSupChroThres1 extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Chro Sup Chro Thres 1';
 
+    protected $flag_Permanent = true;
+
 }

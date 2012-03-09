@@ -25,4 +25,6 @@ class LAEnable extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'LA Enable';
 
+    protected $flag_Permanent = true;
+
 }

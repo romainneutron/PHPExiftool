@@ -25,4 +25,8 @@ class JobRef extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Job Ref';
 
+    protected $flag_List = true;
+
+    protected $flag_Bag = true;
+
 }

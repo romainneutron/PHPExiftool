@@ -25,6 +25,8 @@ class AFWithShutter extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'AF With Shutter';
 
+    protected $flag_Permanent = true;
+
     protected $Values = array(
         0 => array(
             'Id' => 0,

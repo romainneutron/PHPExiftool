@@ -25,4 +25,6 @@ class BWFilter extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'BW Filter';
 
+    protected $flag_Permanent = true;
+
 }

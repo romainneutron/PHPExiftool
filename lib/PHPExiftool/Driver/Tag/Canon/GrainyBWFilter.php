@@ -25,4 +25,6 @@ class GrainyBWFilter extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Grainy B/W Filter';
 
+    protected $flag_Permanent = true;
+
 }

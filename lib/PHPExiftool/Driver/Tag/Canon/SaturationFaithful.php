@@ -25,6 +25,8 @@ class SaturationFaithful extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Saturation Faithful';
 
+    protected $flag_Permanent = true;
+
     protected $Values = 'mixed';
 
 }

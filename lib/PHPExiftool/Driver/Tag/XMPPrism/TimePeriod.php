@@ -25,4 +25,6 @@ class TimePeriod extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Time Period';
 
+    protected $flag_Avoid = true;
+
 }

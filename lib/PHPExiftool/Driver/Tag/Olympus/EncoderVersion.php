@@ -25,4 +25,6 @@ class EncoderVersion extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Encoder Version';
 
+    protected $flag_Permanent = true;
+
 }

@@ -25,4 +25,6 @@ class PeripheralIllumCentralValue extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Peripheral Illum Central Value';
 
+    protected $flag_Permanent = true;
+
 }

@@ -25,4 +25,6 @@ class FlashGroupCOutput extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Flash Group C Output';
 
+    protected $flag_Permanent = true;
+
 }

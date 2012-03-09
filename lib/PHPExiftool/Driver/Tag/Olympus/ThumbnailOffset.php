@@ -25,4 +25,6 @@ class ThumbnailOffset extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Thumbnail Offset';
 
+    protected $flag_Permanent = true;
+
 }

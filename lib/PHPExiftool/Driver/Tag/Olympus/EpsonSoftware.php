@@ -25,4 +25,6 @@ class EpsonSoftware extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Epson Software';
 
+    protected $flag_Permanent = true;
+
 }

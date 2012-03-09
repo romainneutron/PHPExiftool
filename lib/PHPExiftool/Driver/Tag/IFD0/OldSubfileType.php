@@ -25,6 +25,8 @@ class OldSubfileType extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Old Subfile Type';
 
+    protected $flag_Unsafe = true;
+
     protected $Values = array(
         1 => array(
             'Id' => 1,

@@ -25,4 +25,6 @@ class SensrQtrWdth extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Sensr Qtr Wdth';
 
+    protected $flag_Permanent = true;
+
 }

@@ -25,4 +25,6 @@ class CommanderInternalTTLCompBuiltin extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Commander Internal TTL Comp Builtin';
 
+    protected $flag_Permanent = true;
+
 }

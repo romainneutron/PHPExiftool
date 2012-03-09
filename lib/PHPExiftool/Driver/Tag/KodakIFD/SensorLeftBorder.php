@@ -25,4 +25,6 @@ class SensorLeftBorder extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Sensor Left Border';
 
+    protected $flag_Permanent = true;
+
 }

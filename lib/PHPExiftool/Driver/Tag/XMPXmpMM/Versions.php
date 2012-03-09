@@ -25,4 +25,8 @@ class Versions extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Versions';
 
+    protected $flag_List = true;
+
+    protected $flag_Seq = true;
+
 }

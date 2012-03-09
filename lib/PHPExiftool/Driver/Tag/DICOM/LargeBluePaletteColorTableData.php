@@ -25,4 +25,6 @@ class LargeBluePaletteColorTableData extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Large Blue Palette Color Table Data';
 
+    protected $flag_Binary = true;
+
 }

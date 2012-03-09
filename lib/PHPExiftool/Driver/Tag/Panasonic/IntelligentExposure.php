@@ -25,6 +25,8 @@ class IntelligentExposure extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Intelligent Exposure';
 
+    protected $flag_Permanent = true;
+
     protected $Values = array(
         0 => array(
             'Id' => 0,

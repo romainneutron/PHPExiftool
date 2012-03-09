@@ -25,4 +25,6 @@ class FreeMemoryCardImages extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Free Memory Card Images';
 
+    protected $flag_Permanent = true;
+
 }

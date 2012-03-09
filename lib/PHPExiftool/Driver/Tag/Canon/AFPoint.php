@@ -25,6 +25,8 @@ class AFPoint extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'AF Point';
 
+    protected $flag_Permanent = true;
+
     protected $Values = array(
         8197 => array(
             'Id' => 8197,

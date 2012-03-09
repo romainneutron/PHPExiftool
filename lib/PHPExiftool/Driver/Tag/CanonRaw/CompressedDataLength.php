@@ -25,4 +25,6 @@ class CompressedDataLength extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Compressed Data Length';
 
+    protected $flag_Permanent = true;
+
 }

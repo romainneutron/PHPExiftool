@@ -25,4 +25,6 @@ class ExternalFlashGuideNumber extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'External Flash Guide Number';
 
+    protected $flag_Permanent = true;
+
 }

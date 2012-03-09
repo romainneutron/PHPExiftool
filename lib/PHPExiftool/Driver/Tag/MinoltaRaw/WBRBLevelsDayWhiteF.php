@@ -25,4 +25,6 @@ class WBRBLevelsDayWhiteF extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'WB RB Levels Day White F';
 
+    protected $flag_Permanent = true;
+
 }

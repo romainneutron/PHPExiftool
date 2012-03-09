@@ -25,4 +25,6 @@ class ImageOptimization extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Image Optimization';
 
+    protected $flag_Permanent = true;
+
 }

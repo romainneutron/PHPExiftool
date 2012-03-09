@@ -25,6 +25,8 @@ class OKButton extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'OK Button';
 
+    protected $flag_Permanent = true;
+
     protected $Values = 'mixed';
 
 }

@@ -25,4 +25,6 @@ class FileSource extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'File Source';
 
+    protected $flag_Permanent = true;
+
 }

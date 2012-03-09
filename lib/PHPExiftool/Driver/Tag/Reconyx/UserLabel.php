@@ -25,4 +25,6 @@ class UserLabel extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'User Label';
 
+    protected $flag_Permanent = true;
+
 }

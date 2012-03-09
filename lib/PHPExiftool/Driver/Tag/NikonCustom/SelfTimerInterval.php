@@ -25,6 +25,8 @@ class SelfTimerInterval extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Self Timer Interval';
 
+    protected $flag_Permanent = true;
+
     protected $Values = array(
         0 => array(
             'Id' => 0,

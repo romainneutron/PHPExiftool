@@ -25,4 +25,6 @@ class WhiteBalanceComp extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'White Balance Comp';
 
+    protected $flag_Permanent = true;
+
 }

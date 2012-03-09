@@ -25,4 +25,6 @@ class AWBEnable extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'AWB Enable';
 
+    protected $flag_Permanent = true;
+
 }

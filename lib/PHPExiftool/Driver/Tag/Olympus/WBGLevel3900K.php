@@ -25,4 +25,6 @@ class WBGLevel3900K extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'WB G Level 3900K';
 
+    protected $flag_Permanent = true;
+
 }

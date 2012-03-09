@@ -27,4 +27,6 @@ class CPUType extends \PHPExiftool\Driver\Tag
 
     protected $Values = 'mixed';
 
+    protected $flag_List = 'mixed';
+
 }

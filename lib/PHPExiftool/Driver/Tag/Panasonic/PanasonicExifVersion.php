@@ -25,4 +25,6 @@ class PanasonicExifVersion extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Panasonic Exif Version';
 
+    protected $flag_Permanent = true;
+
 }

@@ -25,4 +25,6 @@ class R2D65Height extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'R2 D65 Height';
 
+    protected $flag_Permanent = true;
+
 }

@@ -25,4 +25,6 @@ class ThumbnailHeight extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Thumbnail Height';
 
+    protected $flag_Permanent = true;
+
 }

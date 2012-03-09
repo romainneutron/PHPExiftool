@@ -25,4 +25,6 @@ class NCDFileInfo extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'NCD File Info';
 
+    protected $flag_Permanent = true;
+
 }

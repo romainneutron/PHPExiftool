@@ -25,4 +25,6 @@ class AEMeteringSegments extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'AE Metering Segments';
 
+    protected $flag_Permanent = true;
+
 }

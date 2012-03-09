@@ -25,4 +25,6 @@ class PF20LimitContinousShots extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'PF20 Limit Continous Shots';
 
+    protected $flag_Permanent = true;
+
 }

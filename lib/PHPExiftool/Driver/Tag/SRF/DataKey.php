@@ -25,4 +25,6 @@ class DataKey extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Data Key';
 
+    protected $flag_Permanent = true;
+
 }

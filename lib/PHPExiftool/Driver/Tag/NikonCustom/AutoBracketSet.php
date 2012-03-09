@@ -25,6 +25,8 @@ class AutoBracketSet extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Auto Bracket Set';
 
+    protected $flag_Permanent = true;
+
     protected $Values = 'mixed';
 
 }

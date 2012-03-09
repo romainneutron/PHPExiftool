@@ -25,4 +25,6 @@ class FocusSetting extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Focus Setting';
 
+    protected $flag_Permanent = true;
+
 }

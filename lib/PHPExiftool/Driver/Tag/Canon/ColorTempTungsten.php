@@ -25,4 +25,6 @@ class ColorTempTungsten extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Color Temp Tungsten';
 
+    protected $flag_Permanent = true;
+
 }

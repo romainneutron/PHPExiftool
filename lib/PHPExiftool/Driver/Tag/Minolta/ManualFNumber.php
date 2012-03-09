@@ -25,4 +25,6 @@ class ManualFNumber extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Manual F Number';
 
+    protected $flag_Permanent = true;
+
 }

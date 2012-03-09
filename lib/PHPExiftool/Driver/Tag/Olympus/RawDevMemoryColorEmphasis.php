@@ -25,4 +25,6 @@ class RawDevMemoryColorEmphasis extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Raw Dev Memory Color Emphasis';
 
+    protected $flag_Permanent = true;
+
 }

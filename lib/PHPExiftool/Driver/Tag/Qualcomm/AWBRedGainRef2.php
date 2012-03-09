@@ -25,4 +25,6 @@ class AWBRedGainRef2 extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'AWB Red Gain Ref2';
 
+    protected $flag_Permanent = true;
+
 }

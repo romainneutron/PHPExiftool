@@ -25,4 +25,6 @@ class SelfTimerShotCount extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Self Timer Shot Count';
 
+    protected $flag_Permanent = true;
+
 }

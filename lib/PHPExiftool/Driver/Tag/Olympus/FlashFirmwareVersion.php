@@ -25,4 +25,6 @@ class FlashFirmwareVersion extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Flash Firmware Version';
 
+    protected $flag_Permanent = true;
+
 }

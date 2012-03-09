@@ -25,6 +25,8 @@ class UsableMeteringModes extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Usable Metering Modes';
 
+    protected $flag_Permanent = true;
+
     protected $Values = array(
         0 => array(
             'Id' => 0,

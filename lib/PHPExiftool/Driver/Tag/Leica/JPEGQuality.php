@@ -25,6 +25,8 @@ class JPEGQuality extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'JPEG Quality';
 
+    protected $flag_Permanent = true;
+
     protected $Values = array(
         94 => array(
             'Id' => 94,

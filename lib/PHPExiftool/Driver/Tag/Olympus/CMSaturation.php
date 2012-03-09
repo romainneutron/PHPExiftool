@@ -25,4 +25,6 @@ class CMSaturation extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'CM Saturation';
 
+    protected $flag_Permanent = true;
+
 }

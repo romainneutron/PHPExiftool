@@ -25,4 +25,6 @@ class ExitPupilPosition extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Exit Pupil Position';
 
+    protected $flag_Permanent = true;
+
 }

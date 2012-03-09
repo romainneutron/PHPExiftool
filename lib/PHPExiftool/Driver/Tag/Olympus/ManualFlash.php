@@ -25,4 +25,6 @@ class ManualFlash extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Manual Flash';
 
+    protected $flag_Permanent = true;
+
 }

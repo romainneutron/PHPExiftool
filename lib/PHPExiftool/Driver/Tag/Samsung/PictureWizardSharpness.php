@@ -25,4 +25,6 @@ class PictureWizardSharpness extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Picture Wizard Sharpness';
 
+    protected $flag_Permanent = true;
+
 }

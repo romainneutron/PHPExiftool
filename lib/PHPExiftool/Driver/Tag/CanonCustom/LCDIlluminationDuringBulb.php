@@ -25,6 +25,8 @@ class LCDIlluminationDuringBulb extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'LCD Illumination During Bulb';
 
+    protected $flag_Permanent = true;
+
     protected $Values = array(
         0 => array(
             'Id' => 0,

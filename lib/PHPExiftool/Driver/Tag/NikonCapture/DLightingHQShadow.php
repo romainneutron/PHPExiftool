@@ -25,4 +25,6 @@ class DLightingHQShadow extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'D-Lighting HQ Shadow';
 
+    protected $flag_Permanent = true;
+
 }

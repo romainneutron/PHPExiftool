@@ -25,4 +25,8 @@ class PreviewImageData extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Preview Image Data';
 
+    protected $flag_Binary = true;
+
+    protected $flag_Permanent = true;
+
 }

@@ -25,4 +25,6 @@ class XMLData extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'XML Data';
 
+    protected $flag_Binary = true;
+
 }

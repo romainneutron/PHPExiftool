@@ -25,4 +25,6 @@ class UserAdjSBARGBShifts extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'User Adj SBA RGB Shifts';
 
+    protected $flag_Binary = true;
+
 }

@@ -25,6 +25,8 @@ class SaturationUserDef1 extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Saturation User Def 1';
 
+    protected $flag_Permanent = true;
+
     protected $Values = 'mixed';
 
 }

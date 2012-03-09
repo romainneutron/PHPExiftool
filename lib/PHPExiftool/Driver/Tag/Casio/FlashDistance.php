@@ -25,4 +25,6 @@ class FlashDistance extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Flash Distance';
 
+    protected $flag_Permanent = true;
+
 }

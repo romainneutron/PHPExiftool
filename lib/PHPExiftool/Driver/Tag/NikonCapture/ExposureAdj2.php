@@ -25,4 +25,6 @@ class ExposureAdj2 extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Exposure Adj 2';
 
+    protected $flag_Permanent = true;
+
 }

@@ -25,4 +25,6 @@ class AdjustmentMode extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Adjustment Mode';
 
+    protected $flag_Permanent = true;
+
 }

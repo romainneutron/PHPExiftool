@@ -25,4 +25,6 @@ class CCDSensitivity extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'CCD Sensitivity';
 
+    protected $flag_Permanent = true;
+
 }

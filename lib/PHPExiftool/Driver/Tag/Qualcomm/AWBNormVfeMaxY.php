@@ -25,4 +25,6 @@ class AWBNormVfeMaxY extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'AWB Norm Vfe Max Y';
 
+    protected $flag_Permanent = true;
+
 }

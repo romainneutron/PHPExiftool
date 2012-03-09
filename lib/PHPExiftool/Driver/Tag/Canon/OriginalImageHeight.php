@@ -25,4 +25,6 @@ class OriginalImageHeight extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Original Image Height';
 
+    protected $flag_Permanent = true;
+
 }

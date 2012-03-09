@@ -25,4 +25,6 @@ class R2ACx extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'R2 A Cx';
 
+    protected $flag_Permanent = true;
+
 }

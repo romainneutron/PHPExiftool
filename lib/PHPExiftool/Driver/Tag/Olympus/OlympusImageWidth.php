@@ -25,4 +25,6 @@ class OlympusImageWidth extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Olympus Image Width';
 
+    protected $flag_Permanent = true;
+
 }

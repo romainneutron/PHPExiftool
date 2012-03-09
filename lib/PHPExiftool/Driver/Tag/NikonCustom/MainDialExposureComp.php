@@ -25,6 +25,8 @@ class MainDialExposureComp extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Main Dial Exposure Comp';
 
+    protected $flag_Permanent = true;
+
     protected $Values = array(
         0 => array(
             'Id' => 0,

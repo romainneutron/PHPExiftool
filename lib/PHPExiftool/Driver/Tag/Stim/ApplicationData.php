@@ -25,4 +25,6 @@ class ApplicationData extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Application Data';
 
+    protected $flag_Binary = true;
+
 }

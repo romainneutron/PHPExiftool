@@ -25,4 +25,6 @@ class StraightenAngle extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Straighten Angle';
 
+    protected $flag_Permanent = true;
+
 }

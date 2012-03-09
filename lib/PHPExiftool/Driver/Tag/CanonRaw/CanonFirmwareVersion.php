@@ -25,4 +25,6 @@ class CanonFirmwareVersion extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Canon Firmware Version';
 
+    protected $flag_Permanent = true;
+
 }

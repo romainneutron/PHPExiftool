@@ -25,4 +25,6 @@ class ChapterProcessPrivate extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Chapter Process Private';
 
+    protected $flag_Binary = true;
+
 }

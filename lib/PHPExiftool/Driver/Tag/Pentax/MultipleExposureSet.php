@@ -25,6 +25,8 @@ class MultipleExposureSet extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Multiple Exposure Set';
 
+    protected $flag_Permanent = true;
+
     protected $Values = array(
         0 => array(
             'Id' => 0,

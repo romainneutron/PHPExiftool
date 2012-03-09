@@ -25,4 +25,6 @@ class ImageNumber2 extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Image Number 2';
 
+    protected $flag_Permanent = true;
+
 }

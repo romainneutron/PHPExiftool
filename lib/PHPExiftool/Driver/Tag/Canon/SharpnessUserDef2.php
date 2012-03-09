@@ -25,6 +25,8 @@ class SharpnessUserDef2 extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Sharpness User Def 2';
 
+    protected $flag_Permanent = true;
+
     protected $Values = 'mixed';
 
 }

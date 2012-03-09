@@ -25,4 +25,6 @@ class HometownCity extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Hometown City';
 
+    protected $flag_Permanent = true;
+
 }

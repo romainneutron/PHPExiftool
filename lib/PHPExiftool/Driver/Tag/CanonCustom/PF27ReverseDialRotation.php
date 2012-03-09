@@ -25,4 +25,6 @@ class PF27ReverseDialRotation extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'PF27 Reverse Dial Rotation';
 
+    protected $flag_Permanent = true;
+
 }

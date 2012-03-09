@@ -25,6 +25,8 @@ class FilterEffect extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Filter Effect';
 
+    protected $flag_Permanent = true;
+
     protected $Values = array(
         128 => array(
             'Id' => 128,

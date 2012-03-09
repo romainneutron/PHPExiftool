@@ -25,4 +25,6 @@ class Podcast extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Podcast';
 
+    protected $flag_Binary = true;
+
 }

@@ -25,6 +25,8 @@ class CameraType2 extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Camera Type 2';
 
+    protected $flag_Permanent = true;
+
     protected $Values = array(
         'D4028' => array(
             'Id' => 'D4028',

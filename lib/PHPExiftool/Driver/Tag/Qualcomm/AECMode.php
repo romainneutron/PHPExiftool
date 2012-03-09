@@ -25,4 +25,6 @@ class AECMode extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'AEC Mode';
 
+    protected $flag_Permanent = true;
+
 }

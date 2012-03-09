@@ -25,6 +25,8 @@ class ShutterReleaseButtonAEL extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Shutter Release Button AE-L';
 
+    protected $flag_Permanent = true;
+
     protected $Values = 'mixed';
 
 }

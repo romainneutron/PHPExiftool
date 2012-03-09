@@ -25,4 +25,6 @@ class WhiteBalanceTable extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'White Balance Table';
 
+    protected $flag_Permanent = true;
+
 }

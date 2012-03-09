@@ -25,4 +25,6 @@ class DefectPixMaxThresh extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Defect Pix Max Thresh';
 
+    protected $flag_Permanent = true;
+
 }

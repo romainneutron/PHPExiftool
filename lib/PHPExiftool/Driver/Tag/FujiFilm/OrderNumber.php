@@ -25,4 +25,6 @@ class OrderNumber extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Order Number';
 
+    protected $flag_Permanent = true;
+
 }

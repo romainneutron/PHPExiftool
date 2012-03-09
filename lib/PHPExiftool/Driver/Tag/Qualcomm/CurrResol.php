@@ -25,4 +25,6 @@ class CurrResol extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Curr Resol';
 
+    protected $flag_Permanent = true;
+
 }

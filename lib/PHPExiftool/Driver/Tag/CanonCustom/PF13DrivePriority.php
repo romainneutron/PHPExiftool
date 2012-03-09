@@ -25,4 +25,6 @@ class PF13DrivePriority extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'PF13 Drive Priority';
 
+    protected $flag_Permanent = true;
+
 }

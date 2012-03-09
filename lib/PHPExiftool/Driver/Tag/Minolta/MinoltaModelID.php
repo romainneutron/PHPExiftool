@@ -25,6 +25,8 @@ class MinoltaModelID extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Minolta Model ID';
 
+    protected $flag_Permanent = true;
+
     protected $Values = array(
         0 => array(
             'Id' => 0,

@@ -25,4 +25,6 @@ class BrightnessAdj extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Brightness Adj';
 
+    protected $flag_Permanent = true;
+
 }

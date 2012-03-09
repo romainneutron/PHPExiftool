@@ -25,4 +25,6 @@ class AvApertureSetting extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Av Aperture Setting';
 
+    protected $flag_Permanent = true;
+
 }

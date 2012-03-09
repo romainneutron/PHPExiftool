@@ -25,4 +25,6 @@ class PreviewIFDOffset extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Preview IFD Offset';
 
+    protected $flag_Permanent = true;
+
 }

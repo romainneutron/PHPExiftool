@@ -25,6 +25,8 @@ class AdvancedSceneMode extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Advanced Scene Mode';
 
+    protected $flag_Permanent = true;
+
     protected $Values = array(
         1 => array(
             'Id' => 1,

@@ -25,4 +25,8 @@ class IDCPreviewStart extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'IDC Preview Start';
 
+    protected $flag_Permanent = true;
+
+    protected $flag_Protected = true;
+
 }

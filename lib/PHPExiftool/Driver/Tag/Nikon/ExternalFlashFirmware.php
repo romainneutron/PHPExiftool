@@ -25,6 +25,8 @@ class ExternalFlashFirmware extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'External Flash Firmware';
 
+    protected $flag_Permanent = true;
+
     protected $Values = array(
         '0 0' => array(
             'Id' => '0 0',

@@ -25,6 +25,8 @@ class InfoButtonWhenShooting extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Info Button When Shooting';
 
+    protected $flag_Permanent = true;
+
     protected $Values = 'mixed';
 
     protected $Index = 'mixed';

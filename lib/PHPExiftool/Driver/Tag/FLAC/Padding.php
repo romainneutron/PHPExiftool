@@ -25,4 +25,6 @@ class Padding extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Padding';
 
+    protected $flag_Binary = true;
+
 }

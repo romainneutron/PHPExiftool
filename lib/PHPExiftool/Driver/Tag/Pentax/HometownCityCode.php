@@ -25,4 +25,6 @@ class HometownCityCode extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Hometown City Code';
 
+    protected $flag_Permanent = true;
+
 }

@@ -25,4 +25,6 @@ class WBRGBMul3 extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'WB RGB Mul 3';
 
+    protected $flag_Permanent = true;
+
 }

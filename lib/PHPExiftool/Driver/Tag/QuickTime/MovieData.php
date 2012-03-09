@@ -25,4 +25,6 @@ class MovieData extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Movie Data';
 
+    protected $flag_Binary = true;
+
 }

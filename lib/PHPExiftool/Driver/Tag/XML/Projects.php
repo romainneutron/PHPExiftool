@@ -25,4 +25,6 @@ class Projects extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Projects';
 
+    protected $flag_List = true;
+
 }

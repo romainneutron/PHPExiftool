@@ -25,4 +25,6 @@ class VersionIdentifier extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Version Identifier';
 
+    protected $flag_Avoid = true;
+
 }

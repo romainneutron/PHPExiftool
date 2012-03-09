@@ -25,4 +25,6 @@ class FineTuneOptCenterWeighted extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Fine Tune Opt Center Weighted';
 
+    protected $flag_Permanent = true;
+
 }

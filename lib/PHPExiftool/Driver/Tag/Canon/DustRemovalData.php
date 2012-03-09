@@ -25,4 +25,10 @@ class DustRemovalData extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Dust Removal Data';
 
+    protected $flag_Binary = true;
+
+    protected $flag_Permanent = true;
+
+    protected $flag_Unsafe = true;
+
 }

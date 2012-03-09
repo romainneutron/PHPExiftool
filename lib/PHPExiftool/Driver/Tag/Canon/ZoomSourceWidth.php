@@ -25,4 +25,6 @@ class ZoomSourceWidth extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Zoom Source Width';
 
+    protected $flag_Permanent = true;
+
 }

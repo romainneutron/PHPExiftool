@@ -27,4 +27,8 @@ class Scene extends \PHPExiftool\Driver\Tag
 
     protected $local_g2 = 'Other';
 
+    protected $flag_List = true;
+
+    protected $flag_Bag = true;
+
 }

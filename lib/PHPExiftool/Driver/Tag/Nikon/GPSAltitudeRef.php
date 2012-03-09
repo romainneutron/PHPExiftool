@@ -27,6 +27,8 @@ class GPSAltitudeRef extends \PHPExiftool\Driver\Tag
 
     protected $local_g2 = 'Location';
 
+    protected $flag_Permanent = true;
+
     protected $Values = array(
         0 => array(
             'Id' => 0,

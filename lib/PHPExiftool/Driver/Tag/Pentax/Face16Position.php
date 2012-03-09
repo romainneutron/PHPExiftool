@@ -25,4 +25,6 @@ class Face16Position extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Face 16 Position';
 
+    protected $flag_Permanent = true;
+
 }

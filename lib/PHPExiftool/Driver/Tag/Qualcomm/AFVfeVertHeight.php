@@ -25,4 +25,6 @@ class AFVfeVertHeight extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'AF Vfe Vert Height';
 
+    protected $flag_Permanent = true;
+
 }

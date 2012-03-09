@@ -25,4 +25,8 @@ class AsShotICCProfile extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'As Shot ICC Profile';
 
+    protected $flag_Binary = true;
+
+    protected $flag_Unsafe = true;
+
 }

@@ -25,4 +25,6 @@ class LensFocalRange extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Lens Focal Range';
 
+    protected $flag_Permanent = true;
+
 }

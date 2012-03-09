@@ -25,4 +25,6 @@ class OutputResolution extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Output Resolution';
 
+    protected $flag_Permanent = true;
+
 }

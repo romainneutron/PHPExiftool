@@ -25,4 +25,6 @@ class AsShotWhiteXY extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'As Shot White XY';
 
+    protected $flag_Unsafe = true;
+
 }

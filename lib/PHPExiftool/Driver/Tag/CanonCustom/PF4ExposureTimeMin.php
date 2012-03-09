@@ -25,4 +25,6 @@ class PF4ExposureTimeMin extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'PF4 Exposure Time Min';
 
+    protected $flag_Permanent = true;
+
 }

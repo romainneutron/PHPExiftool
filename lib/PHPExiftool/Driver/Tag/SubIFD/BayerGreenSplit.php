@@ -27,4 +27,6 @@ class BayerGreenSplit extends \PHPExiftool\Driver\Tag
 
     protected $local_g1 = 'SubIFD';
 
+    protected $flag_Unsafe = true;
+
 }

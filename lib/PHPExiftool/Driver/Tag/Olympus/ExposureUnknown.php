@@ -25,4 +25,6 @@ class ExposureUnknown extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Exposure Unknown';
 
+    protected $flag_Permanent = true;
+
 }

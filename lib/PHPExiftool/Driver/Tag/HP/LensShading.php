@@ -25,4 +25,6 @@ class LensShading extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Lens Shading';
 
+    protected $flag_Permanent = true;
+
 }

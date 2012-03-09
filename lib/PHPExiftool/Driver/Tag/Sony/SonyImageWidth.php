@@ -25,4 +25,6 @@ class SonyImageWidth extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Sony Image Width';
 
+    protected $flag_Permanent = true;
+
 }

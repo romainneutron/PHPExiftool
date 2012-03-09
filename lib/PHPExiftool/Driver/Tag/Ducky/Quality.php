@@ -25,4 +25,6 @@ class Quality extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Quality';
 
+    protected $flag_Avoid = true;
+
 }

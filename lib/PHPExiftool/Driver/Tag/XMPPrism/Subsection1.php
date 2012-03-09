@@ -25,4 +25,6 @@ class Subsection1 extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Subsection 1';
 
+    protected $flag_Avoid = true;
+
 }

@@ -25,4 +25,8 @@ class OtherLicenseDocuments extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Other License Documents';
 
+    protected $flag_List = true;
+
+    protected $flag_Bag = true;
+
 }

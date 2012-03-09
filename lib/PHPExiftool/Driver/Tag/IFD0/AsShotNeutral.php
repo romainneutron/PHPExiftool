@@ -25,4 +25,6 @@ class AsShotNeutral extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'As Shot Neutral';
 
+    protected $flag_Unsafe = true;
+
 }

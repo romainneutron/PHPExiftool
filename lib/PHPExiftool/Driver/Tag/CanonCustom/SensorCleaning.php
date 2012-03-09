@@ -25,6 +25,8 @@ class SensorCleaning extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Sensor Cleaning';
 
+    protected $flag_Permanent = true;
+
     protected $Values = array(
         0 => array(
             'Id' => 0,

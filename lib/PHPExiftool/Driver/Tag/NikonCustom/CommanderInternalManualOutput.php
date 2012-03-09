@@ -25,4 +25,6 @@ class CommanderInternalManualOutput extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Commander Internal Manual Output';
 
+    protected $flag_Permanent = true;
+
 }

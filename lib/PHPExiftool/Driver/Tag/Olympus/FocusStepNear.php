@@ -25,4 +25,6 @@ class FocusStepNear extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Focus Step Near';
 
+    protected $flag_Permanent = true;
+
 }

@@ -25,4 +25,6 @@ class FirmwareVersionLookAhead extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Firmware Version Look Ahead';
 
+    protected $flag_Permanent = true;
+
 }

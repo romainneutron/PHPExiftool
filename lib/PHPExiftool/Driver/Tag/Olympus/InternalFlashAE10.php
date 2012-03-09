@@ -25,4 +25,6 @@ class InternalFlashAE10 extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Internal Flash AE1 0';
 
+    protected $flag_Permanent = true;
+
 }

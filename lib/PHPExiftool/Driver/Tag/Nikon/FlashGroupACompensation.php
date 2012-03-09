@@ -25,6 +25,8 @@ class FlashGroupACompensation extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Flash Group A Compensation';
 
+    protected $flag_Permanent = true;
+
     protected $Index = 1;
 
 }

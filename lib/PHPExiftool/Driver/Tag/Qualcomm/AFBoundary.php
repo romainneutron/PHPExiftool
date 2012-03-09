@@ -25,4 +25,6 @@ class AFBoundary extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'AF Boundary';
 
+    protected $flag_Permanent = true;
+
 }

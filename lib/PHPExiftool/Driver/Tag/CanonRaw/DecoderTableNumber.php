@@ -25,4 +25,6 @@ class DecoderTableNumber extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Decoder Table Number';
 
+    protected $flag_Permanent = true;
+
 }

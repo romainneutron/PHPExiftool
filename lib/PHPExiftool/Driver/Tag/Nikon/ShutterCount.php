@@ -25,4 +25,8 @@ class ShutterCount extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Shutter Count';
 
+    protected $flag_Permanent = true;
+
+    protected $flag_Unsafe = true;
+
 }

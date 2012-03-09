@@ -25,4 +25,6 @@ class ColorantTableOut extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Colorant Table Out';
 
+    protected $flag_Binary = true;
+
 }

@@ -25,4 +25,8 @@ class EncryptionKey extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Encryption Key';
 
+    protected $flag_Permanent = true;
+
+    protected $flag_Unsafe = true;
+
 }

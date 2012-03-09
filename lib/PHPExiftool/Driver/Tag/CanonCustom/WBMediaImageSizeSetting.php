@@ -25,6 +25,8 @@ class WBMediaImageSizeSetting extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'WB Media Image Size Setting';
 
+    protected $flag_Permanent = true;
+
     protected $Values = array(
         0 => array(
             'Id' => 0,

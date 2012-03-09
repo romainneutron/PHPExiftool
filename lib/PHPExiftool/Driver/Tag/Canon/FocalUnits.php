@@ -25,4 +25,6 @@ class FocalUnits extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Focal Units';
 
+    protected $flag_Permanent = true;
+
 }

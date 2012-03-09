@@ -25,4 +25,6 @@ class PrimaryAFPoint extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Primary AF Point';
 
+    protected $flag_Permanent = true;
+
 }

@@ -25,4 +25,6 @@ class AWBOudorVfeMaxY extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'AWB Oudor Vfe Max Y';
 
+    protected $flag_Permanent = true;
+
 }

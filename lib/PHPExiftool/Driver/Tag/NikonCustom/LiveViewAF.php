@@ -25,6 +25,8 @@ class LiveViewAF extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Live View AF';
 
+    protected $flag_Permanent = true;
+
     protected $Values = 'mixed';
 
 }

@@ -25,4 +25,6 @@ class FaceDetectFrameCrop extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Face Detect Frame Crop';
 
+    protected $flag_Permanent = true;
+
 }

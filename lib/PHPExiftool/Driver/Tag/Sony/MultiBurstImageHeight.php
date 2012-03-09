@@ -25,4 +25,6 @@ class MultiBurstImageHeight extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Multi Burst Image Height';
 
+    protected $flag_Permanent = true;
+
 }

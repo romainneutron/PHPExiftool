@@ -25,4 +25,6 @@ class SamsungType20xa053 extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Samsung Type 2 0xa053';
 
+    protected $flag_Permanent = true;
+
 }

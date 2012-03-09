@@ -25,4 +25,6 @@ class AntibandingEnable extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Antibanding Enable';
 
+    protected $flag_Permanent = true;
+
 }

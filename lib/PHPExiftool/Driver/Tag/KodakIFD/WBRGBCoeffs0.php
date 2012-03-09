@@ -25,4 +25,8 @@ class WBRGBCoeffs0 extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'WB RGB Coeffs 0';
 
+    protected $flag_Binary = true;
+
+    protected $flag_Permanent = true;
+
 }

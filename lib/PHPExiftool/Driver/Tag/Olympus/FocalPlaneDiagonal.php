@@ -25,4 +25,6 @@ class FocalPlaneDiagonal extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Focal Plane Diagonal';
 
+    protected $flag_Permanent = true;
+
 }

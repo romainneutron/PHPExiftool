@@ -25,4 +25,6 @@ class ColorMatrix1 extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Color Matrix 1';
 
+    protected $flag_Unsafe = true;
+
 }

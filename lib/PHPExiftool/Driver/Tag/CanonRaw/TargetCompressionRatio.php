@@ -25,4 +25,6 @@ class TargetCompressionRatio extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Target Compression Ratio';
 
+    protected $flag_Permanent = true;
+
 }

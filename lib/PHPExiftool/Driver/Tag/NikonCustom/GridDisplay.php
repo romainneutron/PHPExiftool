@@ -25,6 +25,8 @@ class GridDisplay extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Grid Display';
 
+    protected $flag_Permanent = true;
+
     protected $Values = 'mixed';
 
 }

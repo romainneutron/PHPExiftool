@@ -25,4 +25,6 @@ class Unsharp2Intensity extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Unsharp 2 Intensity';
 
+    protected $flag_Permanent = true;
+
 }

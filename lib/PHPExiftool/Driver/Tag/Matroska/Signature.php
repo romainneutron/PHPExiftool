@@ -25,4 +25,6 @@ class Signature extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Signature';
 
+    protected $flag_Binary = true;
+
 }

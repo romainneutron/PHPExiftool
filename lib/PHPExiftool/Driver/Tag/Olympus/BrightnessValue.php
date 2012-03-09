@@ -25,4 +25,6 @@ class BrightnessValue extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Brightness Value';
 
+    protected $flag_Permanent = true;
+
 }

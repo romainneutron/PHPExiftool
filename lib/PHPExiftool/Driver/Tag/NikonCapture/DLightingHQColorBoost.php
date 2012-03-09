@@ -25,4 +25,6 @@ class DLightingHQColorBoost extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'D-Lighting HQ Color Boost';
 
+    protected $flag_Permanent = true;
+
 }

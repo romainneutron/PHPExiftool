@@ -25,4 +25,6 @@ class AECHighLumaRegionCount extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'AEC High Luma Region Count';
 
+    protected $flag_Permanent = true;
+
 }

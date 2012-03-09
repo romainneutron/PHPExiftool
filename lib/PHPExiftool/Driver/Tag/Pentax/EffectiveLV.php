@@ -25,6 +25,8 @@ class EffectiveLV extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Effective LV';
 
+    protected $flag_Permanent = true;
+
     protected $Index = 'mixed';
 
 }

@@ -25,4 +25,6 @@ class FocalPlaneYSize extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Focal Plane Y Size';
 
+    protected $flag_Permanent = true;
+
 }

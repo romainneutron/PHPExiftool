@@ -25,4 +25,6 @@ class PF1Value extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'PF1 Value';
 
+    protected $flag_Permanent = true;
+
 }

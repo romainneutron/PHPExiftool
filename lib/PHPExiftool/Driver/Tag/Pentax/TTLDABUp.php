@@ -25,4 +25,6 @@ class TTLDABUp extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'TTL DA B Up';
 
+    protected $flag_Permanent = true;
+
 }

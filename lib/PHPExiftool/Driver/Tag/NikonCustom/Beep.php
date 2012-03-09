@@ -25,6 +25,8 @@ class Beep extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Beep';
 
+    protected $flag_Permanent = true;
+
     protected $Values = 'mixed';
 
 }

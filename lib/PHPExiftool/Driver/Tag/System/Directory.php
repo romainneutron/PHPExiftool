@@ -27,4 +27,6 @@ class Directory extends \PHPExiftool\Driver\Tag
 
     protected $local_g1 = 'System';
 
+    protected $flag_Unsafe = true;
+
 }

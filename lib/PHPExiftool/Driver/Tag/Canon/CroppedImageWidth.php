@@ -25,4 +25,6 @@ class CroppedImageWidth extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Cropped Image Width';
 
+    protected $flag_Permanent = true;
+
 }

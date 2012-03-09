@@ -25,4 +25,6 @@ class WBRGGBLevelsIlluminator2 extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'WB RGGB Levels Illuminator 2';
 
+    protected $flag_Permanent = true;
+
 }

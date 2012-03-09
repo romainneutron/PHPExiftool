@@ -25,6 +25,8 @@ class FilterEffectMonochrome extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Filter Effect Monochrome';
 
+    protected $flag_Permanent = true;
+
     protected $Values = array(
         '-559038737' => array(
             'Id' => '-559038737',

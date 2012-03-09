@@ -25,4 +25,6 @@ class GreenGain extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Green Gain';
 
+    protected $flag_Permanent = true;
+
 }

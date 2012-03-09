@@ -25,4 +25,6 @@ class XMPToolkit extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'XMP Toolkit';
 
+    protected $flag_Unsafe = true;
+
 }

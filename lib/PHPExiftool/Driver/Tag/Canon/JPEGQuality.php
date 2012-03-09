@@ -25,4 +25,6 @@ class JPEGQuality extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'JPEG Quality';
 
+    protected $flag_Permanent = true;
+
 }

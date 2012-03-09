@@ -25,6 +25,8 @@ class SerialNumber extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Serial Number';
 
+    protected $flag_Permanent = true;
+
     protected $Index = 'mixed';
 
 }

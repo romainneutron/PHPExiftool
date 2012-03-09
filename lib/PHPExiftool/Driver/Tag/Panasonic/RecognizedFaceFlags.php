@@ -25,4 +25,6 @@ class RecognizedFaceFlags extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Recognized Face Flags';
 
+    protected $flag_Permanent = true;
+
 }

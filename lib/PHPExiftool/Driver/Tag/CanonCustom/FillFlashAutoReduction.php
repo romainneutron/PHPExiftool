@@ -25,6 +25,8 @@ class FillFlashAutoReduction extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Fill Flash Auto Reduction';
 
+    protected $flag_Permanent = true;
+
     protected $Values = array(
         0 => array(
             'Id' => 0,

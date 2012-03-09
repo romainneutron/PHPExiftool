@@ -25,4 +25,6 @@ class CompositionTimeToSample extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Composition Time To Sample';
 
+    protected $flag_Binary = true;
+
 }

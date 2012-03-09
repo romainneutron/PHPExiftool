@@ -25,4 +25,6 @@ class MinAperture extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Min Aperture';
 
+    protected $flag_Permanent = true;
+
 }

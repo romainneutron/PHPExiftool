@@ -25,6 +25,8 @@ class ShutterAELock extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Shutter-AE Lock';
 
+    protected $flag_Permanent = true;
+
     protected $Values = 'mixed';
 
 }

@@ -25,6 +25,8 @@ class Unsharp1Color extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Unsharp 1 Color';
 
+    protected $flag_Permanent = true;
+
     protected $Values = array(
         0 => array(
             'Id' => 0,

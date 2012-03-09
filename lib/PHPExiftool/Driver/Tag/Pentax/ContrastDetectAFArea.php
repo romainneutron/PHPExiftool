@@ -25,4 +25,6 @@ class ContrastDetectAFArea extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Contrast Detect AF Area';
 
+    protected $flag_Permanent = true;
+
 }

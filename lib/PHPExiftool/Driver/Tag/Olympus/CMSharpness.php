@@ -25,4 +25,6 @@ class CMSharpness extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'CM Sharpness';
 
+    protected $flag_Permanent = true;
+
 }

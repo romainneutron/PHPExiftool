@@ -25,4 +25,6 @@ class LightValuePeriphery extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Light Value Periphery';
 
+    protected $flag_Permanent = true;
+
 }

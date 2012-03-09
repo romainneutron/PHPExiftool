@@ -25,6 +25,8 @@ class AFDuringLiveView extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'AF During Live View';
 
+    protected $flag_Permanent = true;
+
     protected $Values = 'mixed';
 
     protected $Index = 'mixed';

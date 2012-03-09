@@ -25,4 +25,6 @@ class RawJpgWidth extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Raw Jpg Width';
 
+    protected $flag_Permanent = true;
+
 }

@@ -25,4 +25,8 @@ class Owner extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Owner';
 
+    protected $flag_List = true;
+
+    protected $flag_Bag = true;
+
 }

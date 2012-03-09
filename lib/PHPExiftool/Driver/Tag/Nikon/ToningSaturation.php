@@ -25,4 +25,6 @@ class ToningSaturation extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Toning Saturation';
 
+    protected $flag_Permanent = true;
+
 }

@@ -25,4 +25,8 @@ class ArtworkOrObject extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Artwork Or Object';
 
+    protected $flag_List = true;
+
+    protected $flag_Bag = true;
+
 }

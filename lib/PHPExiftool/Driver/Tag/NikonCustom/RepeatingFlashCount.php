@@ -25,4 +25,6 @@ class RepeatingFlashCount extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Repeating Flash Count';
 
+    protected $flag_Permanent = true;
+
 }

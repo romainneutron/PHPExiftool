@@ -25,4 +25,6 @@ class SequenceNumber extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Sequence Number';
 
+    protected $flag_Permanent = true;
+
 }

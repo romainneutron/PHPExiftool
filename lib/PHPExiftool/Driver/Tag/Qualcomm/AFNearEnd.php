@@ -25,4 +25,6 @@ class AFNearEnd extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'AF Near End';
 
+    protected $flag_Permanent = true;
+
 }

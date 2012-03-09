@@ -25,6 +25,8 @@ class LCDDisplayAtPowerOn extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'LCD Display At Power On';
 
+    protected $flag_Permanent = true;
+
     protected $Values = array(
         0 => array(
             'Id' => 0,

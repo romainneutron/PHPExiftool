@@ -25,6 +25,8 @@ class Saturation extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Saturation';
 
+    protected $flag_Permanent = true;
+
     protected $Index = 'mixed';
 
 }

@@ -25,4 +25,6 @@ class WBAdjRedBalance extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'WB Adj Red Balance';
 
+    protected $flag_Permanent = true;
+
 }

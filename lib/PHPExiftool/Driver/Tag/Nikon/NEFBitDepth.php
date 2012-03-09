@@ -25,6 +25,10 @@ class NEFBitDepth extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'NEF Bit Depth';
 
+    protected $flag_Permanent = true;
+
+    protected $flag_Unsafe = true;
+
     protected $Values = array(
         '0 0 0 0' => array(
             'Id' => '0 0 0 0',

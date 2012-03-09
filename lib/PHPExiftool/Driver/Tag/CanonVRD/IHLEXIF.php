@@ -25,6 +25,8 @@ class IHLEXIF extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'IHL EXIF';
 
+    protected $flag_Binary = true;
+
     protected $Index = 1;
 
 }

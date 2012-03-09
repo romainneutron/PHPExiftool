@@ -25,4 +25,6 @@ class ContentEncryptionKeyID extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Content Encryption Key ID';
 
+    protected $flag_Binary = true;
+
 }

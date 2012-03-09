@@ -25,4 +25,6 @@ class BlckLvlEvenCols extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Blck Lvl Even Cols';
 
+    protected $flag_Permanent = true;
+
 }

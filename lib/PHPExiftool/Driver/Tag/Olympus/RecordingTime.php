@@ -25,4 +25,6 @@ class RecordingTime extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Recording Time';
 
+    protected $flag_Permanent = true;
+
 }

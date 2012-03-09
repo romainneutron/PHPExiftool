@@ -25,4 +25,6 @@ class AppleKeywords extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Apple Keywords';
 
+    protected $flag_List = true;
+
 }

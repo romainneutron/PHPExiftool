@@ -25,4 +25,6 @@ class ColorTempAuto extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Color Temp Auto';
 
+    protected $flag_Permanent = true;
+
 }

@@ -25,4 +25,6 @@ class TL84ConvLumaK extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'TL84 Conv Luma K';
 
+    protected $flag_Permanent = true;
+
 }

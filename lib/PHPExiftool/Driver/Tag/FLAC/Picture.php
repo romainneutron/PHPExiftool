@@ -25,4 +25,6 @@ class Picture extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Picture';
 
+    protected $flag_Binary = true;
+
 }

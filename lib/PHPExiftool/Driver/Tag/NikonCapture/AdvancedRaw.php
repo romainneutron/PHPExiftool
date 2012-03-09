@@ -25,6 +25,8 @@ class AdvancedRaw extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Advanced Raw';
 
+    protected $flag_Permanent = true;
+
     protected $Values = array(
         0 => array(
             'Id' => 0,

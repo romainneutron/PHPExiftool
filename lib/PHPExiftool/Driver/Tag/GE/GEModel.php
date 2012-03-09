@@ -25,4 +25,6 @@ class GEModel extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'GE Model';
 
+    protected $flag_Permanent = true;
+
 }

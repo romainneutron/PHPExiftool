@@ -25,4 +25,6 @@ class ChapterProcessData extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Chapter Process Data';
 
+    protected $flag_Binary = true;
+
 }

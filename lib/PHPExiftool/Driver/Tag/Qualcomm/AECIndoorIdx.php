@@ -25,4 +25,6 @@ class AECIndoorIdx extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'AEC Indoor Idx';
 
+    protected $flag_Permanent = true;
+
 }

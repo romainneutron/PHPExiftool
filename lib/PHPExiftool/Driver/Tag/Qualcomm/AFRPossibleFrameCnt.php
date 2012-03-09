@@ -25,4 +25,6 @@ class AFRPossibleFrameCnt extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'AFR Possible Frame Cnt';
 
+    protected $flag_Permanent = true;
+
 }

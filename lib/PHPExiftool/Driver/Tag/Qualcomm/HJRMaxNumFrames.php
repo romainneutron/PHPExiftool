@@ -25,4 +25,6 @@ class HJRMaxNumFrames extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'HJR Max Num Frames';
 
+    protected $flag_Permanent = true;
+
 }

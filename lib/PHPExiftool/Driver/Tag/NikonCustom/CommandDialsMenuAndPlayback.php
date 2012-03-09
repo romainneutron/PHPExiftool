@@ -25,6 +25,8 @@ class CommandDialsMenuAndPlayback extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Command Dials Menu And Playback';
 
+    protected $flag_Permanent = true;
+
     protected $Values = 'mixed';
 
 }

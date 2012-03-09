@@ -25,4 +25,6 @@ class HJRTextureThreshold extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'HJR Texture Threshold';
 
+    protected $flag_Permanent = true;
+
 }

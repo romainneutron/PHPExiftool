@@ -25,4 +25,6 @@ class AFAdjustment extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'AF Adjustment';
 
+    protected $flag_Permanent = true;
+
 }

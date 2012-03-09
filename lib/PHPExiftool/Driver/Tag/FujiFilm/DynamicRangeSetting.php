@@ -25,6 +25,8 @@ class DynamicRangeSetting extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Dynamic Range Setting';
 
+    protected $flag_Permanent = true;
+
     protected $Values = array(
         0 => array(
             'Id' => 0,

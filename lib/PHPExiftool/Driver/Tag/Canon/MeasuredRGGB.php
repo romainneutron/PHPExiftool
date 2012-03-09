@@ -25,4 +25,6 @@ class MeasuredRGGB extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Measured RGGB';
 
+    protected $flag_Permanent = true;
+
 }

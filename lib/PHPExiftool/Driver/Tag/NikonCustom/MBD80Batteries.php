@@ -25,6 +25,8 @@ class MBD80Batteries extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'MB-D80 Batteries';
 
+    protected $flag_Permanent = true;
+
     protected $Values = array(
         0 => array(
             'Id' => 0,

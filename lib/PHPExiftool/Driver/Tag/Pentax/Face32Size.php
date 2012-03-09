@@ -25,4 +25,6 @@ class Face32Size extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Face 32 Size';
 
+    protected $flag_Permanent = true;
+
 }

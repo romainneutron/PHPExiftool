@@ -25,4 +25,6 @@ class ControllerBoardVersion extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Controller Board Version';
 
+    protected $flag_Permanent = true;
+
 }

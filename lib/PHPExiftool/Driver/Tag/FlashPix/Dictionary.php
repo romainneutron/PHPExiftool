@@ -27,4 +27,6 @@ class Dictionary extends \PHPExiftool\Driver\Tag
 
     protected $local_g2 = 'Other';
 
+    protected $flag_Binary = true;
+
 }

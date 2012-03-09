@@ -25,6 +25,8 @@ class ExposureMode extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Exposure Mode';
 
+    protected $flag_Permanent = true;
+
     protected $Values = 'mixed';
 
 }

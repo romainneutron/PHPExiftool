@@ -25,4 +25,6 @@ class FaceDetect extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Face Detect';
 
+    protected $flag_Permanent = true;
+
 }

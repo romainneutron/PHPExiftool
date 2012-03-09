@@ -25,4 +25,6 @@ class MaxVideoFps extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Max Video Fps';
 
+    protected $flag_Permanent = true;
+
 }

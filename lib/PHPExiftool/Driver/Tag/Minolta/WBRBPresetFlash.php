@@ -25,4 +25,6 @@ class WBRBPresetFlash extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'WB RB Preset Flash';
 
+    protected $flag_Permanent = true;
+
 }

@@ -25,4 +25,8 @@ class TagsList extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Tags List';
 
+    protected $flag_List = true;
+
+    protected $flag_Seq = true;
+
 }

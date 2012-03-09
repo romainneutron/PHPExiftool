@@ -25,4 +25,6 @@ class PF25AFPointSel extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'PF25 AF Point Sel';
 
+    protected $flag_Permanent = true;
+
 }

@@ -25,4 +25,6 @@ class Section extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Section';
 
+    protected $flag_Avoid = true;
+
 }

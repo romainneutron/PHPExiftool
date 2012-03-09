@@ -25,4 +25,6 @@ class ReleaseSetting extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Release Setting';
 
+    protected $flag_Permanent = true;
+
 }

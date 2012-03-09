@@ -25,4 +25,6 @@ class KodakModel extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Kodak Model';
 
+    protected $flag_Permanent = true;
+
 }

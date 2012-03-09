@@ -25,4 +25,6 @@ class IsTranslationOf extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Is Translation Of';
 
+    protected $flag_Avoid = true;
+
 }

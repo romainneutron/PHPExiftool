@@ -25,4 +25,6 @@ class ColorMatrixAdobeRGB extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Color Matrix Adobe RGB';
 
+    protected $flag_Permanent = true;
+
 }

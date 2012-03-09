@@ -25,4 +25,6 @@ class ContrastAdj extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Contrast Adj';
 
+    protected $flag_Permanent = true;
+
 }

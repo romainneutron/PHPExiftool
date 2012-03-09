@@ -25,6 +25,8 @@ class NikonImageSize extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Nikon Image Size';
 
+    protected $flag_Permanent = true;
+
     protected $Values = 'mixed';
 
 }

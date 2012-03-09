@@ -25,4 +25,6 @@ class FocusPixel extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Focus Pixel';
 
+    protected $flag_Permanent = true;
+
 }

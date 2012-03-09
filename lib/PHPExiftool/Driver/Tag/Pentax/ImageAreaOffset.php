@@ -25,4 +25,6 @@ class ImageAreaOffset extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Image Area Offset';
 
+    protected $flag_Permanent = true;
+
 }

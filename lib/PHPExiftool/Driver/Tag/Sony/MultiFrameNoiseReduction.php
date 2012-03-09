@@ -25,6 +25,8 @@ class MultiFrameNoiseReduction extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Multi Frame Noise Reduction';
 
+    protected $flag_Permanent = true;
+
     protected $Values = 'mixed';
 
 }

@@ -25,4 +25,6 @@ class ColorMatrixSRGB extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Color Matrix SRGB';
 
+    protected $flag_Permanent = true;
+
 }

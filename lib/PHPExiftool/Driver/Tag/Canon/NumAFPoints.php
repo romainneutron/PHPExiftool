@@ -25,4 +25,6 @@ class NumAFPoints extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Num AF Points';
 
+    protected $flag_Permanent = true;
+
 }

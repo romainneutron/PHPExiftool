@@ -25,4 +25,6 @@ class PF24LightLCDDuringBulb extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'PF24 Light LCD During Bulb';
 
+    protected $flag_Permanent = true;
+
 }

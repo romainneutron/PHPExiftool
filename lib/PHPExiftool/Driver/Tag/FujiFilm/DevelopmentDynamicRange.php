@@ -25,4 +25,6 @@ class DevelopmentDynamicRange extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Development Dynamic Range';
 
+    protected $flag_Permanent = true;
+
 }

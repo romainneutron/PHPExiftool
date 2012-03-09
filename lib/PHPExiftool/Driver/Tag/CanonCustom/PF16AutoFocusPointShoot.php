@@ -25,4 +25,6 @@ class PF16AutoFocusPointShoot extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'PF16 Auto Focus Point Shoot';
 
+    protected $flag_Permanent = true;
+
 }

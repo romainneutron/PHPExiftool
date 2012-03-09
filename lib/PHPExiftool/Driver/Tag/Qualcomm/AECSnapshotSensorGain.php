@@ -25,4 +25,6 @@ class AECSnapshotSensorGain extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'AEC Snapshot Sensor Gain';
 
+    protected $flag_Permanent = true;
+
 }

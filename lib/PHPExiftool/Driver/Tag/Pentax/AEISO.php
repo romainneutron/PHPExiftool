@@ -25,4 +25,6 @@ class AEISO extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'AE ISO';
 
+    protected $flag_Permanent = true;
+
 }

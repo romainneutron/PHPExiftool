@@ -25,4 +25,6 @@ class CropScaledResolution extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Crop Scaled Resolution';
 
+    protected $flag_Permanent = true;
+
 }

@@ -25,4 +25,6 @@ class SignaturePublicKey extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Signature Public Key';
 
+    protected $flag_Binary = true;
+
 }

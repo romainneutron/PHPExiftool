@@ -25,4 +25,6 @@ class FlashBatteryLevel extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Flash Battery Level';
 
+    protected $flag_Permanent = true;
+
 }

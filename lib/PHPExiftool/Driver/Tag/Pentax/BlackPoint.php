@@ -25,4 +25,6 @@ class BlackPoint extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Black Point';
 
+    protected $flag_Permanent = true;
+
 }

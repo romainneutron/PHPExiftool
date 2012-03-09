@@ -25,6 +25,8 @@ class ISODisplay extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'ISO Display';
 
+    protected $flag_Permanent = true;
+
     protected $Values = 'mixed';
 
 }

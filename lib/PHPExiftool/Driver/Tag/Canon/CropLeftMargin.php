@@ -25,4 +25,6 @@ class CropLeftMargin extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Crop Left Margin';
 
+    protected $flag_Permanent = true;
+
 }

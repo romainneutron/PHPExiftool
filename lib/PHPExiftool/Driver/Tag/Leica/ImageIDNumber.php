@@ -25,4 +25,6 @@ class ImageIDNumber extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Image ID Number';
 
+    protected $flag_Permanent = true;
+
 }

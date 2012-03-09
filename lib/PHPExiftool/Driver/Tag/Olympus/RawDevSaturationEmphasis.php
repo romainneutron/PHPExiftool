@@ -25,4 +25,6 @@ class RawDevSaturationEmphasis extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Raw Dev Saturation Emphasis';
 
+    protected $flag_Permanent = true;
+
 }

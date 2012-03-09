@@ -25,4 +25,6 @@ class PreviewSettingsName extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Preview Settings Name';
 
+    protected $flag_Unsafe = true;
+
 }

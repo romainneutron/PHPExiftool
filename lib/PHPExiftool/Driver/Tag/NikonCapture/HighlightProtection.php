@@ -25,4 +25,6 @@ class HighlightProtection extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Highlight Protection';
 
+    protected $flag_Permanent = true;
+
 }

@@ -25,6 +25,8 @@ class ChrominanceNoiseReduction extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Chrominance Noise Reduction';
 
+    protected $flag_Permanent = true;
+
     protected $Index = 1;
 
 }

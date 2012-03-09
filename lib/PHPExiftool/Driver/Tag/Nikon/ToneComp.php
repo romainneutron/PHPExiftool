@@ -25,4 +25,6 @@ class ToneComp extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Tone Comp';
 
+    protected $flag_Permanent = true;
+
 }

@@ -25,4 +25,6 @@ class ExposureDifference extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Exposure Difference';
 
+    protected $flag_Permanent = true;
+
 }

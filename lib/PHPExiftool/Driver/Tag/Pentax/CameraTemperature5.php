@@ -25,4 +25,6 @@ class CameraTemperature5 extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Camera Temperature 5';
 
+    protected $flag_Permanent = true;
+
 }

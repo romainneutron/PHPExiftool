@@ -25,4 +25,6 @@ class ProductID extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Product ID';
 
+    protected $flag_List = true;
+
 }

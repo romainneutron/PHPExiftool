@@ -25,4 +25,6 @@ class WBRGGBLevelsCustom extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'WB RGGB Levels Custom';
 
+    protected $flag_Permanent = true;
+
 }

@@ -25,4 +25,8 @@ class LastKeywordXMP extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Last Keyword XMP';
 
+    protected $flag_List = true;
+
+    protected $flag_Bag = true;
+
 }

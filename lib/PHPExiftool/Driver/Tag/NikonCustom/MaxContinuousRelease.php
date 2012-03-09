@@ -25,4 +25,6 @@ class MaxContinuousRelease extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Max Continuous Release';
 
+    protected $flag_Permanent = true;
+
 }

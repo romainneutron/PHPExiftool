@@ -25,6 +25,8 @@ class FuncButtonPlusDials extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Func Button Plus Dials';
 
+    protected $flag_Permanent = true;
+
     protected $Index = 1;
 
     protected $Values = 'mixed';

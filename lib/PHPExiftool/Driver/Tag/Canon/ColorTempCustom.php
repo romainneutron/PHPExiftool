@@ -25,4 +25,6 @@ class ColorTempCustom extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Color Temp Custom';
 
+    protected $flag_Permanent = true;
+
 }

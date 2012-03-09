@@ -25,4 +25,6 @@ class PF21EnableQuietOperation extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'PF21 Enable Quiet Operation';
 
+    protected $flag_Permanent = true;
+
 }

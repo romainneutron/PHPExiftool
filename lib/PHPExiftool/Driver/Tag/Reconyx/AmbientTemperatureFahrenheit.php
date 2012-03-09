@@ -25,4 +25,6 @@ class AmbientTemperatureFahrenheit extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Ambient Temperature Fahrenheit';
 
+    protected $flag_Permanent = true;
+
 }

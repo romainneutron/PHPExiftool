@@ -25,6 +25,8 @@ class PanoramicStitchMapType extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Panoramic Stitch Map Type';
 
+    protected $flag_Permanent = true;
+
     protected $Values = array(
         0 => array(
             'Id' => 0,

@@ -25,4 +25,6 @@ class AWBOutdoorSampleInfluence extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'AWB Outdoor Sample Influence';
 
+    protected $flag_Permanent = true;
+
 }

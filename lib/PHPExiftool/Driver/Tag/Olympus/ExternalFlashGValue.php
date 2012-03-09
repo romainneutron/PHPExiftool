@@ -25,4 +25,6 @@ class ExternalFlashGValue extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'External Flash G Value';
 
+    protected $flag_Permanent = true;
+
 }

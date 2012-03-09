@@ -25,4 +25,6 @@ class ObjectAttributeReference extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Object Attribute Reference';
 
+    protected $flag_List = true;
+
 }

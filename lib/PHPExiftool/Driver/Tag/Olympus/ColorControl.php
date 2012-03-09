@@ -25,4 +25,6 @@ class ColorControl extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Color Control';
 
+    protected $flag_Permanent = true;
+
 }

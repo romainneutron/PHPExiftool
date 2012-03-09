@@ -25,4 +25,6 @@ class PublicationName extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Publication Name';
 
+    protected $flag_Avoid = true;
+
 }

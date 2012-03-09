@@ -25,4 +25,6 @@ class ColorTemperatureAdj extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Color Temperature Adj';
 
+    protected $flag_Permanent = true;
+
 }

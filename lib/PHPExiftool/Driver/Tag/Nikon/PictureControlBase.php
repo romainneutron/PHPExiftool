@@ -25,4 +25,6 @@ class PictureControlBase extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Picture Control Base';
 
+    protected $flag_Permanent = true;
+
 }

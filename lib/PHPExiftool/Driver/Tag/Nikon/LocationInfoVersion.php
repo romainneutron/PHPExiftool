@@ -25,4 +25,6 @@ class LocationInfoVersion extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Location Info Version';
 
+    protected $flag_Permanent = true;
+
 }

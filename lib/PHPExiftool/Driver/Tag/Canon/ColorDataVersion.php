@@ -25,6 +25,8 @@ class ColorDataVersion extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Color Data Version';
 
+    protected $flag_Permanent = true;
+
     protected $Values = 'mixed';
 
 }

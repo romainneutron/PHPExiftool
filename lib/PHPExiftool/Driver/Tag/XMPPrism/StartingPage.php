@@ -25,4 +25,6 @@ class StartingPage extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Starting Page';
 
+    protected $flag_Avoid = true;
+
 }

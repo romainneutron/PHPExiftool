@@ -25,4 +25,6 @@ class WBShiftAB extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'WB Shift AB';
 
+    protected $flag_Permanent = true;
+
 }

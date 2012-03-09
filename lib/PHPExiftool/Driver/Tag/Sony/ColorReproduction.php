@@ -25,4 +25,6 @@ class ColorReproduction extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Color Reproduction';
 
+    protected $flag_Permanent = true;
+
 }

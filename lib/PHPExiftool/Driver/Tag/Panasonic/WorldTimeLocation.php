@@ -25,6 +25,8 @@ class WorldTimeLocation extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'World Time Location';
 
+    protected $flag_Permanent = true;
+
     protected $Values = array(
         1 => array(
             'Id' => 1,

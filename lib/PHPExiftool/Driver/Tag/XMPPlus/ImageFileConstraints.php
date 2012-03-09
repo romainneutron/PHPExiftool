@@ -25,6 +25,10 @@ class ImageFileConstraints extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Image File Constraints';
 
+    protected $flag_List = true;
+
+    protected $flag_Bag = true;
+
     protected $Values = array(
         'IF-MFN' => array(
             'Id' => 'IF-MFN',

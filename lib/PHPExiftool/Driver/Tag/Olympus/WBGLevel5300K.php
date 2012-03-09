@@ -25,4 +25,6 @@ class WBGLevel5300K extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'WB G Level 5300K';
 
+    protected $flag_Permanent = true;
+
 }

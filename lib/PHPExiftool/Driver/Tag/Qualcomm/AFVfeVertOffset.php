@@ -25,4 +25,6 @@ class AFVfeVertOffset extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'AF Vfe Vert Offset';
 
+    protected $flag_Permanent = true;
+
 }

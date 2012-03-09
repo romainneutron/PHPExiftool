@@ -25,4 +25,6 @@ class TravelDay extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Travel Day';
 
+    protected $flag_Permanent = true;
+
 }

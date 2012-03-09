@@ -25,4 +25,6 @@ class FocusStepCount extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Focus Step Count';
 
+    protected $flag_Permanent = true;
+
 }

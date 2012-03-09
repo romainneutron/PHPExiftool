@@ -25,4 +25,6 @@ class AFCollectEndStat extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'AF Collect End Stat';
 
+    protected $flag_Permanent = true;
+
 }

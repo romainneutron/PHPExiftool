@@ -25,4 +25,6 @@ class PF14DisableFocusSearch extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'PF14 Disable Focus Search';
 
+    protected $flag_Permanent = true;
+
 }

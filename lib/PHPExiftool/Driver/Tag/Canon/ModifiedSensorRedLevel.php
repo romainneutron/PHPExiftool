@@ -25,4 +25,6 @@ class ModifiedSensorRedLevel extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Modified Sensor Red Level';
 
+    protected $flag_Permanent = true;
+
 }

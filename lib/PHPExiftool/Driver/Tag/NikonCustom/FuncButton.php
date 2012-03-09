@@ -25,6 +25,8 @@ class FuncButton extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Func Button';
 
+    protected $flag_Permanent = true;
+
     protected $Index = 1;
 
     protected $Values = 'mixed';

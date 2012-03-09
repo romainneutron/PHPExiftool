@@ -25,4 +25,6 @@ class CodecState extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Codec State';
 
+    protected $flag_Binary = true;
+
 }

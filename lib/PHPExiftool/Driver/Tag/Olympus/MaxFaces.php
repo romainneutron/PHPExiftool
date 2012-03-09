@@ -25,4 +25,6 @@ class MaxFaces extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Max Faces';
 
+    protected $flag_Permanent = true;
+
 }

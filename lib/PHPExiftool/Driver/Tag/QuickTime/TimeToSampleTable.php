@@ -25,6 +25,8 @@ class TimeToSampleTable extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Time To Sample Table';
 
+    protected $flag_Binary = true;
+
     protected $Index = 1;
 
 }

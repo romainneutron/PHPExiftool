@@ -25,4 +25,6 @@ class ManufactureIndex extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Manufacture Index';
 
+    protected $flag_Permanent = true;
+
 }

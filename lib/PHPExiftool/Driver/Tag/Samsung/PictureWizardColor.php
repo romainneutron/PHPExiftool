@@ -25,4 +25,6 @@ class PictureWizardColor extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Picture Wizard Color';
 
+    protected $flag_Permanent = true;
+
 }

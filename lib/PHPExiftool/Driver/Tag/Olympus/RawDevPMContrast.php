@@ -25,4 +25,6 @@ class RawDevPMContrast extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Raw Dev PM Contrast';
 
+    protected $flag_Permanent = true;
+
 }

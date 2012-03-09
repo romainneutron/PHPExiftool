@@ -25,4 +25,6 @@ class ShadowScale extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Shadow Scale';
 
+    protected $flag_Unsafe = true;
+
 }

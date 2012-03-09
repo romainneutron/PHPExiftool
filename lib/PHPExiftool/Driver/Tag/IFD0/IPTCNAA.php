@@ -25,4 +25,8 @@ class IPTCNAA extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'IPTC-NAA';
 
+    protected $flag_Binary = true;
+
+    protected $flag_Unsafe = true;
+
 }

@@ -25,4 +25,6 @@ class DigitalDEEShadowAdj extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Digital DEE Shadow Adj';
 
+    protected $flag_Permanent = true;
+
 }

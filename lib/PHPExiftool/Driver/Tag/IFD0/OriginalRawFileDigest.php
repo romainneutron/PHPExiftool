@@ -25,4 +25,6 @@ class OriginalRawFileDigest extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Original Raw File Digest';
 
+    protected $flag_Unsafe = true;
+
 }

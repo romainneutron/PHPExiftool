@@ -25,4 +25,6 @@ class SuggestedPalette extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Suggested Palette';
 
+    protected $flag_Binary = true;
+
 }

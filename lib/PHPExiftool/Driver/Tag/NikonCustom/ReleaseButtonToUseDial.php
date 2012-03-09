@@ -25,6 +25,8 @@ class ReleaseButtonToUseDial extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Release Button To Use Dial';
 
+    protected $flag_Permanent = true;
+
     protected $Values = array(
         0 => array(
             'Id' => 0,

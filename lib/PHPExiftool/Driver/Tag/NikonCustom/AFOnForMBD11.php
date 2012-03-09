@@ -25,6 +25,8 @@ class AFOnForMBD11 extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'AF-On For MB-D11';
 
+    protected $flag_Permanent = true;
+
     protected $Values = array(
         0 => array(
             'Id' => 0,

@@ -25,6 +25,8 @@ class ContrastPortrait extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Contrast Portrait';
 
+    protected $flag_Permanent = true;
+
     protected $Values = 'mixed';
 
 }

@@ -25,4 +25,6 @@ class WhiteBalanceTemperature extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'White Balance Temperature';
 
+    protected $flag_Permanent = true;
+
 }

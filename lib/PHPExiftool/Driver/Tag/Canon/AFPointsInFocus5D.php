@@ -25,6 +25,8 @@ class AFPointsInFocus5D extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'AF Points In Focus 5D';
 
+    protected $flag_Permanent = true;
+
     protected $Values = array(
         1 => array(
             'Id' => 1,

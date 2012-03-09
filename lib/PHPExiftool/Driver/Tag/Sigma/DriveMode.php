@@ -25,4 +25,6 @@ class DriveMode extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Drive Mode';
 
+    protected $flag_Permanent = true;
+
 }

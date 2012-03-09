@@ -25,4 +25,6 @@ class ProductionCode extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Production Code';
 
+    protected $flag_Permanent = true;
+
 }

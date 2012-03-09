@@ -25,4 +25,8 @@ class Colorants extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Colorants';
 
+    protected $flag_List = true;
+
+    protected $flag_Seq = true;
+
 }

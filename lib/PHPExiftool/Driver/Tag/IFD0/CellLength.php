@@ -25,4 +25,6 @@ class CellLength extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Cell Length';
 
+    protected $flag_Unsafe = true;
+
 }

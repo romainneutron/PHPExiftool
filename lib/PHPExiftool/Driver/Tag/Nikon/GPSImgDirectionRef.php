@@ -27,6 +27,8 @@ class GPSImgDirectionRef extends \PHPExiftool\Driver\Tag
 
     protected $local_g2 = 'Location';
 
+    protected $flag_Permanent = true;
+
     protected $Values = array(
         'M' => array(
             'Id' => 'M',

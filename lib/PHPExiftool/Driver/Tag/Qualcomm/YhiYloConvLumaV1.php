@@ -25,4 +25,6 @@ class YhiYloConvLumaV1 extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Yhi Ylo Conv Luma V1';
 
+    protected $flag_Permanent = true;
+
 }

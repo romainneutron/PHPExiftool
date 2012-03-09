@@ -25,4 +25,6 @@ class SeekTable extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Seek Table';
 
+    protected $flag_Binary = true;
+
 }

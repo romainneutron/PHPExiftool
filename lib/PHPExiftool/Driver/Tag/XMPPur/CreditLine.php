@@ -25,4 +25,10 @@ class CreditLine extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Credit Line';
 
+    protected $flag_Avoid = true;
+
+    protected $flag_List = true;
+
+    protected $flag_Bag = true;
+
 }

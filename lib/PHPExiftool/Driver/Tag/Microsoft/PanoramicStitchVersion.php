@@ -25,4 +25,6 @@ class PanoramicStitchVersion extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Panoramic Stitch Version';
 
+    protected $flag_Permanent = true;
+
 }

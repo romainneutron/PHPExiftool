@@ -25,4 +25,6 @@ class MeterMode extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Meter Mode';
 
+    protected $flag_Permanent = true;
+
 }

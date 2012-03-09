@@ -25,4 +25,6 @@ class OriginalRawResource extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Original Raw Resource';
 
+    protected $flag_Binary = true;
+
 }

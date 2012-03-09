@@ -25,4 +25,8 @@ class Licensor extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Licensor';
 
+    protected $flag_List = true;
+
+    protected $flag_Seq = true;
+
 }

@@ -25,6 +25,8 @@ class PreviewButtonPlusDials extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Preview Button Plus Dials';
 
+    protected $flag_Permanent = true;
+
     protected $Values = 'mixed';
 
     protected $Index = 'mixed';

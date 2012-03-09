@@ -27,4 +27,6 @@ class ImageUniqueID extends \PHPExiftool\Driver\Tag
 
     protected $local_g2 = 'Image';
 
+    protected $flag_Permanent = true;
+
 }

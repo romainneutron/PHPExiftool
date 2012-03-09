@@ -25,4 +25,6 @@ class WBShiftGM extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'WB Shift GM';
 
+    protected $flag_Permanent = true;
+
 }

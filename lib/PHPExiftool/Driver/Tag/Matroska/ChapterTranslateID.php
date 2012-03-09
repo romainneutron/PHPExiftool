@@ -25,4 +25,6 @@ class ChapterTranslateID extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Chapter Translate ID';
 
+    protected $flag_Binary = true;
+
 }

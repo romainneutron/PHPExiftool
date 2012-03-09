@@ -25,4 +25,6 @@ class R2AGreenStbl18 extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'R2 A Green Stbl 18';
 
+    protected $flag_Permanent = true;
+
 }

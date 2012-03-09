@@ -25,4 +25,6 @@ class FineTuneOptSpotMetering extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Fine Tune Opt Spot Metering';
 
+    protected $flag_Permanent = true;
+
 }

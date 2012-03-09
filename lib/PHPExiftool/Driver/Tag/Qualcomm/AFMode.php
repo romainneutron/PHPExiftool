@@ -25,4 +25,6 @@ class AFMode extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'AF Mode';
 
+    protected $flag_Permanent = true;
+
 }

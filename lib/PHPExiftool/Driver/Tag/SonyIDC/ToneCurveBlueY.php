@@ -25,4 +25,6 @@ class ToneCurveBlueY extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Tone Curve Blue Y';
 
+    protected $flag_Permanent = true;
+
 }

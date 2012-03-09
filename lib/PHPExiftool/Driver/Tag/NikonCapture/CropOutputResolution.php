@@ -25,4 +25,6 @@ class CropOutputResolution extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Crop Output Resolution';
 
+    protected $flag_Permanent = true;
+
 }

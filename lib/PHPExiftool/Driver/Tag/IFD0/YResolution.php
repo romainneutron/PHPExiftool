@@ -25,4 +25,6 @@ class YResolution extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Y Resolution';
 
+    protected $flag_Mandatory = true;
+
 }

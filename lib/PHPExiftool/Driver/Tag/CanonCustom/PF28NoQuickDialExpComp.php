@@ -25,4 +25,6 @@ class PF28NoQuickDialExpComp extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'PF28 No Quick Dial Exp Comp';
 
+    protected $flag_Permanent = true;
+
 }

@@ -25,4 +25,6 @@ class AFInfo2Version extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'AF Info 2 Version';
 
+    protected $flag_Permanent = true;
+
 }

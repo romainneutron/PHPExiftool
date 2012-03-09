@@ -25,4 +25,6 @@ class EquipmentVersion extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Equipment Version';
 
+    protected $flag_Permanent = true;
+
 }

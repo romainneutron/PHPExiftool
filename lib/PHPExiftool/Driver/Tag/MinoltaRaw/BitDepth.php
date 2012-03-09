@@ -25,4 +25,6 @@ class BitDepth extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Bit Depth';
 
+    protected $flag_Permanent = true;
+
 }

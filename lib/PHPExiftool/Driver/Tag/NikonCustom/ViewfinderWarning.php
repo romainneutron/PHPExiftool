@@ -25,6 +25,8 @@ class ViewfinderWarning extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Viewfinder Warning';
 
+    protected $flag_Permanent = true;
+
     protected $Values = 'mixed';
 
 }

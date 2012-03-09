@@ -25,4 +25,6 @@ class Rating extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Rating';
 
+    protected $flag_Avoid = true;
+
 }

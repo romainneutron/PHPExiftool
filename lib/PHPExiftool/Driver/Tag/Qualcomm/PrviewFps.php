@@ -25,4 +25,6 @@ class PrviewFps extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Prview Fps';
 
+    protected $flag_Permanent = true;
+
 }

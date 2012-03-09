@@ -25,4 +25,6 @@ class ExposureBracketValue extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Exposure Bracket Value';
 
+    protected $flag_Permanent = true;
+
 }

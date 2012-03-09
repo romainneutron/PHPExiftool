@@ -25,4 +25,6 @@ class SpecialEffectLevel extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Special Effect Level';
 
+    protected $flag_Permanent = true;
+
 }

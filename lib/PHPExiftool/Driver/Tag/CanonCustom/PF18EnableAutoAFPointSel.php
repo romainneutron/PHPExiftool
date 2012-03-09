@@ -25,4 +25,6 @@ class PF18EnableAutoAFPointSel extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'PF18 Enable Auto AF Point Sel';
 
+    protected $flag_Permanent = true;
+
 }

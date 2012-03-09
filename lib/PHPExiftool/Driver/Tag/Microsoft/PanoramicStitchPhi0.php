@@ -25,4 +25,6 @@ class PanoramicStitchPhi0 extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Panoramic Stitch Phi 0';
 
+    protected $flag_Permanent = true;
+
 }

@@ -25,4 +25,6 @@ class PF30EnlargementMode extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'PF30 Enlargement Mode';
 
+    protected $flag_Permanent = true;
+
 }

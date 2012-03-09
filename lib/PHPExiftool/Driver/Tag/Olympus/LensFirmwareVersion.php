@@ -25,4 +25,6 @@ class LensFirmwareVersion extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Lens Firmware Version';
 
+    protected $flag_Permanent = true;
+
 }

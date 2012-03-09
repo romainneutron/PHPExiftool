@@ -25,4 +25,6 @@ class ItemInformation extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Item Information';
 
+    protected $flag_Binary = true;
+
 }

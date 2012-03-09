@@ -27,6 +27,8 @@ class JpgFromRawStart extends \PHPExiftool\Driver\Tag
 
     protected $local_g1 = 'IFD2';
 
+    protected $flag_Protected = true;
+
     protected $Index = 6;
 
 }

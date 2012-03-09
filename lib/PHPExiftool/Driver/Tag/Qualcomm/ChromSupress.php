@@ -25,4 +25,6 @@ class ChromSupress extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Chrom Supress';
 
+    protected $flag_Permanent = true;
+
 }

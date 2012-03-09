@@ -25,4 +25,6 @@ class SRF6Offset extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'SRF6 Offset';
 
+    protected $flag_Permanent = true;
+
 }

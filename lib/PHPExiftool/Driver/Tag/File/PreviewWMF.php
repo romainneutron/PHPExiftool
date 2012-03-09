@@ -25,4 +25,6 @@ class PreviewWMF extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Preview WMF';
 
+    protected $flag_Binary = true;
+
 }

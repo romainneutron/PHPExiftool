@@ -25,4 +25,10 @@ class IsCorrectionOf extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Is Correction Of';
 
+    protected $flag_Avoid = true;
+
+    protected $flag_List = true;
+
+    protected $flag_Bag = true;
+
 }

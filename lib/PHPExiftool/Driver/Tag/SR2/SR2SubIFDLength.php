@@ -25,4 +25,6 @@ class SR2SubIFDLength extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'SR2 Sub IFD Length';
 
+    protected $flag_Permanent = true;
+
 }

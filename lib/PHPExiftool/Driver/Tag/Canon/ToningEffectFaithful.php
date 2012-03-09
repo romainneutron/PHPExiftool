@@ -25,6 +25,8 @@ class ToningEffectFaithful extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Toning Effect Faithful';
 
+    protected $flag_Permanent = true;
+
     protected $Values = array(
         '-559038737' => array(
             'Id' => '-559038737',

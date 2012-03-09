@@ -25,4 +25,6 @@ class Comment extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Comment';
 
+    protected $flag_Avoid = true;
+
 }

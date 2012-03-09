@@ -25,4 +25,6 @@ class CodedCharacterSet extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Coded Character Set';
 
+    protected $flag_Unsafe = true;
+
 }

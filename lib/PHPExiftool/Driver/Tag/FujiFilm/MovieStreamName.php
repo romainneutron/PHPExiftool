@@ -25,4 +25,6 @@ class MovieStreamName extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Movie Stream Name';
 
+    protected $flag_Permanent = true;
+
 }

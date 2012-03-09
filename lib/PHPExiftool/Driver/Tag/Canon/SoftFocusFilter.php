@@ -25,4 +25,6 @@ class SoftFocusFilter extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Soft Focus Filter';
 
+    protected $flag_Permanent = true;
+
 }

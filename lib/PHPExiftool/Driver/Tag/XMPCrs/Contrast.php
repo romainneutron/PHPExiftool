@@ -25,4 +25,6 @@ class Contrast extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Contrast';
 
+    protected $flag_Avoid = true;
+
 }

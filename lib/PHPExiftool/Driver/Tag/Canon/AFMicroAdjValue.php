@@ -25,4 +25,6 @@ class AFMicroAdjValue extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'AF Micro Adj Value';
 
+    protected $flag_Permanent = true;
+
 }

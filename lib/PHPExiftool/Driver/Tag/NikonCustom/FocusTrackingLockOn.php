@@ -25,6 +25,8 @@ class FocusTrackingLockOn extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Focus Tracking Lock On';
 
+    protected $flag_Permanent = true;
+
     protected $Values = 'mixed';
 
 }

@@ -25,6 +25,8 @@ class AFAndMeteringButtons extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'AF And Metering Buttons';
 
+    protected $flag_Permanent = true;
+
     protected $Index = 1;
 
     protected $Values = array(

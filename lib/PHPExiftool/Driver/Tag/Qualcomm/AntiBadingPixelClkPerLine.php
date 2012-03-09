@@ -25,4 +25,6 @@ class AntiBadingPixelClkPerLine extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Anti Bading Pixel Clk Per Line';
 
+    protected $flag_Permanent = true;
+
 }

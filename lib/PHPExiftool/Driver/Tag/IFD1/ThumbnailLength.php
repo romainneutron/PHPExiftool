@@ -27,4 +27,6 @@ class ThumbnailLength extends \PHPExiftool\Driver\Tag
 
     protected $local_g1 = 'IFD1';
 
+    protected $flag_Protected = true;
+
 }

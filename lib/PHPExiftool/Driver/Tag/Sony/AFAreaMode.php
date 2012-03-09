@@ -25,6 +25,8 @@ class AFAreaMode extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'AF Area Mode';
 
+    protected $flag_Permanent = true;
+
     protected $Values = 'mixed';
 
 }

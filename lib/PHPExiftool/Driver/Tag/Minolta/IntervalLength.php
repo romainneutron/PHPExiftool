@@ -25,4 +25,6 @@ class IntervalLength extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Interval Length';
 
+    protected $flag_Permanent = true;
+
 }

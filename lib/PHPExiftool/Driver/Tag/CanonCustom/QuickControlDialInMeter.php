@@ -25,6 +25,8 @@ class QuickControlDialInMeter extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Quick Control Dial In Meter';
 
+    protected $flag_Permanent = true;
+
     protected $Values = array(
         0 => array(
             'Id' => 0,

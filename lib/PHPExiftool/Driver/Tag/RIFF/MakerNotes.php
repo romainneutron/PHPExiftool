@@ -25,4 +25,6 @@ class MakerNotes extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Maker Notes';
 
+    protected $flag_Binary = true;
+
 }

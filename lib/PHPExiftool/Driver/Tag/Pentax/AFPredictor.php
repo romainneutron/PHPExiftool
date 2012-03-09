@@ -25,4 +25,6 @@ class AFPredictor extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'AF Predictor';
 
+    protected $flag_Permanent = true;
+
 }

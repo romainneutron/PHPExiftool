@@ -25,4 +25,6 @@ class PreviewPICT extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Preview PICT';
 
+    protected $flag_Binary = true;
+
 }

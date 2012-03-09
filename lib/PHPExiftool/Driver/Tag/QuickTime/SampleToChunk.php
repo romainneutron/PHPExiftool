@@ -25,4 +25,6 @@ class SampleToChunk extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Sample To Chunk';
 
+    protected $flag_Binary = true;
+
 }

@@ -25,4 +25,6 @@ class ContentSignature extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Content Signature';
 
+    protected $flag_Binary = true;
+
 }

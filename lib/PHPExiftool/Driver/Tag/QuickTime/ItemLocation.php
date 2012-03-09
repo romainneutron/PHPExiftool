@@ -25,4 +25,6 @@ class ItemLocation extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Item Location';
 
+    protected $flag_Binary = true;
+
 }

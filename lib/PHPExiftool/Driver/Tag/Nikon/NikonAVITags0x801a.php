@@ -25,4 +25,6 @@ class NikonAVITags0x801a extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Nikon AVI Tags 0x801a';
 
+    protected $flag_Permanent = true;
+
 }

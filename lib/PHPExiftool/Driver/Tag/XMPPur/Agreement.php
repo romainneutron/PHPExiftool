@@ -25,4 +25,10 @@ class Agreement extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Agreement';
 
+    protected $flag_Avoid = true;
+
+    protected $flag_List = true;
+
+    protected $flag_Bag = true;
+
 }

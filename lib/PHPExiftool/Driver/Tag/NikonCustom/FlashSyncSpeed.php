@@ -25,6 +25,8 @@ class FlashSyncSpeed extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Flash Sync Speed';
 
+    protected $flag_Permanent = true;
+
     protected $Values = 'mixed';
 
     protected $Index = 'mixed';

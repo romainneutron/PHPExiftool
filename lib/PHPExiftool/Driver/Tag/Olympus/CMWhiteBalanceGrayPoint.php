@@ -25,4 +25,6 @@ class CMWhiteBalanceGrayPoint extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'CM White Balance Gray Point';
 
+    protected $flag_Permanent = true;
+
 }

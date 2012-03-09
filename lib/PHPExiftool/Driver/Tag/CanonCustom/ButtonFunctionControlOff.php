@@ -25,6 +25,8 @@ class ButtonFunctionControlOff extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Button Function Control Off';
 
+    protected $flag_Permanent = true;
+
     protected $Values = array(
         0 => array(
             'Id' => 0,

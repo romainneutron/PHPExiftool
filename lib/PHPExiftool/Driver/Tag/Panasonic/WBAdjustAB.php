@@ -25,4 +25,6 @@ class WBAdjustAB extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'WB Adjust AB';
 
+    protected $flag_Permanent = true;
+
 }

@@ -25,4 +25,6 @@ class Converter extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Converter';
 
+    protected $flag_Permanent = true;
+
 }

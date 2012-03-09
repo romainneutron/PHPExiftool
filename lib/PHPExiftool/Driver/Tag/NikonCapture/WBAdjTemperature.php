@@ -25,4 +25,6 @@ class WBAdjTemperature extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'WB Adj Temperature';
 
+    protected $flag_Permanent = true;
+
 }

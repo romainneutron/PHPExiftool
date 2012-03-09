@@ -25,4 +25,6 @@ class ExternalFlashAE2 extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'External Flash AE2';
 
+    protected $flag_Permanent = true;
+
 }

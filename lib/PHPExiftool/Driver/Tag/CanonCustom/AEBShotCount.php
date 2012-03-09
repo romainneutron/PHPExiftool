@@ -25,6 +25,8 @@ class AEBShotCount extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'AEB Shot Count';
 
+    protected $flag_Permanent = true;
+
     protected $Values = array(
         0 => array(
             'Id' => 0,

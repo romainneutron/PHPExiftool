@@ -25,4 +25,6 @@ class HasPreviousVersion extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Has Previous Version';
 
+    protected $flag_Avoid = true;
+
 }

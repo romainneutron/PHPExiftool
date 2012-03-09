@@ -25,4 +25,6 @@ class AFRSlower4Trigger extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'AFR Slower 4 Trigger';
 
+    protected $flag_Permanent = true;
+
 }

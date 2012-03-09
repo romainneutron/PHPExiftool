@@ -25,4 +25,6 @@ class VariProgram extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Vari Program';
 
+    protected $flag_Permanent = true;
+
 }

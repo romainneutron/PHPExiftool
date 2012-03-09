@@ -25,4 +25,6 @@ class PDAHistogram extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'PDA Histogram';
 
+    protected $flag_Binary = true;
+
 }

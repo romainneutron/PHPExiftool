@@ -25,4 +25,6 @@ class LensApertureRange extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Lens Aperture Range';
 
+    protected $flag_Permanent = true;
+
 }

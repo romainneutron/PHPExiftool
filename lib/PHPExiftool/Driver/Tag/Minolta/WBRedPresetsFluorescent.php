@@ -25,4 +25,6 @@ class WBRedPresetsFluorescent extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'WB Red Presets Fluorescent';
 
+    protected $flag_Permanent = true;
+
 }

@@ -25,4 +25,6 @@ class AWBSnapshotBGain extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'AWB Snapshot B Gain';
 
+    protected $flag_Permanent = true;
+
 }

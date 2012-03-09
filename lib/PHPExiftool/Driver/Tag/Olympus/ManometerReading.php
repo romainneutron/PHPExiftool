@@ -25,4 +25,6 @@ class ManometerReading extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Manometer Reading';
 
+    protected $flag_Permanent = true;
+
 }

@@ -25,4 +25,6 @@ class WBRBPresetCoolWhiteF extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'WB RB Preset Cool White F';
 
+    protected $flag_Permanent = true;
+
 }

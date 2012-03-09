@@ -25,4 +25,6 @@ class AECLumaTolerance extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'AEC Luma Tolerance';
 
+    protected $flag_Permanent = true;
+
 }

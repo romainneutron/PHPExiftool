@@ -25,4 +25,6 @@ class SequenceNumber extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Shot Number In Continuous Burst';
 
+    protected $flag_Permanent = true;
+
 }

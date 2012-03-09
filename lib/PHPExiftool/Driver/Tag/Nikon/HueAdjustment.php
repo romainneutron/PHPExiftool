@@ -25,4 +25,6 @@ class HueAdjustment extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Hue Adjustment';
 
+    protected $flag_Permanent = true;
+
 }

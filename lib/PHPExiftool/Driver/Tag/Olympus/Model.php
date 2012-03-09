@@ -25,6 +25,8 @@ class Model extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Camera Model Name';
 
+    protected $flag_Permanent = true;
+
     protected $Values = 'mixed';
 
 }

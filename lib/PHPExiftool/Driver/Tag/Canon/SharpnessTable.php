@@ -25,4 +25,6 @@ class SharpnessTable extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Sharpness Table';
 
+    protected $flag_Permanent = true;
+
 }

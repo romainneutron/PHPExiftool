@@ -25,4 +25,6 @@ class RedBalance extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Red Balance';
 
+    protected $flag_Permanent = true;
+
 }

@@ -25,6 +25,8 @@ class BleachBypassToning extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Bleach Bypass Toning';
 
+    protected $flag_Permanent = true;
+
     protected $Values = array(
         1 => array(
             'Id' => 1,

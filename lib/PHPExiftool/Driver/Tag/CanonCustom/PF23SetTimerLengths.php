@@ -25,4 +25,6 @@ class PF23SetTimerLengths extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'PF23 Set Timer Lengths';
 
+    protected $flag_Permanent = true;
+
 }

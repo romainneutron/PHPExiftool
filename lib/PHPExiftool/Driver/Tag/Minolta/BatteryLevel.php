@@ -25,6 +25,8 @@ class BatteryLevel extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Battery Level';
 
+    protected $flag_Permanent = true;
+
     protected $Values = array(
         3 => array(
             'Id' => 3,

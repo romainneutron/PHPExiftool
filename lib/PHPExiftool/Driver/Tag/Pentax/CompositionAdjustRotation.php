@@ -25,4 +25,6 @@ class CompositionAdjustRotation extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Composition Adjust Rotation';
 
+    protected $flag_Permanent = true;
+
 }

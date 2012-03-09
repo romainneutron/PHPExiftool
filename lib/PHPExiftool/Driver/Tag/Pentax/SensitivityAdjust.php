@@ -25,4 +25,6 @@ class SensitivityAdjust extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Sensitivity Adjust';
 
+    protected $flag_Permanent = true;
+
 }

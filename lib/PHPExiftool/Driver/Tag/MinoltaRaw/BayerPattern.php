@@ -25,6 +25,8 @@ class BayerPattern extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Bayer Pattern';
 
+    protected $flag_Permanent = true;
+
     protected $Values = array(
         1 => array(
             'Id' => 1,

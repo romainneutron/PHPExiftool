@@ -25,4 +25,6 @@ class YhiYloCorC2 extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Yhi Ylo Cor C2';
 
+    protected $flag_Permanent = true;
+
 }

@@ -25,4 +25,6 @@ class BlckLvlOddCols extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Blck Lvl Odd Cols';
 
+    protected $flag_Permanent = true;
+
 }

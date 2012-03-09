@@ -25,4 +25,6 @@ class IPTCDigest extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'IPTC Digest';
 
+    protected $flag_Unsafe = true;
+
 }

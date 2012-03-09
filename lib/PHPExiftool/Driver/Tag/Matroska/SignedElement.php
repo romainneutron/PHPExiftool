@@ -25,4 +25,6 @@ class SignedElement extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Signed Element';
 
+    protected $flag_Binary = true;
+
 }

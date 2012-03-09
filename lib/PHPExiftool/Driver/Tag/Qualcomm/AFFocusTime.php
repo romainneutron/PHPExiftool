@@ -25,4 +25,6 @@ class AFFocusTime extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'AF Focus Time';
 
+    protected $flag_Permanent = true;
+
 }

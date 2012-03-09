@@ -25,4 +25,6 @@ class Keywords extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Keywords';
 
+    protected $flag_List = true;
+
 }

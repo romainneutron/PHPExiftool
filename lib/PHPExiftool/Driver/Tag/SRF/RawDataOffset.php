@@ -25,4 +25,6 @@ class RawDataOffset extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Raw Data Offset';
 
+    protected $flag_Permanent = true;
+
 }

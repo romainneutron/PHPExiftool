@@ -25,6 +25,8 @@ class ReverseIndicators extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Reverse Indicators';
 
+    protected $flag_Permanent = true;
+
     protected $Values = 'mixed';
 
 }

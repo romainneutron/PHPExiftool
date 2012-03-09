@@ -25,4 +25,6 @@ class AFImageHeight extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'AF Image Height';
 
+    protected $flag_Permanent = true;
+
 }

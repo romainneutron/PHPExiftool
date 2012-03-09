@@ -25,4 +25,8 @@ class SubFile extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Sub File';
 
+    protected $flag_Binary = true;
+
+    protected $flag_List = true;
+
 }

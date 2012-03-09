@@ -25,6 +25,8 @@ class MBD11BatteryType extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'MB-D11 Battery Type';
 
+    protected $flag_Permanent = true;
+
     protected $Values = array(
         0 => array(
             'Id' => 0,

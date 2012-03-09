@@ -25,4 +25,6 @@ class SceneArea extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Scene Area';
 
+    protected $flag_Permanent = true;
+
 }

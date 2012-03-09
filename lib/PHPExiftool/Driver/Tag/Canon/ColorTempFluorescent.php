@@ -25,4 +25,6 @@ class ColorTempFluorescent extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Color Temp Fluorescent';
 
+    protected $flag_Permanent = true;
+
 }

@@ -25,4 +25,6 @@ class SyncSampleTable extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Sync Sample Table';
 
+    protected $flag_Binary = true;
+
 }

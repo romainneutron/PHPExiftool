@@ -25,4 +25,6 @@ class AFImageWidth extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'AF Image Width';
 
+    protected $flag_Permanent = true;
+
 }

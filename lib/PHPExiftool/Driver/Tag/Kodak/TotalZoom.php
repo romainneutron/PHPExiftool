@@ -25,4 +25,6 @@ class TotalZoom extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Total Zoom';
 
+    protected $flag_Permanent = true;
+
 }

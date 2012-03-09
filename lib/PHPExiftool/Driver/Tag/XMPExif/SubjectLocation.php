@@ -25,4 +25,8 @@ class SubjectLocation extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Subject Location';
 
+    protected $flag_List = true;
+
+    protected $flag_Seq = true;
+
 }

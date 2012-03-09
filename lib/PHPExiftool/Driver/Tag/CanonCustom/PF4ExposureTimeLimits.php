@@ -25,4 +25,6 @@ class PF4ExposureTimeLimits extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'PF4 Exposure Time Limits';
 
+    protected $flag_Permanent = true;
+
 }

@@ -25,4 +25,6 @@ class ColorTempShade extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Color Temp Shade';
 
+    protected $flag_Permanent = true;
+
 }

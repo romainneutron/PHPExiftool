@@ -25,4 +25,6 @@ class RatingPercent extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Rating Percent';
 
+    protected $flag_Avoid = true;
+
 }

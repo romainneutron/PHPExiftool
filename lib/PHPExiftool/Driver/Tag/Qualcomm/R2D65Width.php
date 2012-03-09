@@ -25,4 +25,6 @@ class R2D65Width extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'R2 D65 Width';
 
+    protected $flag_Permanent = true;
+
 }

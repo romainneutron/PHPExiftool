@@ -27,6 +27,10 @@ class ComponentsConfiguration extends \PHPExiftool\Driver\Tag
 
     protected $local_g1 = 'ExifIFD';
 
+    protected $flag_Unsafe = true;
+
+    protected $flag_Mandatory = true;
+
     protected $Values = array(
         0 => array(
             'Id' => 0,

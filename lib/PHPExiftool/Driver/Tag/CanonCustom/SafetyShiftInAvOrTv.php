@@ -25,6 +25,8 @@ class SafetyShiftInAvOrTv extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Safety Shift In Av Or Tv';
 
+    protected $flag_Permanent = true;
+
     protected $Values = array(
         0 => array(
             'Id' => 0,

@@ -25,4 +25,6 @@ class ImageAdjustment extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Image Adjustment';
 
+    protected $flag_Permanent = true;
+
 }

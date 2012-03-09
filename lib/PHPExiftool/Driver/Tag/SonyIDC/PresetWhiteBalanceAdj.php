@@ -25,4 +25,6 @@ class PresetWhiteBalanceAdj extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Preset White Balance Adj';
 
+    protected $flag_Permanent = true;
+
 }

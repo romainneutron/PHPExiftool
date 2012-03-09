@@ -25,4 +25,6 @@ class Person extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Person';
 
+    protected $flag_Avoid = true;
+
 }

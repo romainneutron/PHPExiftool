@@ -25,4 +25,6 @@ class Categories extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Categories';
 
+    protected $flag_Avoid = true;
+
 }

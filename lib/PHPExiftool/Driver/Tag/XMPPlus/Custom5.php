@@ -25,4 +25,8 @@ class Custom5 extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Custom 5';
 
+    protected $flag_List = true;
+
+    protected $flag_Bag = true;
+
 }

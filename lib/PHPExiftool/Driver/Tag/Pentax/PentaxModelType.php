@@ -25,4 +25,6 @@ class PentaxModelType extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Pentax Model Type';
 
+    protected $flag_Permanent = true;
+
 }

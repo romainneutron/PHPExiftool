@@ -25,4 +25,6 @@ class SharpnessFreqTable extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Sharpness Freq Table';
 
+    protected $flag_Permanent = true;
+
 }

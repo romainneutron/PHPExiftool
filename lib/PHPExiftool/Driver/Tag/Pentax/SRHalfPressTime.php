@@ -25,4 +25,6 @@ class SRHalfPressTime extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'SR Half Press Time';
 
+    protected $flag_Permanent = true;
+
 }

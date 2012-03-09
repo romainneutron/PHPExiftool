@@ -25,6 +25,8 @@ class AFPointAreaExpansion extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'AF Point Area Expansion';
 
+    protected $flag_Permanent = true;
+
     protected $Values = 'mixed';
 
     protected $Index = 'mixed';

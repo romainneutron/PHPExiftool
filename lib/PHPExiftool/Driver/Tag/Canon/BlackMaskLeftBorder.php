@@ -25,4 +25,6 @@ class BlackMaskLeftBorder extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Black Mask Left Border';
 
+    protected $flag_Permanent = true;
+
 }

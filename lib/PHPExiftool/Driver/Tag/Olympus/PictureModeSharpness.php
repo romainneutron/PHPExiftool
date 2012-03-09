@@ -25,4 +25,6 @@ class PictureModeSharpness extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Picture Mode Sharpness';
 
+    protected $flag_Permanent = true;
+
 }

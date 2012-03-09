@@ -25,6 +25,8 @@ class JpgRecordedPixels extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Jpg Recorded Pixels';
 
+    protected $flag_Permanent = true;
+
     protected $Values = array(
         0 => array(
             'Id' => 0,

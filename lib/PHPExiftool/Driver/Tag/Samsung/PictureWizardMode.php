@@ -25,6 +25,8 @@ class PictureWizardMode extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Picture Wizard Mode';
 
+    protected $flag_Permanent = true;
+
     protected $Values = array(
         0 => array(
             'Id' => 0,

@@ -25,6 +25,8 @@ class SingleFrameBracketing extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Single Frame Bracketing';
 
+    protected $flag_Permanent = true;
+
     protected $Values = array(
         770 => array(
             'Id' => 770,

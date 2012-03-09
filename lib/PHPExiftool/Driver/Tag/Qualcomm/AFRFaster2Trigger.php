@@ -25,4 +25,6 @@ class AFRFaster2Trigger extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'AFR Faster 2 Trigger';
 
+    protected $flag_Permanent = true;
+
 }

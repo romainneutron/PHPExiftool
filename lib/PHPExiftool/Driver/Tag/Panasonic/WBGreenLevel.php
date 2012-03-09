@@ -25,4 +25,6 @@ class WBGreenLevel extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'WB Green Level';
 
+    protected $flag_Permanent = true;
+
 }

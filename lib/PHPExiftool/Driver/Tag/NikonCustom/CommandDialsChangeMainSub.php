@@ -25,6 +25,8 @@ class CommandDialsChangeMainSub extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Command Dials Change Main Sub';
 
+    protected $flag_Permanent = true;
+
     protected $Values = 'mixed';
 
 }

@@ -25,4 +25,6 @@ class PF9ChangeBracketSequence extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'PF9 Change Bracket Sequence';
 
+    protected $flag_Permanent = true;
+
 }

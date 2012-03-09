@@ -25,6 +25,8 @@ class FocusAreaSelection extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Focus Area Selection';
 
+    protected $flag_Permanent = true;
+
     protected $Values = array(
         0 => array(
             'Id' => 0,

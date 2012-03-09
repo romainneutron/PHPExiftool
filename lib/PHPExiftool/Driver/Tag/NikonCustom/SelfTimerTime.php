@@ -25,6 +25,8 @@ class SelfTimerTime extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Self Timer Time';
 
+    protected $flag_Permanent = true;
+
     protected $Values = 'mixed';
 
 }

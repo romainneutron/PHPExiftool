@@ -25,4 +25,6 @@ class FlashInfoVersion extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Flash Info Version';
 
+    protected $flag_Permanent = true;
+
 }

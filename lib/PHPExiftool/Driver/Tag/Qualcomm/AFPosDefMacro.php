@@ -25,4 +25,6 @@ class AFPosDefMacro extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'AF Pos Def Macro';
 
+    protected $flag_Permanent = true;
+
 }

@@ -25,4 +25,6 @@ class WBRGGBLevelsKelvin extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'WB RGGB Levels Kelvin';
 
+    protected $flag_Permanent = true;
+
 }

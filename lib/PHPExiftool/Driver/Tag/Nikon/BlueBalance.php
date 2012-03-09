@@ -25,4 +25,8 @@ class BlueBalance extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Blue Balance';
 
+    protected $flag_Permanent = true;
+
+    protected $flag_Unsafe = true;
+
 }

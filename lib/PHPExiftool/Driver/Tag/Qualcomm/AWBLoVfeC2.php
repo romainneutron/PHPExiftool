@@ -25,4 +25,6 @@ class AWBLoVfeC2 extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'AWB Lo Vfe C2';
 
+    protected $flag_Permanent = true;
+
 }

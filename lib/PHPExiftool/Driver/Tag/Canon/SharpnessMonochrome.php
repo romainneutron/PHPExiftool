@@ -25,6 +25,8 @@ class SharpnessMonochrome extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Sharpness Monochrome';
 
+    protected $flag_Permanent = true;
+
     protected $Values = 'mixed';
 
 }

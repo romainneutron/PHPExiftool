@@ -25,4 +25,6 @@ class ColorPalette extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Color Palette';
 
+    protected $flag_Binary = true;
+
 }

@@ -25,6 +25,8 @@ class LongExposureNoiseReduction extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Long Exposure Noise Reduction';
 
+    protected $flag_Permanent = true;
+
     protected $Values = 'mixed';
 
 }

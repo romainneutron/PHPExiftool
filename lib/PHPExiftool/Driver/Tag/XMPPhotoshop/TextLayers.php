@@ -25,4 +25,6 @@ class TextLayers extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Text Layers';
 
+    protected $flag_List = true;
+
 }

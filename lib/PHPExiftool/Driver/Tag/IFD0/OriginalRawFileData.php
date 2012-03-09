@@ -25,4 +25,8 @@ class OriginalRawFileData extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Original Raw File Data';
 
+    protected $flag_Binary = true;
+
+    protected $flag_Unsafe = true;
+
 }

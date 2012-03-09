@@ -25,4 +25,6 @@ class ApplicationRecordVersion extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Application Record Version';
 
+    protected $flag_Mandatory = true;
+
 }

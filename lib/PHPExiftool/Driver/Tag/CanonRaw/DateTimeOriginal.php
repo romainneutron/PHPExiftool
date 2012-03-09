@@ -25,4 +25,6 @@ class DateTimeOriginal extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Date/Time Original';
 
+    protected $flag_Permanent = true;
+
 }

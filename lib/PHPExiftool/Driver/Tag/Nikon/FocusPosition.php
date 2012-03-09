@@ -25,4 +25,6 @@ class FocusPosition extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Focus Position';
 
+    protected $flag_Permanent = true;
+
 }

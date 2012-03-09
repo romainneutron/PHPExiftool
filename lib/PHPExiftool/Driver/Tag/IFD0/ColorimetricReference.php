@@ -25,4 +25,6 @@ class ColorimetricReference extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Colorimetric Reference';
 
+    protected $flag_Unsafe = true;
+
 }

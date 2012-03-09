@@ -25,4 +25,6 @@ class AECVfeLuma extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'AEC Vfe Luma';
 
+    protected $flag_Permanent = true;
+
 }

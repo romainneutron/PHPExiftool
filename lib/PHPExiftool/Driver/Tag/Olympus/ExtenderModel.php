@@ -25,4 +25,6 @@ class ExtenderModel extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Extender Model';
 
+    protected $flag_Permanent = true;
+
 }

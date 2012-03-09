@@ -25,6 +25,8 @@ class ContrastStandard extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Contrast Standard';
 
+    protected $flag_Permanent = true;
+
     protected $Values = 'mixed';
 
 }

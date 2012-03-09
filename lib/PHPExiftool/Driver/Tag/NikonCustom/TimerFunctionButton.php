@@ -25,6 +25,8 @@ class TimerFunctionButton extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Timer Function Button';
 
+    protected $flag_Permanent = true;
+
     protected $Values = 'mixed';
 
 }

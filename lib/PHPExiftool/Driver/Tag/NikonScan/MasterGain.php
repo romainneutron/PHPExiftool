@@ -25,4 +25,6 @@ class MasterGain extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Master Gain';
 
+    protected $flag_Permanent = true;
+
 }

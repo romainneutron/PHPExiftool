@@ -25,4 +25,6 @@ class FirmwareID extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Firmware ID';
 
+    protected $flag_Permanent = true;
+
 }

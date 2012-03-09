@@ -25,4 +25,6 @@ class ThumbnailImage extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Thumbnail Image';
 
+    protected $flag_Binary = true;
+
 }

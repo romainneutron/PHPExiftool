@@ -25,4 +25,6 @@ class AWBAveBgRatio extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'AWB Ave Bg Ratio';
 
+    protected $flag_Permanent = true;
+
 }

@@ -25,4 +25,6 @@ class DefConvChrmCP extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Def Conv Chrm C P';
 
+    protected $flag_Permanent = true;
+
 }

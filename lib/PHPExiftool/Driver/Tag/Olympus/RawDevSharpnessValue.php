@@ -25,4 +25,6 @@ class RawDevSharpnessValue extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Raw Dev Sharpness Value';
 
+    protected $flag_Permanent = true;
+
 }

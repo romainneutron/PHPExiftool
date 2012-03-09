@@ -25,6 +25,8 @@ class SceneMode extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Scene Mode';
 
+    protected $flag_Permanent = true;
+
     protected $Values = 'mixed';
 
 }

@@ -25,6 +25,8 @@ class PowerSource extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Power Source';
 
+    protected $flag_Permanent = true;
+
     protected $Values = array(
         2 => array(
             'Id' => 2,

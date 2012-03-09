@@ -25,4 +25,6 @@ class RecognizedFace3Position extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Recognized Face 3 Position';
 
+    protected $flag_Permanent = true;
+
 }

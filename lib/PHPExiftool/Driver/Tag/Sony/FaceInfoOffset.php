@@ -25,4 +25,6 @@ class FaceInfoOffset extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Face Info Offset';
 
+    protected $flag_Permanent = true;
+
 }

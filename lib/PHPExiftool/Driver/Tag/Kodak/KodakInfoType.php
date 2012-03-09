@@ -25,4 +25,6 @@ class KodakInfoType extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Kodak Info Type';
 
+    protected $flag_Permanent = true;
+
 }

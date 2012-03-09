@@ -25,6 +25,8 @@ class CreativeStyle extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Creative Style';
 
+    protected $flag_Permanent = true;
+
     protected $Values = 'mixed';
 
 }

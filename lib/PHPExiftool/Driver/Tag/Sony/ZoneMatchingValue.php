@@ -25,4 +25,6 @@ class ZoneMatchingValue extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Zone Matching Value';
 
+    protected $flag_Permanent = true;
+
 }

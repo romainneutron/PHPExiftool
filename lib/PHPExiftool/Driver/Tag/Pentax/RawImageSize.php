@@ -25,4 +25,6 @@ class RawImageSize extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Raw Image Size';
 
+    protected $flag_Permanent = true;
+
 }

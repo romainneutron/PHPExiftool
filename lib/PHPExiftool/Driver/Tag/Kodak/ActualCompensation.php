@@ -25,4 +25,6 @@ class ActualCompensation extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Actual Compensation';
 
+    protected $flag_Permanent = true;
+
 }

@@ -25,4 +25,6 @@ class AFPointsSelected extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'AF Points Selected';
 
+    protected $flag_Permanent = true;
+
 }

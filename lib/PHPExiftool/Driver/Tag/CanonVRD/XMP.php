@@ -25,4 +25,8 @@ class XMP extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'XMP';
 
+    protected $flag_Binary = true;
+
+    protected $flag_Unsafe = true;
+
 }

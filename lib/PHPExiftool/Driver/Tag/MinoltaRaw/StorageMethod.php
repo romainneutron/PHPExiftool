@@ -25,6 +25,8 @@ class StorageMethod extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Storage Method';
 
+    protected $flag_Permanent = true;
+
     protected $Values = array(
         82 => array(
             'Id' => 82,

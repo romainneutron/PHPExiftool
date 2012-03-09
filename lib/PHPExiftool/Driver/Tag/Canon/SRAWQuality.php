@@ -25,6 +25,8 @@ class SRAWQuality extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'SRAW Quality';
 
+    protected $flag_Permanent = true;
+
     protected $Values = array(
         0 => array(
             'Id' => 0,

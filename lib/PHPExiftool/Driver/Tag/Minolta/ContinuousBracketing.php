@@ -25,6 +25,8 @@ class ContinuousBracketing extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Continuous Bracketing';
 
+    protected $flag_Permanent = true;
+
     protected $Values = array(
         771 => array(
             'Id' => 771,

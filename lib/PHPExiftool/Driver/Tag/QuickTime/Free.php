@@ -25,6 +25,8 @@ class Free extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Free';
 
+    protected $flag_Binary = true;
+
     protected $Index = 1;
 
 }

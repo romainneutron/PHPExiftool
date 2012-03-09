@@ -25,4 +25,6 @@ class MultiExposureVersion extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Multi Exposure Version';
 
+    protected $flag_Permanent = true;
+
 }

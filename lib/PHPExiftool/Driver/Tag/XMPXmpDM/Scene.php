@@ -25,4 +25,6 @@ class Scene extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Scene';
 
+    protected $flag_Avoid = true;
+
 }

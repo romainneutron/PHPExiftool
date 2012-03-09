@@ -25,4 +25,6 @@ class ASF3EdgeDetect extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'ASF3 Edge Detect';
 
+    protected $flag_Permanent = true;
+
 }

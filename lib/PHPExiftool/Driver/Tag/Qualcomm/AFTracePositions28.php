@@ -25,4 +25,6 @@ class AFTracePositions28 extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'AF Trace Positions 28';
 
+    protected $flag_Permanent = true;
+
 }

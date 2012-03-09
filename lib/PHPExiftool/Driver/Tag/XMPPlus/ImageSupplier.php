@@ -25,4 +25,8 @@ class ImageSupplier extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Image Supplier';
 
+    protected $flag_List = true;
+
+    protected $flag_Seq = true;
+
 }

@@ -25,4 +25,6 @@ class CMContrast extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'CM Contrast';
 
+    protected $flag_Permanent = true;
+
 }

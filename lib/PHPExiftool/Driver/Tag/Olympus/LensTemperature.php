@@ -25,4 +25,6 @@ class LensTemperature extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Lens Temperature';
 
+    protected $flag_Permanent = true;
+
 }

@@ -25,4 +25,6 @@ class NightshotMode extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Nightshot Mode';
 
+    protected $flag_Permanent = true;
+
 }

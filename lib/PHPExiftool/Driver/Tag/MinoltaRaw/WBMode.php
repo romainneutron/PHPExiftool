@@ -25,4 +25,6 @@ class WBMode extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'WB Mode';
 
+    protected $flag_Permanent = true;
+
 }

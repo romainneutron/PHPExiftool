@@ -25,4 +25,6 @@ class PF23FELockTime extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'PF23 FE Lock Time';
 
+    protected $flag_Permanent = true;
+
 }

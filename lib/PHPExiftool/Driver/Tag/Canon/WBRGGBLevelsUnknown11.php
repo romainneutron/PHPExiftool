@@ -25,4 +25,6 @@ class WBRGGBLevelsUnknown11 extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'WB RGGB Levels Unknown 11';
 
+    protected $flag_Permanent = true;
+
 }

@@ -25,6 +25,8 @@ class ColorEffect extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Color Effect';
 
+    protected $flag_Permanent = true;
+
     protected $Values = array(
         1 => array(
             'Id' => 1,

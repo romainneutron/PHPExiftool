@@ -25,4 +25,6 @@ class AWBNormVfeMinY extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'AWB Norm Vfe Min Y';
 
+    protected $flag_Permanent = true;
+
 }

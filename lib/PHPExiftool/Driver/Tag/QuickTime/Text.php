@@ -25,4 +25,6 @@ class Text extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Text';
 
+    protected $flag_Binary = true;
+
 }

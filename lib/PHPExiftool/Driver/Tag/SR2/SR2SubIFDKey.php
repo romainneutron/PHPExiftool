@@ -25,4 +25,6 @@ class SR2SubIFDKey extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'SR2 Sub IFD Key';
 
+    protected $flag_Permanent = true;
+
 }

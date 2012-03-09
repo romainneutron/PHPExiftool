@@ -25,4 +25,6 @@ class SaveObjects extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Save Objects';
 
+    protected $flag_Binary = true;
+
 }

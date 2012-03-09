@@ -25,4 +25,6 @@ class LensKind extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Lens Kind';
 
+    protected $flag_Permanent = true;
+
 }

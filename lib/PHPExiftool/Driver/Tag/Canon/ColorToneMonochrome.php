@@ -25,6 +25,8 @@ class ColorToneMonochrome extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Color Tone Monochrome';
 
+    protected $flag_Permanent = true;
+
     protected $Values = array(
         '-559038737' => array(
             'Id' => '-559038737',

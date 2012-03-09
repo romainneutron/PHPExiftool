@@ -25,4 +25,6 @@ class ReductionMatrix2 extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Reduction Matrix 2';
 
+    protected $flag_Unsafe = true;
+
 }

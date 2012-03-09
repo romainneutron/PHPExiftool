@@ -25,6 +25,8 @@ class VibrationReduction extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Vibration Reduction';
 
+    protected $flag_Permanent = true;
+
     protected $Values = 'mixed';
 
 }

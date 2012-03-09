@@ -25,4 +25,6 @@ class PanasonicImageWidth extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Panasonic Image Width';
 
+    protected $flag_Permanent = true;
+
 }

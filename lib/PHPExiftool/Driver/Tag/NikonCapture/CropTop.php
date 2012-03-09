@@ -25,4 +25,6 @@ class CropTop extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Crop Top';
 
+    protected $flag_Permanent = true;
+
 }

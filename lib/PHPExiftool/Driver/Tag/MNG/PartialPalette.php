@@ -25,4 +25,6 @@ class PartialPalette extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Partial Palette';
 
+    protected $flag_Binary = true;
+
 }

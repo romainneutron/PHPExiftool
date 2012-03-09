@@ -25,4 +25,6 @@ class WBRBPresetCloudy extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'WB RB Preset Cloudy';
 
+    protected $flag_Permanent = true;
+
 }

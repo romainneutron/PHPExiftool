@@ -25,6 +25,8 @@ class ShutterCurtainSync extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Shutter Curtain Sync';
 
+    protected $flag_Permanent = true;
+
     protected $Values = array(
         0 => array(
             'Id' => 0,

@@ -25,4 +25,6 @@ class PF1DisableShootingModes extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'PF1 Disable Shooting Modes';
 
+    protected $flag_Permanent = true;
+
 }

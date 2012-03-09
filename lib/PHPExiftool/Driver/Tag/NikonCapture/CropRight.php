@@ -25,4 +25,6 @@ class CropRight extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Crop Right';
 
+    protected $flag_Permanent = true;
+
 }

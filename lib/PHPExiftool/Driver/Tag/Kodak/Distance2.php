@@ -25,4 +25,6 @@ class Distance2 extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Distance 2';
 
+    protected $flag_Permanent = true;
+
 }

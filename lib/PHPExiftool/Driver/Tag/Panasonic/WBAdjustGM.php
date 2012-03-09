@@ -25,4 +25,6 @@ class WBAdjustGM extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'WB Adjust GM';
 
+    protected $flag_Permanent = true;
+
 }

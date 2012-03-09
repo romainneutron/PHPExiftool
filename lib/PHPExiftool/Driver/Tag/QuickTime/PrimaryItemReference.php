@@ -25,4 +25,6 @@ class PrimaryItemReference extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Primary Item Reference';
 
+    protected $flag_Binary = true;
+
 }

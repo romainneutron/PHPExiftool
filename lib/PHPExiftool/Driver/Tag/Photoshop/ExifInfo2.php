@@ -25,4 +25,6 @@ class ExifInfo2 extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Exif Info 2';
 
+    protected $flag_Binary = true;
+
 }

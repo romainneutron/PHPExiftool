@@ -25,6 +25,8 @@ class SaturationNeutral extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Saturation Neutral';
 
+    protected $flag_Permanent = true;
+
     protected $Values = 'mixed';
 
 }

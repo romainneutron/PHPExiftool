@@ -25,4 +25,6 @@ class PreCaptureFrames extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Pre Capture Frames';
 
+    protected $flag_Permanent = true;
+
 }

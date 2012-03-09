@@ -25,4 +25,6 @@ class LensFStops extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Lens F Stops';
 
+    protected $flag_Permanent = true;
+
 }

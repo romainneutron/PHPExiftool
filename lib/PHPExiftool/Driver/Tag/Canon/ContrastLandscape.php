@@ -25,6 +25,8 @@ class ContrastLandscape extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Contrast Landscape';
 
+    protected $flag_Permanent = true;
+
     protected $Values = 'mixed';
 
 }

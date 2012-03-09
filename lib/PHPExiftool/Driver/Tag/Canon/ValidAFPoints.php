@@ -25,4 +25,6 @@ class ValidAFPoints extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Valid AF Points';
 
+    protected $flag_Permanent = true;
+
 }

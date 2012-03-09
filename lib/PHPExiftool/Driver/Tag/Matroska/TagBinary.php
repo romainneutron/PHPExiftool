@@ -25,4 +25,6 @@ class TagBinary extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Tag Binary';
 
+    protected $flag_Binary = true;
+
 }

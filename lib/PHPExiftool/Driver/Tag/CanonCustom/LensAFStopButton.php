@@ -25,6 +25,8 @@ class LensAFStopButton extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Lens AF Stop Button';
 
+    protected $flag_Permanent = true;
+
     protected $Values = 'mixed';
 
 }

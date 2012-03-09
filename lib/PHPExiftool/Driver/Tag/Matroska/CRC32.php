@@ -25,4 +25,6 @@ class CRC32 extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'CRC-32';
 
+    protected $flag_Binary = true;
+
 }

@@ -25,6 +25,8 @@ class LevelGaugePitch extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Level Gauge Pitch';
 
+    protected $flag_Permanent = true;
+
     protected $Values = array(
         0 => array(
             'Id' => 0,

@@ -25,4 +25,6 @@ class SensorRightBorder extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Sensor Right Border';
 
+    protected $flag_Permanent = true;
+
 }

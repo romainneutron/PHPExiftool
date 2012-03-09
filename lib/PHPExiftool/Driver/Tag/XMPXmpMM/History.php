@@ -25,4 +25,8 @@ class History extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'History';
 
+    protected $flag_List = true;
+
+    protected $flag_Seq = true;
+
 }

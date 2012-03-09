@@ -25,4 +25,6 @@ class FlashFocalLength extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Flash Focal Length';
 
+    protected $flag_Permanent = true;
+
 }

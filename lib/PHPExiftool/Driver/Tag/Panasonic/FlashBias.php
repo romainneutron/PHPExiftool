@@ -25,4 +25,6 @@ class FlashBias extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Flash Bias';
 
+    protected $flag_Permanent = true;
+
 }

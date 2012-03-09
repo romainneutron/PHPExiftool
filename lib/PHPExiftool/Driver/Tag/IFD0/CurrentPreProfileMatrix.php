@@ -25,4 +25,6 @@ class CurrentPreProfileMatrix extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Current Pre Profile Matrix';
 
+    protected $flag_Unsafe = true;
+
 }

@@ -25,4 +25,6 @@ class DropByKeyword extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Drop By Keyword';
 
+    protected $flag_Binary = true;
+
 }

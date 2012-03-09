@@ -25,4 +25,6 @@ class FocusStepInfinity extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Focus Step Infinity';
 
+    protected $flag_Permanent = true;
+
 }

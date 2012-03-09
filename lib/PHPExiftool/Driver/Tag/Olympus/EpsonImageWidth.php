@@ -25,4 +25,6 @@ class EpsonImageWidth extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Epson Image Width';
 
+    protected $flag_Permanent = true;
+
 }

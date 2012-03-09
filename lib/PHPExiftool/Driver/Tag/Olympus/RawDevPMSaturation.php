@@ -25,4 +25,6 @@ class RawDevPMSaturation extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Raw Dev PM Saturation';
 
+    protected $flag_Permanent = true;
+
 }

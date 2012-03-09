@@ -25,4 +25,6 @@ class MakerNoteType extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Maker Note Type';
 
+    protected $flag_Permanent = true;
+
 }

@@ -25,6 +25,8 @@ class ManualTv extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Manual Tv/Av For M';
 
+    protected $flag_Permanent = true;
+
     protected $Values = 'mixed';
 
 }

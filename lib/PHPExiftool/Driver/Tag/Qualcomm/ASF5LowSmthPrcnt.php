@@ -25,4 +25,6 @@ class ASF5LowSmthPrcnt extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'ASF5 Low Smth Prcnt';
 
+    protected $flag_Permanent = true;
+
 }

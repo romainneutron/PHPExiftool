@@ -25,4 +25,6 @@ class SubjectDistance extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Subject Distance';
 
+    protected $flag_Permanent = true;
+
 }

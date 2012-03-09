@@ -25,4 +25,8 @@ class OrganisationInImageCode extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Organisation In Image Code';
 
+    protected $flag_List = true;
+
+    protected $flag_Bag = true;
+
 }

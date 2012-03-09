@@ -25,4 +25,8 @@ class Fonts extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Fonts';
 
+    protected $flag_List = true;
+
+    protected $flag_Bag = true;
+
 }

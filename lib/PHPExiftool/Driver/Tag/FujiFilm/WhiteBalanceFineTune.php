@@ -25,4 +25,6 @@ class WhiteBalanceFineTune extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'White Balance Fine Tune';
 
+    protected $flag_Permanent = true;
+
 }

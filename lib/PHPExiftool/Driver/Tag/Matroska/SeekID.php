@@ -25,4 +25,6 @@ class SeekID extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Seek ID';
 
+    protected $flag_Binary = true;
+
 }

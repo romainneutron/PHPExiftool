@@ -25,4 +25,6 @@ class WBBracketValueAB extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'WB Bracket Value AB';
 
+    protected $flag_Permanent = true;
+
 }

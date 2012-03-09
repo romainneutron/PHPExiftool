@@ -25,4 +25,6 @@ class SpotFocusPointX extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Spot Focus Point X';
 
+    protected $flag_Permanent = true;
+
 }

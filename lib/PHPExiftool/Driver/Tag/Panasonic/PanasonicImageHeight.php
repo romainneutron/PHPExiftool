@@ -25,4 +25,6 @@ class PanasonicImageHeight extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Panasonic Image Height';
 
+    protected $flag_Permanent = true;
+
 }

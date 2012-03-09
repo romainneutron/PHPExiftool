@@ -25,4 +25,6 @@ class HJRNReductionFlat extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'HJR N Reduction Flat';
 
+    protected $flag_Permanent = true;
+
 }

@@ -25,4 +25,6 @@ class BlackLevel extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Black Level';
 
+    protected $flag_Permanent = true;
+
 }

@@ -25,4 +25,6 @@ class Trapped extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Trapped';
 
+    protected $flag_Unsafe = true;
+
 }

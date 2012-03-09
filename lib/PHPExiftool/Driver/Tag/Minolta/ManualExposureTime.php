@@ -25,4 +25,6 @@ class ManualExposureTime extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Manual Exposure Time';
 
+    protected $flag_Permanent = true;
+
 }

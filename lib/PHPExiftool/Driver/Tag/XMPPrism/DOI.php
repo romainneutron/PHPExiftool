@@ -25,4 +25,6 @@ class DOI extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Digital Object Identifier';
 
+    protected $flag_Avoid = true;
+
 }

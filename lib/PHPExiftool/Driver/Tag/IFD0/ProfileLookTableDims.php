@@ -25,4 +25,6 @@ class ProfileLookTableDims extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Profile Look Table Dims';
 
+    protected $flag_Unsafe = true;
+
 }

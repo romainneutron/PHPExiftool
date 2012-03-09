@@ -25,6 +25,8 @@ class X3FillLight extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'X3 Fill Light';
 
+    protected $flag_Permanent = true;
+
     protected $Index = 'mixed';
 
 }

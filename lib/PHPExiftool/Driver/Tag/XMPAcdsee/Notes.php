@@ -25,4 +25,6 @@ class Notes extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Notes';
 
+    protected $flag_Avoid = true;
+
 }

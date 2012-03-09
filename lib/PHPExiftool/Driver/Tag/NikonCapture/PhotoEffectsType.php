@@ -25,6 +25,8 @@ class PhotoEffectsType extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Photo Effects Type';
 
+    protected $flag_Permanent = true;
+
     protected $Values = array(
         0 => array(
             'Id' => 0,

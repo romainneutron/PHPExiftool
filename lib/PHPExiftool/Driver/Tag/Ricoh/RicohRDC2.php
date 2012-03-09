@@ -25,4 +25,6 @@ class RicohRDC2 extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Ricoh RDC2';
 
+    protected $flag_Permanent = true;
+
 }

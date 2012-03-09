@@ -25,4 +25,6 @@ class ExtenderFirmwareVersion extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Extender Firmware Version';
 
+    protected $flag_Permanent = true;
+
 }

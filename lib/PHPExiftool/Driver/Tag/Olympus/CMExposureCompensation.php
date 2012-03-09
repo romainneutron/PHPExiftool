@@ -25,4 +25,6 @@ class CMExposureCompensation extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'CM Exposure Compensation';
 
+    protected $flag_Permanent = true;
+
 }

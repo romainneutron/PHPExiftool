@@ -25,4 +25,6 @@ class MotionSensitivity extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Motion Sensitivity';
 
+    protected $flag_Permanent = true;
+
 }

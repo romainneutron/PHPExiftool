@@ -25,4 +25,6 @@ class FirmwareRevision2 extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Firmware Revision 2';
 
+    protected $flag_Permanent = true;
+
 }

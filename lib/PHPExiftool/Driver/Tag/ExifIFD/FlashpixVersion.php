@@ -27,4 +27,6 @@ class FlashpixVersion extends \PHPExiftool\Driver\Tag
 
     protected $local_g1 = 'ExifIFD';
 
+    protected $flag_Mandatory = true;
+
 }

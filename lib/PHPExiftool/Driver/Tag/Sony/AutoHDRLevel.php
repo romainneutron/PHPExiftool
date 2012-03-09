@@ -25,6 +25,8 @@ class AutoHDRLevel extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Auto HDR Level';
 
+    protected $flag_Permanent = true;
+
     protected $Values = array(
         33 => array(
             'Id' => 33,

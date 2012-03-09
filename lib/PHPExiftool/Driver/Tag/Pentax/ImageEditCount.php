@@ -25,4 +25,6 @@ class ImageEditCount extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Image Edit Count';
 
+    protected $flag_Permanent = true;
+
 }

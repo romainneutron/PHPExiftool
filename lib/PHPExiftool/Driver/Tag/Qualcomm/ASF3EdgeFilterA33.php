@@ -25,4 +25,6 @@ class ASF3EdgeFilterA33 extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'ASF3 Edge Filter A33';
 
+    protected $flag_Permanent = true;
+
 }

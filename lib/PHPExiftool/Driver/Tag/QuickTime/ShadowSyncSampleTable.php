@@ -25,4 +25,6 @@ class ShadowSyncSampleTable extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Shadow Sync Sample Table';
 
+    protected $flag_Binary = true;
+
 }

@@ -25,6 +25,8 @@ class CommandDialsApertureSetting extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Command Dials Aperture Setting';
 
+    protected $flag_Permanent = true;
+
     protected $Values = 'mixed';
 
 }

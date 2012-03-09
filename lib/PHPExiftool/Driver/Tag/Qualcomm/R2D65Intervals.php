@@ -25,4 +25,6 @@ class R2D65Intervals extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'R2 D65 Intervals';
 
+    protected $flag_Permanent = true;
+
 }

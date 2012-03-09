@@ -25,4 +25,6 @@ class AWBOudorVfeM4 extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'AWB Oudor Vfe M4';
 
+    protected $flag_Permanent = true;
+
 }

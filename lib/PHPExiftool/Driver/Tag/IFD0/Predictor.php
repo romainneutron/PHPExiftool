@@ -25,6 +25,8 @@ class Predictor extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Predictor';
 
+    protected $flag_Unsafe = true;
+
     protected $Values = array(
         1 => array(
             'Id' => 1,

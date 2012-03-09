@@ -25,6 +25,8 @@ class Calibration extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Calibration';
 
+    protected $flag_Permanent = true;
+
     protected $Index = 'mixed';
 
 }

@@ -25,4 +25,6 @@ class ItemProtection extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Item Protection';
 
+    protected $flag_Binary = true;
+
 }

@@ -25,6 +25,8 @@ class ContrastHighlightShadowAdj extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Contrast Highlight/Shadow Adj';
 
+    protected $flag_Permanent = true;
+
     protected $Values = array(
         0 => array(
             'Id' => 0,

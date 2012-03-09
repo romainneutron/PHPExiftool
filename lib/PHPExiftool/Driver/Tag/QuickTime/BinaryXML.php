@@ -25,4 +25,6 @@ class BinaryXML extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Binary XML';
 
+    protected $flag_Binary = true;
+
 }

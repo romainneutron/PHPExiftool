@@ -25,4 +25,6 @@ class Junk extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Junk';
 
+    protected $flag_Binary = true;
+
 }

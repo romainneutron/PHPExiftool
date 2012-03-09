@@ -25,4 +25,6 @@ class Caption extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Caption';
 
+    protected $flag_Avoid = true;
+
 }

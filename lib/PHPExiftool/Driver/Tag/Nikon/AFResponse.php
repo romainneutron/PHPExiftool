@@ -25,4 +25,6 @@ class AFResponse extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'AF Response';
 
+    protected $flag_Permanent = true;
+
 }

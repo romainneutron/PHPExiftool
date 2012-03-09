@@ -25,4 +25,6 @@ class ExposureTuning extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Exposure Tuning';
 
+    protected $flag_Permanent = true;
+
 }

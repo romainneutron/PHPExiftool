@@ -25,4 +25,6 @@ class AuxiliaryLens extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Auxiliary Lens';
 
+    protected $flag_Permanent = true;
+
 }

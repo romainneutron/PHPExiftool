@@ -25,4 +25,6 @@ class CRCDevelParams extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'CRC Devel Params';
 
+    protected $flag_Binary = true;
+
 }

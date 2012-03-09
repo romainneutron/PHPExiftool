@@ -25,6 +25,10 @@ class ComponentsConfiguration extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Components Configuration';
 
+    protected $flag_List = true;
+
+    protected $flag_Seq = true;
+
     protected $Values = array(
         0 => array(
             'Id' => 0,

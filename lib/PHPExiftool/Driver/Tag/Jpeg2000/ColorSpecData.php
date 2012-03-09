@@ -25,6 +25,8 @@ class ColorSpecData extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Color Spec Data';
 
+    protected $flag_Binary = true;
+
     protected $Index = 2;
 
 }

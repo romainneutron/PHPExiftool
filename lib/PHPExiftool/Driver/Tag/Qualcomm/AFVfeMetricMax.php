@@ -25,4 +25,6 @@ class AFVfeMetricMax extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'AF Vfe Metric Max';
 
+    protected $flag_Permanent = true;
+
 }

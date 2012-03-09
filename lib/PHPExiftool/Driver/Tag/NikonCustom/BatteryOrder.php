@@ -25,6 +25,8 @@ class BatteryOrder extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Battery Order';
 
+    protected $flag_Permanent = true;
+
     protected $Values = 'mixed';
 
 }

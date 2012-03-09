@@ -25,4 +25,6 @@ class WhitePoint extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'White Point';
 
+    protected $flag_Permanent = true;
+
 }

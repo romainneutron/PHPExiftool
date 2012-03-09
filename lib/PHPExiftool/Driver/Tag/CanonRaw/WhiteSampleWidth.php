@@ -25,4 +25,6 @@ class WhiteSampleWidth extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'White Sample Width';
 
+    protected $flag_Permanent = true;
+
 }

@@ -25,4 +25,6 @@ class BaselineExposure extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Baseline Exposure';
 
+    protected $flag_Unsafe = true;
+
 }

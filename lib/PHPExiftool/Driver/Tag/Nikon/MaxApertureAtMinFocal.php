@@ -25,4 +25,6 @@ class MaxApertureAtMinFocal extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Max Aperture At Min Focal';
 
+    protected $flag_Permanent = true;
+
 }

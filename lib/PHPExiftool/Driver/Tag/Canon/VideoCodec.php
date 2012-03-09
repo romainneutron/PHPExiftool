@@ -25,4 +25,6 @@ class VideoCodec extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Video Codec';
 
+    protected $flag_Permanent = true;
+
 }

@@ -25,4 +25,6 @@ class RasterizedCaption extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Rasterized Caption';
 
+    protected $flag_Binary = true;
+
 }

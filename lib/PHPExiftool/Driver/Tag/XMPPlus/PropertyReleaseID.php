@@ -25,4 +25,8 @@ class PropertyReleaseID extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Property Release ID';
 
+    protected $flag_List = true;
+
+    protected $flag_Bag = true;
+
 }

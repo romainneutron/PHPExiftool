@@ -25,6 +25,8 @@ class RemoteOnDuration extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Remote On Duration';
 
+    protected $flag_Permanent = true;
+
     protected $Values = 'mixed';
 
 }

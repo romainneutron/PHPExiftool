@@ -25,4 +25,6 @@ class BulbDuration extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Bulb Duration';
 
+    protected $flag_Permanent = true;
+
 }

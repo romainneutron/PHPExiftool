@@ -25,4 +25,6 @@ class IdependentAndDisposableSamples extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Idependent And Disposable Samples';
 
+    protected $flag_Binary = true;
+
 }

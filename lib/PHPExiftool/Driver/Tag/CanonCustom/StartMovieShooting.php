@@ -25,6 +25,8 @@ class StartMovieShooting extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Start Movie Shooting';
 
+    protected $flag_Permanent = true;
+
     protected $Values = array(
         0 => array(
             'Id' => 0,

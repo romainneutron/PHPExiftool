@@ -25,4 +25,6 @@ class ColorCorrection extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Color Correction';
 
+    protected $flag_Permanent = true;
+
 }

@@ -25,4 +25,6 @@ class ReuseProhibited extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Reuse Prohibited';
 
+    protected $flag_Avoid = true;
+
 }

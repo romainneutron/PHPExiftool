@@ -25,4 +25,6 @@ class GEMake extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'GE Make';
 
+    protected $flag_Permanent = true;
+
 }

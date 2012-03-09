@@ -25,4 +25,6 @@ class CommanderInternalTTLCompGroupB extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Commander Internal TTL Comp Group B';
 
+    protected $flag_Permanent = true;
+
 }

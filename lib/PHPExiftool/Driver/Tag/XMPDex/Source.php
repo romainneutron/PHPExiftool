@@ -25,4 +25,6 @@ class Source extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Source';
 
+    protected $flag_Avoid = true;
+
 }

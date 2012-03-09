@@ -25,4 +25,6 @@ class OriginalImageWidth extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Original Image Width';
 
+    protected $flag_Permanent = true;
+
 }

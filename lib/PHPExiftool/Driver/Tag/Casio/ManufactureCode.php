@@ -25,4 +25,6 @@ class ManufactureCode extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Manufacture Code';
 
+    protected $flag_Permanent = true;
+
 }

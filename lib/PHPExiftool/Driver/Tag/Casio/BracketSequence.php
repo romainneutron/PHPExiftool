@@ -25,4 +25,6 @@ class BracketSequence extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Bracket Sequence';
 
+    protected $flag_Permanent = true;
+
 }

@@ -25,4 +25,8 @@ class LicenseeProjectReference extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Licensee Project Reference';
 
+    protected $flag_List = true;
+
+    protected $flag_Bag = true;
+
 }

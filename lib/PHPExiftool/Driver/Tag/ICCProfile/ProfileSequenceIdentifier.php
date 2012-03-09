@@ -25,4 +25,6 @@ class ProfileSequenceIdentifier extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Profile Sequence Identifier';
 
+    protected $flag_Binary = true;
+
 }

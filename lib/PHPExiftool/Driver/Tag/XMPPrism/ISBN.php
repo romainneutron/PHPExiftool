@@ -25,4 +25,6 @@ class ISBN extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'ISBN';
 
+    protected $flag_Avoid = true;
+
 }

@@ -25,4 +25,6 @@ class RepeatingFlashOutput extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Repeating Flash Output';
 
+    protected $flag_Permanent = true;
+
 }

@@ -25,6 +25,8 @@ class ColorAdjustment extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Color Adjustment';
 
+    protected $flag_Permanent = true;
+
     protected $Index = 'mixed';
 
 }

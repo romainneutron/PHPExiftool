@@ -25,4 +25,6 @@ class DayltConvLumaV0 extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Daylt Conv Luma V0';
 
+    protected $flag_Permanent = true;
+
 }

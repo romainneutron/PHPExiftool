@@ -25,4 +25,6 @@ class InternalFlashStrength extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Internal Flash Strength';
 
+    protected $flag_Permanent = true;
+
 }

@@ -25,6 +25,8 @@ class MinoltaImageSize extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Minolta Image Size';
 
+    protected $flag_Permanent = true;
+
     protected $Values = 'mixed';
 
     protected $Index = 'mixed';

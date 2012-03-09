@@ -25,4 +25,6 @@ class PreviewApplicationVersion extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Preview Application Version';
 
+    protected $flag_Unsafe = true;
+
 }

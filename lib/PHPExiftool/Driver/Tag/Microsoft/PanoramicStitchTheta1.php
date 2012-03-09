@@ -25,4 +25,6 @@ class PanoramicStitchTheta1 extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Panoramic Stitch Theta 1';
 
+    protected $flag_Permanent = true;
+
 }

@@ -25,6 +25,8 @@ class AutoRotate extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Auto Rotate';
 
+    protected $flag_Permanent = true;
+
     protected $Values = array(
         '-1' => array(
             'Id' => '-1',

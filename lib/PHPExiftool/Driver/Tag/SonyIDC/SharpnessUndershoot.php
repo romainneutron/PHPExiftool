@@ -25,4 +25,6 @@ class SharpnessUndershoot extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Sharpness Undershoot';
 
+    protected $flag_Permanent = true;
+
 }

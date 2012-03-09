@@ -25,4 +25,6 @@ class Software extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Software';
 
+    protected $flag_Permanent = true;
+
 }

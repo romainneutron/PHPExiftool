@@ -25,4 +25,6 @@ class PentaxVersion extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Pentax Version';
 
+    protected $flag_Permanent = true;
+
 }

@@ -25,4 +25,6 @@ class NikonCaptureData extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Nikon Capture Data';
 
+    protected $flag_Binary = true;
+
 }

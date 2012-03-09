@@ -25,4 +25,6 @@ class VariousModes2 extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Various Modes 2';
 
+    protected $flag_Permanent = true;
+
 }

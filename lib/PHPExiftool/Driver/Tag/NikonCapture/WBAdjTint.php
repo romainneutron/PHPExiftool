@@ -25,4 +25,6 @@ class WBAdjTint extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'WB Adj Tint';
 
+    protected $flag_Permanent = true;
+
 }

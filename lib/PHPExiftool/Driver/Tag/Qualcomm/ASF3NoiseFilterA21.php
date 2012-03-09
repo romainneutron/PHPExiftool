@@ -25,4 +25,6 @@ class ASF3NoiseFilterA21 extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'ASF3 Noise Filter A21';
 
+    protected $flag_Permanent = true;
+
 }

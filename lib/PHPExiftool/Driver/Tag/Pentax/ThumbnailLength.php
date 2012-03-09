@@ -25,4 +25,6 @@ class ThumbnailLength extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Thumbnail Length';
 
+    protected $flag_Permanent = true;
+
 }

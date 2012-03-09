@@ -25,4 +25,6 @@ class CompressedDataOffset extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Compressed Data Offset';
 
+    protected $flag_Permanent = true;
+
 }

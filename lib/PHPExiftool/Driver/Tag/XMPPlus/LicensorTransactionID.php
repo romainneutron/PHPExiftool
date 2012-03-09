@@ -25,4 +25,8 @@ class LicensorTransactionID extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Licensor Transaction ID';
 
+    protected $flag_List = true;
+
+    protected $flag_Bag = true;
+
 }

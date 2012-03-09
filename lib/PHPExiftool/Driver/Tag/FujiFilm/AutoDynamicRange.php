@@ -25,4 +25,6 @@ class AutoDynamicRange extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Auto Dynamic Range';
 
+    protected $flag_Permanent = true;
+
 }

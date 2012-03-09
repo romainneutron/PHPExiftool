@@ -25,6 +25,8 @@ class WideRange extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Wide Range';
 
+    protected $flag_Permanent = true;
+
     protected $Values = array(
         0 => array(
             'Id' => 0,

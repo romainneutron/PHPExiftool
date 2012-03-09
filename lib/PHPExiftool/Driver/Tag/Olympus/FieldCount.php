@@ -25,4 +25,6 @@ class FieldCount extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Field Count';
 
+    protected $flag_Permanent = true;
+
 }

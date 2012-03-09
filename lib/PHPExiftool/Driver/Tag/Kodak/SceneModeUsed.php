@@ -25,6 +25,8 @@ class SceneModeUsed extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Scene Mode Used';
 
+    protected $flag_Permanent = true;
+
     protected $Values = array(
         0 => array(
             'Id' => 0,

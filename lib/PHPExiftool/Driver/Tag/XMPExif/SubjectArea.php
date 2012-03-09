@@ -25,4 +25,8 @@ class SubjectArea extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Subject Area';
 
+    protected $flag_List = true;
+
+    protected $flag_Seq = true;
+
 }

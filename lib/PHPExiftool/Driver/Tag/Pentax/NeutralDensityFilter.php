@@ -25,6 +25,8 @@ class NeutralDensityFilter extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Neutral Density Filter';
 
+    protected $flag_Permanent = true;
+
     protected $Values = array(
         0 => array(
             'Id' => 0,

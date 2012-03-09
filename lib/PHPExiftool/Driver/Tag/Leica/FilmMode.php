@@ -25,4 +25,6 @@ class FilmMode extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Film Mode';
 
+    protected $flag_Permanent = true;
+
 }

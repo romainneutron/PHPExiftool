@@ -25,6 +25,8 @@ class ExposureDelayMode extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Exposure Delay Mode';
 
+    protected $flag_Permanent = true;
+
     protected $Values = 'mixed';
 
 }

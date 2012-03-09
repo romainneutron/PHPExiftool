@@ -25,6 +25,8 @@ class SelectableAFPoint extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Selectable AF Point';
 
+    protected $flag_Permanent = true;
+
     protected $Values = 'mixed';
 
     protected $Index = 'mixed';

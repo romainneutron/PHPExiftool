@@ -25,6 +25,8 @@ class NDFilter extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'ND Filter';
 
+    protected $flag_Permanent = true;
+
     protected $Values = array(
         '-1' => array(
             'Id' => '-1',

@@ -25,4 +25,6 @@ class FocusInfoVersion extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Focus Info Version';
 
+    protected $flag_Permanent = true;
+
 }

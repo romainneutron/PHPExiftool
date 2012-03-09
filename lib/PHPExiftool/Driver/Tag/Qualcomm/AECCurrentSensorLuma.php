@@ -25,4 +25,6 @@ class AECCurrentSensorLuma extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'AEC Current Sensor Luma';
 
+    protected $flag_Permanent = true;
+
 }

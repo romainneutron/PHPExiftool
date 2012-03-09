@@ -25,4 +25,6 @@ class Model extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'mixed';
 
+    protected $flag_Permanent = true;
+
 }

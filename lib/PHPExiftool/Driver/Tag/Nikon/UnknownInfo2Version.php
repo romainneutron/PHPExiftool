@@ -25,4 +25,6 @@ class UnknownInfo2Version extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Unknown Info 2 Version';
 
+    protected $flag_Permanent = true;
+
 }

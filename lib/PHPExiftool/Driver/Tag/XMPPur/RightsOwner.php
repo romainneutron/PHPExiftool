@@ -25,4 +25,6 @@ class RightsOwner extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Rights Owner';
 
+    protected $flag_Avoid = true;
+
 }

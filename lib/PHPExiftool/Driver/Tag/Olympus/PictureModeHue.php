@@ -25,4 +25,6 @@ class PictureModeHue extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Picture Mode Hue';
 
+    protected $flag_Permanent = true;
+
 }

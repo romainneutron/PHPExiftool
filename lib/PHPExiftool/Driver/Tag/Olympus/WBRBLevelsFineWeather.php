@@ -25,4 +25,6 @@ class WBRBLevelsFineWeather extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'WB RB Levels Fine Weather';
 
+    protected $flag_Permanent = true;
+
 }

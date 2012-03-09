@@ -25,6 +25,8 @@ class ColorToneLandscape extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Color Tone Landscape';
 
+    protected $flag_Permanent = true;
+
     protected $Values = 'mixed';
 
 }

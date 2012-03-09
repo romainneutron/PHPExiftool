@@ -25,6 +25,8 @@ class UnknownTags extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Unknown Tags';
 
+    protected $flag_Binary = true;
+
     protected $Index = 11;
 
 }

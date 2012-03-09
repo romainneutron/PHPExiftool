@@ -25,4 +25,6 @@ class ColorTempMeasured extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Color Temp Measured';
 
+    protected $flag_Permanent = true;
+
 }

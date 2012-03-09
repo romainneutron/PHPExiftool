@@ -25,4 +25,6 @@ class DigitalDEEThreshold extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Digital DEE Threshold';
 
+    protected $flag_Permanent = true;
+
 }

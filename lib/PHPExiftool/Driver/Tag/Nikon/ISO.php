@@ -25,6 +25,8 @@ class ISO extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'ISO';
 
+    protected $flag_Permanent = true;
+
     protected $local_g2 = 'mixed';
 
 }

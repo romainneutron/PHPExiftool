@@ -25,4 +25,6 @@ class AEMaxAperture2 extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'AE Max Aperture 2';
 
+    protected $flag_Permanent = true;
+
 }

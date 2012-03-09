@@ -25,4 +25,6 @@ class Marked extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Marked';
 
+    protected $flag_Avoid = true;
+
 }

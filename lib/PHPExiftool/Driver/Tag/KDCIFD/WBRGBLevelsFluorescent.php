@@ -25,4 +25,6 @@ class WBRGBLevelsFluorescent extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'WB RGB Levels Fluorescent';
 
+    protected $flag_Permanent = true;
+
 }

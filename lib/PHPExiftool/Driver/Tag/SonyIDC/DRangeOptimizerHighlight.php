@@ -25,4 +25,6 @@ class DRangeOptimizerHighlight extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'D-Range Optimizer Highlight';
 
+    protected $flag_Permanent = true;
+
 }

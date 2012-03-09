@@ -25,4 +25,6 @@ class AFProcess extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'AF Process';
 
+    protected $flag_Permanent = true;
+
 }

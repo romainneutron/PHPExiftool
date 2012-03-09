@@ -25,4 +25,6 @@ class TargetDistanceSetting extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Target Distance Setting';
 
+    protected $flag_Permanent = true;
+
 }

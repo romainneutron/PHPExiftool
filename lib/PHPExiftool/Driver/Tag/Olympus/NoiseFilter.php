@@ -25,6 +25,8 @@ class NoiseFilter extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Noise Filter';
 
+    protected $flag_Permanent = true;
+
     protected $Values = array(
         '-1 -2 1' => array(
             'Id' => '-1 -2 1',

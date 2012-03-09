@@ -25,4 +25,6 @@ class RawImageCenter extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Raw Image Center';
 
+    protected $flag_Permanent = true;
+
 }

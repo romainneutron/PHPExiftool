@@ -25,6 +25,8 @@ class SharpnessPortrait extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Sharpness Portrait';
 
+    protected $flag_Permanent = true;
+
     protected $Values = 'mixed';
 
 }

@@ -25,4 +25,6 @@ class WhiteBoard extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'White Board';
 
+    protected $flag_Permanent = true;
+
 }

@@ -25,4 +25,6 @@ class ReferenceNumber extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Reference Number';
 
+    protected $flag_List = true;
+
 }

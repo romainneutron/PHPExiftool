@@ -25,6 +25,8 @@ class UserComment extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'User Comment';
 
+    protected $flag_Permanent = true;
+
     protected $Index = 1;
 
 }

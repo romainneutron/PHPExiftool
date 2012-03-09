@@ -25,6 +25,8 @@ class RawDevEditStatus extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Raw Dev Edit Status';
 
+    protected $flag_Permanent = true;
+
     protected $Values = array(
         0 => array(
             'Id' => 0,

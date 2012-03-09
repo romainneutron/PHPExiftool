@@ -27,6 +27,8 @@ class ColorSpace extends \PHPExiftool\Driver\Tag
 
     protected $local_g1 = 'ExifIFD';
 
+    protected $flag_Mandatory = true;
+
     protected $Values = array(
         1 => array(
             'Id' => 1,

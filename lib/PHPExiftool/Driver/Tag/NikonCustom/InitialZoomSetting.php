@@ -25,6 +25,8 @@ class InitialZoomSetting extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Initial Zoom Setting';
 
+    protected $flag_Permanent = true;
+
     protected $Values = 'mixed';
 
     protected $Index = 'mixed';

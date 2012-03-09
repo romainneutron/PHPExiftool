@@ -25,4 +25,6 @@ class SRF2Key extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'SRF2 Key';
 
+    protected $flag_Permanent = true;
+
 }

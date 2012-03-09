@@ -25,4 +25,6 @@ class Robots extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Robots';
 
+    protected $flag_List = true;
+
 }

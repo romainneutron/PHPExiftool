@@ -25,6 +25,8 @@ class ActiveDLighting extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Active D-Lighting';
 
+    protected $flag_Permanent = true;
+
     protected $Values = array(
         0 => array(
             'Id' => 0,

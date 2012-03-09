@@ -25,6 +25,8 @@ class ProfileEmbedPolicy extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Profile Embed Policy';
 
+    protected $flag_Unsafe = true;
+
     protected $Values = array(
         0 => array(
             'Id' => 0,

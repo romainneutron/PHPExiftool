@@ -25,6 +25,8 @@ class AIServoTrackingMethod extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'AI Servo Tracking Method';
 
+    protected $flag_Permanent = true;
+
     protected $Values = array(
         0 => array(
             'Id' => 0,

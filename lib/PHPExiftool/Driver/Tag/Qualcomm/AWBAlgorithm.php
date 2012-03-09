@@ -25,4 +25,6 @@ class AWBAlgorithm extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'AWB Algorithm';
 
+    protected $flag_Permanent = true;
+
 }

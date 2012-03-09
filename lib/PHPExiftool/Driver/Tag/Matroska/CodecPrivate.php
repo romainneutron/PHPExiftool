@@ -25,4 +25,6 @@ class CodecPrivate extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Codec Private';
 
+    protected $flag_Binary = true;
+
 }

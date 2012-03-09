@@ -25,6 +25,8 @@ class MeteringOffScaleIndicator extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Metering Off Scale Indicator';
 
+    protected $flag_Permanent = true;
+
     protected $Values = array(
         0 => array(
             'Id' => 0,

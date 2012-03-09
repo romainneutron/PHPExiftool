@@ -25,4 +25,6 @@ class FaceDetectFrameSize extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Face Detect Frame Size';
 
+    protected $flag_Permanent = true;
+
 }

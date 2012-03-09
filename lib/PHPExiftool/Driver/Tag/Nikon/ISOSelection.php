@@ -25,4 +25,6 @@ class ISOSelection extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'ISO Selection';
 
+    protected $flag_Permanent = true;
+
 }

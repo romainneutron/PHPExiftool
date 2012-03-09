@@ -25,4 +25,6 @@ class PictureControlData extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Picture Control Data';
 
+    protected $flag_Binary = true;
+
 }

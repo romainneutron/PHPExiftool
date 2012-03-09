@@ -25,6 +25,10 @@ class Compression extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Compression';
 
+    protected $flag_Unsafe = true;
+
+    protected $flag_Mandatory = true;
+
     protected $Values = array(
         1 => array(
             'Id' => 1,

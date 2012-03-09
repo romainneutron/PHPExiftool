@@ -25,4 +25,6 @@ class RawDevVersion extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Raw Dev Version';
 
+    protected $flag_Permanent = true;
+
 }

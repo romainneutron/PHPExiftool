@@ -25,6 +25,8 @@ class FocusingScreen extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Focusing Screen';
 
+    protected $flag_Permanent = true;
+
     protected $Values = 'mixed';
 
     protected $Index = 'mixed';

@@ -25,4 +25,6 @@ class ITunesU extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'iTunes U';
 
+    protected $flag_Binary = true;
+
 }

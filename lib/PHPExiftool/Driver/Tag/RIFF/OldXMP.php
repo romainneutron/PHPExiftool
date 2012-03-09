@@ -25,4 +25,6 @@ class OldXMP extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Old XMP';
 
+    protected $flag_Binary = true;
+
 }

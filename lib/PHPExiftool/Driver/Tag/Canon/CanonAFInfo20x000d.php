@@ -25,6 +25,8 @@ class CanonAFInfo20x000d extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Canon AF Info 2 0x000d';
 
+    protected $flag_Permanent = true;
+
     protected $Index = 1;
 
 }

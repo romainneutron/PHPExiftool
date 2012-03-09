@@ -25,6 +25,8 @@ class InternalSerialNumber extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Internal Serial Number';
 
+    protected $flag_Permanent = true;
+
     protected $Index = 1;
 
 }

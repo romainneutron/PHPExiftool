@@ -25,4 +25,6 @@ class SampleGroupDescription extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Sample Group Description';
 
+    protected $flag_Binary = true;
+
 }

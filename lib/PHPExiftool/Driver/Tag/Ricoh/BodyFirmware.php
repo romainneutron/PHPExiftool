@@ -25,4 +25,6 @@ class BodyFirmware extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Body Firmware';
 
+    protected $flag_Permanent = true;
+
 }

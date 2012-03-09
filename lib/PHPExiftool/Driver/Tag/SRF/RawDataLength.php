@@ -25,4 +25,6 @@ class RawDataLength extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Raw Data Length';
 
+    protected $flag_Permanent = true;
+
 }

@@ -25,6 +25,8 @@ class WideFocusZone extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Wide Focus Zone';
 
+    protected $flag_Permanent = true;
+
     protected $Values = array(
         0 => array(
             'Id' => 0,

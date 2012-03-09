@@ -25,4 +25,8 @@ class JpgFromRaw extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Jpg From Raw';
 
+    protected $flag_Binary = true;
+
+    protected $flag_Unsafe = true;
+
 }

@@ -27,4 +27,6 @@ class RelatedImageFileFormat extends \PHPExiftool\Driver\Tag
 
     protected $local_g1 = 'InteropIFD';
 
+    protected $flag_Unsafe = true;
+
 }

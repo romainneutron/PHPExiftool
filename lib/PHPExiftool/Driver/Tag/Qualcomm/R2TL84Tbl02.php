@@ -25,4 +25,6 @@ class R2TL84Tbl02 extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'R2 TL84 Tbl 02';
 
+    protected $flag_Permanent = true;
+
 }

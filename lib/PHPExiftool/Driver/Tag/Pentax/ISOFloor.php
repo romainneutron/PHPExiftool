@@ -25,4 +25,6 @@ class ISOFloor extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'ISO Floor';
 
+    protected $flag_Permanent = true;
+
 }

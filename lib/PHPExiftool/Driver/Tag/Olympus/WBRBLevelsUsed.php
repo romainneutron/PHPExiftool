@@ -25,4 +25,6 @@ class WBRBLevelsUsed extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'WB RB Levels Used';
 
+    protected $flag_Permanent = true;
+
 }

@@ -25,4 +25,6 @@ class ColorTempAsShot extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Color Temp As Shot';
 
+    protected $flag_Permanent = true;
+
 }

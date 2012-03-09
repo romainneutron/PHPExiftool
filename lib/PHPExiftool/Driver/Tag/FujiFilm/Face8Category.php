@@ -25,6 +25,8 @@ class Face8Category extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Face 8 Category';
 
+    protected $flag_Permanent = true;
+
     protected $Values = array(
         2 => array(
             'Id' => 2,

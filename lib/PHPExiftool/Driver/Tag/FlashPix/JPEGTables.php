@@ -25,4 +25,6 @@ class JPEGTables extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'JPEG Tables';
 
+    protected $flag_Binary = true;
+
 }

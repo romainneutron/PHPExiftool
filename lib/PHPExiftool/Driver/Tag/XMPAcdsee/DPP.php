@@ -25,4 +25,6 @@ class DPP extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'DPP';
 
+    protected $flag_Binary = true;
+
 }

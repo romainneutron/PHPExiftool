@@ -25,4 +25,6 @@ class ASF5LowUpThres extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'ASF5 Low Up Thres';
 
+    protected $flag_Permanent = true;
+
 }

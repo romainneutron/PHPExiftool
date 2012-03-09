@@ -25,4 +25,6 @@ class MCUVersion extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'MCU Version';
 
+    protected $flag_Permanent = true;
+
 }

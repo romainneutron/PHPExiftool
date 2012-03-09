@@ -25,4 +25,6 @@ class AFREnable extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'AFR Enable';
 
+    protected $flag_Permanent = true;
+
 }

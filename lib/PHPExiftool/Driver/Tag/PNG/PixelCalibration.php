@@ -25,4 +25,6 @@ class PixelCalibration extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Pixel Calibration';
 
+    protected $flag_Binary = true;
+
 }

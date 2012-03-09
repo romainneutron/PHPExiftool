@@ -25,4 +25,6 @@ class ColorTempDaylight extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Color Temp Daylight';
 
+    protected $flag_Permanent = true;
+
 }

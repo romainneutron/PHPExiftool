@@ -25,4 +25,6 @@ class NikonCaptureOutput extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Nikon Capture Output';
 
+    protected $flag_Binary = true;
+
 }

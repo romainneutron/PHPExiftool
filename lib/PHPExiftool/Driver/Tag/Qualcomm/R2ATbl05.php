@@ -25,4 +25,6 @@ class R2ATbl05 extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'R2 A Tbl 05';
 
+    protected $flag_Permanent = true;
+
 }

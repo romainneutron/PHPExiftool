@@ -25,4 +25,10 @@ class Subject extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Subject';
 
+    protected $flag_Avoid = true;
+
+    protected $flag_List = true;
+
+    protected $flag_Seq = true;
+
 }

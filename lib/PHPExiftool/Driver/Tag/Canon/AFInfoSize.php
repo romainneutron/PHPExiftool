@@ -25,4 +25,6 @@ class AFInfoSize extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'AF Info Size';
 
+    protected $flag_Permanent = true;
+
 }

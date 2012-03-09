@@ -25,6 +25,8 @@ class TriggerMode extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Trigger Mode';
 
+    protected $flag_Permanent = true;
+
     protected $Values = array(
         'C' => array(
             'Id' => 'C',

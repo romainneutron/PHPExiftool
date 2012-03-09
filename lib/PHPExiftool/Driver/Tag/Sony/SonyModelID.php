@@ -25,6 +25,8 @@ class SonyModelID extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Sony Model ID';
 
+    protected $flag_Permanent = true;
+
     protected $Values = array(
         2 => array(
             'Id' => 2,

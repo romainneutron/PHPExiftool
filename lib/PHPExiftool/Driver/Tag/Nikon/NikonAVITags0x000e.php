@@ -25,4 +25,6 @@ class NikonAVITags0x000e extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Nikon AVI Tags 0x000e';
 
+    protected $flag_Permanent = true;
+
 }

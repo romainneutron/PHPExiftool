@@ -25,6 +25,8 @@ class AFIlluminator extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'AF Illuminator';
 
+    protected $flag_Permanent = true;
+
     protected $Values = 'mixed';
 
 }

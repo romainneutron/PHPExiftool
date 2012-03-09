@@ -25,4 +25,8 @@ class CurrentICCProfile extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Current ICC Profile';
 
+    protected $flag_Binary = true;
+
+    protected $flag_Unsafe = true;
+
 }

@@ -25,6 +25,8 @@ class ShootingInfoMonitorOffTime extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Shooting Info Monitor Off Time';
 
+    protected $flag_Permanent = true;
+
     protected $Values = 'mixed';
 
 }

@@ -25,4 +25,6 @@ class AEExposureTime extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'AE Exposure Time';
 
+    protected $flag_Permanent = true;
+
 }

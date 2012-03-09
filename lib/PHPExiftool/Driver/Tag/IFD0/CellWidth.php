@@ -25,4 +25,6 @@ class CellWidth extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Cell Width';
 
+    protected $flag_Unsafe = true;
+
 }

@@ -25,4 +25,6 @@ class PictureControlQuickAdjust extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Picture Control Quick Adjust';
 
+    protected $flag_Permanent = true;
+
 }

@@ -25,6 +25,8 @@ class ControlDialSet extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Control Dial Set';
 
+    protected $flag_Permanent = true;
+
     protected $Values = array(
         0 => array(
             'Id' => 0,

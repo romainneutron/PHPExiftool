@@ -25,6 +25,8 @@ class ColorTemperatureSetting extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Color Temperature Setting';
 
+    protected $flag_Permanent = true;
+
     protected $Values = array(
         0 => array(
             'Id' => 0,

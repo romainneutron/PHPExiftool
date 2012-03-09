@@ -25,4 +25,6 @@ class MaxPrviewFps extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Max Prview Fps';
 
+    protected $flag_Permanent = true;
+
 }

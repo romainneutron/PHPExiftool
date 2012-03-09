@@ -25,4 +25,6 @@ class SvISOSetting extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Sv ISO Setting';
 
+    protected $flag_Permanent = true;
+
 }

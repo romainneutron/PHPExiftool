@@ -25,6 +25,8 @@ class DynamicRangeExpansion extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Dynamic Range Expansion';
 
+    protected $flag_Permanent = true;
+
     protected $Values = array(
         '0 0 0 0' => array(
             'Id' => '0 0 0 0',

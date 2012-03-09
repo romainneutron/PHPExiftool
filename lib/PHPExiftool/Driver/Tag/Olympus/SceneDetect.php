@@ -25,4 +25,6 @@ class SceneDetect extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Scene Detect';
 
+    protected $flag_Permanent = true;
+
 }

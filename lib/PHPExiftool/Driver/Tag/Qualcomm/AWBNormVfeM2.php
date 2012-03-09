@@ -25,4 +25,6 @@ class AWBNormVfeM2 extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'AWB Norm Vfe M2';
 
+    protected $flag_Permanent = true;
+
 }

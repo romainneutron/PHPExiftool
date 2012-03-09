@@ -25,4 +25,6 @@ class TvExposureTimeSetting extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Tv Exposure Time Setting';
 
+    protected $flag_Permanent = true;
+
 }

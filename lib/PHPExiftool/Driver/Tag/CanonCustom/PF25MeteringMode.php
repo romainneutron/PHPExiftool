@@ -25,4 +25,6 @@ class PF25MeteringMode extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'PF25 Metering Mode';
 
+    protected $flag_Permanent = true;
+
 }

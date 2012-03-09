@@ -25,4 +25,6 @@ class TL84ConvChrmKCr extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'TL84 Conv Chrm K Cr';
 
+    protected $flag_Permanent = true;
+
 }

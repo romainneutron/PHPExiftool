@@ -25,4 +25,6 @@ class PF5ApertureMin extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'PF5 Aperture Min';
 
+    protected $flag_Permanent = true;
+
 }

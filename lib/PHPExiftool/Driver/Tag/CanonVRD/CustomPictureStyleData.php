@@ -25,4 +25,6 @@ class CustomPictureStyleData extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Custom Picture Style Data';
 
+    protected $flag_Binary = true;
+
 }

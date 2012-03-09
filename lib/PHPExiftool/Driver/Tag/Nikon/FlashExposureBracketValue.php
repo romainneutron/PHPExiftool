@@ -25,4 +25,6 @@ class FlashExposureBracketValue extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Flash Exposure Bracket Value';
 
+    protected $flag_Permanent = true;
+
 }

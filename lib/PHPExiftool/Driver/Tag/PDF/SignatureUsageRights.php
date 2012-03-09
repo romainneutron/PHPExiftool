@@ -25,4 +25,6 @@ class SignatureUsageRights extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Signature Usage Rights';
 
+    protected $flag_List = true;
+
 }

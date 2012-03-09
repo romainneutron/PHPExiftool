@@ -25,4 +25,6 @@ class AECSnapshotExposureTimeMs extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'AEC Snapshot Exposure Time Ms';
 
+    protected $flag_Permanent = true;
+
 }

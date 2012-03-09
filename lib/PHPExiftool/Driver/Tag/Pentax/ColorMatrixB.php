@@ -25,4 +25,6 @@ class ColorMatrixB extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Color Matrix B';
 
+    protected $flag_Permanent = true;
+
 }

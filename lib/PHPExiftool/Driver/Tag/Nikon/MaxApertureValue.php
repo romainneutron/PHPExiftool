@@ -25,4 +25,6 @@ class MaxApertureValue extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Max Aperture Value';
 
+    protected $flag_Permanent = true;
+
 }

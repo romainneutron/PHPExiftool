@@ -25,4 +25,6 @@ class SharpeningAdj extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Sharpening Adj';
 
+    protected $flag_Permanent = true;
+
 }

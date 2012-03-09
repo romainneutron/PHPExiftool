@@ -25,4 +25,6 @@ class ThumbnailWidth extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Thumbnail Width';
 
+    protected $flag_Permanent = true;
+
 }

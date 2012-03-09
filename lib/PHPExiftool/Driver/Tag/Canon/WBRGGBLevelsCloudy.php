@@ -25,4 +25,6 @@ class WBRGGBLevelsCloudy extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'WB RGGB Levels Cloudy';
 
+    protected $flag_Permanent = true;
+
 }

@@ -25,4 +25,6 @@ class AECEnable extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'AEC Enable';
 
+    protected $flag_Permanent = true;
+
 }

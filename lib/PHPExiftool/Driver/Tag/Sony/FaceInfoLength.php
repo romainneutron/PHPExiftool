@@ -25,4 +25,6 @@ class FaceInfoLength extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Face Info Length';
 
+    protected $flag_Permanent = true;
+
 }

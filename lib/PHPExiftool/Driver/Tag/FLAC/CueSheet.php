@@ -25,4 +25,6 @@ class CueSheet extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Cue Sheet';
 
+    protected $flag_Binary = true;
+
 }

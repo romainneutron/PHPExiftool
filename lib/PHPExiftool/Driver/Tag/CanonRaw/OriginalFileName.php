@@ -25,4 +25,6 @@ class OriginalFileName extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Original File Name';
 
+    protected $flag_Permanent = true;
+
 }

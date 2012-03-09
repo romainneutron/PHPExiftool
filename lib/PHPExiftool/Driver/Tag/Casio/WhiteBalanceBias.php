@@ -25,4 +25,6 @@ class WhiteBalanceBias extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'White Balance Bias';
 
+    protected $flag_Permanent = true;
+
 }

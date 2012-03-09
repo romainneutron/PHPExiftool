@@ -25,4 +25,6 @@ class OutputImageWidth extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Output Image Width';
 
+    protected $flag_Permanent = true;
+
 }

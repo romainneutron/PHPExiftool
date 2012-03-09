@@ -25,6 +25,8 @@ class DigitalFilter04 extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Digital Filter 04';
 
+    protected $flag_Permanent = true;
+
     protected $Values = array(
         0 => array(
             'Id' => 0,

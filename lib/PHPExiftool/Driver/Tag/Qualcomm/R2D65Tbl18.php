@@ -25,4 +25,6 @@ class R2D65Tbl18 extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'R2 D65 Tbl 18';
 
+    protected $flag_Permanent = true;
+
 }

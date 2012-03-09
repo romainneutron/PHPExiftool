@@ -25,6 +25,10 @@ class YCbCrSubSampling extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Y Cb Cr Sub Sampling';
 
+    protected $flag_List = true;
+
+    protected $flag_Seq = true;
+
     protected $Values = array(
         '1 1' => array(
             'Id' => '1 1',

@@ -25,4 +25,10 @@ class NEFLinearizationTable extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'NEF Linearization Table';
 
+    protected $flag_Binary = true;
+
+    protected $flag_Permanent = true;
+
+    protected $flag_Unsafe = true;
+
 }

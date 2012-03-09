@@ -25,6 +25,8 @@ class RawDevEngine extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Raw Dev Engine';
 
+    protected $flag_Permanent = true;
+
     protected $Values = 'mixed';
 
 }

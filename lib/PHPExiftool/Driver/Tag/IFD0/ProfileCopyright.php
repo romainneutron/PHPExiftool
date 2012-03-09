@@ -25,4 +25,6 @@ class ProfileCopyright extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Profile Copyright';
 
+    protected $flag_Unsafe = true;
+
 }

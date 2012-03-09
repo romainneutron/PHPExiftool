@@ -25,4 +25,6 @@ class ReferenceService extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Reference Service';
 
+    protected $flag_List = true;
+
 }

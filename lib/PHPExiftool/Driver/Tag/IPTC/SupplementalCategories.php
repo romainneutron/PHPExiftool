@@ -25,4 +25,6 @@ class SupplementalCategories extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Supplemental Categories';
 
+    protected $flag_List = true;
+
 }

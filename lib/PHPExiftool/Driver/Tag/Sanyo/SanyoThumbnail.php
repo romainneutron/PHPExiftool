@@ -25,4 +25,6 @@ class SanyoThumbnail extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Sanyo Thumbnail';
 
+    protected $flag_Permanent = true;
+
 }

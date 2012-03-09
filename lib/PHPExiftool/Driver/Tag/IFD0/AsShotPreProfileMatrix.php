@@ -25,4 +25,6 @@ class AsShotPreProfileMatrix extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'As Shot Pre Profile Matrix';
 
+    protected $flag_Unsafe = true;
+
 }

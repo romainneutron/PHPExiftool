@@ -25,4 +25,6 @@ class RelatedVideoFile extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Related Video File';
 
+    protected $flag_Binary = true;
+
 }

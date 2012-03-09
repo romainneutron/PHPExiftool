@@ -25,4 +25,6 @@ class PictureControlMode extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Picture Control Mode';
 
+    protected $flag_Permanent = true;
+
 }

@@ -25,4 +25,6 @@ class ROMOperationMode extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'ROM Operation Mode';
 
+    protected $flag_Permanent = true;
+
 }
