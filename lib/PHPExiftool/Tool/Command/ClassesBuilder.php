@@ -402,7 +402,6 @@ class ClassesBuilder extends Command
         $properties = array_merge(array(
           'Id'          => $tag_id,
           'Name'        => $tag_name,
-          'TagPath'     => $g_name . ':' . $tag_name,
           'FullName'    => $tag_full_name,
           'GroupName'   => $g_name,
           'g0'          => $tag_g0,
