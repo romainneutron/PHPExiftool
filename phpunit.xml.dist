@@ -12,29 +12,24 @@
          bootstrap="bootstrap.php"
 >
     <logging>
-      <log type="coverage-html" target="../tmp/phpunit_report/report" charset="UTF-8"
+      <log type="coverage-html" target="tests/phpunit_report/report" charset="UTF-8"
            yui="true" highlight="false"
            lowUpperBound="35" highLowerBound="70"/>
-      <log type="coverage-clover" target="tests/coverage.xml"/>
-      <log type="json" target="tests/phpunit_report/logfile.json"/>
-      <log type="junit" target="tests/phpunit_report/logfile.xml" logIncompleteSkipped="false"/>
-      <log type="testdox-html" target="tests/phpunit_report/testdox.html"/>
-      <log type="testdox-text" target="tests/phpunit_report/testdox.txt"/>
     </logging>
     <php>
       <ini name="display_errors" value="on"/>
     </php>
 
     <testsuites>
-        <testsuite name="MediaVorus Tests Suite">
+        <testsuite name="PHPExiftool Tests Suite">
             <directory>tests</directory>
         </testsuite>
     </testsuites>
-
     <filter>
       <blacklist>
         <directory>vendor</directory>
         <directory>tests</directory>
+        <directory>lib/PHPExiftool/Driver/Tag/*</directory>
       </blacklist>
     </filter>
 
