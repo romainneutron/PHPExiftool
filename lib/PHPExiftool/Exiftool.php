@@ -57,6 +57,13 @@ class Exiftool
    */
   const LISTTYPE_GROUPS            = 'g';
 
+  /**
+   * Return the result of a Exiftool -list* command
+   *
+   * @param type $type
+   * @return type
+   * @throws \Exception
+   */
   public static function listDatas($type = self::LISTTYPE_SUPPORTED_XML)
   {
     $available = array(
@@ -71,14 +78,12 @@ class Exiftool
     return static::executeCommand(self::getBinary() . ' -f -list' . $type);
   }
 
-  private static function executeCommand($command)
-  {
-    $process = new Process($command);
-    $process->run();
-
-    return $process->getOutput();
-  }
-
+  /**
+   * Extract all XML namespaces declared in a XML
+   *
+   * @param type $XML
+   * @return array
+   */
   public static function getNamespacesFromXml($XML)
   {
     $namespaces = array();
@@ -103,6 +108,7 @@ class Exiftool
   }
 
   /**
+   * Read the metadatas in the file
    *
    * @param \SplFileInfo $file
    * @return \Driver\Metadata\MetadataBag
@@ -152,63 +158,93 @@ class Exiftool
       try
       {
         $tag = Driver\TagFactory::getFromRDFTagname($tagname);
-
-        $metaValue = null;
-
-        if (!$tag->isBinary())
-        {
-          if ($tag->isMulti())
-          {
-            $metaValue = new Driver\Metadata\MultiBag();
-
-            foreach ($node->getElementsByTagNameNS('http://www.w3.org/1999/02/22-rdf-syntax-ns#', 'li') as $nodeElement)
-            {
-              $metaValue->add($nodeElement->nodeValue);
-            }
-          }
-          else
-          {
-
-            switch ($node->getAttribute('rdf:datatype'))
-            {
-              case 'http://www.w3.org/2001/XMLSchema#base64Binary':
-                $metaValue = base64_decode($node->nodeValue);
-                break;
-              case '';
-              default:
-                $metaValue = $node->nodeValue;
-                break;
-            }
-          }
-        }
-
-
-        $metadata = new Driver\Metadata\Metadata($tag, $metaValue, $file);
-
-        if ($metadatas->containsKey($tagname))
-        {
-          $previousMeta = $metadatas->get($tagname);
-          if ($previousMeta->getValue() == $metaValue)
-          {
-//            echo "Bag already contains $tagname with same value\n";
-          }
-          else
-          {
-//            echo "Bag for " . $file->getFileName() . " already contains $tagname with different value - " . $previousMeta->getValue() . " and $metaValue\n";
-          }
-        }
-
-        $metadatas->set($tagname, $metadata);
       }
       catch (Exception\TagUnknown $e)
       {
-//        echo "cannot read " . $file->getFileName() . " // $tagname as $metaValue \n";
+        continue;
       }
+
+      $metaValue = self::getValueFromXMLNode($tag, $node);
+
+      $metadata = new Driver\Metadata\Metadata($tag, $metaValue, $file);
+
+      $metadatas->set($tagname, $metadata);
     }
 
     return $metadatas;
   }
 
+  /**
+   *
+   * @param Driver\Tag $tag
+   * @param \DOMNode $node
+   * @return null|string|PHPExiftool\Driver\Metadata\MultiBag
+   */
+  private static function getValueFromXMLNode(Driver\Tag $tag, \DOMNode $node)
+  {
+
+    $metaValue = null;
+
+    if ($tag->isBinary())
+    {
+      return null;
+    }
+
+    if ($tag->isMulti())
+    {
+      $metaValue = new Driver\Metadata\MultiBag();
+
+      $bag_elements = $node->getElementsByTagNameNS(
+        'http://www.w3.org/1999/02/22-rdf-syntax-ns#'
+        , 'li'
+      );
+
+      foreach ($bag_elements as $nodeElement)
+      {
+        $metaValue->add($nodeElement->nodeValue);
+      }
+    }
+    else
+    {
+
+      switch ($node->getAttribute('rdf:datatype'))
+      {
+        case 'http://www.w3.org/2001/XMLSchema#base64Binary':
+          $metaValue = base64_decode($node->nodeValue);
+          break;
+        case '';
+        default:
+          $metaValue = $node->nodeValue;
+          break;
+      }
+    }
+
+    return $metaValue;
+  }
+
+  /**
+   *
+   * @param string $command
+   * @return string
+   * @throws \Exception
+   */
+  private static function executeCommand($command)
+  {
+    $process = new Process($command);
+    $process->run();
+
+    if (!$process->isSuccessful())
+    {
+      throw new \Exception('Unable to run the command');
+    }
+
+    return $process->getOutput();
+  }
+
+  /**
+   *
+   * @return string
+   */
   private static function getBinary()
   {
     return realpath(__DIR__ . '/../../lib/vendor/Exiftool/exiftool');
