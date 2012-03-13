@@ -2,7 +2,7 @@
 
 namespace PHPExiftool\Driver\Tag\PostScript;
 
-class For extends \PHPExiftool\Driver\Tag
+class For0 extends \PHPExiftool\Driver\Tag
 {
 
     protected $Id = 'For';

@@ -2,7 +2,7 @@
 
 namespace PHPExiftool\Driver\Tag\HTML;
 
-class Abstract extends \PHPExiftool\Driver\Tag
+class Abstract0 extends \PHPExiftool\Driver\Tag
 {
 
     protected $Id = 'abstract';
