@@ -265,7 +265,7 @@ class ClassesBuilder extends Command
         {
           if($property === 'Writable')
           {
-            $this->classes[$classpath]->setProperty($property, false);
+            $this->classes[$classpath]->setProperty($property, 'false');
           }
           elseif($property === 'Values')
           {
