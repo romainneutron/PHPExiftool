@@ -21,7 +21,7 @@ class KodakImageHeight extends \PHPExiftool\Driver\Tag
 
     protected $Type = 'mixed';
 
-    protected $Writable = false;
+    protected $Writable = 'mixed';
 
     protected $Description = 'Kodak Image Height';
 

@@ -21,12 +21,12 @@ class ThumbnailImage extends \PHPExiftool\Driver\Tag
 
     protected $Type = 'undef';
 
-    protected $Writable = false;
+    protected $Writable = 'mixed';
 
     protected $Description = 'Thumbnail Image';
 
     protected $flag_Permanent = true;
 
-    protected $flag_Binary = 'mixed';
+    protected $flag_Binary = false;
 
 }

@@ -21,7 +21,7 @@ class FocusMode extends \PHPExiftool\Driver\Tag
 
     protected $Type = 'string';
 
-    protected $Writable = false;
+    protected $Writable = 'mixed';
 
     protected $Description = 'Focus Mode';
 

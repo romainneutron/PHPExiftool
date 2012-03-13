@@ -21,7 +21,7 @@ class GPSTimeStamp extends \PHPExiftool\Driver\Tag
 
     protected $Type = 'mixed';
 
-    protected $Writable = false;
+    protected $Writable = 'mixed';
 
     protected $Description = 'GPS Time Stamp';
 

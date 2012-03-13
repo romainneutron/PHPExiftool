@@ -21,12 +21,12 @@ class PreviewImage extends \PHPExiftool\Driver\Tag
 
     protected $Type = '?';
 
-    protected $Writable = false;
+    protected $Writable = 'mixed';
 
     protected $Description = 'Preview Image';
 
     protected $local_g2 = 'Image';
 
-    protected $flag_Binary = 'mixed';
+    protected $flag_Binary = false;
 
 }

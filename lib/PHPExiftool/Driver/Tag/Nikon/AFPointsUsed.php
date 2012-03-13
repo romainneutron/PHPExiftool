@@ -21,7 +21,7 @@ class AFPointsUsed extends \PHPExiftool\Driver\Tag
 
     protected $Type = 'undef';
 
-    protected $Writable = false;
+    protected $Writable = 'mixed';
 
     protected $Description = 'AF Points Used';
 

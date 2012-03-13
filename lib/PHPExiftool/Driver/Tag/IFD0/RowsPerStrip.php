@@ -21,7 +21,7 @@ class RowsPerStrip extends \PHPExiftool\Driver\Tag
 
     protected $Type = 'mixed';
 
-    protected $Writable = false;
+    protected $Writable = 'mixed';
 
     protected $Description = 'Rows Per Strip';
 
