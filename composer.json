@@ -1,0 +1,23 @@
+{
+    "name": "phpexiftool/phpexiftool",
+    "type": "library",
+    "description": "Exiftool driver for PHP",
+    "keywords": ["metadata"],
+    "homepage": "http://github.com/Seldaek/monolog",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Romain Neutron",
+            "email": "imprec@gmail.com",
+            "homepage": "http://www.lickmychip.com/"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.6"
+    },
+    "autoload": {
+        "psr-0": {
+            "PHPexiftool": "lib"
+        }
+    }
+}
