@@ -30,6 +30,13 @@ namespace PHPExiftool\Driver;
 class TagFactory
 {
 
+  /**
+   * Build a Tag based on his Tagname
+   *
+   * @param string $tagname
+   * @return \PHPExiftool\Driver\Tag
+   * @throws \PHPExiftool\Exception\TagUnknown
+   */
   public static function getFromRDFTagname($tagname)
   {
     $classname = '\PHPExiftool\Driver\Tag\\' . str_replace(':', '\\', $tagname);
