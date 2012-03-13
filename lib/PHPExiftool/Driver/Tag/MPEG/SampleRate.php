@@ -25,7 +25,44 @@ class SampleRate extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Sample Rate';
 
-    protected $Values = 'mixed';
+    protected $Values = array(
+        0 => array(
+            'Id' => 0,
+            'Label' => 44100,
+        ),
+        1 => array(
+            'Id' => 1,
+            'Label' => 48000,
+        ),
+        2 => array(
+            'Id' => 2,
+            'Label' => 32000,
+        ),
+        3 => array(
+            'Id' => 0,
+            'Label' => 22050,
+        ),
+        4 => array(
+            'Id' => 1,
+            'Label' => 24000,
+        ),
+        5 => array(
+            'Id' => 2,
+            'Label' => 16000,
+        ),
+        6 => array(
+            'Id' => 0,
+            'Label' => 11025,
+        ),
+        7 => array(
+            'Id' => 1,
+            'Label' => 12000,
+        ),
+        8 => array(
+            'Id' => 2,
+            'Label' => 8000,
+        ),
+    );
 
     protected $Index = 'mixed';
 

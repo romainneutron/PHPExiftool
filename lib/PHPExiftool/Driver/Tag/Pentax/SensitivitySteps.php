@@ -27,6 +27,23 @@ class SensitivitySteps extends \PHPExiftool\Driver\Tag
 
     protected $flag_Permanent = true;
 
-    protected $Values = 'mixed';
+    protected $Values = array(
+        0 => array(
+            'Id' => 0,
+            'Label' => '1 EV Steps',
+        ),
+        1 => array(
+            'Id' => 2,
+            'Label' => 'As EV Steps',
+        ),
+        2 => array(
+            'Id' => 0,
+            'Label' => '1 EV Steps',
+        ),
+        3 => array(
+            'Id' => 1,
+            'Label' => 'As EV Steps',
+        ),
+    );
 
 }

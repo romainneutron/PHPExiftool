@@ -27,7 +27,64 @@ class AFPointSelectionMethod extends \PHPExiftool\Driver\Tag
 
     protected $flag_Permanent = true;
 
-    protected $Values = 'mixed';
+    protected $Values = array(
+        0 => array(
+            'Id' => 0,
+            'Label' => 'Normal',
+        ),
+        1 => array(
+            'Id' => 1,
+            'Label' => 'Multi-controller direct',
+        ),
+        2 => array(
+            'Id' => 2,
+            'Label' => 'Quick Control Dial direct',
+        ),
+        3 => array(
+            'Id' => 0,
+            'Label' => 'AF point button: Activate AF Sel; Rear dial: Select AF points',
+        ),
+        4 => array(
+            'Id' => 1,
+            'Label' => 'AF point button: Auto selection; Rear dial: Manual selection',
+        ),
+        5 => array(
+            'Id' => 0,
+            'Label' => 'Normal',
+        ),
+        6 => array(
+            'Id' => 1,
+            'Label' => 'Multi-controller direct',
+        ),
+        7 => array(
+            'Id' => 2,
+            'Label' => 'Quick Control Dial direct',
+        ),
+        8 => array(
+            'Id' => 0,
+            'Label' => 'Normal',
+        ),
+        9 => array(
+            'Id' => 1,
+            'Label' => 'Multi-controller direct',
+        ),
+        10 => array(
+            'Id' => 2,
+            'Label' => 'Quick Control Dial direct',
+        ),
+        11 => array(
+            'Id' => 0,
+            'Label' => 'Normal',
+        ),
+        12 => array(
+            'Id' => 1,
+            'Label' => 'Multi-controller direct',
+        ),
+        13 => array(
+            'Id' => 2,
+            'Label' => 'Quick Control Dial direct',
+        ),
+    );
 
     protected $Index = 'mixed';
 

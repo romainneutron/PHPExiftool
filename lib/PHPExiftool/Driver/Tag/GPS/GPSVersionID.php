@@ -21,7 +21,7 @@ class GPSVersionID extends \PHPExiftool\Driver\Tag
 
     protected $Type = 'int8u';
 
-    protected $Writable = 'mixed';
+    protected $Writable = '';
 
     protected $Description = 'GPS Version ID';
 

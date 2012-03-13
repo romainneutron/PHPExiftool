@@ -27,6 +27,39 @@ class ShutterReleaseButtonAEL extends \PHPExiftool\Driver\Tag
 
     protected $flag_Permanent = true;
 
-    protected $Values = 'mixed';
+    protected $Values = array(
+        0 => array(
+            'Id' => 0,
+            'Label' => 'Off',
+        ),
+        1 => array(
+            'Id' => 2,
+            'Label' => 'On',
+        ),
+        2 => array(
+            'Id' => 0,
+            'Label' => 'Off',
+        ),
+        3 => array(
+            'Id' => 128,
+            'Label' => 'On',
+        ),
+        4 => array(
+            'Id' => 0,
+            'Label' => 'Off',
+        ),
+        5 => array(
+            'Id' => 2,
+            'Label' => 'On',
+        ),
+        6 => array(
+            'Id' => 0,
+            'Label' => 'Off',
+        ),
+        7 => array(
+            'Id' => 2,
+            'Label' => 'On',
+        ),
+    );
 
 }

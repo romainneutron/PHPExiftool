@@ -27,7 +27,44 @@ class InitialZoomSetting extends \PHPExiftool\Driver\Tag
 
     protected $flag_Permanent = true;
 
-    protected $Values = 'mixed';
+    protected $Values = array(
+        0 => array(
+            'Id' => 0,
+            'Label' => 'High Magnification',
+        ),
+        1 => array(
+            'Id' => 4,
+            'Label' => 'Medium Magnification',
+        ),
+        2 => array(
+            'Id' => 8,
+            'Label' => 'Low Magnification',
+        ),
+        3 => array(
+            'Id' => 0,
+            'Label' => 'Low Magnification',
+        ),
+        4 => array(
+            'Id' => 4,
+            'Label' => 'Medium Magnification',
+        ),
+        5 => array(
+            'Id' => 8,
+            'Label' => 'High Magnification',
+        ),
+        6 => array(
+            'Id' => 0,
+            'Label' => 'Low Magnification',
+        ),
+        7 => array(
+            'Id' => 4,
+            'Label' => 'Medium Magnification',
+        ),
+        8 => array(
+            'Id' => 8,
+            'Label' => 'High Magnification',
+        ),
+    );
 
     protected $Index = 'mixed';
 

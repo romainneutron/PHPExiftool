@@ -27,6 +27,59 @@ class TimerFunctionButton extends \PHPExiftool\Driver\Tag
 
     protected $flag_Permanent = true;
 
-    protected $Values = 'mixed';
+    protected $Values = array(
+        0 => array(
+            'Id' => 0,
+            'Label' => 'Shooting Mode',
+        ),
+        1 => array(
+            'Id' => 1,
+            'Label' => 'Image Quality/Size',
+        ),
+        2 => array(
+            'Id' => 2,
+            'Label' => 'ISO',
+        ),
+        3 => array(
+            'Id' => 3,
+            'Label' => 'White Balance',
+        ),
+        4 => array(
+            'Id' => 4,
+            'Label' => 'Self-timer',
+        ),
+        5 => array(
+            'Id' => 0,
+            'Label' => 'Self-timer',
+        ),
+        6 => array(
+            'Id' => 8,
+            'Label' => 'Release Mode',
+        ),
+        7 => array(
+            'Id' => 16,
+            'Label' => 'Image Quality/Size',
+        ),
+        8 => array(
+            'Id' => 24,
+            'Label' => 'ISO',
+        ),
+        9 => array(
+            'Id' => 32,
+            'Label' => 'White Balance',
+        ),
+        10 => array(
+            'Id' => 40,
+            'Label' => 'Active D-Lighting',
+        ),
+        11 => array(
+            'Id' => 48,
+            'Label' => '+ NEF (RAW)',
+        ),
+        12 => array(
+            'Id' => 56,
+            'Label' => 'Auto Bracketing',
+        ),
+    );
 
 }

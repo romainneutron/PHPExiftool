@@ -27,6 +27,43 @@ class DynamicRangeOptimizerMode extends \PHPExiftool\Driver\Tag
 
     protected $flag_Permanent = true;
 
-    protected $Values = 'mixed';
+    protected $Values = array(
+        0 => array(
+            'Id' => 0,
+            'Label' => 'Off',
+        ),
+        1 => array(
+            'Id' => 1,
+            'Label' => 'Standard',
+        ),
+        2 => array(
+            'Id' => 2,
+            'Label' => 'Advanced Auto',
+        ),
+        3 => array(
+            'Id' => 3,
+            'Label' => 'Advanced Level',
+        ),
+        4 => array(
+            'Id' => 4097,
+            'Label' => 'Auto',
+        ),
+        5 => array(
+            'Id' => 0,
+            'Label' => 'Off',
+        ),
+        6 => array(
+            'Id' => 1,
+            'Label' => 'Standard',
+        ),
+        7 => array(
+            'Id' => 2,
+            'Label' => 'Advanced Auto',
+        ),
+        8 => array(
+            'Id' => 3,
+            'Label' => 'Advanced Level',
+        ),
+    );
 
 }

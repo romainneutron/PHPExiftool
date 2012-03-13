@@ -27,6 +27,31 @@ class USMLensElectronicMF extends \PHPExiftool\Driver\Tag
 
     protected $flag_Permanent = true;
 
-    protected $Values = 'mixed';
+    protected $Values = array(
+        0 => array(
+            'Id' => 0,
+            'Label' => 'Turns on after one-shot AF',
+        ),
+        1 => array(
+            'Id' => 1,
+            'Label' => 'Turns off after one-shot AF',
+        ),
+        2 => array(
+            'Id' => 2,
+            'Label' => 'Always turned off',
+        ),
+        3 => array(
+            'Id' => 0,
+            'Label' => 'Enable after one-shot AF',
+        ),
+        4 => array(
+            'Id' => 1,
+            'Label' => 'Disable after one-shot AF',
+        ),
+        5 => array(
+            'Id' => 2,
+            'Label' => 'Disable in AF mode',
+        ),
+    );
 
 }

@@ -27,6 +27,63 @@ class AFAssist extends \PHPExiftool\Driver\Tag
 
     protected $flag_Permanent = true;
 
-    protected $Values = 'mixed';
+    protected $Values = array(
+        0 => array(
+            'Id' => 0,
+            'Label' => 'On',
+        ),
+        1 => array(
+            'Id' => 1,
+            'Label' => 'Off',
+        ),
+        2 => array(
+            'Id' => 0,
+            'Label' => 'On',
+        ),
+        3 => array(
+            'Id' => 64,
+            'Label' => 'Off',
+        ),
+        4 => array(
+            'Id' => 0,
+            'Label' => 'On',
+        ),
+        5 => array(
+            'Id' => 1,
+            'Label' => 'Off',
+        ),
+        6 => array(
+            'Id' => 0,
+            'Label' => 'On',
+        ),
+        7 => array(
+            'Id' => 1,
+            'Label' => 'Off',
+        ),
+        8 => array(
+            'Id' => 0,
+            'Label' => 'On',
+        ),
+        9 => array(
+            'Id' => 1,
+            'Label' => 'Off',
+        ),
+        10 => array(
+            'Id' => 0,
+            'Label' => 'On',
+        ),
+        11 => array(
+            'Id' => 64,
+            'Label' => 'Off',
+        ),
+        12 => array(
+            'Id' => 0,
+            'Label' => 'On',
+        ),
+        13 => array(
+            'Id' => 1,
+            'Label' => 'Off',
+        ),
+    );
 
 }

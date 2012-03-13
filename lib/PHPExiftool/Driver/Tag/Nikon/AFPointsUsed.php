@@ -21,7 +21,7 @@ class AFPointsUsed extends \PHPExiftool\Driver\Tag
 
     protected $Type = 'undef';
 
-    protected $Writable = 'mixed';
+    protected $Writable = '';
 
     protected $Description = 'AF Points Used';
 
@@ -29,6 +29,55 @@ class AFPointsUsed extends \PHPExiftool\Driver\Tag
 
     protected $Index = 'mixed';
 
-    protected $Values = 'mixed';
+    protected $Values = array(
+        1 => array(
+            'Id' => 1,
+            'Label' => 'Center',
+        ),
+        2 => array(
+            'Id' => 2,
+            'Label' => 'Top',
+        ),
+        4 => array(
+            'Id' => 4,
+            'Label' => 'Bottom',
+        ),
+        8 => array(
+            'Id' => 8,
+            'Label' => 'Mid-left',
+        ),
+        16 => array(
+            'Id' => 16,
+            'Label' => 'Upper-left',
+        ),
+        32 => array(
+            'Id' => 32,
+            'Label' => 'Lower-left',
+        ),
+        64 => array(
+            'Id' => 64,
+            'Label' => 'Far Left',
+        ),
+        128 => array(
+            'Id' => 128,
+            'Label' => 'Mid-right',
+        ),
+        256 => array(
+            'Id' => 256,
+            'Label' => 'Upper-right',
+        ),
+        512 => array(
+            'Id' => 512,
+            'Label' => 'Lower-right',
+        ),
+        1024 => array(
+            'Id' => 1024,
+            'Label' => 'Far Right',
+        ),
+        2047 => array(
+            'Id' => 2047,
+            'Label' => 'All 11 Points',
+        ),
+    );
 
 }

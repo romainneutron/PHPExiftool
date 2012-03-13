@@ -27,6 +27,23 @@ class FocalType extends \PHPExiftool\Driver\Tag
 
     protected $flag_Permanent = true;
 
-    protected $Values = 'mixed';
+    protected $Values = array(
+        0 => array(
+            'Id' => 0,
+            'Label' => 'Fixed',
+        ),
+        1 => array(
+            'Id' => 2,
+            'Label' => 'Zoom',
+        ),
+        2 => array(
+            'Id' => 1,
+            'Label' => 'Fixed',
+        ),
+        3 => array(
+            'Id' => 2,
+            'Label' => 'Zoom',
+        ),
+    );
 
 }

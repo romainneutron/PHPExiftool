@@ -27,6 +27,47 @@ class Quality extends \PHPExiftool\Driver\Tag
 
     protected $flag_Permanent = true;
 
-    protected $Values = 'mixed';
+    protected $Values = array(
+        0 => array(
+            'Id' => 0,
+            'Label' => 'Good',
+        ),
+        1 => array(
+            'Id' => 1,
+            'Label' => 'Better',
+        ),
+        2 => array(
+            'Id' => 2,
+            'Label' => 'Best',
+        ),
+        3 => array(
+            'Id' => 3,
+            'Label' => 'TIFF',
+        ),
+        4 => array(
+            'Id' => 4,
+            'Label' => 'RAW',
+        ),
+        5 => array(
+            'Id' => 5,
+            'Label' => 'Premium',
+        ),
+        6 => array(
+            'Id' => 65535,
+            'Label' => 'n/a',
+        ),
+        7 => array(
+            'Id' => 0,
+            'Label' => 'Good',
+        ),
+        8 => array(
+            'Id' => 1,
+            'Label' => 'Better',
+        ),
+        9 => array(
+            'Id' => 2,
+            'Label' => 'Best',
+        ),
+    );
 
 }

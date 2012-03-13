@@ -21,7 +21,7 @@ class FocalLength extends \PHPExiftool\Driver\Tag
 
     protected $Type = 'mixed';
 
-    protected $Writable = 'mixed';
+    protected $Writable = '';
 
     protected $Description = 'Focal Length';
 

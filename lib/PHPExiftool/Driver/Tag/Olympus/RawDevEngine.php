@@ -27,6 +27,31 @@ class RawDevEngine extends \PHPExiftool\Driver\Tag
 
     protected $flag_Permanent = true;
 
-    protected $Values = 'mixed';
+    protected $Values = array(
+        0 => array(
+            'Id' => 0,
+            'Label' => 'High Speed',
+        ),
+        1 => array(
+            'Id' => 1,
+            'Label' => 'High Function',
+        ),
+        2 => array(
+            'Id' => 2,
+            'Label' => 'Advanced High Speed',
+        ),
+        3 => array(
+            'Id' => 3,
+            'Label' => 'Advanced High Function',
+        ),
+        4 => array(
+            'Id' => 0,
+            'Label' => 'High Speed',
+        ),
+        5 => array(
+            'Id' => 1,
+            'Label' => 'High Function',
+        ),
+    );
 
 }

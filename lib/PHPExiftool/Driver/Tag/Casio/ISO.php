@@ -27,6 +27,23 @@ class ISO extends \PHPExiftool\Driver\Tag
 
     protected $flag_Permanent = true;
 
-    protected $Values = 'mixed';
+    protected $Values = array(
+        3 => array(
+            'Id' => 3,
+            'Label' => 50,
+        ),
+        4 => array(
+            'Id' => 4,
+            'Label' => 64,
+        ),
+        6 => array(
+            'Id' => 6,
+            'Label' => 100,
+        ),
+        9 => array(
+            'Id' => 9,
+            'Label' => 200,
+        ),
+    );
 
 }

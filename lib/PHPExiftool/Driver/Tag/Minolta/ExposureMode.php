@@ -27,6 +27,127 @@ class ExposureMode extends \PHPExiftool\Driver\Tag
 
     protected $flag_Permanent = true;
 
-    protected $Values = 'mixed';
+    protected $Values = array(
+        0 => array(
+            'Id' => 0,
+            'Label' => 'Program',
+        ),
+        1 => array(
+            'Id' => 1,
+            'Label' => 'Aperture Priority',
+        ),
+        2 => array(
+            'Id' => 2,
+            'Label' => 'Shutter Priority',
+        ),
+        3 => array(
+            'Id' => 3,
+            'Label' => 'Manual',
+        ),
+        4 => array(
+            'Id' => 0,
+            'Label' => 'Program',
+        ),
+        5 => array(
+            'Id' => 1,
+            'Label' => 'Aperture Priority',
+        ),
+        6 => array(
+            'Id' => 2,
+            'Label' => 'Shutter Priority',
+        ),
+        7 => array(
+            'Id' => 3,
+            'Label' => 'Manual',
+        ),
+        8 => array(
+            'Id' => 4,
+            'Label' => 'Auto?',
+        ),
+        9 => array(
+            'Id' => 4131,
+            'Label' => 'Connected Copying?',
+        ),
+        10 => array(
+            'Id' => 0,
+            'Label' => 'Program',
+        ),
+        11 => array(
+            'Id' => 1,
+            'Label' => 'Aperture Priority',
+        ),
+        12 => array(
+            'Id' => 2,
+            'Label' => 'Shutter Priority',
+        ),
+        13 => array(
+            'Id' => 3,
+            'Label' => 'Manual',
+        ),
+        14 => array(
+            'Id' => 4,
+            'Label' => 'Auto',
+        ),
+        15 => array(
+            'Id' => 5,
+            'Label' => 'Program-shift A',
+        ),
+        16 => array(
+            'Id' => 6,
+            'Label' => 'Program-shift S',
+        ),
+        17 => array(
+            'Id' => 0,
+            'Label' => 'Program',
+        ),
+        18 => array(
+            'Id' => 1,
+            'Label' => 'Aperture Priority',
+        ),
+        19 => array(
+            'Id' => 2,
+            'Label' => 'Shutter Priority',
+        ),
+        20 => array(
+            'Id' => 3,
+            'Label' => 'Manual',
+        ),
+        21 => array(
+            'Id' => 4,
+            'Label' => 'Auto',
+        ),
+        22 => array(
+            'Id' => 5,
+            'Label' => 'Program Shift A',
+        ),
+        23 => array(
+            'Id' => 6,
+            'Label' => 'Program Shift S',
+        ),
+        24 => array(
+            'Id' => 4115,
+            'Label' => 'Portrait',
+        ),
+        25 => array(
+            'Id' => 4131,
+            'Label' => 'Sports',
+        ),
+        26 => array(
+            'Id' => 4147,
+            'Label' => 'Sunset',
+        ),
+        27 => array(
+            'Id' => 4163,
+            'Label' => 'Night View/Portrait',
+        ),
+        28 => array(
+            'Id' => 4179,
+            'Label' => 'Landscape',
+        ),
+        29 => array(
+            'Id' => 4227,
+            'Label' => 'Macro',
+        ),
+    );
 
 }

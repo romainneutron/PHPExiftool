@@ -27,6 +27,31 @@ class NikonImageSize extends \PHPExiftool\Driver\Tag
 
     protected $flag_Permanent = true;
 
-    protected $Values = 'mixed';
+    protected $Values = array(
+        0 => array(
+            'Id' => 0,
+            'Label' => 'Large',
+        ),
+        1 => array(
+            'Id' => 8,
+            'Label' => 'Medium',
+        ),
+        2 => array(
+            'Id' => 16,
+            'Label' => 'Small',
+        ),
+        3 => array(
+            'Id' => 0,
+            'Label' => 'Large (10.0 M)',
+        ),
+        4 => array(
+            'Id' => 16,
+            'Label' => 'Medium (5.6 M)',
+        ),
+        5 => array(
+            'Id' => 32,
+            'Label' => 'Small (2.5 M)',
+        ),
+    );
 
 }

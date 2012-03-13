@@ -27,7 +27,124 @@ class FlashSyncSpeedAv extends \PHPExiftool\Driver\Tag
 
     protected $flag_Permanent = true;
 
-    protected $Values = 'mixed';
+    protected $Values = array(
+        0 => array(
+            'Id' => 0,
+            'Label' => 'Auto',
+        ),
+        1 => array(
+            'Id' => 1,
+            'Label' => '1/200 Fixed',
+        ),
+        2 => array(
+            'Id' => 0,
+            'Label' => 'Auto',
+        ),
+        3 => array(
+            'Id' => 1,
+            'Label' => '1/250 Fixed',
+        ),
+        4 => array(
+            'Id' => 0,
+            'Label' => 'Auto',
+        ),
+        5 => array(
+            'Id' => 1,
+            'Label' => '1/250-1/60 Auto',
+        ),
+        6 => array(
+            'Id' => 2,
+            'Label' => '1/250 Fixed',
+        ),
+        7 => array(
+            'Id' => 0,
+            'Label' => 'Auto',
+        ),
+        8 => array(
+            'Id' => 1,
+            'Label' => '1/200 Fixed',
+        ),
+        9 => array(
+            'Id' => 0,
+            'Label' => 'Auto',
+        ),
+        10 => array(
+            'Id' => 1,
+            'Label' => '1/300 Fixed',
+        ),
+        11 => array(
+            'Id' => 0,
+            'Label' => 'Auto',
+        ),
+        12 => array(
+            'Id' => 1,
+            'Label' => '1/300-1/60 Auto',
+        ),
+        13 => array(
+            'Id' => 2,
+            'Label' => '1/300 Fixed',
+        ),
+        14 => array(
+            'Id' => 0,
+            'Label' => 'Auto',
+        ),
+        15 => array(
+            'Id' => 1,
+            'Label' => '1/200-1/60 Auto',
+        ),
+        16 => array(
+            'Id' => 2,
+            'Label' => '1/200 Fixed',
+        ),
+        17 => array(
+            'Id' => 0,
+            'Label' => 'Auto',
+        ),
+        18 => array(
+            'Id' => 1,
+            'Label' => '1/250 Fixed',
+        ),
+        19 => array(
+            'Id' => 0,
+            'Label' => 'Auto',
+        ),
+        20 => array(
+            'Id' => 1,
+            'Label' => '1/250 Fixed',
+        ),
+        21 => array(
+            'Id' => 0,
+            'Label' => 'Auto',
+        ),
+        22 => array(
+            'Id' => 1,
+            'Label' => '1/200 Fixed',
+        ),
+        23 => array(
+            'Id' => 0,
+            'Label' => 'Auto',
+        ),
+        24 => array(
+            'Id' => 1,
+            'Label' => '1/200 Fixed',
+        ),
+        25 => array(
+            'Id' => 0,
+            'Label' => 'Auto',
+        ),
+        26 => array(
+            'Id' => 1,
+            'Label' => '1/200 Fixed',
+        ),
+        27 => array(
+            'Id' => 0,
+            'Label' => 'Auto',
+        ),
+        28 => array(
+            'Id' => 1,
+            'Label' => '1/200 Fixed',
+        ),
+    );
 
     protected $Index = 'mixed';
 

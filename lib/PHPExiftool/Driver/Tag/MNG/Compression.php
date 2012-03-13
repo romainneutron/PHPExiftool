@@ -25,6 +25,15 @@ class Compression extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Compression';
 
-    protected $Values = 'mixed';
+    protected $Values = array(
+        0 => array(
+            'Id' => 0,
+            'Label' => 'Deflate/Inflate',
+        ),
+        1 => array(
+            'Id' => 8,
+            'Label' => 'Huffman-coded baseline JPEG',
+        ),
+    );
 
 }

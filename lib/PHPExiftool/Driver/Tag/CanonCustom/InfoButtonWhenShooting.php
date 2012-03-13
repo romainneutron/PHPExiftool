@@ -27,7 +27,24 @@ class InfoButtonWhenShooting extends \PHPExiftool\Driver\Tag
 
     protected $flag_Permanent = true;
 
-    protected $Values = 'mixed';
+    protected $Values = array(
+        0 => array(
+            'Id' => 0,
+            'Label' => 'Displays camera settings',
+        ),
+        1 => array(
+            'Id' => 1,
+            'Label' => 'Displays shooting functions',
+        ),
+        2 => array(
+            'Id' => 0,
+            'Label' => 'Displays shooting functions',
+        ),
+        3 => array(
+            'Id' => 1,
+            'Label' => 'Displays camera settings',
+        ),
+    );
 
     protected $Index = 'mixed';
 

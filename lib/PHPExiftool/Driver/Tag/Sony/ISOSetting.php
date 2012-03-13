@@ -27,6 +27,15 @@ class ISOSetting extends \PHPExiftool\Driver\Tag
 
     protected $flag_Permanent = true;
 
-    protected $Values = 'mixed';
+    protected $Values = array(
+        0 => array(
+            'Id' => 0,
+            'Label' => 'Auto',
+        ),
+        254 => array(
+            'Id' => 254,
+            'Label' => 'n/a',
+        ),
+    );
 
 }

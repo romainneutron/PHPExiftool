@@ -27,6 +27,95 @@ class FocusTrackingLockOn extends \PHPExiftool\Driver\Tag
 
     protected $flag_Permanent = true;
 
-    protected $Values = 'mixed';
+    protected $Values = array(
+        0 => array(
+            'Id' => 0,
+            'Label' => 'Long',
+        ),
+        1 => array(
+            'Id' => 1,
+            'Label' => 'Normal',
+        ),
+        2 => array(
+            'Id' => 2,
+            'Label' => 'Short',
+        ),
+        3 => array(
+            'Id' => 3,
+            'Label' => 'Off',
+        ),
+        4 => array(
+            'Id' => 0,
+            'Label' => '5 (Long)',
+        ),
+        5 => array(
+            'Id' => 1,
+            'Label' => 4,
+        ),
+        6 => array(
+            'Id' => 2,
+            'Label' => '3 (Normal)',
+        ),
+        7 => array(
+            'Id' => 3,
+            'Label' => 2,
+        ),
+        8 => array(
+            'Id' => 4,
+            'Label' => '1 (Short)',
+        ),
+        9 => array(
+            'Id' => 5,
+            'Label' => 'Off',
+        ),
+        10 => array(
+            'Id' => 0,
+            'Label' => '3 Normal',
+        ),
+        11 => array(
+            'Id' => 1,
+            'Label' => 4,
+        ),
+        12 => array(
+            'Id' => 2,
+            'Label' => '5 Long',
+        ),
+        13 => array(
+            'Id' => 3,
+            'Label' => 2,
+        ),
+        14 => array(
+            'Id' => 4,
+            'Label' => '1 Short',
+        ),
+        15 => array(
+            'Id' => 5,
+            'Label' => 'Off',
+        ),
+        16 => array(
+            'Id' => 0,
+            'Label' => 'Off',
+        ),
+        17 => array(
+            'Id' => 1,
+            'Label' => '1 Short',
+        ),
+        18 => array(
+            'Id' => 2,
+            'Label' => 2,
+        ),
+        19 => array(
+            'Id' => 3,
+            'Label' => '3 Normal',
+        ),
+        20 => array(
+            'Id' => 4,
+            'Label' => 4,
+        ),
+        21 => array(
+            'Id' => 5,
+            'Label' => '5 Long',
+        ),
+    );
 
 }

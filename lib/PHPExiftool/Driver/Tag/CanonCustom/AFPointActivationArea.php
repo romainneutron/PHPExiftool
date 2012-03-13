@@ -27,6 +27,27 @@ class AFPointActivationArea extends \PHPExiftool\Driver\Tag
 
     protected $flag_Permanent = true;
 
-    protected $Values = 'mixed';
+    protected $Values = array(
+        0 => array(
+            'Id' => 0,
+            'Label' => 'Single AF point',
+        ),
+        1 => array(
+            'Id' => 1,
+            'Label' => 'Expanded (TTL. of 7 AF points)',
+        ),
+        2 => array(
+            'Id' => 2,
+            'Label' => 'Automatic expanded (max. 13)',
+        ),
+        3 => array(
+            'Id' => 0,
+            'Label' => 'Standard',
+        ),
+        4 => array(
+            'Id' => 1,
+            'Label' => 'Expanded',
+        ),
+    );
 
 }

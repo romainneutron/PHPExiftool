@@ -27,6 +27,79 @@ class ShootingInfoMonitorOffTime extends \PHPExiftool\Driver\Tag
 
     protected $flag_Permanent = true;
 
-    protected $Values = 'mixed';
+    protected $Values = array(
+        0 => array(
+            'Id' => 0,
+            'Label' => '4 s',
+        ),
+        1 => array(
+            'Id' => 8,
+            'Label' => '10 s',
+        ),
+        2 => array(
+            'Id' => 16,
+            'Label' => '20 s',
+        ),
+        3 => array(
+            'Id' => 24,
+            'Label' => '1 min',
+        ),
+        4 => array(
+            'Id' => 32,
+            'Label' => '5 min',
+        ),
+        5 => array(
+            'Id' => 40,
+            'Label' => '10 min',
+        ),
+        6 => array(
+            'Id' => 0,
+            'Label' => '4 s',
+        ),
+        7 => array(
+            'Id' => 4,
+            'Label' => '10 s',
+        ),
+        8 => array(
+            'Id' => 8,
+            'Label' => '20 s',
+        ),
+        9 => array(
+            'Id' => 12,
+            'Label' => '1 min',
+        ),
+        10 => array(
+            'Id' => 16,
+            'Label' => '5 min',
+        ),
+        11 => array(
+            'Id' => 20,
+            'Label' => '10 min',
+        ),
+        12 => array(
+            'Id' => 0,
+            'Label' => '4 s',
+        ),
+        13 => array(
+            'Id' => 4,
+            'Label' => '10 s',
+        ),
+        14 => array(
+            'Id' => 8,
+            'Label' => '20 s',
+        ),
+        15 => array(
+            'Id' => 12,
+            'Label' => '1 min',
+        ),
+        16 => array(
+            'Id' => 16,
+            'Label' => '5 min',
+        ),
+        17 => array(
+            'Id' => 20,
+            'Label' => '10 min',
+        ),
+    );
 
 }

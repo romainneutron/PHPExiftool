@@ -27,6 +27,23 @@ class Sharpness extends \PHPExiftool\Driver\Tag
 
     protected $flag_Permanent = true;
 
-    protected $Values = 'mixed';
+    protected $Values = array(
+        0 => array(
+            'Id' => 0,
+            'Label' => 'Hard',
+        ),
+        1 => array(
+            'Id' => 1,
+            'Label' => 'Normal',
+        ),
+        2 => array(
+            'Id' => 2,
+            'Label' => 'Soft',
+        ),
+        3 => array(
+            'Id' => 0,
+            'Label' => 'Normal',
+        ),
+    );
 
 }

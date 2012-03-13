@@ -27,6 +27,79 @@ class LongExposureNoiseReduction extends \PHPExiftool\Driver\Tag
 
     protected $flag_Permanent = true;
 
-    protected $Values = 'mixed';
+    protected $Values = array(
+        0 => array(
+            'Id' => 0,
+            'Label' => 'Off',
+        ),
+        1 => array(
+            'Id' => 1,
+            'Label' => 'Auto',
+        ),
+        2 => array(
+            'Id' => 2,
+            'Label' => 'On',
+        ),
+        3 => array(
+            'Id' => 0,
+            'Label' => 'Off',
+        ),
+        4 => array(
+            'Id' => 1,
+            'Label' => 'On',
+        ),
+        5 => array(
+            'Id' => 0,
+            'Label' => 'Off',
+        ),
+        6 => array(
+            'Id' => 1,
+            'Label' => 'Auto',
+        ),
+        7 => array(
+            'Id' => 2,
+            'Label' => 'On',
+        ),
+        8 => array(
+            'Id' => 0,
+            'Label' => 'Off',
+        ),
+        9 => array(
+            'Id' => 1,
+            'Label' => 'On',
+        ),
+        10 => array(
+            'Id' => 0,
+            'Label' => 'Off',
+        ),
+        11 => array(
+            'Id' => 1,
+            'Label' => 'Auto',
+        ),
+        12 => array(
+            'Id' => 2,
+            'Label' => 'On',
+        ),
+        13 => array(
+            'Id' => 0,
+            'Label' => 'Off',
+        ),
+        14 => array(
+            'Id' => 1,
+            'Label' => 'Auto',
+        ),
+        15 => array(
+            'Id' => 2,
+            'Label' => 'On',
+        ),
+        16 => array(
+            'Id' => 0,
+            'Label' => 'Off',
+        ),
+        17 => array(
+            'Id' => 1,
+            'Label' => 'On',
+        ),
+    );
 
 }

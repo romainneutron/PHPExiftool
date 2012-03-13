@@ -27,6 +27,23 @@ class PhotoInfoPlayback extends \PHPExiftool\Driver\Tag
 
     protected $flag_Permanent = true;
 
-    protected $Values = 'mixed';
+    protected $Values = array(
+        0 => array(
+            'Id' => 0,
+            'Label' => 'Info Up-down, Playback Left-right',
+        ),
+        1 => array(
+            'Id' => 4,
+            'Label' => 'Info Left-right, Playback Up-down',
+        ),
+        2 => array(
+            'Id' => 0,
+            'Label' => 'Off',
+        ),
+        3 => array(
+            'Id' => 4,
+            'Label' => 'On',
+        ),
+    );
 
 }

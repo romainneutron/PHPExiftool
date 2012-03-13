@@ -27,6 +27,51 @@ class LongExposureNoiseReduction extends \PHPExiftool\Driver\Tag
 
     protected $flag_Permanent = true;
 
-    protected $Values = 'mixed';
+    protected $Values = array(
+        0 => array(
+            'Id' => 0,
+            'Label' => 'Off',
+        ),
+        1 => array(
+            'Id' => 1,
+            'Label' => 'On',
+        ),
+        2 => array(
+            'Id' => 0,
+            'Label' => 'Off',
+        ),
+        3 => array(
+            'Id' => 1,
+            'Label' => 'On (unused)',
+        ),
+        4 => array(
+            'Id' => 65537,
+            'Label' => 'On (dark subtracted)',
+        ),
+        5 => array(
+            'Id' => 4294901760,
+            'Label' => 'Off (65535)',
+        ),
+        6 => array(
+            'Id' => 4294901761,
+            'Label' => 'On (65535)',
+        ),
+        7 => array(
+            'Id' => 4294967295,
+            'Label' => 'n/a',
+        ),
+        8 => array(
+            'Id' => 0,
+            'Label' => 'Off',
+        ),
+        9 => array(
+            'Id' => 1,
+            'Label' => 'On',
+        ),
+        10 => array(
+            'Id' => 65535,
+            'Label' => 'n/a',
+        ),
+    );
 
 }

@@ -27,6 +27,35 @@ class LiveViewAF extends \PHPExiftool\Driver\Tag
 
     protected $flag_Permanent = true;
 
-    protected $Values = 'mixed';
+    protected $Values = array(
+        0 => array(
+            'Id' => 0,
+            'Label' => 'Face Priority',
+        ),
+        1 => array(
+            'Id' => 32,
+            'Label' => 'Wide Area',
+        ),
+        2 => array(
+            'Id' => 64,
+            'Label' => 'Normal Area',
+        ),
+        3 => array(
+            'Id' => 96,
+            'Label' => 'Subject Tracking',
+        ),
+        4 => array(
+            'Id' => 0,
+            'Label' => 'Face Priority',
+        ),
+        5 => array(
+            'Id' => 64,
+            'Label' => 'Wide Area',
+        ),
+        6 => array(
+            'Id' => 128,
+            'Label' => 'Normal Area',
+        ),
+    );
 
 }

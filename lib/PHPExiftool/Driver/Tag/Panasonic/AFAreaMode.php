@@ -27,7 +27,56 @@ class AFAreaMode extends \PHPExiftool\Driver\Tag
 
     protected $flag_Permanent = true;
 
-    protected $Values = 'mixed';
+    protected $Values = array(
+        '0 1' => array(
+            'Id' => '0 1',
+            'Label' => '9-area',
+        ),
+        '0 16' => array(
+            'Id' => '0 16',
+            'Label' => '3-area (high speed)',
+        ),
+        0 => array(
+            'Id' => 16,
+            'Label' => 'Normal?',
+        ),
+        '1 0' => array(
+            'Id' => '1 0',
+            'Label' => 'Spot Focusing',
+        ),
+        '1 1' => array(
+            'Id' => '1 1',
+            'Label' => '5-area',
+        ),
+        '16 0' => array(
+            'Id' => '16 0',
+            'Label' => '1-area',
+        ),
+        '16 16' => array(
+            'Id' => '16 16',
+            'Label' => '1-area (high speed)',
+        ),
+        '32 0' => array(
+            'Id' => '32 0',
+            'Label' => 'Auto or Face Detect',
+        ),
+        '32 1' => array(
+            'Id' => '32 1',
+            'Label' => '3-area (left)?',
+        ),
+        '32 2' => array(
+            'Id' => '32 2',
+            'Label' => '3-area (center)?',
+        ),
+        '32 3' => array(
+            'Id' => '32 3',
+            'Label' => '3-area (right)?',
+        ),
+        '64 0' => array(
+            'Id' => '64 0',
+            'Label' => 'Face Detect',
+        ),
+    );
 
     protected $Index = 'mixed';
 

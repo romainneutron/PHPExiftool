@@ -27,6 +27,27 @@ class CommandDialsMenuAndPlayback extends \PHPExiftool\Driver\Tag
 
     protected $flag_Permanent = true;
 
-    protected $Values = 'mixed';
+    protected $Values = array(
+        0 => array(
+            'Id' => 0,
+            'Label' => 'Off',
+        ),
+        1 => array(
+            'Id' => 16,
+            'Label' => 'On',
+        ),
+        2 => array(
+            'Id' => 0,
+            'Label' => 'On',
+        ),
+        3 => array(
+            'Id' => 8,
+            'Label' => 'Off',
+        ),
+        4 => array(
+            'Id' => 16,
+            'Label' => 'On (Image Review Exclude)',
+        ),
+    );
 
 }

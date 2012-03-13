@@ -27,6 +27,23 @@ class BatteryOrder extends \PHPExiftool\Driver\Tag
 
     protected $flag_Permanent = true;
 
-    protected $Values = 'mixed';
+    protected $Values = array(
+        0 => array(
+            'Id' => 0,
+            'Label' => 'MB-D10 First',
+        ),
+        1 => array(
+            'Id' => 4,
+            'Label' => 'Camera Battery First',
+        ),
+        2 => array(
+            'Id' => 0,
+            'Label' => 'MB-D11 First',
+        ),
+        3 => array(
+            'Id' => 64,
+            'Label' => 'Camera Battery First',
+        ),
+    );
 
 }

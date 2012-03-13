@@ -27,6 +27,107 @@ class AutoBracketSet extends \PHPExiftool\Driver\Tag
 
     protected $flag_Permanent = true;
 
-    protected $Values = 'mixed';
+    protected $Values = array(
+        0 => array(
+            'Id' => 0,
+            'Label' => 'AE & Flash',
+        ),
+        1 => array(
+            'Id' => 64,
+            'Label' => 'AE Only',
+        ),
+        2 => array(
+            'Id' => 128,
+            'Label' => 'Flash Only',
+        ),
+        3 => array(
+            'Id' => 192,
+            'Label' => 'WB Bracketing',
+        ),
+        4 => array(
+            'Id' => 0,
+            'Label' => 'Exposure',
+        ),
+        5 => array(
+            'Id' => 64,
+            'Label' => 'Active D-Lighting',
+        ),
+        6 => array(
+            'Id' => 128,
+            'Label' => 'WB Bracketing',
+        ),
+        7 => array(
+            'Id' => 0,
+            'Label' => 'AE & Flash',
+        ),
+        8 => array(
+            'Id' => 64,
+            'Label' => 'AE Only',
+        ),
+        9 => array(
+            'Id' => 128,
+            'Label' => 'Flash Only',
+        ),
+        10 => array(
+            'Id' => 192,
+            'Label' => 'WB Bracketing',
+        ),
+        11 => array(
+            'Id' => 0,
+            'Label' => 'AE & Flash',
+        ),
+        12 => array(
+            'Id' => 32,
+            'Label' => 'AE Only',
+        ),
+        13 => array(
+            'Id' => 64,
+            'Label' => 'Flash Only',
+        ),
+        14 => array(
+            'Id' => 96,
+            'Label' => 'WB Bracketing',
+        ),
+        15 => array(
+            'Id' => 128,
+            'Label' => 'Active D-Lighting',
+        ),
+        16 => array(
+            'Id' => 0,
+            'Label' => 'AE & Flash',
+        ),
+        17 => array(
+            'Id' => 64,
+            'Label' => 'AE Only',
+        ),
+        18 => array(
+            'Id' => 128,
+            'Label' => 'Flash Only',
+        ),
+        19 => array(
+            'Id' => 192,
+            'Label' => 'WB Bracketing',
+        ),
+        20 => array(
+            'Id' => 0,
+            'Label' => 'AE & Flash',
+        ),
+        21 => array(
+            'Id' => 32,
+            'Label' => 'AE Only',
+        ),
+        22 => array(
+            'Id' => 64,
+            'Label' => 'Flash Only',
+        ),
+        23 => array(
+            'Id' => 96,
+            'Label' => 'WB Bracketing',
+        ),
+        24 => array(
+            'Id' => 128,
+            'Label' => 'Active D-Lighting',
+        ),
+    );
 
 }

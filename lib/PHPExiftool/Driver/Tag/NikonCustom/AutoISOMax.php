@@ -27,6 +27,35 @@ class AutoISOMax extends \PHPExiftool\Driver\Tag
 
     protected $flag_Permanent = true;
 
-    protected $Values = 'mixed';
+    protected $Values = array(
+        0 => array(
+            'Id' => 16,
+            'Label' => 400,
+        ),
+        1 => array(
+            'Id' => 32,
+            'Label' => 800,
+        ),
+        2 => array(
+            'Id' => 48,
+            'Label' => 1600,
+        ),
+        3 => array(
+            'Id' => 0,
+            'Label' => 200,
+        ),
+        4 => array(
+            'Id' => 16,
+            'Label' => 400,
+        ),
+        5 => array(
+            'Id' => 32,
+            'Label' => 800,
+        ),
+        6 => array(
+            'Id' => 48,
+            'Label' => 1600,
+        ),
+    );
 
 }

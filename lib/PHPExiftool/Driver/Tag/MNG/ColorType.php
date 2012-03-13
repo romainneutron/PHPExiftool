@@ -25,6 +25,43 @@ class ColorType extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Color Type';
 
-    protected $Values = 'mixed';
+    protected $Values = array(
+        0 => array(
+            'Id' => 0,
+            'Label' => 'Grayscale',
+        ),
+        1 => array(
+            'Id' => 2,
+            'Label' => 'RGB',
+        ),
+        2 => array(
+            'Id' => 3,
+            'Label' => 'Palette',
+        ),
+        3 => array(
+            'Id' => 4,
+            'Label' => 'Grayscale with Alpha',
+        ),
+        4 => array(
+            'Id' => 6,
+            'Label' => 'RGB with Alpha',
+        ),
+        5 => array(
+            'Id' => 8,
+            'Label' => 'Gray',
+        ),
+        6 => array(
+            'Id' => 10,
+            'Label' => 'Color',
+        ),
+        7 => array(
+            'Id' => 12,
+            'Label' => 'Gray Alpha',
+        ),
+        8 => array(
+            'Id' => 14,
+            'Label' => 'Color Alpha',
+        ),
+    );
 
 }

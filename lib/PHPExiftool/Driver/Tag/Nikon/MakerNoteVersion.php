@@ -21,7 +21,7 @@ class MakerNoteVersion extends \PHPExiftool\Driver\Tag
 
     protected $Type = 'mixed';
 
-    protected $Writable = 'mixed';
+    protected $Writable = '';
 
     protected $Description = 'Maker Note Version';
 

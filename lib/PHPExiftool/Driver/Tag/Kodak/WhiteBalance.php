@@ -21,12 +21,41 @@ class WhiteBalance extends \PHPExiftool\Driver\Tag
 
     protected $Type = 'mixed';
 
-    protected $Writable = 'mixed';
+    protected $Writable = '';
 
     protected $Description = 'White Balance';
 
     protected $flag_Permanent = true;
 
-    protected $Values = 'mixed';
+    protected $Values = array(
+        0 => array(
+            'Id' => 0,
+            'Label' => 'Auto',
+        ),
+        1 => array(
+            'Id' => 1,
+            'Label' => 'Flash?',
+        ),
+        2 => array(
+            'Id' => 2,
+            'Label' => 'Tungsten',
+        ),
+        3 => array(
+            'Id' => 3,
+            'Label' => 'Daylight',
+        ),
+        4 => array(
+            'Id' => 1,
+            'Label' => 'Daylight',
+        ),
+        5 => array(
+            'Id' => 2,
+            'Label' => 'Flash',
+        ),
+        6 => array(
+            'Id' => 3,
+            'Label' => 'Tungsten',
+        ),
+    );
 
 }

@@ -21,7 +21,7 @@ class FNumber extends \PHPExiftool\Driver\Tag
 
     protected $Type = 'rational64u';
 
-    protected $Writable = 'mixed';
+    protected $Writable = '';
 
     protected $Description = 'F Number';
 

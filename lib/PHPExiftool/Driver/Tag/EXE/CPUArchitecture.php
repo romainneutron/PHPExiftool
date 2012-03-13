@@ -25,6 +25,23 @@ class CPUArchitecture extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'CPU Architecture';
 
-    protected $Values = 'mixed';
+    protected $Values = array(
+        0 => array(
+            'Id' => 1,
+            'Label' => '32 bit',
+        ),
+        1 => array(
+            'Id' => 2,
+            'Label' => '64 bit',
+        ),
+        'm68k' => array(
+            'Id' => 'm68k',
+            'Label' => 68000,
+        ),
+        'pwpc' => array(
+            'Id' => 'pwpc',
+            'Label' => 'PowerPC',
+        ),
+    );
 
 }

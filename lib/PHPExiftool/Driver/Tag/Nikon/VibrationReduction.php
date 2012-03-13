@@ -27,6 +27,67 @@ class VibrationReduction extends \PHPExiftool\Driver\Tag
 
     protected $flag_Permanent = true;
 
-    protected $Values = 'mixed';
+    protected $Values = array(
+        0 => array(
+            'Id' => 0,
+            'Label' => 'Off',
+        ),
+        1 => array(
+            'Id' => 1,
+            'Label' => 'On (1)',
+        ),
+        2 => array(
+            'Id' => 2,
+            'Label' => 'On (2)',
+        ),
+        3 => array(
+            'Id' => 3,
+            'Label' => 'On (3)',
+        ),
+        4 => array(
+            'Id' => 0,
+            'Label' => 'Off',
+        ),
+        5 => array(
+            'Id' => 1,
+            'Label' => 'On',
+        ),
+        6 => array(
+            'Id' => 0,
+            'Label' => 'n/a',
+        ),
+        7 => array(
+            'Id' => 12,
+            'Label' => 'Off',
+        ),
+        8 => array(
+            'Id' => 15,
+            'Label' => 'On',
+        ),
+        9 => array(
+            'Id' => 0,
+            'Label' => 'Off',
+        ),
+        10 => array(
+            'Id' => 8,
+            'Label' => 'On',
+        ),
+        11 => array(
+            'Id' => 0,
+            'Label' => 'Off',
+        ),
+        12 => array(
+            'Id' => 24,
+            'Label' => 'On',
+        ),
+        13 => array(
+            'Id' => 1,
+            'Label' => 'On',
+        ),
+        14 => array(
+            'Id' => 2,
+            'Label' => 'Off',
+        ),
+    );
 
 }

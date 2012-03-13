@@ -27,7 +27,40 @@ class SwitchToRegisteredAFPoint extends \PHPExiftool\Driver\Tag
 
     protected $flag_Permanent = true;
 
-    protected $Values = 'mixed';
+    protected $Values = array(
+        0 => array(
+            'Id' => 0,
+            'Label' => 'Assist + AF',
+        ),
+        1 => array(
+            'Id' => 1,
+            'Label' => 'Assist',
+        ),
+        2 => array(
+            'Id' => 2,
+            'Label' => 'Only while pressing assist',
+        ),
+        3 => array(
+            'Id' => 0,
+            'Label' => 'Disable',
+        ),
+        4 => array(
+            'Id' => 1,
+            'Label' => 'Switch with multi-controller',
+        ),
+        5 => array(
+            'Id' => 2,
+            'Label' => 'Only while AEL is pressed',
+        ),
+        6 => array(
+            'Id' => 0,
+            'Label' => 'Disable',
+        ),
+        7 => array(
+            'Id' => 1,
+            'Label' => 'Enable',
+        ),
+    );
 
     protected $Index = 'mixed';
 

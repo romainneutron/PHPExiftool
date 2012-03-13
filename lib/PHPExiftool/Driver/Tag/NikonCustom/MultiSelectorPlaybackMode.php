@@ -27,6 +27,51 @@ class MultiSelectorPlaybackMode extends \PHPExiftool\Driver\Tag
 
     protected $flag_Permanent = true;
 
-    protected $Values = 'mixed';
+    protected $Values = array(
+        0 => array(
+            'Id' => 0,
+            'Label' => 'Thumbnail On/Off',
+        ),
+        1 => array(
+            'Id' => 16,
+            'Label' => 'View Histograms',
+        ),
+        2 => array(
+            'Id' => 32,
+            'Label' => 'Zoom On/Off',
+        ),
+        3 => array(
+            'Id' => 48,
+            'Label' => 'Choose Folder',
+        ),
+        4 => array(
+            'Id' => 0,
+            'Label' => 'Thumbnail On/Off',
+        ),
+        5 => array(
+            'Id' => 1,
+            'Label' => 'View Histograms',
+        ),
+        6 => array(
+            'Id' => 2,
+            'Label' => 'Zoom On/Off',
+        ),
+        7 => array(
+            'Id' => 0,
+            'Label' => 'Thumbnail On/Off',
+        ),
+        8 => array(
+            'Id' => 16,
+            'Label' => 'View Histograms',
+        ),
+        9 => array(
+            'Id' => 32,
+            'Label' => 'Zoom On/Off',
+        ),
+        10 => array(
+            'Id' => 48,
+            'Label' => 'Choose Folder',
+        ),
+    );
 
 }

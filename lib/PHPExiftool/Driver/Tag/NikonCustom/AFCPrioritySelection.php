@@ -27,6 +27,27 @@ class AFCPrioritySelection extends \PHPExiftool\Driver\Tag
 
     protected $flag_Permanent = true;
 
-    protected $Values = 'mixed';
+    protected $Values = array(
+        0 => array(
+            'Id' => 0,
+            'Label' => 'Release',
+        ),
+        1 => array(
+            'Id' => 64,
+            'Label' => 'Release + Focus',
+        ),
+        2 => array(
+            'Id' => 128,
+            'Label' => 'Focus',
+        ),
+        3 => array(
+            'Id' => 0,
+            'Label' => 'Release',
+        ),
+        4 => array(
+            'Id' => 128,
+            'Label' => 'Focus',
+        ),
+    );
 
 }

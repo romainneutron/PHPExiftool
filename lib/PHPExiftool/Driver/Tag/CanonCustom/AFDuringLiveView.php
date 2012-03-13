@@ -27,7 +27,28 @@ class AFDuringLiveView extends \PHPExiftool\Driver\Tag
 
     protected $flag_Permanent = true;
 
-    protected $Values = 'mixed';
+    protected $Values = array(
+        0 => array(
+            'Id' => 0,
+            'Label' => 'Disable',
+        ),
+        1 => array(
+            'Id' => 1,
+            'Label' => 'Enable',
+        ),
+        2 => array(
+            'Id' => 0,
+            'Label' => 'Disable',
+        ),
+        3 => array(
+            'Id' => 1,
+            'Label' => 'Quick mode',
+        ),
+        4 => array(
+            'Id' => 2,
+            'Label' => 'Live mode',
+        ),
+    );
 
     protected $Index = 'mixed';
 

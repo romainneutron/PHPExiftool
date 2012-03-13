@@ -27,6 +27,11 @@ class ContrastUserDef1 extends \PHPExiftool\Driver\Tag
 
     protected $flag_Permanent = true;
 
-    protected $Values = 'mixed';
+    protected $Values = array(
+        '-559038737' => array(
+            'Id' => '-559038737',
+            'Label' => 'n/a',
+        ),
+    );
 
 }

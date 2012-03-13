@@ -27,6 +27,75 @@ class WhiteBalance extends \PHPExiftool\Driver\Tag
 
     protected $flag_Permanent = true;
 
-    protected $Values = 'mixed';
+    protected $Values = array(
+        0 => array(
+            'Id' => 0,
+            'Label' => 'Auto or Manual',
+        ),
+        1 => array(
+            'Id' => 1,
+            'Label' => 'Daylight',
+        ),
+        2 => array(
+            'Id' => 2,
+            'Label' => 'Fluorescent',
+        ),
+        3 => array(
+            'Id' => 3,
+            'Label' => 'Tungsten',
+        ),
+        4 => array(
+            'Id' => 4,
+            'Label' => 'Flash',
+        ),
+        5 => array(
+            'Id' => 10,
+            'Label' => 'Cloudy',
+        ),
+        6 => array(
+            'Id' => 11,
+            'Label' => 'Shade',
+        ),
+        7 => array(
+            'Id' => 0,
+            'Label' => 'Auto',
+        ),
+        8 => array(
+            'Id' => 1,
+            'Label' => 'Tungsten',
+        ),
+        9 => array(
+            'Id' => 2,
+            'Label' => 'Fluorescent',
+        ),
+        10 => array(
+            'Id' => 3,
+            'Label' => 'Daylight Fluorescent',
+        ),
+        11 => array(
+            'Id' => 4,
+            'Label' => 'Daylight',
+        ),
+        12 => array(
+            'Id' => 5,
+            'Label' => 'Flash',
+        ),
+        13 => array(
+            'Id' => 6,
+            'Label' => 'Cloudy',
+        ),
+        14 => array(
+            'Id' => 7,
+            'Label' => 'Shade',
+        ),
+        15 => array(
+            'Id' => 8,
+            'Label' => 'Manual',
+        ),
+        16 => array(
+            'Id' => 9,
+            'Label' => 'Kelvin',
+        ),
+    );
 
 }

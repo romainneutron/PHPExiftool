@@ -27,6 +27,27 @@ class FlashMetering extends \PHPExiftool\Driver\Tag
 
     protected $flag_Permanent = true;
 
-    protected $Values = 'mixed';
+    protected $Values = array(
+        0 => array(
+            'Id' => 0,
+            'Label' => 'ADI (Advanced Distance Integration)',
+        ),
+        1 => array(
+            'Id' => 1,
+            'Label' => 'Pre-flash TTL',
+        ),
+        2 => array(
+            'Id' => 2,
+            'Label' => 'Manual flash control',
+        ),
+        3 => array(
+            'Id' => 0,
+            'Label' => 'ADI (Advanced Distance Integration)',
+        ),
+        4 => array(
+            'Id' => 1,
+            'Label' => 'Pre-flash TTL',
+        ),
+    );
 
 }

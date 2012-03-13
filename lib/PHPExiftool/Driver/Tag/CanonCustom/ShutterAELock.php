@@ -27,6 +27,39 @@ class ShutterAELock extends \PHPExiftool\Driver\Tag
 
     protected $flag_Permanent = true;
 
-    protected $Values = 'mixed';
+    protected $Values = array(
+        0 => array(
+            'Id' => 0,
+            'Label' => 'AF/AE lock',
+        ),
+        1 => array(
+            'Id' => 1,
+            'Label' => 'AE lock/AF',
+        ),
+        2 => array(
+            'Id' => 2,
+            'Label' => 'AF/AF lock, No AE lock',
+        ),
+        3 => array(
+            'Id' => 3,
+            'Label' => 'AE/AF, No AE lock',
+        ),
+        4 => array(
+            'Id' => 0,
+            'Label' => 'AF/AE lock',
+        ),
+        5 => array(
+            'Id' => 1,
+            'Label' => 'AE lock/AF',
+        ),
+        6 => array(
+            'Id' => 2,
+            'Label' => 'AF/AF lock',
+        ),
+        7 => array(
+            'Id' => 3,
+            'Label' => 'AE+release/AE+AF',
+        ),
+    );
 
 }

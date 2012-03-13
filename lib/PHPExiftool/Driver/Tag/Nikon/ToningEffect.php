@@ -27,6 +27,51 @@ class ToningEffect extends \PHPExiftool\Driver\Tag
 
     protected $flag_Permanent = true;
 
-    protected $Values = 'mixed';
+    protected $Values = array(
+        128 => array(
+            'Id' => 128,
+            'Label' => 'B&W',
+        ),
+        129 => array(
+            'Id' => 129,
+            'Label' => 'Sepia',
+        ),
+        130 => array(
+            'Id' => 130,
+            'Label' => 'Cyanotype',
+        ),
+        131 => array(
+            'Id' => 131,
+            'Label' => 'Red',
+        ),
+        132 => array(
+            'Id' => 132,
+            'Label' => 'Yellow',
+        ),
+        133 => array(
+            'Id' => 133,
+            'Label' => 'Green',
+        ),
+        134 => array(
+            'Id' => 134,
+            'Label' => 'Blue-green',
+        ),
+        135 => array(
+            'Id' => 135,
+            'Label' => 'Blue',
+        ),
+        136 => array(
+            'Id' => 136,
+            'Label' => 'Purple-blue',
+        ),
+        137 => array(
+            'Id' => 137,
+            'Label' => 'Red-purple',
+        ),
+        255 => array(
+            'Id' => 255,
+            'Label' => 'n/a',
+        ),
+    );
 
 }

@@ -27,7 +27,32 @@ class AutoLightingOptimizer extends \PHPExiftool\Driver\Tag
 
     protected $flag_Permanent = true;
 
-    protected $Values = 'mixed';
+    protected $Values = array(
+        0 => array(
+            'Id' => 0,
+            'Label' => 'Standard',
+        ),
+        1 => array(
+            'Id' => 1,
+            'Label' => 'Low',
+        ),
+        2 => array(
+            'Id' => 2,
+            'Label' => 'Strong',
+        ),
+        3 => array(
+            'Id' => 3,
+            'Label' => 'Disable',
+        ),
+        4 => array(
+            'Id' => 0,
+            'Label' => 'Enable',
+        ),
+        5 => array(
+            'Id' => 1,
+            'Label' => 'Disable',
+        ),
+    );
 
     protected $Index = 'mixed';
 

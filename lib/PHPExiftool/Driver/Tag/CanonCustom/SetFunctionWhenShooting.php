@@ -27,6 +27,67 @@ class SetFunctionWhenShooting extends \PHPExiftool\Driver\Tag
 
     protected $flag_Permanent = true;
 
-    protected $Values = 'mixed';
+    protected $Values = array(
+        0 => array(
+            'Id' => 0,
+            'Label' => 'Default (no function)',
+        ),
+        1 => array(
+            'Id' => 1,
+            'Label' => 'Change quality',
+        ),
+        2 => array(
+            'Id' => 2,
+            'Label' => 'Change Parameters',
+        ),
+        3 => array(
+            'Id' => 3,
+            'Label' => 'Menu display',
+        ),
+        4 => array(
+            'Id' => 4,
+            'Label' => 'Image replay',
+        ),
+        5 => array(
+            'Id' => 0,
+            'Label' => 'Default (no function)',
+        ),
+        6 => array(
+            'Id' => 1,
+            'Label' => 'Change quality',
+        ),
+        7 => array(
+            'Id' => 2,
+            'Label' => 'Change Picture Style',
+        ),
+        8 => array(
+            'Id' => 3,
+            'Label' => 'Menu display',
+        ),
+        9 => array(
+            'Id' => 4,
+            'Label' => 'Image replay',
+        ),
+        10 => array(
+            'Id' => 0,
+            'Label' => 'Default (no function)',
+        ),
+        11 => array(
+            'Id' => 1,
+            'Label' => 'Change quality',
+        ),
+        12 => array(
+            'Id' => 2,
+            'Label' => 'Change Parameters',
+        ),
+        13 => array(
+            'Id' => 3,
+            'Label' => 'Menu display',
+        ),
+        14 => array(
+            'Id' => 4,
+            'Label' => 'Image replay',
+        ),
+    );
 
 }

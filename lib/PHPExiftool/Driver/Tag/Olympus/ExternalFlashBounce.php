@@ -27,6 +27,23 @@ class ExternalFlashBounce extends \PHPExiftool\Driver\Tag
 
     protected $flag_Permanent = true;
 
-    protected $Values = 'mixed';
+    protected $Values = array(
+        0 => array(
+            'Id' => 0,
+            'Label' => 'Bounce or Off',
+        ),
+        1 => array(
+            'Id' => 1,
+            'Label' => 'Direct',
+        ),
+        2 => array(
+            'Id' => 0,
+            'Label' => 'No',
+        ),
+        3 => array(
+            'Id' => 1,
+            'Label' => 'Yes',
+        ),
+    );
 
 }

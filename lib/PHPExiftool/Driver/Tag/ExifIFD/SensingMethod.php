@@ -21,7 +21,7 @@ class SensingMethod extends \PHPExiftool\Driver\Tag
 
     protected $Type = 'mixed';
 
-    protected $Writable = 'mixed';
+    protected $Writable = '';
 
     protected $Description = 'Sensing Method';
 
@@ -29,6 +29,67 @@ class SensingMethod extends \PHPExiftool\Driver\Tag
 
     protected $local_g2 = 'Camera';
 
-    protected $Values = 'mixed';
+    protected $Values = array(
+        0 => array(
+            'Id' => 1,
+            'Label' => 'Monochrome area',
+        ),
+        1 => array(
+            'Id' => 2,
+            'Label' => 'One-chip color area',
+        ),
+        2 => array(
+            'Id' => 3,
+            'Label' => 'Two-chip color area',
+        ),
+        3 => array(
+            'Id' => 4,
+            'Label' => 'Three-chip color area',
+        ),
+        4 => array(
+            'Id' => 5,
+            'Label' => 'Color sequential area',
+        ),
+        5 => array(
+            'Id' => 6,
+            'Label' => 'Monochrome linear',
+        ),
+        6 => array(
+            'Id' => 7,
+            'Label' => 'Trilinear',
+        ),
+        7 => array(
+            'Id' => 8,
+            'Label' => 'Color sequential linear',
+        ),
+        8 => array(
+            'Id' => 1,
+            'Label' => 'Not defined',
+        ),
+        9 => array(
+            'Id' => 2,
+            'Label' => 'One-chip color area',
+        ),
+        10 => array(
+            'Id' => 3,
+            'Label' => 'Two-chip color area',
+        ),
+        11 => array(
+            'Id' => 4,
+            'Label' => 'Three-chip color area',
+        ),
+        12 => array(
+            'Id' => 5,
+            'Label' => 'Color sequential area',
+        ),
+        13 => array(
+            'Id' => 7,
+            'Label' => 'Trilinear',
+        ),
+        14 => array(
+            'Id' => 8,
+            'Label' => 'Color sequential linear',
+        ),
+    );
 
 }

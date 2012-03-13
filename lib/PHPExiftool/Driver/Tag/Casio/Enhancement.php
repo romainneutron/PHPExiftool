@@ -27,6 +27,47 @@ class Enhancement extends \PHPExiftool\Driver\Tag
 
     protected $flag_Permanent = true;
 
-    protected $Values = 'mixed';
+    protected $Values = array(
+        0 => array(
+            'Id' => 1,
+            'Label' => 'Off',
+        ),
+        1 => array(
+            'Id' => 2,
+            'Label' => 'Red',
+        ),
+        2 => array(
+            'Id' => 3,
+            'Label' => 'Green',
+        ),
+        3 => array(
+            'Id' => 4,
+            'Label' => 'Blue',
+        ),
+        4 => array(
+            'Id' => 5,
+            'Label' => 'Flesh Tones',
+        ),
+        5 => array(
+            'Id' => 0,
+            'Label' => 'Off',
+        ),
+        6 => array(
+            'Id' => 1,
+            'Label' => 'Scenery',
+        ),
+        7 => array(
+            'Id' => 3,
+            'Label' => 'Green',
+        ),
+        8 => array(
+            'Id' => 5,
+            'Label' => 'Underwater',
+        ),
+        9 => array(
+            'Id' => 9,
+            'Label' => 'Flesh Tones',
+        ),
+    );
 
 }

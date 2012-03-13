@@ -27,6 +27,51 @@ class FlashMode extends \PHPExiftool\Driver\Tag
 
     protected $flag_Permanent = true;
 
-    protected $Values = 'mixed';
+    protected $Values = array(
+        0 => array(
+            'Id' => 0,
+            'Label' => 'Auto',
+        ),
+        1 => array(
+            'Id' => 1,
+            'Label' => 'Fill Flash',
+        ),
+        2 => array(
+            'Id' => 2,
+            'Label' => 'Off',
+        ),
+        3 => array(
+            'Id' => 3,
+            'Label' => 'Red-Eye',
+        ),
+        4 => array(
+            'Id' => 16,
+            'Label' => 'Fill Flash',
+        ),
+        5 => array(
+            'Id' => 32,
+            'Label' => 'Off',
+        ),
+        6 => array(
+            'Id' => 64,
+            'Label' => 'Red-Eye?',
+        ),
+        7 => array(
+            'Id' => 0,
+            'Label' => 'Auto',
+        ),
+        8 => array(
+            'Id' => 1,
+            'Label' => 'On',
+        ),
+        9 => array(
+            'Id' => 2,
+            'Label' => 'Off',
+        ),
+        10 => array(
+            'Id' => 3,
+            'Label' => 'Red-Eye',
+        ),
+    );
 
 }

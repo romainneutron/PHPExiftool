@@ -27,7 +27,112 @@ class CenterWeightedAreaSize extends \PHPExiftool\Driver\Tag
 
     protected $flag_Permanent = true;
 
-    protected $Values = 'mixed';
+    protected $Values = array(
+        0 => array(
+            'Id' => 0,
+            'Label' => '8 mm',
+        ),
+        1 => array(
+            'Id' => 32,
+            'Label' => '12 mm',
+        ),
+        2 => array(
+            'Id' => 64,
+            'Label' => '15 mm',
+        ),
+        3 => array(
+            'Id' => 96,
+            'Label' => '20 mm',
+        ),
+        4 => array(
+            'Id' => 128,
+            'Label' => 'Average',
+        ),
+        5 => array(
+            'Id' => 0,
+            'Label' => '6 mm',
+        ),
+        6 => array(
+            'Id' => 32,
+            'Label' => '8 mm',
+        ),
+        7 => array(
+            'Id' => 64,
+            'Label' => '10 mm',
+        ),
+        8 => array(
+            'Id' => 96,
+            'Label' => '13 mm',
+        ),
+        9 => array(
+            'Id' => 128,
+            'Label' => 'Average',
+        ),
+        10 => array(
+            'Id' => 0,
+            'Label' => '8 mm',
+        ),
+        11 => array(
+            'Id' => 16,
+            'Label' => '12 mm',
+        ),
+        12 => array(
+            'Id' => 32,
+            'Label' => '15 mm',
+        ),
+        13 => array(
+            'Id' => 48,
+            'Label' => '20 mm',
+        ),
+        14 => array(
+            'Id' => 64,
+            'Label' => 'Average',
+        ),
+        15 => array(
+            'Id' => 0,
+            'Label' => '6 mm',
+        ),
+        16 => array(
+            'Id' => 32,
+            'Label' => '8 mm',
+        ),
+        17 => array(
+            'Id' => 64,
+            'Label' => '10 mm',
+        ),
+        18 => array(
+            'Id' => 96,
+            'Label' => '13 mm',
+        ),
+        19 => array(
+            'Id' => 128,
+            'Label' => 'Average',
+        ),
+        20 => array(
+            'Id' => 0,
+            'Label' => '6 mm',
+        ),
+        21 => array(
+            'Id' => 4,
+            'Label' => '8 mm',
+        ),
+        22 => array(
+            'Id' => 8,
+            'Label' => '10 mm',
+        ),
+        23 => array(
+            'Id' => 0,
+            'Label' => '6 mm',
+        ),
+        24 => array(
+            'Id' => 32,
+            'Label' => '8 mm',
+        ),
+        25 => array(
+            'Id' => 64,
+            'Label' => '10 mm',
+        ),
+    );
 
     protected $Index = 'mixed';
 

@@ -21,7 +21,7 @@ class GPSImgDirection extends \PHPExiftool\Driver\Tag
 
     protected $Type = 'mixed';
 
-    protected $Writable = 'mixed';
+    protected $Writable = '';
 
     protected $Description = 'GPS Img Direction';
 

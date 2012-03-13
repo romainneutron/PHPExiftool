@@ -25,6 +25,23 @@ class Interlace extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Interlace';
 
-    protected $Values = 'mixed';
+    protected $Values = array(
+        0 => array(
+            'Id' => 0,
+            'Label' => 'Noninterlaced',
+        ),
+        1 => array(
+            'Id' => 1,
+            'Label' => 'Adam7 Interlace',
+        ),
+        2 => array(
+            'Id' => 0,
+            'Label' => 'Sequential',
+        ),
+        3 => array(
+            'Id' => 8,
+            'Label' => 'Progressive',
+        ),
+    );
 
 }

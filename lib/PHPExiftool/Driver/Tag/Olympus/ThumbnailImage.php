@@ -21,7 +21,7 @@ class ThumbnailImage extends \PHPExiftool\Driver\Tag
 
     protected $Type = 'undef';
 
-    protected $Writable = 'mixed';
+    protected $Writable = '';
 
     protected $Description = 'Thumbnail Image';
 

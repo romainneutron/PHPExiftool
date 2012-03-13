@@ -27,6 +27,31 @@ class EasyExposureCompensation extends \PHPExiftool\Driver\Tag
 
     protected $flag_Permanent = true;
 
-    protected $Values = 'mixed';
+    protected $Values = array(
+        0 => array(
+            'Id' => 0,
+            'Label' => 'Off',
+        ),
+        1 => array(
+            'Id' => 1,
+            'Label' => 'On',
+        ),
+        2 => array(
+            'Id' => 2,
+            'Label' => 'On (auto reset)',
+        ),
+        3 => array(
+            'Id' => 0,
+            'Label' => 'Off',
+        ),
+        4 => array(
+            'Id' => 1,
+            'Label' => 'On',
+        ),
+        5 => array(
+            'Id' => 2,
+            'Label' => 'On Auto Reset',
+        ),
+    );
 
 }

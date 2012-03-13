@@ -27,6 +27,75 @@ class MirrorLockup extends \PHPExiftool\Driver\Tag
 
     protected $flag_Permanent = true;
 
-    protected $Values = 'mixed';
+    protected $Values = array(
+        0 => array(
+            'Id' => 0,
+            'Label' => 'Disable',
+        ),
+        1 => array(
+            'Id' => 1,
+            'Label' => 'Enable',
+        ),
+        2 => array(
+            'Id' => 0,
+            'Label' => 'Disable',
+        ),
+        3 => array(
+            'Id' => 1,
+            'Label' => 'Enable',
+        ),
+        4 => array(
+            'Id' => 2,
+            'Label' => 'Enable: Down with Set',
+        ),
+        5 => array(
+            'Id' => 0,
+            'Label' => 'Disable',
+        ),
+        6 => array(
+            'Id' => 1,
+            'Label' => 'Enable',
+        ),
+        7 => array(
+            'Id' => 0,
+            'Label' => 'Disable',
+        ),
+        8 => array(
+            'Id' => 1,
+            'Label' => 'Enable',
+        ),
+        9 => array(
+            'Id' => 0,
+            'Label' => 'Disable',
+        ),
+        10 => array(
+            'Id' => 1,
+            'Label' => 'Enable',
+        ),
+        11 => array(
+            'Id' => 0,
+            'Label' => 'Disable',
+        ),
+        12 => array(
+            'Id' => 1,
+            'Label' => 'Enable',
+        ),
+        13 => array(
+            'Id' => 0,
+            'Label' => 'Disable',
+        ),
+        14 => array(
+            'Id' => 1,
+            'Label' => 'Enable',
+        ),
+        15 => array(
+            'Id' => 0,
+            'Label' => 'Disable',
+        ),
+        16 => array(
+            'Id' => 1,
+            'Label' => 'Enable',
+        ),
+    );
 
 }

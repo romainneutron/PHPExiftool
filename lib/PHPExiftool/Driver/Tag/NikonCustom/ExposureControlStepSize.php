@@ -27,6 +27,27 @@ class ExposureControlStepSize extends \PHPExiftool\Driver\Tag
 
     protected $flag_Permanent = true;
 
-    protected $Values = 'mixed';
+    protected $Values = array(
+        0 => array(
+            'Id' => 0,
+            'Label' => '1/3 EV',
+        ),
+        1 => array(
+            'Id' => 16,
+            'Label' => '1/2 EV',
+        ),
+        2 => array(
+            'Id' => 32,
+            'Label' => '1 EV',
+        ),
+        3 => array(
+            'Id' => 0,
+            'Label' => '1/3 EV',
+        ),
+        4 => array(
+            'Id' => 64,
+            'Label' => '1/2 EV',
+        ),
+    );
 
 }

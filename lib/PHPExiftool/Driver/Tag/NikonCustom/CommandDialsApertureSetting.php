@@ -27,6 +27,23 @@ class CommandDialsApertureSetting extends \PHPExiftool\Driver\Tag
 
     protected $flag_Permanent = true;
 
-    protected $Values = 'mixed';
+    protected $Values = array(
+        0 => array(
+            'Id' => 0,
+            'Label' => 'Sub-command Dial',
+        ),
+        1 => array(
+            'Id' => 32,
+            'Label' => 'Aperture Ring',
+        ),
+        2 => array(
+            'Id' => 0,
+            'Label' => 'Sub-command Dial',
+        ),
+        3 => array(
+            'Id' => 4,
+            'Label' => 'Aperture Ring',
+        ),
+    );
 
 }

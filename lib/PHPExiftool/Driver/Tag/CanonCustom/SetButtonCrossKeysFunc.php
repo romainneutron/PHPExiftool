@@ -27,6 +27,47 @@ class SetButtonCrossKeysFunc extends \PHPExiftool\Driver\Tag
 
     protected $flag_Permanent = true;
 
-    protected $Values = 'mixed';
+    protected $Values = array(
+        0 => array(
+            'Id' => 0,
+            'Label' => 'Normal',
+        ),
+        1 => array(
+            'Id' => 1,
+            'Label' => 'Set: Quality',
+        ),
+        2 => array(
+            'Id' => 2,
+            'Label' => 'Set: Parameter',
+        ),
+        3 => array(
+            'Id' => 3,
+            'Label' => 'Set: Playback',
+        ),
+        4 => array(
+            'Id' => 4,
+            'Label' => 'Cross keys: AF point select',
+        ),
+        5 => array(
+            'Id' => 0,
+            'Label' => 'Set: Picture Style',
+        ),
+        6 => array(
+            'Id' => 1,
+            'Label' => 'Set: Quality',
+        ),
+        7 => array(
+            'Id' => 2,
+            'Label' => 'Set: Flash Exposure Comp',
+        ),
+        8 => array(
+            'Id' => 3,
+            'Label' => 'Set: Playback',
+        ),
+        9 => array(
+            'Id' => 4,
+            'Label' => 'Cross keys: AF point select',
+        ),
+    );
 
 }

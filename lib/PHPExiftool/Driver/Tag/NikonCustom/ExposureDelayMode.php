@@ -27,6 +27,47 @@ class ExposureDelayMode extends \PHPExiftool\Driver\Tag
 
     protected $flag_Permanent = true;
 
-    protected $Values = 'mixed';
+    protected $Values = array(
+        0 => array(
+            'Id' => 0,
+            'Label' => 'Off',
+        ),
+        1 => array(
+            'Id' => 64,
+            'Label' => 'On',
+        ),
+        2 => array(
+            'Id' => 0,
+            'Label' => 'Off',
+        ),
+        3 => array(
+            'Id' => 4,
+            'Label' => 'On',
+        ),
+        4 => array(
+            'Id' => 0,
+            'Label' => 'Off',
+        ),
+        5 => array(
+            'Id' => 64,
+            'Label' => 'On',
+        ),
+        6 => array(
+            'Id' => 0,
+            'Label' => 'Off',
+        ),
+        7 => array(
+            'Id' => 32,
+            'Label' => 'On',
+        ),
+        8 => array(
+            'Id' => 0,
+            'Label' => 'Off',
+        ),
+        9 => array(
+            'Id' => 64,
+            'Label' => 'On',
+        ),
+    );
 
 }

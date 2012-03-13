@@ -27,6 +27,31 @@ class ManualTv extends \PHPExiftool\Driver\Tag
 
     protected $flag_Permanent = true;
 
-    protected $Values = 'mixed';
+    protected $Values = array(
+        0 => array(
+            'Id' => 0,
+            'Label' => 'Tv=Main/Av=Control',
+        ),
+        1 => array(
+            'Id' => 1,
+            'Label' => 'Tv=Control/Av=Main',
+        ),
+        2 => array(
+            'Id' => 2,
+            'Label' => 'Tv=Main/Av=Main w/o lens',
+        ),
+        3 => array(
+            'Id' => 3,
+            'Label' => 'Tv=Control/Av=Main w/o lens',
+        ),
+        4 => array(
+            'Id' => 0,
+            'Label' => 'Tv=Main/Av=Control',
+        ),
+        5 => array(
+            'Id' => 1,
+            'Label' => 'Tv=Control/Av=Main',
+        ),
+    );
 
 }

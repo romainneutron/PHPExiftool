@@ -27,6 +27,39 @@ class FocusMode extends \PHPExiftool\Driver\Tag
 
     protected $flag_Permanent = true;
 
-    protected $Values = 'mixed';
+    protected $Values = array(
+        0 => array(
+            'Id' => 0,
+            'Label' => 'Single AF',
+        ),
+        1 => array(
+            'Id' => 1,
+            'Label' => 'Sequential shooting AF',
+        ),
+        2 => array(
+            'Id' => 2,
+            'Label' => 'Continuous AF',
+        ),
+        3 => array(
+            'Id' => 3,
+            'Label' => 'Multi AF',
+        ),
+        4 => array(
+            'Id' => 5,
+            'Label' => 'Face detect',
+        ),
+        5 => array(
+            'Id' => 10,
+            'Label' => 'MF',
+        ),
+        6 => array(
+            'Id' => 0,
+            'Label' => 'Auto',
+        ),
+        7 => array(
+            'Id' => 1,
+            'Label' => 'Manual',
+        ),
+    );
 
 }

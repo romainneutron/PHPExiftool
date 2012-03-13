@@ -27,6 +27,71 @@ class MonitorOffTime extends \PHPExiftool\Driver\Tag
 
     protected $flag_Permanent = true;
 
-    protected $Values = 'mixed';
+    protected $Values = array(
+        0 => array(
+            'Id' => 0,
+            'Label' => '10 s',
+        ),
+        1 => array(
+            'Id' => 1,
+            'Label' => '20 s',
+        ),
+        2 => array(
+            'Id' => 2,
+            'Label' => '1 min',
+        ),
+        3 => array(
+            'Id' => 3,
+            'Label' => '5 min',
+        ),
+        4 => array(
+            'Id' => 4,
+            'Label' => '10 min',
+        ),
+        5 => array(
+            'Id' => 0,
+            'Label' => '4 s',
+        ),
+        6 => array(
+            'Id' => 32,
+            'Label' => '8 s',
+        ),
+        7 => array(
+            'Id' => 64,
+            'Label' => '20 s',
+        ),
+        8 => array(
+            'Id' => 96,
+            'Label' => '1 min',
+        ),
+        9 => array(
+            'Id' => 128,
+            'Label' => '10 min',
+        ),
+        10 => array(
+            'Id' => 0,
+            'Label' => '5 s',
+        ),
+        11 => array(
+            'Id' => 32,
+            'Label' => '10 s',
+        ),
+        12 => array(
+            'Id' => 64,
+            'Label' => '20 s',
+        ),
+        13 => array(
+            'Id' => 96,
+            'Label' => '1 min',
+        ),
+        14 => array(
+            'Id' => 128,
+            'Label' => '5 min',
+        ),
+        15 => array(
+            'Id' => 160,
+            'Label' => '10 min',
+        ),
+    );
 
 }

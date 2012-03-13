@@ -27,6 +27,39 @@ class ScreenTips extends \PHPExiftool\Driver\Tag
 
     protected $flag_Permanent = true;
 
-    protected $Values = 'mixed';
+    protected $Values = array(
+        0 => array(
+            'Id' => 0,
+            'Label' => 'On',
+        ),
+        1 => array(
+            'Id' => 16,
+            'Label' => 'Off',
+        ),
+        2 => array(
+            'Id' => 0,
+            'Label' => 'Off',
+        ),
+        3 => array(
+            'Id' => 8,
+            'Label' => 'On',
+        ),
+        4 => array(
+            'Id' => 0,
+            'Label' => 'Off',
+        ),
+        5 => array(
+            'Id' => 4,
+            'Label' => 'On',
+        ),
+        6 => array(
+            'Id' => 0,
+            'Label' => 'Off',
+        ),
+        7 => array(
+            'Id' => 4,
+            'Label' => 'On',
+        ),
+    );
 
 }

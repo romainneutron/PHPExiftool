@@ -27,6 +27,47 @@ class AIServoTrackingSensitivity extends \PHPExiftool\Driver\Tag
 
     protected $flag_Permanent = true;
 
-    protected $Values = 'mixed';
+    protected $Values = array(
+        0 => array(
+            'Id' => 0,
+            'Label' => 'Standard',
+        ),
+        1 => array(
+            'Id' => 1,
+            'Label' => 'Slow',
+        ),
+        2 => array(
+            'Id' => 2,
+            'Label' => 'Moderately slow',
+        ),
+        3 => array(
+            'Id' => 3,
+            'Label' => 'Moderately fast',
+        ),
+        4 => array(
+            'Id' => 4,
+            'Label' => 'Fast',
+        ),
+        5 => array(
+            'Id' => '-2',
+            'Label' => 'Slow',
+        ),
+        6 => array(
+            'Id' => '-1',
+            'Label' => 'Medium Slow',
+        ),
+        7 => array(
+            'Id' => 0,
+            'Label' => 'Standard',
+        ),
+        8 => array(
+            'Id' => 1,
+            'Label' => 'Medium Fast',
+        ),
+        9 => array(
+            'Id' => 2,
+            'Label' => 'Fast',
+        ),
+    );
 
 }
