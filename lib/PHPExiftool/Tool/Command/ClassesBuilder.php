@@ -263,7 +263,34 @@ class ClassesBuilder extends Command
       {
         if ($this->classes[$classpath]->getProperty($property) != $value)
         {
-          $this->classes[$classpath]->setProperty($property, 'mixed');
+          if($property === 'Writable')
+          {
+            $this->classes[$classpath]->setProperty($property, false);
+          }
+          elseif($property === 'Values')
+          {
+            $new_value = array();
+
+            if(!is_array($this->classes[$classpath]->getProperty($property)))
+            {
+              if(is_array($value))
+                $new_value = $value;
+            }
+            else
+            {
+              if(is_array($value) && $this->classes[$classpath]->getProperty($property) != $value)
+                $new_value = array_merge($this->classes[$classpath]->getProperty($property), $value);
+              else
+                $new_value = $this->classes[$classpath]->getProperty($property);
+            }
+
+
+            $this->classes[$classpath]->setProperty($property, $new_value);
+          }
+          else
+          {
+            $this->classes[$classpath]->setProperty($property, 'mixed');
+          }
         }
       }
     }
@@ -375,6 +402,7 @@ class ClassesBuilder extends Command
         $properties = array_merge(array(
           'Id'          => $tag_id,
           'Name'        => $tag_name,
+          'TagPath'     => $g_name . ':' . $tag_name,
           'FullName'    => $tag_full_name,
           'GroupName'   => $g_name,
           'g0'          => $tag_g0,
