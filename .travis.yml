@@ -1,5 +1,10 @@
 language: php
-before_script: php vendors.php
+
+before_script:
+  - php vendors.php
+  - curl -s http://getcomposer.org/installer | php
+  - php composer.phar install
+
 php:
   - 5.3
   - 5.4
