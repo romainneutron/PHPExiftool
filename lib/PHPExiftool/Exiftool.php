@@ -19,7 +19,6 @@
  * IN THE SOFTWARE.
  */
 
-
 namespace PHPExiftool;
 
 use \Symfony\Component\Process\Process;
@@ -103,6 +102,11 @@ class Exiftool
     return $namespaces;
   }
 
+  /**
+   *
+   * @param \SplFileInfo $file
+   * @return \Driver\Metadata\MetadataBag
+   */
   public static function getMetadatas(\SplFileInfo $file)
   {
     $XML = static::executeCommand(self::getBinary() . ' -X ' . escapeshellarg($file->getPathname()));
@@ -124,12 +128,7 @@ class Exiftool
 
     foreach ($nodes as $node)
     {
-      $tagname   = $node->nodeName;
-      $metaValue = $node->nodeValue;
-      if ($node->getElementsByTagNameNS('http://www.w3.org/1999/02/22-rdf-syntax-ns#', 'li')->length > 0)
-      {
-        echo "MULTI\n";
-      }
+      $tagname = $node->nodeName;
 
       if (strpos($tagname, 'CIFF:') === 0)
       {
@@ -154,8 +153,37 @@ class Exiftool
       {
         $tag = Driver\TagFactory::getFromRDFTagname($tagname);
 
-        $metadata = new Driver\Metadata\Metadata($tag, $metaValue);
+        $metaValue = null;
 
+        if (!$tag->isBinary())
+        {
+          if ($tag->isMulti())
+          {
+            $metaValue = new Driver\Metadata\MultiBag();
+
+            foreach ($node->getElementsByTagNameNS('http://www.w3.org/1999/02/22-rdf-syntax-ns#', 'li') as $nodeElement)
+            {
+              $metaValue->add($nodeElement->nodeValue);
+            }
+          }
+          else
+          {
+
+            switch ($node->getAttribute('rdf:datatype'))
+            {
+              case 'http://www.w3.org/2001/XMLSchema#base64Binary':
+                $metaValue = base64_decode($node->nodeValue);
+                break;
+              case '';
+              default:
+                $metaValue = $node->nodeValue;
+                break;
+            }
+          }
+        }
+
+
+        $metadata = new Driver\Metadata\Metadata($tag, $metaValue, $file);
 
         if ($metadatas->containsKey($tagname))
         {
@@ -166,7 +194,7 @@ class Exiftool
           }
           else
           {
-            echo "Bag for " . $file->getFileName() . " already contains $tagname with different value - " . $previousMeta->getValue() . " and $metaValue\n";
+//            echo "Bag for " . $file->getFileName() . " already contains $tagname with different value - " . $previousMeta->getValue() . " and $metaValue\n";
           }
         }
 
@@ -174,7 +202,7 @@ class Exiftool
       }
       catch (Exception\TagUnknown $e)
       {
-        echo "cannot read " . $file->getFileName() . " // $tagname as $metaValue \n";
+//        echo "cannot read " . $file->getFileName() . " // $tagname as $metaValue \n";
       }
     }
 

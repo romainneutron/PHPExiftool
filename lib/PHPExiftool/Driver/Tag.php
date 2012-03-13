@@ -35,28 +35,23 @@ abstract class Tag
   protected $Type;
   protected $Description;
   protected $Values;
+  protected $FullName;
+  protected $GroupName;
+  protected $g0;
+  protected $g1;
+  protected $g2;
+  protected $Writable       = false;
+  protected $flag_Avoid     = false;
+  protected $flag_Binary    = false;
+  protected $flag_Permanent = false;
+  protected $flag_Protected = false;
+  protected $flag_Unsafe    = false;
+  protected $flag_List      = false;
+  protected $flag_Mandatory = false;
+  protected $flag_Bag       = false;
+  protected $flag_Seq       = false;
+  protected $flag_Alt       = false;
 
-
-    protected $flag_Avoid = false;
-
-    protected $flag_Binary = false;
-
-    protected $flag_Permanent = false;
-
-    protected $flag_Protected = false;
-
-    protected $flag_Unsafe = false;
-
-    protected $flag_List = false;
-
-    protected $flag_Mandatory = false;
-
-    protected $flag_Bag = false;
-
-    protected $flag_Seq = false;
-
-    protected $flag_Alt = false;
-    
   public function getId()
   {
     return $this->Id;
@@ -100,6 +95,61 @@ abstract class Tag
   public function getValues()
   {
     return $this->Values;
+  }
+
+  public function isMulti()
+  {
+    return $this->flag_List;
+  }
+
+  public function isAvoid()
+  {
+    return $this->flag_Avoid;
+  }
+
+  public function isBinary()
+  {
+    return $this->flag_Binary;
+  }
+
+  public function isLangAlt()
+  {
+    return $this->flag_Alt;
+  }
+
+  public function getFullName()
+  {
+    return $this->FullName;
+  }
+
+  public function getGroupName()
+  {
+    return $this->GroupName;
+  }
+
+  public function getG0()
+  {
+    return $this->g0;
+  }
+
+  public function getG1()
+  {
+    return $this->g1;
+  }
+
+  public function getG2()
+  {
+    return $this->g2;
+  }
+
+  public function isWritable()
+  {
+    return $this->Writable;
+  }
+
+  public function getTagname()
+  {
+    return $this->GroupName.':'.$this->Name;
   }
 
 }
