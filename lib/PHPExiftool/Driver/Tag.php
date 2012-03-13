@@ -52,104 +52,95 @@ abstract class Tag
   protected $flag_Seq       = false;
   protected $flag_Alt       = false;
 
+  /**
+   * Return Tag Id - Tag dependant
+   *
+   * @return string
+   */
   public function getId()
   {
     return $this->Id;
   }
 
-  public function setId($Id)
-  {
-    $this->Id = $Id;
-  }
-
+  /**
+   * Return the tag name
+   *
+   * @return string
+   */
   public function getName()
   {
     return $this->Name;
   }
 
-  public function setName($Name)
-  {
-    $this->Name = $Name;
-  }
-
-  public function getType()
-  {
-    return $this->Type;
-  }
-
-  public function setType($Type)
-  {
-    $this->Type = $Type;
-  }
-
+  /**
+   * A small string about the Tag
+   *
+   * @return string
+   */
   public function getDescription()
   {
     return $this->Description;
   }
 
-  public function setDescription($Description)
-  {
-    $this->Description = $Description;
-  }
-
+  /**
+   * An array of available values for this tag
+   * Other values should not be allowed
+   *
+   * @return array
+   */
   public function getValues()
   {
     return $this->Values;
   }
 
+  /**
+   * Returns true if the Tag handles list values
+   *
+   * @return boolean
+   */
   public function isMulti()
   {
     return $this->flag_List;
   }
 
-  public function isAvoid()
-  {
-    return $this->flag_Avoid;
-  }
-
+  /**
+   * Returns true if the value is binary
+   *
+   * @return type
+   */
   public function isBinary()
   {
     return $this->flag_Binary;
   }
 
-  public function isLangAlt()
-  {
-    return $this->flag_Alt;
-  }
-
-  public function getFullName()
-  {
-    return $this->FullName;
-  }
-
+  /**
+   * Returns tag group name
+   *
+   * @return string
+   */
   public function getGroupName()
   {
     return $this->GroupName;
   }
 
-  public function getG0()
-  {
-    return $this->g0;
-  }
-
-  public function getG1()
-  {
-    return $this->g1;
-  }
-
-  public function getG2()
-  {
-    return $this->g2;
-  }
-
+  /**
+   * Returns true if the value can be written in the tag
+   *
+   * @return type
+   */
   public function isWritable()
   {
     return $this->Writable;
   }
 
+  /**
+   * Return the tagname path ; ie GroupName:Name
+   *
+   * @return type
+   */
   public function getTagname()
   {
-    return $this->GroupName.':'.$this->Name;
+    return $this->GroupName . ':' . $this->Name;
   }
 
 }
