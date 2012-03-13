@@ -267,6 +267,14 @@ class ClassesBuilder extends Command
           {
             $this->classes[$classpath]->setProperty($property, 'false');
           }
+          elseif($property === 'flag_Binary')
+          {
+            $this->classes[$classpath]->setProperty($property, 'false');
+          }
+          elseif($property === 'flag_List')
+          {
+            $this->classes[$classpath]->setProperty($property, 'false');
+          }
           elseif($property === 'Values')
           {
             $new_value = array();
