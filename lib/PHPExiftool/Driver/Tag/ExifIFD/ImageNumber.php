@@ -21,7 +21,7 @@ class ImageNumber extends \PHPExiftool\Driver\Tag
 
     protected $Type = 'mixed';
 
-    protected $Writable = 'mixed';
+    protected $Writable = false;
 
     protected $Description = 'Image Number';
 

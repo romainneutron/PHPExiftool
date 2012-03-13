@@ -21,7 +21,7 @@ class LensType extends \PHPExiftool\Driver\Tag
 
     protected $Type = 'int8u';
 
-    protected $Writable = 'mixed';
+    protected $Writable = false;
 
     protected $Description = 'Lens Type';
 

@@ -220,6 +220,6 @@ class CPUType extends \PHPExiftool\Driver\Tag
         ),
     );
 
-    protected $flag_List = 'mixed';
+    protected $flag_List = false;
 
 }

@@ -21,7 +21,7 @@ class GPSStatus extends \PHPExiftool\Driver\Tag
 
     protected $Type = 'string';
 
-    protected $Writable = 'mixed';
+    protected $Writable = false;
 
     protected $Description = 'GPS Status';
 

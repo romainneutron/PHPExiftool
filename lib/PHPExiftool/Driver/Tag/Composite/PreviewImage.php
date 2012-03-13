@@ -21,7 +21,7 @@ class PreviewImage extends \PHPExiftool\Driver\Tag
 
     protected $Type = '?';
 
-    protected $Writable = 'mixed';
+    protected $Writable = false;
 
     protected $Description = 'Preview Image';
 

@@ -21,7 +21,7 @@ class ISO extends \PHPExiftool\Driver\Tag
 
     protected $Type = 'int32u';
 
-    protected $Writable = 'mixed';
+    protected $Writable = false;
 
     protected $Description = 'ISO';
 

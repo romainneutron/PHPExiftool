@@ -21,7 +21,7 @@ class AFPointsInFocus extends \PHPExiftool\Driver\Tag
 
     protected $Type = 'mixed';
 
-    protected $Writable = 'mixed';
+    protected $Writable = false;
 
     protected $Description = 'AF Points In Focus';
 
