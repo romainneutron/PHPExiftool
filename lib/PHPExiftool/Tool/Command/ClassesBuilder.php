@@ -324,45 +324,45 @@ class ClassesBuilder extends Command
         $flags = explode(',', $tag_crawler->attr('flags'));
 
 
-        if(in_array('Avoid', $flags))
+        if (in_array('Avoid', $flags))
         {
-          $extra['flag_Avoid']  = 'true';
+          $extra['flag_Avoid'] = 'true';
         }
-        if(in_array('Binary', $flags))
+        if (in_array('Binary', $flags))
         {
-        $extra['flag_Binary']  = 'true';
+          $extra['flag_Binary'] = 'true';
         }
-        if(in_array('Permanent', $flags))
+        if (in_array('Permanent', $flags))
         {
-          $extra['flag_Permanent']  = 'true';
+          $extra['flag_Permanent'] = 'true';
         }
-        if(in_array('Protected', $flags))
+        if (in_array('Protected', $flags))
         {
           $extra['flag_Protected'] = 'true';
         }
-        if(in_array('Unsafe', $flags))
+        if (in_array('Unsafe', $flags))
         {
-          $extra['flag_Unsafe']   = 'true';
+          $extra['flag_Unsafe'] = 'true';
         }
-        if(in_array('List', $flags))
+        if (in_array('List', $flags))
         {
-          $extra['flag_List']    = 'true';
+          $extra['flag_List'] = 'true';
         }
-        if(in_array('Mandatory', $flags))
+        if (in_array('Mandatory', $flags))
         {
-          $extra['flag_Mandatory']  = 'true';
+          $extra['flag_Mandatory'] = 'true';
         }
-        if(in_array('Bag', $flags))
+        if (in_array('Bag', $flags))
         {
-          $extra['flag_Bag']    = 'true';
+          $extra['flag_Bag'] = 'true';
         }
-        if(in_array('Seq', $flags))
+        if (in_array('Seq', $flags))
         {
-          $extra['flag_Seq']     = 'true';
+          $extra['flag_Seq'] = 'true';
         }
-        if(in_array('Alt', $flags))
+        if (in_array('Alt', $flags))
         {
-          $extra['flag_Alt']     = 'true';
+          $extra['flag_Alt'] = 'true';
         }
 
         $subspace = str_replace('::', '\\', $g_name);
@@ -373,16 +373,16 @@ class ClassesBuilder extends Command
         $tag_id    = $tag_crawler->attr('id');
 
         $properties = array_merge(array(
-          'Id'             => $tag_id,
-          'Name'           => $tag_name,
-          'FullName'       => $tag_full_name,
-          'GroupName'      => $g_name,
-          'g0'             => $tag_g0,
-          'g1'             => $tag_group_name,
-          'g2'             => $tag_g2,
-          'Type'           => $tag_crawler->attr('type'),
-          'Writable'       => $tag_crawler->attr('writable'),
-          'Description'    => $tag_crawler->filter('desc[lang="en"]')->first()->text(),
+          'Id'          => $tag_id,
+          'Name'        => $tag_name,
+          'FullName'    => $tag_full_name,
+          'GroupName'   => $g_name,
+          'g0'          => $tag_g0,
+          'g1'          => $tag_group_name,
+          'g2'          => $tag_g2,
+          'Type'        => $tag_crawler->attr('type'),
+          'Writable'    => $tag_crawler->attr('writable'),
+          'Description' => $tag_crawler->filter('desc[lang="en"]')->first()->text(),
           ), $extra);
 
         $this->types[$tag_crawler->attr('type')] = $tag_crawler->attr('type');
@@ -421,6 +421,20 @@ class ClassesBuilder extends Command
     $this->generateTypes();
   }
 
+  protected static $reservedNames =
+    array(
+    'abstract', 'and', 'array', 'as', 'break', 'case'
+    , 'catch', 'function', 'class', 'clone'
+    , 'const', 'continue', 'declare', 'default', 'do'
+    , 'else', 'elseif', 'enddeclare', 'endfor'
+    , 'endforeach', 'endif', 'endswitch', 'endwhile', 'extends', 'final'
+    , 'for', 'foreach', 'function', 'global', 'goto', 'if'
+    , 'implements', 'interface'
+    , 'instanceof', 'namespace', 'new', 'old_function'
+    , 'or', 'private', 'protected', 'public', 'static'
+    , 'switch', 'throw', 'try', 'use', 'var', 'while', 'xor'
+  );
+
   /**
    *
    * @param type $name
@@ -432,15 +446,18 @@ class ClassesBuilder extends Command
 
     foreach ($values as $key => $value)
     {
-      $values[$key] = ucfirst($value);
 
-      if ($values[$key] == 'Class')
-      {
-        $values[$key] = 'Class0';
-      }
+      $values[$key] = ucfirst($value);
     }
 
-    return implode('', $values);
+    $retval = implode('', $values);
+
+    if (in_array(strtolower($retval), static::$reservedNames))
+    {
+      $retval = $retval . '0';
+    }
+
+    return $retval;
   }
 
   public static function generateNamespace($namespace)
