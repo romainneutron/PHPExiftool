@@ -21,7 +21,7 @@ class KodakImageWidth extends \PHPExiftool\Driver\Tag
 
     protected $Type = 'mixed';
 
-    protected $Writable = '';
+    protected $Writable = false;
 
     protected $Description = 'Kodak Image Width';
 

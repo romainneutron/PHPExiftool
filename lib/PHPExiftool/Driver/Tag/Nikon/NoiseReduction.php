@@ -21,7 +21,7 @@ class NoiseReduction extends \PHPExiftool\Driver\Tag
 
     protected $Type = 'string';
 
-    protected $Writable = '';
+    protected $Writable = false;
 
     protected $Description = 'Noise Reduction';
 

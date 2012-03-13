@@ -21,7 +21,7 @@ class ExposureCompensation extends \PHPExiftool\Driver\Tag
 
     protected $Type = 'rational64s';
 
-    protected $Writable = '';
+    protected $Writable = false;
 
     protected $Description = 'Exposure Compensation';
 

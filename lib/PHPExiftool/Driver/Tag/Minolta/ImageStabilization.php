@@ -21,7 +21,7 @@ class ImageStabilization extends \PHPExiftool\Driver\Tag
 
     protected $Type = 'mixed';
 
-    protected $Writable = '';
+    protected $Writable = false;
 
     protected $Description = 'Image Stabilization';
 

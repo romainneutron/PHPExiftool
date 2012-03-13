@@ -21,7 +21,7 @@ class ExposureTime extends \PHPExiftool\Driver\Tag
 
     protected $Type = 'int32u';
 
-    protected $Writable = '';
+    protected $Writable = false;
 
     protected $Description = 'Exposure Time';
 

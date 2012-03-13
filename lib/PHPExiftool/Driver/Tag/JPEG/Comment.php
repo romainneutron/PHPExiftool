@@ -21,7 +21,7 @@ class Comment extends \PHPExiftool\Driver\Tag
 
     protected $Type = '?';
 
-    protected $Writable = '';
+    protected $Writable = false;
 
     protected $Description = 'Comment';
 
