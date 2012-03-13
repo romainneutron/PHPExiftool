@@ -1,24 +1,3 @@
-[submodule "lib/vendor/Symfony/Component/CssSelector"]
-	path = lib/vendor/Symfony/Component/CssSelector
-	url = git://github.com/symfony/CssSelector.git
-[submodule "lib/vendor/Symfony/Component/ClassLoader"]
-	path = lib/vendor/Symfony/Component/ClassLoader
-	url = git://github.com/symfony/ClassLoader.git
-[submodule "lib/vendor/Symfony/Component/Console"]
-	path = lib/vendor/Symfony/Component/Console
-	url = git://github.com/symfony/Console.git
-[submodule "lib/vendor/Symfony/Component/DomCrawler"]
-	path = lib/vendor/Symfony/Component/DomCrawler
-	url = git://github.com/symfony/DomCrawler.git
-[submodule "lib/vendor/Symfony/Component/Finder"]
-	path = lib/vendor/Symfony/Component/Finder
-	url = git://github.com/symfony/Finder.git
-[submodule "lib/vendor/Symfony/Component/Process"]
-	path = lib/vendor/Symfony/Component/Process
-	url = git://github.com/symfony/Process.git
 [submodule "lib/vendor/Exiftool"]
 	path = lib/vendor/Exiftool
-	url = git@github.com:alchemy-fr/exiftool.git
-[submodule "lib/vendor/Doctrine-Common"]
-	path = lib/vendor/Doctrine-Common
-	url = git://github.com/doctrine/common.git
+	url = git://github.com/alchemy-fr/exiftool.git
