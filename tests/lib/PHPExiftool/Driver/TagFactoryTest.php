@@ -18,8 +18,7 @@ class TagFactoryTest extends \PHPUnit_Framework_TestCase
 
 
   /**
-   * @covers {className}::{origMethodName}
-   * @todo Implement testGetFromRDFTagname().
+   * @covers \PHPExiftool\Driver\TagFactory::GetFromRDFTagname
    */
   public function testGetFromRDFTagname()
   {
@@ -42,4 +41,3 @@ class TagFactoryTest extends \PHPUnit_Framework_TestCase
 
 }
 
-?>

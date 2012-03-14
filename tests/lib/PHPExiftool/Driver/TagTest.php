@@ -18,15 +18,6 @@ class TagTest extends \PHPUnit_Framework_TestCase
    */
   protected $object;
 
-  /**
-   * Tears down the fixture, for example, closes a network connection.
-   * This method is called after a test is executed.
-   */
-  protected function tearDown()
-  {
-
-  }
-
   public function testConsistency()
   {
 
@@ -54,7 +45,7 @@ class TagTest extends \PHPUnit_Framework_TestCase
       $this->assertTrue(is_scalar($tag->getTagname()));
       $this->assertTrue(is_scalar($tag->getId()));
 
-      if($tag->getValues() !== null)
+      if ($tag->getValues() !== null)
         $this->assertTrue(is_array($tag->getValues()));
 
 
