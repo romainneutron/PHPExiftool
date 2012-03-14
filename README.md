@@ -14,7 +14,7 @@ Examples of use :
 
 Extract metadata :
 
-<pre>
+```php
 <?php
 
 $metadatas = \PHPExiftool\Exiftool::getMetadatas(new SplFileInfo('RawImage.CR2'));
@@ -35,6 +35,6 @@ foreach($metadatas as $metadata)
     // Handle monovalued field
   }
 }
-</pre>
+```
 
 
