@@ -29,7 +29,7 @@ namespace PHPExiftool\Tool\Command;
 use \Symfony\Component\Console\Command\Command,
     \Symfony\Component\Console\Output\ConsoleOutput,
     \Symfony\Component\Console\Input\InputInterface,
-    \Symfony\Component\Console\Input\OutputInterface,
+    \Symfony\Component\Console\Output\OutputInterface,
     \PHPExiftool\ClassUtils\Builder,
     \PHPExiftool\Exiftool,
     \Symfony\Component\DomCrawler\Crawler;
@@ -73,7 +73,7 @@ class ClassesBuilder extends Command
   /**
    * @see Console\Command\Command
    */
-  protected function execute(InputInterface $input, ConsoleOutput $output)
+  protected function execute(InputInterface $input, \Symfony\Component\Console\Output\OutputInterface $output)
   {
     $start = microtime(true);
 

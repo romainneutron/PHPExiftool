@@ -15,12 +15,12 @@
   "require": {
     "php": ">=5.3.6",
     "doctrine/common": "2.2.*",
-    "symfony/class-loader": "2.0.10",
-    "symfony/console": "2.0.10",
-    "symfony/css-selector": "2.0.10",
-    "symfony/dom-crawler": "2.0.10",
-    "symfony/finder": "2.0.10",
-    "symfony/process": "2.0.10"
+    "symfony/class-loader": "2.1.*",
+    "symfony/console": "2.1.*",
+    "symfony/css-selector": "2.1.*",
+    "symfony/dom-crawler": "2.1.*",
+    "symfony/finder": "2.1.*",
+    "symfony/process": "2.1.*"
   },
   "autoload": {
     "psr-0": {
