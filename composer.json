@@ -3,6 +3,7 @@
   "type": "library",
   "description": "Exiftool driver for PHP",
   "keywords": ["metadata"],
+  "version": "dev-master",
   "homepage": "http://github.com/Seldaek/monolog",
   "license": "MIT",
   "authors": [
