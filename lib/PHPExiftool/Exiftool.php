@@ -57,6 +57,8 @@ class Exiftool
    */
   const LISTTYPE_GROUPS            = 'g';
 
+  private static $cache = array();
+
 
   /**
    * Read the metadatas in the file
@@ -66,6 +68,12 @@ class Exiftool
    */
   public function read(\SplFileInfo $file)
   {
+
+    if(array_key_exists(realpath($file->getPathname()), static::$cache))
+    {
+      return static::$cache[realpath($file->getPathname())];
+    }
+
     $XML = static::executeCommand(self::getBinary() . ' -X ' . escapeshellarg($file->getPathname()));
 
     $dom = new \DOMDocument;
@@ -122,9 +130,21 @@ class Exiftool
       $metadatas->set($tagname, $metadata);
     }
 
+    static::$cache[realpath($file->getPathname())] = $metadatas;
+
     return $metadatas;
   }
-  
+
+  /**
+   * Reset cache
+   *
+   * @return void
+   */
+  public static function reset()
+  {
+    static::$cache = array();
+  }
+
   /**
    * Return the result of a Exiftool -list* command
    *
