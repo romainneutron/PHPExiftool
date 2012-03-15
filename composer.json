@@ -32,6 +32,12 @@
     ],
     "post-update-cmd": [
     "PHPExiftool\\Vendors::Init"
+    ],
+    "post-package-install": [
+    "PHPExiftool\\Vendors::Init"
+    ],
+    "post-package-update": [
+    "PHPExiftool\\Vendors::Init"
     ]
   }
 }
