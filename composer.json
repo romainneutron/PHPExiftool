@@ -25,5 +25,13 @@
     "psr-0": {
       "PHPexiftool": "lib"
     }
+  },
+  "scripts": {
+    "post-install-cmd": [
+    "PHPExiftool\\Vendors::init"
+    ],
+    "post-update-cmd": [
+    "PHPExiftool\\Vendors::init"
+    ]
   }
 }
