@@ -28,10 +28,10 @@
   },
   "scripts": {
     "post-install-cmd": [
-    "PHPExiftool\\Vendors::init"
+    "PHPExiftool\\Vendors::Init"
     ],
     "post-update-cmd": [
-    "PHPExiftool\\Vendors::init"
+    "PHPExiftool\\Vendors::Init"
     ]
   }
 }
