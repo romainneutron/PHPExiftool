@@ -57,55 +57,6 @@ class Exiftool
    */
   const LISTTYPE_GROUPS            = 'g';
 
-  /**
-   * Return the result of a Exiftool -list* command
-   *
-   * @param type $type
-   * @return type
-   * @throws \Exception
-   */
-  public static function listDatas($type = self::LISTTYPE_SUPPORTED_XML)
-  {
-    $available = array(
-      self::LISTTYPE_WRITABLE, self::LISTTYPE_SUPPORTED_FILEEXT
-      , self::LISTTYPE_WRITABLE_FILEEXT, self::LISTTYPE_SUPPORTED_XML
-      , self::LISTTYPE_DELETABLE_GROUPS, self::LISTTYPE_GROUPS,
-    );
-
-    if (!in_array($type, $available))
-      throw new \Exception('Unknown list attribute');
-
-    return static::executeCommand(self::getBinary() . ' -f -list' . $type);
-  }
-
-  /**
-   * Extract all XML namespaces declared in a XML
-   *
-   * @param type $XML
-   * @return array
-   */
-  public static function getNamespacesFromXml($XML)
-  {
-    $namespaces = array();
-
-    $dom = new \DOMDocument;
-
-    if ($dom->loadXML($XML))
-    {
-      $pattern = "(xmlns:([a-zA-Z-_0-9]+)=[']{1}(https?:[/{2,4}|\\{2,4}][\w:#%/;$()~_?/\-=\\\.&]*)[']{1})";
-
-      preg_match_all($pattern, $XML, $matches, PREG_PATTERN_ORDER, 0);
-
-      foreach ($matches[2] as $key => $value)
-      {
-        $namespaces[$matches[1][$key]] = $value;
-      }
-    }
-
-    unset($dom);
-
-    return $namespaces;
-  }
 
   /**
    * Read the metadatas in the file
@@ -113,7 +64,7 @@ class Exiftool
    * @param \SplFileInfo $file
    * @return \Driver\Metadata\MetadataBag
    */
-  public static function getMetadatas(\SplFileInfo $file)
+  public function read(\SplFileInfo $file)
   {
     $XML = static::executeCommand(self::getBinary() . ' -X ' . escapeshellarg($file->getPathname()));
 
@@ -172,6 +123,56 @@ class Exiftool
     }
 
     return $metadatas;
+  }
+  
+  /**
+   * Return the result of a Exiftool -list* command
+   *
+   * @param type $type
+   * @return type
+   * @throws \Exception
+   */
+  public static function listDatas($type = self::LISTTYPE_SUPPORTED_XML)
+  {
+    $available = array(
+      self::LISTTYPE_WRITABLE, self::LISTTYPE_SUPPORTED_FILEEXT
+      , self::LISTTYPE_WRITABLE_FILEEXT, self::LISTTYPE_SUPPORTED_XML
+      , self::LISTTYPE_DELETABLE_GROUPS, self::LISTTYPE_GROUPS,
+    );
+
+    if (!in_array($type, $available))
+      throw new \Exception('Unknown list attribute');
+
+    return static::executeCommand(self::getBinary() . ' -f -list' . $type);
+  }
+
+  /**
+   * Extract all XML namespaces declared in a XML
+   *
+   * @param type $XML
+   * @return array
+   */
+  public static function getNamespacesFromXml($XML)
+  {
+    $namespaces = array();
+
+    $dom = new \DOMDocument;
+
+    if ($dom->loadXML($XML))
+    {
+      $pattern = "(xmlns:([a-zA-Z-_0-9]+)=[']{1}(https?:[/{2,4}|\\{2,4}][\w:#%/;$()~_?/\-=\\\.&]*)[']{1})";
+
+      preg_match_all($pattern, $XML, $matches, PREG_PATTERN_ORDER, 0);
+
+      foreach ($matches[2] as $key => $value)
+      {
+        $namespaces[$matches[1][$key]] = $value;
+      }
+    }
+
+    unset($dom);
+
+    return $namespaces;
   }
 
   /**
