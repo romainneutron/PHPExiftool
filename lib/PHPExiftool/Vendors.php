@@ -37,7 +37,7 @@ class Vendors
     system('git submodule init');
     system('git submodule update');
 
-    $iterator = new RecursiveDirectoryIterator(__DIR__ . '/../../lib/vendor/');
+    $iterator = new \RecursiveDirectoryIterator(__DIR__ . '/../../lib/vendor/');
 
     foreach ($iterator as $file)
     {
