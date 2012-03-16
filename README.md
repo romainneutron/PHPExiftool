@@ -17,7 +17,8 @@ Extract metadata :
 ```php
 <?php
 
-$metadatas = \PHPExiftool\Exiftool::getMetadatas(new SplFileInfo('RawImage.CR2'));
+
+$metadatas = \PHPExiftool\Exiftool::read(new SplFileInfo('tests/files/ExifTool.jpg'))->getMetadatas();
 
 //True if there is a IPTC:SupplementalCategories value
 $metadatas->containsKey('IPTC:SupplementalCategories');
@@ -26,7 +27,7 @@ foreach($metadatas as $metadata)
 {
   echo sprintf("Found tag %s \n", $metadata->getTag()->getTagname());
 
-  if($metadata->getValue instanceof '\PHPExiftool\Driver\Metadata\MultiBag')
+  if($metadata->getValue() instanceof \PHPExiftool\Driver\Metadata\MultiBag)
   {
     // Handle multivalued field
   }
@@ -35,6 +36,7 @@ foreach($metadatas as $metadata)
     // Handle monovalued field
   }
 }
+
 ```
 
 
