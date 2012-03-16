@@ -57,97 +57,74 @@ class Exiftool
    */
   const LISTTYPE_GROUPS            = 'g';
 
-  private static $cache = array();
-
-
   /**
-   * Read the metadatas in the file
+   * Return an Entity corresponding to the file
    *
    * @param \SplFileInfo $file
-   * @return \Driver\Metadata\MetadataBag
+   * @return \PHPExiftool\FileEntity
+   * @throws \LogicException
+   * @throws \Exception
    */
   public function read(\SplFileInfo $file)
   {
-
-    if(array_key_exists(realpath($file->getPathname()), static::$cache))
+    if (!$file->isFile())
     {
-      return static::$cache[realpath($file->getPathname())];
+      throw new \LogicException('Exiftool::read must be used to read files, '
+        . 'if you want to read directories, use Exiftool::readDirectory');
     }
 
-    $XML = static::executeCommand(self::getBinary() . ' -X ' . escapeshellarg($file->getPathname()));
+    $Entities = RDFParser::Parse(static::Xtract($file));
 
-    $dom = new \DOMDocument;
-    $dom->loadXML($XML);
-
-    $DomXpath = new \DOMXPath($dom);
-    $DomXpath->registerNamespace('rdf', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#');
-
-    foreach (static::getNamespacesFromXml($XML) as $prefix => $uri)
+    if ($Entities->count() !== 1)
     {
-      $DomXpath->registerNamespace($prefix, $uri);
+      throw new \Exception('Something went wrong');
     }
 
-    $nodes = $DomXpath->query('/rdf:RDF/rdf:Description/*');
-
-    $metadatas = new Driver\Metadata\MetadataBag();
-
-    foreach ($nodes as $node)
-    {
-      $tagname = $node->nodeName;
-
-      if (strpos($tagname, 'CIFF:') === 0)
-      {
-        /** We bypass datas we can have with SplFileInfo * */
-        foreach (array('Canon', 'CanonRaw') as $substit)
-        {
-          try
-          {
-            Driver\TagFactory::getFromRDFTagname(str_replace('CIFF:', $substit . ':', $tagname));
-            $tagname = str_replace('CIFF:', $substit . ':', $tagname);
-
-            break;
-          }
-          catch (Exception\TagUnknown $e)
-          {
-
-          }
-        }
-      }
-
-      try
-      {
-        $tag = Driver\TagFactory::getFromRDFTagname($tagname);
-      }
-      catch (Exception\TagUnknown $e)
-      {
-        continue;
-      }
-
-      $metaValue = self::getValueFromXMLNode($tag, $node);
-
-      $metadata = new Driver\Metadata\Metadata($tag, $metaValue, $file);
-
-      $metadatas->set($tagname, $metadata);
-    }
-
-    static::$cache[realpath($file->getPathname())] = $metadatas;
-
-    return $metadatas;
+    return $Entities->first();
   }
 
   /**
-   * Reset cache
+   * Returns an ArrayCollection of \PHPExiftool\FileEntity found in the
+   * directory
    *
-   * @return void
+   * @param \SplFileInfo $Dir
+   * @param boolean $recursive
+   * @return \Doctrine\Common\Collections\ArrayCollection
+   * @throws \LogicException
    */
-  public static function reset()
+  public function readDirectory(\SplFileInfo $Dir, $recursive)
   {
-    static::$cache = array();
+    if (!$Dir->isDir())
+    {
+      throw new \LogicException('Exiftool::readDirectory must be used to read dirs, '
+        . 'if you want to read files, use Exiftool::read');
+    }
+
+    return RDFParser::Parse(static::Xtract($Dir, $recursive));
+  }
+
+  /**
+   * Execute exiftool with a -X option against the file|directory provided
+   * Return the output, a RDF file
+   *
+   * @see http://www.sno.phy.queensu.ca/~phil/exiftool/exiftool_pod.html#item_x
+   * @param \SplFileInfo $file
+   * @param boolean $recursive
+   * @return string
+   */
+  public static function Xtract(\SplFileInfo $file, $recursive = false)
+  {
+    $option = $recursive ? ' -R ' : '';
+
+    $command = self::getBinary() . ' -X ' . $option . escapeshellarg($file->getPathname());
+
+    return static::executeCommand($command);
   }
 
   /**
    * Return the result of a Exiftool -list* command
    *
+   * @see http://www.sno.phy.queensu.ca/~phil/exiftool/exiftool_pod.html#item__2dlist_2c__2dlistw_2c__2dlistf_2c__2dlistr_2c__2d
    * @param type $type
    * @return type
    * @throws \Exception
@@ -167,83 +144,7 @@ class Exiftool
   }
 
   /**
-   * Extract all XML namespaces declared in a XML
-   *
-   * @param type $XML
-   * @return array
-   */
-  public static function getNamespacesFromXml($XML)
-  {
-    $namespaces = array();
-
-    $dom = new \DOMDocument;
-
-    if ($dom->loadXML($XML))
-    {
-      $pattern = "(xmlns:([a-zA-Z-_0-9]+)=[']{1}(https?:[/{2,4}|\\{2,4}][\w:#%/;$()~_?/\-=\\\.&]*)[']{1})";
-
-      preg_match_all($pattern, $XML, $matches, PREG_PATTERN_ORDER, 0);
-
-      foreach ($matches[2] as $key => $value)
-      {
-        $namespaces[$matches[1][$key]] = $value;
-      }
-    }
-
-    unset($dom);
-
-    return $namespaces;
-  }
-
-  /**
-   *
-   * @param Driver\Tag $tag
-   * @param \DOMNode $node
-   * @return null|string|PHPExiftool\Driver\Metadata\MultiBag
-   */
-  private static function getValueFromXMLNode(Driver\Tag $tag, \DOMNode $node)
-  {
-
-    $metaValue = null;
-
-    if ($tag->isBinary())
-    {
-      return null;
-    }
-
-    if ($tag->isMulti())
-    {
-      $metaValue = new Driver\Metadata\MultiBag();
-
-      $bag_elements = $node->getElementsByTagNameNS(
-        'http://www.w3.org/1999/02/22-rdf-syntax-ns#'
-        , 'li'
-      );
-
-      foreach ($bag_elements as $nodeElement)
-      {
-        $metaValue->add($nodeElement->nodeValue);
-      }
-    }
-    else
-    {
-
-      switch ($node->getAttribute('rdf:datatype'))
-      {
-        case 'http://www.w3.org/2001/XMLSchema#base64Binary':
-          $metaValue = base64_decode($node->nodeValue);
-          break;
-        case '';
-        default:
-          $metaValue = $node->nodeValue;
-          break;
-      }
-    }
-
-    return $metaValue;
-  }
-
-  /**
+   * Execute a command and return the output
    *
    * @param string $command
    * @return string
@@ -256,7 +157,7 @@ class Exiftool
 
     if (!$process->isSuccessful())
     {
-      throw new \Exception('Unable to run the command');
+      throw new \Exception(sprintf('Command %s failed', $command));
     }
 
     return $process->getOutput();
