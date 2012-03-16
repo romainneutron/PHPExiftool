@@ -22,7 +22,7 @@ class ExiftoolTest extends \PHPUnit_Framework_TestCase
   }
 
   /**
-   * @covers {\PHPExiftool\Exiftool}::{read}
+   * @covers \PHPExiftool\Exiftool::read
    */
   public function testRead()
   {
@@ -51,7 +51,7 @@ class ExiftoolTest extends \PHPUnit_Framework_TestCase
   }
 
   /**
-   * @covers {\PHPExiftool\Exiftool}::{readDirectory}
+   * @covers \PHPExiftool\Exiftool::readDirectory
    */
   public function testReadDirectory()
   {
@@ -82,7 +82,7 @@ class ExiftoolTest extends \PHPUnit_Framework_TestCase
   }
 
   /**
-   * @covers {\PHPExiftool\Exiftool}::{Xtract}
+   * @covers \PHPExiftool\Exiftool::Xtract
    */
   public function testXtract()
   {
@@ -111,7 +111,7 @@ class ExiftoolTest extends \PHPUnit_Framework_TestCase
   }
 
   /**
-   * @covers {\PHPExiftool\Exiftool}::{listDatas}
+   * @covers \PHPExiftool\Exiftool::listDatas
    */
   public function testListDatas()
   {
