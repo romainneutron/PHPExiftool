@@ -130,17 +130,31 @@ class RDFParser
    */
   public static function QueryEntity(FileEntity $Entity, $query)
   {
+    $QueryParts = explode(':', $query);
+
+    $registeredPrefix = false;
+
     $DomXpath = new \DOMXPath($Entity->getDom());
     $DomXpath->registerNamespace('rdf', self::RDF_NAMESPACE);
 
     foreach (static::getNamespacesFromXml($Entity->getDom()) as $prefix => $uri)
     {
+      if ($prefix === $QueryParts[0])
+      {
+        $registeredPrefix = true;
+      }
+
       $DomXpath->registerNamespace($prefix, $uri);
     }
 
-    $nodes = $DomXpath->query('/rdf:RDF/rdf:Description/'.$query);
+    if (!$registeredPrefix)
+    {
+      return null;
+    }
 
-    if($nodes->length > 0)
+    $nodes = $DomXpath->query('/rdf:RDF/rdf:Description/' . $query);
+
+    if ($nodes instanceof \DOMNodeList && $nodes->length > 0)
     {
       return $nodes->item(0)->nodeValue;
     }
