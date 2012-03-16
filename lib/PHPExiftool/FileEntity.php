@@ -102,4 +102,16 @@ class FileEntity
     return $metadatas;
   }
 
+  /**
+   * Execute a user defined query to retrieve unknown metadatas
+   *
+   * @param string $query
+   * @return string
+   */
+  public function executeQuery($query)
+  {
+
+    return \PHPExiftool\RDFParser::QueryEntity($this, $query);
+  }
+
 }

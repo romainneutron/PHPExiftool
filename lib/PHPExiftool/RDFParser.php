@@ -120,6 +120,35 @@ class RDFParser
     return $metadatas;
   }
 
+
+  /**
+   * Returns the first result for a user defined query against the RDF
+   *
+   * @param FileEntity $Entity
+   * @param string $query
+   * @return string
+   */
+  public static function QueryEntity(FileEntity $Entity, $query)
+  {
+    $DomXpath = new \DOMXPath($Entity->getDom());
+    $DomXpath->registerNamespace('rdf', self::RDF_NAMESPACE);
+
+    foreach (static::getNamespacesFromXml($Entity->getDom()) as $prefix => $uri)
+    {
+      $DomXpath->registerNamespace($prefix, $uri);
+    }
+
+    $nodes = $DomXpath->query('/rdf:RDF/rdf:Description/'.$query);
+
+    if($nodes->length > 0)
+    {
+      return $nodes->item(0)->nodeValue;
+    }
+
+    return null;
+  }
+
+
   /**
    * Returns an ArrayCollection of Entities from a collection of Exiftool
    * RDF Descriptions
@@ -176,16 +205,13 @@ class RDFParser
 
     $XML = $dom->saveXML();
 
-    if ($dom->loadXML($XML))
+    $pattern = "(xmlns:([a-zA-Z-_0-9]+)=['|\"]{1}(https?:[/{2,4}|\\{2,4}][\w:#%/;$()~_?/\-=\\\.&]*)['|\"]{1})";
+
+    preg_match_all($pattern, $XML, $matches, PREG_PATTERN_ORDER, 0);
+
+    foreach ($matches[2] as $key => $value)
     {
-      $pattern = "(xmlns:([a-zA-Z-_0-9]+)=[']{1}(https?:[/{2,4}|\\{2,4}][\w:#%/;$()~_?/\-=\\\.&]*)[']{1})";
-
-      preg_match_all($pattern, $XML, $matches, PREG_PATTERN_ORDER, 0);
-
-      foreach ($matches[2] as $key => $value)
-      {
-        $namespaces[$matches[1][$key]] = $value;
-      }
+      $namespaces[$matches[1][$key]] = $value;
     }
 
     return $namespaces;
