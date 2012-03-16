@@ -15,9 +15,6 @@ Examples of use :
 Extract metadata :
 
 ```php
-<?php
-
-
 $metadatas = \PHPExiftool\Exiftool::read(new SplFileInfo('tests/files/ExifTool.jpg'))->getMetadatas();
 
 //True if there is a IPTC:SupplementalCategories value
@@ -36,7 +33,6 @@ foreach($metadatas as $metadata)
     // Handle monovalued field
   }
 }
-
 ```
 
 
