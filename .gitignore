@@ -2,3 +2,5 @@ composer.lock
 composer.phar
 /nbproject/
 /vendor
+/tests/coverage.xml
+/tests/phpunit_report
