@@ -306,6 +306,7 @@ class ClassesBuilder extends Command
     {
       $this->classes[$classpath] = new Builder($namespace, $classname, $properties, '\\PHPExiftool\\Driver\\Tag');
     }
+
     return;
   }
 
