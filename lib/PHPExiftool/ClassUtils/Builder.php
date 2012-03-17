@@ -142,6 +142,7 @@ class Builder
         $buffer .= "<spaces>" . $this->quote($key) . " => " . $val . ",\n";
       }
     }
+
     return $buffer;
   }
 

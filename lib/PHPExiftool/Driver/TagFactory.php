@@ -47,6 +47,7 @@ class TagFactory
     {
       throw new \PHPExiftool\Exception\TagUnknown(sprintf('Unknown tag %s', $tagname));
     }
+
     return new $classname;
   }
 

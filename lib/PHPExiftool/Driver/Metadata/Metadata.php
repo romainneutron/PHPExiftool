@@ -65,6 +65,7 @@ class Metadata
       /**
        * Data have been read
        */
+
       return $this->value;
     }
     else

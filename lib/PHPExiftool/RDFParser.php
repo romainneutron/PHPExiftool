@@ -56,6 +56,7 @@ class RDFParser
     /**
      * A default Exiftool XML can contains many RDF Descriptions
      */
+
     return static::SplitRDFsInEntities($DOM);
   }
 
