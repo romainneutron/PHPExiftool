@@ -48,7 +48,7 @@ class RDFParser
   {
     $DOM = new \DOMDocument;
 
-    if (!$DOM->loadXML($XML))
+    if ( ! $DOM->loadXML($XML))
     {
       throw new Exception\ParseError('Unable to load XML');
     }
@@ -56,7 +56,6 @@ class RDFParser
     /**
      * A default Exiftool XML can contains many RDF Descriptions
      */
-
     return static::SplitRDFsInEntities($DOM);
   }
 
@@ -111,7 +110,7 @@ class RDFParser
         continue;
       }
 
-      $metaValue = self::getValueFromXMLNode($tag, $node);
+      $metaValue = self::preloadTagValue($tag, $node);
 
       $metadata = new Driver\Metadata\Metadata($tag, $metaValue, $Entity->getFile());
 
@@ -120,7 +119,6 @@ class RDFParser
 
     return $metadatas;
   }
-
 
   /**
    * Returns the first result for a user defined query against the RDF
@@ -148,7 +146,7 @@ class RDFParser
       $DomXpath->registerNamespace($prefix, $uri);
     }
 
-    if (!$registeredPrefix)
+    if ( ! $registeredPrefix)
     {
       return null;
     }
@@ -162,7 +160,6 @@ class RDFParser
 
     return null;
   }
-
 
   /**
    * Returns an ArrayCollection of Entities from a collection of Exiftool
@@ -239,7 +236,7 @@ class RDFParser
    * @param \DOMNode $node
    * @return string|Driver\Metadata\MultiBag
    */
-  private static function getValueFromXMLNode(Driver\Tag $tag, \DOMNode $node)
+  private static function preloadTagValue(Driver\Tag $tag, \DOMNode $node)
   {
     $metaValue = null;
 
@@ -256,25 +253,35 @@ class RDFParser
 
       foreach ($bag_elements as $nodeElement)
       {
-        $metaValue->add($nodeElement->nodeValue);
+        $metaValue->add(static::readNodeValue($nodeElement));
       }
     }
     else
     {
-
-      switch ($node->getAttribute('rdf:datatype'))
-      {
-        case 'http://www.w3.org/2001/XMLSchema#base64Binary':
-          $metaValue = base64_decode($node->nodeValue);
-          break;
-        case '';
-        default:
-          $metaValue = $node->nodeValue;
-          break;
-      }
+      $metaValue = static::readNodeValue($node);
     }
 
     return $metaValue;
+  }
+
+  /**
+   * Read the node value, decode it if needed
+   *
+   * @param \DOMNode $node
+   * @return mixed
+   */
+  private static function readNodeValue(\DOMNode $node)
+  {
+    switch ($node->getAttribute('rdf:datatype'))
+    {
+      case 'http://www.w3.org/2001/XMLSchema#base64Binary':
+        return base64_decode($node->nodeValue);
+        break;
+      case '';
+      default:
+        return $node->nodeValue;
+        break;
+    }
   }
 
 }
