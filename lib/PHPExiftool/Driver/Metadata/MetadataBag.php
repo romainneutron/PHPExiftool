@@ -30,7 +30,13 @@ namespace PHPExiftool\Driver\Metadata;
 class MetadataBag extends \Doctrine\Common\Collections\ArrayCollection
 {
 
-    public function filterKeysByRegExp()
+    /**
+     * Returns all the elements which key matches the regexp
+     *
+     * @param string $regexp
+     * @return MetadataBag
+     */
+    public function filterKeysByRegExp($regexp)
     {
         return array_shift($this->partition(function($key, $element) use ($regexp)
               {
