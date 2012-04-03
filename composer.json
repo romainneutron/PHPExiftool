@@ -2,7 +2,7 @@
   "name": "phpexiftool/phpexiftool",
   "type": "library",
   "description": "Exiftool driver for PHP",
-  "keywords": ["metadata"],
+  "keywords": ["metadata","exiftool"],
   "license": "MIT",
   "authors": [
   {
@@ -31,12 +31,6 @@
     "PHPExiftool\\Vendors::Init"
     ],
     "post-update-cmd": [
-    "PHPExiftool\\Vendors::Init"
-    ],
-    "post-package-install": [
-    "PHPExiftool\\Vendors::Init"
-    ],
-    "post-package-update": [
     "PHPExiftool\\Vendors::Init"
     ]
   }
