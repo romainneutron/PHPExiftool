@@ -30,88 +30,89 @@ namespace PHPExiftool;
 class FileEntity
 {
 
-  /**
-   *
-   * @var \DOMDocument
-   */
-  private $dom;
-  /**
-   *
-   * @var \SplFileInfo
-   */
-  private $file;
+    /**
+     *
+     * @var \DOMDocument
+     */
+    private $dom;
 
-  /**
-   *
-   * @var \Doctrine\Common\Cache\ArrayCache
-   */
-  private $cache;
+    /**
+     *
+     * @var \SplFileInfo
+     */
+    private $file;
 
-  /**
-   * Construct a new FileEntity
-   *
-   * @param \SplFileInfo $file
-   * @param \DOMDocument $dom
-   * @return \PHPExiftool\FileEntity
-   */
-  public function __construct(\SplFileInfo $file, \DOMDocument $dom)
-  {
-    $this->dom = $dom;
-    $this->file = $file;
+    /**
+     *
+     * @var \Doctrine\Common\Cache\ArrayCache
+     */
+    private $cache;
 
-    $this->cache = new \Doctrine\Common\Cache\ArrayCache();
-
-    return $this;
-  }
-
-  /**
-   *
-   * @return \DOMDocument
-   */
-  public function getDom()
-  {
-    return $this->dom;
-  }
-
-  /**
-   *
-   * @var \SplFileInfo
-   */
-  public function getFile()
-  {
-    return $this->file;
-  }
-
-  /**
-   *
-   * @return \Driver\Metadata\MetadataBag
-   */
-  public function getMetadatas()
-  {
-    $key = realpath($this->file->getPathname());
-
-    if($this->cache->contains($key))
+    /**
+     * Construct a new FileEntity
+     *
+     * @param \SplFileInfo $file
+     * @param \DOMDocument $dom
+     * @return \PHPExiftool\FileEntity
+     */
+    public function __construct(\SplFileInfo $file, \DOMDocument $dom)
     {
-      return $this->cache->fetch($key);
+        $this->dom = $dom;
+        $this->file = $file;
+
+        $this->cache = new \Doctrine\Common\Cache\ArrayCache();
+
+        return $this;
     }
 
-    $metadatas = \PHPExiftool\RDFParser::ParseEntity($this);
+    /**
+     *
+     * @return \DOMDocument
+     */
+    public function getDom()
+    {
+        return $this->dom;
+    }
 
-    $this->cache->save($key, $metadatas);
+    /**
+     *
+     * @var \SplFileInfo
+     */
+    public function getFile()
+    {
+        return $this->file;
+    }
 
-    return $metadatas;
-  }
+    /**
+     *
+     * @return \Driver\Metadata\MetadataBag
+     */
+    public function getMetadatas()
+    {
+        $key = realpath($this->file->getPathname());
 
-  /**
-   * Execute a user defined query to retrieve unknown metadatas
-   *
-   * @param string $query
-   * @return string
-   */
-  public function executeQuery($query)
-  {
+        if ($this->cache->contains($key))
+        {
+            return $this->cache->fetch($key);
+        }
 
-    return \PHPExiftool\RDFParser::QueryEntity($this, $query);
-  }
+        $metadatas = \PHPExiftool\RDFParser::ParseEntity($this);
+
+        $this->cache->save($key, $metadatas);
+
+        return $metadatas;
+    }
+
+    /**
+     * Execute a user defined query to retrieve unknown metadatas
+     *
+     * @param string $query
+     * @return string
+     */
+    public function executeQuery($query)
+    {
+
+        return \PHPExiftool\RDFParser::QueryEntity($this, $query);
+    }
 
 }

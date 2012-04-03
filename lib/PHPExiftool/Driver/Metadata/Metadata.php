@@ -30,50 +30,50 @@ namespace PHPExiftool\Driver\Metadata;
 class Metadata
 {
 
-  protected $tag;
-  protected $value;
+    protected $tag;
+    protected $value;
 
-  public function __construct(\PHPExiftool\Driver\Tag $tag, $value, \SplFileInfo $file)
-  {
-    $this->tag = $tag;
-    $this->value = $value;
-    $this->file = $file;
-
-    return $this;
-  }
-
-  public function reset()
-  {
-    $this->value = null;
-  }
-
-  public function getTag()
-  {
-    return $this->tag;
-  }
-
-  public function getValue()
-  {
-    if ($this->tag->isBinary())
+    public function __construct(\PHPExiftool\Driver\Tag $tag, $value, \SplFileInfo $file)
     {
-      /**
-       * Read binary datas
-       */
-    }
-    elseif(!is_null($this->value))
-    {
-      /**
-       * Data have been read
-       */
+        $this->tag = $tag;
+        $this->value = $value;
+        $this->file = $file;
 
-      return $this->value;
+        return $this;
     }
-    else
+
+    public function reset()
     {
-      /**
-       * Re-read datas
-       */
+        $this->value = null;
     }
-  }
+
+    public function getTag()
+    {
+        return $this->tag;
+    }
+
+    public function getValue()
+    {
+        if ($this->tag->isBinary())
+        {
+            /**
+             * Read binary datas
+             */
+        }
+        elseif ( ! is_null($this->value))
+        {
+            /**
+             * Data have been read
+             */
+
+            return $this->value;
+        }
+        else
+        {
+            /**
+             * Re-read datas
+             */
+        }
+    }
 
 }

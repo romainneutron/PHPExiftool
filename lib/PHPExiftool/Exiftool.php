@@ -31,145 +31,145 @@ use \Symfony\Component\Process\Process;
 class Exiftool
 {
 
-  /**
-   * For use with list option
-   */
+    /**
+     * For use with list option
+     */
 
-  const LISTTYPE_WRITABLE          = 'w';
-  /**
-   * For use with list option
-   */
-  const LISTTYPE_SUPPORTED_FILEEXT = 'f';
-  /**
-   * For use with list option
-   */
-  const LISTTYPE_WRITABLE_FILEEXT  = 'wf';
-  /**
-   * For use with list option
-   */
-  const LISTTYPE_SUPPORTED_XML     = 'x';
-  /**
-   * For use with list option
-   */
-  const LISTTYPE_DELETABLE_GROUPS  = 'd';
-  /**
-   * For use with list option
-   */
-  const LISTTYPE_GROUPS            = 'g';
+    const LISTTYPE_WRITABLE          = 'w';
+    /**
+     * For use with list option
+     */
+    const LISTTYPE_SUPPORTED_FILEEXT = 'f';
+    /**
+     * For use with list option
+     */
+    const LISTTYPE_WRITABLE_FILEEXT  = 'wf';
+    /**
+     * For use with list option
+     */
+    const LISTTYPE_SUPPORTED_XML     = 'x';
+    /**
+     * For use with list option
+     */
+    const LISTTYPE_DELETABLE_GROUPS  = 'd';
+    /**
+     * For use with list option
+     */
+    const LISTTYPE_GROUPS            = 'g';
 
-  /**
-   * Return an Entity corresponding to the file
-   *
-   * @param \SplFileInfo $file
-   * @return \PHPExiftool\FileEntity
-   * @throws \LogicException
-   * @throws \Exception
-   */
-  public function read(\SplFileInfo $file)
-  {
-    if (!$file->isFile())
+    /**
+     * Return an Entity corresponding to the file
+     *
+     * @param \SplFileInfo $file
+     * @return \PHPExiftool\FileEntity
+     * @throws \LogicException
+     * @throws \Exception
+     */
+    public function read(\SplFileInfo $file)
     {
-      throw new \LogicException('Exiftool::read must be used to read files, '
-        . 'if you want to read directories, use Exiftool::readDirectory');
+        if ( ! $file->isFile())
+        {
+            throw new \LogicException('Exiftool::read must be used to read files, '
+              . 'if you want to read directories, use Exiftool::readDirectory');
+        }
+
+        $Entities = RDFParser::Parse(static::Xtract($file));
+
+        if ($Entities->count() !== 1)
+        {
+            throw new \Exception('Something went wrong');
+        }
+
+        return $Entities->first();
     }
 
-    $Entities = RDFParser::Parse(static::Xtract($file));
-
-    if ($Entities->count() !== 1)
+    /**
+     * Returns an ArrayCollection of \PHPExiftool\FileEntity found in the
+     * directory
+     *
+     * @param \SplFileInfo $Dir
+     * @param boolean $recursive
+     * @return \Doctrine\Common\Collections\ArrayCollection
+     * @throws \LogicException
+     */
+    public function readDirectory(\SplFileInfo $Dir, $recursive)
     {
-      throw new \Exception('Something went wrong');
+        if ( ! $Dir->isDir())
+        {
+            throw new \LogicException('Exiftool::readDirectory must be used to read dirs, '
+              . 'if you want to read files, use Exiftool::read');
+        }
+
+        return RDFParser::Parse(static::Xtract($Dir, $recursive));
     }
 
-    return $Entities->first();
-  }
-
-  /**
-   * Returns an ArrayCollection of \PHPExiftool\FileEntity found in the
-   * directory
-   *
-   * @param \SplFileInfo $Dir
-   * @param boolean $recursive
-   * @return \Doctrine\Common\Collections\ArrayCollection
-   * @throws \LogicException
-   */
-  public function readDirectory(\SplFileInfo $Dir, $recursive)
-  {
-    if (!$Dir->isDir())
+    /**
+     * Execute exiftool with a -X option against the file|directory provided
+     * Return the output, a RDF file
+     *
+     * @see http://www.sno.phy.queensu.ca/~phil/exiftool/exiftool_pod.html#item_x
+     * @param \SplFileInfo $file
+     * @param boolean $recursive
+     * @return string
+     */
+    public static function Xtract(\SplFileInfo $file, $recursive = false)
     {
-      throw new \LogicException('Exiftool::readDirectory must be used to read dirs, '
-        . 'if you want to read files, use Exiftool::read');
+        $option = $recursive ? ' -R ' : '';
+
+        $command = self::getBinary() . ' -X ' . $option . escapeshellarg($file->getPathname());
+
+        return static::executeCommand($command);
     }
 
-    return RDFParser::Parse(static::Xtract($Dir, $recursive));
-  }
-
-  /**
-   * Execute exiftool with a -X option against the file|directory provided
-   * Return the output, a RDF file
-   *
-   * @see http://www.sno.phy.queensu.ca/~phil/exiftool/exiftool_pod.html#item_x
-   * @param \SplFileInfo $file
-   * @param boolean $recursive
-   * @return string
-   */
-  public static function Xtract(\SplFileInfo $file, $recursive = false)
-  {
-    $option = $recursive ? ' -R ' : '';
-
-    $command = self::getBinary() . ' -X ' . $option . escapeshellarg($file->getPathname());
-
-    return static::executeCommand($command);
-  }
-
-  /**
-   * Return the result of a Exiftool -list* command
-   *
-   * @see http://www.sno.phy.queensu.ca/~phil/exiftool/exiftool_pod.html#item__2dlist_2c__2dlistw_2c__2dlistf_2c__2dlistr_2c__2d
-   * @param string $type One of the LISTTYPE_* constants
-   * @return type
-   * @throws \Exception
-   */
-  public static function listDatas($type = self::LISTTYPE_SUPPORTED_XML)
-  {
-    $available = array(
-      self::LISTTYPE_WRITABLE, self::LISTTYPE_SUPPORTED_FILEEXT
-      , self::LISTTYPE_WRITABLE_FILEEXT, self::LISTTYPE_SUPPORTED_XML
-      , self::LISTTYPE_DELETABLE_GROUPS, self::LISTTYPE_GROUPS,
-    );
-
-    if (!in_array($type, $available))
-      throw new \Exception('Unknown list attribute');
-
-    return static::executeCommand(self::getBinary() . ' -f -list' . $type);
-  }
-
-  /**
-   * Execute a command and return the output
-   *
-   * @param string $command
-   * @return string
-   * @throws \Exception
-   */
-  private static function executeCommand($command)
-  {
-    $process = new Process($command);
-    $process->run();
-
-    if (!$process->isSuccessful())
+    /**
+     * Return the result of a Exiftool -list* command
+     *
+     * @see http://www.sno.phy.queensu.ca/~phil/exiftool/exiftool_pod.html#item__2dlist_2c__2dlistw_2c__2dlistf_2c__2dlistr_2c__2d
+     * @param string $type One of the LISTTYPE_* constants
+     * @return type
+     * @throws \Exception
+     */
+    public static function listDatas($type = self::LISTTYPE_SUPPORTED_XML)
     {
-      throw new \Exception(sprintf('Command %s failed', $command));
+        $available = array(
+          self::LISTTYPE_WRITABLE, self::LISTTYPE_SUPPORTED_FILEEXT
+          , self::LISTTYPE_WRITABLE_FILEEXT, self::LISTTYPE_SUPPORTED_XML
+          , self::LISTTYPE_DELETABLE_GROUPS, self::LISTTYPE_GROUPS,
+        );
+
+        if ( ! in_array($type, $available))
+            throw new \Exception('Unknown list attribute');
+
+        return static::executeCommand(self::getBinary() . ' -f -list' . $type);
     }
 
-    return $process->getOutput();
-  }
+    /**
+     * Execute a command and return the output
+     *
+     * @param string $command
+     * @return string
+     * @throws \Exception
+     */
+    private static function executeCommand($command)
+    {
+        $process = new Process($command);
+        $process->run();
 
-  /**
-   *
-   * @return string
-   */
-  private static function getBinary()
-  {
-    return realpath(__DIR__ . '/../../lib/vendor/Exiftool/exiftool');
-  }
+        if ( ! $process->isSuccessful())
+        {
+            throw new \Exception(sprintf('Command %s failed', $command));
+        }
+
+        return $process->getOutput();
+    }
+
+    /**
+     *
+     * @return string
+     */
+    private static function getBinary()
+    {
+        return realpath(__DIR__ . '/../../lib/vendor/Exiftool/exiftool');
+    }
 
 }

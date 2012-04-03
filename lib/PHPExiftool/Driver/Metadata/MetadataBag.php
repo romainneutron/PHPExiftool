@@ -30,5 +30,4 @@ namespace PHPExiftool\Driver\Metadata;
 class MetadataBag extends \Doctrine\Common\Collections\ArrayCollection
 {
 
-
 }

@@ -29,28 +29,28 @@ namespace PHPExiftool;
 class Vendors
 {
 
-  public static function Init()
-  {
-    set_time_limit(300);
-    chdir(__DIR__ . '/../../');
-
-    system('git submodule init');
-    system('git submodule update');
-
-    $iterator = new \RecursiveDirectoryIterator(__DIR__ . '/../../lib/vendor/');
-
-    foreach ($iterator as $file)
+    public static function Init()
     {
-      /* @var $file SplFileInfo */
-      if ($file->isDir())
-      {
-        $cmd = sprintf(
-          'cd %s && git submodule init && git submodule update'
-          , escapeshellarg($file->getPathname())
-        );
-        system($cmd);
-      }
+        set_time_limit(300);
+        chdir(__DIR__ . '/../../');
+
+        system('git submodule init');
+        system('git submodule update');
+
+        $iterator = new \RecursiveDirectoryIterator(__DIR__ . '/../../lib/vendor/');
+
+        foreach ($iterator as $file)
+        {
+            /* @var $file SplFileInfo */
+            if ($file->isDir())
+            {
+                $cmd = sprintf(
+                  'cd %s && git submodule init && git submodule update'
+                  , escapeshellarg($file->getPathname())
+                );
+                system($cmd);
+            }
+        }
     }
-  }
 
 }

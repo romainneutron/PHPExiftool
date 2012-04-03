@@ -30,7 +30,8 @@ namespace PHPExiftool\Driver;
 abstract class Type
 {
 
-  protected $ExiftoolName;
-  protected $PHPMap;
+    protected $ExiftoolName;
+
+    protected $PHPMap;
 
 }
