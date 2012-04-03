@@ -1,37 +1,37 @@
 {
-  "name": "phpexiftool/phpexiftool",
-  "type": "library",
-  "description": "Exiftool driver for PHP",
-  "keywords": ["metadata","exiftool"],
-  "license": "MIT",
-  "authors": [
-  {
-    "name": "Romain Neutron",
-    "email": "imprec@gmail.com",
-    "homepage": "http://www.lickmychip.com/"
-  }
-  ],
-  "require": {
-    "php": ">=5.3.6",
-    "doctrine/common": "2.2.*",
-    "symfony/class-loader": "2.1.*",
-    "symfony/console": "2.1.*",
-    "symfony/css-selector": "2.1.*",
-    "symfony/dom-crawler": "2.1.*",
-    "symfony/finder": "2.1.*",
-    "symfony/process": "2.1.*"
-  },
-  "autoload": {
-    "psr-0": {
-      "PHPExiftool": "lib"
+    "name": "phpexiftool/phpexiftool",
+    "type": "library",
+    "description": "Exiftool driver for PHP",
+    "keywords": ["metadata","exiftool"],
+    "license": "MIT",
+    "authors": [
+    {
+        "name": "Romain Neutron",
+        "email": "imprec@gmail.com",
+        "homepage": "http://www.lickmychip.com/"
     }
-  },
-  "scripts": {
-    "post-install-cmd": [
-    "PHPExiftool\\Vendors::Init"
     ],
-    "post-update-cmd": [
-    "PHPExiftool\\Vendors::Init"
-    ]
-  }
+    "require": {
+        "php": ">=5.3.6",
+        "doctrine/common": "2.2.*",
+        "symfony/class-loader": "2.1.*",
+        "symfony/console": "2.1.*",
+        "symfony/css-selector": "2.1.*",
+        "symfony/dom-crawler": "2.1.*",
+        "symfony/finder": "2.1.*",
+        "symfony/process": "2.1.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "PHPExiftool": "lib"
+        }
+    },
+    "scripts": {
+        "post-install-cmd": [
+        "PHPExiftool\\Vendors::Init"
+        ],
+        "post-update-cmd": [
+        "PHPExiftool\\Vendors::Init"
+        ]
+    }
 }
