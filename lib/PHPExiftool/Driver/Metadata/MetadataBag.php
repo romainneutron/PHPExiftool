@@ -38,10 +38,12 @@ class MetadataBag extends \Doctrine\Common\Collections\ArrayCollection
      */
     public function filterKeysByRegExp($regexp)
     {
-        return array_shift($this->partition(function($key, $element) use ($regexp)
+        $partitions = $this->partition(function($key, $element) use ($regexp)
               {
                   return preg_match($regexp, $key);
-              }));
+              });
+
+        return array_shift($partitions);
     }
 
 }
