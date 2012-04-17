@@ -21,8 +21,6 @@
 
 namespace PHPExiftool;
 
-use \Symfony\Component\Process\Process;
-
 /**
  *
  * @author      Romain Neutron - imprec@gmail.com
