@@ -116,6 +116,14 @@ class MagicFilter extends \PHPExiftool\Driver\Tag
             'Id' => 24,
             'Label' => 'Watercolor',
         ),
+        28 => array(
+            'Id' => 28,
+            'Label' => 'Reflection',
+        ),
+        29 => array(
+            'Id' => 29,
+            'Label' => 'Fragmented',
+        ),
     );
 
 }

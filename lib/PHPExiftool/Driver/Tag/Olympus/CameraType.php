@@ -500,6 +500,10 @@ class CameraType extends \PHPExiftool\Driver\Tag
             'Id' => 'D4428',
             'Label' => 'FE5030,X965,X960',
         ),
+        'D4430' => array(
+            'Id' => 'D4430',
+            'Label' => 'u7030,S7030',
+        ),
         'D4432' => array(
             'Id' => 'D4432',
             'Label' => 'SP600UZ',
@@ -568,6 +572,10 @@ class CameraType extends \PHPExiftool\Driver\Tag
             'Id' => 'D4484',
             'Label' => 'VR320,D725',
         ),
+        'D4486' => array(
+            'Id' => 'D4486',
+            'Label' => 'VR330,D730',
+        ),
         'D4488' => array(
             'Id' => 'D4488',
             'Label' => 'VG110,D700',
@@ -600,9 +608,37 @@ class CameraType extends \PHPExiftool\Driver\Tag
             'Id' => 'D4504',
             'Label' => 'TG-615',
         ),
+        'D4508' => array(
+            'Id' => 'D4508',
+            'Label' => 'TG-620',
+        ),
+        'D4510' => array(
+            'Id' => 'D4510',
+            'Label' => 'TG-820',
+        ),
+        'D4516' => array(
+            'Id' => 'D4516',
+            'Label' => 'SH-21',
+        ),
+        'D4519' => array(
+            'Id' => 'D4519',
+            'Label' => 'SZ-14',
+        ),
         'D4529' => array(
             'Id' => 'D4529',
             'Label' => 'VG170',
+        ),
+        'D4535' => array(
+            'Id' => 'D4535',
+            'Label' => 'SP-620UZ',
+        ),
+        'D4536' => array(
+            'Id' => 'D4536',
+            'Label' => 'TG-320',
+        ),
+        'D4537' => array(
+            'Id' => 'D4537',
+            'Label' => 'VR340,D750',
         ),
         'D4809' => array(
             'Id' => 'D4809',
@@ -699,6 +735,10 @@ class CameraType extends \PHPExiftool\Driver\Tag
         'S0034' => array(
             'Id' => 'S0034',
             'Label' => 'E-PL2',
+        ),
+        'S0036' => array(
+            'Id' => 'S0036',
+            'Label' => 'E-M5',
         ),
         'S0038' => array(
             'Id' => 'S0038',

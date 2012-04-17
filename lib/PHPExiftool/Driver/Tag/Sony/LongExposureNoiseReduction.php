@@ -37,38 +37,46 @@ class LongExposureNoiseReduction extends \PHPExiftool\Driver\Tag
             'Label' => 'On',
         ),
         2 => array(
-            'Id' => 0,
+            'Id' => 1,
             'Label' => 'Off',
         ),
         3 => array(
-            'Id' => 1,
-            'Label' => 'On (unused)',
+            'Id' => 16,
+            'Label' => 'On',
         ),
         4 => array(
-            'Id' => 65537,
-            'Label' => 'On (dark subtracted)',
-        ),
-        5 => array(
-            'Id' => 4294901760,
-            'Label' => 'Off (65535)',
-        ),
-        6 => array(
-            'Id' => 4294901761,
-            'Label' => 'On (65535)',
-        ),
-        7 => array(
-            'Id' => 4294967295,
-            'Label' => 'n/a',
-        ),
-        8 => array(
             'Id' => 0,
             'Label' => 'Off',
         ),
+        5 => array(
+            'Id' => 1,
+            'Label' => 'On (unused)',
+        ),
+        6 => array(
+            'Id' => 65537,
+            'Label' => 'On (dark subtracted)',
+        ),
+        7 => array(
+            'Id' => 4294901760,
+            'Label' => 'Off (65535)',
+        ),
+        8 => array(
+            'Id' => 4294901761,
+            'Label' => 'On (65535)',
+        ),
         9 => array(
+            'Id' => 4294967295,
+            'Label' => 'n/a',
+        ),
+        10 => array(
+            'Id' => 0,
+            'Label' => 'Off',
+        ),
+        11 => array(
             'Id' => 1,
             'Label' => 'On',
         ),
-        10 => array(
+        12 => array(
             'Id' => 65535,
             'Label' => 'n/a',
         ),

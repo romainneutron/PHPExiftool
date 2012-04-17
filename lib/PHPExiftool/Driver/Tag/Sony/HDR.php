@@ -32,6 +32,54 @@ class HDR extends \PHPExiftool\Driver\Tag
             'Id' => 0,
             'Label' => 'Off',
         ),
+        1 => array(
+            'Id' => 1,
+            'Label' => 'Auto (0)',
+        ),
+        16 => array(
+            'Id' => 16,
+            'Label' => '1.0 EV (0)',
+        ),
+        17 => array(
+            'Id' => 17,
+            'Label' => '1.5 EV (0)',
+        ),
+        18 => array(
+            'Id' => 18,
+            'Label' => '2.0 EV (0)',
+        ),
+        19 => array(
+            'Id' => 19,
+            'Label' => '2.5 EV (0)',
+        ),
+        20 => array(
+            'Id' => 20,
+            'Label' => '3.0 EV (0)',
+        ),
+        21 => array(
+            'Id' => 21,
+            'Label' => '3.5 EV (0)',
+        ),
+        22 => array(
+            'Id' => 22,
+            'Label' => '4.0 EV (0)',
+        ),
+        23 => array(
+            'Id' => 23,
+            'Label' => '4.5 EV (0)',
+        ),
+        24 => array(
+            'Id' => 24,
+            'Label' => '5.0 EV (0)',
+        ),
+        25 => array(
+            'Id' => 25,
+            'Label' => '5.5 EV (0)',
+        ),
+        26 => array(
+            'Id' => 26,
+            'Label' => '6.0 EV (0)',
+        ),
         65537 => array(
             'Id' => 65537,
             'Label' => 'Auto',

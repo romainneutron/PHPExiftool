@@ -5,11 +5,11 @@ namespace PHPExiftool\Driver\Tag\Olympus;
 class PreviewImage extends \PHPExiftool\Driver\Tag
 {
 
-    protected $Id = 640;
+    protected $Id = 'mixed';
 
     protected $Name = 'PreviewImage';
 
-    protected $FullName = 'Olympus::Main';
+    protected $FullName = 'mixed';
 
     protected $GroupName = 'Olympus';
 
@@ -19,9 +19,9 @@ class PreviewImage extends \PHPExiftool\Driver\Tag
 
     protected $g2 = 'Camera';
 
-    protected $Type = 'int8u';
+    protected $Type = 'mixed';
 
-    protected $Writable = true;
+    protected $Writable = false;
 
     protected $Description = 'Preview Image';
 

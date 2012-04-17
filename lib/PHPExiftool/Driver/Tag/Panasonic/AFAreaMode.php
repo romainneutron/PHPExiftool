@@ -40,6 +40,10 @@ class AFAreaMode extends \PHPExiftool\Driver\Tag
             'Id' => 16,
             'Label' => 'Normal?',
         ),
+        '0 23' => array(
+            'Id' => '0 23',
+            'Label' => '23-area',
+        ),
         '1 0' => array(
             'Id' => '1 0',
             'Label' => 'Spot Focusing',

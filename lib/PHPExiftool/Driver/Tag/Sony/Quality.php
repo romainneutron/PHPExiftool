@@ -57,50 +57,70 @@ class Quality extends \PHPExiftool\Driver\Tag
             'Label' => 'Standard',
         ),
         7 => array(
-            'Id' => 0,
+            'Id' => 2,
             'Label' => 'RAW',
         ),
         8 => array(
-            'Id' => 1,
-            'Label' => 'Super Fine',
+            'Id' => 4,
+            'Label' => 'RAW + JPEG',
         ),
         9 => array(
-            'Id' => 2,
+            'Id' => 6,
             'Label' => 'Fine',
         ),
         10 => array(
-            'Id' => 3,
+            'Id' => 7,
             'Label' => 'Standard',
         ),
         11 => array(
+            'Id' => 0,
+            'Label' => 'RAW',
+        ),
+        12 => array(
+            'Id' => 1,
+            'Label' => 'Super Fine',
+        ),
+        13 => array(
+            'Id' => 2,
+            'Label' => 'Fine',
+        ),
+        14 => array(
+            'Id' => 3,
+            'Label' => 'Standard',
+        ),
+        15 => array(
             'Id' => 4,
             'Label' => 'Economy',
         ),
-        12 => array(
+        16 => array(
             'Id' => 5,
             'Label' => 'Extra Fine',
         ),
-        13 => array(
+        17 => array(
             'Id' => 6,
             'Label' => 'RAW + JPEG',
         ),
-        14 => array(
+        18 => array(
             'Id' => 7,
             'Label' => 'Compressed RAW',
         ),
-        15 => array(
+        19 => array(
             'Id' => 8,
             'Label' => 'Compressed RAW + JPEG',
         ),
-        16 => array(
+        20 => array(
+            'Id' => 4294967295,
+            'Label' => 'n/a',
+        ),
+        21 => array(
             'Id' => 0,
             'Label' => 'Normal',
         ),
-        17 => array(
+        22 => array(
             'Id' => 1,
             'Label' => 'Fine',
         ),
-        18 => array(
+        23 => array(
             'Id' => 65535,
             'Label' => 'n/a',
         ),

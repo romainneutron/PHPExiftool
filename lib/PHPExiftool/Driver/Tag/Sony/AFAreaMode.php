@@ -52,6 +52,10 @@ class AFAreaMode extends \PHPExiftool\Driver\Tag
             'Id' => 3,
             'Label' => 'Local',
         ),
+        6 => array(
+            'Id' => 4,
+            'Label' => 'Flexible',
+        ),
     );
 
 }

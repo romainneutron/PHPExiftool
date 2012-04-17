@@ -45,18 +45,34 @@ class FocusMode extends \PHPExiftool\Driver\Tag
             'Label' => 'AF-A',
         ),
         4 => array(
-            'Id' => 1,
+            'Id' => 17,
             'Label' => 'AF-S',
         ),
         5 => array(
-            'Id' => 2,
+            'Id' => 18,
             'Label' => 'AF-C',
         ),
         6 => array(
+            'Id' => 19,
+            'Label' => 'AF-A',
+        ),
+        7 => array(
+            'Id' => 32,
+            'Label' => 'Manual',
+        ),
+        8 => array(
+            'Id' => 1,
+            'Label' => 'AF-S',
+        ),
+        9 => array(
+            'Id' => 2,
+            'Label' => 'AF-C',
+        ),
+        10 => array(
             'Id' => 4,
             'Label' => 'Permanent-AF',
         ),
-        7 => array(
+        11 => array(
             'Id' => 65535,
             'Label' => 'n/a',
         ),

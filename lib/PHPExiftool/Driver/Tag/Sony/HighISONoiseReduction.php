@@ -19,7 +19,7 @@ class HighISONoiseReduction extends \PHPExiftool\Driver\Tag
 
     protected $g2 = 'Camera';
 
-    protected $Type = 'int16u';
+    protected $Type = 'mixed';
 
     protected $Writable = true;
 
@@ -30,7 +30,7 @@ class HighISONoiseReduction extends \PHPExiftool\Driver\Tag
     protected $Values = array(
         0 => array(
             'Id' => 0,
-            'Label' => 'Off',
+            'Label' => 'Normal',
         ),
         1 => array(
             'Id' => 1,
@@ -38,17 +38,57 @@ class HighISONoiseReduction extends \PHPExiftool\Driver\Tag
         ),
         2 => array(
             'Id' => 2,
-            'Label' => 'Normal',
+            'Label' => 'High',
         ),
         3 => array(
             'Id' => 3,
+            'Label' => 'Off',
+        ),
+        4 => array(
+            'Id' => 0,
+            'Label' => 'Off',
+        ),
+        5 => array(
+            'Id' => 1,
+            'Label' => 'Low',
+        ),
+        6 => array(
+            'Id' => 2,
+            'Label' => 'Normal',
+        ),
+        7 => array(
+            'Id' => 3,
             'Label' => 'High',
         ),
-        256 => array(
+        8 => array(
+            'Id' => 16,
+            'Label' => 'Low',
+        ),
+        9 => array(
+            'Id' => 19,
+            'Label' => 'Auto',
+        ),
+        10 => array(
+            'Id' => 0,
+            'Label' => 'Off',
+        ),
+        11 => array(
+            'Id' => 1,
+            'Label' => 'Low',
+        ),
+        12 => array(
+            'Id' => 2,
+            'Label' => 'Normal',
+        ),
+        13 => array(
+            'Id' => 3,
+            'Label' => 'High',
+        ),
+        14 => array(
             'Id' => 256,
             'Label' => 'Auto',
         ),
-        65535 => array(
+        15 => array(
             'Id' => 65535,
             'Label' => 'n/a',
         ),

@@ -5,11 +5,11 @@ namespace PHPExiftool\Driver\Tag\Pentax;
 class DateTime2 extends \PHPExiftool\Driver\Tag
 {
 
-    protected $Id = 157;
+    protected $Id = 'mixed';
 
     protected $Name = 'DateTime2';
 
-    protected $FullName = 'Pentax::Junk2';
+    protected $FullName = 'mixed';
 
     protected $GroupName = 'Pentax';
 

@@ -44,26 +44,6 @@ class DynamicRangeOptimizerMode extends \PHPExiftool\Driver\Tag
             'Id' => 3,
             'Label' => 'Advanced Level',
         ),
-        4 => array(
-            'Id' => 4097,
-            'Label' => 'Auto',
-        ),
-        5 => array(
-            'Id' => 0,
-            'Label' => 'Off',
-        ),
-        6 => array(
-            'Id' => 1,
-            'Label' => 'Standard',
-        ),
-        7 => array(
-            'Id' => 2,
-            'Label' => 'Advanced Auto',
-        ),
-        8 => array(
-            'Id' => 3,
-            'Label' => 'Advanced Level',
-        ),
     );
 
 }

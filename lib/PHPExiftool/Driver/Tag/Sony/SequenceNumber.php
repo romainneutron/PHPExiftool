@@ -5,11 +5,11 @@ namespace PHPExiftool\Driver\Tag\Sony;
 class SequenceNumber extends \PHPExiftool\Driver\Tag
 {
 
-    protected $Id = 45130;
+    protected $Id = 'mixed';
 
     protected $Name = 'SequenceNumber';
 
-    protected $FullName = 'Sony::Main';
+    protected $FullName = 'mixed';
 
     protected $GroupName = 'Sony';
 
@@ -19,7 +19,7 @@ class SequenceNumber extends \PHPExiftool\Driver\Tag
 
     protected $g2 = 'Camera';
 
-    protected $Type = 'int16u';
+    protected $Type = 'mixed';
 
     protected $Writable = true;
 
@@ -32,7 +32,15 @@ class SequenceNumber extends \PHPExiftool\Driver\Tag
             'Id' => 0,
             'Label' => 'Single',
         ),
-        65535 => array(
+        1 => array(
+            'Id' => 255,
+            'Label' => 'n/a',
+        ),
+        2 => array(
+            'Id' => 0,
+            'Label' => 'Single',
+        ),
+        3 => array(
             'Id' => 65535,
             'Label' => 'n/a',
         ),

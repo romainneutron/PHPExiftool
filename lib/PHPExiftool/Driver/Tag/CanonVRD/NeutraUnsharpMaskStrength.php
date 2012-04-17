@@ -2,12 +2,12 @@
 
 namespace PHPExiftool\Driver\Tag\CanonVRD;
 
-class UnsharpMaskThreshold extends \PHPExiftool\Driver\Tag
+class NeutraUnsharpMaskStrength extends \PHPExiftool\Driver\Tag
 {
 
-    protected $Id = 150;
+    protected $Id = 164;
 
-    protected $Name = 'UnsharpMaskThreshold';
+    protected $Name = 'NeutraUnsharpMaskStrength';
 
     protected $FullName = 'CanonVRD::Ver2';
 
@@ -23,6 +23,6 @@ class UnsharpMaskThreshold extends \PHPExiftool\Driver\Tag
 
     protected $Writable = true;
 
-    protected $Description = 'Unsharp Mask Threshold';
+    protected $Description = 'Neutra Unsharp Mask Strength';
 
 }

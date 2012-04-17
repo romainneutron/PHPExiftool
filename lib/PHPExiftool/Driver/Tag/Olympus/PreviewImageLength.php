@@ -21,7 +21,7 @@ class PreviewImageLength extends \PHPExiftool\Driver\Tag
 
     protected $Type = 'mixed';
 
-    protected $Writable = true;
+    protected $Writable = false;
 
     protected $Description = 'Preview Image Length';
 

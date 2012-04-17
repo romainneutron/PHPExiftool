@@ -2,12 +2,12 @@
 
 namespace PHPExiftool\Driver\Tag\Sony;
 
-class LocalAFAreaPoint extends \PHPExiftool\Driver\Tag
+class AFPointSelected extends \PHPExiftool\Driver\Tag
 {
 
     protected $Id = 'mixed';
 
-    protected $Name = 'LocalAFAreaPoint';
+    protected $Name = 'AFPointSelected';
 
     protected $FullName = 'mixed';
 
@@ -23,14 +23,14 @@ class LocalAFAreaPoint extends \PHPExiftool\Driver\Tag
 
     protected $Writable = true;
 
-    protected $Description = 'Local AF Area Point';
+    protected $Description = 'AF Point Selected';
 
     protected $flag_Permanent = true;
 
     protected $Values = array(
         0 => array(
             'Id' => 0,
-            'Label' => 'None',
+            'Label' => 'Auto',
         ),
         1 => array(
             'Id' => 1,
@@ -42,7 +42,7 @@ class LocalAFAreaPoint extends \PHPExiftool\Driver\Tag
         ),
         3 => array(
             'Id' => 3,
-            'Label' => 'Top-right',
+            'Label' => 'Upper-right',
         ),
         4 => array(
             'Id' => 4,
@@ -50,7 +50,7 @@ class LocalAFAreaPoint extends \PHPExiftool\Driver\Tag
         ),
         5 => array(
             'Id' => 5,
-            'Label' => 'Bottom-right',
+            'Label' => 'Lower-right',
         ),
         6 => array(
             'Id' => 6,
@@ -58,7 +58,7 @@ class LocalAFAreaPoint extends \PHPExiftool\Driver\Tag
         ),
         7 => array(
             'Id' => 7,
-            'Label' => 'Bottom-left',
+            'Label' => 'Lower-left',
         ),
         8 => array(
             'Id' => 8,
@@ -66,7 +66,7 @@ class LocalAFAreaPoint extends \PHPExiftool\Driver\Tag
         ),
         9 => array(
             'Id' => 9,
-            'Label' => 'Top-left',
+            'Label' => 'Upper-left',
         ),
         10 => array(
             'Id' => 10,
@@ -171,14 +171,6 @@ class LocalAFAreaPoint extends \PHPExiftool\Driver\Tag
         35 => array(
             'Id' => 9,
             'Label' => 'Top-Left',
-        ),
-        36 => array(
-            'Id' => 10,
-            'Label' => 'Far Right',
-        ),
-        37 => array(
-            'Id' => 11,
-            'Label' => 'Far Left',
         ),
     );
 

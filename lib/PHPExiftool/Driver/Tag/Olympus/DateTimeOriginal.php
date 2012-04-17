@@ -5,11 +5,11 @@ namespace PHPExiftool\Driver\Tag\Olympus;
 class DateTimeOriginal extends \PHPExiftool\Driver\Tag
 {
 
-    protected $Id = 38;
+    protected $Id = 'mixed';
 
     protected $Name = 'DateTimeOriginal';
 
-    protected $FullName = 'Olympus::WAV';
+    protected $FullName = 'mixed';
 
     protected $GroupName = 'Olympus';
 
@@ -17,13 +17,13 @@ class DateTimeOriginal extends \PHPExiftool\Driver\Tag
 
     protected $g1 = 'Olympus';
 
-    protected $g2 = 'Audio';
+    protected $g2 = 'mixed';
 
-    protected $Type = 'undef';
+    protected $Type = 'mixed';
 
     protected $Writable = false;
 
-    protected $Description = 'Date/Time Original';
+    protected $Description = 'mixed';
 
     protected $local_g2 = 'Time';
 

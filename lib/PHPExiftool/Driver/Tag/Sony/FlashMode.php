@@ -5,7 +5,7 @@ namespace PHPExiftool\Driver\Tag\Sony;
 class FlashMode extends \PHPExiftool\Driver\Tag
 {
 
-    protected $Id = 35;
+    protected $Id = 'mixed';
 
     protected $Name = 'FlashMode';
 
@@ -19,7 +19,7 @@ class FlashMode extends \PHPExiftool\Driver\Tag
 
     protected $g2 = 'Camera';
 
-    protected $Type = 'int16u';
+    protected $Type = 'mixed';
 
     protected $Writable = true;
 
@@ -35,6 +35,30 @@ class FlashMode extends \PHPExiftool\Driver\Tag
         1 => array(
             'Id' => 1,
             'Label' => 'TTL',
+        ),
+        2 => array(
+            'Id' => 1,
+            'Label' => 'Flash Off',
+        ),
+        3 => array(
+            'Id' => 16,
+            'Label' => 'Autoflash',
+        ),
+        4 => array(
+            'Id' => 17,
+            'Label' => 'Fill-flash',
+        ),
+        5 => array(
+            'Id' => 18,
+            'Label' => 'Slow Sync',
+        ),
+        6 => array(
+            'Id' => 19,
+            'Label' => 'Rear Sync',
+        ),
+        7 => array(
+            'Id' => 20,
+            'Label' => 'Wireless',
         ),
     );
 

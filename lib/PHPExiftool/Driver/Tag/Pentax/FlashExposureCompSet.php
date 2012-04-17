@@ -23,7 +23,7 @@ class FlashExposureCompSet extends \PHPExiftool\Driver\Tag
 
     protected $Writable = true;
 
-    protected $Description = 'Flash Exposure Comp Set';
+    protected $Description = 'Flash Exposure Comp. Setting';
 
     protected $flag_Permanent = true;
 

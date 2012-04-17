@@ -5,26 +5,30 @@ namespace PHPExiftool\Driver\Tag\GPS;
 class GPSDateStamp extends \PHPExiftool\Driver\Tag
 {
 
-    protected $Id = 29;
+    protected $Id = 'mixed';
 
     protected $Name = 'GPSDateStamp';
 
-    protected $FullName = 'GPS::Main';
+    protected $FullName = 'mixed';
 
     protected $GroupName = 'GPS';
 
-    protected $g0 = 'EXIF';
+    protected $g0 = 'mixed';
 
-    protected $g1 = 'GPS';
+    protected $g1 = 'mixed';
 
-    protected $g2 = 'Location';
+    protected $g2 = 'mixed';
 
     protected $Type = 'string';
 
-    protected $Writable = true;
+    protected $Writable = false;
 
     protected $Description = 'GPS Date Stamp';
 
     protected $local_g2 = 'Time';
+
+    protected $local_g1 = 'mixed';
+
+    protected $flag_Permanent = 'mixed';
 
 }

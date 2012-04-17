@@ -2,12 +2,12 @@
 
 namespace PHPExiftool\Driver\Tag\Minolta;
 
-class LocalAFAreaPoint extends \PHPExiftool\Driver\Tag
+class AFPointSelected extends \PHPExiftool\Driver\Tag
 {
 
     protected $Id = 13;
 
-    protected $Name = 'LocalAFAreaPoint';
+    protected $Name = 'AFPointSelected';
 
     protected $FullName = 'Minolta::CameraSettingsA100';
 
@@ -23,7 +23,7 @@ class LocalAFAreaPoint extends \PHPExiftool\Driver\Tag
 
     protected $Writable = true;
 
-    protected $Description = 'Local AF Area Point';
+    protected $Description = 'AF Point Selected';
 
     protected $flag_Permanent = true;
 

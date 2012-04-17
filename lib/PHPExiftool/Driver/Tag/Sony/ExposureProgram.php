@@ -5,7 +5,7 @@ namespace PHPExiftool\Driver\Tag\Sony;
 class ExposureProgram extends \PHPExiftool\Driver\Tag
 {
 
-    protected $Id = 60;
+    protected $Id = 'mixed';
 
     protected $Name = 'ExposureProgram';
 
@@ -19,7 +19,7 @@ class ExposureProgram extends \PHPExiftool\Driver\Tag
 
     protected $g2 = 'Camera';
 
-    protected $Type = 'int16u';
+    protected $Type = 'mixed';
 
     protected $Writable = true;
 
@@ -48,41 +48,157 @@ class ExposureProgram extends \PHPExiftool\Driver\Tag
             'Id' => 4,
             'Label' => 'Shutter speed priority AE',
         ),
-        8 => array(
+        5 => array(
             'Id' => 8,
             'Label' => 'Program Shift A',
         ),
-        9 => array(
+        6 => array(
             'Id' => 9,
             'Label' => 'Program Shift S',
         ),
-        16 => array(
+        7 => array(
             'Id' => 16,
             'Label' => 'Portrait',
         ),
-        17 => array(
+        8 => array(
             'Id' => 17,
             'Label' => 'Sports',
         ),
-        18 => array(
+        9 => array(
             'Id' => 18,
             'Label' => 'Sunset',
         ),
-        19 => array(
+        10 => array(
             'Id' => 19,
             'Label' => 'Night Portrait',
         ),
-        20 => array(
+        11 => array(
             'Id' => 20,
             'Label' => 'Landscape',
         ),
-        21 => array(
+        12 => array(
             'Id' => 21,
             'Label' => 'Macro',
         ),
-        35 => array(
+        13 => array(
             'Id' => 35,
             'Label' => 'Auto No Flash',
+        ),
+        14 => array(
+            'Id' => 1,
+            'Label' => 'Program AE',
+        ),
+        15 => array(
+            'Id' => 2,
+            'Label' => 'Aperture-priority AE',
+        ),
+        16 => array(
+            'Id' => 3,
+            'Label' => 'Shutter speed priority AE',
+        ),
+        17 => array(
+            'Id' => 4,
+            'Label' => 'Manual',
+        ),
+        18 => array(
+            'Id' => 5,
+            'Label' => 'Cont. Priority AE',
+        ),
+        19 => array(
+            'Id' => 16,
+            'Label' => 'Auto',
+        ),
+        20 => array(
+            'Id' => 17,
+            'Label' => 'Auto No Flash',
+        ),
+        21 => array(
+            'Id' => 49,
+            'Label' => 'Portrait',
+        ),
+        22 => array(
+            'Id' => 50,
+            'Label' => 'Landscape',
+        ),
+        23 => array(
+            'Id' => 51,
+            'Label' => 'Macro',
+        ),
+        24 => array(
+            'Id' => 52,
+            'Label' => 'Sports',
+        ),
+        25 => array(
+            'Id' => 53,
+            'Label' => 'Sunset',
+        ),
+        26 => array(
+            'Id' => 54,
+            'Label' => 'Night view',
+        ),
+        27 => array(
+            'Id' => 55,
+            'Label' => 'Night view/portrait',
+        ),
+        28 => array(
+            'Id' => 56,
+            'Label' => 'Handheld Night Shot',
+        ),
+        29 => array(
+            'Id' => 57,
+            'Label' => '3D Sweep Panorama',
+        ),
+        30 => array(
+            'Id' => 65,
+            'Label' => 'Auto Advanced',
+        ),
+        31 => array(
+            'Id' => 80,
+            'Label' => 'Sweep Panorama',
+        ),
+        32 => array(
+            'Id' => 128,
+            'Label' => 'Toy Camera',
+        ),
+        33 => array(
+            'Id' => 129,
+            'Label' => 'Pop Color',
+        ),
+        34 => array(
+            'Id' => 130,
+            'Label' => 'Posterization',
+        ),
+        35 => array(
+            'Id' => 131,
+            'Label' => 'Posterization B/W',
+        ),
+        36 => array(
+            'Id' => 132,
+            'Label' => 'Retro Photo',
+        ),
+        37 => array(
+            'Id' => 133,
+            'Label' => 'High-key',
+        ),
+        38 => array(
+            'Id' => 134,
+            'Label' => 'Partial Color Red',
+        ),
+        39 => array(
+            'Id' => 135,
+            'Label' => 'Partial Color Green',
+        ),
+        40 => array(
+            'Id' => 136,
+            'Label' => 'Partial Color Blue',
+        ),
+        41 => array(
+            'Id' => 137,
+            'Label' => 'Partial Color Yellow',
+        ),
+        42 => array(
+            'Id' => 138,
+            'Label' => 'High Contrast Monochrome',
         ),
     );
 

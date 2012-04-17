@@ -110,7 +110,7 @@ class ExposureMode extends \PHPExiftool\Driver\Tag
         ),
         35 => array(
             'Id' => 35,
-            'Label' => 'Handheld Twilight',
+            'Label' => 'Handheld Night Shot',
         ),
         36 => array(
             'Id' => 36,

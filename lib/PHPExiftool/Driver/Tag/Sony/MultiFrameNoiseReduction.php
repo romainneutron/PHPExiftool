@@ -30,7 +30,7 @@ class MultiFrameNoiseReduction extends \PHPExiftool\Driver\Tag
     protected $Values = array(
         0 => array(
             'Id' => 0,
-            'Label' => 'None',
+            'Label' => 'n/a',
         ),
         1 => array(
             'Id' => 1,
@@ -42,7 +42,7 @@ class MultiFrameNoiseReduction extends \PHPExiftool\Driver\Tag
         ),
         3 => array(
             'Id' => 255,
-            'Label' => 'n/a',
+            'Label' => 'None',
         ),
         4 => array(
             'Id' => 0,

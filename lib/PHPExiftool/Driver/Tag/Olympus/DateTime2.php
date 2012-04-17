@@ -5,11 +5,11 @@ namespace PHPExiftool\Driver\Tag\Olympus;
 class DateTime2 extends \PHPExiftool\Driver\Tag
 {
 
-    protected $Id = 157;
+    protected $Id = 'mixed';
 
     protected $Name = 'DateTime2';
 
-    protected $FullName = 'Olympus::AVI';
+    protected $FullName = 'mixed';
 
     protected $GroupName = 'Olympus';
 

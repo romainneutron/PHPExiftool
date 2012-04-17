@@ -212,6 +212,22 @@ class SceneMode extends \PHPExiftool\Driver\Tag
             'Id' => 51,
             'Label' => 'HDR',
         ),
+        55 => array(
+            'Id' => 55,
+            'Label' => 'Handheld Night Shot',
+        ),
+        57 => array(
+            'Id' => 57,
+            'Label' => '3D',
+        ),
+        59 => array(
+            'Id' => 59,
+            'Label' => 'Creative Control',
+        ),
+        66 => array(
+            'Id' => 66,
+            'Label' => 'Digital Filter',
+        ),
     );
 
 }

@@ -2,12 +2,12 @@
 
 namespace PHPExiftool\Driver\Tag\CanonVRD;
 
-class UnsharpMaskStrength extends \PHPExiftool\Driver\Tag
+class CropCircleRadius extends \PHPExiftool\Driver\Tag
 {
 
-    protected $Id = 146;
+    protected $Id = 217;
 
-    protected $Name = 'UnsharpMaskStrength';
+    protected $Name = 'CropCircleRadius';
 
     protected $FullName = 'CanonVRD::Ver2';
 
@@ -23,6 +23,6 @@ class UnsharpMaskStrength extends \PHPExiftool\Driver\Tag
 
     protected $Writable = true;
 
-    protected $Description = 'Unsharp Mask Strength';
+    protected $Description = 'Crop Circle Radius';
 
 }

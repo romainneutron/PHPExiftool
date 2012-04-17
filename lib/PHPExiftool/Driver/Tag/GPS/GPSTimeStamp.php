@@ -29,4 +29,6 @@ class GPSTimeStamp extends \PHPExiftool\Driver\Tag
 
     protected $local_g1 = 'mixed';
 
+    protected $flag_Permanent = 'mixed';
+
 }

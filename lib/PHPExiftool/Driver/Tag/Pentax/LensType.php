@@ -21,7 +21,7 @@ class LensType extends \PHPExiftool\Driver\Tag
 
     protected $Type = 'int8u';
 
-    protected $Writable = false;
+    protected $Writable = true;
 
     protected $Description = 'Lens Type';
 
@@ -664,6 +664,10 @@ class LensType extends \PHPExiftool\Driver\Tag
             'Id' => '7 75',
             'Label' => 'Tamron SP AF 70-200mm F2.8 Di LD [IF] Macro (A001)',
         ),
+        '7 213' => array(
+            'Id' => '7 213',
+            'Label' => 'smc PENTAX-DA 40mm F2.8 XS',
+        ),
         '7 214' => array(
             'Id' => '7 214',
             'Label' => 'smc PENTAX-DA 35mm F2.4 AL',
@@ -710,7 +714,7 @@ class LensType extends \PHPExiftool\Driver\Tag
         ),
         '7 227' => array(
             'Id' => '7 227',
-            'Label' => 'smc PENTAX DA* 60-250mm F4 [IF] SDM (SDM unused)',
+            'Label' => 'smc PENTAX-DA* 60-250mm F4 [IF] SDM (SDM unused)',
         ),
         '7 229' => array(
             'Id' => '7 229',
@@ -768,9 +772,17 @@ class LensType extends \PHPExiftool\Driver\Tag
             'Id' => '8 12',
             'Label' => 'Sigma 70-300mm F4-5.6 DG OS',
         ),
+        '8 13' => array(
+            'Id' => '8 13',
+            'Label' => 'Sigma 120-400mm F4.5-5.6 APO DG OS HSM',
+        ),
         '8 14' => array(
             'Id' => '8 14',
             'Label' => 'Sigma 17-70mm F2.8-4.0 DC Macro OS HSM',
+        ),
+        '8 15' => array(
+            'Id' => '8 15',
+            'Label' => 'Sigma 150-500mm F5-6.3 APO DG OS HSM',
         ),
         '8 16' => array(
             'Id' => '8 16',
@@ -802,7 +814,7 @@ class LensType extends \PHPExiftool\Driver\Tag
         ),
         '8 227' => array(
             'Id' => '8 227',
-            'Label' => 'smc PENTAX DA* 60-250mm F4 [IF] SDM',
+            'Label' => 'smc PENTAX-DA* 60-250mm F4 [IF] SDM',
         ),
         '8 232' => array(
             'Id' => '8 232',
@@ -867,6 +879,10 @@ class LensType extends \PHPExiftool\Driver\Tag
         '13 18' => array(
             'Id' => '13 18',
             'Label' => 'smc PENTAX-D FA 645 55mm F2.8 AL [IF] SDM AW',
+        ),
+        '13 19' => array(
+            'Id' => '13 19',
+            'Label' => 'smc PENTAX-D FA 645 25mm F4 AL [IF] SDM AW',
         ),
         '21 0' => array(
             'Id' => '21 0',

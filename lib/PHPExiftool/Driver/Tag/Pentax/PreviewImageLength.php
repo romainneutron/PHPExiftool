@@ -5,11 +5,11 @@ namespace PHPExiftool\Driver\Tag\Pentax;
 class PreviewImageLength extends \PHPExiftool\Driver\Tag
 {
 
-    protected $Id = 3;
+    protected $Id = 'mixed';
 
     protected $Name = 'PreviewImageLength';
 
-    protected $FullName = 'Pentax::Main';
+    protected $FullName = 'mixed';
 
     protected $GroupName = 'Pentax';
 
@@ -21,7 +21,7 @@ class PreviewImageLength extends \PHPExiftool\Driver\Tag
 
     protected $Type = 'int32u';
 
-    protected $Writable = true;
+    protected $Writable = false;
 
     protected $Description = 'Preview Image Length';
 

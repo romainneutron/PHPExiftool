@@ -36,6 +36,10 @@ class Audio extends \PHPExiftool\Driver\Tag
             'Id' => 2,
             'Label' => 'No',
         ),
+        3 => array(
+            'Id' => 3,
+            'Label' => 'Stereo',
+        ),
     );
 
 }

@@ -30,7 +30,7 @@ class FilmMode extends \PHPExiftool\Driver\Tag
     protected $Values = array(
         0 => array(
             'Id' => 0,
-            'Label' => 'F0/Standard',
+            'Label' => 'F0/Standard (PROVIA)',
         ),
         256 => array(
             'Id' => 256,
@@ -42,7 +42,7 @@ class FilmMode extends \PHPExiftool\Driver\Tag
         ),
         288 => array(
             'Id' => 288,
-            'Label' => 'F1b/Studio Portrait Smooth Skin Tone',
+            'Label' => 'F1b/Studio Portrait Smooth Skin Tone (ASTIA)',
         ),
         304 => array(
             'Id' => 304,
@@ -50,7 +50,7 @@ class FilmMode extends \PHPExiftool\Driver\Tag
         ),
         512 => array(
             'Id' => 512,
-            'Label' => 'F2/Fujichrome',
+            'Label' => 'F2/Fujichrome (Velvia)',
         ),
         768 => array(
             'Id' => 768,
@@ -59,6 +59,14 @@ class FilmMode extends \PHPExiftool\Driver\Tag
         1024 => array(
             'Id' => 1024,
             'Label' => 'F4/Velvia',
+        ),
+        1280 => array(
+            'Id' => 1280,
+            'Label' => 'Pro Neg. Std',
+        ),
+        1281 => array(
+            'Id' => 1281,
+            'Label' => 'Pro Neg. Hi',
         ),
     );
 

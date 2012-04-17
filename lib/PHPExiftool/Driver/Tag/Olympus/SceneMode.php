@@ -249,150 +249,162 @@ class SceneMode extends \PHPExiftool\Driver\Tag
             'Label' => 'Soft Background Shot',
         ),
         55 => array(
+            'Id' => 142,
+            'Label' => 'Hand-held Starlight',
+        ),
+        56 => array(
             'Id' => 0,
             'Label' => 'Normal',
         ),
-        56 => array(
+        57 => array(
             'Id' => 1,
             'Label' => 'Standard',
         ),
-        57 => array(
+        58 => array(
             'Id' => 2,
             'Label' => 'Auto',
         ),
-        58 => array(
+        59 => array(
             'Id' => 3,
             'Label' => 'Intelligent Auto',
         ),
-        59 => array(
+        60 => array(
             'Id' => 4,
             'Label' => 'Portrait',
         ),
-        60 => array(
+        61 => array(
             'Id' => 5,
             'Label' => 'Landscape+Portrait',
         ),
-        61 => array(
+        62 => array(
             'Id' => 6,
             'Label' => 'Landscape',
         ),
-        62 => array(
+        63 => array(
             'Id' => 7,
             'Label' => 'Night Scene',
         ),
-        63 => array(
+        64 => array(
             'Id' => 8,
             'Label' => 'Night+Portrait',
         ),
-        64 => array(
+        65 => array(
             'Id' => 9,
             'Label' => 'Sport',
         ),
-        65 => array(
+        66 => array(
             'Id' => 10,
             'Label' => 'Self Portrait',
         ),
-        66 => array(
+        67 => array(
             'Id' => 11,
             'Label' => 'Indoor',
         ),
-        67 => array(
+        68 => array(
             'Id' => 12,
             'Label' => 'Beach & Snow',
         ),
-        68 => array(
+        69 => array(
             'Id' => 13,
             'Label' => 'Beach',
         ),
-        69 => array(
+        70 => array(
             'Id' => 14,
             'Label' => 'Snow',
         ),
-        70 => array(
+        71 => array(
             'Id' => 15,
             'Label' => 'Self Portrait+Self Timer',
         ),
-        71 => array(
+        72 => array(
             'Id' => 16,
             'Label' => 'Sunset',
         ),
-        72 => array(
+        73 => array(
             'Id' => 17,
             'Label' => 'Cuisine',
         ),
-        73 => array(
+        74 => array(
             'Id' => 18,
             'Label' => 'Documents',
         ),
-        74 => array(
+        75 => array(
             'Id' => 19,
             'Label' => 'Candle',
         ),
-        75 => array(
+        76 => array(
             'Id' => 20,
             'Label' => 'Fireworks',
         ),
-        76 => array(
+        77 => array(
             'Id' => 21,
             'Label' => 'Available Light',
         ),
-        77 => array(
+        78 => array(
             'Id' => 22,
             'Label' => 'Vivid',
         ),
-        78 => array(
+        79 => array(
             'Id' => 23,
             'Label' => 'Underwater Wide1',
         ),
-        79 => array(
+        80 => array(
             'Id' => 24,
             'Label' => 'Underwater Macro',
         ),
-        80 => array(
+        81 => array(
             'Id' => 25,
             'Label' => 'Museum',
         ),
-        81 => array(
+        82 => array(
             'Id' => 26,
             'Label' => 'Behind Glass',
         ),
-        82 => array(
+        83 => array(
             'Id' => 27,
             'Label' => 'Auction',
         ),
-        83 => array(
+        84 => array(
             'Id' => 28,
             'Label' => 'Shoot & Select1',
         ),
-        84 => array(
+        85 => array(
             'Id' => 29,
             'Label' => 'Shoot & Select2',
         ),
-        85 => array(
+        86 => array(
             'Id' => 30,
             'Label' => 'Underwater Wide2',
         ),
-        86 => array(
+        87 => array(
             'Id' => 31,
             'Label' => 'Digital Image Stabilization',
         ),
-        87 => array(
+        88 => array(
             'Id' => 32,
             'Label' => 'Face Portrait',
         ),
-        88 => array(
+        89 => array(
             'Id' => 33,
             'Label' => 'Pet',
         ),
-        89 => array(
+        90 => array(
             'Id' => 34,
             'Label' => 'Smile Shot',
         ),
-        90 => array(
+        91 => array(
             'Id' => 35,
             'Label' => 'Quick Shutter',
         ),
-        91 => array(
+        92 => array(
+            'Id' => 43,
+            'Label' => 'Hand-held Starlight',
+        ),
+        93 => array(
+            'Id' => 100,
+            'Label' => 'Panorama',
+        ),
+        94 => array(
             'Id' => 101,
             'Label' => 'Magic Filter',
         ),

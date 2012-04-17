@@ -2,12 +2,12 @@
 
 namespace PHPExiftool\Driver\Tag\Olympus;
 
-class MaxApertureAtCurrentFocal extends \PHPExiftool\Driver\Tag
+class MaxAperture extends \PHPExiftool\Driver\Tag
 {
 
     protected $Id = 522;
 
-    protected $Name = 'MaxApertureAtCurrentFocal';
+    protected $Name = 'MaxAperture';
 
     protected $FullName = 'Olympus::Equipment';
 
@@ -23,7 +23,7 @@ class MaxApertureAtCurrentFocal extends \PHPExiftool\Driver\Tag
 
     protected $Writable = true;
 
-    protected $Description = 'Max Aperture At Current Focal';
+    protected $Description = 'Max Aperture';
 
     protected $flag_Permanent = true;
 

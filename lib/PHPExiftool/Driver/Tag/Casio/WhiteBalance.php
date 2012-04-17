@@ -85,26 +85,30 @@ class WhiteBalance extends \PHPExiftool\Driver\Tag
             'Label' => 'Daylight',
         ),
         14 => array(
+            'Id' => 2,
+            'Label' => 'Cloudy',
+        ),
+        15 => array(
             'Id' => 3,
             'Label' => 'Shade',
         ),
-        15 => array(
+        16 => array(
             'Id' => 4,
             'Label' => 'Flash?',
         ),
-        16 => array(
+        17 => array(
             'Id' => 6,
             'Label' => 'Fluorescent',
         ),
-        17 => array(
+        18 => array(
             'Id' => 9,
             'Label' => 'Tungsten?',
         ),
-        18 => array(
+        19 => array(
             'Id' => 10,
             'Label' => 'Tungsten',
         ),
-        19 => array(
+        20 => array(
             'Id' => 12,
             'Label' => 'Flash',
         ),

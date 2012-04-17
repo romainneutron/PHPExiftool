@@ -640,9 +640,17 @@ class CanonModelID extends \PHPExiftool\Driver\Tag
             'Id' => 52428800,
             'Label' => 'PowerShot D20',
         ),
+        52494336 => array(
+            'Id' => 52494336,
+            'Label' => 'PowerShot A4000 IS',
+        ),
         52559872 => array(
             'Id' => 52559872,
             'Label' => 'PowerShot SX260 HS',
+        ),
+        52690944 => array(
+            'Id' => 52690944,
+            'Label' => 'PowerShot ELPH 530 HS / IXUS 510 HS / IXY 1',
         ),
         52756480 => array(
             'Id' => 52756480,
@@ -650,7 +658,11 @@ class CanonModelID extends \PHPExiftool\Driver\Tag
         ),
         52822016 => array(
             'Id' => 52822016,
-            'Label' => 'A3400IS',
+            'Label' => 'PowerShot A3400 IS',
+        ),
+        52887552 => array(
+            'Id' => 52887552,
+            'Label' => 'PowerShot A2400 IS',
         ),
         52953088 => array(
             'Id' => 52953088,
@@ -891,6 +903,10 @@ class CanonModelID extends \PHPExiftool\Driver\Tag
         2147484289 => array(
             'Id' => 2147484289,
             'Label' => 'EOS-1D Mark IV',
+        ),
+        2147484293 => array(
+            'Id' => 2147484293,
+            'Label' => 'EOS 5D Mark III',
         ),
         2147484294 => array(
             'Id' => 2147484294,

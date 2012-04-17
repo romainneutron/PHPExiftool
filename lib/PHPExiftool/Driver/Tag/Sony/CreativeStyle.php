@@ -112,14 +112,6 @@ class CreativeStyle extends \PHPExiftool\Driver\Tag
             'Id' => 8,
             'Label' => 'B&W',
         ),
-        21 => array(
-            'Id' => 9,
-            'Label' => 'Adobe RGB',
-        ),
-        22 => array(
-            'Id' => 11,
-            'Label' => 'Neutral',
-        ),
     );
 
 }

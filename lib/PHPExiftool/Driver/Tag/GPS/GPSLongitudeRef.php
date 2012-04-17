@@ -40,4 +40,6 @@ class GPSLongitudeRef extends \PHPExiftool\Driver\Tag
 
     protected $local_g2 = 'mixed';
 
+    protected $flag_Permanent = 'mixed';
+
 }

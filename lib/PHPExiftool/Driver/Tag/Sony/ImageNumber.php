@@ -1,21 +1,21 @@
 <?php
 
-namespace PHPExiftool\Driver\Tag\Canon;
+namespace PHPExiftool\Driver\Tag\Sony;
 
 class ImageNumber extends \PHPExiftool\Driver\Tag
 {
 
-    protected $Id = 208;
+    protected $Id = 'mixed';
 
     protected $Name = 'ImageNumber';
 
-    protected $FullName = 'Canon::CameraInfo5D';
+    protected $FullName = 'mixed';
 
-    protected $GroupName = 'Canon';
+    protected $GroupName = 'Sony';
 
     protected $g0 = 'MakerNotes';
 
-    protected $g1 = 'Canon';
+    protected $g1 = 'Sony';
 
     protected $g2 = 'Camera';
 
@@ -24,8 +24,6 @@ class ImageNumber extends \PHPExiftool\Driver\Tag
     protected $Writable = true;
 
     protected $Description = 'Image Number';
-
-    protected $local_g2 = 'Image';
 
     protected $flag_Permanent = true;
 

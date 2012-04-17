@@ -19,7 +19,7 @@ class MeteringMode extends \PHPExiftool\Driver\Tag
 
     protected $g2 = 'Camera';
 
-    protected $Type = 'int16u';
+    protected $Type = 'mixed';
 
     protected $Writable = true;
 
@@ -28,16 +28,28 @@ class MeteringMode extends \PHPExiftool\Driver\Tag
     protected $flag_Permanent = true;
 
     protected $Values = array(
-        1 => array(
+        0 => array(
             'Id' => 1,
             'Label' => 'Multi-segment',
         ),
-        2 => array(
+        1 => array(
             'Id' => 2,
             'Label' => 'Center-weighted Average',
         ),
-        4 => array(
+        2 => array(
             'Id' => 4,
+            'Label' => 'Spot',
+        ),
+        3 => array(
+            'Id' => 1,
+            'Label' => 'Multi-segment',
+        ),
+        4 => array(
+            'Id' => 2,
+            'Label' => 'Center-weighted average',
+        ),
+        5 => array(
+            'Id' => 3,
             'Label' => 'Spot',
         ),
     );

@@ -217,6 +217,7 @@ class ClassesBuilder extends Command
             case 'undef':
             case 'resize':
             case 'var_pstr32':
+            case 'var_undef':
             case 'utf8':
             case 'signed':
             case 'null':

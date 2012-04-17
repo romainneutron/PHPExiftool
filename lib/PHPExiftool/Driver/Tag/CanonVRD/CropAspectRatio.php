@@ -74,6 +74,14 @@ class CropAspectRatio extends \PHPExiftool\Driver\Tag
             'Id' => 11,
             'Label' => '1:1',
         ),
+        12 => array(
+            'Id' => 12,
+            'Label' => 'Circle',
+        ),
+        65535 => array(
+            'Id' => 65535,
+            'Label' => 'Custom',
+        ),
     );
 
 }

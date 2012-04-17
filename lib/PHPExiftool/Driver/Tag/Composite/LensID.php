@@ -82,7 +82,7 @@ class LensID extends \PHPExiftool\Driver\Tag
         ),
         '00 40 2D 2D 2C 2C 00 00' => array(
             'Id' => '00 40 2D 2D 2C 2C 00 00',
-            'Label' => 'Carl Zeiss Distagon T* 3,5/18 ZF.2',
+            'Label' => 'Carl Zeiss Distagon T* 3.5/18 ZF.2',
         ),
         '00 40 2D 80 2C 40 00 06' => array(
             'Id' => '00 40 2D 80 2C 40 00 06',
@@ -142,7 +142,7 @@ class LensID extends \PHPExiftool\Driver\Tag
         ),
         '00 48 32 32 24 24 00 00' => array(
             'Id' => '00 48 32 32 24 24 00 00',
-            'Label' => 'Carl Zeiss Distagon T* 2,8/21 ZF.2',
+            'Label' => 'Carl Zeiss Distagon T* 2.8/21 ZF.2',
         ),
         '00 48 3C 60 24 24 00 02' => array(
             'Id' => '00 48 3C 60 24 24 00 02',
@@ -210,7 +210,7 @@ class LensID extends \PHPExiftool\Driver\Tag
         ),
         '00 54 50 50 0C 0C 00 00' => array(
             'Id' => '00 54 50 50 0C 0C 00 00',
-            'Label' => 'Carl Zeiss Planar T* 1,4/50 ZF.2',
+            'Label' => 'Carl Zeiss Planar T* 1.4/50 ZF.2',
         ),
         '00 54 50 50 18 18 00 00' => array(
             'Id' => '00 54 50 50 18 18 00 00',
@@ -226,7 +226,7 @@ class LensID extends \PHPExiftool\Driver\Tag
         ),
         '00 54 62 62 0C 0C 00 00' => array(
             'Id' => '00 54 62 62 0C 0C 00 00',
-            'Label' => 'Carl Zeiss Planar T* 1,4/85 ZF.2',
+            'Label' => 'Carl Zeiss Planar T* 1.4/85 ZF.2',
         ),
         '00 54 68 68 18 18 00 00' => array(
             'Id' => '00 54 68 68 18 18 00 00',
@@ -319,6 +319,10 @@ class LensID extends \PHPExiftool\Driver\Tag
         '02 46 5C 82 25 25 02 00' => array(
             'Id' => '02 46 5C 82 25 25 02 00',
             'Label' => 'Sigma 70-210mm F2.8 APO',
+        ),
+        '02 48 50 50 24 24 02 00' => array(
+            'Id' => '02 48 50 50 24 24 02 00',
+            'Label' => 'Sigma Macro 50mm F2.8',
         ),
         '02 48 65 65 24 24 02 00' => array(
             'Id' => '02 48 65 65 24 24 02 00',
@@ -1719,6 +1723,10 @@ class LensID extends \PHPExiftool\Driver\Tag
         'FB 54 8E 8E 24 24 4B 02' => array(
             'Id' => 'FB 54 8E 8E 24 24 4B 02',
             'Label' => 'Sigma APO 300mm F2.8 EX DG HSM',
+        ),
+        'FC 40 2D 80 2C 40 DF 06' => array(
+            'Id' => 'FC 40 2D 80 2C 40 DF 06',
+            'Label' => 'Tamron AF 18-200mm f/3.5-6.3 XR Di II LD Aspherical (IF) Macro (A14NII)',
         ),
         'FD 47 50 76 24 24 4B 06' => array(
             'Id' => 'FD 47 50 76 24 24 4B 06',

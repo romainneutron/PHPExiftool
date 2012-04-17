@@ -56,6 +56,10 @@ class SonyModelID extends \PHPExiftool\Driver\Tag
             'Id' => 261,
             'Label' => 'DSLR-A300',
         ),
+        262 => array(
+            'Id' => 262,
+            'Label' => 'DSLR-A900 (APS-C mode)',
+        ),
         263 => array(
             'Id' => 263,
             'Label' => 'DSLR-A380/A390',
@@ -75,6 +79,10 @@ class SonyModelID extends \PHPExiftool\Driver\Tag
         269 => array(
             'Id' => 269,
             'Label' => 'DSLR-A850',
+        ),
+        270 => array(
+            'Id' => 270,
+            'Label' => 'DSLR-A850 (APS-C mode)',
         ),
         273 => array(
             'Id' => 273,
@@ -116,6 +124,10 @@ class SonyModelID extends \PHPExiftool\Driver\Tag
             'Id' => 284,
             'Label' => 'NEX-C3',
         ),
+        285 => array(
+            'Id' => 285,
+            'Label' => 'SLT-A35',
+        ),
         286 => array(
             'Id' => 286,
             'Label' => 'SLT-A65V',
@@ -131,6 +143,14 @@ class SonyModelID extends \PHPExiftool\Driver\Tag
         289 => array(
             'Id' => 289,
             'Label' => 'NEX-7',
+        ),
+        290 => array(
+            'Id' => 290,
+            'Label' => 'NEX-VG20E',
+        ),
+        292 => array(
+            'Id' => 292,
+            'Label' => 'SLT-A57',
         ),
     );
 

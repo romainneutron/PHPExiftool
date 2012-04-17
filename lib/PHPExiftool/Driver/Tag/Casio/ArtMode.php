@@ -2,12 +2,12 @@
 
 namespace PHPExiftool\Driver\Tag\Casio;
 
-class UnknownMode extends \PHPExiftool\Driver\Tag
+class ArtMode extends \PHPExiftool\Driver\Tag
 {
 
     protected $Id = 12315;
 
-    protected $Name = 'UnknownMode';
+    protected $Name = 'ArtMode';
 
     protected $FullName = 'Casio::Type2';
 
@@ -23,7 +23,7 @@ class UnknownMode extends \PHPExiftool\Driver\Tag
 
     protected $Writable = true;
 
-    protected $Description = 'Unknown Mode';
+    protected $Description = 'Art Mode';
 
     protected $flag_Permanent = true;
 
@@ -59,6 +59,26 @@ class UnknownMode extends \PHPExiftool\Driver\Tag
         52 => array(
             'Id' => 52,
             'Label' => 'Art HDR',
+        ),
+        62 => array(
+            'Id' => 62,
+            'Label' => 'High Speed Night Shot',
+        ),
+        64 => array(
+            'Id' => 64,
+            'Label' => 'Monochrome',
+        ),
+        67 => array(
+            'Id' => 67,
+            'Label' => 'Toy Camera',
+        ),
+        68 => array(
+            'Id' => 68,
+            'Label' => 'Pop Art',
+        ),
+        69 => array(
+            'Id' => 69,
+            'Label' => 'Light Tone',
         ),
     );
 

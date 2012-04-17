@@ -2,12 +2,12 @@
 
 namespace PHPExiftool\Driver\Tag\Minolta;
 
-class FlashExposureCompSetting extends \PHPExiftool\Driver\Tag
+class FlashExposureCompSet extends \PHPExiftool\Driver\Tag
 {
 
     protected $Id = 16;
 
-    protected $Name = 'FlashExposureCompSetting';
+    protected $Name = 'FlashExposureCompSet';
 
     protected $FullName = 'Minolta::CameraSettingsA100';
 

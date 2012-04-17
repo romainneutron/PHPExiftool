@@ -242,7 +242,7 @@ class LensType extends \PHPExiftool\Driver\Tag
         ),
         33 => array(
             'Id' => 33,
-            'Label' => 'Voigtlander or Zeiss Lens',
+            'Label' => 'Voigtlander or Carl Zeiss Lens',
         ),
         '33.1' => array(
             'Id' => '33.1',
@@ -250,7 +250,23 @@ class LensType extends \PHPExiftool\Driver\Tag
         ),
         '33.2' => array(
             'Id' => '33.2',
-            'Label' => 'Zeiss Distagon 35mm T* f/2 ZE',
+            'Label' => 'Carl Zeiss Distagon T* 15mm f/2.8 ZE',
+        ),
+        '33.3' => array(
+            'Id' => '33.3',
+            'Label' => 'Carl Zeiss Distagon T* 18mm f/3.5 ZE',
+        ),
+        '33.4' => array(
+            'Id' => '33.4',
+            'Label' => 'Carl Zeiss Distagon T* 21mm f/2.8 ZE',
+        ),
+        '33.5' => array(
+            'Id' => '33.5',
+            'Label' => 'Carl Zeiss Distagon T* 28mm f/2 ZE',
+        ),
+        '33.6' => array(
+            'Id' => '33.6',
+            'Label' => 'Carl Zeiss Distagon T* 35mm f/2 ZE',
         ),
         35 => array(
             'Id' => 35,
@@ -440,6 +456,10 @@ class LensType extends \PHPExiftool\Driver\Tag
             'Id' => '137.12',
             'Label' => 'Tamron SP 60mm f/2 Macro Di II',
         ),
+        '137.13' => array(
+            'Id' => '137.13',
+            'Label' => 'Sigma 10-20mm f/3.5 EX DC HSM',
+        ),
         '137.2' => array(
             'Id' => '137.2',
             'Label' => 'Sigma 50-200mm f/4-5.6 DC OS HSM',
@@ -612,6 +632,10 @@ class LensType extends \PHPExiftool\Driver\Tag
             'Id' => '160.3',
             'Label' => 'Tokina AT-X 107 AF DX 10-17mm f/3.5-4.5 Fisheye',
         ),
+        '160.4' => array(
+            'Id' => '160.4',
+            'Label' => 'Tokina AF 11-16mm f/2.8 AT-X Pro DX',
+        ),
         161 => array(
             'Id' => 161,
             'Label' => 'Canon EF 28-70mm f/2.8L or Sigma or Tamron Lens',
@@ -719,6 +743,10 @@ class LensType extends \PHPExiftool\Driver\Tag
         '174.1' => array(
             'Id' => '174.1',
             'Label' => 'Sigma 70-200mm f/2.8 EX DG APO OS HSM',
+        ),
+        '174.2' => array(
+            'Id' => '174.2',
+            'Label' => 'Sigma 50-500mm f/4.5-6.3 APO DG OS HSM',
         ),
         175 => array(
             'Id' => 175,
@@ -971,6 +999,14 @@ class LensType extends \PHPExiftool\Driver\Tag
         251 => array(
             'Id' => 251,
             'Label' => 'Canon EF 70-200mm f/2.8L IS II USM',
+        ),
+        252 => array(
+            'Id' => 252,
+            'Label' => 'Canon EF 70-200mm f/2.8L IS II USM + 1.4x',
+        ),
+        253 => array(
+            'Id' => 253,
+            'Label' => 'Canon EF 70-200mm f/2.8L IS II USM + 2x',
         ),
         254 => array(
             'Id' => 254,

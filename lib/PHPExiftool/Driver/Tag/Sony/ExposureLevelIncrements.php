@@ -9,7 +9,7 @@ class ExposureLevelIncrements extends \PHPExiftool\Driver\Tag
 
     protected $Name = 'ExposureLevelIncrements';
 
-    protected $FullName = 'Sony::CameraSettings';
+    protected $FullName = 'mixed';
 
     protected $GroupName = 'Sony';
 

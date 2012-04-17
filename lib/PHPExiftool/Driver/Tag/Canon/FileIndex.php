@@ -19,7 +19,7 @@ class FileIndex extends \PHPExiftool\Driver\Tag
 
     protected $g2 = 'Camera';
 
-    protected $Type = 'int32u';
+    protected $Type = 'mixed';
 
     protected $Writable = true;
 

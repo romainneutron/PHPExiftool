@@ -2,12 +2,12 @@
 
 namespace PHPExiftool\Driver\Tag\CanonVRD;
 
-class UnsharpMaskFineness extends \PHPExiftool\Driver\Tag
+class PortraitUnsharpMaskFineness extends \PHPExiftool\Driver\Tag
 {
 
-    protected $Id = 148;
+    protected $Id = 154;
 
-    protected $Name = 'UnsharpMaskFineness';
+    protected $Name = 'PortraitUnsharpMaskFineness';
 
     protected $FullName = 'CanonVRD::Ver2';
 
@@ -23,6 +23,6 @@ class UnsharpMaskFineness extends \PHPExiftool\Driver\Tag
 
     protected $Writable = true;
 
-    protected $Description = 'Unsharp Mask Fineness';
+    protected $Description = 'Portrait Unsharp Mask Fineness';
 
 }

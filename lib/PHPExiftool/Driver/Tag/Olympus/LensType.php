@@ -112,6 +112,10 @@ class LensType extends \PHPExiftool\Driver\Tag
             'Id' => '0 9 16',
             'Label' => 'Olympus M.Zuiko Digital 14-42mm F3.5-5.6 II',
         ),
+        '0 16 16' => array(
+            'Id' => '0 16 16',
+            'Label' => 'Olympus M.Zuiko Digital ED 12-50mm F3.5-6.3 EZ',
+        ),
         '0 17 16' => array(
             'Id' => '0 17 16',
             'Label' => 'Olympus M.Zuiko Digital 45mm F1.8',

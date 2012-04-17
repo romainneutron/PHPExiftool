@@ -444,9 +444,17 @@ class PentaxModelID extends \PHPExiftool\Driver\Tag
             'Id' => 77540,
             'Label' => 'Q',
         ),
+        77560 => array(
+            'Id' => 77560,
+            'Label' => 'K-01',
+        ),
         77580 => array(
             'Id' => 77580,
             'Label' => 'Optio RZ18',
+        ),
+        77610 => array(
+            'Id' => 77610,
+            'Label' => 'Optio WG-2 GPS',
         ),
     );
 

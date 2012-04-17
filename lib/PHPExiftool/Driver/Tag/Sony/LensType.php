@@ -298,7 +298,11 @@ class LensType extends \PHPExiftool\Driver\Tag
         ),
         52 => array(
             'Id' => 52,
-            'Label' => 'Sony 70-300mm F4.5-5.6 G SSM (SAL70300G)',
+            'Label' => 'Sony 70-300mm F4.5-5.6 G SSM (SAL70300G) or Tamron Lens',
+        ),
+        '52.1' => array(
+            'Id' => '52.1',
+            'Label' => 'Tamron SP 70-300mm F4-5.6 Di VC USD',
         ),
         53 => array(
             'Id' => 53,
@@ -323,6 +327,10 @@ class LensType extends \PHPExiftool\Driver\Tag
         '57.1' => array(
             'Id' => '57.1',
             'Label' => 'Tamron SP AF 60mm F2 Di II LD [IF] Macro 1:1',
+        ),
+        '57.2' => array(
+            'Id' => '57.2',
+            'Label' => 'Tamron 18-270mm F3.5-6.3 Di II PZD',
         ),
         58 => array(
             'Id' => 58,
@@ -367,6 +375,10 @@ class LensType extends \PHPExiftool\Driver\Tag
         '128.12' => array(
             'Id' => '128.12',
             'Label' => 'Sigma 24-70mm F2.8 IF EX DG HSM',
+        ),
+        '128.13' => array(
+            'Id' => '128.13',
+            'Label' => 'Sigma 18-250mm F3.5-6.3 DC OS HSM',
         ),
         '128.2' => array(
             'Id' => '128.2',
@@ -930,7 +942,7 @@ class LensType extends \PHPExiftool\Driver\Tag
         ),
         4587 => array(
             'Id' => 4587,
-            'Label' => 'Tamron AF 70-210mm f/2.8 SP LD',
+            'Label' => 'Tamron AF 70-210mm F2.8 SP LD',
         ),
         6553 => array(
             'Id' => 6553,
@@ -1418,7 +1430,7 @@ class LensType extends \PHPExiftool\Driver\Tag
         ),
         45871 => array(
             'Id' => 45871,
-            'Label' => 'Tamron AF 70-210mm f/2.8 SP LD',
+            'Label' => 'Tamron AF 70-210mm F2.8 SP LD',
         ),
         65535 => array(
             'Id' => 65535,

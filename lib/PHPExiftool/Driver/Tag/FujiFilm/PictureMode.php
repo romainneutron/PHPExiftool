@@ -108,9 +108,33 @@ class PictureMode extends \PHPExiftool\Driver\Tag
             'Id' => 19,
             'Label' => 'Underwater',
         ),
+        20 => array(
+            'Id' => 20,
+            'Label' => 'Portrait with Skin Correction',
+        ),
         22 => array(
             'Id' => 22,
             'Label' => 'Panorama',
+        ),
+        23 => array(
+            'Id' => 23,
+            'Label' => 'Night (tripod)',
+        ),
+        24 => array(
+            'Id' => 24,
+            'Label' => 'Pro Low-light',
+        ),
+        25 => array(
+            'Id' => 25,
+            'Label' => 'Pro Focus',
+        ),
+        27 => array(
+            'Id' => 27,
+            'Label' => 'Dog Face Detection',
+        ),
+        28 => array(
+            'Id' => 28,
+            'Label' => 'Cat Face Detection',
         ),
         256 => array(
             'Id' => 256,
