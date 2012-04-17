@@ -169,7 +169,14 @@ class Exiftool
      */
     private static function getBinary()
     {
-        return realpath(__DIR__ . '/../../lib/vendor/Exiftool/exiftool');
+        if (defined('PHP_WINDOWS_VERSION_BUILD'))
+        {
+            return realpath(__DIR__ . '/../../lib/vendor/Exiftool/exiftool.exe');
+        }
+        else
+        {
+            return realpath(__DIR__ . '/../../lib/vendor/Exiftool/exiftool');
+        }
     }
 
 }
