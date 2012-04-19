@@ -35,46 +35,79 @@ class RDFParser
 
     const RDF_NAMESPACE = 'http://www.w3.org/1999/02/22-rdf-syntax-ns#';
 
+    protected $XML;
+    protected $DOM;
+    protected $DOMXpath;
+    protected $registeredPrefixes;
+
+    public function open($XML)
+    {
+        $this->close();
+
+        $this->XML = $XML;
+
+        return $this;
+    }
+
+    public function close()
+    {
+        $this->XML = null;
+        $this->DOMXpath = null;
+        $this->DOM = null;
+        $this->registeredPrefixes = array();
+
+        return $this;
+    }
+
     /**
      * Parse a XML string and returns an ArrayCollection of FileEntity
      *
-     * @param string $XML
      * @return \Doctrine\Common\Collections\ArrayCollection
-     * @throws Exception\ParseError
      */
-    public static function Parse($XML)
+    public function ParseEntities()
     {
-        $DOM = new \DOMDocument;
-
-        if ( ! $DOM->loadXML($XML))
-        {
-            throw new Exception\ParseError('Unable to load XML');
-        }
-
         /**
          * A default Exiftool XML can contains many RDF Descriptions
          */
+        $Entities = new \Doctrine\Common\Collections\ArrayCollection();
 
-        return static::SplitRDFsInEntities($DOM);
+        foreach ($this->getDomXpath()->query('/rdf:RDF/rdf:Description') as $node)
+        {
+            /**
+             * Let's create a DOMDocument containing a single RDF result
+             */
+            $Dom = new \DOMDocument();
+
+            $DomRootElement = $Dom->createElementNS(self::RDF_NAMESPACE, 'rdf:RDF');
+            $DomRootElement->appendChild($Dom->importNode($node, true));
+
+            $Dom->appendChild($DomRootElement);
+
+            $LocalXpath = new \DOMXPath($Dom);
+            $LocalXpath->registerNamespace('rdf', self::RDF_NAMESPACE);
+
+
+            $RDFDescriptionRoot = $LocalXpath->query('/rdf:RDF/rdf:Description');
+
+            /**
+             * Let's associate a Description to the corresponding file
+             */
+            $file = new \SplFileInfo($RDFDescriptionRoot->item(0)->getAttribute('rdf:about'));
+
+            $Entities->set($file->getFilename(), new FileEntity($file, $Dom, $this));
+        }
+
+        return $Entities;
     }
 
     /**
      * Parse an Entity associated DOM, returns the metadatas
      *
-     * @param FileEntity $Entity
      * @return \Driver\Metadata\MetadataBag
      */
-    public static function ParseEntity(FileEntity $Entity)
+    public function ParseMetadatas()
     {
-        $DomXpath = new \DOMXPath($Entity->getDom());
-        $DomXpath->registerNamespace('rdf', self::RDF_NAMESPACE);
-
-        foreach (static::getNamespacesFromXml($Entity->getDom()) as $prefix => $uri)
-        {
-            $DomXpath->registerNamespace($prefix, $uri);
-        }
-
-        $nodes = $DomXpath->query('/rdf:RDF/rdf:Description/*');
+        $nodes = $this->getDomXpath()->query('/rdf:RDF/rdf:Description/*');
 
         $metadatas = new Driver\Metadata\MetadataBag();
 
@@ -111,7 +144,7 @@ class RDFParser
 
             $metaValue = self::preloadTagValue($tag, $node);
 
-            $metadata = new Driver\Metadata\Metadata($tag, $metaValue, $Entity->getFile());
+            $metadata = new Driver\Metadata\Metadata($tag, $metaValue);
 
             $metadatas->set($tagname, $metadata);
         }
@@ -122,30 +155,16 @@ class RDFParser
     /**
      * Returns the first result for a user defined query against the RDF
      *
-     * @param FileEntity $Entity
      * @param string $query
      * @return string
      */
-    public static function QueryEntity(FileEntity $Entity, $query)
+    public function Query($query)
     {
         $QueryParts = explode(':', $query);
 
-        $registeredPrefix = false;
+        $DomXpath = $this->getDomXpath();
 
-        $DomXpath = new \DOMXPath($Entity->getDom());
-        $DomXpath->registerNamespace('rdf', self::RDF_NAMESPACE);
-
-        foreach (static::getNamespacesFromXml($Entity->getDom()) as $prefix => $uri)
-        {
-            if ($prefix === $QueryParts[0])
-            {
-                $registeredPrefix = true;
-            }
-
-            $DomXpath->registerNamespace($prefix, $uri);
-        }
-
-        if ( ! $registeredPrefix)
+        if ( ! in_array($QueryParts[0], $this->registeredPrefixes))
         {
             return null;
         }
@@ -154,60 +173,16 @@ class RDFParser
 
         if ($nodes instanceof \DOMNodeList && $nodes->length > 0)
         {
-            return $nodes->item(0)->nodeValue;
+            return self::readNodeValue($nodes->item(0));
         }
 
         return null;
     }
 
     /**
-     * Returns an ArrayCollection of Entities from a collection of Exiftool
-     * RDF Descriptions
-     *
-     * @param \DOMDOcument $DomFiles
-     * @return \Doctrine\Common\Collections\ArrayCollection
-     * @throws Exception\ParseError
-     */
-    private static function SplitRDFsInEntities(\DOMDocument $DomFiles)
-    {
-        $DomXpath = new \DOMXPath($DomFiles);
-        $DomXpath->registerNamespace('rdf', self::RDF_NAMESPACE);
-
-        $Entities = new \Doctrine\Common\Collections\ArrayCollection();
-
-        foreach ($DomXpath->query('/rdf:RDF/rdf:Description') as $node)
-        {
-            /**
-             * Let's create a DOMDocument containing a single RDF result
-             */
-            $Dom = new \DOMDocument();
-
-            $DomRootElement = $Dom->createElementNS(self::RDF_NAMESPACE, 'rdf:RDF');
-            $DomRootElement->appendChild($Dom->importNode($node, true));
-
-            $Dom->appendChild($DomRootElement);
-
-            $LocalXpath = new \DOMXPath($Dom);
-            $LocalXpath->registerNamespace('rdf', self::RDF_NAMESPACE);
-
-
-            $RDFDescriptionRoot = $LocalXpath->query('/rdf:RDF/rdf:Description');
-
-            /**
-             * Let's associate a Description to the corresponding file
-             */
-            $file = new \SplFileInfo($RDFDescriptionRoot->item(0)->getAttribute('rdf:about'));
-
-            $Entities->set($file->getFilename(), new FileEntity($file, $Dom));
-        }
-
-        return $Entities;
-    }
-
-    /**
      * Extract all XML namespaces declared in a XML
      *
-     * @param type $XML
+     * @param \DOMDocument $dom
      * @return array
      */
     protected static function getNamespacesFromXml(\DOMDocument $dom)
@@ -235,7 +210,7 @@ class RDFParser
      * @param \DOMNode $node
      * @return string|Driver\Metadata\MultiBag
      */
-    private static function preloadTagValue(Driver\Tag $tag, \DOMNode $node)
+    protected static function preloadTagValue(Driver\Tag $tag, \DOMNode $node)
     {
         $metaValue = null;
 
@@ -267,20 +242,73 @@ class RDFParser
      * Read the node value, decode it if needed
      *
      * @param \DOMNode $node
-     * @return mixed
+     * @return \PHPExiftool\Driver\Value\Value
      */
-    private static function readNodeValue(\DOMNode $node)
+    protected static function readNodeValue(\DOMNode $node)
     {
-        switch ($node->getAttribute('rdf:datatype'))
+        switch (true)
         {
-            case 'http://www.w3.org/2001/XMLSchema#base64Binary':
-                return base64_decode($node->nodeValue);
+            case $node->getElementsByTagNameNS(self::RDF_NAMESPACE, 'Bag')->length > 0:
+
+                $bag_elements = $node->getElementsByTagNameNS(self::RDF_NAMESPACE, 'li');
+                $ret          = new \PHPExiftool\Driver\Value\Multi();
+                foreach ($bag_elements as $nodeElement)
+                {
+                    $ret->addValue($nodeElement->nodeValue);
+                }
+
+                return $ret;
                 break;
-            case '';
+            case $node->getAttribute('rdf:datatype') === 'http://www.w3.org/2001/XMLSchema#base64Binary':
+                return \PHPExiftool\Driver\Value\Binary::loadFromBase64($node->nodeValue);
+                break;
             default:
-                return $node->nodeValue;
+                return new \PHPExiftool\Driver\Value\Mono($node->nodeValue);
                 break;
         }
+    }
+
+    protected function getDom()
+    {
+        if ( ! $this->XML)
+        {
+            throw new \PHPExiftool\Exception\LogicException('You must open an XML first');
+        }
+
+        if ( ! $this->DOM)
+        {
+
+            $this->DOM = new \DOMDocument;
+
+            /**
+             * We shut up the warning to exclude an exception in case Warnings are
+             * transformed in exception
+             */
+            if ( ! @$this->DOM->loadXML($this->XML))
+            {
+                throw new Exception\ParseError('Unable to load XML');
+            }
+        }
+
+        return $this->DOM;
+    }
+
+    protected function getDomXpath()
+    {
+        if ( ! $this->DOMXpath)
+        {
+            $this->DOMXpath = new \DOMXPath($this->getDom());
+
+            $this->DOMXpath->registerNamespace('rdf', self::RDF_NAMESPACE);
+
+            foreach (static::getNamespacesFromXml($this->getDom()) as $prefix => $uri)
+            {
+                $this->registeredPrefixes = array_merge($this->registeredPrefixes, (array) $prefix);
+                $this->DOMXpath->registerNamespace($prefix, $uri);
+            }
+        }
+
+        return $this->DOMXpath;
     }
 
 }
