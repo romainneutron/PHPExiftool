@@ -133,4 +133,14 @@ abstract class Tag
         return $this->GroupName . ':' . $this->Name;
     }
 
+    /**
+     * Return the tagname
+     *
+     * @return string
+     */
+    public function __toString()
+    {
+        return $this->getTagname();
+    }
+
 }

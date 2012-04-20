@@ -38,4 +38,9 @@ class Mono implements Value
         return $this;
     }
 
+    public function __toString()
+    {
+        return $this->getValue();
+    }
+
 }

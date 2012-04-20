@@ -48,4 +48,14 @@ class Multi implements Value
         return $this;
     }
 
+    public function serialize($separator = ';')
+    {
+        return implode($separator, $this->value);
+    }
+
+    public function __toString()
+    {
+        return $this->serialize();
+    }
+
 }
