@@ -2,8 +2,6 @@
 
 namespace PHPExiftool\Driver\Value;
 
-require_once dirname(__FILE__) . '/../../../../../lib/PHPExiftool/Driver/Value/Mono.php';
-
 class MonoTest extends \PHPUnit_Framework_TestCase
 {
 

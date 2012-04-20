@@ -2,8 +2,6 @@
 
 namespace PHPExiftool\Driver\Value;
 
-require_once dirname(__FILE__) . '/../../../../../lib/PHPExiftool/Driver/Value/Multi.php';
-
 class MultiTest extends \PHPUnit_Framework_TestCase
 {
 

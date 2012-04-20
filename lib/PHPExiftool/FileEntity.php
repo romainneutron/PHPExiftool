@@ -47,6 +47,7 @@ class FileEntity implements \IteratorAggregate
      * @var \Doctrine\Common\Cache\ArrayCache
      */
     private $cache;
+
     /**
      *
      * @var \PHPExiftool\RDFParser

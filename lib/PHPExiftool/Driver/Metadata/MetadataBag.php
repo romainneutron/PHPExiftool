@@ -39,9 +39,9 @@ class MetadataBag extends \Doctrine\Common\Collections\ArrayCollection
     public function filterKeysByRegExp($regexp)
     {
         $partitions = $this->partition(function($key, $element) use ($regexp)
-              {
-                  return preg_match($regexp, $key);
-              });
+          {
+              return preg_match($regexp, $key);
+          });
 
         return array_shift($partitions);
     }

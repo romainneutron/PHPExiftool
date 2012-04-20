@@ -31,7 +31,6 @@ abstract class Type
 {
 
     protected $ExiftoolName;
-
     protected $PHPMap;
 
 }

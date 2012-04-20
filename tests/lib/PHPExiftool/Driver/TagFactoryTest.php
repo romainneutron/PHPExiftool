@@ -43,7 +43,6 @@ class TagFactoryTest extends \PHPUnit_Framework_TestCase
         TagFactory::getFromRDFTagname('XMPExif:AnunexistingTag');
     }
 
-
     /**
      * @covers \PHPExiftool\Driver\TagFactory::HasFromRDFTagname
      */

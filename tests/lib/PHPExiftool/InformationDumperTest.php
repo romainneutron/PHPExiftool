@@ -2,8 +2,6 @@
 
 namespace PHPExiftool;
 
-require_once dirname(__FILE__) . '/../../../lib/PHPExiftool/InformationDumper.php';
-
 class InformationDumperTest extends \PHPUnit_Framework_TestCase
 {
 
