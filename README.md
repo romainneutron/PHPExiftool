@@ -39,7 +39,6 @@ foreach ($Reader as $MetaDatas)
         }
         else
         {
-            // Handle monovalued field
             echo sprintf("\t--> Field %s has value(s) %s" . PHP_EOL, $metadata->getTag(), $metadata->getValue());
         }
     }
