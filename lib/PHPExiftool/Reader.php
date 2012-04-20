@@ -279,7 +279,7 @@ class Reader extends Exiftool implements \IteratorAggregate
              */
             foreach ($rawSearchDirs as $dir)
             {
-                $currentPrefix = $dir . DIRECTORY_SEPARATOR;
+                $currentPrefix = realpath($dir) . DIRECTORY_SEPARATOR;
 
                 $supposedExcluded = str_replace($currentPrefix, '', realpath($currentPrefix . $excludeDir));
 
@@ -288,7 +288,7 @@ class Reader extends Exiftool implements \IteratorAggregate
                     continue;
                 }
 
-                if (strpos($supposedExcluded, DIRECTORY_SEPARATOR) === 0)
+                if (strpos($supposedExcluded, DIRECTORY_SEPARATOR) === false)
                 {
                     $excludeDirs[] = $supposedExcluded;
                     $found         = true;
@@ -318,6 +318,7 @@ class Reader extends Exiftool implements \IteratorAggregate
                     {
                         continue;
                     }
+                    
                     if (strpos($supposedExcluded, $searchDir) !== 0)
                     {
                         continue;
