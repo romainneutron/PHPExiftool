@@ -31,7 +31,7 @@ use \Symfony\Component\Console\Command\Command,
     \Symfony\Component\Console\Input\InputInterface,
     \Symfony\Component\Console\Output\OutputInterface,
     \PHPExiftool\ClassUtils\Builder,
-    \PHPExiftool\Exiftool,
+    PHPExiftool\InformationDumper,
     \Symfony\Component\DomCrawler\Crawler;
 
 class ClassesBuilder extends Command
@@ -81,7 +81,9 @@ class ClassesBuilder extends Command
 
         $this->output->write('Extracting datas... ');
 
-        $dump = Exiftool::listDatas(Exiftool::LISTTYPE_SUPPORTED_XML);
+        $dumper = new InformationDumper();
+
+        $dump = $dumper->listDatas(InformationDumper::LISTTYPE_SUPPORTED_XML);
 
         $this->output->writeln('Done !');
 
