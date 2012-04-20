@@ -12,6 +12,11 @@ class Binary implements Value
         $this->setValue($value);
     }
 
+    public function getType()
+    {
+        return self::TYPE_BINARY;
+    }
+
     public function getValue()
     {
         return $this->value;
@@ -24,17 +29,31 @@ class Binary implements Value
 
     public function setValue($value)
     {
-        if ( ! is_scalar($value))
+        $this->value = $value;
+
+        return $this;
+    }
+
+    public function setBase64Value($base64Value)
+    {
+        if (false === $value = base64_decode($base64Value, true))
         {
-            throw new \PHPExiftool\Exception\InvalidValueException('The value should be scaler');
+            throw new \PHPExiftool\Exception\InvalidArgumentException('The value should be base64 encoded');
         }
 
         $this->value = $value;
+
+        return $this;
     }
 
-    public static function loadFromBase64($base64)
+    public static function loadFromBase64($base64Value)
     {
-        return new static(base64_decode($base64, true));
+        if (false === $value = base64_decode($base64Value, true))
+        {
+            throw new \PHPExiftool\Exception\InvalidArgumentException('The value should be base64 encoded');
+        }
+
+        return new static($value);
     }
 
 }

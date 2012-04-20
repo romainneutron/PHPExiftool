@@ -7,12 +7,17 @@ class Multi implements Value
 
     protected $value = array();
 
-    public function __construct(Array $value = null)
+    public function __construct($value = null)
     {
         if ($value)
         {
-            $this->setValue($value);
+            $this->addValue($value);
         }
+    }
+
+    public function getType()
+    {
+        return self::TYPE_MULTI;
     }
 
     public function getValue()
@@ -22,12 +27,16 @@ class Multi implements Value
 
     public function addValue($value)
     {
-        if ( ! is_scalar($value))
-        {
-            throw new \PHPExiftool\Exception\InvalidValueException('The value should be scaler');
-        }
+        $this->value = array_merge($this->value, (array) $value);
 
-        array_push($this->value, $value);
+        return $this;
+    }
+
+    public function reset()
+    {
+        $this->value = array();
+
+        return $this;
     }
 
 }
