@@ -27,6 +27,7 @@ class InformationDumperTest extends \PHPUnit_Framework_TestCase
 
     /**
      * @covers PHPExiftool\InformationDumper::listDatas
+     * @covers \PHPExiftool\Exception\InvalidArgumentException
      * @expectedException \PHPExiftool\Exception\InvalidArgumentException
      */
     public function testListDatasInvalidType()
