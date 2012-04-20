@@ -2,39 +2,46 @@
 
 [![Build Status](https://secure.travis-ci.org/romainneutron/PHPExiftool.png?branch=master)](http://travis-ci.org/romainneutron/PHPExiftool)
 
-PHP Exiftool is a PHP interface to communicate with Phil Harvey's Exiftool.
+PHP Exiftool is an Object Oriented driver for Phil Harvey's Exiftool.
 
 see : http://www.sno.phy.queensu.ca/~phil/exiftool/
 
 
-
 This driver is not suitable for production, it is still under heavy development.
 
-Examples of use :
+##Exiftool Reader
 
-Extract metadata :
+Exiftool Reader provides a natural syntax to extract metadatas from files :
 
 ```php
 <?php
 
-$metadatas = \PHPExiftool\Exiftool::read(new SplFileInfo('tests/files/ExifTool.jpg'))->getMetadatas();
+use PHPExiftool\Reader;
+use PHPExiftool\Driver;
 
-//True if there is a IPTC:SupplementalCategories value
-$metadatas->containsKey('IPTC:SupplementalCategories');
+$Reader = new Reader();
 
-foreach($metadatas as $metadata)
+$Reader
+  ->in(array('documents', '/Picture'))
+  ->extensions(array('doc', 'jpg', 'cr2', 'dng'))
+  ->exclude(array('test', 'tmp'))
+  ->followSymLinks();
+
+foreach ($Reader as $MetaDatas)
 {
-  echo sprintf("Found tag %s \n", $metadata->getTag()->getTagname());
+    echo "found file " . $MetaDatas->getFile()->getPathname() . "\n";
 
-  if($metadata->getValue() instanceof \PHPExiftool\Driver\Metadata\MultiBag)
-  {
-    // Handle multivalued field
-  }
-  else
-  {
-    // Handle monovalued field
-  }
+    foreach ($MetaDatas as $metadata)
+    {
+        if ($metadata->getValue() instanceof Driver\Value\Binary)
+        {
+            echo sprintf("\t--> Field %s has binary datas" . PHP_EOL, $metadata->getTag());
+        }
+        else
+        {
+            // Handle monovalued field
+            echo sprintf("\t--> Field %s has value(s) %s" . PHP_EOL, $metadata->getTag(), $metadata->getValue());
+        }
+    }
 }
 ```
-
-
