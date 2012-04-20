@@ -142,7 +142,7 @@ class RDFParser
                 continue;
             }
 
-            $metaValue = self::preloadTagValue($tag, $node);
+            $metaValue = self::readNodeValue($node, $tag);
 
             $metadata = new Driver\Metadata\Metadata($tag, $metaValue);
 
@@ -204,47 +204,12 @@ class RDFParser
     }
 
     /**
-     * Read the value corresponding to a Driver\Tag
-     *
-     * @param Driver\Tag $tag
-     * @param \DOMNode $node
-     * @return string|Driver\Metadata\MultiBag
-     */
-    protected static function preloadTagValue(Driver\Tag $tag, \DOMNode $node)
-    {
-        $metaValue = null;
-
-        if ($tag->isBinary())
-        {
-            return null;
-        }
-
-        if ($tag->isMulti())
-        {
-            $metaValue = new Driver\Metadata\MultiBag();
-
-            $bag_elements = $node->getElementsByTagNameNS(self::RDF_NAMESPACE, 'li');
-
-            foreach ($bag_elements as $nodeElement)
-            {
-                $metaValue->add(static::readNodeValue($nodeElement));
-            }
-        }
-        else
-        {
-            $metaValue = static::readNodeValue($node);
-        }
-
-        return $metaValue;
-    }
-
-    /**
      * Read the node value, decode it if needed
      *
      * @param \DOMNode $node
      * @return \PHPExiftool\Driver\Value\Value
      */
-    protected static function readNodeValue(\DOMNode $node)
+    protected static function readNodeValue(\DOMNode $node, Driver\Tag $tag = null)
     {
         switch (true)
         {
@@ -260,7 +225,25 @@ class RDFParser
                 return $ret;
                 break;
             case $node->getAttribute('rdf:datatype') === 'http://www.w3.org/2001/XMLSchema#base64Binary':
-                return \PHPExiftool\Driver\Value\Binary::loadFromBase64($node->nodeValue);
+                if (is_null($tag))
+                {
+                    try
+                    {
+                        $tag = \PHPExiftool\Driver\TagFactory::getFromRDFTagname($node->nodeName);
+                    }
+                    catch (\PHPExiftool\Exception\TagUnknown $e)
+                    {
+
+                    }
+                }
+                if (is_null($tag) || $tag->isBinary())
+                {
+                    return \PHPExiftool\Driver\Value\Binary::loadFromBase64($node->nodeValue);
+                }
+                else
+                {
+                    return new \PHPExiftool\Driver\Value\Mono(base64_decode($node->nodeValue));
+                }
                 break;
             default:
                 return new \PHPExiftool\Driver\Value\Mono($node->nodeValue);

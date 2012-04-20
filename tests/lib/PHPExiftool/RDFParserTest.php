@@ -76,7 +76,6 @@ class RDFParserTest extends \PHPUnit_Framework_TestCase
      * @covers PHPExiftool\RDFParser::ParseMetadatas
      * @covers PHPExiftool\RDFParser::getDom
      * @covers PHPExiftool\RDFParser::getDomXpath
-     * @covers PHPExiftool\RDFParser::preloadTagValue
      */
     public function testParseMetadatas()
     {
