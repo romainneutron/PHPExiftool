@@ -10,6 +10,17 @@ class TagTest extends \PHPUnit_Framework_TestCase
      */
     protected $object;
 
+    /**
+     * @covers \PHPExiftool\Driver\Tag::getDescription
+     * @covers \PHPExiftool\Driver\Tag::getGroupName
+     * @covers \PHPExiftool\Driver\Tag::getName
+     * @covers \PHPExiftool\Driver\Tag::getTagname
+     * @covers \PHPExiftool\Driver\Tag::getId
+     * @covers \PHPExiftool\Driver\Tag::getValues
+     * @covers \PHPExiftool\Driver\Tag::isMulti
+     * @covers \PHPExiftool\Driver\Tag::isWritable
+     * @covers \PHPExiftool\Driver\Tag::isBinary
+     */
     public function testConsistency()
     {
         $finder = new \Symfony\Component\Finder\Finder();
