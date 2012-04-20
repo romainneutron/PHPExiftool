@@ -31,6 +31,10 @@ class ReaderTest extends \PHPUnit_Framework_TestCase
         {
             mkdir(self::$tmpDir . '/dir');
         }
+        if ( ! is_dir(self::$tmpDir . '/usr'))
+        {
+            mkdir(self::$tmpDir . '/usr');
+        }
 
         $tmpDir2 = $tmpDir . '/exiftool_reader2';
 
@@ -97,7 +101,7 @@ class ReaderTest extends \PHPUnit_Framework_TestCase
 
     /**
      * @covers PHPExiftool\Reader::exclude
-     * @covers PHPExiftool\Reader::normalizePathname
+     * @covers PHPExiftool\Reader::computeExcludeDirs
      * @covers PHPExiftool\Reader::buildQuery
      */
     public function testExclude()
@@ -109,6 +113,59 @@ class ReaderTest extends \PHPUnit_Framework_TestCase
           ->exclude(self::$tmpDir . '/dir');
 
         $this->assertEquals(2, count($reader->all()));
+    }
+
+    /**
+     * @dataProvider getExclude
+     * @covers PHPExiftool\Reader::computeExcludeDirs
+     */
+    public function testComputeExcludeDirs($dir)
+    {
+        $reader = new Reader();
+        $reader
+          ->in(self::$tmpDir)
+          ->exclude($dir)
+          ->all();
+    }
+
+    public function getExclude()
+    {
+        return array(
+          array(self::$tmpDir . '/dir/'),
+          array(self::$tmpDir . '/dir'),
+          array('dir'),
+          array('/dir'),
+          array('/usr'),
+          array('usr'),
+          array('dir/'),
+        );
+    }
+
+    /**
+     * @dataProvider getWrongExclude
+     * @covers PHPExiftool\Reader::computeExcludeDirs
+     * @covers \PHPExiftool\Exception\RuntimeException
+     * @expectedException \PHPExiftool\Exception\RuntimeException
+     */
+    public function testComputeExcludeDirsFail($dir)
+    {
+        $reader = new Reader();
+        $reader
+          ->in(self::$tmpDir)
+          ->exclude($dir)
+          ->all();
+    }
+
+    public function getWrongExclude()
+    {
+        return array(
+          array(self::$tmpDir . '/dir/dir2'),
+          array(self::$tmpDir . '/dirlo'),
+          array('dir/dir2'),
+          array('/usr/local'),
+          array('usr/local'),
+          array('/tmp'),
+        );
     }
 
     /**
@@ -184,6 +241,7 @@ class ReaderTest extends \PHPUnit_Framework_TestCase
 
     /**
      * @covers PHPExiftool\Reader::first
+     * @covers \PHPExiftool\Exception\EmptyCollectionException
      * @expectedException \PHPExiftool\Exception\EmptyCollectionException
      */
     public function testFirstEmpty()
