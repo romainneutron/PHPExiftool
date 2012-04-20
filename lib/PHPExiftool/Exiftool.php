@@ -61,7 +61,7 @@ abstract class Exiftool
     {
         if (defined('PHP_WINDOWS_VERSION_BUILD'))
         {
-            return realpath(__DIR__ . '/../../lib/vendor/Exiftool/exiftool.exe');
+            return realpath(__DIR__ . '\..\..\lib\vendor\Exiftool\exiftool.exe');
         }
         else
         {
