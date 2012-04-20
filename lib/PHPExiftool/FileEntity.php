@@ -27,7 +27,7 @@ namespace PHPExiftool;
  * @author      Romain Neutron - imprec@gmail.com
  * @license     http://opensource.org/licenses/MIT MIT
  */
-class FileEntity
+class FileEntity implements \IteratorAggregate
 {
 
     /**
@@ -47,6 +47,11 @@ class FileEntity
      * @var \Doctrine\Common\Cache\ArrayCache
      */
     private $cache;
+    /**
+     *
+     * @var \PHPExiftool\RDFParser
+     */
+    private $parser;
 
     /**
      * Construct a new FileEntity
@@ -55,23 +60,21 @@ class FileEntity
      * @param \DOMDocument $dom
      * @return \PHPExiftool\FileEntity
      */
-    public function __construct(\SplFileInfo $file, \DOMDocument $dom)
+    public function __construct(\SplFileInfo $file, \DOMDocument $dom, \PHPExiftool\RDFParser $parser)
     {
         $this->dom = $dom;
         $this->file = $file;
 
         $this->cache = new \Doctrine\Common\Cache\ArrayCache();
 
+        $this->parser = $parser->open($dom->saveXML());
+
         return $this;
     }
 
-    /**
-     *
-     * @return \DOMDocument
-     */
-    public function getDom()
+    public function getIterator()
     {
-        return $this->dom;
+        return $this->getMetadatas()->getIterator();
     }
 
     /**
@@ -96,7 +99,7 @@ class FileEntity
             return $this->cache->fetch($key);
         }
 
-        $metadatas = \PHPExiftool\RDFParser::ParseEntity($this);
+        $metadatas = $this->parser->ParseMetadatas();
 
         $this->cache->save($key, $metadatas);
 
@@ -111,8 +114,7 @@ class FileEntity
      */
     public function executeQuery($query)
     {
-
-        return \PHPExiftool\RDFParser::QueryEntity($this, $query);
+        return $this->parser->Query($query);
     }
 
 }
