@@ -29,7 +29,7 @@ use Doctrine\Common\Collections\ArrayCollection;
  *              ->extensions(array('jpg', 'xml));
  *
  *      //Throws an exception if no file found
- *      $first = $Reader->getFirst();
+ *      $first = $Reader->first();
  *
  *      //Returns null if no file found
  *      $first = $Reader->getOneOrNull();
@@ -318,7 +318,7 @@ class Reader extends Exiftool implements \IteratorAggregate
                     {
                         continue;
                     }
-                    
+
                     if (strpos($supposedExcluded, $searchDir) !== 0)
                     {
                         continue;
