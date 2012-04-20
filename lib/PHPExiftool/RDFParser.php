@@ -39,6 +39,9 @@ class RDFParser
     protected $DOM;
     protected $DOMXpath;
     protected $registeredPrefixes;
+    protected $namespacesRedirection = array(
+      'CIFF' => array('Canon', 'CanonRaw')
+    );
 
     public function open($XML)
     {
@@ -113,25 +116,7 @@ class RDFParser
 
         foreach ($nodes as $node)
         {
-            $tagname = $node->nodeName;
-
-            if (strpos($tagname, 'CIFF:') === 0)
-            {
-                foreach (array('Canon', 'CanonRaw') as $substit)
-                {
-                    try
-                    {
-                        Driver\TagFactory::getFromRDFTagname(str_replace('CIFF:', $substit . ':', $tagname));
-                        $tagname = str_replace('CIFF:', $substit . ':', $tagname);
-
-                        break;
-                    }
-                    catch (Exception\TagUnknown $e)
-                    {
-
-                    }
-                }
-            }
+            $tagname = $this->normalize($node->nodeName);
 
             try
             {
@@ -142,7 +127,7 @@ class RDFParser
                 continue;
             }
 
-            $metaValue = self::readNodeValue($node, $tag);
+            $metaValue = $this->readNodeValue($node, $tag);
 
             $metadata = new Driver\Metadata\Metadata($tag, $metaValue);
 
@@ -173,10 +158,35 @@ class RDFParser
 
         if ($nodes instanceof \DOMNodeList && $nodes->length > 0)
         {
-            return self::readNodeValue($nodes->item(0));
+            return $this->readNodeValue($nodes->item(0));
         }
 
         return null;
+    }
+
+    protected function normalize($tagname)
+    {
+        foreach ($this->namespacesRedirection as $from => $to)
+        {
+            if (strpos($tagname, $from . ':') !== 0)
+            {
+                continue;
+            }
+
+            foreach ((array) $to as $substit)
+            {
+                $supposedTagname = str_replace($from . ':', $substit . ':', $tagname);
+
+                if (Driver\TagFactory::hasFromRDFTagname($supposedTagname))
+                {
+                    return $supposedTagname;
+
+                    break;
+                }
+            }
+        }
+
+        return $tagname;
     }
 
     /**
@@ -209,7 +219,7 @@ class RDFParser
      * @param \DOMNode $node
      * @return \PHPExiftool\Driver\Value\Value
      */
-    protected static function readNodeValue(\DOMNode $node, Driver\Tag $tag = null)
+    protected function readNodeValue(\DOMNode $node, Driver\Tag $tag = null)
     {
         switch (true)
         {
@@ -229,7 +239,7 @@ class RDFParser
                 {
                     try
                     {
-                        $tag = \PHPExiftool\Driver\TagFactory::getFromRDFTagname($node->nodeName);
+                        $tag = \PHPExiftool\Driver\TagFactory::getFromRDFTagname($this->normalize($node->nodeName));
                     }
                     catch (\PHPExiftool\Exception\TagUnknown $e)
                     {
