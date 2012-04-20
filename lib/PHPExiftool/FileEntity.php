@@ -98,7 +98,7 @@ class FileEntity implements \IteratorAggregate
     }
 
     /**
-     * Execute a user defined query to retrieve unknown metadatas
+     * Execute a user defined query to retrieve metadata
      *
      * @param string $query
      * @return string

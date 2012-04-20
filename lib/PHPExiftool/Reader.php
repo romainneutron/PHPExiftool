@@ -11,13 +11,43 @@
 
 namespace PHPExiftool;
 
+use Doctrine\Common\Collections\ArrayCollection;
+
 /**
- * @todo match conditions (-if EXPR) (name or metadata tag)
- * @todo do match filter
- * @todo sort
+ *
+ * Exiftool Reader, inspired by Symfony2 Finder.
+ *
+ * It scans files and directories, and provide an iterator on the FileEntities
+ * generated based on the results.
+ *
+ * Example usage:
+ *
+ *      $Reader = new Reader();
+ *
+ *      $Reader->in('/path/to/directory')
+ *              ->exclude('tests')
+ *              ->extensions(array('jpg', 'xml));
+ *
+ *      //Throws an exception if no file found
+ *      $first = $Reader->getFirst();
+ *
+ *      //Returns null if no file found
+ *      $first = $Reader->getOneOrNull();
+ *
+ *      foreach($Reader as $entity)
+ *      {
+ *          //Do your logic with FileEntity
+ *      }
+ *
+ *
+ * @todo implement match conditions (-if EXPR) (name or metadata tag)
+ * @todo implement match filter
+ * @todo implement sort
  * @todo implement -l
  * @todo implement ignoreDotFiles
- * @todo ignoreVCS
+ * @todo implement ignoreVCS
+ *
+ * @author Romain Neutron <imprec@gmail.com>
  */
 class Reader extends Exiftool implements \IteratorAggregate
 {
@@ -32,18 +62,36 @@ class Reader extends Exiftool implements \IteratorAggregate
     protected $parser;
     protected $collection;
 
+    /**
+     *  Constructor
+     */
     public function __construct()
     {
         $this->parser = new RDFParser();
     }
 
+    /**
+     * Implements \IteratorAggregate Interface
+     *
+     * @return \Iterator
+     */
     public function getIterator()
     {
         return $this->all()->getIterator();
     }
 
     /**
-     * add files as argument
+     * Add files to scan
+     *
+     * Example usage:
+     *
+     *      // Will scan 3 files : dc00.jpg in CWD and absolute
+     *      // paths /tmp/image.jpg and /tmp/raw.CR2
+     *      $Reader ->files('dc00.jpg')
+     *              ->files(array('/tmp/image.jpg', '/tmp/raw.CR2'))
+     *
+     * @param   string|array        $files  The files
+     * @return  \PHPExiftool\Reader
      */
     public function files($files)
     {
@@ -53,7 +101,17 @@ class Reader extends Exiftool implements \IteratorAggregate
     }
 
     /**
-     * include directories (-i)
+     * Add dirs to scan
+     *
+     * Example usage:
+     *
+     *      // Will scan 3 dirs : documents in CWD and absolute
+     *      // paths /usr and /var
+     *      $Reader ->in('documents')
+     *              ->in(array('/tmp', '/var'))
+     *
+     * @param   string|array         $dirs  The directories
+     * @return  \PHPExiftool\Reader
      */
     public function in($dirs)
     {
@@ -63,7 +121,25 @@ class Reader extends Exiftool implements \IteratorAggregate
     }
 
     /**
-     * exclude (-i)
+     * Exclude directories from scan
+     *
+     * Warning: only first depth directories can be excluded
+     * Imagine a directory structure like below, With a scan in "root", only
+     * sub1 or sub2 can be excluded, not subsub.
+     *
+     *      root
+     *      ├── sub1
+     *      └── sub2
+     *          └── subsub
+     *
+     * Example usage:
+     *
+     *      // Will scan documents recursively, discarding documents/test
+     *      $Reader ->in('documents')
+     *              ->exclude(array('test'))
+     *
+     * @param   string|array        $dirs The directories
+     * @return  \PHPExiftool\Reader
      */
     public function exclude($dirs)
     {
@@ -73,7 +149,13 @@ class Reader extends Exiftool implements \IteratorAggregate
     }
 
     /**
-     * (-ext)
+     * Restrict / Discard files based on extensions
+     * Extensions are case insensitive
+     *
+     * @param   string|array    $extensions The list of extension
+     * @param   boolean         $restrict   Toggle restrict/discard method
+     * @return  \PHPExiftool\Reader
+     * @throws  Exception\LogicException
      */
     public function extensions($extensions, $restrict = true)
     {
@@ -81,7 +163,7 @@ class Reader extends Exiftool implements \IteratorAggregate
         {
             if ((boolean) $restrict !== $this->extensionsToggle)
             {
-                throw new \PHPExiftool\Exception\LogicException('You cannot restrict extensions AND exclude extension at the same time');
+                throw new Exception\LogicException('You cannot restrict extensions AND exclude extension at the same time');
             }
         }
 
@@ -93,7 +175,9 @@ class Reader extends Exiftool implements \IteratorAggregate
     }
 
     /**
-     * (-i SYMLINKS)
+     * Toggle to enable follow Symbolic Links
+     *
+     * @return \PHPExiftool\Reader
      */
     public function followSymLinks()
     {
@@ -103,7 +187,10 @@ class Reader extends Exiftool implements \IteratorAggregate
     }
 
     /**
-     * (-r)
+     * Disable recursivity in directories scan.
+     * If you only specify files, this toggle has no effect
+     *
+     * @return \PHPExiftool\Reader
      */
     public function notRecursive()
     {
@@ -112,22 +199,37 @@ class Reader extends Exiftool implements \IteratorAggregate
         return $this;
     }
 
+    /**
+     * Return the first result. If no result available, null is returned
+     *
+     * @return \PHPExiftool\FileEntity
+     */
     public function getOneOrNull()
     {
-
         return count($this->all()) === 0 ? null : $this->all()->first();
     }
 
+    /**
+     * Return the first result. If no result available, throws an exception
+     *
+     * @return \PHPExiftool\FileEntity
+     * @throws Exception\EmptyCollectionException
+     */
     public function first()
     {
         if (count($this->all()) === 0)
         {
-            throw new \PHPExiftool\Exception\EmptyCollectionException('Collection is empty');
+            throw new Exception\EmptyCollectionException('Collection is empty');
         }
 
         return $this->all()->first();
     }
 
+    /**
+     * Perform the scan and returns all the results
+     *
+     * @return \Doctrine\Common\Collections\ArrayCollection
+     */
     public function all()
     {
         if ( ! $this->collection)
@@ -138,13 +240,18 @@ class Reader extends Exiftool implements \IteratorAggregate
         return $this->collection;
     }
 
+    /**
+     * Build the command returns an ArrayCollection of FileEntity
+     *
+     * @return \Doctrine\Common\Collections\ArrayCollection
+     */
     protected function buildQueryAndExecute()
     {
         $result = self::executeCommand($this->buildQuery());
 
         if ($result === '')
         {
-            return new \Doctrine\Common\Collections\ArrayCollection();
+            return new ArrayCollection();
         }
 
         $this->parser->open($result);
@@ -152,19 +259,25 @@ class Reader extends Exiftool implements \IteratorAggregate
         return $this->parser->ParseEntities();
     }
 
-    protected function computeExcludeDirs()
+    /**
+     * Compute raw exclude rules to simple ones, based on exclude dirs and search dirs
+     *
+     * @param type $rawExcludeDirs
+     * @param type $rawDirs
+     * @return type
+     * @throws Exception\RuntimeException
+     */
+    protected function computeExcludeDirs($rawExcludeDirs, $rawSearchDirs)
     {
         $excludeDirs = array();
 
-        foreach ($this->excludeDirs as $excludeDir)
+        foreach ($rawExcludeDirs as $excludeDir)
         {
-
-
             $found = false;
             /**
              * is this a relative path ?
              */
-            foreach ($this->dirs as $dir)
+            foreach ($rawSearchDirs as $dir)
             {
                 $currentPrefix = $dir . DIRECTORY_SEPARATOR;
 
@@ -195,7 +308,7 @@ class Reader extends Exiftool implements \IteratorAggregate
 
             if ($supposedExcluded)
             {
-                foreach ($this->dirs as $dir)
+                foreach ($rawSearchDirs as $dir)
                 {
                     $searchDir = realpath($dir) . DIRECTORY_SEPARATOR;
 
@@ -228,16 +341,20 @@ class Reader extends Exiftool implements \IteratorAggregate
             }
         }
 
-        $this->excludeDirs = $excludeDirs;
-
-        return $this;
+        return $excludeDirs;
     }
 
+    /**
+     * Build query from criterias
+     *
+     * @return string
+     * @throws Exception\LogicException
+     */
     protected function buildQuery()
     {
         if ( ! $this->dirs && ! $this->files)
         {
-            throw new \PHPExiftool\Exception\LogicException('You have not set any files or directory');
+            throw new Exception\LogicException('You have not set any files or directory');
         }
 
         $command = realpath(__DIR__ . '/../../lib/vendor/Exiftool/exiftool') . ' -q -b -X';
@@ -249,13 +366,19 @@ class Reader extends Exiftool implements \IteratorAggregate
 
         if ( ! $this->extensions)
         {
-//            $command .= ' -ext "*"';
+            /**
+             * Should be removed with ExifTool 8.89
+             */
+            //$command .= ' -ext "*"';
         }
         else
         {
             if ( ! $this->extensionsToggle)
             {
-//                $command .= ' -ext "*"';
+                /**
+                 * Should be removed with ExifTool 8.89
+                 */
+                //$command .= ' -ext "*"';
                 $extensionPrefix = ' --ext';
             }
             else
@@ -274,12 +397,7 @@ class Reader extends Exiftool implements \IteratorAggregate
             $command .= ' -i SYMLINKS';
         }
 
-        /**
-         * limit exclusion to 1 subddir
-         */
-        $this->computeExcludeDirs();
-
-        foreach ($this->excludeDirs as $excludedDir)
+        foreach ($this->computeExcludeDirs($this->excludeDirs, $this->dirs) as $excludedDir)
         {
             $command .= ' -i ' . escapeshellarg($excludedDir);
         }

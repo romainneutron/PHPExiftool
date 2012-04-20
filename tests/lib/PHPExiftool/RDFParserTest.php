@@ -65,7 +65,8 @@ class RDFParserTest extends \PHPUnit_Framework_TestCase
      * @covers PHPExiftool\RDFParser::getDom
      * @covers PHPExiftool\RDFParser::getDomXpath
      * @covers \PHPExiftool\Exception\ParseError
-     * @expectedException \PHPExiftool\Exception\ParseError
+     * @covers \PHPExiftool\Exception\RuntimeException
+     * @expectedException \PHPExiftool\Exception\RuntimeException
      */
     public function testParseEntitiesWrongDom()
     {

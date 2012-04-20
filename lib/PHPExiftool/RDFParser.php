@@ -11,10 +11,12 @@
 
 namespace PHPExiftool;
 
+use \Doctrine\Common\Collections\ArrayCollection;
+
 /**
+ * Exiftool RDF output Parser
  *
- * @author      Romain Neutron - imprec@gmail.com
- * @license     http://opensource.org/licenses/MIT MIT
+ * @author      Romain Neutron <imprec@gmail.com>
  */
 class RDFParser
 {
@@ -33,6 +35,12 @@ class RDFParser
       'CIFF' => array('Canon', 'CanonRaw')
     );
 
+    /**
+     * Opens an XML file for parsing
+     *
+     * @param string $XML
+     * @return \PHPExiftool\RDFParser
+     */
     public function open($XML)
     {
         $this->close();
@@ -42,6 +50,11 @@ class RDFParser
         return $this;
     }
 
+    /**
+     * Close the current opened XML file and reset internals
+     *
+     * @return \PHPExiftool\RDFParser
+     */
     public function close()
     {
         $this->XML = null;
@@ -62,7 +75,7 @@ class RDFParser
         /**
          * A default Exiftool XML can contains many RDF Descriptions
          */
-        $Entities = new \Doctrine\Common\Collections\ArrayCollection();
+        $Entities = new ArrayCollection();
 
         foreach ($this->getDomXpath()->query('/rdf:RDF/rdf:Description') as $node)
         {
@@ -131,7 +144,7 @@ class RDFParser
      * Returns the first result for a user defined query against the RDF
      *
      * @param string $query
-     * @return string
+     * @return \PHPExiftool\Driver\Value\Value  The value
      */
     public function Query($query)
     {
@@ -154,6 +167,12 @@ class RDFParser
         return null;
     }
 
+    /**
+     * Normalize a tagname based on namespaces redirections
+     *
+     * @param string    $tagname    The tagname to normalize
+     * @return string               The normalized tagname
+     */
     protected function normalize($tagname)
     {
         foreach ($this->namespacesRedirection as $from => $to)
@@ -183,7 +202,7 @@ class RDFParser
      * Extract all XML namespaces declared in a XML
      *
      * @param \DOMDocument $dom
-     * @return array
+     * @return array            The namespaces declared in XML
      */
     protected static function getNamespacesFromXml(\DOMDocument $dom)
     {
@@ -206,56 +225,73 @@ class RDFParser
     /**
      * Read the node value, decode it if needed
      *
-     * @param \DOMNode $node
-     * @return \PHPExiftool\Driver\Value\Value
+     * @param   \DOMNode            $node   The node to read
+     * @param   Driver\Tag          $tag    The tag associated
+     * @return  Driver\Value\Value          The value extracted
      */
     protected function readNodeValue(\DOMNode $node, Driver\Tag $tag = null)
     {
-        switch (true)
+        $nodeName = $this->normalize($node->nodeName);
+
+        if (is_null($tag) && Driver\TagFactory::hasFromRDFTagname($nodeName))
         {
-            case $node->getElementsByTagNameNS(self::RDF_NAMESPACE, 'Bag')->length > 0:
+            $tag = Driver\TagFactory::getFromRDFTagname($nodeName);
+        }
 
-                $bag_elements = $node->getElementsByTagNameNS(self::RDF_NAMESPACE, 'li');
-                $ret          = new \PHPExiftool\Driver\Value\Multi();
-                foreach ($bag_elements as $nodeElement)
-                {
-                    $ret->addValue($nodeElement->nodeValue);
-                }
+        if ($node->getElementsByTagNameNS(self::RDF_NAMESPACE, 'Bag')->length > 0)
+        {
+            $ret = array();
 
-                return $ret;
-                break;
-            case $node->getAttribute('rdf:datatype') === 'http://www.w3.org/2001/XMLSchema#base64Binary':
-                if (is_null($tag))
-                {
-                    try
-                    {
-                        $tag = \PHPExiftool\Driver\TagFactory::getFromRDFTagname($this->normalize($node->nodeName));
-                    }
-                    catch (\PHPExiftool\Exception\TagUnknown $e)
-                    {
+            foreach ($node->getElementsByTagNameNS(self::RDF_NAMESPACE, 'li') as $nodeElement)
+            {
+                $ret[] = $nodeElement->nodeValue;
+            }
 
-                    }
-                }
-                if (is_null($tag) || $tag->isBinary())
-                {
-                    return \PHPExiftool\Driver\Value\Binary::loadFromBase64($node->nodeValue);
-                }
-                else
-                {
-                    return new \PHPExiftool\Driver\Value\Mono(base64_decode($node->nodeValue));
-                }
-                break;
-            default:
-                return new \PHPExiftool\Driver\Value\Mono($node->nodeValue);
-                break;
+            if (is_null($tag) || $tag->isMulti())
+            {
+                return new Driver\Value\Multi($ret);
+            }
+            else
+            {
+                return new Driver\Value\Mono(implode(' ', $ret));
+            }
+        }
+        elseif ($node->getAttribute('rdf:datatype') === 'http://www.w3.org/2001/XMLSchema#base64Binary')
+        {
+            if (is_null($tag) || $tag->isBinary())
+            {
+                return Driver\Value\Binary::loadFromBase64($node->nodeValue);
+            }
+            else
+            {
+                return new Driver\Value\Mono(base64_decode($node->nodeValue));
+            }
+        }
+        else
+        {
+            if ( ! is_null($tag) && $tag->isMulti())
+            {
+                return new Driver\Value\Multi($node->nodeValue);
+            }
+            else
+            {
+                return new Driver\Value\Mono($node->nodeValue);
+            }
         }
     }
 
+    /**
+     * Compute the DOMDocument from the XML
+     *
+     * @return \DOMDocument
+     * @throws Exception\LogicException
+     * @throws Exception\ParseError
+     */
     protected function getDom()
     {
         if ( ! $this->XML)
         {
-            throw new \PHPExiftool\Exception\LogicException('You must open an XML first');
+            throw new Exception\LogicException('You must open an XML first');
         }
 
         if ( ! $this->DOM)
@@ -276,11 +312,24 @@ class RDFParser
         return $this->DOM;
     }
 
+    /**
+     * Compute the DOMXpath from the DOMDocument
+     *
+     * @return \DOMXpath                    The DOMXpath object related to the XML
+     * @throws Exception\RuntimeException
+     */
     protected function getDomXpath()
     {
         if ( ! $this->DOMXpath)
         {
-            $this->DOMXpath = new \DOMXPath($this->getDom());
+            try
+            {
+                $this->DOMXpath = new \DOMXPath($this->getDom());
+            }
+            catch (Exception\ParseError $e)
+            {
+                throw new Exception\RuntimeException('Unable to parse the XML');
+            }
 
             $this->DOMXpath->registerNamespace('rdf', self::RDF_NAMESPACE);
 
