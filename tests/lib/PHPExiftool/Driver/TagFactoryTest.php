@@ -12,6 +12,7 @@ class TagFactoryTest extends \PHPUnit_Framework_TestCase
 
     /**
      * @covers \PHPExiftool\Driver\TagFactory::GetFromRDFTagname
+     * @covers \PHPExiftool\Driver\TagFactory::classnameFromTagname
      */
     public function testGetFromRDFTagname()
     {
@@ -30,6 +31,26 @@ class TagFactoryTest extends \PHPUnit_Framework_TestCase
         {
 
         }
+    }
+
+    /**
+     * @covers \PHPExiftool\Driver\TagFactory::GetFromRDFTagname
+     * @covers \PHPExiftool\Exception\TagUnknown
+     * @expectedException \PHPExiftool\Exception\TagUnknown
+     */
+    public function testGetFromRDFTagnameFail()
+    {
+        TagFactory::getFromRDFTagname('XMPExif:AnunexistingTag');
+    }
+
+
+    /**
+     * @covers \PHPExiftool\Driver\TagFactory::HasFromRDFTagname
+     */
+    public function testHasFromRDFTagname()
+    {
+        $this->assertTrue(TagFactory::hasFromRDFTagname('IPTC:SupplementalCategories'));
+        $this->assertFalse(TagFactory::hasFromRDFTagname('XMPExif:AnunexistingTag'));
     }
 
 }

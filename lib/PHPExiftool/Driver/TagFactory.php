@@ -39,9 +39,7 @@ class TagFactory
      */
     public static function getFromRDFTagname($tagname)
     {
-        $classname = '\PHPExiftool\Driver\Tag\\' . str_replace(':', '\\', $tagname);
-
-        $classname = \PHPExiftool\Tool\Command\ClassesBuilder::generateNamespace($classname);
+        $classname = self::classnameFromTagname($tagname);
 
         if ( ! class_exists($classname))
         {
@@ -49,6 +47,18 @@ class TagFactory
         }
 
         return new $classname;
+    }
+
+    public static function hasFromRDFTagname($tagname)
+    {
+        return class_exists(self::classnameFromTagname($tagname));
+    }
+
+    protected static function classnameFromTagname($tagname)
+    {
+        $classname = '\PHPExiftool\Driver\Tag\\' . str_replace(':', '\\', $tagname);
+
+        return \PHPExiftool\Tool\Command\ClassesBuilder::generateNamespace($classname);
     }
 
 }
