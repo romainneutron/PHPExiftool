@@ -357,7 +357,7 @@ class Reader extends Exiftool implements \IteratorAggregate
             throw new Exception\LogicException('You have not set any files or directory');
         }
 
-        $command = realpath(__DIR__ . '/../../lib/vendor/Exiftool/exiftool') . ' -q -b -X';
+        $command = self::getBinary() . ' -q -b -X';
 
         if ($this->recursive)
         {
