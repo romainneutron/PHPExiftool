@@ -12,6 +12,9 @@ class MetadataTest extends \PHPUnit_Framework_TestCase
     protected $tag;
     protected $value;
 
+    /**
+     * @covers \PHPExiftool\Driver\Metadata\Metadata::__construct
+     */
     protected function setUp()
     {
         $this->tag = new TagTest();

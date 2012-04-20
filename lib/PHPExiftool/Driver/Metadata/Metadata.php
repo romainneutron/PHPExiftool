@@ -33,18 +33,12 @@ class Metadata
     protected $tag;
     protected $value;
 
-    public function __construct(\PHPExiftool\Driver\Tag $tag, $value, \SplFileInfo $file)
+    public function __construct(\PHPExiftool\Driver\Tag $tag, $value)
     {
         $this->tag = $tag;
         $this->value = $value;
-        $this->file = $file;
 
         return $this;
-    }
-
-    public function reset()
-    {
-        $this->value = null;
     }
 
     public function getTag()
@@ -54,26 +48,7 @@ class Metadata
 
     public function getValue()
     {
-        if ($this->tag->isBinary())
-        {
-            /**
-             * Read binary datas
-             */
-        }
-        elseif ( ! is_null($this->value))
-        {
-            /**
-             * Data have been read
-             */
-
-            return $this->value;
-        }
-        else
-        {
-            /**
-             * Re-read datas
-             */
-        }
+        return $this->value;
     }
 
 }
