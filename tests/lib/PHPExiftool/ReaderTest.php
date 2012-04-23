@@ -91,11 +91,11 @@ class ReaderTest extends \PHPUnit_Framework_TestCase
     public function testIn()
     {
         $reader = new Reader();
-        $reader->in(self::$tmpDir)->extensions(array('world', 'exiftool', 'txt'));
+        $reader->in(self::$tmpDir);
         $this->assertEquals(3, count($reader->all()));
 
         $reader = new Reader();
-        $reader->in(self::$tmpDir . '/dir')->extensions(array('world', 'exiftool', 'txt'));
+        $reader->in(self::$tmpDir . '/dir');
         $this->assertEquals(1, count($reader->all()));
     }
 
@@ -109,7 +109,6 @@ class ReaderTest extends \PHPUnit_Framework_TestCase
         $reader = new Reader();
         $reader
           ->in(self::$tmpDir)
-          ->extensions(array('world', 'exiftool', 'txt'))
           ->exclude(self::$tmpDir . '/dir');
 
         $this->assertEquals(2, count($reader->all()));
@@ -176,6 +175,10 @@ class ReaderTest extends \PHPUnit_Framework_TestCase
     public function testExtensions()
     {
         $reader = new Reader();
+        $reader->in(self::$tmpDir);
+        $this->assertEquals(3, count($reader->all()));
+
+        $reader = new Reader();
         $reader->in(self::$tmpDir)->notRecursive()->extensions(array('world', 'exiftool'));
         $this->assertEquals(2, count($reader->all()));
 
@@ -189,6 +192,10 @@ class ReaderTest extends \PHPUnit_Framework_TestCase
 
         $reader = new Reader();
         $reader->in(self::$tmpDir)->extensions(array('world', 'exiftool'), false);
+        $this->assertEquals(1, count($reader->all()));
+
+        $reader = new Reader();
+        $reader->in(self::$tmpDir)->extensions(array('world', 'exiftool'), false)->notRecursive();
         $this->assertEquals(0, count($reader->all()));
     }
 
@@ -210,7 +217,6 @@ class ReaderTest extends \PHPUnit_Framework_TestCase
     {
         $reader = new Reader();
         $reader->in(self::$tmpDir)
-          ->extensions(array('world', 'exiftool', 'txt'))
           ->followSymLinks();
 
         $this->assertInstanceOf('\\Doctrine\\Common\\Collections\\ArrayCollection', $reader->all());
@@ -224,7 +230,7 @@ class ReaderTest extends \PHPUnit_Framework_TestCase
     public function testNotRecursive()
     {
         $reader = new Reader();
-        $reader->in(self::$tmpDir)->notRecursive()->extensions(array('world', 'exiftool', 'txt'));
+        $reader->in(self::$tmpDir)->notRecursive();
         $this->assertEquals(2, count($reader->all()));
     }
 
@@ -258,8 +264,7 @@ class ReaderTest extends \PHPUnit_Framework_TestCase
     {
         $reader = new Reader();
         $reader
-          ->in(self::$tmpDir)
-          ->extensions(array('world', 'exiftool', 'txt'));
+          ->in(self::$tmpDir);
 
         $this->assertInstanceOf('\\PHPExiftool\\FileEntity', $reader->first());
     }
@@ -281,7 +286,7 @@ class ReaderTest extends \PHPUnit_Framework_TestCase
     public function testAll()
     {
         $reader = new Reader();
-        $reader->in(self::$tmpDir)->extensions(array('world', 'exiftool', 'txt'));
+        $reader->in(self::$tmpDir);
 
         $this->assertInstanceOf('\\Doctrine\\Common\\Collections\\ArrayCollection', $reader->all());
         $this->assertEquals(3, count($reader->all()));

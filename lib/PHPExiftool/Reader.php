@@ -367,19 +367,13 @@ class Reader extends Exiftool implements \IteratorAggregate
 
         if ( ! $this->extensions)
         {
-            /**
-             * Should be removed with ExifTool 8.89
-             */
-            //$command .= ' -ext "*"';
+            $command .= ' -ext "*"';
         }
         else
         {
             if ( ! $this->extensionsToggle)
             {
-                /**
-                 * Should be removed with ExifTool 8.89
-                 */
-                //$command .= ' -ext "*"';
+                $command .= ' -ext "*"';
                 $extensionPrefix = ' --ext';
             }
             else
