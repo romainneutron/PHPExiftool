@@ -11,12 +11,7 @@
 
 namespace PHPExiftool\Exception;
 
-/**
- *
- * @author      Romain Neutron - imprec@gmail.com
- * @license     http://opensource.org/licenses/MIT MIT
- */
-class TagUnknown extends \Exception
+class TagUnknown extends \Exception implements Exception
 {
 
 }

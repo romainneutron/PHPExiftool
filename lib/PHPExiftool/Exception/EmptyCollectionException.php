@@ -11,7 +11,7 @@
 
 namespace PHPExiftool\Exception;
 
-class EmptyCollectionException extends \Exception
+class EmptyCollectionException extends \Exception implements Exception
 {
 
 }

@@ -11,7 +11,7 @@
 
 namespace PHPExiftool\Exception;
 
-class RuntimeException extends \RuntimeException implements Exception
+interface Exception
 {
 
 }
