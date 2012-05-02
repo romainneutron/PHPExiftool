@@ -11,13 +11,15 @@
 
 namespace PHPExiftool\Driver\Metadata;
 
+use Doctrine\Common\Collections\ArrayCollection;
+
 /**
  * Container for Metadatas
  *
  * @author      Romain Neutron - imprec@gmail.com
  * @license     http://opensource.org/licenses/MIT MIT
  */
-class MetadataBag extends \Doctrine\Common\Collections\ArrayCollection
+class MetadataBag extends ArrayCollection
 {
 
     /**
@@ -28,12 +30,10 @@ class MetadataBag extends \Doctrine\Common\Collections\ArrayCollection
      */
     public function filterKeysByRegExp($regexp)
     {
-        $partitions = $this->partition(function($key, $element) use ($regexp)
-          {
-              return preg_match($regexp, $key);
-          });
+        $partitions = $this->partition(function($key, $element) use ($regexp) {
+            return preg_match($regexp, $key);
+        });
 
         return array_shift($partitions);
     }
-
 }

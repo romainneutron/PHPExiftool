@@ -11,6 +11,9 @@
 
 namespace PHPExiftool\Driver\Metadata;
 
+use PHPExiftool\Driver\Tag;
+use PHPExiftool\Driver\Value\Value;
+
 /**
  * Metadata Object for mapping a Tag to a value
  *
@@ -19,11 +22,10 @@ namespace PHPExiftool\Driver\Metadata;
  */
 class Metadata
 {
-
     protected $tag;
     protected $value;
 
-    public function __construct(\PHPExiftool\Driver\Tag $tag, $value)
+    public function __construct(Tag $tag, Value $value)
     {
         $this->tag = $tag;
         $this->value = $value;
@@ -40,5 +42,4 @@ class Metadata
     {
         return $this->value;
     }
-
 }

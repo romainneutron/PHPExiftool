@@ -48,7 +48,7 @@ class Multi implements Value
         return $this;
     }
 
-    public function serialize($separator = ';')
+    public function serialize($separator = ' ; ')
     {
         return implode($separator, $this->value);
     }

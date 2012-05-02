@@ -11,6 +11,8 @@
 
 namespace PHPExiftool\Driver\Value;
 
+use PHPExiftool\Exception;
+
 class Binary implements Value
 {
 
@@ -47,7 +49,7 @@ class Binary implements Value
     {
         if (false === $value = base64_decode($base64Value, true))
         {
-            throw new \PHPExiftool\Exception\InvalidArgumentException('The value should be base64 encoded');
+            throw new Exception\InvalidArgumentException('The value should be base64 encoded');
         }
 
         $this->value = $value;
@@ -59,7 +61,7 @@ class Binary implements Value
     {
         if (false === $value = base64_decode($base64Value, true))
         {
-            throw new \PHPExiftool\Exception\InvalidArgumentException('The value should be base64 encoded');
+            throw new Exception\InvalidArgumentException('The value should be base64 encoded');
         }
 
         return new static($value);
