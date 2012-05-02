@@ -41,6 +41,11 @@ class Vendors
                 system($cmd);
             }
         }
+
+        if(function_exists('chmod'))
+        {
+            chmod(__DIR__ . '/../vendor/Exiftool/exiftool', 0750);
+        }
     }
 
 }
