@@ -11,6 +11,9 @@
 
 namespace PHPExiftool\Driver;
 
+use PHPExiftool\Exception;
+use PHPExiftool\Tool\Command\ClassesBuilder;
+
 /**
  * Metadata Object for mapping a Tag to a value
  *
@@ -31,9 +34,8 @@ class TagFactory
     {
         $classname = self::classnameFromTagname($tagname);
 
-        if ( ! class_exists($classname))
-        {
-            throw new \PHPExiftool\Exception\TagUnknown(sprintf('Unknown tag %s', $tagname));
+        if ( ! class_exists($classname)) {
+            throw new Exception\TagUnknown(sprintf('Unknown tag %s', $tagname));
         }
 
         return new $classname;
@@ -48,7 +50,6 @@ class TagFactory
     {
         $classname = '\PHPExiftool\Driver\Tag\\' . str_replace(':', '\\', $tagname);
 
-        return \PHPExiftool\Tool\Command\ClassesBuilder::generateNamespace($classname);
+        return ClassesBuilder::generateNamespace($classname);
     }
-
 }

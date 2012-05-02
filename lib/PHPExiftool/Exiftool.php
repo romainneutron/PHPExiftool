@@ -32,11 +32,9 @@ abstract class Exiftool
          * @see https://bugs.php.net/bug.php?id=60120
          * @see https://bugs.php.net/bug.php?id=51800
          */
-        if (defined('PHP_WINDOWS_VERSION_BUILD'))
-        {
-            if (null === $output = shell_exec($command))
-            {
-                throw new \Exception(sprintf('Command %s failed', $command));
+        if (defined('PHP_WINDOWS_VERSION_BUILD')) {
+            if (null === $output = shell_exec($command)) {
+                throw new Exception\RuntimeException(sprintf('Command %s failed', $command));
             }
 
             return $output;
@@ -45,9 +43,8 @@ abstract class Exiftool
         $process = new Process($command);
         $process->run();
 
-        if ( ! $process->isSuccessful())
-        {
-            throw new Exception\RuntimeException(sprintf('Command %s failed', $command));
+        if ( ! $process->isSuccessful()) {
+            throw new Exception\RuntimeException(sprintf('Command %s failed : %s', $command, $process->getErrorOutput()));
         }
 
         return $process->getOutput();
@@ -59,14 +56,10 @@ abstract class Exiftool
      */
     protected static function getBinary()
     {
-        if (defined('PHP_WINDOWS_VERSION_BUILD'))
-        {
+        if (defined('PHP_WINDOWS_VERSION_BUILD')) {
             return realpath(__DIR__ . '\..\..\lib\vendor\Exiftool\exiftool.exe');
-        }
-        else
-        {
+        } else {
             return realpath(__DIR__ . '/../../lib/vendor/Exiftool/exiftool');
         }
     }
-
 }

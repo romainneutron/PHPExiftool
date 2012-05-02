@@ -51,7 +51,6 @@ use Doctrine\Common\Collections\ArrayCollection;
  */
 class Reader extends Exiftool implements \IteratorAggregate
 {
-
     protected $files = array();
     protected $dirs = array();
     protected $excludeDirs = array();
@@ -159,10 +158,8 @@ class Reader extends Exiftool implements \IteratorAggregate
      */
     public function extensions($extensions, $restrict = true)
     {
-        if ( ! is_null($this->extensionsToggle))
-        {
-            if ((boolean) $restrict !== $this->extensionsToggle)
-            {
+        if ( ! is_null($this->extensionsToggle)) {
+            if ((boolean) $restrict !== $this->extensionsToggle) {
                 throw new Exception\LogicException('You cannot restrict extensions AND exclude extension at the same time');
             }
         }
@@ -217,8 +214,7 @@ class Reader extends Exiftool implements \IteratorAggregate
      */
     public function first()
     {
-        if (count($this->all()) === 0)
-        {
+        if (count($this->all()) === 0) {
             throw new Exception\EmptyCollectionException('Collection is empty');
         }
 
@@ -232,8 +228,7 @@ class Reader extends Exiftool implements \IteratorAggregate
      */
     public function all()
     {
-        if ( ! $this->collection)
-        {
+        if ( ! $this->collection) {
             $this->collection = $this->buildQueryAndExecute();
         }
 
@@ -249,8 +244,7 @@ class Reader extends Exiftool implements \IteratorAggregate
     {
         $result = self::executeCommand($this->buildQuery());
 
-        if ($result === '')
-        {
+        if ($result === '') {
             return new ArrayCollection();
         }
 
@@ -271,33 +265,28 @@ class Reader extends Exiftool implements \IteratorAggregate
     {
         $excludeDirs = array();
 
-        foreach ($rawExcludeDirs as $excludeDir)
-        {
+        foreach ($rawExcludeDirs as $excludeDir) {
             $found = false;
             /**
              * is this a relative path ?
              */
-            foreach ($rawSearchDirs as $dir)
-            {
+            foreach ($rawSearchDirs as $dir) {
                 $currentPrefix = realpath($dir) . DIRECTORY_SEPARATOR;
 
                 $supposedExcluded = str_replace($currentPrefix, '', realpath($currentPrefix . $excludeDir));
 
-                if ( ! $supposedExcluded)
-                {
+                if ( ! $supposedExcluded) {
                     continue;
                 }
 
-                if (strpos($supposedExcluded, DIRECTORY_SEPARATOR) === false)
-                {
+                if (strpos($supposedExcluded, DIRECTORY_SEPARATOR) === false) {
                     $excludeDirs[] = $supposedExcluded;
-                    $found         = true;
+                    $found = true;
                     break;
                 }
             }
 
-            if ($found)
-            {
+            if ($found) {
                 continue;
             }
 
@@ -306,38 +295,32 @@ class Reader extends Exiftool implements \IteratorAggregate
              */
             $supposedExcluded = realpath($excludeDir);
 
-            if ($supposedExcluded)
-            {
-                foreach ($rawSearchDirs as $dir)
-                {
+            if ($supposedExcluded) {
+                foreach ($rawSearchDirs as $dir) {
                     $searchDir = realpath($dir) . DIRECTORY_SEPARATOR;
 
                     $supposedRelative = str_replace($searchDir, '', $supposedExcluded);
 
-                    if (strpos($supposedRelative, DIRECTORY_SEPARATOR) !== false)
-                    {
+                    if (strpos($supposedRelative, DIRECTORY_SEPARATOR) !== false) {
                         continue;
                     }
 
-                    if (strpos($supposedExcluded, $searchDir) !== 0)
-                    {
+                    if (strpos($supposedExcluded, $searchDir) !== 0) {
                         continue;
                     }
 
-                    if ( ! trim($supposedRelative))
-                    {
+                    if ( ! trim($supposedRelative)) {
                         continue;
                     }
 
                     $excludeDirs[] = $supposedRelative;
-                    $found         = true;
+                    $found = true;
                     break;
                 }
             }
 
 
-            if ( ! $found)
-            {
+            if ( ! $found) {
                 throw new Exception\RuntimeException(sprintf("Invalid exclude dir %s ; Exclude dir is limited to the name of a directory at first depth", $excludeDir));
             }
         }
@@ -349,65 +332,52 @@ class Reader extends Exiftool implements \IteratorAggregate
      * Build query from criterias
      *
      * @return string
+     *
      * @throws Exception\LogicException
      */
     protected function buildQuery()
     {
-        if ( ! $this->dirs && ! $this->files)
-        {
+        if ( ! $this->dirs && ! $this->files) {
             throw new Exception\LogicException('You have not set any files or directory');
         }
 
-        $command = self::getBinary() . ' -q -b -X';
+        $command = self::getBinary() . ' -q -b -X -charset UTF8';
 
-        if ($this->recursive)
-        {
+        if ($this->recursive) {
             $command .= ' -r';
         }
 
-        if ( ! $this->extensions)
-        {
+        if ( ! $this->extensions) {
             $command .= ' -ext "*"';
-        }
-        else
-        {
-            if ( ! $this->extensionsToggle)
-            {
+        } else {
+            if ( ! $this->extensionsToggle) {
                 $command .= ' -ext "*"';
                 $extensionPrefix = ' --ext';
-            }
-            else
-            {
+            } else {
                 $extensionPrefix = ' -ext';
             }
 
-            foreach ($this->extensions as $extension)
-            {
+            foreach ($this->extensions as $extension) {
                 $command .= $extensionPrefix . ' ' . escapeshellarg($extension);
             }
         }
 
-        if ( ! $this->followSymLinks)
-        {
+        if ( ! $this->followSymLinks) {
             $command .= ' -i SYMLINKS';
         }
 
-        foreach ($this->computeExcludeDirs($this->excludeDirs, $this->dirs) as $excludedDir)
-        {
+        foreach ($this->computeExcludeDirs($this->excludeDirs, $this->dirs) as $excludedDir) {
             $command .= ' -i ' . escapeshellarg($excludedDir);
         }
 
-        foreach ($this->dirs as $dir)
-        {
+        foreach ($this->dirs as $dir) {
             $command .= ' ' . escapeshellarg(realpath($dir));
         }
 
-        foreach ($this->files as $file)
-        {
+        foreach ($this->files as $file) {
             $command .= ' ' . escapeshellarg(realpath($file));
         }
 
         return $command;
     }
-
 }

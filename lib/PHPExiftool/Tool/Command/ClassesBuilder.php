@@ -11,22 +11,21 @@
 
 namespace PHPExiftool\Tool\Command;
 
+use Symfony\Component\Console\Command\Command;
+use Symfony\Component\Console\Output\ConsoleOutput;
+use Symfony\Component\Console\Input\InputInterface;
+use Symfony\Component\Console\Output\OutputInterface;
+use PHPExiftool\ClassUtils\Builder;
+use PHPExiftool\InformationDumper;
+use Symfony\Component\DomCrawler\Crawler;
+
 /**
  *
  * @author      Romain Neutron - imprec@gmail.com
  * @license     http://opensource.org/licenses/MIT MIT
  */
-use \Symfony\Component\Console\Command\Command,
-    \Symfony\Component\Console\Output\ConsoleOutput,
-    \Symfony\Component\Console\Input\InputInterface,
-    \Symfony\Component\Console\Output\OutputInterface,
-    \PHPExiftool\ClassUtils\Builder,
-    PHPExiftool\InformationDumper,
-    \Symfony\Component\DomCrawler\Crawler;
-
 class ClassesBuilder extends Command
 {
-
     /**
      * Output interface for Command
      *
@@ -52,10 +51,10 @@ class ClassesBuilder extends Command
     protected function configure()
     {
         $this
-          ->setName('classes-builder')
-          ->setDescription('Build Tags classes from exiftool documentation.')
-          ->addOption('write', 'w', null, 'Write classes on disk')
-          ->addOption('force', 'f', null, 'Force classes write whenever files already exists');
+            ->setName('classes-builder')
+            ->setDescription('Build Tags classes from exiftool documentation.')
+            ->addOption('write', 'w', null, 'Write classes on disk')
+            ->addOption('force', 'f', null, 'Force classes write whenever files already exists');
 
         return $this;
     }
@@ -63,7 +62,7 @@ class ClassesBuilder extends Command
     /**
      * @see Console\Command\Command
      */
-    protected function execute(InputInterface $input, \Symfony\Component\Console\Output\OutputInterface $output)
+    protected function execute(InputInterface $input, OutputInterface $output)
     {
         $start = microtime(true);
 
@@ -81,14 +80,11 @@ class ClassesBuilder extends Command
 
         $this->extractDump($dump);
 
-        if ( ! $input->getOption('write'))
-        {
+        if ( ! $input->getOption('write')) {
             $this->output->writeln(
-              'These classes were not written. Use --write to write on disk'
+                'These classes were not written. Use --write to write on disk'
             );
-        }
-        else
-        {
+        } else {
             $this->output->writeln('Erasing previous files... ');
 
             system('rm -R ' . __DIR__ . '/../../Driver/Tag/*');
@@ -99,10 +95,10 @@ class ClassesBuilder extends Command
         }
 
         $this->output->writeln(
-          sprintf(
-            '%d classes generated in %d seconds (%d Mb)'
-            , count($this->classes), (microtime(true) - $start), memory_get_peak_usage() >> 20
-          )
+            sprintf(
+                '%d classes generated in %d seconds (%d Mb)'
+                , count($this->classes), (microtime(true) - $start), memory_get_peak_usage() >> 20
+            )
         );
     }
 
@@ -114,17 +110,13 @@ class ClassesBuilder extends Command
     {
         $n = 0;
 
-        foreach ($this->classes as $class)
-        {
-            try
-            {
+        foreach ($this->classes as $class) {
+            try {
                 $class->write($force);
                 $this->output->write(sprintf("\rwriting class #%5d", $n ++ ));
-            }
-            catch (\Exception $e)
-            {
+            } catch (\Exception $e) {
                 $this->output->writeln(
-                  sprintf("\n<error>Error while writing class %s</error>", $class->getPathfile())
+                    sprintf("\n<error>Error while writing class %s</error>", $class->getPathfile())
                 );
             }
         }
@@ -136,14 +128,16 @@ class ClassesBuilder extends Command
 
     protected function generateTypes()
     {
-        foreach ($this->types as $type => $data)
-        {
+        foreach ($this->types as $type => $data) {
             if ($type == '?')
                 $type = 'unknown';
 
             $classname = self::generateClassname($type);
 
-            $properties = array('ExiftoolName' => $data, 'PHPMap'       => $this->getTypeMap($type));
+            $properties = array(
+                'ExiftoolName' => $data,
+                'PHPMap'       => $this->getTypeMap($type),
+            );
 
             $classpath = sprintf('%s', $classname);
 
@@ -155,8 +149,7 @@ class ClassesBuilder extends Command
 
     protected function getTypeMap($type)
     {
-        switch ($type)
-        {
+        switch ($type) {
             case 'Int16Data':
             case 'Int8uText':
             case 'Int8u2Text':
@@ -241,8 +234,7 @@ class ClassesBuilder extends Command
 
     protected function createTagClass($namespace, $classname, array $properties)
     {
-        if ($classname == 'Reserved')
-        {
+        if ($classname == 'Reserved') {
             return;
         }
 
@@ -250,53 +242,35 @@ class ClassesBuilder extends Command
 
         $classpath = sprintf('%s\\%s', $namespace, $classname);
 
-        if (isset($this->classes[$classpath]))
-        {
-            foreach ($properties as $property => $value)
-            {
-                if ($this->classes[$classpath]->getProperty($property) != $value)
-                {
-                    if ($property === 'Writable')
-                    {
+        if (isset($this->classes[$classpath])) {
+            foreach ($properties as $property => $value) {
+                if ($this->classes[$classpath]->getProperty($property) != $value) {
+                    if (in_array($property, array('Writable', 'flag_Binary', 'flag_List'))) {
+
                         $this->classes[$classpath]->setProperty($property, 'false');
-                    }
-                    elseif ($property === 'flag_Binary')
-                    {
-                        $this->classes[$classpath]->setProperty($property, 'false');
-                    }
-                    elseif ($property === 'flag_List')
-                    {
-                        $this->classes[$classpath]->setProperty($property, 'false');
-                    }
-                    elseif ($property === 'Values')
-                    {
+                    } elseif ($property === 'Values') {
+
                         $new_value = array();
 
-                        if ( ! is_array($this->classes[$classpath]->getProperty($property)))
-                        {
-                            if (is_array($value))
+                        if ( ! is_array($this->classes[$classpath]->getProperty($property))) {
+                            if (is_array($value)) {
                                 $new_value = $value;
-                        }
-                        else
-                        {
-                            if (is_array($value) && $this->classes[$classpath]->getProperty($property) != $value)
+                            }
+                        } else {
+                            if (is_array($value) && $this->classes[$classpath]->getProperty($property) != $value) {
                                 $new_value = array_merge($this->classes[$classpath]->getProperty($property), $value);
-                            else
+                            } else {
                                 $new_value = $this->classes[$classpath]->getProperty($property);
+                            }
                         }
-
 
                         $this->classes[$classpath]->setProperty($property, $new_value);
-                    }
-                    else
-                    {
+                    } else {
                         $this->classes[$classpath]->setProperty($property, 'mixed');
                     }
                 }
             }
-        }
-        else
-        {
+        } else {
             $this->classes[$classpath] = new Builder($namespace, $classname, $properties, '\\PHPExiftool\\Driver\\Tag');
         }
 
@@ -309,88 +283,71 @@ class ClassesBuilder extends Command
         $crawler = new Crawler();
         $crawler->addContent($dump);
 
-        foreach ($crawler->filter('table') as $table)
-        {
+        foreach ($crawler->filter('table') as $table) {
             $table_crawler = new Crawler();
             $table_crawler->addNode($table);
 
             $tag_group_name = $table_crawler->attr('g1');
-            $tag_full_name  = $table_crawler->attr('name');
+            $tag_full_name = $table_crawler->attr('name');
 
             $tag_g0 = $table_crawler->attr('g0');
             $tag_g2 = $table_crawler->attr('g2');
 
             $tags = $table_crawler->filter('tag');
 
-            foreach ($tags as $tag)
-            {
+            foreach ($tags as $tag) {
 
                 $tag_crawler = new Crawler();
                 $tag_crawler->addNode($tag);
 
                 $extra = array();
 
-                if ($tag_crawler->attr('g0'))
-                {
+                if ($tag_crawler->attr('g0')) {
                     $extra['local_g0'] = $tag_crawler->attr('g0');
                 }
 
-                if ($tag_crawler->attr('g1') && ! in_array($tag_crawler->attr('g1'), array('MakerNotes', 'Chapter#')))
-                {
-                    $g_name            = $tag_crawler->attr('g1');
+                if ($tag_crawler->attr('g1') && ! in_array($tag_crawler->attr('g1'), array('MakerNotes', 'Chapter#'))) {
+                    $g_name = $tag_crawler->attr('g1');
                     $extra['local_g1'] = $tag_crawler->attr('g1');
-                }
-                else
-                {
+                } else {
                     $g_name = $tag_group_name;
                 }
 
-                if ($tag_crawler->attr('g2'))
-                {
+                if ($tag_crawler->attr('g2')) {
                     $extra['local_g2'] = $tag_crawler->attr('g2');
                 }
 
                 $flags = explode(',', $tag_crawler->attr('flags'));
 
 
-                if (in_array('Avoid', $flags))
-                {
+                if (in_array('Avoid', $flags)) {
                     $extra['flag_Avoid'] = 'true';
                 }
-                if (in_array('Binary', $flags))
-                {
+                if (in_array('Binary', $flags)) {
                     $extra['flag_Binary'] = 'true';
                 }
-                if (in_array('Permanent', $flags))
-                {
+                if (in_array('Permanent', $flags)) {
                     $extra['flag_Permanent'] = 'true';
                 }
-                if (in_array('Protected', $flags))
-                {
+                if (in_array('Protected', $flags)) {
                     $extra['flag_Protected'] = 'true';
                 }
-                if (in_array('Unsafe', $flags))
-                {
+                if (in_array('Unsafe', $flags)) {
                     $extra['flag_Unsafe'] = 'true';
                 }
-                if (in_array('List', $flags))
-                {
+                if (in_array('List', $flags)) {
                     $extra['flag_List'] = 'true';
                 }
-                if (in_array('Mandatory', $flags))
-                {
+                if (in_array('Mandatory', $flags)) {
                     $extra['flag_Mandatory'] = 'true';
                 }
-                if (in_array('Bag', $flags))
-                {
+                if (in_array('Bag', $flags)) {
                     $extra['flag_Bag'] = 'true';
                 }
-                if (in_array('Seq', $flags))
-                {
+                if (in_array('Seq', $flags)) {
                     $extra['flag_Seq'] = 'true';
                 }
-                if (in_array('Alt', $flags))
-                {
+                if (in_array('Alt', $flags)) {
                     $extra['flag_Alt'] = 'true';
                 }
 
@@ -399,42 +356,39 @@ class ClassesBuilder extends Command
                 $tag_name = $tag_crawler->attr('name');
 
                 $classname = self::generateClassname($tag_name);
-                $tag_id    = $tag_crawler->attr('id');
+                $tag_id = $tag_crawler->attr('id');
 
                 $properties = array_merge(array(
-                  'Id'          => $tag_id,
-                  'Name'        => $tag_name,
-                  'FullName'    => $tag_full_name,
-                  'GroupName'   => $g_name,
-                  'g0'          => $tag_g0,
-                  'g1'          => $tag_group_name,
-                  'g2'          => $tag_g2,
-                  'Type'        => $tag_crawler->attr('type'),
-                  'Writable'    => $tag_crawler->attr('writable'),
-                  'Description' => $tag_crawler->filter('desc[lang="en"]')->first()->text(),
-                  ), $extra);
+                    'Id'          => $tag_id,
+                    'Name'        => $tag_name,
+                    'FullName'    => $tag_full_name,
+                    'GroupName'   => $g_name,
+                    'g0'          => $tag_g0,
+                    'g1'          => $tag_group_name,
+                    'g2'          => $tag_g2,
+                    'Type'        => $tag_crawler->attr('type'),
+                    'Writable'    => $tag_crawler->attr('writable'),
+                    'Description' => $tag_crawler->filter('desc[lang="en"]')->first()->text(),
+                    ), $extra);
 
                 $this->types[$tag_crawler->attr('type')] = $tag_crawler->attr('type');
 
-                if ($tag_crawler->attr('index'))
-                {
+                if ($tag_crawler->attr('index')) {
                     $properties['Index'] = $tag_crawler->attr('index');
                 }
 
-                if (count($tag_crawler->filter('values')) > 0)
-                {
+                if (count($tag_crawler->filter('values')) > 0) {
                     $values = array();
 
                     $values_tag = $tag_crawler->filter('values')->first();
 
                     $Keys = $values_tag->filter('key');
 
-                    foreach ($Keys as $Key)
-                    {
+                    foreach ($Keys as $Key) {
                         $KeyCrawler = new Crawler();
                         $KeyCrawler->addNode($Key);
 
-                        $Id    = $KeyCrawler->attr('id');
+                        $Id = $KeyCrawler->attr('id');
                         $Label = $KeyCrawler->filter('val[lang="en"]')->first()->text();
 
                         $values[$Id] = array('Id'    => $Id, 'Label' => $Label);
@@ -449,19 +403,18 @@ class ClassesBuilder extends Command
 
         $this->generateTypes();
     }
-
     protected static $reservedNames =
-      array(
-      'abstract', 'and', 'array', 'as', 'break', 'case'
-      , 'catch', 'function', 'class', 'clone'
-      , 'const', 'continue', 'declare', 'default', 'do'
-      , 'else', 'elseif', 'enddeclare', 'endfor'
-      , 'endforeach', 'endif', 'endswitch', 'endwhile', 'extends', 'final'
-      , 'for', 'foreach', 'function', 'global', 'goto', 'if'
-      , 'implements', 'interface'
-      , 'instanceof', 'namespace', 'new', 'old_function'
-      , 'or', 'private', 'protected', 'public', 'static'
-      , 'switch', 'throw', 'try', 'use', 'var', 'while', 'xor'
+        array(
+        'abstract', 'and', 'array', 'as', 'break', 'case'
+        , 'catch', 'function', 'class', 'clone'
+        , 'const', 'continue', 'declare', 'default', 'do'
+        , 'else', 'elseif', 'enddeclare', 'endfor'
+        , 'endforeach', 'endif', 'endswitch', 'endwhile', 'extends', 'final'
+        , 'for', 'foreach', 'function', 'global', 'goto', 'if'
+        , 'implements', 'interface'
+        , 'instanceof', 'namespace', 'new', 'old_function'
+        , 'or', 'private', 'protected', 'public', 'static'
+        , 'switch', 'throw', 'try', 'use', 'var', 'while', 'xor'
     );
 
     /**
@@ -473,16 +426,14 @@ class ClassesBuilder extends Command
     {
         $values = preg_split('/\\ |-|_|\\#/', ltrim($name, '0123456789'));
 
-        foreach ($values as $key => $value)
-        {
+        foreach ($values as $key => $value) {
 
             $values[$key] = ucfirst($value);
         }
 
         $retval = implode('', $values);
 
-        if (in_array(strtolower($retval), static::$reservedNames))
-        {
+        if (in_array(strtolower($retval), static::$reservedNames)) {
             $retval = $retval . '0';
         }
 
@@ -493,12 +444,10 @@ class ClassesBuilder extends Command
     {
         $values = explode('\\', $namespace);
 
-        foreach ($values as $key => $value)
-        {
+        foreach ($values as $key => $value) {
             $values[$key] = ucfirst(self::generateClassname($value));
         }
 
         return implode('\\', $values);
     }
-
 }

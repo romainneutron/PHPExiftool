@@ -13,11 +13,9 @@ namespace PHPExiftool;
 
 class InformationDumper extends Exiftool
 {
-
     /**
      * For use with list option
      */
-
     const LISTTYPE_WRITABLE          = 'w';
     /**
      * For use with list option
@@ -51,17 +49,15 @@ class InformationDumper extends Exiftool
     public function listDatas($type = self::LISTTYPE_SUPPORTED_XML)
     {
         $available = array(
-          self::LISTTYPE_WRITABLE, self::LISTTYPE_SUPPORTED_FILEEXT
-          , self::LISTTYPE_WRITABLE_FILEEXT, self::LISTTYPE_SUPPORTED_XML
-          , self::LISTTYPE_DELETABLE_GROUPS, self::LISTTYPE_GROUPS,
+            self::LISTTYPE_WRITABLE, self::LISTTYPE_SUPPORTED_FILEEXT
+            , self::LISTTYPE_WRITABLE_FILEEXT, self::LISTTYPE_SUPPORTED_XML
+            , self::LISTTYPE_DELETABLE_GROUPS, self::LISTTYPE_GROUPS,
         );
 
-        if ( ! in_array($type, $available))
-        {
+        if ( ! in_array($type, $available)) {
             throw new \PHPExiftool\Exception\InvalidArgumentException('Unknown list attribute');
         }
 
         return static::executeCommand(self::getBinary() . ' -f -list' . $type);
     }
-
 }

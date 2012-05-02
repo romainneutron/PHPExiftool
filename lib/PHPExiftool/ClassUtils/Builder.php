@@ -34,8 +34,7 @@ class Builder
 
     public function __construct($namespace, $classname, array $properties, $extends = null)
     {
-        foreach (explode('\\', $namespace) as $piece)
-        {
+        foreach (explode('\\', $namespace) as $piece) {
             if ( ! $this->checkPHPVarName($piece))
                 throw new \Exception(sprintf('Invalid namespace %s', $namespace));
         }
@@ -63,8 +62,8 @@ class Builder
     public function getPathfile()
     {
         return __DIR__ . '/../../'
-          . str_replace('\\', '/', $this->namespace) . "/"
-          . $this->classname . '.php';
+            . str_replace('\\', '/', $this->namespace) . "/"
+            . $this->classname . '.php';
     }
 
     public function write($force = false)
@@ -73,8 +72,7 @@ class Builder
 
         $content .= "class <classname>";
 
-        if ($this->extends)
-        {
+        if ($this->extends) {
             $content .= " extends <extends>";
         }
 
@@ -86,15 +84,14 @@ class Builder
 
         $pathfile = $this->getPathfile();
 
-        if ( ! is_dir(dirname($pathfile)))
-        {
+        if ( ! is_dir(dirname($pathfile))) {
             mkdir(dirname($pathfile), 0754, true);
         }
 
         $content = str_replace(
-          array('<license>', '<namespace>', '<classname>', '<spaces>', '<extends>')
-          , array($this->license, $this->namespace, $this->classname, '    ', $this->extends)
-          , $content
+            array('<license>', '<namespace>', '<classname>', '<spaces>', '<extends>')
+            , array($this->license, $this->namespace, $this->classname, '    ', $this->extends)
+            , $content
         );
 
         if ( ! $force && file_exists($pathfile))
@@ -109,31 +106,22 @@ class Builder
     {
         $buffer = "";
 
-        foreach ($properties as $key => $value)
-        {
-            if (is_array($value))
-            {
+        foreach ($properties as $key => $value) {
+            if (is_array($value)) {
                 $val = "array(\n" . $this->generateClassProperties($value, $depth + 1);
 
-                for ($i = 0; $i != $depth; $i ++ )
-                {
+                for ($i = 0; $i != $depth; $i ++ ) {
                     $val .= "<spaces>";
                 }
 
                 $val .= "<spaces>)";
-            }
-            else
-            {
+            } else {
                 $val = $this->quote($value);
             }
-            if ($depth == 0)
-            {
+            if ($depth == 0) {
                 $buffer .= "\n<spaces>protected \$$key = $val;\n";
-            }
-            else
-            {
-                for ($i = 0; $i != $depth; $i ++ )
-                {
+            } else {
+                for ($i = 0; $i != $depth; $i ++ ) {
                     $buffer .= "<spaces>";
                 }
                 $buffer .= "<spaces>" . $this->quote($key) . " => " . $val . ",\n";
@@ -151,16 +139,13 @@ class Builder
     protected function quote($value)
     {
 
-        if (ctype_digit(trim($value)))
-        {
+        if (ctype_digit(trim($value))) {
             return $value;
         }
-        if (in_array(strtolower($value), array('true', 'false')))
-        {
+        if (in_array(strtolower($value), array('true', 'false'))) {
             return $value;
         }
 
         return "'" . str_replace('\'', '\\\'', $value) . "'";
     }
-
 }

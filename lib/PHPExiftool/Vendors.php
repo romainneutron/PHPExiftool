@@ -29,23 +29,19 @@ class Vendors
 
         $iterator = new \RecursiveDirectoryIterator(__DIR__ . '/../../lib/vendor/');
 
-        foreach ($iterator as $file)
-        {
+        foreach ($iterator as $file) {
             /* @var $file SplFileInfo */
-            if ($file->isDir())
-            {
+            if ($file->isDir()) {
                 $cmd = sprintf(
-                  'cd %s && git submodule init && git submodule update'
-                  , escapeshellarg($file->getPathname())
+                    'cd %s && git submodule init && git submodule update'
+                    , escapeshellarg($file->getPathname())
                 );
                 system($cmd);
             }
         }
 
-        if(function_exists('chmod'))
-        {
+        if (function_exists('chmod')) {
             chmod(__DIR__ . '/../vendor/Exiftool/exiftool', 0750);
         }
     }
-
 }

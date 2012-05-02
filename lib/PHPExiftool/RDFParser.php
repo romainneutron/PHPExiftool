@@ -20,11 +20,9 @@ use \Doctrine\Common\Collections\ArrayCollection;
  */
 class RDFParser
 {
-
     /**
      * RDF Namespace
      */
-
     const RDF_NAMESPACE = 'http://www.w3.org/1999/02/22-rdf-syntax-ns#';
 
     protected $XML;
@@ -32,7 +30,7 @@ class RDFParser
     protected $DOMXpath;
     protected $registeredPrefixes;
     protected $namespacesRedirection = array(
-      'CIFF' => array('Canon', 'CanonRaw')
+        'CIFF' => array('Canon', 'CanonRaw')
     );
 
     /**
@@ -77,8 +75,7 @@ class RDFParser
          */
         $Entities = new ArrayCollection();
 
-        foreach ($this->getDomXpath()->query('/rdf:RDF/rdf:Description') as $node)
-        {
+        foreach ($this->getDomXpath()->query('/rdf:RDF/rdf:Description') as $node) {
             /**
              * Let's create a DOMDocument containing a single RDF result
              */
@@ -117,16 +114,12 @@ class RDFParser
 
         $metadatas = new Driver\Metadata\MetadataBag();
 
-        foreach ($nodes as $node)
-        {
+        foreach ($nodes as $node) {
             $tagname = $this->normalize($node->nodeName);
 
-            try
-            {
+            try {
                 $tag = Driver\TagFactory::getFromRDFTagname($tagname);
-            }
-            catch (Exception\TagUnknown $e)
-            {
+            } catch (Exception\TagUnknown $e) {
                 continue;
             }
 
@@ -152,15 +145,13 @@ class RDFParser
 
         $DomXpath = $this->getDomXpath();
 
-        if ( ! in_array($QueryParts[0], $this->registeredPrefixes))
-        {
+        if ( ! in_array($QueryParts[0], $this->registeredPrefixes)) {
             return null;
         }
 
         $nodes = $DomXpath->query('/rdf:RDF/rdf:Description/' . $query);
 
-        if ($nodes instanceof \DOMNodeList && $nodes->length > 0)
-        {
+        if ($nodes instanceof \DOMNodeList && $nodes->length > 0) {
             return $this->readNodeValue($nodes->item(0));
         }
 
@@ -175,19 +166,15 @@ class RDFParser
      */
     protected function normalize($tagname)
     {
-        foreach ($this->namespacesRedirection as $from => $to)
-        {
-            if (strpos($tagname, $from . ':') !== 0)
-            {
+        foreach ($this->namespacesRedirection as $from => $to) {
+            if (strpos($tagname, $from . ':') !== 0) {
                 continue;
             }
 
-            foreach ((array) $to as $substit)
-            {
+            foreach ((array) $to as $substit) {
                 $supposedTagname = str_replace($from . ':', $substit . ':', $tagname);
 
-                if (Driver\TagFactory::hasFromRDFTagname($supposedTagname))
-                {
+                if (Driver\TagFactory::hasFromRDFTagname($supposedTagname)) {
                     return $supposedTagname;
 
                     break;
@@ -214,8 +201,7 @@ class RDFParser
 
         preg_match_all($pattern, $XML, $matches, PREG_PATTERN_ORDER, 0);
 
-        foreach ($matches[2] as $key => $value)
-        {
+        foreach ($matches[2] as $key => $value) {
             $namespaces[$matches[1][$key]] = $value;
         }
 
@@ -233,48 +219,32 @@ class RDFParser
     {
         $nodeName = $this->normalize($node->nodeName);
 
-        if (is_null($tag) && Driver\TagFactory::hasFromRDFTagname($nodeName))
-        {
+        if (is_null($tag) && Driver\TagFactory::hasFromRDFTagname($nodeName)) {
             $tag = Driver\TagFactory::getFromRDFTagname($nodeName);
         }
 
-        if ($node->getElementsByTagNameNS(self::RDF_NAMESPACE, 'Bag')->length > 0)
-        {
+        if ($node->getElementsByTagNameNS(self::RDF_NAMESPACE, 'Bag')->length > 0) {
             $ret = array();
 
-            foreach ($node->getElementsByTagNameNS(self::RDF_NAMESPACE, 'li') as $nodeElement)
-            {
+            foreach ($node->getElementsByTagNameNS(self::RDF_NAMESPACE, 'li') as $nodeElement) {
                 $ret[] = $nodeElement->nodeValue;
             }
 
-            if (is_null($tag) || $tag->isMulti())
-            {
+            if (is_null($tag) || $tag->isMulti()) {
                 return new Driver\Value\Multi($ret);
-            }
-            else
-            {
+            } else {
                 return new Driver\Value\Mono(implode(' ', $ret));
             }
-        }
-        elseif ($node->getAttribute('rdf:datatype') === 'http://www.w3.org/2001/XMLSchema#base64Binary')
-        {
-            if (is_null($tag) || $tag->isBinary())
-            {
+        } elseif ($node->getAttribute('rdf:datatype') === 'http://www.w3.org/2001/XMLSchema#base64Binary') {
+            if (is_null($tag) || $tag->isBinary()) {
                 return Driver\Value\Binary::loadFromBase64($node->nodeValue);
-            }
-            else
-            {
+            } else {
                 return new Driver\Value\Mono(base64_decode($node->nodeValue));
             }
-        }
-        else
-        {
-            if ( ! is_null($tag) && $tag->isMulti())
-            {
+        } else {
+            if ( ! is_null($tag) && $tag->isMulti()) {
                 return new Driver\Value\Multi($node->nodeValue);
-            }
-            else
-            {
+            } else {
                 return new Driver\Value\Mono($node->nodeValue);
             }
         }
@@ -289,13 +259,11 @@ class RDFParser
      */
     protected function getDom()
     {
-        if ( ! $this->XML)
-        {
+        if ( ! $this->XML) {
             throw new Exception\LogicException('You must open an XML first');
         }
 
-        if ( ! $this->DOM)
-        {
+        if ( ! $this->DOM) {
 
             $this->DOM = new \DOMDocument;
 
@@ -303,8 +271,7 @@ class RDFParser
              * We shut up the warning to exclude an exception in case Warnings are
              * transformed in exception
              */
-            if ( ! @$this->DOM->loadXML($this->XML))
-            {
+            if ( ! @$this->DOM->loadXML($this->XML)) {
                 throw new Exception\ParseError('Unable to load XML');
             }
         }
@@ -320,21 +287,16 @@ class RDFParser
      */
     protected function getDomXpath()
     {
-        if ( ! $this->DOMXpath)
-        {
-            try
-            {
+        if ( ! $this->DOMXpath) {
+            try {
                 $this->DOMXpath = new \DOMXPath($this->getDom());
-            }
-            catch (Exception\ParseError $e)
-            {
+            } catch (Exception\ParseError $e) {
                 throw new Exception\RuntimeException('Unable to parse the XML');
             }
 
             $this->DOMXpath->registerNamespace('rdf', self::RDF_NAMESPACE);
 
-            foreach (static::getNamespacesFromXml($this->getDom()) as $prefix => $uri)
-            {
+            foreach (static::getNamespacesFromXml($this->getDom()) as $prefix => $uri) {
                 $this->registeredPrefixes = array_merge($this->registeredPrefixes, (array) $prefix);
                 $this->DOMXpath->registerNamespace($prefix, $uri);
             }
@@ -342,5 +304,4 @@ class RDFParser
 
         return $this->DOMXpath;
     }
-
 }
