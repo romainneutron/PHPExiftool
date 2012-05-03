@@ -57,9 +57,9 @@ abstract class Exiftool
     protected static function getBinary()
     {
         if (defined('PHP_WINDOWS_VERSION_BUILD')) {
-            return realpath(__DIR__ . '\..\..\lib\vendor\Exiftool\exiftool.exe');
+            return realpath(__DIR__ . '\..\..\vendor\phpexiftool\exiftool\exiftool.exe');
         } else {
-            return realpath(__DIR__ . '/../../lib/vendor/Exiftool/exiftool');
+            return realpath(__DIR__ . '/../../vendor/phpexiftool/exiftool/exiftool');
         }
     }
 }
