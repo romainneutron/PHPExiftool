@@ -56,10 +56,18 @@ abstract class Exiftool
      */
     protected static function getBinary()
     {
-        if (defined('PHP_WINDOWS_VERSION_BUILD')) {
-            return realpath(__DIR__ . '\..\..\vendor\phpexiftool\exiftool\exiftool.exe');
-        } else {
-            return realpath(__DIR__ . '/../../vendor/phpexiftool/exiftool/exiftool');
+        $dev = __DIR__ . '/../../vendor/phpexiftool/exiftool/exiftool';
+        $packaged = __DIR__ . '/../../../../phpexiftool/exiftool/exiftool';
+
+        foreach (array($packaged, $dev) as $location) {
+
+            if (defined('PHP_WINDOWS_VERSION_BUILD')) {
+                $location .= '.exe';
+            }
+
+            if (is_executable($location)) {
+                return realpath($location);
+            }
         }
     }
 }
