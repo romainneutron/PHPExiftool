@@ -26,7 +26,6 @@ class TagTest extends \PHPUnit_Framework_TestCase
         $finder = new \Symfony\Component\Finder\Finder();
         $finder->files()->in(array(__DIR__ . '/../../../../lib/PHPExiftool/Driver/Tag/'));
 
-        $n = 0;
         foreach ($finder as $file)
         {
             $classname = substr(
