@@ -1,3 +1,0 @@
-[submodule "lib/vendor/Exiftool"]
-	path = lib/vendor/Exiftool
-	url = git://github.com/alchemy-fr/exiftool.git
