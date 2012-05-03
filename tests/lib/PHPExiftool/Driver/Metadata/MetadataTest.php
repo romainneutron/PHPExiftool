@@ -18,7 +18,7 @@ class MetadataTest extends \PHPUnit_Framework_TestCase
     protected function setUp()
     {
         $this->tag = new TagTest();
-        $this->value = 'valeur';
+        $this->value = new \PHPExiftool\Driver\Value\Mono('valeur');
         $this->object = new Metadata(new TagTest, $this->value, new \SplFileInfo(__FILE__));
     }
 
