@@ -13,13 +13,11 @@ namespace PHPExiftool\Driver\Value;
 
 class Multi implements Value
 {
-
     protected $value = array();
 
     public function __construct($value = null)
     {
-        if ($value)
-        {
+        if ($value) {
             $this->addValue($value);
         }
     }
@@ -29,14 +27,16 @@ class Multi implements Value
         return self::TYPE_MULTI;
     }
 
-    public function getValue()
-    {
-        return $this->value;
-    }
-
     public function addValue($value)
     {
         $this->value = array_merge($this->value, (array) $value);
+
+        return $this;
+    }
+
+    public function set($value)
+    {
+        $this->value = (array) $value;
 
         return $this;
     }
@@ -53,9 +53,18 @@ class Multi implements Value
         return implode($separator, $this->value);
     }
 
-    public function __toString()
+    public function asString()
     {
         return $this->serialize();
     }
 
+    public function asArray()
+    {
+        return $this->value;
+    }
+
+    public function __toString()
+    {
+        return $this->serialize();
+    }
 }

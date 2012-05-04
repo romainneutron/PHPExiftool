@@ -15,12 +15,11 @@ use PHPExiftool\Exception;
 
 class Binary implements Value
 {
-
     protected $value;
 
     public function __construct($value)
     {
-        $this->setValue($value);
+        $this->set($value);
     }
 
     public function getType()
@@ -28,17 +27,22 @@ class Binary implements Value
         return self::TYPE_BINARY;
     }
 
-    public function getValue()
+    public function asString()
     {
         return $this->value;
     }
 
-    public function getValueAsBase64()
+    public function asArray()
+    {
+        return (array) $this->value;
+    }
+
+    public function asBase64()
     {
         return base64_encode($this->value);
     }
 
-    public function setValue($value)
+    public function set($value)
     {
         $this->value = $value;
 
@@ -47,8 +51,7 @@ class Binary implements Value
 
     public function setBase64Value($base64Value)
     {
-        if (false === $value = base64_decode($base64Value, true))
-        {
+        if (false === $value = base64_decode($base64Value, true)) {
             throw new Exception\InvalidArgumentException('The value should be base64 encoded');
         }
 
@@ -59,12 +62,10 @@ class Binary implements Value
 
     public static function loadFromBase64($base64Value)
     {
-        if (false === $value = base64_decode($base64Value, true))
-        {
+        if (false === $value = base64_decode($base64Value, true)) {
             throw new Exception\InvalidArgumentException('The value should be base64 encoded');
         }
 
         return new static($value);
     }
-
 }

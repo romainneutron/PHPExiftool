@@ -27,28 +27,28 @@ class BinaryTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
-     * @covers PHPExiftool\Driver\Value\Binary::getValue
+     * @covers PHPExiftool\Driver\Value\Binary::asString
      */
-    public function testGetValue()
+    public function testAsString()
     {
-        $this->assertEquals('Binary', $this->object->getValue());
+        $this->assertEquals('Binary', $this->object->asString());
     }
 
     /**
-     * @covers PHPExiftool\Driver\Value\Binary::getValueAsBase64
+     * @covers PHPExiftool\Driver\Value\Binary::asBase64
      */
-    public function testGetValueAsBase64()
+    public function testAsBase64()
     {
-        $this->assertEquals(base64_encode('Binary'), $this->object->getValueAsBase64());
+        $this->assertEquals(base64_encode('Binary'), $this->object->asBase64());
     }
 
     /**
-     * @covers PHPExiftool\Driver\Value\Binary::setValue
+     * @covers PHPExiftool\Driver\Value\Binary::set
      */
     public function testSetValue()
     {
-        $this->object->setValue('Daisy');
-        $this->assertEquals('Daisy', $this->object->getValue());
+        $this->object->set('Daisy');
+        $this->assertEquals('Daisy', $this->object->asString());
     }
 
     /**
@@ -57,7 +57,7 @@ class BinaryTest extends \PHPUnit_Framework_TestCase
     public function testSetBase64Value()
     {
         $this->object->setBase64Value('UmlyaSBGaWZpIGV0IExvdWxvdQ==');
-        $this->assertEquals('Riri Fifi et Loulou', $this->object->getValue());
+        $this->assertEquals('Riri Fifi et Loulou', $this->object->asString());
     }
 
     /**
@@ -76,8 +76,8 @@ class BinaryTest extends \PHPUnit_Framework_TestCase
     public function testLoadFromBase64()
     {
         $object = Binary::loadFromBase64('VW5jbGUgU2Nyb29nZQ==');
-        $this->assertEquals('Uncle Scrooge', $object->getValue());
-        $this->assertEquals('VW5jbGUgU2Nyb29nZQ==', $object->getValueAsBase64());
+        $this->assertEquals('Uncle Scrooge', $object->asString());
+        $this->assertEquals('VW5jbGUgU2Nyb29nZQ==', $object->asBase64());
     }
 
     /**

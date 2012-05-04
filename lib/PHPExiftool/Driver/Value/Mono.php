@@ -13,12 +13,11 @@ namespace PHPExiftool\Driver\Value;
 
 class Mono implements Value
 {
-
     protected $value;
 
     public function __construct($value)
     {
-        $this->setValue($value);
+        $this->set($value);
     }
 
     public function getType()
@@ -26,21 +25,25 @@ class Mono implements Value
         return self::TYPE_MONO;
     }
 
-    public function getValue()
+    public function set($value)
     {
-        return $this->value;
-    }
-
-    public function setValue($value)
-    {
-        $this->value = $value;
+        $this->value = (string) $value;
 
         return $this;
     }
 
-    public function __toString()
+    public function asString()
     {
-        return $this->getValue();
+        return $this->value;
     }
 
+    public function asArray()
+    {
+        return (array) $this->value;
+    }
+
+    public function __toString()
+    {
+        return $this->value;
+    }
 }

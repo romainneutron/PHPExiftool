@@ -138,8 +138,8 @@ class WriterTest extends \PHPUnit_Framework_TestCase
 
         $this->assertGreaterThan(200, count($metadatasRead));
 
-        $this->assertEquals('Beautiful Object', $metadatasRead->get('IPTC:ObjectName')->getValue());
-        $this->assertEquals(array('Romain', 'Nicolas'), $metadatasRead->get('XMP-iptcExt:PersonInImage')->getValue()->getValue());
+        $this->assertEquals('Beautiful Object', $metadatasRead->get('IPTC:ObjectName')->getValue()->asString());
+        $this->assertEquals(array('Romain', 'Nicolas'), $metadatasRead->get('XMP-iptcExt:PersonInImage')->getValue()->asArray());
     }
 
     /**
@@ -161,8 +161,8 @@ class WriterTest extends \PHPUnit_Framework_TestCase
 
         $this->assertGreaterThan(200, count($metadatasRead));
 
-        $this->assertEquals('Beautiful Object', $metadatasRead->get('IPTC:ObjectName')->getValue());
-        $this->assertEquals(array('Romain', 'Nicolas'), $metadatasRead->get('XMP-iptcExt:PersonInImage')->getValue()->getValue());
+        $this->assertEquals('Beautiful Object', $metadatasRead->get('IPTC:ObjectName')->getValue()->asString());
+        $this->assertEquals(array('Romain', 'Nicolas'), $metadatasRead->get('XMP-iptcExt:PersonInImage')->getValue()->asArray());
     }
 
     /**
@@ -185,8 +185,8 @@ class WriterTest extends \PHPUnit_Framework_TestCase
 
         $this->assertLessThan(30, count($metadatasRead));
 
-        $this->assertEquals('Beautiful Object', $metadatasRead->get('IPTC:ObjectName')->getValue());
-        $this->assertEquals(array('Romain', 'Nicolas'), $metadatasRead->get('XMP-iptcExt:PersonInImage')->getValue()->getValue());
+        $this->assertEquals('Beautiful Object', $metadatasRead->get('IPTC:ObjectName')->getValue()->asString());
+        $this->assertEquals(array('Romain', 'Nicolas'), $metadatasRead->get('XMP-iptcExt:PersonInImage')->getValue()->asArray());
     }
 
     /**

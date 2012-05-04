@@ -237,7 +237,7 @@ class Writer extends Exiftool
         }
 
         foreach ($metadatas as $metadata) {
-            foreach ((array) $metadata->getValue()->getValue() as $value) {
+            foreach ($metadata->getValue()->asArray() as $value) {
                 $command .= ' -' . $metadata->getTag()->getTagname() . '='
                     . escapeshellarg($value);
             }

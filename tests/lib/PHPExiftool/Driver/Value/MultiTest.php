@@ -27,11 +27,11 @@ class MultiTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
-     * @covers PHPExiftool\Driver\Value\Multi::getValue
+     * @covers PHPExiftool\Driver\Value\Multi::asArray
      */
-    public function testGetValue()
+    public function testAsArray()
     {
-        $this->assertEquals(array('hello', 'world !'), $this->object->getValue());
+        $this->assertEquals(array('hello', 'world !'), $this->object->asArray());
     }
 
     /**
@@ -40,7 +40,7 @@ class MultiTest extends \PHPUnit_Framework_TestCase
     public function testAddValue()
     {
         $this->object->addValue('tim');
-        $this->assertEquals(array('hello', 'world !', 'tim'), $this->object->getValue());
+        $this->assertEquals(array('hello', 'world !', 'tim'), $this->object->asArray());
     }
 
     /**
@@ -49,7 +49,7 @@ class MultiTest extends \PHPUnit_Framework_TestCase
     public function testReset()
     {
         $this->object->reset();
-        $this->assertEquals(array(), $this->object->getValue());
+        $this->assertEquals(array(), $this->object->asArray());
     }
 
 }

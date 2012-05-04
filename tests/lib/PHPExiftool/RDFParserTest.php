@@ -123,9 +123,9 @@ class RDFParserTest extends \PHPUnit_Framework_TestCase
         $this->assertInstanceOf('\\PHPExiftool\\Driver\\Value\\Binary', $metadata_base64);
         $this->assertInstanceOf('\\PHPExiftool\\Driver\\Value\\Multi', $metadata_multi);
 
-        $this->assertEquals('Hello World !', $metadata_simple->getValue());
-        $this->assertEquals('Hello base64 !', $metadata_base64->getValue());
-        $this->assertEquals(array('romain', 'neutron'), $metadata_multi->getValue());
+        $this->assertEquals('Hello World !', $metadata_simple->asString());
+        $this->assertEquals('Hello base64 !', $metadata_base64->asString());
+        $this->assertEquals(array('romain', 'neutron'), $metadata_multi->asArray());
     }
 
 }

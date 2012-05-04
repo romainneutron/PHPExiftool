@@ -27,20 +27,20 @@ class MonoTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
-     * @covers PHPExiftool\Driver\Value\Mono::getValue
+     * @covers PHPExiftool\Driver\Value\Mono::asString
      */
-    public function testGetValue()
+    public function testAsString()
     {
-        $this->assertEquals('Hello !', $this->object->getValue());
+        $this->assertEquals('Hello !', $this->object->asString());
     }
 
     /**
-     * @covers PHPExiftool\Driver\Value\Mono::setValue
+     * @covers PHPExiftool\Driver\Value\Mono::set
      */
     public function testSetValue()
     {
-        $this->object->setValue('World !');
-        $this->assertEquals('World !', $this->object->getValue());
+        $this->object->set('World !');
+        $this->assertEquals('World !', $this->object->asString());
     }
 
 }
