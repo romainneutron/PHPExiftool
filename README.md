@@ -44,3 +44,24 @@ foreach ($Reader as $MetaDatas)
     }
 }
 ```
+
+##Exiftool Writer
+
+Exiftool Writer provides natural syntx to write metadatas in files :
+
+```php
+<?php
+
+use PHPExiftool\Writer;
+use PHPExiftool\Driver\Metadata;
+use PHPExiftool\Driver\MetadataBag;
+use PHPExiftool\Driver\Tag;
+use PHPExiftool\Driver\Value;
+
+$Writer = new Writer();
+
+$bag = new MetadataBag();
+$bag->add(new Metadata(Tag\IPTC\ObjectName(), new Value\Mono('Subject')));
+
+$Writer->write('image.jpg', $bag);
+```
