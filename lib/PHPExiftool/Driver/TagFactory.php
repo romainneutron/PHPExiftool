@@ -48,6 +48,8 @@ class TagFactory
 
     protected static function classnameFromTagname($tagname)
     {
+        $tagname = str_replace('/rdf:RDF/rdf:Description/', '', $tagname);
+
         $classname = '\PHPExiftool\Driver\Tag\\' . str_replace(':', '\\', $tagname);
 
         return ClassesBuilder::generateNamespace($classname);
