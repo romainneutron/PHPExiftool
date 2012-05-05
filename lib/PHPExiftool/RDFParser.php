@@ -29,9 +29,11 @@ class RDFParser
     protected $DOM;
     protected $DOMXpath;
     protected $registeredPrefixes;
-    protected $namespacesRedirection = array(
-        'CIFF' => array('Canon', 'CanonRaw')
-    );
+
+    public function __destruct()
+    {
+        $this->close();
+    }
 
     /**
      * Opens an XML file for parsing
@@ -166,7 +168,11 @@ class RDFParser
      */
     protected function normalize($tagname)
     {
-        foreach ($this->namespacesRedirection as $from => $to) {
+        static $namespacesRedirection = array(
+        'CIFF' => array('Canon', 'CanonRaw'),
+        );
+
+        foreach ($namespacesRedirection as $from => $to) {
             if (strpos($tagname, $from . ':') !== 0) {
                 continue;
             }
