@@ -4,7 +4,6 @@ namespace PHPExiftool\Driver\Value;
 
 class MultiTest extends \PHPUnit_Framework_TestCase
 {
-
     /**
      * @var Multi
      */
@@ -51,5 +50,4 @@ class MultiTest extends \PHPUnit_Framework_TestCase
         $this->object->reset();
         $this->assertEquals(array(), $this->object->asArray());
     }
-
 }

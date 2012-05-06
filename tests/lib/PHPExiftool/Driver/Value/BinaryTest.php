@@ -4,7 +4,6 @@ namespace PHPExiftool\Driver\Value;
 
 class BinaryTest extends \PHPUnit_Framework_TestCase
 {
-
     /**
      * @var Binary
      */
@@ -89,5 +88,4 @@ class BinaryTest extends \PHPUnit_Framework_TestCase
     {
         $object = Binary::loadFromBase64('Uncle Scrooge !!!');
     }
-
 }

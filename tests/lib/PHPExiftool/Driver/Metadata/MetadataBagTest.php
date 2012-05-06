@@ -4,7 +4,6 @@ namespace PHPExiftool\Driver\Metadata;
 
 class MetadataBagTest extends \PHPUnit_Framework_TestCase
 {
-
     /**
      * @var MetadataBag
      */
@@ -26,5 +25,4 @@ class MetadataBagTest extends \PHPUnit_Framework_TestCase
 
         $this->assertEquals(2, count($this->object->filterKeysByRegExp('/one.*/')));
     }
-
 }

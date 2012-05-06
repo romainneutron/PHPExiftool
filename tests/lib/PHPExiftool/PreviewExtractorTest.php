@@ -20,13 +20,11 @@ class PreviewExtractorTest extends \PHPUnit_Framework_TestCase
 
         $this->assertInstanceOf('\\DirectoryIterator', $files);
 
-        $n       = 0;
+        $n = 0;
         $unlinks = array();
 
-        foreach ($files as $file)
-        {
-            if ($file->isDot() || $file->isDir())
-            {
+        foreach ($files as $file) {
+            if ($file->isDot() || $file->isDir()) {
                 continue;
             }
 
@@ -34,8 +32,7 @@ class PreviewExtractorTest extends \PHPUnit_Framework_TestCase
             $n ++;
         }
 
-        foreach ($unlinks as $u)
-        {
+        foreach ($unlinks as $u) {
             unlink($u);
         }
 
@@ -65,5 +62,4 @@ class PreviewExtractorTest extends \PHPUnit_Framework_TestCase
 
         $extractor->extract(__DIR__ . '/../../files/ExifTool.jpg', $tmpDir);
     }
-
 }

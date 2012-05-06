@@ -4,7 +4,6 @@ namespace PHPExiftool;
 
 class FileEntityTest extends \PHPUnit_Framework_TestCase
 {
-
     /**
      * @var FileEntity
      */
@@ -59,5 +58,4 @@ class FileEntityTest extends \PHPUnit_Framework_TestCase
         $this->assertInstanceOf('\\PHPExiftool\\Driver\\Value\\Multi', $this->object->executeQuery('XMP-dc:Subject'));
         $this->assertEquals(array('ExifTool', 'Test', 'XMP'), $this->object->executeQuery('XMP-dc:Subject')->asArray());
     }
-
 }

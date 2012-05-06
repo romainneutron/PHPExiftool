@@ -4,7 +4,6 @@ namespace PHPExiftool\Driver;
 
 class TagTest extends \PHPUnit_Framework_TestCase
 {
-
     /**
      * @var Tag
      */
@@ -26,14 +25,13 @@ class TagTest extends \PHPUnit_Framework_TestCase
         $finder = new \Symfony\Component\Finder\Finder();
         $finder->files()->in(array(__DIR__ . '/../../../../lib/PHPExiftool/Driver/Tag/'));
 
-        foreach ($finder as $file)
-        {
+        foreach ($finder as $file) {
             $classname = substr(
-              str_replace(
-                array(realpath(__DIR__ . '/../../../../lib'), '/')
-                , array('', '\\')
-                , $file->getRealPath()
-              ), 0, -4);
+                str_replace(
+                    array(realpath(__DIR__ . '/../../../../lib'), '/')
+                    , array('', '\\')
+                    , $file->getRealPath()
+                ), 0, -4);
 
 
             $tag = new $classname;
@@ -68,5 +66,4 @@ class TagTest extends \PHPUnit_Framework_TestCase
             unset($tag);
         }
     }
-
 }

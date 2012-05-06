@@ -4,7 +4,6 @@ namespace PHPExiftool\Driver;
 
 class TagFactoryTest extends \PHPUnit_Framework_TestCase
 {
-
     /**
      * @var TagFactory
      */
@@ -22,13 +21,10 @@ class TagFactoryTest extends \PHPUnit_Framework_TestCase
         $tag = TagFactory::getFromRDFTagname('XMPExif:ApertureValue');
         $this->assertInstanceOf('\PHPExiftool\Driver\Tag\XMPExif\ApertureValue', $tag);
 
-        try
-        {
+        try {
             $tag = TagFactory::getFromRDFTagname('XMPExif:AnunexistingTag');
             $this->fail('Should raise a TagUnknown exception');
-        }
-        catch (\PHPExiftool\Exception\TagUnknown $e)
-        {
+        } catch (\PHPExiftool\Exception\TagUnknown $e) {
 
         }
     }
@@ -51,5 +47,4 @@ class TagFactoryTest extends \PHPUnit_Framework_TestCase
         $this->assertTrue(TagFactory::hasFromRDFTagname('IPTC:SupplementalCategories'));
         $this->assertFalse(TagFactory::hasFromRDFTagname('XMPExif:AnunexistingTag'));
     }
-
 }

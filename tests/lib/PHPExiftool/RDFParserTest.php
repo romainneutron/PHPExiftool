@@ -4,7 +4,6 @@ namespace PHPExiftool;
 
 class RDFParserTest extends \PHPUnit_Framework_TestCase
 {
-
     /**
      * @var RDFParser
      */
@@ -40,8 +39,8 @@ class RDFParserTest extends \PHPUnit_Framework_TestCase
     public function testParseEntities()
     {
         $entities = $this->object
-          ->open(file_get_contents(__DIR__ . '/../../files/simplefile.xml'))
-          ->parseEntities();
+            ->open(file_get_contents(__DIR__ . '/../../files/simplefile.xml'))
+            ->parseEntities();
 
         $this->assertInstanceOf('\\Doctrine\\Common\\Collections\\ArrayCollection', $entities);
         $this->assertEquals(1, count($entities));
@@ -81,8 +80,8 @@ class RDFParserTest extends \PHPUnit_Framework_TestCase
     public function testParseMetadatas()
     {
         $metadatas = $this->object
-          ->open(file_get_contents(__DIR__ . '/../../files/ExifTool.xml'))
-          ->ParseMetadatas();
+            ->open(file_get_contents(__DIR__ . '/../../files/ExifTool.xml'))
+            ->ParseMetadatas();
 
         $this->assertInstanceOf('\\PHPExiftool\\Driver\\Metadata\\MetadataBag', $metadatas);
         $this->assertEquals(348, count($metadatas));
@@ -112,9 +111,9 @@ class RDFParserTest extends \PHPUnit_Framework_TestCase
 
         $metadata_simple = $this->object->Query('NeutronSpace:SpecialRomain');
         $metadata_base64 = $this->object->Query('NeutronSpace:SpecialRomainbase64');
-        $metadata_multi  = $this->object->Query('NeutronSpace:Multi');
-        $null_datas      = $this->object->Query('NeutronSpace:NoData');
-        $null_datas_2    = $this->object->Query('NamespaceUnknown:NoData');
+        $metadata_multi = $this->object->Query('NeutronSpace:Multi');
+        $null_datas = $this->object->Query('NeutronSpace:NoData');
+        $null_datas_2 = $this->object->Query('NamespaceUnknown:NoData');
 
         $this->assertNull($null_datas);
         $this->assertNull($null_datas_2);
@@ -127,5 +126,4 @@ class RDFParserTest extends \PHPUnit_Framework_TestCase
         $this->assertEquals('Hello base64 !', $metadata_base64->asString());
         $this->assertEquals(array('romain', 'neutron'), $metadata_multi->asArray());
     }
-
 }

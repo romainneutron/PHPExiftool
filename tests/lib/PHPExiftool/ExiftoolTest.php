@@ -33,7 +33,6 @@ class ExiftoolTest extends \PHPUnit_Framework_TestCase
         $command = ExiftoolTester::getBinaryTester() . ' -version';
         ExiftoolTester::executeCommandTester($command);
     }
-
 }
 
 class ExiftoolTester extends Exiftool
@@ -48,6 +47,5 @@ class ExiftoolTester extends Exiftool
     {
         return self::executeCommand($command);
     }
-
 }
 

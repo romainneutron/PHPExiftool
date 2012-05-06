@@ -4,7 +4,6 @@ namespace PHPExiftool;
 
 class InformationDumperTest extends \PHPUnit_Framework_TestCase
 {
-
     /**
      * @var InformationDumper
      */
@@ -32,5 +31,4 @@ class InformationDumperTest extends \PHPUnit_Framework_TestCase
     {
         $this->object->listDatas('Scrooge');
     }
-
 }

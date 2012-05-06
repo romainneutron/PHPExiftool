@@ -4,7 +4,6 @@ namespace PHPExiftool\Driver\Metadata;
 
 class MetadataTest extends \PHPUnit_Framework_TestCase
 {
-
     /**
      * @var Metadata
      */
@@ -37,7 +36,6 @@ class MetadataTest extends \PHPUnit_Framework_TestCase
     {
         $this->assertEquals($this->object->getValue(), $this->value);
     }
-
 }
 
 class TagTest extends \PHPExiftool\Driver\Tag

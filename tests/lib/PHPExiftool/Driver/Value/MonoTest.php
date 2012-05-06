@@ -4,7 +4,6 @@ namespace PHPExiftool\Driver\Value;
 
 class MonoTest extends \PHPUnit_Framework_TestCase
 {
-
     /**
      * @var Mono
      */
@@ -42,5 +41,4 @@ class MonoTest extends \PHPUnit_Framework_TestCase
         $this->object->set('World !');
         $this->assertEquals('World !', $this->object->asString());
     }
-
 }
