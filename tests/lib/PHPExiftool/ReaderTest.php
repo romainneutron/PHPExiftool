@@ -78,6 +78,14 @@ class ReaderTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
+     * @covers PHPExiftool\Reader::__destruct
+     */
+    protected function tearDown()
+    {
+        $this->object = null;
+    }
+
+    /**
      * @covers PHPExiftool\Reader::getIterator
      */
     public function testGetIterator()
@@ -87,7 +95,8 @@ class ReaderTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
-     * @covers PHPExiftool\Reader::getIterator
+     * @covers PHPExiftool\Reader::append
+     * @covers PHPExiftool\Reader::all
      */
     public function testAppend()
     {
@@ -99,6 +108,30 @@ class ReaderTest extends \PHPUnit_Framework_TestCase
         $reader = new Reader();
         $reader->files(array($file2, $file3));
         $this->assertEquals(3, count($this->object->append($reader)->all()));
+    }
+
+    /**
+     * @covers PHPExiftool\Reader::sort
+     * @covers PHPExiftool\Reader::all
+     */
+    public function testSort()
+    {
+        $file1 = self::$tmpDir . '/hello.exiftool';
+        $file2 = self::$tmpDir . '/hello.world';
+        $file3 = self::$tmpDir . '/dir/newfile.txt';
+
+        $reader = new Reader();
+        $reader->files(array($file3, $file2, $file1));
+        $reader->sort(array('directory', 'filename', 'cigarette'));
+
+        $results = array();
+
+        foreach($reader->all() as $entity)
+        {
+            $results[] = $entity->getFile()->getFilename();
+        }
+
+        $this->assertSame(array('hello.exiftool', 'hello.world', 'newfile.txt'), $results);
     }
 
     /**
@@ -115,12 +148,33 @@ class ReaderTest extends \PHPUnit_Framework_TestCase
         $this->assertEquals(realpath($file), $splfile->getPathname());
     }
 
+    /**
+     * @covers PHPExiftool\Reader::resetResults
+     */
+    public function testResetFilters()
+    {
+        $file = self::$tmpDir . '/hello.exiftool';
+        $this->object->files($file)->all();
+        $file = self::$tmpDir . '/hello.world';
+        $this->object->files($file)->all();
+
+        $this->assertEquals(2, count($this->object->all()));
+    }
+
+    /**
+     * @covers PHPExiftool\Reader::ignoreDotFiles
+     * @covers PHPExiftool\Reader::all
+     */
     public function testIgnoreVCS()
     {
         $this->object->in(self::$tmpDir . '3');
         $this->assertEquals(1, count($this->object->all()));
     }
 
+    /**
+     * @covers PHPExiftool\Reader::ignoreDotFiles
+     * @covers PHPExiftool\Reader::all
+     */
     public function testIgnoreDotFiles()
     {
         $this->object->in(self::$tmpDir . '3');
@@ -133,6 +187,7 @@ class ReaderTest extends \PHPUnit_Framework_TestCase
     /**
      * @covers PHPExiftool\Reader::in
      * @covers PHPExiftool\Reader::buildQuery
+     * @covers PHPExiftool\Reader::all
      */
     public function testIn()
     {
@@ -149,6 +204,7 @@ class ReaderTest extends \PHPUnit_Framework_TestCase
      * @covers PHPExiftool\Reader::exclude
      * @covers PHPExiftool\Reader::computeExcludeDirs
      * @covers PHPExiftool\Reader::buildQuery
+     * @covers PHPExiftool\Reader::all
      */
     public function testExclude()
     {
@@ -163,6 +219,7 @@ class ReaderTest extends \PHPUnit_Framework_TestCase
     /**
      * @dataProvider getExclude
      * @covers PHPExiftool\Reader::computeExcludeDirs
+     * @covers PHPExiftool\Reader::all
      */
     public function testComputeExcludeDirs($dir)
     {
