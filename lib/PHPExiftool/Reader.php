@@ -44,8 +44,6 @@ use Doctrine\Common\Collections\ArrayCollection;
  * @todo implement match filter
  * @todo implement sort
  * @todo implement -l
- * @todo implement ignoreDotFiles
- * @todo implement ignoreVCS
  *
  * @author Romain Neutron <imprec@gmail.com>
  */
@@ -56,10 +54,18 @@ class Reader extends Exiftool implements \IteratorAggregate
     protected $excludeDirs = array();
     protected $extensions = array();
     protected $extensionsToggle = null;
-    protected $followSymLinks   = false;
-    protected $recursive        = true;
+    protected $followSymLinks = false;
+    protected $recursive = true;
+    protected $ignoreDotFile = false;
+    protected $sort = array();
     protected $parser;
+
+    /**
+     *
+     * @var \Doctrine\Common\Collections\ArrayCollection
+     */
     protected $collection;
+    protected $readers = array();
 
     /**
      *  Constructor
@@ -67,6 +73,12 @@ class Reader extends Exiftool implements \IteratorAggregate
     public function __construct()
     {
         $this->parser = new RDFParser();
+    }
+
+    public function __destruct()
+    {
+        $this->parser = null;
+        $this->collection = null;
     }
 
     /**
@@ -94,6 +106,7 @@ class Reader extends Exiftool implements \IteratorAggregate
      */
     public function files($files)
     {
+        $this->resetResults();
         $this->files = array_merge($this->files, (array) $files);
 
         return $this;
@@ -114,7 +127,56 @@ class Reader extends Exiftool implements \IteratorAggregate
      */
     public function in($dirs)
     {
+        $this->resetResults();
         $this->dirs = array_merge($this->dirs, (array) $dirs);
+
+        return $this;
+    }
+
+    /**
+     * Append a reader to this one.
+     * Finale result will be the sum of the current reader and all appended ones.
+     *
+     * @param Reader $reader    The reader to append
+     * @return \PHPExiftool\Reader
+     */
+    public function append(Reader $reader)
+    {
+        $this->resetResults();
+        $this->readers[] = $reader;
+
+        return $this;
+    }
+
+    /**
+     * Sort results with one or many criteria
+     *
+     * Example usage:
+     *
+     *      // Will sort by directory then filename
+     *      $Reader ->in('documents')
+     *              ->sort(array('directory', 'filename'))
+     *
+     *      // Will sort by filename
+     *      $Reader ->in('documents')
+     *              ->sort('filename')
+     *
+     * @param string|array $by
+     * @return \PHPExiftool\Reader
+     */
+    public function sort($by)
+    {
+        static $availableSorts = array(
+        'directory', 'filename', 'createdate', 'modifydate', 'filesize'
+        );
+
+        foreach ((array) $by as $sort) {
+
+            if ( ! in_array($sort, $availableSorts)) {
+                continue;
+            }
+            $this->sort[] = $sort;
+        }
 
         return $this;
     }
@@ -142,6 +204,7 @@ class Reader extends Exiftool implements \IteratorAggregate
      */
     public function exclude($dirs)
     {
+        $this->resetResults();
         $this->excludeDirs = array_merge($this->excludeDirs, (array) $dirs);
 
         return $this;
@@ -158,6 +221,8 @@ class Reader extends Exiftool implements \IteratorAggregate
      */
     public function extensions($extensions, $restrict = true)
     {
+        $this->resetResults();
+
         if ( ! is_null($this->extensionsToggle)) {
             if ((boolean) $restrict !== $this->extensionsToggle) {
                 throw new Exception\LogicException('You cannot restrict extensions AND exclude extension at the same time');
@@ -178,7 +243,24 @@ class Reader extends Exiftool implements \IteratorAggregate
      */
     public function followSymLinks()
     {
+        $this->resetResults();
         $this->followSymLinks = true;
+
+        return $this;
+    }
+
+    /**
+     * Ignore files starting with a dot (.)
+     *
+     * Folders starting with a dot are always exluded due to exiftool behaviour.
+     * You should include them manually
+     *
+     * @return \PHPExiftool\Reader
+     */
+    public function ignoreDotFiles()
+    {
+        $this->resetResults();
+        $this->ignoreDotFile = true;
 
         return $this;
     }
@@ -191,6 +273,7 @@ class Reader extends Exiftool implements \IteratorAggregate
      */
     public function notRecursive()
     {
+        $this->resetResults();
         $this->recursive = false;
 
         return $this;
@@ -232,7 +315,31 @@ class Reader extends Exiftool implements \IteratorAggregate
             $this->collection = $this->buildQueryAndExecute();
         }
 
+        if ($this->readers) {
+            $elements = $this->collection->toArray();
+
+            $this->collection = null;
+
+            foreach ($this->readers as $reader) {
+                $elements = array_merge($elements, $reader->all()->toArray());
+            }
+
+            $this->collection = new ArrayCollection($elements);
+        }
+
         return $this->collection;
+    }
+
+    /**
+     * Reset any computed result
+     *
+     * @return \PHPExiftool\Reader
+     */
+    protected function resetResults()
+    {
+        $this->collection = null;
+
+        return $this;
     }
 
     /**
@@ -242,7 +349,19 @@ class Reader extends Exiftool implements \IteratorAggregate
      */
     protected function buildQueryAndExecute()
     {
-        $result = self::executeCommand($this->buildQuery());
+        $result = '';
+
+        try {
+
+            $result = trim(self::executeCommand($this->buildQuery()));
+        } catch (\PHPExiftool\Exception\RuntimeException $e) {
+            /**
+             * In case no file found, an exit code 1 is returned
+             */
+            if ( ! $this->ignoreDotFile) {
+                throw $e;
+            }
+        }
 
         if ($result === '') {
             return new ArrayCollection();
@@ -341,7 +460,7 @@ class Reader extends Exiftool implements \IteratorAggregate
             throw new Exception\LogicException('You have not set any files or directory');
         }
 
-        $command = self::getBinary() . ' -q -b -X -charset UTF8';
+        $command = self::getBinary() . ' -n -q -b -X -charset UTF8';
 
         if ($this->recursive) {
             $command .= ' -r';
@@ -364,6 +483,14 @@ class Reader extends Exiftool implements \IteratorAggregate
 
         if ( ! $this->followSymLinks) {
             $command .= ' -i SYMLINKS';
+        }
+
+        if ( $this->ignoreDotFile) {
+            $command .= " -if '\$filename !~ /^\./'";
+        }
+
+        foreach ($this->sort as $sort) {
+            $command .= ' -fileOrder ' . $sort;
         }
 
         foreach ($this->computeExcludeDirs($this->excludeDirs, $this->dirs) as $excludedDir) {
