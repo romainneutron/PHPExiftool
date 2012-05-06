@@ -4,7 +4,6 @@ namespace PHPExiftool;
 
 class ReaderTest extends \PHPUnit_Framework_TestCase
 {
-
     /**
      * @var Reader
      */
@@ -19,38 +18,55 @@ class ReaderTest extends \PHPUnit_Framework_TestCase
 
         self::$tmpDir = $tmpDir . '/exiftool_reader';
 
-        if ( ! is_dir(self::$tmpDir))
-        {
+        if ( ! is_dir(self::$tmpDir)) {
             mkdir(self::$tmpDir);
         }
 
         file_put_contents(self::$tmpDir . '/hello.world', 'Hello');
         file_put_contents(self::$tmpDir . '/hello.exiftool', 'Hello');
 
-        if ( ! is_dir(self::$tmpDir . '/dir'))
-        {
+        if ( ! is_dir(self::$tmpDir . '/dir')) {
             mkdir(self::$tmpDir . '/dir');
         }
-        if ( ! is_dir(self::$tmpDir . '/usr'))
-        {
+        if ( ! is_dir(self::$tmpDir . '/usr')) {
             mkdir(self::$tmpDir . '/usr');
         }
 
         $tmpDir2 = $tmpDir . '/exiftool_reader2';
 
-        if ( ! is_dir($tmpDir2))
-        {
+        if ( ! is_dir($tmpDir2)) {
             mkdir($tmpDir2);
         }
 
         file_put_contents($tmpDir2 . '/hello2.world', 'Hello');
 
-        if ( ! is_link(self::$tmpDir . '/symlink'))
-        {
+        if ( ! is_link(self::$tmpDir . '/symlink')) {
             symlink($tmpDir2, self::$tmpDir . '/symlink');
         }
 
         file_put_contents(self::$tmpDir . '/dir/newfile.txt', 'Hello');
+
+        $tmpDir3 = $tmpDir . '/exiftool_reader3';
+
+        if ( ! is_dir($tmpDir3)) {
+            mkdir($tmpDir3);
+        }
+
+        if ( ! is_dir($tmpDir3 . '/.svn')) {
+            mkdir($tmpDir3 . '/.svn');
+        }
+
+        if ( ! is_dir($tmpDir3 . '/.roro')) {
+            mkdir($tmpDir3 . '/.roro');
+        }
+
+        if ( ! is_dir($tmpDir3 . '/.git')) {
+            mkdir($tmpDir3 . '/.git');
+        }
+
+        touch($tmpDir3 . '/.git/config');
+        touch($tmpDir3 . '/.roro/.roro.tmp');
+        touch($tmpDir3 . '/.phrasea.xml');
     }
 
     /**
@@ -71,6 +87,21 @@ class ReaderTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
+     * @covers PHPExiftool\Reader::getIterator
+     */
+    public function testAppend()
+    {
+        $file1 = self::$tmpDir . '/hello.exiftool';
+        $file2 = self::$tmpDir . '/hello.world';
+        $file3 = self::$tmpDir . '/dir/newfile.txt';
+        $this->assertEquals(1, count($this->object->files($file1)->all()));
+
+        $reader = new Reader();
+        $reader->files(array($file2, $file3));
+        $this->assertEquals(3, count($this->object->append($reader)->all()));
+    }
+
+    /**
      * @covers PHPExiftool\Reader::files
      * @covers PHPExiftool\Reader::buildQuery
      */
@@ -82,6 +113,21 @@ class ReaderTest extends \PHPUnit_Framework_TestCase
         $splfile = $this->object->files(self::$tmpDir . '/hello.exiftool')->first()->getFile();
 
         $this->assertEquals(realpath($file), $splfile->getPathname());
+    }
+
+    public function testIgnoreVCS()
+    {
+        $this->object->in(self::$tmpDir . '3');
+        $this->assertEquals(1, count($this->object->all()));
+    }
+
+    public function testIgnoreDotFiles()
+    {
+        $this->object->in(self::$tmpDir . '3');
+        $this->assertEquals(1, count($this->object->all()));
+
+        $this->object->ignoreDotFiles()->in(self::$tmpDir . '3');
+        $this->assertEquals(0, count($this->object->all()));
     }
 
     /**
@@ -108,8 +154,8 @@ class ReaderTest extends \PHPUnit_Framework_TestCase
     {
         $reader = new Reader();
         $reader
-          ->in(self::$tmpDir)
-          ->exclude(self::$tmpDir . '/dir');
+            ->in(self::$tmpDir)
+            ->exclude(self::$tmpDir . '/dir');
 
         $this->assertEquals(2, count($reader->all()));
     }
@@ -122,21 +168,21 @@ class ReaderTest extends \PHPUnit_Framework_TestCase
     {
         $reader = new Reader();
         $reader
-          ->in(self::$tmpDir)
-          ->exclude($dir)
-          ->all();
+            ->in(self::$tmpDir)
+            ->exclude($dir)
+            ->all();
     }
 
     public function getExclude()
     {
         return array(
-          array(self::$tmpDir . '/dir/'),
-          array(self::$tmpDir . '/dir'),
-          array('dir'),
-          array('/dir'),
-          array('/usr'),
-          array('usr'),
-          array('dir/'),
+            array(self::$tmpDir . '/dir/'),
+            array(self::$tmpDir . '/dir'),
+            array('dir'),
+            array('/dir'),
+            array('/usr'),
+            array('usr'),
+            array('dir/'),
         );
     }
 
@@ -150,20 +196,20 @@ class ReaderTest extends \PHPUnit_Framework_TestCase
     {
         $reader = new Reader();
         $reader
-          ->in(self::$tmpDir)
-          ->exclude($dir)
-          ->all();
+            ->in(self::$tmpDir)
+            ->exclude($dir)
+            ->all();
     }
 
     public function getWrongExclude()
     {
         return array(
-          array(self::$tmpDir . '/dir/dir2'),
-          array(self::$tmpDir . '/dirlo'),
-          array('dir/dir2'),
-          array('/usr/local'),
-          array('usr/local'),
-          array('/tmp'),
+            array(self::$tmpDir . '/dir/dir2'),
+            array(self::$tmpDir . '/dirlo'),
+            array('dir/dir2'),
+            array('/usr/local'),
+            array('usr/local'),
+            array('/tmp'),
         );
     }
 
@@ -217,7 +263,7 @@ class ReaderTest extends \PHPUnit_Framework_TestCase
     {
         $reader = new Reader();
         $reader->in(self::$tmpDir)
-          ->followSymLinks();
+            ->followSymLinks();
 
         $this->assertInstanceOf('\\Doctrine\\Common\\Collections\\ArrayCollection', $reader->all());
         $this->assertEquals(4, count($reader->all()));
@@ -264,7 +310,7 @@ class ReaderTest extends \PHPUnit_Framework_TestCase
     {
         $reader = new Reader();
         $reader
-          ->in(self::$tmpDir);
+            ->in(self::$tmpDir);
 
         $this->assertInstanceOf('\\PHPExiftool\\FileEntity', $reader->first());
     }
@@ -291,5 +337,4 @@ class ReaderTest extends \PHPUnit_Framework_TestCase
         $this->assertInstanceOf('\\Doctrine\\Common\\Collections\\ArrayCollection', $reader->all());
         $this->assertEquals(3, count($reader->all()));
     }
-
 }
