@@ -14,7 +14,7 @@ namespace PHPExiftool\Driver\Tag\QuickTime;
 class ProducerKeywords extends \PHPExiftool\Driver\Tag
 {
 
-    protected $Id = '\xa9pdk';
+    protected $Id = '\\xa9pdk';
 
     protected $Name = 'ProducerKeywords';
 

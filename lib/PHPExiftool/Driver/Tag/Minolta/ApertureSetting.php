@@ -11,12 +11,12 @@
 
 namespace PHPExiftool\Driver\Tag\Minolta;
 
-class ManualExposureTime extends \PHPExiftool\Driver\Tag
+class ApertureSetting extends \PHPExiftool\Driver\Tag
 {
 
-    protected $Id = 6;
+    protected $Id = 7;
 
-    protected $Name = 'ManualExposureTime';
+    protected $Name = 'ApertureSetting';
 
     protected $FullName = 'Minolta::CameraSettingsA100';
 
@@ -32,7 +32,7 @@ class ManualExposureTime extends \PHPExiftool\Driver\Tag
 
     protected $Writable = true;
 
-    protected $Description = 'Manual Exposure Time';
+    protected $Description = 'Aperture Setting';
 
     protected $flag_Permanent = true;
 

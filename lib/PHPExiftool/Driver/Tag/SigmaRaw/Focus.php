@@ -45,7 +45,7 @@ class Focus extends \PHPExiftool\Driver\Tag
         ),
         'NO LOCK' => array(
             'Id' => 'NO LOCK',
-            'Label' => 'Auto-focus Didn\'t Lock',
+            'Label' => 'Auto-focus Didn\\'t Lock',
         ),
     );
 

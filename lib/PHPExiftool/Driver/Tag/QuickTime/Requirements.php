@@ -14,7 +14,7 @@ namespace PHPExiftool\Driver\Tag\QuickTime;
 class Requirements extends \PHPExiftool\Driver\Tag
 {
 
-    protected $Id = '\xa9req';
+    protected $Id = '\\xa9req';
 
     protected $Name = 'Requirements';
 

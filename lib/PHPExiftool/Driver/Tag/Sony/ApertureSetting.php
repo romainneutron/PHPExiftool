@@ -14,11 +14,11 @@ namespace PHPExiftool\Driver\Tag\Sony;
 class ApertureSetting extends \PHPExiftool\Driver\Tag
 {
 
-    protected $Id = 1;
+    protected $Id = 'mixed';
 
     protected $Name = 'ApertureSetting';
 
-    protected $FullName = 'Sony::CameraSettings3';
+    protected $FullName = 'mixed';
 
     protected $GroupName = 'Sony';
 
@@ -28,7 +28,7 @@ class ApertureSetting extends \PHPExiftool\Driver\Tag
 
     protected $g2 = 'Camera';
 
-    protected $Type = 'int8u';
+    protected $Type = 'mixed';
 
     protected $Writable = true;
 

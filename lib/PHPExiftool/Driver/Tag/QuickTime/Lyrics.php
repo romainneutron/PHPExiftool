@@ -14,7 +14,7 @@ namespace PHPExiftool\Driver\Tag\QuickTime;
 class Lyrics extends \PHPExiftool\Driver\Tag
 {
 
-    protected $Id = '\xa9lyr';
+    protected $Id = '\\xa9lyr';
 
     protected $Name = 'Lyrics';
 

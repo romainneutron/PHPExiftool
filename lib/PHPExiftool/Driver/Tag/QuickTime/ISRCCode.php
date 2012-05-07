@@ -14,7 +14,7 @@ namespace PHPExiftool\Driver\Tag\QuickTime;
 class ISRCCode extends \PHPExiftool\Driver\Tag
 {
 
-    protected $Id = '\xa9isr';
+    protected $Id = '\\xa9isr';
 
     protected $Name = 'ISRCCode';
 

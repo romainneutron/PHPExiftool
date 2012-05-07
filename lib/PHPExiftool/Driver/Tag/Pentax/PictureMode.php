@@ -234,10 +234,18 @@ class PictureMode extends \PHPExiftool\Driver\Tag
             'Label' => 'Half-length Portrait',
         ),
         45 => array(
+            'Id' => 80,
+            'Label' => 'Miniature',
+        ),
+        46 => array(
+            'Id' => 83,
+            'Label' => 'Fisheye',
+        ),
+        47 => array(
             'Id' => 221,
             'Label' => 'P',
         ),
-        46 => array(
+        48 => array(
             'Id' => 255,
             'Label' => 'PICT',
         ),

@@ -791,7 +791,11 @@ class LensType extends \PHPExiftool\Driver\Tag
         ),
         183 => array(
             'Id' => 183,
-            'Label' => 'Canon EF 100-400mm f/4.5-5.6L IS',
+            'Label' => 'Canon EF 100-400mm f/4.5-5.6L IS or Sigma Lens',
+        ),
+        '183.1' => array(
+            'Id' => '183.1',
+            'Label' => 'Sigma 150mm f/2.8 EX DG OS HSM APO Macro',
         ),
         184 => array(
             'Id' => 184,

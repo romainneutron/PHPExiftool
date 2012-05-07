@@ -14,7 +14,7 @@ namespace PHPExiftool\Driver\Tag\QuickTime;
 class PerformerURL extends \PHPExiftool\Driver\Tag
 {
 
-    protected $Id = '\xa9prl';
+    protected $Id = '\\xa9prl';
 
     protected $Name = 'PerformerURL';
 

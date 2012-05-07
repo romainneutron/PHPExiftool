@@ -14,7 +14,7 @@ namespace PHPExiftool\Driver\Tag\QuickTime;
 class Edit8 extends \PHPExiftool\Driver\Tag
 {
 
-    protected $Id = '\xa9ed8';
+    protected $Id = '\\xa9ed8';
 
     protected $Name = 'Edit8';
 

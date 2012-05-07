@@ -11,12 +11,12 @@
 
 namespace PHPExiftool\Driver\Tag\Sony;
 
-class AFPointUsed extends \PHPExiftool\Driver\Tag
+class AFPoint extends \PHPExiftool\Driver\Tag
 {
 
     protected $Id = 32;
 
-    protected $Name = 'AFPointUsed';
+    protected $Name = 'AFPoint';
 
     protected $FullName = 'Sony::CameraInfo';
 
@@ -32,7 +32,7 @@ class AFPointUsed extends \PHPExiftool\Driver\Tag
 
     protected $Writable = true;
 
-    protected $Description = 'AF Point Used';
+    protected $Description = 'AF Point';
 
     protected $flag_Permanent = true;
 

@@ -14,7 +14,7 @@ namespace PHPExiftool\Driver\Tag\QuickTime;
 class ArrangerKeywords extends \PHPExiftool\Driver\Tag
 {
 
-    protected $Id = '\xa9ark';
+    protected $Id = '\\xa9ark';
 
     protected $Name = 'ArrangerKeywords';
 

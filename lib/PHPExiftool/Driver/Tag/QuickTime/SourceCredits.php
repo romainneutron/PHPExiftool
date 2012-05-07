@@ -14,7 +14,7 @@ namespace PHPExiftool\Driver\Tag\QuickTime;
 class SourceCredits extends \PHPExiftool\Driver\Tag
 {
 
-    protected $Id = '\xa9src';
+    protected $Id = '\\xa9src';
 
     protected $Name = 'SourceCredits';
 

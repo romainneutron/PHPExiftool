@@ -14,7 +14,7 @@ namespace PHPExiftool\Driver\Tag\QuickTime;
 class Encoder extends \PHPExiftool\Driver\Tag
 {
 
-    protected $Id = '\xa9too';
+    protected $Id = '\\xa9too';
 
     protected $Name = 'Encoder';
 

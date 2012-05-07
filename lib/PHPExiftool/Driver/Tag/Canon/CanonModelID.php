@@ -641,6 +641,10 @@ class CanonModelID extends \PHPExiftool\Driver\Tag
             'Id' => 51642368,
             'Label' => 'PowerShot ELPH 500 HS / IXUS 320 HS / IXY 32S',
         ),
+        51773440 => array(
+            'Id' => 51773440,
+            'Label' => 'PowerShot A1300',
+        ),
         51970048 => array(
             'Id' => 51970048,
             'Label' => 'PowerShot ELPH 110 HS / IXUS 125 HS / IXY 220F',

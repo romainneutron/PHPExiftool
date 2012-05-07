@@ -14,7 +14,7 @@ namespace PHPExiftool\Driver\Tag\QuickTime;
 class RecordLabelName extends \PHPExiftool\Driver\Tag
 {
 
-    protected $Id = '\xa9lab';
+    protected $Id = '\\xa9lab';
 
     protected $Name = 'RecordLabelName';
 

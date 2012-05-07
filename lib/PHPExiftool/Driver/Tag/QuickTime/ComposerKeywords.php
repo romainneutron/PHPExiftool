@@ -14,7 +14,7 @@ namespace PHPExiftool\Driver\Tag\QuickTime;
 class ComposerKeywords extends \PHPExiftool\Driver\Tag
 {
 
-    protected $Id = '\xa9cok';
+    protected $Id = '\\xa9cok';
 
     protected $Name = 'ComposerKeywords';
 

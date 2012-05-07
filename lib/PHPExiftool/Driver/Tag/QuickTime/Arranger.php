@@ -14,7 +14,7 @@ namespace PHPExiftool\Driver\Tag\QuickTime;
 class Arranger extends \PHPExiftool\Driver\Tag
 {
 
-    protected $Id = '\xa9arg';
+    protected $Id = '\\xa9arg';
 
     protected $Name = 'Arranger';
 

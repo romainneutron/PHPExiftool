@@ -14,7 +14,7 @@ namespace PHPExiftool\Driver\Tag\QuickTime;
 class RecordingCopyright extends \PHPExiftool\Driver\Tag
 {
 
-    protected $Id = '\xa9phg';
+    protected $Id = '\\xa9phg';
 
     protected $Name = 'RecordingCopyright';
 

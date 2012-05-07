@@ -14,7 +14,7 @@ namespace PHPExiftool\Driver\Tag\QuickTime;
 class Track extends \PHPExiftool\Driver\Tag
 {
 
-    protected $Id = '\xa9trk';
+    protected $Id = '\\xa9trk';
 
     protected $Name = 'Track';
 

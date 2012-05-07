@@ -37,7 +37,7 @@ class FontFamily extends \PHPExiftool\Driver\Tag
     protected $Values = array(
         0 => array(
             'Id' => 0,
-            'Label' => 'Don\'t Care',
+            'Label' => 'Don\\'t Care',
         ),
         16 => array(
             'Id' => 16,

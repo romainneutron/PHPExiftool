@@ -14,7 +14,7 @@ namespace PHPExiftool\Driver\Tag\QuickTime;
 class Format extends \PHPExiftool\Driver\Tag
 {
 
-    protected $Id = '\xa9fmt';
+    protected $Id = '\\xa9fmt';
 
     protected $Name = 'Format';
 

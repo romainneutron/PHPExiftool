@@ -53,6 +53,10 @@ class LensID extends \PHPExiftool\Driver\Tag
             'Id' => '00 00 00 00 00 00 F2 18',
             'Label' => 'TC-20E [II] or Sigma APO Tele Converter 2x EX DG or Kenko Teleplus PRO 300 DG 2.0x',
         ),
+        '00 00 48 48 53 53 00 01' => array(
+            'Id' => '00 00 48 48 53 53 00 01',
+            'Label' => 'Loreo 40mm F11-22 3D Lens in a Cap 9005',
+        ),
         '00 36 1C 2D 34 3C 00 06' => array(
             'Id' => '00 36 1C 2D 34 3C 00 06',
             'Label' => 'Tamron SP AF 11-18mm f/4.5-5.6 Di II LD Aspherical (IF) (A13)',
@@ -1764,6 +1768,10 @@ class LensID extends \PHPExiftool\Driver\Tag
         'RL5' => array(
             'Id' => 'RL5',
             'Label' => 'GR Lens A12 28mm F2.5',
+        ),
+        'RL6' => array(
+            'Id' => 'RL6',
+            'Label' => 'Ricoh Lens A16 24-85mm F3.5-5.5',
         ),
         'RL8' => array(
             'Id' => 'RL8',

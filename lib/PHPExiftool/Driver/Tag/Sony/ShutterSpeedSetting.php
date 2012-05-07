@@ -14,11 +14,11 @@ namespace PHPExiftool\Driver\Tag\Sony;
 class ShutterSpeedSetting extends \PHPExiftool\Driver\Tag
 {
 
-    protected $Id = 0;
+    protected $Id = 'mixed';
 
     protected $Name = 'ShutterSpeedSetting';
 
-    protected $FullName = 'Sony::CameraSettings3';
+    protected $FullName = 'mixed';
 
     protected $GroupName = 'Sony';
 
@@ -28,7 +28,7 @@ class ShutterSpeedSetting extends \PHPExiftool\Driver\Tag
 
     protected $g2 = 'Camera';
 
-    protected $Type = 'int8u';
+    protected $Type = 'mixed';
 
     protected $Writable = true;
 

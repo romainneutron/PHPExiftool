@@ -14,7 +14,7 @@ namespace PHPExiftool\Driver\Tag\QuickTime;
 class MakerURL extends \PHPExiftool\Driver\Tag
 {
 
-    protected $Id = '\xa9mal';
+    protected $Id = '\\xa9mal';
 
     protected $Name = 'MakerURL';
 

@@ -59,16 +59,16 @@ class HotKey extends \PHPExiftool\Driver\Tag
             'Id' => 1024,
             'Label' => 'Alt',
         ),
-        '0x30\'-\'0x39' => array(
-            'Id' => '0x30\'-\'0x39',
+        '0x30\\'-\\'0x39' => array(
+            'Id' => '0x30\\'-\\'0x39',
             'Label' => '0-9',
         ),
-        '0x41\'-\'0x5a' => array(
-            'Id' => '0x41\'-\'0x5a',
+        '0x41\\'-\\'0x5a' => array(
+            'Id' => '0x41\\'-\\'0x5a',
             'Label' => 'A-Z',
         ),
-        '0x70\'-\'0x87' => array(
-            'Id' => '0x70\'-\'0x87',
+        '0x70\\'-\\'0x87' => array(
+            'Id' => '0x70\\'-\\'0x87',
             'Label' => 'F1-F24',
         ),
     );

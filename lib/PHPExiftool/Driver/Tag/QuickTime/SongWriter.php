@@ -14,7 +14,7 @@ namespace PHPExiftool\Driver\Tag\QuickTime;
 class SongWriter extends \PHPExiftool\Driver\Tag
 {
 
-    protected $Id = '\xa9swf';
+    protected $Id = '\\xa9swf';
 
     protected $Name = 'SongWriter';
 

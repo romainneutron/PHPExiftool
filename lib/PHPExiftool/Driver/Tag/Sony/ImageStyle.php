@@ -86,95 +86,45 @@ class ImageStyle extends \PHPExiftool\Driver\Tag
             'Label' => 'StyleBox3',
         ),
         12 => array(
-            'Id' => 1,
-            'Label' => 'Standard',
+            'Id' => 132,
+            'Label' => 'StyleBox4',
         ),
         13 => array(
-            'Id' => 2,
-            'Label' => 'Vivid',
+            'Id' => 133,
+            'Label' => 'StyleBox5',
         ),
         14 => array(
-            'Id' => 3,
-            'Label' => 'Portrait',
+            'Id' => 134,
+            'Label' => 'StyleBox6',
         ),
         15 => array(
-            'Id' => 4,
-            'Label' => 'Landscape',
-        ),
-        16 => array(
-            'Id' => 5,
-            'Label' => 'Sunset',
-        ),
-        17 => array(
-            'Id' => 7,
-            'Label' => 'Night View/Portrait',
-        ),
-        18 => array(
-            'Id' => 8,
-            'Label' => 'B&W',
-        ),
-        19 => array(
-            'Id' => 9,
-            'Label' => 'Adobe RGB',
-        ),
-        20 => array(
-            'Id' => 11,
-            'Label' => 'Neutral',
-        ),
-        21 => array(
-            'Id' => 129,
-            'Label' => 'Standard (custom)',
-        ),
-        22 => array(
-            'Id' => 130,
-            'Label' => 'Vivid (custom)',
-        ),
-        23 => array(
-            'Id' => 131,
-            'Label' => 'Neutral (custom)',
-        ),
-        24 => array(
-            'Id' => 132,
-            'Label' => 'Portrait (custom)',
-        ),
-        25 => array(
-            'Id' => 133,
-            'Label' => 'Landscape (custom)',
-        ),
-        26 => array(
-            'Id' => 134,
-            'Label' => 'B&W (custom)',
-        ),
-        27 => array(
             'Id' => 1,
             'Label' => 'Standard',
         ),
-        28 => array(
+        16 => array(
             'Id' => 2,
             'Label' => 'Vivid',
         ),
-        29 => array(
+        17 => array(
             'Id' => 3,
             'Label' => 'Portrait',
         ),
-        30 => array(
+        18 => array(
             'Id' => 4,
             'Label' => 'Landscape',
         ),
-        31 => array(
+        19 => array(
             'Id' => 5,
             'Label' => 'Sunset',
         ),
-        32 => array(
+        20 => array(
             'Id' => 7,
             'Label' => 'Night View/Portrait',
         ),
-        33 => array(
+        21 => array(
             'Id' => 8,
             'Label' => 'B&W',
         ),
     );
-
-    protected $Index = 'mixed';
 
 }

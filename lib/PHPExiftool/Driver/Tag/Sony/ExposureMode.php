@@ -101,6 +101,10 @@ class ExposureMode extends \PHPExiftool\Driver\Tag
             'Id' => 18,
             'Label' => 'High Sensitivity',
         ),
+        19 => array(
+            'Id' => 19,
+            'Label' => 'Macro',
+        ),
         20 => array(
             'Id' => 20,
             'Label' => 'Advanced Sports Shooting',

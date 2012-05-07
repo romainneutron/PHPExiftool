@@ -11,12 +11,12 @@
 
 namespace PHPExiftool\Driver\Tag\Sony;
 
-class DriveModeSet extends \PHPExiftool\Driver\Tag
+class DriveModeSetting extends \PHPExiftool\Driver\Tag
 {
 
     protected $Id = 4;
 
-    protected $Name = 'DriveModeSet';
+    protected $Name = 'DriveModeSetting';
 
     protected $FullName = 'Sony::CameraSettings3';
 
@@ -32,7 +32,7 @@ class DriveModeSet extends \PHPExiftool\Driver\Tag
 
     protected $Writable = true;
 
-    protected $Description = 'Drive Mode Set';
+    protected $Description = 'Drive Mode Setting';
 
     protected $flag_Permanent = true;
 

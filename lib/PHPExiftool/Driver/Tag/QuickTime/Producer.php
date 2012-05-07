@@ -14,7 +14,7 @@ namespace PHPExiftool\Driver\Tag\QuickTime;
 class Producer extends \PHPExiftool\Driver\Tag
 {
 
-    protected $Id = '\xa9prd';
+    protected $Id = '\\xa9prd';
 
     protected $Name = 'Producer';
 

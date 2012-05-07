@@ -14,11 +14,11 @@ namespace PHPExiftool\Driver\Tag\Sony;
 class FNumber extends \PHPExiftool\Driver\Tag
 {
 
-    protected $Id = 106;
+    protected $Id = 'mixed';
 
     protected $Name = 'FNumber';
 
-    protected $FullName = 'Sony::PMP';
+    protected $FullName = 'mixed';
 
     protected $GroupName = 'Sony';
 
@@ -26,9 +26,9 @@ class FNumber extends \PHPExiftool\Driver\Tag
 
     protected $g1 = 'Sony';
 
-    protected $g2 = 'Image';
+    protected $g2 = 'mixed';
 
-    protected $Type = 'int16s';
+    protected $Type = 'mixed';
 
     protected $Writable = false;
 

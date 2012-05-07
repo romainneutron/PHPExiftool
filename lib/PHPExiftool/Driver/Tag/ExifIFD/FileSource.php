@@ -49,8 +49,8 @@ class FileSource extends \PHPExiftool\Driver\Tag
             'Id' => 3,
             'Label' => 'Digital Camera',
         ),
-        '\x03\x00\x00\x00' => array(
-            'Id' => '\x03\x00\x00\x00',
+        '\\x03\\x00\\x00\\x00' => array(
+            'Id' => '\\x03\\x00\\x00\\x00',
             'Label' => 'Sigma Digital Camera',
         ),
     );

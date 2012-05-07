@@ -11,12 +11,12 @@
 
 namespace PHPExiftool\Driver\Tag\Minolta;
 
-class ManualFNumber extends \PHPExiftool\Driver\Tag
+class ShutterSpeedSetting extends \PHPExiftool\Driver\Tag
 {
 
-    protected $Id = 7;
+    protected $Id = 6;
 
-    protected $Name = 'ManualFNumber';
+    protected $Name = 'ShutterSpeedSetting';
 
     protected $FullName = 'Minolta::CameraSettingsA100';
 
@@ -32,7 +32,7 @@ class ManualFNumber extends \PHPExiftool\Driver\Tag
 
     protected $Writable = true;
 
-    protected $Description = 'Manual F Number';
+    protected $Description = 'Shutter Speed Setting';
 
     protected $flag_Permanent = true;
 

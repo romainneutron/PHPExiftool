@@ -14,7 +14,7 @@ namespace PHPExiftool\Driver\Tag\QuickTime;
 class Subtitle extends \PHPExiftool\Driver\Tag
 {
 
-    protected $Id = '\xa9snm';
+    protected $Id = '\\xa9snm';
 
     protected $Name = 'Subtitle';
 

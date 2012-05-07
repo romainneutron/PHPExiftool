@@ -14,11 +14,11 @@ namespace PHPExiftool\Driver\Tag\Sony;
 class LensSpec extends \PHPExiftool\Driver\Tag
 {
 
-    protected $Id = 45098;
+    protected $Id = 'mixed';
 
     protected $Name = 'LensSpec';
 
-    protected $FullName = 'Sony::Main';
+    protected $FullName = 'mixed';
 
     protected $GroupName = 'Sony';
 
@@ -28,12 +28,14 @@ class LensSpec extends \PHPExiftool\Driver\Tag
 
     protected $g2 = 'Camera';
 
-    protected $Type = 'int8u';
+    protected $Type = 'mixed';
 
     protected $Writable = true;
 
     protected $Description = 'Lens Spec';
 
     protected $flag_Permanent = true;
+
+    protected $Index = 'mixed';
 
 }

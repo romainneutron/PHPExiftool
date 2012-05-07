@@ -38,20 +38,32 @@ class ColorSpace extends \PHPExiftool\Driver\Tag
 
     protected $Values = array(
         0 => array(
+            'Id' => 0,
+            'Label' => 'sRGB',
+        ),
+        1 => array(
+            'Id' => 1,
+            'Label' => 'Adobe RGB',
+        ),
+        2 => array(
+            'Id' => 5,
+            'Label' => 'Adobe RGB (A700)',
+        ),
+        3 => array(
             'Id' => 5,
             'Label' => 'Adobe RGB',
         ),
-        1 => array(
+        4 => array(
             'Id' => 6,
             'Label' => 'sRGB',
         ),
-        2 => array(
+        5 => array(
             'Id' => 1,
             'Label' => 'sRGB',
         ),
-        3 => array(
+        6 => array(
             'Id' => 2,
-            'Label' => 'AdobeRGB',
+            'Label' => 'Adobe RGB',
         ),
     );
 

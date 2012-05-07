@@ -14,7 +14,7 @@ namespace PHPExiftool\Driver\Tag\QuickTime;
 class SoftwareVersion extends \PHPExiftool\Driver\Tag
 {
 
-    protected $Id = '\xa9swr';
+    protected $Id = '\\xa9swr';
 
     protected $Name = 'SoftwareVersion';
 

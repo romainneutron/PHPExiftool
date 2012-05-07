@@ -87,6 +87,10 @@ class HandlerType extends \PHPExiftool\Driver\Tag
             'Id' => 'text',
             'Label' => 'Text',
         ),
+        'tmcd' => array(
+            'Id' => 'tmcd',
+            'Label' => 'Time Code',
+        ),
         'url ' => array(
             'Id' => 'url ',
             'Label' => 'URL',

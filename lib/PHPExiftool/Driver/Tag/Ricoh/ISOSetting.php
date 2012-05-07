@@ -69,6 +69,14 @@ class ISOSetting extends \PHPExiftool\Driver\Tag
             'Id' => 9,
             'Label' => 'Auto',
         ),
+        10 => array(
+            'Id' => 10,
+            'Label' => 3200,
+        ),
+        11 => array(
+            'Id' => 11,
+            'Label' => '100 (Low)',
+        ),
     );
 
 }
