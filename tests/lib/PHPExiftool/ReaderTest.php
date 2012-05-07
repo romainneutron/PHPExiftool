@@ -9,6 +9,7 @@ class ReaderTest extends \PHPUnit_Framework_TestCase
      */
     protected $object;
     protected static $tmpDir;
+    protected $disableSymLinkTest = false;
 
     public static function setUpBeforeClass()
     {
@@ -41,7 +42,9 @@ class ReaderTest extends \PHPUnit_Framework_TestCase
         file_put_contents($tmpDir2 . '/hello2.world', 'Hello');
 
         if ( ! is_link(self::$tmpDir . '/symlink')) {
-            symlink($tmpDir2, self::$tmpDir . '/symlink');
+            if ( ! @symlink($tmpDir2, self::$tmpDir . '/symlink')) {
+                $this->disableSymLinkTest = true;
+            }
         }
 
         file_put_contents(self::$tmpDir . '/dir/newfile.txt', 'Hello');
@@ -126,8 +129,7 @@ class ReaderTest extends \PHPUnit_Framework_TestCase
 
         $results = array();
 
-        foreach($reader->all() as $entity)
-        {
+        foreach ($reader->all() as $entity) {
             $results[] = $entity->getFile()->getFilename();
         }
 
@@ -145,7 +147,7 @@ class ReaderTest extends \PHPUnit_Framework_TestCase
 
         $splfile = $this->object->files(self::$tmpDir . '/hello.exiftool')->first()->getFile();
 
-        $this->assertEquals(realpath($file), $splfile->getPathname());
+        $this->assertEquals(realpath($file), realpath($splfile->getPathname()));
     }
 
     /**
@@ -318,6 +320,10 @@ class ReaderTest extends \PHPUnit_Framework_TestCase
      */
     public function testFollowSymLinks()
     {
+        if ($this->disableSymLinkTest) {
+            $this->markTestSkipped('This system does not support symlinks');
+        }
+
         $reader = new Reader();
         $reader->in(self::$tmpDir)
             ->followSymLinks();

@@ -24,10 +24,10 @@ class PreviewExtractor extends Exiftool
             throw new Exception\LogicException(sprintf('%s is not writable', $outputDir));
         }
 
-        $command = self::getBinary() . " -if '\$jpgfromraw' -b -jpgfromraw "
-            . "-w " . realpath($outputDir) . "/JpgFromRaw%c.jpg -execute "
-            . "-if '\$previewimage' -b -previewimage "
-            . "-w " . realpath($outputDir) . "/PreviewImage%c.jpg "
+        $command = self::getBinary() . " -if \"\$jpgfromraw\" -b -jpgfromraw "
+            . "-w " . escapeshellarg(realpath($outputDir)) . "/JpgFromRaw%c.jpg -execute "
+            . "-if \"\$previewimage\" -b -previewimage "
+            . "-w " . escapeshellarg(realpath($outputDir)) . "/PreviewImage%c.jpg "
             . "-common_args -q -m " . $pathfile;
 
         try {

@@ -250,7 +250,7 @@ class WriterTest extends \PHPUnit_Framework_TestCase
         $writer->setModule(WriterTester::MODULE_MWG, false);
         $this->assertNotContains(' -use MWG', $writer->addMetadatasArgTester($metadatas));
 
-        $this->assertContains(" -XMP-iptcExt:PersonInImage='Nicolas'", $writer->addMetadatasArgTester($metadatas));
+        $this->assertContains("/\ -XMP-iptcExt:PersonInImage=['\"]Nicolas['\"]", $writer->addMetadatasArgTester($metadatas));
     }
 }
 
