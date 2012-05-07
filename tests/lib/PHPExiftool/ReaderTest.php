@@ -9,7 +9,7 @@ class ReaderTest extends \PHPUnit_Framework_TestCase
      */
     protected $object;
     protected static $tmpDir;
-    protected $disableSymLinkTest = false;
+    protected static $disableSymLinkTest = false;
 
     public static function setUpBeforeClass()
     {
@@ -43,7 +43,7 @@ class ReaderTest extends \PHPUnit_Framework_TestCase
 
         if ( ! is_link(self::$tmpDir . '/symlink')) {
             if ( ! @symlink($tmpDir2, self::$tmpDir . '/symlink')) {
-                $this->disableSymLinkTest = true;
+                self::$disableSymLinkTest = true;
             }
         }
 
@@ -320,7 +320,7 @@ class ReaderTest extends \PHPUnit_Framework_TestCase
      */
     public function testFollowSymLinks()
     {
-        if ($this->disableSymLinkTest) {
+        if (self::$disableSymLinkTest) {
             $this->markTestSkipped('This system does not support symlinks');
         }
 
