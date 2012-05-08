@@ -26,6 +26,8 @@ class ReaderTest extends \PHPUnit_Framework_TestCase
         $process = new \Symfony\Component\Process\Process($command);
         $process->run();
 
+        mkdir($tmpDir);
+
         self::$tmpDir = $tmpDir . '/exiftool_reader';
 
         if ( ! is_dir(self::$tmpDir)) {
