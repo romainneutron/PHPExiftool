@@ -15,11 +15,6 @@ class ReaderTest extends \PHPUnit_Framework_TestCase
     {
         parent::setUpBeforeClass();
 
-        if (defined('PHP_WINDOWS_VERSION_BUILD')) {
-            $process = 'rmdir /q /s ' . self::$tmpDir . '/symlink';
-            $process->run();
-        }
-
         $tmpDir = sys_get_temp_dir();
 
         self::$tmpDir = $tmpDir . '/exiftool_reader';
@@ -46,11 +41,11 @@ class ReaderTest extends \PHPUnit_Framework_TestCase
 
         file_put_contents($tmpDir2 . '/hello2.world', 'Hello');
 
-        if ( ! is_link(self::$tmpDir . '/symlink')) {
+        if (defined('PHP_WINDOWS_VERSION_BUILD')) {
+            self::$disableSymLinkTest = true;
+        } elseif ( ! is_link(self::$tmpDir . '/symlink')) {
 
-            if (defined('PHP_WINDOWS_VERSION_BUILD') && shell_exec('mklink ' . escapeshellarg($tmpDir2)) . ' ' . escapeshellarg(self::$tmpDir . '/symlink')) {
-
-            } elseif ( ! @symlink($tmpDir2, self::$tmpDir . '/symlink')) {
+            if ( ! @symlink($tmpDir2, self::$tmpDir . '/symlink')) {
                 self::$disableSymLinkTest = true;
             }
         }
