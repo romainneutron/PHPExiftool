@@ -195,6 +195,12 @@ class ReaderTest extends \PHPUnit_Framework_TestCase
     {
         $reader = new Reader();
         $reader->in(self::$tmpDir);
+
+        foreach($reader->all() as $entity)
+        {
+            echo "found ".$entity->getFile()->getPathname()."\r\n";
+        }
+
         $this->assertEquals(3, count($reader->all()));
 
         $reader = new Reader();
