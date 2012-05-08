@@ -84,8 +84,6 @@ class ReaderTest extends \PHPUnit_Framework_TestCase
         touch($tmpDir3 . '/.git/config');
         touch($tmpDir3 . '/.roro/.roro.tmp');
         touch($tmpDir3 . '/.phrasea.xml');
-
-        var_dump(self::$tmpDir);
     }
 
     /**
@@ -211,10 +209,6 @@ class ReaderTest extends \PHPUnit_Framework_TestCase
     {
         $reader = new Reader();
         $reader->in(self::$tmpDir);
-
-        foreach ($reader->all() as $entity) {
-            echo "found " . $entity->getFile()->getPathname() . "\r\n";
-        }
 
         $this->assertEquals(3, count($reader->all()));
 
