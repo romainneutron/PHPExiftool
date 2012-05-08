@@ -15,7 +15,16 @@ class ReaderTest extends \PHPUnit_Framework_TestCase
     {
         parent::setUpBeforeClass();
 
-        $tmpDir = sys_get_temp_dir();
+        $tmpDir = __DIR__ . 'tmp';
+
+        if (defined('PHP_WINDOWS_VERSION_BUILD')) {
+            $command = 'rmdir /q /s '.escapeshellarg($tmpDir);
+        } else {
+            $command = 'rmdir -Rf '.escapeshellarg($tmpDir);
+        }
+
+        $process = new \Symfony\Component\Process\Process($command);
+        $process->run();
 
         self::$tmpDir = $tmpDir . '/exiftool_reader';
 
