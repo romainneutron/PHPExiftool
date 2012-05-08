@@ -15,7 +15,7 @@ class ReaderTest extends \PHPUnit_Framework_TestCase
     {
         parent::setUpBeforeClass();
 
-        $tmpDir = __DIR__ . 'tmp';
+        $tmpDir = __DIR__ . '/tmp';
 
         if (defined('PHP_WINDOWS_VERSION_BUILD')) {
             $command = 'rmdir /q /s '.escapeshellarg($tmpDir);
