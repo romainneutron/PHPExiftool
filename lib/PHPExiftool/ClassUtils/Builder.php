@@ -34,19 +34,37 @@ class Builder
 
     public function __construct($namespace, $classname, array $properties, $extends = null)
     {
-        foreach (explode('\\', $namespace) as $piece) {
-            if ( ! $this->checkPHPVarName($piece))
-                throw new \Exception(sprintf('Invalid namespace %s', $namespace));
-        }
-        if ( ! $this->checkPHPVarName($classname))
-            throw new \Exception(sprintf('Invalid namespace %s', $namespace));
+        $namespace = trim($namespace, '\\');
 
-        $this->namespace = 'PHPExiftool\\Driver\\' . $namespace;
+        foreach (explode('\\', $namespace) as $piece) {
+            if ($piece == '') {
+                continue;
+            }
+
+            if ( ! $this->checkPHPVarName($piece)) {
+                throw new \Exception(sprintf('Invalid namespace %s', $namespace));
+            }
+        }
+        if ( ! $this->checkPHPVarName($classname)) {
+            throw new \Exception(sprintf('Invalid namespace %s', $namespace));
+        }
+
+        $this->namespace = trim('PHPExiftool\\Driver\\' . $namespace, '\\');
         $this->classname = $classname;
         $this->properties = $properties;
         $this->extends = $extends;
 
         return $this;
+    }
+
+    public function getNamespace()
+    {
+        return $this->namespace;
+    }
+
+    public function getClassname()
+    {
+        return $this->classname;
     }
 
     public function getProperty($property)
@@ -68,6 +86,16 @@ class Builder
 
     public function write($force = false)
     {
+        if ( ! $force && file_exists($this->getPathfile()))
+            throw new \Exception(sprintf('%s already exists', $this->getPathfile()));
+
+        file_put_contents($this->getPathfile(), $this->generateContent());
+
+        return $this;
+    }
+
+    public function generateContent()
+    {
         $content = "<?php\n\n<license>\n\nnamespace <namespace>;\n\n";
 
         $content .= "class <classname>";
@@ -82,10 +110,8 @@ class Builder
 
         $content .= "\n}\n";
 
-        $pathfile = $this->getPathfile();
-
-        if ( ! is_dir(dirname($pathfile))) {
-            mkdir(dirname($pathfile), 0754, true);
+        if ( ! is_dir(dirname($this->getPathfile()))) {
+            mkdir(dirname($this->getPathfile()), 0754, true);
         }
 
         $content = str_replace(
@@ -94,12 +120,7 @@ class Builder
             , $content
         );
 
-        if ( ! $force && file_exists($pathfile))
-            throw new \Exception(sprintf('%s already exists', $pathfile));
-
-        file_put_contents($pathfile, $content);
-
-        return $this;
+        return $content;
     }
 
     protected function generateClassProperties(array $properties, $depth = 0)
@@ -146,6 +167,6 @@ class Builder
             return $value;
         }
 
-        return "'" . str_replace('\'', '\\\'', $value) . "'";
+        return "'" . str_replace(array('\\', '\''), array('\\\\', '\\\''), $value) . "'";
     }
 }

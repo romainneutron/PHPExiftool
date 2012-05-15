@@ -110,9 +110,23 @@ class ClassesBuilder extends Command
     {
         $n = 0;
 
+        $classesBuffer = new \PHPExiftool\ClassUtils\TagProviderBuilder('', 'TagProvider', array());
+        $buffer = array();
+
         foreach ($this->classes as $class) {
             try {
+
                 $class->write($force);
+
+                if(strpos($class->getNamespace(), 'PHPExiftool\\Driver\\Tag') === 0) {
+
+                if ( ! isset($buffer[$class->getProperty('GroupName')])) {
+                    $buffer[$class->getProperty('GroupName')] = array();
+                }
+
+                    $buffer[$class->getProperty('GroupName')][$class->getProperty('Name')] = $class->getNamespace() . '\\' . $class->getClassname();
+                }
+
                 $this->output->write(sprintf("\rwriting class #%5d", $n ++ ));
             } catch (\Exception $e) {
                 $this->output->writeln(
@@ -120,6 +134,10 @@ class ClassesBuilder extends Command
                 );
             }
         }
+
+        $classesBuffer->setProperty('available', $buffer);
+
+        $classesBuffer->write(true);
 
         $this->output->writeln('');
 
