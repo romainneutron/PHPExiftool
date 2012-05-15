@@ -141,7 +141,11 @@ class Writer extends Exiftool
 
         $command = self::getBinary();
 
-        $common_args = ' -preserve -charset UTF8 -codedcharacterset=utf8';
+        $common_args = ' -preserve -charset UTF8';
+
+        if (count($metadatas)) {
+            $common_args .= ' -codedcharacterset=utf8';
+        }
 
         if ($this->erase) {
             /**
