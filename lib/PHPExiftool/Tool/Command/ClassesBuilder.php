@@ -110,7 +110,7 @@ class ClassesBuilder extends Command
     {
         $n = 0;
 
-        $classesBuffer = new \PHPExiftool\ClassUtils\TagProviderBuilder('', 'TagProvider', array());
+        $classesBuffer = new \PHPExiftool\ClassUtils\TagProviderBuilder('', 'TagProvider', array(), '\\Pimple');
         $buffer = array();
 
         foreach ($this->classes as $class) {
@@ -135,7 +135,7 @@ class ClassesBuilder extends Command
             }
         }
 
-        $classesBuffer->setProperty('available', $buffer);
+        $classesBuffer->setClasses($buffer);
 
         $classesBuffer->write(true);
 
