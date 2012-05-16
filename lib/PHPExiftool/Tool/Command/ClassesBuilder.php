@@ -118,11 +118,11 @@ class ClassesBuilder extends Command
 
                 $class->write($force);
 
-                if(strpos($class->getNamespace(), 'PHPExiftool\\Driver\\Tag') === 0) {
+                if (strpos($class->getNamespace(), 'PHPExiftool\\Driver\\Tag') === 0) {
 
-                if ( ! isset($buffer[$class->getProperty('GroupName')])) {
-                    $buffer[$class->getProperty('GroupName')] = array();
-                }
+                    if ( ! isset($buffer[$class->getProperty('GroupName')])) {
+                        $buffer[$class->getProperty('GroupName')] = array();
+                    }
 
                     $buffer[$class->getProperty('GroupName')][$class->getProperty('Name')] = $class->getNamespace() . '\\' . $class->getClassname();
                 }
@@ -388,6 +388,10 @@ class ClassesBuilder extends Command
                     'Writable'    => $tag_crawler->attr('writable'),
                     'Description' => $tag_crawler->filter('desc[lang="en"]')->first()->text(),
                     ), $extra);
+
+                if ($tag_crawler->attr('count')) {
+                    $properties['MaxLength'] = $tag_crawler->attr('count');
+                }
 
                 $this->types[$tag_crawler->attr('type')] = $tag_crawler->attr('type');
 
