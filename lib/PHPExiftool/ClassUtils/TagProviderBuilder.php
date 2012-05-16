@@ -37,7 +37,7 @@ class TagProviderBuilder extends Builder
             $content .= "<spaces><spaces><spaces>return array(\n";
 
             foreach ($group as $tagname=>$classname) {
-                $content .= "<spaces><spaces><spaces><spaces>'$tagname' => new $classname(),\n";
+                $content .= "<spaces><spaces><spaces><spaces>'$tagname' => new \\$classname(),\n";
             }
 
             $content .= "<spaces><spaces><spaces>);\n";
