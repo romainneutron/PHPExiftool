@@ -34,4 +34,6 @@ class HintFormat extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Hint Format';
 
+    protected $MaxLength = 4;
+
 }

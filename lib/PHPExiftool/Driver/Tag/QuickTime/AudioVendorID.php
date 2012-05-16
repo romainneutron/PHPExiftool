@@ -34,6 +34,8 @@ class AudioVendorID extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Audio Vendor ID';
 
+    protected $MaxLength = 4;
+
     protected $Values = array(
         'FFMP' => array(
             'Id' => 'FFMP',

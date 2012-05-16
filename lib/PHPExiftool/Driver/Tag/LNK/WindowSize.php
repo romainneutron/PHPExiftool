@@ -34,4 +34,6 @@ class WindowSize extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Window Size';
 
+    protected $MaxLength = 2;
+
 }

@@ -34,6 +34,8 @@ class AudioType extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Audio Type';
 
+    protected $MaxLength = 2;
+
     protected $Values = array(
         '0T' => array(
             'Id' => '0T',

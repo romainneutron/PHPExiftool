@@ -34,4 +34,6 @@ class AudioFormat extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Audio Format';
 
+    protected $MaxLength = 4;
+
 }

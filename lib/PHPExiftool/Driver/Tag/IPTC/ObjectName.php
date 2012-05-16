@@ -34,4 +34,6 @@ class ObjectName extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Object Name';
 
+    protected $MaxLength = 64;
+
 }

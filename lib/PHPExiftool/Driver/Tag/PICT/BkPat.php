@@ -34,4 +34,6 @@ class BkPat extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Background Pattern';
 
+    protected $MaxLength = 8;
+
 }

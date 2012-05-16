@@ -34,4 +34,6 @@ class FillPat extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Fill Pattern';
 
+    protected $MaxLength = 8;
+
 }

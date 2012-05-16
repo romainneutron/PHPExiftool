@@ -34,4 +34,6 @@ class OffsetXY extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Offset XY';
 
+    protected $MaxLength = 2;
+
 }

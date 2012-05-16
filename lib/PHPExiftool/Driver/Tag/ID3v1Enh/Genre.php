@@ -34,4 +34,6 @@ class Genre extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Genre';
 
+    protected $MaxLength = 30;
+
 }

@@ -34,6 +34,8 @@ class XCFVersion extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'XCF Version';
 
+    protected $MaxLength = 5;
+
     protected $Values = array(
         'file' => array(
             'Id' => 'file',

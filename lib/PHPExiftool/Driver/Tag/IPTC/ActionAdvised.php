@@ -34,6 +34,8 @@ class ActionAdvised extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Action Advised';
 
+    protected $MaxLength = 2;
+
     protected $Values = array(
         01 => array(
             'Id' => 01,

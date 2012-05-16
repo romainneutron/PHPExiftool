@@ -34,4 +34,6 @@ class FixtureIdentifier extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Fixture Identifier';
 
+    protected $MaxLength = 32;
+
 }

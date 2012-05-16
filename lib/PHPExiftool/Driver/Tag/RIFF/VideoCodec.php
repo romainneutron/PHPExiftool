@@ -34,6 +34,8 @@ class VideoCodec extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Video Codec';
 
+    protected $MaxLength = 4;
+
     protected $Index = 1;
 
 }

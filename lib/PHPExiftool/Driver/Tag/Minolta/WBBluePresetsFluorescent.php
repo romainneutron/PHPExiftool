@@ -36,4 +36,6 @@ class WBBluePresetsFluorescent extends \PHPExiftool\Driver\Tag
 
     protected $flag_Permanent = true;
 
+    protected $MaxLength = 7;
+
 }

@@ -34,4 +34,6 @@ class MasterDocumentID extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Master Document ID';
 
+    protected $MaxLength = 256;
+
 }

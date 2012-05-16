@@ -38,4 +38,6 @@ class ShutterCount extends \PHPExiftool\Driver\Tag
 
     protected $flag_Unsafe = true;
 
+    protected $MaxLength = 'mixed';
+
 }

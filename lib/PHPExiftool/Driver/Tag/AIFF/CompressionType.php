@@ -34,6 +34,8 @@ class CompressionType extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Compression Type';
 
+    protected $MaxLength = 4;
+
     protected $Values = array(
         'ACE2' => array(
             'Id' => 'ACE2',

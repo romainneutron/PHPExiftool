@@ -34,4 +34,6 @@ class ProfileCreator extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Profile Creator';
 
+    protected $MaxLength = 4;
+
 }

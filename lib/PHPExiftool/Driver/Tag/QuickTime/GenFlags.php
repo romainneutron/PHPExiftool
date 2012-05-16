@@ -34,4 +34,6 @@ class GenFlags extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Gen Flags';
 
+    protected $MaxLength = 3;
+
 }

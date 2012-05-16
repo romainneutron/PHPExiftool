@@ -34,4 +34,6 @@ class TargetXY extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Target XY';
 
+    protected $MaxLength = 2;
+
 }

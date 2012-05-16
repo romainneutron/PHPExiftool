@@ -34,6 +34,8 @@ class DataType extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Data Type';
 
+    protected $MaxLength = 4;
+
     protected $Values = array(
         'artw' => array(
             'Id' => 'artw',

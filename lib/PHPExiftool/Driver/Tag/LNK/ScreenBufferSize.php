@@ -34,4 +34,6 @@ class ScreenBufferSize extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Screen Buffer Size';
 
+    protected $MaxLength = 2;
+
 }

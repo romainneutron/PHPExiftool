@@ -34,6 +34,8 @@ class PrimaryPlatform extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Primary Platform';
 
+    protected $MaxLength = 4;
+
     protected $Values = array(
         'APPL' => array(
             'Id' => 'APPL',

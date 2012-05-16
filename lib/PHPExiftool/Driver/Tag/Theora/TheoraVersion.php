@@ -34,4 +34,6 @@ class TheoraVersion extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Theora Version';
 
+    protected $MaxLength = 3;
+
 }

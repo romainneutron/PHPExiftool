@@ -34,4 +34,6 @@ class DeviceModel extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Device Model';
 
+    protected $MaxLength = 4;
+
 }

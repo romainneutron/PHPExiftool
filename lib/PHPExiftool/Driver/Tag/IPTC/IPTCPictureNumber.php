@@ -34,4 +34,6 @@ class IPTCPictureNumber extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'IPTC Picture Number';
 
+    protected $MaxLength = 16;
+
 }

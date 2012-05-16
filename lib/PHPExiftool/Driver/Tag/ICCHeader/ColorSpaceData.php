@@ -34,4 +34,6 @@ class ColorSpaceData extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Color Space Data';
 
+    protected $MaxLength = 4;
+
 }

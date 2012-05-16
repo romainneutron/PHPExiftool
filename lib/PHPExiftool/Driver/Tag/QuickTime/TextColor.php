@@ -34,4 +34,6 @@ class TextColor extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Text Color';
 
+    protected $MaxLength = 3;
+
 }

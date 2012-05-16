@@ -34,4 +34,6 @@ class SceneCaptureType extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Scene Capture Type';
 
+    protected $MaxLength = 32;
+
 }

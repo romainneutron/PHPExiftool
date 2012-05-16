@@ -36,4 +36,6 @@ class Prefs extends \PHPExiftool\Driver\Tag
 
     protected $local_g2 = 'Image';
 
+    protected $MaxLength = 64;
+
 }

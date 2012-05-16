@@ -34,4 +34,6 @@ class AudioDuration extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Audio Duration';
 
+    protected $MaxLength = 6;
+
 }

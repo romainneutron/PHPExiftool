@@ -34,4 +34,6 @@ class ChromaticityChannel2 extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Chromaticity Channel 2';
 
+    protected $MaxLength = 2;
+
 }

@@ -34,4 +34,6 @@ class GenOpColor extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Gen Op Color';
 
+    protected $MaxLength = 3;
+
 }

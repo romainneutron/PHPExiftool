@@ -34,4 +34,6 @@ class MatrixStructure extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Matrix Structure';
 
+    protected $MaxLength = 9;
+
 }

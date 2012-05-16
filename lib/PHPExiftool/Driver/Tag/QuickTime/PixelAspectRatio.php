@@ -34,4 +34,6 @@ class PixelAspectRatio extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Pixel Aspect Ratio';
 
+    protected $MaxLength = 2;
+
 }

@@ -34,4 +34,6 @@ class ClipBoundary extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Clip Boundary';
 
+    protected $MaxLength = 4;
+
 }

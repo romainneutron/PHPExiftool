@@ -34,6 +34,8 @@ class ErrorCorrectionType extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Error Correction Type';
 
+    protected $MaxLength = 16;
+
     protected $Values = array(
         '20FB5700-5B55-11CF-A8FD-00805F5C442B' => array(
             'Id' => '20FB5700-5B55-11CF-A8FD-00805F5C442B',

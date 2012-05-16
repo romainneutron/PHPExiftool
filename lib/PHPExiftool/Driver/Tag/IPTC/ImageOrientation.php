@@ -36,6 +36,8 @@ class ImageOrientation extends \PHPExiftool\Driver\Tag
 
     protected $local_g2 = 'Image';
 
+    protected $MaxLength = 1;
+
     protected $Values = array(
         'L' => array(
             'Id' => 'L',

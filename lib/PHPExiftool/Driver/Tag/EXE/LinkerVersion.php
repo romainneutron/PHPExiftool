@@ -34,4 +34,6 @@ class LinkerVersion extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Linker Version';
 
+    protected $MaxLength = 2;
+
 }

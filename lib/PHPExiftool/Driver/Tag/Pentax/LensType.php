@@ -36,6 +36,8 @@ class LensType extends \PHPExiftool\Driver\Tag
 
     protected $flag_Permanent = true;
 
+    protected $MaxLength = 'mixed';
+
     protected $Values = array(
         '0 0' => array(
             'Id' => '0 0',

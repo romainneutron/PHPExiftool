@@ -34,6 +34,8 @@ class StreamType extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Stream Type';
 
+    protected $MaxLength = 16;
+
     protected $Values = array(
         '35907DE0-E415-11CF-A917-00805F5C442B' => array(
             'Id' => '35907DE0-E415-11CF-A917-00805F5C442B',

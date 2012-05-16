@@ -34,4 +34,6 @@ class XYLocation extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'XY Location';
 
+    protected $MaxLength = 2;
+
 }

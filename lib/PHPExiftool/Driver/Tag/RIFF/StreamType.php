@@ -34,6 +34,8 @@ class StreamType extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Stream Type';
 
+    protected $MaxLength = 4;
+
     protected $Values = array(
         'auds' => array(
             'Id' => 'auds',

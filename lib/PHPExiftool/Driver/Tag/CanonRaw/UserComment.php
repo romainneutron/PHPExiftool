@@ -36,6 +36,8 @@ class UserComment extends \PHPExiftool\Driver\Tag
 
     protected $flag_Permanent = true;
 
+    protected $MaxLength = 256;
+
     protected $Index = 1;
 
 }

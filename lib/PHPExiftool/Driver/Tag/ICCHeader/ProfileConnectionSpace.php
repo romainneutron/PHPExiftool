@@ -34,4 +34,6 @@ class ProfileConnectionSpace extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Profile Connection Space';
 
+    protected $MaxLength = 4;
+
 }

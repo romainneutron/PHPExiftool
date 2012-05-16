@@ -34,4 +34,6 @@ class TimeReference extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Time Reference';
 
+    protected $MaxLength = 2;
+
 }

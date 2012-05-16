@@ -34,4 +34,6 @@ class OpColor extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Op Color';
 
+    protected $MaxLength = 3;
+
 }

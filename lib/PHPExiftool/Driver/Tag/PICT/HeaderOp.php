@@ -34,4 +34,6 @@ class HeaderOp extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Header Op';
 
+    protected $MaxLength = 12;
+
 }

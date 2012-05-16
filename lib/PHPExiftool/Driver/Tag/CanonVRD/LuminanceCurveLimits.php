@@ -34,4 +34,6 @@ class LuminanceCurveLimits extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Luminance Curve Limits';
 
+    protected $MaxLength = 4;
+
 }

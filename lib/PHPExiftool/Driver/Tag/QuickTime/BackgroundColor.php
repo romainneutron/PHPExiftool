@@ -34,4 +34,6 @@ class BackgroundColor extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Background Color';
 
+    protected $MaxLength = 3;
+
 }

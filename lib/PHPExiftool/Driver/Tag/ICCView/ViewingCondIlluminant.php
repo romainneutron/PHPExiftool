@@ -34,4 +34,6 @@ class ViewingCondIlluminant extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Viewing Cond Illuminant';
 
+    protected $MaxLength = 3;
+
 }

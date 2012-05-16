@@ -36,4 +36,6 @@ class DigitalCreationTime extends \PHPExiftool\Driver\Tag
 
     protected $local_g2 = 'Time';
 
+    protected $MaxLength = 11;
+
 }

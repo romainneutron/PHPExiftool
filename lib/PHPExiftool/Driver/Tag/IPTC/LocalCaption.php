@@ -34,4 +34,6 @@ class LocalCaption extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Local Caption';
 
+    protected $MaxLength = 256;
+
 }

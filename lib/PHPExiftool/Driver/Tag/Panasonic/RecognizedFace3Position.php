@@ -36,4 +36,6 @@ class RecognizedFace3Position extends \PHPExiftool\Driver\Tag
 
     protected $flag_Permanent = true;
 
+    protected $MaxLength = 4;
+
 }

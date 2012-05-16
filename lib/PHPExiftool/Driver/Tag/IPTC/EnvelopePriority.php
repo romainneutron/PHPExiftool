@@ -34,6 +34,8 @@ class EnvelopePriority extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Envelope Priority';
 
+    protected $MaxLength = 1;
+
     protected $Values = array(
         0 => array(
             'Id' => 0,

@@ -34,4 +34,6 @@ class LibraryID extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Library ID';
 
+    protected $MaxLength = 8;
+
 }

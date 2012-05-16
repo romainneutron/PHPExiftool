@@ -36,6 +36,8 @@ class AFPointsUsed extends \PHPExiftool\Driver\Tag
 
     protected $flag_Permanent = true;
 
+    protected $MaxLength = 'mixed';
+
     protected $Index = 'mixed';
 
     protected $Values = array(

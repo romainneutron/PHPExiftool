@@ -34,4 +34,6 @@ class IterationMinMax extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Iteration Min Max';
 
+    protected $MaxLength = 2;
+
 }

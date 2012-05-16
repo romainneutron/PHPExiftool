@@ -34,4 +34,6 @@ class DocumentHistory extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Document History';
 
+    protected $MaxLength = 256;
+
 }

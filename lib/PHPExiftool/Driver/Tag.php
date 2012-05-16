@@ -30,6 +30,8 @@ abstract class Tag
     protected $g0;
     protected $g1;
     protected $g2;
+    protected $MinLength = 0;
+    protected $MaxLength;
     protected $Writable       = false;
     protected $flag_Avoid     = false;
     protected $flag_Binary    = false;
@@ -131,6 +133,16 @@ abstract class Tag
     public function getTagname()
     {
         return $this->GroupName . ':' . $this->Name;
+    }
+
+    public function getMinLength()
+    {
+        return $this->MinLength;
+    }
+
+    public function getMaxLength()
+    {
+        return $this->MaxLength;
     }
 
     /**

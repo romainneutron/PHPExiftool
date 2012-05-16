@@ -34,4 +34,6 @@ class EndTime extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'End Time';
 
+    protected $MaxLength = 6;
+
 }

@@ -34,4 +34,6 @@ class FourCC2 extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Four CC2';
 
+    protected $MaxLength = 4;
+
 }

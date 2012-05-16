@@ -34,4 +34,6 @@ class AudioOutcue extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Audio Outcue';
 
+    protected $MaxLength = 64;
+
 }

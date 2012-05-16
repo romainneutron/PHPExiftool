@@ -36,6 +36,8 @@ class LensSpec extends \PHPExiftool\Driver\Tag
 
     protected $flag_Permanent = true;
 
+    protected $MaxLength = 8;
+
     protected $Index = 'mixed';
 
 }

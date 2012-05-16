@@ -34,4 +34,6 @@ class LanguageIdentifier extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Language Identifier';
 
+    protected $MaxLength = 3;
+
 }

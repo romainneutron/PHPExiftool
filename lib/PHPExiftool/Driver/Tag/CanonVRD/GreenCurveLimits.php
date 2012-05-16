@@ -34,4 +34,6 @@ class GreenCurveLimits extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Green Curve Limits';
 
+    protected $MaxLength = 4;
+
 }

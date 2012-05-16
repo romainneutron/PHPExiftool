@@ -34,4 +34,6 @@ class ShortLineFrom extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Short Line From';
 
+    protected $MaxLength = 2;
+
 }

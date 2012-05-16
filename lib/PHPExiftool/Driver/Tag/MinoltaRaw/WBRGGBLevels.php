@@ -36,6 +36,8 @@ class WBRGGBLevels extends \PHPExiftool\Driver\Tag
 
     protected $flag_Permanent = true;
 
+    protected $MaxLength = 4;
+
     protected $Index = 1;
 
 }

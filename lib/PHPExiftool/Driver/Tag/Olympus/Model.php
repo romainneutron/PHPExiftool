@@ -36,6 +36,8 @@ class Model extends \PHPExiftool\Driver\Tag
 
     protected $flag_Permanent = true;
 
+    protected $MaxLength = 'mixed';
+
     protected $Values = array(
         'D4028' => array(
             'Id' => 'D4028',

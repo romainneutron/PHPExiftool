@@ -34,4 +34,6 @@ class StartTime extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Start Time';
 
+    protected $MaxLength = 6;
+
 }

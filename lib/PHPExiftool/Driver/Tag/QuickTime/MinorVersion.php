@@ -34,4 +34,6 @@ class MinorVersion extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Minor Version';
 
+    protected $MaxLength = 4;
+
 }

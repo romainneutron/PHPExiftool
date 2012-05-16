@@ -34,4 +34,6 @@ class FontName extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Font Name';
 
+    protected $MaxLength = 64;
+
 }

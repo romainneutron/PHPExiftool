@@ -34,4 +34,6 @@ class BlockSize extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Block Size';
 
+    protected $MaxLength = 2;
+
 }

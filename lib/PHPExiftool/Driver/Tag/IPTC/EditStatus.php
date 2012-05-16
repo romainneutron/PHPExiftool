@@ -34,4 +34,6 @@ class EditStatus extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Edit Status';
 
+    protected $MaxLength = 64;
+
 }

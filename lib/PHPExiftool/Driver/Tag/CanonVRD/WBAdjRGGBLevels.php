@@ -34,4 +34,6 @@ class WBAdjRGGBLevels extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'WB Adj RGGB Levels';
 
+    protected $MaxLength = 4;
+
 }

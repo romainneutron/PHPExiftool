@@ -34,4 +34,6 @@ class ShortDocumentID extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Short Document ID';
 
+    protected $MaxLength = 64;
+
 }

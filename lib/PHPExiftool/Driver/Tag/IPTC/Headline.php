@@ -34,4 +34,6 @@ class Headline extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Headline';
 
+    protected $MaxLength = 256;
+
 }

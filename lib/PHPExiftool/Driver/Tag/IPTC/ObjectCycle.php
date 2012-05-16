@@ -34,6 +34,8 @@ class ObjectCycle extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Object Cycle';
 
+    protected $MaxLength = 1;
+
     protected $Values = array(
         'a' => array(
             'Id' => 'a',

@@ -34,4 +34,6 @@ class PreviewAtomType extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Preview Atom Type';
 
+    protected $MaxLength = 4;
+
 }

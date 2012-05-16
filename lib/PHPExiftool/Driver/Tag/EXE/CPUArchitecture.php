@@ -53,4 +53,6 @@ class CPUArchitecture extends \PHPExiftool\Driver\Tag
         ),
     );
 
+    protected $MaxLength = 'mixed';
+
 }

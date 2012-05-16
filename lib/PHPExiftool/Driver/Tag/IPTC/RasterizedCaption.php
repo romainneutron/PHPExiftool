@@ -36,4 +36,6 @@ class RasterizedCaption extends \PHPExiftool\Driver\Tag
 
     protected $flag_Binary = true;
 
+    protected $MaxLength = 7360;
+
 }

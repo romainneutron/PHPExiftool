@@ -34,4 +34,6 @@ class ImageVersion extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Image Version';
 
+    protected $MaxLength = 2;
+
 }

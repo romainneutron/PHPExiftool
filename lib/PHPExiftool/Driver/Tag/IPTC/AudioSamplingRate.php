@@ -34,4 +34,6 @@ class AudioSamplingRate extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Audio Sampling Rate';
 
+    protected $MaxLength = 6;
+
 }

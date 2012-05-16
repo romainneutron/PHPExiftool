@@ -34,4 +34,6 @@ class ImageUniqueID extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Image Unique ID';
 
+    protected $MaxLength = 16;
+
 }

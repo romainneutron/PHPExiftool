@@ -36,6 +36,8 @@ class CanonAFInfo0x000b extends \PHPExiftool\Driver\Tag
 
     protected $flag_Permanent = true;
 
+    protected $MaxLength = 8;
+
     protected $Index = 1;
 
 }

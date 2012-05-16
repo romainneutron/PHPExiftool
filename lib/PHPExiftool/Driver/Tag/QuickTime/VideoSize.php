@@ -34,4 +34,6 @@ class VideoSize extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Video Size';
 
+    protected $MaxLength = 2;
+
 }

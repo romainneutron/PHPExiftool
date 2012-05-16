@@ -34,4 +34,6 @@ class RGBCurveLimits extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'RGB Curve Limits';
 
+    protected $MaxLength = 4;
+
 }

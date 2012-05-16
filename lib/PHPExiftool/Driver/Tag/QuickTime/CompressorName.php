@@ -34,4 +34,6 @@ class CompressorName extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Compressor Name';
 
+    protected $MaxLength = 32;
+
 }

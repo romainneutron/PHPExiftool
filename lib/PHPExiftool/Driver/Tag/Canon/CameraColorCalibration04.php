@@ -36,4 +36,6 @@ class CameraColorCalibration04 extends \PHPExiftool\Driver\Tag
 
     protected $flag_Permanent = true;
 
+    protected $MaxLength = 'mixed';
+
 }

@@ -34,6 +34,8 @@ class HandlerVendorID extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Handler Vendor ID';
 
+    protected $MaxLength = 4;
+
     protected $Values = array(
         'FFMP' => array(
             'Id' => 'FFMP',

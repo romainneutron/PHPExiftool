@@ -34,4 +34,6 @@ class RedCurvePoints extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Red Curve Points';
 
+    protected $MaxLength = 21;
+
 }

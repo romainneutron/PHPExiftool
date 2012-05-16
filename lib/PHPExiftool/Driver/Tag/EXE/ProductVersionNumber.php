@@ -34,4 +34,6 @@ class ProductVersionNumber extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Product Version Number';
 
+    protected $MaxLength = 4;
+
 }

@@ -34,4 +34,6 @@ class Album extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Album';
 
+    protected $MaxLength = 30;
+
 }

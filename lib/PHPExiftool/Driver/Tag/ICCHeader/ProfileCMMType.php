@@ -34,4 +34,6 @@ class ProfileCMMType extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Profile CMM Type';
 
+    protected $MaxLength = 4;
+
 }

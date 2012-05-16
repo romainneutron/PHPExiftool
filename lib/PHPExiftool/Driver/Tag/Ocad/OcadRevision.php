@@ -34,4 +34,6 @@ class OcadRevision extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Ocad Revision';
 
+    protected $MaxLength = 6;
+
 }

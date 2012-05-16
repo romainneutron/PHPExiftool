@@ -34,4 +34,6 @@ class NITFVersion extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'NITF Version';
 
+    protected $MaxLength = 2;
+
 }

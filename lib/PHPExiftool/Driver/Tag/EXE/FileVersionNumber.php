@@ -34,4 +34,6 @@ class FileVersionNumber extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'File Version Number';
 
+    protected $MaxLength = 4;
+
 }

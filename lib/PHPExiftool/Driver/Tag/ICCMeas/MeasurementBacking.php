@@ -34,4 +34,6 @@ class MeasurementBacking extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Measurement Backing';
 
+    protected $MaxLength = 3;
+
 }

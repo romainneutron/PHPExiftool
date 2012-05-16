@@ -36,4 +36,6 @@ class Artist extends \PHPExiftool\Driver\Tag
 
     protected $local_g2 = 'Author';
 
+    protected $MaxLength = 30;
+
 }

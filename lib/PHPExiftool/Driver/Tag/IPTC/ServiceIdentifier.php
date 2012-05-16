@@ -34,4 +34,6 @@ class ServiceIdentifier extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Service Identifier';
 
+    protected $MaxLength = 10;
+
 }

@@ -38,4 +38,6 @@ class WBRGGBLevels extends \PHPExiftool\Driver\Tag
 
     protected $flag_Unsafe = true;
 
+    protected $MaxLength = 4;
+
 }

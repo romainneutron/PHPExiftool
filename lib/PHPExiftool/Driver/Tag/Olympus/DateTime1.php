@@ -38,4 +38,6 @@ class DateTime1 extends \PHPExiftool\Driver\Tag
 
     protected $flag_Permanent = true;
 
+    protected $MaxLength = 24;
+
 }

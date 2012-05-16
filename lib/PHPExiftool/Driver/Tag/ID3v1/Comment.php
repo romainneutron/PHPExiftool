@@ -34,4 +34,6 @@ class Comment extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Comment';
 
+    protected $MaxLength = 30;
+
 }

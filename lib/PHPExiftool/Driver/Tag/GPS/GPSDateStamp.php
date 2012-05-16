@@ -40,4 +40,6 @@ class GPSDateStamp extends \PHPExiftool\Driver\Tag
 
     protected $flag_Permanent = 'mixed';
 
+    protected $MaxLength = 'mixed';
+
 }

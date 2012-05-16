@@ -34,4 +34,6 @@ class GreenCurvePoints extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Green Curve Points';
 
+    protected $MaxLength = 21;
+
 }

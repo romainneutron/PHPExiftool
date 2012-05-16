@@ -34,4 +34,6 @@ class FileID extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'File ID';
 
+    protected $MaxLength = 16;
+
 }

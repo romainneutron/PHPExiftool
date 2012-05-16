@@ -34,4 +34,6 @@ class UniqueDocumentID extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Unique Document ID';
 
+    protected $MaxLength = 128;
+
 }

@@ -34,4 +34,6 @@ class GlyphState extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Glyph State';
 
+    protected $MaxLength = 8;
+
 }

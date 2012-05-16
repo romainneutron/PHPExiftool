@@ -34,6 +34,8 @@ class ProfileClass extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Profile Class';
 
+    protected $MaxLength = 4;
+
     protected $Values = array(
         'abst' => array(
             'Id' => 'abst',

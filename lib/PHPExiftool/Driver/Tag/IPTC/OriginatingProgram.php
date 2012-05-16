@@ -34,4 +34,6 @@ class OriginatingProgram extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Originating Program';
 
+    protected $MaxLength = 32;
+
 }

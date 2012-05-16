@@ -34,4 +34,6 @@ class SPIFFVersion extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'SPIFF Version';
 
+    protected $MaxLength = 2;
+
 }

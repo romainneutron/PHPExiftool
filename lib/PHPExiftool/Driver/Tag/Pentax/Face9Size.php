@@ -36,4 +36,6 @@ class Face9Size extends \PHPExiftool\Driver\Tag
 
     protected $flag_Permanent = true;
 
+    protected $MaxLength = 2;
+
 }

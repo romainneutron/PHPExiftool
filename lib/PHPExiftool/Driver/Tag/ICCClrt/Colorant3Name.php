@@ -34,4 +34,6 @@ class Colorant3Name extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Colorant 3 Name';
 
+    protected $MaxLength = 32;
+
 }

@@ -34,4 +34,6 @@ class SimilarityIndex extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Similarity Index';
 
+    protected $MaxLength = 32;
+
 }

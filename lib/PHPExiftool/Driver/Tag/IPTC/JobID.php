@@ -34,4 +34,6 @@ class JobID extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Job ID';
 
+    protected $MaxLength = 64;
+
 }

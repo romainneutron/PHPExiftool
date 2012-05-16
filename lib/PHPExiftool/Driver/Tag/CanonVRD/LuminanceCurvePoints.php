@@ -34,4 +34,6 @@ class LuminanceCurvePoints extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Luminance Curve Points';
 
+    protected $MaxLength = 21;
+
 }

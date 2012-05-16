@@ -34,4 +34,6 @@ class Originator extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Originator';
 
+    protected $MaxLength = 32;
+
 }

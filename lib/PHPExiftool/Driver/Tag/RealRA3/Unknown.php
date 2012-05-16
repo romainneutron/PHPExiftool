@@ -34,4 +34,6 @@ class Unknown extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Unknown';
 
+    protected $MaxLength = 3;
+
 }

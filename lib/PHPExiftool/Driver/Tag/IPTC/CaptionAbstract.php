@@ -34,4 +34,6 @@ class CaptionAbstract extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Caption-Abstract';
 
+    protected $MaxLength = 2000;
+
 }

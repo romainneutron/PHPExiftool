@@ -34,4 +34,6 @@ class AudioSamplingResolution extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Audio Sampling Resolution';
 
+    protected $MaxLength = 2;
+
 }

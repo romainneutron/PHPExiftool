@@ -34,4 +34,6 @@ class TrackID extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Track ID';
 
+    protected $MaxLength = 8;
+
 }

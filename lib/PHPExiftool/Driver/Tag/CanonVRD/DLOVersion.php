@@ -34,4 +34,6 @@ class DLOVersion extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'DLO Version';
 
+    protected $MaxLength = 10;
+
 }

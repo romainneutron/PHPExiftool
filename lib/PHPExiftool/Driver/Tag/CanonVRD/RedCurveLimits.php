@@ -34,4 +34,6 @@ class RedCurveLimits extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Red Curve Limits';
 
+    protected $MaxLength = 4;
+
 }

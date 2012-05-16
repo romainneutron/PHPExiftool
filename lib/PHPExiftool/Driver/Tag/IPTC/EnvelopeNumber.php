@@ -34,4 +34,6 @@ class EnvelopeNumber extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Envelope Number';
 
+    protected $MaxLength = 8;
+
 }

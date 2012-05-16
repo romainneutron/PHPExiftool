@@ -34,4 +34,6 @@ class OtherFormat extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Other Format';
 
+    protected $MaxLength = 4;
+
 }

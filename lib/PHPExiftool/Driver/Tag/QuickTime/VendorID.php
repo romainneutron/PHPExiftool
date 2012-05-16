@@ -34,6 +34,8 @@ class VendorID extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Vendor ID';
 
+    protected $MaxLength = 4;
+
     protected $Values = array(
         'FFMP' => array(
             'Id' => 'FFMP',

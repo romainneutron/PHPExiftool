@@ -34,4 +34,6 @@ class DjVuVersion extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'DjVu Version';
 
+    protected $MaxLength = 2;
+
 }

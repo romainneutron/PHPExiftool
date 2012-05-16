@@ -38,4 +38,6 @@ class ObjectPreviewData extends \PHPExiftool\Driver\Tag
 
     protected $flag_Binary = true;
 
+    protected $MaxLength = 256000;
+
 }

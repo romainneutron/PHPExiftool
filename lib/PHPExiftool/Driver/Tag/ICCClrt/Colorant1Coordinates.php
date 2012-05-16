@@ -34,4 +34,6 @@ class Colorant1Coordinates extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Colorant 1 Coordinates';
 
+    protected $MaxLength = 3;
+
 }

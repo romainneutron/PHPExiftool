@@ -36,4 +36,6 @@ class DateCreated extends \PHPExiftool\Driver\Tag
 
     protected $local_g2 = 'Time';
 
+    protected $MaxLength = 8;
+
 }

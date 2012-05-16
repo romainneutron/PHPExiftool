@@ -34,4 +34,6 @@ class DeltaXY extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Delta XY';
 
+    protected $MaxLength = 2;
+
 }

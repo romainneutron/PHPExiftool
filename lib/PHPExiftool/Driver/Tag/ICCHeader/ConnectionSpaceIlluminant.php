@@ -34,4 +34,6 @@ class ConnectionSpaceIlluminant extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Connection Space Illuminant';
 
+    protected $MaxLength = 3;
+
 }

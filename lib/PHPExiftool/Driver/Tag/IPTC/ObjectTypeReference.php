@@ -34,4 +34,6 @@ class ObjectTypeReference extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Object Type Reference';
 
+    protected $MaxLength = 67;
+
 }

@@ -34,4 +34,6 @@ class ProfileID extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Profile ID';
 
+    protected $MaxLength = 16;
+
 }

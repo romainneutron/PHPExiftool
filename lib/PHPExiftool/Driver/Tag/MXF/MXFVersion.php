@@ -34,4 +34,6 @@ class MXFVersion extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'MXF Version';
 
+    protected $MaxLength = 2;
+
 }

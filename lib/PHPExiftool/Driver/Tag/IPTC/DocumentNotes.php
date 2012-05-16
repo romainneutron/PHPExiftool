@@ -34,4 +34,6 @@ class DocumentNotes extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Document Notes';
 
+    protected $MaxLength = 1024;
+
 }

@@ -34,4 +34,6 @@ class AudioCodec extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Audio Codec';
 
+    protected $MaxLength = 4;
+
 }

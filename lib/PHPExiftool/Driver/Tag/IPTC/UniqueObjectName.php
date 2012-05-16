@@ -34,4 +34,6 @@ class UniqueObjectName extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Unique Object Name';
 
+    protected $MaxLength = 80;
+
 }

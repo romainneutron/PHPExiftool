@@ -34,4 +34,6 @@ class OriginalTransmissionReference extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Original Transmission Reference';
 
+    protected $MaxLength = 32;
+
 }

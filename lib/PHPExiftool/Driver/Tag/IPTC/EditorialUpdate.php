@@ -34,6 +34,8 @@ class EditorialUpdate extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Editorial Update';
 
+    protected $MaxLength = 2;
+
     protected $Values = array(
         01 => array(
             'Id' => 01,

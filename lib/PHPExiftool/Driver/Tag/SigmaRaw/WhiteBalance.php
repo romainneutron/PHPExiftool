@@ -34,4 +34,6 @@ class WhiteBalance extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'White Balance';
 
+    protected $MaxLength = 32;
+
 }

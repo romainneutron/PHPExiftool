@@ -34,6 +34,8 @@ class MajorBrand extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Major Brand';
 
+    protected $MaxLength = 4;
+
     protected $Values = array(
         '3g2a' => array(
             'Id' => '3g2a',

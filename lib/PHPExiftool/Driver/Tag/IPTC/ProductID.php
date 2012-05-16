@@ -36,4 +36,6 @@ class ProductID extends \PHPExiftool\Driver\Tag
 
     protected $flag_List = true;
 
+    protected $MaxLength = 32;
+
 }

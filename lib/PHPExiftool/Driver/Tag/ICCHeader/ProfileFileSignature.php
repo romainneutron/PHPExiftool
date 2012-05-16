@@ -34,4 +34,6 @@ class ProfileFileSignature extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Profile File Signature';
 
+    protected $MaxLength = 4;
+
 }

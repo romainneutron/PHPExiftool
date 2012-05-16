@@ -34,4 +34,6 @@ class PnPat extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Pen Pattern';
 
+    protected $MaxLength = 8;
+
 }

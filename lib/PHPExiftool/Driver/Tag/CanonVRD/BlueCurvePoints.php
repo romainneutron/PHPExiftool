@@ -34,4 +34,6 @@ class BlueCurvePoints extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Blue Curve Points';
 
+    protected $MaxLength = 21;
+
 }

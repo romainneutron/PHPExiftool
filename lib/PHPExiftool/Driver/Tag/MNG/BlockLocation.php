@@ -34,4 +34,6 @@ class BlockLocation extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Block Location';
 
+    protected $MaxLength = 2;
+
 }

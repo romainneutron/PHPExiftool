@@ -34,4 +34,6 @@ class Category extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Category';
 
+    protected $MaxLength = 3;
+
 }

@@ -34,4 +34,6 @@ class WindowOrigin extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Window Origin';
 
+    protected $MaxLength = 2;
+
 }

@@ -34,4 +34,6 @@ class PastClippingBoundary extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Past Clipping Boundary';
 
+    protected $MaxLength = 4;
+
 }

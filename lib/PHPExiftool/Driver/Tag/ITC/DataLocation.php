@@ -34,6 +34,8 @@ class DataLocation extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Data Location';
 
+    protected $MaxLength = 4;
+
     protected $Values = array(
         'down' => array(
             'Id' => 'down',

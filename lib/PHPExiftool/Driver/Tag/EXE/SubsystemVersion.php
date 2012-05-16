@@ -34,4 +34,6 @@ class SubsystemVersion extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Subsystem Version';
 
+    protected $MaxLength = 2;
+
 }

@@ -34,4 +34,6 @@ class ViewingCondSurround extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Viewing Cond Surround';
 
+    protected $MaxLength = 3;
+
 }

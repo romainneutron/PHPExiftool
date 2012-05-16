@@ -34,4 +34,6 @@ class RGBCurvePoints extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'RGB Curve Points';
 
+    protected $MaxLength = 21;
+
 }

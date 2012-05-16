@@ -34,4 +34,6 @@ class BlueCurveLimits extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Blue Curve Limits';
 
+    protected $MaxLength = 4;
+
 }

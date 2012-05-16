@@ -36,6 +36,8 @@ class DigitalFilter12 extends \PHPExiftool\Driver\Tag
 
     protected $flag_Permanent = true;
 
+    protected $MaxLength = 17;
+
     protected $Values = array(
         0 => array(
             'Id' => 0,

@@ -34,4 +34,6 @@ class ExifCameraInfo extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Exif Camera Info';
 
+    protected $MaxLength = 4096;
+
 }

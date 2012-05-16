@@ -34,4 +34,6 @@ class ImageType extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Image Type';
 
+    protected $MaxLength = 4;
+
 }

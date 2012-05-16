@@ -34,4 +34,6 @@ class ClassifyState extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Classify State';
 
+    protected $MaxLength = 64;
+
 }

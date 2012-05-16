@@ -34,4 +34,6 @@ class FontSize extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Font Size';
 
+    protected $MaxLength = 2;
+
 }

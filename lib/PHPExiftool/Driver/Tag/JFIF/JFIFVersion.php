@@ -34,4 +34,6 @@ class JFIFVersion extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'JFIF Version';
 
+    protected $MaxLength = 2;
+
 }

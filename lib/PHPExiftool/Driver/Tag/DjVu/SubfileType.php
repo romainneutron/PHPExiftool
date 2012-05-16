@@ -34,6 +34,8 @@ class SubfileType extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Subfile Type';
 
+    protected $MaxLength = 4;
+
     protected $Values = array(
         'BM44' => array(
             'Id' => 'BM44',

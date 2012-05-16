@@ -34,4 +34,6 @@ class SpecialInstructions extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Special Instructions';
 
+    protected $MaxLength = 256;
+
 }

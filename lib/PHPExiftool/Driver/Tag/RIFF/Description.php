@@ -34,4 +34,6 @@ class Description extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Description';
 
+    protected $MaxLength = 256;
+
 }

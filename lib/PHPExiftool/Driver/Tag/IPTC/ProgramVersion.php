@@ -34,4 +34,6 @@ class ProgramVersion extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Program Version';
 
+    protected $MaxLength = 10;
+
 }

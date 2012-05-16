@@ -36,4 +36,6 @@ class KodakModel extends \PHPExiftool\Driver\Tag
 
     protected $flag_Permanent = true;
 
+    protected $MaxLength = 'mixed';
+
 }

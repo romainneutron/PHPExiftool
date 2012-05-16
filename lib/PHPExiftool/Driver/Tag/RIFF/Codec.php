@@ -34,6 +34,8 @@ class Codec extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Codec';
 
+    protected $MaxLength = 4;
+
     protected $Index = 2;
 
 }

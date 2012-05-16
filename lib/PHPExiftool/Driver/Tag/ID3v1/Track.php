@@ -34,4 +34,6 @@ class Track extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Track';
 
+    protected $MaxLength = 2;
+
 }

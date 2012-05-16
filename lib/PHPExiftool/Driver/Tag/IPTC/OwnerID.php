@@ -34,4 +34,6 @@ class OwnerID extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Owner ID';
 
+    protected $MaxLength = 128;
+
 }

@@ -34,6 +34,8 @@ class HandlerClass extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Handler Class';
 
+    protected $MaxLength = 4;
+
     protected $Values = array(
         'dhlr' => array(
             'Id' => 'dhlr',

@@ -34,6 +34,8 @@ class Urgency extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Urgency';
 
+    protected $MaxLength = 1;
+
     protected $Values = array(
         0 => array(
             'Id' => 0,

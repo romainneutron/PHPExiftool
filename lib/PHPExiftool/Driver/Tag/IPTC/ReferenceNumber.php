@@ -36,4 +36,6 @@ class ReferenceNumber extends \PHPExiftool\Driver\Tag
 
     protected $flag_List = true;
 
+    protected $MaxLength = 8;
+
 }

@@ -34,4 +34,6 @@ class LineJustify extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Line Justify';
 
+    protected $MaxLength = 10;
+
 }

@@ -34,4 +34,6 @@ class OSVersion extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'OS Version';
 
+    protected $MaxLength = 2;
+
 }
