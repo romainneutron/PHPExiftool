@@ -13,6 +13,7 @@ namespace PHPExiftool\ClassUtils;
 
 class TagProviderBuilder extends Builder
 {
+    protected $classes = array();
 
     public function generateContent()
     {
@@ -28,8 +29,41 @@ class TagProviderBuilder extends Builder
 
         $content .= $this->generateClassProperties($this->properties);
 
-        $content .= "\n<spaces>public function getAvailable()\n<spaces>{\n"
-        ."<spaces><spaces>return \$this->available;\n<spaces>}\n";
+        $content .= "\n<spaces>public function __construct()\n<spaces>{\n";
+
+        foreach ($this->classes as $groupname=>$group) {
+
+            $content .= "<spaces><spaces>\$this['$groupname'] = \$this->share(function(){\n";
+            $content .= "<spaces><spaces><spaces>return array(\n";
+
+            foreach ($group as $tagname=>$classname) {
+                $content .= "<spaces><spaces><spaces><spaces>'$tagname' => new $classname(),\n";
+            }
+
+            $content .= "<spaces><spaces><spaces>);\n";
+            $content .= "<spaces><spaces>});\n";
+
+        }
+
+        $content .= "\n<spaces>}\n";
+
+
+
+
+        $content .= "\n<spaces>public function getAll()\n<spaces>{\n";
+
+        $content .= "\n<spaces><spaces>return array(\n";
+
+        foreach ($this->classes as $groupname=>$group) {
+
+            $content .= "<spaces><spaces><spaces>'$groupname' => \$this['$groupname'],\n";
+
+        }
+
+        $content .= "\n<spaces><spaces>);\n";
+
+        $content .= "\n<spaces>}\n";
+
 
         $content .= "\n}\n";
 
@@ -44,5 +78,10 @@ class TagProviderBuilder extends Builder
         );
 
         return $content;
+    }
+
+    public function setClasses(Array $classes)
+    {
+        $this->classes = $classes;
     }
 }
