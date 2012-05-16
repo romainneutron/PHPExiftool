@@ -2,8 +2,8 @@
 
 namespace PHPExiftool\Driver;
 
-class TagTest extends \PHPUnit_Framework_TestCase
-{
+class TagTest extends \PHPUnit_Framework_TestCase {
+
     /**
      * @var Tag
      */
@@ -20,18 +20,17 @@ class TagTest extends \PHPUnit_Framework_TestCase
      * @covers \PHPExiftool\Driver\Tag::isWritable
      * @covers \PHPExiftool\Driver\Tag::isBinary
      */
-    public function testConsistency()
-    {
+    public function testConsistency() {
         $finder = new \Symfony\Component\Finder\Finder();
         $finder->files()->in(array(__DIR__ . '/../../../../lib/PHPExiftool/Driver/Tag/'));
 
         foreach ($finder as $file) {
             $classname = substr(
-                str_replace(
-                    array(realpath(__DIR__ . '/../../../../lib'), '/')
-                    , array('', '\\')
-                    , $file->getRealPath()
-                ), 0, -4);
+                    str_replace(
+                            array(realpath(__DIR__ . '/../../../../lib'), '/')
+                            , array('', '\\')
+                            , $file->getRealPath()
+                    ), 0, -4);
 
 
             $tag = new $classname;
@@ -63,7 +62,12 @@ class TagTest extends \PHPUnit_Framework_TestCase
             else
                 $this->assertFalse($tag->isBinary());
 
+            $tag->getMaxLength();
+            
+            $this->assertEquals(0, $tag->getMinLength());
+
             unset($tag);
         }
     }
+
 }
