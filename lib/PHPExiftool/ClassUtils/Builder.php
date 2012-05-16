@@ -12,7 +12,7 @@
 namespace PHPExiftool\ClassUtils;
 
 /**
- * Buil and write Tag classes
+ * Build and write Tag classes
  *
  * @author      Romain Neutron - imprec@gmail.com
  * @license     http://opensource.org/licenses/MIT MIT
