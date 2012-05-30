@@ -47,8 +47,8 @@ class FileEntity implements \IteratorAggregate
     /**
      * Construct a new FileEntity
      *
-     * @param \SplFileInfo $file
-     * @param \DOMDocument $dom
+     * @param  \SplFileInfo            $file
+     * @param  \DOMDocument            $dom
      * @return \PHPExiftool\FileEntity
      */
     public function __construct(\SplFileInfo $file, \DOMDocument $dom, \PHPExiftool\RDFParser $parser)
@@ -85,8 +85,7 @@ class FileEntity implements \IteratorAggregate
     {
         $key = realpath($this->file->getPathname());
 
-        if ($this->cache->contains($key))
-        {
+        if ($this->cache->contains($key)) {
             return $this->cache->fetch($key);
         }
 
@@ -100,7 +99,7 @@ class FileEntity implements \IteratorAggregate
     /**
      * Execute a user defined query to retrieve metadata
      *
-     * @param string $query
+     * @param  string $query
      * @return string
      */
     public function executeQuery($query)

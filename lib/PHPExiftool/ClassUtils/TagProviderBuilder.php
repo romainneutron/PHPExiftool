@@ -47,9 +47,6 @@ class TagProviderBuilder extends Builder
 
         $content .= "\n<spaces>}\n";
 
-
-
-
         $content .= "\n<spaces>public function getAll()\n<spaces>{\n";
 
         $content .= "\n<spaces><spaces>return array(\n";
@@ -63,7 +60,6 @@ class TagProviderBuilder extends Builder
         $content .= "\n<spaces><spaces>);\n";
 
         $content .= "\n<spaces>}\n";
-
 
         $content .= "\n}\n";
 

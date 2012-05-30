@@ -101,8 +101,8 @@ class Reader extends Exiftool implements \IteratorAggregate
      *      $Reader ->files('dc00.jpg')
      *              ->files(array('/tmp/image.jpg', '/tmp/raw.CR2'))
      *
-     * @param   string|array        $files  The files
-     * @return  \PHPExiftool\Reader
+     * @param  string|array        $files The files
+     * @return \PHPExiftool\Reader
      */
     public function files($files)
     {
@@ -122,8 +122,8 @@ class Reader extends Exiftool implements \IteratorAggregate
      *      $Reader ->in('documents')
      *              ->in(array('/tmp', '/var'))
      *
-     * @param   string|array         $dirs  The directories
-     * @return  \PHPExiftool\Reader
+     * @param  string|array        $dirs The directories
+     * @return \PHPExiftool\Reader
      */
     public function in($dirs)
     {
@@ -137,7 +137,7 @@ class Reader extends Exiftool implements \IteratorAggregate
      * Append a reader to this one.
      * Finale result will be the sum of the current reader and all appended ones.
      *
-     * @param Reader $reader    The reader to append
+     * @param  Reader              $reader The reader to append
      * @return \PHPExiftool\Reader
      */
     public function append(Reader $reader)
@@ -161,7 +161,7 @@ class Reader extends Exiftool implements \IteratorAggregate
      *      $Reader ->in('documents')
      *              ->sort('filename')
      *
-     * @param string|array $by
+     * @param  string|array        $by
      * @return \PHPExiftool\Reader
      */
     public function sort($by)
@@ -199,8 +199,8 @@ class Reader extends Exiftool implements \IteratorAggregate
      *      $Reader ->in('documents')
      *              ->exclude(array('test'))
      *
-     * @param   string|array        $dirs The directories
-     * @return  \PHPExiftool\Reader
+     * @param  string|array        $dirs The directories
+     * @return \PHPExiftool\Reader
      */
     public function exclude($dirs)
     {
@@ -214,10 +214,10 @@ class Reader extends Exiftool implements \IteratorAggregate
      * Restrict / Discard files based on extensions
      * Extensions are case insensitive
      *
-     * @param   string|array    $extensions The list of extension
-     * @param   boolean         $restrict   Toggle restrict/discard method
-     * @return  \PHPExiftool\Reader
-     * @throws  Exception\LogicException
+     * @param  string|array             $extensions The list of extension
+     * @param  Boolean                  $restrict   Toggle restrict/discard method
+     * @return \PHPExiftool\Reader
+     * @throws Exception\LogicException
      */
     public function extensions($extensions, $restrict = true)
     {
@@ -375,8 +375,8 @@ class Reader extends Exiftool implements \IteratorAggregate
     /**
      * Compute raw exclude rules to simple ones, based on exclude dirs and search dirs
      *
-     * @param type $rawExcludeDirs
-     * @param type $rawDirs
+     * @param  type                       $rawExcludeDirs
+     * @param  type                       $rawDirs
      * @return type
      * @throws Exception\RuntimeException
      */

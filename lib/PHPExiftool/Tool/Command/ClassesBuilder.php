@@ -337,7 +337,6 @@ class ClassesBuilder extends Command
 
                 $flags = explode(',', $tag_crawler->attr('flags'));
 
-
                 if (in_array('Avoid', $flags)) {
                     $extra['flag_Avoid'] = 'true';
                 }
@@ -441,7 +440,7 @@ class ClassesBuilder extends Command
 
     /**
      *
-     * @param type $name
+     * @param  type $name
      * @return type
      */
     public static function generateClassname($name)

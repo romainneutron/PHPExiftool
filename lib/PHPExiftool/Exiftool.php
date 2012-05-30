@@ -19,7 +19,7 @@ abstract class Exiftool
     /**
      * Execute a command and return the output
      *
-     * @param string $command
+     * @param  string     $command
      * @return string
      * @throws \Exception
      */

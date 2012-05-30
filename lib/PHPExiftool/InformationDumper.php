@@ -42,7 +42,7 @@ class InformationDumper extends Exiftool
      * Return the result of a Exiftool -list* command
      *
      * @see http://www.sno.phy.queensu.ca/~phil/exiftool/exiftool_pod.html#item__2dlist_2c__2dlistw_2c__2dlistf_2c__2dlistr_2c__2d
-     * @param string $type One of the LISTTYPE_* constants
+     * @param  string     $type One of the LISTTYPE_* constants
      * @return type
      * @throws \Exception
      */

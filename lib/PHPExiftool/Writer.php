@@ -55,9 +55,9 @@ class Writer extends Exiftool
     /**
      * Enable / Disable modes
      *
-     * @param   int                 $mode   One of the self::MODE_*
-     * @param   boolean             $active Enable or disable the mode
-     * @return  \PHPExiftool\Writer
+     * @param  integer             $mode   One of the self::MODE_*
+     * @param  Boolean             $active Enable or disable the mode
+     * @return \PHPExiftool\Writer
      */
     public function setMode($mode, $active)
     {
@@ -73,8 +73,8 @@ class Writer extends Exiftool
     /**
      * Return true if the mode is enabled
      *
-     * @param   int     $mode   One of the self::MODE_*
-     * @return  boolean         True if the mode is enabled
+     * @param  integer $mode One of the self::MODE_*
+     * @return Boolean True if the mode is enabled
      */
     public function isMode($mode)
     {
@@ -85,8 +85,8 @@ class Writer extends Exiftool
      * Enable / disable module.
      * There's currently only one module self::MODULE_MWG
      *
-     * @param int                   $module     One of the self::MODULE_*
-     * @param boolean               $active     Enable or disable the module
+     * @param  integer             $module One of the self::MODULE_*
+     * @param  Boolean             $active Enable or disable the module
      * @return \PHPExiftool\Writer
      */
     public function setModule($module, $active)
@@ -103,7 +103,7 @@ class Writer extends Exiftool
     /**
      * Return true if the module is enabled
      *
-     * @param int $module
+     * @param  integer $module
      * @return boolean
      */
     public function hasModule($module)
@@ -114,7 +114,7 @@ class Writer extends Exiftool
     /**
      * If set to true, erase all metadatas before write
      *
-     * @param boolean $boolean
+     * @param Boolean $boolean
      */
     public function erase($boolean)
     {
@@ -125,11 +125,11 @@ class Writer extends Exiftool
      * Writes metadatas to the file. If a destination is provided, original file
      * is not modified.
      *
-     * @param string        $file           The input file
-     * @param MetadataBag   $metadatas      A bag of metadatas
-     * @param string        $destination    The output file
+     * @param string      $file        The input file
+     * @param MetadataBag $metadatas   A bag of metadatas
+     * @param string      $destination The output file
      *
-     * @return int  the number of file written
+     * @return int the number of file written
      *
      * @throws Exception\InvalidArgumentException
      */
@@ -208,7 +208,7 @@ class Writer extends Exiftool
     /**
      * Computes modes, modules and metadatas to a single commandline
      *
-     * @param MetadataBag $metadatas    A Bag of metadatas
+     * @param MetadataBag $metadatas A Bag of metadatas
      *
      * @return string A part of the command
      */

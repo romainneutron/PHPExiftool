@@ -76,7 +76,6 @@ class WriterTest extends \PHPUnit_Framework_TestCase
         $changedFiles = $this->object->write($this->in, $metadatas, $this->out);
         $this->assertEquals(1, $changedFiles);
 
-
         $reader = new Reader();
         $this->assertGreaterThan(200, count($reader->files($this->in)->first()->getMetadatas()));
 

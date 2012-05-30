@@ -38,7 +38,7 @@ class RDFParser
     /**
      * Opens an XML file for parsing
      *
-     * @param string $XML
+     * @param  string                 $XML
      * @return \PHPExiftool\RDFParser
      */
     public function open($XML)
@@ -138,8 +138,8 @@ class RDFParser
     /**
      * Returns the first result for a user defined query against the RDF
      *
-     * @param string $query
-     * @return \PHPExiftool\Driver\Value\Value  The value
+     * @param  string                          $query
+     * @return \PHPExiftool\Driver\Value\Value The value
      */
     public function Query($query)
     {
@@ -163,8 +163,8 @@ class RDFParser
     /**
      * Normalize a tagname based on namespaces redirections
      *
-     * @param string    $tagname    The tagname to normalize
-     * @return string               The normalized tagname
+     * @param  string $tagname The tagname to normalize
+     * @return string The normalized tagname
      */
     protected function normalize($tagname)
     {
@@ -194,8 +194,8 @@ class RDFParser
     /**
      * Extract all XML namespaces declared in a XML
      *
-     * @param \DOMDocument $dom
-     * @return array            The namespaces declared in XML
+     * @param  \DOMDocument $dom
+     * @return array        The namespaces declared in XML
      */
     protected static function getNamespacesFromXml(\DOMDocument $dom)
     {
@@ -217,9 +217,9 @@ class RDFParser
     /**
      * Read the node value, decode it if needed
      *
-     * @param   \DOMNode            $node   The node to read
-     * @param   Driver\Tag          $tag    The tag associated
-     * @return  Driver\Value\Value          The value extracted
+     * @param  \DOMNode           $node The node to read
+     * @param  Driver\Tag         $tag  The tag associated
+     * @return Driver\Value\Value The value extracted
      */
     protected function readNodeValue(\DOMNode $node, Driver\Tag $tag = null)
     {
@@ -291,7 +291,7 @@ class RDFParser
     /**
      * Compute the DOMXpath from the DOMDocument
      *
-     * @return \DOMXpath                    The DOMXpath object related to the XML
+     * @return \DOMXpath                  The DOMXpath object related to the XML
      * @throws Exception\RuntimeException
      */
     protected function getDomXpath()

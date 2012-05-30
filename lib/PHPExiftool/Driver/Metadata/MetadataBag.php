@@ -25,7 +25,7 @@ class MetadataBag extends ArrayCollection
     /**
      * Returns all the elements which key matches the regexp
      *
-     * @param string $regexp
+     * @param  string      $regexp
      * @return MetadataBag
      */
     public function filterKeysByRegExp($regexp)

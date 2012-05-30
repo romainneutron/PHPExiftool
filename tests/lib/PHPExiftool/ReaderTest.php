@@ -11,7 +11,8 @@ class ReaderTest extends \PHPUnit_Framework_TestCase {
     protected static $tmpDir;
     protected static $disableSymLinkTest = false;
 
-    public static function setUpBeforeClass() {
+    public static function setUpBeforeClass()
+    {
         parent::setUpBeforeClass();
 
         $tmpDir = __DIR__ . '/tmp';
@@ -90,21 +91,24 @@ class ReaderTest extends \PHPUnit_Framework_TestCase {
     /**
      * @covers PHPExiftool\Reader::__construct
      */
-    protected function setUp() {
+    protected function setUp()
+    {
         $this->object = new Reader();
     }
 
     /**
      * @covers PHPExiftool\Reader::__destruct
      */
-    protected function tearDown() {
+    protected function tearDown()
+    {
         $this->object = null;
     }
 
     /**
      * @covers PHPExiftool\Reader::getIterator
      */
-    public function testGetIterator() {
+    public function testGetIterator()
+    {
         $file = self::$tmpDir . '/hello.exiftool';
         $this->assertInstanceOf('\\Iterator', $this->object->files($file)->getIterator());
     }
@@ -113,7 +117,8 @@ class ReaderTest extends \PHPUnit_Framework_TestCase {
      * @covers PHPExiftool\Reader::append
      * @covers PHPExiftool\Reader::all
      */
-    public function testAppend() {
+    public function testAppend()
+    {
         $file1 = self::$tmpDir . '/hello.exiftool';
         $file2 = self::$tmpDir . '/hello.world';
         $file3 = self::$tmpDir . '/dir/newfile.txt';
@@ -128,7 +133,8 @@ class ReaderTest extends \PHPUnit_Framework_TestCase {
      * @covers PHPExiftool\Reader::sort
      * @covers PHPExiftool\Reader::all
      */
-    public function testSort() {
+    public function testSort()
+    {
         $file1 = self::$tmpDir . '/hello.exiftool';
         $file2 = self::$tmpDir . '/hello.world';
         $file3 = self::$tmpDir . '/dir/newfile.txt';
@@ -150,7 +156,8 @@ class ReaderTest extends \PHPUnit_Framework_TestCase {
      * @covers PHPExiftool\Reader::files
      * @covers PHPExiftool\Reader::buildQuery
      */
-    public function testFiles() {
+    public function testFiles()
+    {
         $file = self::$tmpDir . '/hello.exiftool';
         $this->object->files($file);
 
@@ -162,7 +169,8 @@ class ReaderTest extends \PHPUnit_Framework_TestCase {
     /**
      * @covers PHPExiftool\Reader::resetResults
      */
-    public function testResetFilters() {
+    public function testResetFilters()
+    {
         $file = self::$tmpDir . '/hello.exiftool';
         $this->object->files($file)->all();
         $file = self::$tmpDir . '/hello.world';
@@ -175,7 +183,8 @@ class ReaderTest extends \PHPUnit_Framework_TestCase {
      * @covers PHPExiftool\Reader::ignoreDotFiles
      * @covers PHPExiftool\Reader::all
      */
-    public function testIgnoreVCS() {
+    public function testIgnoreVCS()
+    {
         $this->object->in(self::$tmpDir . '3');
         $this->assertEquals(1, count($this->object->all()));
     }
@@ -184,7 +193,8 @@ class ReaderTest extends \PHPUnit_Framework_TestCase {
      * @covers PHPExiftool\Reader::ignoreDotFiles
      * @covers PHPExiftool\Reader::all
      */
-    public function testIgnoreDotFiles() {
+    public function testIgnoreDotFiles()
+    {
         $this->object->in(self::$tmpDir . '3');
         $this->assertEquals(1, count($this->object->all()));
 
@@ -197,7 +207,8 @@ class ReaderTest extends \PHPUnit_Framework_TestCase {
      * @covers PHPExiftool\Reader::buildQuery
      * @covers PHPExiftool\Reader::all
      */
-    public function testIn() {
+    public function testIn()
+    {
         $reader = new Reader();
         $reader->in(self::$tmpDir);
 
@@ -221,7 +232,8 @@ class ReaderTest extends \PHPUnit_Framework_TestCase {
      * @covers PHPExiftool\Reader::buildQuery
      * @covers PHPExiftool\Reader::all
      */
-    public function testExclude() {
+    public function testExclude()
+    {
         $reader = new Reader();
         $reader
                 ->in(self::$tmpDir)
@@ -235,7 +247,8 @@ class ReaderTest extends \PHPUnit_Framework_TestCase {
      * @covers PHPExiftool\Reader::computeExcludeDirs
      * @covers PHPExiftool\Reader::all
      */
-    public function testComputeExcludeDirs($dir) {
+    public function testComputeExcludeDirs($dir)
+    {
         $reader = new Reader();
         $reader
                 ->in(self::$tmpDir)
@@ -243,7 +256,8 @@ class ReaderTest extends \PHPUnit_Framework_TestCase {
                 ->all();
     }
 
-    public function getExclude() {
+    public function getExclude()
+    {
         return array(
             array(self::$tmpDir . '/dir/'),
             array(self::$tmpDir . '/dir'),
@@ -261,7 +275,8 @@ class ReaderTest extends \PHPUnit_Framework_TestCase {
      * @covers \PHPExiftool\Exception\RuntimeException
      * @expectedException \PHPExiftool\Exception\RuntimeException
      */
-    public function testComputeExcludeDirsFail($dir) {
+    public function testComputeExcludeDirsFail($dir)
+    {
         $reader = new Reader();
         $reader
                 ->in(self::$tmpDir)
@@ -269,7 +284,8 @@ class ReaderTest extends \PHPUnit_Framework_TestCase {
                 ->all();
     }
 
-    public function getWrongExclude() {
+    public function getWrongExclude()
+    {
         return array(
             array(self::$tmpDir . '/dir/dir2'),
             array(self::$tmpDir . '/dirlo'),
@@ -285,7 +301,8 @@ class ReaderTest extends \PHPUnit_Framework_TestCase {
      * @covers PHPExiftool\Reader::buildQuery
      * @covers PHPExiftool\Reader::buildQueryAndExecute
      */
-    public function testExtensions() {
+    public function testExtensions()
+    {
         $reader = new Reader();
         $reader->in(self::$tmpDir);
         $this->assertEquals(3, count($reader->all()));
@@ -316,7 +333,8 @@ class ReaderTest extends \PHPUnit_Framework_TestCase {
      * @covers \PHPExiftool\Exception\LogicException
      * @expectedException \PHPExiftool\Exception\LogicException
      */
-    public function testExtensionsMisUse() {
+    public function testExtensionsMisUse()
+    {
         $reader = new Reader();
         $reader->extensions('exiftool')->extensions('world', false);
     }
@@ -324,7 +342,8 @@ class ReaderTest extends \PHPUnit_Framework_TestCase {
     /**
      * @covers PHPExiftool\Reader::followSymLinks
      */
-    public function testFollowSymLinks() {
+    public function testFollowSymLinks()
+    {
         if (self::$disableSymLinkTest) {
             $this->markTestSkipped('This system does not support symlinks');
         }
@@ -341,7 +360,8 @@ class ReaderTest extends \PHPUnit_Framework_TestCase {
      * @covers PHPExiftool\Reader::notRecursive
      * @covers PHPExiftool\Reader::buildQuery
      */
-    public function testNotRecursive() {
+    public function testNotRecursive()
+    {
         $reader = new Reader();
         $reader->in(self::$tmpDir)->notRecursive();
         $this->assertEquals(2, count($reader->all()));
@@ -350,7 +370,8 @@ class ReaderTest extends \PHPUnit_Framework_TestCase {
     /**
      * @covers PHPExiftool\Reader::getOneOrNull
      */
-    public function testGetOneOrNull() {
+    public function testGetOneOrNull()
+    {
         $reader = new Reader();
         $reader->in(self::$tmpDir)->notRecursive()->extensions(array('world', 'exiftool'), false);
 
@@ -362,7 +383,8 @@ class ReaderTest extends \PHPUnit_Framework_TestCase {
      * @covers \PHPExiftool\Exception\EmptyCollectionException
      * @expectedException \PHPExiftool\Exception\EmptyCollectionException
      */
-    public function testFirstEmpty() {
+    public function testFirstEmpty()
+    {
         $reader = new Reader();
         $reader->in(self::$tmpDir)->notRecursive()->extensions(array('world', 'exiftool'), false);
         $reader->first();
@@ -371,7 +393,8 @@ class ReaderTest extends \PHPUnit_Framework_TestCase {
     /**
      * @covers PHPExiftool\Reader::first
      */
-    public function testFirst() {
+    public function testFirst()
+    {
         $reader = new Reader();
         $reader
                 ->in(self::$tmpDir);
@@ -383,7 +406,8 @@ class ReaderTest extends \PHPUnit_Framework_TestCase {
      * @covers PHPExiftool\Reader::buildQuery
      * @expectedException \PHPExiftool\Exception\LogicException
      */
-    public function testFail() {
+    public function testFail()
+    {
         $reader = new Reader();
         $reader->all();
     }
@@ -392,7 +416,8 @@ class ReaderTest extends \PHPUnit_Framework_TestCase {
      * @covers PHPExiftool\Reader::all
      * @covers PHPExiftool\Reader::buildQueryAndExecute
      */
-    public function testAll() {
+    public function testAll()
+    {
         $reader = new Reader();
         $reader->in(self::$tmpDir);
 
