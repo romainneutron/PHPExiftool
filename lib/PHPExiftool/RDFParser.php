@@ -230,6 +230,7 @@ class RDFParser
         }
 
         if ($node->getElementsByTagNameNS(self::RDF_NAMESPACE, 'Bag')->length > 0) {
+
             $ret = array();
 
             foreach ($node->getElementsByTagNameNS(self::RDF_NAMESPACE, 'li') as $nodeElement) {
@@ -242,12 +243,14 @@ class RDFParser
                 return new Driver\Value\Mono(implode(' ', $ret));
             }
         } elseif ($node->getAttribute('rdf:datatype') === 'http://www.w3.org/2001/XMLSchema#base64Binary') {
+
             if (is_null($tag) || $tag->isBinary()) {
                 return Driver\Value\Binary::loadFromBase64($node->nodeValue);
             } else {
                 return new Driver\Value\Mono(base64_decode($node->nodeValue));
             }
         } else {
+
             if ( ! is_null($tag) && $tag->isMulti()) {
                 return new Driver\Value\Multi($node->nodeValue);
             } else {
