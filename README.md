@@ -2,16 +2,20 @@
 
 [![Build Status](https://secure.travis-ci.org/romainneutron/PHPExiftool.png?branch=master)](http://travis-ci.org/romainneutron/PHPExiftool)
 
-PHP Exiftool is an Object Oriented driver for Phil Harvey's Exiftool.
+PHP Exiftool is an Object Oriented driver for Phil Harvey's Exiftool (see
+http://www.sno.phy.queensu.ca/~phil/exiftool/).
+Exiftool is a powerfull library and command line utility for reading, writing
+and editing meta information written in Perl.
 
-see : http://www.sno.phy.queensu.ca/~phil/exiftool/
+PHPExiftool provides an intuitive object oriented interface to read and write
+metadatas.
 
+You will find some example below, but I strongly recommend you to read the full
+documentation.
 
 This driver is not suitable for production, it is still under heavy development.
 
 ##Exiftool Reader
-
-Exiftool Reader provides a natural syntax to extract metadatas from files :
 
 ```php
 <?php
@@ -46,8 +50,6 @@ foreach ($Reader as $MetaDatas)
 ```
 
 ##Exiftool Writer
-
-Exiftool Writer provides natural syntx to write metadatas in files :
 
 ```php
 <?php
