@@ -1,5 +1,5 @@
 {
-    "hash": "b4b139e99c98febfd3f489adbbcbfda9",
+    "hash": "1f0b67ff189e23e8652cecf7a1f544ff",
     "packages": [
         {
             "package": "doctrine/common",
@@ -12,81 +12,15 @@
             "source-reference": "d58d08b134904764da7861f459767b83d3b55072"
         },
         {
-            "package": "pimple/pimple",
-            "version": "dev-master",
-            "source-reference": "v1.0.0"
-        },
-        {
-            "package": "pimple/pimple",
-            "version": "dev-master",
-            "alias-pretty-version": "1.0.x-dev",
-            "alias-version": "1.0.9999999.9999999-dev"
-        },
-        {
-            "package": "symfony/class-loader",
+            "package": "symfony/process",
             "version": "dev-master",
             "alias-pretty-version": "2.1.x-dev",
             "alias-version": "2.1.9999999.9999999-dev"
-        },
-        {
-            "package": "symfony/class-loader",
-            "version": "dev-master",
-            "source-reference": "dd3f2ad5204df88b8938430e39a25c9a7f53f079"
-        },
-        {
-            "package": "symfony/console",
-            "version": "dev-master",
-            "alias-pretty-version": "2.1.x-dev",
-            "alias-version": "2.1.9999999.9999999-dev"
-        },
-        {
-            "package": "symfony/console",
-            "version": "dev-master",
-            "source-reference": "22be75777fe18315637abe092de5aa5c7f4ed3cd"
-        },
-        {
-            "package": "symfony/css-selector",
-            "version": "dev-master",
-            "alias-pretty-version": "2.1.x-dev",
-            "alias-version": "2.1.9999999.9999999-dev"
-        },
-        {
-            "package": "symfony/css-selector",
-            "version": "dev-master",
-            "source-reference": "d0a98b37fbb57188766fd7c7d757354397ee6ead"
-        },
-        {
-            "package": "symfony/dom-crawler",
-            "version": "dev-master",
-            "alias-pretty-version": "2.1.x-dev",
-            "alias-version": "2.1.9999999.9999999-dev"
-        },
-        {
-            "package": "symfony/dom-crawler",
-            "version": "dev-master",
-            "source-reference": "e3c4c8426881e7fae02cc3024bc0b4c75c952b63"
-        },
-        {
-            "package": "symfony/finder",
-            "version": "dev-master",
-            "alias-pretty-version": "2.1.x-dev",
-            "alias-version": "2.1.9999999.9999999-dev"
-        },
-        {
-            "package": "symfony/finder",
-            "version": "dev-master",
-            "source-reference": "9ee9a907afeef52956187e862714a7702ca26590"
         },
         {
             "package": "symfony/process",
             "version": "dev-master",
             "source-reference": "fc536cce9e41251135595a8fa21635800199b51b"
-        },
-        {
-            "package": "symfony/process",
-            "version": "dev-master",
-            "alias-pretty-version": "2.1.x-dev",
-            "alias-version": "2.1.9999999.9999999-dev"
         }
     ],
     "packages-dev": null,
@@ -94,7 +28,8 @@
 
     ],
     "minimum-stability": "dev",
-    "stability-flags": [
-
-    ]
+    "stability-flags": {
+        "fabpot/php-cs-fixer": 20,
+        "sami/sami": 20
+    }
 }
