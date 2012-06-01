@@ -20,7 +20,7 @@
         {
             "package": "symfony/process",
             "version": "dev-master",
-            "source-reference": "fc536cce9e41251135595a8fa21635800199b51b"
+            "source-reference": "f4f101fc7c1adb8b157058dcc1715f28f1d53208"
         }
     ],
     "packages-dev": null,
