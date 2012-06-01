@@ -245,9 +245,9 @@ class RDFParser
         } elseif ($node->getAttribute('rdf:datatype') === 'http://www.w3.org/2001/XMLSchema#base64Binary') {
 
             if (is_null($tag) || $tag->isBinary()) {
-                return Driver\Value\Binary::loadFromBase64($node->nodeValue);
+                return Driver\Value\Binary::loadFromBase64(trim($node->nodeValue));
             } else {
-                return new Driver\Value\Mono(base64_decode($node->nodeValue));
+                return new Driver\Value\Mono(base64_decode(trim($node->nodeValue)));
             }
         } else {
 
