@@ -29,7 +29,7 @@ abstract class Exiftool
         $process->run();
 
         if ( ! $process->isSuccessful()) {
-            throw new Exception\RuntimeException(sprintf('Command %s failed : %s', $command, $process->getErrorOutput()));
+            throw new Exception\RuntimeException(sprintf('Command %s failed : %s, exitcode %s', $command, $process->getErrorOutput(), $process->getExitCode()));
         }
 
         return $process->getOutput();
