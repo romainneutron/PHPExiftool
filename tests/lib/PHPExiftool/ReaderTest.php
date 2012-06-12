@@ -219,7 +219,7 @@ class ReaderTest extends \PHPUnit_Framework_TestCase {
         $this->assertEquals(1, count($reader->all()));
 
         $reader = new Reader();
-        $reader->in(__DIR__ . '/../../../vendor/phpexiftool/exiftool/t/images/');
+        $reader->in(__DIR__ . '/../../../vendor/phpexiftool/exiftool/');
 
         foreach ($reader as $file) {
             $this->assertEquals($file->getFile()->getFilename(), $file->getMetadatas()->get('System:FileName')->getValue()->asString());
