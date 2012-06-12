@@ -1,5 +1,5 @@
 {
-    "hash": "1f0b67ff189e23e8652cecf7a1f544ff",
+    "hash": "d320ec38529a4ba50b4c1bb664afb0af",
     "packages": [
         {
             "package": "doctrine/common",
@@ -9,7 +9,7 @@
         {
             "package": "phpexiftool/exiftool",
             "version": "dev-master",
-            "source-reference": "d58d08b134904764da7861f459767b83d3b55072"
+            "source-reference": "999e660215b25a12fd3409df9a31883b6c617570"
         },
         {
             "package": "symfony/process",

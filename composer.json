@@ -14,7 +14,7 @@
     "require": {
         "php": ">=5.3.0",
         "doctrine/common": "2.2.*",
-        "phpexiftool/exiftool": ">8.89",
+        "phpexiftool/exiftool": ">8.94",
         "symfony/process": "2.1.*"
     },
     "require-dev": {
