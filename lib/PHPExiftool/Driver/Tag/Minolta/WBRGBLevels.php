@@ -14,7 +14,7 @@ namespace PHPExiftool\Driver\Tag\Minolta;
 class WBRGBLevels extends \PHPExiftool\Driver\Tag
 {
 
-    protected $Id = 150;
+    protected $Id = 'mixed';
 
     protected $Name = 'WB_RGBLevels';
 

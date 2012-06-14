@@ -26,7 +26,7 @@ class Face3Position extends \PHPExiftool\Driver\Tag
 
     protected $g1 = 'Sony';
 
-    protected $g2 = 'Image';
+    protected $g2 = 'mixed';
 
     protected $Type = 'int16u';
 

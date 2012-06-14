@@ -14,11 +14,11 @@ namespace PHPExiftool\Driver\Tag\Sony;
 class ImageStabilization extends \PHPExiftool\Driver\Tag
 {
 
-    protected $Id = 'mixed';
+    protected $Id = 45094;
 
     protected $Name = 'ImageStabilization';
 
-    protected $FullName = 'mixed';
+    protected $FullName = 'Sony::Main';
 
     protected $GroupName = 'Sony';
 
@@ -28,7 +28,7 @@ class ImageStabilization extends \PHPExiftool\Driver\Tag
 
     protected $g2 = 'Camera';
 
-    protected $Type = 'mixed';
+    protected $Type = 'int32u';
 
     protected $Writable = true;
 

@@ -625,6 +625,10 @@ class CameraType2 extends \PHPExiftool\Driver\Tag
             'Id' => 'D4510',
             'Label' => 'TG-820',
         ),
+        'D4512' => array(
+            'Id' => 'D4512',
+            'Label' => 'TG-1',
+        ),
         'D4516' => array(
             'Id' => 'D4516',
             'Label' => 'SH-21',
@@ -632,6 +636,10 @@ class CameraType2 extends \PHPExiftool\Driver\Tag
         'D4519' => array(
             'Id' => 'D4519',
             'Label' => 'SZ-14',
+        ),
+        'D4520' => array(
+            'Id' => 'D4520',
+            'Label' => 'SZ-31MR',
         ),
         'D4521' => array(
             'Id' => 'D4521',

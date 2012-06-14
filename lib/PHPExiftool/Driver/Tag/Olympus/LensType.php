@@ -135,7 +135,15 @@ class LensType extends \PHPExiftool\Driver\Tag
         ),
         '0 20 16' => array(
             'Id' => '0 20 16',
+            'Label' => 'Olympus M.Zuiko Digital ED 15-150mm II or 40-150mm R',
+        ),
+        '0 20 16.1' => array(
+            'Id' => '0 20 16.1',
             'Label' => 'Olympus M.Zuiko Digital ED 14-150mm F4.0-5.6 II',
+        ),
+        '0 20 16.2' => array(
+            'Id' => '0 20 16.2',
+            'Label' => 'Olympus M.Zuiko Digital ED 40-150mm F4.0-5.6 R',
         ),
         '0 21 0' => array(
             'Id' => '0 21 0',
@@ -308,6 +316,10 @@ class LensType extends \PHPExiftool\Driver\Tag
         '2 16 16' => array(
             'Id' => '2 16 16',
             'Label' => 'Lumix G 14mm F2.5 Asph.',
+        ),
+        '2 21 16' => array(
+            'Id' => '2 21 16',
+            'Label' => 'Lumix G X Vario 12-35mm F2.8 ASPH Power OIS',
         ),
         '3 1 0' => array(
             'Id' => '3 1 0',

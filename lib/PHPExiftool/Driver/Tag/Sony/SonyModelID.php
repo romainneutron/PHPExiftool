@@ -157,9 +157,21 @@ class SonyModelID extends \PHPExiftool\Driver\Tag
             'Id' => 290,
             'Label' => 'NEX-VG20E',
         ),
+        291 => array(
+            'Id' => 291,
+            'Label' => 'SLT-A37',
+        ),
         292 => array(
             'Id' => 292,
             'Label' => 'SLT-A57',
+        ),
+        293 => array(
+            'Id' => 293,
+            'Label' => 'NEX-F3',
+        ),
+        297 => array(
+            'Id' => 297,
+            'Label' => 'DSC-RX100',
         ),
     );
 

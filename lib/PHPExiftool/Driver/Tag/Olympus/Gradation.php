@@ -45,6 +45,10 @@ class Gradation extends \PHPExiftool\Driver\Tag
             'Id' => '0 -1 1',
             'Label' => 'Normal',
         ),
+        '0 0 0' => array(
+            'Id' => '0 0 0',
+            'Label' => 'n/a',
+        ),
         '1 -1 1' => array(
             'Id' => '1 -1 1',
             'Label' => 'High Key',

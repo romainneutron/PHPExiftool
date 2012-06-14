@@ -86,8 +86,20 @@ class LongExposureNoiseReduction extends \PHPExiftool\Driver\Tag
             'Label' => 'On',
         ),
         12 => array(
+            'Id' => 2,
+            'Label' => 'On 2',
+        ),
+        13 => array(
             'Id' => 65535,
             'Label' => 'n/a',
+        ),
+        14 => array(
+            'Id' => 1,
+            'Label' => 'Off',
+        ),
+        15 => array(
+            'Id' => 16,
+            'Label' => 'On',
         ),
     );
 

@@ -14,7 +14,7 @@ namespace PHPExiftool\Driver\Tag\Canon;
 class FirmwareVersionLookAhead extends \PHPExiftool\Driver\Tag
 {
 
-    protected $Id = 'mixed';
+    protected $Id = 0;
 
     protected $Name = 'FirmwareVersionLookAhead';
 
@@ -36,6 +36,6 @@ class FirmwareVersionLookAhead extends \PHPExiftool\Driver\Tag
 
     protected $flag_Permanent = true;
 
-    protected $MaxLength = 6;
+    protected $MaxLength = 'mixed';
 
 }

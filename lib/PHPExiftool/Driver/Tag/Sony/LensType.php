@@ -365,6 +365,10 @@ class LensType extends \PHPExiftool\Driver\Tag
             'Id' => 63,
             'Label' => 'Sony DT 16-50mm F2.8 SSM (SAL1650)',
         ),
+        64 => array(
+            'Id' => 64,
+            'Label' => 'Sony 500mm F4.0 G SSM (SAL500F40G)',
+        ),
         128 => array(
             'Id' => 128,
             'Label' => 'Tamron or Sigma Lens (128)',

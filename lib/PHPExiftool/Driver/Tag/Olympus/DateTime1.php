@@ -18,7 +18,7 @@ class DateTime1 extends \PHPExiftool\Driver\Tag
 
     protected $Name = 'DateTime1';
 
-    protected $FullName = 'Olympus::AVI';
+    protected $FullName = 'mixed';
 
     protected $GroupName = 'Olympus';
 

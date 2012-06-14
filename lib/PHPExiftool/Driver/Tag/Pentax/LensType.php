@@ -871,6 +871,10 @@ class LensType extends \PHPExiftool\Driver\Tag
             'Id' => '9 0',
             'Label' => '645 Manual Lens',
         ),
+        '10 0' => array(
+            'Id' => '10 0',
+            'Label' => '645 A Series Lens',
+        ),
         '11 4' => array(
             'Id' => '11 4',
             'Label' => 'smc PENTAX-FA 645 45-85mm F4.5',
@@ -882,6 +886,10 @@ class LensType extends \PHPExiftool\Driver\Tag
         '11 11' => array(
             'Id' => '11 11',
             'Label' => 'smc PENTAX-FA 645 35mm F3.5 AL [IF]',
+        ),
+        '11 16' => array(
+            'Id' => '11 16',
+            'Label' => 'smc PENTAX-FA 645 33-55mm F4.5 AL',
         ),
         '11 17' => array(
             'Id' => '11 17',
@@ -897,7 +905,7 @@ class LensType extends \PHPExiftool\Driver\Tag
         ),
         '21 0' => array(
             'Id' => '21 0',
-            'Label' => 'Pentax Q manual lens',
+            'Label' => 'Pentax Q Manual Lens',
         ),
         '21 1' => array(
             'Id' => '21 1',

@@ -14,11 +14,11 @@ namespace PHPExiftool\Driver\Tag\Sony;
 class ExposureCompensation extends \PHPExiftool\Driver\Tag
 {
 
-    protected $Id = 'mixed';
+    protected $Id = 108;
 
     protected $Name = 'ExposureCompensation';
 
-    protected $FullName = 'mixed';
+    protected $FullName = 'Sony::PMP';
 
     protected $GroupName = 'Sony';
 
@@ -26,9 +26,9 @@ class ExposureCompensation extends \PHPExiftool\Driver\Tag
 
     protected $g1 = 'Sony';
 
-    protected $g2 = 'mixed';
+    protected $g2 = 'Image';
 
-    protected $Type = 'mixed';
+    protected $Type = 'int16s';
 
     protected $Writable = false;
 

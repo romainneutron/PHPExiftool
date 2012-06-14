@@ -14,11 +14,11 @@ namespace PHPExiftool\Driver\Tag\Sony;
 class WhiteBalanceSetting extends \PHPExiftool\Driver\Tag
 {
 
-    protected $Id = 22;
+    protected $Id = 'mixed';
 
     protected $Name = 'WhiteBalanceSetting';
 
-    protected $FullName = 'Sony::CameraSettings3';
+    protected $FullName = 'mixed';
 
     protected $GroupName = 'Sony';
 
@@ -235,11 +235,11 @@ class WhiteBalanceSetting extends \PHPExiftool\Driver\Tag
         ),
         163 => array(
             'Id' => 163,
-            'Label' => 'Custom (0)',
+            'Label' => 'Custom',
         ),
         243 => array(
             'Id' => 243,
-            'Label' => '5500 K',
+            'Label' => 'Color Temperature/Color Filter',
         ),
     );
 

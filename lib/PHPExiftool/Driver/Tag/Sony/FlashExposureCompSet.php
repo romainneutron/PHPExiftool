@@ -14,11 +14,11 @@ namespace PHPExiftool\Driver\Tag\Sony;
 class FlashExposureCompSet extends \PHPExiftool\Driver\Tag
 {
 
-    protected $Id = 35;
+    protected $Id = 'mixed';
 
     protected $Name = 'FlashExposureCompSet';
 
-    protected $FullName = 'Sony::CameraSettings3';
+    protected $FullName = 'mixed';
 
     protected $GroupName = 'Sony';
 

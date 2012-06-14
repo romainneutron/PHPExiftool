@@ -14,11 +14,11 @@ namespace PHPExiftool\Driver\Tag\Sony;
 class FocalLength extends \PHPExiftool\Driver\Tag
 {
 
-    protected $Id = 112;
+    protected $Id = 'mixed';
 
     protected $Name = 'FocalLength';
 
-    protected $FullName = 'Sony::PMP';
+    protected $FullName = 'mixed';
 
     protected $GroupName = 'Sony';
 
@@ -26,16 +26,16 @@ class FocalLength extends \PHPExiftool\Driver\Tag
 
     protected $g1 = 'Sony';
 
-    protected $g2 = 'Image';
+    protected $g2 = 'mixed';
 
-    protected $Type = 'int16s';
+    protected $Type = 'mixed';
 
     protected $Writable = false;
 
     protected $Description = 'Focal Length';
 
-    protected $local_g2 = 'Camera';
-
     protected $flag_Permanent = true;
+
+    protected $local_g2 = 'mixed';
 
 }

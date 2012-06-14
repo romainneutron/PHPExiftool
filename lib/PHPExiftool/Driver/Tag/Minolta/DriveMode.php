@@ -89,6 +89,38 @@ class DriveMode extends \PHPExiftool\Driver\Tag
             'Id' => 5,
             'Label' => 'White Balance Bracketing',
         ),
+        13 => array(
+            'Id' => 0,
+            'Label' => 'Self-timer 10 sec',
+        ),
+        14 => array(
+            'Id' => 1,
+            'Label' => 'Continuous',
+        ),
+        15 => array(
+            'Id' => 2,
+            'Label' => 'Single-frame Exposure Bracketing',
+        ),
+        16 => array(
+            'Id' => 3,
+            'Label' => 'Continuous Exposure Bracketing',
+        ),
+        17 => array(
+            'Id' => 4,
+            'Label' => 'Self-Timer 2 sec',
+        ),
+        18 => array(
+            'Id' => 5,
+            'Label' => 'Single Frame',
+        ),
+        19 => array(
+            'Id' => 8,
+            'Label' => 'White Balance Bracketing Low',
+        ),
+        20 => array(
+            'Id' => 9,
+            'Label' => 'White Balance Bracketing High',
+        ),
     );
 
 }

@@ -14,7 +14,7 @@ namespace PHPExiftool\Driver\Tag\Sony;
 class Rotation extends \PHPExiftool\Driver\Tag
 {
 
-    protected $Id = 63;
+    protected $Id = 'mixed';
 
     protected $Name = 'Rotation';
 
@@ -28,7 +28,7 @@ class Rotation extends \PHPExiftool\Driver\Tag
 
     protected $g2 = 'Camera';
 
-    protected $Type = 'int16u';
+    protected $Type = 'mixed';
 
     protected $Writable = true;
 
@@ -48,6 +48,18 @@ class Rotation extends \PHPExiftool\Driver\Tag
         2 => array(
             'Id' => 2,
             'Label' => 'Rotate 270 CW',
+        ),
+        3 => array(
+            'Id' => 0,
+            'Label' => 'Horizontal (normal)',
+        ),
+        4 => array(
+            'Id' => 1,
+            'Label' => 'Rotate 270 CW',
+        ),
+        5 => array(
+            'Id' => 2,
+            'Label' => 'Rotate 90 CW',
         ),
     );
 

@@ -14,11 +14,11 @@ namespace PHPExiftool\Driver\Tag\Canon;
 class ColorTempUnknown16 extends \PHPExiftool\Driver\Tag
 {
 
-    protected $Id = 163;
+    protected $Id = 'mixed';
 
     protected $Name = 'ColorTempUnknown16';
 
-    protected $FullName = 'Canon::ColorData2';
+    protected $FullName = 'mixed';
 
     protected $GroupName = 'Canon';
 

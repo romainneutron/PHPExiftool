@@ -14,11 +14,11 @@ namespace PHPExiftool\Driver\Tag\Sony;
 class SonyImageHeight extends \PHPExiftool\Driver\Tag
 {
 
-    protected $Id = 24;
+    protected $Id = 'mixed';
 
     protected $Name = 'SonyImageHeight';
 
-    protected $FullName = 'Sony::PMP';
+    protected $FullName = 'mixed';
 
     protected $GroupName = 'Sony';
 

@@ -14,11 +14,11 @@ namespace PHPExiftool\Driver\Tag\Minolta;
 class MaxAperture extends \PHPExiftool\Driver\Tag
 {
 
-    protected $Id = 23;
+    protected $Id = 'mixed';
 
     protected $Name = 'MaxAperture';
 
-    protected $FullName = 'Minolta::CameraSettings';
+    protected $FullName = 'mixed';
 
     protected $GroupName = 'Minolta';
 
@@ -28,7 +28,7 @@ class MaxAperture extends \PHPExiftool\Driver\Tag
 
     protected $g2 = 'Camera';
 
-    protected $Type = 'int32u';
+    protected $Type = 'mixed';
 
     protected $Writable = true;
 

@@ -14,11 +14,11 @@ namespace PHPExiftool\Driver\Tag\Minolta;
 class LensType extends \PHPExiftool\Driver\Tag
 {
 
-    protected $Id = 268;
+    protected $Id = 'mixed';
 
     protected $Name = 'LensType';
 
-    protected $FullName = 'Minolta::Main';
+    protected $FullName = 'mixed';
 
     protected $GroupName = 'Minolta';
 
@@ -28,7 +28,7 @@ class LensType extends \PHPExiftool\Driver\Tag
 
     protected $g2 = 'Camera';
 
-    protected $Type = 'int32u';
+    protected $Type = 'mixed';
 
     protected $Writable = true;
 
@@ -364,6 +364,10 @@ class LensType extends \PHPExiftool\Driver\Tag
         63 => array(
             'Id' => 63,
             'Label' => 'Sony DT 16-50mm F2.8 SSM (SAL1650)',
+        ),
+        64 => array(
+            'Id' => 64,
+            'Label' => 'Sony 500mm F4.0 G SSM (SAL500F40G)',
         ),
         128 => array(
             'Id' => 128,

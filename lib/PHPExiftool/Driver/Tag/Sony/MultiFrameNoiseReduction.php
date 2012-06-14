@@ -65,6 +65,22 @@ class MultiFrameNoiseReduction extends \PHPExiftool\Driver\Tag
             'Id' => 255,
             'Label' => 'n/a',
         ),
+        7 => array(
+            'Id' => 0,
+            'Label' => 'n/a',
+        ),
+        8 => array(
+            'Id' => 1,
+            'Label' => 'Off',
+        ),
+        9 => array(
+            'Id' => 16,
+            'Label' => 'On',
+        ),
+        10 => array(
+            'Id' => 255,
+            'Label' => 'None',
+        ),
     );
 
 }

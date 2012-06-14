@@ -30,7 +30,7 @@ class ColorDataVersion extends \PHPExiftool\Driver\Tag
 
     protected $Type = 'int16s';
 
-    protected $Writable = true;
+    protected $Writable = false;
 
     protected $Description = 'Color Data Version';
 
@@ -67,11 +67,15 @@ class ColorDataVersion extends \PHPExiftool\Driver\Tag
         ),
         7 => array(
             'Id' => 9,
-            'Label' => '9 (1100D)',
+            'Label' => '9 (60D/1100D)',
         ),
         8 => array(
             'Id' => 10,
             'Label' => '10 (600D)',
+        ),
+        9 => array(
+            'Id' => 10,
+            'Label' => '10 (1DX/5DmkIII)',
         ),
     );
 

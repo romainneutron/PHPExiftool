@@ -14,11 +14,11 @@ namespace PHPExiftool\Driver\Tag\Minolta;
 class ExposureCompensationMode extends \PHPExiftool\Driver\Tag
 {
 
-    protected $Id = 71;
+    protected $Id = 'mixed';
 
     protected $Name = 'ExposureCompensationMode';
 
-    protected $FullName = 'Minolta::CameraSettingsA100';
+    protected $FullName = 'mixed';
 
     protected $GroupName = 'Minolta';
 
@@ -28,7 +28,7 @@ class ExposureCompensationMode extends \PHPExiftool\Driver\Tag
 
     protected $g2 = 'Camera';
 
-    protected $Type = 'int16u';
+    protected $Type = 'mixed';
 
     protected $Writable = true;
 

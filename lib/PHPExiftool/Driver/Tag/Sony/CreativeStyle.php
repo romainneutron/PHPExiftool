@@ -28,7 +28,7 @@ class CreativeStyle extends \PHPExiftool\Driver\Tag
 
     protected $g2 = 'Camera';
 
-    protected $Type = 'int16u';
+    protected $Type = 'mixed';
 
     protected $Writable = true;
 
@@ -120,6 +120,62 @@ class CreativeStyle extends \PHPExiftool\Driver\Tag
         20 => array(
             'Id' => 8,
             'Label' => 'B&W',
+        ),
+        21 => array(
+            'Id' => 1,
+            'Label' => 'Standard',
+        ),
+        22 => array(
+            'Id' => 2,
+            'Label' => 'Vivid',
+        ),
+        23 => array(
+            'Id' => 3,
+            'Label' => 'Portrait',
+        ),
+        24 => array(
+            'Id' => 4,
+            'Label' => 'Landscape',
+        ),
+        25 => array(
+            'Id' => 5,
+            'Label' => 'Sunset',
+        ),
+        26 => array(
+            'Id' => 6,
+            'Label' => 'Night View/Portrait',
+        ),
+        27 => array(
+            'Id' => 8,
+            'Label' => 'B&W',
+        ),
+        28 => array(
+            'Id' => 9,
+            'Label' => 'Adobe RGB',
+        ),
+        29 => array(
+            'Id' => 11,
+            'Label' => 'Neutral',
+        ),
+        30 => array(
+            'Id' => 12,
+            'Label' => 'Clear',
+        ),
+        31 => array(
+            'Id' => 13,
+            'Label' => 'Deep',
+        ),
+        32 => array(
+            'Id' => 14,
+            'Label' => 'Light',
+        ),
+        33 => array(
+            'Id' => 15,
+            'Label' => 'Autumn',
+        ),
+        34 => array(
+            'Id' => 16,
+            'Label' => 'Sepia',
         ),
     );
 

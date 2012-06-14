@@ -109,6 +109,10 @@ class AFPoint extends \PHPExiftool\Driver\Tag
             'Id' => 17,
             'Label' => 'Lower-middle',
         ),
+        255 => array(
+            'Id' => 255,
+            'Label' => '(none)',
+        ),
     );
 
 }

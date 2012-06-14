@@ -28,7 +28,7 @@ class FocusModeSetting extends \PHPExiftool\Driver\Tag
 
     protected $g2 = 'Camera';
 
-    protected $Type = 'int16u';
+    protected $Type = 'mixed';
 
     protected $Writable = true;
 
@@ -52,6 +52,22 @@ class FocusModeSetting extends \PHPExiftool\Driver\Tag
         3 => array(
             'Id' => 3,
             'Label' => 'AF-A',
+        ),
+        4 => array(
+            'Id' => 17,
+            'Label' => 'AF-S',
+        ),
+        5 => array(
+            'Id' => 18,
+            'Label' => 'AF-C',
+        ),
+        6 => array(
+            'Id' => 19,
+            'Label' => 'AF-A',
+        ),
+        7 => array(
+            'Id' => 32,
+            'Label' => 'Manual',
         ),
     );
 

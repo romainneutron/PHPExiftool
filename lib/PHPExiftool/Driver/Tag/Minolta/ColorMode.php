@@ -186,32 +186,84 @@ class ColorMode extends \PHPExiftool\Driver\Tag
             'Label' => 'Neutral',
         ),
         37 => array(
+            'Id' => 13,
+            'Label' => 'Clear',
+        ),
+        38 => array(
+            'Id' => 14,
+            'Label' => 'Deep',
+        ),
+        39 => array(
+            'Id' => 15,
+            'Label' => 'Light',
+        ),
+        40 => array(
+            'Id' => 16,
+            'Label' => 'Autumn',
+        ),
+        41 => array(
+            'Id' => 17,
+            'Label' => 'Sepia',
+        ),
+        42 => array(
             'Id' => 100,
             'Label' => 'Neutral',
         ),
-        38 => array(
+        43 => array(
             'Id' => 101,
             'Label' => 'Clear',
         ),
-        39 => array(
+        44 => array(
             'Id' => 102,
             'Label' => 'Deep',
         ),
-        40 => array(
+        45 => array(
             'Id' => 103,
             'Label' => 'Light',
         ),
-        41 => array(
+        46 => array(
             'Id' => 104,
             'Label' => 'Night View',
         ),
-        42 => array(
+        47 => array(
             'Id' => 105,
             'Label' => 'Autumn Leaves',
         ),
-        43 => array(
+        48 => array(
             'Id' => 4294967295,
             'Label' => 'n/a',
+        ),
+        49 => array(
+            'Id' => 0,
+            'Label' => 'Standard',
+        ),
+        50 => array(
+            'Id' => 1,
+            'Label' => 'Vivid',
+        ),
+        51 => array(
+            'Id' => 2,
+            'Label' => 'Portrait',
+        ),
+        52 => array(
+            'Id' => 3,
+            'Label' => 'Landscape',
+        ),
+        53 => array(
+            'Id' => 4,
+            'Label' => 'Sunset',
+        ),
+        54 => array(
+            'Id' => 5,
+            'Label' => 'Night View',
+        ),
+        55 => array(
+            'Id' => 7,
+            'Label' => 'B&W',
+        ),
+        56 => array(
+            'Id' => 8,
+            'Label' => 'Adobe RGB',
         ),
     );
 

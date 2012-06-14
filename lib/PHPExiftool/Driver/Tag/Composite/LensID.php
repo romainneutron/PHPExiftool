@@ -175,7 +175,7 @@ class LensID extends \PHPExiftool\Driver\Tag
         ),
         '00 48 5C 8E 30 3C 00 06' => array(
             'Id' => '00 48 5C 8E 30 3C 00 06',
-            'Label' => 'Tamron AF 70-300mm f/4-5.6 Di LD Macro 1:2 (A17)',
+            'Label' => 'Tamron AF 70-300mm f/4-5.6 Di LD Macro 1:2 (A17NII)',
         ),
         '00 48 68 68 24 24 00 00' => array(
             'Id' => '00 48 68 68 24 24 00 00',
@@ -1597,6 +1597,14 @@ class LensID extends \PHPExiftool\Driver\Tag
             'Id' => 'B1 48 48 48 24 24 B3 06',
             'Label' => 'AF-S DX Micro Nikkor 40mm f/2.8G',
         ),
+        'B3 4C 62 62 14 14 B5 06' => array(
+            'Id' => 'B3 4C 62 62 14 14 B5 06',
+            'Label' => 'AF-S Nikkor 85mm f/1.8G',
+        ),
+        'B5 4C 3C 3C 14 14 B7 06' => array(
+            'Id' => 'B5 4C 3C 3C 14 14 B7 06',
+            'Label' => 'AF-S Nikkor 28mm f/1.8G',
+        ),
         'B6 48 37 56 24 24 1C 02' => array(
             'Id' => 'B6 48 37 56 24 24 1C 02',
             'Label' => 'Sigma 24-60mm F2.8 EX DG',
@@ -1696,6 +1704,10 @@ class LensID extends \PHPExiftool\Driver\Tag
         'F6 48 2D 50 24 24 4B 06' => array(
             'Id' => 'F6 48 2D 50 24 24 4B 06',
             'Label' => 'Sigma 18-50mm F2.8 EX DC Macro',
+        ),
+        'F7 53 5C 80 24 24 40 06' => array(
+            'Id' => 'F7 53 5C 80 24 24 40 06',
+            'Label' => 'Tamron SP AF 70-200mm F/2.8 Di LD (IF) Macro (A001)',
         ),
         'F7 53 5C 80 24 24 84 06' => array(
             'Id' => 'F7 53 5C 80 24 24 84 06',

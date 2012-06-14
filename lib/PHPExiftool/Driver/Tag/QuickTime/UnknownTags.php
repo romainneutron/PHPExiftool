@@ -36,6 +36,6 @@ class UnknownTags extends \PHPExiftool\Driver\Tag
 
     protected $flag_Binary = true;
 
-    protected $Index = 11;
+    protected $Index = 12;
 
 }

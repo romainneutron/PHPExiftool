@@ -125,6 +125,14 @@ class ArtFilterEffect extends \PHPExiftool\Driver\Tag
             'Id' => 24,
             'Label' => 'Watercolor',
         ),
+        25 => array(
+            'Id' => 25,
+            'Label' => 'Key Line',
+        ),
+        27 => array(
+            'Id' => 27,
+            'Label' => 'Miniature',
+        ),
         28 => array(
             'Id' => 28,
             'Label' => 'Reflection',
@@ -132,6 +140,10 @@ class ArtFilterEffect extends \PHPExiftool\Driver\Tag
         29 => array(
             'Id' => 29,
             'Label' => 'Fragmented',
+        ),
+        32 => array(
+            'Id' => 32,
+            'Label' => 'Dramatic Tone B&W',
         ),
     );
 

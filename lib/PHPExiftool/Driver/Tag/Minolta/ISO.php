@@ -14,11 +14,11 @@ namespace PHPExiftool\Driver\Tag\Minolta;
 class ISO extends \PHPExiftool\Driver\Tag
 {
 
-    protected $Id = 8;
+    protected $Id = 'mixed';
 
     protected $Name = 'ISO';
 
-    protected $FullName = 'Minolta::CameraSettings';
+    protected $FullName = 'mixed';
 
     protected $GroupName = 'Minolta';
 
@@ -28,7 +28,7 @@ class ISO extends \PHPExiftool\Driver\Tag
 
     protected $g2 = 'Camera';
 
-    protected $Type = 'int32u';
+    protected $Type = 'mixed';
 
     protected $Writable = true;
 

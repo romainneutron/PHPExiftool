@@ -39,11 +39,11 @@ class SmileShutter extends \PHPExiftool\Driver\Tag
     protected $Values = array(
         1 => array(
             'Id' => 1,
-            'Label' => 'OFF',
+            'Label' => 'Off',
         ),
         16 => array(
             'Id' => 16,
-            'Label' => 'ON',
+            'Label' => 'On',
         ),
     );
 

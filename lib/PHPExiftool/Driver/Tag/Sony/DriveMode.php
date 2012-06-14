@@ -51,7 +51,7 @@ class DriveMode extends \PHPExiftool\Driver\Tag
         ),
         3 => array(
             'Id' => 5,
-            'Label' => 'Self-timer 2 sec, Mirror Lock-Up',
+            'Label' => 'Self-timer 2 sec, Mirror Lock-up',
         ),
         4 => array(
             'Id' => 6,
@@ -67,97 +67,121 @@ class DriveMode extends \PHPExiftool\Driver\Tag
         ),
         7 => array(
             'Id' => 11,
-            'Label' => 'Mirror Lock-Up',
+            'Label' => 'Mirror Lock-up',
         ),
         8 => array(
-            'Id' => 12,
-            'Label' => 'Continuous Low (old)',
-        ),
-        9 => array(
             'Id' => 18,
             'Label' => 'Continuous Low',
         ),
-        10 => array(
-            'Id' => 19,
-            'Label' => 'D-Range Optimizer Bracketing Low (old)',
-        ),
-        11 => array(
+        9 => array(
             'Id' => 24,
             'Label' => 'White Balance Bracketing Low',
         ),
-        12 => array(
+        10 => array(
             'Id' => 25,
             'Label' => 'D-Range Optimizer Bracketing Low',
         ),
-        13 => array(
+        11 => array(
             'Id' => 40,
             'Label' => 'White Balance Bracketing High',
         ),
-        14 => array(
+        12 => array(
             'Id' => 41,
             'Label' => 'D-Range Optimizer Bracketing High',
         ),
+        13 => array(
+            'Id' => 1,
+            'Label' => 'Single Frame',
+        ),
+        14 => array(
+            'Id' => 2,
+            'Label' => 'Continuous High',
+        ),
         15 => array(
+            'Id' => 4,
+            'Label' => 'Self-timer 10 sec',
+        ),
+        16 => array(
+            'Id' => 5,
+            'Label' => 'Self-timer 2 sec, Mirror Lock-up',
+        ),
+        17 => array(
+            'Id' => 7,
+            'Label' => 'Continuous Bracketing',
+        ),
+        18 => array(
+            'Id' => 10,
+            'Label' => 'Remote Commander',
+        ),
+        19 => array(
+            'Id' => 11,
+            'Label' => 'Continuous Self-timer',
+        ),
+        20 => array(
             'Id' => 16,
             'Label' => 'Single Frame',
         ),
-        16 => array(
+        21 => array(
             'Id' => 33,
             'Label' => 'Continuous High',
         ),
-        17 => array(
+        22 => array(
             'Id' => 34,
             'Label' => 'Continuous Low',
         ),
-        18 => array(
+        23 => array(
             'Id' => 48,
             'Label' => 'Speed Priority Continuous',
         ),
-        19 => array(
+        24 => array(
             'Id' => 81,
             'Label' => 'Self-timer 10 sec',
         ),
-        20 => array(
+        25 => array(
             'Id' => 82,
             'Label' => 'Self-timer 2 sec, Mirror Lock-up',
         ),
-        21 => array(
+        26 => array(
             'Id' => 113,
             'Label' => 'Continuous Bracketing 0.3 EV',
         ),
-        22 => array(
+        27 => array(
             'Id' => 117,
             'Label' => 'Continuous Bracketing 0.7 EV',
         ),
-        23 => array(
+        28 => array(
             'Id' => 145,
             'Label' => 'White Balance Bracketing Low',
         ),
-        24 => array(
+        29 => array(
             'Id' => 146,
             'Label' => 'White Balance Bracketing High',
         ),
-        25 => array(
+        30 => array(
             'Id' => 192,
             'Label' => 'Remote Commander',
         ),
-        26 => array(
+        31 => array(
             'Id' => 209,
             'Label' => 'Continuous - HDR',
         ),
-        27 => array(
+        32 => array(
             'Id' => 210,
             'Label' => 'Continuous - Multi Frame NR',
         ),
-        28 => array(
+        33 => array(
             'Id' => 211,
             'Label' => 'Continuous - Handheld Night Shot',
         ),
-        29 => array(
+        34 => array(
+            'Id' => 212,
+            'Label' => 'Continuous - Anti Motion Blur',
+        ),
+        35 => array(
             'Id' => 213,
             'Label' => 'Continuous - Sweep Panorama',
         ),
-        30 => array(
+        36 => array(
             'Id' => 214,
             'Label' => 'Continuous - 3D Sweep Panorama',
         ),

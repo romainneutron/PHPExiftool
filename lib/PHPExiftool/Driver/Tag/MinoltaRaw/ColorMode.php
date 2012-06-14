@@ -134,30 +134,50 @@ class ColorMode extends \PHPExiftool\Driver\Tag
             'Label' => 'Neutral',
         ),
         24 => array(
+            'Id' => 13,
+            'Label' => 'Clear',
+        ),
+        25 => array(
+            'Id' => 14,
+            'Label' => 'Deep',
+        ),
+        26 => array(
+            'Id' => 15,
+            'Label' => 'Light',
+        ),
+        27 => array(
+            'Id' => 16,
+            'Label' => 'Autumn',
+        ),
+        28 => array(
+            'Id' => 17,
+            'Label' => 'Sepia',
+        ),
+        29 => array(
             'Id' => 100,
             'Label' => 'Neutral',
         ),
-        25 => array(
+        30 => array(
             'Id' => 101,
             'Label' => 'Clear',
         ),
-        26 => array(
+        31 => array(
             'Id' => 102,
             'Label' => 'Deep',
         ),
-        27 => array(
+        32 => array(
             'Id' => 103,
             'Label' => 'Light',
         ),
-        28 => array(
+        33 => array(
             'Id' => 104,
             'Label' => 'Night View',
         ),
-        29 => array(
+        34 => array(
             'Id' => 105,
             'Label' => 'Autumn Leaves',
         ),
-        30 => array(
+        35 => array(
             'Id' => 4294967295,
             'Label' => 'n/a',
         ),

@@ -249,13 +249,41 @@ class EasyMode extends \PHPExiftool\Driver\Tag
             'Id' => 52,
             'Label' => 'Handheld Night Scene',
         ),
+        53 => array(
+            'Id' => 53,
+            'Label' => 'Movie Digest',
+        ),
+        54 => array(
+            'Id' => 54,
+            'Label' => 'Live View Control',
+        ),
+        55 => array(
+            'Id' => 55,
+            'Label' => 'Discreet',
+        ),
+        56 => array(
+            'Id' => 56,
+            'Label' => 'Blur Reduction',
+        ),
         57 => array(
             'Id' => 57,
             'Label' => 'Monochrome',
         ),
+        58 => array(
+            'Id' => 58,
+            'Label' => 'Toy Camera Effect',
+        ),
         59 => array(
             'Id' => 59,
             'Label' => 'Scene Intelligent Auto',
+        ),
+        60 => array(
+            'Id' => 60,
+            'Label' => 'High-speed Burst HQ',
+        ),
+        61 => array(
+            'Id' => 61,
+            'Label' => 'Smooth Skin',
         ),
         62 => array(
             'Id' => 62,

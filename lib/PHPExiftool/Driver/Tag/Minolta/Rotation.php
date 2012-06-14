@@ -28,7 +28,7 @@ class Rotation extends \PHPExiftool\Driver\Tag
 
     protected $g2 = 'Camera';
 
-    protected $Type = 'int16u';
+    protected $Type = 'mixed';
 
     protected $Writable = true;
 
@@ -82,6 +82,18 @@ class Rotation extends \PHPExiftool\Driver\Tag
             'Label' => 'Rotate 270 CW',
         ),
         11 => array(
+            'Id' => 2,
+            'Label' => 'Rotate 90 CW',
+        ),
+        12 => array(
+            'Id' => 0,
+            'Label' => 'Horizontal (normal)',
+        ),
+        13 => array(
+            'Id' => 1,
+            'Label' => 'Rotate 270 CW',
+        ),
+        14 => array(
             'Id' => 2,
             'Label' => 'Rotate 90 CW',
         ),

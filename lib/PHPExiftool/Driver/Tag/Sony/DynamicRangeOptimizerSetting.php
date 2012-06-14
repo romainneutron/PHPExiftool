@@ -14,11 +14,11 @@ namespace PHPExiftool\Driver\Tag\Sony;
 class DynamicRangeOptimizerSetting extends \PHPExiftool\Driver\Tag
 {
 
-    protected $Id = 12;
+    protected $Id = 'mixed';
 
     protected $Name = 'DynamicRangeOptimizerSetting';
 
-    protected $FullName = 'Sony::CameraSettings3';
+    protected $FullName = 'mixed';
 
     protected $GroupName = 'Sony';
 

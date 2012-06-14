@@ -61,6 +61,18 @@ class MeteringMode extends \PHPExiftool\Driver\Tag
             'Id' => 3,
             'Label' => 'Spot',
         ),
+        6 => array(
+            'Id' => 1,
+            'Label' => 'Multi-segment',
+        ),
+        7 => array(
+            'Id' => 2,
+            'Label' => 'Center-weighted average',
+        ),
+        8 => array(
+            'Id' => 3,
+            'Label' => 'Spot',
+        ),
     );
 
 }

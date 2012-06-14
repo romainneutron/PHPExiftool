@@ -14,11 +14,11 @@ namespace PHPExiftool\Driver\Tag\Canon;
 class WBRGGBLevelsUnknown16 extends \PHPExiftool\Driver\Tag
 {
 
-    protected $Id = 159;
+    protected $Id = 'mixed';
 
     protected $Name = 'WB_RGGBLevelsUnknown16';
 
-    protected $FullName = 'Canon::ColorData2';
+    protected $FullName = 'mixed';
 
     protected $GroupName = 'Canon';
 

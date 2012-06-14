@@ -14,11 +14,11 @@ namespace PHPExiftool\Driver\Tag\Sony;
 class ViewingMode extends \PHPExiftool\Driver\Tag
 {
 
-    protected $Id = 47;
+    protected $Id = 'mixed';
 
     protected $Name = 'ViewingMode';
 
-    protected $FullName = 'Sony::CameraSettings3';
+    protected $FullName = 'mixed';
 
     protected $GroupName = 'Sony';
 

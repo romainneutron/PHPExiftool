@@ -14,11 +14,11 @@ namespace PHPExiftool\Driver\Tag\Sony;
 class FaceDetection extends \PHPExiftool\Driver\Tag
 {
 
-    protected $Id = 48;
+    protected $Id = 'mixed';
 
     protected $Name = 'FaceDetection';
 
-    protected $FullName = 'Sony::CameraSettings3';
+    protected $FullName = 'mixed';
 
     protected $GroupName = 'Sony';
 
@@ -39,11 +39,11 @@ class FaceDetection extends \PHPExiftool\Driver\Tag
     protected $Values = array(
         1 => array(
             'Id' => 1,
-            'Label' => 'OFF',
+            'Label' => 'Off',
         ),
         16 => array(
             'Id' => 16,
-            'Label' => 'ON',
+            'Label' => 'On',
         ),
     );
 

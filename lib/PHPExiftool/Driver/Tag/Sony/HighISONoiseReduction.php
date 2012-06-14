@@ -101,6 +101,14 @@ class HighISONoiseReduction extends \PHPExiftool\Driver\Tag
             'Id' => 65535,
             'Label' => 'n/a',
         ),
+        16 => array(
+            'Id' => 16,
+            'Label' => 'Low',
+        ),
+        17 => array(
+            'Id' => 19,
+            'Label' => 'Auto',
+        ),
     );
 
 }

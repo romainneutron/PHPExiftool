@@ -14,11 +14,11 @@ namespace PHPExiftool\Driver\Tag\Minolta;
 class WhiteBalanceBracketing extends \PHPExiftool\Driver\Tag
 {
 
-    protected $Id = 34;
+    protected $Id = 'mixed';
 
     protected $Name = 'WhiteBalanceBracketing';
 
-    protected $FullName = 'Minolta::CameraSettingsA100';
+    protected $FullName = 'mixed';
 
     protected $GroupName = 'Minolta';
 
@@ -28,7 +28,7 @@ class WhiteBalanceBracketing extends \PHPExiftool\Driver\Tag
 
     protected $g2 = 'Camera';
 
-    protected $Type = 'int16u';
+    protected $Type = 'mixed';
 
     protected $Writable = true;
 
@@ -37,12 +37,24 @@ class WhiteBalanceBracketing extends \PHPExiftool\Driver\Tag
     protected $flag_Permanent = true;
 
     protected $Values = array(
-        8 => array(
+        0 => array(
             'Id' => 8,
             'Label' => 'Low',
         ),
-        9 => array(
+        1 => array(
             'Id' => 9,
+            'Label' => 'High',
+        ),
+        2 => array(
+            'Id' => 0,
+            'Label' => 'Off',
+        ),
+        3 => array(
+            'Id' => 1,
+            'Label' => 'Low',
+        ),
+        4 => array(
+            'Id' => 2,
             'Label' => 'High',
         ),
     );

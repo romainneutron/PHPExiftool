@@ -69,6 +69,30 @@ class FlashMode extends \PHPExiftool\Driver\Tag
             'Id' => 20,
             'Label' => 'Wireless',
         ),
+        8 => array(
+            'Id' => 1,
+            'Label' => 'Flash Off',
+        ),
+        9 => array(
+            'Id' => 16,
+            'Label' => 'Autoflash',
+        ),
+        10 => array(
+            'Id' => 17,
+            'Label' => 'Fill-flash',
+        ),
+        11 => array(
+            'Id' => 18,
+            'Label' => 'Slow Sync',
+        ),
+        12 => array(
+            'Id' => 19,
+            'Label' => 'Rear Sync',
+        ),
+        13 => array(
+            'Id' => 20,
+            'Label' => 'Wireless',
+        ),
     );
 
 }

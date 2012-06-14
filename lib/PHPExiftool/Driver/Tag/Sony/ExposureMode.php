@@ -137,6 +137,10 @@ class ExposureMode extends \PHPExiftool\Driver\Tag
             'Id' => 38,
             'Label' => 'Backlight Correction HDR',
         ),
+        40 => array(
+            'Id' => 40,
+            'Label' => 'Background Defocus',
+        ),
         65535 => array(
             'Id' => 65535,
             'Label' => 'n/a',

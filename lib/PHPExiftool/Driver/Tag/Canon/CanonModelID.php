@@ -645,6 +645,10 @@ class CanonModelID extends \PHPExiftool\Driver\Tag
             'Id' => 51773440,
             'Label' => 'PowerShot A1300',
         ),
+        51904512 => array(
+            'Id' => 51904512,
+            'Label' => 'PowerShot ELPH 320 HS / IXUS 240 HS / IXY 420F',
+        ),
         51970048 => array(
             'Id' => 51970048,
             'Label' => 'PowerShot ELPH 110 HS / IXUS 125 HS / IXY 220F',
@@ -660,6 +664,10 @@ class CanonModelID extends \PHPExiftool\Driver\Tag
         52559872 => array(
             'Id' => 52559872,
             'Label' => 'PowerShot SX260 HS',
+        ),
+        52625408 => array(
+            'Id' => 52625408,
+            'Label' => 'PowerShot SX240 HS',
         ),
         52690944 => array(
             'Id' => 52690944,
@@ -940,6 +948,10 @@ class CanonModelID extends \PHPExiftool\Driver\Tag
         2147484312 => array(
             'Id' => 2147484312,
             'Label' => 'WFT-E4 II',
+        ),
+        2147484417 => array(
+            'Id' => 2147484417,
+            'Label' => 'EOS Rebel T4i / 650D / Kiss X6i',
         ),
     );
 

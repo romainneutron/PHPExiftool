@@ -75,7 +75,7 @@ class LensType extends \PHPExiftool\Driver\Tag
         ),
         '6.3' => array(
             'Id' => '6.3',
-            'Label' => 'Tokina AF193-2 19-35mm f/3.5-4.5',
+            'Label' => 'Tokina AF 193-2 19-35mm f/3.5-4.5',
         ),
         '6.4' => array(
             'Id' => '6.4',
@@ -95,7 +95,7 @@ class LensType extends \PHPExiftool\Driver\Tag
         ),
         '8.2' => array(
             'Id' => '8.2',
-            'Label' => 'Tokina AT-X242AF 24-200mm f/3.5-5.6',
+            'Label' => 'Tokina AT-X 242 AF 24-200mm f/3.5-5.6',
         ),
         9 => array(
             'Id' => 9,
@@ -167,7 +167,7 @@ class LensType extends \PHPExiftool\Driver\Tag
         ),
         '22.1' => array(
             'Id' => '22.1',
-            'Label' => 'Tokina AT-X280AF PRO 28-80mm f/2.8 Aspherical',
+            'Label' => 'Tokina AT-X 280 AF Pro 28-80mm f/2.8 Aspherical',
         ),
         23 => array(
             'Id' => 23,
@@ -635,7 +635,7 @@ class LensType extends \PHPExiftool\Driver\Tag
         ),
         '160.2' => array(
             'Id' => '160.2',
-            'Label' => 'Tokina AT-X 124 AF 12-24mm f/4 DX',
+            'Label' => 'Tokina AT-X 124 AF Pro DX 12-24mm f/4',
         ),
         '160.3' => array(
             'Id' => '160.3',
@@ -643,7 +643,7 @@ class LensType extends \PHPExiftool\Driver\Tag
         ),
         '160.4' => array(
             'Id' => '160.4',
-            'Label' => 'Tokina AF 11-16mm f/2.8 AT-X Pro DX',
+            'Label' => 'Tokina AT-X 116 AF Pro DX 11-16mm f/2.8',
         ),
         161 => array(
             'Id' => 161,
@@ -1040,6 +1040,14 @@ class LensType extends \PHPExiftool\Driver\Tag
         491 => array(
             'Id' => 491,
             'Label' => 'Canon EF 300mm f/2.8L IS II USM',
+        ),
+        494 => array(
+            'Id' => 494,
+            'Label' => 'Canon EF 600mm f/4.0L IS II USM',
+        ),
+        495 => array(
+            'Id' => 495,
+            'Label' => 'Canon EF 24-70mm f/2.8L II USM',
         ),
     );
 

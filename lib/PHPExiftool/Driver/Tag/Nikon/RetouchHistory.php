@@ -137,6 +137,18 @@ class RetouchHistory extends \PHPExiftool\Driver\Tag
             'Id' => 33,
             'Label' => 'Miniature Effect',
         ),
+        34 => array(
+            'Id' => 34,
+            'Label' => 'Skin Softening',
+        ),
+        38 => array(
+            'Id' => 38,
+            'Label' => 'Selective Color',
+        ),
+        40 => array(
+            'Id' => 40,
+            'Label' => 'Drawing',
+        ),
     );
 
 }

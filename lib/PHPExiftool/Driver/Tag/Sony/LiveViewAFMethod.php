@@ -14,11 +14,11 @@ namespace PHPExiftool\Driver\Tag\Sony;
 class LiveViewAFMethod extends \PHPExiftool\Driver\Tag
 {
 
-    protected $Id = 54;
+    protected $Id = 32;
 
     protected $Name = 'LiveViewAFMethod';
 
-    protected $FullName = 'Sony::CameraSettings3';
+    protected $FullName = 'Sony::MoreSettings';
 
     protected $GroupName = 'Sony';
 

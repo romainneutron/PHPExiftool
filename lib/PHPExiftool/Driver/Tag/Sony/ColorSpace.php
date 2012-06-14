@@ -65,6 +65,14 @@ class ColorSpace extends \PHPExiftool\Driver\Tag
             'Id' => 2,
             'Label' => 'Adobe RGB',
         ),
+        7 => array(
+            'Id' => 1,
+            'Label' => 'sRGB',
+        ),
+        8 => array(
+            'Id' => 2,
+            'Label' => 'Adobe RGB',
+        ),
     );
 
 }

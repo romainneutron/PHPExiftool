@@ -14,11 +14,11 @@ namespace PHPExiftool\Driver\Tag\Sony;
 class CreativeStyleSetting extends \PHPExiftool\Driver\Tag
 {
 
-    protected $Id = 15;
+    protected $Id = 'mixed';
 
     protected $Name = 'CreativeStyleSetting';
 
-    protected $FullName = 'Sony::CameraSettings3';
+    protected $FullName = 'mixed';
 
     protected $GroupName = 'Sony';
 

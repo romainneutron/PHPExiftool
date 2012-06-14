@@ -157,6 +157,58 @@ class ExposureMode extends \PHPExiftool\Driver\Tag
             'Id' => 4227,
             'Label' => 'Macro',
         ),
+        30 => array(
+            'Id' => 0,
+            'Label' => 'Program',
+        ),
+        31 => array(
+            'Id' => 1,
+            'Label' => 'Aperture Priority',
+        ),
+        32 => array(
+            'Id' => 2,
+            'Label' => 'Shutter Priority',
+        ),
+        33 => array(
+            'Id' => 3,
+            'Label' => 'Manual',
+        ),
+        34 => array(
+            'Id' => 4,
+            'Label' => 'Auto',
+        ),
+        35 => array(
+            'Id' => 5,
+            'Label' => 'Program Shift A',
+        ),
+        36 => array(
+            'Id' => 6,
+            'Label' => 'Program Shift S',
+        ),
+        37 => array(
+            'Id' => 4115,
+            'Label' => 'Portrait',
+        ),
+        38 => array(
+            'Id' => 4131,
+            'Label' => 'Sports',
+        ),
+        39 => array(
+            'Id' => 4147,
+            'Label' => 'Sunset',
+        ),
+        40 => array(
+            'Id' => 4163,
+            'Label' => 'Night View/Portrait',
+        ),
+        41 => array(
+            'Id' => 4179,
+            'Label' => 'Landscape',
+        ),
+        42 => array(
+            'Id' => 4227,
+            'Label' => 'Macro',
+        ),
     );
 
 }

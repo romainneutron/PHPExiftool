@@ -49,21 +49,9 @@ class FocusStatus extends \PHPExiftool\Driver\Tag
             'Id' => 2,
             'Label' => 'Failed',
         ),
-        3 => array(
+        4 => array(
             'Id' => 4,
             'Label' => 'Not confirmed, Tracking',
-        ),
-        4 => array(
-            'Id' => 0,
-            'Label' => 'Not Focused',
-        ),
-        5 => array(
-            'Id' => 1,
-            'Label' => 'Confirmed',
-        ),
-        6 => array(
-            'Id' => 4,
-            'Label' => 'Tracking',
         ),
     );
 

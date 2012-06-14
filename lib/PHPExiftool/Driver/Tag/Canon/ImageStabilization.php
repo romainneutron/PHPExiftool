@@ -47,15 +47,35 @@ class ImageStabilization extends \PHPExiftool\Driver\Tag
         ),
         2 => array(
             'Id' => 2,
-            'Label' => 'On, Shot Only',
+            'Label' => 'Shoot Only',
         ),
         3 => array(
             'Id' => 3,
-            'Label' => 'On, Panning',
+            'Label' => 'Panning',
         ),
         4 => array(
             'Id' => 4,
-            'Label' => 'On, Video',
+            'Label' => 'Dynamic',
+        ),
+        256 => array(
+            'Id' => 256,
+            'Label' => 'Off (2)',
+        ),
+        257 => array(
+            'Id' => 257,
+            'Label' => 'On (2)',
+        ),
+        258 => array(
+            'Id' => 258,
+            'Label' => 'Shoot Only (2)',
+        ),
+        259 => array(
+            'Id' => 259,
+            'Label' => 'Panning (2)',
+        ),
+        260 => array(
+            'Id' => 260,
+            'Label' => 'Dynamic (2)',
         ),
     );
 

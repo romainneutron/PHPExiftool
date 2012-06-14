@@ -1,0 +1,39 @@
+<?php
+
+/*
+ * This file is part of PHPExifTool.
+ *
+ * (c) 2012 Romain Neutron <imprec@gmail.com>
+ *
+ * For the full copyright and license information, please view the LICENSE
+ * file that was distributed with this source code.
+ */
+
+namespace PHPExiftool\Driver\Tag\Canon;
+
+class CroppedImageTop extends \PHPExiftool\Driver\Tag
+{
+
+    protected $Id = 4;
+
+    protected $Name = 'CroppedImageTop';
+
+    protected $FullName = 'Canon::AspectInfo';
+
+    protected $GroupName = 'Canon';
+
+    protected $g0 = 'MakerNotes';
+
+    protected $g1 = 'Canon';
+
+    protected $g2 = 'Camera';
+
+    protected $Type = 'int32u';
+
+    protected $Writable = true;
+
+    protected $Description = 'Cropped Image Top';
+
+    protected $flag_Permanent = true;
+
+}

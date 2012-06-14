@@ -49,6 +49,10 @@ class NoiseFilter extends \PHPExiftool\Driver\Tag
             'Id' => '0 -2 1',
             'Label' => 'Standard',
         ),
+        '0 0 0' => array(
+            'Id' => '0 0 0',
+            'Label' => 'n/a',
+        ),
         '1 -2 1' => array(
             'Id' => '1 -2 1',
             'Label' => 'High',

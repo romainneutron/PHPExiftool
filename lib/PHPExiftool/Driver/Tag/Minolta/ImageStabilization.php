@@ -46,21 +46,39 @@ class ImageStabilization extends \PHPExiftool\Driver\Tag
             'Label' => 'On',
         ),
         2 => array(
-            'Id' => 1,
-            'Label' => 'Off',
-        ),
-        3 => array(
-            'Id' => 5,
-            'Label' => 'On',
-        ),
-        4 => array(
             'Id' => 0,
             'Label' => 'Off',
         ),
+        3 => array(
+            'Id' => 10116,
+            'Label' => 'On',
+        ),
+        4 => array(
+            'Id' => 1,
+            'Label' => 'Off',
+        ),
         5 => array(
+            'Id' => 5,
+            'Label' => 'On',
+        ),
+        6 => array(
+            'Id' => 0,
+            'Label' => 'Off',
+        ),
+        7 => array(
+            'Id' => 1,
+            'Label' => 'On',
+        ),
+        8 => array(
+            'Id' => 0,
+            'Label' => 'Off',
+        ),
+        9 => array(
             'Id' => 1,
             'Label' => 'On',
         ),
     );
+
+    protected $Index = 'mixed';
 
 }

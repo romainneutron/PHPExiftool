@@ -14,11 +14,11 @@ namespace PHPExiftool\Driver\Tag\Kodak;
 class PreviewImageHeight extends \PHPExiftool\Driver\Tag
 {
 
-    protected $Id = 1;
+    protected $Id = 'mixed';
 
     protected $Name = 'PreviewImageHeight';
 
-    protected $FullName = 'Kodak::Scrn';
+    protected $FullName = 'mixed';
 
     protected $GroupName = 'Kodak';
 
@@ -26,7 +26,7 @@ class PreviewImageHeight extends \PHPExiftool\Driver\Tag
 
     protected $g1 = 'Kodak';
 
-    protected $g2 = 'Image';
+    protected $g2 = 'mixed';
 
     protected $Type = 'int16u';
 

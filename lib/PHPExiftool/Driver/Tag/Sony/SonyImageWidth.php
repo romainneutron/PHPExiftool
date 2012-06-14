@@ -14,11 +14,11 @@ namespace PHPExiftool\Driver\Tag\Sony;
 class SonyImageWidth extends \PHPExiftool\Driver\Tag
 {
 
-    protected $Id = 22;
+    protected $Id = 'mixed';
 
     protected $Name = 'SonyImageWidth';
 
-    protected $FullName = 'Sony::PMP';
+    protected $FullName = 'mixed';
 
     protected $GroupName = 'Sony';
 

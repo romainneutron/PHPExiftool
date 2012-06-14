@@ -14,11 +14,11 @@ namespace PHPExiftool\Driver\Tag\Sony;
 class FacesDetected extends \PHPExiftool\Driver\Tag
 {
 
-    protected $Id = 48;
+    protected $Id = 'mixed';
 
     protected $Name = 'FacesDetected';
 
-    protected $FullName = 'Sony::ShotInfo';
+    protected $FullName = 'mixed';
 
     protected $GroupName = 'Sony';
 
@@ -26,7 +26,7 @@ class FacesDetected extends \PHPExiftool\Driver\Tag
 
     protected $g1 = 'Sony';
 
-    protected $g2 = 'Image';
+    protected $g2 = 'mixed';
 
     protected $Type = 'int16u';
 
