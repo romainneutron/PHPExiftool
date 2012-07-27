@@ -11,7 +11,8 @@
 
 namespace PHPExiftool;
 
-use \Symfony\Component\Process\Process;
+use PHPExiftool\Exception\RuntimeException;
+use Symfony\Component\Process\Process;
 
 abstract class Exiftool
 {
@@ -29,13 +30,7 @@ abstract class Exiftool
         $process->run();
 
         if ( ! $process->isSuccessful()) {
-            /**
-             * Temporary disable exception id ExitCode < 1
-             * Exiftool returns -1 when run in a sub-subprocess
-             */
-            if ($process->getExitCode() > 0) {
-                throw new Exception\RuntimeException(sprintf('Command %s failed : %s, exitcode %s', $command, $process->getErrorOutput(), $process->getExitCode()));
-            }
+            throw new RuntimeException(sprintf('Command %s failed : %s, exitcode %s', $command, $process->getErrorOutput(), $process->getExitCode()));
         }
 
         return $process->getOutput();
