@@ -34,7 +34,7 @@ use PHPExiftool\Exception;
  * @todo implement binary thumbnails
  * @todo implements stay_open
  */
-class Writer extends Exiftool
+class Writer
 {
     const MODE_IPTC2XMP = 1;
     const MODE_IPTC2EXIF = 2;
@@ -51,6 +51,12 @@ class Writer extends Exiftool
     protected $mode;
     protected $modules = false;
     protected $erase = false;
+    private $exiftool;
+
+    public function __construct(Exiftool $exiftool)
+    {
+        $this->exiftool = $exiftool;
+    }
 
     /**
      * Enable / Disable modes
@@ -139,7 +145,7 @@ class Writer extends Exiftool
             throw new Exception\InvalidArgumentException(sprintf('%s does not exists', $file));
         }
 
-        $command = self::getBinary();
+        $command = '';
 
         $common_args = ' -preserve -charset UTF8';
 
@@ -191,7 +197,7 @@ class Writer extends Exiftool
 
         $command .= ' -common_args' . $common_args;
 
-        $lines = explode("\n", self::executeCommand($command));
+        $lines = explode("\n", $this->exiftool->executeCommand($command));
         $lastLine = '';
 
         while ($lines && ! $lastLine) {

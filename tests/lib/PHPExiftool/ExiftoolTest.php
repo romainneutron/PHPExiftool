@@ -6,21 +6,12 @@ class ExiftoolTest extends \PHPUnit_Framework_TestCase
 {
 
     /**
-     * @covers PHPExiftool\Exiftool::getBinary
-     */
-    public function testGetBinary()
-    {
-        $this->assertTrue(is_executable(ExiftoolTester::getBinaryTester()));
-    }
-
-    /**
      * @covers PHPExiftool\Exiftool::executeCommand
      */
     public function testExecuteCommand()
     {
-        $command = ExiftoolTester::getBinaryTester() . ' -ver';
-
-        $this->assertRegExp('/\d+\.\d+/', ExiftoolTester::executeCommandTester($command));
+        $exiftool = new Exiftool();
+        $this->assertRegExp('/\d+\.\d+/', $exiftool->executeCommand('-ver'));
     }
 
     /**
@@ -30,22 +21,8 @@ class ExiftoolTest extends \PHPUnit_Framework_TestCase
      */
     public function testExecuteCommandFailed()
     {
-        $command = ExiftoolTester::getBinaryTester() . ' -version';
-        ExiftoolTester::executeCommandTester($command);
-    }
-}
-
-class ExiftoolTester extends Exiftool
-{
-
-    public static function getBinaryTester()
-    {
-        return self::getBinary();
-    }
-
-    public static function executeCommandTester($command)
-    {
-        return self::executeCommand($command);
+        $exiftool = new Exiftool();
+        $exiftool->executeCommand('-prout');
     }
 }
 

@@ -14,7 +14,7 @@ class WriterTest extends \PHPUnit_Framework_TestCase
 
     protected function setUp()
     {
-        $this->object = new Writer;
+        $this->object = new Writer(new Exiftool());
         $this->in = __DIR__ . '/../../files/ExifTool.jpg';
         $this->out = __DIR__ . '/../../files/ExifTool_erased.jpg';
         $this->inPlace = __DIR__ . '/../../files/ExifToolCopied.jpg';
@@ -76,10 +76,10 @@ class WriterTest extends \PHPUnit_Framework_TestCase
         $changedFiles = $this->object->write($this->in, $metadatas, $this->out);
         $this->assertEquals(1, $changedFiles);
 
-        $reader = new Reader();
+        $reader = Reader::create();
         $this->assertGreaterThan(200, count($reader->files($this->in)->first()->getMetadatas()));
 
-        $reader = new Reader();
+        $reader = Reader::create();
         $this->assertGreaterThan(4, count($reader->files($this->out)->first()->getMetadatas()));
         $this->assertLessThan(30, count($reader->files($this->out)->first()->getMetadatas()));
 
@@ -132,7 +132,7 @@ class WriterTest extends \PHPUnit_Framework_TestCase
 
         $this->assertEquals(1, $changedFiles);
 
-        $reader = new Reader();
+        $reader = Reader::create();
         $metadatasRead = $reader->files($this->out)->first()->getMetadatas();
 
         $this->assertGreaterThan(200, count($metadatasRead));
@@ -155,7 +155,7 @@ class WriterTest extends \PHPUnit_Framework_TestCase
 
         $this->assertEquals(1, $changedFiles);
 
-        $reader = new Reader();
+        $reader = Reader::create();
         $metadatasRead = $reader->files($this->inPlace)->first()->getMetadatas();
 
         $this->assertGreaterThan(200, count($metadatasRead));
@@ -179,7 +179,7 @@ class WriterTest extends \PHPUnit_Framework_TestCase
 
         $this->assertEquals(1, $changedFiles);
 
-        $reader = new Reader();
+        $reader = Reader::create();
         $metadatasRead = $reader->files($this->inPlace)->first()->getMetadatas();
 
         $this->assertLessThan(30, count($metadatasRead));
@@ -207,7 +207,7 @@ class WriterTest extends \PHPUnit_Framework_TestCase
         $metadatas->add(new Driver\Metadata\Metadata(new Driver\Tag\IPTC\ObjectName(), new Driver\Value\Mono('Beautiful Object')));
         $metadatas->add(new Driver\Metadata\Metadata(new Driver\Tag\XMPIptcExt\PersonInImage(), new Driver\Value\Multi(array('Romain', 'Nicolas'))));
 
-        $writer = new WriterTester();
+        $writer = new WriterTester(new Exiftool());
         $this->assertNotContains('@', trim($writer->addMetadatasArgTester($metadatas)));
 
         $writer->setMode(WriterTester::MODE_EXIF2IPTC, true);

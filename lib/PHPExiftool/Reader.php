@@ -47,7 +47,7 @@ use Doctrine\Common\Collections\ArrayCollection;
  *
  * @author Romain Neutron <imprec@gmail.com>
  */
-class Reader extends Exiftool implements \IteratorAggregate
+class Reader implements \IteratorAggregate
 {
     protected $files = array();
     protected $dirs = array();
@@ -59,6 +59,7 @@ class Reader extends Exiftool implements \IteratorAggregate
     protected $ignoreDotFile = false;
     protected $sort = array();
     protected $parser;
+    protected $exiftool;
 
     /**
      *
@@ -70,9 +71,15 @@ class Reader extends Exiftool implements \IteratorAggregate
     /**
      *  Constructor
      */
-    public function __construct()
+    public function __construct(Exiftool $exiftool, RDFParser $parser)
     {
-        $this->parser = new RDFParser();
+        $this->exiftool = $exiftool;
+        $this->parser = $parser;
+    }
+
+    public static function create()
+    {
+        return new static(new Exiftool(), new RDFParser());
     }
 
     public function __destruct()
@@ -353,7 +360,7 @@ class Reader extends Exiftool implements \IteratorAggregate
 
         try {
 
-            $result = trim(self::executeCommand($this->buildQuery()));
+            $result = trim($this->exiftool->executeCommand($this->buildQuery()));
         } catch (\PHPExiftool\Exception\RuntimeException $e) {
             /**
              * In case no file found, an exit code 1 is returned
@@ -460,7 +467,7 @@ class Reader extends Exiftool implements \IteratorAggregate
             throw new Exception\LogicException('You have not set any files or directory');
         }
 
-        $command = self::getBinary() . ' -n -q -b -X -charset UTF8';
+        $command = '-n -q -b -X -charset UTF8';
 
         if ($this->recursive) {
             $command .= ' -r';

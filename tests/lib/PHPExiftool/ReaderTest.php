@@ -93,7 +93,7 @@ class ReaderTest extends \PHPUnit_Framework_TestCase {
      */
     protected function setUp()
     {
-        $this->object = new Reader();
+        $this->object = Reader::create();
     }
 
     /**
@@ -124,7 +124,7 @@ class ReaderTest extends \PHPUnit_Framework_TestCase {
         $file3 = self::$tmpDir . '/dir/newfile.txt';
         $this->assertEquals(1, count($this->object->files($file1)->all()));
 
-        $reader = new Reader();
+        $reader = Reader::create();
         $reader->files(array($file2, $file3));
         $this->assertEquals(3, count($this->object->append($reader)->all()));
     }
@@ -139,7 +139,7 @@ class ReaderTest extends \PHPUnit_Framework_TestCase {
         $file2 = self::$tmpDir . '/hello.world';
         $file3 = self::$tmpDir . '/dir/newfile.txt';
 
-        $reader = new Reader();
+        $reader = Reader::create();
         $reader->files(array($file3, $file2, $file1));
         $reader->sort(array('directory', 'filename', 'cigarette'));
 
@@ -209,16 +209,16 @@ class ReaderTest extends \PHPUnit_Framework_TestCase {
      */
     public function testIn()
     {
-        $reader = new Reader();
+        $reader = Reader::create();
         $reader->in(self::$tmpDir);
 
         $this->assertEquals(3, count($reader->all()));
 
-        $reader = new Reader();
+        $reader = Reader::create();
         $reader->in(self::$tmpDir . '/dir');
         $this->assertEquals(1, count($reader->all()));
 
-        $reader = new Reader();
+        $reader = Reader::create();
         $reader->in(__DIR__ . '/../../../vendor/phpexiftool/exiftool/');
 
         foreach ($reader as $file) {
@@ -234,7 +234,7 @@ class ReaderTest extends \PHPUnit_Framework_TestCase {
      */
     public function testExclude()
     {
-        $reader = new Reader();
+        $reader = Reader::create();
         $reader
                 ->in(self::$tmpDir)
                 ->exclude(self::$tmpDir . '/dir');
@@ -249,7 +249,7 @@ class ReaderTest extends \PHPUnit_Framework_TestCase {
      */
     public function testComputeExcludeDirs($dir)
     {
-        $reader = new Reader();
+        $reader = Reader::create();
         $reader
                 ->in(self::$tmpDir)
                 ->exclude($dir)
@@ -277,7 +277,7 @@ class ReaderTest extends \PHPUnit_Framework_TestCase {
      */
     public function testComputeExcludeDirsFail($dir)
     {
-        $reader = new Reader();
+        $reader = Reader::create();
         $reader
                 ->in(self::$tmpDir)
                 ->exclude($dir)
@@ -303,27 +303,27 @@ class ReaderTest extends \PHPUnit_Framework_TestCase {
      */
     public function testExtensions()
     {
-        $reader = new Reader();
+        $reader = Reader::create();
         $reader->in(self::$tmpDir);
         $this->assertEquals(3, count($reader->all()));
 
-        $reader = new Reader();
+        $reader = Reader::create();
         $reader->in(self::$tmpDir)->notRecursive()->extensions(array('world', 'exiftool'));
         $this->assertEquals(2, count($reader->all()));
 
-        $reader = new Reader();
+        $reader = Reader::create();
         $reader->in(self::$tmpDir)->extensions(array('world', 'exiftool'));
         $this->assertEquals(2, count($reader->all()));
 
-        $reader = new Reader();
+        $reader = Reader::create();
         $reader->in(self::$tmpDir)->extensions('world')->extensions('exiftool');
         $this->assertEquals(2, count($reader->all()));
 
-        $reader = new Reader();
+        $reader = Reader::create();
         $reader->in(self::$tmpDir)->extensions(array('world', 'exiftool'), false);
         $this->assertEquals(1, count($reader->all()));
 
-        $reader = new Reader();
+        $reader = Reader::create();
         $reader->in(self::$tmpDir)->extensions(array('world', 'exiftool'), false)->notRecursive();
         $this->assertEquals(0, count($reader->all()));
     }
@@ -335,7 +335,7 @@ class ReaderTest extends \PHPUnit_Framework_TestCase {
      */
     public function testExtensionsMisUse()
     {
-        $reader = new Reader();
+        $reader = Reader::create();
         $reader->extensions('exiftool')->extensions('world', false);
     }
 
@@ -348,7 +348,7 @@ class ReaderTest extends \PHPUnit_Framework_TestCase {
             $this->markTestSkipped('This system does not support symlinks');
         }
 
-        $reader = new Reader();
+        $reader = Reader::create();
         $reader->in(self::$tmpDir)
                 ->followSymLinks();
 
@@ -362,7 +362,7 @@ class ReaderTest extends \PHPUnit_Framework_TestCase {
      */
     public function testNotRecursive()
     {
-        $reader = new Reader();
+        $reader = Reader::create();
         $reader->in(self::$tmpDir)->notRecursive();
         $this->assertEquals(2, count($reader->all()));
     }
@@ -372,7 +372,7 @@ class ReaderTest extends \PHPUnit_Framework_TestCase {
      */
     public function testGetOneOrNull()
     {
-        $reader = new Reader();
+        $reader = Reader::create();
         $reader->in(self::$tmpDir)->notRecursive()->extensions(array('world', 'exiftool'), false);
 
         $this->assertNull($reader->getOneOrNull());
@@ -385,7 +385,7 @@ class ReaderTest extends \PHPUnit_Framework_TestCase {
      */
     public function testFirstEmpty()
     {
-        $reader = new Reader();
+        $reader = Reader::create();
         $reader->in(self::$tmpDir)->notRecursive()->extensions(array('world', 'exiftool'), false);
         $reader->first();
     }
@@ -395,7 +395,7 @@ class ReaderTest extends \PHPUnit_Framework_TestCase {
      */
     public function testFirst()
     {
-        $reader = new Reader();
+        $reader = Reader::create();
         $reader
                 ->in(self::$tmpDir);
 
@@ -408,7 +408,7 @@ class ReaderTest extends \PHPUnit_Framework_TestCase {
      */
     public function testFail()
     {
-        $reader = new Reader();
+        $reader = Reader::create();
         $reader->all();
     }
 
@@ -418,7 +418,7 @@ class ReaderTest extends \PHPUnit_Framework_TestCase {
      */
     public function testAll()
     {
-        $reader = new Reader();
+        $reader = Reader::create();
         $reader->in(self::$tmpDir);
 
         $this->assertInstanceOf('\\Doctrine\\Common\\Collections\\ArrayCollection', $reader->all());

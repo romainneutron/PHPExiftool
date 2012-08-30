@@ -13,6 +13,12 @@ namespace PHPExiftool;
 
 class PreviewExtractor extends Exiftool
 {
+    private $exiftool;
+
+    public function __construct(Exiftool $exiftool)
+    {
+        $this->exiftool = $exiftool;
+    }
 
     public function extract($pathfile, $outputDir)
     {
@@ -24,14 +30,14 @@ class PreviewExtractor extends Exiftool
             throw new Exception\LogicException(sprintf('%s is not writable', $outputDir));
         }
 
-        $command = self::getBinary() . " -if " . escapeshellarg('$jpgfromraw') . " -b -jpgfromraw "
+        $command = "-if " . escapeshellarg('$jpgfromraw') . " -b -jpgfromraw "
             . "-w " . escapeshellarg(realpath($outputDir)) . "/JpgFromRaw%c.jpg -execute "
             . "-if " . escapeshellarg('$previewimage') . " -b -previewimage "
             . "-w " . escapeshellarg(realpath($outputDir)) . "/PreviewImage%c.jpg "
             . "-common_args -q -m " . $pathfile;
 
         try {
-            self::executeCommand($command);
+            $this->exiftool->executeCommand($command);
         } catch (Exception\RuntimeException $e) {
 
         }

@@ -11,7 +11,7 @@
 
 namespace PHPExiftool;
 
-class InformationDumper extends Exiftool
+class InformationDumper
 {
     /**
      * For use with list option
@@ -38,6 +38,13 @@ class InformationDumper extends Exiftool
      */
     const LISTTYPE_GROUPS            = 'g';
 
+    private $exiftool;
+
+    public function __construct(Exiftool $exiftool)
+    {
+        $this->exiftool = $exiftool;
+    }
+
     /**
      * Return the result of a Exiftool -list* command
      *
@@ -58,6 +65,6 @@ class InformationDumper extends Exiftool
             throw new \PHPExiftool\Exception\InvalidArgumentException('Unknown list attribute');
         }
 
-        return static::executeCommand(self::getBinary() . ' -f -list' . $type);
+        return $this->exiftool->executeCommand('-f -list' . $type);
     }
 }

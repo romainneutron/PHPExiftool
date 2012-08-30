@@ -10,7 +10,7 @@ class PreviewExtractorTest extends \PHPUnit_Framework_TestCase
      */
     public function testExtract()
     {
-        $extractor = new PreviewExtractor();
+        $extractor = new PreviewExtractor(new Exiftool());
 
         $tmpDir = sys_get_temp_dir() . '/tests' . mt_rand(10000, 99999);
 
@@ -44,7 +44,7 @@ class PreviewExtractorTest extends \PHPUnit_Framework_TestCase
      */
     public function testExtractWrongFile()
     {
-        $extractor = new PreviewExtractor();
+        $extractor = new PreviewExtractor(new Exiftool());
 
         $tmpDir = sys_get_temp_dir() . '/tests' . mt_rand(10000, 99999);
 
@@ -56,7 +56,7 @@ class PreviewExtractorTest extends \PHPUnit_Framework_TestCase
      */
     public function testExtractWrongDir()
     {
-        $extractor = new PreviewExtractor();
+        $extractor = new PreviewExtractor(new Exiftool());
 
         $tmpDir = sys_get_temp_dir() . '/tests' . mt_rand(10000, 99999);
 

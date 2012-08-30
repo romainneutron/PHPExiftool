@@ -14,7 +14,7 @@ namespace PHPExiftool;
 use PHPExiftool\Exception\RuntimeException;
 use Symfony\Component\Process\Process;
 
-abstract class Exiftool
+class Exiftool
 {
 
     /**
@@ -24,8 +24,9 @@ abstract class Exiftool
      * @return string
      * @throws \Exception
      */
-    protected static function executeCommand($command)
+    public function executeCommand($command)
     {
+        $command = self::getBinary() . ' ' . $command;
         $process = new Process($command);
         $process->run();
 
@@ -40,8 +41,14 @@ abstract class Exiftool
      *
      * @return string
      */
-    protected static function getBinary()
+    private static function getBinary()
     {
+        static $binary = null;
+
+        if ($binary) {
+            return $binary;
+        }
+
         $dev = __DIR__ . '/../../vendor/phpexiftool/exiftool/exiftool';
         $packaged = __DIR__ . '/../../../../phpexiftool/exiftool/exiftool';
 
@@ -52,8 +59,10 @@ abstract class Exiftool
             }
 
             if (is_executable($location)) {
-                return realpath($location);
+                return $binary = realpath($location);
             }
         }
+
+        throw new RuntimeException('Unable to get exiftool binary');
     }
 }
