@@ -2,6 +2,8 @@
 
 namespace PHPExiftool;
 
+use PHPExiftool\RDFParser;
+
 class FileEntityTest extends \PHPUnit_Framework_TestCase
 {
     /**
@@ -17,7 +19,7 @@ class FileEntityTest extends \PHPUnit_Framework_TestCase
         $dom = new \DOMDocument();
         $dom->loadXML(file_get_contents(__DIR__ . '/../../files/ExifTool.xml'));
 
-        $this->object = new FileEntity(new \SplFileInfo('testFile'), $dom, new \PHPExiftool\RDFParser());
+        $this->object = new FileEntity(new \SplFileInfo('testFile'), $dom, new RDFParser());
     }
 
     /**

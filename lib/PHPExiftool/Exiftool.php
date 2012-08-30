@@ -41,7 +41,7 @@ class Exiftool
      *
      * @return string
      */
-    private static function getBinary()
+    protected static function getBinary()
     {
         static $binary = null;
 

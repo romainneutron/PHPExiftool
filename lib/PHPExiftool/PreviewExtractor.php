@@ -31,9 +31,9 @@ class PreviewExtractor extends Exiftool
         }
 
         $command = "-if " . escapeshellarg('$jpgfromraw') . " -b -jpgfromraw "
-            . "-w " . escapeshellarg(realpath($outputDir)) . "/JpgFromRaw%c.jpg -execute "
+            . "-w " . escapeshellarg(realpath($outputDir) . '/JpgFromRaw%c.jpg') . " -execute "
             . "-if " . escapeshellarg('$previewimage') . " -b -previewimage "
-            . "-w " . escapeshellarg(realpath($outputDir)) . "/PreviewImage%c.jpg "
+            . "-w " . escapeshellarg(realpath($outputDir) . '/PreviewImage%c.jpg') . " "
             . "-common_args -q -m " . $pathfile;
 
         try {
