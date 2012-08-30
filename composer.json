@@ -23,7 +23,8 @@
         "symfony/console": "2.1.*",
         "symfony/dom-crawler": "2.1.*",
         "fabpot/php-cs-fixer": "dev-master",
-        "sami/sami": "dev-master"
+        "sami/sami": "dev-master",
+        "silex/silex": "dev-master"
     },
     "minimum-stability": "dev",
     "autoload": {

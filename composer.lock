@@ -1,12 +1,6 @@
 {
-    "hash": "6652e5be221f3d3a7e10829f78dee637",
+    "hash": "23c743dff00246398b4b5ff9f21be6ea",
     "packages": [
-        {
-            "package": "doctrine/common",
-            "version": "dev-master",
-            "alias-pretty-version": "2.4.x-dev",
-            "alias-version": "2.4.9999999.9999999-dev"
-        },
         {
             "package": "doctrine/common",
             "version": "dev-master",
@@ -28,8 +22,8 @@
         {
             "package": "symfony/process",
             "version": "dev-master",
-            "source-reference": "v2.1.0-RC2",
-            "commit-date": "1345986831"
+            "source-reference": "9d4ac6860929f84e68732d1793cd2edb0881d955",
+            "commit-date": "1346330945"
         }
     ],
     "packages-dev": [
@@ -54,6 +48,18 @@
             "version": "dev-master",
             "source-reference": "cef4abb9344cb0e6de77de5e01da7359001726f9",
             "commit-date": "1344320326"
+        },
+        {
+            "package": "silex/silex",
+            "version": "dev-master",
+            "alias-pretty-version": "1.0.x-dev",
+            "alias-version": "1.0.9999999.9999999-dev"
+        },
+        {
+            "package": "silex/silex",
+            "version": "dev-master",
+            "source-reference": "52c6480be194825489f316d30855645dafa7fae4",
+            "commit-date": "1346332220"
         },
         {
             "package": "symfony/console",
@@ -92,6 +98,18 @@
             "commit-date": "1346140482"
         },
         {
+            "package": "symfony/event-dispatcher",
+            "version": "dev-master",
+            "alias-pretty-version": "2.1.x-dev",
+            "alias-version": "2.1.9999999.9999999-dev"
+        },
+        {
+            "package": "symfony/event-dispatcher",
+            "version": "dev-master",
+            "source-reference": "v2.1.0-RC2",
+            "commit-date": "1345643321"
+        },
+        {
             "package": "symfony/filesystem",
             "version": "dev-master",
             "alias-pretty-version": "2.1.x-dev",
@@ -116,6 +134,42 @@
             "commit-date": "1345643321"
         },
         {
+            "package": "symfony/http-foundation",
+            "version": "dev-master",
+            "alias-pretty-version": "2.1.x-dev",
+            "alias-version": "2.1.9999999.9999999-dev"
+        },
+        {
+            "package": "symfony/http-foundation",
+            "version": "dev-master",
+            "source-reference": "c61c023d2e9e9ad2edcc9227bd0ec5f79d616e18",
+            "commit-date": "1346312580"
+        },
+        {
+            "package": "symfony/http-kernel",
+            "version": "dev-master",
+            "alias-pretty-version": "2.1.x-dev",
+            "alias-version": "2.1.9999999.9999999-dev"
+        },
+        {
+            "package": "symfony/http-kernel",
+            "version": "dev-master",
+            "source-reference": "aeffdc93a69b65dad2f61c917f73c84b8e387ba4",
+            "commit-date": "1346143430"
+        },
+        {
+            "package": "symfony/routing",
+            "version": "dev-master",
+            "alias-pretty-version": "2.1.x-dev",
+            "alias-version": "2.1.9999999.9999999-dev"
+        },
+        {
+            "package": "symfony/routing",
+            "version": "dev-master",
+            "source-reference": "20633ec11b727ad0916812810751ef89cfff2985",
+            "commit-date": "1346337330"
+        },
+        {
             "package": "symfony/yaml",
             "version": "dev-master",
             "alias-pretty-version": "2.1.x-dev",
@@ -126,12 +180,6 @@
             "version": "dev-master",
             "source-reference": "v2.1.0-RC2",
             "commit-date": "1345643321"
-        },
-        {
-            "package": "twig/twig",
-            "version": "dev-master",
-            "alias-pretty-version": "1.9.x-dev",
-            "alias-version": "1.9.9999999.9999999-dev"
         },
         {
             "package": "twig/twig",
@@ -147,6 +195,7 @@
     "stability-flags": {
         "phpexiftool/exiftool": 20,
         "fabpot/php-cs-fixer": 20,
-        "sami/sami": 20
+        "sami/sami": 20,
+        "silex/silex": 20
     }
 }
