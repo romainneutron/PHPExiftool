@@ -14,8 +14,8 @@
     "require": {
         "php": ">=5.3.3",
         "doctrine/common": ">=2.2",
-        "phpexiftool/exiftool": ">8.94",
-        "symfony/process": ">=2.1"
+        "phpexiftool/exiftool": "dev-master",
+        "symfony/process": "2.1.*"
     },
     "require-dev": {
         "symfony/css-selector": "2.1.*",
@@ -25,6 +25,7 @@
         "fabpot/php-cs-fixer": "dev-master",
         "sami/sami": "dev-master"
     },
+    "minimum-stability": "dev",
     "autoload": {
         "psr-0": {
             "PHPExiftool": "lib"
