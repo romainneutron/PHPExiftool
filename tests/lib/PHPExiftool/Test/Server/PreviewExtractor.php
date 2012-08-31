@@ -4,7 +4,7 @@ namespace PHPExiftool\Test\Server;
 
 require_once __DIR__ . '/../AbstractPreviewExtractorTest.php';
 
-use PHPExiftool\AbstractPreviewExtractorTest;
+use PHPExiftool\Test\AbstractPreviewExtractorTest;
 use PHPExiftool\ExiftoolServer;
 
 class PreviewExtractor extends AbstractPreviewExtractorTest
