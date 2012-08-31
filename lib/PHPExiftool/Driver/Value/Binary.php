@@ -11,9 +11,9 @@
 
 namespace PHPExiftool\Driver\Value;
 
-use PHPExiftool\Exception;
+use PHPExiftool\Exception\InvalidArgumentException;
 
-class Binary implements Value
+class Binary implements ValueInterface
 {
     protected $value;
 
@@ -52,7 +52,7 @@ class Binary implements Value
     public function setBase64Value($base64Value)
     {
         if (false === $value = base64_decode($base64Value, true)) {
-            throw new Exception\InvalidArgumentException('The value should be base64 encoded');
+            throw new InvalidArgumentException('The value should be base64 encoded');
         }
 
         $this->value = $value;
@@ -63,7 +63,7 @@ class Binary implements Value
     public static function loadFromBase64($base64Value)
     {
         if (false === $value = base64_decode($base64Value, true)) {
-            throw new Exception\InvalidArgumentException('The value should be base64 encoded');
+            throw new InvalidArgumentException('The value should be base64 encoded');
         }
 
         return new static($value);

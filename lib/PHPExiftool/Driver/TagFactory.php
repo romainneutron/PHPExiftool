@@ -11,7 +11,8 @@
 
 namespace PHPExiftool\Driver;
 
-use PHPExiftool\Exception;
+use PHPExiftool\Driver\TagInterface;
+use PHPExiftool\Exception\TagUnknown;
 use PHPExiftool\Tool\Command\ClassesBuilder;
 
 /**
@@ -27,15 +28,15 @@ class TagFactory
      * Build a Tag based on his Tagname
      *
      * @param  string                            $tagname
-     * @return \PHPExiftool\Driver\Tag
-     * @throws \PHPExiftool\Exception\TagUnknown
+     * @return TagInterface
+     * @throws TagUnknown
      */
     public static function getFromRDFTagname($tagname)
     {
         $classname = self::classnameFromTagname($tagname);
 
         if ( ! class_exists($classname)) {
-            throw new Exception\TagUnknown(sprintf('Unknown tag %s', $tagname));
+            throw new TagUnknown(sprintf('Unknown tag %s', $tagname));
         }
 
         return new $classname;

@@ -11,8 +11,8 @@
 
 namespace PHPExiftool\Driver\Metadata;
 
-use PHPExiftool\Driver\Tag;
-use PHPExiftool\Driver\Value\Value;
+use PHPExiftool\Driver\TagInterface;
+use PHPExiftool\Driver\Value\ValueInterface;
 
 /**
  * Metadata Object for mapping a Tag to a value
@@ -25,7 +25,7 @@ class Metadata
     protected $tag;
     protected $value;
 
-    public function __construct(Tag $tag, Value $value)
+    public function __construct(TagInterface $tag, ValueInterface $value)
     {
         $this->tag = $tag;
         $this->value = $value;

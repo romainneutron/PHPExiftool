@@ -11,7 +11,7 @@
 
 namespace PHPExiftool\Driver\Value;
 
-class Multi implements Value
+class Multi implements ValueInterface
 {
     protected $value = array();
 

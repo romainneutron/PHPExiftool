@@ -11,7 +11,7 @@
 
 namespace PHPExiftool\Driver\Value;
 
-class Mono implements Value
+class Mono implements ValueInterface
 {
     protected $value;
 
