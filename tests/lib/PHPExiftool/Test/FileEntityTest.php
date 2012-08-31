@@ -45,7 +45,7 @@ class FileEntityTest extends \PHPUnit_Framework_TestCase
     public function testGetMetadatas()
     {
         $this->assertInstanceOf('\\PHPExiftool\Driver\Metadata\MetadataBag', $this->object->getMetadatas());
-        $this->assertEquals(348, count($this->object->getMetadatas()));
+        $this->assertEquals(349, count($this->object->getMetadatas()));
     }
 
     /**

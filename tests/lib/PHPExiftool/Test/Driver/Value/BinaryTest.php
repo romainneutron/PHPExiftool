@@ -3,7 +3,7 @@
 namespace PHPExiftool\Test\Driver\Value;
 
 use PHPExiftool\Driver\Value\Binary;
-use PHPExiftool\Driver\Value\Value;
+use PHPExiftool\Driver\Value\ValueInterface;
 
 class BinaryTest extends \PHPUnit_Framework_TestCase
 {
@@ -25,7 +25,7 @@ class BinaryTest extends \PHPUnit_Framework_TestCase
      */
     public function testGetType()
     {
-        $this->assertEquals(Value::TYPE_BINARY, $this->object->getType());
+        $this->assertEquals(ValueInterface::TYPE_BINARY, $this->object->getType());
     }
 
     /**

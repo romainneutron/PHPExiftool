@@ -3,7 +3,7 @@
 namespace PHPExiftool\Test\Driver\Value;
 
 use PHPExiftool\Driver\Value\Multi;
-use PHPExiftool\Driver\Value\Value;
+use PHPExiftool\Driver\Value\ValueInterface;
 
 class MultiTest extends \PHPUnit_Framework_TestCase
 {
@@ -25,7 +25,7 @@ class MultiTest extends \PHPUnit_Framework_TestCase
      */
     public function testGetType()
     {
-        $this->assertEquals(Value::TYPE_MULTI, $this->object->getType());
+        $this->assertEquals(ValueInterface::TYPE_MULTI, $this->object->getType());
     }
 
     /**

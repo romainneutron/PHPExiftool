@@ -86,7 +86,7 @@ class RDFParserTest extends \PHPUnit_Framework_TestCase
             ->ParseMetadatas();
 
         $this->assertInstanceOf('\\PHPExiftool\\Driver\\Metadata\\MetadataBag', $metadatas);
-        $this->assertEquals(348, count($metadatas));
+        $this->assertEquals(349, count($metadatas));
     }
 
     /**
