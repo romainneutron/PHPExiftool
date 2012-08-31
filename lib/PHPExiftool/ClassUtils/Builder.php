@@ -101,7 +101,7 @@ class Builder
         $content = "<?php\n\n<license>\n\nnamespace <namespace>;\n\n";
 
         foreach ($this->uses as $use) {
-            $content .= "use $use;\n";
+            $content .= "use " . ltrim($use, "\\") . ";\n";
         }
         if ($this->uses) {
             $content .= "\n";
