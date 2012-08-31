@@ -49,13 +49,23 @@ class Writer
     const MODULE_MWG = 1;
 
     protected $mode;
-    protected $modules = false;
-    protected $erase = false;
+    protected $modules;
+    protected $erase;
     private $exiftool;
 
     public function __construct(Exiftool $exiftool)
     {
         $this->exiftool = $exiftool;
+        $this->reset();
+    }
+
+    public function reset()
+    {
+        $this->mode = 0;
+        $this->modules = 0;
+        $this->erase = false;
+
+        return $this;
     }
 
     /**
