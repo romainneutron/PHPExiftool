@@ -11,6 +11,9 @@
 
 namespace PHPExiftool;
 
+use PHPExiftool\Exception\LogicException;
+use PHPExiftool\Exception\RuntimeException;
+
 class PreviewExtractor extends Exiftool
 {
     private $exiftool;
@@ -23,11 +26,11 @@ class PreviewExtractor extends Exiftool
     public function extract($pathfile, $outputDir)
     {
         if ( ! file_exists($pathfile)) {
-            throw new Exception\LogicException(sprintf('%s does not exists', $pathfile));
+            throw new LogicException(sprintf('%s does not exists', $pathfile));
         }
 
         if ( ! is_dir($outputDir) || ! is_writable($outputDir)) {
-            throw new Exception\LogicException(sprintf('%s is not writable', $outputDir));
+            throw new LogicException(sprintf('%s is not writable', $outputDir));
         }
 
         $command = "-if " . escapeshellarg('$jpgfromraw') . " -b -jpgfromraw "
@@ -38,7 +41,7 @@ class PreviewExtractor extends Exiftool
 
         try {
             $this->exiftool->executeCommand($command);
-        } catch (Exception\RuntimeException $e) {
+        } catch (RuntimeException $e) {
 
         }
 

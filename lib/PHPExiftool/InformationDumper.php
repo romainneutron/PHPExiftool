@@ -11,6 +11,8 @@
 
 namespace PHPExiftool;
 
+use PHPExiftool\Exception\InvalidArgumentException;
+
 class InformationDumper
 {
     /**
@@ -62,7 +64,7 @@ class InformationDumper
         );
 
         if ( ! in_array($type, $available)) {
-            throw new \PHPExiftool\Exception\InvalidArgumentException('Unknown list attribute');
+            throw new InvalidArgumentException('Unknown list attribute');
         }
 
         return $this->exiftool->executeCommand('-f -list' . $type);

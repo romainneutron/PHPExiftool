@@ -11,7 +11,19 @@
 
 namespace PHPExiftool;
 
-use \Doctrine\Common\Collections\ArrayCollection;
+use PHPExiftool\Driver\TagInterface;
+use PHPExiftool\Driver\TagFactory;
+use PHPExiftool\Driver\Metadata\Metadata;
+use PHPExiftool\Driver\Metadata\MetadataBag;
+use PHPExiftool\Driver\Value\Binary;
+use PHPExiftool\Driver\Value\Mono;
+use PHPExiftool\Driver\Value\Multi;
+use PHPExiftool\Driver\Value\ValueInterface;
+use PHPExiftool\Exception\LogicException;
+use PHPExiftool\Exception\ParseError;
+use PHPExiftool\Exception\RuntimeException;
+use PHPExiftool\Exception\TagUnknown;
+use Doctrine\Common\Collections\ArrayCollection;
 
 /**
  * Exiftool RDF output Parser
@@ -39,7 +51,7 @@ class RDFParser
      * Opens an XML file for parsing
      *
      * @param  string                 $XML
-     * @return \PHPExiftool\RDFParser
+     * @return RDFParser
      */
     public function open($XML)
     {
@@ -53,7 +65,7 @@ class RDFParser
     /**
      * Close the current opened XML file and reset internals
      *
-     * @return \PHPExiftool\RDFParser
+     * @return RDFParser
      */
     public function close()
     {
@@ -68,7 +80,7 @@ class RDFParser
     /**
      * Parse a XML string and returns an ArrayCollection of FileEntity
      *
-     * @return \Doctrine\Common\Collections\ArrayCollection
+     * @return ArrayCollection
      */
     public function ParseEntities()
     {
@@ -108,26 +120,26 @@ class RDFParser
     /**
      * Parse an Entity associated DOM, returns the metadatas
      *
-     * @return \Driver\Metadata\MetadataBag
+     * @return MetadataBag
      */
     public function ParseMetadatas()
     {
         $nodes = $this->getDomXpath()->query('/rdf:RDF/rdf:Description/*');
 
-        $metadatas = new Driver\Metadata\MetadataBag();
+        $metadatas = new MetadataBag();
 
         foreach ($nodes as $node) {
             $tagname = $this->normalize($node->nodeName);
 
             try {
-                $tag = Driver\TagFactory::getFromRDFTagname($tagname);
-            } catch (Exception\TagUnknown $e) {
+                $tag = TagFactory::getFromRDFTagname($tagname);
+            } catch (TagUnknown $e) {
                 continue;
             }
 
             $metaValue = $this->readNodeValue($node, $tag);
 
-            $metadata = new Driver\Metadata\Metadata($tag, $metaValue);
+            $metadata = new Metadata($tag, $metaValue);
 
             $metadatas->set($tagname, $metadata);
         }
@@ -139,7 +151,7 @@ class RDFParser
      * Returns the first result for a user defined query against the RDF
      *
      * @param  string                          $query
-     * @return \PHPExiftool\Driver\Value\Value The value
+     * @return ValueInterface The value
      */
     public function Query($query)
     {
@@ -180,10 +192,8 @@ class RDFParser
             foreach ((array) $to as $substit) {
                 $supposedTagname = str_replace($from . ':', $substit . ':', $tagname);
 
-                if (Driver\TagFactory::hasFromRDFTagname($supposedTagname)) {
+                if (TagFactory::hasFromRDFTagname($supposedTagname)) {
                     return $supposedTagname;
-
-                    break;
                 }
             }
         }
@@ -218,15 +228,15 @@ class RDFParser
      * Read the node value, decode it if needed
      *
      * @param  \DOMNode           $node The node to read
-     * @param  Driver\Tag         $tag  The tag associated
-     * @return Driver\Value\Value The value extracted
+     * @param  TagInterface         $tag  The tag associated
+     * @return ValueInterface The value extracted
      */
-    protected function readNodeValue(\DOMNode $node, Driver\Tag $tag = null)
+    protected function readNodeValue(\DOMNode $node, TagInterface $tag = null)
     {
         $nodeName = $this->normalize($node->nodeName);
 
-        if (is_null($tag) && Driver\TagFactory::hasFromRDFTagname($nodeName)) {
-            $tag = Driver\TagFactory::getFromRDFTagname($nodeName);
+        if (is_null($tag) && TagFactory::hasFromRDFTagname($nodeName)) {
+            $tag = TagFactory::getFromRDFTagname($nodeName);
         }
 
         if ($node->getElementsByTagNameNS(self::RDF_NAMESPACE, 'Bag')->length > 0) {
@@ -238,23 +248,23 @@ class RDFParser
             }
 
             if (is_null($tag) || $tag->isMulti()) {
-                return new Driver\Value\Multi($ret);
+                return new Multi($ret);
             } else {
-                return new Driver\Value\Mono(implode(' ', $ret));
+                return new Mono(implode(' ', $ret));
             }
         } elseif ($node->getAttribute('rdf:datatype') === 'http://www.w3.org/2001/XMLSchema#base64Binary') {
 
             if (is_null($tag) || $tag->isBinary()) {
-                return Driver\Value\Binary::loadFromBase64(trim($node->nodeValue));
+                return Binary::loadFromBase64(trim($node->nodeValue));
             } else {
-                return new Driver\Value\Mono(base64_decode(trim($node->nodeValue)));
+                return new Mono(base64_decode(trim($node->nodeValue)));
             }
         } else {
 
             if ( ! is_null($tag) && $tag->isMulti()) {
-                return new Driver\Value\Multi($node->nodeValue);
+                return new Multi($node->nodeValue);
             } else {
-                return new Driver\Value\Mono($node->nodeValue);
+                return new Mono($node->nodeValue);
             }
         }
     }
@@ -263,13 +273,13 @@ class RDFParser
      * Compute the DOMDocument from the XML
      *
      * @return \DOMDocument
-     * @throws Exception\LogicException
-     * @throws Exception\ParseError
+     * @throws LogicException
+     * @throws ParseError
      */
     protected function getDom()
     {
         if ( ! $this->XML) {
-            throw new Exception\LogicException('You must open an XML first');
+            throw new LogicException('You must open an XML first');
         }
 
         if ( ! $this->DOM) {
@@ -281,7 +291,7 @@ class RDFParser
              * transformed in exception
              */
             if ( ! @$this->DOM->loadXML($this->XML)) {
-                throw new Exception\ParseError('Unable to load XML');
+                throw new ParseError('Unable to load XML');
             }
         }
 
@@ -292,15 +302,15 @@ class RDFParser
      * Compute the DOMXpath from the DOMDocument
      *
      * @return \DOMXpath                  The DOMXpath object related to the XML
-     * @throws Exception\RuntimeException
+     * @throws RuntimeException
      */
     protected function getDomXpath()
     {
         if ( ! $this->DOMXpath) {
             try {
                 $this->DOMXpath = new \DOMXPath($this->getDom());
-            } catch (Exception\ParseError $e) {
-                throw new Exception\RuntimeException('Unable to parse the XML');
+            } catch (ParseError $e) {
+                throw new RuntimeException('Unable to parse the XML');
             }
 
             $this->DOMXpath->registerNamespace('rdf', self::RDF_NAMESPACE);

@@ -34,7 +34,11 @@ class Exiftool
             throw new RuntimeException(sprintf('Command %s failed : %s, exitcode %s', $command, $process->getErrorOutput(), $process->getExitCode()));
         }
 
-        return $process->getOutput();
+        $output = $process->getOutput();
+
+        unset($process);
+
+        return $output;
     }
 
     /**

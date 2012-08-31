@@ -12,6 +12,9 @@
 namespace PHPExiftool;
 
 use Doctrine\Common\Cache\ArrayCache;
+use PHPExiftool\RDFParser;
+use PHPExiftool\FileEntity;
+use PHPExiftool\Driver\Metadata\MetadataBag;
 
 /**
  *
@@ -36,24 +39,25 @@ class FileEntity implements \IteratorAggregate
 
     /**
      *
-     * @var \Doctrine\Common\Cache\ArrayCache
+     * @var ArrayCache
      */
     private $cache;
 
     /**
      *
-     * @var \PHPExiftool\RDFParser
+     * @var RDFParser
      */
     private $parser;
 
     /**
      * Construct a new FileEntity
      *
-     * @param  string                  $file
-     * @param  \DOMDocument            $dom
-     * @return \PHPExiftool\FileEntity
+     * @param string $file
+     * @param \DOMDocument $dom
+     * @param RDFParser $parser
+     * @return FileEntity
      */
-    public function __construct($file, \DOMDocument $dom, \PHPExiftool\RDFParser $parser)
+    public function __construct($file, \DOMDocument $dom, RDFParser $parser)
     {
         $this->dom = $dom;
         $this->file = $file;
@@ -81,7 +85,7 @@ class FileEntity implements \IteratorAggregate
 
     /**
      *
-     * @return \Driver\Metadata\MetadataBag
+     * @return MetadataBag
      */
     public function getMetadatas()
     {

@@ -12,7 +12,7 @@
 namespace PHPExiftool;
 
 use PHPExiftool\Driver\Metadata\MetadataBag;
-use PHPExiftool\Exception;
+use PHPExiftool\Exception\InvalidArgumentException;
 
 /**
  * Exiftool Metadatas Writer, it will be used to write metadatas in files
@@ -63,7 +63,7 @@ class Writer
      *
      * @param  integer             $mode   One of the self::MODE_*
      * @param  Boolean             $active Enable or disable the mode
-     * @return \PHPExiftool\Writer
+     * @return Writer
      */
     public function setMode($mode, $active)
     {
@@ -93,7 +93,7 @@ class Writer
      *
      * @param  integer             $module One of the self::MODULE_*
      * @param  Boolean             $active Enable or disable the module
-     * @return \PHPExiftool\Writer
+     * @return Writer
      */
     public function setModule($module, $active)
     {
@@ -137,12 +137,12 @@ class Writer
      *
      * @return int the number of file written
      *
-     * @throws Exception\InvalidArgumentException
+     * @throws InvalidArgumentException
      */
     public function write($file, MetadataBag $metadatas, $destination = null)
     {
         if ( ! file_exists($file)) {
-            throw new Exception\InvalidArgumentException(sprintf('%s does not exists', $file));
+            throw new InvalidArgumentException(sprintf('%s does not exists', $file));
         }
 
         $command = '';

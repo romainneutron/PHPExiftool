@@ -12,6 +12,9 @@
 namespace PHPExiftool;
 
 use Doctrine\Common\Collections\ArrayCollection;
+use PHPExiftool\Exception\EmptyCollectionException;
+use PHPExiftool\Exception\LogicException;
+use PHPExiftool\Exception\RuntimeException;
 
 /**
  *
@@ -63,7 +66,7 @@ class Reader implements \IteratorAggregate
 
     /**
      *
-     * @var \Doctrine\Common\Collections\ArrayCollection
+     * @var ArrayCollection
      */
     protected $collection;
     protected $readers = array();
@@ -109,7 +112,7 @@ class Reader implements \IteratorAggregate
      *              ->files(array('/tmp/image.jpg', '/tmp/raw.CR2'))
      *
      * @param  string|array        $files The files
-     * @return \PHPExiftool\Reader
+     * @return Reader
      */
     public function files($files)
     {
@@ -130,7 +133,7 @@ class Reader implements \IteratorAggregate
      *              ->in(array('/tmp', '/var'))
      *
      * @param  string|array        $dirs The directories
-     * @return \PHPExiftool\Reader
+     * @return Reader
      */
     public function in($dirs)
     {
@@ -145,7 +148,7 @@ class Reader implements \IteratorAggregate
      * Finale result will be the sum of the current reader and all appended ones.
      *
      * @param  Reader              $reader The reader to append
-     * @return \PHPExiftool\Reader
+     * @return Reader
      */
     public function append(Reader $reader)
     {
@@ -169,7 +172,7 @@ class Reader implements \IteratorAggregate
      *              ->sort('filename')
      *
      * @param  string|array        $by
-     * @return \PHPExiftool\Reader
+     * @return Reader
      */
     public function sort($by)
     {
@@ -207,7 +210,7 @@ class Reader implements \IteratorAggregate
      *              ->exclude(array('test'))
      *
      * @param  string|array        $dirs The directories
-     * @return \PHPExiftool\Reader
+     * @return Reader
      */
     public function exclude($dirs)
     {
@@ -223,8 +226,8 @@ class Reader implements \IteratorAggregate
      *
      * @param  string|array             $extensions The list of extension
      * @param  Boolean                  $restrict   Toggle restrict/discard method
-     * @return \PHPExiftool\Reader
-     * @throws Exception\LogicException
+     * @return Reader
+     * @throws LogicException
      */
     public function extensions($extensions, $restrict = true)
     {
@@ -232,7 +235,7 @@ class Reader implements \IteratorAggregate
 
         if ( ! is_null($this->extensionsToggle)) {
             if ((boolean) $restrict !== $this->extensionsToggle) {
-                throw new Exception\LogicException('You cannot restrict extensions AND exclude extension at the same time');
+                throw new LogicException('You cannot restrict extensions AND exclude extension at the same time');
             }
         }
 
@@ -246,7 +249,7 @@ class Reader implements \IteratorAggregate
     /**
      * Toggle to enable follow Symbolic Links
      *
-     * @return \PHPExiftool\Reader
+     * @return Reader
      */
     public function followSymLinks()
     {
@@ -262,7 +265,7 @@ class Reader implements \IteratorAggregate
      * Folders starting with a dot are always exluded due to exiftool behaviour.
      * You should include them manually
      *
-     * @return \PHPExiftool\Reader
+     * @return Reader
      */
     public function ignoreDotFiles()
     {
@@ -276,7 +279,7 @@ class Reader implements \IteratorAggregate
      * Disable recursivity in directories scan.
      * If you only specify files, this toggle has no effect
      *
-     * @return \PHPExiftool\Reader
+     * @return Reader
      */
     public function notRecursive()
     {
@@ -289,7 +292,7 @@ class Reader implements \IteratorAggregate
     /**
      * Return the first result. If no result available, null is returned
      *
-     * @return \PHPExiftool\FileEntity
+     * @return FileEntity
      */
     public function getOneOrNull()
     {
@@ -299,13 +302,13 @@ class Reader implements \IteratorAggregate
     /**
      * Return the first result. If no result available, throws an exception
      *
-     * @return \PHPExiftool\FileEntity
-     * @throws Exception\EmptyCollectionException
+     * @return FileEntity
+     * @throws EmptyCollectionException
      */
     public function first()
     {
         if (count($this->all()) === 0) {
-            throw new Exception\EmptyCollectionException('Collection is empty');
+            throw new EmptyCollectionException('Collection is empty');
         }
 
         return $this->all()->first();
@@ -314,7 +317,7 @@ class Reader implements \IteratorAggregate
     /**
      * Perform the scan and returns all the results
      *
-     * @return \Doctrine\Common\Collections\ArrayCollection
+     * @return ArrayCollection
      */
     public function all()
     {
@@ -340,7 +343,7 @@ class Reader implements \IteratorAggregate
     /**
      * Reset any computed result
      *
-     * @return \PHPExiftool\Reader
+     * @return Reader
      */
     protected function resetResults()
     {
@@ -352,16 +355,15 @@ class Reader implements \IteratorAggregate
     /**
      * Build the command returns an ArrayCollection of FileEntity
      *
-     * @return \Doctrine\Common\Collections\ArrayCollection
+     * @return ArrayCollection
      */
     protected function buildQueryAndExecute()
     {
         $result = '';
 
         try {
-
             $result = trim($this->exiftool->executeCommand($this->buildQuery()));
-        } catch (\PHPExiftool\Exception\RuntimeException $e) {
+        } catch (RuntimeException $e) {
             /**
              * In case no file found, an exit code 1 is returned
              */
@@ -382,10 +384,10 @@ class Reader implements \IteratorAggregate
     /**
      * Compute raw exclude rules to simple ones, based on exclude dirs and search dirs
      *
-     * @param  type                       $rawExcludeDirs
-     * @param  type                       $rawDirs
-     * @return type
-     * @throws Exception\RuntimeException
+     * @param  string                       $rawExcludeDirs
+     * @param  string                       $rawDirs
+     * @return array
+     * @throws RuntimeException
      */
     protected function computeExcludeDirs($rawExcludeDirs, $rawSearchDirs)
     {
@@ -447,7 +449,7 @@ class Reader implements \IteratorAggregate
 
 
             if ( ! $found) {
-                throw new Exception\RuntimeException(sprintf("Invalid exclude dir %s ; Exclude dir is limited to the name of a directory at first depth", $excludeDir));
+                throw new RuntimeException(sprintf("Invalid exclude dir %s ; Exclude dir is limited to the name of a directory at first depth", $excludeDir));
             }
         }
 
@@ -459,12 +461,12 @@ class Reader implements \IteratorAggregate
      *
      * @return string
      *
-     * @throws Exception\LogicException
+     * @throws LogicException
      */
     protected function buildQuery()
     {
         if ( ! $this->dirs && ! $this->files) {
-            throw new Exception\LogicException('You have not set any files or directory');
+            throw new LogicException('You have not set any files or directory');
         }
 
         $command = '-n -q -b -X -charset UTF8';
