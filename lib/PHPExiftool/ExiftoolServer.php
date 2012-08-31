@@ -57,7 +57,7 @@ class ExiftoolServer extends Exiftool
 
     public function executeCommand($commands, $timeout = 4)
     {
-        $optwithargs = array('-ext', '--ext', '-i', '-charset', '-if', '-w', '-common_args');
+        $optwithargs = array('-i', '-charset', '-if', '-w', '-common_args');
         if (true !== $this->isRunning()) {
             throw new RuntimeException('Server is not running');
         }
@@ -83,40 +83,36 @@ class ExiftoolServer extends Exiftool
             if ($command == '-q') {
                 continue;
             }
-            if (in_array($prev, $optwithargs)) {
-                $command = trim($command, "'\"");
+
+            if (substr($command, 0, 1) === "'" && substr($command, -1) === "'") {
+                $command = substr($command, 1, -1);
+            }
+            if (substr($command, 0, 1) === '"' && substr($command, -1) === '"') {
+                $command = substr($command, 1, -1);
             }
 
-            if (in_array($command, $optwithargs)) {
-                $end = ' ';
-                $prev = $command;
-            } else {
-                $end = "\n";
-                $prev = null;
-            }
-
-            if (file_exists(trim($command, "'"))) {
-                $command = trim($command, "'");
-            }
+            $end = "\n";
 
 //            echo $command . $end;
             file_put_contents($this->pipefile, $command . $end, FILE_APPEND);
         }
 
         file_put_contents($this->pipefile, "\n-execute\n", FILE_APPEND);
-//        echo "-execute\n";
+//        echo "-execute\n\n";
         // here we send sigcont
         $start = microtime(true);
 
-        while (strlen($this->server->getOutput()) <= $this->offset && substr(substr($this->server->getOutput(), $this->offset), -8) !== "{ready}\n" && (microtime(true) - $start) < $timeout) {
+        while ((strlen($this->server->getOutput()) <= $this->offset || substr(substr($this->server->getOutput(), $this->offset), -8) !== "{ready}\n") && (microtime(true) - $start) < $timeout) {
             usleep(10000);
         }
+        // server output should be cached here because streams are polled
+        // everytime I request the output
 
         $outputIsValid = substr($this->server->getOutput(), -8) === "{ready}\n";
 
         $output = $outputIsValid ? substr($this->server->getOutput(), $this->offset, -8) : '';
 
-        $this->offset += strlen($this->server->getOutput());
+        $this->offset = strlen($this->server->getOutput());
 
         if (trim($output) === '' && $outputIsValid === false && $this->server->getErrorOutput()) {
             throw new RuntimeException('Command failed');

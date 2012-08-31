@@ -15,7 +15,6 @@ class ReaderTest extends AbstractReaderTest
 
     protected function setUp()
     {
-        $this->markTestSkipped('Currently disable server support');
         $this->exiftool = new ExiftoolServer();
         $this->exiftool->start();
 
