@@ -31,8 +31,9 @@ class Builder
     protected $classname;
     protected $properties;
     protected $extends;
+    protected $uses;
 
-    public function __construct($namespace, $classname, array $properties, $extends = null)
+    public function __construct($namespace, $classname, array $properties, $extends = null, Array $uses = array())
     {
         $namespace = trim($namespace, '\\');
 
@@ -53,6 +54,7 @@ class Builder
         $this->classname = $classname;
         $this->properties = $properties;
         $this->extends = $extends;
+        $this->uses = $uses;
 
         return $this;
     }
@@ -97,6 +99,13 @@ class Builder
     public function generateContent()
     {
         $content = "<?php\n\n<license>\n\nnamespace <namespace>;\n\n";
+
+        foreach ($this->uses as $use) {
+            $content .= "use $use;\n";
+        }
+        if ($this->uses) {
+            $content .= "\n";
+        }
 
         $content .= "class <classname>";
 

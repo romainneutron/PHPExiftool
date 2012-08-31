@@ -11,12 +11,14 @@
 
 namespace PHPExiftool\Tool\Command;
 
+use PHPExiftool\ClassUtils\Builder;
+use PHPExiftool\ClassUtils\TagProviderBuilder;
+use PHPExiftool\Exiftool;
+use PHPExiftool\InformationDumper;
 use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Output\ConsoleOutput;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Output\OutputInterface;
-use PHPExiftool\ClassUtils\Builder;
-use PHPExiftool\InformationDumper;
 use Symfony\Component\DomCrawler\Crawler;
 
 /**
@@ -70,7 +72,7 @@ class ClassesBuilder extends Command
 
         $this->output->write('Extracting datas... ');
 
-        $dumper = new InformationDumper();
+        $dumper = new InformationDumper(new Exiftool());
 
         $dump = $dumper->listDatas(InformationDumper::LISTTYPE_SUPPORTED_XML);
 
@@ -104,13 +106,13 @@ class ClassesBuilder extends Command
 
     /**
      *
-     * @return \PHPExiftool\Tool\Command\ClassesBuilder
+     * @return ClassesBuilder
      */
     protected function writeClasses($force = false)
     {
         $n = 0;
 
-        $classesBuffer = new \PHPExiftool\ClassUtils\TagProviderBuilder('', 'TagProvider', array(), '\\Pimple');
+        $classesBuffer = new TagProviderBuilder('', 'TagProvider', array(), '\\Pimple');
         $buffer = array();
 
         foreach ($this->classes as $class) {
@@ -159,7 +161,7 @@ class ClassesBuilder extends Command
 
             $classpath = sprintf('%s', $classname);
 
-            $this->classes[$classpath] = new Builder('Type', $classname, $properties);
+            $this->classes[$classpath] = new Builder('Type', $classname, $properties, 'AbstractType', array('\\PHPExiftool\\Driver\\AbstractType'));
         }
 
         return;
@@ -289,7 +291,7 @@ class ClassesBuilder extends Command
                 }
             }
         } else {
-            $this->classes[$classpath] = new Builder($namespace, $classname, $properties, '\\PHPExiftool\\Driver\\Tag');
+            $this->classes[$classpath] = new Builder($namespace, $classname, $properties, 'AbstractTag', array('\\PHPExiftool\\Driver\\AbstractTag'));
         }
 
         return;

@@ -19,6 +19,13 @@ class TagProviderBuilder extends Builder
     {
         $content = "<?php\n\n<license>\n\nnamespace <namespace>;\n\n";
 
+        foreach($this->uses as $use) {
+            $content .= "use $use;\n";
+        }
+        if ($this->uses) {
+            $content .= "\n";
+        }
+
         $content .= "class <classname>";
 
         if ($this->extends) {
