@@ -33,7 +33,7 @@ $Reader
 
 foreach ($Reader as $MetaDatas)
 {
-    echo "found file " . $MetaDatas->getFile()->getPathname() . "\n";
+    echo "found file " . $MetaDatas->getFile() . "\n";
 
     foreach ($MetaDatas as $metadata)
     {

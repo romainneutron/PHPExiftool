@@ -20,7 +20,7 @@ class FileEntityTest extends \PHPUnit_Framework_TestCase
         $dom = new \DOMDocument();
         $dom->loadXML(file_get_contents(__DIR__ . '/../../../files/ExifTool.xml'));
 
-        $this->object = new FileEntity(new \SplFileInfo('testFile'), $dom, new RDFParser());
+        $this->object = new FileEntity('testFile', $dom, new RDFParser());
     }
 
     /**
@@ -36,7 +36,7 @@ class FileEntityTest extends \PHPUnit_Framework_TestCase
      */
     public function testGetFile()
     {
-        $this->assertInstanceOf('\\SplFileInfo', $this->object->getFile());
+        $this->assertInternalType('string', $this->object->getFile());
     }
 
     /**

@@ -97,9 +97,9 @@ class RDFParser
             /**
              * Let's associate a Description to the corresponding file
              */
-            $file = new \SplFileInfo($RDFDescriptionRoot->item(0)->getAttribute('rdf:about'));
+            $file = $RDFDescriptionRoot->item(0)->getAttribute('rdf:about');
 
-            $Entities->set($file->getFilename(), new FileEntity($file, $Dom, new static()));
+            $Entities->set($file, new FileEntity($file, $Dom, new static()));
         }
 
         return $Entities;

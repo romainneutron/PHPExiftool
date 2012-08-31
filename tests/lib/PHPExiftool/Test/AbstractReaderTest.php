@@ -150,7 +150,7 @@ abstract class AbstractReaderTest extends \PHPUnit_Framework_TestCase {
         $results = array();
 
         foreach ($reader->all() as $entity) {
-            $results[] = $entity->getFile()->getFilename();
+            $results[] = basename($entity->getFile());
         }
 
         $this->assertSame(array('hello.exiftool', 'hello.world', 'newfile.txt'), $results);
@@ -165,9 +165,9 @@ abstract class AbstractReaderTest extends \PHPUnit_Framework_TestCase {
         $file = self::$tmpDir . '/hello.exiftool';
         $this->object->files($file);
 
-        $splfile = $this->object->files(self::$tmpDir . '/hello.exiftool')->first()->getFile();
+        $file = $this->object->files(self::$tmpDir . '/hello.exiftool')->first()->getFile();
 
-        $this->assertEquals(realpath($file), realpath($splfile->getPathname()));
+        $this->assertEquals(realpath($file), realpath($file));
     }
 
     /**
@@ -226,7 +226,7 @@ abstract class AbstractReaderTest extends \PHPUnit_Framework_TestCase {
         $reader->in(__DIR__ . '/../../../../vendor/phpexiftool/exiftool/');
 
         foreach ($reader as $file) {
-            $this->assertEquals($file->getFile()->getFilename(), $file->getMetadatas()->get('System:FileName')->getValue()->asString());
+            $this->assertEquals(basename($file->getFile()), $file->getMetadatas()->get('System:FileName')->getValue()->asString());
         }
     }
 

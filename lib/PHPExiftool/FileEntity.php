@@ -11,6 +11,8 @@
 
 namespace PHPExiftool;
 
+use Doctrine\Common\Cache\ArrayCache;
+
 /**
  *
  *
@@ -47,16 +49,16 @@ class FileEntity implements \IteratorAggregate
     /**
      * Construct a new FileEntity
      *
-     * @param  \SplFileInfo            $file
+     * @param  string                  $file
      * @param  \DOMDocument            $dom
      * @return \PHPExiftool\FileEntity
      */
-    public function __construct(\SplFileInfo $file, \DOMDocument $dom, \PHPExiftool\RDFParser $parser)
+    public function __construct($file, \DOMDocument $dom, \PHPExiftool\RDFParser $parser)
     {
         $this->dom = $dom;
         $this->file = $file;
 
-        $this->cache = new \Doctrine\Common\Cache\ArrayCache();
+        $this->cache = new ArrayCache();
 
         $this->parser = $parser->open($dom->saveXML());
 
@@ -70,7 +72,7 @@ class FileEntity implements \IteratorAggregate
 
     /**
      *
-     * @var \SplFileInfo
+     * @var string
      */
     public function getFile()
     {
@@ -83,7 +85,7 @@ class FileEntity implements \IteratorAggregate
      */
     public function getMetadatas()
     {
-        $key = realpath($this->file->getPathname());
+        $key = realpath($this->file);
 
         if ($this->cache->contains($key)) {
             return $this->cache->fetch($key);
