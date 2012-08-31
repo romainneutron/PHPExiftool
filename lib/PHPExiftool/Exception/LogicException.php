@@ -11,7 +11,7 @@
 
 namespace PHPExiftool\Exception;
 
-class LogicException extends \LogicException implements Exception
+class LogicException extends \LogicException implements ExceptionInterface
 {
 
 }
