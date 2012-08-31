@@ -18,8 +18,6 @@ This driver is not suitable for production, it is still under heavy development.
 ##Exiftool Reader
 
 ```php
-<?php
-
 use PHPExiftool\Reader;
 use PHPExiftool\Driver;
 
