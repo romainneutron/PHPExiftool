@@ -58,3 +58,7 @@ $bag->add(new Metadata(new ObjectName(), new Mono('Pretty cool subject')));
 
 $Writer->write('image.jpg', $bag);
 ```
+
+##License
+
+Project licensed under the MIT License
