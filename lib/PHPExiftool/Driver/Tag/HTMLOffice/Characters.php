@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\HTMLOffice;
 
-class Characters extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class Characters extends AbstractTag
 {
 
     protected $Id = 'Characters';

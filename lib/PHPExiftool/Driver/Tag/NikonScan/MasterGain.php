@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\NikonScan;
 
-class MasterGain extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class MasterGain extends AbstractTag
 {
 
     protected $Id = 80;

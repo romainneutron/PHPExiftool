@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Sony;
 
-class SmileShutterMode extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class SmileShutterMode extends AbstractTag
 {
 
     protected $Id = 39;

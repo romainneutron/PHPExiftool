@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Olympus;
 
-class WBGLevel3600K extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class WBGLevel3600K extends AbstractTag
 {
 
     protected $Id = 277;

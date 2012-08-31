@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MIECamera;
 
-class ISOSetting extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ISOSetting extends AbstractTag
 {
 
     protected $Id = 'ISOSetting';

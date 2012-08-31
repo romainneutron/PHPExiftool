@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Minolta;
 
-class WBRBLevelsDaylight extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class WBRBLevelsDaylight extends AbstractTag
 {
 
     protected $Id = 'mixed';

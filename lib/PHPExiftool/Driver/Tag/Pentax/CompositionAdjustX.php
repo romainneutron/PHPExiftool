@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Pentax;
 
-class CompositionAdjustX extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class CompositionAdjustX extends AbstractTag
 {
 
     protected $Id = 5;

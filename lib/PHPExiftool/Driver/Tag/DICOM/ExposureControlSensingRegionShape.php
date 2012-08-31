@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class ExposureControlSensingRegionShape extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ExposureControlSensingRegionShape extends AbstractTag
 {
 
     protected $Id = '0018,9435';

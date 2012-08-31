@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\FlashPix;
 
-class Subject extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class Subject extends AbstractTag
 {
 
     protected $Id = 3;

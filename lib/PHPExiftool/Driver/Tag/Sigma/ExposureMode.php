@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Sigma;
 
-class ExposureMode extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ExposureMode extends AbstractTag
 {
 
     protected $Id = 8;

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Minolta;
 
-class MeteringOffScaleIndicator extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class MeteringOffScaleIndicator extends AbstractTag
 {
 
     protected $Id = 83;

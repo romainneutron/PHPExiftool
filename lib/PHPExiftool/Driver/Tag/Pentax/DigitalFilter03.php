@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Pentax;
 
-class DigitalFilter03 extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class DigitalFilter03 extends AbstractTag
 {
 
     protected $Id = 39;

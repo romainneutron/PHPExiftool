@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class SATThicknessHF extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class SATThicknessHF extends AbstractTag
 {
 
     protected $Id = '0019,10CA';

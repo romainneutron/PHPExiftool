@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XML;
 
-class Source extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class Source extends AbstractTag
 {
 
     protected $Id = 'Source';

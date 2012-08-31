@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Composite;
 
-class FOV extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class FOV extends AbstractTag
 {
 
     protected $Id = 'FOV';

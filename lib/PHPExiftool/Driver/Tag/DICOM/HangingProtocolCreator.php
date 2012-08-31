@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class HangingProtocolCreator extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class HangingProtocolCreator extends AbstractTag
 {
 
     protected $Id = '0072,0008';

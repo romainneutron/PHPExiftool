@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPXmpMM;
 
-class RenditionClass extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class RenditionClass extends AbstractTag
 {
 
     protected $Id = 'RenditionClass';

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Leaf;
 
-class Locks extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class Locks extends AbstractTag
 {
 
     protected $Id = 'SelObj_locks';

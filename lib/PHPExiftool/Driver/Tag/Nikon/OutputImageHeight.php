@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Nikon;
 
-class OutputImageHeight extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class OutputImageHeight extends AbstractTag
 {
 
     protected $Id = 3;

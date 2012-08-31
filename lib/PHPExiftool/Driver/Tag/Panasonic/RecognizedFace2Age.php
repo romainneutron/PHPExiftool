@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Panasonic;
 
-class RecognizedFace2Age extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class RecognizedFace2Age extends AbstractTag
 {
 
     protected $Id = 80;

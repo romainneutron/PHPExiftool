@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\CanonCustom;
 
-class UsableShootingModes extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class UsableShootingModes extends AbstractTag
 {
 
     protected $Id = 265;

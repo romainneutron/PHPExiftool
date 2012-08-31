@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\HTTPEquiv;
 
-class PageEnter extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class PageEnter extends AbstractTag
 {
 
     protected $Id = 'page-enter';

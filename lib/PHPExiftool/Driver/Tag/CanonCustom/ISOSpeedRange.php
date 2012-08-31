@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\CanonCustom;
 
-class ISOSpeedRange extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ISOSpeedRange extends AbstractTag
 {
 
     protected $Id = 259;

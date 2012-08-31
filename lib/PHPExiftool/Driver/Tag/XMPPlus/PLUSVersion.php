@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPPlus;
 
-class PLUSVersion extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class PLUSVersion extends AbstractTag
 {
 
     protected $Id = 'Version';

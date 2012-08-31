@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\GeoTiff;
 
-class ProjectedCSType extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ProjectedCSType extends AbstractTag
 {
 
     protected $Id = 3072;

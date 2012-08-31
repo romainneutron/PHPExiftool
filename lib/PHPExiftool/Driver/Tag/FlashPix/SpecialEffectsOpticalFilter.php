@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\FlashPix;
 
-class SpecialEffectsOpticalFilter extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class SpecialEffectsOpticalFilter extends AbstractTag
 {
 
     protected $Id = 620757009;

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\System;
 
-class FileModifyDate extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class FileModifyDate extends AbstractTag
 {
 
     protected $Id = 'FileModifyDate';

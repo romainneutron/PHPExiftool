@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class ContrastBolusStopTime extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ContrastBolusStopTime extends AbstractTag
 {
 
     protected $Id = '0018,1043';

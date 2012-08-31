@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MXF;
 
-class PublishingServiceName extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class PublishingServiceName extends AbstractTag
 {
 
     protected $Id = 'mixed';

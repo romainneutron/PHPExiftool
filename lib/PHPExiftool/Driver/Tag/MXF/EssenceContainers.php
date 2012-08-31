@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MXF;
 
-class EssenceContainers extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class EssenceContainers extends AbstractTag
 {
 
     protected $Id = '060e2b34.0101.0105.01020210.02010000';

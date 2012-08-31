@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPPrism;
 
-class AggregationType extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class AggregationType extends AbstractTag
 {
 
     protected $Id = 'aggregationType';

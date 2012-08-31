@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class AlgorithmVersion extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class AlgorithmVersion extends AbstractTag
 {
 
     protected $Id = '0066,0031';

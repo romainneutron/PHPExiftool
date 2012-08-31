@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\HTTPEquiv;
 
-class SiteEnter extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class SiteEnter extends AbstractTag
 {
 
     protected $Id = 'site-enter';

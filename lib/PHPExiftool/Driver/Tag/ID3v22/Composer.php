@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\ID3v22;
 
-class Composer extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class Composer extends AbstractTag
 {
 
     protected $Id = 'TCM';

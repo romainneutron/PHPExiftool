@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\FujiFilm;
 
-class FlashExposureComp extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class FlashExposureComp extends AbstractTag
 {
 
     protected $Id = 4113;

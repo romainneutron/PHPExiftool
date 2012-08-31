@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MXF;
 
-class AudioDeviceKind extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class AudioDeviceKind extends AbstractTag
 {
 
     protected $Id = '060e2b34.0101.0101.05200401.00000000';

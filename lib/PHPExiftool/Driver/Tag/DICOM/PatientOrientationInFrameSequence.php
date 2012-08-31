@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class PatientOrientationInFrameSequence extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class PatientOrientationInFrameSequence extends AbstractTag
 {
 
     protected $Id = '0020,9450';

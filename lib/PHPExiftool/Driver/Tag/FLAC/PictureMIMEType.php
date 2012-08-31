@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\FLAC;
 
-class PictureMIMEType extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class PictureMIMEType extends AbstractTag
 {
 
     protected $Id = 1;

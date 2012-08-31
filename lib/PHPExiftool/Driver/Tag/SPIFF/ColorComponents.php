@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\SPIFF;
 
-class ColorComponents extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ColorComponents extends AbstractTag
 {
 
     protected $Id = 3;

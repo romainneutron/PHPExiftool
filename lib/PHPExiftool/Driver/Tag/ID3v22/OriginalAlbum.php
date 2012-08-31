@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\ID3v22;
 
-class OriginalAlbum extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class OriginalAlbum extends AbstractTag
 {
 
     protected $Id = 'TOT';

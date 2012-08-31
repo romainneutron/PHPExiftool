@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\NikonCapture;
 
-class HistogramXML extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class HistogramXML extends AbstractTag
 {
 
     protected $Id = 138025509;

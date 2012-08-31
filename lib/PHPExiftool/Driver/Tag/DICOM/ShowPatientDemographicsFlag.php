@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class ShowPatientDemographicsFlag extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ShowPatientDemographicsFlag extends AbstractTag
 {
 
     protected $Id = '0072,0714';

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class VerticesOfTheRegion extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class VerticesOfTheRegion extends AbstractTag
 {
 
     protected $Id = '0028,9503';

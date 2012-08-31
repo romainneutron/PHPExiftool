@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class BeamCurrentModulationID extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class BeamCurrentModulationID extends AbstractTag
 {
 
     protected $Id = '300A,034C';

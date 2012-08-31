@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MXF;
 
-class BitsperPixel extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class BitsperPixel extends AbstractTag
 {
 
     protected $Id = 'mixed';

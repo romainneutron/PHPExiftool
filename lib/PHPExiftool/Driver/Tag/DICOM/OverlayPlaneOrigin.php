@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class OverlayPlaneOrigin extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class OverlayPlaneOrigin extends AbstractTag
 {
 
     protected $Id = '60xx,0052';

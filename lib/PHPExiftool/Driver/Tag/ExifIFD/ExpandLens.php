@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\ExifIFD;
 
-class ExpandLens extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ExpandLens extends AbstractTag
 {
 
     protected $Id = 44993;

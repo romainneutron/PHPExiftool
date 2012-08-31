@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\LNK;
 
-class CodePage extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class CodePage extends AbstractTag
 {
 
     protected $Id = 8;

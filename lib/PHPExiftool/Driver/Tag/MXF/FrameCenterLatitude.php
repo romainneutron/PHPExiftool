@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MXF;
 
-class FrameCenterLatitude extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class FrameCenterLatitude extends AbstractTag
 {
 
     protected $Id = 'mixed';

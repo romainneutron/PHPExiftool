@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class ImageBoxTileHorizontalDimension extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ImageBoxTileHorizontalDimension extends AbstractTag
 {
 
     protected $Id = '0072,0306';

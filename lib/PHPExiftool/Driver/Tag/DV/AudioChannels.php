@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DV;
 
-class AudioChannels extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class AudioChannels extends AbstractTag
 {
 
     protected $Id = 'AudioChannels';

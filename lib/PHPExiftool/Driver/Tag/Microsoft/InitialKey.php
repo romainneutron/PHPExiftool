@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Microsoft;
 
-class InitialKey extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class InitialKey extends AbstractTag
 {
 
     protected $Id = 'mixed';

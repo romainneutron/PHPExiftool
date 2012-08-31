@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class StructureSetLabel extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class StructureSetLabel extends AbstractTag
 {
 
     protected $Id = '3006,0002';

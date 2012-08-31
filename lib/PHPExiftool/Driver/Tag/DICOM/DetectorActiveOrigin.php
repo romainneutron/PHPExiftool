@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class DetectorActiveOrigin extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class DetectorActiveOrigin extends AbstractTag
 {
 
     protected $Id = '0018,7028';

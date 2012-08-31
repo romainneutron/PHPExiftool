@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\LNK;
 
-class DriveType extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class DriveType extends AbstractTag
 {
 
     protected $Id = 'DriveType';

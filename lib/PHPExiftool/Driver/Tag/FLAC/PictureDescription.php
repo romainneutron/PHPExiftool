@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\FLAC;
 
-class PictureDescription extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class PictureDescription extends AbstractTag
 {
 
     protected $Id = 2;

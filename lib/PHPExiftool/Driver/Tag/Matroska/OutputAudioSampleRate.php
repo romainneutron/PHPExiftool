@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Matroska;
 
-class OutputAudioSampleRate extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class OutputAudioSampleRate extends AbstractTag
 {
 
     protected $Id = 14517;

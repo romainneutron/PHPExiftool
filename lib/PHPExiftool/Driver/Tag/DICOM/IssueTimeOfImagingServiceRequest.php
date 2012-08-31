@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class IssueTimeOfImagingServiceRequest extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class IssueTimeOfImagingServiceRequest extends AbstractTag
 {
 
     protected $Id = '0040,2005';

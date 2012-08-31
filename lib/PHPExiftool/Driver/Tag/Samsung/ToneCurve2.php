@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Samsung;
 
-class ToneCurve2 extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ToneCurve2 extends AbstractTag
 {
 
     protected $Id = 41025;

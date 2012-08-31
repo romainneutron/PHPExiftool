@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Pentax;
 
-class NominalMaxAperture extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class NominalMaxAperture extends AbstractTag
 {
 
     protected $Id = 10;

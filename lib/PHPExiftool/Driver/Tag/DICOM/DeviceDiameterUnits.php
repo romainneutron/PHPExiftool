@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class DeviceDiameterUnits extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class DeviceDiameterUnits extends AbstractTag
 {
 
     protected $Id = '0050,0017';

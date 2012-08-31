@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\ID3v22;
 
-class PictureFormat extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class PictureFormat extends AbstractTag
 {
 
     protected $Id = 'PIC-1';

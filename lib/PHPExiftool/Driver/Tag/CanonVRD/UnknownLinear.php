@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\CanonVRD;
 
-class UnknownLinear extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class UnknownLinear extends AbstractTag
 {
 
     protected $Id = 70;

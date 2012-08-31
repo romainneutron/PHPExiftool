@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class ObjectThicknessSequence extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ObjectThicknessSequence extends AbstractTag
 {
 
     protected $Id = '0018,9456';

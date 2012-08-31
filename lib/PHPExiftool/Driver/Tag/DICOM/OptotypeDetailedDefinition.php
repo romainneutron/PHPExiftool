@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class OptotypeDetailedDefinition extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class OptotypeDetailedDefinition extends AbstractTag
 {
 
     protected $Id = '0046,0139';

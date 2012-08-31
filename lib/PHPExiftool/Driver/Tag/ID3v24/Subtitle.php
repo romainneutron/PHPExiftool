@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\ID3v24;
 
-class Subtitle extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class Subtitle extends AbstractTag
 {
 
     protected $Id = 'TIT3';

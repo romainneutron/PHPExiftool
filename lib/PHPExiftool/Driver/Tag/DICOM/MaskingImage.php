@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class MaskingImage extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class MaskingImage extends AbstractTag
 {
 
     protected $Id = '0020,0080';

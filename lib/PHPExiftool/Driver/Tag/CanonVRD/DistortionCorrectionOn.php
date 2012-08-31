@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\CanonVRD;
 
-class DistortionCorrectionOn extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class DistortionCorrectionOn extends AbstractTag
 {
 
     protected $Id = 99;

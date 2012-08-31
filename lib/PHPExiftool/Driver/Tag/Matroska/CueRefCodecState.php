@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Matroska;
 
-class CueRefCodecState extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class CueRefCodecState extends AbstractTag
 {
 
     protected $Id = 107;

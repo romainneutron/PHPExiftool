@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPCell;
 
-class CellTowerID extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class CellTowerID extends AbstractTag
 {
 
     protected $Id = 'cellid';

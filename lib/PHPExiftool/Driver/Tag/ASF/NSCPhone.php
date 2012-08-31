@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\ASF;
 
-class NSCPhone extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class NSCPhone extends AbstractTag
 {
 
     protected $Id = 'NSC_Phone';

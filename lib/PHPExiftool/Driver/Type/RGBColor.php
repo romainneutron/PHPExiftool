@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Type;
 
-class RGBColor
+use PHPExiftool\Driver\AbstractType;
+
+class RGBColor extends AbstractType
 {
 
     protected $ExiftoolName = 'RGBColor';

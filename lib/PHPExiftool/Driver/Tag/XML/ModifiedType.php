@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XML;
 
-class ModifiedType extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ModifiedType extends AbstractTag
 {
 
     protected $Id = 'modifiedType';

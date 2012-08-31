@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class BrachyTreatmentType extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class BrachyTreatmentType extends AbstractTag
 {
 
     protected $Id = '300A,0202';

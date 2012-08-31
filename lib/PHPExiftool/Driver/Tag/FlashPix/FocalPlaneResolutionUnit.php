@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\FlashPix;
 
-class FocalPlaneResolutionUnit extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class FocalPlaneResolutionUnit extends AbstractTag
 {
 
     protected $Id = 637534211;

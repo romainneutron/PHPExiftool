@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Pentax;
 
-class Face15Position extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class Face15Position extends AbstractTag
 {
 
     protected $Id = 28;

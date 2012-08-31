@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class NormalSCoord extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class NormalSCoord extends AbstractTag
 {
 
     protected $Id = '0027,1047';

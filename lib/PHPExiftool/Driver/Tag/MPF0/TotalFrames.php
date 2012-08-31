@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MPF0;
 
-class TotalFrames extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class TotalFrames extends AbstractTag
 {
 
     protected $Id = 45060;

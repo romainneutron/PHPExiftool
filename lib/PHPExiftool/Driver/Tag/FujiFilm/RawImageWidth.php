@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\FujiFilm;
 
-class RawImageWidth extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class RawImageWidth extends AbstractTag
 {
 
     protected $Id = 0;

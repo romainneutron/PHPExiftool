@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class TreatmentProtocols extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class TreatmentProtocols extends AbstractTag
 {
 
     protected $Id = '300A,0009';

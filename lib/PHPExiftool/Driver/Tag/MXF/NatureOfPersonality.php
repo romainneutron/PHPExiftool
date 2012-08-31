@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MXF;
 
-class NatureOfPersonality extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class NatureOfPersonality extends AbstractTag
 {
 
     protected $Id = 'mixed';

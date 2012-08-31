@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Minolta;
 
-class Brightness extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class Brightness extends AbstractTag
 {
 
     protected $Id = 44;

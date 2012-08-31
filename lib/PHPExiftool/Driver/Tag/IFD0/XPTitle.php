@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\IFD0;
 
-class XPTitle extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class XPTitle extends AbstractTag
 {
 
     protected $Id = 40091;

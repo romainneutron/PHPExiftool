@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MXF;
 
-class DeviceLatitude extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class DeviceLatitude extends AbstractTag
 {
 
     protected $Id = 'mixed';

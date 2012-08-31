@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Sanyo;
 
-class ThumbnailOffset extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ThumbnailOffset extends AbstractTag
 {
 
     protected $Id = 4;

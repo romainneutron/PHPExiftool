@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class ContainerComponentID extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ContainerComponentID extends AbstractTag
 {
 
     protected $Id = '0050,001B';

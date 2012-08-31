@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\NikonCustom;
 
-class RangeFinder extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class RangeFinder extends AbstractTag
 {
 
     protected $Id = '4.1';

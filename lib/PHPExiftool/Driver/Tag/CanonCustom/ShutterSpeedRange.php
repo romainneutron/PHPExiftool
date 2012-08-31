@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\CanonCustom;
 
-class ShutterSpeedRange extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ShutterSpeedRange extends AbstractTag
 {
 
     protected $Id = 268;

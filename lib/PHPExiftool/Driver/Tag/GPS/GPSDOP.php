@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\GPS;
 
-class GPSDOP extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class GPSDOP extends AbstractTag
 {
 
     protected $Id = 'mixed';

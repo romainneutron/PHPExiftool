@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\H264;
 
-class Gain extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class Gain extends AbstractTag
 {
 
     protected $Id = 1;

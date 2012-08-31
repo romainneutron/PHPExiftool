@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\FujiFilm;
 
-class Face5Birthday extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class Face5Birthday extends AbstractTag
 {
 
     protected $Id = 'Face5Birthday';

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPXmpDM;
 
-class ShotDay extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ShotDay extends AbstractTag
 {
 
     protected $Id = 'shotDay';

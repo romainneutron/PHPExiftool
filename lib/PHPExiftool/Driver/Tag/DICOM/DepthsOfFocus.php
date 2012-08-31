@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class DepthsOfFocus extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class DepthsOfFocus extends AbstractTag
 {
 
     protected $Id = '0018,9801';

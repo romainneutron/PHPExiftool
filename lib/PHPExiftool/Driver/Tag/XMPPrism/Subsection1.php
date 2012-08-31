@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPPrism;
 
-class Subsection1 extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class Subsection1 extends AbstractTag
 {
 
     protected $Id = 'subsection1';

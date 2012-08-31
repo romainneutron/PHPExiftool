@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class OffsetOfNextDirectoryRecord extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class OffsetOfNextDirectoryRecord extends AbstractTag
 {
 
     protected $Id = '0004,1400';

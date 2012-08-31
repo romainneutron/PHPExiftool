@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Matroska;
 
-class TrackAttachmentUID extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class TrackAttachmentUID extends AbstractTag
 {
 
     protected $Id = 13382;

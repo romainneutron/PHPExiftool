@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Pentax;
 
-class LevelOrientation extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class LevelOrientation extends AbstractTag
 {
 
     protected $Id = 0;

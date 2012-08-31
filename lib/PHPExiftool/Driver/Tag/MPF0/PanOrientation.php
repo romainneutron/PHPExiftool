@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MPF0;
 
-class PanOrientation extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class PanOrientation extends AbstractTag
 {
 
     protected $Id = 45569;

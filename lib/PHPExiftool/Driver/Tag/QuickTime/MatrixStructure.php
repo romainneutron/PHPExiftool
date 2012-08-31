@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\QuickTime;
 
-class MatrixStructure extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class MatrixStructure extends AbstractTag
 {
 
     protected $Id = 9;

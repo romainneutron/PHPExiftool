@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\SigmaRaw;
 
-class SensorTemperature extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class SensorTemperature extends AbstractTag
 {
 
     protected $Id = 'IMAGERTEMP';

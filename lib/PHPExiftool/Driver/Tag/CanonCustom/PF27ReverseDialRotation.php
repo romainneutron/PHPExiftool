@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\CanonCustom;
 
-class PF27ReverseDialRotation extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class PF27ReverseDialRotation extends AbstractTag
 {
 
     protected $Id = 28;

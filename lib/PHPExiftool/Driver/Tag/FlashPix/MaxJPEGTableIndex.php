@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\FlashPix;
 
-class MaxJPEGTableIndex extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class MaxJPEGTableIndex extends AbstractTag
 {
 
     protected $Id = 50331650;

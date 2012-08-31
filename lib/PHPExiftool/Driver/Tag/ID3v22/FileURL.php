@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\ID3v22;
 
-class FileURL extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class FileURL extends AbstractTag
 {
 
     protected $Id = 'WAF';

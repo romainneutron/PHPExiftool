@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\HTML;
 
-class DocClass extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class DocClass extends AbstractTag
 {
 
     protected $Id = 'doc-class';

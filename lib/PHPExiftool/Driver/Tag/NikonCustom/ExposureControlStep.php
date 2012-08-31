@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\NikonCustom;
 
-class ExposureControlStep extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ExposureControlStep extends AbstractTag
 {
 
     protected $Id = '6.1';

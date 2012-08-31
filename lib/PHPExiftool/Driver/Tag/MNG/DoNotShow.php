@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MNG;
 
-class DoNotShow extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class DoNotShow extends AbstractTag
 {
 
     protected $Id = 'mixed';

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\EXE;
 
-class CompanyName extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class CompanyName extends AbstractTag
 {
 
     protected $Id = 'CompanyName';

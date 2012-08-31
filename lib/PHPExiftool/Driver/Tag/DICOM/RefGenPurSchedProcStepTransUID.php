@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class RefGenPurSchedProcStepTransUID extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class RefGenPurSchedProcStepTransUID extends AbstractTag
 {
 
     protected $Id = '0040,4023';

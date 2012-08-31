@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\QuickTime;
 
-class AppleStoreCountry extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class AppleStoreCountry extends AbstractTag
 {
 
     protected $Id = 'sfID';

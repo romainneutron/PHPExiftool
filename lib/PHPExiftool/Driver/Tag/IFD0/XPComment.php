@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\IFD0;
 
-class XPComment extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class XPComment extends AbstractTag
 {
 
     protected $Id = 40092;

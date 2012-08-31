@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\RIFF;
 
-class VideoFrameRate extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class VideoFrameRate extends AbstractTag
 {
 
     protected $Id = 5;

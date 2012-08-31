@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\ExifIFD;
 
-class MDColorTable extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class MDColorTable extends AbstractTag
 {
 
     protected $Id = 33447;

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPPrism;
 
-class StartingPage extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class StartingPage extends AbstractTag
 {
 
     protected $Id = 'startingPage';

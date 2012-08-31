@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MNG;
 
-class ObjectID extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ObjectID extends AbstractTag
 {
 
     protected $Id = 0;

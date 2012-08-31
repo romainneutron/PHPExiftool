@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Minolta;
 
-class CustomWBGreenLevel extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class CustomWBGreenLevel extends AbstractTag
 {
 
     protected $Id = 53;

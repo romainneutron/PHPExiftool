@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class HuffmanTableTriplet extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class HuffmanTableTriplet extends AbstractTag
 {
 
     protected $Id = '1000,xxx3';

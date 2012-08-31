@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\ExifIFD;
 
-class XClipPathUnits extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class XClipPathUnits extends AbstractTag
 {
 
     protected $Id = 344;

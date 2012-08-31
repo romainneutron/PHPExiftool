@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Sony;
 
-class PanoramaSourceWidth extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class PanoramaSourceWidth extends AbstractTag
 {
 
     protected $Id = 10;

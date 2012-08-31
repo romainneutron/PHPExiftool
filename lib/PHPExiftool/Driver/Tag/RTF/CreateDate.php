@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\RTF;
 
-class CreateDate extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class CreateDate extends AbstractTag
 {
 
     protected $Id = 'creatim';

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Canon;
 
-class ModifiedColorTemp extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ModifiedColorTemp extends AbstractTag
 {
 
     protected $Id = 9;

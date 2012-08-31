@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\ExifIFD;
 
-class ProfileType extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ProfileType extends AbstractTag
 {
 
     protected $Id = 401;

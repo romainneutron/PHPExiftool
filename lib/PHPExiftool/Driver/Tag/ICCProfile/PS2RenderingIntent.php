@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\ICCProfile;
 
-class PS2RenderingIntent extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class PS2RenderingIntent extends AbstractTag
 {
 
     protected $Id = 'ps2i';

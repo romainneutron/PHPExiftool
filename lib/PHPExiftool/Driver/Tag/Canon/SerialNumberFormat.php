@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Canon;
 
-class SerialNumberFormat extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class SerialNumberFormat extends AbstractTag
 {
 
     protected $Id = 21;

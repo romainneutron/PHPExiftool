@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\FotoStation;
 
-class ThumbnailImage extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ThumbnailImage extends AbstractTag
 {
 
     protected $Id = 3;

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\CanonCustom;
 
-class FocusDisplayAIServoAndMF extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class FocusDisplayAIServoAndMF extends AbstractTag
 {
 
     protected $Id = 1301;

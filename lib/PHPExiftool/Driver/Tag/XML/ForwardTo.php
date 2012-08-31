@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XML;
 
-class ForwardTo extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ForwardTo extends AbstractTag
 {
 
     protected $Id = 'ForwardTo';

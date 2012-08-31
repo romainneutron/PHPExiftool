@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class ProductLotIdentifier extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ProductLotIdentifier extends AbstractTag
 {
 
     protected $Id = '0044,000A';

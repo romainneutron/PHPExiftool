@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\NikonCustom;
 
-class CommanderInternalFlash extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class CommanderInternalFlash extends AbstractTag
 {
 
     protected $Id = '11.1';

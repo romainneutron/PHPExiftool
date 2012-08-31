@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\NikonCapture;
 
-class AutoRedEye extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class AutoRedEye extends AbstractTag
 {
 
     protected $Id = 4264076367;

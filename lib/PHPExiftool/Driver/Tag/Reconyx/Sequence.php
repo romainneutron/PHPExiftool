@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Reconyx;
 
-class Sequence extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class Sequence extends AbstractTag
 {
 
     protected $Id = 7;

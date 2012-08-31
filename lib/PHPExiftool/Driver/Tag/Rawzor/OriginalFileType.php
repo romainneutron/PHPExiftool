@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Rawzor;
 
-class OriginalFileType extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class OriginalFileType extends AbstractTag
 {
 
     protected $Id = 'OriginalFileType';

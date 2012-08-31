@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\IPTC;
 
-class ConfirmedObjectSize extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ConfirmedObjectSize extends AbstractTag
 {
 
     protected $Id = 10;

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XML;
 
-class RecordedDate extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class RecordedDate extends AbstractTag
 {
 
     protected $Id = 'RecordedDate';

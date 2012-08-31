@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MXF;
 
-class SectorSize extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class SectorSize extends AbstractTag
 {
 
     protected $Id = '060e2b34.0101.0104.03010201.08000000';

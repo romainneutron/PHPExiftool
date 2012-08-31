@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Photoshop;
 
-class IndexedColourTableCount extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class IndexedColourTableCount extends AbstractTag
 {
 
     protected $Id = 1046;

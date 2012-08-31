@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Qualcomm;
 
-class AFRFaster3Trigger extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class AFRFaster3Trigger extends AbstractTag
 {
 
     protected $Id = 'afr_faster_3_trigger';

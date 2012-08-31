@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class ColorImagePrintingFlag extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ColorImagePrintingFlag extends AbstractTag
 {
 
     protected $Id = '2000,0062';

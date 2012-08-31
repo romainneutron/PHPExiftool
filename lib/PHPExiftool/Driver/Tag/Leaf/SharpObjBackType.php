@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Leaf;
 
-class SharpObjBackType extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class SharpObjBackType extends AbstractTag
 {
 
     protected $Id = 'SharpObj_back_type';

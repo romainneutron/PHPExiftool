@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPDigiKam;
 
-class CaptionsDateTimeStamps extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class CaptionsDateTimeStamps extends AbstractTag
 {
 
     protected $Id = 'CaptionsDateTimeStamps';

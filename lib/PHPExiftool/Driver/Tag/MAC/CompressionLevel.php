@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MAC;
 
-class CompressionLevel extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class CompressionLevel extends AbstractTag
 {
 
     protected $Id = 'mixed';

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Sony;
 
-class SonyModelID extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class SonyModelID extends AbstractTag
 {
 
     protected $Id = 45057;

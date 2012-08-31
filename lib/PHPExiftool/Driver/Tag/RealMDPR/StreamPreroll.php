@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\RealMDPR;
 
-class StreamPreroll extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class StreamPreroll extends AbstractTag
 {
 
     protected $Id = 6;

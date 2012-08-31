@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class ZSmoothingFactor extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ZSmoothingFactor extends AbstractTag
 {
 
     protected $Id = '0045,1007';

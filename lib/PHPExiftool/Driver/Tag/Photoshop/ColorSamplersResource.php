@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Photoshop;
 
-class ColorSamplersResource extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ColorSamplersResource extends AbstractTag
 {
 
     protected $Id = 1038;

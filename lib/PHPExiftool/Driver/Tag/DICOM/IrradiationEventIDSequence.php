@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class IrradiationEventIDSequence extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class IrradiationEventIDSequence extends AbstractTag
 {
 
     protected $Id = '0018,9477';

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\IPTC;
 
-class DigitalCreationDate extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class DigitalCreationDate extends AbstractTag
 {
 
     protected $Id = 62;

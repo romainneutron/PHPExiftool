@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class SecondaryCaptureDeviceManufacturer extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class SecondaryCaptureDeviceManufacturer extends AbstractTag
 {
 
     protected $Id = '0018,1016';

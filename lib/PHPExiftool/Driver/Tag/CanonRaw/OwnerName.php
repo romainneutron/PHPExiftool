@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\CanonRaw;
 
-class OwnerName extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class OwnerName extends AbstractTag
 {
 
     protected $Id = 2064;

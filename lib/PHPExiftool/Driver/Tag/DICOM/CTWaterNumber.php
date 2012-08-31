@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class CTWaterNumber extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class CTWaterNumber extends AbstractTag
 {
 
     protected $Id = '0019,1057';

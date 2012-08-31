@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\ICCProfile;
 
-class ProfileSequenceIdentifier extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ProfileSequenceIdentifier extends AbstractTag
 {
 
     protected $Id = 'psid';

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Olympus;
 
-class WBMode extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class WBMode extends AbstractTag
 {
 
     protected $Id = 4117;

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Olympus;
 
-class OlympusImageWidth extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class OlympusImageWidth extends AbstractTag
 {
 
     protected $Id = 4142;

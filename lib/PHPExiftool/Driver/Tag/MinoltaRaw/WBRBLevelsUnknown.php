@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MinoltaRaw;
 
-class WBRBLevelsUnknown extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class WBRBLevelsUnknown extends AbstractTag
 {
 
     protected $Id = 28;

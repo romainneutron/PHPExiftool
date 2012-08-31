@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MPImage;
 
-class DependentImage2EntryNumber extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class DependentImage2EntryNumber extends AbstractTag
 {
 
     protected $Id = 14;

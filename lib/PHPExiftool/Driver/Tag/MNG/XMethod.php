@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MNG;
 
-class XMethod extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class XMethod extends AbstractTag
 {
 
     protected $Id = 4;

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class ImageTranslationVector extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ImageTranslationVector extends AbstractTag
 {
 
     protected $Id = '0018,5212';

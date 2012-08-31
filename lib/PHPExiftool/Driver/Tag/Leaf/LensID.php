@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Leaf;
 
-class LensID extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class LensID extends AbstractTag
 {
 
     protected $Id = 'CameraObj_lens_ID';

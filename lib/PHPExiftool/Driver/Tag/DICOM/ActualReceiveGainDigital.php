@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class ActualReceiveGainDigital extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ActualReceiveGainDigital extends AbstractTag
 {
 
     protected $Id = '0019,108B';

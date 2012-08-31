@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class CompletionFlag extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class CompletionFlag extends AbstractTag
 {
 
     protected $Id = '0040,A491';

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\ASF;
 
-class Producer extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class Producer extends AbstractTag
 {
 
     protected $Id = 'Producer';

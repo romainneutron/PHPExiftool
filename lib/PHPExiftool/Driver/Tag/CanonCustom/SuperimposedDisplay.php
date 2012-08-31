@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\CanonCustom;
 
-class SuperimposedDisplay extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class SuperimposedDisplay extends AbstractTag
 {
 
     protected $Id = 'mixed';

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\PostScript;
 
-class Pages extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class Pages extends AbstractTag
 {
 
     protected $Id = 'Pages';

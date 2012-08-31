@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class StringSlopField2 extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class StringSlopField2 extends AbstractTag
 {
 
     protected $Id = '0043,102E';

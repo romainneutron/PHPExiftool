@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\ID3v22;
 
-class PublisherURL extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class PublisherURL extends AbstractTag
 {
 
     protected $Id = 'WPB';

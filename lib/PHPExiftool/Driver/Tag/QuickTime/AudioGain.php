@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\QuickTime;
 
-class AudioGain extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class AudioGain extends AbstractTag
 {
 
     protected $Id = 'player.movie.audio.gain';

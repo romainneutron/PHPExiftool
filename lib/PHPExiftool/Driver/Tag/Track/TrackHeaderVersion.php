@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Track;
 
-class TrackHeaderVersion extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class TrackHeaderVersion extends AbstractTag
 {
 
     protected $Id = 0;

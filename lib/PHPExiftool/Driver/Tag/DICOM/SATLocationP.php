@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class SATLocationP extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class SATLocationP extends AbstractTag
 {
 
     protected $Id = '0019,10C5';

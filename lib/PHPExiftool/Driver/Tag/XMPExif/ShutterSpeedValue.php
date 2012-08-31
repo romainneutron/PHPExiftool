@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPExif;
 
-class ShutterSpeedValue extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ShutterSpeedValue extends AbstractTag
 {
 
     protected $Id = 'ShutterSpeedValue';

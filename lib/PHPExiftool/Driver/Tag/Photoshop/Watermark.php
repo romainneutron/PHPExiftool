@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Photoshop;
 
-class Watermark extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class Watermark extends AbstractTag
 {
 
     protected $Id = 1040;

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class DependantOnNoViewsProcessed extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class DependantOnNoViewsProcessed extends AbstractTag
 {
 
     protected $Id = '0019,106A';

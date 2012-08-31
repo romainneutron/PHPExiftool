@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class DeliveredNumberOfPulses extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class DeliveredNumberOfPulses extends AbstractTag
 {
 
     protected $Id = '3008,0138';

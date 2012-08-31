@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Pentax;
 
-class FlashExposureCompSet extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class FlashExposureCompSet extends AbstractTag
 {
 
     protected $Id = 14;

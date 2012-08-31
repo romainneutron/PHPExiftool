@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\ExifIFD;
 
-class MakerNoteKyocera extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class MakerNoteKyocera extends AbstractTag
 {
 
     protected $Id = 'mixed';

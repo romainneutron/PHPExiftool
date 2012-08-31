@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\PDF;
 
-class HasXFA extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class HasXFA extends AbstractTag
 {
 
     protected $Id = '_has_xfa';

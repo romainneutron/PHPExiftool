@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Font;
 
-class Notice extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class Notice extends AbstractTag
 {
 
     protected $Id = 'Notice';

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Canon;
 
-class SharpnessUnknown extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class SharpnessUnknown extends AbstractTag
 {
 
     protected $Id = 148;

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\CanonVRD;
 
-class MonochromeRawHighlightPoint extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class MonochromeRawHighlightPoint extends AbstractTag
 {
 
     protected $Id = 63;

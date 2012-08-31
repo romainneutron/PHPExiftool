@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\ICCMeas;
 
-class MeasurementBacking extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class MeasurementBacking extends AbstractTag
 {
 
     protected $Id = 12;

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class WedgeOrientation extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class WedgeOrientation extends AbstractTag
 {
 
     protected $Id = '300A,00D8';

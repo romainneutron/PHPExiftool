@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class SingleCollimationWidth extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class SingleCollimationWidth extends AbstractTag
 {
 
     protected $Id = '0018,9306';

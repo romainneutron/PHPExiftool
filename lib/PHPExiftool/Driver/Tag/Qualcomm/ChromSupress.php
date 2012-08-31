@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Qualcomm;
 
-class ChromSupress extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ChromSupress extends AbstractTag
 {
 
     protected $Id = 'chrom_supress';

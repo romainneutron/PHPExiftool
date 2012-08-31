@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class LastMenstrualDate extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class LastMenstrualDate extends AbstractTag
 {
 
     protected $Id = '0010,21D0';

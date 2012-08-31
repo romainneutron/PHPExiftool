@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Jpeg2000;
 
-class DisplayXResolutionUnit extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class DisplayXResolutionUnit extends AbstractTag
 {
 
     protected $Id = 9;

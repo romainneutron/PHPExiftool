@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\CanonVRD;
 
-class MonochromeToningEffect extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class MonochromeToningEffect extends AbstractTag
 {
 
     protected $Id = 59;

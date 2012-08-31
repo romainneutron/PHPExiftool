@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Ricoh;
 
-class RicohRDC2 extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class RicohRDC2 extends AbstractTag
 {
 
     protected $Id = 'rdc2';

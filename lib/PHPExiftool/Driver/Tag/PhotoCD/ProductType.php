@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\PhotoCD;
 
-class ProductType extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ProductType extends AbstractTag
 {
 
     protected $Id = 22;

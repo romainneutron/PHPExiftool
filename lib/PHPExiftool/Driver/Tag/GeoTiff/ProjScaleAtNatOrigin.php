@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\GeoTiff;
 
-class ProjScaleAtNatOrigin extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ProjScaleAtNatOrigin extends AbstractTag
 {
 
     protected $Id = 3092;

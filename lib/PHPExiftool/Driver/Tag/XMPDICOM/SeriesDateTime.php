@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPDICOM;
 
-class SeriesDateTime extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class SeriesDateTime extends AbstractTag
 {
 
     protected $Id = 'SeriesDateTime';

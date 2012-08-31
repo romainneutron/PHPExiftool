@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\HTTPEquiv;
 
-class PicsLabel extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class PicsLabel extends AbstractTag
 {
 
     protected $Id = 'pics-label';

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPPhotoshop;
 
-class ColorMode extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ColorMode extends AbstractTag
 {
 
     protected $Id = 'ColorMode';

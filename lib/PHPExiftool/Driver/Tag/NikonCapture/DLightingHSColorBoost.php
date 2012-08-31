@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\NikonCapture;
 
-class DLightingHSColorBoost extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class DLightingHSColorBoost extends AbstractTag
 {
 
     protected $Id = 1;

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MXF;
 
-class Jurisdiction extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class Jurisdiction extends AbstractTag
 {
 
     protected $Id = 'mixed';

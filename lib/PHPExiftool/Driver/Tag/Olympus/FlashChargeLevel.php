@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Olympus;
 
-class FlashChargeLevel extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class FlashChargeLevel extends AbstractTag
 {
 
     protected $Id = 4112;

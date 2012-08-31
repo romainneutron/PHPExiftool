@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class RWaveTimeVector extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class RWaveTimeVector extends AbstractTag
 {
 
     protected $Id = '0018,6060';

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPDigiKam;
 
-class CaptionsAuthorNames extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class CaptionsAuthorNames extends AbstractTag
 {
 
     protected $Id = 'CaptionsAuthorNames';

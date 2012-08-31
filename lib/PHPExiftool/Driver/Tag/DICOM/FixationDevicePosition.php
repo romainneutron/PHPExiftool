@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class FixationDevicePosition extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class FixationDevicePosition extends AbstractTag
 {
 
     protected $Id = '300A,0198';

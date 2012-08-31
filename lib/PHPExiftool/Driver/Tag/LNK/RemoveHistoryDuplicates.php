@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\LNK;
 
-class RemoveHistoryDuplicates extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class RemoveHistoryDuplicates extends AbstractTag
 {
 
     protected $Id = 136;

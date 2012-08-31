@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MIFF;
 
-class Matte extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class Matte extends AbstractTag
 {
 
     protected $Id = 'matte';

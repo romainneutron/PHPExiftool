@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\NikonCapture;
 
-class ColorNoiseReductionIntensity extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ColorNoiseReductionIntensity extends AbstractTag
 {
 
     protected $Id = 24;

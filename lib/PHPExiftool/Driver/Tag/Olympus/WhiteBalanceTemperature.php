@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Olympus;
 
-class WhiteBalanceTemperature extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class WhiteBalanceTemperature extends AbstractTag
 {
 
     protected $Id = 1281;

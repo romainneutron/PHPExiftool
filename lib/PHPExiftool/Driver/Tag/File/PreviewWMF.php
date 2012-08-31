@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\File;
 
-class PreviewWMF extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class PreviewWMF extends AbstractTag
 {
 
     protected $Id = 'PreviewWMF';

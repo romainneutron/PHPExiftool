@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\SigmaRaw;
 
-class IntegrationTime extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class IntegrationTime extends AbstractTag
 {
 
     protected $Id = 'EXPTIME';

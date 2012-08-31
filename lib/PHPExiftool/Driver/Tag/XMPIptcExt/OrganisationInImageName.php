@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPIptcExt;
 
-class OrganisationInImageName extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class OrganisationInImageName extends AbstractTag
 {
 
     protected $Id = 'OrganisationInImageName';

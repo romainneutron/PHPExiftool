@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class IntervalsAcquired extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class IntervalsAcquired extends AbstractTag
 {
 
     protected $Id = '0018,1083';

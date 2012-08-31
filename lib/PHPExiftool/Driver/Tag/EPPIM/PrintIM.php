@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\EPPIM;
 
-class PrintIM extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class PrintIM extends AbstractTag
 {
 
     protected $Id = 50341;

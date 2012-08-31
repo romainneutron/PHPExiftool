@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class PointPositionAccuracy extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class PointPositionAccuracy extends AbstractTag
 {
 
     protected $Id = '0066,0017';

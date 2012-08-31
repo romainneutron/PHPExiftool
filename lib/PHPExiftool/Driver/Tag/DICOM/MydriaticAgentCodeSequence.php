@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class MydriaticAgentCodeSequence extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class MydriaticAgentCodeSequence extends AbstractTag
 {
 
     protected $Id = '0022,001C';

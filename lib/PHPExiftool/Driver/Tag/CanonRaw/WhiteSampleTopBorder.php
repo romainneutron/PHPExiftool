@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\CanonRaw;
 
-class WhiteSampleTopBorder extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class WhiteSampleTopBorder extends AbstractTag
 {
 
     protected $Id = 4;

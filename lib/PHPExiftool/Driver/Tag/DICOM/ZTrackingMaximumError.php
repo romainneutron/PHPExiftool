@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class ZTrackingMaximumError extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ZTrackingMaximumError extends AbstractTag
 {
 
     protected $Id = '0045,100F';

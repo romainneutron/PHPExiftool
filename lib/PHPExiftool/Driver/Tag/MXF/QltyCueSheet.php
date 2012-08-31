@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MXF;
 
-class QltyCueSheet extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class QltyCueSheet extends AbstractTag
 {
 
     protected $Id = 'mixed';

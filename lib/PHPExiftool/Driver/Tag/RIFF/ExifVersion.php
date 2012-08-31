@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\RIFF;
 
-class ExifVersion extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ExifVersion extends AbstractTag
 {
 
     protected $Id = 'ever';

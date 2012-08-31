@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class PresentationGroupNumber extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class PresentationGroupNumber extends AbstractTag
 {
 
     protected $Id = '003A,0241';

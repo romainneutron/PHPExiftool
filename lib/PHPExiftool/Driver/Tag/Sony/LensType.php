@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Sony;
 
-class LensType extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class LensType extends AbstractTag
 {
 
     protected $Id = 45095;
@@ -368,6 +370,10 @@ class LensType extends \PHPExiftool\Driver\Tag
         64 => array(
             'Id' => 64,
             'Label' => 'Sony 500mm F4.0 G SSM (SAL500F40G)',
+        ),
+        65 => array(
+            'Id' => 65,
+            'Label' => 'Sony DT 18-135mm F3.5-5.6 SAM (SAL-18135)',
         ),
         128 => array(
             'Id' => 128,

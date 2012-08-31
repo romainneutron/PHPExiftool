@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\RIFF;
 
-class NumberOfParts extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class NumberOfParts extends AbstractTag
 {
 
     protected $Id = 'PRT2';

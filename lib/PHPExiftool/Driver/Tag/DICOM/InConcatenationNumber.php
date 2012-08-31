@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class InConcatenationNumber extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class InConcatenationNumber extends AbstractTag
 {
 
     protected $Id = '0020,9162';

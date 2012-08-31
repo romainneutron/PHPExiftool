@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\CanonRaw;
 
-class RawJpgQuality extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class RawJpgQuality extends AbstractTag
 {
 
     protected $Id = 1;

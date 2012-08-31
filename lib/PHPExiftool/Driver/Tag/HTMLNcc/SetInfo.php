@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\HTMLNcc;
 
-class SetInfo extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class SetInfo extends AbstractTag
 {
 
     protected $Id = 'setinfo';

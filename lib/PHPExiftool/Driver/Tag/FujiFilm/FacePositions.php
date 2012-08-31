@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\FujiFilm;
 
-class FacePositions extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class FacePositions extends AbstractTag
 {
 
     protected $Id = 16643;

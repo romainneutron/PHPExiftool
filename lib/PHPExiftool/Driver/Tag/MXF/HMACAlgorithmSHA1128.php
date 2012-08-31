@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MXF;
 
-class HMACAlgorithmSHA1128 extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class HMACAlgorithmSHA1128 extends AbstractTag
 {
 
     protected $Id = '060e2b34.0401.0107.02090202.01000000';

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\PICT;
 
-class PaintSameArc extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class PaintSameArc extends AbstractTag
 {
 
     protected $Id = 105;

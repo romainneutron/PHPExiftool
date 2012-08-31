@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPIptcCore;
 
-class CreatorCountry extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class CreatorCountry extends AbstractTag
 {
 
     protected $Id = 'CreatorContactInfoCiAdrCtry';

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MXF;
 
-class CipherAlgorithm extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class CipherAlgorithm extends AbstractTag
 {
 
     protected $Id = '060e2b34.0101.0109.02090301.01000000';

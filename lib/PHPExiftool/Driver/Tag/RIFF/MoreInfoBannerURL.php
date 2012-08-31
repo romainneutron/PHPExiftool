@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\RIFF;
 
-class MoreInfoBannerURL extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class MoreInfoBannerURL extends AbstractTag
 {
 
     protected $Id = 'IMBU';

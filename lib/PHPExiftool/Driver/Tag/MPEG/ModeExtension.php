@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MPEG;
 
-class ModeExtension extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ModeExtension extends AbstractTag
 {
 
     protected $Id = 'Bit26-27';

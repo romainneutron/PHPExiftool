@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\ID3v23;
 
-class ArtistURL extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ArtistURL extends AbstractTag
 {
 
     protected $Id = 'WOAR';

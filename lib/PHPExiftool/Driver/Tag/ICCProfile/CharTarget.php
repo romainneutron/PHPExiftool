@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\ICCProfile;
 
-class CharTarget extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class CharTarget extends AbstractTag
 {
 
     protected $Id = 'targ';

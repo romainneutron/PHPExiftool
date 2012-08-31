@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\RIFF;
 
-class SoundSchemeTitle extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class SoundSchemeTitle extends AbstractTag
 {
 
     protected $Id = 'DISP';

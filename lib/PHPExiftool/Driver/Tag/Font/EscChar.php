@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Font;
 
-class EscChar extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class EscChar extends AbstractTag
 {
 
     protected $Id = 'EscChar';

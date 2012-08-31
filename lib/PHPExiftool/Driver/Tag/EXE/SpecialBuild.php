@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\EXE;
 
-class SpecialBuild extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class SpecialBuild extends AbstractTag
 {
 
     protected $Id = 'SpecialBuild';

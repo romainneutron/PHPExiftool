@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\ICCProfile;
 
-class ProfileCopyright extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ProfileCopyright extends AbstractTag
 {
 
     protected $Id = 'cprt';

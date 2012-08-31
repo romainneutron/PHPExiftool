@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MIELens;
 
-class FocalLength extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class FocalLength extends AbstractTag
 {
 
     protected $Id = 'FocalLength';

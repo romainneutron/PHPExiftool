@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MIECamera;
 
-class MeasuredEV extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class MeasuredEV extends AbstractTag
 {
 
     protected $Id = 'MeasuredEV';

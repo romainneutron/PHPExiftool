@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MXF;
 
-class DeviceManufacturerName extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class DeviceManufacturerName extends AbstractTag
 {
 
     protected $Id = 'mixed';

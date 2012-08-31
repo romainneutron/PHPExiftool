@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\PhotoCD;
 
-class ImageMedium extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ImageMedium extends AbstractTag
 {
 
     protected $Id = 21;

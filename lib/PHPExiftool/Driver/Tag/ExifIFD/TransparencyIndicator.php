@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\ExifIFD;
 
-class TransparencyIndicator extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class TransparencyIndicator extends AbstractTag
 {
 
     protected $Id = 34028;

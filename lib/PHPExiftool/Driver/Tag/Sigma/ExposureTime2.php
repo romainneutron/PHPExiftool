@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Sigma;
 
-class ExposureTime2 extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ExposureTime2 extends AbstractTag
 {
 
     protected $Id = 'mixed';

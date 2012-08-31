@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPCrs;
 
-class GradientBasedCorrSharpness extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class GradientBasedCorrSharpness extends AbstractTag
 {
 
     protected $Id = 'GradientBasedCorrectionsLocalSharpness';
@@ -28,7 +30,7 @@ class GradientBasedCorrSharpness extends \PHPExiftool\Driver\Tag
 
     protected $g2 = 'Image';
 
-    protected $Type = 'string';
+    protected $Type = 'real';
 
     protected $Writable = true;
 

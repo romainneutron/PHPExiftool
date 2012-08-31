@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\EXE;
 
-class BuildVersion extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class BuildVersion extends AbstractTag
 {
 
     protected $Id = 'BuildVersion';

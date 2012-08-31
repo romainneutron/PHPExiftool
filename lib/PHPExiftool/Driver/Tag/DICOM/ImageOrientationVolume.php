@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class ImageOrientationVolume extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ImageOrientationVolume extends AbstractTag
 {
 
     protected $Id = '0020,9302';

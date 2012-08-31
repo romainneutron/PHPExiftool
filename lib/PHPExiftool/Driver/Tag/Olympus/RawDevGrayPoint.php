@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Olympus;
 
-class RawDevGrayPoint extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class RawDevGrayPoint extends AbstractTag
 {
 
     protected $Id = 'mixed';

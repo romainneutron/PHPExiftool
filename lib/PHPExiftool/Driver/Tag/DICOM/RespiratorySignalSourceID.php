@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class RespiratorySignalSourceID extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class RespiratorySignalSourceID extends AbstractTag
 {
 
     protected $Id = '0018,9186';

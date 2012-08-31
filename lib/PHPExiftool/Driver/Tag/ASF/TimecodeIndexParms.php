@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\ASF;
 
-class TimecodeIndexParms extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class TimecodeIndexParms extends AbstractTag
 {
 
     protected $Id = '6B203BAD-3F11-48E4-ACA8-D7613DE2CFA7';

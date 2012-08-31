@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Pentax;
 
-class PictureMode extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class PictureMode extends AbstractTag
 {
 
     protected $Id = 'mixed';
@@ -234,18 +236,30 @@ class PictureMode extends \PHPExiftool\Driver\Tag
             'Label' => 'Half-length Portrait',
         ),
         45 => array(
+            'Id' => 66,
+            'Label' => 'Portrait 2',
+        ),
+        46 => array(
+            'Id' => 75,
+            'Label' => 'Blue Sky',
+        ),
+        47 => array(
             'Id' => 80,
             'Label' => 'Miniature',
         ),
-        46 => array(
+        48 => array(
+            'Id' => 81,
+            'Label' => 'HDR',
+        ),
+        49 => array(
             'Id' => 83,
             'Label' => 'Fisheye',
         ),
-        47 => array(
+        50 => array(
             'Id' => 221,
             'Label' => 'P',
         ),
-        48 => array(
+        51 => array(
             'Id' => 255,
             'Label' => 'PICT',
         ),

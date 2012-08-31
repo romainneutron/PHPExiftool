@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\ExifIFD;
 
-class JPEGPointTransforms extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class JPEGPointTransforms extends AbstractTag
 {
 
     protected $Id = 518;

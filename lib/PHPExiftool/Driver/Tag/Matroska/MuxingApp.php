@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Matroska;
 
-class MuxingApp extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class MuxingApp extends AbstractTag
 {
 
     protected $Id = 3456;

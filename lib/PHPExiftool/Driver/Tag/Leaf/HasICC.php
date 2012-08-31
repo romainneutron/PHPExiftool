@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Leaf;
 
-class HasICC extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class HasICC extends AbstractTag
 {
 
     protected $Id = 'ColorObj_has_ICC';

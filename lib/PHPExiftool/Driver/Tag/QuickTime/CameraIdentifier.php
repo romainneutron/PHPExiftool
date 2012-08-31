@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\QuickTime;
 
-class CameraIdentifier extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class CameraIdentifier extends AbstractTag
 {
 
     protected $Id = 'camera.identifier';

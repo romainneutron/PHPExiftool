@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\SubIFD;
 
-class BlackLevelRepeatDim extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class BlackLevelRepeatDim extends AbstractTag
 {
 
     protected $Id = 50713;

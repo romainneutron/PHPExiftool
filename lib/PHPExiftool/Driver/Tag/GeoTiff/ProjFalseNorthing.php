@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\GeoTiff;
 
-class ProjFalseNorthing extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ProjFalseNorthing extends AbstractTag
 {
 
     protected $Id = 3083;

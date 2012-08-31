@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class NumberOfPriorsReferenced extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class NumberOfPriorsReferenced extends AbstractTag
 {
 
     protected $Id = '0072,0014';

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Panasonic;
 
-class ProgramISO extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ProgramISO extends AbstractTag
 {
 
     protected $Id = 60;

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MXF;
 
-class ColorFieldCode extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ColorFieldCode extends AbstractTag
 {
 
     protected $Id = '060e2b34.0101.0101.04010301.01000000';

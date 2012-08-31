@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\PICT;
 
-class FillSamePoly extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class FillSamePoly extends AbstractTag
 {
 
     protected $Id = 124;

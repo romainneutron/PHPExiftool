@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\ICCProfile;
 
-class WCSProfiles extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class WCSProfiles extends AbstractTag
 {
 
     protected $Id = 'MS00';

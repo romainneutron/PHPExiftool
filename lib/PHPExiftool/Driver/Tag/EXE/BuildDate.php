@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\EXE;
 
-class BuildDate extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class BuildDate extends AbstractTag
 {
 
     protected $Id = 'BuildDate';

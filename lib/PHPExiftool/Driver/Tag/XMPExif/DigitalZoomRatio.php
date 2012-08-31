@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPExif;
 
-class DigitalZoomRatio extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class DigitalZoomRatio extends AbstractTag
 {
 
     protected $Id = 'DigitalZoomRatio';

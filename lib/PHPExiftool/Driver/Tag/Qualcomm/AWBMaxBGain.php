@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Qualcomm;
 
-class AWBMaxBGain extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class AWBMaxBGain extends AbstractTag
 {
 
     protected $Id = 'awb_max_b_gain';

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class LocalNamespaceEntityID extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class LocalNamespaceEntityID extends AbstractTag
 {
 
     protected $Id = '0040,0031';

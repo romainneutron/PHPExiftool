@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPExif;
 
-class CFAPattern extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class CFAPattern extends AbstractTag
 {
 
     protected $Id = 'CFAPattern';
@@ -28,7 +30,7 @@ class CFAPattern extends \PHPExiftool\Driver\Tag
 
     protected $g2 = 'Image';
 
-    protected $Type = 'string';
+    protected $Type = 'struct';
 
     protected $Writable = true;
 

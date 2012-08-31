@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class LastPulseSequenceUsed extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class LastPulseSequenceUsed extends AbstractTag
 {
 
     protected $Id = '0025,1006';

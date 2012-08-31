@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\ASF;
 
-class MediaStationName extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class MediaStationName extends AbstractTag
 {
 
     protected $Id = 'MediaStationName';

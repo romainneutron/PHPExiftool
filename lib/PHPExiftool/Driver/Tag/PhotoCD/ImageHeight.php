@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\PhotoCD;
 
-class ImageHeight extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ImageHeight extends AbstractTag
 {
 
     protected $Id = '1538.2';

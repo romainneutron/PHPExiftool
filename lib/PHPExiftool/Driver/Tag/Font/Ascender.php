@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Font;
 
-class Ascender extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class Ascender extends AbstractTag
 {
 
     protected $Id = 'Ascender';

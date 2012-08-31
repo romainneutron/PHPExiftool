@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Olympus;
 
-class RawDevWBFineAdjustment extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class RawDevWBFineAdjustment extends AbstractTag
 {
 
     protected $Id = 'mixed';

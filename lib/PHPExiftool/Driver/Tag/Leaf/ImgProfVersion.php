@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Leaf;
 
-class ImgProfVersion extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ImgProfVersion extends AbstractTag
 {
 
     protected $Id = 'ImgProf_version';

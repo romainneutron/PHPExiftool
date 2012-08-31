@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MPEG;
 
-class AudioLayer extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class AudioLayer extends AbstractTag
 {
 
     protected $Id = 'Bit13-14';

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Pentax;
 
-class WhiteBalanceAutoAdjustment extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class WhiteBalanceAutoAdjustment extends AbstractTag
 {
 
     protected $Id = 0;

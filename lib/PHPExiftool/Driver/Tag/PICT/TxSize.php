@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\PICT;
 
-class TxSize extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class TxSize extends AbstractTag
 {
 
     protected $Id = 13;

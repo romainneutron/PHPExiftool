@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class MaximumMemoryAllocation extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class MaximumMemoryAllocation extends AbstractTag
 {
 
     protected $Id = '2000,0061';

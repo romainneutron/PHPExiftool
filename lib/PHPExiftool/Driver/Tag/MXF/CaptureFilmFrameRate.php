@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MXF;
 
-class CaptureFilmFrameRate extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class CaptureFilmFrameRate extends AbstractTag
 {
 
     protected $Id = '060e2b34.0101.0101.04010802.01000000';

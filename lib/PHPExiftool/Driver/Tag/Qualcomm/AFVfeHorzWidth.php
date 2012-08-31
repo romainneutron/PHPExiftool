@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Qualcomm;
 
-class AFVfeHorzWidth extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class AFVfeHorzWidth extends AbstractTag
 {
 
     protected $Id = 'af_vfe_horz_width';

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class TotalCompTrayWaterEquivThickness extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class TotalCompTrayWaterEquivThickness extends AbstractTag
 {
 
     protected $Id = '300A,02E3';

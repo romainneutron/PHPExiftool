@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Stim;
 
-class CropYOffset extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class CropYOffset extends AbstractTag
 {
 
     protected $Id = 3;

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MXF;
 
-class MPEG7BiMDecoderInitFrame1 extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class MPEG7BiMDecoderInitFrame1 extends AbstractTag
 {
 
     protected $Id = '060e2b34.0101.0107.03010220.02010100';

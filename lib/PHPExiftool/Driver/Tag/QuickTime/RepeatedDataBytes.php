@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\QuickTime;
 
-class RepeatedDataBytes extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class RepeatedDataBytes extends AbstractTag
 {
 
     protected $Id = 'drep';

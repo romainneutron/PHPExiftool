@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPMwgRs;
 
-class RegionFocusUsage extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class RegionFocusUsage extends AbstractTag
 {
 
     protected $Id = 'RegionsRegionListFocusUsage';
@@ -33,5 +35,22 @@ class RegionFocusUsage extends \PHPExiftool\Driver\Tag
     protected $Writable = true;
 
     protected $Description = 'Region Focus Usage';
+
+    protected $flag_List = true;
+
+    protected $Values = array(
+        'EvaluatedNotUsed' => array(
+            'Id' => 'EvaluatedNotUsed',
+            'Label' => 'Evaluated, Not Used',
+        ),
+        'EvaluatedUsed' => array(
+            'Id' => 'EvaluatedUsed',
+            'Label' => 'Evaluated, Used',
+        ),
+        'NotEvaluatedNotUsed' => array(
+            'Id' => 'NotEvaluatedNotUsed',
+            'Label' => 'Not Evaluated, Not Used',
+        ),
+    );
 
 }

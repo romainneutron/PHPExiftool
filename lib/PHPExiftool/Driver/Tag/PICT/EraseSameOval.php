@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\PICT;
 
-class EraseSameOval extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class EraseSameOval extends AbstractTag
 {
 
     protected $Id = 90;

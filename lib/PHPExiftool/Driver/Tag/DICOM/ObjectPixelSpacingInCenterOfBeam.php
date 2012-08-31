@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class ObjectPixelSpacingInCenterOfBeam extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ObjectPixelSpacingInCenterOfBeam extends AbstractTag
 {
 
     protected $Id = '0018,9404';

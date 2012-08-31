@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Qualcomm;
 
-class ASF3EdgeFilterA21 extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ASF3EdgeFilterA21 extends AbstractTag
 {
 
     protected $Id = 'asf3_edge_filter_a21';

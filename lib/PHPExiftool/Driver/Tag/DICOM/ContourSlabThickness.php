@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class ContourSlabThickness extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ContourSlabThickness extends AbstractTag
 {
 
     protected $Id = '3006,0044';

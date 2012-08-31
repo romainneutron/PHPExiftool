@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MIFF;
 
-class RenderingIntent extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class RenderingIntent extends AbstractTag
 {
 
     protected $Id = 'rendering-intent';

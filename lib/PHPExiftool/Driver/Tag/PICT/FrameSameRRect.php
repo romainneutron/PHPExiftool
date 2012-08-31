@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\PICT;
 
-class FrameSameRRect extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class FrameSameRRect extends AbstractTag
 {
 
     protected $Id = 72;

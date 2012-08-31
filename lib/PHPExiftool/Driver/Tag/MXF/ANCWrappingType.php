@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MXF;
 
-class ANCWrappingType extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ANCWrappingType extends AbstractTag
 {
 
     protected $Id = '060e2b34.0101.010a.04010502.0a000000';

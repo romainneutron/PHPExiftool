@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Microsoft;
 
-class Telex extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class Telex extends AbstractTag
 {
 
     protected $Id = '{C554493C-C1F7-40C1-A76C-EF8C0614003E} 100';

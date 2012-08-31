@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\QuickTime;
 
-class EncodedPixelsDimensions extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class EncodedPixelsDimensions extends AbstractTag
 {
 
     protected $Id = 'enof';

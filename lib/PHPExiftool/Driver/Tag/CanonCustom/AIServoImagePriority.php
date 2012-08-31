@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\CanonCustom;
 
-class AIServoImagePriority extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class AIServoImagePriority extends AbstractTag
 {
 
     protected $Id = 1283;

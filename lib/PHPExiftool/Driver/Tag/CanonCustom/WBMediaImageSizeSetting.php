@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\CanonCustom;
 
-class WBMediaImageSizeSetting extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class WBMediaImageSizeSetting extends AbstractTag
 {
 
     protected $Id = 1800;

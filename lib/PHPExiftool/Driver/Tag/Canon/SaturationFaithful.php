@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Canon;
 
-class SaturationFaithful extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class SaturationFaithful extends AbstractTag
 {
 
     protected $Id = 'mixed';

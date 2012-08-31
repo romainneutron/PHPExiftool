@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MXF;
 
-class QltyBasicData extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class QltyBasicData extends AbstractTag
 {
 
     protected $Id = 'mixed';

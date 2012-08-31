@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\ExifIFD;
 
-class PixelIntensityRange extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class PixelIntensityRange extends AbstractTag
 {
 
     protected $Id = 34027;

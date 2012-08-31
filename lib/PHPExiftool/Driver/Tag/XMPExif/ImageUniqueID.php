@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPExif;
 
-class ImageUniqueID extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ImageUniqueID extends AbstractTag
 {
 
     protected $Id = 'ImageUniqueID';

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Leica;
 
-class UVIRFilterCorrection extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class UVIRFilterCorrection extends AbstractTag
 {
 
     protected $Id = 805;

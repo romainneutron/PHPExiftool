@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Panasonic;
 
-class RecognizedFace3Position extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class RecognizedFace3Position extends AbstractTag
 {
 
     protected $Id = 120;

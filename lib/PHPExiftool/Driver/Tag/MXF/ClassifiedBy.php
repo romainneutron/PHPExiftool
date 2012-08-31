@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MXF;
 
-class ClassifiedBy extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ClassifiedBy extends AbstractTag
 {
 
     protected $Id = '060e2b34.0101.0103.02080203.00000000';

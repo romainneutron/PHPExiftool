@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Panasonic;
 
-class WBGreenLevel extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class WBGreenLevel extends AbstractTag
 {
 
     protected $Id = 32773;

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Nikon;
 
-class PictureControlData extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class PictureControlData extends AbstractTag
 {
 
     protected $Id = 'mixed';

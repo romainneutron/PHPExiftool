@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DjVuMeta;
 
-class BookTitle extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class BookTitle extends AbstractTag
 {
 
     protected $Id = 'booktitle';

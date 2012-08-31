@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MNG;
 
-class SnapshotID extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class SnapshotID extends AbstractTag
 {
 
     protected $Id = 0;

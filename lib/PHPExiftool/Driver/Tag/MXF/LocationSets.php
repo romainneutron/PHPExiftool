@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MXF;
 
-class LocationSets extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class LocationSets extends AbstractTag
 {
 
     protected $Id = '060e2b34.0101.0105.06010104.03401600';

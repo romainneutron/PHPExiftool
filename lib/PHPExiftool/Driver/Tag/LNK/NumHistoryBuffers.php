@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\LNK;
 
-class NumHistoryBuffers extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class NumHistoryBuffers extends AbstractTag
 {
 
     protected $Id = 132;

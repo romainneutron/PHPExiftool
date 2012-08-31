@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\ExifIFD;
 
-class JPEGRestartInterval extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class JPEGRestartInterval extends AbstractTag
 {
 
     protected $Id = 515;

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\QuickTime;
 
-class UUIDUnknown extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class UUIDUnknown extends AbstractTag
 {
 
     protected $Id = 'uuid';

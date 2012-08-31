@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\IFD0;
 
-class TransferFunction extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class TransferFunction extends AbstractTag
 {
 
     protected $Id = 301;

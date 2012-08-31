@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class MultiplexGroupLabel extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class MultiplexGroupLabel extends AbstractTag
 {
 
     protected $Id = '003A,0020';

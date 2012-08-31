@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MetaIFD;
 
-class ImagePrintStatus extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ImagePrintStatus extends AbstractTag
 {
 
     protected $Id = 50286;

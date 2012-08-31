@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Nikon;
 
-class WBRBGGLevels extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class WBRBGGLevels extends AbstractTag
 {
 
     protected $Id = 0;

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\ExifTool;
 
-class FileSequence extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class FileSequence extends AbstractTag
 {
 
     protected $Id = 'FileSequence';

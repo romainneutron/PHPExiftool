@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\CanonCustom;
 
-class PF10RetainProgramShift extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class PF10RetainProgramShift extends AbstractTag
 {
 
     protected $Id = 11;

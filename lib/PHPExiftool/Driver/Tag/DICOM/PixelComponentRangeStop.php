@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class PixelComponentRangeStop extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class PixelComponentRangeStop extends AbstractTag
 {
 
     protected $Id = '0018,604A';

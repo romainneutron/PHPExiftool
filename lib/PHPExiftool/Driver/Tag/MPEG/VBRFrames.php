@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MPEG;
 
-class VBRFrames extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class VBRFrames extends AbstractTag
 {
 
     protected $Id = 1;

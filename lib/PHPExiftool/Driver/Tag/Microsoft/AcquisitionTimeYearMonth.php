@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Microsoft;
 
-class AcquisitionTimeYearMonth extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class AcquisitionTimeYearMonth extends AbstractTag
 {
 
     protected $Id = 'AcquisitionTimeYearMonth';

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Sigma;
 
-class ColorAdjustment extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ColorAdjustment extends AbstractTag
 {
 
     protected $Id = 20;

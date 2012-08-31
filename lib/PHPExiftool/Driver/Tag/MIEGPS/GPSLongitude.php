@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MIEGPS;
 
-class GPSLongitude extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class GPSLongitude extends AbstractTag
 {
 
     protected $Id = 'Longitude';

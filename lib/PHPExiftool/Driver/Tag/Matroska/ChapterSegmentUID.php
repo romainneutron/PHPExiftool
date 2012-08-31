@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Matroska;
 
-class ChapterSegmentUID extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ChapterSegmentUID extends AbstractTag
 {
 
     protected $Id = 11879;

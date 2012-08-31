@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\CanonCustom;
 
-class PF20MaxContinousShots extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class PF20MaxContinousShots extends AbstractTag
 {
 
     protected $Id = 11;

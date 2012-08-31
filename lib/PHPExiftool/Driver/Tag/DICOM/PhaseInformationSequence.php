@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class PhaseInformationSequence extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class PhaseInformationSequence extends AbstractTag
 {
 
     protected $Id = '0054,0032';

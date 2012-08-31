@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MXF;
 
-class SampledXOffset extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class SampledXOffset extends AbstractTag
 {
 
     protected $Id = '060e2b34.0101.0101.04010501.09000000';

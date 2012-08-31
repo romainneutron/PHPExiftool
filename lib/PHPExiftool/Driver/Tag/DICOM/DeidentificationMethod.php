@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class DeidentificationMethod extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class DeidentificationMethod extends AbstractTag
 {
 
     protected $Id = '0012,0063';

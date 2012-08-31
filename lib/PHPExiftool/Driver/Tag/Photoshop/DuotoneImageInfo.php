@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Photoshop;
 
-class DuotoneImageInfo extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class DuotoneImageInfo extends AbstractTag
 {
 
     protected $Id = 1018;

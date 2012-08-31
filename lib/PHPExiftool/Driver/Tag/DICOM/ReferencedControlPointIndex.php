@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class ReferencedControlPointIndex extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ReferencedControlPointIndex extends AbstractTag
 {
 
     protected $Id = '300C,00F0';

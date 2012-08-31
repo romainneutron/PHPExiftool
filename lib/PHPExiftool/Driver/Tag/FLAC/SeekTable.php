@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\FLAC;
 
-class SeekTable extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class SeekTable extends AbstractTag
 {
 
     protected $Id = 3;

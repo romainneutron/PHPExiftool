@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\File;
 
-class RAFVersion extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class RAFVersion extends AbstractTag
 {
 
     protected $Id = 'RAFVersion';

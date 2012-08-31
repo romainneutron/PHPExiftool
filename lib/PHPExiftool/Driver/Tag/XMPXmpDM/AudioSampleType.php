@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPXmpDM;
 
-class AudioSampleType extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class AudioSampleType extends AbstractTag
 {
 
     protected $Id = 'audioSampleType';

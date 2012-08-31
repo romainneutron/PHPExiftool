@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\RealCONT;
 
-class CommentLen extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class CommentLen extends AbstractTag
 {
 
     protected $Id = 6;

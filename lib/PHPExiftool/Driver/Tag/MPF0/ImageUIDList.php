@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MPF0;
 
-class ImageUIDList extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ImageUIDList extends AbstractTag
 {
 
     protected $Id = 45059;

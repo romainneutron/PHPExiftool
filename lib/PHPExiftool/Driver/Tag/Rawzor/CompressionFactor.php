@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Rawzor;
 
-class CompressionFactor extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class CompressionFactor extends AbstractTag
 {
 
     protected $Id = 'CompressionFactor';

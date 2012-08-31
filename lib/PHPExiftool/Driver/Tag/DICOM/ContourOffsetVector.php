@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class ContourOffsetVector extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ContourOffsetVector extends AbstractTag
 {
 
     protected $Id = '3006,0045';

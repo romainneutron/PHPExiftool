@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\IFD0;
 
-class StripByteCounts extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class StripByteCounts extends AbstractTag
 {
 
     protected $Id = 279;

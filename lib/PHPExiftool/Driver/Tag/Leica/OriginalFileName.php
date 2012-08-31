@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Leica;
 
-class OriginalFileName extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class OriginalFileName extends AbstractTag
 {
 
     protected $Id = 1031;

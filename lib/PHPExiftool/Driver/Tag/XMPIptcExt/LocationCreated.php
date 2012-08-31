@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPIptcExt;
 
-class LocationCreated extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class LocationCreated extends AbstractTag
 {
 
     protected $Id = 'LocationCreated';
@@ -28,7 +30,7 @@ class LocationCreated extends \PHPExiftool\Driver\Tag
 
     protected $g2 = 'Author';
 
-    protected $Type = 'string';
+    protected $Type = 'struct';
 
     protected $Writable = true;
 

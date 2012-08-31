@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class EscapeTriplet extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class EscapeTriplet extends AbstractTag
 {
 
     protected $Id = '1000,xxx0';

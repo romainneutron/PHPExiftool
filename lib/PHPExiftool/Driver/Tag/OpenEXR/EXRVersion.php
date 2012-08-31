@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\OpenEXR;
 
-class EXRVersion extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class EXRVersion extends AbstractTag
 {
 
     protected $Id = '_ver';

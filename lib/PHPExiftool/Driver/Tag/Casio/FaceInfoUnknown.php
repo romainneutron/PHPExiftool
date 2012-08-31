@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Casio;
 
-class FaceInfoUnknown extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class FaceInfoUnknown extends AbstractTag
 {
 
     protected $Id = 8329;

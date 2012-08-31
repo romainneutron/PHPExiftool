@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Canon;
 
-class ColorTempUnknown7 extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ColorTempUnknown7 extends AbstractTag
 {
 
     protected $Id = 'mixed';

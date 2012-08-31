@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\CanonCustom;
 
-class ExposureLevelIncrements extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ExposureLevelIncrements extends AbstractTag
 {
 
     protected $Id = 'mixed';

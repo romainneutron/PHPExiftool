@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPIptcExt;
 
-class ArtworkTitle extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ArtworkTitle extends AbstractTag
 {
 
     protected $Id = 'ArtworkOrObjectAOTitle';
@@ -28,10 +30,12 @@ class ArtworkTitle extends \PHPExiftool\Driver\Tag
 
     protected $g2 = 'Author';
 
-    protected $Type = 'string';
+    protected $Type = 'lang-alt';
 
     protected $Writable = true;
 
     protected $Description = 'Artwork Title';
+
+    protected $flag_List = true;
 
 }

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class UniversalEntityIDType extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class UniversalEntityIDType extends AbstractTag
 {
 
     protected $Id = '0040,0033';

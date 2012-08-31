@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\CanonRaw;
 
-class CanonColorInfo1 extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class CanonColorInfo1 extends AbstractTag
 {
 
     protected $Id = 50;

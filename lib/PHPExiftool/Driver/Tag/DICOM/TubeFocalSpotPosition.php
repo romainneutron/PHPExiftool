@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class TubeFocalSpotPosition extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class TubeFocalSpotPosition extends AbstractTag
 {
 
     protected $Id = '0021,1090';

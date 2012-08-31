@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\KodakIFD;
 
-class NCDFileInfo extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class NCDFileInfo extends AbstractTag
 {
 
     protected $Id = 1044;

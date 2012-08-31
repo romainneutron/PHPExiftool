@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPPlus;
 
-class ModelReleaseStatus extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ModelReleaseStatus extends AbstractTag
 {
 
     protected $Id = 'ModelReleaseStatus';

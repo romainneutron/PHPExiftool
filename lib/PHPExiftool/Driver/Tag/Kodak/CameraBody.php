@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Kodak;
 
-class CameraBody extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class CameraBody extends AbstractTag
 {
 
     protected $Id = 'Camera body';

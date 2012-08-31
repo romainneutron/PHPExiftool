@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\FlashPix;
 
-class OptoElectricConvFactor extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class OptoElectricConvFactor extends AbstractTag
 {
 
     protected $Id = 637534216;

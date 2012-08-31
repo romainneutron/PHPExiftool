@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class StereoBaselineDisplacement extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class StereoBaselineDisplacement extends AbstractTag
 {
 
     protected $Id = '0022,0011';

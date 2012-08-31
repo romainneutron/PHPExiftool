@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\IFD0;
 
-class RawDataUniqueID extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class RawDataUniqueID extends AbstractTag
 {
 
     protected $Id = 50781;

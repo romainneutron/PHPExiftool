@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPPrism;
 
-class WordCount extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class WordCount extends AbstractTag
 {
 
     protected $Id = 'wordCount';

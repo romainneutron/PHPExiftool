@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MIELens;
 
-class MinAperture extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class MinAperture extends AbstractTag
 {
 
     protected $Id = 'MinAperture';

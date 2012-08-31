@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\QuickTime;
 
-class FileFunctionFlags extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class FileFunctionFlags extends AbstractTag
 {
 
     protected $Id = 1;

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPCrs;
 
-class ParametricMidtoneSplit extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ParametricMidtoneSplit extends AbstractTag
 {
 
     protected $Id = 'ParametricMidtoneSplit';

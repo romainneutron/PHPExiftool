@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\KodakBordersIFD;
 
-class BorderName extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class BorderName extends AbstractTag
 {
 
     protected $Id = 1;

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\CanonVRD;
 
-class PortraitUnsharpMaskStrength extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class PortraitUnsharpMaskStrength extends AbstractTag
 {
 
     protected $Id = 152;

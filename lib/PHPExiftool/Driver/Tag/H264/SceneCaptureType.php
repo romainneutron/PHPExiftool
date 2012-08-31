@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\H264;
 
-class SceneCaptureType extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class SceneCaptureType extends AbstractTag
 {
 
     protected $Id = 170;

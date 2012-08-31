@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class NumberOfContourPoints extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class NumberOfContourPoints extends AbstractTag
 {
 
     protected $Id = '3006,0046';

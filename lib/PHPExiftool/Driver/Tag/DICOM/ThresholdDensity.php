@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class ThresholdDensity extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ThresholdDensity extends AbstractTag
 {
 
     protected $Id = '2040,0100';

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class ShieldingDeviceDescription extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ShieldingDeviceDescription extends AbstractTag
 {
 
     protected $Id = '300A,01A6';

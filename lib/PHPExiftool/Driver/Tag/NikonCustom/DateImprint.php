@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\NikonCustom;
 
-class DateImprint extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class DateImprint extends AbstractTag
 {
 
     protected $Id = '4.2';

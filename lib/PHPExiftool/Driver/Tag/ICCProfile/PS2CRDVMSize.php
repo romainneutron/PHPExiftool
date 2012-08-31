@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\ICCProfile;
 
-class PS2CRDVMSize extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class PS2CRDVMSize extends AbstractTag
 {
 
     protected $Id = 'psvm';

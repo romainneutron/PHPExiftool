@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class EndingRespiratoryAmplitude extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class EndingRespiratoryAmplitude extends AbstractTag
 {
 
     protected $Id = '0020,9248';

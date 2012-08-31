@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Matroska;
 
-class ChapterTimeEnd extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ChapterTimeEnd extends AbstractTag
 {
 
     protected $Id = 18;

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\GeoTiff;
 
-class GeogSemiMajorAxis extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class GeogSemiMajorAxis extends AbstractTag
 {
 
     protected $Id = 2057;

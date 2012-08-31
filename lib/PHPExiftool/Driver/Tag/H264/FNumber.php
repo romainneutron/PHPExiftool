@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\H264;
 
-class FNumber extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class FNumber extends AbstractTag
 {
 
     protected $Id = 161;

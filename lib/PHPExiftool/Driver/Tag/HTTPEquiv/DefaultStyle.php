@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\HTTPEquiv;
 
-class DefaultStyle extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class DefaultStyle extends AbstractTag
 {
 
     protected $Id = 'default-style';

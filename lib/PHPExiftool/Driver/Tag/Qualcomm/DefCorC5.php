@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Qualcomm;
 
-class DefCorC5 extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class DefCorC5 extends AbstractTag
 {
 
     protected $Id = 'def_cor_c5';

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Sanyo;
 
-class SoftwareVersion extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class SoftwareVersion extends AbstractTag
 {
 
     protected $Id = 519;

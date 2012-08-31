@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MIEGPS;
 
-class GPSDifferential extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class GPSDifferential extends AbstractTag
 {
 
     protected $Id = 'Differential';

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\PDF;
 
-class PDFVersion extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class PDFVersion extends AbstractTag
 {
 
     protected $Id = 'Version';

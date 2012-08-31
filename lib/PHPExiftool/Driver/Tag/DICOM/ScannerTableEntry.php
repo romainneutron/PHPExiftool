@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class ScannerTableEntry extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ScannerTableEntry extends AbstractTag
 {
 
     protected $Id = '0043,106f';

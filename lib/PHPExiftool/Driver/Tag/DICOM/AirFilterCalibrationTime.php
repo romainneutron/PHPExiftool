@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class AirFilterCalibrationTime extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class AirFilterCalibrationTime extends AbstractTag
 {
 
     protected $Id = '0045,101A';

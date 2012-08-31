@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Qualcomm;
 
-class SensrQtrHght extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class SensrQtrHght extends AbstractTag
 {
 
     protected $Id = 'sensr_qtr_hght';

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\ExifIFD;
 
-class MakerNoteGE extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class MakerNoteGE extends AbstractTag
 {
 
     protected $Id = 'mixed';

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\CanonCustom;
 
-class AIServoContinuousShooting extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class AIServoContinuousShooting extends AbstractTag
 {
 
     protected $Id = 21;

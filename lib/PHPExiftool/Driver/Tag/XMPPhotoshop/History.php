@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPPhotoshop;
 
-class History extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class History extends AbstractTag
 {
 
     protected $Id = 'History';

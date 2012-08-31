@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class DataSizeForScanData extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class DataSizeForScanData extends AbstractTag
 {
 
     protected $Id = '0019,104B';

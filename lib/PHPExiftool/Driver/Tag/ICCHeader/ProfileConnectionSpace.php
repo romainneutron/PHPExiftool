@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\ICCHeader;
 
-class ProfileConnectionSpace extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ProfileConnectionSpace extends AbstractTag
 {
 
     protected $Id = 20;

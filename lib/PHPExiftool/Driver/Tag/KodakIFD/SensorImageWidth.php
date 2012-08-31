@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\KodakIFD;
 
-class SensorImageWidth extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class SensorImageWidth extends AbstractTag
 {
 
     protected $Id = 1005;

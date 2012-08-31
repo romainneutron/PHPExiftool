@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\PNG;
 
-class SuggestedPalette extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class SuggestedPalette extends AbstractTag
 {
 
     protected $Id = 'sPLT';

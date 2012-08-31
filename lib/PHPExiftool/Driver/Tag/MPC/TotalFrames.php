@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MPC;
 
-class TotalFrames extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class TotalFrames extends AbstractTag
 {
 
     protected $Id = 'Bit032-063';

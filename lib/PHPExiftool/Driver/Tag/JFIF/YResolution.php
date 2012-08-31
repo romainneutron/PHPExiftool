@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\JFIF;
 
-class YResolution extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class YResolution extends AbstractTag
 {
 
     protected $Id = 5;

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class CumulativeDoseReferenceCoefficient extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class CumulativeDoseReferenceCoefficient extends AbstractTag
 {
 
     protected $Id = '300A,010C';

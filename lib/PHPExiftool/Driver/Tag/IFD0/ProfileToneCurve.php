@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\IFD0;
 
-class ProfileToneCurve extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ProfileToneCurve extends AbstractTag
 {
 
     protected $Id = 50940;

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Microsoft;
 
-class ProviderStyle extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ProviderStyle extends AbstractTag
 {
 
     protected $Id = 'WM/ProviderStyle';

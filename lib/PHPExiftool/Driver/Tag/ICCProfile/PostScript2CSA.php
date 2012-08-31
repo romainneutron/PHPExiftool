@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\ICCProfile;
 
-class PostScript2CSA extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class PostScript2CSA extends AbstractTag
 {
 
     protected $Id = 'ps2s';

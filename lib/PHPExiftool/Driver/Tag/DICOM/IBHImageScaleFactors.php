@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class IBHImageScaleFactors extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class IBHImageScaleFactors extends AbstractTag
 {
 
     protected $Id = '0043,1017';

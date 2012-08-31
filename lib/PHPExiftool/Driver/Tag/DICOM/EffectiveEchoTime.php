@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class EffectiveEchoTime extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class EffectiveEchoTime extends AbstractTag
 {
 
     protected $Id = '0018,9082';

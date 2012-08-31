@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Kodak;
 
-class WBRGBLevels extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class WBRGBLevels extends AbstractTag
 {
 
     protected $Id = 20;

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class StereoHorizontalPixelOffset extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class StereoHorizontalPixelOffset extends AbstractTag
 {
 
     protected $Id = '0022,0012';

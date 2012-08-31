@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPPrism;
 
-class Ticker extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class Ticker extends AbstractTag
 {
 
     protected $Id = 'ticker';

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\CanonCustom;
 
-class PF19ShootingSpeedHigh extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class PF19ShootingSpeedHigh extends AbstractTag
 {
 
     protected $Id = 10;

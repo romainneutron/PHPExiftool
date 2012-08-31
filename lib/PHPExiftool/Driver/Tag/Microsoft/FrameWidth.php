@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Microsoft;
 
-class FrameWidth extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class FrameWidth extends AbstractTag
 {
 
     protected $Id = '{64440491-4C8B-11D1-8B70-080036B11A03} 3';

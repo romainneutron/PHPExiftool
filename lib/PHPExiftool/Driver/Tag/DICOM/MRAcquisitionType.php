@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class MRAcquisitionType extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class MRAcquisitionType extends AbstractTag
 {
 
     protected $Id = '0018,0023';

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\HTMLProd;
 
-class RecLocation extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class RecLocation extends AbstractTag
 {
 
     protected $Id = 'reclocation';

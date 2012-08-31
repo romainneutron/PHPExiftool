@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\PNG;
 
-class WhitePointX extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class WhitePointX extends AbstractTag
 {
 
     protected $Id = 0;

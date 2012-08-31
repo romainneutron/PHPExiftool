@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\ID3v24;
 
-class OriginalReleaseTime extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class OriginalReleaseTime extends AbstractTag
 {
 
     protected $Id = 'TDOR';

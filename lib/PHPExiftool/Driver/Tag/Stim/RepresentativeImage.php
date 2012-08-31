@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Stim;
 
-class RepresentativeImage extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class RepresentativeImage extends AbstractTag
 {
 
     protected $Id = 10;

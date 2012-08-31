@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Matroska;
 
-class ChapterTranslateCodec extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ChapterTranslateCodec extends AbstractTag
 {
 
     protected $Id = 10687;

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPPrism;
 
-class HasAlternative extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class HasAlternative extends AbstractTag
 {
 
     protected $Id = 'hasAlternative';

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Samsung;
 
-class WBRGGBLevelsUncorrected extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class WBRGGBLevelsUncorrected extends AbstractTag
 {
 
     protected $Id = 40993;

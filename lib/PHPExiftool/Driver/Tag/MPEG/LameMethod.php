@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MPEG;
 
-class LameMethod extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class LameMethod extends AbstractTag
 {
 
     protected $Id = 9;

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class CurrentRequestedProcEvidenceSeq extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class CurrentRequestedProcEvidenceSeq extends AbstractTag
 {
 
     protected $Id = '0040,A375';

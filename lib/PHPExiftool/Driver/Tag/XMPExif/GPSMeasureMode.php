@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPExif;
 
-class GPSMeasureMode extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class GPSMeasureMode extends AbstractTag
 {
 
     protected $Id = 'GPSMeasureMode';

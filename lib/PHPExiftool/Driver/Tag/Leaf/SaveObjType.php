@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Leaf;
 
-class SaveObjType extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class SaveObjType extends AbstractTag
 {
 
     protected $Id = 'SaveObj_type';

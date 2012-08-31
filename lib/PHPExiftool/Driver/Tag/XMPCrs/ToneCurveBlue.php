@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPCrs;
 
-class ToneCurveBlue extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ToneCurveBlue extends AbstractTag
 {
 
     protected $Id = 'ToneCurveBlue';

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPTiff;
 
-class PrimaryChromaticities extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class PrimaryChromaticities extends AbstractTag
 {
 
     protected $Id = 'PrimaryChromaticities';

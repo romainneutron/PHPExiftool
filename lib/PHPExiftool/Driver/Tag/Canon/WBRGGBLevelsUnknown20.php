@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Canon;
 
-class WBRGGBLevelsUnknown20 extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class WBRGGBLevelsUnknown20 extends AbstractTag
 {
 
     protected $Id = 208;

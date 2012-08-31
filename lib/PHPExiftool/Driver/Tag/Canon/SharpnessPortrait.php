@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Canon;
 
-class SharpnessPortrait extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class SharpnessPortrait extends AbstractTag
 {
 
     protected $Id = 'mixed';

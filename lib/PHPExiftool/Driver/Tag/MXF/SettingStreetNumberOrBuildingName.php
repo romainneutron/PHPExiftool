@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MXF;
 
-class SettingStreetNumberOrBuildingName extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class SettingStreetNumberOrBuildingName extends AbstractTag
 {
 
     protected $Id = 'mixed';

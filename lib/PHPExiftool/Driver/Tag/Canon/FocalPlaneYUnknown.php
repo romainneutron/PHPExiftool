@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Canon;
 
-class FocalPlaneYUnknown extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class FocalPlaneYUnknown extends AbstractTag
 {
 
     protected $Id = 3;

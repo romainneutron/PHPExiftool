@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class FieldOfViewDimensionsInFloat extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class FieldOfViewDimensionsInFloat extends AbstractTag
 {
 
     protected $Id = '0018,9461';

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class BasicGrayscaleImageSequence extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class BasicGrayscaleImageSequence extends AbstractTag
 {
 
     protected $Id = '2020,0110';

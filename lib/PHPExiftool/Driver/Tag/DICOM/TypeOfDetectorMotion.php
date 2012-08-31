@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class TypeOfDetectorMotion extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class TypeOfDetectorMotion extends AbstractTag
 {
 
     protected $Id = '0054,0202';

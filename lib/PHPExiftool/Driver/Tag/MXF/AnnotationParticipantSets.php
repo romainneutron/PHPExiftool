@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MXF;
 
-class AnnotationParticipantSets extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class AnnotationParticipantSets extends AbstractTag
 {
 
     protected $Id = '060e2b34.0101.0107.06010104.03401303';

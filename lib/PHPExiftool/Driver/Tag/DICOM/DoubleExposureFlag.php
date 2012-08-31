@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class DoubleExposureFlag extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class DoubleExposureFlag extends AbstractTag
 {
 
     protected $Id = '0074,1034';

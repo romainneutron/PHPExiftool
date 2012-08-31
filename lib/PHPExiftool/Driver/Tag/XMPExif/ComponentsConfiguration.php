@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPExif;
 
-class ComponentsConfiguration extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ComponentsConfiguration extends AbstractTag
 {
 
     protected $Id = 'ComponentsConfiguration';

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\LNK;
 
-class IconIndex extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class IconIndex extends AbstractTag
 {
 
     protected $Id = 56;

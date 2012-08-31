@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\CanonCustom;
 
-class PF7BracketContinuousShoot extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class PF7BracketContinuousShoot extends AbstractTag
 {
 
     protected $Id = 8;

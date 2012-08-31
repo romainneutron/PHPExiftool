@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class LabelFromInfoExtractedFromInstance extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class LabelFromInfoExtractedFromInstance extends AbstractTag
 {
 
     protected $Id = '2200,0001';

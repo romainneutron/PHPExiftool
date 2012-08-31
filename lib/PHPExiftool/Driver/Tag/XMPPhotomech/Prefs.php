@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPPhotomech;
 
-class Prefs extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class Prefs extends AbstractTag
 {
 
     protected $Id = 'Prefs';

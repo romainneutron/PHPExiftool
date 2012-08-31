@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Leaf;
 
-class ToneSpaceFlow extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ToneSpaceFlow extends AbstractTag
 {
 
     protected $Id = 'icc_camera_to_tone_space_flow';

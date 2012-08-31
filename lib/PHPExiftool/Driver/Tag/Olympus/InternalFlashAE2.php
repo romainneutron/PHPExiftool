@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Olympus;
 
-class InternalFlashAE2 extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class InternalFlashAE2 extends AbstractTag
 {
 
     protected $Id = 4130;

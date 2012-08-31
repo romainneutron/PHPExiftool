@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Flash;
 
-class Name extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class Name extends AbstractTag
 {
 
     protected $Id = 'name';

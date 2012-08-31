@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class ImageBoxOverlapPriority extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ImageBoxOverlapPriority extends AbstractTag
 {
 
     protected $Id = '0072,0320';

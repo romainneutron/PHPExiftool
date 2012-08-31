@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\IFD0;
 
-class OriginalRawFileDigest extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class OriginalRawFileDigest extends AbstractTag
 {
 
     protected $Id = 50973;

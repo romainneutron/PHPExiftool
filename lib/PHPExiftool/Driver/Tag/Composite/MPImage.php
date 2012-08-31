@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Composite;
 
-class MPImage extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class MPImage extends AbstractTag
 {
 
     protected $Id = 'MPImage';

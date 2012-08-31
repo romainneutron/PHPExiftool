@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MetaIFD;
 
-class SourceImageDirectory extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class SourceImageDirectory extends AbstractTag
 {
 
     protected $Id = 50200;

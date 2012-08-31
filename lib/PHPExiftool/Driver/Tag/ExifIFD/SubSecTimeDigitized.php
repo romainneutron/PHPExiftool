@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\ExifIFD;
 
-class SubSecTimeDigitized extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class SubSecTimeDigitized extends AbstractTag
 {
 
     protected $Id = 37522;

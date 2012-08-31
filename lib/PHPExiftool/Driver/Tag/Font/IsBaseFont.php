@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Font;
 
-class IsBaseFont extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class IsBaseFont extends AbstractTag
 {
 
     protected $Id = 'IsBaseFont';

@@ -11,14 +11,16 @@
 
 namespace PHPExiftool\Driver\Tag\IFD0;
 
-class ImageHeight extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ImageHeight extends AbstractTag
 {
 
-    protected $Id = 'mixed';
+    protected $Id = 257;
 
     protected $Name = 'ImageHeight';
 
-    protected $FullName = 'mixed';
+    protected $FullName = 'Exif::Main';
 
     protected $GroupName = 'IFD0';
 
@@ -28,9 +30,9 @@ class ImageHeight extends \PHPExiftool\Driver\Tag
 
     protected $g2 = 'Image';
 
-    protected $Type = 'mixed';
+    protected $Type = 'int32u';
 
-    protected $Writable = false;
+    protected $Writable = true;
 
     protected $Description = 'Image Height';
 

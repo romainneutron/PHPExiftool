@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\RealMDPR;
 
-class FileInfoLen2 extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class FileInfoLen2 extends AbstractTag
 {
 
     protected $Id = 13;

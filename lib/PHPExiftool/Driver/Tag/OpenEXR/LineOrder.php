@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\OpenEXR;
 
-class LineOrder extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class LineOrder extends AbstractTag
 {
 
     protected $Id = 'lineOrder';

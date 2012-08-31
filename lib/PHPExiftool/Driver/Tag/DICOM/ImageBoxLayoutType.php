@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class ImageBoxLayoutType extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ImageBoxLayoutType extends AbstractTag
 {
 
     protected $Id = '0072,0304';

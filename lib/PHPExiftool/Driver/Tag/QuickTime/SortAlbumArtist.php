@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\QuickTime;
 
-class SortAlbumArtist extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class SortAlbumArtist extends AbstractTag
 {
 
     protected $Id = 'soaa';

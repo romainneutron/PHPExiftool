@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\AC3;
 
-class SurroundMode extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class SurroundMode extends AbstractTag
 {
 
     protected $Id = 'SurroundMode';

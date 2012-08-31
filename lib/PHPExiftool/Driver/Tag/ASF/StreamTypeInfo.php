@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\ASF;
 
-class StreamTypeInfo extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class StreamTypeInfo extends AbstractTag
 {
 
     protected $Id = 'StreamTypeInfo';

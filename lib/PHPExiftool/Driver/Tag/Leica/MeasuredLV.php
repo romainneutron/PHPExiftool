@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Leica;
 
-class MeasuredLV extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class MeasuredLV extends AbstractTag
 {
 
     protected $Id = 'mixed';

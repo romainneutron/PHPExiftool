@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Leica;
 
-class FirmwareVersion extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class FirmwareVersion extends AbstractTag
 {
 
     protected $Id = 12553;

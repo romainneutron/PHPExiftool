@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class DisplayEnvironmentSpatialPosition extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class DisplayEnvironmentSpatialPosition extends AbstractTag
 {
 
     protected $Id = '0072,0108';

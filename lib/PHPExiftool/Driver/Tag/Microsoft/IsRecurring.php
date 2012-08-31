@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Microsoft;
 
-class IsRecurring extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class IsRecurring extends AbstractTag
 {
 
     protected $Id = '{315B9C8D-80A9-4EF9-AE16-8E746DA51D70} 100';

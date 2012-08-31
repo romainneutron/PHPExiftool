@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MIELens;
 
-class LensMake extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class LensMake extends AbstractTag
 {
 
     protected $Id = 'Make';

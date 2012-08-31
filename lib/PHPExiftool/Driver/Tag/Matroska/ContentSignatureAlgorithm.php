@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Matroska;
 
-class ContentSignatureAlgorithm extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ContentSignatureAlgorithm extends AbstractTag
 {
 
     protected $Id = 2021;

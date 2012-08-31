@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Vorbis;
 
-class MinimumBitrate extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class MinimumBitrate extends AbstractTag
 {
 
     protected $Id = 17;

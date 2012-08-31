@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\PreviewIFD;
 
-class YCbCrPositioning extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class YCbCrPositioning extends AbstractTag
 {
 
     protected $Id = 531;

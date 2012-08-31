@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\NikonCapture;
 
-class CropOutputWidthInches extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class CropOutputWidthInches extends AbstractTag
 {
 
     protected $Id = 142;

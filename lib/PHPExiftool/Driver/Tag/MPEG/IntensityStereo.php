@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MPEG;
 
-class IntensityStereo extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class IntensityStereo extends AbstractTag
 {
 
     protected $Id = 'Bit27';

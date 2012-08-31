@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\SonyIDC;
 
-class VersionCreateDate extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class VersionCreateDate extends AbstractTag
 {
 
     protected $Id = 53504;

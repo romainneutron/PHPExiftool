@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MXF;
 
-class MaterialAbsoluteDuration extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class MaterialAbsoluteDuration extends AbstractTag
 {
 
     protected $Id = 'mixed';

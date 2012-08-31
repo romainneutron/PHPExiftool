@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Leaf;
 
-class CaptProfType extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class CaptProfType extends AbstractTag
 {
 
     protected $Id = 'CaptProf_type';

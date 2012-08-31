@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\ExifIFD;
 
-class AlphaDataDiscard extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class AlphaDataDiscard extends AbstractTag
 {
 
     protected $Id = 48325;

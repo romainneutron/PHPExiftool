@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\CanonCustom;
 
-class DisplayAllAFPoints extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class DisplayAllAFPoints extends AbstractTag
 {
 
     protected $Id = 1300;

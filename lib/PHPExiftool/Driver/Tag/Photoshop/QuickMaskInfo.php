@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Photoshop;
 
-class QuickMaskInfo extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class QuickMaskInfo extends AbstractTag
 {
 
     protected $Id = 1022;

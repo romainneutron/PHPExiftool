@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class PulseSequenceName extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class PulseSequenceName extends AbstractTag
 {
 
     protected $Id = '0018,9005';

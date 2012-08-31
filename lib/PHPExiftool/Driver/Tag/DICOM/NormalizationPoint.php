@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class NormalizationPoint extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class NormalizationPoint extends AbstractTag
 {
 
     protected $Id = '3004,0008';

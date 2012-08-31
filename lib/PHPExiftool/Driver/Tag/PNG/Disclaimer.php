@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\PNG;
 
-class Disclaimer extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class Disclaimer extends AbstractTag
 {
 
     protected $Id = 'Disclaimer';

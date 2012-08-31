@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\ExifIFD;
 
-class MakerNoteSanyo extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class MakerNoteSanyo extends AbstractTag
 {
 
     protected $Id = 'mixed';

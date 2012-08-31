@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MIEImage;
 
-class ImageSize extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ImageSize extends AbstractTag
 {
 
     protected $Id = 'ImageSize';

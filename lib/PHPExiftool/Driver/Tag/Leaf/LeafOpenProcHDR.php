@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Leaf;
 
-class LeafOpenProcHDR extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class LeafOpenProcHDR extends AbstractTag
 {
 
     protected $Id = 'SaveObj_leaf_open_proc_HDR';

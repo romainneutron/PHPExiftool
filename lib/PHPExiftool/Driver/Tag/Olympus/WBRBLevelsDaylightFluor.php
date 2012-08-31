@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Olympus;
 
-class WBRBLevelsDaylightFluor extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class WBRBLevelsDaylightFluor extends AbstractTag
 {
 
     protected $Id = 304;

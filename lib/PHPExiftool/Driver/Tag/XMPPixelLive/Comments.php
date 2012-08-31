@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPPixelLive;
 
-class Comments extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class Comments extends AbstractTag
 {
 
     protected $Id = 'COMMENTS';

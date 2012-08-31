@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\CanonVRD;
 
-class PortraitRawSaturation extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class PortraitRawSaturation extends AbstractTag
 {
 
     protected $Id = 23;

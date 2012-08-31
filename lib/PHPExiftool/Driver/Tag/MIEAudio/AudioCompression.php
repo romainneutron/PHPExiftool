@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MIEAudio;
 
-class AudioCompression extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class AudioCompression extends AbstractTag
 {
 
     protected $Id = 'Compression';

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\ICCHeader;
 
-class ProfileCreator extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ProfileCreator extends AbstractTag
 {
 
     protected $Id = 80;

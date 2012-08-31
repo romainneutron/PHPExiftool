@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class RealWorldValueLUTData extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class RealWorldValueLUTData extends AbstractTag
 {
 
     protected $Id = '0040,9212';

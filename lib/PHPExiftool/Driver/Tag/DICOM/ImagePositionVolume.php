@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class ImagePositionVolume extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ImagePositionVolume extends AbstractTag
 {
 
     protected $Id = '0020,9301';

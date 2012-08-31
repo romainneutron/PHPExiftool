@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\OpenEXR;
 
-class DisplayWindow extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class DisplayWindow extends AbstractTag
 {
 
     protected $Id = 'displayWindow';

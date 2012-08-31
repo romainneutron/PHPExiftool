@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\FlashPix;
 
-class SubimageNumericalFormat extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class SubimageNumericalFormat extends AbstractTag
 {
 
     protected $Id = 33554435;

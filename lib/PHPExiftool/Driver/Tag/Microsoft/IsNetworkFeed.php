@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Microsoft;
 
-class IsNetworkFeed extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class IsNetworkFeed extends AbstractTag
 {
 
     protected $Id = 'IsNetworkFeed';

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\PNG;
 
-class PaletteHistogram extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class PaletteHistogram extends AbstractTag
 {
 
     protected $Id = 'hIST';

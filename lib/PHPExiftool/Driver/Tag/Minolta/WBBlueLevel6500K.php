@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Minolta;
 
-class WBBlueLevel6500K extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class WBBlueLevel6500K extends AbstractTag
 {
 
     protected $Id = 394;

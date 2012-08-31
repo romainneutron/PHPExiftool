@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MXF;
 
-class LocalFestivalDateTime extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class LocalFestivalDateTime extends AbstractTag
 {
 
     protected $Id = '060e2b34.0101.0105.07020102.07100100';

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\File;
 
-class ImageLength extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ImageLength extends AbstractTag
 {
 
     protected $Id = 20;

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\ASF;
 
-class LyricsSynchronised extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class LyricsSynchronised extends AbstractTag
 {
 
     protected $Id = 'Lyrics_Synchronised';

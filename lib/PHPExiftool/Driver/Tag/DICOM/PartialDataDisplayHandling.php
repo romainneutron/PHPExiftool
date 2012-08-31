@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class PartialDataDisplayHandling extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class PartialDataDisplayHandling extends AbstractTag
 {
 
     protected $Id = '0072,0208';

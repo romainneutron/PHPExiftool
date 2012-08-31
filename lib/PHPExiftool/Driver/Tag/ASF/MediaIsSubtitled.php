@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\ASF;
 
-class MediaIsSubtitled extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class MediaIsSubtitled extends AbstractTag
 {
 
     protected $Id = 'MediaIsSubtitled';

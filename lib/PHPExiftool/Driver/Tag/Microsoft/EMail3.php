@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Microsoft;
 
-class EMail3 extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class EMail3 extends AbstractTag
 {
 
     protected $Id = '{644D37B4-E1B3-4BAD-B099-7E7C04966ACA} 100';

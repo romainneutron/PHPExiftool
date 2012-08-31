@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Microsoft;
 
-class Incomplete extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class Incomplete extends AbstractTag
 {
 
     protected $Id = '{346C8BD1-2E6A-4C45-89A4-61B78E8E700F} 100';

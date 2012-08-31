@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPDigiKam;
 
-class ColorLabel extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ColorLabel extends AbstractTag
 {
 
     protected $Id = 'ColorLabel';

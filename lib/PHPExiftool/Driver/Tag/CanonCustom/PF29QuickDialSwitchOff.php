@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\CanonCustom;
 
-class PF29QuickDialSwitchOff extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class PF29QuickDialSwitchOff extends AbstractTag
 {
 
     protected $Id = 30;

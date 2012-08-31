@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\CanonRaw;
 
-class CompressedDataOffset extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class CompressedDataOffset extends AbstractTag
 {
 
     protected $Id = 2;

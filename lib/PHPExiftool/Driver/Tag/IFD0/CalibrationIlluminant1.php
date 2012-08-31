@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\IFD0;
 
-class CalibrationIlluminant1 extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class CalibrationIlluminant1 extends AbstractTag
 {
 
     protected $Id = 50778;

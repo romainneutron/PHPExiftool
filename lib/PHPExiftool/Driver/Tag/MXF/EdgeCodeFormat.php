@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MXF;
 
-class EdgeCodeFormat extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class EdgeCodeFormat extends AbstractTag
 {
 
     protected $Id = '060e2b34.0101.0101.04100103.01020000';

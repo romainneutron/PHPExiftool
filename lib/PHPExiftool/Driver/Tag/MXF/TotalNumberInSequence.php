@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MXF;
 
-class TotalNumberInSequence extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class TotalNumberInSequence extends AbstractTag
 {
 
     protected $Id = '060e2b34.0101.0105.06100400.00000000';

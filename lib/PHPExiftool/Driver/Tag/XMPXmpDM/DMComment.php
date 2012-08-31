@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPXmpDM;
 
-class DMComment extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class DMComment extends AbstractTag
 {
 
     protected $Id = 'comment';

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Canon;
 
-class MeasuredRGGBData extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class MeasuredRGGBData extends AbstractTag
 {
 
     protected $Id = 647;

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Sigma;
 
-class Firmware extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class Firmware extends AbstractTag
 {
 
     protected $Id = 'mixed';

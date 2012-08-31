@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Olympus;
 
-class ExternalFlashGValue extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ExternalFlashGValue extends AbstractTag
 {
 
     protected $Id = 4133;

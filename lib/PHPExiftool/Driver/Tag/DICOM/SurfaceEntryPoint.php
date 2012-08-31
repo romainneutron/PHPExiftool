@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class SurfaceEntryPoint extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class SurfaceEntryPoint extends AbstractTag
 {
 
     protected $Id = '300A,012E';

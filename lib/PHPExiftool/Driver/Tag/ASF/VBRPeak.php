@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\ASF;
 
-class VBRPeak extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class VBRPeak extends AbstractTag
 {
 
     protected $Id = 'VBRPeak';

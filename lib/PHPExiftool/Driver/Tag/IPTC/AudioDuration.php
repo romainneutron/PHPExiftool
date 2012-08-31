@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\IPTC;
 
-class AudioDuration extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class AudioDuration extends AbstractTag
 {
 
     protected $Id = 153;

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Type;
 
-class BitsRgn
+use PHPExiftool\Driver\AbstractType;
+
+class BitsRgn extends AbstractType
 {
 
     protected $ExiftoolName = 'BitsRgn#';

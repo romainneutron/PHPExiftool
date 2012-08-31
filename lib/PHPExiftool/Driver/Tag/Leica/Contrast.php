@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Leica;
 
-class Contrast extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class Contrast extends AbstractTag
 {
 
     protected $Id = 12298;

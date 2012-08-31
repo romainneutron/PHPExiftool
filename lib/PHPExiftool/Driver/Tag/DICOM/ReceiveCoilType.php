@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class ReceiveCoilType extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ReceiveCoilType extends AbstractTag
 {
 
     protected $Id = '0018,9043';

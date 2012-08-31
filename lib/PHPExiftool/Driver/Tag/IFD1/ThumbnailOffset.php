@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\IFD1;
 
-class ThumbnailOffset extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ThumbnailOffset extends AbstractTag
 {
 
     protected $Id = 513;

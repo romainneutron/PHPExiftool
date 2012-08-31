@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Canon;
 
-class FilterEffectPortrait extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class FilterEffectPortrait extends AbstractTag
 {
 
     protected $Id = 40;

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MXF;
 
-class URN extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class URN extends AbstractTag
 {
 
     protected $Id = '060e2b34.0101.0101.01020103.00000000';

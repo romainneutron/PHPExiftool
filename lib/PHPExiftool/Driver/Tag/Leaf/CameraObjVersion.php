@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Leaf;
 
-class CameraObjVersion extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class CameraObjVersion extends AbstractTag
 {
 
     protected $Id = 'CameraObj_version';

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\QuickTime;
 
-class CompositionTimeToSample extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class CompositionTimeToSample extends AbstractTag
 {
 
     protected $Id = 'ctts';

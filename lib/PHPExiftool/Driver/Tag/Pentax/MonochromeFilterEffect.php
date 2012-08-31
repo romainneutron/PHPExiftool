@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Pentax;
 
-class MonochromeFilterEffect extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class MonochromeFilterEffect extends AbstractTag
 {
 
     protected $Id = 115;

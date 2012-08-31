@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPXmpDM;
 
-class ScaleType extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ScaleType extends AbstractTag
 {
 
     protected $Id = 'scaleType';

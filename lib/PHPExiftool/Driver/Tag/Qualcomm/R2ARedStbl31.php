@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Qualcomm;
 
-class R2ARedStbl31 extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class R2ARedStbl31 extends AbstractTag
 {
 
     protected $Id = 'r2_a_red_stbl[31]';

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class ContrastBolusIngredientOpaque extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ContrastBolusIngredientOpaque extends AbstractTag
 {
 
     protected $Id = '0018,9425';

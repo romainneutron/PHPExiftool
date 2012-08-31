@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\IPTC;
 
-class EndPoints extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class EndPoints extends AbstractTag
 {
 
     protected $Id = 125;

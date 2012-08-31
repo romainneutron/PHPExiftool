@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\NITF;
 
-class BlocksPerColumn extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class BlocksPerColumn extends AbstractTag
 {
 
     protected $Id = 5;

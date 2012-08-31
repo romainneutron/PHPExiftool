@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class AngleOfFirstView extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class AngleOfFirstView extends AbstractTag
 {
 
     protected $Id = '0019,102E';

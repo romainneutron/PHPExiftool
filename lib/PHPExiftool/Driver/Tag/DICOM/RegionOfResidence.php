@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class RegionOfResidence extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class RegionOfResidence extends AbstractTag
 {
 
     protected $Id = '0010,2152';

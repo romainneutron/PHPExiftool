@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MXF;
 
-class DigitalVideoFileFormat extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class DigitalVideoFileFormat extends AbstractTag
 {
 
     protected $Id = '060e2b34.0101.0103.04010b01.00000000';

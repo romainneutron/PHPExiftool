@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPPur;
 
-class OptionEndDate extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class OptionEndDate extends AbstractTag
 {
 
     protected $Id = 'optionEndDate';

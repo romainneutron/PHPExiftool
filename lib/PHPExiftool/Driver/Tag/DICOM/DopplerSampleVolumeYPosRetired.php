@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class DopplerSampleVolumeYPosRetired extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class DopplerSampleVolumeYPosRetired extends AbstractTag
 {
 
     protected $Id = '0018,603A';

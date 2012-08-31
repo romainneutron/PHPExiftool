@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Microsoft;
 
-class BusinessStreet extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class BusinessStreet extends AbstractTag
 {
 
     protected $Id = '{DDD1460F-C0BF-4553-8CE4-10433C908FB0} 100';

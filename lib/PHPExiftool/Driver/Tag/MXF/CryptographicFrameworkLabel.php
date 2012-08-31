@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MXF;
 
-class CryptographicFrameworkLabel extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class CryptographicFrameworkLabel extends AbstractTag
 {
 
     protected $Id = '060e2b34.0401.0107.0d010401.02010100';

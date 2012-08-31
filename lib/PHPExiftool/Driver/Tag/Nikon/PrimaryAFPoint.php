@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Nikon;
 
-class PrimaryAFPoint extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class PrimaryAFPoint extends AbstractTag
 {
 
     protected $Id = 7;

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPPhotoshop;
 
-class DateCreated extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class DateCreated extends AbstractTag
 {
 
     protected $Id = 'DateCreated';

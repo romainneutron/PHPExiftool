@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\GPS;
 
-class GPSAreaInformation extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class GPSAreaInformation extends AbstractTag
 {
 
     protected $Id = 28;

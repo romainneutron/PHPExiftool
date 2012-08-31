@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\CanonCustom;
 
-class VFDisplayIllumination extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class VFDisplayIllumination extends AbstractTag
 {
 
     protected $Id = 1296;

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\RSRC;
 
-class Keywords extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class Keywords extends AbstractTag
 {
 
     protected $Id = 'STR#_0x0080';

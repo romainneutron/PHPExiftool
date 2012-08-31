@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class PixelIntensityRelationshipLUTSeq extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class PixelIntensityRelationshipLUTSeq extends AbstractTag
 {
 
     protected $Id = '0028,9422';

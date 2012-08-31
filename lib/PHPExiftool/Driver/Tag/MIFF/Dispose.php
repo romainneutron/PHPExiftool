@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MIFF;
 
-class Dispose extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class Dispose extends AbstractTag
 {
 
     protected $Id = 'dispose';

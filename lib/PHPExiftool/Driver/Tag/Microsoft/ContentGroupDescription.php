@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Microsoft;
 
-class ContentGroupDescription extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ContentGroupDescription extends AbstractTag
 {
 
     protected $Id = 'WM/ContentGroupDescription';

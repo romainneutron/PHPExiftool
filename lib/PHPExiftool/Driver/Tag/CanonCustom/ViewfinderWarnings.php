@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\CanonCustom;
 
-class ViewfinderWarnings extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ViewfinderWarnings extends AbstractTag
 {
 
     protected $Id = 1034;

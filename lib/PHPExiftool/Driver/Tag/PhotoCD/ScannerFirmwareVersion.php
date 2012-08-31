@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\PhotoCD;
 
-class ScannerFirmwareVersion extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ScannerFirmwareVersion extends AbstractTag
 {
 
     protected $Id = 78;

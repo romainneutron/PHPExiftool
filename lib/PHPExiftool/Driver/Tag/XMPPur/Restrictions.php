@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPPur;
 
-class Restrictions extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class Restrictions extends AbstractTag
 {
 
     protected $Id = 'restrictions';

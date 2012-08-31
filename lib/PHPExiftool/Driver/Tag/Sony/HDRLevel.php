@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Sony;
 
-class HDRLevel extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class HDRLevel extends AbstractTag
 {
 
     protected $Id = 'mixed';
@@ -41,13 +43,25 @@ class HDRLevel extends \PHPExiftool\Driver\Tag
             'Id' => 33,
             'Label' => '1 EV',
         ),
+        34 => array(
+            'Id' => 34,
+            'Label' => '1.5 EV',
+        ),
         35 => array(
             'Id' => 35,
             'Label' => '2 EV',
         ),
+        36 => array(
+            'Id' => 36,
+            'Label' => '2.5 EV',
+        ),
         37 => array(
             'Id' => 37,
             'Label' => '3 EV',
+        ),
+        38 => array(
+            'Id' => 38,
+            'Label' => '3.5 EV',
         ),
         39 => array(
             'Id' => 39,

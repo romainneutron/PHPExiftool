@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\CanonCustom;
 
-class ContinuousShootingSpeed extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ContinuousShootingSpeed extends AbstractTag
 {
 
     protected $Id = 1552;

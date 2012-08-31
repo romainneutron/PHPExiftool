@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class TargetMinimumDose extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class TargetMinimumDose extends AbstractTag
 {
 
     protected $Id = '300A,0025';

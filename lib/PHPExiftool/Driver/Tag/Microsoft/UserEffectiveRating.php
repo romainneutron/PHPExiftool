@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Microsoft;
 
-class UserEffectiveRating extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class UserEffectiveRating extends AbstractTag
 {
 
     protected $Id = 'UserEffectiveRating';

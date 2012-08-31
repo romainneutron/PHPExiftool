@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\CanonCustom;
 
-class LiveViewExposureSimulation extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class LiveViewExposureSimulation extends AbstractTag
 {
 
     protected $Id = 2064;

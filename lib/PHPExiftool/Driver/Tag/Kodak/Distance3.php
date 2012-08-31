@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Kodak;
 
-class Distance3 extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class Distance3 extends AbstractTag
 {
 
     protected $Id = 48;

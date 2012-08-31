@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\SonyIDC;
 
-class DRangeOptimizerHighlight extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class DRangeOptimizerHighlight extends AbstractTag
 {
 
     protected $Id = 32804;

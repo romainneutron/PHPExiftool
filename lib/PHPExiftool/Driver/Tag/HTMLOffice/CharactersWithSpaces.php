@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\HTMLOffice;
 
-class CharactersWithSpaces extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class CharactersWithSpaces extends AbstractTag
 {
 
     protected $Id = 'CharactersWithSpaces';

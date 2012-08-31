@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\SigmaRaw;
 
-class Focus extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class Focus extends AbstractTag
 {
 
     protected $Id = 'FOCUS';

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MXF;
 
-class AnalogVideoSystemName extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class AnalogVideoSystemName extends AbstractTag
 {
 
     protected $Id = 'mixed';

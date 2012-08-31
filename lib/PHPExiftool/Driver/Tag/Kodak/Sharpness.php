@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Kodak;
 
-class Sharpness extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class Sharpness extends AbstractTag
 {
 
     protected $Id = 'mixed';

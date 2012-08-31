@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\CanonVRD;
 
-class DynamicRangeMax extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class DynamicRangeMax extends AbstractTag
 {
 
     protected $Id = 124;

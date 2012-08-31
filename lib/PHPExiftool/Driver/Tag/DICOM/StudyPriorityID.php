@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class StudyPriorityID extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class StudyPriorityID extends AbstractTag
 {
 
     protected $Id = '0032,000C';

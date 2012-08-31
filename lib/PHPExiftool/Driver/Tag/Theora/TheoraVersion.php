@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Theora;
 
-class TheoraVersion extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class TheoraVersion extends AbstractTag
 {
 
     protected $Id = 0;

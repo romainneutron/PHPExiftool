@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class PerformedStationAETitle extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class PerformedStationAETitle extends AbstractTag
 {
 
     protected $Id = '0040,0241';

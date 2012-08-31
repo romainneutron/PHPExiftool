@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class TotalTimeOfFluoroscopy extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class TotalTimeOfFluoroscopy extends AbstractTag
 {
 
     protected $Id = '0040,0300';

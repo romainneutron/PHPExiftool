@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Microsoft;
 
-class IsAttachment extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class IsAttachment extends AbstractTag
 {
 
     protected $Id = '{F23F425C-71A1-4FA8-922F-678EA4A60408} 100';

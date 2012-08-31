@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPCrs;
 
-class PostCropVignetteFeather extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class PostCropVignetteFeather extends AbstractTag
 {
 
     protected $Id = 'PostCropVignetteFeather';

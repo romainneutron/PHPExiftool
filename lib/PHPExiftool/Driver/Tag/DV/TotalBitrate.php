@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DV;
 
-class TotalBitrate extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class TotalBitrate extends AbstractTag
 {
 
     protected $Id = 'TotalBitrate';

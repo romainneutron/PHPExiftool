@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class ScheduledDischargeDate extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ScheduledDischargeDate extends AbstractTag
 {
 
     protected $Id = '0038,001C';

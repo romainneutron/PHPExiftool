@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\ExifTool;
 
-class Error extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class Error extends AbstractTag
 {
 
     protected $Id = 'Error';

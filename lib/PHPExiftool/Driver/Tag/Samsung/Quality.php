@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Samsung;
 
-class Quality extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class Quality extends AbstractTag
 {
 
     protected $Id = 'QLTY';

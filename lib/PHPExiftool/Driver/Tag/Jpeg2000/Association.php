@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Jpeg2000;
 
-class Association extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class Association extends AbstractTag
 {
 
     protected $Id = 'asoc';

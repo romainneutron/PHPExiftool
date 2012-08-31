@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Qualcomm;
 
-class AFRSlower3ExpMod extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class AFRSlower3ExpMod extends AbstractTag
 {
 
     protected $Id = 'afr_slower_3_exp_mod';

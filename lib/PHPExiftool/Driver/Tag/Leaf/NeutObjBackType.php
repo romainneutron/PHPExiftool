@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Leaf;
 
-class NeutObjBackType extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class NeutObjBackType extends AbstractTag
 {
 
     protected $Id = 'NeutObj_back_type';

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\HTMLNcc;
 
-class MaxPageNormal extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class MaxPageNormal extends AbstractTag
 {
 
     protected $Id = 'maxpagenormal';

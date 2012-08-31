@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Qualcomm;
 
-class AECCurrentSensorLuma extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class AECCurrentSensorLuma extends AbstractTag
 {
 
     protected $Id = 'aec_current_sensor_luma';

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPXmpDM;
 
-class RelativeTimestamp extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class RelativeTimestamp extends AbstractTag
 {
 
     protected $Id = 'relativeTimestamp';
@@ -28,7 +30,7 @@ class RelativeTimestamp extends \PHPExiftool\Driver\Tag
 
     protected $g2 = 'Image';
 
-    protected $Type = 'string';
+    protected $Type = 'struct';
 
     protected $Writable = true;
 

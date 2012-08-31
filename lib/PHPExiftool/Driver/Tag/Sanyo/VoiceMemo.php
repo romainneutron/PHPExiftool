@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Sanyo;
 
-class VoiceMemo extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class VoiceMemo extends AbstractTag
 {
 
     protected $Id = 534;

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPXmp;
 
-class PageImageFormat extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class PageImageFormat extends AbstractTag
 {
 
     protected $Id = 'PageInfoFormat';
@@ -33,5 +35,7 @@ class PageImageFormat extends \PHPExiftool\Driver\Tag
     protected $Writable = true;
 
     protected $Description = 'Page Image Format';
+
+    protected $flag_List = true;
 
 }

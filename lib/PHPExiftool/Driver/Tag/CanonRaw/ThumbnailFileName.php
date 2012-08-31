@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\CanonRaw;
 
-class ThumbnailFileName extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ThumbnailFileName extends AbstractTag
 {
 
     protected $Id = 2071;

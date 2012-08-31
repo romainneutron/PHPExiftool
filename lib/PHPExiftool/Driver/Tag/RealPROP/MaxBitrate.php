@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\RealPROP;
 
-class MaxBitrate extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class MaxBitrate extends AbstractTag
 {
 
     protected $Id = 0;

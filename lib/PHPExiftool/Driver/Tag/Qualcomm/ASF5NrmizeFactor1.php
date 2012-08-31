@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Qualcomm;
 
-class ASF5NrmizeFactor1 extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ASF5NrmizeFactor1 extends AbstractTag
 {
 
     protected $Id = 'asf5_nrmize_factor1';

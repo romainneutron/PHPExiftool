@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class GrayscalePresentationStateSequence extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class GrayscalePresentationStateSequence extends AbstractTag
 {
 
     protected $Id = '0008,9237';

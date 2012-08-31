@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPCrs;
 
-class LensProfileVignettingScale extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class LensProfileVignettingScale extends AbstractTag
 {
 
     protected $Id = 'LensProfileVignettingScale';

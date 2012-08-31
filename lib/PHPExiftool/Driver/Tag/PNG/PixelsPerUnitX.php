@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\PNG;
 
-class PixelsPerUnitX extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class PixelsPerUnitX extends AbstractTag
 {
 
     protected $Id = 0;

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Type;
 
-class Rational64s
+use PHPExiftool\Driver\AbstractType;
+
+class Rational64s extends AbstractType
 {
 
     protected $ExiftoolName = 'rational64s';

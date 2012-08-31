@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Olympus;
 
-class LensType extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class LensType extends AbstractTag
 {
 
     protected $Id = 513;
@@ -149,6 +151,10 @@ class LensType extends \PHPExiftool\Driver\Tag
             'Id' => '0 21 0',
             'Label' => 'Olympus Zuiko Digital ED 7-14mm F4.0',
         ),
+        '0 21 16' => array(
+            'Id' => '0 21 16',
+            'Label' => 'Olympus M.Zuiko Digital ED 75mm F1.8',
+        ),
         '0 23 0' => array(
             'Id' => '0 23 0',
             'Label' => 'Olympus Zuiko Digital Pro ED 35-100mm F2.0',
@@ -200,6 +206,10 @@ class LensType extends \PHPExiftool\Driver\Tag
         '1 1 0' => array(
             'Id' => '1 1 0',
             'Label' => 'Sigma 18-50mm F3.5-5.6',
+        ),
+        '1 1 16' => array(
+            'Id' => '1 1 16',
+            'Label' => 'Sigma 30mm F2.8 EX DN',
         ),
         '1 2 0' => array(
             'Id' => '1 2 0',

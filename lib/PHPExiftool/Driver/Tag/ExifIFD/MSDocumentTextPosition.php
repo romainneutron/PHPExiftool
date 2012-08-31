@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\ExifIFD;
 
-class MSDocumentTextPosition extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class MSDocumentTextPosition extends AbstractTag
 {
 
     protected $Id = 37681;

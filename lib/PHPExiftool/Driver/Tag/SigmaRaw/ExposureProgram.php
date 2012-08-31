@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\SigmaRaw;
 
-class ExposureProgram extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ExposureProgram extends AbstractTag
 {
 
     protected $Id = 'PMODE';

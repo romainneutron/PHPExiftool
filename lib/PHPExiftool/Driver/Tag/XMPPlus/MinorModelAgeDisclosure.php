@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPPlus;
 
-class MinorModelAgeDisclosure extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class MinorModelAgeDisclosure extends AbstractTag
 {
 
     protected $Id = 'MinorModelAgeDisclosure';

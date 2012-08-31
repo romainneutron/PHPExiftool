@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MXF;
 
-class EventAbsoluteDuration extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class EventAbsoluteDuration extends AbstractTag
 {
 
     protected $Id = 'mixed';

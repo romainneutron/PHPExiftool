@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Photoshop;
 
-class AlternateSpotColors extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class AlternateSpotColors extends AbstractTag
 {
 
     protected $Id = 1067;

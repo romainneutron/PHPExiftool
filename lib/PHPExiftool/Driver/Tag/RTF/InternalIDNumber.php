@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\RTF;
 
-class InternalIDNumber extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class InternalIDNumber extends AbstractTag
 {
 
     protected $Id = 'id';

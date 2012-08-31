@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MIEGeo;
 
-class Address extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class Address extends AbstractTag
 {
 
     protected $Id = 'Address';

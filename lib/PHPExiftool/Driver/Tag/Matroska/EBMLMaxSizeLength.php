@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Matroska;
 
-class EBMLMaxSizeLength extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class EBMLMaxSizeLength extends AbstractTag
 {
 
     protected $Id = 755;

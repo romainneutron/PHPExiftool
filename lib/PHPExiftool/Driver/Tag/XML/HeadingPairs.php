@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XML;
 
-class HeadingPairs extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class HeadingPairs extends AbstractTag
 {
 
     protected $Id = 'HeadingPairs';

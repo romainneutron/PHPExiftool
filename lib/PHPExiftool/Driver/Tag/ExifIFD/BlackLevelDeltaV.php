@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\ExifIFD;
 
-class BlackLevelDeltaV extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class BlackLevelDeltaV extends AbstractTag
 {
 
     protected $Id = 50716;

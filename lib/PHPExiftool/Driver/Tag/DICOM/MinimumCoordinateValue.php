@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class MinimumCoordinateValue extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class MinimumCoordinateValue extends AbstractTag
 {
 
     protected $Id = '50xx,0104';

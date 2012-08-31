@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class ReferencedImageBoxSequence extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ReferencedImageBoxSequence extends AbstractTag
 {
 
     protected $Id = 'mixed';

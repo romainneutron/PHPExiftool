@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\FlashPix;
 
-class ContrastAdjustment extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ContrastAdjustment extends AbstractTag
 {
 
     protected $Id = 268435461;

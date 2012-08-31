@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Matroska;
 
-class ChapterPhysicalEquivalent extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ChapterPhysicalEquivalent extends AbstractTag
 {
 
     protected $Id = 9155;

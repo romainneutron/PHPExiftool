@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class NavigationDisplaySet extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class NavigationDisplaySet extends AbstractTag
 {
 
     protected $Id = '0072,0216';

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class CompensatorMillingToolDiameter extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class CompensatorMillingToolDiameter extends AbstractTag
 {
 
     protected $Id = '300A,02E8';

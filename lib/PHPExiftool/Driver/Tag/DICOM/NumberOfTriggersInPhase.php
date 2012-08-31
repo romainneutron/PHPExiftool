@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class NumberOfTriggersInPhase extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class NumberOfTriggersInPhase extends AbstractTag
 {
 
     protected $Id = '0054,0211';

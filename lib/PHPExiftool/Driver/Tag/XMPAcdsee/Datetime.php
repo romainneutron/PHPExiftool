@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPAcdsee;
 
-class Datetime extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class Datetime extends AbstractTag
 {
 
     protected $Id = 'datetime';

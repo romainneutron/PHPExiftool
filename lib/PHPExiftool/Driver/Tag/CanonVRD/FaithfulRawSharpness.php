@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\CanonVRD;
 
-class FaithfulRawSharpness extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class FaithfulRawSharpness extends AbstractTag
 {
 
     protected $Id = 53;

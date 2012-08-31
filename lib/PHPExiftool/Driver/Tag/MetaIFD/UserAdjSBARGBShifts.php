@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MetaIFD;
 
-class UserAdjSBARGBShifts extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class UserAdjSBARGBShifts extends AbstractTag
 {
 
     protected $Id = 50018;

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class PresentationLUTFlag extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class PresentationLUTFlag extends AbstractTag
 {
 
     protected $Id = '2000,0069';

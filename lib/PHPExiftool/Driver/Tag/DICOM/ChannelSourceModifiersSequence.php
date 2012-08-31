@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class ChannelSourceModifiersSequence extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ChannelSourceModifiersSequence extends AbstractTag
 {
 
     protected $Id = '003A,0209';

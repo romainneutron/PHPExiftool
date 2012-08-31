@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DjVuMeta;
 
-class Year extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class Year extends AbstractTag
 {
 
     protected $Id = 'year';

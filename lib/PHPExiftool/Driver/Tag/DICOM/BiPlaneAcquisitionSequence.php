@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class BiPlaneAcquisitionSequence extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class BiPlaneAcquisitionSequence extends AbstractTag
 {
 
     protected $Id = '0028,5000';

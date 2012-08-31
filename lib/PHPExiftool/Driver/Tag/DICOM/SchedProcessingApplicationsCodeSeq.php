@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class SchedProcessingApplicationsCodeSeq extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class SchedProcessingApplicationsCodeSeq extends AbstractTag
 {
 
     protected $Id = '0040,4004';

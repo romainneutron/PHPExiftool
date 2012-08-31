@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Canon;
 
-class ManualFlashOutput extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ManualFlashOutput extends AbstractTag
 {
 
     protected $Id = 41;

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\NikonCustom;
 
-class AutoISOMinShutterSpeed extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class AutoISOMinShutterSpeed extends AbstractTag
 {
 
     protected $Id = '1.3';

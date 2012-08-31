@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPIptcExt;
 
-class ArtworkDateCreated extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ArtworkDateCreated extends AbstractTag
 {
 
     protected $Id = 'ArtworkOrObjectAODateCreated';
@@ -28,10 +30,14 @@ class ArtworkDateCreated extends \PHPExiftool\Driver\Tag
 
     protected $g2 = 'Author';
 
-    protected $Type = 'string';
+    protected $Type = 'date';
 
     protected $Writable = true;
 
     protected $Description = 'Artwork Date Created';
+
+    protected $local_g2 = 'Time';
+
+    protected $flag_List = true;
 
 }

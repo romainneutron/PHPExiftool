@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class ScanSpotMetersetsDelivered extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ScanSpotMetersetsDelivered extends AbstractTag
 {
 
     protected $Id = '3008,0047';

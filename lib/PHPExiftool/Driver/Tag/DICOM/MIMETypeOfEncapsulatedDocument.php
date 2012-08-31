@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class MIMETypeOfEncapsulatedDocument extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class MIMETypeOfEncapsulatedDocument extends AbstractTag
 {
 
     protected $Id = '0042,0012';

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPFpv;
 
-class RichTextComment extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class RichTextComment extends AbstractTag
 {
 
     protected $Id = 'RichTextComment';

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Composite;
 
-class GPSLatitudeRef extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class GPSLatitudeRef extends AbstractTag
 {
 
     protected $Id = 'GPSLatitudeRef';

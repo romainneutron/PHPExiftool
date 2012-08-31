@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class RecordedCompensatorSequence extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class RecordedCompensatorSequence extends AbstractTag
 {
 
     protected $Id = '3008,00C0';

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\ASF;
 
-class DigitalSignature extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class DigitalSignature extends AbstractTag
 {
 
     protected $Id = '2211B3FC-BD23-11D2-B4B7-00A0C955FC6E';

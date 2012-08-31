@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class DisplaySetScrollingGroup extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class DisplaySetScrollingGroup extends AbstractTag
 {
 
     protected $Id = '0072,0212';

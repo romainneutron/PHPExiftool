@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Ricoh;
 
-class FirmwareRevision2 extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class FirmwareRevision2 extends AbstractTag
 {
 
     protected $Id = 12;

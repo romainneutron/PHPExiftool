@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Ricoh;
 
-class RicohImageWidth extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class RicohImageWidth extends AbstractTag
 {
 
     protected $Id = 0;

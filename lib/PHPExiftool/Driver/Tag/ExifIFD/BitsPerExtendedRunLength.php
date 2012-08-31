@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\ExifIFD;
 
-class BitsPerExtendedRunLength extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class BitsPerExtendedRunLength extends AbstractTag
 {
 
     protected $Id = 34021;

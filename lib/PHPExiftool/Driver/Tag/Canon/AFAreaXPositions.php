@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Canon;
 
-class AFAreaXPositions extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class AFAreaXPositions extends AbstractTag
 {
 
     protected $Id = 'mixed';

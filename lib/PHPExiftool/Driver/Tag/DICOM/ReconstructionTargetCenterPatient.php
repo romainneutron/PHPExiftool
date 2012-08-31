@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class ReconstructionTargetCenterPatient extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ReconstructionTargetCenterPatient extends AbstractTag
 {
 
     protected $Id = '0018,9318';

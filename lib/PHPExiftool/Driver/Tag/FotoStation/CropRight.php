@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\FotoStation;
 
-class CropRight extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class CropRight extends AbstractTag
 {
 
     protected $Id = 8;

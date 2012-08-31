@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\NikonCustom;
 
-class PlaybackMenusTime extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class PlaybackMenusTime extends AbstractTag
 {
 
     protected $Id = '20.1';

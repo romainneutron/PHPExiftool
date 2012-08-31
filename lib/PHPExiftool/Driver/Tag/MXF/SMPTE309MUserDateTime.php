@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MXF;
 
-class SMPTE309MUserDateTime extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class SMPTE309MUserDateTime extends AbstractTag
 {
 
     protected $Id = '060e2b34.0101.0101.07020101.01030000';

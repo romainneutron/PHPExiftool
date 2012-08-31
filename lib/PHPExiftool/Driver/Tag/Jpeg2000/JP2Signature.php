@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Jpeg2000;
 
-class JP2Signature extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class JP2Signature extends AbstractTag
 {
 
     protected $Id = 'mixed';

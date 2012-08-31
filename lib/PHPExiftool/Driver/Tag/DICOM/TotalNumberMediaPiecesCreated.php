@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class TotalNumberMediaPiecesCreated extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class TotalNumberMediaPiecesCreated extends AbstractTag
 {
 
     protected $Id = '2200,000B';

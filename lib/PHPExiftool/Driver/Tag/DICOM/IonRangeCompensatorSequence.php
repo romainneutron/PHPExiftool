@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class IonRangeCompensatorSequence extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class IonRangeCompensatorSequence extends AbstractTag
 {
 
     protected $Id = '300A,02EA';

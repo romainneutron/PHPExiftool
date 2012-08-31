@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Pentax;
 
-class ContrastDetectAFArea extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ContrastDetectAFArea extends AbstractTag
 {
 
     protected $Id = 561;

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\IFD0;
 
-class AsShotWhiteXY extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class AsShotWhiteXY extends AbstractTag
 {
 
     protected $Id = 50729;

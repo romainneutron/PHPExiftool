@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class ClinicalTrialTimePointID extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ClinicalTrialTimePointID extends AbstractTag
 {
 
     protected $Id = '0012,0050';

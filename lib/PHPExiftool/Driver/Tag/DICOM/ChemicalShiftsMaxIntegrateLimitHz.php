@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class ChemicalShiftsMaxIntegrateLimitHz extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ChemicalShiftsMaxIntegrateLimitHz extends AbstractTag
 {
 
     protected $Id = '0018,9196';

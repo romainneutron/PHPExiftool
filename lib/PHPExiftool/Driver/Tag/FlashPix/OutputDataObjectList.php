@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\FlashPix;
 
-class OutputDataObjectList extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class OutputDataObjectList extends AbstractTag
 {
 
     protected $Id = 65793;

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\FujiFilm;
 
-class WhiteBalanceFineTune extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class WhiteBalanceFineTune extends AbstractTag
 {
 
     protected $Id = 4106;

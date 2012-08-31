@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\PSP;
 
-class Title extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class Title extends AbstractTag
 {
 
     protected $Id = 0;

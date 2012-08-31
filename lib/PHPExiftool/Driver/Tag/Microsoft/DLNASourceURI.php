@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Microsoft;
 
-class DLNASourceURI extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class DLNASourceURI extends AbstractTag
 {
 
     protected $Id = 'DLNASourceURI';

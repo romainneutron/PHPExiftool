@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class ReferenceToRecordedSound extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ReferenceToRecordedSound extends AbstractTag
 {
 
     protected $Id = '4008,0103';

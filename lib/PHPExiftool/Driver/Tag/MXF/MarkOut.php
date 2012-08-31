@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MXF;
 
-class MarkOut extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class MarkOut extends AbstractTag
 {
 
     protected $Id = '060e2b34.0101.0107.07020103.02030000';

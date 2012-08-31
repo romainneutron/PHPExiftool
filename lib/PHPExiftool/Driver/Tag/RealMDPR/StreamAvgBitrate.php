@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\RealMDPR;
 
-class StreamAvgBitrate extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class StreamAvgBitrate extends AbstractTag
 {
 
     protected $Id = 2;

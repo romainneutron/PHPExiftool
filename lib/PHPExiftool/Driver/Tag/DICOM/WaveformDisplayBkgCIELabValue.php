@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class WaveformDisplayBkgCIELabValue extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class WaveformDisplayBkgCIELabValue extends AbstractTag
 {
 
     protected $Id = '003A,0231';

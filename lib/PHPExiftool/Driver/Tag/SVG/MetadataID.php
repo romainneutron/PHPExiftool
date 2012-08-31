@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\SVG;
 
-class MetadataID extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class MetadataID extends AbstractTag
 {
 
     protected $Id = 'metadataId';

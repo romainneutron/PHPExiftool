@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class BillingSuppliesAndDevicesSequence extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class BillingSuppliesAndDevicesSequence extends AbstractTag
 {
 
     protected $Id = '0040,0324';

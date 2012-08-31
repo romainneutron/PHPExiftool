@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\ASF;
 
-class BannerImageData extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class BannerImageData extends AbstractTag
 {
 
     protected $Id = 'BannerImageData';

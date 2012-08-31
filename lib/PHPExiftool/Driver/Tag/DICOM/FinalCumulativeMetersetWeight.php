@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class FinalCumulativeMetersetWeight extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class FinalCumulativeMetersetWeight extends AbstractTag
 {
 
     protected $Id = '300A,010E';

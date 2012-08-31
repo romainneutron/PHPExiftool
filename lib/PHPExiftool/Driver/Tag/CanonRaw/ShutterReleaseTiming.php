@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\CanonRaw;
 
-class ShutterReleaseTiming extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ShutterReleaseTiming extends AbstractTag
 {
 
     protected $Id = 4113;

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPDICOM;
 
-class EquipmentInstitution extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class EquipmentInstitution extends AbstractTag
 {
 
     protected $Id = 'EquipmentInstitution';

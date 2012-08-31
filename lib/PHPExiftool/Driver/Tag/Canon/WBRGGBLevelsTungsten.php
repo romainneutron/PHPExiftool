@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Canon;
 
-class WBRGGBLevelsTungsten extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class WBRGGBLevelsTungsten extends AbstractTag
 {
 
     protected $Id = 'mixed';

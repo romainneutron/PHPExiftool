@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPXmp;
 
-class Nickname extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class Nickname extends AbstractTag
 {
 
     protected $Id = 'Nickname';

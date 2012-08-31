@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPCrs;
 
-class Contrast2012 extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class Contrast2012 extends AbstractTag
 {
 
     protected $Id = 'Contrast2012';

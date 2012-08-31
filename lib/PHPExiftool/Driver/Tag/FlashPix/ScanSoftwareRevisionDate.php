@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\FlashPix;
 
-class ScanSoftwareRevisionDate extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ScanSoftwareRevisionDate extends AbstractTag
 {
 
     protected $Id = 671088644;

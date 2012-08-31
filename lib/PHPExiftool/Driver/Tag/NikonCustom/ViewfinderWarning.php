@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\NikonCustom;
 
-class ViewfinderWarning extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ViewfinderWarning extends AbstractTag
 {
 
     protected $Id = 'mixed';

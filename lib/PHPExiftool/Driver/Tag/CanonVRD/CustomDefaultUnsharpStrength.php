@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\CanonVRD;
 
-class CustomDefaultUnsharpStrength extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class CustomDefaultUnsharpStrength extends AbstractTag
 {
 
     protected $Id = 188;

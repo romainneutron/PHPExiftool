@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\RTF;
 
-class Comments extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class Comments extends AbstractTag
 {
 
     protected $Id = 'doccomm';

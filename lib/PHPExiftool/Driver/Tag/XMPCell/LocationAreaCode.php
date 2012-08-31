@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPCell;
 
-class LocationAreaCode extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class LocationAreaCode extends AbstractTag
 {
 
     protected $Id = 'lac';

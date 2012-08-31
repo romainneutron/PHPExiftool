@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\SigmaRaw;
 
-class FirmwareVersion extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class FirmwareVersion extends AbstractTag
 {
 
     protected $Id = 'FIRMVERS';

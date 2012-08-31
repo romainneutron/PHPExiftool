@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPMicrosoft;
 
-class LastKeywordXMP extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class LastKeywordXMP extends AbstractTag
 {
 
     protected $Id = 'LastKeywordXMP';

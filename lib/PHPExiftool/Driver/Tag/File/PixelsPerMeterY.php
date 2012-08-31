@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\File;
 
-class PixelsPerMeterY extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class PixelsPerMeterY extends AbstractTag
 {
 
     protected $Id = 28;

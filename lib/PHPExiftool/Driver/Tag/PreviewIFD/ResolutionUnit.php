@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\PreviewIFD;
 
-class ResolutionUnit extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ResolutionUnit extends AbstractTag
 {
 
     protected $Id = 296;

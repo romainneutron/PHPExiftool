@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class ROIElementalCompAtomicMassFraction extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ROIElementalCompAtomicMassFraction extends AbstractTag
 {
 
     protected $Id = '3006,00B8';

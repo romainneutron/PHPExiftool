@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class AuthorObserverSequence extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class AuthorObserverSequence extends AbstractTag
 {
 
     protected $Id = '0040,A078';

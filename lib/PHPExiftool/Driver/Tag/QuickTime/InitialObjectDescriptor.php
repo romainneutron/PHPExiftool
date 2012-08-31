@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\QuickTime;
 
-class InitialObjectDescriptor extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class InitialObjectDescriptor extends AbstractTag
 {
 
     protected $Id = 'iods';

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\SigmaRaw;
 
-class FlashExpComp extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class FlashExpComp extends AbstractTag
 {
 
     protected $Id = 'FLASHEXPCOMP';

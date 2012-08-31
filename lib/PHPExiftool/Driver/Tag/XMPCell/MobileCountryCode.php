@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPCell;
 
-class MobileCountryCode extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class MobileCountryCode extends AbstractTag
 {
 
     protected $Id = 'mcc';

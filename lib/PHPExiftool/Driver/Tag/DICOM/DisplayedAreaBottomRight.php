@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class DisplayedAreaBottomRight extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class DisplayedAreaBottomRight extends AbstractTag
 {
 
     protected $Id = '0070,0053';

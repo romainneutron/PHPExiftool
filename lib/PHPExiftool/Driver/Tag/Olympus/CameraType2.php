@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Olympus;
 
-class CameraType2 extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class CameraType2 extends AbstractTag
 {
 
     protected $Id = 256;
@@ -660,6 +662,10 @@ class CameraType2 extends \PHPExiftool\Driver\Tag
         'D4537' => array(
             'Id' => 'D4537',
             'Label' => 'VR340,D750',
+        ),
+        'D4541' => array(
+            'Id' => 'D4541',
+            'Label' => 'SZ-12',
         ),
         'D4809' => array(
             'Id' => 'D4809',

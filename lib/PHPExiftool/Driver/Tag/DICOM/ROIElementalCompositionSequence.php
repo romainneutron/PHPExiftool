@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class ROIElementalCompositionSequence extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ROIElementalCompositionSequence extends AbstractTag
 {
 
     protected $Id = '3006,00B6';

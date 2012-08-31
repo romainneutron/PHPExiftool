@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class OpticalTransmittance extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class OpticalTransmittance extends AbstractTag
 {
 
     protected $Id = '0046,0040';

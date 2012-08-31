@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\CanonVRD;
 
-class UnknownOutputHighlightPoint extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class UnknownOutputHighlightPoint extends AbstractTag
 {
 
     protected $Id = 74;

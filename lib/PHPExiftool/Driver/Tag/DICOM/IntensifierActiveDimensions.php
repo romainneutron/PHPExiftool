@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class IntensifierActiveDimensions extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class IntensifierActiveDimensions extends AbstractTag
 {
 
     protected $Id = '0018,9428';

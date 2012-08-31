@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Canon;
 
-class IntelligentContrast extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class IntelligentContrast extends AbstractTag
 {
 
     protected $Id = 4;
@@ -28,7 +30,7 @@ class IntelligentContrast extends \PHPExiftool\Driver\Tag
 
     protected $g2 = 'Camera';
 
-    protected $Type = 'int16s';
+    protected $Type = 'int16u';
 
     protected $Writable = true;
 
@@ -41,9 +43,13 @@ class IntelligentContrast extends \PHPExiftool\Driver\Tag
             'Id' => 0,
             'Label' => 'Off',
         ),
-        25 => array(
-            'Id' => 25,
+        8 => array(
+            'Id' => 8,
             'Label' => 'On',
+        ),
+        65535 => array(
+            'Id' => 65535,
+            'Label' => 'n/a',
         ),
     );
 

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\CanonVRD;
 
-class PortraitRawLinear extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class PortraitRawLinear extends AbstractTag
 {
 
     protected $Id = 25;

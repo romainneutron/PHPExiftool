@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Qualcomm;
 
-class R2D65Width extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class R2D65Width extends AbstractTag
 {
 
     protected $Id = 'r2_d65_width';

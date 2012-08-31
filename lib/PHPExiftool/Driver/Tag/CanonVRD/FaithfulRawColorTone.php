@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\CanonVRD;
 
-class FaithfulRawColorTone extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class FaithfulRawColorTone extends AbstractTag
 {
 
     protected $Id = 49;

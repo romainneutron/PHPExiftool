@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\ICCProfile;
 
-class ColorimetricIntentImageState extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ColorimetricIntentImageState extends AbstractTag
 {
 
     protected $Id = 'ciis';

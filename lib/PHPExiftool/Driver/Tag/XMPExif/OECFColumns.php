@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPExif;
 
-class OECFColumns extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class OECFColumns extends AbstractTag
 {
 
     protected $Id = 'OECFColumns';
@@ -28,10 +30,12 @@ class OECFColumns extends \PHPExiftool\Driver\Tag
 
     protected $g2 = 'Image';
 
-    protected $Type = 'string';
+    protected $Type = 'integer';
 
     protected $Writable = true;
 
     protected $Description = 'OECF Columns';
+
+    protected $local_g2 = 'Camera';
 
 }

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\HTMLNcc;
 
-class ProducedDate extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ProducedDate extends AbstractTag
 {
 
     protected $Id = 'produceddate';

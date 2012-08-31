@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\SPIFF;
 
-class ImageWidth extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ImageWidth extends AbstractTag
 {
 
     protected $Id = 10;

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MXF;
 
-class VideoAverageBitrate extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class VideoAverageBitrate extends AbstractTag
 {
 
     protected $Id = '060e2b34.0101.0103.04010501.11000000';

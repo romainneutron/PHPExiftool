@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class InterpretationApproverSequence extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class InterpretationApproverSequence extends AbstractTag
 {
 
     protected $Id = '4008,0111';

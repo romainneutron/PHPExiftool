@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MXF;
 
-class EventOrigin extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class EventOrigin extends AbstractTag
 {
 
     protected $Id = '060e2b34.0101.0105.07020103.010b0000';

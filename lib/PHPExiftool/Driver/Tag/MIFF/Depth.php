@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MIFF;
 
-class Depth extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class Depth extends AbstractTag
 {
 
     protected $Id = 'depth';

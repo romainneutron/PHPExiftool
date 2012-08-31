@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class CompensatorDivergence extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class CompensatorDivergence extends AbstractTag
 {
 
     protected $Id = '300A,02E0';

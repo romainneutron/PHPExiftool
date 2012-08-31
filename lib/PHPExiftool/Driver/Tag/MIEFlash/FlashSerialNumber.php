@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MIEFlash;
 
-class FlashSerialNumber extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class FlashSerialNumber extends AbstractTag
 {
 
     protected $Id = 'SerialNumber';

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class RTPlanGeometry extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class RTPlanGeometry extends AbstractTag
 {
 
     protected $Id = '300A,000C';

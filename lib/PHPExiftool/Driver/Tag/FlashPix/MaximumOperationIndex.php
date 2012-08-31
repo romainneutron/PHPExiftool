@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\FlashPix;
 
-class MaximumOperationIndex extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class MaximumOperationIndex extends AbstractTag
 {
 
     protected $Id = 65795;

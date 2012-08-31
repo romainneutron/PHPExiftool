@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPXmpTPg;
 
-class ColorantSwatchName extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ColorantSwatchName extends AbstractTag
 {
 
     protected $Id = 'ColorantsSwatchName';
@@ -33,5 +35,7 @@ class ColorantSwatchName extends \PHPExiftool\Driver\Tag
     protected $Writable = true;
 
     protected $Description = 'Colorant Swatch Name';
+
+    protected $flag_List = true;
 
 }

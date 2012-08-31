@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Canon;
 
-class SaturationNeutral extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class SaturationNeutral extends AbstractTag
 {
 
     protected $Id = 'mixed';

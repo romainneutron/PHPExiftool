@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPExif;
 
-class GPSDestDistance extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class GPSDestDistance extends AbstractTag
 {
 
     protected $Id = 'GPSDestDistance';

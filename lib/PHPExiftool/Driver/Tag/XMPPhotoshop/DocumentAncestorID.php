@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPPhotoshop;
 
-class DocumentAncestorID extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class DocumentAncestorID extends AbstractTag
 {
 
     protected $Id = 'DocumentAncestorsAncestorID';
@@ -33,5 +35,7 @@ class DocumentAncestorID extends \PHPExiftool\Driver\Tag
     protected $Writable = true;
 
     protected $Description = 'Document Ancestor ID';
+
+    protected $flag_List = true;
 
 }

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DNG;
 
-class OriginalRawFileType extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class OriginalRawFileType extends AbstractTag
 {
 
     protected $Id = 2;

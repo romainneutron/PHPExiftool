@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPPhotoshop;
 
-class TextLayerText extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class TextLayerText extends AbstractTag
 {
 
     protected $Id = 'TextLayersLayerText';
@@ -33,5 +35,7 @@ class TextLayerText extends \PHPExiftool\Driver\Tag
     protected $Writable = true;
 
     protected $Description = 'Text Layer Text';
+
+    protected $flag_List = true;
 
 }

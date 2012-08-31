@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Sony;
 
-class MultiFrameNoiseReduction extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class MultiFrameNoiseReduction extends AbstractTag
 {
 
     protected $Id = 'mixed';

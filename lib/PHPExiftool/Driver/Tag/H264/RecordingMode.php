@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\H264;
 
-class RecordingMode extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class RecordingMode extends AbstractTag
 {
 
     protected $Id = 0;

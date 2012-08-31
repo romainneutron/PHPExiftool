@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\ExifIFD;
 
-class JPEGLosslessPredictors extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class JPEGLosslessPredictors extends AbstractTag
 {
 
     protected $Id = 517;

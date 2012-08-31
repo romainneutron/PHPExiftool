@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPPrism;
 
-class CorporateEntity extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class CorporateEntity extends AbstractTag
 {
 
     protected $Id = 'corporateEntity';

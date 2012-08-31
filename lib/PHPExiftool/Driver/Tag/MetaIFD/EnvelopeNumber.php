@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MetaIFD;
 
-class EnvelopeNumber extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class EnvelopeNumber extends AbstractTag
 {
 
     protected $Id = 50008;

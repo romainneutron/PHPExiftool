@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Matroska;
 
-class TrackTimecodeScale extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class TrackTimecodeScale extends AbstractTag
 {
 
     protected $Id = 209231;

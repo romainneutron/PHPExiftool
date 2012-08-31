@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPPrism;
 
-class DateRecieved extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class DateRecieved extends AbstractTag
 {
 
     protected $Id = 'dateRecieved';

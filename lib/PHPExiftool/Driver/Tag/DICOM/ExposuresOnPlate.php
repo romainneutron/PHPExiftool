@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class ExposuresOnPlate extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ExposuresOnPlate extends AbstractTag
 {
 
     protected $Id = '0018,1404';

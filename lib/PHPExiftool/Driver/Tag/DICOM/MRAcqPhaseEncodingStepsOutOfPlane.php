@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class MRAcqPhaseEncodingStepsOutOfPlane extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class MRAcqPhaseEncodingStepsOutOfPlane extends AbstractTag
 {
 
     protected $Id = '0018,9232';

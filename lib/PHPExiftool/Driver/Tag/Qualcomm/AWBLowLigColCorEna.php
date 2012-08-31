@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Qualcomm;
 
-class AWBLowLigColCorEna extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class AWBLowLigColCorEna extends AbstractTag
 {
 
     protected $Id = 'awb_low_lig_col_cor_ena';

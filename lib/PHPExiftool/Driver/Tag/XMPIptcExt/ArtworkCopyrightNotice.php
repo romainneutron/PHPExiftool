@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPIptcExt;
 
-class ArtworkCopyrightNotice extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ArtworkCopyrightNotice extends AbstractTag
 {
 
     protected $Id = 'ArtworkOrObjectAOCopyrightNotice';
@@ -33,5 +35,7 @@ class ArtworkCopyrightNotice extends \PHPExiftool\Driver\Tag
     protected $Writable = true;
 
     protected $Description = 'Artwork Copyright Notice';
+
+    protected $flag_List = true;
 
 }

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPExtensis;
 
-class Approved extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class Approved extends AbstractTag
 {
 
     protected $Id = 'Approved';

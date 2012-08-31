@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Microsoft;
 
-class Gender extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class Gender extends AbstractTag
 {
 
     protected $Id = '{3C8CEE58-D4F0-4CF9-B756-4E5D24447BCD} 100';

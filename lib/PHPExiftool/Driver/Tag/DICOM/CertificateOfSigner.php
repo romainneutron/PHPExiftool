@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class CertificateOfSigner extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class CertificateOfSigner extends AbstractTag
 {
 
     protected $Id = '0400,0115';

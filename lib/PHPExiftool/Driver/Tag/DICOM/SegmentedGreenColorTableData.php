@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class SegmentedGreenColorTableData extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class SegmentedGreenColorTableData extends AbstractTag
 {
 
     protected $Id = '0028,1222';

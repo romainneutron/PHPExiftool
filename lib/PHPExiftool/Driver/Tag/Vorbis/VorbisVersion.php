@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Vorbis;
 
-class VorbisVersion extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class VorbisVersion extends AbstractTag
 {
 
     protected $Id = 0;

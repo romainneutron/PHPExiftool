@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class OverlayBitsForCodeWord extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class OverlayBitsForCodeWord extends AbstractTag
 {
 
     protected $Id = '60xx,0804';

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Panasonic;
 
-class RecognizedFaceFlags extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class RecognizedFaceFlags extends AbstractTag
 {
 
     protected $Id = 99;

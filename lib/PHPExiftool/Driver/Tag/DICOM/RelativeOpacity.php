@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class RelativeOpacity extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class RelativeOpacity extends AbstractTag
 {
 
     protected $Id = '0070,0403';

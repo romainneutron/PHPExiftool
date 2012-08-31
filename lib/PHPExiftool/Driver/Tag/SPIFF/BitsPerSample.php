@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\SPIFF;
 
-class BitsPerSample extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class BitsPerSample extends AbstractTag
 {
 
     protected $Id = 15;

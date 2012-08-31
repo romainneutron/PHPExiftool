@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class HardcopyCreationDeviceID extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class HardcopyCreationDeviceID extends AbstractTag
 {
 
     protected $Id = '0018,1011';

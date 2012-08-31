@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Microsoft;
 
-class PanoramicStitchVersion extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class PanoramicStitchVersion extends AbstractTag
 {
 
     protected $Id = 0;

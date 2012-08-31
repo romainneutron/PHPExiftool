@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class ImagePresentationGroupLength extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ImagePresentationGroupLength extends AbstractTag
 {
 
     protected $Id = '0028,0000';

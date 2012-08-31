@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class RadiopharmaceuticalCodeSequence extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class RadiopharmaceuticalCodeSequence extends AbstractTag
 {
 
     protected $Id = '0054,0304';

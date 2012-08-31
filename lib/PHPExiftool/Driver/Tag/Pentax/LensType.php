@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Pentax;
 
-class LensType extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class LensType extends AbstractTag
 {
 
     protected $Id = 'mixed';
@@ -779,6 +781,14 @@ class LensType extends \PHPExiftool\Driver\Tag
             'Id' => '8 4',
             'Label' => 'Sigma 50mm F1.4 EX DG HSM',
         ),
+        '8 8' => array(
+            'Id' => '8 8',
+            'Label' => 'Sigma 18-250mm F3.5-6.3 DC OS HSM',
+        ),
+        '8 11' => array(
+            'Id' => '8 11',
+            'Label' => 'Sigma 10-20mm F3.5 EX DC HSM',
+        ),
         '8 12' => array(
             'Id' => '8 12',
             'Label' => 'Sigma 70-300mm F4-5.6 DG OS',
@@ -814,6 +824,10 @@ class LensType extends \PHPExiftool\Driver\Tag
         '8 22' => array(
             'Id' => '8 22',
             'Label' => 'Sigma 85mm F1.4 EX DG HSM',
+        ),
+        '8 23' => array(
+            'Id' => '8 23',
+            'Label' => 'Sigma 70-200mm F2.8 APO EX DG OS HSM',
         ),
         '8 215' => array(
             'Id' => '8 215',

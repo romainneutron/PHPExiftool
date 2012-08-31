@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Leaf;
 
-class ImageBounds extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ImageBounds extends AbstractTag
 {
 
     protected $Id = 'CaptProf_image_bounds';

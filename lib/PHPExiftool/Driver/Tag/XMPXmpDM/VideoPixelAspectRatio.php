@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPXmpDM;
 
-class VideoPixelAspectRatio extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class VideoPixelAspectRatio extends AbstractTag
 {
 
     protected $Id = 'videoPixelAspectRatio';

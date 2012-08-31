@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\ZIP;
 
-class UncompressedSize extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class UncompressedSize extends AbstractTag
 {
 
     protected $Id = 4;

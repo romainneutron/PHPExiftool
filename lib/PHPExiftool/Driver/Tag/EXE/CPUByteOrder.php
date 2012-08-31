@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\EXE;
 
-class CPUByteOrder extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class CPUByteOrder extends AbstractTag
 {
 
     protected $Id = 'mixed';

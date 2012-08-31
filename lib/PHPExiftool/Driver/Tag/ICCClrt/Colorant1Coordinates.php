@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\ICCClrt;
 
-class Colorant1Coordinates extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class Colorant1Coordinates extends AbstractTag
 {
 
     protected $Id = 44;

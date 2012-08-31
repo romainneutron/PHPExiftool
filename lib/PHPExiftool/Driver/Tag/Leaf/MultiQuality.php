@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Leaf;
 
-class MultiQuality extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class MultiQuality extends AbstractTag
 {
 
     protected $Id = 'CaptureObj_Multi_quality';

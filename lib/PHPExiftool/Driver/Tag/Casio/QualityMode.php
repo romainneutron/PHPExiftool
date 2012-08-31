@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Casio;
 
-class QualityMode extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class QualityMode extends AbstractTag
 {
 
     protected $Id = 8;

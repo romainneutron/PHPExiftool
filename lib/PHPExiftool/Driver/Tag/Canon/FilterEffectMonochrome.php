@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Canon;
 
-class FilterEffectMonochrome extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class FilterEffectMonochrome extends AbstractTag
 {
 
     protected $Id = 'mixed';

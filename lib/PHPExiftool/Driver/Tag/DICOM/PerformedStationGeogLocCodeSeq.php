@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class PerformedStationGeogLocCodeSeq extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class PerformedStationGeogLocCodeSeq extends AbstractTag
 {
 
     protected $Id = '0040,4030';

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class CArmPositionerTabletopRelationship extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class CArmPositionerTabletopRelationship extends AbstractTag
 {
 
     protected $Id = '0018,9474';

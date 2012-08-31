@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MetaIFD;
 
-class RollGuidElements extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class RollGuidElements extends AbstractTag
 {
 
     protected $Id = 50020;

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Microsoft;
 
-class TotalSize extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class TotalSize extends AbstractTag
 {
 
     protected $Id = '{9B174B35-40FF-11D2-A27E-00C04FC30871} 3';

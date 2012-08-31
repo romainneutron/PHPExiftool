@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XML;
 
-class ScaleCrop extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ScaleCrop extends AbstractTag
 {
 
     protected $Id = 'ScaleCrop';

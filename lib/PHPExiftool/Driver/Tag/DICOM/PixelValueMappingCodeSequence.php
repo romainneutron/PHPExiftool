@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class PixelValueMappingCodeSequence extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class PixelValueMappingCodeSequence extends AbstractTag
 {
 
     protected $Id = '0040,9098';

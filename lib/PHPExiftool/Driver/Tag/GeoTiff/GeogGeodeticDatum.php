@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\GeoTiff;
 
-class GeogGeodeticDatum extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class GeogGeodeticDatum extends AbstractTag
 {
 
     protected $Id = 2050;

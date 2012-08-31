@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Leaf;
 
-class Neutrals extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class Neutrals extends AbstractTag
 {
 
     protected $Id = 'NeutObj_neutrals';

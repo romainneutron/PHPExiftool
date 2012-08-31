@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class CoordinateSystemAxisCodeSequence extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class CoordinateSystemAxisCodeSequence extends AbstractTag
 {
 
     protected $Id = '0040,08DA';

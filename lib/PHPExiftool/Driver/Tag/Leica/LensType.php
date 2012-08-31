@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Leica;
 
-class LensType extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class LensType extends AbstractTag
 {
 
     protected $Id = 'mixed';
@@ -185,10 +187,6 @@ class LensType extends \PHPExiftool\Driver\Tag
             'Id' => 52,
             'Label' => 'Super-Elmar-M 18mm f/3.8 ASPH.',
         ),
-        53 => array(
-            'Id' => 53,
-            'Label' => 'Apo-Telyt-M 135mm f/3.4',
-        ),
         '0 0' => array(
             'Id' => '0 0',
             'Label' => 'Uncoded lens',
@@ -240,6 +238,14 @@ class LensType extends \PHPExiftool\Driver\Tag
         '51 2' => array(
             'Id' => '51 2',
             'Label' => 'Super-Elmar-M 14mm f/3.8 Asph',
+        ),
+        '53 2' => array(
+            'Id' => '53 2',
+            'Label' => 'Apo-Telyt-M 135mm f/3.4',
+        ),
+        '53 3' => array(
+            'Id' => '53 3',
+            'Label' => 'Apo-Summicron-M 50mm f/2 Asph',
         ),
     );
 

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Nikon;
 
-class NikonCaptureOutput extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class NikonCaptureOutput extends AbstractTag
 {
 
     protected $Id = 3614;

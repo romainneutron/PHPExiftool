@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPIcs;
 
-class TagStructure extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class TagStructure extends AbstractTag
 {
 
     protected $Id = 'TagStructure';
@@ -28,7 +30,7 @@ class TagStructure extends \PHPExiftool\Driver\Tag
 
     protected $g2 = 'Image';
 
-    protected $Type = 'string';
+    protected $Type = 'struct';
 
     protected $Writable = true;
 

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Qualcomm;
 
-class ASF5Filter2A15 extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ASF5Filter2A15 extends AbstractTag
 {
 
     protected $Id = 'asf5_filter2_a15';

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\NITF;
 
-class ImageClass extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ImageClass extends AbstractTag
 {
 
     protected $Id = 9;

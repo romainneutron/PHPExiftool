@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPCrs;
 
-class ChromaticAberrationR extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ChromaticAberrationR extends AbstractTag
 {
 
     protected $Id = 'ChromaticAberrationR';

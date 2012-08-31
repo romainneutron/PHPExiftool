@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class CodingSchemeDesignator extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class CodingSchemeDesignator extends AbstractTag
 {
 
     protected $Id = '0008,0102';

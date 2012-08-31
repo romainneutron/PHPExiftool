@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Minolta;
 
-class PrioritySetupShutterRelease extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class PrioritySetupShutterRelease extends AbstractTag
 {
 
     protected $Id = 29;

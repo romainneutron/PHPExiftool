@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPCrs;
 
-class ParametricShadows extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ParametricShadows extends AbstractTag
 {
 
     protected $Id = 'ParametricShadows';

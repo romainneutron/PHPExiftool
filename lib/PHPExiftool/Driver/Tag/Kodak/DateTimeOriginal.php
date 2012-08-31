@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Kodak;
 
-class DateTimeOriginal extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class DateTimeOriginal extends AbstractTag
 {
 
     protected $Id = 20;

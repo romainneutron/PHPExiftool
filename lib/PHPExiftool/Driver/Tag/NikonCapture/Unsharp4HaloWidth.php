@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\NikonCapture;
 
-class Unsharp4HaloWidth extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class Unsharp4HaloWidth extends AbstractTag
 {
 
     protected $Id = 106;

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\ICCHeader;
 
-class DeviceManufacturer extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class DeviceManufacturer extends AbstractTag
 {
 
     protected $Id = 48;

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\NikonCustom;
 
-class FlashShutterSpeed extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class FlashShutterSpeed extends AbstractTag
 {
 
     protected $Id = 'mixed';

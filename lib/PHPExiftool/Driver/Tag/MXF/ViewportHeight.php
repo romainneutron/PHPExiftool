@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MXF;
 
-class ViewportHeight extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ViewportHeight extends AbstractTag
 {
 
     protected $Id = '060e2b34.0101.0101.07010904.01010100';

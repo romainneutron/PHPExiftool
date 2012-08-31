@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MIEGeo;
 
-class PostalCode extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class PostalCode extends AbstractTag
 {
 
     protected $Id = 'PostalCode';

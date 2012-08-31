@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\CanonCustom;
 
-class SetButtonCrossKeysFunc extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class SetButtonCrossKeysFunc extends AbstractTag
 {
 
     protected $Id = 0;

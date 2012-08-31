@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class MultipleSpinEcho extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class MultipleSpinEcho extends AbstractTag
 {
 
     protected $Id = '0018,9011';

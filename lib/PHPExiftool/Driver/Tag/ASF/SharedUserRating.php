@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\ASF;
 
-class SharedUserRating extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class SharedUserRating extends AbstractTag
 {
 
     protected $Id = 'SharedUserRating';

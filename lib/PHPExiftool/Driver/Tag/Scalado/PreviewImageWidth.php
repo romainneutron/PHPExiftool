@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Scalado;
 
-class PreviewImageWidth extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class PreviewImageWidth extends AbstractTag
 {
 
     protected $Id = 'WDTH';

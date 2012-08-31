@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class RRIntervalTimeNominal extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class RRIntervalTimeNominal extends AbstractTag
 {
 
     protected $Id = '0020,9251';

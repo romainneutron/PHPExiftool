@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\SonyIDC;
 
-class PeripheralIllumCentralRadius extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class PeripheralIllumCentralRadius extends AbstractTag
 {
 
     protected $Id = 32816;

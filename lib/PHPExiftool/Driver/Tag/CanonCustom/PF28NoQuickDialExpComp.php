@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\CanonCustom;
 
-class PF28NoQuickDialExpComp extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class PF28NoQuickDialExpComp extends AbstractTag
 {
 
     protected $Id = 29;

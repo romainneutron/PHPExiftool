@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\CanonCustom;
 
-class LCDIlluminationDuringBulb extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class LCDIlluminationDuringBulb extends AbstractTag
 {
 
     protected $Id = 1032;

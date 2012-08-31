@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class AxialAcceptance extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class AxialAcceptance extends AbstractTag
 {
 
     protected $Id = '0054,1200';

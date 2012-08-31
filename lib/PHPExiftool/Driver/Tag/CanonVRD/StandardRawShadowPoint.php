@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\CanonVRD;
 
-class StandardRawShadowPoint extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class StandardRawShadowPoint extends AbstractTag
 {
 
     protected $Id = 19;

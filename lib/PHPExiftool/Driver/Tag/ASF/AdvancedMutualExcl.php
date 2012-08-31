@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\ASF;
 
-class AdvancedMutualExcl extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class AdvancedMutualExcl extends AbstractTag
 {
 
     protected $Id = 'A08649CF-4775-4670-8A16-6E35357566CD';

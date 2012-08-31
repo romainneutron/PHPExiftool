@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPCrs;
 
-class CameraProfileDigest extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class CameraProfileDigest extends AbstractTag
 {
 
     protected $Id = 'CameraProfileDigest';

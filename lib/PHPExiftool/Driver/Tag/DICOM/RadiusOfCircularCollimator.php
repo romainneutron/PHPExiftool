@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class RadiusOfCircularCollimator extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class RadiusOfCircularCollimator extends AbstractTag
 {
 
     protected $Id = '0018,1712';

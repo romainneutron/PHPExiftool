@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MIEFlash;
 
-class FlashMake extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class FlashMake extends AbstractTag
 {
 
     protected $Id = 'Make';

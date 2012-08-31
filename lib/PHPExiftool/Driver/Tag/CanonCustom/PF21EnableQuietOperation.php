@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\CanonCustom;
 
-class PF21EnableQuietOperation extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class PF21EnableQuietOperation extends AbstractTag
 {
 
     protected $Id = 22;

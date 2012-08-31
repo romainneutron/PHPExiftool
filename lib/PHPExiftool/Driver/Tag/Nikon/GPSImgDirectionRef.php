@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Nikon;
 
-class GPSImgDirectionRef extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class GPSImgDirectionRef extends AbstractTag
 {
 
     protected $Id = 18874384;

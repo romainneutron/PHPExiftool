@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class RespiratoryMotionCompTechnique extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class RespiratoryMotionCompTechnique extends AbstractTag
 {
 
     protected $Id = '0018,9170';

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\PrintIM;
 
-class PrintIMVersion extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class PrintIMVersion extends AbstractTag
 {
 
     protected $Id = 'PrintIMVersion';

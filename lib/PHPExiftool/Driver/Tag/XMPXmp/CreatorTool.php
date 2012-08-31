@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPXmp;
 
-class CreatorTool extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class CreatorTool extends AbstractTag
 {
 
     protected $Id = 'CreatorTool';

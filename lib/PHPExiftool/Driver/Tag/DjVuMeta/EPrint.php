@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DjVuMeta;
 
-class EPrint extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class EPrint extends AbstractTag
 {
 
     protected $Id = 'eprint';

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Canon;
 
-class UserDef2PictureStyle extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class UserDef2PictureStyle extends AbstractTag
 {
 
     protected $Id = 'mixed';

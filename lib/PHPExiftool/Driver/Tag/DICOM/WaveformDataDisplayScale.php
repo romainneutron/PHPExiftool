@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class WaveformDataDisplayScale extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class WaveformDataDisplayScale extends AbstractTag
 {
 
     protected $Id = '003A,0230';

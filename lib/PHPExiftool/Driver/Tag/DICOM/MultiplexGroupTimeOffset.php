@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class MultiplexGroupTimeOffset extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class MultiplexGroupTimeOffset extends AbstractTag
 {
 
     protected $Id = '0018,1068';

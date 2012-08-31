@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\PhotoCD;
 
-class CopyrightStatus extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class CopyrightStatus extends AbstractTag
 {
 
     protected $Id = 331;

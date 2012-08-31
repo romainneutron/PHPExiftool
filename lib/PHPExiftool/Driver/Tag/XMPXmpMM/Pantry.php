@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPXmpMM;
 
-class Pantry extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class Pantry extends AbstractTag
 {
 
     protected $Id = 'Pantry';
@@ -28,7 +30,7 @@ class Pantry extends \PHPExiftool\Driver\Tag
 
     protected $g2 = 'Other';
 
-    protected $Type = 'string';
+    protected $Type = 'struct';
 
     protected $Writable = true;
 

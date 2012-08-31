@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPIptcExt;
 
-class AdditionalModelInformation extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class AdditionalModelInformation extends AbstractTag
 {
 
     protected $Id = 'AddlModelInfo';

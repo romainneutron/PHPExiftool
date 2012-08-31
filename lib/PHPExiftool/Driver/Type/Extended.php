@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Type;
 
-class Extended
+use PHPExiftool\Driver\AbstractType;
+
+class Extended extends AbstractType
 {
 
     protected $ExiftoolName = 'extended';

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\AIFF;
 
-class FormatVersionTime extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class FormatVersionTime extends AbstractTag
 {
 
     protected $Id = 0;

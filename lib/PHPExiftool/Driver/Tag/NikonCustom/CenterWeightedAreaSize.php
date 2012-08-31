@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\NikonCustom;
 
-class CenterWeightedAreaSize extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class CenterWeightedAreaSize extends AbstractTag
 {
 
     protected $Id = 'mixed';

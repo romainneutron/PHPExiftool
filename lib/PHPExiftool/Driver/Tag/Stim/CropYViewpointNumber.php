@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Stim;
 
-class CropYViewpointNumber extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class CropYViewpointNumber extends AbstractTag
 {
 
     protected $Id = 2;

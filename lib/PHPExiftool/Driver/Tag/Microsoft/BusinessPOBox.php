@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Microsoft;
 
-class BusinessPOBox extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class BusinessPOBox extends AbstractTag
 {
 
     protected $Id = '{BC4E71CE-17F9-48D5-BEE9-021DF0EA5409} 100';

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\ASF;
 
-class ExtendedStreamProps extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ExtendedStreamProps extends AbstractTag
 {
 
     protected $Id = '14E6A5CB-C672-4332-8399-A96952065B5A';

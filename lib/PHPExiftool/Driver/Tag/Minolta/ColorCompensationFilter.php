@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Minolta;
 
-class ColorCompensationFilter extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ColorCompensationFilter extends AbstractTag
 {
 
     protected $Id = 'mixed';

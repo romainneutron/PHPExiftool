@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MIEExtender;
 
-class ExtenderMake extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ExtenderMake extends AbstractTag
 {
 
     protected $Id = 'Make';

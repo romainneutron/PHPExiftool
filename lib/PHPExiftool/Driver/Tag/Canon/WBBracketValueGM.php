@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Canon;
 
-class WBBracketValueGM extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class WBBracketValueGM extends AbstractTag
 {
 
     protected $Id = 13;

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPDICOM;
 
-class SeriesModality extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class SeriesModality extends AbstractTag
 {
 
     protected $Id = 'SeriesModality';

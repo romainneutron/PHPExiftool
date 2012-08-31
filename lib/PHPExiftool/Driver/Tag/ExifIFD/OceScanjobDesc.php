@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\ExifIFD;
 
-class OceScanjobDesc extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class OceScanjobDesc extends AbstractTag
 {
 
     protected $Id = 50215;

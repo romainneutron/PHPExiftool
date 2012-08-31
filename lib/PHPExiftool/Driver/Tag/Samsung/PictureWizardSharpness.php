@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Samsung;
 
-class PictureWizardSharpness extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class PictureWizardSharpness extends AbstractTag
 {
 
     protected $Id = 3;

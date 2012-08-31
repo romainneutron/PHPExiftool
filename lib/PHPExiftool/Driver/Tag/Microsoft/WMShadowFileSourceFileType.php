@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Microsoft;
 
-class WMShadowFileSourceFileType extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class WMShadowFileSourceFileType extends AbstractTag
 {
 
     protected $Id = 'WM/WMShadowFileSourceFileType';

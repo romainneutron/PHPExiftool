@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\RealRJMD;
 
-class TrackCategory extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class TrackCategory extends AbstractTag
 {
 
     protected $Id = 'Track/Category';

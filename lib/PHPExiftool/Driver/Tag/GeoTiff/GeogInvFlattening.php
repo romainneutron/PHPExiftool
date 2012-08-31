@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\GeoTiff;
 
-class GeogInvFlattening extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class GeogInvFlattening extends AbstractTag
 {
 
     protected $Id = 2059;

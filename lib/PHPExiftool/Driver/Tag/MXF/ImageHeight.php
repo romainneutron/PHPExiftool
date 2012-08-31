@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MXF;
 
-class ImageHeight extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ImageHeight extends AbstractTag
 {
 
     protected $Id = '060e2b34.0101.0101.04010502.01000000';

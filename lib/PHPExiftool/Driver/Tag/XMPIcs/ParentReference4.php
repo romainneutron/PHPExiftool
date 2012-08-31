@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPIcs;
 
-class ParentReference4 extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ParentReference4 extends AbstractTag
 {
 
     protected $Id = 'TagStructureSubLabelsSubLabelsSubLabelsParentReference';
@@ -33,5 +35,7 @@ class ParentReference4 extends \PHPExiftool\Driver\Tag
     protected $Writable = true;
 
     protected $Description = 'Parent Reference 4';
+
+    protected $flag_List = true;
 
 }

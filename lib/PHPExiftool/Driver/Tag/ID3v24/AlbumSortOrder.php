@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\ID3v24;
 
-class AlbumSortOrder extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class AlbumSortOrder extends AbstractTag
 {
 
     protected $Id = 'TSOA';

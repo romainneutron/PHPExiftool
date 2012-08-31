@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPIptcExt;
 
-class DigitalSourceFileType extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class DigitalSourceFileType extends AbstractTag
 {
 
     protected $Id = 'DigitalSourcefileType';

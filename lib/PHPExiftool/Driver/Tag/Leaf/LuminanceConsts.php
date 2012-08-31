@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Leaf;
 
-class LuminanceConsts extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class LuminanceConsts extends AbstractTag
 {
 
     protected $Id = 'CaptProf_luminance_consts';

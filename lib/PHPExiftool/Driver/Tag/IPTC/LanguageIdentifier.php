@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\IPTC;
 
-class LanguageIdentifier extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class LanguageIdentifier extends AbstractTag
 {
 
     protected $Id = 135;

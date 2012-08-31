@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Matroska;
 
-class AudioBitsPerSample extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class AudioBitsPerSample extends AbstractTag
 {
 
     protected $Id = 8804;

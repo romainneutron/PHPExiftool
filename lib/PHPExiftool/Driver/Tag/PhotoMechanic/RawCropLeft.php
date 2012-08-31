@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\PhotoMechanic;
 
-class RawCropLeft extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class RawCropLeft extends AbstractTag
 {
 
     protected $Id = 209;

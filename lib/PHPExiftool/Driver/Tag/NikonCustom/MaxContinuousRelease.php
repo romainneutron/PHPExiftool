@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\NikonCustom;
 
-class MaxContinuousRelease extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class MaxContinuousRelease extends AbstractTag
 {
 
     protected $Id = 'mixed';

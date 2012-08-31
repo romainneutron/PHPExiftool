@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class ProductPackageIdentifier extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ProductPackageIdentifier extends AbstractTag
 {
 
     protected $Id = '0044,0001';

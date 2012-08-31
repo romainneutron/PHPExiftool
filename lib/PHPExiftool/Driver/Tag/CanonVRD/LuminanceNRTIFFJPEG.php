@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\CanonVRD;
 
-class LuminanceNRTIFFJPEG extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class LuminanceNRTIFFJPEG extends AbstractTag
 {
 
     protected $Id = 109;

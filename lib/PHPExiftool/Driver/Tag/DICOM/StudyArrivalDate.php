@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class StudyArrivalDate extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class StudyArrivalDate extends AbstractTag
 {
 
     protected $Id = '0032,1040';

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DjVuMeta;
 
-class ModifyDate extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ModifyDate extends AbstractTag
 {
 
     protected $Id = 'ModDate';

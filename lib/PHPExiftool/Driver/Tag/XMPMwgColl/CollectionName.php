@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPMwgColl;
 
-class CollectionName extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class CollectionName extends AbstractTag
 {
 
     protected $Id = 'CollectionsCollectionName';
@@ -33,5 +35,7 @@ class CollectionName extends \PHPExiftool\Driver\Tag
     protected $Writable = true;
 
     protected $Description = 'Collection Name';
+
+    protected $flag_List = true;
 
 }

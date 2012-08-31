@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\ICCProfile;
 
-class PostScript2CRD1 extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class PostScript2CRD1 extends AbstractTag
 {
 
     protected $Id = 'psd1';

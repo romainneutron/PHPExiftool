@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\KDCIFD;
 
-class WBRGBLevelsShade extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class WBRGBLevelsShade extends AbstractTag
 {
 
     protected $Id = 64042;

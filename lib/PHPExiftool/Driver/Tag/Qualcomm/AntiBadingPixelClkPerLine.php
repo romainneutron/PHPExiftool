@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Qualcomm;
 
-class AntiBadingPixelClkPerLine extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class AntiBadingPixelClkPerLine extends AbstractTag
 {
 
     protected $Id = 'anti_bading_pixel_clk_per_line';

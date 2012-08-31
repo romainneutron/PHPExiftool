@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPCrs;
 
-class PostCropVignetteMidpoint extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class PostCropVignetteMidpoint extends AbstractTag
 {
 
     protected $Id = 'PostCropVignetteMidpoint';

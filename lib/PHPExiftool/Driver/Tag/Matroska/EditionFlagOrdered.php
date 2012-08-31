@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Matroska;
 
-class EditionFlagOrdered extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class EditionFlagOrdered extends AbstractTag
 {
 
     protected $Id = 1501;

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Canon;
 
-class WBRGGBLevelsUnknown11 extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class WBRGGBLevelsUnknown11 extends AbstractTag
 {
 
     protected $Id = 'mixed';

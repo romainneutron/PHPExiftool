@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Leaf;
 
-class StdOutputFileType extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class StdOutputFileType extends AbstractTag
 {
 
     protected $Id = 'SaveObj_std_output_file_type';

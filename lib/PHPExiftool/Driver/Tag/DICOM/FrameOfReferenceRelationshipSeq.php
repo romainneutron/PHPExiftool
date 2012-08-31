@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class FrameOfReferenceRelationshipSeq extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class FrameOfReferenceRelationshipSeq extends AbstractTag
 {
 
     protected $Id = '3006,00C0';

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Qualcomm;
 
-class AFTraceStats47 extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class AFTraceStats47 extends AbstractTag
 {
 
     protected $Id = 'af_trace_stats[47]';

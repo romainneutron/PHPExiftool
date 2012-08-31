@@ -11,14 +11,16 @@
 
 namespace PHPExiftool\Driver\Tag\IFD0;
 
-class ImageWidth extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ImageWidth extends AbstractTag
 {
 
-    protected $Id = 'mixed';
+    protected $Id = 256;
 
     protected $Name = 'ImageWidth';
 
-    protected $FullName = 'mixed';
+    protected $FullName = 'Exif::Main';
 
     protected $GroupName = 'IFD0';
 
@@ -28,9 +30,9 @@ class ImageWidth extends \PHPExiftool\Driver\Tag
 
     protected $g2 = 'Image';
 
-    protected $Type = 'mixed';
+    protected $Type = 'int32u';
 
-    protected $Writable = false;
+    protected $Writable = true;
 
     protected $Description = 'Image Width';
 

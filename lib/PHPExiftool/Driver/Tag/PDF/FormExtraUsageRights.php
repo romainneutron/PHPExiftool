@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\PDF;
 
-class FormExtraUsageRights extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class FormExtraUsageRights extends AbstractTag
 {
 
     protected $Id = 'FormEX';

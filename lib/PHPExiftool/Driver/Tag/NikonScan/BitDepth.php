@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\NikonScan;
 
-class BitDepth extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class BitDepth extends AbstractTag
 {
 
     protected $Id = 65;

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class ExposureControlSensRegionRightEdge extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ExposureControlSensRegionRightEdge extends AbstractTag
 {
 
     protected $Id = '0018,9437';

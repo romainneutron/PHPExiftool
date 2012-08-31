@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Olympus;
 
-class ExternalFlashGuideNumber extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ExternalFlashGuideNumber extends AbstractTag
 {
 
     protected $Id = 4611;

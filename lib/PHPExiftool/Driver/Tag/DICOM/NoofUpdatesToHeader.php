@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class NoofUpdatesToHeader extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class NoofUpdatesToHeader extends AbstractTag
 {
 
     protected $Id = '0023,1074';

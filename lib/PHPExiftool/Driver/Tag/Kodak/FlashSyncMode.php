@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Kodak;
 
-class FlashSyncMode extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class FlashSyncMode extends AbstractTag
 {
 
     protected $Id = 'Flash Sync Mode';

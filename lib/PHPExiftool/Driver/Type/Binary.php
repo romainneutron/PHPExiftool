@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Type;
 
-class Binary
+use PHPExiftool\Driver\AbstractType;
+
+class Binary extends AbstractType
 {
 
     protected $ExiftoolName = 'binary';

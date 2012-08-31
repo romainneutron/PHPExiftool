@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MXF;
 
-class ByteOrder extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ByteOrder extends AbstractTag
 {
 
     protected $Id = '060e2b34.0101.0101.03010201.02000000';

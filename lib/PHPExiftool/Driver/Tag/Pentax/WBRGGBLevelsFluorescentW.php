@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Pentax;
 
-class WBRGGBLevelsFluorescentW extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class WBRGGBLevelsFluorescentW extends AbstractTag
 {
 
     protected $Id = 531;

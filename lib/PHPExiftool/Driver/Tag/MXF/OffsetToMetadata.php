@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MXF;
 
-class OffsetToMetadata extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class OffsetToMetadata extends AbstractTag
 {
 
     protected $Id = 'mixed';

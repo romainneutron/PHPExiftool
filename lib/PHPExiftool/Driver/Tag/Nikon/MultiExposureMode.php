@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Nikon;
 
-class MultiExposureMode extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class MultiExposureMode extends AbstractTag
 {
 
     protected $Id = 1;
@@ -48,6 +50,10 @@ class MultiExposureMode extends \PHPExiftool\Driver\Tag
         2 => array(
             'Id' => 2,
             'Label' => 'Image Overlay',
+        ),
+        3 => array(
+            'Id' => 3,
+            'Label' => 'HDR',
         ),
     );
 

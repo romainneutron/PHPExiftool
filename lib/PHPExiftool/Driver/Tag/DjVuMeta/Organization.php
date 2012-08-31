@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DjVuMeta;
 
-class Organization extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class Organization extends AbstractTag
 {
 
     protected $Id = 'organization';

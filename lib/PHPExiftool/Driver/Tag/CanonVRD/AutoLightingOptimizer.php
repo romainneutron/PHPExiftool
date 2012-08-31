@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\CanonVRD;
 
-class AutoLightingOptimizer extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class AutoLightingOptimizer extends AbstractTag
 {
 
     protected $Id = 111;

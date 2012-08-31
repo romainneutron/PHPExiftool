@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MXF;
 
-class PurchaserAccountName extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class PurchaserAccountName extends AbstractTag
 {
 
     protected $Id = 'mixed';

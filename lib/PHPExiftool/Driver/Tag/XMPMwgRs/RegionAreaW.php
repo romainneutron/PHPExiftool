@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPMwgRs;
 
-class RegionAreaW extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class RegionAreaW extends AbstractTag
 {
 
     protected $Id = 'RegionsRegionListAreaW';
@@ -28,10 +30,12 @@ class RegionAreaW extends \PHPExiftool\Driver\Tag
 
     protected $g2 = 'Image';
 
-    protected $Type = 'string';
+    protected $Type = 'real';
 
     protected $Writable = true;
 
     protected $Description = 'Region Area W';
+
+    protected $flag_List = true;
 
 }

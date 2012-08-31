@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\NikonCapture;
 
-class BrightnessAdj extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class BrightnessAdj extends AbstractTag
 {
 
     protected $Id = 'mixed';

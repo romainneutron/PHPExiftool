@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MIECamera;
 
-class ImageStabilization extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ImageStabilization extends AbstractTag
 {
 
     protected $Id = 'ImageStabilization';

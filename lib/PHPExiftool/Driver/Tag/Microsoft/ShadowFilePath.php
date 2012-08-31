@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Microsoft;
 
-class ShadowFilePath extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ShadowFilePath extends AbstractTag
 {
 
     protected $Id = 'ShadowFilePath';

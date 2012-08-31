@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class NotchFilterBandwidth extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class NotchFilterBandwidth extends AbstractTag
 {
 
     protected $Id = '003A,0223';

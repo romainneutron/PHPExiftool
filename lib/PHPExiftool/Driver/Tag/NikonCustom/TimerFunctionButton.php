@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\NikonCustom;
 
-class TimerFunctionButton extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class TimerFunctionButton extends AbstractTag
 {
 
     protected $Id = 'mixed';

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPCell;
 
-class CellGlobalID extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class CellGlobalID extends AbstractTag
 {
 
     protected $Id = 'cgi';

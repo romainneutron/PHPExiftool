@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPXmpBJ;
 
-class JobRef extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class JobRef extends AbstractTag
 {
 
     protected $Id = 'JobRef';
@@ -28,7 +30,7 @@ class JobRef extends \PHPExiftool\Driver\Tag
 
     protected $g2 = 'Other';
 
-    protected $Type = 'string';
+    protected $Type = 'struct';
 
     protected $Writable = true;
 

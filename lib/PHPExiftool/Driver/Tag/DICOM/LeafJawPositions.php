@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class LeafJawPositions extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class LeafJawPositions extends AbstractTag
 {
 
     protected $Id = '300A,011C';

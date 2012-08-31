@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\NikonCustom;
 
-class CommanderGroupATTLAAComp extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class CommanderGroupATTLAAComp extends AbstractTag
 {
 
     protected $Id = '13.1';

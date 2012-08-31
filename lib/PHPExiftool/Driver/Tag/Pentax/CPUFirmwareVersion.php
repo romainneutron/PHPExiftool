@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Pentax;
 
-class CPUFirmwareVersion extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class CPUFirmwareVersion extends AbstractTag
 {
 
     protected $Id = 40;

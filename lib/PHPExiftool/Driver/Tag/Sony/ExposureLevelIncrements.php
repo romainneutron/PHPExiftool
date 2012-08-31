@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Sony;
 
-class ExposureLevelIncrements extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ExposureLevelIncrements extends AbstractTag
 {
 
     protected $Id = 88;

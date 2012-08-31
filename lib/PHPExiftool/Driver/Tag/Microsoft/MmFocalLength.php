@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Microsoft;
 
-class MmFocalLength extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class MmFocalLength extends AbstractTag
 {
 
     protected $Id = '{A0E74609-B84D-4F49-B860-462BD9971F98} 100';

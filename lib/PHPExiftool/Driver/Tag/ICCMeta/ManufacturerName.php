@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\ICCMeta;
 
-class ManufacturerName extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ManufacturerName extends AbstractTag
 {
 
     protected $Id = 'ManufacturerName';

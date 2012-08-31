@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MXF;
 
-class SlateInformation extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class SlateInformation extends AbstractTag
 {
 
     protected $Id = '060e2b34.0101.0104.03020503.00000000';

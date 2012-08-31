@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class NominalScreenDefinitionSequence extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class NominalScreenDefinitionSequence extends AbstractTag
 {
 
     protected $Id = '0072,0102';

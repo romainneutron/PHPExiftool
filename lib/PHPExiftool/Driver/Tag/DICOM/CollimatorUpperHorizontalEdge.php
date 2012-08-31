@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class CollimatorUpperHorizontalEdge extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class CollimatorUpperHorizontalEdge extends AbstractTag
 {
 
     protected $Id = '0018,1706';

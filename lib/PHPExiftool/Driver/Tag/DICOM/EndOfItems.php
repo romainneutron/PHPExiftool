@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class EndOfItems extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class EndOfItems extends AbstractTag
 {
 
     protected $Id = 'FFFE,E00D';

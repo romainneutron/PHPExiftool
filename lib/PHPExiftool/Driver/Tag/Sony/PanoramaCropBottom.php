@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Sony;
 
-class PanoramaCropBottom extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class PanoramaCropBottom extends AbstractTag
 {
 
     protected $Id = 7;

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class OverlayBackgroundDensity extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class OverlayBackgroundDensity extends AbstractTag
 {
 
     protected $Id = '2040,0082';

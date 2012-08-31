@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class ImageCenterPointCoordinatesSeq extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ImageCenterPointCoordinatesSeq extends AbstractTag
 {
 
     protected $Id = '0040,071A';

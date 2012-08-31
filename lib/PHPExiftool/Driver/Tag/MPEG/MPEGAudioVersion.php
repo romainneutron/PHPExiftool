@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MPEG;
 
-class MPEGAudioVersion extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class MPEGAudioVersion extends AbstractTag
 {
 
     protected $Id = 'Bit11-12';

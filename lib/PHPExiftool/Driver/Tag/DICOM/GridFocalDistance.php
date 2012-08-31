@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class GridFocalDistance extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class GridFocalDistance extends AbstractTag
 {
 
     protected $Id = '0018,704C';

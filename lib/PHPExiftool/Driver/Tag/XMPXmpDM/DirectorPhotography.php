@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPXmpDM;
 
-class DirectorPhotography extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class DirectorPhotography extends AbstractTag
 {
 
     protected $Id = 'directorPhotography';

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MXF;
 
-class SignalFormCode extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class SignalFormCode extends AbstractTag
 {
 
     protected $Id = '060e2b34.0101.0101.04010201.01040000';

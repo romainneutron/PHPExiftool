@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Track;
 
-class TrackVolume extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class TrackVolume extends AbstractTag
 {
 
     protected $Id = 9;

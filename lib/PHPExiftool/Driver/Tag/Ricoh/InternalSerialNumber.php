@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Ricoh;
 
-class InternalSerialNumber extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class InternalSerialNumber extends AbstractTag
 {
 
     protected $Id = 5;

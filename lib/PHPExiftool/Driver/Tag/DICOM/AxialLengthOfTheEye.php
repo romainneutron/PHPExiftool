@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class AxialLengthOfTheEye extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class AxialLengthOfTheEye extends AbstractTag
 {
 
     protected $Id = '0022,0030';

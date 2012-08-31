@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class MaximumCoordinateValue extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class MaximumCoordinateValue extends AbstractTag
 {
 
     protected $Id = '50xx,0105';

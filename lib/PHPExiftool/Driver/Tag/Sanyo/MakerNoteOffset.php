@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Sanyo;
 
-class MakerNoteOffset extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class MakerNoteOffset extends AbstractTag
 {
 
     protected $Id = 255;

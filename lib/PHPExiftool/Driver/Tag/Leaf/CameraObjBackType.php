@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Leaf;
 
-class CameraObjBackType extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class CameraObjBackType extends AbstractTag
 {
 
     protected $Id = 'CameraObj_back_type';

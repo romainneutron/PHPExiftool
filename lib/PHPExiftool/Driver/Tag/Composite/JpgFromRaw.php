@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Composite;
 
-class JpgFromRaw extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class JpgFromRaw extends AbstractTag
 {
 
     protected $Id = 'JpgFromRaw';

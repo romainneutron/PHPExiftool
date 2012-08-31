@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MXF;
 
-class MaximumGOPSize extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class MaximumGOPSize extends AbstractTag
 {
 
     protected $Id = '060e2b34.0101.0105.04010602.01080000';

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\RealRA5;
 
-class FourCC1 extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class FourCC1 extends AbstractTag
 {
 
     protected $Id = 0;

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPXmpRights;
 
-class Certificate extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class Certificate extends AbstractTag
 {
 
     protected $Id = 'Certificate';

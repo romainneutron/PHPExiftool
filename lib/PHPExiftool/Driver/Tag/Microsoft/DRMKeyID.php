@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Microsoft;
 
-class DRMKeyID extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class DRMKeyID extends AbstractTag
 {
 
     protected $Id = 'DRMKeyID';

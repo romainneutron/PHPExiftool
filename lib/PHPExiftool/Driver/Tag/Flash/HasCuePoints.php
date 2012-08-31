@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Flash;
 
-class HasCuePoints extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class HasCuePoints extends AbstractTag
 {
 
     protected $Id = 'hasCuePoints';

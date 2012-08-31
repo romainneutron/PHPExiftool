@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\PDF;
 
-class Trapped extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class Trapped extends AbstractTag
 {
 
     protected $Id = 'Trapped';

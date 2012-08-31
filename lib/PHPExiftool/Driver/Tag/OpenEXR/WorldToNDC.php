@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\OpenEXR;
 
-class WorldToNDC extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class WorldToNDC extends AbstractTag
 {
 
     protected $Id = 'worldToNDC';

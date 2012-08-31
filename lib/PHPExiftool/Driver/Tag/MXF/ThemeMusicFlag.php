@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MXF;
 
-class ThemeMusicFlag extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ThemeMusicFlag extends AbstractTag
 {
 
     protected $Id = '060e2b34.0101.0105.05010403.00000000';

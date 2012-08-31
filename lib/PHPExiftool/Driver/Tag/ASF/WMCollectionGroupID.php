@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\ASF;
 
-class WMCollectionGroupID extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class WMCollectionGroupID extends AbstractTag
 {
 
     protected $Id = 'WMCollectionGroupID';

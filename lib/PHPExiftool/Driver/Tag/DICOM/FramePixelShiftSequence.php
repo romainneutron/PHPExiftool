@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class FramePixelShiftSequence extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class FramePixelShiftSequence extends AbstractTag
 {
 
     protected $Id = '0028,9415';

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class VitalStainCodeSequenceTrial extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class VitalStainCodeSequenceTrial extends AbstractTag
 {
 
     protected $Id = '0040,09F8';

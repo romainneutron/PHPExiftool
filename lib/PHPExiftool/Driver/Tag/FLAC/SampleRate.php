@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\FLAC;
 
-class SampleRate extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class SampleRate extends AbstractTag
 {
 
     protected $Id = 'Bit080-099';

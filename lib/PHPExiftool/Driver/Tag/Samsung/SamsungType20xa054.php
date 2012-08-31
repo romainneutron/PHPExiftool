@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Samsung;
 
-class SamsungType20xa054 extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class SamsungType20xa054 extends AbstractTag
 {
 
     protected $Id = 41044;

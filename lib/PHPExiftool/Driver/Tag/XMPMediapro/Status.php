@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPMediapro;
 
-class Status extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class Status extends AbstractTag
 {
 
     protected $Id = 'Status';

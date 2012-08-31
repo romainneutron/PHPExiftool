@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPAcdsee;
 
-class Categories extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class Categories extends AbstractTag
 {
 
     protected $Id = 'categories';

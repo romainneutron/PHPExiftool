@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Canon;
 
-class CroppedImageLeft extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class CroppedImageLeft extends AbstractTag
 {
 
     protected $Id = 3;

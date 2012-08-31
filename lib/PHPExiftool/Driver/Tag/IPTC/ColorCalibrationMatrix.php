@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\IPTC;
 
-class ColorCalibrationMatrix extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ColorCalibrationMatrix extends AbstractTag
 {
 
     protected $Id = 70;

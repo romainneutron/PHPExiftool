@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\ZIP;
 
-class ExtraFlags extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ExtraFlags extends AbstractTag
 {
 
     protected $Id = 8;

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class IsocenterToRangeModulatorDistance extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class IsocenterToRangeModulatorDistance extends AbstractTag
 {
 
     protected $Id = '300A,038A';

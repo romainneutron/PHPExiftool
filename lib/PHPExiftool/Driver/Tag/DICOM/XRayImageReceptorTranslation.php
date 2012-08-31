@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class XRayImageReceptorTranslation extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class XRayImageReceptorTranslation extends AbstractTag
 {
 
     protected $Id = '3002,000D';

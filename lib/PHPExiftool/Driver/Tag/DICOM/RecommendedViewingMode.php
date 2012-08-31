@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class RecommendedViewingMode extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class RecommendedViewingMode extends AbstractTag
 {
 
     protected $Id = '0028,1090';

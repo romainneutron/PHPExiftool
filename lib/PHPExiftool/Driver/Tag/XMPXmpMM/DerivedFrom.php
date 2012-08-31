@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPXmpMM;
 
-class DerivedFrom extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class DerivedFrom extends AbstractTag
 {
 
     protected $Id = 'DerivedFrom';
@@ -28,7 +30,7 @@ class DerivedFrom extends \PHPExiftool\Driver\Tag
 
     protected $g2 = 'Other';
 
-    protected $Type = 'string';
+    protected $Type = 'struct';
 
     protected $Writable = true;
 

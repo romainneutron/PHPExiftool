@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\ID3v1Enh;
 
-class Speed extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class Speed extends AbstractTag
 {
 
     protected $Id = 184;

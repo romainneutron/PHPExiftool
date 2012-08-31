@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\IFD0;
 
-class PanasonicTitle2 extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class PanasonicTitle2 extends AbstractTag
 {
 
     protected $Id = 50899;

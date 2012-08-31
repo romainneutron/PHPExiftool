@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\FlashPix;
 
-class ContentDescriptionNotes extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ContentDescriptionNotes extends AbstractTag
 {
 
     protected $Id = 587202575;

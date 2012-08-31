@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Canon;
 
-class FocusDistanceLower extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class FocusDistanceLower extends AbstractTag
 {
 
     protected $Id = 'mixed';

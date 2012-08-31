@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPPlus;
 
-class ProductOrServiceConstraints extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ProductOrServiceConstraints extends AbstractTag
 {
 
     protected $Id = 'ProductOrServiceConstraints';

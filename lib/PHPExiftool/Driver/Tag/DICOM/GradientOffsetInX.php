@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class GradientOffsetInX extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class GradientOffsetInX extends AbstractTag
 {
 
     protected $Id = '0043,1002';

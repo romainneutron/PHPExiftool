@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class SnoutPositionTolerance extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class SnoutPositionTolerance extends AbstractTag
 {
 
     protected $Id = '300A,004B';

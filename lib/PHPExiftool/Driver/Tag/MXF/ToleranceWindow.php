@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MXF;
 
-class ToleranceWindow extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ToleranceWindow extends AbstractTag
 {
 
     protected $Id = '060e2b34.0101.0109.07020502.00000000';

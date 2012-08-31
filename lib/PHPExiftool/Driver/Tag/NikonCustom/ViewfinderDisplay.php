@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\NikonCustom;
 
-class ViewfinderDisplay extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ViewfinderDisplay extends AbstractTag
 {
 
     protected $Id = '12.4';

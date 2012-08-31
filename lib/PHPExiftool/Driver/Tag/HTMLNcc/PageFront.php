@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\HTMLNcc;
 
-class PageFront extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class PageFront extends AbstractTag
 {
 
     protected $Id = 'pagefront';

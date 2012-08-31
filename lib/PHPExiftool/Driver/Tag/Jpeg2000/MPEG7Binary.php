@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Jpeg2000;
 
-class MPEG7Binary extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class MPEG7Binary extends AbstractTag
 {
 
     protected $Id = 'mp7b';

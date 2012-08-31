@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class TableHeadTiltAngle extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class TableHeadTiltAngle extends AbstractTag
 {
 
     protected $Id = '0018,9470';

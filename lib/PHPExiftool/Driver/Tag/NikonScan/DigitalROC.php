@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\NikonScan;
 
-class DigitalROC extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class DigitalROC extends AbstractTag
 {
 
     protected $Id = 0;

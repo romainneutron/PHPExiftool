@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\CanonCustom;
 
-class AFPointSelectionMethod extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class AFPointSelectionMethod extends AbstractTag
 {
 
     protected $Id = 'mixed';

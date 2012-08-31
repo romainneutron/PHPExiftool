@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\FotoStation;
 
-class ColorPlanes extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ColorPlanes extends AbstractTag
 {
 
     protected $Id = 2;

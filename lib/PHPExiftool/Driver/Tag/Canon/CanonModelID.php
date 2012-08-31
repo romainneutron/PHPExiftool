@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Canon;
 
-class CanonModelID extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class CanonModelID extends AbstractTag
 {
 
     protected $Id = 16;
@@ -645,6 +647,10 @@ class CanonModelID extends \PHPExiftool\Driver\Tag
             'Id' => 51773440,
             'Label' => 'PowerShot A1300',
         ),
+        51838976 => array(
+            'Id' => 51838976,
+            'Label' => 'PowerShot A810',
+        ),
         51904512 => array(
             'Id' => 51904512,
             'Label' => 'PowerShot ELPH 320 HS / IXUS 240 HS / IXY 420F',
@@ -688,6 +694,14 @@ class CanonModelID extends \PHPExiftool\Driver\Tag
         52953088 => array(
             'Id' => 52953088,
             'Label' => 'PowerShot A2300',
+        ),
+        53805056 => array(
+            'Id' => 53805056,
+            'Label' => 'PowerShot SX160 IS',
+        ),
+        53936128 => array(
+            'Id' => 53936128,
+            'Label' => 'PowerShot SX500 IS',
         ),
         67371008 => array(
             'Id' => 67371008,

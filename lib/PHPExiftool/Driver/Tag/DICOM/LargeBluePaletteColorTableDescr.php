@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class LargeBluePaletteColorTableDescr extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class LargeBluePaletteColorTableDescr extends AbstractTag
 {
 
     protected $Id = '0028,1113';

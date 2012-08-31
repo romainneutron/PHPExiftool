@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MXF;
 
-class ElementDelta extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ElementDelta extends AbstractTag
 {
 
     protected $Id = '060e2b34.0101.0104.04040401.03000000';

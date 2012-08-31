@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class SegmentAlgorithmType extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class SegmentAlgorithmType extends AbstractTag
 {
 
     protected $Id = '0062,0008';

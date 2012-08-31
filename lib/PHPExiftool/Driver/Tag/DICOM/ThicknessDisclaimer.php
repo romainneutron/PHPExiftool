@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class ThicknessDisclaimer extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ThicknessDisclaimer extends AbstractTag
 {
 
     protected $Id = '0019,10CD';

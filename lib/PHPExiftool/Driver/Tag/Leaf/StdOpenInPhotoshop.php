@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Leaf;
 
-class StdOpenInPhotoshop extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class StdOpenInPhotoshop extends AbstractTag
 {
 
     protected $Id = 'SaveObj_std_open_in_photoshop';

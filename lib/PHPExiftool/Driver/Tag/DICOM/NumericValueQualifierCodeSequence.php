@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class NumericValueQualifierCodeSequence extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class NumericValueQualifierCodeSequence extends AbstractTag
 {
 
     protected $Id = '0040,A301';

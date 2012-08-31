@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\RealRA3;
 
-class CopyrightLen extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class CopyrightLen extends AbstractTag
 {
 
     protected $Id = 8;

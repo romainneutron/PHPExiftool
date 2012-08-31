@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class DirectoryRecordType extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class DirectoryRecordType extends AbstractTag
 {
 
     protected $Id = '0004,1430';

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPMP1;
 
-class PanoramicStitchPhi0 extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class PanoramicStitchPhi0 extends AbstractTag
 {
 
     protected $Id = 'PanoramicStitchPhi0';

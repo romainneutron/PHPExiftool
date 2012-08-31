@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class SurfaceProcessing extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class SurfaceProcessing extends AbstractTag
 {
 
     protected $Id = '0066,0009';

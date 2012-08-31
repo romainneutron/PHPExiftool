@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class RASLetterForSideOfImage extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class RASLetterForSideOfImage extends AbstractTag
 {
 
     protected $Id = '0027,1052';

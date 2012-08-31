@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MXF;
 
-class BitsPerSample extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class BitsPerSample extends AbstractTag
 {
 
     protected $Id = '060e2b34.0101.0101.04020303.01000000';

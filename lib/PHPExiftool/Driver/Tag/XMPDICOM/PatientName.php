@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPDICOM;
 
-class PatientName extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class PatientName extends AbstractTag
 {
 
     protected $Id = 'PatientName';

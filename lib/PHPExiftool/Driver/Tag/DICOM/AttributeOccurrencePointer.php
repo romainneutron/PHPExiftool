@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class AttributeOccurrencePointer extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class AttributeOccurrencePointer extends AbstractTag
 {
 
     protected $Id = '0074,1052';

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\PSP;
 
-class ImageResolution extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ImageResolution extends AbstractTag
 {
 
     protected $Id = 8;

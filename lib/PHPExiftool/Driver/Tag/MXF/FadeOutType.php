@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MXF;
 
-class FadeOutType extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class FadeOutType extends AbstractTag
 {
 
     protected $Id = '060e2b34.0101.0101.05300502.00000000';

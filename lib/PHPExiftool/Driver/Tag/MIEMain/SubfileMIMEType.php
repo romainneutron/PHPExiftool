@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MIEMain;
 
-class SubfileMIMEType extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class SubfileMIMEType extends AbstractTag
 {
 
     protected $Id = '2MIME';

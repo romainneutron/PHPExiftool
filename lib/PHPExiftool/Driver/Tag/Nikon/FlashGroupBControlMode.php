@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Nikon;
 
-class FlashGroupBControlMode extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class FlashGroupBControlMode extends AbstractTag
 {
 
     protected $Id = 'mixed';

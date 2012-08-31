@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\GPS;
 
-class GPSTrack extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class GPSTrack extends AbstractTag
 {
 
     protected $Id = 'mixed';

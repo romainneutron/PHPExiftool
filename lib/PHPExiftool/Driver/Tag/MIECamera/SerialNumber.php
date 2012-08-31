@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MIECamera;
 
-class SerialNumber extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class SerialNumber extends AbstractTag
 {
 
     protected $Id = 'SerialNumber';

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\RIFF;
 
-class DefaultAudioStream extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class DefaultAudioStream extends AbstractTag
 {
 
     protected $Id = 'ICAS';

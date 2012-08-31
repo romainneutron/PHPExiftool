@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\AC3;
 
-class AudioBitrate extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class AudioBitrate extends AbstractTag
 {
 
     protected $Id = 'AudioBitrate';

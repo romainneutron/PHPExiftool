@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MXF;
 
-class ObliquityAngle extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ObliquityAngle extends AbstractTag
 {
 
     protected $Id = '060e2b34.0101.0101.07011001.03000000';

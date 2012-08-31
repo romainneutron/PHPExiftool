@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\SubIFD;
 
-class DefaultCropOrigin extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class DefaultCropOrigin extends AbstractTag
 {
 
     protected $Id = 50719;

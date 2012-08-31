@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Type;
 
-class Real
+use PHPExiftool\Driver\AbstractType;
+
+class Real extends AbstractType
 {
 
     protected $ExiftoolName = 'real';

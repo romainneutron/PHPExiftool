@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class VideoImageFormatAcquired extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class VideoImageFormatAcquired extends AbstractTag
 {
 
     protected $Id = '0018,1022';

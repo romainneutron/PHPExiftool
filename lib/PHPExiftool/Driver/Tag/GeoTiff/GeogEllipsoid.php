@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\GeoTiff;
 
-class GeogEllipsoid extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class GeogEllipsoid extends AbstractTag
 {
 
     protected $Id = 2056;

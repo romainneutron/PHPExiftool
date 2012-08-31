@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Olympus;
 
-class ZoomedPreviewLength extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ZoomedPreviewLength extends AbstractTag
 {
 
     protected $Id = 3845;

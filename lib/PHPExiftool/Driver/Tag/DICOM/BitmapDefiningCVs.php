@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class BitmapDefiningCVs extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class BitmapDefiningCVs extends AbstractTag
 {
 
     protected $Id = '0019,1097';

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\RealRA5;
 
-class Channels extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class Channels extends AbstractTag
 {
 
     protected $Id = 15;

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPXmpRights;
 
-class Owner extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class Owner extends AbstractTag
 {
 
     protected $Id = 'Owner';

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class BackProjectorCoefficient extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class BackProjectorCoefficient extends AbstractTag
 {
 
     protected $Id = '0019,10DB';

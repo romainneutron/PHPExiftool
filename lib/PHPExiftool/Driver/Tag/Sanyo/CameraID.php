@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Sanyo;
 
-class CameraID extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class CameraID extends AbstractTag
 {
 
     protected $Id = 521;

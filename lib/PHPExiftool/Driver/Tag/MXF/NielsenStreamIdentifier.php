@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MXF;
 
-class NielsenStreamIdentifier extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class NielsenStreamIdentifier extends AbstractTag
 {
 
     protected $Id = '060e2b34.0101.0101.0d010401.03010900';

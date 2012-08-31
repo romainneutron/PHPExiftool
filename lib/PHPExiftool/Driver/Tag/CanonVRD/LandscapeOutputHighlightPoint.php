@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\CanonVRD;
 
-class LandscapeOutputHighlightPoint extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class LandscapeOutputHighlightPoint extends AbstractTag
 {
 
     protected $Id = 38;

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\SPIFF;
 
-class SPIFFVersion extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class SPIFFVersion extends AbstractTag
 {
 
     protected $Id = 0;

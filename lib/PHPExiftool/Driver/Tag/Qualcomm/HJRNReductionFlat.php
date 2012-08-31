@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Qualcomm;
 
-class HJRNReductionFlat extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class HJRNReductionFlat extends AbstractTag
 {
 
     protected $Id = 'HJR_n_reduction_flat';

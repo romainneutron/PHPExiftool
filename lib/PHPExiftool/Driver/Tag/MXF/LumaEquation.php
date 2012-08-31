@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MXF;
 
-class LumaEquation extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class LumaEquation extends AbstractTag
 {
 
     protected $Id = '060e2b34.0101.0101.04010201.01020000';

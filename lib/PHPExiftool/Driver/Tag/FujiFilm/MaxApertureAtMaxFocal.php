@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\FujiFilm;
 
-class MaxApertureAtMaxFocal extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class MaxApertureAtMaxFocal extends AbstractTag
 {
 
     protected $Id = 5127;

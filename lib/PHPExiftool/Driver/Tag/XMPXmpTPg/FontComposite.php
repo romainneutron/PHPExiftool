@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPXmpTPg;
 
-class FontComposite extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class FontComposite extends AbstractTag
 {
 
     protected $Id = 'FontsComposite';
@@ -28,10 +30,12 @@ class FontComposite extends \PHPExiftool\Driver\Tag
 
     protected $g2 = 'Image';
 
-    protected $Type = 'string';
+    protected $Type = 'boolean';
 
     protected $Writable = true;
 
     protected $Description = 'Font Composite';
+
+    protected $flag_List = true;
 
 }

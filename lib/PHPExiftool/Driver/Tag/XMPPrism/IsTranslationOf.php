@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPPrism;
 
-class IsTranslationOf extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class IsTranslationOf extends AbstractTag
 {
 
     protected $Id = 'isTranslationOf';

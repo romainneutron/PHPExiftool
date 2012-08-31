@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MXF;
 
-class RelativeTrack extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class RelativeTrack extends AbstractTag
 {
 
     protected $Id = '060e2b34.0101.0102.06010103.04000000';

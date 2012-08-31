@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\H264;
 
-class ImageHeight extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ImageHeight extends AbstractTag
 {
 
     protected $Id = 'ImageHeight';

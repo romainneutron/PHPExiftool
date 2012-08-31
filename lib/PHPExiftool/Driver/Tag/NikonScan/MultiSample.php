@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\NikonScan;
 
-class MultiSample extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class MultiSample extends AbstractTag
 {
 
     protected $Id = 64;

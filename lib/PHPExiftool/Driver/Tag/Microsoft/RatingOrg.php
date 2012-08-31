@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Microsoft;
 
-class RatingOrg extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class RatingOrg extends AbstractTag
 {
 
     protected $Id = 'RatingOrg';

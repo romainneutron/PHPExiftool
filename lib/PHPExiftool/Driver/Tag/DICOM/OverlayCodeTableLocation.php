@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class OverlayCodeTableLocation extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class OverlayCodeTableLocation extends AbstractTag
 {
 
     protected $Id = '60xx,0803';

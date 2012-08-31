@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Font;
 
-class PitchAndFamily extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class PitchAndFamily extends AbstractTag
 {
 
     protected $Id = 90;

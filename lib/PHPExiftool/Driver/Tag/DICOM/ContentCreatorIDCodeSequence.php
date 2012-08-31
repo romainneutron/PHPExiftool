@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class ContentCreatorIDCodeSequence extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ContentCreatorIDCodeSequence extends AbstractTag
 {
 
     protected $Id = '0070,0086';

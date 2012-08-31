@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Leaf;
 
-class CaptureObjBackType extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class CaptureObjBackType extends AbstractTag
 {
 
     protected $Id = 'CaptureObj_back_type';

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class CylinderLensPower extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class CylinderLensPower extends AbstractTag
 {
 
     protected $Id = '0022,0008';

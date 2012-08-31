@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\LNK;
 
-class WorkingDirectory extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class WorkingDirectory extends AbstractTag
 {
 
     protected $Id = 196624;

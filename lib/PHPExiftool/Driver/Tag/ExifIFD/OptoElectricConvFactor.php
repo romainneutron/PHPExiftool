@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\ExifIFD;
 
-class OptoElectricConvFactor extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class OptoElectricConvFactor extends AbstractTag
 {
 
     protected $Id = 34856;

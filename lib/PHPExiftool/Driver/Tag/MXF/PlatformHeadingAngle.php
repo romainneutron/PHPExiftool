@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MXF;
 
-class PlatformHeadingAngle extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class PlatformHeadingAngle extends AbstractTag
 {
 
     protected $Id = '060e2b34.0101.0107.07011001.06000000';

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Qualcomm;
 
-class AWBNormVfeC4 extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class AWBNormVfeC4 extends AbstractTag
 {
 
     protected $Id = 'awb_norm_vfe_c4';

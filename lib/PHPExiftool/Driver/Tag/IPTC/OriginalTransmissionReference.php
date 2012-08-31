@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\IPTC;
 
-class OriginalTransmissionReference extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class OriginalTransmissionReference extends AbstractTag
 {
 
     protected $Id = 103;

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MIEExtender;
 
-class ExtenderMagnification extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ExtenderMagnification extends AbstractTag
 {
 
     protected $Id = 'Magnification';

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Microsoft;
 
-class BroadcastDate extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class BroadcastDate extends AbstractTag
 {
 
     protected $Id = '{4684FE97-8765-4842-9C13-F006447B178C} 100';

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MXF;
 
-class AuxiliaryBitsMode extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class AuxiliaryBitsMode extends AbstractTag
 {
 
     protected $Id = '060e2b34.0101.0105.04020501.01000000';

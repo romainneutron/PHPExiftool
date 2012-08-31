@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\HTMLNcc;
 
-class RevisionDate extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class RevisionDate extends AbstractTag
 {
 
     protected $Id = 'revisiondate';

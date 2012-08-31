@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Canon;
 
-class WBRGGBLevelsFluorescent extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class WBRGGBLevelsFluorescent extends AbstractTag
 {
 
     protected $Id = 'mixed';

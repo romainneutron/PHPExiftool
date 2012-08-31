@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\ICCProfile;
 
-class ProfileDescriptionML extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ProfileDescriptionML extends AbstractTag
 {
 
     protected $Id = 'dscm';

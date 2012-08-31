@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\SR2SubIFD;
 
-class WBRGGBLevels extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class WBRGGBLevels extends AbstractTag
 {
 
     protected $Id = 29459;

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Microsoft;
 
-class ReminderTime extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ReminderTime extends AbstractTag
 {
 
     protected $Id = '{72FC5BA4-24F9-4011-9F3F-ADD27AFAD818} 100';

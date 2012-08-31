@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\ASF;
 
-class CurrentBitrate extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class CurrentBitrate extends AbstractTag
 {
 
     protected $Id = 'CurrentBitrate';

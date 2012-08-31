@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MPF0;
 
-class YawAngle extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class YawAngle extends AbstractTag
 {
 
     protected $Id = 45579;

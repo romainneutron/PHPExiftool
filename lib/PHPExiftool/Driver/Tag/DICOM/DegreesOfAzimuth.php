@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class DegreesOfAzimuth extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class DegreesOfAzimuth extends AbstractTag
 {
 
     protected $Id = '0019,1026';

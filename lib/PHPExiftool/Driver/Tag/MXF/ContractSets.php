@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MXF;
 
-class ContractSets extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ContractSets extends AbstractTag
 {
 
     protected $Id = '060e2b34.0101.0105.06010104.05401900';

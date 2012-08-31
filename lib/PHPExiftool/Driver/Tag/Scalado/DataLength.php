@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Scalado;
 
-class DataLength extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class DataLength extends AbstractTag
 {
 
     protected $Id = 'SPMO';

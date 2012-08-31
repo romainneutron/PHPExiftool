@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPPlus;
 
-class AdultContentWarning extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class AdultContentWarning extends AbstractTag
 {
 
     protected $Id = 'AdultContentWarning';

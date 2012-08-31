@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class PlaneOrientationSequence extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class PlaneOrientationSequence extends AbstractTag
 {
 
     protected $Id = '0020,9116';

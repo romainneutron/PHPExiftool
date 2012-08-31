@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\EXE;
 
-class OriginalFilename extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class OriginalFilename extends AbstractTag
 {
 
     protected $Id = 'OriginalFilename';

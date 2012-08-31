@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class ROIPhysicalProperty extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ROIPhysicalProperty extends AbstractTag
 {
 
     protected $Id = '3006,00B2';

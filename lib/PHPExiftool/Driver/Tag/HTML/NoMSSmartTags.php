@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\HTML;
 
-class NoMSSmartTags extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class NoMSSmartTags extends AbstractTag
 {
 
     protected $Id = 'mssmarttagspreventparsing';

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MXF;
 
-class SMPTE337MDataStreamNumber extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class SMPTE337MDataStreamNumber extends AbstractTag
 {
 
     protected $Id = '060e2b34.0101.010c.04020501.08000000';

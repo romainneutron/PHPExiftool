@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPPur;
 
-class ReuseProhibited extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ReuseProhibited extends AbstractTag
 {
 
     protected $Id = 'reuseProhibited';

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class VariableCoefficientsSDHN extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class VariableCoefficientsSDHN extends AbstractTag
 {
 
     protected $Id = '7Fxx,0030';

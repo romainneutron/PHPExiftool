@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Vorbis;
 
-class Performer extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class Performer extends AbstractTag
 {
 
     protected $Id = 'PERFORMER';

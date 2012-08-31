@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class ROIElementalCompAtomicNumber extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ROIElementalCompAtomicNumber extends AbstractTag
 {
 
     protected $Id = '3006,00B7';

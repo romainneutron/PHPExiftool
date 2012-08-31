@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Leaf;
 
-class CenterDarkRect extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class CenterDarkRect extends AbstractTag
 {
 
     protected $Id = 'CaptProf_center_dark_rect';

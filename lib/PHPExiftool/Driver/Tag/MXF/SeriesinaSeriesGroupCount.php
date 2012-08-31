@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MXF;
 
-class SeriesinaSeriesGroupCount extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class SeriesinaSeriesGroupCount extends AbstractTag
 {
 
     protected $Id = '060e2b34.0101.0103.02020200.00000000';

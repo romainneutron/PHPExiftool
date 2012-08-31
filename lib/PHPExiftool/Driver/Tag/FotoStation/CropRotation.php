@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\FotoStation;
 
-class CropRotation extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class CropRotation extends AbstractTag
 {
 
     protected $Id = 11;

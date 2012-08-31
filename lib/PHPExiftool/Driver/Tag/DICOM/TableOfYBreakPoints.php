@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class TableOfYBreakPoints extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class TableOfYBreakPoints extends AbstractTag
 {
 
     protected $Id = '0018,6054';

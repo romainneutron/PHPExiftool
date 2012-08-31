@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPRdf;
 
-class About extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class About extends AbstractTag
 {
 
     protected $Id = 'about';

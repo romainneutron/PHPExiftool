@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\CanonVRD;
 
-class FaithfulUnsharpMaskThreshold extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class FaithfulUnsharpMaskThreshold extends AbstractTag
 {
 
     protected $Id = 174;

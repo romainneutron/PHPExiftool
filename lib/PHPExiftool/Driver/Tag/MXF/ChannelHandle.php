@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MXF;
 
-class ChannelHandle extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ChannelHandle extends AbstractTag
 {
 
     protected $Id = '060e2b34.0101.0102.01030401.00000000';

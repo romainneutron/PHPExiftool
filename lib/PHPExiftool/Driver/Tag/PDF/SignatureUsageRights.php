@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\PDF;
 
-class SignatureUsageRights extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class SignatureUsageRights extends AbstractTag
 {
 
     protected $Id = 'Signature';

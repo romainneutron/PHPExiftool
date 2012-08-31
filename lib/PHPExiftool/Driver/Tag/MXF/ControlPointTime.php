@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MXF;
 
-class ControlPointTime extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ControlPointTime extends AbstractTag
 {
 
     protected $Id = '060e2b34.0101.0102.07020103.10020100';

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\SRF;
 
-class RawDataLength extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class RawDataLength extends AbstractTag
 {
 
     protected $Id = 5;

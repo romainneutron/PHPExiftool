@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPExif;
 
-class CompressedBitsPerPixel extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class CompressedBitsPerPixel extends AbstractTag
 {
 
     protected $Id = 'CompressedBitsPerPixel';

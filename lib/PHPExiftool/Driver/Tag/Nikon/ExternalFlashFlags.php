@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Nikon;
 
-class ExternalFlashFlags extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ExternalFlashFlags extends AbstractTag
 {
 
     protected $Id = 8;

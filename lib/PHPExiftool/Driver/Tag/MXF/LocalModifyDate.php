@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MXF;
 
-class LocalModifyDate extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class LocalModifyDate extends AbstractTag
 {
 
     protected $Id = '060e2b34.0101.0101.07020110.02010000';

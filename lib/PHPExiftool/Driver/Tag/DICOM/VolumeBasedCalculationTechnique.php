@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class VolumeBasedCalculationTechnique extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class VolumeBasedCalculationTechnique extends AbstractTag
 {
 
     protected $Id = '0008,9207';

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\FlashPix;
 
-class ScreenNail extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ScreenNail extends AbstractTag
 {
 
     protected $Id = '\\x05Screen Nail';

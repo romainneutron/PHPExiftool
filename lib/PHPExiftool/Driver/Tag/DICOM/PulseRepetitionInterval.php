@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class PulseRepetitionInterval extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class PulseRepetitionInterval extends AbstractTag
 {
 
     protected $Id = '300A,028C';

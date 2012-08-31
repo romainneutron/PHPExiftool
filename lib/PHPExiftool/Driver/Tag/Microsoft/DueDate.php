@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Microsoft;
 
-class DueDate extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class DueDate extends AbstractTag
 {
 
     protected $Id = '{3F8472B5-E0AF-4DB2-8071-C53FE76AE7CE} 100';

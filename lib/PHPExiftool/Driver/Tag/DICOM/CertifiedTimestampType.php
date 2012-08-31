@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class CertifiedTimestampType extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class CertifiedTimestampType extends AbstractTag
 {
 
     protected $Id = '0400,0305';

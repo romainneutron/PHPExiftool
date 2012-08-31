@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class SubstanceAdministrationDeviceID extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class SubstanceAdministrationDeviceID extends AbstractTag
 {
 
     protected $Id = '0044,0012';

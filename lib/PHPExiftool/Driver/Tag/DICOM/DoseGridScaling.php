@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class DoseGridScaling extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class DoseGridScaling extends AbstractTag
 {
 
     protected $Id = '3004,000E';

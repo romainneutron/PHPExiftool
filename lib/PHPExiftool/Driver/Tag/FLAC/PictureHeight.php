@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\FLAC;
 
-class PictureHeight extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class PictureHeight extends AbstractTag
 {
 
     protected $Id = 4;

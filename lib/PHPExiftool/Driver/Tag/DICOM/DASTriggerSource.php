@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class DASTriggerSource extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class DASTriggerSource extends AbstractTag
 {
 
     protected $Id = '0043,1042';

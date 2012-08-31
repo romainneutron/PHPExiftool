@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MXF;
 
-class PeakEnvelope extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class PeakEnvelope extends AbstractTag
 {
 
     protected $Id = '060e2b34.0101.0105.04020301.05000000';

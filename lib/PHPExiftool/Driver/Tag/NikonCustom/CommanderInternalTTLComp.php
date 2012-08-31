@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\NikonCustom;
 
-class CommanderInternalTTLComp extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class CommanderInternalTTLComp extends AbstractTag
 {
 
     protected $Id = 'mixed';

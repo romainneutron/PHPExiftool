@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class MaskSubtractionSequence extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class MaskSubtractionSequence extends AbstractTag
 {
 
     protected $Id = '0028,6100';

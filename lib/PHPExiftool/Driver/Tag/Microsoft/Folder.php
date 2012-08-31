@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Microsoft;
 
-class Folder extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class Folder extends AbstractTag
 {
 
     protected $Id = '{DABD30ED-0043-4789-A7F8-D013A4736622} 100';

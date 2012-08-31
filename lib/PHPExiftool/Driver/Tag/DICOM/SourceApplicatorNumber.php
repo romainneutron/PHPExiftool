@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class SourceApplicatorNumber extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class SourceApplicatorNumber extends AbstractTag
 {
 
     protected $Id = '300A,0290';

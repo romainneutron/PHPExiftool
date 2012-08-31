@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Microsoft;
 
-class PlaylistIndex extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class PlaylistIndex extends AbstractTag
 {
 
     protected $Id = 'PlaylistIndex';

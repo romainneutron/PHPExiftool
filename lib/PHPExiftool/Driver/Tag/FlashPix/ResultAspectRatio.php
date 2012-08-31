@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\FlashPix;
 
-class ResultAspectRatio extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ResultAspectRatio extends AbstractTag
 {
 
     protected $Id = 268435456;

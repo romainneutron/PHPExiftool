@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class DoubleExposureOrdering extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class DoubleExposureOrdering extends AbstractTag
 {
 
     protected $Id = '0074,1036';

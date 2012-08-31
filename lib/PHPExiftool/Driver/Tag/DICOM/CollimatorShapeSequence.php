@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class CollimatorShapeSequence extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class CollimatorShapeSequence extends AbstractTag
 {
 
     protected $Id = '0018,9407';

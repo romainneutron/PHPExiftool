@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\HTMLDc;
 
-class Relation extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class Relation extends AbstractTag
 {
 
     protected $Id = 'relation';

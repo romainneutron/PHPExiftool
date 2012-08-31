@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class ViewWeightingMode extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ViewWeightingMode extends AbstractTag
 {
 
     protected $Id = '0045,1008';

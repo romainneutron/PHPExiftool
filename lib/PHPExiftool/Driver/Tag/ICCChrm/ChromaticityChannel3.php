@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\ICCChrm;
 
-class ChromaticityChannel3 extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ChromaticityChannel3 extends AbstractTag
 {
 
     protected $Id = 28;

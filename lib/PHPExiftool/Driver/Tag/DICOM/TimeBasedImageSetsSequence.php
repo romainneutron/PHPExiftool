@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class TimeBasedImageSetsSequence extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class TimeBasedImageSetsSequence extends AbstractTag
 {
 
     protected $Id = '0072,0030';

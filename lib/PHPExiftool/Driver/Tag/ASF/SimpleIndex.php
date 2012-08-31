@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\ASF;
 
-class SimpleIndex extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class SimpleIndex extends AbstractTag
 {
 
     protected $Id = '33000890-E5B1-11CF-89F4-00A0C90349CB';

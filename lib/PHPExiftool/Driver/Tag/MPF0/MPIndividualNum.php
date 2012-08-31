@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MPF0;
 
-class MPIndividualNum extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class MPIndividualNum extends AbstractTag
 {
 
     protected $Id = 45313;

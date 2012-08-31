@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Microsoft;
 
-class AuthorSortOrder extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class AuthorSortOrder extends AbstractTag
 {
 
     protected $Id = 'AuthorSortOrder';

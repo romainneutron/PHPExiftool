@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\ID3v24;
 
-class BeatsPerMinute extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class BeatsPerMinute extends AbstractTag
 {
 
     protected $Id = 'TBPM';

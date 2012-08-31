@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class MaximumOffsetShiftValueUsed extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class MaximumOffsetShiftValueUsed extends AbstractTag
 {
 
     protected $Id = '0045,100B';

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class TriggerDelayTime extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class TriggerDelayTime extends AbstractTag
 {
 
     protected $Id = '0020,9153';

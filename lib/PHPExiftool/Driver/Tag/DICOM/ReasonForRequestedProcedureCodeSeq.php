@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class ReasonForRequestedProcedureCodeSeq extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ReasonForRequestedProcedureCodeSeq extends AbstractTag
 {
 
     protected $Id = '0040,100A';

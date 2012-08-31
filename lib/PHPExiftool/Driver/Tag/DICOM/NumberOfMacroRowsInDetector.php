@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class NumberOfMacroRowsInDetector extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class NumberOfMacroRowsInDetector extends AbstractTag
 {
 
     protected $Id = '0045,1001';

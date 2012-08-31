@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Microsoft;
 
-class CameraManufacturer extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class CameraManufacturer extends AbstractTag
 {
 
     protected $Id = 'CameraManufacturer';

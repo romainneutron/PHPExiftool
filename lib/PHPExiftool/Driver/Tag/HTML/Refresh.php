@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\HTML;
 
-class Refresh extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class Refresh extends AbstractTag
 {
 
     protected $Id = 'refresh';

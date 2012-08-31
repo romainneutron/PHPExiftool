@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Canon;
 
-class BlackMaskLeftBorder extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class BlackMaskLeftBorder extends AbstractTag
 {
 
     protected $Id = 9;

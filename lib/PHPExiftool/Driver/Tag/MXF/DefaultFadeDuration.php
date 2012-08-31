@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MXF;
 
-class DefaultFadeDuration extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class DefaultFadeDuration extends AbstractTag
 {
 
     protected $Id = '060e2b34.0101.0102.07020201.01050100';

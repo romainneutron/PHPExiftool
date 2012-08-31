@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Canon;
 
-class MiniatureFilterOrientation extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class MiniatureFilterOrientation extends AbstractTag
 {
 
     protected $Id = 1026;

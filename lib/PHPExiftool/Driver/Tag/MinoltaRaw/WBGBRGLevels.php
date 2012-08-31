@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MinoltaRaw;
 
-class WBGBRGLevels extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class WBGBRGLevels extends AbstractTag
 {
 
     protected $Id = 4;

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Type;
 
-class DirectBitsRect
+use PHPExiftool\Driver\AbstractType;
+
+class DirectBitsRect extends AbstractType
 {
 
     protected $ExiftoolName = 'DirectBitsRect';

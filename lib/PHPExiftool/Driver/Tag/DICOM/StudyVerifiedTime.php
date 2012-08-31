@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class StudyVerifiedTime extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class StudyVerifiedTime extends AbstractTag
 {
 
     protected $Id = '0032,0033';

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPIptcExt;
 
-class IPTCLastEdited extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class IPTCLastEdited extends AbstractTag
 {
 
     protected $Id = 'IptcLastEdited';

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Nikon;
 
-class NEFLinearizationTable extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class NEFLinearizationTable extends AbstractTag
 {
 
     protected $Id = 150;

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class TransmitterFrequency extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class TransmitterFrequency extends AbstractTag
 {
 
     protected $Id = '0018,9098';

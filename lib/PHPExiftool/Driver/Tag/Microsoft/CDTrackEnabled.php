@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Microsoft;
 
-class CDTrackEnabled extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class CDTrackEnabled extends AbstractTag
 {
 
     protected $Id = 'CDTrackEnabled';

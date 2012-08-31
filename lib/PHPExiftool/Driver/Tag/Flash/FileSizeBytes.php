@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Flash;
 
-class FileSizeBytes extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class FileSizeBytes extends AbstractTag
 {
 
     protected $Id = 'filesize';

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\SR2DataIFD;
 
-class ColorMode extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ColorMode extends AbstractTag
 {
 
     protected $Id = 30576;

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\PhotoMechanic;
 
-class ColorClass extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ColorClass extends AbstractTag
 {
 
     protected $Id = 222;

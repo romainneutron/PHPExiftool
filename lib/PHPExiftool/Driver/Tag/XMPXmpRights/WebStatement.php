@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPXmpRights;
 
-class WebStatement extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class WebStatement extends AbstractTag
 {
 
     protected $Id = 'WebStatement';

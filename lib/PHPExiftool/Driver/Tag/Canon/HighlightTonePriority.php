@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Canon;
 
-class HighlightTonePriority extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class HighlightTonePriority extends AbstractTag
 {
 
     protected $Id = 7;

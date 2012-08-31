@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MXF;
 
-class MaximumUseCount extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class MaximumUseCount extends AbstractTag
 {
 
     protected $Id = '060e2b34.0101.0101.02050401.00000000';

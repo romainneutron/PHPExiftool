@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class GraphicallyPrescribed extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class GraphicallyPrescribed extends AbstractTag
 {
 
     protected $Id = '0021,1050';

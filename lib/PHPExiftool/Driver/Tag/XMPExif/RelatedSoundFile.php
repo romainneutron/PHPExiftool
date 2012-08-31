@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPExif;
 
-class RelatedSoundFile extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class RelatedSoundFile extends AbstractTag
 {
 
     protected $Id = 'RelatedSoundFile';

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\PictureInfo;
 
-class StrobeTime extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class StrobeTime extends AbstractTag
 {
 
     protected $Id = 'StrobeTime';

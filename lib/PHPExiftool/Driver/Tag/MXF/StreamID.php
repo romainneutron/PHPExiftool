@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MXF;
 
-class StreamID extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class StreamID extends AbstractTag
 {
 
     protected $Id = '060e2b34.0101.0103.01030402.00000000';

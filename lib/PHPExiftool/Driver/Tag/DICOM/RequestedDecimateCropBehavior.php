@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class RequestedDecimateCropBehavior extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class RequestedDecimateCropBehavior extends AbstractTag
 {
 
     protected $Id = '2020,0040';

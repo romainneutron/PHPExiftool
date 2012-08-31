@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Type;
 
-class Digits
+use PHPExiftool\Driver\AbstractType;
+
+class Digits extends AbstractType
 {
 
     protected $ExiftoolName = 'digits';

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class CalibrationParameters extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class CalibrationParameters extends AbstractTag
 {
 
     protected $Id = '0043,1014';

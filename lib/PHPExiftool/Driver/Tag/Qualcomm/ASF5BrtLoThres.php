@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Qualcomm;
 
-class ASF5BrtLoThres extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ASF5BrtLoThres extends AbstractTag
 {
 
     protected $Id = 'asf5_brt_lo_thres';

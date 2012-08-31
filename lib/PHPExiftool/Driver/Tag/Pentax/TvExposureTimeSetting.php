@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Pentax;
 
-class TvExposureTimeSetting extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class TvExposureTimeSetting extends AbstractTag
 {
 
     protected $Id = 18;

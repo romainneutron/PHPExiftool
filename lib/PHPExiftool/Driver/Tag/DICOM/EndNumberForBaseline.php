@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class EndNumberForBaseline extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class EndNumberForBaseline extends AbstractTag
 {
 
     protected $Id = '0019,1014';

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPPrl;
 
-class Geography extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class Geography extends AbstractTag
 {
 
     protected $Id = 'geography';

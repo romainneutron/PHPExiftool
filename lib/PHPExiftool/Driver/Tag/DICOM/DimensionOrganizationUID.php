@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class DimensionOrganizationUID extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class DimensionOrganizationUID extends AbstractTag
 {
 
     protected $Id = '0020,9164';

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPPhotoshop;
 
-class TransmissionReference extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class TransmissionReference extends AbstractTag
 {
 
     protected $Id = 'TransmissionReference';

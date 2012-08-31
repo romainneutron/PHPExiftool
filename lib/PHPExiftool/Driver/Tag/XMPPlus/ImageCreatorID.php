@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPPlus;
 
-class ImageCreatorID extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ImageCreatorID extends AbstractTag
 {
 
     protected $Id = 'ImageCreatorImageCreatorID';
@@ -33,5 +35,7 @@ class ImageCreatorID extends \PHPExiftool\Driver\Tag
     protected $Writable = true;
 
     protected $Description = 'Image Creator ID';
+
+    protected $flag_List = true;
 
 }

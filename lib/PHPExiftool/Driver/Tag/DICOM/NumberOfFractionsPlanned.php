@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class NumberOfFractionsPlanned extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class NumberOfFractionsPlanned extends AbstractTag
 {
 
     protected $Id = '300A,0078';

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\ID3v22;
 
-class RelativeVolumeAdjustment extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class RelativeVolumeAdjustment extends AbstractTag
 {
 
     protected $Id = 'RVA';

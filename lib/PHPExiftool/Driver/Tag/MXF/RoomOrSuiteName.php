@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MXF;
 
-class RoomOrSuiteName extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class RoomOrSuiteName extends AbstractTag
 {
 
     protected $Id = 'mixed';

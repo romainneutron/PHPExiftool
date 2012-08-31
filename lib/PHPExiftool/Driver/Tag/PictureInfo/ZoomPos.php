@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\PictureInfo;
 
-class ZoomPos extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ZoomPos extends AbstractTag
 {
 
     protected $Id = 'ZoomPos';

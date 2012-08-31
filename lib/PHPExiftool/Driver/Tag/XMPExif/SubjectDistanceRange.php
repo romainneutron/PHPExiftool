@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPExif;
 
-class SubjectDistanceRange extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class SubjectDistanceRange extends AbstractTag
 {
 
     protected $Id = 'SubjectDistanceRange';

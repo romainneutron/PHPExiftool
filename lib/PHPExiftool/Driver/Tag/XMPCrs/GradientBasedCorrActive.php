@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPCrs;
 
-class GradientBasedCorrActive extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class GradientBasedCorrActive extends AbstractTag
 {
 
     protected $Id = 'GradientBasedCorrectionsCorrectionActive';
@@ -28,7 +30,7 @@ class GradientBasedCorrActive extends \PHPExiftool\Driver\Tag
 
     protected $g2 = 'Image';
 
-    protected $Type = 'string';
+    protected $Type = 'boolean';
 
     protected $Writable = true;
 

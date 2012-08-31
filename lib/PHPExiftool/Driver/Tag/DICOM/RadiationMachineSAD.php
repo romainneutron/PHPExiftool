@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class RadiationMachineSAD extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class RadiationMachineSAD extends AbstractTag
 {
 
     protected $Id = '3002,0022';

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\QuickTime;
 
-class ShadowSyncSampleTable extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ShadowSyncSampleTable extends AbstractTag
 {
 
     protected $Id = 'stsh';

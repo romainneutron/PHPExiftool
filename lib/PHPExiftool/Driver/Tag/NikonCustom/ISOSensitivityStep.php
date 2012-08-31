@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\NikonCustom;
 
-class ISOSensitivityStep extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ISOSensitivityStep extends AbstractTag
 {
 
     protected $Id = '6.2';

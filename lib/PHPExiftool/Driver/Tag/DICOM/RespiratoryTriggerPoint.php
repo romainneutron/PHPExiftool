@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class RespiratoryTriggerPoint extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class RespiratoryTriggerPoint extends AbstractTag
 {
 
     protected $Id = '0043,1009';

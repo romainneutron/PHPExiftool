@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Type;
 
-class Unsigned
+use PHPExiftool\Driver\AbstractType;
+
+class Unsigned extends AbstractType
 {
 
     protected $ExiftoolName = 'unsigned';

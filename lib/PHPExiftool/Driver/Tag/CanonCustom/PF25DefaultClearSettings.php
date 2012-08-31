@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\CanonCustom;
 
-class PF25DefaultClearSettings extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class PF25DefaultClearSettings extends AbstractTag
 {
 
     protected $Id = 26;

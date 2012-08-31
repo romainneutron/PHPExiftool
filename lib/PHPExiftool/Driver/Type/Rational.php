@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Type;
 
-class Rational
+use PHPExiftool\Driver\AbstractType;
+
+class Rational extends AbstractType
 {
 
     protected $ExiftoolName = 'rational';

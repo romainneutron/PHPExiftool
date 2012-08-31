@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Reconyx;
 
-class Sharpness extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class Sharpness extends AbstractTag
 {
 
     protected $Id = 38;

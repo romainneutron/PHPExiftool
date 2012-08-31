@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class RadionuclidePositronFraction extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class RadionuclidePositronFraction extends AbstractTag
 {
 
     protected $Id = '0018,1076';

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MXF;
 
-class CopyCount extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class CopyCount extends AbstractTag
 {
 
     protected $Id = '060e2b34.0101.0101.05010302.00000000';

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\CanonCustom;
 
-class QuickControlDialInMeter extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class QuickControlDialInMeter extends AbstractTag
 {
 
     protected $Id = 1795;

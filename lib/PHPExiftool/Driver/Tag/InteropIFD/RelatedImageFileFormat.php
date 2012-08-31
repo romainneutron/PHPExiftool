@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\InteropIFD;
 
-class RelatedImageFileFormat extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class RelatedImageFileFormat extends AbstractTag
 {
 
     protected $Id = 4096;

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPXmp;
 
-class PageImageWidth extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class PageImageWidth extends AbstractTag
 {
 
     protected $Id = 'PageInfoWidth';
@@ -28,10 +30,12 @@ class PageImageWidth extends \PHPExiftool\Driver\Tag
 
     protected $g2 = 'Image';
 
-    protected $Type = 'string';
+    protected $Type = 'integer';
 
     protected $Writable = true;
 
     protected $Description = 'Page Image Width';
+
+    protected $flag_List = true;
 
 }

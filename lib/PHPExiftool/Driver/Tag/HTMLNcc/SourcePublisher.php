@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\HTMLNcc;
 
-class SourcePublisher extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class SourcePublisher extends AbstractTag
 {
 
     protected $Id = 'sourcepublisher';

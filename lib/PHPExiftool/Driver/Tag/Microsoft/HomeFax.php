@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Microsoft;
 
-class HomeFax extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class HomeFax extends AbstractTag
 {
 
     protected $Id = '{660E04D6-81AB-4977-A09F-82313113AB26} 100';

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\HP;
 
-class ExposureTime extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ExposureTime extends AbstractTag
 {
 
     protected $Id = 16;

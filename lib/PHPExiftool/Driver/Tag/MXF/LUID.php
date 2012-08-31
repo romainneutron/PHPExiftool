@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MXF;
 
-class LUID extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class LUID extends AbstractTag
 {
 
     protected $Id = '060e2b34.0101.0101.01030301.00000000';

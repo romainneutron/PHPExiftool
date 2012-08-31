@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class BarcodeSymbology extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class BarcodeSymbology extends AbstractTag
 {
 
     protected $Id = '2200,0006';

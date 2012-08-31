@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MXF;
 
-class SeasonEpisodeTitle extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class SeasonEpisodeTitle extends AbstractTag
 {
 
     protected $Id = '060e2b34.0101.0101.0d0b0607.00000000';

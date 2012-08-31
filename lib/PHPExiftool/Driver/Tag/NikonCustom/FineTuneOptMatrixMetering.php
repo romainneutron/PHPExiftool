@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\NikonCustom;
 
-class FineTuneOptMatrixMetering extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class FineTuneOptMatrixMetering extends AbstractTag
 {
 
     protected $Id = 'mixed';

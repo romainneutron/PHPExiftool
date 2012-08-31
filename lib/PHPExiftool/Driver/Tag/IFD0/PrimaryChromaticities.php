@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\IFD0;
 
-class PrimaryChromaticities extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class PrimaryChromaticities extends AbstractTag
 {
 
     protected $Id = 319;

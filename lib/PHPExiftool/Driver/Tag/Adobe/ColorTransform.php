@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Adobe;
 
-class ColorTransform extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ColorTransform extends AbstractTag
 {
 
     protected $Id = 3;

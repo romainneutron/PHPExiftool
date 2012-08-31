@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class RGBLUTTransferFunction extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class RGBLUTTransferFunction extends AbstractTag
 {
 
     protected $Id = '0028,140F';

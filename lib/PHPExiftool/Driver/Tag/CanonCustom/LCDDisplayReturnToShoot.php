@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\CanonCustom;
 
-class LCDDisplayReturnToShoot extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class LCDDisplayReturnToShoot extends AbstractTag
 {
 
     protected $Id = 18;

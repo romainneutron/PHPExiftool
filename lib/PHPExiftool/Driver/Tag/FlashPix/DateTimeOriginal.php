@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\FlashPix;
 
-class DateTimeOriginal extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class DateTimeOriginal extends AbstractTag
 {
 
     protected $Id = 587202570;

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\RIFF;
 
-class CostumeDesigner extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class CostumeDesigner extends AbstractTag
 {
 
     protected $Id = 'ICDS';

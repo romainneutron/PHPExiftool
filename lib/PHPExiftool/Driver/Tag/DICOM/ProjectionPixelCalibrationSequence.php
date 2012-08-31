@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class ProjectionPixelCalibrationSequence extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ProjectionPixelCalibrationSequence extends AbstractTag
 {
 
     protected $Id = '0018,9401';

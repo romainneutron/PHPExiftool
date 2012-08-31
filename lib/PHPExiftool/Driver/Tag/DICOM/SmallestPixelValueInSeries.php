@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class SmallestPixelValueInSeries extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class SmallestPixelValueInSeries extends AbstractTag
 {
 
     protected $Id = '0028,0108';

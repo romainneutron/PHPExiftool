@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPExif;
 
-class CustomRendered extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class CustomRendered extends AbstractTag
 {
 
     protected $Id = 'CustomRendered';

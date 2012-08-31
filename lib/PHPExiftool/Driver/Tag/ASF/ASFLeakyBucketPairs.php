@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\ASF;
 
-class ASFLeakyBucketPairs extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ASFLeakyBucketPairs extends AbstractTag
 {
 
     protected $Id = 'ASFLeakyBucketPairs';

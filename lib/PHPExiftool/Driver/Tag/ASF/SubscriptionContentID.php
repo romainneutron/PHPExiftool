@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\ASF;
 
-class SubscriptionContentID extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class SubscriptionContentID extends AbstractTag
 {
 
     protected $Id = 'SubscriptionContentID';

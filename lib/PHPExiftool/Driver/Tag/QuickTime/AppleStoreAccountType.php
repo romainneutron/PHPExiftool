@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\QuickTime;
 
-class AppleStoreAccountType extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class AppleStoreAccountType extends AbstractTag
 {
 
     protected $Id = 'akID';

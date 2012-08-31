@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPExtensis;
 
-class RoutedTo extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class RoutedTo extends AbstractTag
 {
 
     protected $Id = 'RoutedTo';

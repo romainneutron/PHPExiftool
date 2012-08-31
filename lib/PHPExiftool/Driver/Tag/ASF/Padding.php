@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\ASF;
 
-class Padding extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class Padding extends AbstractTag
 {
 
     protected $Id = '1806D474-CADF-4509-A4BA-9AABCB96AAE8';

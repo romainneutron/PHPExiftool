@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class OverlayCompressionStepPointers extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class OverlayCompressionStepPointers extends AbstractTag
 {
 
     protected $Id = '60xx,0066';

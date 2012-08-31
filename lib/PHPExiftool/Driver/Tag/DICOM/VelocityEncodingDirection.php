@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class VelocityEncodingDirection extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class VelocityEncodingDirection extends AbstractTag
 {
 
     protected $Id = '0018,9090';

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MAC;
 
-class APEVersion extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class APEVersion extends AbstractTag
 {
 
     protected $Id = 0;

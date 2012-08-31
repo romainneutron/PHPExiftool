@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class PhysicalUnitsXDirection extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class PhysicalUnitsXDirection extends AbstractTag
 {
 
     protected $Id = '0018,6024';

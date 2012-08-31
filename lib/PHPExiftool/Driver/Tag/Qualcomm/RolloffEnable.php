@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Qualcomm;
 
-class RolloffEnable extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class RolloffEnable extends AbstractTag
 {
 
     protected $Id = 'rolloff_enable';

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\ID3v24;
 
-class EncodingTime extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class EncodingTime extends AbstractTag
 {
 
     protected $Id = 'TDEN';

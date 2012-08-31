@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Font;
 
-class IsFixedPitch extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class IsFixedPitch extends AbstractTag
 {
 
     protected $Id = 'isFixedPitch';

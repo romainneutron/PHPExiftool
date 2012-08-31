@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\PostScript;
 
-class Creator extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class Creator extends AbstractTag
 {
 
     protected $Id = 'Creator';

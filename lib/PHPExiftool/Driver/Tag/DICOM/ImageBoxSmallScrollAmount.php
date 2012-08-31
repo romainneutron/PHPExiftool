@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class ImageBoxSmallScrollAmount extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ImageBoxSmallScrollAmount extends AbstractTag
 {
 
     protected $Id = '0072,0314';

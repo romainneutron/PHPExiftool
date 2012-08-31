@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MXF;
 
-class ImageEndOffset extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ImageEndOffset extends AbstractTag
 {
 
     protected $Id = '060e2b34.0101.0102.04180103.00000000';

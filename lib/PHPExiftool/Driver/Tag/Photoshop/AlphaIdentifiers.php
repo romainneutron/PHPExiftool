@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Photoshop;
 
-class AlphaIdentifiers extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class AlphaIdentifiers extends AbstractTag
 {
 
     protected $Id = 1053;

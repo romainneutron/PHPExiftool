@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class RouteOfAdmissions extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class RouteOfAdmissions extends AbstractTag
 {
 
     protected $Id = '0038,0016';

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class ModifiedAttributesSequence extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ModifiedAttributesSequence extends AbstractTag
 {
 
     protected $Id = '0400,0550';

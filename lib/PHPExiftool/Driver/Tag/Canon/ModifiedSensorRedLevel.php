@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Canon;
 
-class ModifiedSensorRedLevel extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ModifiedSensorRedLevel extends AbstractTag
 {
 
     protected $Id = 4;

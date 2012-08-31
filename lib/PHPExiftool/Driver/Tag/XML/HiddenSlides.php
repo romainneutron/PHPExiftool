@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XML;
 
-class HiddenSlides extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class HiddenSlides extends AbstractTag
 {
 
     protected $Id = 'HiddenSlides';

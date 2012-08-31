@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class OverlayBitsGrouped extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class OverlayBitsGrouped extends AbstractTag
 {
 
     protected $Id = '60xx,0069';

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Samsung;
 
-class PictureWizardMode extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class PictureWizardMode extends AbstractTag
 {
 
     protected $Id = 0;
@@ -84,6 +86,10 @@ class PictureWizardMode extends \PHPExiftool\Driver\Tag
         11 => array(
             'Id' => 11,
             'Label' => 'Custom3',
+        ),
+        255 => array(
+            'Id' => 255,
+            'Label' => 'n/a',
         ),
     );
 

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Qualcomm;
 
-class AECOutdoorBrightEnable extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class AECOutdoorBrightEnable extends AbstractTag
 {
 
     protected $Id = 'aec_outdoor_bright_enable';

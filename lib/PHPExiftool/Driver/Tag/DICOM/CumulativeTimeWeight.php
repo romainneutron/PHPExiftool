@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class CumulativeTimeWeight extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class CumulativeTimeWeight extends AbstractTag
 {
 
     protected $Id = '300A,02D6';

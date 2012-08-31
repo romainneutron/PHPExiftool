@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Microsoft;
 
-class SearchRanking extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class SearchRanking extends AbstractTag
 {
 
     protected $Id = '{49691C90-7E17-101A-A91C-08002B2ECDA9} 3';

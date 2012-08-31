@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MXF;
 
-class ReleasableCountryCode extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ReleasableCountryCode extends AbstractTag
 {
 
     protected $Id = 'mixed';

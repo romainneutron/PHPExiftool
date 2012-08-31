@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MXF;
 
-class CornerLatitudePoint4 extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class CornerLatitudePoint4 extends AbstractTag
 {
 
     protected $Id = 'mixed';

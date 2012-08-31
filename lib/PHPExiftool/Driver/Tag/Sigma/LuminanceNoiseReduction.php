@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Sigma;
 
-class LuminanceNoiseReduction extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class LuminanceNoiseReduction extends AbstractTag
 {
 
     protected $Id = 27;

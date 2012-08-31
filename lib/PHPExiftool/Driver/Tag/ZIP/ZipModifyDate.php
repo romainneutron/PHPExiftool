@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\ZIP;
 
-class ZipModifyDate extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ZipModifyDate extends AbstractTag
 {
 
     protected $Id = 5;

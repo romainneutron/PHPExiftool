@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class FractionalChannelDisplayScale extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class FractionalChannelDisplayScale extends AbstractTag
 {
 
     protected $Id = '003A,0247';

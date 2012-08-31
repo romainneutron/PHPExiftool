@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class PrinterStatusInfo extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class PrinterStatusInfo extends AbstractTag
 {
 
     protected $Id = '2110,0020';

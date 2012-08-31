@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Qualcomm;
 
-class ASF5ExposureIndex2 extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ASF5ExposureIndex2 extends AbstractTag
 {
 
     protected $Id = 'asf5_exposure_index_2';

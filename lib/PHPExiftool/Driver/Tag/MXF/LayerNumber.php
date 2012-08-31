@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MXF;
 
-class LayerNumber extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class LayerNumber extends AbstractTag
 {
 
     protected $Id = '060e2b34.0101.0102.04020403.01010000';

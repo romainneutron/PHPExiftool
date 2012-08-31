@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\QuickTime;
 
-class SamplePaddingBits extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class SamplePaddingBits extends AbstractTag
 {
 
     protected $Id = 'padb';

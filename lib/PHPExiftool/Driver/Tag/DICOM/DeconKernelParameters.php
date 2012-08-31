@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class DeconKernelParameters extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class DeconKernelParameters extends AbstractTag
 {
 
     protected $Id = '0043,1013';

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\FlashPix;
 
-class SpatialFrequencyResponse extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class SpatialFrequencyResponse extends AbstractTag
 {
 
     protected $Id = 637534212;

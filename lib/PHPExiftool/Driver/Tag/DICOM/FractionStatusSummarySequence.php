@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class FractionStatusSummarySequence extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class FractionStatusSummarySequence extends AbstractTag
 {
 
     protected $Id = '3008,0240';

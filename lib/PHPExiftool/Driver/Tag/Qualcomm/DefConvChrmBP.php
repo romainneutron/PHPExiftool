@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Qualcomm;
 
-class DefConvChrmBP extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class DefConvChrmBP extends AbstractTag
 {
 
     protected $Id = 'def_conv_chrm_b_p';

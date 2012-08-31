@@ -11,14 +11,16 @@
 
 namespace PHPExiftool\Driver\Tag\RIFF;
 
-class ImageHeight extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ImageHeight extends AbstractTag
 {
 
-    protected $Id = 9;
+    protected $Id = 'mixed';
 
     protected $Name = 'ImageHeight';
 
-    protected $FullName = 'RIFF::AVIHeader';
+    protected $FullName = 'mixed';
 
     protected $GroupName = 'RIFF';
 
@@ -26,9 +28,9 @@ class ImageHeight extends \PHPExiftool\Driver\Tag
 
     protected $g1 = 'RIFF';
 
-    protected $g2 = 'Video';
+    protected $g2 = 'mixed';
 
-    protected $Type = 'int32u';
+    protected $Type = 'mixed';
 
     protected $Writable = false;
 

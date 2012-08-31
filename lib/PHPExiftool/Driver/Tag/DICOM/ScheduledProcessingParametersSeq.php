@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class ScheduledProcessingParametersSeq extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ScheduledProcessingParametersSeq extends AbstractTag
 {
 
     protected $Id = '0074,1210';

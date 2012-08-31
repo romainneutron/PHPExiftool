@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class DetectorTimeSinceLastExposure extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class DetectorTimeSinceLastExposure extends AbstractTag
 {
 
     protected $Id = '0018,7012';

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\SR2SubIFD;
 
-class WBRGBLevelsTungsten extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class WBRGBLevelsTungsten extends AbstractTag
 {
 
     protected $Id = 30754;

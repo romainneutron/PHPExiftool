@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class DecoupledNucleus extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class DecoupledNucleus extends AbstractTag
 {
 
     protected $Id = '0018,9060';

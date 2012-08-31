@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPXmpTPg;
 
-class ColorantCyan extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ColorantCyan extends AbstractTag
 {
 
     protected $Id = 'ColorantsCyan';
@@ -28,10 +30,12 @@ class ColorantCyan extends \PHPExiftool\Driver\Tag
 
     protected $g2 = 'Image';
 
-    protected $Type = 'string';
+    protected $Type = 'real';
 
     protected $Writable = true;
 
     protected $Description = 'Colorant Cyan';
+
+    protected $flag_List = true;
 
 }

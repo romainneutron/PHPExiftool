@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\ExifTool;
 
-class Now extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class Now extends AbstractTag
 {
 
     protected $Id = 'Now';

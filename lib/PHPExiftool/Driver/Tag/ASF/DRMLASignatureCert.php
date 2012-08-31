@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\ASF;
 
-class DRMLASignatureCert extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class DRMLASignatureCert extends AbstractTag
 {
 
     protected $Id = 'DRM_LASignatureCert';

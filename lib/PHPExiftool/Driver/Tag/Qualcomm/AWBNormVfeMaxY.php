@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Qualcomm;
 
-class AWBNormVfeMaxY extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class AWBNormVfeMaxY extends AbstractTag
 {
 
     protected $Id = 'awb_norm_vfe_max_y';

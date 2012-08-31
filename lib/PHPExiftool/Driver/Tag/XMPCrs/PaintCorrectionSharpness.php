@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPCrs;
 
-class PaintCorrectionSharpness extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class PaintCorrectionSharpness extends AbstractTag
 {
 
     protected $Id = 'PaintBasedCorrectionsLocalSharpness';
@@ -28,7 +30,7 @@ class PaintCorrectionSharpness extends \PHPExiftool\Driver\Tag
 
     protected $g2 = 'Image';
 
-    protected $Type = 'string';
+    protected $Type = 'real';
 
     protected $Writable = true;
 

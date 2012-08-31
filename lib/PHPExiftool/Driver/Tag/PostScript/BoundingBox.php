@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\PostScript;
 
-class BoundingBox extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class BoundingBox extends AbstractTag
 {
 
     protected $Id = 'BoundingBox';

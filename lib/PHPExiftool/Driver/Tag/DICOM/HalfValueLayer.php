@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class HalfValueLayer extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class HalfValueLayer extends AbstractTag
 {
 
     protected $Id = '0040,0314';

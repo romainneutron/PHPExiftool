@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\RMETA;
 
-class Lit extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class Lit extends AbstractTag
 {
 
     protected $Id = 'Lit';

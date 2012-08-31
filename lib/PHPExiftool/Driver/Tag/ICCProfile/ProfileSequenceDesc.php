@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\ICCProfile;
 
-class ProfileSequenceDesc extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ProfileSequenceDesc extends AbstractTag
 {
 
     protected $Id = 'pseq';

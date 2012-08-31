@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Canon;
 
-class UnknownCNDB extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class UnknownCNDB extends AbstractTag
 {
 
     protected $Id = 'CNDB';

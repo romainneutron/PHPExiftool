@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Sony;
 
-class FacesDetected extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class FacesDetected extends AbstractTag
 {
 
     protected $Id = 'mixed';
@@ -28,12 +30,19 @@ class FacesDetected extends \PHPExiftool\Driver\Tag
 
     protected $g2 = 'mixed';
 
-    protected $Type = 'int16u';
+    protected $Type = 'mixed';
 
     protected $Writable = true;
 
     protected $Description = 'Faces Detected';
 
     protected $flag_Permanent = true;
+
+    protected $Values = array(
+        '-1' => array(
+            'Id' => '-1',
+            'Label' => 'n/a',
+        ),
+    );
 
 }

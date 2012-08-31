@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Pentax;
 
-class ContrastHighlightShadowAdj extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ContrastHighlightShadowAdj extends AbstractTag
 {
 
     protected $Id = 111;

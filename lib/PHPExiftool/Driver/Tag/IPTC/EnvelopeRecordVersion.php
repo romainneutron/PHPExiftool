@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\IPTC;
 
-class EnvelopeRecordVersion extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class EnvelopeRecordVersion extends AbstractTag
 {
 
     protected $Id = 0;

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class FilmConsumptionSequence extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class FilmConsumptionSequence extends AbstractTag
 {
 
     protected $Id = '0040,0321';

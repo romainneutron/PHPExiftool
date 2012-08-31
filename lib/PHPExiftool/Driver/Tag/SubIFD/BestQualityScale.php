@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\SubIFD;
 
-class BestQualityScale extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class BestQualityScale extends AbstractTag
 {
 
     protected $Id = 50780;

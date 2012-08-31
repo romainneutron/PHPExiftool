@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MIELens;
 
-class OpticalZoom extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class OpticalZoom extends AbstractTag
 {
 
     protected $Id = 'OpticalZoom';

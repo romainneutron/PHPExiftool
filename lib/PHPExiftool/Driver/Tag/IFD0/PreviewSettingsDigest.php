@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\IFD0;
 
-class PreviewSettingsDigest extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class PreviewSettingsDigest extends AbstractTag
 {
 
     protected $Id = 50969;

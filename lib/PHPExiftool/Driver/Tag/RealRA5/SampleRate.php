@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\RealRA5;
 
-class SampleRate extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class SampleRate extends AbstractTag
 {
 
     protected $Id = 12;

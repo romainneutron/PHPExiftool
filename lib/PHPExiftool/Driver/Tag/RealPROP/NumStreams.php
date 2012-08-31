@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\RealPROP;
 
-class NumStreams extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class NumStreams extends AbstractTag
 {
 
     protected $Id = 9;

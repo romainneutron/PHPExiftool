@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class ZSlopeCalibrationTime extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ZSlopeCalibrationTime extends AbstractTag
 {
 
     protected $Id = '0045,101E';

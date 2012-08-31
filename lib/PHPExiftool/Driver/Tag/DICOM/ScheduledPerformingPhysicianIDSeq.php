@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class ScheduledPerformingPhysicianIDSeq extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ScheduledPerformingPhysicianIDSeq extends AbstractTag
 {
 
     protected $Id = '0040,000B';

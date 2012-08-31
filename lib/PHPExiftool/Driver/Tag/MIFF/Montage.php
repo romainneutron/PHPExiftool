@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MIFF;
 
-class Montage extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class Montage extends AbstractTag
 {
 
     protected $Id = 'montage';

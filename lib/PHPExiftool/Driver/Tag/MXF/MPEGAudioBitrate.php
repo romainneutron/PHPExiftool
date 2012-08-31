@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MXF;
 
-class MPEGAudioBitrate extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class MPEGAudioBitrate extends AbstractTag
 {
 
     protected $Id = '060e2b34.0101.010a.04020403.01020000';

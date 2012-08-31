@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Type;
 
-class Fixed32u
+use PHPExiftool\Driver\AbstractType;
+
+class Fixed32u extends AbstractType
 {
 
     protected $ExiftoolName = 'fixed32u';

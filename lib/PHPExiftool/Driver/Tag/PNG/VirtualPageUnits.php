@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\PNG;
 
-class VirtualPageUnits extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class VirtualPageUnits extends AbstractTag
 {
 
     protected $Id = 2;

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPPrl;
 
-class Usage extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class Usage extends AbstractTag
 {
 
     protected $Id = 'usage';

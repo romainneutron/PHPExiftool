@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class ConstantVolumeFlag extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ConstantVolumeFlag extends AbstractTag
 {
 
     protected $Id = '0018,9333';

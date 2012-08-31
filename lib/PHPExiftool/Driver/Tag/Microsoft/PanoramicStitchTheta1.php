@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Microsoft;
 
-class PanoramicStitchTheta1 extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class PanoramicStitchTheta1 extends AbstractTag
 {
 
     protected $Id = 4;

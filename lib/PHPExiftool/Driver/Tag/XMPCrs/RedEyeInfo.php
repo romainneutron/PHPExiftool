@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPCrs;
 
-class RedEyeInfo extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class RedEyeInfo extends AbstractTag
 {
 
     protected $Id = 'RedEyeInfo';

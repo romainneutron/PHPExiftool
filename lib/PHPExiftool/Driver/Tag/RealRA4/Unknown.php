@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\RealRA4;
 
-class Unknown extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class Unknown extends AbstractTag
 {
 
     protected $Id = 'mixed';

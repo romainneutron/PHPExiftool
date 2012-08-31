@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MXF;
 
-class SettingStateOrProvinceOrCountyName extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class SettingStateOrProvinceOrCountyName extends AbstractTag
 {
 
     protected $Id = 'mixed';

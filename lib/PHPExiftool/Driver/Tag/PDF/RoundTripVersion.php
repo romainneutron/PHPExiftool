@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\PDF;
 
-class RoundTripVersion extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class RoundTripVersion extends AbstractTag
 {
 
     protected $Id = 'RoundTripVersion';

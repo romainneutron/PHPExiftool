@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\ASF;
 
-class AudioCodecName extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class AudioCodecName extends AbstractTag
 {
 
     protected $Id = 'AudioCodecName';

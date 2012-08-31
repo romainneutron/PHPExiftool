@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class LenOfTotHdrInBytes extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class LenOfTotHdrInBytes extends AbstractTag
 {
 
     protected $Id = '0029,101A';

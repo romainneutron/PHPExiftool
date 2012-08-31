@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class ImageTransformationMatrix extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ImageTransformationMatrix extends AbstractTag
 {
 
     protected $Id = '0018,5210';

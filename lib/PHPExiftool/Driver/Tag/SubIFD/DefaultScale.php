@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\SubIFD;
 
-class DefaultScale extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class DefaultScale extends AbstractTag
 {
 
     protected $Id = 50718;

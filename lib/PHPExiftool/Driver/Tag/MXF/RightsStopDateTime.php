@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MXF;
 
-class RightsStopDateTime extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class RightsStopDateTime extends AbstractTag
 {
 
     protected $Id = '060e2b34.0101.0104.07020120.03000000';

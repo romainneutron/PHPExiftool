@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPTiff;
 
-class SamplesPerPixel extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class SamplesPerPixel extends AbstractTag
 {
 
     protected $Id = 'SamplesPerPixel';

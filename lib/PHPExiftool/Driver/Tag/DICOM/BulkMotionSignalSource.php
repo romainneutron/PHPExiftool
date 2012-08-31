@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class BulkMotionSignalSource extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class BulkMotionSignalSource extends AbstractTag
 {
 
     protected $Id = '0018,9173';

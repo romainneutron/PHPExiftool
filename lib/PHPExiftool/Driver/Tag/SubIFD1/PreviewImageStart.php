@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\SubIFD1;
 
-class PreviewImageStart extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class PreviewImageStart extends AbstractTag
 {
 
     protected $Id = 273;

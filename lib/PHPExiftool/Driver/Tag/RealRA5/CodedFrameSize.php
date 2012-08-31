@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\RealRA5;
 
-class CodedFrameSize extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class CodedFrameSize extends AbstractTag
 {
 
     protected $Id = 5;

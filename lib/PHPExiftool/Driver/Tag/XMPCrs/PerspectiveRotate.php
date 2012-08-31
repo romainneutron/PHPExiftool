@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPCrs;
 
-class PerspectiveRotate extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class PerspectiveRotate extends AbstractTag
 {
 
     protected $Id = 'PerspectiveRotate';

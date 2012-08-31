@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Microsoft;
 
-class DRMIndividualizedVersion extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class DRMIndividualizedVersion extends AbstractTag
 {
 
     protected $Id = 'DRMIndividualizedVersion';

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\ExifTool;
 
-class ExifToolVersion extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ExifToolVersion extends AbstractTag
 {
 
     protected $Id = 'ExifToolVersion';

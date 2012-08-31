@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\ASF;
 
-class HasFileTransferStream extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class HasFileTransferStream extends AbstractTag
 {
 
     protected $Id = 'HasFileTransferStream';

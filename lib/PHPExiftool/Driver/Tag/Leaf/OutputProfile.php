@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Leaf;
 
-class OutputProfile extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class OutputProfile extends AbstractTag
 {
 
     protected $Id = 'ColorObj_output_profile';

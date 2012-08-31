@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class OriginalSpecializedSOPClassUID extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class OriginalSpecializedSOPClassUID extends AbstractTag
 {
 
     protected $Id = '0008,001B';

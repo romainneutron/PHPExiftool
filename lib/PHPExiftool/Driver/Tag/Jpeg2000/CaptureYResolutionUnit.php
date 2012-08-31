@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Jpeg2000;
 
-class CaptureYResolutionUnit extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class CaptureYResolutionUnit extends AbstractTag
 {
 
     protected $Id = 8;

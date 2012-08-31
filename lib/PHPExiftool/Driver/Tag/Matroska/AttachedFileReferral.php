@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Matroska;
 
-class AttachedFileReferral extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class AttachedFileReferral extends AbstractTag
 {
 
     protected $Id = 1653;

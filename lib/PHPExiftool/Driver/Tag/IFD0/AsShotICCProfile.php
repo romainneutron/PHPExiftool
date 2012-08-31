@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\IFD0;
 
-class AsShotICCProfile extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class AsShotICCProfile extends AbstractTag
 {
 
     protected $Id = 50831;

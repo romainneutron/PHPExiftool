@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\ASF;
 
-class HasArbitraryDataStream extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class HasArbitraryDataStream extends AbstractTag
 {
 
     protected $Id = 'HasArbitraryDataStream';

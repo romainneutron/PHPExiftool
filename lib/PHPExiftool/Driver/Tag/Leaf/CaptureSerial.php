@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Leaf;
 
-class CaptureSerial extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class CaptureSerial extends AbstractTag
 {
 
     protected $Id = 'CaptProf_serial_number';

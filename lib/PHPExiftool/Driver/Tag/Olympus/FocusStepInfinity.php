@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Olympus;
 
-class FocusStepInfinity extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class FocusStepInfinity extends AbstractTag
 {
 
     protected $Id = 'mixed';

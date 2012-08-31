@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Kodak;
 
-class SceneModeUsed extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class SceneModeUsed extends AbstractTag
 {
 
     protected $Id = 'mixed';

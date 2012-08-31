@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class AnnotationDisplayFormatID extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class AnnotationDisplayFormatID extends AbstractTag
 {
 
     protected $Id = '2010,0030';

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Flash;
 
-class AudioSampleSize extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class AudioSampleSize extends AbstractTag
 {
 
     protected $Id = 'audiosamplesize';

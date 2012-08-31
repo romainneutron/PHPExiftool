@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPPlus;
 
-class ImageFileSizeAsDelivered extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ImageFileSizeAsDelivered extends AbstractTag
 {
 
     protected $Id = 'ImageFileSizeAsDelivered';

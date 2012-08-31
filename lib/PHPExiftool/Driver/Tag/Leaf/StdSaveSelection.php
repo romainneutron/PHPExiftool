@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Leaf;
 
-class StdSaveSelection extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class StdSaveSelection extends AbstractTag
 {
 
     protected $Id = 'SaveObj_std_save_selection';

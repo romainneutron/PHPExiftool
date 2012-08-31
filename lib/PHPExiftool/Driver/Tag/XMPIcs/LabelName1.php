@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPIcs;
 
-class LabelName1 extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class LabelName1 extends AbstractTag
 {
 
     protected $Id = 'TagStructureLabelName';
@@ -33,5 +35,7 @@ class LabelName1 extends \PHPExiftool\Driver\Tag
     protected $Writable = true;
 
     protected $Description = 'Label Name 1';
+
+    protected $flag_List = true;
 
 }

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class OrderCallbackPhoneNumber extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class OrderCallbackPhoneNumber extends AbstractTag
 {
 
     protected $Id = '0040,2010';

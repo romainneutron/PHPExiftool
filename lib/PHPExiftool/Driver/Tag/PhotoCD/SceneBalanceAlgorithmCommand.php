@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\PhotoCD;
 
-class SceneBalanceAlgorithmCommand extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class SceneBalanceAlgorithmCommand extends AbstractTag
 {
 
     protected $Id = 230;

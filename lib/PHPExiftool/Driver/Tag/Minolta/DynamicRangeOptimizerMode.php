@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Minolta;
 
-class DynamicRangeOptimizerMode extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class DynamicRangeOptimizerMode extends AbstractTag
 {
 
     protected $Id = 21;

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class OrganAtRiskOverdoseVolumeFraction extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class OrganAtRiskOverdoseVolumeFraction extends AbstractTag
 {
 
     protected $Id = '300A,002D';

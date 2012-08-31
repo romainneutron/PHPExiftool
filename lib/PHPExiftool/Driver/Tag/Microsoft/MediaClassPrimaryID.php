@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Microsoft;
 
-class MediaClassPrimaryID extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class MediaClassPrimaryID extends AbstractTag
 {
 
     protected $Id = 'WM/MediaClassPrimaryID';

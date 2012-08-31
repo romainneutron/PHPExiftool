@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Nikon;
 
-class ContrastDetectAFInFocus extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ContrastDetectAFInFocus extends AbstractTag
 {
 
     protected $Id = 28;

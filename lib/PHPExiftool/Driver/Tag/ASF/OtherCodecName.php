@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\ASF;
 
-class OtherCodecName extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class OtherCodecName extends AbstractTag
 {
 
     protected $Id = 'OtherCodecName';

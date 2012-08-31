@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\SubIFD;
 
-class AntiAliasStrength extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class AntiAliasStrength extends AbstractTag
 {
 
     protected $Id = 50738;

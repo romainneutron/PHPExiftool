@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\ASF;
 
-class OriginalReleaseYear extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class OriginalReleaseYear extends AbstractTag
 {
 
     protected $Id = 'OriginalReleaseYear';

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Minolta;
 
-class WBBlueLevelsFluorescent extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class WBBlueLevelsFluorescent extends AbstractTag
 {
 
     protected $Id = 'mixed';

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MXF;
 
-class FilmTestParameter extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class FilmTestParameter extends AbstractTag
 {
 
     protected $Id = '060e2b34.0101.0101.04011002.01000000';

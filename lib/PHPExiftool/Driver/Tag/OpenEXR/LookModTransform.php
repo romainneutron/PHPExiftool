@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\OpenEXR;
 
-class LookModTransform extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class LookModTransform extends AbstractTag
 {
 
     protected $Id = 'lookModTransform';

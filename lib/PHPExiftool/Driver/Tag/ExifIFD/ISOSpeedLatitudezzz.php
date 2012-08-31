@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\ExifIFD;
 
-class ISOSpeedLatitudezzz extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ISOSpeedLatitudezzz extends AbstractTag
 {
 
     protected $Id = 34869;

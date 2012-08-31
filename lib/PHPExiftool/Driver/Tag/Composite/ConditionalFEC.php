@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Composite;
 
-class ConditionalFEC extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ConditionalFEC extends AbstractTag
 {
 
     protected $Id = 'ConditionalFEC';

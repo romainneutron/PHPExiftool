@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class OverlayDescriptorGray extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class OverlayDescriptorGray extends AbstractTag
 {
 
     protected $Id = '60xx,1100';

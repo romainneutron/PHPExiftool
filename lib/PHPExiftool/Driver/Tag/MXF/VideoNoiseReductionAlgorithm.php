@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MXF;
 
-class VideoNoiseReductionAlgorithm extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class VideoNoiseReductionAlgorithm extends AbstractTag
 {
 
     protected $Id = '060e2b34.0101.0101.05030101.00000000';

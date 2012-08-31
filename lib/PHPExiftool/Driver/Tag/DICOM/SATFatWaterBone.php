@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class SATFatWaterBone extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class SATFatWaterBone extends AbstractTag
 {
 
     protected $Id = '0019,10A4';

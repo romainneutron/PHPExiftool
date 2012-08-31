@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\ICCProfile;
 
-class PerceptualRenderingIntentGamut extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class PerceptualRenderingIntentGamut extends AbstractTag
 {
 
     protected $Id = 'rig0';

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPXmp;
 
-class PageImagePageNumber extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class PageImagePageNumber extends AbstractTag
 {
 
     protected $Id = 'PageInfoPageNumber';
@@ -28,10 +30,12 @@ class PageImagePageNumber extends \PHPExiftool\Driver\Tag
 
     protected $g2 = 'Image';
 
-    protected $Type = 'string';
+    protected $Type = 'integer';
 
     protected $Writable = true;
 
     protected $Description = 'Page Image Page Number';
+
+    protected $flag_List = true;
 
 }

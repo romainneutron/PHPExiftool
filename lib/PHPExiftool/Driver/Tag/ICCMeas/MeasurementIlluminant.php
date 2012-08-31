@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\ICCMeas;
 
-class MeasurementIlluminant extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class MeasurementIlluminant extends AbstractTag
 {
 
     protected $Id = 32;

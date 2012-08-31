@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\PSP;
 
-class BitsPerSample extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class BitsPerSample extends AbstractTag
 {
 
     protected $Id = 19;

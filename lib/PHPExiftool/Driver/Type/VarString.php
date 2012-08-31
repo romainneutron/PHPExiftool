@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Type;
 
-class VarString
+use PHPExiftool\Driver\AbstractType;
+
+class VarString extends AbstractType
 {
 
     protected $ExiftoolName = 'var_string';

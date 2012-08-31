@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class IVUSPullbackStartFrameNumber extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class IVUSPullbackStartFrameNumber extends AbstractTag
 {
 
     protected $Id = '0018,3103';

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\FlashPix;
 
-class FlashPixStreamPathname extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class FlashPixStreamPathname extends AbstractTag
 {
 
     protected $Id = 8192;

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class ShutterLeftVerticalEdge extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ShutterLeftVerticalEdge extends AbstractTag
 {
 
     protected $Id = '0018,1602';

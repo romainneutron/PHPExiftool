@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class NominalScannedPixelSpacing extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class NominalScannedPixelSpacing extends AbstractTag
 {
 
     protected $Id = '0018,2010';

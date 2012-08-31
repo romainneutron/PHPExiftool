@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MIEGeo;
 
-class Country extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class Country extends AbstractTag
 {
 
     protected $Id = 'Country';

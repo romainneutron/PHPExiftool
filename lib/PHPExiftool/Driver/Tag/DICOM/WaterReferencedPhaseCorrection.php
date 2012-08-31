@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class WaterReferencedPhaseCorrection extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class WaterReferencedPhaseCorrection extends AbstractTag
 {
 
     protected $Id = '0018,9199';

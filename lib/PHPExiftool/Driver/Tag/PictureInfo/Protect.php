@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\PictureInfo;
 
-class Protect extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class Protect extends AbstractTag
 {
 
     protected $Id = 'Protect';

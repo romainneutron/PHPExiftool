@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\RIFF;
 
-class DotsPerInch extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class DotsPerInch extends AbstractTag
 {
 
     protected $Id = 'IDPI';

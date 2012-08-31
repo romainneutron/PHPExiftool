@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\CanonVRD;
 
-class ChromaticAberrationOn extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ChromaticAberrationOn extends AbstractTag
 {
 
     protected $Id = 98;

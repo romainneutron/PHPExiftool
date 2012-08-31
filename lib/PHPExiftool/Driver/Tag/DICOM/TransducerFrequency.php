@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class TransducerFrequency extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class TransducerFrequency extends AbstractTag
 {
 
     protected $Id = '0018,6030';

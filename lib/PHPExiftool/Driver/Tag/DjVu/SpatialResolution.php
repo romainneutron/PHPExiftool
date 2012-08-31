@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DjVu;
 
-class SpatialResolution extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class SpatialResolution extends AbstractTag
 {
 
     protected $Id = 6;

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\System;
 
-class Directory extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class Directory extends AbstractTag
 {
 
     protected $Id = 'Directory';

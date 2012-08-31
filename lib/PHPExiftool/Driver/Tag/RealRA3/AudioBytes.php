@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\RealRA3;
 
-class AudioBytes extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class AudioBytes extends AbstractTag
 {
 
     protected $Id = 3;

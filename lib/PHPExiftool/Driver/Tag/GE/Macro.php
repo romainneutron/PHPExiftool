@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\GE;
 
-class Macro extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class Macro extends AbstractTag
 {
 
     protected $Id = 514;

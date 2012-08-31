@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class SOPAuthorizationComment extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class SOPAuthorizationComment extends AbstractTag
 {
 
     protected $Id = '0100,0424';

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class SimpleFrameList extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class SimpleFrameList extends AbstractTag
 {
 
     protected $Id = '0008,1161';

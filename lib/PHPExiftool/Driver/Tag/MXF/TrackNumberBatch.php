@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MXF;
 
-class TrackNumberBatch extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class TrackNumberBatch extends AbstractTag
 {
 
     protected $Id = '060e2b34.0101.0107.01040104.00000000';

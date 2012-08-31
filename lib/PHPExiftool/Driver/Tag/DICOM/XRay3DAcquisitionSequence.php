@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class XRay3DAcquisitionSequence extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class XRay3DAcquisitionSequence extends AbstractTag
 {
 
     protected $Id = '0018,9507';

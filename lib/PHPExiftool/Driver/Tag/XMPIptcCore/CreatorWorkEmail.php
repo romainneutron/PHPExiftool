@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPIptcCore;
 
-class CreatorWorkEmail extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class CreatorWorkEmail extends AbstractTag
 {
 
     protected $Id = 'CreatorContactInfoCiEmailWork';

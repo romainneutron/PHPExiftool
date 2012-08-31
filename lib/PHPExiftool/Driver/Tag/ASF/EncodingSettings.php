@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\ASF;
 
-class EncodingSettings extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class EncodingSettings extends AbstractTag
 {
 
     protected $Id = 'EncodingSettings';

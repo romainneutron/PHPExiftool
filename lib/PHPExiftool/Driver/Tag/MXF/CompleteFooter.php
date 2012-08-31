@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MXF;
 
-class CompleteFooter extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class CompleteFooter extends AbstractTag
 {
 
     protected $Id = '060e2b34.0205.0101.0d010201.01040400';

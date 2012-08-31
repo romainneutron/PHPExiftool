@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MXF;
 
-class ComputedKeySounds extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ComputedKeySounds extends AbstractTag
 {
 
     protected $Id = '060e2b34.0101.0101.03030102.08000000';

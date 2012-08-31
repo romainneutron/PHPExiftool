@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Type;
 
-class Null
+use PHPExiftool\Driver\AbstractType;
+
+class Null extends AbstractType
 {
 
     protected $ExiftoolName = 'null';

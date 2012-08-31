@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class SegmentedKSpaceTraversal extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class SegmentedKSpaceTraversal extends AbstractTag
 {
 
     protected $Id = '0018,9033';

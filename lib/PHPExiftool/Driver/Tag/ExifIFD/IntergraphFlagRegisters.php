@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\ExifIFD;
 
-class IntergraphFlagRegisters extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class IntergraphFlagRegisters extends AbstractTag
 {
 
     protected $Id = 33919;

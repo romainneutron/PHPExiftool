@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\SubIFD;
 
-class BayerGreenSplit extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class BayerGreenSplit extends AbstractTag
 {
 
     protected $Id = 50733;

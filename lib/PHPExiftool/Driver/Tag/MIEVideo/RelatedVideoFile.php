@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MIEVideo;
 
-class RelatedVideoFile extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class RelatedVideoFile extends AbstractTag
 {
 
     protected $Id = 'data';

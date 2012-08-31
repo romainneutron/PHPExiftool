@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\NikonCustom;
 
-class MBD80Batteries extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class MBD80Batteries extends AbstractTag
 {
 
     protected $Id = '6.5';

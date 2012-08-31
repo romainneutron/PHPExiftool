@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class RepresentativeFrameNumber extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class RepresentativeFrameNumber extends AbstractTag
 {
 
     protected $Id = '0028,6010';

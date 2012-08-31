@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Qualcomm;
 
-class AECSnapshotSensorGain extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class AECSnapshotSensorGain extends AbstractTag
 {
 
     protected $Id = 'aec_snapshot_sensor_gain';

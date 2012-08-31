@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\ASF;
 
-class IsTrusted extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class IsTrusted extends AbstractTag
 {
 
     protected $Id = 'Is_Trusted';

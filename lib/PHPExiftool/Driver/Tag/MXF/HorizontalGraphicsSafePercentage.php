@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MXF;
 
-class HorizontalGraphicsSafePercentage extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class HorizontalGraphicsSafePercentage extends AbstractTag
 {
 
     protected $Id = '060e2b34.0101.0103.04010101.06000000';

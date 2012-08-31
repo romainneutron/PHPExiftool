@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class IdentifierTypeCode extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class IdentifierTypeCode extends AbstractTag
 {
 
     protected $Id = '0040,0035';

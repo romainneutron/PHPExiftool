@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\NikonCapture;
 
-class AdvancedRaw extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class AdvancedRaw extends AbstractTag
 {
 
     protected $Id = 1990472195;

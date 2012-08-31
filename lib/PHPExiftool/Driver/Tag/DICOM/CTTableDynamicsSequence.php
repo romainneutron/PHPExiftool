@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class CTTableDynamicsSequence extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class CTTableDynamicsSequence extends AbstractTag
 {
 
     protected $Id = '0018,9308';

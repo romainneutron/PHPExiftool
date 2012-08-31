@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class NormalizationFactorFormat extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class NormalizationFactorFormat extends AbstractTag
 {
 
     protected $Id = '0028,0710';

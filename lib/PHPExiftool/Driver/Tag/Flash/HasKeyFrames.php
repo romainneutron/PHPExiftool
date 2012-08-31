@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Flash;
 
-class HasKeyFrames extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class HasKeyFrames extends AbstractTag
 {
 
     protected $Id = 'hasKeyframes';

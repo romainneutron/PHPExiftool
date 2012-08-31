@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\SPIFF;
 
-class ProfileID extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ProfileID extends AbstractTag
 {
 
     protected $Id = 2;

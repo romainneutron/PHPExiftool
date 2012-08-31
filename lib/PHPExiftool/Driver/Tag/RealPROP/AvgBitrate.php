@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\RealPROP;
 
-class AvgBitrate extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class AvgBitrate extends AbstractTag
 {
 
     protected $Id = 1;

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class PixelIntensityRelationship extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class PixelIntensityRelationship extends AbstractTag
 {
 
     protected $Id = '0028,1040';

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\ASF;
 
-class VideoClosedCaptioning extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class VideoClosedCaptioning extends AbstractTag
 {
 
     protected $Id = 'VideoClosedCaptioning';

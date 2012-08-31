@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\ICCMeta;
 
-class MediaWeight extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class MediaWeight extends AbstractTag
 {
 
     protected $Id = 'MediaWeight';

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Microsoft;
 
-class DTCPIPHost extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class DTCPIPHost extends AbstractTag
 {
 
     protected $Id = 'DTCPIPHost';

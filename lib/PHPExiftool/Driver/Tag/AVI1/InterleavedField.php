@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\AVI1;
 
-class InterleavedField extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class InterleavedField extends AbstractTag
 {
 
     protected $Id = 0;

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class ClinicalTrialSponsorName extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ClinicalTrialSponsorName extends AbstractTag
 {
 
     protected $Id = '0012,0010';

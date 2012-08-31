@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class IncrementBetweenViews extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class IncrementBetweenViews extends AbstractTag
 {
 
     protected $Id = '0019,1062';

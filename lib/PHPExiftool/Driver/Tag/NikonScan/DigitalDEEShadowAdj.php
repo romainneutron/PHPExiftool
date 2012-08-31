@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\NikonScan;
 
-class DigitalDEEShadowAdj extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class DigitalDEEShadowAdj extends AbstractTag
 {
 
     protected $Id = 512;

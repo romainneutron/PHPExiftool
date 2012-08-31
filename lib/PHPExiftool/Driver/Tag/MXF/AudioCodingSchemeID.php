@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MXF;
 
-class AudioCodingSchemeID extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class AudioCodingSchemeID extends AbstractTag
 {
 
     protected $Id = '060e2b34.0101.0102.04020402.00000000';

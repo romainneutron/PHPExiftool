@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPCrs;
 
-class HighlightRecovery extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class HighlightRecovery extends AbstractTag
 {
 
     protected $Id = 'HighlightRecovery';

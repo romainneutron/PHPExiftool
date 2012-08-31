@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Microsoft;
 
-class PostalCode extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class PostalCode extends AbstractTag
 {
 
     protected $Id = '{18BBD425-ECFD-46EF-B612-7B4A6034EDA0} 100';

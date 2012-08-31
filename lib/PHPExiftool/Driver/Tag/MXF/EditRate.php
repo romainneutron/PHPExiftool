@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MXF;
 
-class EditRate extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class EditRate extends AbstractTag
 {
 
     protected $Id = '060e2b34.0101.0102.05300405.00000000';

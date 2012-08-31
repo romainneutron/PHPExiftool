@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MXF;
 
-class KAGSize extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class KAGSize extends AbstractTag
 {
 
     protected $Id = '060e2b34.0101.0105.03010201.09000000';

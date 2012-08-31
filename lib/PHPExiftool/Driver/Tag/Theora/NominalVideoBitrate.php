@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Theora;
 
-class NominalVideoBitrate extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class NominalVideoBitrate extends AbstractTag
 {
 
     protected $Id = 30;

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MPC;
 
-class EncoderVersion extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class EncoderVersion extends AbstractTag
 {
 
     protected $Id = 'Bit216-223';

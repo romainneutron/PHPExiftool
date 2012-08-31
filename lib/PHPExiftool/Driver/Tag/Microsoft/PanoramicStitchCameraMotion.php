@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Microsoft;
 
-class PanoramicStitchCameraMotion extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class PanoramicStitchCameraMotion extends AbstractTag
 {
 
     protected $Id = 1;

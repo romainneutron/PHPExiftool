@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MXF;
 
-class PresentationGammaEquation extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class PresentationGammaEquation extends AbstractTag
 {
 
     protected $Id = 'mixed';

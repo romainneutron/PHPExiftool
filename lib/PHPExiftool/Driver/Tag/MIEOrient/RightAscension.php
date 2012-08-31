@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MIEOrient;
 
-class RightAscension extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class RightAscension extends AbstractTag
 {
 
     protected $Id = 'RightAscension';

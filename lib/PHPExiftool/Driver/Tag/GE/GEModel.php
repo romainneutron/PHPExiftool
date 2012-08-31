@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\GE;
 
-class GEModel extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class GEModel extends AbstractTag
 {
 
     protected $Id = 519;

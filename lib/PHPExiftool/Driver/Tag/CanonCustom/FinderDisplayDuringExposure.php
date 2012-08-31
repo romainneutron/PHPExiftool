@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\CanonCustom;
 
-class FinderDisplayDuringExposure extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class FinderDisplayDuringExposure extends AbstractTag
 {
 
     protected $Id = 1;

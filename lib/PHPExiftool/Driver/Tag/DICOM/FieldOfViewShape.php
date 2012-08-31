@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class FieldOfViewShape extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class FieldOfViewShape extends AbstractTag
 {
 
     protected $Id = '0018,1147';

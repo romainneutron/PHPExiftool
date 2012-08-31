@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPDex;
 
-class ShortDescription extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ShortDescription extends AbstractTag
 {
 
     protected $Id = 'shortdescription';

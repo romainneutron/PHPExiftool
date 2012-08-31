@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class FractionalEcho extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class FractionalEcho extends AbstractTag
 {
 
     protected $Id = '0019,10D5';

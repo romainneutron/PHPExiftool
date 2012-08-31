@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MXF;
 
-class LeadingLines extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class LeadingLines extends AbstractTag
 {
 
     protected $Id = '060e2b34.0101.0101.04010302.03000000';

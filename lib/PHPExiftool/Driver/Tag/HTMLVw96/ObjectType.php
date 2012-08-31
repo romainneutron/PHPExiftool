@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\HTMLVw96;
 
-class ObjectType extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ObjectType extends AbstractTag
 {
 
     protected $Id = 'objecttype';

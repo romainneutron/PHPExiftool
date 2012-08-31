@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\CanonVRD;
 
-class MonochromeOutputShadowPoint extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class MonochromeOutputShadowPoint extends AbstractTag
 {
 
     protected $Id = 66;

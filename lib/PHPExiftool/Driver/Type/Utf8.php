@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Type;
 
-class Utf8
+use PHPExiftool\Driver\AbstractType;
+
+class Utf8 extends AbstractType
 {
 
     protected $ExiftoolName = 'utf8';

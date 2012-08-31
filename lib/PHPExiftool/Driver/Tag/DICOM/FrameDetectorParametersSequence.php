@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class FrameDetectorParametersSequence extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class FrameDetectorParametersSequence extends AbstractTag
 {
 
     protected $Id = '0018,9451';

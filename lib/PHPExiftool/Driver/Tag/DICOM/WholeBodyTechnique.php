@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class WholeBodyTechnique extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class WholeBodyTechnique extends AbstractTag
 {
 
     protected $Id = '0018,1301';

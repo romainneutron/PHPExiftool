@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPCrs;
 
-class PaintCorrectionMaskZeroY extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class PaintCorrectionMaskZeroY extends AbstractTag
 {
 
     protected $Id = 'PaintBasedCorrectionsCorrectionMasksZeroY';
@@ -28,7 +30,7 @@ class PaintCorrectionMaskZeroY extends \PHPExiftool\Driver\Tag
 
     protected $g2 = 'Image';
 
-    protected $Type = 'string';
+    protected $Type = 'real';
 
     protected $Writable = true;
 

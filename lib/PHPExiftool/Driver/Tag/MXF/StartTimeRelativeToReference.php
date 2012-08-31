@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MXF;
 
-class StartTimeRelativeToReference extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class StartTimeRelativeToReference extends AbstractTag
 {
 
     protected $Id = 'mixed';

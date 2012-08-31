@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class StorageMediaFileSetID extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class StorageMediaFileSetID extends AbstractTag
 {
 
     protected $Id = '0088,0130';

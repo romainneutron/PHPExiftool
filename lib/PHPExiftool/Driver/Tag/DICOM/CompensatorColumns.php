@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class CompensatorColumns extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class CompensatorColumns extends AbstractTag
 {
 
     protected $Id = '300A,00E8';

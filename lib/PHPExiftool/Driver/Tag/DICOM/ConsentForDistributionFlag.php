@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class ConsentForDistributionFlag extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ConsentForDistributionFlag extends AbstractTag
 {
 
     protected $Id = '0012,0085';

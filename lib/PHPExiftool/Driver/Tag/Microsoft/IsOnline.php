@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Microsoft;
 
-class IsOnline extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class IsOnline extends AbstractTag
 {
 
     protected $Id = '{BFEE9149-E3E2-49A7-A862-C05988145CEC} 100';

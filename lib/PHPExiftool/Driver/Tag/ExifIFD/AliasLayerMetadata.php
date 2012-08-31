@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\ExifIFD;
 
-class AliasLayerMetadata extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class AliasLayerMetadata extends AbstractTag
 {
 
     protected $Id = 50784;

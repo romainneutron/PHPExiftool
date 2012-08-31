@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class SpectroscopyOutOfPlanePhaseSteps extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class SpectroscopyOutOfPlanePhaseSteps extends AbstractTag
 {
 
     protected $Id = '0018,9159';

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPXmpMM;
 
-class Manifest extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class Manifest extends AbstractTag
 {
 
     protected $Id = 'Manifest';
@@ -28,7 +30,7 @@ class Manifest extends \PHPExiftool\Driver\Tag
 
     protected $g2 = 'Other';
 
-    protected $Type = 'string';
+    protected $Type = 'struct';
 
     protected $Writable = true;
 

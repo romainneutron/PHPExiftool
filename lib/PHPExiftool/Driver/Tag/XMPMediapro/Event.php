@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPMediapro;
 
-class Event extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class Event extends AbstractTag
 {
 
     protected $Id = 'Event';

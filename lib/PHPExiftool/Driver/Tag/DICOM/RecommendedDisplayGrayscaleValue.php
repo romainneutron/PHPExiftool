@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class RecommendedDisplayGrayscaleValue extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class RecommendedDisplayGrayscaleValue extends AbstractTag
 {
 
     protected $Id = '0062,000C';

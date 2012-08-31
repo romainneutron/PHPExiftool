@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class CardiacRRIntervalSpecified extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class CardiacRRIntervalSpecified extends AbstractTag
 {
 
     protected $Id = '0018,9070';

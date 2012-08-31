@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class XRayGeometrySequence extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class XRayGeometrySequence extends AbstractTag
 {
 
     protected $Id = '0018,9476';

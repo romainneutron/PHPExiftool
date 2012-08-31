@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\SubIFD;
 
-class NoiseReductionApplied extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class NoiseReductionApplied extends AbstractTag
 {
 
     protected $Id = 50935;

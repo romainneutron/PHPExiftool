@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class ShowImageTrueSizeFlag extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ShowImageTrueSizeFlag extends AbstractTag
 {
 
     protected $Id = '0072,0710';

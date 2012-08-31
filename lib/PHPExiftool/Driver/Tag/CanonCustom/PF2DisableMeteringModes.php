@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\CanonCustom;
 
-class PF2DisableMeteringModes extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class PF2DisableMeteringModes extends AbstractTag
 {
 
     protected $Id = 3;

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MIEThumbnail;
 
-class ThumbnailImageName extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ThumbnailImageName extends AbstractTag
 {
 
     protected $Id = '1Name';

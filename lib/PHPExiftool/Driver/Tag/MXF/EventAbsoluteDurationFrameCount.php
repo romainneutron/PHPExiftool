@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MXF;
 
-class EventAbsoluteDurationFrameCount extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class EventAbsoluteDurationFrameCount extends AbstractTag
 {
 
     protected $Id = '060e2b34.0101.0101.07020201.03010000';

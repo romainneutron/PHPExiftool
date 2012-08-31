@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\PDF;
 
-class AuthenticationTime extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class AuthenticationTime extends AbstractTag
 {
 
     protected $Id = 'Prop_AuthTime';

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class EncryptedAttributesSequence extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class EncryptedAttributesSequence extends AbstractTag
 {
 
     protected $Id = '0400,0500';

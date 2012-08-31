@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Microsoft;
 
-class IsDeleted extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class IsDeleted extends AbstractTag
 {
 
     protected $Id = '{5CDA5FC8-33EE-4FF3-9094-AE7BD8868C4D} 100';

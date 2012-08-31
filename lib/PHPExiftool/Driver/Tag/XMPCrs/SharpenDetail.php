@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPCrs;
 
-class SharpenDetail extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class SharpenDetail extends AbstractTag
 {
 
     protected $Id = 'SharpenDetail';

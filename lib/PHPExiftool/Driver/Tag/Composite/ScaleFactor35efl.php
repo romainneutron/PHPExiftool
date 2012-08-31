@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Composite;
 
-class ScaleFactor35efl extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ScaleFactor35efl extends AbstractTag
 {
 
     protected $Id = 'ScaleFactor35efl';

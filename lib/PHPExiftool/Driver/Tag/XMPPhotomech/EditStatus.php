@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPPhotomech;
 
-class EditStatus extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class EditStatus extends AbstractTag
 {
 
     protected $Id = 'EditStatus';

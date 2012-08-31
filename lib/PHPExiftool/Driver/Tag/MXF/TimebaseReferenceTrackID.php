@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MXF;
 
-class TimebaseReferenceTrackID extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class TimebaseReferenceTrackID extends AbstractTag
 {
 
     protected $Id = '060e2b34.0101.010c.06010103.0e000000';

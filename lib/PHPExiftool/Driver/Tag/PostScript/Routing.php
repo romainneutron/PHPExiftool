@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\PostScript;
 
-class Routing extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class Routing extends AbstractTag
 {
 
     protected $Id = 'Routing';

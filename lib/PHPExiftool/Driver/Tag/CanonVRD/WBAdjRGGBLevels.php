@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\CanonVRD;
 
-class WBAdjRGGBLevels extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class WBAdjRGGBLevels extends AbstractTag
 {
 
     protected $Id = 6;

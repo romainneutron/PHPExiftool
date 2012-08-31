@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPDc;
 
-class Rights extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class Rights extends AbstractTag
 {
 
     protected $Id = 'rights';

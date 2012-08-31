@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Kodak;
 
-class FocalLengthIn35mmFormat extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class FocalLengthIn35mmFormat extends AbstractTag
 {
 
     protected $Id = 'FL35';

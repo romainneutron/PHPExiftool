@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MIEGPS;
 
-class GPSSatellites extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class GPSSatellites extends AbstractTag
 {
 
     protected $Id = 'Satellites';

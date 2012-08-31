@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPPlus;
 
-class CopyrightOwnerID extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class CopyrightOwnerID extends AbstractTag
 {
 
     protected $Id = 'CopyrightOwnerCopyrightOwnerID';
@@ -33,5 +35,7 @@ class CopyrightOwnerID extends \PHPExiftool\Driver\Tag
     protected $Writable = true;
 
     protected $Description = 'Copyright Owner ID';
+
+    protected $flag_List = true;
 
 }

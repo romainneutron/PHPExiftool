@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class SegmentedPropertyTypeCodeSequence extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class SegmentedPropertyTypeCodeSequence extends AbstractTag
 {
 
     protected $Id = '0062,000F';

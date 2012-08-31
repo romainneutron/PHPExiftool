@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MXF;
 
-class ToleranceInterpolationMethod extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ToleranceInterpolationMethod extends AbstractTag
 {
 
     protected $Id = '060e2b34.0101.0109.07020503.00000000';

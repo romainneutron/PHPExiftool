@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class PauseBetweenFrames extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class PauseBetweenFrames extends AbstractTag
 {
 
     protected $Id = '0054,0038';

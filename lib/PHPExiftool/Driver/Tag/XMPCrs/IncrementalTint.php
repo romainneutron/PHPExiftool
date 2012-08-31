@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPCrs;
 
-class IncrementalTint extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class IncrementalTint extends AbstractTag
 {
 
     protected $Id = 'IncrementalTint';

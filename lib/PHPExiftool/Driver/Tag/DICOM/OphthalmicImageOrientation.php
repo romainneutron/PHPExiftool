@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class OphthalmicImageOrientation extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class OphthalmicImageOrientation extends AbstractTag
 {
 
     protected $Id = '0022,0039';

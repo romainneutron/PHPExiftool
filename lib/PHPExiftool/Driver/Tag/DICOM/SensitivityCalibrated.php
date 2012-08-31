@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class SensitivityCalibrated extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class SensitivityCalibrated extends AbstractTag
 {
 
     protected $Id = '0018,9767';

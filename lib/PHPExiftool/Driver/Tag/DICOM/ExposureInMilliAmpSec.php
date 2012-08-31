@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class ExposureInMilliAmpSec extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ExposureInMilliAmpSec extends AbstractTag
 {
 
     protected $Id = '0018,9332';

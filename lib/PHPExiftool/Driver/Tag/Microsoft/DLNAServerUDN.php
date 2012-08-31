@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Microsoft;
 
-class DLNAServerUDN extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class DLNAServerUDN extends AbstractTag
 {
 
     protected $Id = 'DLNAServerUDN';

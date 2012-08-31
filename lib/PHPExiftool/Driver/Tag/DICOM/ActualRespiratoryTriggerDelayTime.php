@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class ActualRespiratoryTriggerDelayTime extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ActualRespiratoryTriggerDelayTime extends AbstractTag
 {
 
     protected $Id = '0020,9257';

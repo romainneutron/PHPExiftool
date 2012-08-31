@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Leaf;
 
-class ColorObjBackType extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ColorObjBackType extends AbstractTag
 {
 
     protected $Id = 'ColorObj_back_type';

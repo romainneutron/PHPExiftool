@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MXF;
 
-class EPGProgramSynopsis extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class EPGProgramSynopsis extends AbstractTag
 {
 
     protected $Id = '060e2b34.0101.0101.0d0b0608.00000000';

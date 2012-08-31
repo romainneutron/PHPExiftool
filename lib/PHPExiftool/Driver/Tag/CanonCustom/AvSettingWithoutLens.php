@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\CanonCustom;
 
-class AvSettingWithoutLens extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class AvSettingWithoutLens extends AbstractTag
 {
 
     protected $Id = 1799;

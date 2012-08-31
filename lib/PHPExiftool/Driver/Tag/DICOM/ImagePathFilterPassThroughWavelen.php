@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class ImagePathFilterPassThroughWavelen extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ImagePathFilterPassThroughWavelen extends AbstractTag
 {
 
     protected $Id = '0022,0003';

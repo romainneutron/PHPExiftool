@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Leaf;
 
-class StdScaledOutput extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class StdScaledOutput extends AbstractTag
 {
 
     protected $Id = 'SaveObj_std_scaled_output';

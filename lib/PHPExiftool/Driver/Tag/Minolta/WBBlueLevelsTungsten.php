@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Minolta;
 
-class WBBlueLevelsTungsten extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class WBBlueLevelsTungsten extends AbstractTag
 {
 
     protected $Id = 206;

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MXF;
 
-class TimeSystemOffset extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class TimeSystemOffset extends AbstractTag
 {
 
     protected $Id = '060e2b34.0101.0101.03010303.01000000';

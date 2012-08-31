@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Qualcomm;
 
-class ASF3EdgeDetect extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ASF3EdgeDetect extends AbstractTag
 {
 
     protected $Id = 'asf3_edge_detect';

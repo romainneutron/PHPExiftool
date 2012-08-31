@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\CanonCustom;
 
-class FlashSyncSpeedAv extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class FlashSyncSpeedAv extends AbstractTag
 {
 
     protected $Id = 'mixed';

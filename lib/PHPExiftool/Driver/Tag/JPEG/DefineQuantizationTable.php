@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\JPEG;
 
-class DefineQuantizationTable extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class DefineQuantizationTable extends AbstractTag
 {
 
     protected $Id = 'DQT';

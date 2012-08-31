@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\SubIFD;
 
-class JpgFromRawStart extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class JpgFromRawStart extends AbstractTag
 {
 
     protected $Id = 513;

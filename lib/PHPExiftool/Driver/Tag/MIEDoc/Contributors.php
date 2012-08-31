@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MIEDoc;
 
-class Contributors extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class Contributors extends AbstractTag
 {
 
     protected $Id = 'Contributors';

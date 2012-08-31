@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPIptcCore;
 
-class CreatorCity extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class CreatorCity extends AbstractTag
 {
 
     protected $Id = 'CreatorContactInfoCiAdrCity';

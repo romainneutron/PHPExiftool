@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class IlluminationBandwidth extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class IlluminationBandwidth extends AbstractTag
 {
 
     protected $Id = '0022,0057';

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class OtherMediaAvailableSequence extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class OtherMediaAvailableSequence extends AbstractTag
 {
 
     protected $Id = '2000,00A4';

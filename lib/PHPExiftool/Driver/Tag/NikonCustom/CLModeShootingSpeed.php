@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\NikonCustom;
 
-class CLModeShootingSpeed extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class CLModeShootingSpeed extends AbstractTag
 {
 
     protected $Id = 'mixed';

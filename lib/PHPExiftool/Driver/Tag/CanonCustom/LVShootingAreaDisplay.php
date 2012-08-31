@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\CanonCustom;
 
-class LVShootingAreaDisplay extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class LVShootingAreaDisplay extends AbstractTag
 {
 
     protected $Id = 1035;

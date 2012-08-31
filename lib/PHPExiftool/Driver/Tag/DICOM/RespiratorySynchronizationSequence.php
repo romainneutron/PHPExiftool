@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class RespiratorySynchronizationSequence extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class RespiratorySynchronizationSequence extends AbstractTag
 {
 
     protected $Id = '0020,9253';

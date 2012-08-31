@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Composite;
 
-class CircleOfConfusion extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class CircleOfConfusion extends AbstractTag
 {
 
     protected $Id = 'CircleOfConfusion';

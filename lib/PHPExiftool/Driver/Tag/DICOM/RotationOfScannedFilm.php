@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class RotationOfScannedFilm extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class RotationOfScannedFilm extends AbstractTag
 {
 
     protected $Id = '0018,2030';

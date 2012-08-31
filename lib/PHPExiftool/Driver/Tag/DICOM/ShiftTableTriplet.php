@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class ShiftTableTriplet extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ShiftTableTriplet extends AbstractTag
 {
 
     protected $Id = '1000,xxx5';

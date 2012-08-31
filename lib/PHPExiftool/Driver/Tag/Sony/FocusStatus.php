@@ -11,10 +11,12 @@
 
 namespace PHPExiftool\Driver\Tag\Sony;
 
-class FocusStatus extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class FocusStatus extends AbstractTag
 {
 
-    protected $Id = 83;
+    protected $Id = 'mixed';
 
     protected $Name = 'FocusStatus';
 
@@ -28,7 +30,7 @@ class FocusStatus extends \PHPExiftool\Driver\Tag
 
     protected $g2 = 'Camera';
 
-    protected $Type = 'int16u';
+    protected $Type = 'mixed';
 
     protected $Writable = true;
 
@@ -39,17 +41,53 @@ class FocusStatus extends \PHPExiftool\Driver\Tag
     protected $Values = array(
         0 => array(
             'Id' => 0,
-            'Label' => 'Not confirmed',
+            'Label' => 'Manual - Not confirmed (0)',
         ),
         1 => array(
+            'Id' => 4,
+            'Label' => 'Manual - Not confirmed (4)',
+        ),
+        2 => array(
+            'Id' => 16,
+            'Label' => 'AF-C - Confirmed',
+        ),
+        3 => array(
+            'Id' => 24,
+            'Label' => 'AF-C - Not Confirmed',
+        ),
+        4 => array(
+            'Id' => 64,
+            'Label' => 'AF-S - Confirmed',
+        ),
+        5 => array(
+            'Id' => 0,
+            'Label' => 'Not confirmed',
+        ),
+        6 => array(
             'Id' => 1,
             'Label' => 'Confirmed',
         ),
-        2 => array(
+        7 => array(
             'Id' => 2,
             'Label' => 'Failed',
         ),
-        4 => array(
+        8 => array(
+            'Id' => 4,
+            'Label' => 'Not confirmed, Tracking',
+        ),
+        9 => array(
+            'Id' => 0,
+            'Label' => 'Not confirmed',
+        ),
+        10 => array(
+            'Id' => 1,
+            'Label' => 'Confirmed',
+        ),
+        11 => array(
+            'Id' => 2,
+            'Label' => 'Failed',
+        ),
+        12 => array(
             'Id' => 4,
             'Label' => 'Not confirmed, Tracking',
         ),

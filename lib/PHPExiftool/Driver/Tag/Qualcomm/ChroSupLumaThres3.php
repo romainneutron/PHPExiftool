@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Qualcomm;
 
-class ChroSupLumaThres3 extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ChroSupLumaThres3 extends AbstractTag
 {
 
     protected $Id = 'chro_sup_luma_thres_3';

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class ArchiveRequested extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ArchiveRequested extends AbstractTag
 {
 
     protected $Id = '0040,A494';

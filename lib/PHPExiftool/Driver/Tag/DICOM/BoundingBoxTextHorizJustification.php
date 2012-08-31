@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class BoundingBoxTextHorizJustification extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class BoundingBoxTextHorizJustification extends AbstractTag
 {
 
     protected $Id = '0070,0012';

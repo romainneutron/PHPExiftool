@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Pentax;
 
-class GripBatteryADNoLoad extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class GripBatteryADNoLoad extends AbstractTag
 {
 
     protected $Id = 4;

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Radiance;
 
-class View extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class View extends AbstractTag
 {
 
     protected $Id = 'view';

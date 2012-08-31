@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\ID3;
 
-class AverageLevel extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class AverageLevel extends AbstractTag
 {
 
     protected $Id = 'AverageLevel';

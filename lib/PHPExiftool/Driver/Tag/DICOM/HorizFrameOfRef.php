@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class HorizFrameOfRef extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class HorizFrameOfRef extends AbstractTag
 {
 
     protected $Id = '0019,100F';

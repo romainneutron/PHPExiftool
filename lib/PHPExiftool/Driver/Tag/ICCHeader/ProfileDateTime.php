@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\ICCHeader;
 
-class ProfileDateTime extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ProfileDateTime extends AbstractTag
 {
 
     protected $Id = 24;

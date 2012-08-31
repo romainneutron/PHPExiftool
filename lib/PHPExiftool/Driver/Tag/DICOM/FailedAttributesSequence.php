@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class FailedAttributesSequence extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class FailedAttributesSequence extends AbstractTag
 {
 
     protected $Id = '0074,1048';

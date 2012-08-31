@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class RadiusOfCircularShutter extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class RadiusOfCircularShutter extends AbstractTag
 {
 
     protected $Id = '0018,1612';

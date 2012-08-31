@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\SonyIDC;
 
-class IDCPreviewStart extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class IDCPreviewStart extends AbstractTag
 {
 
     protected $Id = 513;

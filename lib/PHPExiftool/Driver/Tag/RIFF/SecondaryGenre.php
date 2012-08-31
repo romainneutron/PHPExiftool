@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\RIFF;
 
-class SecondaryGenre extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class SecondaryGenre extends AbstractTag
 {
 
     protected $Id = 'ISGN';

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class AxisOfRotation extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class AxisOfRotation extends AbstractTag
 {
 
     protected $Id = '0066,001B';

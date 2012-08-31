@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\FlashPix;
 
-class CompObjUserTypeLen extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class CompObjUserTypeLen extends AbstractTag
 {
 
     protected $Id = 0;

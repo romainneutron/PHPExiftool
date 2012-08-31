@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class DirectoryRecordSequence extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class DirectoryRecordSequence extends AbstractTag
 {
 
     protected $Id = '0004,1220';

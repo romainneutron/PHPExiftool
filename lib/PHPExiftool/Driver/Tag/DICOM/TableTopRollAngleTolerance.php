@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class TableTopRollAngleTolerance extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class TableTopRollAngleTolerance extends AbstractTag
 {
 
     protected $Id = '300A,0050';

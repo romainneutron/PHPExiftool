@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPCrs;
 
-class SplitToningHighlightHue extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class SplitToningHighlightHue extends AbstractTag
 {
 
     protected $Id = 'SplitToningHighlightHue';

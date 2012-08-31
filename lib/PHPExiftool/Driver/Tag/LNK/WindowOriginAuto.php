@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\LNK;
 
-class WindowOriginAuto extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class WindowOriginAuto extends AbstractTag
 {
 
     protected $Id = 124;

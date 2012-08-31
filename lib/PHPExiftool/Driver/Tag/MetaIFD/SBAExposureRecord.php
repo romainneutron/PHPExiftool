@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MetaIFD;
 
-class SBAExposureRecord extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class SBAExposureRecord extends AbstractTag
 {
 
     protected $Id = 50017;

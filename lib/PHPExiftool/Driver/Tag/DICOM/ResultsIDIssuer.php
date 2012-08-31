@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class ResultsIDIssuer extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ResultsIDIssuer extends AbstractTag
 {
 
     protected $Id = '4008,0042';

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Microsoft;
 
-class MediaContentTypes extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class MediaContentTypes extends AbstractTag
 {
 
     protected $Id = 'MediaContentTypes';

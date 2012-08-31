@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\HTML;
 
-class ProgID extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ProgID extends AbstractTag
 {
 
     protected $Id = 'progid';

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Canon;
 
-class ToningEffectUserDef3 extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ToningEffectUserDef3 extends AbstractTag
 {
 
     protected $Id = 'mixed';

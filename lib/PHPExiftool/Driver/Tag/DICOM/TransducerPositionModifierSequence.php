@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class TransducerPositionModifierSequence extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class TransducerPositionModifierSequence extends AbstractTag
 {
 
     protected $Id = '0008,2242';

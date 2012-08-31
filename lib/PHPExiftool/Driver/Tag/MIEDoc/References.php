@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MIEDoc;
 
-class References extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class References extends AbstractTag
 {
 
     protected $Id = 'References';

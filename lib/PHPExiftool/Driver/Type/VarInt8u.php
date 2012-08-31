@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Type;
 
-class VarInt8u
+use PHPExiftool\Driver\AbstractType;
+
+class VarInt8u extends AbstractType
 {
 
     protected $ExiftoolName = 'var_int8u';

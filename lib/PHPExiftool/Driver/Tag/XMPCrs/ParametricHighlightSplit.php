@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPCrs;
 
-class ParametricHighlightSplit extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ParametricHighlightSplit extends AbstractTag
 {
 
     protected $Id = 'ParametricHighlightSplit';

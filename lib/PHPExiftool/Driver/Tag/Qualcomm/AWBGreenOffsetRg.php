@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Qualcomm;
 
-class AWBGreenOffsetRg extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class AWBGreenOffsetRg extends AbstractTag
 {
 
     protected $Id = 'awb_green_offset_rg';

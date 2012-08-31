@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPMicrosoft;
 
-class CameraSerialNumber extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class CameraSerialNumber extends AbstractTag
 {
 
     protected $Id = 'CameraSerialNumber';

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MXF;
 
-class MIMEEncoding extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class MIMEEncoding extends AbstractTag
 {
 
     protected $Id = 'mixed';

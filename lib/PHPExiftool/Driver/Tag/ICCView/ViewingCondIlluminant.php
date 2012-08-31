@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\ICCView;
 
-class ViewingCondIlluminant extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ViewingCondIlluminant extends AbstractTag
 {
 
     protected $Id = 8;

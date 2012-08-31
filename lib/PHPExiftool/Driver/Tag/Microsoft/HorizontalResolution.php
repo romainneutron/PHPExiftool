@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Microsoft;
 
-class HorizontalResolution extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class HorizontalResolution extends AbstractTag
 {
 
     protected $Id = '{6444048F-4C8B-11D1-8B70-080036B11A03} 5';

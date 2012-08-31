@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Type;
 
-class BitsRect
+use PHPExiftool\Driver\AbstractType;
+
+class BitsRect extends AbstractType
 {
 
     protected $ExiftoolName = 'BitsRect#';

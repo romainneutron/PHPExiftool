@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MIEMain;
 
-class SubfileDirectory extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class SubfileDirectory extends AbstractTag
 {
 
     protected $Id = '1Directory';

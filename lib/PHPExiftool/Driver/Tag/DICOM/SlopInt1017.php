@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class SlopInt1017 extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class SlopInt1017 extends AbstractTag
 {
 
     protected $Id = '0043,1060';

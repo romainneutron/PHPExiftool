@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class HumanPerformersOrganization extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class HumanPerformersOrganization extends AbstractTag
 {
 
     protected $Id = '0040,4036';

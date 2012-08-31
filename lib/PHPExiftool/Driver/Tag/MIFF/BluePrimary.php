@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MIFF;
 
-class BluePrimary extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class BluePrimary extends AbstractTag
 {
 
     protected $Id = 'blue-primary';

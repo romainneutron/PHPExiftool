@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class ExpectedCompletionDateAndTime extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ExpectedCompletionDateAndTime extends AbstractTag
 {
 
     protected $Id = '0040,4011';

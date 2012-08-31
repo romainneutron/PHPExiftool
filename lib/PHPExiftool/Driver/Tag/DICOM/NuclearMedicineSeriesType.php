@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class NuclearMedicineSeriesType extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class NuclearMedicineSeriesType extends AbstractTag
 {
 
     protected $Id = '0008,0042';

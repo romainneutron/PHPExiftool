@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Leaf;
 
-class ShadowEndPoints extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ShadowEndPoints extends AbstractTag
 {
 
     protected $Id = 'NeutObj_shadow_end_points';

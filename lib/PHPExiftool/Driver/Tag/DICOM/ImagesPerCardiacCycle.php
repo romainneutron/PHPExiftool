@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class ImagesPerCardiacCycle extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ImagesPerCardiacCycle extends AbstractTag
 {
 
     protected $Id = '0019,1088';

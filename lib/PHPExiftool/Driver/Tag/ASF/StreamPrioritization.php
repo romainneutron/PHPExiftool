@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\ASF;
 
-class StreamPrioritization extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class StreamPrioritization extends AbstractTag
 {
 
     protected $Id = 'D4FED15B-88D3-454F-81F0-ED5C45999E24';

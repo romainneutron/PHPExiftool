@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MXF;
 
-class AudioFirstMixDownProcess extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class AudioFirstMixDownProcess extends AbstractTag
 {
 
     protected $Id = '060e2b34.0101.0101.05200302.00000000';

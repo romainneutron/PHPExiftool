@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class InPlanePhaseEncodingDirection extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class InPlanePhaseEncodingDirection extends AbstractTag
 {
 
     protected $Id = '0018,1312';

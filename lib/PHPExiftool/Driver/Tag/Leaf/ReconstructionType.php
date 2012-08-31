@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Leaf;
 
-class ReconstructionType extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ReconstructionType extends AbstractTag
 {
 
     protected $Id = 'CaptProf_reconstruction_type';

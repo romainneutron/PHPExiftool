@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class SourceOfPreviousValues extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class SourceOfPreviousValues extends AbstractTag
 {
 
     protected $Id = '0400,0564';

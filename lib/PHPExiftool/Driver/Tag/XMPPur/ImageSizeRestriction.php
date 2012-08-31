@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPPur;
 
-class ImageSizeRestriction extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ImageSizeRestriction extends AbstractTag
 {
 
     protected $Id = 'imageSizeRestriction';

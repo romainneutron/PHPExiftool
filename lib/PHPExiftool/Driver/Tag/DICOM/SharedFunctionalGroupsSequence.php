@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class SharedFunctionalGroupsSequence extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class SharedFunctionalGroupsSequence extends AbstractTag
 {
 
     protected $Id = '5200,9229';

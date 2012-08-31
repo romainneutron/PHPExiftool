@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class UltrasoundColorDataPresent extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class UltrasoundColorDataPresent extends AbstractTag
 {
 
     protected $Id = '0028,0014';

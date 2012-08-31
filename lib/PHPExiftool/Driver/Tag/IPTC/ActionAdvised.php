@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\IPTC;
 
-class ActionAdvised extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ActionAdvised extends AbstractTag
 {
 
     protected $Id = 42;
@@ -47,7 +49,7 @@ class ActionAdvised extends \PHPExiftool\Driver\Tag
         ),
         03 => array(
             'Id' => 03,
-            'Label' => 'Ojbect Append',
+            'Label' => 'Object Append',
         ),
         04 => array(
             'Id' => 04,

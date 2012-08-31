@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MXF;
 
-class VideoPayloadIdentifier2002 extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class VideoPayloadIdentifier2002 extends AbstractTag
 {
 
     protected $Id = '060e2b34.0101.0105.04010504.02000000';

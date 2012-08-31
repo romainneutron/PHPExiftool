@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Font;
 
-class WWSSubfamilyName extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class WWSSubfamilyName extends AbstractTag
 {
 
     protected $Id = 22;

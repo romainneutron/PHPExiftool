@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Type;
 
-class VarUndef
+use PHPExiftool\Driver\AbstractType;
+
+class VarUndef extends AbstractType
 {
 
     protected $ExiftoolName = 'var_undef';

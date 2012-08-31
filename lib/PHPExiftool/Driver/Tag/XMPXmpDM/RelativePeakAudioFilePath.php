@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPXmpDM;
 
-class RelativePeakAudioFilePath extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class RelativePeakAudioFilePath extends AbstractTag
 {
 
     protected $Id = 'relativePeakAudioFilePath';

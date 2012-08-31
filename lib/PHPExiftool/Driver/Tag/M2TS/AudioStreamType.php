@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\M2TS;
 
-class AudioStreamType extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class AudioStreamType extends AbstractTag
 {
 
     protected $Id = 'AudioStreamType';

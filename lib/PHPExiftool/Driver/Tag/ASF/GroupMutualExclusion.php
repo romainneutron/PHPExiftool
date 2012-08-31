@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\ASF;
 
-class GroupMutualExclusion extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class GroupMutualExclusion extends AbstractTag
 {
 
     protected $Id = 'D1465A40-5A79-4338-B71B-E36B8FD6C249';

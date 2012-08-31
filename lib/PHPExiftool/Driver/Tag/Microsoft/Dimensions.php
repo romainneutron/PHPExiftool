@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Microsoft;
 
-class Dimensions extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class Dimensions extends AbstractTag
 {
 
     protected $Id = '{6444048F-4C8B-11D1-8B70-080036B11A03} 13';

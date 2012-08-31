@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Qualcomm;
 
-class ASF3UpperThreshold extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ASF3UpperThreshold extends AbstractTag
 {
 
     protected $Id = 'asf3_upper_threshold';

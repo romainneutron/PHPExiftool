@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class TreatmentVerificationStatus extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class TreatmentVerificationStatus extends AbstractTag
 {
 
     protected $Id = '3008,002C';

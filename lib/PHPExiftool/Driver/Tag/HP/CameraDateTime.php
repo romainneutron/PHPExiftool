@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\HP;
 
-class CameraDateTime extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class CameraDateTime extends AbstractTag
 {
 
     protected $Id = 20;

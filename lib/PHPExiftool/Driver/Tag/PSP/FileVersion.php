@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\PSP;
 
-class FileVersion extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class FileVersion extends AbstractTag
 {
 
     protected $Id = 'FileVersion';

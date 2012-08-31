@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class SelectorSeqPointerPrivateCreator extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class SelectorSeqPointerPrivateCreator extends AbstractTag
 {
 
     protected $Id = '0072,0054';

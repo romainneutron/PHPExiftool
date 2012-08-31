@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\FlashPix;
 
-class FlashPixStreamFieldOffset extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class FlashPixStreamFieldOffset extends AbstractTag
 {
 
     protected $Id = 8193;

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class PixelSpacingCalibrationDescription extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class PixelSpacingCalibrationDescription extends AbstractTag
 {
 
     protected $Id = '0028,0A04';

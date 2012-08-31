@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Qualcomm;
 
-class IncandConvLumaV0 extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class IncandConvLumaV0 extends AbstractTag
 {
 
     protected $Id = 'incand_conv_luma_v0';

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\QuickTime;
 
-class ChunkOffset64 extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ChunkOffset64 extends AbstractTag
 {
 
     protected $Id = 'co64';

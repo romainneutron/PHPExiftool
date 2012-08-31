@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\RSRC;
 
-class ApplicationMissingMsg extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ApplicationMissingMsg extends AbstractTag
 {
 
     protected $Id = 'STR _0xbff3';

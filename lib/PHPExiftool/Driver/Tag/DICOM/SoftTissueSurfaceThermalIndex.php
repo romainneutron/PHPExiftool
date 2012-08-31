@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class SoftTissueSurfaceThermalIndex extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class SoftTissueSurfaceThermalIndex extends AbstractTag
 {
 
     protected $Id = '0018,5029';

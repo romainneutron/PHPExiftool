@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPMicrosoft;
 
-class RatingPercent extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class RatingPercent extends AbstractTag
 {
 
     protected $Id = 'Rating';

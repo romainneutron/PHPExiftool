@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\InteropIFD;
 
-class InteropIndex extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class InteropIndex extends AbstractTag
 {
 
     protected $Id = 1;

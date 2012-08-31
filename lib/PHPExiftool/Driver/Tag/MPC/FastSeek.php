@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MPC;
 
-class FastSeek extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class FastSeek extends AbstractTag
 {
 
     protected $Id = 'Bit179';

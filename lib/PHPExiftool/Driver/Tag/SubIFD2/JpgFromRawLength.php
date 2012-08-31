@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\SubIFD2;
 
-class JpgFromRawLength extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class JpgFromRawLength extends AbstractTag
 {
 
     protected $Id = 279;

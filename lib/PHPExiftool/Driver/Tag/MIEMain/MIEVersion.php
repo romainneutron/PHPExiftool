@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MIEMain;
 
-class MIEVersion extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class MIEVersion extends AbstractTag
 {
 
     protected $Id = '0Vers';

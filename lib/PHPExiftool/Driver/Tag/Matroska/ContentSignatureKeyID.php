@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Matroska;
 
-class ContentSignatureKeyID extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ContentSignatureKeyID extends AbstractTag
 {
 
     protected $Id = 2020;

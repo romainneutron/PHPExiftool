@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class SourceToCompensatorDistance extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class SourceToCompensatorDistance extends AbstractTag
 {
 
     protected $Id = '300A,02E2';

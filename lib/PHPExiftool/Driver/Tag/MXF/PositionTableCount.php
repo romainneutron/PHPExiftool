@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MXF;
 
-class PositionTableCount extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class PositionTableCount extends AbstractTag
 {
 
     protected $Id = '060e2b34.0101.0105.04040401.07000000';

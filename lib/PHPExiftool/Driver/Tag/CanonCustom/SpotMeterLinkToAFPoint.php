@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\CanonCustom;
 
-class SpotMeterLinkToAFPoint extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class SpotMeterLinkToAFPoint extends AbstractTag
 {
 
     protected $Id = 263;

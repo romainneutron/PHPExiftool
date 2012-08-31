@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPXmp;
 
-class ThumbnailHeight extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ThumbnailHeight extends AbstractTag
 {
 
     protected $Id = 'ThumbnailsHeight';
@@ -28,10 +30,12 @@ class ThumbnailHeight extends \PHPExiftool\Driver\Tag
 
     protected $g2 = 'Image';
 
-    protected $Type = 'string';
+    protected $Type = 'integer';
 
     protected $Writable = true;
 
     protected $Description = 'Thumbnail Height';
+
+    protected $flag_List = true;
 
 }

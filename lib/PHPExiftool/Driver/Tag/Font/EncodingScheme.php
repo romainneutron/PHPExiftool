@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Font;
 
-class EncodingScheme extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class EncodingScheme extends AbstractTag
 {
 
     protected $Id = 'EncodingScheme';

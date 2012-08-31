@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MXF;
 
-class VC1BPictureCount extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class VC1BPictureCount extends AbstractTag
 {
 
     protected $Id = '060e2b34.0101.010c.04010604.06000000';

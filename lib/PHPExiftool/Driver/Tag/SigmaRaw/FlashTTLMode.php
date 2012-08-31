@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\SigmaRaw;
 
-class FlashTTLMode extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class FlashTTLMode extends AbstractTag
 {
 
     protected $Id = 'FLASHTTLMODE';

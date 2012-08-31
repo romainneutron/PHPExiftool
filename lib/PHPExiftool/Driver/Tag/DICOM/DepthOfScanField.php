@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class DepthOfScanField extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class DepthOfScanField extends AbstractTag
 {
 
     protected $Id = '0018,5050';

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Sony;
 
-class FocalLengthTeleZoom extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class FocalLengthTeleZoom extends AbstractTag
 {
 
     protected $Id = 16;

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class AbsoluteChannelDisplayScale extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class AbsoluteChannelDisplayScale extends AbstractTag
 {
 
     protected $Id = '003A,0248';

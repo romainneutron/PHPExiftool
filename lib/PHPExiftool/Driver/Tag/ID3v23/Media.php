@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\ID3v23;
 
-class Media extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class Media extends AbstractTag
 {
 
     protected $Id = 'TMED';

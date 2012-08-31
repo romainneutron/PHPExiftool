@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPPhotoshop;
 
-class SidecarForExtension extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class SidecarForExtension extends AbstractTag
 {
 
     protected $Id = 'SidecarForExtension';

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class PreDeformationMatrixRegistSeq extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class PreDeformationMatrixRegistSeq extends AbstractTag
 {
 
     protected $Id = '0064,000F';

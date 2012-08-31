@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\ID3v23;
 
-class PictureMimeType extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class PictureMimeType extends AbstractTag
 {
 
     protected $Id = 'APIC-1';

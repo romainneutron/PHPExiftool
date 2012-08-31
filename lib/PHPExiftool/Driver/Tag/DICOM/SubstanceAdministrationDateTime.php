@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class SubstanceAdministrationDateTime extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class SubstanceAdministrationDateTime extends AbstractTag
 {
 
     protected $Id = '0044,0010';

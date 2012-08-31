@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\ICCProfile;
 
-class DeviceMfgDesc extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class DeviceMfgDesc extends AbstractTag
 {
 
     protected $Id = 'dmnd';

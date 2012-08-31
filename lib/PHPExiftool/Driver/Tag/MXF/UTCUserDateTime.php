@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MXF;
 
-class UTCUserDateTime extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class UTCUserDateTime extends AbstractTag
 {
 
     protected $Id = '060e2b34.0101.0101.07020101.01010000';

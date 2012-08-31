@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\QuickTime;
 
-class StreamingDataProtocol extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class StreamingDataProtocol extends AbstractTag
 {
 
     protected $Id = 'sdp ';

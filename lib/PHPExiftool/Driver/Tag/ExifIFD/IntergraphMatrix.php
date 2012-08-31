@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\ExifIFD;
 
-class IntergraphMatrix extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class IntergraphMatrix extends AbstractTag
 {
 
     protected $Id = 33920;

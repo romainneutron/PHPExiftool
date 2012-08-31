@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\ASF;
 
-class RadioStationOwner extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class RadioStationOwner extends AbstractTag
 {
 
     protected $Id = 'RadioStationOwner';

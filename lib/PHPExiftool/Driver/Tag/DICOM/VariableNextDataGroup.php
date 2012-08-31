@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class VariableNextDataGroup extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class VariableNextDataGroup extends AbstractTag
 {
 
     protected $Id = '7Fxx,0011';

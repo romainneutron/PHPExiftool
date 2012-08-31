@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\ASF;
 
-class ASFSecurityObjectsSize extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ASFSecurityObjectsSize extends AbstractTag
 {
 
     protected $Id = 'ASFSecurityObjectsSize';

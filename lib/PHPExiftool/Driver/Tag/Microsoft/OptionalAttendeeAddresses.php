@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Microsoft;
 
-class OptionalAttendeeAddresses extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class OptionalAttendeeAddresses extends AbstractTag
 {
 
     protected $Id = '{D55BAE5A-3892-417A-A649-C6AC5AAAEAB3} 100';

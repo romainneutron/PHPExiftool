@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\CanonCustom;
 
-class AIServoTrackingSensitivity extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class AIServoTrackingSensitivity extends AbstractTag
 {
 
     protected $Id = 'mixed';

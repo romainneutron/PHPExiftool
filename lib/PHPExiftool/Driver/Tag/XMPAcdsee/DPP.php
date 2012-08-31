@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPAcdsee;
 
-class DPP extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class DPP extends AbstractTag
 {
 
     protected $Id = 'dpp';

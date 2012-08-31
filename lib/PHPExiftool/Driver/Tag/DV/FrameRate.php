@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DV;
 
-class FrameRate extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class FrameRate extends AbstractTag
 {
 
     protected $Id = 'FrameRate';

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class UserFillMapMSW extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class UserFillMapMSW extends AbstractTag
 {
 
     protected $Id = '0043,1036';

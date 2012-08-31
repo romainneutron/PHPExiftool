@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class TissueHeterogeneityCorrection extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class TissueHeterogeneityCorrection extends AbstractTag
 {
 
     protected $Id = '3004,0014';

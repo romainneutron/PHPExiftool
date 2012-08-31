@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPPlus;
 
-class TermsAndConditionsText extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class TermsAndConditionsText extends AbstractTag
 {
 
     protected $Id = 'TermsAndConditionsText';

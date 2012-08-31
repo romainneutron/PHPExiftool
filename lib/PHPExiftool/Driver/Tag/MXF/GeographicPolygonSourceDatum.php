@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MXF;
 
-class GeographicPolygonSourceDatum extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class GeographicPolygonSourceDatum extends AbstractTag
 {
 
     protected $Id = '060e2b34.0101.0109.07010201.03150000';

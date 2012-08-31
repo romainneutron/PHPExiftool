@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class CineRelativeToRealTime extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class CineRelativeToRealTime extends AbstractTag
 {
 
     protected $Id = '0072,0330';

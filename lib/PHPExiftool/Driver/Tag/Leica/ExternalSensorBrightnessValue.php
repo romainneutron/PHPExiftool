@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Leica;
 
-class ExternalSensorBrightnessValue extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ExternalSensorBrightnessValue extends AbstractTag
 {
 
     protected $Id = 'mixed';

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MIEUTM;
 
-class UTMZone extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class UTMZone extends AbstractTag
 {
 
     protected $Id = 'Zone';

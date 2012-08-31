@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\ASF;
 
-class MediaOriginalChannel extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class MediaOriginalChannel extends AbstractTag
 {
 
     protected $Id = 'MediaOriginalChannel';

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MXF;
 
-class BICI extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class BICI extends AbstractTag
 {
 
     protected $Id = '060e2b34.0101.0101.01011302.00000000';

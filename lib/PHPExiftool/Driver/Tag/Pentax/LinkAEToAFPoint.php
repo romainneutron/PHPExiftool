@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Pentax;
 
-class LinkAEToAFPoint extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class LinkAEToAFPoint extends AbstractTag
 {
 
     protected $Id = '14.2';

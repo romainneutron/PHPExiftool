@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MIEExtender;
 
-class ExtenderSerialNumber extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ExtenderSerialNumber extends AbstractTag
 {
 
     protected $Id = 'SerialNumber';

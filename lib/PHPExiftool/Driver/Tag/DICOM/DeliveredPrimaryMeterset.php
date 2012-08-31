@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class DeliveredPrimaryMeterset extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class DeliveredPrimaryMeterset extends AbstractTag
 {
 
     protected $Id = '3008,0036';

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Flash;
 
-class HasMetadata extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class HasMetadata extends AbstractTag
 {
 
     protected $Id = 'hasMetadata';

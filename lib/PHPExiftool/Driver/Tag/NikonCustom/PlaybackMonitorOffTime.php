@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\NikonCustom;
 
-class PlaybackMonitorOffTime extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class PlaybackMonitorOffTime extends AbstractTag
 {
 
     protected $Id = 'mixed';

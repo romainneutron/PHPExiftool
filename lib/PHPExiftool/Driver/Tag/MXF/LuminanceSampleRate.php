@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MXF;
 
-class LuminanceSampleRate extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class LuminanceSampleRate extends AbstractTag
 {
 
     protected $Id = '060e2b34.0101.0101.04010501.01000000';

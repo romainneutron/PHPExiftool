@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPExtensis;
 
-class ClientName extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ClientName extends AbstractTag
 {
 
     protected $Id = 'ClientName';

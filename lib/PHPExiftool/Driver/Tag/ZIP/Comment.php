@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\ZIP;
 
-class Comment extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class Comment extends AbstractTag
 {
 
     protected $Id = 11;

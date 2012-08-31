@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class FillerOrderNumImagingServiceReq extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class FillerOrderNumImagingServiceReq extends AbstractTag
 {
 
     protected $Id = 'mixed';

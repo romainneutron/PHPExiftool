@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\QuickTime;
 
-class SubtitleKeywords extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class SubtitleKeywords extends AbstractTag
 {
 
     protected $Id = '\\xa9snk';

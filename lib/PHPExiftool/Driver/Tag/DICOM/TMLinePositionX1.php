@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class TMLinePositionX1 extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class TMLinePositionX1 extends AbstractTag
 {
 
     protected $Id = '0018,6041';

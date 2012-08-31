@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class MaxLeftChanOverViews extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class MaxLeftChanOverViews extends AbstractTag
 {
 
     protected $Id = '0019,1074';

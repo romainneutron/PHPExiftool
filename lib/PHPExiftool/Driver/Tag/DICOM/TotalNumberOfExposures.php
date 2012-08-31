@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class TotalNumberOfExposures extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class TotalNumberOfExposures extends AbstractTag
 {
 
     protected $Id = '0040,0301';

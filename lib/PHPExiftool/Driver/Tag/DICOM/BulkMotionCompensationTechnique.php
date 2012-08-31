@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class BulkMotionCompensationTechnique extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class BulkMotionCompensationTechnique extends AbstractTag
 {
 
     protected $Id = '0018,9172';

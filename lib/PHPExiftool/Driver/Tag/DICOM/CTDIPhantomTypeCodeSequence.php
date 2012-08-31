@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class CTDIPhantomTypeCodeSequence extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class CTDIPhantomTypeCodeSequence extends AbstractTag
 {
 
     protected $Id = '0018,9346';

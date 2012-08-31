@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class FrameOfReferenceTransformComment extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class FrameOfReferenceTransformComment extends AbstractTag
 {
 
     protected $Id = '3006,00C8';

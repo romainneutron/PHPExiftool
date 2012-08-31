@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\RTF;
 
-class TotalEditTime extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class TotalEditTime extends AbstractTag
 {
 
     protected $Id = 'edmins';

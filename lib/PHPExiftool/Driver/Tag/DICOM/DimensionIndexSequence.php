@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class DimensionIndexSequence extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class DimensionIndexSequence extends AbstractTag
 {
 
     protected $Id = '0020,9222';

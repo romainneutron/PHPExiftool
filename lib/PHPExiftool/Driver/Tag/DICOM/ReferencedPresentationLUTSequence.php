@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class ReferencedPresentationLUTSequence extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ReferencedPresentationLUTSequence extends AbstractTag
 {
 
     protected $Id = '2050,0500';

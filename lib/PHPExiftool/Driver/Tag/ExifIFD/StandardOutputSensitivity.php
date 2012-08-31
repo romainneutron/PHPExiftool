@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\ExifIFD;
 
-class StandardOutputSensitivity extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class StandardOutputSensitivity extends AbstractTag
 {
 
     protected $Id = 34865;

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Adobe;
 
-class DCTEncodeVersion extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class DCTEncodeVersion extends AbstractTag
 {
 
     protected $Id = 0;

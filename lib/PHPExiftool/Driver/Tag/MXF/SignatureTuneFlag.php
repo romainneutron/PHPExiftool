@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MXF;
 
-class SignatureTuneFlag extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class SignatureTuneFlag extends AbstractTag
 {
 
     protected $Id = '060e2b34.0101.0103.05010401.00000000';

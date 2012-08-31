@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class KeratometricAxis extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class KeratometricAxis extends AbstractTag
 {
 
     protected $Id = '0046,0077';

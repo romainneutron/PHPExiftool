@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class BoundingBoxAnnotationUnits extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class BoundingBoxAnnotationUnits extends AbstractTag
 {
 
     protected $Id = '0070,0003';

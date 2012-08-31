@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\ASF;
 
-class WMADRCPeakReference extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class WMADRCPeakReference extends AbstractTag
 {
 
     protected $Id = 'WMADRCPeakReference';

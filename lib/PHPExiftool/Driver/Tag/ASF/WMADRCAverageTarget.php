@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\ASF;
 
-class WMADRCAverageTarget extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class WMADRCAverageTarget extends AbstractTag
 {
 
     protected $Id = 'WMADRCAverageTarget';

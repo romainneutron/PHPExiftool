@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Microsoft;
 
-class SharedWith extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class SharedWith extends AbstractTag
 {
 
     protected $Id = '{EF884C5B-2BFE-41BB-AAE5-76EEDF4F9902} 200';

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Theora;
 
-class FrameRate extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class FrameRate extends AbstractTag
 {
 
     protected $Id = 15;

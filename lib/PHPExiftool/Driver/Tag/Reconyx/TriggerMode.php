@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Reconyx;
 
-class TriggerMode extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class TriggerMode extends AbstractTag
 {
 
     protected $Id = 6;

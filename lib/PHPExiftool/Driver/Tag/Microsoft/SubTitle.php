@@ -11,12 +11,14 @@
 
 namespace PHPExiftool\Driver\Tag\Microsoft;
 
-class Subtitle extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class SubTitle extends AbstractTag
 {
 
-    protected $Id = '{56A3372E-CE9C-11D2-9F0E-006097C686F6} 38';
+    protected $Id = 'WM/SubTitle';
 
-    protected $Name = 'Subtitle';
+    protected $Name = 'SubTitle';
 
     protected $FullName = 'Microsoft::Xtra';
 
@@ -32,6 +34,6 @@ class Subtitle extends \PHPExiftool\Driver\Tag
 
     protected $Writable = false;
 
-    protected $Description = 'Subtitle';
+    protected $Description = 'Sub Title';
 
 }

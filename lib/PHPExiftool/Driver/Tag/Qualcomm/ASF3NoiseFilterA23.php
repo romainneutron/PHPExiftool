@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Qualcomm;
 
-class ASF3NoiseFilterA23 extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ASF3NoiseFilterA23 extends AbstractTag
 {
 
     protected $Id = 'asf3_noise_filter_a23';

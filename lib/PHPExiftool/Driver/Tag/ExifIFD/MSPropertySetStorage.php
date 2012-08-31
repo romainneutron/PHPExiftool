@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\ExifIFD;
 
-class MSPropertySetStorage extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class MSPropertySetStorage extends AbstractTag
 {
 
     protected $Id = 37680;

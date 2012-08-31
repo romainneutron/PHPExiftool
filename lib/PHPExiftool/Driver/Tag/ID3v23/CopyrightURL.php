@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\ID3v23;
 
-class CopyrightURL extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class CopyrightURL extends AbstractTag
 {
 
     protected $Id = 'WCOP';

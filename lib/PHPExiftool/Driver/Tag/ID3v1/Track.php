@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\ID3v1;
 
-class Track extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class Track extends AbstractTag
 {
 
     protected $Id = 125;

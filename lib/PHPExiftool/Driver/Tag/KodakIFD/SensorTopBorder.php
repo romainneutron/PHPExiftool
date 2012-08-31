@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\KodakIFD;
 
-class SensorTopBorder extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class SensorTopBorder extends AbstractTag
 {
 
     protected $Id = 1004;

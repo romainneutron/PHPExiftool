@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MXF;
 
-class MicrophonePlacementTechniques extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class MicrophonePlacementTechniques extends AbstractTag
 {
 
     protected $Id = '060e2b34.0101.0101.05010204.01000000';

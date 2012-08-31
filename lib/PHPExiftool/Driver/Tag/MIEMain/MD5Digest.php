@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MIEMain;
 
-class MD5Digest extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class MD5Digest extends AbstractTag
 {
 
     protected $Id = 'zmd5';

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPCrs;
 
-class LuminanceAdjustmentOrange extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class LuminanceAdjustmentOrange extends AbstractTag
 {
 
     protected $Id = 'LuminanceAdjustmentOrange';

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Flash;
 
-class AudioEncoding extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class AudioEncoding extends AbstractTag
 {
 
     protected $Id = 'Bit0-3';

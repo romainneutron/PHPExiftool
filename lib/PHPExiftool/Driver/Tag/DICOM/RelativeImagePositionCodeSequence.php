@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class RelativeImagePositionCodeSequence extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class RelativeImagePositionCodeSequence extends AbstractTag
 {
 
     protected $Id = '0022,001D';

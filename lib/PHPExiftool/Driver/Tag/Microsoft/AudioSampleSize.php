@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Microsoft;
 
-class AudioSampleSize extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class AudioSampleSize extends AbstractTag
 {
 
     protected $Id = '{64440490-4C8B-11D1-8B70-080036B11A03} 6';

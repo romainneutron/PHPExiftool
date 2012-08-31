@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPCrs;
 
-class ConvertToGrayscale extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ConvertToGrayscale extends AbstractTag
 {
 
     protected $Id = 'ConvertToGrayscale';

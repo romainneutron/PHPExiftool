@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\CanonCustom;
 
-class PF24LightLCDDuringBulb extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class PF24LightLCDDuringBulb extends AbstractTag
 {
 
     protected $Id = 25;

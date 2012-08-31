@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Font;
 
-class MappingScheme extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class MappingScheme extends AbstractTag
 {
 
     protected $Id = 'MappingScheme';

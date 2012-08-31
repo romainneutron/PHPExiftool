@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class SurfaceCoilType extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class SurfaceCoilType extends AbstractTag
 {
 
     protected $Id = '0019,10A0';

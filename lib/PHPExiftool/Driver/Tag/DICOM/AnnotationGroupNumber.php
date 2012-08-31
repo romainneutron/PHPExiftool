@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class AnnotationGroupNumber extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class AnnotationGroupNumber extends AbstractTag
 {
 
     protected $Id = '0040,A180';

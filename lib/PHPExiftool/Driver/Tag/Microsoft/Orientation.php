@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Microsoft;
 
-class Orientation extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class Orientation extends AbstractTag
 {
 
     protected $Id = '{14B81DA1-0135-4D31-96D9-6CBFC9671A99} 274';

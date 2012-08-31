@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class ReferencedSOPInstanceMACSeq extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ReferencedSOPInstanceMACSeq extends AbstractTag
 {
 
     protected $Id = '0400,0403';

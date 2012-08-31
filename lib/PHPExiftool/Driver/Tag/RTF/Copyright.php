@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\RTF;
 
-class Copyright extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class Copyright extends AbstractTag
 {
 
     protected $Id = 'copyright';

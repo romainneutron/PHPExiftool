@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class NumberFractionPatternDigitsPerDay extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class NumberFractionPatternDigitsPerDay extends AbstractTag
 {
 
     protected $Id = '300A,0079';

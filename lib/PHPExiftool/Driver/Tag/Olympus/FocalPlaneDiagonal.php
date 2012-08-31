@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Olympus;
 
-class FocalPlaneDiagonal extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class FocalPlaneDiagonal extends AbstractTag
 {
 
     protected $Id = 'mixed';

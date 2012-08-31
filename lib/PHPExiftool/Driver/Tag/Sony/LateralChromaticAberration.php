@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Sony;
 
-class LateralChromaticAberration extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class LateralChromaticAberration extends AbstractTag
 {
 
     protected $Id = 8210;

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class CardiacTriggerSequence extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class CardiacTriggerSequence extends AbstractTag
 {
 
     protected $Id = '0018,9118';

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class IlluminationWaveLength extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class IlluminationWaveLength extends AbstractTag
 {
 
     protected $Id = '0022,0055';

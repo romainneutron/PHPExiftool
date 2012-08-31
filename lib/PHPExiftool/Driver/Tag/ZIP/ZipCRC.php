@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\ZIP;
 
-class ZipCRC extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ZipCRC extends AbstractTag
 {
 
     protected $Id = 7;

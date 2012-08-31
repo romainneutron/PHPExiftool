@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class TableXPositionToIsocenter extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class TableXPositionToIsocenter extends AbstractTag
 {
 
     protected $Id = '0018,9466';

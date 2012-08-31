@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Qualcomm;
 
-class AECIndoorIdx extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class AECIndoorIdx extends AbstractTag
 {
 
     protected $Id = 'aec_indoor_idx';

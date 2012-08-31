@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class RecommendedDisplayCIELabValue extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class RecommendedDisplayCIELabValue extends AbstractTag
 {
 
     protected $Id = '0062,000D';

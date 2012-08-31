@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPMP;
 
-class RegionPersonDisplayName extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class RegionPersonDisplayName extends AbstractTag
 {
 
     protected $Id = 'RegionInfoRegionsPersonDisplayName';
@@ -33,5 +35,7 @@ class RegionPersonDisplayName extends \PHPExiftool\Driver\Tag
     protected $Writable = true;
 
     protected $Description = 'Region Person Display Name';
+
+    protected $flag_List = true;
 
 }

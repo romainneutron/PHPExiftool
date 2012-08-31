@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MXF;
 
-class InstallmentNumber extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class InstallmentNumber extends AbstractTag
 {
 
     protected $Id = '060e2b34.0101.0104.02060103.00000000';

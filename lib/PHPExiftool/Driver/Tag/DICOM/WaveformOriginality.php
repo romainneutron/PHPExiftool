@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class WaveformOriginality extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class WaveformOriginality extends AbstractTag
 {
 
     protected $Id = '003A,0004';

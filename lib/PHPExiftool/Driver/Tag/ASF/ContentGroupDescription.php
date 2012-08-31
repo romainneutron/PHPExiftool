@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\ASF;
 
-class ContentGroupDescription extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ContentGroupDescription extends AbstractTag
 {
 
     protected $Id = 'ContentGroupDescription';

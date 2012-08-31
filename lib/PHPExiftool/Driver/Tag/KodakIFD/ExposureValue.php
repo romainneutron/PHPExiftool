@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\KodakIFD;
 
-class ExposureValue extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ExposureValue extends AbstractTag
 {
 
     protected $Id = 3;

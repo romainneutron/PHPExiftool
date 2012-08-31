@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPCrs;
 
-class GrayMixerGreen extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class GrayMixerGreen extends AbstractTag
 {
 
     protected $Id = 'GrayMixerGreen';

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class DataElementsSigned extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class DataElementsSigned extends AbstractTag
 {
 
     protected $Id = '0400,0020';

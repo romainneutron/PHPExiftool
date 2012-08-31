@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class SchedStationGeographicLocCodeSeq extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class SchedStationGeographicLocCodeSeq extends AbstractTag
 {
 
     protected $Id = '0040,4027';

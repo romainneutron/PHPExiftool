@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MIELens;
 
-class MaxApertureAtMaxFocal extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class MaxApertureAtMaxFocal extends AbstractTag
 {
 
     protected $Id = 'MaxApertureAtMaxFocal';

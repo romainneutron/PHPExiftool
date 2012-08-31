@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Qualcomm;
 
-class ClipToAfRato extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ClipToAfRato extends AbstractTag
 {
 
     protected $Id = 'clip_to_af_rato';

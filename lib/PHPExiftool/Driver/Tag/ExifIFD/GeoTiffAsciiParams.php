@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\ExifIFD;
 
-class GeoTiffAsciiParams extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class GeoTiffAsciiParams extends AbstractTag
 {
 
     protected $Id = 34737;

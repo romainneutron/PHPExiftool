@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Photoshop;
 
-class PhotoshopThumbnail extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class PhotoshopThumbnail extends AbstractTag
 {
 
     protected $Id = 1036;

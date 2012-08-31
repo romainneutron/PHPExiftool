@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\RealMDPR;
 
-class PhysicalStreamNumbers extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class PhysicalStreamNumbers extends AbstractTag
 {
 
     protected $Id = 16;

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MXF;
 
-class PreviousNumberInSequence extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class PreviousNumberInSequence extends AbstractTag
 {
 
     protected $Id = 'mixed';

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XML;
 
-class LinksUpToDate extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class LinksUpToDate extends AbstractTag
 {
 
     protected $Id = 'LinksUpToDate';

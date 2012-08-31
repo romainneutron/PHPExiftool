@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DV;
 
-class VideoScanType extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class VideoScanType extends AbstractTag
 {
 
     protected $Id = 'VideoScanType';

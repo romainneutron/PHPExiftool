@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Microsoft;
 
-class BillingInformation extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class BillingInformation extends AbstractTag
 {
 
     protected $Id = '{D37D52C6-261C-4303-82B3-08B926AC6F12} 100';

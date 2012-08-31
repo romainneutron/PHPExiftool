@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\NikonCustom;
 
-class LiveViewAFAreaMode extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class LiveViewAFAreaMode extends AbstractTag
 {
 
     protected $Id = '34.1';

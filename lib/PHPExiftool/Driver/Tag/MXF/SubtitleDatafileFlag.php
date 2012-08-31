@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MXF;
 
-class SubtitleDatafileFlag extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class SubtitleDatafileFlag extends AbstractTag
 {
 
     protected $Id = '060e2b34.0101.0102.06010101.02000000';

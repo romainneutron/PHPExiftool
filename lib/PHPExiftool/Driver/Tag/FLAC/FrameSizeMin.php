@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\FLAC;
 
-class FrameSizeMin extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class FrameSizeMin extends AbstractTag
 {
 
     protected $Id = 'Bit032-055';

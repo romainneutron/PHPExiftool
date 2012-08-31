@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\ICCProfile;
 
-class BlueMatrixColumn extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class BlueMatrixColumn extends AbstractTag
 {
 
     protected $Id = 'bXYZ';

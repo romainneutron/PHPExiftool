@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPDex;
 
-class OS extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class OS extends AbstractTag
 {
 
     protected $Id = 'os';

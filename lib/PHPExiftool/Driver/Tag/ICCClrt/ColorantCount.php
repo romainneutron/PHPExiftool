@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\ICCClrt;
 
-class ColorantCount extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ColorantCount extends AbstractTag
 {
 
     protected $Id = 8;

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MXF;
 
-class AverageBytesPerSecond extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class AverageBytesPerSecond extends AbstractTag
 {
 
     protected $Id = '060e2b34.0101.0105.04020303.05000000';

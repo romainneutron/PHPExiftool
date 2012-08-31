@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\PhotoCD;
 
-class AuthoringSoftwareRelease extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class AuthoringSoftwareRelease extends AbstractTag
 {
 
     protected $Id = 9;

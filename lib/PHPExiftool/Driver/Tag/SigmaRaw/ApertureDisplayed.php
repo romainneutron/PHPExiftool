@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\SigmaRaw;
 
-class ApertureDisplayed extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ApertureDisplayed extends AbstractTag
 {
 
     protected $Id = 'AP_DESC';

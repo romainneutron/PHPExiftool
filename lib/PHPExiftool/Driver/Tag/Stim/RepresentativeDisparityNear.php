@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Stim;
 
-class RepresentativeDisparityNear extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class RepresentativeDisparityNear extends AbstractTag
 {
 
     protected $Id = 14;

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\QuickTime;
 
-class BeatsPerMinute extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class BeatsPerMinute extends AbstractTag
 {
 
     protected $Id = 'tmpo';

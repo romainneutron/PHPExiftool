@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class ControlPointRelativePosition extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ControlPointRelativePosition extends AbstractTag
 {
 
     protected $Id = '300A,02D2';

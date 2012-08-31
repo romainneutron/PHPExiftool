@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\PNG;
 
-class SRGBRendering extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class SRGBRendering extends AbstractTag
 {
 
     protected $Id = 'sRGB';

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPPlus;
 
-class OtherLicenseRequirements extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class OtherLicenseRequirements extends AbstractTag
 {
 
     protected $Id = 'OtherLicenseRequirements';

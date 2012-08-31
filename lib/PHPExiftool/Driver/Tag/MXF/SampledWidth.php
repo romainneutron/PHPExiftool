@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MXF;
 
-class SampledWidth extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class SampledWidth extends AbstractTag
 {
 
     protected $Id = '060e2b34.0101.0101.04010501.08000000';

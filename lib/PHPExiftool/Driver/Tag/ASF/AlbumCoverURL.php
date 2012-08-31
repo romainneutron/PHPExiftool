@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\ASF;
 
-class AlbumCoverURL extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class AlbumCoverURL extends AbstractTag
 {
 
     protected $Id = 'AlbumCoverURL';

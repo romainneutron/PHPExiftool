@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Microsoft;
 
-class Pager extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class Pager extends AbstractTag
 {
 
     protected $Id = '{D6304E01-F8F5-4F45-8B15-D024A6296789} 100';

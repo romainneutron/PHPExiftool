@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class NoViewsRefChansBlocked extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class NoViewsRefChansBlocked extends AbstractTag
 {
 
     protected $Id = '0043,1026';

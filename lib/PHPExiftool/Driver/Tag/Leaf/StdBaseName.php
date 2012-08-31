@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Leaf;
 
-class StdBaseName extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class StdBaseName extends AbstractTag
 {
 
     protected $Id = 'SaveObj_std_base_name';

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Jpeg2000;
 
-class GraphicsTechnologyStandardOutput extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class GraphicsTechnologyStandardOutput extends AbstractTag
 {
 
     protected $Id = 'gtso';

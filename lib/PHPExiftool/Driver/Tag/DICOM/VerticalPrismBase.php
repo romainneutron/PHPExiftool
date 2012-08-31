@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class VerticalPrismBase extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class VerticalPrismBase extends AbstractTag
 {
 
     protected $Id = '0046,0036';

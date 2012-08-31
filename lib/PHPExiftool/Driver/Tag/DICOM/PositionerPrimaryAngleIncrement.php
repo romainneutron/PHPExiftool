@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class PositionerPrimaryAngleIncrement extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class PositionerPrimaryAngleIncrement extends AbstractTag
 {
 
     protected $Id = '0018,1520';

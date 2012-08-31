@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class CrosstalkCalibrationDate extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class CrosstalkCalibrationDate extends AbstractTag
 {
 
     protected $Id = '0045,101F';

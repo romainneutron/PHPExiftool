@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class IsocenterToLateralSpreadingDevDist extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class IsocenterToLateralSpreadingDevDist extends AbstractTag
 {
 
     protected $Id = '300A,0374';

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\ICCMeta;
 
-class MediaColor extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class MediaColor extends AbstractTag
 {
 
     protected $Id = 'MediaColor';

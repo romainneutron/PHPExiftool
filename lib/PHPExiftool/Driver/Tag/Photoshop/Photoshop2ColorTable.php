@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Photoshop;
 
-class Photoshop2ColorTable extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class Photoshop2ColorTable extends AbstractTag
 {
 
     protected $Id = 1003;

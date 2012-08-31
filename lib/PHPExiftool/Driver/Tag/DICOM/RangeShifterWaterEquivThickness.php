@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class RangeShifterWaterEquivThickness extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class RangeShifterWaterEquivThickness extends AbstractTag
 {
 
     protected $Id = '300A,0366';

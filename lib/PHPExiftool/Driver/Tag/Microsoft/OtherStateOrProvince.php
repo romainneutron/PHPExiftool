@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Microsoft;
 
-class OtherStateOrProvince extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class OtherStateOrProvince extends AbstractTag
 {
 
     protected $Id = '{71B377D6-E570-425F-A170-809FAE73E54E} 100';

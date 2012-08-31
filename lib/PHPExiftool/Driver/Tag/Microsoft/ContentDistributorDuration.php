@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Microsoft;
 
-class ContentDistributorDuration extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ContentDistributorDuration extends AbstractTag
 {
 
     protected $Id = 'ContentDistributorDuration';

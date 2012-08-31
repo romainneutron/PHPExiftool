@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Photoshop;
 
-class MacintoshPrintInfo extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class MacintoshPrintInfo extends AbstractTag
 {
 
     protected $Id = 1001;

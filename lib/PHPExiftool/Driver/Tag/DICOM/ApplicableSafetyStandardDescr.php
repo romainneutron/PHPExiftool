@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class ApplicableSafetyStandardDescr extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ApplicableSafetyStandardDescr extends AbstractTag
 {
 
     protected $Id = '0018,9175';

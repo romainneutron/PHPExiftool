@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class LargestValidPixelValue extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class LargestValidPixelValue extends AbstractTag
 {
 
     protected $Id = '0028,0105';

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class IonControlPointDeliverySequence extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class IonControlPointDeliverySequence extends AbstractTag
 {
 
     protected $Id = '3008,0041';

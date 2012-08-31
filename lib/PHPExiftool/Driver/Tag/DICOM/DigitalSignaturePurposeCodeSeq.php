@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class DigitalSignaturePurposeCodeSeq extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class DigitalSignaturePurposeCodeSeq extends AbstractTag
 {
 
     protected $Id = '0400,0401';

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\CanonCustom;
 
-class SwitchToRegisteredAFPoint extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class SwitchToRegisteredAFPoint extends AbstractTag
 {
 
     protected $Id = 'mixed';

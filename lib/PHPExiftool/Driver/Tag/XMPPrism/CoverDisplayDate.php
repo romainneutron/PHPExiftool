@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPPrism;
 
-class CoverDisplayDate extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class CoverDisplayDate extends AbstractTag
 {
 
     protected $Id = 'coverDisplayDate';

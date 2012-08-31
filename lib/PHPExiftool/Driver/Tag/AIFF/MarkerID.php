@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\AIFF;
 
-class MarkerID extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class MarkerID extends AbstractTag
 {
 
     protected $Id = 1;

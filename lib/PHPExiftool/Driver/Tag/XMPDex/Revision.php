@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPDex;
 
-class Revision extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class Revision extends AbstractTag
 {
 
     protected $Id = 'revision';

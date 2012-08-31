@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\RSRC;
 
-class CreatorApplication extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class CreatorApplication extends AbstractTag
 {
 
     protected $Id = 'STR _0xbff4';

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MXF;
 
-class EssenceContainerFormat extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class EssenceContainerFormat extends AbstractTag
 {
 
     protected $Id = 'mixed';

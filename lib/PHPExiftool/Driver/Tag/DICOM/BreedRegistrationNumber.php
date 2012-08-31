@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class BreedRegistrationNumber extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class BreedRegistrationNumber extends AbstractTag
 {
 
     protected $Id = '0010,2295';

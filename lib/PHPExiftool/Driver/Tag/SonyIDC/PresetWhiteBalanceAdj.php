@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\SonyIDC;
 
-class PresetWhiteBalanceAdj extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class PresetWhiteBalanceAdj extends AbstractTag
 {
 
     protected $Id = 32788;

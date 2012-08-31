@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\IFD0;
 
-class LocalizedCameraModel extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class LocalizedCameraModel extends AbstractTag
 {
 
     protected $Id = 50709;

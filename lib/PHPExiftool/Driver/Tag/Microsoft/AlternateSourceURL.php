@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Microsoft;
 
-class AlternateSourceURL extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class AlternateSourceURL extends AbstractTag
 {
 
     protected $Id = 'AlternateSourceURL';

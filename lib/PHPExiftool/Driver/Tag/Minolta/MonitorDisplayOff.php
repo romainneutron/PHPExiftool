@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Minolta;
 
-class MonitorDisplayOff extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class MonitorDisplayOff extends AbstractTag
 {
 
     protected $Id = 76;

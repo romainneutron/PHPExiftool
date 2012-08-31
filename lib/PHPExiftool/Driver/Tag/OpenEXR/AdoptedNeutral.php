@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\OpenEXR;
 
-class AdoptedNeutral extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class AdoptedNeutral extends AbstractTag
 {
 
     protected $Id = 'adoptedNeutral';

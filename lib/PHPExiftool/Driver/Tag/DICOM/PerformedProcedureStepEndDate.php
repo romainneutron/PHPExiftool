@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class PerformedProcedureStepEndDate extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class PerformedProcedureStepEndDate extends AbstractTag
 {
 
     protected $Id = '0040,0250';

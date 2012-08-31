@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MXF;
 
-class DialNorm extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class DialNorm extends AbstractTag
 {
 
     protected $Id = '060e2b34.0101.0105.04020701.00000000';

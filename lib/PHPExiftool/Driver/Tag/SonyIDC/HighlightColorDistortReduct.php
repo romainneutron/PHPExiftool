@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\SonyIDC;
 
-class HighlightColorDistortReduct extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class HighlightColorDistortReduct extends AbstractTag
 {
 
     protected $Id = 32806;

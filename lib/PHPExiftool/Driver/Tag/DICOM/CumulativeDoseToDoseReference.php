@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class CumulativeDoseToDoseReference extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class CumulativeDoseToDoseReference extends AbstractTag
 {
 
     protected $Id = '3008,0052';

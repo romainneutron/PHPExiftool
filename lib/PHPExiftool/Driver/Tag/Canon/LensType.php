@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Canon;
 
-class LensType extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class LensType extends AbstractTag
 {
 
     protected $Id = 'mixed';
@@ -1048,6 +1050,18 @@ class LensType extends \PHPExiftool\Driver\Tag
         495 => array(
             'Id' => 495,
             'Label' => 'Canon EF 24-70mm f/2.8L II USM',
+        ),
+        4143 => array(
+            'Id' => 4143,
+            'Label' => 'Canon EF-M 22mm f/2 STM',
+        ),
+        4144 => array(
+            'Id' => 4144,
+            'Label' => 'Canon EF 40mm f/2.8 STM',
+        ),
+        4145 => array(
+            'Id' => 4145,
+            'Label' => 'Canon EF-M 22mm f/2 STM',
         ),
     );
 

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPCc;
 
-class AttributionName extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class AttributionName extends AbstractTag
 {
 
     protected $Id = 'attributionName';

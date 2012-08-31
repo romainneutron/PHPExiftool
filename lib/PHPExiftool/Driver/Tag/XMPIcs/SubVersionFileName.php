@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPIcs;
 
-class SubVersionFileName extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class SubVersionFileName extends AbstractTag
 {
 
     protected $Id = 'SubVersionsFileName';
@@ -33,5 +35,7 @@ class SubVersionFileName extends \PHPExiftool\Driver\Tag
     protected $Writable = true;
 
     protected $Description = 'Sub Version File Name';
+
+    protected $flag_List = true;
 
 }

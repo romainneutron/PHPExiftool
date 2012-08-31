@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class AutoWindowLevelAlpha extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class AutoWindowLevelAlpha extends AbstractTag
 {
 
     protected $Id = '0021,1081';

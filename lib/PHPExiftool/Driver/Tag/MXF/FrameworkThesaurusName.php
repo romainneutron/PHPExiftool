@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MXF;
 
-class FrameworkThesaurusName extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class FrameworkThesaurusName extends AbstractTag
 {
 
     protected $Id = 'mixed';

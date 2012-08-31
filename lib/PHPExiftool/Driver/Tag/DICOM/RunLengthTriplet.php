@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class RunLengthTriplet extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class RunLengthTriplet extends AbstractTag
 {
 
     protected $Id = '1000,xxx1';

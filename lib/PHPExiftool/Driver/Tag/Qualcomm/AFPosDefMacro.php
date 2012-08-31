@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Qualcomm;
 
-class AFPosDefMacro extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class AFPosDefMacro extends AbstractTag
 {
 
     protected $Id = 'af_pos_def_macro';

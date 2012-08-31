@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MXF;
 
-class RightsManagementAuthority extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class RightsManagementAuthority extends AbstractTag
 {
 
     protected $Id = 'mixed';

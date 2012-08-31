@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPCrs;
 
-class LensProfileFilename extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class LensProfileFilename extends AbstractTag
 {
 
     protected $Id = 'LensProfileFilename';

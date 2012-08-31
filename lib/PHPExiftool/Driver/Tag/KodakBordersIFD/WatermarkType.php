@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\KodakBordersIFD;
 
-class WatermarkType extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class WatermarkType extends AbstractTag
 {
 
     protected $Id = 8;

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MNG;
 
-class OrderingRestrictions extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class OrderingRestrictions extends AbstractTag
 {
 
     protected $Id = 'ORDR';

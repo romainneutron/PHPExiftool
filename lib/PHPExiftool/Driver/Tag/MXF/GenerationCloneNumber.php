@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MXF;
 
-class GenerationCloneNumber extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class GenerationCloneNumber extends AbstractTag
 {
 
     protected $Id = '060e2b34.0101.0105.05010303.01000000';

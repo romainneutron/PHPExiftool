@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPDex;
 
-class FFID extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class FFID extends AbstractTag
 {
 
     protected $Id = 'ffid';

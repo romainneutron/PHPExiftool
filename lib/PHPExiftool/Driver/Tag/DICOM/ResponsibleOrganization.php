@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class ResponsibleOrganization extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ResponsibleOrganization extends AbstractTag
 {
 
     protected $Id = 'mixed';

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\ID3v22;
 
-class SynchronizedLyricText extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class SynchronizedLyricText extends AbstractTag
 {
 
     protected $Id = 'SLT';

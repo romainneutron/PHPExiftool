@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\ICCClrt;
 
-class Colorant2Name extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class Colorant2Name extends AbstractTag
 {
 
     protected $Id = 50;

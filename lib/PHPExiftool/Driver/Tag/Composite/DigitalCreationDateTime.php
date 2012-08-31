@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Composite;
 
-class DigitalCreationDateTime extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class DigitalCreationDateTime extends AbstractTag
 {
 
     protected $Id = 'DigitalCreationDateTime';

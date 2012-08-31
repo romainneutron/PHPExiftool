@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Matroska;
 
-class MaxBlockAdditionID extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class MaxBlockAdditionID extends AbstractTag
 {
 
     protected $Id = 5614;

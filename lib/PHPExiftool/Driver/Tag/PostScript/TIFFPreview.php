@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\PostScript;
 
-class TIFFPreview extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class TIFFPreview extends AbstractTag
 {
 
     protected $Id = 'TIFFPreview';

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class VectorDimensionality extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class VectorDimensionality extends AbstractTag
 {
 
     protected $Id = '0066,001F';

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Qualcomm;
 
-class AWBSnapshotBGain extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class AWBSnapshotBGain extends AbstractTag
 {
 
     protected $Id = 'awb_snapshot_b_gain';

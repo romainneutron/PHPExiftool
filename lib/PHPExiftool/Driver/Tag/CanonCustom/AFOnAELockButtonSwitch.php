@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\CanonCustom;
 
-class AFOnAELockButtonSwitch extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class AFOnAELockButtonSwitch extends AbstractTag
 {
 
     protected $Id = 1794;

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Type;
 
-class Rect
+use PHPExiftool\Driver\AbstractType;
+
+class Rect extends AbstractType
 {
 
     protected $ExiftoolName = 'Rect';

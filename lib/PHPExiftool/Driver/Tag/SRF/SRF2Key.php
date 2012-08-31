@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\SRF;
 
-class SRF2Key extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class SRF2Key extends AbstractTag
 {
 
     protected $Id = 0;

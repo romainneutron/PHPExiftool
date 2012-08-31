@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Stim;
 
-class InitialDisplayEffect extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class InitialDisplayEffect extends AbstractTag
 {
 
     protected $Id = 16;

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPTiff;
 
-class YCbCrPositioning extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class YCbCrPositioning extends AbstractTag
 {
 
     protected $Id = 'YCbCrPositioning';

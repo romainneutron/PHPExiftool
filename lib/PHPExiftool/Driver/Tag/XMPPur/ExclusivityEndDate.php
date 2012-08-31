@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPPur;
 
-class ExclusivityEndDate extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ExclusivityEndDate extends AbstractTag
 {
 
     protected $Id = 'exclusivityEndDate';

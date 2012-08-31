@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\NikonCapture;
 
-class DLightingHQSelected extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class DLightingHQSelected extends AbstractTag
 {
 
     protected $Id = 1785607862;

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\QuickTime;
 
-class PitchShift extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class PitchShift extends AbstractTag
 {
 
     protected $Id = 'player.movie.audio.pitchshift';

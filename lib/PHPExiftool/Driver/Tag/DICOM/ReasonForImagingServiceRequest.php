@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class ReasonForImagingServiceRequest extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ReasonForImagingServiceRequest extends AbstractTag
 {
 
     protected $Id = '0040,2001';

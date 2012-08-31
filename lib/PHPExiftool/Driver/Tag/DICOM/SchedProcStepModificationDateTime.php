@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class SchedProcStepModificationDateTime extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class SchedProcStepModificationDateTime extends AbstractTag
 {
 
     protected $Id = '0040,4010';

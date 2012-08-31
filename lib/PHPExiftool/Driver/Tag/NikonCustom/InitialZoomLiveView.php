@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\NikonCustom;
 
-class InitialZoomLiveView extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class InitialZoomLiveView extends AbstractTag
 {
 
     protected $Id = '4.4';

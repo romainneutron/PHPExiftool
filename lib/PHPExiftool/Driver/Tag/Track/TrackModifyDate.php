@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Track;
 
-class TrackModifyDate extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class TrackModifyDate extends AbstractTag
 {
 
     protected $Id = 2;

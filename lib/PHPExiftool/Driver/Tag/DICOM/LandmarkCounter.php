@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class LandmarkCounter extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class LandmarkCounter extends AbstractTag
 {
 
     protected $Id = '0025,1010';

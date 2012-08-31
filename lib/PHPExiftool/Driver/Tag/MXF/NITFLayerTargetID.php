@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MXF;
 
-class NITFLayerTargetID extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class NITFLayerTargetID extends AbstractTag
 {
 
     protected $Id = 'mixed';

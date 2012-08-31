@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class EmptyImageDensity extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class EmptyImageDensity extends AbstractTag
 {
 
     protected $Id = '2010,0110';

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class SetIfFatqEstimatesWereUsed extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class SetIfFatqEstimatesWereUsed extends AbstractTag
 {
 
     protected $Id = '0019,1071';

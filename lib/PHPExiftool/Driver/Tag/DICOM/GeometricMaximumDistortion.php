@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class GeometricMaximumDistortion extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class GeometricMaximumDistortion extends AbstractTag
 {
 
     protected $Id = '0028,9445';

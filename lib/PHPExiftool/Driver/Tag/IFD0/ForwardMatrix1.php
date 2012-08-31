@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\IFD0;
 
-class ForwardMatrix1 extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ForwardMatrix1 extends AbstractTag
 {
 
     protected $Id = 50964;

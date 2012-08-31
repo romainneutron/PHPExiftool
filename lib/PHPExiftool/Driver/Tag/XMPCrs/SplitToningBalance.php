@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPCrs;
 
-class SplitToningBalance extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class SplitToningBalance extends AbstractTag
 {
 
     protected $Id = 'SplitToningBalance';

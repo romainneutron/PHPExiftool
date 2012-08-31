@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Microsoft;
 
-class ConversationID extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ConversationID extends AbstractTag
 {
 
     protected $Id = '{DC8F80BD-AF1E-4289-85B6-3DFC1B493992} 100';

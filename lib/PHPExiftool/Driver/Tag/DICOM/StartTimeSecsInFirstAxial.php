@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class StartTimeSecsInFirstAxial extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class StartTimeSecsInFirstAxial extends AbstractTag
 {
 
     protected $Id = '0023,1070';

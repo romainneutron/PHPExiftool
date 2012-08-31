@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Sony;
 
-class DynamicRangeOptimizer extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class DynamicRangeOptimizer extends AbstractTag
 {
 
     protected $Id = 'mixed';

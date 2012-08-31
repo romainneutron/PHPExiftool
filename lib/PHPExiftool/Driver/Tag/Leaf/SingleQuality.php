@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Leaf;
 
-class SingleQuality extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class SingleQuality extends AbstractTag
 {
 
     protected $Id = 'CaptureObj_single_quality';

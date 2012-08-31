@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class MACAlgorithm extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class MACAlgorithm extends AbstractTag
 {
 
     protected $Id = '0400,0015';

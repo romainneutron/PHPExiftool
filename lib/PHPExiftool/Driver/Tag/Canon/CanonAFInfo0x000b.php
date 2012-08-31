@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Canon;
 
-class CanonAFInfo0x000b extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class CanonAFInfo0x000b extends AbstractTag
 {
 
     protected $Id = 11;

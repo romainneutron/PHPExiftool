@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MXF;
 
-class AnnotationSynopsis extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class AnnotationSynopsis extends AbstractTag
 {
 
     protected $Id = 'mixed';

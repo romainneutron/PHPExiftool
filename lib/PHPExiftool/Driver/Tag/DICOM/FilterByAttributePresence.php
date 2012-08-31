@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class FilterByAttributePresence extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class FilterByAttributePresence extends AbstractTag
 {
 
     protected $Id = '0072,0404';

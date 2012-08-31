@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class SourceFrameOfReferenceUID extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class SourceFrameOfReferenceUID extends AbstractTag
 {
 
     protected $Id = '0064,0003';

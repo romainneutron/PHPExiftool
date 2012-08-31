@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\FujiFilm;
 
-class DevelopmentDynamicRange extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class DevelopmentDynamicRange extends AbstractTag
 {
 
     protected $Id = 5123;

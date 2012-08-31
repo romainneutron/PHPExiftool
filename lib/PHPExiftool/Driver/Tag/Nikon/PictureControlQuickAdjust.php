@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Nikon;
 
-class PictureControlQuickAdjust extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class PictureControlQuickAdjust extends AbstractTag
 {
 
     protected $Id = 49;

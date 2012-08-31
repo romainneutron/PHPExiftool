@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Qualcomm;
 
-class AECHighLumaRegionCount extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class AECHighLumaRegionCount extends AbstractTag
 {
 
     protected $Id = 'aec_high_luma_region_count';

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Qualcomm;
 
-class AECOutdoorBrightThresholdHI extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class AECOutdoorBrightThresholdHI extends AbstractTag
 {
 
     protected $Id = 'aec_outdoor_bright_threshold_HI';

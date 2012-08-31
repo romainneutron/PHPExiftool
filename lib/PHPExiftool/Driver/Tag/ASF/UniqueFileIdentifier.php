@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\ASF;
 
-class UniqueFileIdentifier extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class UniqueFileIdentifier extends AbstractTag
 {
 
     protected $Id = 'UniqueFileIdentifier';

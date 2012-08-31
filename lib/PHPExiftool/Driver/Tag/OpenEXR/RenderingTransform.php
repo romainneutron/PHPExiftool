@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\OpenEXR;
 
-class RenderingTransform extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class RenderingTransform extends AbstractTag
 {
 
     protected $Id = 'renderingTransform';

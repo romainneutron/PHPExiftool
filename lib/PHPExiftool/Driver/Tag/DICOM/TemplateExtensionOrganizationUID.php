@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class TemplateExtensionOrganizationUID extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class TemplateExtensionOrganizationUID extends AbstractTag
 {
 
     protected $Id = '0040,DB0C';

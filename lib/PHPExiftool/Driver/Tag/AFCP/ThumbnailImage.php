@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\AFCP;
 
-class ThumbnailImage extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ThumbnailImage extends AbstractTag
 {
 
     protected $Id = 'Nail';

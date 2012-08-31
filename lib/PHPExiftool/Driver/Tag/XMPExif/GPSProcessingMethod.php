@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPExif;
 
-class GPSProcessingMethod extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class GPSProcessingMethod extends AbstractTag
 {
 
     protected $Id = 'GPSProcessingMethod';

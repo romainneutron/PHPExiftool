@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\CanonCustom;
 
-class ShutterButtonAFOnButton extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ShutterButtonAFOnButton extends AbstractTag
 {
 
     protected $Id = 1793;

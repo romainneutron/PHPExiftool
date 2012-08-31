@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class InterventionDrugInformationSeq extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class InterventionDrugInformationSeq extends AbstractTag
 {
 
     protected $Id = '0018,0026';

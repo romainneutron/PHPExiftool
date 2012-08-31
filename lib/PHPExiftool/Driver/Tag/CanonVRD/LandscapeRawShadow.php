@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\CanonVRD;
 
-class LandscapeRawShadow extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class LandscapeRawShadow extends AbstractTag
 {
 
     protected $Id = 128;

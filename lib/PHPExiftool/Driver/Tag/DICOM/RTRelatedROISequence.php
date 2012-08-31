@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class RTRelatedROISequence extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class RTRelatedROISequence extends AbstractTag
 {
 
     protected $Id = '3006,0030';

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Canon;
 
-class CustomPictureStyleFileName extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class CustomPictureStyleFileName extends AbstractTag
 {
 
     protected $Id = 16400;

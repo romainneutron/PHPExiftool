@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\GIF;
 
-class HasColorMap extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class HasColorMap extends AbstractTag
 {
 
     protected $Id = '4.1';

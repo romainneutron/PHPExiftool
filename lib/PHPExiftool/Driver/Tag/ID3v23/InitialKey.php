@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\ID3v23;
 
-class InitialKey extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class InitialKey extends AbstractTag
 {
 
     protected $Id = 'TKEY';

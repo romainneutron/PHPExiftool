@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Composite;
 
-class LensID extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class LensID extends AbstractTag
 {
 
     protected $Id = 'mixed';
@@ -1581,6 +1583,10 @@ class LensID extends \PHPExiftool\Driver\Tag
             'Id' => 'AC 38 53 8E 34 3C AE 0E',
             'Label' => 'AF-S DX VR Nikkor 55-300mm 4.5-5.6G ED',
         ),
+        'AD 3C 2D 8E 2C 3C AF 0E' => array(
+            'Id' => 'AD 3C 2D 8E 2C 3C AF 0E',
+            'Label' => 'AF-S DX Nikkor 18-300mm 3.5-5.6G ED VR',
+        ),
         'AE 54 62 62 0C 0C B0 06' => array(
             'Id' => 'AE 54 62 62 0C 0C B0 06',
             'Label' => 'AF-S Nikkor 85mm f/1.4G',
@@ -1600,6 +1606,10 @@ class LensID extends \PHPExiftool\Driver\Tag
         'B3 4C 62 62 14 14 B5 06' => array(
             'Id' => 'B3 4C 62 62 14 14 B5 06',
             'Label' => 'AF-S Nikkor 85mm f/1.8G',
+        ),
+        'B4 40 37 62 2C 34 B6 0E' => array(
+            'Id' => 'B4 40 37 62 2C 34 B6 0E',
+            'Label' => 'AF-S VR Zoom-Nikkor 24-85mm f/3.5-4.5G IF-ED',
         ),
         'B5 4C 3C 3C 14 14 B7 06' => array(
             'Id' => 'B5 4C 3C 3C 14 14 B7 06',

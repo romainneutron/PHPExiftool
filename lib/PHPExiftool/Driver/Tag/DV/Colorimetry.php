@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DV;
 
-class Colorimetry extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class Colorimetry extends AbstractTag
 {
 
     protected $Id = 'Colorimetry';

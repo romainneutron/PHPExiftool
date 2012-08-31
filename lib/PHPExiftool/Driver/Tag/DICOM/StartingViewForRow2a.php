@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class StartingViewForRow2a extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class StartingViewForRow2a extends AbstractTag
 {
 
     protected $Id = '0045,1010';

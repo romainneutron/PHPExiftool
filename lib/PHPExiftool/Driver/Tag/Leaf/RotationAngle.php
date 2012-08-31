@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Leaf;
 
-class RotationAngle extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class RotationAngle extends AbstractTag
 {
 
     protected $Id = 'ImgProf_rotation_angle';

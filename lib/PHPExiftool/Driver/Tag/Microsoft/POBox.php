@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Microsoft;
 
-class POBox extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class POBox extends AbstractTag
 {
 
     protected $Id = '{DE5EF3C7-46E1-484E-9999-62C5308394C1} 100';

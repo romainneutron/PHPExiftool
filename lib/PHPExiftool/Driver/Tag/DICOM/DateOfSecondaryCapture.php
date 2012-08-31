@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class DateOfSecondaryCapture extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class DateOfSecondaryCapture extends AbstractTag
 {
 
     protected $Id = '0018,1012';

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\ExifTool;
 
-class NewGUID extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class NewGUID extends AbstractTag
 {
 
     protected $Id = 'NewGUID';

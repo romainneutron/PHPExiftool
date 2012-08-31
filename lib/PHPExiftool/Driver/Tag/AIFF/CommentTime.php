@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\AIFF;
 
-class CommentTime extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class CommentTime extends AbstractTag
 {
 
     protected $Id = 0;

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MAC;
 
-class FinalFrameBlocks extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class FinalFrameBlocks extends AbstractTag
 {
 
     protected $Id = 'mixed';

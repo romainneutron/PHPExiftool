@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class FileMetaInfoVersion extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class FileMetaInfoVersion extends AbstractTag
 {
 
     protected $Id = '0002,0001';

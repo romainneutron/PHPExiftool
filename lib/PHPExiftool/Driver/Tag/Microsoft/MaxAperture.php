@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Microsoft;
 
-class MaxAperture extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class MaxAperture extends AbstractTag
 {
 
     protected $Id = '{08F6D7C2-E3F2-44FC-AF1E-5AA5C81A2D3E} 100';

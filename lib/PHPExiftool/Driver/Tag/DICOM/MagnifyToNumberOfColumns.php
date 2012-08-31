@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class MagnifyToNumberOfColumns extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class MagnifyToNumberOfColumns extends AbstractTag
 {
 
     protected $Id = '2040,0074';

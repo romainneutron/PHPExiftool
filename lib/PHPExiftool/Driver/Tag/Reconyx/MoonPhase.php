@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Reconyx;
 
-class MoonPhase extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class MoonPhase extends AbstractTag
 {
 
     protected $Id = 18;

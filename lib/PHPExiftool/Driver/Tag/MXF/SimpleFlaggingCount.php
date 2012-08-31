@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MXF;
 
-class SimpleFlaggingCount extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class SimpleFlaggingCount extends AbstractTag
 {
 
     protected $Id = '060e2b34.0101.0101.05010301.00000000';

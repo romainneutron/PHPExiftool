@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\CanonVRD;
 
-class PeripheralIlluminationOn extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class PeripheralIlluminationOn extends AbstractTag
 {
 
     protected $Id = 100;

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class GeometryOfKSpaceTraversal extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class GeometryOfKSpaceTraversal extends AbstractTag
 {
 
     protected $Id = '0018,9032';

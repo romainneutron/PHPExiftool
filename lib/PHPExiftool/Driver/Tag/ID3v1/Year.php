@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\ID3v1;
 
-class Year extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class Year extends AbstractTag
 {
 
     protected $Id = 93;

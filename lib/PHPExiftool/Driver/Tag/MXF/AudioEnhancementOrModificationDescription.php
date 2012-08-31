@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MXF;
 
-class AudioEnhancementOrModificationDescription extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class AudioEnhancementOrModificationDescription extends AbstractTag
 {
 
     protected $Id = '060e2b34.0101.0101.05200301.00000000';

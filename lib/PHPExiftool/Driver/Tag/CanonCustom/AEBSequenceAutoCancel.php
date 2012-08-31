@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\CanonCustom;
 
-class AEBSequenceAutoCancel extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class AEBSequenceAutoCancel extends AbstractTag
 {
 
     protected $Id = 'mixed';

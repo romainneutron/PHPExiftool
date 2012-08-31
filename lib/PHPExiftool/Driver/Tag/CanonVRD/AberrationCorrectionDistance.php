@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\CanonVRD;
 
-class AberrationCorrectionDistance extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class AberrationCorrectionDistance extends AbstractTag
 {
 
     protected $Id = 105;

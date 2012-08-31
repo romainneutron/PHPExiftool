@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class TableTopRollRotationDirection extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class TableTopRollRotationDirection extends AbstractTag
 {
 
     protected $Id = '300A,0146';

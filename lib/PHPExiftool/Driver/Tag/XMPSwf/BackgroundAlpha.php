@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPSwf;
 
-class BackgroundAlpha extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class BackgroundAlpha extends AbstractTag
 {
 
     protected $Id = 'bgalpha';

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MXF;
 
-class SubjectRelativeHeading extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class SubjectRelativeHeading extends AbstractTag
 {
 
     protected $Id = '060e2b34.0101.0101.07010302.02020000';

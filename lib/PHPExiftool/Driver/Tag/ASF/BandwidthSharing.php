@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\ASF;
 
-class BandwidthSharing extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class BandwidthSharing extends AbstractTag
 {
 
     protected $Id = 'A69609E6-517B-11D2-B6AF-00C04FD908E9';

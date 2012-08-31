@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\KodakIFD;
 
-class WBRGBCoeffs3 extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class WBRGBCoeffs3 extends AbstractTag
 {
 
     protected $Id = 2143;

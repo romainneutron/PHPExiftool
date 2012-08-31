@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class PrescribedFlowAxis extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class PrescribedFlowAxis extends AbstractTag
 {
 
     protected $Id = '0019,10CB';

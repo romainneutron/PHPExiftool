@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MetaIFD;
 
-class SBAInputImageBitDepth extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class SBAInputImageBitDepth extends AbstractTag
 {
 
     protected $Id = 50016;

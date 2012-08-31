@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class PrimaryCountsAccumulated extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class PrimaryCountsAccumulated extends AbstractTag
 {
 
     protected $Id = '0054,1310';

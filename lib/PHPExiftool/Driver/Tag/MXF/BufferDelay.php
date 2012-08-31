@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MXF;
 
-class BufferDelay extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class BufferDelay extends AbstractTag
 {
 
     protected $Id = '060e2b34.0101.0101.07020301.03010000';

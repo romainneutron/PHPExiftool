@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\NikonCustom;
 
-class ShutterReleaseButtonAEL extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ShutterReleaseButtonAEL extends AbstractTag
 {
 
     protected $Id = 'mixed';

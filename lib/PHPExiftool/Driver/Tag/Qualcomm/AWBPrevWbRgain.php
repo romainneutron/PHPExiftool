@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Qualcomm;
 
-class AWBPrevWbRgain extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class AWBPrevWbRgain extends AbstractTag
 {
 
     protected $Id = 'awb_prev_wb_rgain';

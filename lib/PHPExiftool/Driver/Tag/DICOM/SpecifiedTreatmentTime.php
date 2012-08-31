@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class SpecifiedTreatmentTime extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class SpecifiedTreatmentTime extends AbstractTag
 {
 
     protected $Id = '3008,003A';

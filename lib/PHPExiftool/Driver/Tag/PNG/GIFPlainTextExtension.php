@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\PNG;
 
-class GIFPlainTextExtension extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class GIFPlainTextExtension extends AbstractTag
 {
 
     protected $Id = 'gIFt';

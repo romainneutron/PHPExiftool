@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class TotalCompensatorTrayFactor extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class TotalCompensatorTrayFactor extends AbstractTag
 {
 
     protected $Id = '300A,00E2';

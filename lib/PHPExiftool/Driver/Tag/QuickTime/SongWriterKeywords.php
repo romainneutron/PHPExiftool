@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\QuickTime;
 
-class SongWriterKeywords extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class SongWriterKeywords extends AbstractTag
 {
 
     protected $Id = '\\xa9swk';

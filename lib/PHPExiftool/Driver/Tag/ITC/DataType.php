@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\ITC;
 
-class DataType extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class DataType extends AbstractTag
 {
 
     protected $Id = 16;

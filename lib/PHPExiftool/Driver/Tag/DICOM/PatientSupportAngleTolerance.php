@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class PatientSupportAngleTolerance extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class PatientSupportAngleTolerance extends AbstractTag
 {
 
     protected $Id = '300A,004C';

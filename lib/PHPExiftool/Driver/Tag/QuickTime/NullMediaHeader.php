@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\QuickTime;
 
-class NullMediaHeader extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class NullMediaHeader extends AbstractTag
 {
 
     protected $Id = 'nmhd';

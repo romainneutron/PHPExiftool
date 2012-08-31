@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Qualcomm;
 
-class ASF5MaxExposureIndex extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ASF5MaxExposureIndex extends AbstractTag
 {
 
     protected $Id = 'asf5_max_exposure_index';

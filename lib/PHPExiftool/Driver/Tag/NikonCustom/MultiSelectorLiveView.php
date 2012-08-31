@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\NikonCustom;
 
-class MultiSelectorLiveView extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class MultiSelectorLiveView extends AbstractTag
 {
 
     protected $Id = '4.3';

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class DegreeOfDilation extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class DegreeOfDilation extends AbstractTag
 {
 
     protected $Id = '0022,000E';

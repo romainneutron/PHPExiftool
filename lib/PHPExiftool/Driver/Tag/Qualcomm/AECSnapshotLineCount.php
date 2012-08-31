@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Qualcomm;
 
-class AECSnapshotLineCount extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class AECSnapshotLineCount extends AbstractTag
 {
 
     protected $Id = 'aec_snapshot_line_count';

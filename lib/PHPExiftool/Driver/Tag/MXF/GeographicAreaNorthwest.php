@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MXF;
 
-class GeographicAreaNorthwest extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class GeographicAreaNorthwest extends AbstractTag
 {
 
     protected $Id = '060e2b34.0101.0109.07010201.03120000';

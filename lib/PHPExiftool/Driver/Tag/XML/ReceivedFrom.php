@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XML;
 
-class ReceivedFrom extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ReceivedFrom extends AbstractTag
 {
 
     protected $Id = 'ReceivedFrom';

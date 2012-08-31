@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Type;
 
-class Float
+use PHPExiftool\Driver\AbstractType;
+
+class Float extends AbstractType
 {
 
     protected $ExiftoolName = 'float';

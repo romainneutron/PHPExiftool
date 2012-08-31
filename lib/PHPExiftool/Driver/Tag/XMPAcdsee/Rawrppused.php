@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPAcdsee;
 
-class Rawrppused extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class Rawrppused extends AbstractTag
 {
 
     protected $Id = 'rawrppused';

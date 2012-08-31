@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPPlus;
 
-class LicenseTransactionDate extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class LicenseTransactionDate extends AbstractTag
 {
 
     protected $Id = 'LicenseTransactionDate';

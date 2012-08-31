@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class SigmaRowNumberWhichRowsWereUsed extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class SigmaRowNumberWhichRowsWereUsed extends AbstractTag
 {
 
     protected $Id = '0045,1009';

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MXF;
 
-class TimingBiasCorrection extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class TimingBiasCorrection extends AbstractTag
 {
 
     protected $Id = '060e2b34.0101.0103.03010303.03000000';

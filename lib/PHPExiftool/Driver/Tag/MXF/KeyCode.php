@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MXF;
 
-class KeyCode extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class KeyCode extends AbstractTag
 {
 
     protected $Id = '060e2b34.0101.0101.01040703.00000000';

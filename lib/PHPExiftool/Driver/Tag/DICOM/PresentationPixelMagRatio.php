@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class PresentationPixelMagRatio extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class PresentationPixelMagRatio extends AbstractTag
 {
 
     protected $Id = '0070,0103';

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\FujiFilm;
 
-class FilmMode extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class FilmMode extends AbstractTag
 {
 
     protected $Id = 5121;
@@ -39,7 +41,7 @@ class FilmMode extends \PHPExiftool\Driver\Tag
     protected $Values = array(
         0 => array(
             'Id' => 0,
-            'Label' => 'F0/Standard (PROVIA)',
+            'Label' => 'F0/Standard (Provia)',
         ),
         256 => array(
             'Id' => 256,
@@ -51,7 +53,7 @@ class FilmMode extends \PHPExiftool\Driver\Tag
         ),
         288 => array(
             'Id' => 288,
-            'Label' => 'F1b/Studio Portrait Smooth Skin Tone (ASTIA)',
+            'Label' => 'F1b/Studio Portrait Smooth Skin Tone (Astia)',
         ),
         304 => array(
             'Id' => 304,

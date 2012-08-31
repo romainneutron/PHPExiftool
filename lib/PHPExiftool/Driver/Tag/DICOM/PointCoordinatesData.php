@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class PointCoordinatesData extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class PointCoordinatesData extends AbstractTag
 {
 
     protected $Id = '0066,0016';

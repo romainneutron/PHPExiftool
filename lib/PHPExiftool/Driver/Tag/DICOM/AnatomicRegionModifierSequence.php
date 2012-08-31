@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class AnatomicRegionModifierSequence extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class AnatomicRegionModifierSequence extends AbstractTag
 {
 
     protected $Id = '0008,2220';

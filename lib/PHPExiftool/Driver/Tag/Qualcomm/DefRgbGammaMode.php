@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Qualcomm;
 
-class DefRgbGammaMode extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class DefRgbGammaMode extends AbstractTag
 {
 
     protected $Id = 'def_rgb_gamma_mode';

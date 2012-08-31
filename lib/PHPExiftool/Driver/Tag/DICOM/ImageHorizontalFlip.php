@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class ImageHorizontalFlip extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ImageHorizontalFlip extends AbstractTag
 {
 
     protected $Id = '0070,0041';

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\RSRC;
 
-class ApplicationVersion extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ApplicationVersion extends AbstractTag
 {
 
     protected $Id = 'vers_0x0001';

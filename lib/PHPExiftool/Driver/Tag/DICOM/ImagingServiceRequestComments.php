@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class ImagingServiceRequestComments extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ImagingServiceRequestComments extends AbstractTag
 {
 
     protected $Id = '0040,2400';

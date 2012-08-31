@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\RMETA;
 
-class SignType extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class SignType extends AbstractTag
 {
 
     protected $Id = 'Sign type';

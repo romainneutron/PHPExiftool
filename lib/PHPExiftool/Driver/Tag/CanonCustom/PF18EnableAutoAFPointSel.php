@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\CanonCustom;
 
-class PF18EnableAutoAFPointSel extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class PF18EnableAutoAFPointSel extends AbstractTag
 {
 
     protected $Id = 19;

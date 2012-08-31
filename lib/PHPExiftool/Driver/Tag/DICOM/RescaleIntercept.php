@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class RescaleIntercept extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class RescaleIntercept extends AbstractTag
 {
 
     protected $Id = '0028,1052';

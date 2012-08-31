@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DNG;
 
-class OriginalTHMResource extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class OriginalTHMResource extends AbstractTag
 {
 
     protected $Id = 5;

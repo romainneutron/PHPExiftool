@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class XRayTubeCurrentInMilliAmps extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class XRayTubeCurrentInMilliAmps extends AbstractTag
 {
 
     protected $Id = '0018,9330';

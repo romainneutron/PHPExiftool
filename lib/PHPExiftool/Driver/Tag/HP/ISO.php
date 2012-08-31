@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\HP;
 
-class ISO extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ISO extends AbstractTag
 {
 
     protected $Id = 52;

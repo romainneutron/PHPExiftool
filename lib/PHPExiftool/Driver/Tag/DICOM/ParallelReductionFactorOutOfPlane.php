@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class ParallelReductionFactorOutOfPlane extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ParallelReductionFactorOutOfPlane extends AbstractTag
 {
 
     protected $Id = '0018,9155';

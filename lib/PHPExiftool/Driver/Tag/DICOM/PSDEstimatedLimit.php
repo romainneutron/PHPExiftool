@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class PSDEstimatedLimit extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class PSDEstimatedLimit extends AbstractTag
 {
 
     protected $Id = '0043,100D';

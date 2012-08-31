@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Microsoft;
 
-class BusinessFax extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class BusinessFax extends AbstractTag
 {
 
     protected $Id = '{91EFF6F3-2E27-42CA-933E-7C999FBE310B} 100';

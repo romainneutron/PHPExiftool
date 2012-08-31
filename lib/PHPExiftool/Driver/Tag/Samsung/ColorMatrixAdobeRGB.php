@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Samsung;
 
-class ColorMatrixAdobeRGB extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ColorMatrixAdobeRGB extends AbstractTag
 {
 
     protected $Id = 41010;

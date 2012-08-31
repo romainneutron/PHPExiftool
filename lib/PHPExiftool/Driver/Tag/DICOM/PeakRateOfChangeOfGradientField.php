@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class PeakRateOfChangeOfGradientField extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class PeakRateOfChangeOfGradientField extends AbstractTag
 {
 
     protected $Id = '0043,100B';

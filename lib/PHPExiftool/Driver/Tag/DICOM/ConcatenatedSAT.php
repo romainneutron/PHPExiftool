@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class ConcatenatedSAT extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ConcatenatedSAT extends AbstractTag
 {
 
     protected $Id = '0019,10D9';

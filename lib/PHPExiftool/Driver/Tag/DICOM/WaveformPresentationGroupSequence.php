@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class WaveformPresentationGroupSequence extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class WaveformPresentationGroupSequence extends AbstractTag
 {
 
     protected $Id = '003A,0240';

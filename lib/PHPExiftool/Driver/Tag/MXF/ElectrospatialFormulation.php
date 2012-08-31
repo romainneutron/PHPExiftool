@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MXF;
 
-class ElectrospatialFormulation extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ElectrospatialFormulation extends AbstractTag
 {
 
     protected $Id = '060e2b34.0101.0101.04020101.01000000';

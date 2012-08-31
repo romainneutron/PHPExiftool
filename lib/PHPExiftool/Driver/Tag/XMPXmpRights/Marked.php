@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPXmpRights;
 
-class Marked extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class Marked extends AbstractTag
 {
 
     protected $Id = 'Marked';

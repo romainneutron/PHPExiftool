@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\AIFF;
 
-class CompressionType extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class CompressionType extends AbstractTag
 {
 
     protected $Id = 9;

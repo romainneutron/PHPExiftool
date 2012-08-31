@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class PixelDataGroupLength extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class PixelDataGroupLength extends AbstractTag
 {
 
     protected $Id = '7Fxx,0000';

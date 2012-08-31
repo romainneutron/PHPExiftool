@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class FunctionalGroupPrivateCreator extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class FunctionalGroupPrivateCreator extends AbstractTag
 {
 
     protected $Id = '0020,9238';

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\M2TS;
 
-class VideoStreamType extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class VideoStreamType extends AbstractTag
 {
 
     protected $Id = 'VideoStreamType';

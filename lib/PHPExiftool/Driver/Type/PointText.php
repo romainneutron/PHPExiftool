@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Type;
 
-class PointText
+use PHPExiftool\Driver\AbstractType;
+
+class PointText extends AbstractType
 {
 
     protected $ExiftoolName = 'PointText';

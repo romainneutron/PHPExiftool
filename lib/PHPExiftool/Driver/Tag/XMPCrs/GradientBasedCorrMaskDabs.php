@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPCrs;
 
-class GradientBasedCorrMaskDabs extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class GradientBasedCorrMaskDabs extends AbstractTag
 {
 
     protected $Id = 'GradientBasedCorrectionsCorrectionMasksDabs';

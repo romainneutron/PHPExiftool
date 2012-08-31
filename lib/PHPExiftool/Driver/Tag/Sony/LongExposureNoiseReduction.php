@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Sony;
 
-class LongExposureNoiseReduction extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class LongExposureNoiseReduction extends AbstractTag
 {
 
     protected $Id = 'mixed';
@@ -102,5 +104,7 @@ class LongExposureNoiseReduction extends \PHPExiftool\Driver\Tag
             'Label' => 'On',
         ),
     );
+
+    protected $Index = 'mixed';
 
 }

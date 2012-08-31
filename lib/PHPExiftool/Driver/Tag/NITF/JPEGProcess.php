@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\NITF;
 
-class JPEGProcess extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class JPEGProcess extends AbstractTag
 {
 
     protected $Id = 10;

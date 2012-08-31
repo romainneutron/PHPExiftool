@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class LateralSpreadingDeviceID extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class LateralSpreadingDeviceID extends AbstractTag
 {
 
     protected $Id = '300A,0336';

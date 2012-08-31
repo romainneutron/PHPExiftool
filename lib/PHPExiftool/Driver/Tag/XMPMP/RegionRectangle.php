@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPMP;
 
-class RegionRectangle extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class RegionRectangle extends AbstractTag
 {
 
     protected $Id = 'RegionInfoRegionsRectangle';
@@ -33,5 +35,7 @@ class RegionRectangle extends \PHPExiftool\Driver\Tag
     protected $Writable = true;
 
     protected $Description = 'Region Rectangle';
+
+    protected $flag_List = true;
 
 }

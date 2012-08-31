@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MXF;
 
-class RoyaltyIncomeInformation extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class RoyaltyIncomeInformation extends AbstractTag
 {
 
     protected $Id = '060e2b34.0101.0101.02060301.00000000';

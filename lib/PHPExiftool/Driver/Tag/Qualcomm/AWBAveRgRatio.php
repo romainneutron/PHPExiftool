@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Qualcomm;
 
-class AWBAveRgRatio extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class AWBAveRgRatio extends AbstractTag
 {
 
     protected $Id = 'awb_ave_rg_ratio';

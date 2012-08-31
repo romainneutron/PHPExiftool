@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class MRMetaboliteMapSequence extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class MRMetaboliteMapSequence extends AbstractTag
 {
 
     protected $Id = '0018,9152';

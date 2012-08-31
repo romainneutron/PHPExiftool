@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Qualcomm;
 
-class ASF5NrmShrpDegF1 extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ASF5NrmShrpDegF1 extends AbstractTag
 {
 
     protected $Id = 'asf5_nrm_shrp_deg_f1';

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\RealRJMD;
 
-class AlbumName extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class AlbumName extends AbstractTag
 {
 
     protected $Id = 'Album/Name';

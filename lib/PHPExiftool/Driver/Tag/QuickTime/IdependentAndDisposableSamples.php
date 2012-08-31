@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\QuickTime;
 
-class IdependentAndDisposableSamples extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class IdependentAndDisposableSamples extends AbstractTag
 {
 
     protected $Id = 'sdtp';

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MIECamera;
 
-class Brightness extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class Brightness extends AbstractTag
 {
 
     protected $Id = 'Brightness';

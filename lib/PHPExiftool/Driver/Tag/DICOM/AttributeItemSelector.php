@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class AttributeItemSelector extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class AttributeItemSelector extends AbstractTag
 {
 
     protected $Id = '0074,1054';

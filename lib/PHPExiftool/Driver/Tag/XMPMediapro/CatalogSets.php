@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPMediapro;
 
-class CatalogSets extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class CatalogSets extends AbstractTag
 {
 
     protected $Id = 'CatalogSets';

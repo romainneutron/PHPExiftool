@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class LowerRangeOfPixels1h extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class LowerRangeOfPixels1h extends AbstractTag
 {
 
     protected $Id = '0029,1015';

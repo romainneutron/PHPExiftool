@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\CanonVRD;
 
-class LandscapeRawColorTone extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class LandscapeRawColorTone extends AbstractTag
 {
 
     protected $Id = 31;

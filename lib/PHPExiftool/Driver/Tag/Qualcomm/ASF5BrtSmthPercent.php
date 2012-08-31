@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Qualcomm;
 
-class ASF5BrtSmthPercent extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ASF5BrtSmthPercent extends AbstractTag
 {
 
     protected $Id = 'asf5_brt_smth_percent';

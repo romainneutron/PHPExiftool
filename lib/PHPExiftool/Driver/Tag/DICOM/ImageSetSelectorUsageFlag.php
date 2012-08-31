@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class ImageSetSelectorUsageFlag extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ImageSetSelectorUsageFlag extends AbstractTag
 {
 
     protected $Id = '0072,0024';

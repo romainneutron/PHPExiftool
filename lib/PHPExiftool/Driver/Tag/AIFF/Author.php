@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\AIFF;
 
-class Author extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class Author extends AbstractTag
 {
 
     protected $Id = 'AUTH';

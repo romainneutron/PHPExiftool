@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class IndicatesIfTheStudyHasCompleteInfo extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class IndicatesIfTheStudyHasCompleteInfo extends AbstractTag
 {
 
     protected $Id = '0023,107D';

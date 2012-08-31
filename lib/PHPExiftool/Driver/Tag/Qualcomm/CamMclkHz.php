@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Qualcomm;
 
-class CamMclkHz extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class CamMclkHz extends AbstractTag
 {
 
     protected $Id = 'cam_mclk_hz';

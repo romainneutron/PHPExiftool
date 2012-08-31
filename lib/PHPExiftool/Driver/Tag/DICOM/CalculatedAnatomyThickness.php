@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class CalculatedAnatomyThickness extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class CalculatedAnatomyThickness extends AbstractTag
 {
 
     protected $Id = '0018,9452';

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\FlashPix;
 
-class RectangleOfInterest extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class RectangleOfInterest extends AbstractTag
 {
 
     protected $Id = 268435457;

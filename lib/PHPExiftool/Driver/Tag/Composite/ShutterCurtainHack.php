@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Composite;
 
-class ShutterCurtainHack extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ShutterCurtainHack extends AbstractTag
 {
 
     protected $Id = 'ShutterCurtainHack';

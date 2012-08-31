@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPCell;
 
-class MobileNetworkCode extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class MobileNetworkCode extends AbstractTag
 {
 
     protected $Id = 'mnc';

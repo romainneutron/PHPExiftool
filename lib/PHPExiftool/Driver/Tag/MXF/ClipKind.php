@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MXF;
 
-class ClipKind extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ClipKind extends AbstractTag
 {
 
     protected $Id = '060e2b34.0101.0105.03020504.00000000';

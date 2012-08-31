@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPPlus;
 
-class EndUserID extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class EndUserID extends AbstractTag
 {
 
     protected $Id = 'EndUserEndUserID';
@@ -33,5 +35,7 @@ class EndUserID extends \PHPExiftool\Driver\Tag
     protected $Writable = true;
 
     protected $Description = 'End User ID';
+
+    protected $flag_List = true;
 
 }

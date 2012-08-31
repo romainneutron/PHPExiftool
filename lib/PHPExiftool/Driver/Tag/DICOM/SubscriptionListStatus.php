@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class SubscriptionListStatus extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class SubscriptionListStatus extends AbstractTag
 {
 
     protected $Id = '0074,1244';

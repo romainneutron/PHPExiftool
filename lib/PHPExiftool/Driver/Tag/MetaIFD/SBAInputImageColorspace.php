@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MetaIFD;
 
-class SBAInputImageColorspace extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class SBAInputImageColorspace extends AbstractTag
 {
 
     protected $Id = 50015;

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class UsedFiducialsSequence extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class UsedFiducialsSequence extends AbstractTag
 {
 
     protected $Id = '0070,0314';

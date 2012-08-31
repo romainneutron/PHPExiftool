@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\IFD0;
 
-class CurrentPreProfileMatrix extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class CurrentPreProfileMatrix extends AbstractTag
 {
 
     protected $Id = 50834;

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class IncludeNonDICOMObjects extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class IncludeNonDICOMObjects extends AbstractTag
 {
 
     protected $Id = '2200,0008';

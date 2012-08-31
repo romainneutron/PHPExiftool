@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class RectilinearPhaseEncodeReordering extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class RectilinearPhaseEncodeReordering extends AbstractTag
 {
 
     protected $Id = '0018,9034';

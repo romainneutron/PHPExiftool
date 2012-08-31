@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class WindowCenterAndWidthExplanation extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class WindowCenterAndWidthExplanation extends AbstractTag
 {
 
     protected $Id = '0028,1055';

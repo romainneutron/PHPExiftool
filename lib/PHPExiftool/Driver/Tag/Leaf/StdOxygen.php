@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Leaf;
 
-class StdOxygen extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class StdOxygen extends AbstractTag
 {
 
     protected $Id = 'SaveObj_std_oxygen';

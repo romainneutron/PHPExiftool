@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MXF;
 
-class PartitionMetadata extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class PartitionMetadata extends AbstractTag
 {
 
     protected $Id = '060e2b34.0206.0101.0d010200.00000000';

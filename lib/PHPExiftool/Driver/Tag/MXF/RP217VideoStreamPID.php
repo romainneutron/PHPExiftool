@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MXF;
 
-class RP217VideoStreamPID extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class RP217VideoStreamPID extends AbstractTag
 {
 
     protected $Id = '060e2b34.0101.0109.01030407.00000000';

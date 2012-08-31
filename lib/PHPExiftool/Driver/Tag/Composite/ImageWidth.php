@@ -11,10 +11,12 @@
 
 namespace PHPExiftool\Driver\Tag\Composite;
 
-class ImageWidth extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ImageWidth extends AbstractTag
 {
 
-    protected $Id = 'ImageWidth';
+    protected $Id = 'mixed';
 
     protected $Name = 'ImageWidth';
 
@@ -34,6 +36,6 @@ class ImageWidth extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Image Width';
 
-    protected $local_g2 = 'Image';
+    protected $local_g2 = 'mixed';
 
 }

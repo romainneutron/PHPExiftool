@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPExif;
 
-class OECFRows extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class OECFRows extends AbstractTag
 {
 
     protected $Id = 'OECFRows';
@@ -28,10 +30,12 @@ class OECFRows extends \PHPExiftool\Driver\Tag
 
     protected $g2 = 'Image';
 
-    protected $Type = 'string';
+    protected $Type = 'integer';
 
     protected $Writable = true;
 
     protected $Description = 'OECF Rows';
+
+    protected $local_g2 = 'Camera';
 
 }

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class ReferenceAirKermaRate extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ReferenceAirKermaRate extends AbstractTag
 {
 
     protected $Id = '300A,022A';

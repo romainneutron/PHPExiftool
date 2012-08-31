@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class BrachyControlPointSequence extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class BrachyControlPointSequence extends AbstractTag
 {
 
     protected $Id = '300A,02D0';

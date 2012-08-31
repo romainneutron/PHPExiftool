@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\SigmaRaw;
 
-class ImagerBoardID extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ImagerBoardID extends AbstractTag
 {
 
     protected $Id = 'IMAGERBOARDID';

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class DeadTimeCorrectionFlag extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class DeadTimeCorrectionFlag extends AbstractTag
 {
 
     protected $Id = '0054,1401';

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\HTMLDc;
 
-class Identifier extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class Identifier extends AbstractTag
 {
 
     protected $Id = 'identifier';

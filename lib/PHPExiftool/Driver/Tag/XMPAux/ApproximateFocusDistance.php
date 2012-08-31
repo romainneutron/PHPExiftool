@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPAux;
 
-class ApproximateFocusDistance extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ApproximateFocusDistance extends AbstractTag
 {
 
     protected $Id = 'ApproximateFocusDistance';

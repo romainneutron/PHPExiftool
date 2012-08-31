@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MXF;
 
-class TimecodeLastModifyDate extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class TimecodeLastModifyDate extends AbstractTag
 {
 
     protected $Id = '060e2b34.0101.0101.07020102.06010000';

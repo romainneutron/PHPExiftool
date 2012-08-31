@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Microsoft;
 
-class SyncOnly extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class SyncOnly extends AbstractTag
 {
 
     protected $Id = 'SyncOnly';

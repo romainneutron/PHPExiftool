@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class DiffusionGradientDirectionSequence extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class DiffusionGradientDirectionSequence extends AbstractTag
 {
 
     protected $Id = '0018,9076';

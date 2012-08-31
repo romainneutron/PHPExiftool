@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Composite;
 
-class HyperfocalDistance extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class HyperfocalDistance extends AbstractTag
 {
 
     protected $Id = 'HyperfocalDistance';

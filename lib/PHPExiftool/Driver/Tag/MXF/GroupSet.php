@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MXF;
 
-class GroupSet extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class GroupSet extends AbstractTag
 {
 
     protected $Id = '060e2b34.0101.0105.06010104.02400500';

@@ -11,14 +11,16 @@
 
 namespace PHPExiftool\Driver\Tag\Sony;
 
-class ImageStabilization extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ImageStabilization extends AbstractTag
 {
 
-    protected $Id = 45094;
+    protected $Id = 'mixed';
 
     protected $Name = 'ImageStabilization';
 
-    protected $FullName = 'Sony::Main';
+    protected $FullName = 'mixed';
 
     protected $GroupName = 'Sony';
 
@@ -28,7 +30,7 @@ class ImageStabilization extends \PHPExiftool\Driver\Tag
 
     protected $g2 = 'Camera';
 
-    protected $Type = 'int32u';
+    protected $Type = 'mixed';
 
     protected $Writable = true;
 
@@ -42,6 +44,14 @@ class ImageStabilization extends \PHPExiftool\Driver\Tag
             'Label' => 'Off',
         ),
         1 => array(
+            'Id' => 64,
+            'Label' => 'On',
+        ),
+        2 => array(
+            'Id' => 0,
+            'Label' => 'Off',
+        ),
+        3 => array(
             'Id' => 1,
             'Label' => 'On',
         ),

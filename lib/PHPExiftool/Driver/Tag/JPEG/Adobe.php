@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\JPEG;
 
-class Adobe extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class Adobe extends AbstractTag
 {
 
     protected $Id = 'APP14';

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Microsoft;
 
-class Slides extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class Slides extends AbstractTag
 {
 
     protected $Id = '{D5CDD502-2E9C-101B-9397-08002B2CF9AE} 7';

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class CountsAccumulated extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class CountsAccumulated extends AbstractTag
 {
 
     protected $Id = '0018,0070';

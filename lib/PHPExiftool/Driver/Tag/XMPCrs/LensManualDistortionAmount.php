@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPCrs;
 
-class LensManualDistortionAmount extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class LensManualDistortionAmount extends AbstractTag
 {
 
     protected $Id = 'LensManualDistortionAmount';

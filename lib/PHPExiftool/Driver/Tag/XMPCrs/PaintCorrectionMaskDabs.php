@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPCrs;
 
-class PaintCorrectionMaskDabs extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class PaintCorrectionMaskDabs extends AbstractTag
 {
 
     protected $Id = 'PaintBasedCorrectionsCorrectionMasksDabs';

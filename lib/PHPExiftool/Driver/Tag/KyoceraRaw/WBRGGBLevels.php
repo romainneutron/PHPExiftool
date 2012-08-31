@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\KyoceraRaw;
 
-class WBRGGBLevels extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class WBRGGBLevels extends AbstractTag
 {
 
     protected $Id = 60;

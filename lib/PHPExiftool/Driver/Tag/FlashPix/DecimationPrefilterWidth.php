@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\FlashPix;
 
-class DecimationPrefilterWidth extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class DecimationPrefilterWidth extends AbstractTag
 {
 
     protected $Id = 33554437;

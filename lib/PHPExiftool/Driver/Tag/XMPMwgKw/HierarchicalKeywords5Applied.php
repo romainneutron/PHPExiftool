@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPMwgKw;
 
-class HierarchicalKeywords5Applied extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class HierarchicalKeywords5Applied extends AbstractTag
 {
 
     protected $Id = 'KeywordsHierarchyChildrenChildrenChildrenChildrenApplied';
@@ -28,10 +30,12 @@ class HierarchicalKeywords5Applied extends \PHPExiftool\Driver\Tag
 
     protected $g2 = 'Image';
 
-    protected $Type = 'string';
+    protected $Type = 'boolean';
 
     protected $Writable = true;
 
     protected $Description = 'Hierarchical Keywords 5 Applied';
+
+    protected $flag_List = true;
 
 }

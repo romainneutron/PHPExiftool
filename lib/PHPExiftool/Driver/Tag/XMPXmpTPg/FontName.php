@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPXmpTPg;
 
-class FontName extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class FontName extends AbstractTag
 {
 
     protected $Id = 'FontsFontName';
@@ -33,5 +35,7 @@ class FontName extends \PHPExiftool\Driver\Tag
     protected $Writable = true;
 
     protected $Description = 'Font Name';
+
+    protected $flag_List = true;
 
 }

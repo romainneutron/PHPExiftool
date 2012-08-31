@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\NikonCustom;
 
-class PhotoInfoPlayback extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class PhotoInfoPlayback extends AbstractTag
 {
 
     protected $Id = 'mixed';

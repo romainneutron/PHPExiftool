@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Type;
 
-class Undef
+use PHPExiftool\Driver\AbstractType;
+
+class Undef extends AbstractType
 {
 
     protected $ExiftoolName = 'undef';

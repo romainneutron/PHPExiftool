@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\NikonCapture;
 
-class EnhanceDarkTones extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class EnhanceDarkTones extends AbstractTag
 {
 
     protected $Id = 8;

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class PrivateInformationCreatorUID extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class PrivateInformationCreatorUID extends AbstractTag
 {
 
     protected $Id = '0002,0100';

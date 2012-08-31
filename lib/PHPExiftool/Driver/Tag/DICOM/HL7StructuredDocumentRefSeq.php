@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class HL7StructuredDocumentRefSeq extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class HL7StructuredDocumentRefSeq extends AbstractTag
 {
 
     protected $Id = '0040,A390';

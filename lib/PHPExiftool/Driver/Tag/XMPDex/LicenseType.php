@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPDex;
 
-class LicenseType extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class LicenseType extends AbstractTag
 {
 
     protected $Id = 'licensetype';

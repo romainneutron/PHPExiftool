@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Qualcomm;
 
-class DiscardFrstFrm extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class DiscardFrstFrm extends AbstractTag
 {
 
     protected $Id = 'discard_frst_frm';

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MXF;
 
-class AlphaMinimumRef extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class AlphaMinimumRef extends AbstractTag
 {
 
     protected $Id = '060e2b34.0101.0105.04010503.0e000000';

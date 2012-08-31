@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Kodak;
 
-class KodakSubIFD30x8001 extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class KodakSubIFD30x8001 extends AbstractTag
 {
 
     protected $Id = 32769;

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class CorrectedAfterGlowTerms extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class CorrectedAfterGlowTerms extends AbstractTag
 {
 
     protected $Id = '0043,1021';

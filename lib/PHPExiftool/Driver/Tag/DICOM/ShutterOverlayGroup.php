@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class ShutterOverlayGroup extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ShutterOverlayGroup extends AbstractTag
 {
 
     protected $Id = '0018,1623';

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Canon;
 
-class CameraColorCalibration02 extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class CameraColorCalibration02 extends AbstractTag
 {
 
     protected $Id = 'mixed';

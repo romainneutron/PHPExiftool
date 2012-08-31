@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\ICCProfile;
 
-class SceneAppearanceEstimates extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class SceneAppearanceEstimates extends AbstractTag
 {
 
     protected $Id = 'sape';

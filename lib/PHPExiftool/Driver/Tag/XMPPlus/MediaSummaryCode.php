@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPPlus;
 
-class MediaSummaryCode extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class MediaSummaryCode extends AbstractTag
 {
 
     protected $Id = 'MediaSummaryCode';

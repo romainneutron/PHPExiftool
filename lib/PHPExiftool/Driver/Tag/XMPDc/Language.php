@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPDc;
 
-class Language extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class Language extends AbstractTag
 {
 
     protected $Id = 'language';

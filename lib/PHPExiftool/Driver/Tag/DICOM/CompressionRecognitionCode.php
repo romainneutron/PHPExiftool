@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class CompressionRecognitionCode extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class CompressionRecognitionCode extends AbstractTag
 {
 
     protected $Id = '0028,005F';

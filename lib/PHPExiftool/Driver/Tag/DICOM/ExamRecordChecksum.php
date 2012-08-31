@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class ExamRecordChecksum extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ExamRecordChecksum extends AbstractTag
 {
 
     protected $Id = '0009,10E7';

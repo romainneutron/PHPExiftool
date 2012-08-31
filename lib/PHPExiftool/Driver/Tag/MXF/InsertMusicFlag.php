@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MXF;
 
-class InsertMusicFlag extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class InsertMusicFlag extends AbstractTag
 {
 
     protected $Id = '060e2b34.0101.0105.05010404.00000000';

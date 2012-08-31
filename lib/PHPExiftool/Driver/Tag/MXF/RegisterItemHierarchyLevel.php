@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MXF;
 
-class RegisterItemHierarchyLevel extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class RegisterItemHierarchyLevel extends AbstractTag
 {
 
     protected $Id = '060e2b34.0101.010c.02100203.08000000';

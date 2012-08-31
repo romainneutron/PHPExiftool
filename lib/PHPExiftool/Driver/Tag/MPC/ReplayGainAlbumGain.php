@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MPC;
 
-class ReplayGainAlbumGain extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ReplayGainAlbumGain extends AbstractTag
 {
 
     protected $Id = 'Bit144-159';

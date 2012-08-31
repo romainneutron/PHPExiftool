@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class NumberOfBrachyApplicationSetups extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class NumberOfBrachyApplicationSetups extends AbstractTag
 {
 
     protected $Id = '300A,00A0';

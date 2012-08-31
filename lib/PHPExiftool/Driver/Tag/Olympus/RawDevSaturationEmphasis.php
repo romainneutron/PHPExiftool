@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Olympus;
 
-class RawDevSaturationEmphasis extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class RawDevSaturationEmphasis extends AbstractTag
 {
 
     protected $Id = 'mixed';

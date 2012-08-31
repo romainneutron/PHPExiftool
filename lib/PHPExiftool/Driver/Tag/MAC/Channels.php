@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MAC;
 
-class Channels extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class Channels extends AbstractTag
 {
 
     protected $Id = 'mixed';

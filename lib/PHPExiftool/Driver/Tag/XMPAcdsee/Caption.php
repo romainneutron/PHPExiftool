@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPAcdsee;
 
-class Caption extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class Caption extends AbstractTag
 {
 
     protected $Id = 'caption';

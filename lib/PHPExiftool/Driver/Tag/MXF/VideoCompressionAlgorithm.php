@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MXF;
 
-class VideoCompressionAlgorithm extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class VideoCompressionAlgorithm extends AbstractTag
 {
 
     protected $Id = '060e2b34.0101.0101.05400101.00000000';

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class MRTransmitCoilSequence extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class MRTransmitCoilSequence extends AbstractTag
 {
 
     protected $Id = '0018,9049';

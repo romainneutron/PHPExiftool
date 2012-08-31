@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MXF;
 
-class EpisodeEndNumber extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class EpisodeEndNumber extends AbstractTag
 {
 
     protected $Id = '060e2b34.0101.0104.02020500.00000000';

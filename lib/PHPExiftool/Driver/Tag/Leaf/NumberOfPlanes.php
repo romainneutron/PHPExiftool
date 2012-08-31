@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Leaf;
 
-class NumberOfPlanes extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class NumberOfPlanes extends AbstractTag
 {
 
     protected $Id = 'CaptProf_number_of_planes';

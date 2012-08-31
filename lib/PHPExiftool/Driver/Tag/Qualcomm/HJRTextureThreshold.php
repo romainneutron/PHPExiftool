@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Qualcomm;
 
-class HJRTextureThreshold extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class HJRTextureThreshold extends AbstractTag
 {
 
     protected $Id = 'HJR_texture_threshold';

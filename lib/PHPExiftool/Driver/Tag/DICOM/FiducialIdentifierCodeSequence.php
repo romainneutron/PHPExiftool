@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class FiducialIdentifierCodeSequence extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class FiducialIdentifierCodeSequence extends AbstractTag
 {
 
     protected $Id = '0070,0311';

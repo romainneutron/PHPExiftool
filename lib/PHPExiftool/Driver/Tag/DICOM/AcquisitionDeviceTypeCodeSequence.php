@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class AcquisitionDeviceTypeCodeSequence extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class AcquisitionDeviceTypeCodeSequence extends AbstractTag
 {
 
     protected $Id = '0022,0015';

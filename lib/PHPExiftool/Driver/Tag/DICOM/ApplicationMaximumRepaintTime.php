@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class ApplicationMaximumRepaintTime extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ApplicationMaximumRepaintTime extends AbstractTag
 {
 
     protected $Id = '0072,010E';

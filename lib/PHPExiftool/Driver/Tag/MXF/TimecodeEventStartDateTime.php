@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MXF;
 
-class TimecodeEventStartDateTime extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class TimecodeEventStartDateTime extends AbstractTag
 {
 
     protected $Id = '060e2b34.0101.0101.07020102.08010000';

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\ASF;
 
-class Marker extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class Marker extends AbstractTag
 {
 
     protected $Id = 'F487CD01-A951-11CF-8EE6-00C00C205365';

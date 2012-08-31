@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Flash;
 
-class KeyFramePositions extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class KeyFramePositions extends AbstractTag
 {
 
     protected $Id = 'keyframesFilepositions';

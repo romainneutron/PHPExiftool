@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Composite;
 
-class RedEyeReduction extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class RedEyeReduction extends AbstractTag
 {
 
     protected $Id = 'RedEyeReduction';

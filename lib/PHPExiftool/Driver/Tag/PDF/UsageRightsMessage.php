@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\PDF;
 
-class UsageRightsMessage extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class UsageRightsMessage extends AbstractTag
 {
 
     protected $Id = 'Msg';

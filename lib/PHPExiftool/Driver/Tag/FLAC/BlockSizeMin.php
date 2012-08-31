@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\FLAC;
 
-class BlockSizeMin extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class BlockSizeMin extends AbstractTag
 {
 
     protected $Id = 'Bit000-015';

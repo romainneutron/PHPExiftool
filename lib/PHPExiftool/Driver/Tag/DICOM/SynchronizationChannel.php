@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class SynchronizationChannel extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class SynchronizationChannel extends AbstractTag
 {
 
     protected $Id = '0018,106C';

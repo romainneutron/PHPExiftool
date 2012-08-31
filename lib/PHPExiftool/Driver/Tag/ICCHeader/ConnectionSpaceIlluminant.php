@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\ICCHeader;
 
-class ConnectionSpaceIlluminant extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ConnectionSpaceIlluminant extends AbstractTag
 {
 
     protected $Id = 68;

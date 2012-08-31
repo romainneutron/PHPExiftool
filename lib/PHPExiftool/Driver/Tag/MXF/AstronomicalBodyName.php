@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MXF;
 
-class AstronomicalBodyName extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class AstronomicalBodyName extends AbstractTag
 {
 
     protected $Id = 'mixed';

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class TrianglePointIndexList extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class TrianglePointIndexList extends AbstractTag
 {
 
     protected $Id = '0066,0023';

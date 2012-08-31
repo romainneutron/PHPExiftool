@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\LNK;
 
-class CommonNetworkRelLink extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class CommonNetworkRelLink extends AbstractTag
 {
 
     protected $Id = 'CommonNetworkRelLink';

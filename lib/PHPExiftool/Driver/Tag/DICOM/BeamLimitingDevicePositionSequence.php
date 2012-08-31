@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class BeamLimitingDevicePositionSequence extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class BeamLimitingDevicePositionSequence extends AbstractTag
 {
 
     protected $Id = '300A,011A';

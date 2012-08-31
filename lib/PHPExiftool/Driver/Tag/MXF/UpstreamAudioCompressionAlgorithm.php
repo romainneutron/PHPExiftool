@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MXF;
 
-class UpstreamAudioCompressionAlgorithm extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class UpstreamAudioCompressionAlgorithm extends AbstractTag
 {
 
     protected $Id = '060e2b34.0101.0101.05400201.00000000';

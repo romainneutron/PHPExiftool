@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPCrs;
 
-class VignetteMidpoint extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class VignetteMidpoint extends AbstractTag
 {
 
     protected $Id = 'VignetteMidpoint';

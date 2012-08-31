@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPExif;
 
-class OECFValues extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class OECFValues extends AbstractTag
 {
 
     protected $Id = 'OECFValues';
@@ -28,10 +30,16 @@ class OECFValues extends \PHPExiftool\Driver\Tag
 
     protected $g2 = 'Image';
 
-    protected $Type = 'string';
+    protected $Type = 'rational';
 
     protected $Writable = true;
 
     protected $Description = 'OECF Values';
+
+    protected $local_g2 = 'Camera';
+
+    protected $flag_List = true;
+
+    protected $flag_Seq = true;
 
 }

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\ASF;
 
-class SubTitleDescription extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class SubTitleDescription extends AbstractTag
 {
 
     protected $Id = 'SubTitleDescription';

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\PhotoCD;
 
-class ImageMagnificationDescriptor extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ImageMagnificationDescriptor extends AbstractTag
 {
 
     protected $Id = 11;

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Minolta;
 
-class ExposureBracketingIndicatorLast extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ExposureBracketingIndicatorLast extends AbstractTag
 {
 
     protected $Id = 82;

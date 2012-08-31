@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class PhotometricInterpretation extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class PhotometricInterpretation extends AbstractTag
 {
 
     protected $Id = '0028,0004';

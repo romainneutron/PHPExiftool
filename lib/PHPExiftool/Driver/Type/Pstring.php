@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Type;
 
-class Pstring
+use PHPExiftool\Driver\AbstractType;
+
+class Pstring extends AbstractType
 {
 
     protected $ExiftoolName = 'pstring';

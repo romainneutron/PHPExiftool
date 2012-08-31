@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Ocad;
 
-class OcadRevision extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class OcadRevision extends AbstractTag
 {
 
     protected $Id = 'Rev';

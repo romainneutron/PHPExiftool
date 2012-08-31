@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class ConfigurationInformationDescr extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ConfigurationInformationDescr extends AbstractTag
 {
 
     protected $Id = '2010,0152';

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\AC3;
 
-class AudioSampleRate extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class AudioSampleRate extends AbstractTag
 {
 
     protected $Id = 'AudioSampleRate';

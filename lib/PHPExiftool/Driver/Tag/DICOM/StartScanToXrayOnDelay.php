@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class StartScanToXrayOnDelay extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class StartScanToXrayOnDelay extends AbstractTag
 {
 
     protected $Id = '0043,104D';

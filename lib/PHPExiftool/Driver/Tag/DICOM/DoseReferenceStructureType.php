@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class DoseReferenceStructureType extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class DoseReferenceStructureType extends AbstractTag
 {
 
     protected $Id = '300A,0014';

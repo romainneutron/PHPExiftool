@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class RadiopharmaceuticalStartTime extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class RadiopharmaceuticalStartTime extends AbstractTag
 {
 
     protected $Id = '0018,1072';

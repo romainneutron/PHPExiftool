@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class ReferencePixelPhysicalValueX extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ReferencePixelPhysicalValueX extends AbstractTag
 {
 
     protected $Id = '0018,6028';

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MXF;
 
-class RelativePositionInSequenceName extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class RelativePositionInSequenceName extends AbstractTag
 {
 
     protected $Id = '060e2b34.0101.0101.06100300.00000000';

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPExif;
 
-class DateTimeDigitized extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class DateTimeDigitized extends AbstractTag
 {
 
     protected $Id = 'DateTimeDigitized';

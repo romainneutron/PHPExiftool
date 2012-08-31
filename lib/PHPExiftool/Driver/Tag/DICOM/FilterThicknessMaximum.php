@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class FilterThicknessMaximum extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class FilterThicknessMaximum extends AbstractTag
 {
 
     protected $Id = '0018,7054';

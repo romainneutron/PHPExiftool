@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPPlus;
 
-class FirstPublicationDate extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class FirstPublicationDate extends AbstractTag
 {
 
     protected $Id = 'FirstPublicationDate';

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\RealPROP;
 
-class NumPackets extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class NumPackets extends AbstractTag
 {
 
     protected $Id = 4;

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class SpectroscopyAcquisitionDataColumns extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class SpectroscopyAcquisitionDataColumns extends AbstractTag
 {
 
     protected $Id = '0018,9127';

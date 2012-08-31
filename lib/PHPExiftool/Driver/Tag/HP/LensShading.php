@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\HP;
 
-class LensShading extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class LensShading extends AbstractTag
 {
 
     protected $Id = 'Lens Shading';

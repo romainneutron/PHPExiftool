@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Leaf;
 
-class CCDVideoRect extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class CCDVideoRect extends AbstractTag
 {
 
     protected $Id = 'CaptProf_CCD_video_rect';

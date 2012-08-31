@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPIptcExt;
 
-class MaxAvailWidth extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class MaxAvailWidth extends AbstractTag
 {
 
     protected $Id = 'MaxAvailWidth';

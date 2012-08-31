@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MXF;
 
-class SamplingStructureCode extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class SamplingStructureCode extends AbstractTag
 {
 
     protected $Id = '060e2b34.0101.0101.04010301.05000000';

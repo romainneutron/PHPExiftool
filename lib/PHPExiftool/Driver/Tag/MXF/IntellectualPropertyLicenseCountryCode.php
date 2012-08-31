@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MXF;
 
-class IntellectualPropertyLicenseCountryCode extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class IntellectualPropertyLicenseCountryCode extends AbstractTag
 {
 
     protected $Id = '060e2b34.0101.0101.07012001.02050000';

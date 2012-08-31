@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class FirstOrderPhaseCorrectionAngle extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class FirstOrderPhaseCorrectionAngle extends AbstractTag
 {
 
     protected $Id = '5600,0010';

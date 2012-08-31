@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPMP;
 
-class RegionInfoMP extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class RegionInfoMP extends AbstractTag
 {
 
     protected $Id = 'RegionInfo';
@@ -28,7 +30,7 @@ class RegionInfoMP extends \PHPExiftool\Driver\Tag
 
     protected $g2 = 'Image';
 
-    protected $Type = 'string';
+    protected $Type = 'struct';
 
     protected $Writable = true;
 

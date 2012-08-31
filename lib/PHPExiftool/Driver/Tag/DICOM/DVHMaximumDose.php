@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class DVHMaximumDose extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class DVHMaximumDose extends AbstractTag
 {
 
     protected $Id = '3004,0072';

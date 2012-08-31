@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class ReasonForTheAttributeModification extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ReasonForTheAttributeModification extends AbstractTag
 {
 
     protected $Id = '0400,0565';

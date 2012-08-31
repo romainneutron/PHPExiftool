@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class MeasurementUnitsCodeSequence extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class MeasurementUnitsCodeSequence extends AbstractTag
 {
 
     protected $Id = '0040,08EA';

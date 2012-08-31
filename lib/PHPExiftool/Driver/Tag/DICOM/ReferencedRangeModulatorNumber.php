@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class ReferencedRangeModulatorNumber extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ReferencedRangeModulatorNumber extends AbstractTag
 {
 
     protected $Id = '300C,0104';

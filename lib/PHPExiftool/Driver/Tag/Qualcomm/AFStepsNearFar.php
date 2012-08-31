@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Qualcomm;
 
-class AFStepsNearFar extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class AFStepsNearFar extends AbstractTag
 {
 
     protected $Id = 'af_steps_near_far';

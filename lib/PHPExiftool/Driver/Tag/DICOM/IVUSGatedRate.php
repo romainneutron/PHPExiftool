@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class IVUSGatedRate extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class IVUSGatedRate extends AbstractTag
 {
 
     protected $Id = '0018,3102';

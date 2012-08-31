@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\GeoTiff;
 
-class GeogPrimeMeridianLong extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class GeogPrimeMeridianLong extends AbstractTag
 {
 
     protected $Id = 2061;

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class MinimumDasValueFoundInTheScanData extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class MinimumDasValueFoundInTheScanData extends AbstractTag
 {
 
     protected $Id = '0045,100A';

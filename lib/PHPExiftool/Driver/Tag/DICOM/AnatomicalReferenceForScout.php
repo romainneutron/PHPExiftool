@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class AnatomicalReferenceForScout extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class AnatomicalReferenceForScout extends AbstractTag
 {
 
     protected $Id = '0021,104A';

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Microsoft;
 
-class BusinessHomePage extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class BusinessHomePage extends AbstractTag
 {
 
     protected $Id = '{56310920-2491-4919-99CE-EADB06FAFDB2} 100';

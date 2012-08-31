@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MakerNotes;
 
-class PreviewImageHeight extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class PreviewImageHeight extends AbstractTag
 {
 
     protected $Id = 2;

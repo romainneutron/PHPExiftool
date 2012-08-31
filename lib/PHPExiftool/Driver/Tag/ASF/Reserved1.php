@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\ASF;
 
-class Reserved1 extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class Reserved1 extends AbstractTag
 {
 
     protected $Id = 'ABD3D211-A9BA-11cf-8EE6-00C00C205365';

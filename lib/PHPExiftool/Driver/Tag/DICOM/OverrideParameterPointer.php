@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class OverrideParameterPointer extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class OverrideParameterPointer extends AbstractTag
 {
 
     protected $Id = '3008,0062';

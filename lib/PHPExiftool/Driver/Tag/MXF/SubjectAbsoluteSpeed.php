@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MXF;
 
-class SubjectAbsoluteSpeed extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class SubjectAbsoluteSpeed extends AbstractTag
 {
 
     protected $Id = '060e2b34.0101.0101.07010301.02010000';

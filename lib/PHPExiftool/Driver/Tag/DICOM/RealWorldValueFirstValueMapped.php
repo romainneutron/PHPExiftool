@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class RealWorldValueFirstValueMapped extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class RealWorldValueFirstValueMapped extends AbstractTag
 {
 
     protected $Id = '0040,9216';

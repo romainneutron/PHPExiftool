@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MIEOrient;
 
-class Rotation extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class Rotation extends AbstractTag
 {
 
     protected $Id = 'Rotation';

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class PixelComponentPhysicalUnits extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class PixelComponentPhysicalUnits extends AbstractTag
 {
 
     protected $Id = '0018,604C';

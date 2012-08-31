@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class SourceIsotopeHalfLife extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class SourceIsotopeHalfLife extends AbstractTag
 {
 
     protected $Id = '300A,0228';

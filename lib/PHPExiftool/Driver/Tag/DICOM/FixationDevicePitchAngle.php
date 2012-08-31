@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class FixationDevicePitchAngle extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class FixationDevicePitchAngle extends AbstractTag
 {
 
     protected $Id = '300A,0199';

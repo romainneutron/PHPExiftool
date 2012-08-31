@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class LightPathFilterPassBand extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class LightPathFilterPassBand extends AbstractTag
 {
 
     protected $Id = '0022,0002';

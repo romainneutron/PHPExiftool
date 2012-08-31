@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class GantryMotionCorrected extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class GantryMotionCorrected extends AbstractTag
 {
 
     protected $Id = '0018,9762';

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Leaf;
 
-class StdSharpenOutput extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class StdSharpenOutput extends AbstractTag
 {
 
     protected $Id = 'SaveObj_std_sharpen_output';

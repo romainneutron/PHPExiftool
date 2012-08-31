@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Minolta;
 
-class MinoltaCameraSettings2 extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class MinoltaCameraSettings2 extends AbstractTag
 {
 
     protected $Id = 3840;

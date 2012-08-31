@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\System;
 
-class ResourceForkSize extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ResourceForkSize extends AbstractTag
 {
 
     protected $Id = 'ResourceForkSize';

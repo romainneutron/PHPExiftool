@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\CanonCustom;
 
-class DialDirectionTvAv extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class DialDirectionTvAv extends AbstractTag
 {
 
     protected $Id = 1798;

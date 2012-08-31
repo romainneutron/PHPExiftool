@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MXF;
 
-class HistoricalValue extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class HistoricalValue extends AbstractTag
 {
 
     protected $Id = '060e2b34.0101.0101.03020202.05000000';

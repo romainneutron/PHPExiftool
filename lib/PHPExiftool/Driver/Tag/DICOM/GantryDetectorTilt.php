@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class GantryDetectorTilt extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class GantryDetectorTilt extends AbstractTag
 {
 
     protected $Id = '0018,1120';

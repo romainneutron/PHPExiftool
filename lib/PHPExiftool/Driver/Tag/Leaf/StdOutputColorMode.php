@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Leaf;
 
-class StdOutputColorMode extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class StdOutputColorMode extends AbstractTag
 {
 
     protected $Id = 'SaveObj_std_output_color_mode';

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class DigitizingDeviceTransportDirection extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class DigitizingDeviceTransportDirection extends AbstractTag
 {
 
     protected $Id = '0018,2020';

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Microsoft;
 
-class OriginalLyricist extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class OriginalLyricist extends AbstractTag
 {
 
     protected $Id = 'WM/OriginalLyricist';

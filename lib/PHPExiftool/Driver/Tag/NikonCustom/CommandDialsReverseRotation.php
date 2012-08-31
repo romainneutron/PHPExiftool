@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\NikonCustom;
 
-class CommandDialsReverseRotation extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class CommandDialsReverseRotation extends AbstractTag
 {
 
     protected $Id = 'mixed';

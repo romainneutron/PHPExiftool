@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\NikonCustom;
 
-class FocusTrackingLockOn extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class FocusTrackingLockOn extends AbstractTag
 {
 
     protected $Id = 'mixed';

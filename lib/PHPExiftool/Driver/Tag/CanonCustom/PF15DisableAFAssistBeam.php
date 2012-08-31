@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\CanonCustom;
 
-class PF15DisableAFAssistBeam extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class PF15DisableAFAssistBeam extends AbstractTag
 {
 
     protected $Id = 16;

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Qualcomm;
 
-class AFVfeMetricMax extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class AFVfeMetricMax extends AbstractTag
 {
 
     protected $Id = 'af_vfe_metric_max';

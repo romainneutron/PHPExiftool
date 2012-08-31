@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class GridFrameOffsetVector extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class GridFrameOffsetVector extends AbstractTag
 {
 
     protected $Id = '3004,000C';

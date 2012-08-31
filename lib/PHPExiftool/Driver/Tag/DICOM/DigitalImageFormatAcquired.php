@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class DigitalImageFormatAcquired extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class DigitalImageFormatAcquired extends AbstractTag
 {
 
     protected $Id = '0018,1023';

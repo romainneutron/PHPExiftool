@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class DetectorLinesOfResponseUsed extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class DetectorLinesOfResponseUsed extends AbstractTag
 {
 
     protected $Id = '0054,1104';

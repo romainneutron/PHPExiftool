@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class BeamLimitingDeviceRotateDirection extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class BeamLimitingDeviceRotateDirection extends AbstractTag
 {
 
     protected $Id = '300A,0121';

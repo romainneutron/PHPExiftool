@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\ExifIFD;
 
-class SpatialFrequencyResponse extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class SpatialFrequencyResponse extends AbstractTag
 {
 
     protected $Id = 'mixed';

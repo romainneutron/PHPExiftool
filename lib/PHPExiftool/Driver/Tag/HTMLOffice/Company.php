@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\HTMLOffice;
 
-class Company extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class Company extends AbstractTag
 {
 
     protected $Id = 'Company';

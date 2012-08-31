@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class AnatomicalOrientationType extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class AnatomicalOrientationType extends AbstractTag
 {
 
     protected $Id = '0010,2210';

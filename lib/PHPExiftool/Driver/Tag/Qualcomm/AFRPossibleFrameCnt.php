@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Qualcomm;
 
-class AFRPossibleFrameCnt extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class AFRPossibleFrameCnt extends AbstractTag
 {
 
     protected $Id = 'afr_possible_frame_cnt';

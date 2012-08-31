@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class AvgOverrangesAllViews extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class AvgOverrangesAllViews extends AbstractTag
 {
 
     protected $Id = '0043,1020';

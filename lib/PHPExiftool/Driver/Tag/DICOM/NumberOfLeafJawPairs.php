@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class NumberOfLeafJawPairs extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class NumberOfLeafJawPairs extends AbstractTag
 {
 
     protected $Id = '300A,00BC';

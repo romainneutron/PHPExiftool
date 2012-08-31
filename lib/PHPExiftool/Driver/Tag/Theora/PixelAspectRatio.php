@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Theora;
 
-class PixelAspectRatio extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class PixelAspectRatio extends AbstractTag
 {
 
     protected $Id = 23;

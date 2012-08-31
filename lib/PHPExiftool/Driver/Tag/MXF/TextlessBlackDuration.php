@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MXF;
 
-class TextlessBlackDuration extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class TextlessBlackDuration extends AbstractTag
 {
 
     protected $Id = '060e2b34.0101.0101.07020201.02030000';

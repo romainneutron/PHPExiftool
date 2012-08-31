@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Microsoft;
 
-class WhiteBalance extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class WhiteBalance extends AbstractTag
 {
 
     protected $Id = '{EE3D3D8A-5381-4CFA-B13B-AAF66B5F4EC9} 100';

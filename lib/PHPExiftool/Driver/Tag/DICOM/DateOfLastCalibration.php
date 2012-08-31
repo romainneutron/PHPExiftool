@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class DateOfLastCalibration extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class DateOfLastCalibration extends AbstractTag
 {
 
     protected $Id = '0018,1200';

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MXF;
 
-class ColorRangeLevels extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ColorRangeLevels extends AbstractTag
 {
 
     protected $Id = '060e2b34.0101.0102.04010503.05000000';

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Type;
 
-class Resize
+use PHPExiftool\Driver\AbstractType;
+
+class Resize extends AbstractType
 {
 
     protected $ExiftoolName = 'resize';

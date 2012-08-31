@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Microsoft;
 
-class ContentDistributorType extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ContentDistributorType extends AbstractTag
 {
 
     protected $Id = 'WM/ContentDistributorType';

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MXF;
 
-class PolarCharacteristic extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class PolarCharacteristic extends AbstractTag
 {
 
     protected $Id = '060e2b34.0101.0101.04200302.00000000';

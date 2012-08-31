@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Font;
 
-class PreferredSubfamily extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class PreferredSubfamily extends AbstractTag
 {
 
     protected $Id = 17;

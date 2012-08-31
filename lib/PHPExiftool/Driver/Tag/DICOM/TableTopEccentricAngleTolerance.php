@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class TableTopEccentricAngleTolerance extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class TableTopEccentricAngleTolerance extends AbstractTag
 {
 
     protected $Id = '300A,004E';

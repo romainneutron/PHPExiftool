@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MIEDoc;
 
-class EMail extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class EMail extends AbstractTag
 {
 
     protected $Id = 'EMail';

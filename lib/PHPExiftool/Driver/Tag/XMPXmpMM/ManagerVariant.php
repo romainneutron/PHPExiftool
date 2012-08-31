@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPXmpMM;
 
-class ManagerVariant extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ManagerVariant extends AbstractTag
 {
 
     protected $Id = 'ManagerVariant';

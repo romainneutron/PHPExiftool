@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DjVu;
 
-class IncludedFileID extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class IncludedFileID extends AbstractTag
 {
 
     protected $Id = 'INCL';

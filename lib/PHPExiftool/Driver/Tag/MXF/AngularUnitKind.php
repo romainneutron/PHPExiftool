@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MXF;
 
-class AngularUnitKind extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class AngularUnitKind extends AbstractTag
 {
 
     protected $Id = '060e2b34.0101.0101.03010302.01000000';

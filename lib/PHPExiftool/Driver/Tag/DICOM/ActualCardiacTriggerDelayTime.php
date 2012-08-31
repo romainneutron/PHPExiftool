@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class ActualCardiacTriggerDelayTime extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ActualCardiacTriggerDelayTime extends AbstractTag
 {
 
     protected $Id = '0020,9252';

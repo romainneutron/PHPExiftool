@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MXF;
 
-class TerminatingFillerData extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class TerminatingFillerData extends AbstractTag
 {
 
     protected $Id = '060e2b34.0101.0103.03010210.05000000';

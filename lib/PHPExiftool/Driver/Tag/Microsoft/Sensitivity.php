@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Microsoft;
 
-class Sensitivity extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class Sensitivity extends AbstractTag
 {
 
     protected $Id = '{F8D3F6AC-4874-42CB-BE59-AB454B30716A} 100';

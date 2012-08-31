@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class DetectorConditionsNominalFlag extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class DetectorConditionsNominalFlag extends AbstractTag
 {
 
     protected $Id = '0018,7000';

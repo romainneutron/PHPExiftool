@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class PositionerIsocenterDetRotAngle extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class PositionerIsocenterDetRotAngle extends AbstractTag
 {
 
     protected $Id = '0018,9465';

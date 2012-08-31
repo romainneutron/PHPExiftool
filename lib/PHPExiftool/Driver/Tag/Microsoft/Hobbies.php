@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Microsoft;
 
-class Hobbies extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class Hobbies extends AbstractTag
 {
 
     protected $Id = '{5DC2253F-5E11-4ADF-9CFE-910DD01E3E70} 100';

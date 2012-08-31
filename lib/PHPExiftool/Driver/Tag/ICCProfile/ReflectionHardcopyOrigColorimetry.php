@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\ICCProfile;
 
-class ReflectionHardcopyOrigColorimetry extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ReflectionHardcopyOrigColorimetry extends AbstractTag
 {
 
     protected $Id = 'rhoc';

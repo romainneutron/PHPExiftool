@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class PrimitivePointIndexList extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class PrimitivePointIndexList extends AbstractTag
 {
 
     protected $Id = '0066,0029';

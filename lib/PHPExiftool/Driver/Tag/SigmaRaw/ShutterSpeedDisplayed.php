@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\SigmaRaw;
 
-class ShutterSpeedDisplayed extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ShutterSpeedDisplayed extends AbstractTag
 {
 
     protected $Id = 'SH_DESC';

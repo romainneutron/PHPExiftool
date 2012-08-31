@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\GIF;
 
-class BitsPerPixel extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class BitsPerPixel extends AbstractTag
 {
 
     protected $Id = '4.3';

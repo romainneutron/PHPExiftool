@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class DiffusionBValueXX extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class DiffusionBValueXX extends AbstractTag
 {
 
     protected $Id = '0018,9602';

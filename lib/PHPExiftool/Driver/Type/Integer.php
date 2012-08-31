@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Type;
 
-class Integer
+use PHPExiftool\Driver\AbstractType;
+
+class Integer extends AbstractType
 {
 
     protected $ExiftoolName = 'integer';

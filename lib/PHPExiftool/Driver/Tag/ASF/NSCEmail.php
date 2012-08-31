@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\ASF;
 
-class NSCEmail extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class NSCEmail extends AbstractTag
 {
 
     protected $Id = 'NSC_Email';

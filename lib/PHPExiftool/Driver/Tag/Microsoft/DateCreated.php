@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Microsoft;
 
-class DateCreated extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class DateCreated extends AbstractTag
 {
 
     protected $Id = '{B725F130-47EF-101A-A5F1-02608C9EEBAC} 15';

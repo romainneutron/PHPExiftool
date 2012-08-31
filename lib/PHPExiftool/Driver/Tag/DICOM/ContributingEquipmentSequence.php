@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class ContributingEquipmentSequence extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ContributingEquipmentSequence extends AbstractTag
 {
 
     protected $Id = '0018,A001';

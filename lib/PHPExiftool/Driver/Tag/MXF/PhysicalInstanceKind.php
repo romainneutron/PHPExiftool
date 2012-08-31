@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MXF;
 
-class PhysicalInstanceKind extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class PhysicalInstanceKind extends AbstractTag
 {
 
     protected $Id = '060e2b34.0101.0101.05010105.00000000';

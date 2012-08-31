@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPXmpPLUS;
 
-class CreditLineReq extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class CreditLineReq extends AbstractTag
 {
 
     protected $Id = 'CreditLineReq';

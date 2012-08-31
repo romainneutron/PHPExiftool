@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class RecordedRangeModulatorSequence extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class RecordedRangeModulatorSequence extends AbstractTag
 {
 
     protected $Id = '3008,00F6';

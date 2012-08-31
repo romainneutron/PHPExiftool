@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MXF;
 
-class InputSegmentCount extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class InputSegmentCount extends AbstractTag
 {
 
     protected $Id = '060e2b34.0101.0101.05300504.00000000';

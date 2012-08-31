@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Pentax;
 
-class RawAndJpgRecording extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class RawAndJpgRecording extends AbstractTag
 {
 
     protected $Id = 13;

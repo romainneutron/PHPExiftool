@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\SonyIDC;
 
-class CreativeStyleWasChanged extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class CreativeStyleWasChanged extends AbstractTag
 {
 
     protected $Id = 32769;

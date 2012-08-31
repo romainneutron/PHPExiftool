@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Pentax;
 
-class PentaxModelID extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class PentaxModelID extends AbstractTag
 {
 
     protected $Id = 'mixed';
@@ -468,6 +470,18 @@ class PentaxModelID extends \PHPExiftool\Driver\Tag
         77610 => array(
             'Id' => 77610,
             'Label' => 'Optio WG-2 GPS',
+        ),
+        77640 => array(
+            'Id' => 77640,
+            'Label' => 'Optio LS465',
+        ),
+        77650 => array(
+            'Id' => 77650,
+            'Label' => 'K-30',
+        ),
+        77660 => array(
+            'Id' => 77660,
+            'Label' => 'X-5',
         ),
     );
 

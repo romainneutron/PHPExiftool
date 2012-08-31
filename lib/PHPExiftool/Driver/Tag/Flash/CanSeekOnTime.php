@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Flash;
 
-class CanSeekOnTime extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class CanSeekOnTime extends AbstractTag
 {
 
     protected $Id = 'canseekontime';

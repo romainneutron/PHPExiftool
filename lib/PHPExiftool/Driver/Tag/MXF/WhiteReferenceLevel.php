@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MXF;
 
-class WhiteReferenceLevel extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class WhiteReferenceLevel extends AbstractTag
 {
 
     protected $Id = '060e2b34.0101.0101.04010503.04000000';

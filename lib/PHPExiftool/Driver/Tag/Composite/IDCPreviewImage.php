@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Composite;
 
-class IDCPreviewImage extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class IDCPreviewImage extends AbstractTag
 {
 
     protected $Id = 'IDCPreviewImage';

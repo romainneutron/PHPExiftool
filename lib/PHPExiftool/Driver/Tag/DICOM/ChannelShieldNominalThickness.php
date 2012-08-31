@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class ChannelShieldNominalThickness extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ChannelShieldNominalThickness extends AbstractTag
 {
 
     protected $Id = '300A,02B8';

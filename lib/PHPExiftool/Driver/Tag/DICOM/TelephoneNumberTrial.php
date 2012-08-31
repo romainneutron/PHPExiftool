@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class TelephoneNumberTrial extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class TelephoneNumberTrial extends AbstractTag
 {
 
     protected $Id = '0040,A354';

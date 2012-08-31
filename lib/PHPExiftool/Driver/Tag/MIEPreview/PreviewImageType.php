@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MIEPreview;
 
-class PreviewImageType extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class PreviewImageType extends AbstractTag
 {
 
     protected $Id = '0Type';

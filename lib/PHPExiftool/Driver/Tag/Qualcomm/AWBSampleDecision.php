@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Qualcomm;
 
-class AWBSampleDecision extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class AWBSampleDecision extends AbstractTag
 {
 
     protected $Id = 'awb_sample_decision';

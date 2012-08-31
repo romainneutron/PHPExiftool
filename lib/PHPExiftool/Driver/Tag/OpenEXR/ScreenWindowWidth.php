@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\OpenEXR;
 
-class ScreenWindowWidth extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ScreenWindowWidth extends AbstractTag
 {
 
     protected $Id = 'screenWindowWidth';

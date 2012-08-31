@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Qualcomm;
 
-class AECHighLumaRegionThreshold extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class AECHighLumaRegionThreshold extends AbstractTag
 {
 
     protected $Id = 'aec_high_luma_region_threshold';

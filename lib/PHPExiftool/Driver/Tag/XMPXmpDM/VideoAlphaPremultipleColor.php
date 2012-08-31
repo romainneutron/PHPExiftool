@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPXmpDM;
 
-class VideoAlphaPremultipleColor extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class VideoAlphaPremultipleColor extends AbstractTag
 {
 
     protected $Id = 'videoAlphaPremultipleColor';
@@ -28,7 +30,7 @@ class VideoAlphaPremultipleColor extends \PHPExiftool\Driver\Tag
 
     protected $g2 = 'Image';
 
-    protected $Type = 'string';
+    protected $Type = 'struct';
 
     protected $Writable = true;
 

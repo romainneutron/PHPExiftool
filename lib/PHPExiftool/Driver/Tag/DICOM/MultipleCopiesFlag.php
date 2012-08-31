@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class MultipleCopiesFlag extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class MultipleCopiesFlag extends AbstractTag
 {
 
     protected $Id = '0040,4006';

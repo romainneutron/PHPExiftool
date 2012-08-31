@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class VerticesOfPolygonalShutter extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class VerticesOfPolygonalShutter extends AbstractTag
 {
 
     protected $Id = '0018,1620';

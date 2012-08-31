@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Microsoft;
 
-class BitDepth extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class BitDepth extends AbstractTag
 {
 
     protected $Id = '{6444048F-4C8B-11D1-8B70-080036B11A03} 7';

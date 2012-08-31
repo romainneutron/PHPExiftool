@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MXF;
 
-class OperationCategory extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class OperationCategory extends AbstractTag
 {
 
     protected $Id = '060e2b34.0101.0102.0530050a.00000000';

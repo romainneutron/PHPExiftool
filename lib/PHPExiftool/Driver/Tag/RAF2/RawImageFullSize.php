@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\RAF2;
 
-class RawImageFullSize extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class RawImageFullSize extends AbstractTag
 {
 
     protected $Id = 256;

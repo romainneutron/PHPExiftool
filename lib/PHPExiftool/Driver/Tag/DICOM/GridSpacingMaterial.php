@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class GridSpacingMaterial extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class GridSpacingMaterial extends AbstractTag
 {
 
     protected $Id = '0018,7041';

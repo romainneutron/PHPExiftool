@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\CanonCustom;
 
-class FillFlashAutoReduction extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class FillFlashAutoReduction extends AbstractTag
 {
 
     protected $Id = 'mixed';

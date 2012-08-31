@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class MultiCoilConfiguration extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class MultiCoilConfiguration extends AbstractTag
 {
 
     protected $Id = '0018,9046';

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class StartNumberForEnhancedScans extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class StartNumberForEnhancedScans extends AbstractTag
 {
 
     protected $Id = '0019,1015';

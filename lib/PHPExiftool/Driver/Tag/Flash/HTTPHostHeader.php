@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Flash;
 
-class HTTPHostHeader extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class HTTPHostHeader extends AbstractTag
 {
 
     protected $Id = 'httphostheader';

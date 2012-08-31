@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Qualcomm;
 
-class HJRNReductionTexture extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class HJRNReductionTexture extends AbstractTag
 {
 
     protected $Id = 'HJR_n_reduction_texture';

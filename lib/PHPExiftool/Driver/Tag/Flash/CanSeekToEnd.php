@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Flash;
 
-class CanSeekToEnd extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class CanSeekToEnd extends AbstractTag
 {
 
     protected $Id = 'canSeekToEnd';

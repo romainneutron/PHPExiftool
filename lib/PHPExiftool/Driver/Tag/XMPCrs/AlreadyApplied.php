@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPCrs;
 
-class AlreadyApplied extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class AlreadyApplied extends AbstractTag
 {
 
     protected $Id = 'AlreadyApplied';

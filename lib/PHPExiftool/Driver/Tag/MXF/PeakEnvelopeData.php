@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MXF;
 
-class PeakEnvelopeData extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class PeakEnvelopeData extends AbstractTag
 {
 
     protected $Id = 'mixed';

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class SkipFrameRangeFlag extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class SkipFrameRangeFlag extends AbstractTag
 {
 
     protected $Id = '0008,9460';

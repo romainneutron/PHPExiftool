@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class ConvolutionKernelGroup extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ConvolutionKernelGroup extends AbstractTag
 {
 
     protected $Id = '0018,9316';

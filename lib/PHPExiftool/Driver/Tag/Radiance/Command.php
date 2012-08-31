@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Radiance;
 
-class Command extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class Command extends AbstractTag
 {
 
     protected $Id = '_command';

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class CardiacFramingType extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class CardiacFramingType extends AbstractTag
 {
 
     protected $Id = '0018,1064';

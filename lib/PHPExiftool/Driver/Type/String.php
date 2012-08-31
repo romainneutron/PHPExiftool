@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Type;
 
-class String
+use PHPExiftool\Driver\AbstractType;
+
+class String extends AbstractType
 {
 
     protected $ExiftoolName = 'string';

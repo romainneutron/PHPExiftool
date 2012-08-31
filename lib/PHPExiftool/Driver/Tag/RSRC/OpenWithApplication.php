@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\RSRC;
 
-class OpenWithApplication extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class OpenWithApplication extends AbstractTag
 {
 
     protected $Id = 'usro_0x0000';

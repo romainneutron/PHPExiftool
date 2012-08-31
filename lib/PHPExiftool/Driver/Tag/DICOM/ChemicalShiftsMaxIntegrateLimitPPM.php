@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class ChemicalShiftsMaxIntegrateLimitPPM extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ChemicalShiftsMaxIntegrateLimitPPM extends AbstractTag
 {
 
     protected $Id = '0018,9296';

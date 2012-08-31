@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Microsoft;
 
-class LeadPerformer extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class LeadPerformer extends AbstractTag
 {
 
     protected $Id = 'LeadPerformer';

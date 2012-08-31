@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\NikonCustom;
 
-class CustomSettingsAllDefault extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class CustomSettingsAllDefault extends AbstractTag
 {
 
     protected $Id = '0.2';

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MXF;
 
-class EditHint extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class EditHint extends AbstractTag
 {
 
     protected $Id = '060e2b34.0101.0102.05300508.00000000';

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Sony;
 
-class SceneMode extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class SceneMode extends AbstractTag
 {
 
     protected $Id = 45091;
@@ -108,6 +110,26 @@ class SceneMode extends \PHPExiftool\Driver\Tag
         23 => array(
             'Id' => 23,
             'Label' => '3D Sweep Panorama',
+        ),
+        24 => array(
+            'Id' => 24,
+            'Label' => 'Superior Auto',
+        ),
+        25 => array(
+            'Id' => 25,
+            'Label' => 'High Sensitivity',
+        ),
+        26 => array(
+            'Id' => 26,
+            'Label' => 'Fireworks',
+        ),
+        27 => array(
+            'Id' => 27,
+            'Label' => 'Food',
+        ),
+        28 => array(
+            'Id' => 28,
+            'Label' => 'Pet',
         ),
         65535 => array(
             'Id' => 65535,

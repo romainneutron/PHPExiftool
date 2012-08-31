@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MXF;
 
-class PerforationsPerFrame extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class PerforationsPerFrame extends AbstractTag
 {
 
     protected $Id = 'mixed';

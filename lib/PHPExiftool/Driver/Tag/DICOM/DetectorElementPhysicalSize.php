@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class DetectorElementPhysicalSize extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class DetectorElementPhysicalSize extends AbstractTag
 {
 
     protected $Id = '0018,7020';

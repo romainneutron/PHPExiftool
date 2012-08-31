@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class SpecifiedChannelTotalTime extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class SpecifiedChannelTotalTime extends AbstractTag
 {
 
     protected $Id = '3008,0132';

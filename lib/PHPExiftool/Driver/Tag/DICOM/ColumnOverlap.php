@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class ColumnOverlap extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ColumnOverlap extends AbstractTag
 {
 
     protected $Id = '0028,0094';

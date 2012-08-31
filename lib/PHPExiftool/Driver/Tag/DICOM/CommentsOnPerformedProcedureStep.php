@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class CommentsOnPerformedProcedureStep extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class CommentsOnPerformedProcedureStep extends AbstractTag
 {
 
     protected $Id = '0040,0280';

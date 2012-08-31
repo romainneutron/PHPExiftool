@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class AllowMediaSplitting extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class AllowMediaSplitting extends AbstractTag
 {
 
     protected $Id = '2200,0007';

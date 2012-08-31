@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class RecommendedDisplayFrameRateInFloat extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class RecommendedDisplayFrameRateInFloat extends AbstractTag
 {
 
     protected $Id = '0008,9459';

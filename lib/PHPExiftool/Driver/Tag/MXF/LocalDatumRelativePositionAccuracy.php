@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MXF;
 
-class LocalDatumRelativePositionAccuracy extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class LocalDatumRelativePositionAccuracy extends AbstractTag
 {
 
     protected $Id = '060e2b34.0101.0101.07010202.01010000';

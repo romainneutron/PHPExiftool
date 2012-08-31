@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class GeometricalProperties extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class GeometricalProperties extends AbstractTag
 {
 
     protected $Id = '0028,9444';

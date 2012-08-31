@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\GIF;
 
-class GIFVersion extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class GIFVersion extends AbstractTag
 {
 
     protected $Id = 'GIFVersion';

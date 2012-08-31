@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Leaf;
 
-class LeafHotFolder extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class LeafHotFolder extends AbstractTag
 {
 
     protected $Id = 'SaveObj_leaf_hot_folder';

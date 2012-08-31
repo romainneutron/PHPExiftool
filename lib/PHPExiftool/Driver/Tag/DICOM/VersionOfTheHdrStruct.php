@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class VersionOfTheHdrStruct extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class VersionOfTheHdrStruct extends AbstractTag
 {
 
     protected $Id = '0029,1026';

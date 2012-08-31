@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\NikonCustom;
 
-class RepeatingFlashOutput extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class RepeatingFlashOutput extends AbstractTag
 {
 
     protected $Id = 'mixed';

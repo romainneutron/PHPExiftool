@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPCrs;
 
-class CropConstrainToWarp extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class CropConstrainToWarp extends AbstractTag
 {
 
     protected $Id = 'CropConstrainToWarp';

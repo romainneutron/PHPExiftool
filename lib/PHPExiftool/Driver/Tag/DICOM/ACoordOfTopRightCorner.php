@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class ACoordOfTopRightCorner extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ACoordOfTopRightCorner extends AbstractTag
 {
 
     protected $Id = '0027,1049';

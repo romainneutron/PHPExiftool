@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class RandomsCorrectionMethod extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class RandomsCorrectionMethod extends AbstractTag
 {
 
     protected $Id = '0054,1100';

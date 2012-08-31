@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\JFIF;
 
-class JFIFVersion extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class JFIFVersion extends AbstractTag
 {
 
     protected $Id = 0;

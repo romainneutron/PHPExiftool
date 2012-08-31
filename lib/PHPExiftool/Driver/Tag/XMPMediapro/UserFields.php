@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPMediapro;
 
-class UserFields extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class UserFields extends AbstractTag
 {
 
     protected $Id = 'UserFields';

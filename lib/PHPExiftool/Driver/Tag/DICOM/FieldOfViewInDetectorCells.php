@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class FieldOfViewInDetectorCells extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class FieldOfViewInDetectorCells extends AbstractTag
 {
 
     protected $Id = '0019,106B';

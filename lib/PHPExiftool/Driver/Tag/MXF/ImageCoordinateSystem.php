@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MXF;
 
-class ImageCoordinateSystem extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ImageCoordinateSystem extends AbstractTag
 {
 
     protected $Id = '060e2b34.0101.0101.07010101.00000000';

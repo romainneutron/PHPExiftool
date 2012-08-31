@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class HistogramLastBinValue extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class HistogramLastBinValue extends AbstractTag
 {
 
     protected $Id = '0060,3006';

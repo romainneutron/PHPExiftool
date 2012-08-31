@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class BrachyAccessoryDeviceNomThickness extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class BrachyAccessoryDeviceNomThickness extends AbstractTag
 {
 
     protected $Id = '300A,026A';

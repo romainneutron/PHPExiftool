@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MIEAudio;
 
-class SampleBits extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class SampleBits extends AbstractTag
 {
 
     protected $Id = 'SampleBits';

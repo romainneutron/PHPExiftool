@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Microsoft;
 
-class LensMaker extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class LensMaker extends AbstractTag
 {
 
     protected $Id = '{E6DDCAF7-29C5-4F0A-9A68-D19412EC7090} 100';

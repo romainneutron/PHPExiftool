@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class InputAvailabilityFlag extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class InputAvailabilityFlag extends AbstractTag
 {
 
     protected $Id = '0040,4020';

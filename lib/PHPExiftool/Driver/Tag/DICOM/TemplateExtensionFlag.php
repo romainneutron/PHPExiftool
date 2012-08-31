@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class TemplateExtensionFlag extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class TemplateExtensionFlag extends AbstractTag
 {
 
     protected $Id = '0040,DB0B';

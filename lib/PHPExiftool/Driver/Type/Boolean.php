@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Type;
 
-class Boolean
+use PHPExiftool\Driver\AbstractType;
+
+class Boolean extends AbstractType
 {
 
     protected $ExiftoolName = 'boolean';

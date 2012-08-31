@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Microsoft;
 
-class MediaCreated extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class MediaCreated extends AbstractTag
 {
 
     protected $Id = '{2E4B640D-5019-46D8-8881-55414CC5CAA0} 100';

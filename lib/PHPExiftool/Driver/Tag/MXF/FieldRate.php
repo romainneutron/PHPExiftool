@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MXF;
 
-class FieldRate extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class FieldRate extends AbstractTag
 {
 
     protected $Id = '060e2b34.0101.0101.04010301.02000000';

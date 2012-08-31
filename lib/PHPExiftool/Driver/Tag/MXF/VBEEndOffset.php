@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MXF;
 
-class VBEEndOffset extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class VBEEndOffset extends AbstractTag
 {
 
     protected $Id = '060e2b34.0101.010a.04060205.00000000';

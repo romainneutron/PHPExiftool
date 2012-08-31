@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class TableTopPitchAngleTolerance extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class TableTopPitchAngleTolerance extends AbstractTag
 {
 
     protected $Id = '300A,004F';

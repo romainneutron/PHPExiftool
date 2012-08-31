@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class PhantomCalibrationDate extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class PhantomCalibrationDate extends AbstractTag
 {
 
     protected $Id = '0045,101B';

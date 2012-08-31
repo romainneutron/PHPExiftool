@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class RotationFromSourceZRot extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class RotationFromSourceZRot extends AbstractTag
 {
 
     protected $Id = '0021,1053';

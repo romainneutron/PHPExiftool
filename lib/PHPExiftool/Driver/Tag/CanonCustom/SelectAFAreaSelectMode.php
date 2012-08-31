@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\CanonCustom;
 
-class SelectAFAreaSelectMode extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class SelectAFAreaSelectMode extends AbstractTag
 {
 
     protected $Id = 1298;

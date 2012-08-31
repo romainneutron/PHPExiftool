@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MXF;
 
-class ViewportImageCenterCCoordinate extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ViewportImageCenterCCoordinate extends AbstractTag
 {
 
     protected $Id = '060e2b34.0101.0101.07010203.05000000';

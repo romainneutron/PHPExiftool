@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\CanonCustom;
 
-class PF4ExposureTimeLimits extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class PF4ExposureTimeLimits extends AbstractTag
 {
 
     protected $Id = 5;

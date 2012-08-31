@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPDigiKam;
 
-class PickLabel extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class PickLabel extends AbstractTag
 {
 
     protected $Id = 'PickLabel';

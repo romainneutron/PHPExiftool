@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class DynamicZAlphaValue extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class DynamicZAlphaValue extends AbstractTag
 {
 
     protected $Id = '0019,10DE';

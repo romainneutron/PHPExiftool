@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Type;
 
-class Double
+use PHPExiftool\Driver\AbstractType;
+
+class Double extends AbstractType
 {
 
     protected $ExiftoolName = 'double';

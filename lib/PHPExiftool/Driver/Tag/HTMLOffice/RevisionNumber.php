@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\HTMLOffice;
 
-class RevisionNumber extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class RevisionNumber extends AbstractTag
 {
 
     protected $Id = 'mixed';

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPIptcExt;
 
-class MaxAvailHeight extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class MaxAvailHeight extends AbstractTag
 {
 
     protected $Id = 'MaxAvailHeight';

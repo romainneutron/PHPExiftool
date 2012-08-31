@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Rawzor;
 
-class RawzorCreatorVersion extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class RawzorCreatorVersion extends AbstractTag
 {
 
     protected $Id = 'RawzorCreatorVersion';

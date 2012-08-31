@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Real;
 
-class Text extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class Text extends AbstractTag
 {
 
     protected $Id = 'txt';

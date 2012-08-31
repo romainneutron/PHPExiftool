@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPIptcCore;
 
-class IntellectualGenre extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class IntellectualGenre extends AbstractTag
 {
 
     protected $Id = 'IntellectualGenre';

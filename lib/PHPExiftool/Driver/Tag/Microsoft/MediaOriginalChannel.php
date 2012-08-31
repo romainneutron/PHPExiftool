@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Microsoft;
 
-class MediaOriginalChannel extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class MediaOriginalChannel extends AbstractTag
 {
 
     protected $Id = 'WM/MediaOriginalChannel';

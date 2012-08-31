@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MPF0;
 
-class AxisDistanceZ extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class AxisDistanceZ extends AbstractTag
 {
 
     protected $Id = 45578;

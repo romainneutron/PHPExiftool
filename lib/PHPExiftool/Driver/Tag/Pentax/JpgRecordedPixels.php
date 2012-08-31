@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Pentax;
 
-class JpgRecordedPixels extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class JpgRecordedPixels extends AbstractTag
 {
 
     protected $Id = '14.1';

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class ImageToEquipmentMappingMatrix extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ImageToEquipmentMappingMatrix extends AbstractTag
 {
 
     protected $Id = '0028,9520';

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\FlashPix;
 
-class Hyperlinks extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class Hyperlinks extends AbstractTag
 {
 
     protected $Id = '_PID_HLINKS';

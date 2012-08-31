@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\ASF;
 
-class OriginalLyricist extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class OriginalLyricist extends AbstractTag
 {
 
     protected $Id = 'OriginalLyricist';

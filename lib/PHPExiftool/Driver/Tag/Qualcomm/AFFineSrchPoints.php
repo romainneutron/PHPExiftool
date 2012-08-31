@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Qualcomm;
 
-class AFFineSrchPoints extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class AFFineSrchPoints extends AbstractTag
 {
 
     protected $Id = 'af_fine_srch_points';

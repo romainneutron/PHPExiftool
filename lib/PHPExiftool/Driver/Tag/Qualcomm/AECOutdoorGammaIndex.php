@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Qualcomm;
 
-class AECOutdoorGammaIndex extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class AECOutdoorGammaIndex extends AbstractTag
 {
 
     protected $Id = 'aec_outdoor_gamma_index';

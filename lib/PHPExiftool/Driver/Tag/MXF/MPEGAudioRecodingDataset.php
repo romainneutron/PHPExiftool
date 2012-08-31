@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MXF;
 
-class MPEGAudioRecodingDataset extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class MPEGAudioRecodingDataset extends AbstractTag
 {
 
     protected $Id = '060e2b34.0101.0101.05400202.00000000';

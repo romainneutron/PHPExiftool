@@ -11,10 +11,12 @@
 
 namespace PHPExiftool\Driver\Tag\Sony;
 
-class FlashAction extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class FlashAction extends AbstractTag
 {
 
-    protected $Id = 135;
+    protected $Id = 'mixed';
 
     protected $Name = 'FlashAction';
 

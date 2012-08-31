@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPAux;
 
-class LensInfo extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class LensInfo extends AbstractTag
 {
 
     protected $Id = 'LensInfo';

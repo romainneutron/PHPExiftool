@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class GraphicLayerRecDisplayRGBValue extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class GraphicLayerRecDisplayRGBValue extends AbstractTag
 {
 
     protected $Id = '0070,0067';

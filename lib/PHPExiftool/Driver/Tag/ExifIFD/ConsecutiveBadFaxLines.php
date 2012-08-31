@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\ExifIFD;
 
-class ConsecutiveBadFaxLines extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ConsecutiveBadFaxLines extends AbstractTag
 {
 
     protected $Id = 328;

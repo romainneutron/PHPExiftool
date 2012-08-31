@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\ASF;
 
-class CanSkipForward extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class CanSkipForward extends AbstractTag
 {
 
     protected $Id = 'Can_Skip_Forward';

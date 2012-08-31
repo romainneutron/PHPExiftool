@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Stim;
 
-class ConvergenceBaseImage extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ConvergenceBaseImage extends AbstractTag
 {
 
     protected $Id = 11;

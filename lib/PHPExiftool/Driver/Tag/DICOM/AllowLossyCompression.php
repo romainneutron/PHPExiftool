@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class AllowLossyCompression extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class AllowLossyCompression extends AbstractTag
 {
 
     protected $Id = '2200,000F';

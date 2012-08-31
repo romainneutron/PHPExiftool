@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class GenesisVersionNow extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class GenesisVersionNow extends AbstractTag
 {
 
     protected $Id = 'mixed';

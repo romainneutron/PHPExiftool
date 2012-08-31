@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPLr;
 
-class PrivateRTKInfo extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class PrivateRTKInfo extends AbstractTag
 {
 
     protected $Id = 'privateRTKInfo';

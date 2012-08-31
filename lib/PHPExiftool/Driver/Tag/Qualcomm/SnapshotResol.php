@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Qualcomm;
 
-class SnapshotResol extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class SnapshotResol extends AbstractTag
 {
 
     protected $Id = 'snapshot_resol';

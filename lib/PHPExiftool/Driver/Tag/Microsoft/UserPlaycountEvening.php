@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Microsoft;
 
-class UserPlaycountEvening extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class UserPlaycountEvening extends AbstractTag
 {
 
     protected $Id = 'UserPlaycountEvening';

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class EstimatedDoseSaving extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class EstimatedDoseSaving extends AbstractTag
 {
 
     protected $Id = '0018,9324';

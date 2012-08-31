@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\ASF;
 
-class AspectRatioY extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class AspectRatioY extends AbstractTag
 {
 
     protected $Id = 'AspectRatioY';

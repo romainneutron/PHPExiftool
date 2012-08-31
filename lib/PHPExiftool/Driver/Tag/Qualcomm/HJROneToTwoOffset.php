@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Qualcomm;
 
-class HJROneToTwoOffset extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class HJROneToTwoOffset extends AbstractTag
 {
 
     protected $Id = 'HJR_one_to_two_offset';

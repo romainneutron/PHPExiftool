@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class PurposeOfReferenceCodeSequence extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class PurposeOfReferenceCodeSequence extends AbstractTag
 {
 
     protected $Id = '0040,A170';

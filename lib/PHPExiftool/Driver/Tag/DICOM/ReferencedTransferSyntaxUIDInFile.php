@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class ReferencedTransferSyntaxUIDInFile extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ReferencedTransferSyntaxUIDInFile extends AbstractTag
 {
 
     protected $Id = '0004,1512';

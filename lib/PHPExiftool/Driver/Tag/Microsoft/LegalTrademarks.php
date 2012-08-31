@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Microsoft;
 
-class LegalTrademarks extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class LegalTrademarks extends AbstractTag
 {
 
     protected $Id = '{0CEF7D53-FA64-11D1-A203-0000F81FEDEE} 9';

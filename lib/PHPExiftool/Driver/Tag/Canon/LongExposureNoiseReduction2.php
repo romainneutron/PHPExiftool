@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Canon;
 
-class LongExposureNoiseReduction2 extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class LongExposureNoiseReduction2 extends AbstractTag
 {
 
     protected $Id = 8;

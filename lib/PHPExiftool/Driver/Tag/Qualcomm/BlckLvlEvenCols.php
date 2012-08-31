@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Qualcomm;
 
-class BlckLvlEvenCols extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class BlckLvlEvenCols extends AbstractTag
 {
 
     protected $Id = 'blck_lvl_even_cols';

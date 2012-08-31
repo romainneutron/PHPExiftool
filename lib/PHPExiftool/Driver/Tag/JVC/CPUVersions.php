@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\JVC;
 
-class CPUVersions extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class CPUVersions extends AbstractTag
 {
 
     protected $Id = 2;

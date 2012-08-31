@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class CalciumScoringMassFactorDevice extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class CalciumScoringMassFactorDevice extends AbstractTag
 {
 
     protected $Id = '0018,9352';

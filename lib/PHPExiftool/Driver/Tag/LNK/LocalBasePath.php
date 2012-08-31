@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\LNK;
 
-class LocalBasePath extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class LocalBasePath extends AbstractTag
 {
 
     protected $Id = 'LocalBasePath';

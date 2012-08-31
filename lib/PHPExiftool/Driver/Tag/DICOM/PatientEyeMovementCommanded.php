@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class PatientEyeMovementCommanded extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class PatientEyeMovementCommanded extends AbstractTag
 {
 
     protected $Id = '0022,0005';

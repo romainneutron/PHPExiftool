@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MXF;
 
-class LinkedTimecodeTrackID extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class LinkedTimecodeTrackID extends AbstractTag
 {
 
     protected $Id = '060e2b34.0101.010c.04020501.07000000';

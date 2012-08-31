@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class SynchronizedScrollingSequence extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class SynchronizedScrollingSequence extends AbstractTag
 {
 
     protected $Id = '0072,0210';

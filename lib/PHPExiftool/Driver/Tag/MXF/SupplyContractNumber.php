@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MXF;
 
-class SupplyContractNumber extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class SupplyContractNumber extends AbstractTag
 {
 
     protected $Id = '060e2b34.0101.0101.02010200.00000000';

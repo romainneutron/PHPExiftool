@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\RealPROP;
 
-class AvgPacketSize extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class AvgPacketSize extends AbstractTag
 {
 
     protected $Id = 3;

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPIptcExt;
 
-class RegistryItemID extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class RegistryItemID extends AbstractTag
 {
 
     protected $Id = 'RegistryIdRegItemId';
@@ -33,5 +35,7 @@ class RegistryItemID extends \PHPExiftool\Driver\Tag
     protected $Writable = true;
 
     protected $Description = 'Registry Item ID';
+
+    protected $flag_List = true;
 
 }

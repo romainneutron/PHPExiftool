@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\HTMLDc;
 
-class Format extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class Format extends AbstractTag
 {
 
     protected $Id = 'format';

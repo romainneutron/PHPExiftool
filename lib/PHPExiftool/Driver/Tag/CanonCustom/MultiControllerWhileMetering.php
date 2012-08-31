@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\CanonCustom;
 
-class MultiControllerWhileMetering extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class MultiControllerWhileMetering extends AbstractTag
 {
 
     protected $Id = 1303;

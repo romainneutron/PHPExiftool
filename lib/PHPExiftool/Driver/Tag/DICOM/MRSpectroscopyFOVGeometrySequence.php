@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class MRSpectroscopyFOVGeometrySequence extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class MRSpectroscopyFOVGeometrySequence extends AbstractTag
 {
 
     protected $Id = '0018,9103';

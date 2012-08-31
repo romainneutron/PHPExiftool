@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPCrs;
 
-class PerspectiveHorizontal extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class PerspectiveHorizontal extends AbstractTag
 {
 
     protected $Id = 'PerspectiveHorizontal';

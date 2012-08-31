@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Microsoft;
 
-class ContactNames extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ContactNames extends AbstractTag
 {
 
     protected $Id = '{DEA7C82C-1D89-4A66-9427-A4E3DEBABCB1} 100';

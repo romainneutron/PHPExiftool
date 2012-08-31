@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Qualcomm;
 
-class AFResetLensAfterSnap extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class AFResetLensAfterSnap extends AbstractTag
 {
 
     protected $Id = 'af_reset_lens_after_snap';

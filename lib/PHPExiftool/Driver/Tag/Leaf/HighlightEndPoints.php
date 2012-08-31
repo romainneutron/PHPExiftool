@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Leaf;
 
-class HighlightEndPoints extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class HighlightEndPoints extends AbstractTag
 {
 
     protected $Id = 'NeutObj_highlight_end_points';

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPMwgRs;
 
-class RegionBarCodeValue extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class RegionBarCodeValue extends AbstractTag
 {
 
     protected $Id = 'RegionsRegionListBarCodeValue';
@@ -33,5 +35,7 @@ class RegionBarCodeValue extends \PHPExiftool\Driver\Tag
     protected $Writable = true;
 
     protected $Description = 'Region Bar Code Value';
+
+    protected $flag_List = true;
 
 }

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\ID3v24;
 
-class InternetRadioStationName extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class InternetRadioStationName extends AbstractTag
 {
 
     protected $Id = 'TRSN';

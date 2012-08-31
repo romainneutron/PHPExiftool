@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class VelocityEncodingMaximumValue extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class VelocityEncodingMaximumValue extends AbstractTag
 {
 
     protected $Id = '0018,9217';

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPDc;
 
-class Contributor extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class Contributor extends AbstractTag
 {
 
     protected $Id = 'contributor';

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Type;
 
-class FontName
+use PHPExiftool\Driver\AbstractType;
+
+class FontName extends AbstractType
 {
 
     protected $ExiftoolName = 'FontName';

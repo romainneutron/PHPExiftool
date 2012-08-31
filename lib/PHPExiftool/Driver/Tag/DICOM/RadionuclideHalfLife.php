@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class RadionuclideHalfLife extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class RadionuclideHalfLife extends AbstractTag
 {
 
     protected $Id = '0018,1075';

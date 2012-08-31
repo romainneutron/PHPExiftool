@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\IFD0;
 
-class ProfileHueSatMapData1 extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ProfileHueSatMapData1 extends AbstractTag
 {
 
     protected $Id = 50938;

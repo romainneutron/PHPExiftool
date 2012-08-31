@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Microsoft;
 
-class SpaceUsed extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class SpaceUsed extends AbstractTag
 {
 
     protected $Id = '{9B174B35-40FF-11D2-A27E-00C04FC30871} 5';

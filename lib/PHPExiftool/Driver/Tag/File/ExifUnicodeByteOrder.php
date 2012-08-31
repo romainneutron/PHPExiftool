@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\File;
 
-class ExifUnicodeByteOrder extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ExifUnicodeByteOrder extends AbstractTag
 {
 
     protected $Id = 'ExifUnicodeByteOrder';

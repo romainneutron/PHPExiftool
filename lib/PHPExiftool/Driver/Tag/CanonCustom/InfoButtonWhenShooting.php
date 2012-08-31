@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\CanonCustom;
 
-class InfoButtonWhenShooting extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class InfoButtonWhenShooting extends AbstractTag
 {
 
     protected $Id = 1033;

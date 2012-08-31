@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MXF;
 
-class XTsiz extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class XTsiz extends AbstractTag
 {
 
     protected $Id = '060e2b34.0101.010a.04010603.06000000';

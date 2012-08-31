@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class PrimarySpeedCorrectionUsed extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class PrimarySpeedCorrectionUsed extends AbstractTag
 {
 
     protected $Id = '0019,10DC';

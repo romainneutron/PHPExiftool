@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\ASF;
 
-class HasAttachedImages extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class HasAttachedImages extends AbstractTag
 {
 
     protected $Id = 'HasAttachedImages';

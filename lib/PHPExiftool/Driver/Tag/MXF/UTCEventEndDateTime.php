@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MXF;
 
-class UTCEventEndDateTime extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class UTCEventEndDateTime extends AbstractTag
 {
 
     protected $Id = 'mixed';

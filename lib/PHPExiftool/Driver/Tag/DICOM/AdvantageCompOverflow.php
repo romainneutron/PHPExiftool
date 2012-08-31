@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class AdvantageCompOverflow extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class AdvantageCompOverflow extends AbstractTag
 {
 
     protected $Id = '0029,1034';

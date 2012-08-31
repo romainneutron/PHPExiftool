@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\CanonCustom;
 
-class PF16AutoFocusPointShoot extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class PF16AutoFocusPointShoot extends AbstractTag
 {
 
     protected $Id = 17;

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Type;
 
-class ShortLine
+use PHPExiftool\Driver\AbstractType;
+
+class ShortLine extends AbstractType
 {
 
     protected $ExiftoolName = 'ShortLine';

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\KyoceraRaw;
 
-class Lens extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class Lens extends AbstractTag
 {
 
     protected $Id = 124;

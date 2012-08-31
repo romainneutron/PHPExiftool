@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MXF;
 
-class OpticalDiscNumber extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class OpticalDiscNumber extends AbstractTag
 {
 
     protected $Id = '060e2b34.0101.0103.01030203.02010000';

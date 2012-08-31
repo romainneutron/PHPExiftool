@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MXF;
 
-class ShotStartPosition extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ShotStartPosition extends AbstractTag
 {
 
     protected $Id = '060e2b34.0101.0105.07020103.01090000';

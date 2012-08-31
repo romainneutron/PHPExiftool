@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MXF;
 
-class CompositionRendering extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class CompositionRendering extends AbstractTag
 {
 
     protected $Id = '060e2b34.0101.0108.06010104.010a0000';

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPDigiKam;
 
-class TagsList extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class TagsList extends AbstractTag
 {
 
     protected $Id = 'TagsList';

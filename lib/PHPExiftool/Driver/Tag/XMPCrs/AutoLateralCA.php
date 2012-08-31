@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPCrs;
 
-class AutoLateralCA extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class AutoLateralCA extends AbstractTag
 {
 
     protected $Id = 'AutoLateralCA';

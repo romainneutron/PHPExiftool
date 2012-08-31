@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPMwgRs;
 
-class RegionAppliedToDimensionsH extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class RegionAppliedToDimensionsH extends AbstractTag
 {
 
     protected $Id = 'RegionsAppliedToDimensionsH';
@@ -28,7 +30,7 @@ class RegionAppliedToDimensionsH extends \PHPExiftool\Driver\Tag
 
     protected $g2 = 'Image';
 
-    protected $Type = 'string';
+    protected $Type = 'real';
 
     protected $Writable = true;
 

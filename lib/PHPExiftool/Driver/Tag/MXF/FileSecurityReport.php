@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MXF;
 
-class FileSecurityReport extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class FileSecurityReport extends AbstractTag
 {
 
     protected $Id = '060e2b34.0101.0105.04020302.05000000';

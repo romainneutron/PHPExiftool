@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Qualcomm;
 
-class AFVfeHorzOffset extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class AFVfeHorzOffset extends AbstractTag
 {
 
     protected $Id = 'af_vfe_horz_offset';

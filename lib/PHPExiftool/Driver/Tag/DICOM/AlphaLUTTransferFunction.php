@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class AlphaLUTTransferFunction extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class AlphaLUTTransferFunction extends AbstractTag
 {
 
     protected $Id = '0028,1410';

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPIptcExt;
 
-class ArtworkCreator extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ArtworkCreator extends AbstractTag
 {
 
     protected $Id = 'ArtworkOrObjectAOCreator';
@@ -33,5 +35,9 @@ class ArtworkCreator extends \PHPExiftool\Driver\Tag
     protected $Writable = true;
 
     protected $Description = 'Artwork Creator';
+
+    protected $flag_List = true;
+
+    protected $flag_Seq = true;
 
 }

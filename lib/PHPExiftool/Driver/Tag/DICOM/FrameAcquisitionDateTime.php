@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class FrameAcquisitionDateTime extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class FrameAcquisitionDateTime extends AbstractTag
 {
 
     protected $Id = '0018,9074';

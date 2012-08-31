@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class CardiacPhases extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class CardiacPhases extends AbstractTag
 {
 
     protected $Id = '0019,10D7';

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\NikonCapture;
 
-class WBAdjLightingSubtype extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class WBAdjLightingSubtype extends AbstractTag
 {
 
     protected $Id = 20;

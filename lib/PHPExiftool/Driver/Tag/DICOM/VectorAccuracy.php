@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class VectorAccuracy extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class VectorAccuracy extends AbstractTag
 {
 
     protected $Id = '0066,0020';

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\CanonCustom;
 
-class PF31OriginalDecisionData extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class PF31OriginalDecisionData extends AbstractTag
 {
 
     protected $Id = 32;

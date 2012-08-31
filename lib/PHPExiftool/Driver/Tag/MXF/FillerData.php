@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MXF;
 
-class FillerData extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class FillerData extends AbstractTag
 {
 
     protected $Id = '060e2b34.0101.0102.03010210.01000000';

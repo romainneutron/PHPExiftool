@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Stim;
 
-class AssumedDisplaySize extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class AssumedDisplaySize extends AbstractTag
 {
 
     protected $Id = 12;

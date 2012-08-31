@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class ValueOfBackProjectionButton extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ValueOfBackProjectionButton extends AbstractTag
 {
 
     protected $Id = '0019,1070';

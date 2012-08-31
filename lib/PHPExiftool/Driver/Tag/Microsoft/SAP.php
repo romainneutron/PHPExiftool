@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Microsoft;
 
-class SAP extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class SAP extends AbstractTag
 {
 
     protected $Id = '{6D748DE2-8D38-4CC3-AC60-F009B057C557} 14';

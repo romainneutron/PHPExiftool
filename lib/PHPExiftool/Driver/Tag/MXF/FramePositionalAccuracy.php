@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MXF;
 
-class FramePositionalAccuracy extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class FramePositionalAccuracy extends AbstractTag
 {
 
     protected $Id = '060e2b34.0101.0101.07010201.03010000';

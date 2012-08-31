@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class DepthSpatialResolution extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class DepthSpatialResolution extends AbstractTag
 {
 
     protected $Id = '0022,0035';

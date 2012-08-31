@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class ConcatenationFrameOffsetNumber extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ConcatenationFrameOffsetNumber extends AbstractTag
 {
 
     protected $Id = '0020,9228';

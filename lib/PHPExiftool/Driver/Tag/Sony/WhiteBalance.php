@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Sony;
 
-class WhiteBalance extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class WhiteBalance extends AbstractTag
 {
 
     protected $Id = 'mixed';
@@ -91,32 +93,74 @@ class WhiteBalance extends \PHPExiftool\Driver\Tag
         ),
         13 => array(
             'Id' => 7,
-            'Label' => 'White Flourescent',
+            'Label' => 'Cool White Fluorescent',
         ),
         14 => array(
             'Id' => 8,
-            'Label' => 'Cool White Flourescent',
+            'Label' => 'Day White Fluorescent',
         ),
         15 => array(
             'Id' => 9,
-            'Label' => 'Day White Flourescent',
+            'Label' => 'Daylight Fluorescent',
         ),
         16 => array(
+            'Id' => 11,
+            'Label' => 'Warm White Fluorescent',
+        ),
+        17 => array(
             'Id' => 14,
             'Label' => 'Incandescent',
         ),
-        17 => array(
+        18 => array(
             'Id' => 15,
             'Label' => 'Flash',
         ),
-        18 => array(
+        19 => array(
+            'Id' => 0,
+            'Label' => 'Auto',
+        ),
+        20 => array(
+            'Id' => 4,
+            'Label' => 'Manual',
+        ),
+        21 => array(
+            'Id' => 5,
+            'Label' => 'Daylight',
+        ),
+        22 => array(
+            'Id' => 6,
+            'Label' => 'Cloudy',
+        ),
+        23 => array(
+            'Id' => 7,
+            'Label' => 'White Fluorescent',
+        ),
+        24 => array(
+            'Id' => 8,
+            'Label' => 'Cool White Fluorescent',
+        ),
+        25 => array(
+            'Id' => 9,
+            'Label' => 'Day White Fluorescent',
+        ),
+        26 => array(
+            'Id' => 14,
+            'Label' => 'Incandescent',
+        ),
+        27 => array(
+            'Id' => 15,
+            'Label' => 'Flash',
+        ),
+        28 => array(
             'Id' => 17,
             'Label' => 'Underwater 1 (Blue Water)',
         ),
-        19 => array(
+        29 => array(
             'Id' => 18,
             'Label' => 'Underwater 2 (Green Water)',
         ),
     );
+
+    protected $Index = 'mixed';
 
 }

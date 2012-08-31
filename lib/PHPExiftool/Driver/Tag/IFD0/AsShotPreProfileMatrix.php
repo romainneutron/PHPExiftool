@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\IFD0;
 
-class AsShotPreProfileMatrix extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class AsShotPreProfileMatrix extends AbstractTag
 {
 
     protected $Id = 50832;

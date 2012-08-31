@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class SpectrallySelectedExcitation extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class SpectrallySelectedExcitation extends AbstractTag
 {
 
     protected $Id = '0018,9026';

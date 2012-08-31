@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\RIFF;
 
-class MoreInfoURL extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class MoreInfoURL extends AbstractTag
 {
 
     protected $Id = 'IMIU';

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\FlashPix;
 
-class PropertySetIDCodes extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class PropertySetIDCodes extends AbstractTag
 {
 
     protected $Id = 12289;

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DjVu;
 
-class DjVuVersion extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class DjVuVersion extends AbstractTag
 {
 
     protected $Id = 4;

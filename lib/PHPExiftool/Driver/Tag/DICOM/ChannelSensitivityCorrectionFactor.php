@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class ChannelSensitivityCorrectionFactor extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ChannelSensitivityCorrectionFactor extends AbstractTag
 {
 
     protected $Id = '003A,0212';

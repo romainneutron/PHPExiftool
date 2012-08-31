@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MNG;
 
-class ResourcesNeeded extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ResourcesNeeded extends AbstractTag
 {
 
     protected $Id = 'nEED';

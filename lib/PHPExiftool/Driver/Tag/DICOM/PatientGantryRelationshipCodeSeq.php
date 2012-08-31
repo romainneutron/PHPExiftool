@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class PatientGantryRelationshipCodeSeq extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class PatientGantryRelationshipCodeSeq extends AbstractTag
 {
 
     protected $Id = '0054,0414';

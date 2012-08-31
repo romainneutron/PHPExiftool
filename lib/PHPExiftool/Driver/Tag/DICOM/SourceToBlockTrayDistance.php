@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class SourceToBlockTrayDistance extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class SourceToBlockTrayDistance extends AbstractTag
 {
 
     protected $Id = '300A,00F6';

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MXF;
 
-class KLVDataType extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class KLVDataType extends AbstractTag
 {
 
     protected $Id = '060e2b34.0101.0107.06010104.01090000';

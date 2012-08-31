@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MXF;
 
-class PeakChannelCount extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class PeakChannelCount extends AbstractTag
 {
 
     protected $Id = '060e2b34.0101.0108.04020301.0a000000';

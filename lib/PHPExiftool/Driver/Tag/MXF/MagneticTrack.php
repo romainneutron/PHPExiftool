@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MXF;
 
-class MagneticTrack extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class MagneticTrack extends AbstractTag
 {
 
     protected $Id = '060e2b34.0101.0101.04020802.00000000';

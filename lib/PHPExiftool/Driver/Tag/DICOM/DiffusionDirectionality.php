@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class DiffusionDirectionality extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class DiffusionDirectionality extends AbstractTag
 {
 
     protected $Id = '0018,9075';

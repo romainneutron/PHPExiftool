@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\ASF;
 
-class ASFPacketCount extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ASFPacketCount extends AbstractTag
 {
 
     protected $Id = 'ASFPacketCount';

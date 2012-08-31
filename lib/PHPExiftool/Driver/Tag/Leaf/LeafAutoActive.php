@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Leaf;
 
-class LeafAutoActive extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class LeafAutoActive extends AbstractTag
 {
 
     protected $Id = 'SaveObj_leaf_auto_active';

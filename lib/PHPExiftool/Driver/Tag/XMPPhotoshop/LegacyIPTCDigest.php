@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPPhotoshop;
 
-class LegacyIPTCDigest extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class LegacyIPTCDigest extends AbstractTag
 {
 
     protected $Id = 'LegacyIPTCDigest';

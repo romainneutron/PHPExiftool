@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class VirtualSourceAxisDistances extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class VirtualSourceAxisDistances extends AbstractTag
 {
 
     protected $Id = '300A,030A';

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class TotalBlockTrayFactor extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class TotalBlockTrayFactor extends AbstractTag
 {
 
     protected $Id = '300A,00F2';

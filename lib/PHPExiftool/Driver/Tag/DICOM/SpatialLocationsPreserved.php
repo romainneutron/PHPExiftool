@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class SpatialLocationsPreserved extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class SpatialLocationsPreserved extends AbstractTag
 {
 
     protected $Id = '0028,135A';

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\ITC;
 
-class LibraryID extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class LibraryID extends AbstractTag
 {
 
     protected $Id = 0;

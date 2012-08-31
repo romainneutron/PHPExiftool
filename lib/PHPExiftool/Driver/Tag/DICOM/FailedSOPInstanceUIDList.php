@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class FailedSOPInstanceUIDList extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class FailedSOPInstanceUIDList extends AbstractTag
 {
 
     protected $Id = '0008,0058';

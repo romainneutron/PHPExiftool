@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class PatientInsurancePlanCodeSequence extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class PatientInsurancePlanCodeSequence extends AbstractTag
 {
 
     protected $Id = '0010,0050';

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class PrinterCharacteristicsSequence extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class PrinterCharacteristicsSequence extends AbstractTag
 {
 
     protected $Id = '2130,0015';

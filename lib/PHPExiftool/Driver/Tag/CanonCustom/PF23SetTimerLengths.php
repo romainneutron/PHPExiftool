@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\CanonCustom;
 
-class PF23SetTimerLengths extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class PF23SetTimerLengths extends AbstractTag
 {
 
     protected $Id = 24;

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class GrayLookupTableDescriptor extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class GrayLookupTableDescriptor extends AbstractTag
 {
 
     protected $Id = '0028,1100';

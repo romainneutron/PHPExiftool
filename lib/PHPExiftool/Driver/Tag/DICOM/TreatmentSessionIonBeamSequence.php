@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class TreatmentSessionIonBeamSequence extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class TreatmentSessionIonBeamSequence extends AbstractTag
 {
 
     protected $Id = '3008,0021';

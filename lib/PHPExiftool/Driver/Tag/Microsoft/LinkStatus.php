@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Microsoft;
 
-class LinkStatus extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class LinkStatus extends AbstractTag
 {
 
     protected $Id = '{B9B4B3FC-2B51-4A42-B5D8-324146AFCF25} 3';

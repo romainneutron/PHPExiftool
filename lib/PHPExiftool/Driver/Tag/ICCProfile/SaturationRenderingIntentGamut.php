@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\ICCProfile;
 
-class SaturationRenderingIntentGamut extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class SaturationRenderingIntentGamut extends AbstractTag
 {
 
     protected $Id = 'rig2';

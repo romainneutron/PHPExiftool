@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Nikon;
 
-class EffectiveMaxAperture extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class EffectiveMaxAperture extends AbstractTag
 {
 
     protected $Id = 'mixed';

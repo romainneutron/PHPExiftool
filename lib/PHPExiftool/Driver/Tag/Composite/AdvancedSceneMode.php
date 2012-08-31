@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Composite;
 
-class AdvancedSceneMode extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class AdvancedSceneMode extends AbstractTag
 {
 
     protected $Id = 'AdvancedSceneMode';

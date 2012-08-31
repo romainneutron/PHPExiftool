@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class SmallestValidPixelValue extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class SmallestValidPixelValue extends AbstractTag
 {
 
     protected $Id = '0028,0104';

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class BrachyReferencedDoseReferenceSeq extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class BrachyReferencedDoseReferenceSeq extends AbstractTag
 {
 
     protected $Id = '300C,0055';

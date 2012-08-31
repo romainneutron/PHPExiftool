@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class SourceToReferenceObjectDistance extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class SourceToReferenceObjectDistance extends AbstractTag
 {
 
     protected $Id = '3002,0028';

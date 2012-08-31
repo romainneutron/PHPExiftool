@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPXmp;
 
-class ThumbnailWidth extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ThumbnailWidth extends AbstractTag
 {
 
     protected $Id = 'ThumbnailsWidth';
@@ -28,10 +30,12 @@ class ThumbnailWidth extends \PHPExiftool\Driver\Tag
 
     protected $g2 = 'Image';
 
-    protected $Type = 'string';
+    protected $Type = 'integer';
 
     protected $Writable = true;
 
     protected $Description = 'Thumbnail Width';
+
+    protected $flag_List = true;
 
 }

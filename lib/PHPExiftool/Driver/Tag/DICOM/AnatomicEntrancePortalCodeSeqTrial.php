@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class AnatomicEntrancePortalCodeSeqTrial extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class AnatomicEntrancePortalCodeSeqTrial extends AbstractTag
 {
 
     protected $Id = '0008,2253';

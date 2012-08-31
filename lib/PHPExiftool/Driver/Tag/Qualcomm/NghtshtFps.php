@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Qualcomm;
 
-class NghtshtFps extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class NghtshtFps extends AbstractTag
 {
 
     protected $Id = 'nghtsht_fps';

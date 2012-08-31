@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MXF;
 
-class PostboxNumber extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class PostboxNumber extends AbstractTag
 {
 
     protected $Id = '060e2b34.0101.0101.0d0b0b01.00000000';

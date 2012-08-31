@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class BrachyAccessoryDeviceType extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class BrachyAccessoryDeviceType extends AbstractTag
 {
 
     protected $Id = '300A,0264';

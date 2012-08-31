@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPLr;
 
-class HierarchicalSubject extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class HierarchicalSubject extends AbstractTag
 {
 
     protected $Id = 'hierarchicalSubject';

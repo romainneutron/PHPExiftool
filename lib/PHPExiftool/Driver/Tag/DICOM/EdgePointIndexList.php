@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class EdgePointIndexList extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class EdgePointIndexList extends AbstractTag
 {
 
     protected $Id = '0066,0024';

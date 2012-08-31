@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class MostRecentTreatmentDate extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class MostRecentTreatmentDate extends AbstractTag
 {
 
     protected $Id = '3008,0056';

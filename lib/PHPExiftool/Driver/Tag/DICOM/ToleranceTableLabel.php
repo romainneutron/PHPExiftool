@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class ToleranceTableLabel extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ToleranceTableLabel extends AbstractTag
 {
 
     protected $Id = '300A,0043';

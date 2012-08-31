@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Olympus;
 
-class CMWhiteBalanceComp extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class CMWhiteBalanceComp extends AbstractTag
 {
 
     protected $Id = 8194;

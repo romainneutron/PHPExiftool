@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class TimeOfFlightContrast extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class TimeOfFlightContrast extends AbstractTag
 {
 
     protected $Id = '0018,9015';

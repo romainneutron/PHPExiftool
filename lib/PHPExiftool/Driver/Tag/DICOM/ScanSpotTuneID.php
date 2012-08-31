@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class ScanSpotTuneID extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ScanSpotTuneID extends AbstractTag
 {
 
     protected $Id = '300A,0390';

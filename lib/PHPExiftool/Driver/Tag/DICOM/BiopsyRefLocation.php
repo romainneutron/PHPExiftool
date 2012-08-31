@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class BiopsyRefLocation extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class BiopsyRefLocation extends AbstractTag
 {
 
     protected $Id = '0021,1093';

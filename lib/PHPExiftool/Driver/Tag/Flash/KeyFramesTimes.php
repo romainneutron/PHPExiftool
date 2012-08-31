@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Flash;
 
-class KeyFramesTimes extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class KeyFramesTimes extends AbstractTag
 {
 
     protected $Id = 'keyframesTimes';

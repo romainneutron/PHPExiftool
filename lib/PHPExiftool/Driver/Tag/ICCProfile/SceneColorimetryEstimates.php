@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\ICCProfile;
 
-class SceneColorimetryEstimates extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class SceneColorimetryEstimates extends AbstractTag
 {
 
     protected $Id = 'scoe';

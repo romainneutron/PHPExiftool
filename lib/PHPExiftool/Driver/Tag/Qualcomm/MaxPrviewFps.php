@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Qualcomm;
 
-class MaxPrviewFps extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class MaxPrviewFps extends AbstractTag
 {
 
     protected $Id = 'max_prview_fps';

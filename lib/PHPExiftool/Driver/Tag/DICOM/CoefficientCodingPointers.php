@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class CoefficientCodingPointers extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class CoefficientCodingPointers extends AbstractTag
 {
 
     protected $Id = '0028,04x3';

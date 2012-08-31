@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class SafePositionReturnDate extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class SafePositionReturnDate extends AbstractTag
 {
 
     protected $Id = '3008,0166';

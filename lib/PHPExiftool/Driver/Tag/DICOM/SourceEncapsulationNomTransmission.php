@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class SourceEncapsulationNomTransmission extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class SourceEncapsulationNomTransmission extends AbstractTag
 {
 
     protected $Id = '300A,0224';

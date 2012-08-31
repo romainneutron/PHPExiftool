@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Type;
 
-class CompressedQuickTime
+use PHPExiftool\Driver\AbstractType;
+
+class CompressedQuickTime extends AbstractType
 {
 
     protected $ExiftoolName = 'CompressedQuickTime';

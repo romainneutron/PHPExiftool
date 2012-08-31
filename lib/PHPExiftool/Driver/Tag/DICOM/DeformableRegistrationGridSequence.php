@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class DeformableRegistrationGridSequence extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class DeformableRegistrationGridSequence extends AbstractTag
 {
 
     protected $Id = '0064,0005';

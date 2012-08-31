@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class CalibratedFieldStrength extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class CalibratedFieldStrength extends AbstractTag
 {
 
     protected $Id = '0019,10A3';

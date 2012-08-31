@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPPlus;
 
-class LicensorID extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class LicensorID extends AbstractTag
 {
 
     protected $Id = 'LicensorLicensorID';
@@ -33,5 +35,7 @@ class LicensorID extends \PHPExiftool\Driver\Tag
     protected $Writable = true;
 
     protected $Description = 'Licensor ID';
+
+    protected $flag_List = true;
 
 }

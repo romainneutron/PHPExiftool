@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MXF;
 
-class IsVoiceover extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class IsVoiceover extends AbstractTag
 {
 
     protected $Id = '060e2b34.0101.0101.0d0b0105.00000000';

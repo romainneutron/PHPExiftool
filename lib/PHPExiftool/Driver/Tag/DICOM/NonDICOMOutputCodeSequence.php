@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class NonDICOMOutputCodeSequence extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class NonDICOMOutputCodeSequence extends AbstractTag
 {
 
     protected $Id = '0040,4032';

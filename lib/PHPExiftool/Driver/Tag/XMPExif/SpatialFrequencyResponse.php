@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPExif;
 
-class SpatialFrequencyResponse extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class SpatialFrequencyResponse extends AbstractTag
 {
 
     protected $Id = 'SpatialFrequencyResponse';
@@ -28,7 +30,7 @@ class SpatialFrequencyResponse extends \PHPExiftool\Driver\Tag
 
     protected $g2 = 'Image';
 
-    protected $Type = 'string';
+    protected $Type = 'struct';
 
     protected $Writable = true;
 

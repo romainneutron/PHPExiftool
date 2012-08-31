@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPTiff;
 
-class YCbCrSubSampling extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class YCbCrSubSampling extends AbstractTag
 {
 
     protected $Id = 'YCbCrSubSampling';

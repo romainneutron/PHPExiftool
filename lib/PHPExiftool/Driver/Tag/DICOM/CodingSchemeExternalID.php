@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class CodingSchemeExternalID extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class CodingSchemeExternalID extends AbstractTag
 {
 
     protected $Id = '0008,0114';

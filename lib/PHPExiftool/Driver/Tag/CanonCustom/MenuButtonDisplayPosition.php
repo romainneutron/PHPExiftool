@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\CanonCustom;
 
-class MenuButtonDisplayPosition extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class MenuButtonDisplayPosition extends AbstractTag
 {
 
     protected $Id = 'mixed';

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class DetectorExposuresSinceManufactured extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class DetectorExposuresSinceManufactured extends AbstractTag
 {
 
     protected $Id = '0018,7011';

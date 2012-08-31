@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\PDF;
 
-class AppleKeywords extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class AppleKeywords extends AbstractTag
 {
 
     protected $Id = 'AAPL:Keywords';

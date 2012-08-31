@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Theora;
 
-class XOffset extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class XOffset extends AbstractTag
 {
 
     protected $Id = 13;

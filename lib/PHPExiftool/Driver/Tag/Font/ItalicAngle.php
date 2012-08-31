@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Font;
 
-class ItalicAngle extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ItalicAngle extends AbstractTag
 {
 
     protected $Id = 'ItalicAngle';

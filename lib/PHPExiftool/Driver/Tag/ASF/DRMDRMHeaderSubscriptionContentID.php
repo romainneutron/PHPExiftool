@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\ASF;
 
-class DRMDRMHeaderSubscriptionContentID extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class DRMDRMHeaderSubscriptionContentID extends AbstractTag
 {
 
     protected $Id = 'DRM_DRMHeader_SubscriptionContentID';

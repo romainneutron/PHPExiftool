@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class BreastImplantPresent extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class BreastImplantPresent extends AbstractTag
 {
 
     protected $Id = '0028,1300';

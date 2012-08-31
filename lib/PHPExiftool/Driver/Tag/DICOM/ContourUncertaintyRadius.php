@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class ContourUncertaintyRadius extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ContourUncertaintyRadius extends AbstractTag
 {
 
     protected $Id = '0070,0312';

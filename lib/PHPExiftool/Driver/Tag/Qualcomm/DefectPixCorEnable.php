@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Qualcomm;
 
-class DefectPixCorEnable extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class DefectPixCorEnable extends AbstractTag
 {
 
     protected $Id = 'defect_pix_cor_enable';

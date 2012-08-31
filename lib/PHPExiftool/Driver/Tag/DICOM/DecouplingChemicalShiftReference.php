@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class DecouplingChemicalShiftReference extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class DecouplingChemicalShiftReference extends AbstractTag
 {
 
     protected $Id = '0018,9063';

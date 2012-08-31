@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class DataCollectionDiameter extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class DataCollectionDiameter extends AbstractTag
 {
 
     protected $Id = '0018,0090';

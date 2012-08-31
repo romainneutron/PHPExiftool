@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPCrs;
 
-class SplitToningShadowSaturation extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class SplitToningShadowSaturation extends AbstractTag
 {
 
     protected $Id = 'SplitToningShadowSaturation';

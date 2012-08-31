@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\ASF;
 
-class MediaIndex extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class MediaIndex extends AbstractTag
 {
 
     protected $Id = 'FEB103F8-12AD-4C64-840F-2A1D2F7AD48C';

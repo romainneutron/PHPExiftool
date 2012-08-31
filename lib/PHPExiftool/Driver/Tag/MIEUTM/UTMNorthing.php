@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MIEUTM;
 
-class UTMNorthing extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class UTMNorthing extends AbstractTag
 {
 
     protected $Id = 'Northing';

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Microsoft;
 
-class PixelAspectRatioY extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class PixelAspectRatioY extends AbstractTag
 {
 
     protected $Id = 'PixelAspectRatioY';

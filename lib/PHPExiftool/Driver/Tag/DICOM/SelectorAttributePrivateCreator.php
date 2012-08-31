@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class SelectorAttributePrivateCreator extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class SelectorAttributePrivateCreator extends AbstractTag
 {
 
     protected $Id = '0072,0056';

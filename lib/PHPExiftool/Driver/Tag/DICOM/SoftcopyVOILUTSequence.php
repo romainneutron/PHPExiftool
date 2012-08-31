@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class SoftcopyVOILUTSequence extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class SoftcopyVOILUTSequence extends AbstractTag
 {
 
     protected $Id = '0028,3110';

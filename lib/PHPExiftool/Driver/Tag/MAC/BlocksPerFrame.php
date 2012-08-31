@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MAC;
 
-class BlocksPerFrame extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class BlocksPerFrame extends AbstractTag
 {
 
     protected $Id = 2;

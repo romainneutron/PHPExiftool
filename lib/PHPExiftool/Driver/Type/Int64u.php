@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Type;
 
-class Int64u
+use PHPExiftool\Driver\AbstractType;
+
+class Int64u extends AbstractType
 {
 
     protected $ExiftoolName = 'int64u';

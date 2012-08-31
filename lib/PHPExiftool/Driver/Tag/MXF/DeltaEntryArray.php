@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MXF;
 
-class DeltaEntryArray extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class DeltaEntryArray extends AbstractTag
 {
 
     protected $Id = '060e2b34.0101.0105.04040401.06000000';

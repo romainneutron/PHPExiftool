@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\ICCProfile;
 
-class NativeDisplayInfo extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class NativeDisplayInfo extends AbstractTag
 {
 
     protected $Id = 'ndin';

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\RIFF;
 
-class VegasVersionMinor extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class VegasVersionMinor extends AbstractTag
 {
 
     protected $Id = 'VMIN';

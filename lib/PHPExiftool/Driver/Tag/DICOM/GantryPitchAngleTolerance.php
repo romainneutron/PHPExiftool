@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class GantryPitchAngleTolerance extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class GantryPitchAngleTolerance extends AbstractTag
 {
 
     protected $Id = '300A,014E';

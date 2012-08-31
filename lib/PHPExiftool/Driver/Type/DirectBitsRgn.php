@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Type;
 
-class DirectBitsRgn
+use PHPExiftool\Driver\AbstractType;
+
+class DirectBitsRgn extends AbstractType
 {
 
     protected $ExiftoolName = 'DirectBitsRgn';

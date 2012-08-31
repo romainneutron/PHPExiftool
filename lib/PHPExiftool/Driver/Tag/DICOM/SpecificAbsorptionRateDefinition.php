@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class SpecificAbsorptionRateDefinition extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class SpecificAbsorptionRateDefinition extends AbstractTag
 {
 
     protected $Id = '0018,9179';

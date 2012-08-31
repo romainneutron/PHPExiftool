@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\LNK;
 
-class CommonPathSuffix extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class CommonPathSuffix extends AbstractTag
 {
 
     protected $Id = 'CommonPathSuffix';

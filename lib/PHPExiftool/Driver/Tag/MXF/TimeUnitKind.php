@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MXF;
 
-class TimeUnitKind extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class TimeUnitKind extends AbstractTag
 {
 
     protected $Id = '060e2b34.0101.0101.03010303.02000000';

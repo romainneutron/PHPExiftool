@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class NumberOfBBHChainsToBlend extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class NumberOfBBHChainsToBlend extends AbstractTag
 {
 
     protected $Id = '0043,1019';

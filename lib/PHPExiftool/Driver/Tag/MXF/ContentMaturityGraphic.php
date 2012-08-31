@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MXF;
 
-class ContentMaturityGraphic extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ContentMaturityGraphic extends AbstractTag
 {
 
     protected $Id = '060e2b34.0101.0101.0d0b0705.00000000';

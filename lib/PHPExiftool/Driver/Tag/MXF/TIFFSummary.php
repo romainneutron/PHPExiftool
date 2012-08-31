@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MXF;
 
-class TIFFSummary extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class TIFFSummary extends AbstractTag
 {
 
     protected $Id = '060e2b34.0101.0102.03030302.03000000';

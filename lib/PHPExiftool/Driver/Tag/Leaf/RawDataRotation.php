@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Leaf;
 
-class RawDataRotation extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class RawDataRotation extends AbstractTag
 {
 
     protected $Id = 'CaptProf_raw_data_rotation';

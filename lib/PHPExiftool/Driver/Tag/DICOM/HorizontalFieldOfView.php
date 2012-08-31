@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class HorizontalFieldOfView extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class HorizontalFieldOfView extends AbstractTag
 {
 
     protected $Id = '0022,000C';

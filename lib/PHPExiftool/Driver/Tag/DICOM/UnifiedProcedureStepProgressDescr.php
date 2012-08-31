@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class UnifiedProcedureStepProgressDescr extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class UnifiedProcedureStepProgressDescr extends AbstractTag
 {
 
     protected $Id = '0074,1006';

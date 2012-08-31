@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\GIMP;
 
-class ICCProfileName extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ICCProfileName extends AbstractTag
 {
 
     protected $Id = 'icc-profile-name';

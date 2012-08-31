@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class CoordinateStepValue extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class CoordinateStepValue extends AbstractTag
 {
 
     protected $Id = '50xx,0114';

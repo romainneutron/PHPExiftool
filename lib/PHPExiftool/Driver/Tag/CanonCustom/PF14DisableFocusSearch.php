@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\CanonCustom;
 
-class PF14DisableFocusSearch extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class PF14DisableFocusSearch extends AbstractTag
 {
 
     protected $Id = 15;

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MXF;
 
-class ExposedAspectRatio extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ExposedAspectRatio extends AbstractTag
 {
 
     protected $Id = '060e2b34.0101.0102.04100103.02030000';

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\QuickTime;
 
-class AppleStoreCatalogID extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class AppleStoreCatalogID extends AbstractTag
 {
 
     protected $Id = 'cnID';

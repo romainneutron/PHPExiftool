@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MXF;
 
-class AlphaSampleDepth extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class AlphaSampleDepth extends AbstractTag
 {
 
     protected $Id = '060e2b34.0101.0102.04010503.07000000';

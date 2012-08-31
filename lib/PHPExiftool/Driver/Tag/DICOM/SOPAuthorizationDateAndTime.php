@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class SOPAuthorizationDateAndTime extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class SOPAuthorizationDateAndTime extends AbstractTag
 {
 
     protected $Id = '0100,0420';

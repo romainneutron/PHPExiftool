@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class EntranceDoseInMilliGy extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class EntranceDoseInMilliGy extends AbstractTag
 {
 
     protected $Id = '0040,8302';

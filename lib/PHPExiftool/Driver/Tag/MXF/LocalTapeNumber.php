@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MXF;
 
-class LocalTapeNumber extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class LocalTapeNumber extends AbstractTag
 {
 
     protected $Id = '060e2b34.0101.0101.01030202.01000000';

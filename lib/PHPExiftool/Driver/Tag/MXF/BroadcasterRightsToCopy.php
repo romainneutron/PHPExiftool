@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MXF;
 
-class BroadcasterRightsToCopy extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class BroadcasterRightsToCopy extends AbstractTag
 {
 
     protected $Id = '060e2b34.0101.0101.0d0b0902.00000000';

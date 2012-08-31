@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MXF;
 
-class CatalogPrefixNumber extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class CatalogPrefixNumber extends AbstractTag
 {
 
     protected $Id = '060e2b34.0101.0103.01100305.00000000';

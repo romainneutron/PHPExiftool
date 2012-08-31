@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPPrism;
 
-class IsCorrectionOf extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class IsCorrectionOf extends AbstractTag
 {
 
     protected $Id = 'isCorrectionOf';

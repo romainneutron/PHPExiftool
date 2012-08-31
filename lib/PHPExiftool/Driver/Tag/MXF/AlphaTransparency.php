@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MXF;
 
-class AlphaTransparency extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class AlphaTransparency extends AbstractTag
 {
 
     protected $Id = '060e2b34.0101.0102.05200102.00000000';

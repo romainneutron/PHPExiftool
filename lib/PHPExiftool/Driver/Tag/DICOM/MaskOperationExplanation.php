@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class MaskOperationExplanation extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class MaskOperationExplanation extends AbstractTag
 {
 
     protected $Id = '0028,6190';

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Microsoft;
 
-class Contributors extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class Contributors extends AbstractTag
 {
 
     protected $Id = '{F334115E-DA1B-4509-9B3D-119504DC7ABB} 100';

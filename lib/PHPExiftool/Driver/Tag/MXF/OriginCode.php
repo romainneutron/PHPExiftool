@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MXF;
 
-class OriginCode extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class OriginCode extends AbstractTag
 {
 
     protected $Id = '060e2b34.0101.0103.01100303.00000000';

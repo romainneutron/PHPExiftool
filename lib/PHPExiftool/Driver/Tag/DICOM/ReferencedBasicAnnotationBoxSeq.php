@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class ReferencedBasicAnnotationBoxSeq extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ReferencedBasicAnnotationBoxSeq extends AbstractTag
 {
 
     protected $Id = '2010,0520';

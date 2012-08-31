@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPPdf;
 
-class Trapped extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class Trapped extends AbstractTag
 {
 
     protected $Id = 'Trapped';

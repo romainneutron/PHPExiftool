@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MNG;
 
-class DropByKeyword extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class DropByKeyword extends AbstractTag
 {
 
     protected $Id = 'DBYK';

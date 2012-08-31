@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class SOPInstanceStatus extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class SOPInstanceStatus extends AbstractTag
 {
 
     protected $Id = '0100,0410';

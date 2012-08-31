@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class AddIntermediateSequence extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class AddIntermediateSequence extends AbstractTag
 {
 
     protected $Id = '0046,0101';

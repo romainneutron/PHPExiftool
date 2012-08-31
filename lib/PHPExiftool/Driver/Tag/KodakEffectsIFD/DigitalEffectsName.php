@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\KodakEffectsIFD;
 
-class DigitalEffectsName extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class DigitalEffectsName extends AbstractTag
 {
 
     protected $Id = 1;

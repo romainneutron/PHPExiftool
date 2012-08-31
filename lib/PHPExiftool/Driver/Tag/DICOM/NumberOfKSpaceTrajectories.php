@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class NumberOfKSpaceTrajectories extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class NumberOfKSpaceTrajectories extends AbstractTag
 {
 
     protected $Id = '0018,9093';

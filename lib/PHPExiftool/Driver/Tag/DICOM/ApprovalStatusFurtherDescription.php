@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class ApprovalStatusFurtherDescription extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ApprovalStatusFurtherDescription extends AbstractTag
 {
 
     protected $Id = '0044,0003';

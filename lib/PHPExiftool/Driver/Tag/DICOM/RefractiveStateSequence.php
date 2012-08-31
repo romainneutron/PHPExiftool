@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class RefractiveStateSequence extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class RefractiveStateSequence extends AbstractTag
 {
 
     protected $Id = '0022,001B';

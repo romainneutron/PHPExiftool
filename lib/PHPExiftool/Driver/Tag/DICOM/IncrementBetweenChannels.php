@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class IncrementBetweenChannels extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class IncrementBetweenChannels extends AbstractTag
 {
 
     protected $Id = '0019,105F';

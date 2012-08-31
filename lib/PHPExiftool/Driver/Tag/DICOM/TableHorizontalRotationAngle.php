@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class TableHorizontalRotationAngle extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class TableHorizontalRotationAngle extends AbstractTag
 {
 
     protected $Id = '0018,9469';

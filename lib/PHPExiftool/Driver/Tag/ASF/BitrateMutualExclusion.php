@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\ASF;
 
-class BitrateMutualExclusion extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class BitrateMutualExclusion extends AbstractTag
 {
 
     protected $Id = 'D6E229DC-35DA-11D1-9034-00A0C90349BE';

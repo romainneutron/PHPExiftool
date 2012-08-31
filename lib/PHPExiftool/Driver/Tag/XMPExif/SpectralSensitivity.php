@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPExif;
 
-class SpectralSensitivity extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class SpectralSensitivity extends AbstractTag
 {
 
     protected $Id = 'SpectralSensitivity';

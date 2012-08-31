@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPCrs;
 
-class PaintCorrectionMaskCenterWeight extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class PaintCorrectionMaskCenterWeight extends AbstractTag
 {
 
     protected $Id = 'PaintBasedCorrectionsCorrectionMasksCenterWeight';
@@ -28,7 +30,7 @@ class PaintCorrectionMaskCenterWeight extends \PHPExiftool\Driver\Tag
 
     protected $g2 = 'Image';
 
-    protected $Type = 'string';
+    protected $Type = 'real';
 
     protected $Writable = true;
 

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Nikon;
 
-class NikonAVITags0x0019 extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class NikonAVITags0x0019 extends AbstractTag
 {
 
     protected $Id = 25;

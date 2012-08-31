@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class VolumeLocalizationSequence extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class VolumeLocalizationSequence extends AbstractTag
 {
 
     protected $Id = '0018,9126';

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Qualcomm;
 
-class ASF5LowSmthPrcnt extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ASF5LowSmthPrcnt extends AbstractTag
 {
 
     protected $Id = 'asf5_low_smth_prcnt';

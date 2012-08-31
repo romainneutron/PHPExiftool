@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class LossyImageCompressionRatio extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class LossyImageCompressionRatio extends AbstractTag
 {
 
     protected $Id = '0028,2112';

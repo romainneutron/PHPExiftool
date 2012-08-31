@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MXF;
 
-class FilmStockManufacturerName extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class FilmStockManufacturerName extends AbstractTag
 {
 
     protected $Id = 'mixed';

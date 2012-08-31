@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Leaf;
 
-class ToneMatrix extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ToneMatrix extends AbstractTag
 {
 
     protected $Id = 'icc_camera_to_tone_matrix';

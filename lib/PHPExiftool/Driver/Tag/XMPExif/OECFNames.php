@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPExif;
 
-class OECFNames extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class OECFNames extends AbstractTag
 {
 
     protected $Id = 'OECFNames';
@@ -33,5 +35,11 @@ class OECFNames extends \PHPExiftool\Driver\Tag
     protected $Writable = true;
 
     protected $Description = 'OECF Names';
+
+    protected $local_g2 = 'Camera';
+
+    protected $flag_List = true;
+
+    protected $flag_Seq = true;
 
 }

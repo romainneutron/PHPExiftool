@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class FileSetConsistencyFlag extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class FileSetConsistencyFlag extends AbstractTag
 {
 
     protected $Id = '0004,1212';

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPCrs;
 
-class HueAdjustmentAqua extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class HueAdjustmentAqua extends AbstractTag
 {
 
     protected $Id = 'HueAdjustmentAqua';

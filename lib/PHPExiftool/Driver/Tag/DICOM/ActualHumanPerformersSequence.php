@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class ActualHumanPerformersSequence extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ActualHumanPerformersSequence extends AbstractTag
 {
 
     protected $Id = '0040,4035';

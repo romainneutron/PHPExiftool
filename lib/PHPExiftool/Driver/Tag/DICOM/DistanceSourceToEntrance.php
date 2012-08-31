@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class DistanceSourceToEntrance extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class DistanceSourceToEntrance extends AbstractTag
 {
 
     protected $Id = '0040,0306';

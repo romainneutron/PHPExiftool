@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Microsoft;
 
-class MediaOriginalBroadcastDateTime extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class MediaOriginalBroadcastDateTime extends AbstractTag
 {
 
     protected $Id = 'WM/MediaOriginalBroadcastDateTime';

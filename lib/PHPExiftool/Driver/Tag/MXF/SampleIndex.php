@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MXF;
 
-class SampleIndex extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class SampleIndex extends AbstractTag
 {
 
     protected $Id = '060e2b34.0101.0102.06010102.01000000';

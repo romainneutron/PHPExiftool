@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MXF;
 
-class ComputedKeyFrames extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ComputedKeyFrames extends AbstractTag
 {
 
     protected $Id = '060e2b34.0101.0101.03030102.07000000';

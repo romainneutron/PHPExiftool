@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\PDF;
 
-class AuthenticationType extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class AuthenticationType extends AbstractTag
 {
 
     protected $Id = 'Prop_AuthType';

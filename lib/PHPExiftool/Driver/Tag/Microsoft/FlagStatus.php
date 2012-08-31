@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Microsoft;
 
-class FlagStatus extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class FlagStatus extends AbstractTag
 {
 
     protected $Id = '{E3E0584C-B788-4A5A-BB20-7F5A44C9ACDD} 12';

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Qualcomm;
 
-class AECLumaTolerance extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class AECLumaTolerance extends AbstractTag
 {
 
     protected $Id = 'aec_luma_tolerance';

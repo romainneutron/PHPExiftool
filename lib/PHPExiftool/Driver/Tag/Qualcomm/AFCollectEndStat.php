@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Qualcomm;
 
-class AFCollectEndStat extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class AFCollectEndStat extends AbstractTag
 {
 
     protected $Id = 'af_collect_end_stat';

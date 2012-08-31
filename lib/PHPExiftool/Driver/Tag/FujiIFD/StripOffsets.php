@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\FujiIFD;
 
-class StripOffsets extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class StripOffsets extends AbstractTag
 {
 
     protected $Id = 61447;

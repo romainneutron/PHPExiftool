@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPPlus;
 
-class LicensorRegion extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class LicensorRegion extends AbstractTag
 {
 
     protected $Id = 'LicensorLicensorRegion';
@@ -33,5 +35,7 @@ class LicensorRegion extends \PHPExiftool\Driver\Tag
     protected $Writable = true;
 
     protected $Description = 'Licensor Region';
+
+    protected $flag_List = true;
 
 }

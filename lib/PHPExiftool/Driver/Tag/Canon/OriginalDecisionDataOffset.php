@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Canon;
 
-class OriginalDecisionDataOffset extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class OriginalDecisionDataOffset extends AbstractTag
 {
 
     protected $Id = 131;

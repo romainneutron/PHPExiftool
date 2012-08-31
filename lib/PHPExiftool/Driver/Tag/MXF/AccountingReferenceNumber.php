@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MXF;
 
-class AccountingReferenceNumber extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class AccountingReferenceNumber extends AbstractTag
 {
 
     protected $Id = '060e2b34.0101.0101.01030104.00000000';

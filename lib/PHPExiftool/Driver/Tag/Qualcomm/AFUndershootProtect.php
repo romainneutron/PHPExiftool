@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Qualcomm;
 
-class AFUndershootProtect extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class AFUndershootProtect extends AbstractTag
 {
 
     protected $Id = 'af_undershoot_protect';

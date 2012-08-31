@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class VerifyingObserverSequence extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class VerifyingObserverSequence extends AbstractTag
 {
 
     protected $Id = '0040,A073';

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Jpeg2000;
 
-class ContiguousCodestream extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ContiguousCodestream extends AbstractTag
 {
 
     protected $Id = 'jp2c';

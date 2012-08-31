@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class DataValueRepresentation extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class DataValueRepresentation extends AbstractTag
 {
 
     protected $Id = '50xx,0103';

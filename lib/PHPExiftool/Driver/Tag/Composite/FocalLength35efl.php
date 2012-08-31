@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Composite;
 
-class FocalLength35efl extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class FocalLength35efl extends AbstractTag
 {
 
     protected $Id = 'FocalLength35efl';

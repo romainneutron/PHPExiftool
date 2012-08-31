@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\GIF;
 
-class ColorResolutionDepth extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ColorResolutionDepth extends AbstractTag
 {
 
     protected $Id = '4.2';

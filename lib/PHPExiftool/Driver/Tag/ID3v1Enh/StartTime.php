@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\ID3v1Enh;
 
-class StartTime extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class StartTime extends AbstractTag
 {
 
     protected $Id = 215;

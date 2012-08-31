@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\NikonCapture;
 
-class PhotoEffectHistoryXML extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class PhotoEffectHistoryXML extends AbstractTag
 {
 
     protected $Id = 3915716657;

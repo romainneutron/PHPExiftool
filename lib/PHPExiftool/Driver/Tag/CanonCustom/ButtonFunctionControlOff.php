@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\CanonCustom;
 
-class ButtonFunctionControlOff extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ButtonFunctionControlOff extends AbstractTag
 {
 
     protected $Id = 1802;

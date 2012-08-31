@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class MRTimingAndRelatedParametersSeq extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class MRTimingAndRelatedParametersSeq extends AbstractTag
 {
 
     protected $Id = '0018,9112';

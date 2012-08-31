@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MXF;
 
-class ContractTermsOfBusiness extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ContractTermsOfBusiness extends AbstractTag
 {
 
     protected $Id = 'mixed';

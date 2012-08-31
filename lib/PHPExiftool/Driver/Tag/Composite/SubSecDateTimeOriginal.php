@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Composite;
 
-class SubSecDateTimeOriginal extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class SubSecDateTimeOriginal extends AbstractTag
 {
 
     protected $Id = 'SubSecDateTimeOriginal';

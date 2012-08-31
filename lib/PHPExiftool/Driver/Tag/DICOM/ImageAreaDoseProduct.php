@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class ImageAreaDoseProduct extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ImageAreaDoseProduct extends AbstractTag
 {
 
     protected $Id = '0018,115E';

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\PostScript;
 
-class EmbeddedFileName extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class EmbeddedFileName extends AbstractTag
 {
 
     protected $Id = 'EmbeddedFileName';

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Qualcomm;
 
-class FrmSkipPttrn extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class FrmSkipPttrn extends AbstractTag
 {
 
     protected $Id = 'frm_skip_pttrn';

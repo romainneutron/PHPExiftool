@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\ExifIFD;
 
-class USPTOMiscellaneous extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class USPTOMiscellaneous extends AbstractTag
 {
 
     protected $Id = 999;

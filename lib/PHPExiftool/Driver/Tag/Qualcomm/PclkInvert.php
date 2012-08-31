@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Qualcomm;
 
-class PclkInvert extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class PclkInvert extends AbstractTag
 {
 
     protected $Id = 'pclk_invert';

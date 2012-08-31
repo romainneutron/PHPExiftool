@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MXF;
 
-class ReelOrRollNumber extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ReelOrRollNumber extends AbstractTag
 {
 
     protected $Id = '060e2b34.0101.0101.01030201.01000000';

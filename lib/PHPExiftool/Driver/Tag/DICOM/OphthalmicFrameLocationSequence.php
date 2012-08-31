@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class OphthalmicFrameLocationSequence extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class OphthalmicFrameLocationSequence extends AbstractTag
 {
 
     protected $Id = '0022,0031';

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\LNK;
 
-class VolumeLabel extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class VolumeLabel extends AbstractTag
 {
 
     protected $Id = 'VolumeLabel';

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MXF;
 
-class VerticalDatum extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class VerticalDatum extends AbstractTag
 {
 
     protected $Id = '060e2b34.0101.0103.07010104.00000000';

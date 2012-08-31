@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class ResultingGenPurposePerfProcStepSeq extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ResultingGenPurposePerfProcStepSeq extends AbstractTag
 {
 
     protected $Id = '0040,4015';

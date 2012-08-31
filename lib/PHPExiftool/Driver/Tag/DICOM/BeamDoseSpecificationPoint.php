@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class BeamDoseSpecificationPoint extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class BeamDoseSpecificationPoint extends AbstractTag
 {
 
     protected $Id = '300A,0082';

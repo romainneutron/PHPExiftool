@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class DeformableRegistrationSequence extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class DeformableRegistrationSequence extends AbstractTag
 {
 
     protected $Id = '0064,0002';

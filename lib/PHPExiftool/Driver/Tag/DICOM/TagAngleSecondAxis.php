@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class TagAngleSecondAxis extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class TagAngleSecondAxis extends AbstractTag
 {
 
     protected $Id = '0018,9219';

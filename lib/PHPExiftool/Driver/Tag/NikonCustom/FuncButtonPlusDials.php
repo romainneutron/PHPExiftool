@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\NikonCustom;
 
-class FuncButtonPlusDials extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class FuncButtonPlusDials extends AbstractTag
 {
 
     protected $Id = 'mixed';

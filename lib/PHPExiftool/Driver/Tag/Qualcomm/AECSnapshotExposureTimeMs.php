@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Qualcomm;
 
-class AECSnapshotExposureTimeMs extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class AECSnapshotExposureTimeMs extends AbstractTag
 {
 
     protected $Id = 'aec_snapshot_exposure_time_ms';

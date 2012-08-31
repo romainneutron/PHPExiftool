@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\OpenEXR;
 
-class ScreenWindowCenter extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ScreenWindowCenter extends AbstractTag
 {
 
     protected $Id = 'screenWindowCenter';

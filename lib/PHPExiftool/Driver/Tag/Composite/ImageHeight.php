@@ -11,10 +11,12 @@
 
 namespace PHPExiftool\Driver\Tag\Composite;
 
-class ImageHeight extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ImageHeight extends AbstractTag
 {
 
-    protected $Id = 'ImageHeight';
+    protected $Id = 'mixed';
 
     protected $Name = 'ImageHeight';
 
@@ -34,6 +36,6 @@ class ImageHeight extends \PHPExiftool\Driver\Tag
 
     protected $Description = 'Image Height';
 
-    protected $local_g2 = 'Image';
+    protected $local_g2 = 'mixed';
 
 }

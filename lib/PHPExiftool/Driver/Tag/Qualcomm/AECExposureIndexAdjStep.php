@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Qualcomm;
 
-class AECExposureIndexAdjStep extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class AECExposureIndexAdjStep extends AbstractTag
 {
 
     protected $Id = 'aec_exposure_index_adj_step';

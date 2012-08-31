@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\RAF;
 
-class WBGRGBLevels extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class WBGRGBLevels extends AbstractTag
 {
 
     protected $Id = 12272;

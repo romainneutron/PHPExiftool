@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MXF;
 
-class RIFFChunkData extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class RIFFChunkData extends AbstractTag
 {
 
     protected $Id = '060e2b34.0101.0108.04070400.00000000';

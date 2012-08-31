@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MXF;
 
-class NMEADocumentText extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class NMEADocumentText extends AbstractTag
 {
 
     protected $Id = '060e2b34.0101.0107.07010201.02300000';

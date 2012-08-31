@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class DVHVolumeUnits extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class DVHVolumeUnits extends AbstractTag
 {
 
     protected $Id = '3004,0054';

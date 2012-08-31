@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Microsoft;
 
-class ParentalRatingReason extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ParentalRatingReason extends AbstractTag
 {
 
     protected $Id = '{10984E0A-F9F2-4321-B7EF-BAF195AF4319} 100';

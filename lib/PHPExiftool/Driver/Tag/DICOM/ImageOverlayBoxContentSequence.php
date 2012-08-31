@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class ImageOverlayBoxContentSequence extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ImageOverlayBoxContentSequence extends AbstractTag
 {
 
     protected $Id = '2130,0060';

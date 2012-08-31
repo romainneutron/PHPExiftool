@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Qualcomm;
 
-class AWBRedGainAdjRef4 extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class AWBRedGainAdjRef4 extends AbstractTag
 {
 
     protected $Id = 'awb_red_gain_adj_ref4';

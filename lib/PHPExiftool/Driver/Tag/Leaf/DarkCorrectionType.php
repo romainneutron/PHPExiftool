@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Leaf;
 
-class DarkCorrectionType extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class DarkCorrectionType extends AbstractTag
 {
 
     protected $Id = 'CaptProf_dark_correction_type';

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\PICT;
 
-class UncompressedQuickTime extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class UncompressedQuickTime extends AbstractTag
 {
 
     protected $Id = 33281;

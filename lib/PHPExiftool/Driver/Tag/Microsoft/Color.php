@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Microsoft;
 
-class Color extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class Color extends AbstractTag
 {
 
     protected $Id = '{4776CAFA-BCE4-4CB1-A23E-265E76D8EB11} 100';

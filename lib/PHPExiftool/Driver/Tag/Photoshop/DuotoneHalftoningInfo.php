@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Photoshop;
 
-class DuotoneHalftoningInfo extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class DuotoneHalftoningInfo extends AbstractTag
 {
 
     protected $Id = 1014;

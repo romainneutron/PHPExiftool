@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\ASF;
 
-class MediaOriginalBroadcastDateTime extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class MediaOriginalBroadcastDateTime extends AbstractTag
 {
 
     protected $Id = 'MediaOriginalBroadcastDateTime';

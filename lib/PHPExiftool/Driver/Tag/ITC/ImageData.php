@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\ITC;
 
-class ImageData extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ImageData extends AbstractTag
 {
 
     protected $Id = 'data';

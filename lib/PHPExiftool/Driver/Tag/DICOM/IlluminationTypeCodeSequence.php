@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class IlluminationTypeCodeSequence extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class IlluminationTypeCodeSequence extends AbstractTag
 {
 
     protected $Id = '0022,0016';

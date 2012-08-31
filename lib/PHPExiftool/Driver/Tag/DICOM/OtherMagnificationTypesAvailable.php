@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class OtherMagnificationTypesAvailable extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class OtherMagnificationTypesAvailable extends AbstractTag
 {
 
     protected $Id = '2010,00A7';

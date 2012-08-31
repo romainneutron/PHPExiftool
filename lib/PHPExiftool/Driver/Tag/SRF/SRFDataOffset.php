@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\SRF;
 
-class SRFDataOffset extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class SRFDataOffset extends AbstractTag
 {
 
     protected $Id = 3;

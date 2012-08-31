@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class AnchorPointVisibility extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class AnchorPointVisibility extends AbstractTag
 {
 
     protected $Id = '0070,0015';

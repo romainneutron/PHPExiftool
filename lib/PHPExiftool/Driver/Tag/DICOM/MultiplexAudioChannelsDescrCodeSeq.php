@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class MultiplexAudioChannelsDescrCodeSeq extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class MultiplexAudioChannelsDescrCodeSeq extends AbstractTag
 {
 
     protected $Id = '003A,0300';

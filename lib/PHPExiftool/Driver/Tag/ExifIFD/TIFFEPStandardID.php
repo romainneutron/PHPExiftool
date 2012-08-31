@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\ExifIFD;
 
-class TIFFEPStandardID extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class TIFFEPStandardID extends AbstractTag
 {
 
     protected $Id = 'mixed';

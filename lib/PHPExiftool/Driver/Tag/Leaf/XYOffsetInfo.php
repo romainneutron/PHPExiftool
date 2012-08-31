@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Leaf;
 
-class XYOffsetInfo extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class XYOffsetInfo extends AbstractTag
 {
 
     protected $Id = 'CaptProf_xy_offset_info';

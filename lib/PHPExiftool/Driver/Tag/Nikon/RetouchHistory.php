@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Nikon;
 
-class RetouchHistory extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class RetouchHistory extends AbstractTag
 {
 
     protected $Id = 158;
@@ -133,6 +135,10 @@ class RetouchHistory extends \PHPExiftool\Driver\Tag
             'Id' => 31,
             'Label' => 'Soft Filter',
         ),
+        32 => array(
+            'Id' => 32,
+            'Label' => 'Resize',
+        ),
         33 => array(
             'Id' => 33,
             'Label' => 'Miniature Effect',
@@ -140,6 +146,14 @@ class RetouchHistory extends \PHPExiftool\Driver\Tag
         34 => array(
             'Id' => 34,
             'Label' => 'Skin Softening',
+        ),
+        35 => array(
+            'Id' => 35,
+            'Label' => 'Selected Frame',
+        ),
+        37 => array(
+            'Id' => 37,
+            'Label' => 'Color Sketch',
         ),
         38 => array(
             'Id' => 38,

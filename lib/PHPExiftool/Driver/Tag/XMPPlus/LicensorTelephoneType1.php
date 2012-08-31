@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPPlus;
 
-class LicensorTelephoneType1 extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class LicensorTelephoneType1 extends AbstractTag
 {
 
     protected $Id = 'LicensorLicensorTelephoneType1';
@@ -33,5 +35,30 @@ class LicensorTelephoneType1 extends \PHPExiftool\Driver\Tag
     protected $Writable = true;
 
     protected $Description = 'Licensor Telephone Type 1';
+
+    protected $flag_List = true;
+
+    protected $Values = array(
+        'cell' => array(
+            'Id' => 'cell',
+            'Label' => 'Cell',
+        ),
+        'fax' => array(
+            'Id' => 'fax',
+            'Label' => 'FAX',
+        ),
+        'home' => array(
+            'Id' => 'home',
+            'Label' => 'Home',
+        ),
+        'pager' => array(
+            'Id' => 'pager',
+            'Label' => 'Pager',
+        ),
+        'work' => array(
+            'Id' => 'work',
+            'Label' => 'Work',
+        ),
+    );
 
 }

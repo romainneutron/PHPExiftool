@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\GE;
 
-class GEMake extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class GEMake extends AbstractTag
 {
 
     protected $Id = 768;

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class HistogramNumberOfBins extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class HistogramNumberOfBins extends AbstractTag
 {
 
     protected $Id = '0060,3002';

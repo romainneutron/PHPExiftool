@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class RepeatFractionCycleLength extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class RepeatFractionCycleLength extends AbstractTag
 {
 
     protected $Id = '300A,007A';

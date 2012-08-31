@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class BlendingLUT1Sequence extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class BlendingLUT1Sequence extends AbstractTag
 {
 
     protected $Id = '0028,1404';

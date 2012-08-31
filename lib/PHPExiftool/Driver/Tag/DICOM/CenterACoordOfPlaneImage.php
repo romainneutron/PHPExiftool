@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class CenterACoordOfPlaneImage extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class CenterACoordOfPlaneImage extends AbstractTag
 {
 
     protected $Id = '0027,1043';

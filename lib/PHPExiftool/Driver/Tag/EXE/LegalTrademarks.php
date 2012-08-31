@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\EXE;
 
-class LegalTrademarks extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class LegalTrademarks extends AbstractTag
 {
 
     protected $Id = 'LegalTrademarks';

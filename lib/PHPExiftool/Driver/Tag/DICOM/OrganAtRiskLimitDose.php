@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class OrganAtRiskLimitDose extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class OrganAtRiskLimitDose extends AbstractTag
 {
 
     protected $Id = '300A,002B';

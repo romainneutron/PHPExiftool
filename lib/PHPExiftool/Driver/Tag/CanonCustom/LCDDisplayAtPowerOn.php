@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\CanonCustom;
 
-class LCDDisplayAtPowerOn extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class LCDDisplayAtPowerOn extends AbstractTag
 {
 
     protected $Id = 'mixed';

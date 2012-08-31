@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class ListOfMIMETypes extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ListOfMIMETypes extends AbstractTag
 {
 
     protected $Id = '0042,0014';

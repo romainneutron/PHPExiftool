@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class MaximumAcrossScanDistortion extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class MaximumAcrossScanDistortion extends AbstractTag
 {
 
     protected $Id = '0022,0049';

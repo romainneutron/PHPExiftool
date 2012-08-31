@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MXF;
 
-class StorageKindCode extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class StorageKindCode extends AbstractTag
 {
 
     protected $Id = '060e2b34.0101.0103.040f0102.00000000';

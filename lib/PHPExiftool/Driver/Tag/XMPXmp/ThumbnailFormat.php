@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPXmp;
 
-class ThumbnailFormat extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ThumbnailFormat extends AbstractTag
 {
 
     protected $Id = 'ThumbnailsFormat';
@@ -33,5 +35,7 @@ class ThumbnailFormat extends \PHPExiftool\Driver\Tag
     protected $Writable = true;
 
     protected $Description = 'Thumbnail Format';
+
+    protected $flag_List = true;
 
 }

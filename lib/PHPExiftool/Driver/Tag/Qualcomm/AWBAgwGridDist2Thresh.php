@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Qualcomm;
 
-class AWBAgwGridDist2Thresh extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class AWBAgwGridDist2Thresh extends AbstractTag
 {
 
     protected $Id = 'awb_agw_grid_dist_2_thresh';

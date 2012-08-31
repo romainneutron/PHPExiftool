@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class AuthorizationEquipmentCertNumber extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class AuthorizationEquipmentCertNumber extends AbstractTag
 {
 
     protected $Id = '0100,0426';

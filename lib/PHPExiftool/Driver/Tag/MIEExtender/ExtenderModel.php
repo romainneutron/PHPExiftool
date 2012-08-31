@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MIEExtender;
 
-class ExtenderModel extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ExtenderModel extends AbstractTag
 {
 
     protected $Id = 'Model';

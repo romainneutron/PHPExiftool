@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MXF;
 
-class JFIFMarkerDescription extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class JFIFMarkerDescription extends AbstractTag
 {
 
     protected $Id = 'mixed';

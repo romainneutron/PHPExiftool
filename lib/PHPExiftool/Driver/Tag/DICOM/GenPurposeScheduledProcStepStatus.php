@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class GenPurposeScheduledProcStepStatus extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class GenPurposeScheduledProcStepStatus extends AbstractTag
 {
 
     protected $Id = '0040,4001';

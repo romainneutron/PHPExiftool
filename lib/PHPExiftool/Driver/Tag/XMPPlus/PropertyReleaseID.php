@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPPlus;
 
-class PropertyReleaseID extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class PropertyReleaseID extends AbstractTag
 {
 
     protected $Id = 'PropertyReleaseID';

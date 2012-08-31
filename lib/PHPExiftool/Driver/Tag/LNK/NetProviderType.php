@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\LNK;
 
-class NetProviderType extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class NetProviderType extends AbstractTag
 {
 
     protected $Id = 'NetProviderType';

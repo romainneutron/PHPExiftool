@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\ID3;
 
-class PeakValue extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class PeakValue extends AbstractTag
 {
 
     protected $Id = 'PeakValue';

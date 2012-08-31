@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Type;
 
-class Int16s
+use PHPExiftool\Driver\AbstractType;
+
+class Int16s extends AbstractType
 {
 
     protected $ExiftoolName = 'int16s';

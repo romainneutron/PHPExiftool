@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MXF;
 
-class MonoSourceTrackIDs extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class MonoSourceTrackIDs extends AbstractTag
 {
 
     protected $Id = '060e2b34.0101.0108.06010103.08000000';

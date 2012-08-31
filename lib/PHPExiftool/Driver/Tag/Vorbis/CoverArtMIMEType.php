@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Vorbis;
 
-class CoverArtMIMEType extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class CoverArtMIMEType extends AbstractTag
 {
 
     protected $Id = 'COVERARTMIME';

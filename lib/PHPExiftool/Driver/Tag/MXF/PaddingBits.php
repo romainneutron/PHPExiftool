@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MXF;
 
-class PaddingBits extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class PaddingBits extends AbstractTag
 {
 
     protected $Id = '060e2b34.0101.0102.04180104.00000000';

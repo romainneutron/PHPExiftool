@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Type;
 
-class VarPstr32
+use PHPExiftool\Driver\AbstractType;
+
+class VarPstr32 extends AbstractType
 {
 
     protected $ExiftoolName = 'var_pstr32';

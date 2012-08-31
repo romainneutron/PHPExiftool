@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPAlbum;
 
-class Notes extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class Notes extends AbstractTag
 {
 
     protected $Id = 'Notes';

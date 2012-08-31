@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Composite;
 
-class ZoomedPreviewImage extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ZoomedPreviewImage extends AbstractTag
 {
 
     protected $Id = 'ZoomedPreviewImage';

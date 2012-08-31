@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\QuickTime;
 
-class CompositionToDecodeTimelineMapping extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class CompositionToDecodeTimelineMapping extends AbstractTag
 {
 
     protected $Id = 'cslg';

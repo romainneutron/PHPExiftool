@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MXF;
 
-class TripletSequenceNumber extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class TripletSequenceNumber extends AbstractTag
 {
 
     protected $Id = '060e2b34.0101.0109.06100500.00000000';

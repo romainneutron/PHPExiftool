@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class ShowGraphicAnnotationFlag extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ShowGraphicAnnotationFlag extends AbstractTag
 {
 
     protected $Id = '0072,0712';

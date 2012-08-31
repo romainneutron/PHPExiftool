@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\SVG;
 
-class SVGVersion extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class SVGVersion extends AbstractTag
 {
 
     protected $Id = 'version';

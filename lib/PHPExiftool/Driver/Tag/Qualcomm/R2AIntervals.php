@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Qualcomm;
 
-class R2AIntervals extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class R2AIntervals extends AbstractTag
 {
 
     protected $Id = 'r2_a_intervals';

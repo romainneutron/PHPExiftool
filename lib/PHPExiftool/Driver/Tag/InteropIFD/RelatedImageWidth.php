@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\InteropIFD;
 
-class RelatedImageWidth extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class RelatedImageWidth extends AbstractTag
 {
 
     protected $Id = 4097;

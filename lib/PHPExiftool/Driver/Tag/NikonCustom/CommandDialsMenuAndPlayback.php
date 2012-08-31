@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\NikonCustom;
 
-class CommandDialsMenuAndPlayback extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class CommandDialsMenuAndPlayback extends AbstractTag
 {
 
     protected $Id = 'mixed';

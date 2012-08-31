@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPIptcCore;
 
-class CreatorPostalCode extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class CreatorPostalCode extends AbstractTag
 {
 
     protected $Id = 'CreatorContactInfoCiAdrPcode';

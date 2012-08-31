@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MXF;
 
-class TapeCapacity extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class TapeCapacity extends AbstractTag
 {
 
     protected $Id = '060e2b34.0101.0102.04100101.03000000';

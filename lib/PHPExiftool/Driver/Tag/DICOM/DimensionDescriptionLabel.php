@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class DimensionDescriptionLabel extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class DimensionDescriptionLabel extends AbstractTag
 {
 
     protected $Id = '0020,9421';

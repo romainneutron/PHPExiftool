@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MXF;
 
-class SlantRange extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class SlantRange extends AbstractTag
 {
 
     protected $Id = '060e2b34.0101.0101.07010801.01000000';

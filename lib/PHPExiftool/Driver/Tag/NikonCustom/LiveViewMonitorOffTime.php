@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\NikonCustom;
 
-class LiveViewMonitorOffTime extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class LiveViewMonitorOffTime extends AbstractTag
 {
 
     protected $Id = '20.2';

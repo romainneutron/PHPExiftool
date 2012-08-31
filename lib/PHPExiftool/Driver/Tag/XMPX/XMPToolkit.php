@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPX;
 
-class XMPToolkit extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class XMPToolkit extends AbstractTag
 {
 
     protected $Id = 'xmptk';

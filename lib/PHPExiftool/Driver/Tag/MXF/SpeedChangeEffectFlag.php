@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MXF;
 
-class SpeedChangeEffectFlag extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class SpeedChangeEffectFlag extends AbstractTag
 {
 
     protected $Id = '060e2b34.0101.0101.05300503.00000000';

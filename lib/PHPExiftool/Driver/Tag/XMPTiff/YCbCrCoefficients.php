@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPTiff;
 
-class YCbCrCoefficients extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class YCbCrCoefficients extends AbstractTag
 {
 
     protected $Id = 'YCbCrCoefficients';

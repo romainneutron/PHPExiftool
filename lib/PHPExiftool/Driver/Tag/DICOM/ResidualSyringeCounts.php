@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class ResidualSyringeCounts extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ResidualSyringeCounts extends AbstractTag
 {
 
     protected $Id = '0054,0017';

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class TotalSegmentsRequested extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class TotalSegmentsRequested extends AbstractTag
 {
 
     protected $Id = '0019,1043';

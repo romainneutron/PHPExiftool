@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPCrs;
 
-class LuminanceNoiseReductionDetail extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class LuminanceNoiseReductionDetail extends AbstractTag
 {
 
     protected $Id = 'LuminanceNoiseReductionDetail';

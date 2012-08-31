@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPMwgRs;
 
-class RegionSeeAlso extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class RegionSeeAlso extends AbstractTag
 {
 
     protected $Id = 'RegionsRegionListSeeAlso';
@@ -33,5 +35,7 @@ class RegionSeeAlso extends \PHPExiftool\Driver\Tag
     protected $Writable = true;
 
     protected $Description = 'Region See Also';
+
+    protected $flag_List = true;
 
 }

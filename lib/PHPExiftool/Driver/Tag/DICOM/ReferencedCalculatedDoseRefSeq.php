@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class ReferencedCalculatedDoseRefSeq extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ReferencedCalculatedDoseRefSeq extends AbstractTag
 {
 
     protected $Id = '3008,0090';

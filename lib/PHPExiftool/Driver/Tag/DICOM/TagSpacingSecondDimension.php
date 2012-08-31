@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class TagSpacingSecondDimension extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class TagSpacingSecondDimension extends AbstractTag
 {
 
     protected $Id = '0018,9218';

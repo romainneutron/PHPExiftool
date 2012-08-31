@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPXmpRights;
 
-class UsageTerms extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class UsageTerms extends AbstractTag
 {
 
     protected $Id = 'UsageTerms';

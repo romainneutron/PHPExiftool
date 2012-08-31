@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\ExifIFD;
 
-class USPTOOriginalContentType extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class USPTOOriginalContentType extends AbstractTag
 {
 
     protected $Id = 50560;

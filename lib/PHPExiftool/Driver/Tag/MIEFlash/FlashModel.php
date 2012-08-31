@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MIEFlash;
 
-class FlashModel extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class FlashModel extends AbstractTag
 {
 
     protected $Id = 'Model';

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class DefaultPrinterResolutionID extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class DefaultPrinterResolutionID extends AbstractTag
 {
 
     protected $Id = '2010,0054';

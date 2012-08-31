@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Microsoft;
 
-class DTCPIPPort extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class DTCPIPPort extends AbstractTag
 {
 
     protected $Id = 'DTCPIPPort';

@@ -11,14 +11,16 @@
 
 namespace PHPExiftool\Driver\Tag\Minolta;
 
-class AFAreaMode extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class AFAreaMode extends AbstractTag
 {
 
-    protected $Id = 14;
+    protected $Id = 'mixed';
 
     protected $Name = 'AFAreaMode';
 
-    protected $FullName = 'Minolta::CameraSettingsA100';
+    protected $FullName = 'mixed';
 
     protected $GroupName = 'Minolta';
 
@@ -28,7 +30,7 @@ class AFAreaMode extends \PHPExiftool\Driver\Tag
 
     protected $g2 = 'Camera';
 
-    protected $Type = 'int16u';
+    protected $Type = 'mixed';
 
     protected $Writable = true;
 

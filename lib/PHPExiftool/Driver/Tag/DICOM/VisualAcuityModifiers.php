@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class VisualAcuityModifiers extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class VisualAcuityModifiers extends AbstractTag
 {
 
     protected $Id = '0046,0135';

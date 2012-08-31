@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\HTMLProd;
 
-class RecEngineer extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class RecEngineer extends AbstractTag
 {
 
     protected $Id = 'recengineer';

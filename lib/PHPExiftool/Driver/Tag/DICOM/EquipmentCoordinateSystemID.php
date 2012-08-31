@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class EquipmentCoordinateSystemID extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class EquipmentCoordinateSystemID extends AbstractTag
 {
 
     protected $Id = '0028,9537';

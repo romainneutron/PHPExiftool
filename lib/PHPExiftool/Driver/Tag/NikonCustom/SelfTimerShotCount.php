@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\NikonCustom;
 
-class SelfTimerShotCount extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class SelfTimerShotCount extends AbstractTag
 {
 
     protected $Id = 'mixed';

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MIEOrient;
 
-class Azimuth extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class Azimuth extends AbstractTag
 {
 
     protected $Id = 'Azimuth';

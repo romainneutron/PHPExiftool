@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Leaf;
 
-class StdOutputBitDepth extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class StdOutputBitDepth extends AbstractTag
 {
 
     protected $Id = 'SaveObj_std_output_bit_depth';

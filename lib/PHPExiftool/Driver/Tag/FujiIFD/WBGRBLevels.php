@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\FujiIFD;
 
-class WBGRBLevels extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class WBGRBLevels extends AbstractTag
 {
 
     protected $Id = 61454;

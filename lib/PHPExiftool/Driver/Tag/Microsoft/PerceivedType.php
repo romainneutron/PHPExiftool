@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Microsoft;
 
-class PerceivedType extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class PerceivedType extends AbstractTag
 {
 
     protected $Id = '{28636AA6-953D-11D2-B5D6-00C04FD918D0} 9';

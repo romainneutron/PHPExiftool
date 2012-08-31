@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPTiff;
 
-class ReferenceBlackWhite extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ReferenceBlackWhite extends AbstractTag
 {
 
     protected $Id = 'ReferenceBlackWhite';

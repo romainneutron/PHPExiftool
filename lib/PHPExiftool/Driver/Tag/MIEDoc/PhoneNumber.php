@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MIEDoc;
 
-class PhoneNumber extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class PhoneNumber extends AbstractTag
 {
 
     protected $Id = 'Phone';

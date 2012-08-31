@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Type;
 
-class Arc
+use PHPExiftool\Driver\AbstractType;
+
+class Arc extends AbstractType
 {
 
     protected $ExiftoolName = 'Arc';

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Type;
 
-class Polygon
+use PHPExiftool\Driver\AbstractType;
+
+class Polygon extends AbstractType
 {
 
     protected $ExiftoolName = 'Polygon';

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class HighDoseTechniqueType extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class HighDoseTechniqueType extends AbstractTag
 {
 
     protected $Id = '300A,00C7';

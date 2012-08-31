@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class ZChanAvgOverViews extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ZChanAvgOverViews extends AbstractTag
 {
 
     protected $Id = '0019,1072';

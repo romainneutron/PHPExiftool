@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Type;
 
-class Date
+use PHPExiftool\Driver\AbstractType;
+
+class Date extends AbstractType
 {
 
     protected $ExiftoolName = 'date';

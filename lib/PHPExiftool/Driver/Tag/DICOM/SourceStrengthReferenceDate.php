@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class SourceStrengthReferenceDate extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class SourceStrengthReferenceDate extends AbstractTag
 {
 
     protected $Id = '300A,022C';

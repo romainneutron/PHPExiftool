@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MXF;
 
-class TeletextSubtitlesFlag extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class TeletextSubtitlesFlag extends AbstractTag
 {
 
     protected $Id = '060e2b34.0101.0102.06010101.01000000';

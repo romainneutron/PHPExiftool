@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class RASLetterForScoutStartLoc extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class RASLetterForScoutStartLoc extends AbstractTag
 {
 
     protected $Id = '0027,1054';

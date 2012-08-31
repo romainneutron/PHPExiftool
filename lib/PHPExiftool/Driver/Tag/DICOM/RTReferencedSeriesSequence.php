@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class RTReferencedSeriesSequence extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class RTReferencedSeriesSequence extends AbstractTag
 {
 
     protected $Id = '3006,0014';

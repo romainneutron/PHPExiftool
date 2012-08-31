@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class TableDirectionInOrOut extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class TableDirectionInOrOut extends AbstractTag
 {
 
     protected $Id = '0045,1006';

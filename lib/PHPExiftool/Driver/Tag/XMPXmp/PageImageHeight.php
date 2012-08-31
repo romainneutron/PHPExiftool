@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPXmp;
 
-class PageImageHeight extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class PageImageHeight extends AbstractTag
 {
 
     protected $Id = 'PageInfoHeight';
@@ -28,10 +30,12 @@ class PageImageHeight extends \PHPExiftool\Driver\Tag
 
     protected $g2 = 'Image';
 
-    protected $Type = 'string';
+    protected $Type = 'integer';
 
     protected $Writable = true;
 
     protected $Description = 'Page Image Height';
+
+    protected $flag_List = true;
 
 }

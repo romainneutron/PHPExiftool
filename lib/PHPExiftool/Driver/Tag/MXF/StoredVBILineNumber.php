@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MXF;
 
-class StoredVBILineNumber extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class StoredVBILineNumber extends AbstractTag
 {
 
     protected $Id = '060e2b34.0101.010a.04010502.04000000';

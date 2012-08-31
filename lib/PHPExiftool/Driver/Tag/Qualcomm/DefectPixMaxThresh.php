@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Qualcomm;
 
-class DefectPixMaxThresh extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class DefectPixMaxThresh extends AbstractTag
 {
 
     protected $Id = 'defect_pix_max_thresh';

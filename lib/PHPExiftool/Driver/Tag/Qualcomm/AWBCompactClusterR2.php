@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Qualcomm;
 
-class AWBCompactClusterR2 extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class AWBCompactClusterR2 extends AbstractTag
 {
 
     protected $Id = 'awb_compact_cluster_R2';

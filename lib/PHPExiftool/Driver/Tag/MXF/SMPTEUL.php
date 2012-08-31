@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MXF;
 
-class SMPTEUL extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class SMPTEUL extends AbstractTag
 {
 
     protected $Id = '060e2b34.0101.0104.01020201.00000000';

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\HTML;
 
-class RevisitAfter extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class RevisitAfter extends AbstractTag
 {
 
     protected $Id = 'revisit-after';

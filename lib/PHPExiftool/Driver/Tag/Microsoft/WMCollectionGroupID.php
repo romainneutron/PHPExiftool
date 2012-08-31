@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Microsoft;
 
-class WMCollectionGroupID extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class WMCollectionGroupID extends AbstractTag
 {
 
     protected $Id = 'WM/WMCollectionGroupID';

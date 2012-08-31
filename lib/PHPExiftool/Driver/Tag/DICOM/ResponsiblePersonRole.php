@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class ResponsiblePersonRole extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ResponsiblePersonRole extends AbstractTag
 {
 
     protected $Id = '0010,2298';

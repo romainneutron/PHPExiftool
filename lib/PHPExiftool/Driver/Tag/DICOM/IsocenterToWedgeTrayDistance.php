@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class IsocenterToWedgeTrayDistance extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class IsocenterToWedgeTrayDistance extends AbstractTag
 {
 
     protected $Id = '300A,00D9';

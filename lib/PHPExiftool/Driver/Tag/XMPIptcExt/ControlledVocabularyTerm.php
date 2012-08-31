@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPIptcExt;
 
-class ControlledVocabularyTerm extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ControlledVocabularyTerm extends AbstractTag
 {
 
     protected $Id = 'CVterm';

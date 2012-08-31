@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class ExposureTimeInMicroSec extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ExposureTimeInMicroSec extends AbstractTag
 {
 
     protected $Id = '0018,8150';

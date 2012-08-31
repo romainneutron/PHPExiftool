@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class RangeModulatorGatingStartValue extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class RangeModulatorGatingStartValue extends AbstractTag
 {
 
     protected $Id = '300A,0382';

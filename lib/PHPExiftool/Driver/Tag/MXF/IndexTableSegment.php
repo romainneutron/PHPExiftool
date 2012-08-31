@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MXF;
 
-class IndexTableSegment extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class IndexTableSegment extends AbstractTag
 {
 
     protected $Id = '060e2b34.0253.0101.0d010201.01100100';

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MXF;
 
-class AudioWatermarkKind extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class AudioWatermarkKind extends AbstractTag
 {
 
     protected $Id = '060e2b34.0101.0101.0d0b0107.00000000';

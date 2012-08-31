@@ -11,10 +11,12 @@
 
 namespace PHPExiftool\Driver\Tag\Canon;
 
-class FacesDetected extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class FacesDetected extends AbstractTag
 {
 
-    protected $Id = 2;
+    protected $Id = 'mixed';
 
     protected $Name = 'FacesDetected';
 

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class QuadratureReceiveCoil extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class QuadratureReceiveCoil extends AbstractTag
 {
 
     protected $Id = '0018,9044';

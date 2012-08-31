@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Type;
 
-class Rgn
+use PHPExiftool\Driver\AbstractType;
+
+class Rgn extends AbstractType
 {
 
     protected $ExiftoolName = 'Rgn';

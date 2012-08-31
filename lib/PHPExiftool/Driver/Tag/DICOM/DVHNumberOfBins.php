@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class DVHNumberOfBins extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class DVHNumberOfBins extends AbstractTag
 {
 
     protected $Id = '3004,0056';

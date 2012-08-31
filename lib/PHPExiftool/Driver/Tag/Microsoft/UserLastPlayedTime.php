@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Microsoft;
 
-class UserLastPlayedTime extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class UserLastPlayedTime extends AbstractTag
 {
 
     protected $Id = 'UserLastPlayedTime';

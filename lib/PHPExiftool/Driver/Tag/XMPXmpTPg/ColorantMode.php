@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPXmpTPg;
 
-class ColorantMode extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ColorantMode extends AbstractTag
 {
 
     protected $Id = 'ColorantsMode';
@@ -33,5 +35,22 @@ class ColorantMode extends \PHPExiftool\Driver\Tag
     protected $Writable = true;
 
     protected $Description = 'Colorant Mode';
+
+    protected $flag_List = true;
+
+    protected $Values = array(
+        'CMYK' => array(
+            'Id' => 'CMYK',
+            'Label' => 'CMYK',
+        ),
+        'LAB' => array(
+            'Id' => 'LAB',
+            'Label' => 'Lab',
+        ),
+        'RGB' => array(
+            'Id' => 'RGB',
+            'Label' => 'RGB',
+        ),
+    );
 
 }

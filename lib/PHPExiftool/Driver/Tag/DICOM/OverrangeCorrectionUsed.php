@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class OverrangeCorrectionUsed extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class OverrangeCorrectionUsed extends AbstractTag
 {
 
     protected $Id = '0019,10DD';

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class CardiacBeatRejectionTechnique extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class CardiacBeatRejectionTechnique extends AbstractTag
 {
 
     protected $Id = '0018,9169';

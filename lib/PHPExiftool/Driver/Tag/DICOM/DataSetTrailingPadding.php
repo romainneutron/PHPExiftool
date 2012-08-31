@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class DataSetTrailingPadding extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class DataSetTrailingPadding extends AbstractTag
 {
 
     protected $Id = 'FFFC,FFFC';

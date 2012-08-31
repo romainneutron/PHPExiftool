@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPExif;
 
-class FocalLengthIn35mmFormat extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class FocalLengthIn35mmFormat extends AbstractTag
 {
 
     protected $Id = 'FocalLengthIn35mmFilm';

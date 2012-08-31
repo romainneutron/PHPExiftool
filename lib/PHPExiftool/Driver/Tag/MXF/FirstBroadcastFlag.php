@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MXF;
 
-class FirstBroadcastFlag extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class FirstBroadcastFlag extends AbstractTag
 {
 
     protected $Id = '060e2b34.0101.0101.02200101.00000000';

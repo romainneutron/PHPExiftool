@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class DurationOfXrayOn extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class DurationOfXrayOn extends AbstractTag
 {
 
     protected $Id = '0043,104E';

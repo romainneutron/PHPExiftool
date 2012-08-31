@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\ICCProfile;
 
-class FocalPlaneColorimetryEstimates extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class FocalPlaneColorimetryEstimates extends AbstractTag
 {
 
     protected $Id = 'fpce';

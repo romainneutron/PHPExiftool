@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Qualcomm;
 
-class AWBOudorVfeMaxY extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class AWBOudorVfeMaxY extends AbstractTag
 {
 
     protected $Id = 'awb_oudor_vfe_max_y';

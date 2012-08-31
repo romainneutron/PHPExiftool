@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\NikonCustom;
 
-class MultiSelectorShootMode extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class MultiSelectorShootMode extends AbstractTag
 {
 
     protected $Id = 'mixed';

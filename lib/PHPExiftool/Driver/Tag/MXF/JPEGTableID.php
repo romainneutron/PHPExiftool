@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MXF;
 
-class JPEGTableID extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class JPEGTableID extends AbstractTag
 {
 
     protected $Id = '060e2b34.0101.0102.05020103.01020000';

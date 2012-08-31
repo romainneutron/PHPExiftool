@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Photoshop;
 
-class ObsoletePhotoshopTag3 extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ObsoletePhotoshopTag3 extends AbstractTag
 {
 
     protected $Id = 1027;

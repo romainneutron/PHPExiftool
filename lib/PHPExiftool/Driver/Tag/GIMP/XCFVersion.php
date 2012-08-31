@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\GIMP;
 
-class XCFVersion extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class XCFVersion extends AbstractTag
 {
 
     protected $Id = 9;

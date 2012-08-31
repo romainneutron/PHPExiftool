@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\File;
 
-class CurrentIPTCDigest extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class CurrentIPTCDigest extends AbstractTag
 {
 
     protected $Id = 'CurrentIPTCDigest';

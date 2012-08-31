@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\FlashPix;
 
-class UsedExtensionNumbers extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class UsedExtensionNumbers extends AbstractTag
 {
 
     protected $Id = 268435456;

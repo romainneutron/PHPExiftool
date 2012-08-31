@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\ID3v24;
 
-class InternetRadioStationOwner extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class InternetRadioStationOwner extends AbstractTag
 {
 
     protected $Id = 'TRSO';

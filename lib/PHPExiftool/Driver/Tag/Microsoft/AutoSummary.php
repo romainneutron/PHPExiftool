@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Microsoft;
 
-class AutoSummary extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class AutoSummary extends AbstractTag
 {
 
     protected $Id = '{560C36C0-503A-11CF-BAA1-00004C752A9A} 2';

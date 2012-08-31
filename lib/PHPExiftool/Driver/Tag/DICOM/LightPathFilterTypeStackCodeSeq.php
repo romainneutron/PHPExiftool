@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class LightPathFilterTypeStackCodeSeq extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class LightPathFilterTypeStackCodeSeq extends AbstractTag
 {
 
     protected $Id = '0022,0017';

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MXF;
 
-class SettingRegionCode extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class SettingRegionCode extends AbstractTag
 {
 
     protected $Id = '060e2b34.0101.0101.07012001.03030000';

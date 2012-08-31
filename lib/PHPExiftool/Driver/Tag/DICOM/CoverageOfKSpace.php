@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class CoverageOfKSpace extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class CoverageOfKSpace extends AbstractTag
 {
 
     protected $Id = '0018,9094';

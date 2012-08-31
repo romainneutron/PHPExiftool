@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Microsoft;
 
-class CallbackNumber extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class CallbackNumber extends AbstractTag
 {
 
     protected $Id = '{BF53D1C3-49E0-4F7F-8567-5A821D8AC542} 100';

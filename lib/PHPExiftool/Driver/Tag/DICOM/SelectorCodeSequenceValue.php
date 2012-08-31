@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class SelectorCodeSequenceValue extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class SelectorCodeSequenceValue extends AbstractTag
 {
 
     protected $Id = '0072,0080';

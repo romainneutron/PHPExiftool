@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Leaf;
 
-class PDAHistogram extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class PDAHistogram extends AbstractTag
 {
 
     protected $Id = 'PDA_histogram_data';

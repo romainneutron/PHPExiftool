@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPTiff;
 
-class PlanarConfiguration extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class PlanarConfiguration extends AbstractTag
 {
 
     protected $Id = 'PlanarConfiguration';

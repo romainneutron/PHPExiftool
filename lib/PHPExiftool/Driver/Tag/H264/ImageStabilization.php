@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\H264;
 
-class ImageStabilization extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ImageStabilization extends AbstractTag
 {
 
     protected $Id = 1;
@@ -38,6 +40,14 @@ class ImageStabilization extends \PHPExiftool\Driver\Tag
         0 => array(
             'Id' => 0,
             'Label' => 'Off',
+        ),
+        63 => array(
+            'Id' => 63,
+            'Label' => 'On (0x3f)',
+        ),
+        191 => array(
+            'Id' => 191,
+            'Label' => 'Off (0xbf)',
         ),
         255 => array(
             'Id' => 255,

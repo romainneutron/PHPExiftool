@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MIEImage;
 
-class CompressionRatio extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class CompressionRatio extends AbstractTag
 {
 
     protected $Id = 'Compression';

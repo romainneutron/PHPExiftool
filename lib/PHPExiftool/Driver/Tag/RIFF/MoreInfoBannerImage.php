@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\RIFF;
 
-class MoreInfoBannerImage extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class MoreInfoBannerImage extends AbstractTag
 {
 
     protected $Id = 'IMBI';

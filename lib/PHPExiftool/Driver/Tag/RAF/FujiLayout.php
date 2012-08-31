@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\RAF;
 
-class FujiLayout extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class FujiLayout extends AbstractTag
 {
 
     protected $Id = 304;

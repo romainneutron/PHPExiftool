@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Type;
 
-class LangAlt
+use PHPExiftool\Driver\AbstractType;
+
+class LangAlt extends AbstractType
 {
 
     protected $ExiftoolName = 'lang-alt';

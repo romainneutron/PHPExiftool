@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\AdobeCM;
 
-class AdobeCMType extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class AdobeCMType extends AbstractTag
 {
 
     protected $Id = 0;

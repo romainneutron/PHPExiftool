@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class FillerOrderNumberProcedure extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class FillerOrderNumberProcedure extends AbstractTag
 {
 
     protected $Id = '0040,1007';

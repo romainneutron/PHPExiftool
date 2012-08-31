@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Qualcomm;
 
-class AWBIndoorSampleInfluence extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class AWBIndoorSampleInfluence extends AbstractTag
 {
 
     protected $Id = 'awb_indoor_sample_influence';

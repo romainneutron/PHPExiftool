@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPExif;
 
-class FocalPlaneYResolution extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class FocalPlaneYResolution extends AbstractTag
 {
 
     protected $Id = 'FocalPlaneYResolution';

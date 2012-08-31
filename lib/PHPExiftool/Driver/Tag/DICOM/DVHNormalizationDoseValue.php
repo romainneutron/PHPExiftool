@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class DVHNormalizationDoseValue extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class DVHNormalizationDoseValue extends AbstractTag
 {
 
     protected $Id = '3004,0042';

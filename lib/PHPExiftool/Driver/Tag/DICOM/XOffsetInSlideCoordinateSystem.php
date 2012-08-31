@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class XOffsetInSlideCoordinateSystem extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class XOffsetInSlideCoordinateSystem extends AbstractTag
 {
 
     protected $Id = '0040,072A';

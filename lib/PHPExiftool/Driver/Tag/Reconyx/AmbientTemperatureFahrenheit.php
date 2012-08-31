@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Reconyx;
 
-class AmbientTemperatureFahrenheit extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class AmbientTemperatureFahrenheit extends AbstractTag
 {
 
     protected $Id = 19;

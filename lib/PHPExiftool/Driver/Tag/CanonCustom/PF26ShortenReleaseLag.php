@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\CanonCustom;
 
-class PF26ShortenReleaseLag extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class PF26ShortenReleaseLag extends AbstractTag
 {
 
     protected $Id = 27;

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Type;
 
-class PixPat
+use PHPExiftool\Driver\AbstractType;
+
+class PixPat extends AbstractType
 {
 
     protected $ExiftoolName = 'PixPat';

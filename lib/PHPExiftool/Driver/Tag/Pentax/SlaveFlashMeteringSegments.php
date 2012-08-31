@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Pentax;
 
-class SlaveFlashMeteringSegments extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class SlaveFlashMeteringSegments extends AbstractTag
 {
 
     protected $Id = 523;

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MXF;
 
-class Weighting extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class Weighting extends AbstractTag
 {
 
     protected $Id = '060e2b34.0101.0101.04021002.00000000';

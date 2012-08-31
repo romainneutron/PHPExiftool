@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MXF;
 
-class VBILineCount extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class VBILineCount extends AbstractTag
 {
 
     protected $Id = '060e2b34.0101.010a.04010502.03000000';

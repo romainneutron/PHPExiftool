@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Qualcomm;
 
-class AFVfeVertHeight extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class AFVfeVertHeight extends AbstractTag
 {
 
     protected $Id = 'af_vfe_vert_height';

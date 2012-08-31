@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class LargestMonochromePixelValue extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class LargestMonochromePixelValue extends AbstractTag
 {
 
     protected $Id = '0028,9099';

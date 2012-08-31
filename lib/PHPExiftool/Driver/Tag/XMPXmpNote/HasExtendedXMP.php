@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPXmpNote;
 
-class HasExtendedXMP extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class HasExtendedXMP extends AbstractTag
 {
 
     protected $Id = 'HasExtendedXMP';

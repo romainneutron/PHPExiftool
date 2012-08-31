@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Leaf;
 
-class MosaicPattern extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class MosaicPattern extends AbstractTag
 {
 
     protected $Id = 'CaptProf_mosaic_pattern';

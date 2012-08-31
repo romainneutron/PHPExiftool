@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Vorbis;
 
-class ReplayGainTrackGain extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ReplayGainTrackGain extends AbstractTag
 {
 
     protected $Id = 'REPLAYGAIN_TRACK_GAIN';

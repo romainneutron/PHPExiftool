@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Leaf;
 
-class LookHeadBackType extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class LookHeadBackType extends AbstractTag
 {
 
     protected $Id = 'LookHead_back_type';

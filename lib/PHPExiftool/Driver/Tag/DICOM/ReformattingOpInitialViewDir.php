@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class ReformattingOpInitialViewDir extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ReformattingOpInitialViewDir extends AbstractTag
 {
 
     protected $Id = '0072,0516';

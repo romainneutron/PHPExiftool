@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class OverlayCompressionOriginator extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class OverlayCompressionOriginator extends AbstractTag
 {
 
     protected $Id = '60xx,0061';

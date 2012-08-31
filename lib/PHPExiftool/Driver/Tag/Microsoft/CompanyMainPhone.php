@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Microsoft;
 
-class CompanyMainPhone extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class CompanyMainPhone extends AbstractTag
 {
 
     protected $Id = '{8589E481-6040-473D-B171-7FA89C2708ED} 100';

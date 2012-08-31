@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class EnergyWindowLowerLimit extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class EnergyWindowLowerLimit extends AbstractTag
 {
 
     protected $Id = '0054,0014';

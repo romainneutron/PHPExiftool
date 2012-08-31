@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class SpecificCharacterSetOfFile extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class SpecificCharacterSetOfFile extends AbstractTag
 {
 
     protected $Id = '0004,1142';

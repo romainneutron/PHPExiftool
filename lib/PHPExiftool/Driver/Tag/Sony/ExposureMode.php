@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Sony;
 
-class ExposureMode extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ExposureMode extends AbstractTag
 {
 
     protected $Id = 45121;
@@ -48,6 +50,10 @@ class ExposureMode extends \PHPExiftool\Driver\Tag
         2 => array(
             'Id' => 2,
             'Label' => 'Beach',
+        ),
+        3 => array(
+            'Id' => 3,
+            'Label' => 'Sports',
         ),
         4 => array(
             'Id' => 4,
@@ -115,7 +121,7 @@ class ExposureMode extends \PHPExiftool\Driver\Tag
         ),
         33 => array(
             'Id' => 33,
-            'Label' => 'Gourmet',
+            'Label' => 'Food',
         ),
         34 => array(
             'Id' => 34,
@@ -136,6 +142,10 @@ class ExposureMode extends \PHPExiftool\Driver\Tag
         38 => array(
             'Id' => 38,
             'Label' => 'Backlight Correction HDR',
+        ),
+        39 => array(
+            'Id' => 39,
+            'Label' => 'Superior Auto',
         ),
         40 => array(
             'Id' => 40,

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MXF;
 
-class SplicingMetadata extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class SplicingMetadata extends AbstractTag
 {
 
     protected $Id = '060e2b34.0101.0101.05020102.01010000';

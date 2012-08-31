@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Radiance;
 
-class Orientation extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class Orientation extends AbstractTag
 {
 
     protected $Id = '_orient';

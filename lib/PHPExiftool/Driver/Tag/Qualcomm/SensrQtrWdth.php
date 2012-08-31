@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Qualcomm;
 
-class SensrQtrWdth extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class SensrQtrWdth extends AbstractTag
 {
 
     protected $Id = 'sensr_qtr_wdth';

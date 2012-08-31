@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class GraphicCoordinatesDataSequence extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class GraphicCoordinatesDataSequence extends AbstractTag
 {
 
     protected $Id = '0070,0318';

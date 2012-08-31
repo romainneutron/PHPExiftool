@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class StartingRespiratoryPhase extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class StartingRespiratoryPhase extends AbstractTag
 {
 
     protected $Id = '0020,9247';

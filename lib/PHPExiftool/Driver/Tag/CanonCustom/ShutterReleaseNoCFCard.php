@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\CanonCustom;
 
-class ShutterReleaseNoCFCard extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ShutterReleaseNoCFCard extends AbstractTag
 {
 
     protected $Id = 'mixed';

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class RTROIInterpretedType extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class RTROIInterpretedType extends AbstractTag
 {
 
     protected $Id = '3006,00A4';

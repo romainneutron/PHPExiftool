@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class RetrieveLocationUID extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class RetrieveLocationUID extends AbstractTag
 {
 
     protected $Id = '0040,E011';

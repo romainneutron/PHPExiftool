@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Photoshop;
 
-class AlternateDuotoneColors extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class AlternateDuotoneColors extends AbstractTag
 {
 
     protected $Id = 1066;

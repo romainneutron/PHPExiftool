@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\GIF;
 
-class BackgroundColor extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class BackgroundColor extends AbstractTag
 {
 
     protected $Id = 5;

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class FramePrimaryAngleVector extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class FramePrimaryAngleVector extends AbstractTag
 {
 
     protected $Id = '0018,2003';

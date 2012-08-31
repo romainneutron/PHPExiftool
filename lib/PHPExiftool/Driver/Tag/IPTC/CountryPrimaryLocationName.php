@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\IPTC;
 
-class CountryPrimaryLocationName extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class CountryPrimaryLocationName extends AbstractTag
 {
 
     protected $Id = 101;

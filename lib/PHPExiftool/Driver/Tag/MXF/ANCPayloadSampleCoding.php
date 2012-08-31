@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MXF;
 
-class ANCPayloadSampleCoding extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ANCPayloadSampleCoding extends AbstractTag
 {
 
     protected $Id = '060e2b34.0101.010a.04010503.10000000';

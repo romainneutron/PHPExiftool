@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class DetectorActiveOffsetFromExposure extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class DetectorActiveOffsetFromExposure extends AbstractTag
 {
 
     protected $Id = '0018,7016';

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class TableTopLateralSetupDisplacement extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class TableTopLateralSetupDisplacement extends AbstractTag
 {
 
     protected $Id = '300A,01D6';

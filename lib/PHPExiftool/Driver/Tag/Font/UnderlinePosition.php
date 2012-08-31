@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Font;
 
-class UnderlinePosition extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class UnderlinePosition extends AbstractTag
 {
 
     protected $Id = 'UnderlinePosition';

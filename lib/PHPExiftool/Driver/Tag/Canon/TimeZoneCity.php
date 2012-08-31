@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Canon;
 
-class TimeZoneCity extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class TimeZoneCity extends AbstractTag
 {
 
     protected $Id = 2;
@@ -172,6 +174,10 @@ class TimeZoneCity extends \PHPExiftool\Driver\Tag
         33 => array(
             'Id' => 33,
             'Label' => 'Samoa',
+        ),
+        32766 => array(
+            'Id' => 32766,
+            'Label' => '(not set)',
         ),
     );
 

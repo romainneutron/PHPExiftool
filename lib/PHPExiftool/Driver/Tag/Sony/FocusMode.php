@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Sony;
 
-class FocusMode extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class FocusMode extends AbstractTag
 {
 
     protected $Id = 'mixed';
@@ -70,18 +72,34 @@ class FocusMode extends \PHPExiftool\Driver\Tag
             'Label' => 'n/a',
         ),
         8 => array(
+            'Id' => 0,
+            'Label' => 'Manual',
+        ),
+        9 => array(
+            'Id' => 2,
+            'Label' => 'AF-S',
+        ),
+        10 => array(
+            'Id' => 3,
+            'Label' => 'AF-C',
+        ),
+        11 => array(
+            'Id' => 6,
+            'Label' => 'Direct Manual Focus',
+        ),
+        12 => array(
             'Id' => 17,
             'Label' => 'AF-S',
         ),
-        9 => array(
+        13 => array(
             'Id' => 18,
             'Label' => 'AF-C',
         ),
-        10 => array(
+        14 => array(
             'Id' => 19,
             'Label' => 'AF-A',
         ),
-        11 => array(
+        15 => array(
             'Id' => 32,
             'Label' => 'Manual',
         ),

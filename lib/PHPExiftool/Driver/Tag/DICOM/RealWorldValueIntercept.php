@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class RealWorldValueIntercept extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class RealWorldValueIntercept extends AbstractTag
 {
 
     protected $Id = '0040,9224';

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPCc;
 
-class MorePermissions extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class MorePermissions extends AbstractTag
 {
 
     protected $Id = 'morePermissions';

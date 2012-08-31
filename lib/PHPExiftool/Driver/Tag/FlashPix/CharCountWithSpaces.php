@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\FlashPix;
 
-class CharCountWithSpaces extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class CharCountWithSpaces extends AbstractTag
 {
 
     protected $Id = 17;

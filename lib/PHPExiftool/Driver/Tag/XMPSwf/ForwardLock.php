@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPSwf;
 
-class ForwardLock extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ForwardLock extends AbstractTag
 {
 
     protected $Id = 'forwardlock';

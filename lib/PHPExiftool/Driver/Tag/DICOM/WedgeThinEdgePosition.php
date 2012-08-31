@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class WedgeThinEdgePosition extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class WedgeThinEdgePosition extends AbstractTag
 {
 
     protected $Id = '300A,00DB';

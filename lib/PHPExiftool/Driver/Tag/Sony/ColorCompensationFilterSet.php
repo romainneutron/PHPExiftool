@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Sony;
 
-class ColorCompensationFilterSet extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ColorCompensationFilterSet extends AbstractTag
 {
 
     protected $Id = 'mixed';

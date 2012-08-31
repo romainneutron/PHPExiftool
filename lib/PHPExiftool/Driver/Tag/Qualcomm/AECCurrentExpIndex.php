@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Qualcomm;
 
-class AECCurrentExpIndex extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class AECCurrentExpIndex extends AbstractTag
 {
 
     protected $Id = 'aec_current_exp_index';

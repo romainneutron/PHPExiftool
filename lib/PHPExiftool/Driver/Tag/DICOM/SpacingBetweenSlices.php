@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class SpacingBetweenSlices extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class SpacingBetweenSlices extends AbstractTag
 {
 
     protected $Id = '0018,0088';

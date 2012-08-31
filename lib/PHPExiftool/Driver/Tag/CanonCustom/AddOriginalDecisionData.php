@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\CanonCustom;
 
-class AddOriginalDecisionData extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class AddOriginalDecisionData extends AbstractTag
 {
 
     protected $Id = 'mixed';

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class GridAbsorbingMaterial extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class GridAbsorbingMaterial extends AbstractTag
 {
 
     protected $Id = '0018,7040';

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class CompensatorRelStoppingPowerRatio extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class CompensatorRelStoppingPowerRatio extends AbstractTag
 {
 
     protected $Id = '300A,02E7';

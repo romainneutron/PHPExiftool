@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPXmpDM;
 
-class VideoAlphaUnityIsTransparent extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class VideoAlphaUnityIsTransparent extends AbstractTag
 {
 
     protected $Id = 'videoAlphaUnityIsTransparent';

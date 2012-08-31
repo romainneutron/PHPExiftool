@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Olympus;
 
-class RawDevWhiteBalanceValue extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class RawDevWhiteBalanceValue extends AbstractTag
 {
 
     protected $Id = 'mixed';

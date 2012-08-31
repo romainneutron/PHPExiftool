@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MXF;
 
-class SecurityClassificationCaveats extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class SecurityClassificationCaveats extends AbstractTag
 {
 
     protected $Id = 'mixed';

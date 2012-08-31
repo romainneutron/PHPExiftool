@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MXF;
 
-class GlobalNumber extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class GlobalNumber extends AbstractTag
 {
 
     protected $Id = '060e2b34.0101.0103.01011504.00000000';

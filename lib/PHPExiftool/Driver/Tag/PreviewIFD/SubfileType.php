@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\PreviewIFD;
 
-class SubfileType extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class SubfileType extends AbstractTag
 {
 
     protected $Id = 254;

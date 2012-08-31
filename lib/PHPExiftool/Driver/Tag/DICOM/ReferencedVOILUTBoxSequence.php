@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class ReferencedVOILUTBoxSequence extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ReferencedVOILUTBoxSequence extends AbstractTag
 {
 
     protected $Id = '2020,0140';

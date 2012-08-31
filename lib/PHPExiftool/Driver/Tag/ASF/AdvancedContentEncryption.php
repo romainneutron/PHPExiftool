@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\ASF;
 
-class AdvancedContentEncryption extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class AdvancedContentEncryption extends AbstractTag
 {
 
     protected $Id = '43058533-6981-49E6-9B74-AD12CB86D58C';

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPCrs;
 
-class SharpenEdgeMasking extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class SharpenEdgeMasking extends AbstractTag
 {
 
     protected $Id = 'SharpenEdgeMasking';

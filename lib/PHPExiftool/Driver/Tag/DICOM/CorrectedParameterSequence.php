@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class CorrectedParameterSequence extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class CorrectedParameterSequence extends AbstractTag
 {
 
     protected $Id = '3008,0068';

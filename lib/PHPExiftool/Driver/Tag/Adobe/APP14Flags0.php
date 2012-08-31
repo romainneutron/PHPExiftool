@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Adobe;
 
-class APP14Flags0 extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class APP14Flags0 extends AbstractTag
 {
 
     protected $Id = 1;

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Microsoft;
 
-class HomeAddress extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class HomeAddress extends AbstractTag
 {
 
     protected $Id = '{98F98354-617A-46B8-8560-5B1B64BF1F89} 100';

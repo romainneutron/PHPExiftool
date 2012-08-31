@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class FileMetaInfoGroupLength extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class FileMetaInfoGroupLength extends AbstractTag
 {
 
     protected $Id = '0002,0000';

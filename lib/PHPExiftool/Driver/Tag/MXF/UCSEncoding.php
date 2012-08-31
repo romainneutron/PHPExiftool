@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MXF;
 
-class UCSEncoding extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class UCSEncoding extends AbstractTag
 {
 
     protected $Id = '060e2b34.0101.010c.04090500.00000000';

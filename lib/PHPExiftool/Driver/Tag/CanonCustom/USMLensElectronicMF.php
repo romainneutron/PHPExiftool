@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\CanonCustom;
 
-class USMLensElectronicMF extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class USMLensElectronicMF extends AbstractTag
 {
 
     protected $Id = 'mixed';

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class TimezoneOffsetFromUTC extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class TimezoneOffsetFromUTC extends AbstractTag
 {
 
     protected $Id = '0008,0201';

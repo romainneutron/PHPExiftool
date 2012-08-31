@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MXF;
 
-class ClipIDArray extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ClipIDArray extends AbstractTag
 {
 
     protected $Id = '060e2b34.0101.0107.0101150a.00000000';

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class PatientPrimaryLanguageCodeSeq extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class PatientPrimaryLanguageCodeSeq extends AbstractTag
 {
 
     protected $Id = '0010,0101';

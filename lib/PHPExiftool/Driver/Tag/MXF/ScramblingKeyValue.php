@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MXF;
 
-class ScramblingKeyValue extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ScramblingKeyValue extends AbstractTag
 {
 
     protected $Id = '060e2b34.0101.0101.02090101.02000000';

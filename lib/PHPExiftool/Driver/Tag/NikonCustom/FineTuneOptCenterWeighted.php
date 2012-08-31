@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\NikonCustom;
 
-class FineTuneOptCenterWeighted extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class FineTuneOptCenterWeighted extends AbstractTag
 {
 
     protected $Id = 'mixed';

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Qualcomm;
 
-class AECAggressiveness extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class AECAggressiveness extends AbstractTag
 {
 
     protected $Id = 'aec_aggressiveness';

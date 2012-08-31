@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Olympus;
 
-class CMWhiteBalanceGrayPoint extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class CMWhiteBalanceGrayPoint extends AbstractTag
 {
 
     protected $Id = 8208;

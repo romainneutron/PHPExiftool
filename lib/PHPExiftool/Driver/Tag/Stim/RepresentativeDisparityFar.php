@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Stim;
 
-class RepresentativeDisparityFar extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class RepresentativeDisparityFar extends AbstractTag
 {
 
     protected $Id = 15;

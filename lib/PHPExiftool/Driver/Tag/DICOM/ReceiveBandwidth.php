@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class ReceiveBandwidth extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ReceiveBandwidth extends AbstractTag
 {
 
     protected $Id = '0019,10A5';

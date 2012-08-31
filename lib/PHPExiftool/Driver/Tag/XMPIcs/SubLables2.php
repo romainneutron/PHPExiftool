@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPIcs;
 
-class SubLables2 extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class SubLables2 extends AbstractTag
 {
 
     protected $Id = 'TagStructureSubLabelsSubLabels';
@@ -28,10 +30,14 @@ class SubLables2 extends \PHPExiftool\Driver\Tag
 
     protected $g2 = 'Image';
 
-    protected $Type = 'string';
+    protected $Type = 'struct';
 
     protected $Writable = true;
 
     protected $Description = 'Sub Lables 2';
+
+    protected $flag_List = true;
+
+    protected $flag_Bag = true;
 
 }

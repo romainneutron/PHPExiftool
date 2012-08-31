@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\ExifIFD;
 
-class PixelMagicJBIGOptions extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class PixelMagicJBIGOptions extends AbstractTag
 {
 
     protected $Id = 34232;

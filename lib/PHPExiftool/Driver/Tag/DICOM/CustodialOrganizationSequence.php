@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class CustodialOrganizationSequence extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class CustodialOrganizationSequence extends AbstractTag
 {
 
     protected $Id = '0040,A07C';

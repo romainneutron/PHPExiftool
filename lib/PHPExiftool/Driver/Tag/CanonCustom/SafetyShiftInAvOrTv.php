@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\CanonCustom;
 
-class SafetyShiftInAvOrTv extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class SafetyShiftInAvOrTv extends AbstractTag
 {
 
     protected $Id = 'mixed';

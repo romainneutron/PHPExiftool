@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class EchoPlanarPulseSequence extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class EchoPlanarPulseSequence extends AbstractTag
 {
 
     protected $Id = '0018,9018';

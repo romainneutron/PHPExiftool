@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Qualcomm;
 
-class YhiYloConvLumaK extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class YhiYloConvLumaK extends AbstractTag
 {
 
     protected $Id = 'yhi_ylo_conv_luma_k';

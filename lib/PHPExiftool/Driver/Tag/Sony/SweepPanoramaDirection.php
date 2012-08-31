@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Sony;
 
-class SweepPanoramaDirection extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class SweepPanoramaDirection extends AbstractTag
 {
 
     protected $Id = 51;

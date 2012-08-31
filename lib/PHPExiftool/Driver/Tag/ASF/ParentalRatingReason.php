@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\ASF;
 
-class ParentalRatingReason extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ParentalRatingReason extends AbstractTag
 {
 
     protected $Id = 'ParentalRatingReason';

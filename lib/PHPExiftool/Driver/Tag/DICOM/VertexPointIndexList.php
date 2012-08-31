@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class VertexPointIndexList extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class VertexPointIndexList extends AbstractTag
 {
 
     protected $Id = '0066,0025';

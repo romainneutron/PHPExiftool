@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MXF;
 
-class ShimName extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ShimName extends AbstractTag
 {
 
     protected $Id = '060e2b34.0101.0101.0d010401.03010300';

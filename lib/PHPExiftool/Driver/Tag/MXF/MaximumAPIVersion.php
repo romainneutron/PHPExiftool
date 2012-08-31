@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MXF;
 
-class MaximumAPIVersion extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class MaximumAPIVersion extends AbstractTag
 {
 
     protected $Id = '060e2b34.0101.0102.0520090a.00000000';

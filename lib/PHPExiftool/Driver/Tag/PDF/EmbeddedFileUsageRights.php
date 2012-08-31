@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\PDF;
 
-class EmbeddedFileUsageRights extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class EmbeddedFileUsageRights extends AbstractTag
 {
 
     protected $Id = 'EF';

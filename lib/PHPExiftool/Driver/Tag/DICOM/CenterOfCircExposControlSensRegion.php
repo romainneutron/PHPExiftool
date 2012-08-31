@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class CenterOfCircExposControlSensRegion extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class CenterOfCircExposControlSensRegion extends AbstractTag
 {
 
     protected $Id = '0018,9440';

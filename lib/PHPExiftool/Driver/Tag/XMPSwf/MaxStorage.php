@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPSwf;
 
-class MaxStorage extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class MaxStorage extends AbstractTag
 {
 
     protected $Id = 'maxstorage';

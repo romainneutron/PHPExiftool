@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class IVUSPullbackRate extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class IVUSPullbackRate extends AbstractTag
 {
 
     protected $Id = '0018,3101';

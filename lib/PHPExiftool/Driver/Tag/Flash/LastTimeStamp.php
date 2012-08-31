@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Flash;
 
-class LastTimeStamp extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class LastTimeStamp extends AbstractTag
 {
 
     protected $Id = 'lasttimestamp';

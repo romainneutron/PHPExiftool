@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\ASF;
 
-class LanguageList extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class LanguageList extends AbstractTag
 {
 
     protected $Id = '7C4346A9-EFE0-4BFC-B229-393EDE415C85';

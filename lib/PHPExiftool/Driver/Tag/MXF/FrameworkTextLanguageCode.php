@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MXF;
 
-class FrameworkTextLanguageCode extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class FrameworkTextLanguageCode extends AbstractTag
 {
 
     protected $Id = '060e2b34.0101.0105.03010102.02030000';

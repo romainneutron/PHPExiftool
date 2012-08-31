@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\MXF;
 
-class MaterialEndTimecodeOffset extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class MaterialEndTimecodeOffset extends AbstractTag
 {
 
     protected $Id = '060e2b34.0101.0101.07020103.02020000';

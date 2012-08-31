@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Microsoft;
 
-class LensModel extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class LensModel extends AbstractTag
 {
 
     protected $Id = '{E1277516-2B5F-4869-89B1-2E585BD38B7A} 100';

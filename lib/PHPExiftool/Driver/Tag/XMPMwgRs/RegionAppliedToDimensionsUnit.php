@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPMwgRs;
 
-class RegionAppliedToDimensionsUnit extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class RegionAppliedToDimensionsUnit extends AbstractTag
 {
 
     protected $Id = 'RegionsAppliedToDimensionsUnit';

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class PreferredPlaybackSequencing extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class PreferredPlaybackSequencing extends AbstractTag
 {
 
     protected $Id = '0018,1244';

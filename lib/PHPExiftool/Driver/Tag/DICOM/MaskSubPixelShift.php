@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class MaskSubPixelShift extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class MaskSubPixelShift extends AbstractTag
 {
 
     protected $Id = '0028,6114';

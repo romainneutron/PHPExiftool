@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\RMETA;
 
-class Condition extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class Condition extends AbstractTag
 {
 
     protected $Id = 'Condition';

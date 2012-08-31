@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\XMPXmpMM;
 
-class OriginalDocumentID extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class OriginalDocumentID extends AbstractTag
 {
 
     protected $Id = 'OriginalDocumentID';

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Qualcomm;
 
-class HJRMaxNumFrames extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class HJRMaxNumFrames extends AbstractTag
 {
 
     protected $Id = 'HJR_max_num_frames';

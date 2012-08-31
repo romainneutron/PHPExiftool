@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\Qualcomm;
 
-class AECVfeLuma extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class AECVfeLuma extends AbstractTag
 {
 
     protected $Id = 'aec_vfe_luma';

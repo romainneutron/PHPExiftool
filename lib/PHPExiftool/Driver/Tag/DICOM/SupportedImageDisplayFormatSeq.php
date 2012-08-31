@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class SupportedImageDisplayFormatSeq extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class SupportedImageDisplayFormatSeq extends AbstractTag
 {
 
     protected $Id = '2000,00A8';

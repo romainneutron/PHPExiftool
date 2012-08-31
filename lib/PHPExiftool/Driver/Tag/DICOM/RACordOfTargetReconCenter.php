@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class RACordOfTargetReconCenter extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class RACordOfTargetReconCenter extends AbstractTag
 {
 
     protected $Id = '0043,1031';

@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
-class LastImageNumberUsed extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class LastImageNumberUsed extends AbstractTag
 {
 
     protected $Id = '0025,1019';

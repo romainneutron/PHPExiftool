@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\RealCONT;
 
-class Author extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class Author extends AbstractTag
 {
 
     protected $Id = 3;

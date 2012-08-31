@@ -11,7 +11,9 @@
 
 namespace PHPExiftool\Driver\Tag\ICCProfile;
 
-class ReflectionPrintOutputColorimetry extends \PHPExiftool\Driver\Tag
+use PHPExiftool\Driver\AbstractTag;
+
+class ReflectionPrintOutputColorimetry extends AbstractTag
 {
 
     protected $Id = 'rpoc';
