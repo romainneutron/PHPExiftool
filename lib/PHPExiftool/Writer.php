@@ -212,6 +212,16 @@ class Writer
     }
 
     /**
+     * Factory for standard Writer
+     *
+     * @return Writer
+     */
+    public static function create()
+    {
+        return new Writer(new Exiftool());
+    }
+
+    /**
      * Computes modes, modules and metadatas to a single commandline
      *
      * @param MetadataBag $metadatas A Bag of metadatas
