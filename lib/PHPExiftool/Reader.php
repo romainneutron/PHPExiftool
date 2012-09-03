@@ -80,15 +80,26 @@ class Reader implements \IteratorAggregate
         $this->parser = $parser;
     }
 
-    public static function create()
-    {
-        return new static(new Exiftool(), new RDFParser());
-    }
-
     public function __destruct()
     {
         $this->parser = null;
         $this->collection = null;
+    }
+
+    public function reset()
+    {
+        $this->files
+            = $this->dirs
+            = $this->excludeDirs
+            = $this->extensions
+            = $this->sort
+            = $this->readers = array();
+
+        $this->recursive = true;
+        $this->ignoreDotFile = $this->followSymLinks = false;
+        $this->extensionsToggle = null;
+
+        return $this;
     }
 
     /**
@@ -340,6 +351,11 @@ class Reader implements \IteratorAggregate
         return $this->collection;
     }
 
+    public static function create()
+    {
+        return new static(new Exiftool(), new RDFParser());
+    }
+
     /**
      * Reset any computed result
      *
@@ -494,7 +510,7 @@ class Reader implements \IteratorAggregate
             $command .= ' -i SYMLINKS';
         }
 
-        if ( $this->ignoreDotFile) {
+        if ($this->ignoreDotFile) {
             $command .= " -if '\$filename !~ /^\./'";
         }
 
