@@ -2,6 +2,8 @@
 
 namespace PHPExiftool\Test;
 
+use Monolog\Logger;
+use Monolog\Handler\NullHandler;
 use PHPExiftool\InformationDumper;
 use PHPExiftool\Exiftool;
 
@@ -14,7 +16,10 @@ class InformationDumperTest extends \PHPUnit_Framework_TestCase
 
     protected function setUp()
     {
-        $this->object = new InformationDumper(new Exiftool());
+        $logger = new Logger('Tests');
+        $logger->pushHandler(new NullHandler());
+
+        $this->object = new InformationDumper(new Exiftool($logger));
     }
 
     /**

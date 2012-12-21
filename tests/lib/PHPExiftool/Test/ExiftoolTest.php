@@ -2,6 +2,8 @@
 
 namespace PHPExiftool\Test;
 
+use Monolog\Logger;
+use Monolog\Handler\NullHandler;
 use PHPExiftool\Exiftool;
 
 class ExiftoolTest extends \PHPUnit_Framework_TestCase
@@ -12,7 +14,7 @@ class ExiftoolTest extends \PHPUnit_Framework_TestCase
      */
     public function testExecuteCommand()
     {
-        $exiftool = new Exiftool();
+        $exiftool = new Exiftool($this->getlogger());
         $this->assertRegExp('/\d+\.\d+/', $exiftool->executeCommand('-ver'));
     }
 
@@ -23,8 +25,16 @@ class ExiftoolTest extends \PHPUnit_Framework_TestCase
      */
     public function testExecuteCommandFailed()
     {
-        $exiftool = new Exiftool();
+        $exiftool = new Exiftool($this->getlogger());
         $exiftool->executeCommand('-prout');
+    }
+
+    private function getlogger()
+    {
+        $logger = new Logger('Tests');
+        $logger->pushHandler(new NullHandler());
+
+        return $logger;
     }
 }
 

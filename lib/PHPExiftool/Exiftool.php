@@ -17,10 +17,11 @@ use Symfony\Component\Process\Process;
 
 class Exiftool
 {
+    private $logger;
 
     public function __construct(Logger $logger)
     {
-
+        $this->logger = $logger;
     }
 
     /**
@@ -34,6 +35,9 @@ class Exiftool
     {
         $command = self::getBinary() . ' ' . $command;
         $process = new Process($command);
+
+        $this->logger->addInfo(sprintf('Exiftool executes command %s', $process->getCommandLine()));
+
         $process->run();
 
         if ( ! $process->isSuccessful()) {

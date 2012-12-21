@@ -11,6 +11,8 @@
 
 namespace PHPExiftool;
 
+use Monolog\Logger;
+use Monolog\Handler\NullHandler;
 use Silex\Application;
 use Silex\ServiceProviderInterface;
 
@@ -19,8 +21,15 @@ class PHPExiftoolServiceProvider implements ServiceProviderInterface
 
     public function register(Application $app)
     {
+        $app['exiftool.logger'] = $app->share(function() {
+            $logger = new Logger('Exiftool Logger');
+            $logger->pushHandler(new NullHandler());
+
+            return $logger;
+        });
+
         $app['exiftool.processor'] = $app->share(function(Application $app) {
-            return new Exiftool();
+            return new Exiftool($app['exiftool.logger']);
         });
 
         $app['exiftool.reader'] = $app->share(function(Application $app) {

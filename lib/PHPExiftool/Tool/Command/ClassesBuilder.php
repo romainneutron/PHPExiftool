@@ -11,6 +11,9 @@
 
 namespace PHPExiftool\Tool\Command;
 
+use Monolog\Logger;
+use Monolog\Handler\NullHandler;
+use Monolog\Handler\StreamHandler;
 use PHPExiftool\ClassUtils\Builder;
 use PHPExiftool\ClassUtils\TagProviderBuilder;
 use PHPExiftool\Exiftool;
@@ -72,7 +75,14 @@ class ClassesBuilder extends Command
 
         $this->output->write('Extracting datas... ');
 
-        $dumper = new InformationDumper(new Exiftool());
+        $logger = new Logger('Builder');
+        $logger->pushHandler(new NullHandler());
+
+        if ($input->getOption('verbose')) {
+            $logger->pushHandler(new StreamHandler('php://stdout'));
+        }
+
+        $dumper = new InformationDumper(new Exiftool($logger));
 
         $dump = $dumper->listDatas(InformationDumper::LISTTYPE_SUPPORTED_XML);
 

@@ -11,6 +11,7 @@
 
 namespace PHPExiftool;
 
+use Monolog\Logger;
 use PHPExiftool\Driver\Metadata\MetadataBag;
 use PHPExiftool\Exception\InvalidArgumentException;
 
@@ -226,9 +227,9 @@ class Writer
      *
      * @return Writer
      */
-    public static function create()
+    public static function create(Logger $logger)
     {
-        return new Writer(new Exiftool());
+        return new Writer(new Exiftool($logger));
     }
 
     /**

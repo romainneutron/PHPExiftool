@@ -12,6 +12,7 @@
 namespace PHPExiftool;
 
 use Doctrine\Common\Collections\ArrayCollection;
+use Monolog\Logger;
 use PHPExiftool\Exception\EmptyCollectionException;
 use PHPExiftool\Exception\LogicException;
 use PHPExiftool\Exception\RuntimeException;
@@ -351,9 +352,9 @@ class Reader implements \IteratorAggregate
         return $this->collection;
     }
 
-    public static function create()
+    public static function create(Logger $logger)
     {
-        return new static(new Exiftool(), new RDFParser());
+        return new static(new Exiftool($logger), new RDFParser());
     }
 
     /**
