@@ -13,15 +13,16 @@
     ],
     "require": {
         "php": ">=5.3.3",
-        "doctrine/common": ">=2.2",
+        "monolog/monolog": "1.*",
+        "doctrine/common": ">=2.2,<=2.3",
         "phpexiftool/exiftool": "dev-master",
-        "symfony/process": "2.1.*"
+        "symfony/process": ">=2.0,<=2.2"
     },
     "require-dev": {
-        "symfony/css-selector": "2.1.*",
-        "symfony/finder": "2.1.*",
-        "symfony/console": "2.1.*",
-        "symfony/dom-crawler": "2.1.*",
+        "symfony/css-selector": ">=2.0,<=2.2",
+        "symfony/finder": ">=2.0,<=2.2",
+        "symfony/console": ">=2.0,<=2.2",
+        "symfony/dom-crawler": ">=2.0,<=2.2",
         "fabpot/php-cs-fixer": "dev-master",
         "sami/sami": "dev-master",
         "silex/silex": "dev-master"

@@ -11,11 +11,17 @@
 
 namespace PHPExiftool;
 
+use Monolog\Logger;
 use PHPExiftool\Exception\RuntimeException;
 use Symfony\Component\Process\Process;
 
 class Exiftool
 {
+
+    public function __construct(Logger $logger)
+    {
+
+    }
 
     /**
      * Execute a command and return the output

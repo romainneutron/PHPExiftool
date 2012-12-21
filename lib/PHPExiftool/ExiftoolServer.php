@@ -100,11 +100,15 @@ class ExiftoolServer extends Exiftool
         file_put_contents($this->pipefile, "\n-execute\n", FILE_APPEND);
 //        echo "-execute\n\n";
         // here we send sigcont
+
+        $this->server->signal(SIGCONT);
         $start = microtime(true);
 
         while ((strlen($this->server->getOutput()) <= $this->offset || substr(substr($this->server->getOutput(), $this->offset), -8) !== "{ready}\n") && (microtime(true) - $start) < $timeout) {
-            usleep(10000);
+            usleep(25000);
         }
+
+        var_dump(microtime(true) - $start);
         // server output should be cached here because streams are polled
         // everytime I request the output
 
