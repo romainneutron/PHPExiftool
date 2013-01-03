@@ -695,13 +695,29 @@ class CanonModelID extends AbstractTag
             'Id' => 52953088,
             'Label' => 'PowerShot A2300',
         ),
+        53673984 => array(
+            'Id' => 53673984,
+            'Label' => 'PowerShot G15',
+        ),
+        53739520 => array(
+            'Id' => 53739520,
+            'Label' => 'PowerShot SX50',
+        ),
         53805056 => array(
             'Id' => 53805056,
             'Label' => 'PowerShot SX160 IS',
         ),
+        53870592 => array(
+            'Id' => 53870592,
+            'Label' => 'PowerShot S110 (new)',
+        ),
         53936128 => array(
             'Id' => 53936128,
             'Label' => 'PowerShot SX500 IS',
+        ),
+        54067200 => array(
+            'Id' => 54067200,
+            'Label' => 'IXUS 245 HS / IXY 430F',
         ),
         67371008 => array(
             'Id' => 67371008,
@@ -966,6 +982,14 @@ class CanonModelID extends AbstractTag
         2147484417 => array(
             'Id' => 2147484417,
             'Label' => 'EOS Rebel T4i / 650D / Kiss X6i',
+        ),
+        2147484418 => array(
+            'Id' => 2147484418,
+            'Label' => '6D',
+        ),
+        2147484465 => array(
+            'Id' => 2147484465,
+            'Label' => 'EOS M',
         ),
     );
 

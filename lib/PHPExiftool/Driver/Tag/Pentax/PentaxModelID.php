@@ -483,6 +483,18 @@ class PentaxModelID extends AbstractTag
             'Id' => 77660,
             'Label' => 'X-5',
         ),
+        77670 => array(
+            'Id' => 77670,
+            'Label' => 'Q10',
+        ),
+        77680 => array(
+            'Id' => 77680,
+            'Label' => 'K-5 II',
+        ),
+        77681 => array(
+            'Id' => 77681,
+            'Label' => 'K-5 II s',
+        ),
     );
 
 }

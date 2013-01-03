@@ -55,6 +55,10 @@ class LensType extends AbstractTag
             'Id' => 3,
             'Label' => 'Minolta AF 28-80mm F4-5.6',
         ),
+        4 => array(
+            'Id' => 4,
+            'Label' => 'Minolta AF 85mm F1.4G',
+        ),
         5 => array(
             'Id' => 5,
             'Label' => 'Minolta AF 35-70mm F3.5-4.5 [II]',
@@ -157,6 +161,10 @@ class LensType extends AbstractTag
         ),
         '24.5' => array(
             'Id' => '24.5',
+            'Label' => 'Sigma DC 18-125mm F4-5,6 D',
+        ),
+        '24.6' => array(
+            'Id' => '24.6',
             'Label' => 'Tamron SP AF 28-75mm F2.8 XR Di (IF) Macro',
         ),
         25 => array(
@@ -374,6 +382,14 @@ class LensType extends AbstractTag
         65 => array(
             'Id' => 65,
             'Label' => 'Sony DT 18-135mm F3.5-5.6 SAM (SAL-18135)',
+        ),
+        66 => array(
+            'Id' => 66,
+            'Label' => 'Sony 300mm F2.8 G SSM II (SAL-300F28G2)',
+        ),
+        68 => array(
+            'Id' => 68,
+            'Label' => 'Sony DT 55-300mm F4.5-5.6 SAM (SAL-55300)',
         ),
         128 => array(
             'Id' => 128,

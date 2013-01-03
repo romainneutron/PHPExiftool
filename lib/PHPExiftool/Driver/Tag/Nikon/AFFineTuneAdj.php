@@ -208,165 +208,331 @@ class AFFineTuneAdj extends AbstractTag
             'Label' => 0,
         ),
         42 => array(
+            'Id' => 2110,
+            'Label' => '+11',
+        ),
+        43 => array(
+            'Id' => 2242,
+            'Label' => '-11',
+        ),
+        44 => array(
+            'Id' => 8252,
+            'Label' => '+3',
+        ),
+        45 => array(
+            'Id' => 8253,
+            'Label' => '+6',
+        ),
+        46 => array(
+            'Id' => 8254,
+            'Label' => '+12',
+        ),
+        47 => array(
+            'Id' => 8386,
+            'Label' => '-12',
+        ),
+        48 => array(
+            'Id' => 8387,
+            'Label' => '-6',
+        ),
+        49 => array(
+            'Id' => 8388,
+            'Label' => '-3',
+        ),
+        50 => array(
+            'Id' => 14398,
+            'Label' => '+13',
+        ),
+        51 => array(
+            'Id' => 14530,
+            'Label' => '-13',
+        ),
+        52 => array(
+            'Id' => 20541,
+            'Label' => '+7',
+        ),
+        53 => array(
+            'Id' => 20542,
+            'Label' => '+14',
+        ),
+        54 => array(
+            'Id' => 20674,
+            'Label' => '-14',
+        ),
+        55 => array(
+            'Id' => 20675,
+            'Label' => '-7',
+        ),
+        56 => array(
+            'Id' => 26686,
+            'Label' => '+15',
+        ),
+        57 => array(
+            'Id' => 26818,
+            'Label' => '-15',
+        ),
+        58 => array(
+            'Id' => 32826,
+            'Label' => '+1',
+        ),
+        59 => array(
+            'Id' => 32827,
+            'Label' => '+2',
+        ),
+        60 => array(
+            'Id' => 32828,
+            'Label' => '+4',
+        ),
+        61 => array(
+            'Id' => 32829,
+            'Label' => '+8',
+        ),
+        62 => array(
+            'Id' => 32830,
+            'Label' => '+16',
+        ),
+        63 => array(
+            'Id' => 32962,
+            'Label' => '-16',
+        ),
+        64 => array(
+            'Id' => 32963,
+            'Label' => '-8',
+        ),
+        65 => array(
+            'Id' => 32964,
+            'Label' => '-4',
+        ),
+        66 => array(
+            'Id' => 32965,
+            'Label' => '-2',
+        ),
+        67 => array(
+            'Id' => 32966,
+            'Label' => '-1',
+        ),
+        68 => array(
+            'Id' => 38974,
+            'Label' => '+17',
+        ),
+        69 => array(
+            'Id' => 39106,
+            'Label' => '-17',
+        ),
+        70 => array(
+            'Id' => 45117,
+            'Label' => '+9',
+        ),
+        71 => array(
+            'Id' => 45118,
+            'Label' => '+18',
+        ),
+        72 => array(
+            'Id' => 45250,
+            'Label' => '-18',
+        ),
+        73 => array(
+            'Id' => 45251,
+            'Label' => '-9',
+        ),
+        74 => array(
+            'Id' => 51262,
+            'Label' => '+19',
+        ),
+        75 => array(
+            'Id' => 51394,
+            'Label' => '-19',
+        ),
+        76 => array(
+            'Id' => 57404,
+            'Label' => '+5',
+        ),
+        77 => array(
+            'Id' => 57405,
+            'Label' => '+10',
+        ),
+        78 => array(
+            'Id' => 57406,
+            'Label' => '+20',
+        ),
+        79 => array(
+            'Id' => 57538,
+            'Label' => '-20',
+        ),
+        80 => array(
+            'Id' => 57539,
+            'Label' => '-10',
+        ),
+        81 => array(
+            'Id' => 57540,
+            'Label' => '-5',
+        ),
+        82 => array(
+            'Id' => 0,
+            'Label' => 0,
+        ),
+        83 => array(
             'Id' => 1086,
             'Label' => '+13',
         ),
-        43 => array(
+        84 => array(
             'Id' => 1218,
             'Label' => '-13',
         ),
-        44 => array(
+        85 => array(
             'Id' => 6205,
             'Label' => '+7',
         ),
-        45 => array(
+        86 => array(
             'Id' => 6206,
             'Label' => '+14',
         ),
-        46 => array(
+        87 => array(
             'Id' => 6338,
             'Label' => '-14',
         ),
-        47 => array(
+        88 => array(
             'Id' => 6339,
             'Label' => '-7',
         ),
-        48 => array(
+        89 => array(
             'Id' => 11326,
             'Label' => '+15',
         ),
-        49 => array(
+        90 => array(
             'Id' => 11458,
             'Label' => '-15',
         ),
-        50 => array(
+        91 => array(
             'Id' => 16442,
             'Label' => '+1',
         ),
-        51 => array(
+        92 => array(
             'Id' => 16443,
             'Label' => '+2',
         ),
-        52 => array(
+        93 => array(
             'Id' => 16444,
             'Label' => '+4',
         ),
-        53 => array(
+        94 => array(
             'Id' => 16445,
             'Label' => '+8',
         ),
-        54 => array(
+        95 => array(
             'Id' => 16446,
             'Label' => '+16',
         ),
-        55 => array(
+        96 => array(
             'Id' => 16578,
             'Label' => '-16',
         ),
-        56 => array(
+        97 => array(
             'Id' => 16579,
             'Label' => '-8',
         ),
-        57 => array(
+        98 => array(
             'Id' => 16580,
             'Label' => '-4',
         ),
-        58 => array(
+        99 => array(
             'Id' => 16581,
             'Label' => '-2',
         ),
-        59 => array(
+        100 => array(
             'Id' => 16582,
             'Label' => '-1',
         ),
-        60 => array(
+        101 => array(
             'Id' => 21566,
             'Label' => '+17',
         ),
-        61 => array(
+        102 => array(
             'Id' => 21698,
             'Label' => '-17',
         ),
-        62 => array(
+        103 => array(
             'Id' => 26685,
             'Label' => '+9',
         ),
-        63 => array(
+        104 => array(
             'Id' => 26686,
             'Label' => '+18',
         ),
-        64 => array(
+        105 => array(
             'Id' => 26818,
             'Label' => '-18',
         ),
-        65 => array(
+        106 => array(
             'Id' => 26819,
             'Label' => '-9',
         ),
-        66 => array(
+        107 => array(
             'Id' => 31806,
             'Label' => '+19',
         ),
-        67 => array(
+        108 => array(
             'Id' => 31938,
             'Label' => '-19',
         ),
-        68 => array(
+        109 => array(
             'Id' => 36924,
             'Label' => '+5',
         ),
-        69 => array(
+        110 => array(
             'Id' => 36925,
             'Label' => '+10',
         ),
-        70 => array(
+        111 => array(
             'Id' => 36926,
             'Label' => '+20',
         ),
-        71 => array(
+        112 => array(
             'Id' => 37058,
             'Label' => '-20',
         ),
-        72 => array(
+        113 => array(
             'Id' => 37059,
             'Label' => '-10',
         ),
-        73 => array(
+        114 => array(
             'Id' => 37060,
             'Label' => '-5',
         ),
-        74 => array(
+        115 => array(
             'Id' => 47165,
             'Label' => '+11',
         ),
-        75 => array(
+        116 => array(
             'Id' => 47299,
             'Label' => '-11',
         ),
-        76 => array(
+        117 => array(
             'Id' => 57403,
             'Label' => '+3',
         ),
-        77 => array(
+        118 => array(
             'Id' => 57404,
             'Label' => '+6',
         ),
-        78 => array(
+        119 => array(
             'Id' => 57405,
             'Label' => '+12',
         ),
-        79 => array(
+        120 => array(
             'Id' => 57539,
             'Label' => '-12',
         ),
-        80 => array(
+        121 => array(
             'Id' => 57540,
             'Label' => '-6',
         ),
-        81 => array(
+        122 => array(
             'Id' => 57541,
             'Label' => '-3',
         ),
     );
+
+    protected $Index = 'mixed';
 
 }

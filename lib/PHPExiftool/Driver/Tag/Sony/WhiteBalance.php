@@ -81,7 +81,7 @@ class WhiteBalance extends AbstractTag
         ),
         10 => array(
             'Id' => 4,
-            'Label' => 'Manual',
+            'Label' => 'Custom',
         ),
         11 => array(
             'Id' => 5,
@@ -104,63 +104,29 @@ class WhiteBalance extends AbstractTag
             'Label' => 'Daylight Fluorescent',
         ),
         16 => array(
+            'Id' => 10,
+            'Label' => 'Incandescent2',
+        ),
+        17 => array(
             'Id' => 11,
             'Label' => 'Warm White Fluorescent',
         ),
-        17 => array(
+        18 => array(
             'Id' => 14,
             'Label' => 'Incandescent',
-        ),
-        18 => array(
-            'Id' => 15,
-            'Label' => 'Flash',
         ),
         19 => array(
-            'Id' => 0,
-            'Label' => 'Auto',
-        ),
-        20 => array(
-            'Id' => 4,
-            'Label' => 'Manual',
-        ),
-        21 => array(
-            'Id' => 5,
-            'Label' => 'Daylight',
-        ),
-        22 => array(
-            'Id' => 6,
-            'Label' => 'Cloudy',
-        ),
-        23 => array(
-            'Id' => 7,
-            'Label' => 'White Fluorescent',
-        ),
-        24 => array(
-            'Id' => 8,
-            'Label' => 'Cool White Fluorescent',
-        ),
-        25 => array(
-            'Id' => 9,
-            'Label' => 'Day White Fluorescent',
-        ),
-        26 => array(
-            'Id' => 14,
-            'Label' => 'Incandescent',
-        ),
-        27 => array(
             'Id' => 15,
             'Label' => 'Flash',
         ),
-        28 => array(
+        20 => array(
             'Id' => 17,
             'Label' => 'Underwater 1 (Blue Water)',
         ),
-        29 => array(
+        21 => array(
             'Id' => 18,
             'Label' => 'Underwater 2 (Green Water)',
         ),
     );
-
-    protected $Index = 'mixed';
 
 }

@@ -79,6 +79,10 @@ class SubfileType extends AbstractTag
             'Id' => 16,
             'Label' => 'TIFF-FX mixed raster content',
         ),
+        65537 => array(
+            'Id' => 65537,
+            'Label' => 'Alternate reduced-resolution image',
+        ),
         4294967295 => array(
             'Id' => 4294967295,
             'Label' => 'invalid',

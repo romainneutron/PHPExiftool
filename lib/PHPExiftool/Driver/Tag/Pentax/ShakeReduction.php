@@ -67,6 +67,10 @@ class ShakeReduction extends AbstractTag
             'Id' => 15,
             'Label' => 'On (15)',
         ),
+        135 => array(
+            'Id' => 135,
+            'Label' => 'On (135)',
+        ),
     );
 
 }

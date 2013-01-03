@@ -16,11 +16,11 @@ use PHPExiftool\Driver\AbstractTag;
 class CameraOrientation extends AbstractTag
 {
 
-    protected $Id = 24;
+    protected $Id = 'mixed';
 
     protected $Name = 'CameraOrientation';
 
-    protected $FullName = 'Sony::ExtraInfo3';
+    protected $FullName = 'mixed';
 
     protected $GroupName = 'Sony';
 
@@ -28,7 +28,7 @@ class CameraOrientation extends AbstractTag
 
     protected $g1 = 'Sony';
 
-    protected $g2 = 'Camera';
+    protected $g2 = 'mixed';
 
     protected $Type = 'int8u';
 
@@ -43,12 +43,24 @@ class CameraOrientation extends AbstractTag
             'Id' => 0,
             'Label' => 'Horizontal (normal)',
         ),
-        16 => array(
+        1 => array(
             'Id' => 16,
             'Label' => 'Rotate 90 CW',
         ),
-        32 => array(
+        2 => array(
             'Id' => 32,
+            'Label' => 'Rotate 270 CW',
+        ),
+        3 => array(
+            'Id' => 1,
+            'Label' => 'Horizontal (normal)',
+        ),
+        4 => array(
+            'Id' => 6,
+            'Label' => 'Rotate 90 CW',
+        ),
+        5 => array(
+            'Id' => 8,
             'Label' => 'Rotate 270 CW',
         ),
     );

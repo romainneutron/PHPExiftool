@@ -45,11 +45,7 @@ class AFMicroAdjMode extends AbstractTag
         ),
         128 => array(
             'Id' => 128,
-            'Label' => 'On, no adjustment',
-        ),
-        129 => array(
-            'Id' => 129,
-            'Label' => 'On, adjustment applied',
+            'Label' => 'On',
         ),
     );
 

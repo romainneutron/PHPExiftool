@@ -38,6 +38,6 @@ class OtherImageStart extends AbstractTag
 
     protected $local_g1 = 'ExifIFD';
 
-    protected $Index = 7;
+    protected $Index = 9;
 
 }

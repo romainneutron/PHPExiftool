@@ -232,34 +232,38 @@ class PictureMode extends AbstractTag
             'Label' => 'Blur Reduction',
         ),
         44 => array(
+            'Id' => 63,
+            'Label' => 'Panorama 2',
+        ),
+        45 => array(
             'Id' => 65,
             'Label' => 'Half-length Portrait',
         ),
-        45 => array(
+        46 => array(
             'Id' => 66,
             'Label' => 'Portrait 2',
         ),
-        46 => array(
+        47 => array(
             'Id' => 75,
             'Label' => 'Blue Sky',
         ),
-        47 => array(
+        48 => array(
             'Id' => 80,
             'Label' => 'Miniature',
         ),
-        48 => array(
+        49 => array(
             'Id' => 81,
             'Label' => 'HDR',
         ),
-        49 => array(
+        50 => array(
             'Id' => 83,
             'Label' => 'Fisheye',
         ),
-        50 => array(
+        51 => array(
             'Id' => 221,
             'Label' => 'P',
         ),
-        51 => array(
+        52 => array(
             'Id' => 255,
             'Label' => 'PICT',
         ),

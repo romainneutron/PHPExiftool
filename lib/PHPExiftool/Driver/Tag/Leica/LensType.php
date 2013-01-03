@@ -223,6 +223,10 @@ class LensType extends AbstractTag
             'Id' => '39 0',
             'Label' => 'Tele-Elmar-M 135mm f/4 (II)',
         ),
+        '41 3' => array(
+            'Id' => '41 3',
+            'Label' => 'Apo-Summicron-M 50mm f/2 Asph',
+        ),
         '42 1' => array(
             'Id' => '42 1',
             'Label' => 'Tri-Elmar-M 28-35-50mm f/4 ASPH. (at 28mm)',
@@ -242,10 +246,6 @@ class LensType extends AbstractTag
         '53 2' => array(
             'Id' => '53 2',
             'Label' => 'Apo-Telyt-M 135mm f/3.4',
-        ),
-        '53 3' => array(
-            'Id' => '53 3',
-            'Label' => 'Apo-Summicron-M 50mm f/2 Asph',
         ),
     );
 

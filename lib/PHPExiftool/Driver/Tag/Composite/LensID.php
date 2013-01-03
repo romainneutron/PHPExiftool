@@ -1155,6 +1155,10 @@ class LensID extends AbstractTag
             'Id' => '54 44 5C 7C 34 3C 58 02',
             'Label' => 'AF Zoom-Micro Nikkor 70-180mm f/4.5-5.6D ED',
         ),
+        '54 44 5C 7C 34 3C 61 02' => array(
+            'Id' => '54 44 5C 7C 34 3C 61 02',
+            'Label' => 'AF Zoom-Micro Nikkor 70-180mm f/4.5-5.6D ED',
+        ),
         '56 3C 5C 8E 30 3C 1C 02' => array(
             'Id' => '56 3C 5C 8E 30 3C 1C 02',
             'Label' => 'Sigma 70-300mm F4-5.6 APO Macro Super II',
@@ -1423,6 +1427,10 @@ class LensID extends AbstractTag
             'Id' => '90 3B 53 80 30 3C 92 0E',
             'Label' => 'AF-S DX VR Zoom-Nikkor 55-200mm f/4-5.6G IF-ED',
         ),
+        '92 2C 2D 88 2C 40 4B 0E' => array(
+            'Id' => '92 2C 2D 88 2C 40 4B 0E',
+            'Label' => 'Sigma 18-250mm F3.5-6.3 DC Macro OS HSM',
+        ),
         '92 48 24 37 24 24 94 06' => array(
             'Id' => '92 48 24 37 24 24 94 06',
             'Label' => 'AF-S Zoom-Nikkor 14-24mm f/2.8G ED',
@@ -1603,6 +1611,10 @@ class LensID extends AbstractTag
             'Id' => 'B1 48 48 48 24 24 B3 06',
             'Label' => 'AF-S DX Micro Nikkor 40mm f/2.8G',
         ),
+        'B2 48 5C 80 30 30 B4 0E' => array(
+            'Id' => 'B2 48 5C 80 30 30 B4 0E',
+            'Label' => 'AF-S Nikkor 70-200mm f/4 ED VR',
+        ),
         'B3 4C 62 62 14 14 B5 06' => array(
             'Id' => 'B3 4C 62 62 14 14 B5 06',
             'Label' => 'AF-S Nikkor 85mm f/1.8G',
@@ -1677,7 +1689,7 @@ class LensID extends AbstractTag
         ),
         'F0 3F 2D 8A 2C 40 DF 0E' => array(
             'Id' => 'F0 3F 2D 8A 2C 40 DF 0E',
-            'Label' => 'Tamron AF 18-270mm F/3.5-6.3 Di II VC PZD (B008)',
+            'Label' => 'Tamron AF 18-270mm f/3.5-6.3 Di II VC PZD (B008)',
         ),
         'F1 44 A0 A0 34 34 4B 02' => array(
             'Id' => 'F1 44 A0 A0 34 34 4B 02',
@@ -1717,7 +1729,7 @@ class LensID extends AbstractTag
         ),
         'F7 53 5C 80 24 24 40 06' => array(
             'Id' => 'F7 53 5C 80 24 24 40 06',
-            'Label' => 'Tamron SP AF 70-200mm F/2.8 Di LD (IF) Macro (A001)',
+            'Label' => 'Tamron SP AF 70-200mm f/2.8 Di LD (IF) Macro (A001)',
         ),
         'F7 53 5C 80 24 24 84 06' => array(
             'Id' => 'F7 53 5C 80 24 24 84 06',
@@ -1770,6 +1782,10 @@ class LensID extends AbstractTag
         'FE 47 00 00 24 24 4B 06' => array(
             'Id' => 'FE 47 00 00 24 24 4B 06',
             'Label' => 'Sigma 4.5mm F2.8 EX DC HSM Circular Fisheye',
+        ),
+        'FE 48 37 5C 24 24 DF 0E' => array(
+            'Id' => 'FE 48 37 5C 24 24 DF 0E',
+            'Label' => 'Tamron SP 24-70mm f/2.8 Di VC USD',
         ),
         'FE 53 5C 80 24 24 84 06' => array(
             'Id' => 'FE 53 5C 80 24 24 84 06',

@@ -56,50 +56,78 @@ class FocusMode extends AbstractTag
             'Label' => 'AF-A',
         ),
         4 => array(
-            'Id' => 1,
-            'Label' => 'AF-S',
-        ),
-        5 => array(
-            'Id' => 2,
-            'Label' => 'AF-C',
-        ),
-        6 => array(
-            'Id' => 4,
-            'Label' => 'Permanent-AF',
-        ),
-        7 => array(
-            'Id' => 65535,
-            'Label' => 'n/a',
-        ),
-        8 => array(
             'Id' => 0,
             'Label' => 'Manual',
         ),
-        9 => array(
+        5 => array(
             'Id' => 2,
-            'Label' => 'AF-S',
+            'Label' => 'AF-A',
         ),
-        10 => array(
+        6 => array(
             'Id' => 3,
             'Label' => 'AF-C',
         ),
+        7 => array(
+            'Id' => 4,
+            'Label' => 'AF-S',
+        ),
+        8 => array(
+            'Id' => 6,
+            'Label' => 'DMF',
+        ),
+        9 => array(
+            'Id' => 7,
+            'Label' => 'AF-D',
+        ),
+        10 => array(
+            'Id' => 1,
+            'Label' => 'AF-S',
+        ),
         11 => array(
+            'Id' => 2,
+            'Label' => 'AF-C',
+        ),
+        12 => array(
+            'Id' => 4,
+            'Label' => 'Permanent-AF',
+        ),
+        13 => array(
+            'Id' => 65535,
+            'Label' => 'n/a',
+        ),
+        14 => array(
+            'Id' => 0,
+            'Label' => 'Manual',
+        ),
+        15 => array(
+            'Id' => 2,
+            'Label' => 'AF-S',
+        ),
+        16 => array(
+            'Id' => 3,
+            'Label' => 'AF-C',
+        ),
+        17 => array(
+            'Id' => 5,
+            'Label' => 'Semi-manual',
+        ),
+        18 => array(
             'Id' => 6,
             'Label' => 'Direct Manual Focus',
         ),
-        12 => array(
+        19 => array(
             'Id' => 17,
             'Label' => 'AF-S',
         ),
-        13 => array(
+        20 => array(
             'Id' => 18,
             'Label' => 'AF-C',
         ),
-        14 => array(
+        21 => array(
             'Id' => 19,
             'Label' => 'AF-A',
         ),
-        15 => array(
+        22 => array(
             'Id' => 32,
             'Label' => 'Manual',
         ),

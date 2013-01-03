@@ -132,6 +132,10 @@ class Quality extends AbstractTag
             'Label' => 'Fine',
         ),
         23 => array(
+            'Id' => 2,
+            'Label' => 'Extra Fine',
+        ),
+        24 => array(
             'Id' => 65535,
             'Label' => 'n/a',
         ),

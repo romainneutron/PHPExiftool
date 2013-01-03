@@ -121,6 +121,10 @@ class PentaxImageSize extends AbstractTag
             'Id' => 129,
             'Label' => '1920x1080',
         ),
+        135 => array(
+            'Id' => 135,
+            'Label' => '4608x2592',
+        ),
         257 => array(
             'Id' => 257,
             'Label' => '3216x3216',

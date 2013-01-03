@@ -47,31 +47,43 @@ class LensType extends AbstractTag
         ),
         1 => array(
             'Id' => 1,
-            'Label' => 'Samsung 30mm F2 Pancake',
+            'Label' => 'Samsung NX 30mm F2 Pancake',
         ),
         2 => array(
             'Id' => 2,
-            'Label' => 'Samsung Zoom 18-55mm F3.5-5.6 OIS',
+            'Label' => 'Samsung NX 18-55mm F3.5-5.6 OIS',
         ),
         3 => array(
             'Id' => 3,
-            'Label' => 'Samsung Zoom 50-200mm F4-5.6 ED OIS',
+            'Label' => 'Samsung NX 50-200mm F4-5.6 ED OIS',
         ),
         4 => array(
             'Id' => 4,
-            'Label' => 'Samsung 20-50mm F3.5-5.6 Compact Zoom',
+            'Label' => 'Samsung NX 20-50mm F3.5-5.6 ED',
         ),
         5 => array(
             'Id' => 5,
-            'Label' => 'Samsung 20mm F2.8 Pancake',
+            'Label' => 'Samsung NX 20mm F2.8 Pancake',
+        ),
+        6 => array(
+            'Id' => 6,
+            'Label' => 'Samsung NX 18-200mm F3.5-6.3 ED OIS',
         ),
         7 => array(
             'Id' => 7,
-            'Label' => 'Samsung 60mm F2.8 Macro ED OIS SSA',
+            'Label' => 'Samsung NX 60mm F2.8 Macro ED OIS SSA',
         ),
         8 => array(
             'Id' => 8,
-            'Label' => 'Samsung 16mm F2.4 Ultra Wide Pancake',
+            'Label' => 'Samsung NX 16mm F2.4 Pancake',
+        ),
+        9 => array(
+            'Id' => 9,
+            'Label' => 'Samsung NX 85mm F1.4 ED SSA',
+        ),
+        12 => array(
+            'Id' => 12,
+            'Label' => 'Samsung NX 12-24mm F4-5.6 ED',
         ),
     );
 

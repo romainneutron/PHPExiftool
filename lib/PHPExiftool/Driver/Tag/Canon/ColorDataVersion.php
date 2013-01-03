@@ -77,7 +77,7 @@ class ColorDataVersion extends AbstractTag
         ),
         9 => array(
             'Id' => 10,
-            'Label' => '10 (1DX/5DmkIII)',
+            'Label' => '10 (1DX/5DmkIII/650D)',
         ),
     );
 

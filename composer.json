@@ -15,7 +15,7 @@
         "php": ">=5.3.3",
         "monolog/monolog": "1.*",
         "doctrine/common": ">=2.2,<=2.3",
-        "phpexiftool/exiftool": "dev-master",
+        "phpexiftool/exiftool": ">=9.12",
         "symfony/process": ">=2.0,<=2.2"
     },
     "require-dev": {
@@ -23,9 +23,9 @@
         "symfony/finder": ">=2.0,<=2.2",
         "symfony/console": ">=2.0,<=2.2",
         "symfony/dom-crawler": ">=2.0,<=2.2",
-        "fabpot/php-cs-fixer": "dev-master",
-        "sami/sami": "dev-master",
-        "silex/silex": "dev-master"
+        "fabpot/php-cs-fixer": "*",
+        "sami/sami": "*",
+        "silex/silex": "*"
     },
     "minimum-stability": "dev",
     "autoload": {

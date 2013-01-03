@@ -39,6 +39,10 @@ class CanonFlashMode extends AbstractTag
     protected $flag_Permanent = true;
 
     protected $Values = array(
+        '-1' => array(
+            'Id' => '-1',
+            'Label' => 'n/a',
+        ),
         0 => array(
             'Id' => 0,
             'Label' => 'Off',

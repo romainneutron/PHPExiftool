@@ -443,6 +443,50 @@ class ExposureProgram extends AbstractTag
             'Id' => 138,
             'Label' => 'High Contrast Monochrome',
         ),
+        101 => array(
+            'Id' => 0,
+            'Label' => 'Program AE',
+        ),
+        102 => array(
+            'Id' => 1,
+            'Label' => 'Aperture-priority AE',
+        ),
+        103 => array(
+            'Id' => 2,
+            'Label' => 'Shutter speed priority AE',
+        ),
+        104 => array(
+            'Id' => 3,
+            'Label' => 'Manual',
+        ),
+        105 => array(
+            'Id' => 5,
+            'Label' => 'Auto',
+        ),
+        106 => array(
+            'Id' => 7,
+            'Label' => 'Auto+',
+        ),
+        107 => array(
+            'Id' => 8,
+            'Label' => 'Portrait',
+        ),
+        108 => array(
+            'Id' => 12,
+            'Label' => 'Sunset',
+        ),
+        109 => array(
+            'Id' => 29,
+            'Label' => 'Macro',
+        ),
+        110 => array(
+            'Id' => 33,
+            'Label' => 'Sweep Panorama',
+        ),
+        111 => array(
+            'Id' => 43,
+            'Label' => 'Cont. Priority AE',
+        ),
     );
 
     protected $Index = 'mixed';

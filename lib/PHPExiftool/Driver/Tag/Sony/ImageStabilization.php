@@ -55,6 +55,10 @@ class ImageStabilization extends AbstractTag
             'Id' => 1,
             'Label' => 'On',
         ),
+        4 => array(
+            'Id' => 4294967295,
+            'Label' => 'n/a',
+        ),
     );
 
 }

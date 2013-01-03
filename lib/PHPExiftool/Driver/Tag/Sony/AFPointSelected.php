@@ -183,6 +183,86 @@ class AFPointSelected extends AbstractTag
             'Id' => 9,
             'Label' => 'Top-Left',
         ),
+        36 => array(
+            'Id' => 0,
+            'Label' => 'Auto',
+        ),
+        37 => array(
+            'Id' => 1,
+            'Label' => 'Center',
+        ),
+        38 => array(
+            'Id' => 2,
+            'Label' => 'Top',
+        ),
+        39 => array(
+            'Id' => 3,
+            'Label' => 'Upper-right',
+        ),
+        40 => array(
+            'Id' => 4,
+            'Label' => 'Right',
+        ),
+        41 => array(
+            'Id' => 5,
+            'Label' => 'Lower-right',
+        ),
+        42 => array(
+            'Id' => 6,
+            'Label' => 'Bottom',
+        ),
+        43 => array(
+            'Id' => 7,
+            'Label' => 'Lower-left',
+        ),
+        44 => array(
+            'Id' => 8,
+            'Label' => 'Left',
+        ),
+        45 => array(
+            'Id' => 9,
+            'Label' => 'Upper-left',
+        ),
+        46 => array(
+            'Id' => 10,
+            'Label' => 'Far Right',
+        ),
+        47 => array(
+            'Id' => 11,
+            'Label' => 'Far Left',
+        ),
+        48 => array(
+            'Id' => 12,
+            'Label' => 'Upper-middle',
+        ),
+        49 => array(
+            'Id' => 13,
+            'Label' => 'Near Right',
+        ),
+        50 => array(
+            'Id' => 14,
+            'Label' => 'Lower-middle',
+        ),
+        51 => array(
+            'Id' => 15,
+            'Label' => 'Near Left',
+        ),
+        52 => array(
+            'Id' => 16,
+            'Label' => 'Upper Far Right',
+        ),
+        53 => array(
+            'Id' => 17,
+            'Label' => 'Lower Far Right',
+        ),
+        54 => array(
+            'Id' => 18,
+            'Label' => 'Lower Far Left',
+        ),
+        55 => array(
+            'Id' => 19,
+            'Label' => 'Upper Far Left',
+        ),
     );
 
 }

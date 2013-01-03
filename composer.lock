@@ -1,5 +1,5 @@
 {
-    "hash": "f94698276f5e28cb752693c5752a09bc",
+    "hash": "75873799912d414ad39ca98df91ab4e6",
     "packages": [
         {
             "name": "doctrine/common",
@@ -134,18 +134,18 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/alchemy-fr/exiftool",
-                "reference": "c68d98b5a00aaf7ae0db7eebddfcde27d948e537"
+                "reference": "6f833c5fcd94de99a240e9e3f549280051677269"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/alchemy-fr/exiftool/archive/c68d98b5a00aaf7ae0db7eebddfcde27d948e537.zip",
-                "reference": "c68d98b5a00aaf7ae0db7eebddfcde27d948e537",
+                "url": "https://github.com/alchemy-fr/exiftool/archive/6f833c5fcd94de99a240e9e3f549280051677269.zip",
+                "reference": "6f833c5fcd94de99a240e9e3f549280051677269",
                 "shasum": ""
             },
             "require": {
                 "phpexiftool/phpexiftool": "*"
             },
-            "time": "2012-08-29 16:01:26",
+            "time": "2013-01-03 11:16:06",
             "type": "library",
             "installation-source": "source",
             "notification-url": "https://packagist.org/downloads/",
@@ -172,18 +172,18 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/Process",
-                "reference": "v2.1.6"
+                "reference": "cbba493e324cc41b6f408513d74df999b5b6306e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/symfony/Process/archive/v2.1.6.zip",
-                "reference": "v2.1.6",
+                "url": "https://github.com/symfony/Process/archive/cbba493e324cc41b6f408513d74df999b5b6306e.zip",
+                "reference": "cbba493e324cc41b6f408513d74df999b5b6306e",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.3"
             },
-            "time": "2012-12-19 13:27:19",
+            "time": "2012-12-30 12:18:39",
             "type": "library",
             "installation-source": "source",
             "autoload": {
@@ -403,12 +403,12 @@
             "source": {
                 "type": "git",
                 "url": "git://github.com/fabpot/Silex.git",
-                "reference": "bd523d5970bb093d1d2c709e91a7f72b70c39108"
+                "reference": "e18192f7d337e409abaf52437f11c1906a9d6d6e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/fabpot/Silex/archive/bd523d5970bb093d1d2c709e91a7f72b70c39108.zip",
-                "reference": "bd523d5970bb093d1d2c709e91a7f72b70c39108",
+                "url": "https://github.com/fabpot/Silex/archive/e18192f7d337e409abaf52437f11c1906a9d6d6e.zip",
+                "reference": "e18192f7d337e409abaf52437f11c1906a9d6d6e",
                 "shasum": ""
             },
             "require": {
@@ -443,7 +443,7 @@
                 "symfony/css-selector": ">=2.1,<2.3-dev",
                 "symfony/dom-crawler": ">=2.1,<2.3-dev"
             },
-            "time": "2012-12-18 11:32:45",
+            "time": "2013-01-03 08:53:21",
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -760,18 +760,18 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/HttpFoundation",
-                "reference": "39666d2dda47ff7cc987e717fe9023f5d50e089f"
+                "reference": "f40fc1f9dd148d5cb9f3e74e4f49b2e18270fdf4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/symfony/HttpFoundation/archive/39666d2dda47ff7cc987e717fe9023f5d50e089f.zip",
-                "reference": "39666d2dda47ff7cc987e717fe9023f5d50e089f",
+                "url": "https://github.com/symfony/HttpFoundation/archive/f40fc1f9dd148d5cb9f3e74e4f49b2e18270fdf4.zip",
+                "reference": "f40fc1f9dd148d5cb9f3e74e4f49b2e18270fdf4",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.3"
             },
-            "time": "2012-12-20 07:41:17",
+            "time": "2013-01-03 08:05:35",
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -811,12 +811,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/HttpKernel",
-                "reference": "5769594e51b41e9d76047f1a13da0318fd5b1c92"
+                "reference": "635cca3a1341e2f66dff47a3fd8f6b308afb7077"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/symfony/HttpKernel/archive/5769594e51b41e9d76047f1a13da0318fd5b1c92.zip",
-                "reference": "5769594e51b41e9d76047f1a13da0318fd5b1c92",
+                "url": "https://github.com/symfony/HttpKernel/archive/635cca3a1341e2f66dff47a3fd8f6b308afb7077.zip",
+                "reference": "635cca3a1341e2f66dff47a3fd8f6b308afb7077",
                 "shasum": ""
             },
             "require": {
@@ -843,7 +843,7 @@
                 "symfony/dependency-injection": "2.2.*",
                 "symfony/finder": "2.2.*"
             },
-            "time": "2012-12-20 07:41:17",
+            "time": "2012-12-28 23:07:33",
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -880,12 +880,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/Routing",
-                "reference": "eecf36850760b137fcd4f5025c64014de722874c"
+                "reference": "87a66890450658ccac99702ac5e4f002ece9e23e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/symfony/Routing/archive/eecf36850760b137fcd4f5025c64014de722874c.zip",
-                "reference": "eecf36850760b137fcd4f5025c64014de722874c",
+                "url": "https://github.com/symfony/Routing/archive/87a66890450658ccac99702ac5e4f002ece9e23e.zip",
+                "reference": "87a66890450658ccac99702ac5e4f002ece9e23e",
                 "shasum": ""
             },
             "require": {
@@ -902,7 +902,7 @@
                 "symfony/config": "2.2.*",
                 "symfony/yaml": "2.2.*"
             },
-            "time": "2012-12-20 07:41:17",
+            "time": "2012-12-28 13:21:48",
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -986,18 +986,18 @@
             "source": {
                 "type": "git",
                 "url": "git://github.com/fabpot/Twig.git",
-                "reference": "f095f3a1777431412954e478f92e8a10cb7b6495"
+                "reference": "037b5be972bd64900a6a287ee56661782090ca00"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/fabpot/Twig/archive/f095f3a1777431412954e478f92e8a10cb7b6495.zip",
-                "reference": "f095f3a1777431412954e478f92e8a10cb7b6495",
+                "url": "https://github.com/fabpot/Twig/archive/037b5be972bd64900a6a287ee56661782090ca00.zip",
+                "reference": "037b5be972bd64900a6a287ee56661782090ca00",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.2.4"
             },
-            "time": "2012-12-18 10:01:32",
+            "time": "2013-01-02 16:15:41",
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -1035,10 +1035,7 @@
 
     ],
     "minimum-stability": "dev",
-    "stability-flags": {
-        "phpexiftool/exiftool": 20,
-        "fabpot/php-cs-fixer": 20,
-        "sami/sami": 20,
-        "silex/silex": 20
-    }
+    "stability-flags": [
+
+    ]
 }

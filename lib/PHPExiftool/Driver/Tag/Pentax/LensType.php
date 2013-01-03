@@ -677,6 +677,10 @@ class LensType extends AbstractTag
             'Id' => '7 75',
             'Label' => 'Tamron SP AF 70-200mm F2.8 Di LD [IF] Macro (A001)',
         ),
+        '7 212' => array(
+            'Id' => '7 212',
+            'Label' => 'smc Pentax-DA 50mm F1.8',
+        ),
         '7 213' => array(
             'Id' => '7 213',
             'Label' => 'smc PENTAX-DA 40mm F2.8 XS',
@@ -829,6 +833,14 @@ class LensType extends AbstractTag
             'Id' => '8 23',
             'Label' => 'Sigma 70-200mm F2.8 APO EX DG OS HSM',
         ),
+        '8 27' => array(
+            'Id' => '8 27',
+            'Label' => 'Sigma 18-200mm F3.5-6.3 II DC HSM',
+        ),
+        '8 210' => array(
+            'Id' => '8 210',
+            'Label' => 'smc Pentax-DA 18-270mm F3.5-6.3 ED SDM',
+        ),
         '8 215' => array(
             'Id' => '8 215',
             'Label' => 'smc PENTAX-DA 18-135mm F3.5-5.6 ED AL [IF] DC WR',
@@ -940,6 +952,10 @@ class LensType extends AbstractTag
         '21 5' => array(
             'Id' => '21 5',
             'Label' => '05 Toy Lens Telephoto 18mm F8',
+        ),
+        '21 6' => array(
+            'Id' => '21 6',
+            'Label' => '06 Telephoto Zoom 15-45mm F2.8',
         ),
     );
 

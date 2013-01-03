@@ -32,7 +32,7 @@ class OtherImage extends AbstractTag
 
     protected $Type = '?';
 
-    protected $Writable = false;
+    protected $Writable = true;
 
     protected $Description = 'Other Image';
 

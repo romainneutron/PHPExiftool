@@ -41,7 +41,7 @@ class ExposureMode extends AbstractTag
     protected $Values = array(
         0 => array(
             'Id' => 0,
-            'Label' => 'Auto',
+            'Label' => 'Program',
         ),
         1 => array(
             'Id' => 1,
@@ -65,7 +65,7 @@ class ExposureMode extends AbstractTag
         ),
         6 => array(
             'Id' => 6,
-            'Label' => 'Program',
+            'Label' => 'Auto',
         ),
         7 => array(
             'Id' => 7,
@@ -89,7 +89,7 @@ class ExposureMode extends AbstractTag
         ),
         12 => array(
             'Id' => 12,
-            'Label' => 'Soft Snap',
+            'Label' => 'Soft Snap/Portrait',
         ),
         13 => array(
             'Id' => 13,
@@ -150,6 +150,14 @@ class ExposureMode extends AbstractTag
         40 => array(
             'Id' => 40,
             'Label' => 'Background Defocus',
+        ),
+        41 => array(
+            'Id' => 41,
+            'Label' => 'Soft Skin',
+        ),
+        42 => array(
+            'Id' => 42,
+            'Label' => '3D Image',
         ),
         65535 => array(
             'Id' => 65535,

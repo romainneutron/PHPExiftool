@@ -649,9 +649,17 @@ class Model extends AbstractTag
             'Id' => 'D4521',
             'Label' => 'SH-25MR',
         ),
+        'D4523' => array(
+            'Id' => 'D4523',
+            'Label' => 'SP-720UZ',
+        ),
         'D4529' => array(
             'Id' => 'D4529',
             'Label' => 'VG170',
+        ),
+        'D4531' => array(
+            'Id' => 'D4531',
+            'Label' => 'XZ-2',
         ),
         'D4535' => array(
             'Id' => 'D4535',
@@ -668,6 +676,14 @@ class Model extends AbstractTag
         'D4541' => array(
             'Id' => 'D4541',
             'Label' => 'SZ-12',
+        ),
+        'D4545' => array(
+            'Id' => 'D4545',
+            'Label' => 'VH410',
+        ),
+        'D4562' => array(
+            'Id' => 'D4562',
+            'Label' => 'SP-820UZ',
         ),
         'D4809' => array(
             'Id' => 'D4809',
@@ -780,6 +796,14 @@ class Model extends AbstractTag
         'S0040' => array(
             'Id' => 'S0040',
             'Label' => 'E-PL1s',
+        ),
+        'S0042' => array(
+            'Id' => 'S0042',
+            'Label' => 'E-PL5',
+        ),
+        'S0043' => array(
+            'Id' => 'S0043',
+            'Label' => 'E-PM2',
         ),
         'SR45' => array(
             'Id' => 'SR45',

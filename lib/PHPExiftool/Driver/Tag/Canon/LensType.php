@@ -429,7 +429,11 @@ class LensType extends AbstractTag
         ),
         '131.6' => array(
             'Id' => '131.6',
-            'Label' => 'Sigma 4.5mm F2.8 EX DC HSM Circular Fisheye',
+            'Label' => 'Sigma 4.5mm f/2.8 EX DC HSM Circular Fisheye',
+        ),
+        '131.7' => array(
+            'Id' => '131.7',
+            'Label' => 'Sigma 70-200mm f/2.8 APO EX HSM',
         ),
         132 => array(
             'Id' => 132,
@@ -470,6 +474,10 @@ class LensType extends AbstractTag
         '137.13' => array(
             'Id' => '137.13',
             'Label' => 'Sigma 10-20mm f/3.5 EX DC HSM',
+        ),
+        '137.14' => array(
+            'Id' => '137.14',
+            'Label' => 'Tamron SP 24-70mm f/2.8 Di VC USD',
         ),
         '137.2' => array(
             'Id' => '137.2',
@@ -667,6 +675,10 @@ class LensType extends AbstractTag
             'Id' => '161.4',
             'Label' => 'Tamron 90mm f/2.8',
         ),
+        '161.5' => array(
+            'Id' => '161.5',
+            'Label' => 'Sigma 24-60mm f/2.8 EX DG',
+        ),
         162 => array(
             'Id' => 162,
             'Label' => 'Canon EF 200mm f/2.8L',
@@ -722,6 +734,10 @@ class LensType extends AbstractTag
         '169.6' => array(
             'Id' => '169.6',
             'Label' => 'Sigma 30mm f/1.4 EX DC HSM',
+        ),
+        '169.7' => array(
+            'Id' => '169.7',
+            'Label' => 'Sigma 35mm f/1.4 DG HSM',
         ),
         170 => array(
             'Id' => 170,
@@ -1051,9 +1067,21 @@ class LensType extends AbstractTag
             'Id' => 495,
             'Label' => 'Canon EF 24-70mm f/2.8L II USM',
         ),
+        502 => array(
+            'Id' => 502,
+            'Label' => 'Canon EF 28mm f/2.8 IS USM',
+        ),
+        503 => array(
+            'Id' => 503,
+            'Label' => 'Canon EF 24mm f/2.8 IS USM',
+        ),
+        4142 => array(
+            'Id' => 4142,
+            'Label' => 'Canon EF-S 18-135mm f/3.5-5.6 IS STM',
+        ),
         4143 => array(
             'Id' => 4143,
-            'Label' => 'Canon EF-M 22mm f/2 STM',
+            'Label' => 'Canon EF-M 18-55mm f/3.5-5.6 IS STM',
         ),
         4144 => array(
             'Id' => 4144,

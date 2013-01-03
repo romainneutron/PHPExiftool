@@ -45,7 +45,7 @@ class ReleaseMode extends AbstractTag
         ),
         2 => array(
             'Id' => 2,
-            'Label' => 'Burst',
+            'Label' => 'Continuous',
         ),
         5 => array(
             'Id' => 5,

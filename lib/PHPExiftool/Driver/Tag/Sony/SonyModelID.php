@@ -171,9 +171,25 @@ class SonyModelID extends AbstractTag
             'Id' => 293,
             'Label' => 'NEX-F3',
         ),
+        294 => array(
+            'Id' => 294,
+            'Label' => 'SLT-A99V',
+        ),
+        295 => array(
+            'Id' => 295,
+            'Label' => 'NEX-6',
+        ),
+        296 => array(
+            'Id' => 296,
+            'Label' => 'NEX-5R',
+        ),
         297 => array(
             'Id' => 297,
             'Label' => 'DSC-RX100',
+        ),
+        298 => array(
+            'Id' => 298,
+            'Label' => 'DSC-RX1',
         ),
     );
 

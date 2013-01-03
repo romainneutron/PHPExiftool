@@ -42,6 +42,6 @@ class MakerNoteJVCText extends AbstractTag
 
     protected $flag_Permanent = true;
 
-    protected $Index = 13;
+    protected $Index = 14;
 
 }

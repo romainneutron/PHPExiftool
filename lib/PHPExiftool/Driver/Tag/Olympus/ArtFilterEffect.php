@@ -147,6 +147,10 @@ class ArtFilterEffect extends AbstractTag
             'Id' => 32,
             'Label' => 'Dramatic Tone B&W',
         ),
+        33 => array(
+            'Id' => 33,
+            'Label' => 'Watercolor II',
+        ),
     );
 
 }

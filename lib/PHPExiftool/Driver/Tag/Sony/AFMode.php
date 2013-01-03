@@ -16,11 +16,11 @@ use PHPExiftool\Driver\AbstractTag;
 class AFMode extends AbstractTag
 {
 
-    protected $Id = 45123;
+    protected $Id = 'mixed';
 
     protected $Name = 'AFMode';
 
-    protected $FullName = 'Sony::Main';
+    protected $FullName = 'mixed';
 
     protected $GroupName = 'Sony';
 
@@ -28,9 +28,9 @@ class AFMode extends AbstractTag
 
     protected $g1 = 'Sony';
 
-    protected $g2 = 'Camera';
+    protected $g2 = 'mixed';
 
-    protected $Type = 'int16u';
+    protected $Type = 'mixed';
 
     protected $Writable = true;
 
@@ -45,35 +45,59 @@ class AFMode extends AbstractTag
         ),
         1 => array(
             'Id' => 1,
-            'Label' => 'Multi AF',
+            'Label' => 'Multi',
         ),
         2 => array(
             'Id' => 2,
-            'Label' => 'Center AF',
+            'Label' => 'Center',
         ),
         3 => array(
             'Id' => 3,
-            'Label' => 'Spot AF',
+            'Label' => 'Spot',
         ),
         4 => array(
             'Id' => 4,
-            'Label' => 'Flexible Spot AF',
+            'Label' => 'Flexible Spot',
+        ),
+        5 => array(
+            'Id' => 6,
+            'Label' => 'Touch',
         ),
         6 => array(
-            'Id' => 6,
-            'Label' => 'Touch AF',
-        ),
-        14 => array(
             'Id' => 14,
             'Label' => 'Manual Focus',
         ),
-        15 => array(
+        7 => array(
             'Id' => 15,
             'Label' => 'Face Detected',
         ),
-        65535 => array(
+        8 => array(
             'Id' => 65535,
             'Label' => 'n/a',
+        ),
+        9 => array(
+            'Id' => 0,
+            'Label' => 'Multi',
+        ),
+        10 => array(
+            'Id' => 1,
+            'Label' => 'Center',
+        ),
+        11 => array(
+            'Id' => 3,
+            'Label' => 'Flexible Spot',
+        ),
+        12 => array(
+            'Id' => 14,
+            'Label' => 'Tracking',
+        ),
+        13 => array(
+            'Id' => 15,
+            'Label' => 'Smile Shutter',
+        ),
+        14 => array(
+            'Id' => 255,
+            'Label' => 'Manual',
         ),
     );
 

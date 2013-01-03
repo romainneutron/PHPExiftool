@@ -185,6 +185,10 @@ class Compression extends AbstractTag
             'Id' => 34720,
             'Label' => 'Microsoft Document Imaging (MDI) Vector',
         ),
+        34892 => array(
+            'Id' => 34892,
+            'Label' => 'Lossy JPEG',
+        ),
         65000 => array(
             'Id' => 65000,
             'Label' => 'Kodak DCR Compressed',

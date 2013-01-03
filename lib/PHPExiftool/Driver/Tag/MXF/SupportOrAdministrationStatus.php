@@ -13,12 +13,12 @@ namespace PHPExiftool\Driver\Tag\MXF;
 
 use PHPExiftool\Driver\AbstractTag;
 
-class SupportOrAdministrationStatus extends AbstractTag
+class SupportorAdministrationStatus extends AbstractTag
 {
 
-    protected $Id = '060e2b34.0101.0101.02300103.01000000';
+    protected $Id = '060e2b34.0101.0103.02300103.01010000';
 
-    protected $Name = 'SupportOrAdministrationStatus';
+    protected $Name = 'SupportorAdministrationStatus';
 
     protected $FullName = 'MXF::Main';
 
@@ -30,10 +30,10 @@ class SupportOrAdministrationStatus extends AbstractTag
 
     protected $g2 = 'Video';
 
-    protected $Type = 'string';
+    protected $Type = '?';
 
     protected $Writable = false;
 
-    protected $Description = 'Support Or Administration Status';
+    protected $Description = 'Supportor Administration Status';
 
 }
