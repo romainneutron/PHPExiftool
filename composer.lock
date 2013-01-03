@@ -1,5 +1,5 @@
 {
-    "hash": "75873799912d414ad39ca98df91ab4e6",
+    "hash": "cf0412d44cac6a933c68255e015eb811",
     "packages": [
         {
             "name": "doctrine/common",
@@ -167,28 +167,33 @@
         },
         {
             "name": "symfony/process",
-            "version": "2.1.x-dev",
+            "version": "dev-master",
             "target-dir": "Symfony/Component/Process",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/Process",
-                "reference": "cbba493e324cc41b6f408513d74df999b5b6306e"
+                "reference": "7f55bdf84a2b439492aadaea71e8d9824ea783d5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/symfony/Process/archive/cbba493e324cc41b6f408513d74df999b5b6306e.zip",
-                "reference": "cbba493e324cc41b6f408513d74df999b5b6306e",
+                "url": "https://github.com/symfony/Process/archive/7f55bdf84a2b439492aadaea71e8d9824ea783d5.zip",
+                "reference": "7f55bdf84a2b439492aadaea71e8d9824ea783d5",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.3"
             },
-            "time": "2012-12-30 12:18:39",
+            "time": "2012-12-20 07:22:35",
             "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.2-dev"
+                }
+            },
             "installation-source": "source",
             "autoload": {
                 "psr-0": {
-                    "Symfony\\Component\\Process": ""
+                    "Symfony\\Component\\Process\\": ""
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -522,28 +527,33 @@
         },
         {
             "name": "symfony/css-selector",
-            "version": "2.1.x-dev",
+            "version": "dev-master",
             "target-dir": "Symfony/Component/CssSelector",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/CssSelector",
-                "reference": "v2.1.6"
+                "reference": "01f17748c1248c552e9097cad5b9d0aae65010e3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/symfony/CssSelector/archive/v2.1.6.zip",
-                "reference": "v2.1.6",
+                "url": "https://github.com/symfony/CssSelector/archive/01f17748c1248c552e9097cad5b9d0aae65010e3.zip",
+                "reference": "01f17748c1248c552e9097cad5b9d0aae65010e3",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.3"
             },
-            "time": "2012-12-11 10:33:11",
+            "time": "2012-12-19 07:09:49",
             "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.2-dev"
+                }
+            },
             "installation-source": "source",
             "autoload": {
                 "psr-0": {
-                    "Symfony\\Component\\CssSelector": ""
+                    "Symfony\\Component\\CssSelector\\": ""
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -565,34 +575,39 @@
         },
         {
             "name": "symfony/dom-crawler",
-            "version": "2.1.x-dev",
+            "version": "dev-master",
             "target-dir": "Symfony/Component/DomCrawler",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/DomCrawler",
-                "reference": "v2.1.6"
+                "reference": "60d8c908a24ccab2beddc64d7624730fc84957bd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/symfony/DomCrawler/archive/v2.1.6.zip",
-                "reference": "v2.1.6",
+                "url": "https://github.com/symfony/DomCrawler/archive/60d8c908a24ccab2beddc64d7624730fc84957bd.zip",
+                "reference": "60d8c908a24ccab2beddc64d7624730fc84957bd",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.3"
             },
             "require-dev": {
-                "symfony/css-selector": "2.1.*"
+                "symfony/css-selector": "2.2.*"
             },
             "suggest": {
-                "symfony/css-selector": "2.1.*"
+                "symfony/css-selector": "2.2.*"
             },
-            "time": "2012-12-06 10:00:55",
+            "time": "2012-12-19 07:09:49",
             "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.2-dev"
+                }
+            },
             "installation-source": "source",
             "autoload": {
                 "psr-0": {
-                    "Symfony\\Component\\DomCrawler": ""
+                    "Symfony\\Component\\DomCrawler\\": ""
                 }
             },
             "notification-url": "https://packagist.org/downloads/",

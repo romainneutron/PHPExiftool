@@ -16,13 +16,13 @@
         "monolog/monolog": "1.*",
         "doctrine/common": ">=2.2,<=2.3",
         "phpexiftool/exiftool": ">=9.12",
-        "symfony/process": ">=2.0,<=2.2"
+        "symfony/process": ">=2.0,<=2.2.x-dev"
     },
     "require-dev": {
-        "symfony/css-selector": ">=2.0,<=2.2",
-        "symfony/finder": ">=2.0,<=2.2",
-        "symfony/console": ">=2.0,<=2.2",
-        "symfony/dom-crawler": ">=2.0,<=2.2",
+        "symfony/css-selector": ">=2.0,<=2.2.x-dev",
+        "symfony/finder": ">=2.0,<=2.2.x-dev",
+        "symfony/console": ">=2.0,<=2.2.x-dev",
+        "symfony/dom-crawler": ">=2.0,<=2.2.x-dev",
         "fabpot/php-cs-fixer": "*",
         "sami/sami": "*",
         "silex/silex": "*"
