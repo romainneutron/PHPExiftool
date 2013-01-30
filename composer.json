@@ -12,22 +12,20 @@
     }
     ],
     "require": {
-        "php": ">=5.3.3",
-        "monolog/monolog": "1.*",
-        "doctrine/common": ">=2.2,<=2.3",
-        "phpexiftool/exiftool": ">=9.12",
-        "symfony/process": ">=2.0,<=2.2.x-dev"
+        "php"                  : ">=5.3.3",
+        "monolog/monolog"      : "~1.0",
+        "doctrine/collections" : "~1.0",
+        "phpexiftool/exiftool" : "~9.12",
+        "symfony/process"      : "~2.0"
     },
     "require-dev": {
-        "symfony/css-selector": ">=2.0,<=2.2.x-dev",
-        "symfony/finder": ">=2.0,<=2.2.x-dev",
-        "symfony/console": ">=2.0,<=2.2.x-dev",
-        "symfony/dom-crawler": ">=2.0,<=2.2.x-dev",
-        "fabpot/php-cs-fixer": "*",
-        "sami/sami": "*",
-        "silex/silex": "*"
+        "symfony/css-selector" : "~2.0",
+        "symfony/finder"       : "~2.0",
+        "symfony/console"      : "~2.0",
+        "symfony/dom-crawler"  : "~2.0",
+        "sami/sami"            : "dev-master@dev",
+        "silex/silex"          : "1.0.x-dev@dev"
     },
-    "minimum-stability": "dev",
     "autoload": {
         "psr-0": {
             "PHPExiftool": "lib"
