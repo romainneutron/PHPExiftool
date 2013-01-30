@@ -14,6 +14,7 @@ namespace PHPExiftool;
 use Doctrine\Common\Cache\ArrayCache;
 use PHPExiftool\RDFParser;
 use PHPExiftool\FileEntity;
+use PHPExiftool\Driver\Value\ValueInterface;
 use PHPExiftool\Driver\Metadata\MetadataBag;
 
 /**
@@ -106,7 +107,8 @@ class FileEntity implements \IteratorAggregate
      * Execute a user defined query to retrieve metadata
      *
      * @param  string $query
-     * @return string
+     *
+     * @return ValueInterface
      */
     public function executeQuery($query)
     {
