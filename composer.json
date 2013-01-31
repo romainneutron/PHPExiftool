@@ -13,9 +13,10 @@
     ],
     "require": {
         "php"                  : ">=5.3.3",
-        "monolog/monolog"      : "~1.0",
         "doctrine/collections" : "~1.0",
-        "phpexiftool/exiftool" : "~9.12",
+        "doctrine/cache"       : "~1.0",
+        "monolog/monolog"      : "~1.0",
+        "phpexiftool/exiftool" : "dev-master@dev",
         "symfony/process"      : "~2.0"
     },
     "require-dev": {
