@@ -1,8 +1,8 @@
 language: php
 
 before_script:
-  - curl -s http://getcomposer.org/installer | php
-  - php composer.phar install --dev
+  - composer self-update
+  - composer install --dev --prefer-source
 
 php:
   - 5.3.3
