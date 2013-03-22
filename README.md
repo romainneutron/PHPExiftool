@@ -1,4 +1,4 @@
-#PHPExiftool
+# PHP-Exiftool
 
 [![Build Status](https://secure.travis-ci.org/romainneutron/PHPExiftool.png?branch=master)](http://travis-ci.org/romainneutron/PHPExiftool)
 
@@ -10,12 +10,24 @@ and editing meta information written in Perl.
 PHPExiftool provides an intuitive object oriented interface to read and write
 metadatas.
 
-You will find some example below, but I strongly recommend you to read the full
-documentation.
-
+You will find some example below.
 This driver is not suitable for production, it is still under heavy development.
 
-##Exiftool Reader
+## Installation
+
+The recommended way to install PHP-Exiftool is [through composer](http://getcomposer.org).
+
+```JSON
+{
+    "require": {
+        "phpexiftool/phpexiftool": "~0.1.0"
+    }
+}
+```
+
+## Usage
+
+### Exiftool Reader
 
 ```php
 use PHPExiftool\Reader;
@@ -42,7 +54,7 @@ foreach ($Reader as $MetaDatas) {
 }
 ```
 
-##Exiftool Writer
+### Exiftool Writer
 
 ```php
 use PHPExiftool\Writer;
@@ -59,6 +71,6 @@ $bag->add(new Metadata(new ObjectName(), new Mono('Pretty cool subject')));
 $Writer->write('image.jpg', $bag);
 ```
 
-##License
+## License
 
 Project licensed under the MIT License
