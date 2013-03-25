@@ -30,10 +30,12 @@ The recommended way to install PHP-Exiftool is [through composer](http://getcomp
 ### Exiftool Reader
 
 ```php
+use Monolog\Logger;
 use PHPExiftool\Reader;
 use PHPExiftool\Driver\Value\Value;
 
-$Reader = Reader::create();
+$logger = new Logger('exiftool');
+$Reader = Reader::create($logger);
 
 $Reader
   ->in(array('documents', '/Picture'))
