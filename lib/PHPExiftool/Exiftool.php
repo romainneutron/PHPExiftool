@@ -11,17 +11,28 @@
 
 namespace PHPExiftool;
 
-use Monolog\Logger;
 use PHPExiftool\Exception\RuntimeException;
+use Psr\Log\LoggerAwareInterface;
+use Psr\Log\LoggerInterface;
 use Symfony\Component\Process\Process;
 
-class Exiftool
+class Exiftool implements LoggerAwareInterface
 {
     private $logger;
 
-    public function __construct(Logger $logger)
+    public function __construct(LoggerInterface $logger)
     {
         $this->logger = $logger;
+    }
+
+    /**
+     * {@inheritdoc}
+     */
+    public function setLogger(LoggerInterface $logger)
+    {
+        $this->logger = $logger;
+
+        return $this;
     }
 
     /**

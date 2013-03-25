@@ -11,9 +11,9 @@
 
 namespace PHPExiftool;
 
-use Monolog\Logger;
 use PHPExiftool\Driver\Metadata\MetadataBag;
 use PHPExiftool\Exception\InvalidArgumentException;
+use Psr\Log\LoggerInterface;
 
 /**
  * Exiftool Metadatas Writer, it will be used to write metadatas in files
@@ -227,7 +227,7 @@ class Writer
      *
      * @return Writer
      */
-    public static function create(Logger $logger)
+    public static function create(LoggerInterface $logger)
     {
         return new Writer(new Exiftool($logger));
     }
