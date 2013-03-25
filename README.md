@@ -32,7 +32,7 @@ The recommended way to install PHP-Exiftool is [through composer](http://getcomp
 ```php
 use Monolog\Logger;
 use PHPExiftool\Reader;
-use PHPExiftool\Driver\Value\Value;
+use PHPExiftool\Driver\Value\ValueInterface;
 
 $logger = new Logger('exiftool');
 $Reader = Reader::create($logger);
@@ -47,7 +47,7 @@ foreach ($Reader as $MetaDatas) {
     echo "found file " . $MetaDatas->getFile() . "\n";
 
     foreach ($MetaDatas as $metadata) {
-        if ($metadata->getValue()->getType() === Value::TYPE_BINARY) {
+        if ($metadata->getValue()->getType() === ValueInterface::TYPE_BINARY) {
             echo sprintf("\t--> Field %s has binary datas" . PHP_EOL, $metadata->getTag());
         } else {
             echo sprintf("\t--> Field %s has value(s) %s" . PHP_EOL, $metadata->getTag(), $metadata->getValue()->asString());
