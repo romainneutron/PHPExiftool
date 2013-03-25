@@ -29,6 +29,33 @@ The recommended way to install PHP-Exiftool is [through composer](http://getcomp
 
 ### Exiftool Reader
 
+A simple example : how to read a file metadatas :
+
+```php
+<?php
+
+require __DIR__ . '/vendor/autoload.php';
+
+use Monolog\Logger;
+use PHPExiftool\Reader;
+use PHPExiftool\Driver\Value\ValueInterface;
+
+$logger = new Logger('exiftool');
+$reader = Reader::create($logger);
+
+$metadatas = $reader->files(__FILE__)->first();
+
+foreach ($metadatas as $metadata) {
+    if (ValueInterface::TYPE_BINARY === $metadata->getValue()->getType()) {
+        echo sprintf("\t--> Field %s has binary datas" . PHP_EOL, $metadata->getTag());
+    } else {
+        echo sprintf("\t--> Field %s has value(s) %s" . PHP_EOL, $metadata->getTag(), $metadata->getValue()->asString());
+    }
+}
+```
+
+An example with directory inspection :
+
 ```php
 use Monolog\Logger;
 use PHPExiftool\Reader;
@@ -47,7 +74,7 @@ foreach ($Reader as $MetaDatas) {
     echo "found file " . $MetaDatas->getFile() . "\n";
 
     foreach ($MetaDatas as $metadata) {
-        if ($metadata->getValue()->getType() === ValueInterface::TYPE_BINARY) {
+        if (ValueInterface::TYPE_BINARY === $metadata->getValue()->getType()) {
             echo sprintf("\t--> Field %s has binary datas" . PHP_EOL, $metadata->getTag());
         } else {
             echo sprintf("\t--> Field %s has value(s) %s" . PHP_EOL, $metadata->getTag(), $metadata->getValue()->asString());
