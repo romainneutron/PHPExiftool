@@ -1,6 +1,10 @@
 CHANGELOG
 ---------
 
+* 0.2.1 (2013-04-16)
+
+  * Add Tags serialization through JMS Serializer
+
 * 0.2.0 (2013-04-16)
 
   * Use exiftool 9.15
