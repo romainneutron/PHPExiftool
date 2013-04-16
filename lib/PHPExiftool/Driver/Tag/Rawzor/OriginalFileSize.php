@@ -11,8 +11,12 @@
 
 namespace PHPExiftool\Driver\Tag\Rawzor;
 
+use JMS\Serializer\Annotation\ExclusionPolicy;
 use PHPExiftool\Driver\AbstractTag;
 
+/**
+ * @ExclusionPolicy("all")
+ */
 class OriginalFileSize extends AbstractTag
 {
 

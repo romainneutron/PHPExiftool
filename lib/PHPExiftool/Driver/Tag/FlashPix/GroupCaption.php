@@ -11,8 +11,12 @@
 
 namespace PHPExiftool\Driver\Tag\FlashPix;
 
+use JMS\Serializer\Annotation\ExclusionPolicy;
 use PHPExiftool\Driver\AbstractTag;
 
+/**
+ * @ExclusionPolicy("all")
+ */
 class GroupCaption extends AbstractTag
 {
 

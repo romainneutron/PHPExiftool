@@ -11,8 +11,12 @@
 
 namespace PHPExiftool\Driver\Tag\DICOM;
 
+use JMS\Serializer\Annotation\ExclusionPolicy;
 use PHPExiftool\Driver\AbstractTag;
 
+/**
+ * @ExclusionPolicy("all")
+ */
 class RelatedReferenceRTImageSequence extends AbstractTag
 {
 

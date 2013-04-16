@@ -11,8 +11,12 @@
 
 namespace PHPExiftool\Driver\Tag\Pentax;
 
+use JMS\Serializer\Annotation\ExclusionPolicy;
 use PHPExiftool\Driver\AbstractTag;
 
+/**
+ * @ExclusionPolicy("all")
+ */
 class PictureMode2 extends AbstractTag
 {
 

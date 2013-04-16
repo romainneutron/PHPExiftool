@@ -11,8 +11,12 @@
 
 namespace PHPExiftool\Driver\Tag\APE;
 
+use JMS\Serializer\Annotation\ExclusionPolicy;
 use PHPExiftool\Driver\AbstractTag;
 
+/**
+ * @ExclusionPolicy("all")
+ */
 class ToolVersion extends AbstractTag
 {
 

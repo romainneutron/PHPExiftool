@@ -11,8 +11,12 @@
 
 namespace PHPExiftool\Driver\Tag\RealMDPR;
 
+use JMS\Serializer\Annotation\ExclusionPolicy;
 use PHPExiftool\Driver\AbstractTag;
 
+/**
+ * @ExclusionPolicy("all")
+ */
 class VideoQuality extends AbstractTag
 {
 

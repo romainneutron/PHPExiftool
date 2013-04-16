@@ -11,8 +11,12 @@
 
 namespace PHPExiftool\Driver\Tag\CanonCustom;
 
+use JMS\Serializer\Annotation\ExclusionPolicy;
 use PHPExiftool\Driver\AbstractTag;
 
+/**
+ * @ExclusionPolicy("all")
+ */
 class AFAssistBeam extends AbstractTag
 {
 

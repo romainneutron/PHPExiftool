@@ -11,8 +11,12 @@
 
 namespace PHPExiftool\Driver\Tag\XMPLr;
 
+use JMS\Serializer\Annotation\ExclusionPolicy;
 use PHPExiftool\Driver\AbstractTag;
 
+/**
+ * @ExclusionPolicy("all")
+ */
 class HierarchicalSubject extends AbstractTag
 {
 

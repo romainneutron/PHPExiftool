@@ -32,8 +32,9 @@ class Builder
     protected $properties;
     protected $extends;
     protected $uses;
+    protected $classAnnotations;
 
-    public function __construct($namespace, $classname, array $properties, $extends = null, Array $uses = array())
+    public function __construct($namespace, $classname, array $properties, $extends = null, Array $uses = array(), Array $classAnnotations = array())
     {
         $namespace = trim($namespace, '\\');
 
@@ -55,6 +56,7 @@ class Builder
         $this->properties = $properties;
         $this->extends = $extends;
         $this->uses = $uses;
+        $this->classAnnotations = $classAnnotations;
 
         return $this;
     }
@@ -105,6 +107,14 @@ class Builder
         }
         if ($this->uses) {
             $content .= "\n";
+        }
+
+        if ($this->classAnnotations) {
+            $content .= "/**\n";
+            foreach ($this->classAnnotations as $annotation) {
+                $content .= " * " . $annotation . "\n";
+            }
+            $content .= " */\n";
         }
 
         $content .= "class <classname>";

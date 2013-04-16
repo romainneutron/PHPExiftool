@@ -11,8 +11,12 @@
 
 namespace PHPExiftool\Driver\Tag\Real;
 
+use JMS\Serializer\Annotation\ExclusionPolicy;
 use PHPExiftool\Driver\AbstractTag;
 
+/**
+ * @ExclusionPolicy("all")
+ */
 class URL extends AbstractTag
 {
 

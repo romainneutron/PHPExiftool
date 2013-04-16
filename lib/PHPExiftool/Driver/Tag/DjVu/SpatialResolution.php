@@ -11,8 +11,12 @@
 
 namespace PHPExiftool\Driver\Tag\DjVu;
 
+use JMS\Serializer\Annotation\ExclusionPolicy;
 use PHPExiftool\Driver\AbstractTag;
 
+/**
+ * @ExclusionPolicy("all")
+ */
 class SpatialResolution extends AbstractTag
 {
 

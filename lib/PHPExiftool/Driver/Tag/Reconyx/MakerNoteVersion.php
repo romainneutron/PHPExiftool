@@ -11,8 +11,12 @@
 
 namespace PHPExiftool\Driver\Tag\Reconyx;
 
+use JMS\Serializer\Annotation\ExclusionPolicy;
 use PHPExiftool\Driver\AbstractTag;
 
+/**
+ * @ExclusionPolicy("all")
+ */
 class MakerNoteVersion extends AbstractTag
 {
 

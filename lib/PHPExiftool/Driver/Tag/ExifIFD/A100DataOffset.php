@@ -11,8 +11,12 @@
 
 namespace PHPExiftool\Driver\Tag\ExifIFD;
 
+use JMS\Serializer\Annotation\ExclusionPolicy;
 use PHPExiftool\Driver\AbstractTag;
 
+/**
+ * @ExclusionPolicy("all")
+ */
 class A100DataOffset extends AbstractTag
 {
 

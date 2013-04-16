@@ -11,8 +11,12 @@
 
 namespace PHPExiftool\Driver\Tag\XMPMwgColl;
 
+use JMS\Serializer\Annotation\ExclusionPolicy;
 use PHPExiftool\Driver\AbstractTag;
 
+/**
+ * @ExclusionPolicy("all")
+ */
 class CollectionName extends AbstractTag
 {
 

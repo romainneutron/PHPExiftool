@@ -11,8 +11,12 @@
 
 namespace PHPExiftool\Driver\Tag\HTMLNcc;
 
+use JMS\Serializer\Annotation\ExclusionPolicy;
 use PHPExiftool\Driver\AbstractTag;
 
+/**
+ * @ExclusionPolicy("all")
+ */
 class PageSpecial extends AbstractTag
 {
 

@@ -11,8 +11,12 @@
 
 namespace PHPExiftool\Driver\Tag\MinoltaRaw;
 
+use JMS\Serializer\Annotation\ExclusionPolicy;
 use PHPExiftool\Driver\AbstractTag;
 
+/**
+ * @ExclusionPolicy("all")
+ */
 class ColorTemperature extends AbstractTag
 {
 

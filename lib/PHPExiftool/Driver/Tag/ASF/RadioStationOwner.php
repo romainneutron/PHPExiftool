@@ -11,8 +11,12 @@
 
 namespace PHPExiftool\Driver\Tag\ASF;
 
+use JMS\Serializer\Annotation\ExclusionPolicy;
 use PHPExiftool\Driver\AbstractTag;
 
+/**
+ * @ExclusionPolicy("all")
+ */
 class RadioStationOwner extends AbstractTag
 {
 

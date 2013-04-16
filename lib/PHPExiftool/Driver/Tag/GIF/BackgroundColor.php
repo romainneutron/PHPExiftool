@@ -11,8 +11,12 @@
 
 namespace PHPExiftool\Driver\Tag\GIF;
 
+use JMS\Serializer\Annotation\ExclusionPolicy;
 use PHPExiftool\Driver\AbstractTag;
 
+/**
+ * @ExclusionPolicy("all")
+ */
 class BackgroundColor extends AbstractTag
 {
 

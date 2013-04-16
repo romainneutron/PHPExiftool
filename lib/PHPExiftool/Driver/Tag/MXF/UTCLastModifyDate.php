@@ -11,8 +11,12 @@
 
 namespace PHPExiftool\Driver\Tag\MXF;
 
+use JMS\Serializer\Annotation\ExclusionPolicy;
 use PHPExiftool\Driver\AbstractTag;
 
+/**
+ * @ExclusionPolicy("all")
+ */
 class UTCLastModifyDate extends AbstractTag
 {
 
@@ -36,6 +40,6 @@ class UTCLastModifyDate extends AbstractTag
 
     protected $Description = 'UTC Last Modify Date';
 
-    protected $local_g2 = 'mixed';
+    protected $local_g2 = 'Time';
 
 }

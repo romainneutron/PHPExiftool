@@ -11,8 +11,12 @@
 
 namespace PHPExiftool\Driver\Tag\Olympus;
 
+use JMS\Serializer\Annotation\ExclusionPolicy;
 use PHPExiftool\Driver\AbstractTag;
 
+/**
+ * @ExclusionPolicy("all")
+ */
 class Model extends AbstractTag
 {
 
@@ -1084,6 +1088,10 @@ class Model extends AbstractTag
         'SG555' => array(
             'Id' => 'SG555',
             'Label' => 'SZ-20',
+        ),
+        'SG573' => array(
+            'Id' => 'SG573',
+            'Label' => 'SZ-14',
         ),
         'SG575' => array(
             'Id' => 'SG575',

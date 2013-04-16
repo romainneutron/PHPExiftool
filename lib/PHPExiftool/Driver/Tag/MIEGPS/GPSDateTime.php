@@ -11,8 +11,12 @@
 
 namespace PHPExiftool\Driver\Tag\MIEGPS;
 
+use JMS\Serializer\Annotation\ExclusionPolicy;
 use PHPExiftool\Driver\AbstractTag;
 
+/**
+ * @ExclusionPolicy("all")
+ */
 class GPSDateTime extends AbstractTag
 {
 

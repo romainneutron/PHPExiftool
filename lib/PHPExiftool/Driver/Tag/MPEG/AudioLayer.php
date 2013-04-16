@@ -11,8 +11,12 @@
 
 namespace PHPExiftool\Driver\Tag\MPEG;
 
+use JMS\Serializer\Annotation\ExclusionPolicy;
 use PHPExiftool\Driver\AbstractTag;
 
+/**
+ * @ExclusionPolicy("all")
+ */
 class AudioLayer extends AbstractTag
 {
 

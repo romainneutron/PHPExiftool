@@ -11,8 +11,12 @@
 
 namespace PHPExiftool\Driver\Tag\Leica;
 
+use JMS\Serializer\Annotation\ExclusionPolicy;
 use PHPExiftool\Driver\AbstractTag;
 
+/**
+ * @ExclusionPolicy("all")
+ */
 class LensType extends AbstractTag
 {
 
@@ -32,7 +36,7 @@ class LensType extends AbstractTag
 
     protected $Type = 'mixed';
 
-    protected $Writable = true;
+    protected $Writable = false;
 
     protected $Description = 'Lens Type';
 

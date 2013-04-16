@@ -11,8 +11,12 @@
 
 namespace PHPExiftool\Driver\Tag\RIFF;
 
+use JMS\Serializer\Annotation\ExclusionPolicy;
 use PHPExiftool\Driver\AbstractTag;
 
+/**
+ * @ExclusionPolicy("all")
+ */
 class Sharpness extends AbstractTag
 {
 

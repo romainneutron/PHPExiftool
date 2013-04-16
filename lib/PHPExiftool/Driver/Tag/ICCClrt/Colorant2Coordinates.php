@@ -11,8 +11,12 @@
 
 namespace PHPExiftool\Driver\Tag\ICCClrt;
 
+use JMS\Serializer\Annotation\ExclusionPolicy;
 use PHPExiftool\Driver\AbstractTag;
 
+/**
+ * @ExclusionPolicy("all")
+ */
 class Colorant2Coordinates extends AbstractTag
 {
 

@@ -11,8 +11,12 @@
 
 namespace PHPExiftool\Driver\Tag\Canon;
 
+use JMS\Serializer\Annotation\ExclusionPolicy;
 use PHPExiftool\Driver\AbstractTag;
 
+/**
+ * @ExclusionPolicy("all")
+ */
 class LensType extends AbstractTag
 {
 
@@ -1059,6 +1063,14 @@ class LensType extends AbstractTag
             'Id' => 491,
             'Label' => 'Canon EF 300mm f/2.8L IS II USM',
         ),
+        492 => array(
+            'Id' => 492,
+            'Label' => 'Canon EF 400mm f/2.8L IS II USM',
+        ),
+        493 => array(
+            'Id' => 493,
+            'Label' => 'Canon EF 24-105mm f/4L IS USM',
+        ),
         494 => array(
             'Id' => 494,
             'Label' => 'Canon EF 600mm f/4.0L IS II USM',
@@ -1067,6 +1079,10 @@ class LensType extends AbstractTag
             'Id' => 495,
             'Label' => 'Canon EF 24-70mm f/2.8L II USM',
         ),
+        496 => array(
+            'Id' => 496,
+            'Label' => 'Canon EF 200-400mm f/4L IS USM',
+        ),
         502 => array(
             'Id' => 502,
             'Label' => 'Canon EF 28mm f/2.8 IS USM',
@@ -1074,6 +1090,10 @@ class LensType extends AbstractTag
         503 => array(
             'Id' => 503,
             'Label' => 'Canon EF 24mm f/2.8 IS USM',
+        ),
+        505 => array(
+            'Id' => 505,
+            'Label' => 'Canon EF 35mm f/2 IS USM',
         ),
         4142 => array(
             'Id' => 4142,

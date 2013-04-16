@@ -11,8 +11,12 @@
 
 namespace PHPExiftool\Driver\Tag\CanonVRD;
 
+use JMS\Serializer\Annotation\ExclusionPolicy;
 use PHPExiftool\Driver\AbstractTag;
 
+/**
+ * @ExclusionPolicy("all")
+ */
 class NeutralRawSharpness extends AbstractTag
 {
 

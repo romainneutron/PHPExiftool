@@ -11,8 +11,12 @@
 
 namespace PHPExiftool\Driver\Tag\MPImage;
 
+use JMS\Serializer\Annotation\ExclusionPolicy;
 use PHPExiftool\Driver\AbstractTag;
 
+/**
+ * @ExclusionPolicy("all")
+ */
 class DependentImage2EntryNumber extends AbstractTag
 {
 

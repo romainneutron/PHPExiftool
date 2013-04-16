@@ -11,8 +11,12 @@
 
 namespace PHPExiftool\Driver\Tag\XMPExif;
 
+use JMS\Serializer\Annotation\ExclusionPolicy;
 use PHPExiftool\Driver\AbstractTag;
 
+/**
+ * @ExclusionPolicy("all")
+ */
 class GPSImgDirection extends AbstractTag
 {
 

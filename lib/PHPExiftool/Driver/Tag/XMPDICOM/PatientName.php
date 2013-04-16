@@ -11,8 +11,12 @@
 
 namespace PHPExiftool\Driver\Tag\XMPDICOM;
 
+use JMS\Serializer\Annotation\ExclusionPolicy;
 use PHPExiftool\Driver\AbstractTag;
 
+/**
+ * @ExclusionPolicy("all")
+ */
 class PatientName extends AbstractTag
 {
 

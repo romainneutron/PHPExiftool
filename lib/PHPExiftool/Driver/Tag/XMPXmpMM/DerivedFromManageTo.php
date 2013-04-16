@@ -11,8 +11,12 @@
 
 namespace PHPExiftool\Driver\Tag\XMPXmpMM;
 
+use JMS\Serializer\Annotation\ExclusionPolicy;
 use PHPExiftool\Driver\AbstractTag;
 
+/**
+ * @ExclusionPolicy("all")
+ */
 class DerivedFromManageTo extends AbstractTag
 {
 

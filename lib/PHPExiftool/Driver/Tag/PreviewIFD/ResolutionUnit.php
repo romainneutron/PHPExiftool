@@ -11,8 +11,12 @@
 
 namespace PHPExiftool\Driver\Tag\PreviewIFD;
 
+use JMS\Serializer\Annotation\ExclusionPolicy;
 use PHPExiftool\Driver\AbstractTag;
 
+/**
+ * @ExclusionPolicy("all")
+ */
 class ResolutionUnit extends AbstractTag
 {
 

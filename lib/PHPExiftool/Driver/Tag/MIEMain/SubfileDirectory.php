@@ -11,8 +11,12 @@
 
 namespace PHPExiftool\Driver\Tag\MIEMain;
 
+use JMS\Serializer\Annotation\ExclusionPolicy;
 use PHPExiftool\Driver\AbstractTag;
 
+/**
+ * @ExclusionPolicy("all")
+ */
 class SubfileDirectory extends AbstractTag
 {
 

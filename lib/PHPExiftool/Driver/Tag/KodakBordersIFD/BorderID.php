@@ -11,8 +11,12 @@
 
 namespace PHPExiftool\Driver\Tag\KodakBordersIFD;
 
+use JMS\Serializer\Annotation\ExclusionPolicy;
 use PHPExiftool\Driver\AbstractTag;
 
+/**
+ * @ExclusionPolicy("all")
+ */
 class BorderID extends AbstractTag
 {
 

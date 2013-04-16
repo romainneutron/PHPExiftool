@@ -11,8 +11,12 @@
 
 namespace PHPExiftool\Driver\Tag\MIEPreview;
 
+use JMS\Serializer\Annotation\ExclusionPolicy;
 use PHPExiftool\Driver\AbstractTag;
 
+/**
+ * @ExclusionPolicy("all")
+ */
 class PreviewImageSize extends AbstractTag
 {
 

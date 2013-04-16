@@ -11,8 +11,12 @@
 
 namespace PHPExiftool\Driver\Tag\SonyIDC;
 
+use JMS\Serializer\Annotation\ExclusionPolicy;
 use PHPExiftool\Driver\AbstractTag;
 
+/**
+ * @ExclusionPolicy("all")
+ */
 class NoiseReductionValue extends AbstractTag
 {
 

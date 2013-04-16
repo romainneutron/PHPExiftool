@@ -11,8 +11,12 @@
 
 namespace PHPExiftool\Driver\Tag\Kodak;
 
+use JMS\Serializer\Annotation\ExclusionPolicy;
 use PHPExiftool\Driver\AbstractTag;
 
+/**
+ * @ExclusionPolicy("all")
+ */
 class KodakSubIFD30x200a extends AbstractTag
 {
 

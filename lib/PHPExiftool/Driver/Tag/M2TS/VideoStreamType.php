@@ -11,8 +11,12 @@
 
 namespace PHPExiftool\Driver\Tag\M2TS;
 
+use JMS\Serializer\Annotation\ExclusionPolicy;
 use PHPExiftool\Driver\AbstractTag;
 
+/**
+ * @ExclusionPolicy("all")
+ */
 class VideoStreamType extends AbstractTag
 {
 

@@ -11,8 +11,12 @@
 
 namespace PHPExiftool\Driver\Tag\PDF;
 
+use JMS\Serializer\Annotation\ExclusionPolicy;
 use PHPExiftool\Driver\AbstractTag;
 
+/**
+ * @ExclusionPolicy("all")
+ */
 class SignatureUsageRights extends AbstractTag
 {
 

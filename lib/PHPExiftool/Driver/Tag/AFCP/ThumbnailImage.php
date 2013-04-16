@@ -11,8 +11,12 @@
 
 namespace PHPExiftool\Driver\Tag\AFCP;
 
+use JMS\Serializer\Annotation\ExclusionPolicy;
 use PHPExiftool\Driver\AbstractTag;
 
+/**
+ * @ExclusionPolicy("all")
+ */
 class ThumbnailImage extends AbstractTag
 {
 

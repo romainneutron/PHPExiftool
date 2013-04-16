@@ -11,8 +11,12 @@
 
 namespace PHPExiftool\Driver\Tag\GPS;
 
+use JMS\Serializer\Annotation\ExclusionPolicy;
 use PHPExiftool\Driver\AbstractTag;
 
+/**
+ * @ExclusionPolicy("all")
+ */
 class GPSLongitude extends AbstractTag
 {
 

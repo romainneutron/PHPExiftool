@@ -11,8 +11,12 @@
 
 namespace PHPExiftool\Driver\Tag\Stim;
 
+use JMS\Serializer\Annotation\ExclusionPolicy;
 use PHPExiftool\Driver\AbstractTag;
 
+/**
+ * @ExclusionPolicy("all")
+ */
 class ApplicationData extends AbstractTag
 {
 

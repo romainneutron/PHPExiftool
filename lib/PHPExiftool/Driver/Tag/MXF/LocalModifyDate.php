@@ -11,8 +11,12 @@
 
 namespace PHPExiftool\Driver\Tag\MXF;
 
+use JMS\Serializer\Annotation\ExclusionPolicy;
 use PHPExiftool\Driver\AbstractTag;
 
+/**
+ * @ExclusionPolicy("all")
+ */
 class LocalModifyDate extends AbstractTag
 {
 
@@ -35,5 +39,7 @@ class LocalModifyDate extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Local Modify Date';
+
+    protected $local_g2 = 'Time';
 
 }

@@ -11,8 +11,12 @@
 
 namespace PHPExiftool\Driver\Tag\XMPIptcExt;
 
+use JMS\Serializer\Annotation\ExclusionPolicy;
 use PHPExiftool\Driver\AbstractTag;
 
+/**
+ * @ExclusionPolicy("all")
+ */
 class RegistryItemID extends AbstractTag
 {
 

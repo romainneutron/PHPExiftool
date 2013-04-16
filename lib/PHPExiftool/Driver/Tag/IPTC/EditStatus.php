@@ -11,8 +11,12 @@
 
 namespace PHPExiftool\Driver\Tag\IPTC;
 
+use JMS\Serializer\Annotation\ExclusionPolicy;
 use PHPExiftool\Driver\AbstractTag;
 
+/**
+ * @ExclusionPolicy("all")
+ */
 class EditStatus extends AbstractTag
 {
 

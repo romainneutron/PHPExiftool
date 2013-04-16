@@ -11,8 +11,12 @@
 
 namespace PHPExiftool\Driver\Tag\HTML;
 
+use JMS\Serializer\Annotation\ExclusionPolicy;
 use PHPExiftool\Driver\AbstractTag;
 
+/**
+ * @ExclusionPolicy("all")
+ */
 class Author extends AbstractTag
 {
 

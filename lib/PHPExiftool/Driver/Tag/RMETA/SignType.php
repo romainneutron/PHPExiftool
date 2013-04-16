@@ -11,8 +11,12 @@
 
 namespace PHPExiftool\Driver\Tag\RMETA;
 
+use JMS\Serializer\Annotation\ExclusionPolicy;
 use PHPExiftool\Driver\AbstractTag;
 
+/**
+ * @ExclusionPolicy("all")
+ */
 class SignType extends AbstractTag
 {
 

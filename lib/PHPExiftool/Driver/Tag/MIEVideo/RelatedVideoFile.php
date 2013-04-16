@@ -11,8 +11,12 @@
 
 namespace PHPExiftool\Driver\Tag\MIEVideo;
 
+use JMS\Serializer\Annotation\ExclusionPolicy;
 use PHPExiftool\Driver\AbstractTag;
 
+/**
+ * @ExclusionPolicy("all")
+ */
 class RelatedVideoFile extends AbstractTag
 {
 

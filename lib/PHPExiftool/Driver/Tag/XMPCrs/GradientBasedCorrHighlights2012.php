@@ -11,8 +11,12 @@
 
 namespace PHPExiftool\Driver\Tag\XMPCrs;
 
+use JMS\Serializer\Annotation\ExclusionPolicy;
 use PHPExiftool\Driver\AbstractTag;
 
+/**
+ * @ExclusionPolicy("all")
+ */
 class GradientBasedCorrHighlights2012 extends AbstractTag
 {
 

@@ -11,8 +11,12 @@
 
 namespace PHPExiftool\Driver\Tag\MIEUTM;
 
+use JMS\Serializer\Annotation\ExclusionPolicy;
 use PHPExiftool\Driver\AbstractTag;
 
+/**
+ * @ExclusionPolicy("all")
+ */
 class UTMEasting extends AbstractTag
 {
 

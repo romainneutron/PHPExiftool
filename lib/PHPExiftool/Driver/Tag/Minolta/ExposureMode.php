@@ -11,8 +11,12 @@
 
 namespace PHPExiftool\Driver\Tag\Minolta;
 
+use JMS\Serializer\Annotation\ExclusionPolicy;
 use PHPExiftool\Driver\AbstractTag;
 
+/**
+ * @ExclusionPolicy("all")
+ */
 class ExposureMode extends AbstractTag
 {
 

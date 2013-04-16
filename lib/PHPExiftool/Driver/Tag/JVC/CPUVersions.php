@@ -11,8 +11,12 @@
 
 namespace PHPExiftool\Driver\Tag\JVC;
 
+use JMS\Serializer\Annotation\ExclusionPolicy;
 use PHPExiftool\Driver\AbstractTag;
 
+/**
+ * @ExclusionPolicy("all")
+ */
 class CPUVersions extends AbstractTag
 {
 

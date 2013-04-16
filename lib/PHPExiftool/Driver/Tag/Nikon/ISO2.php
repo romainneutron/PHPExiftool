@@ -11,8 +11,12 @@
 
 namespace PHPExiftool\Driver\Tag\Nikon;
 
+use JMS\Serializer\Annotation\ExclusionPolicy;
 use PHPExiftool\Driver\AbstractTag;
 
+/**
+ * @ExclusionPolicy("all")
+ */
 class ISO2 extends AbstractTag
 {
 

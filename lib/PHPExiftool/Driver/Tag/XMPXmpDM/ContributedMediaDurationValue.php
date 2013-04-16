@@ -11,8 +11,12 @@
 
 namespace PHPExiftool\Driver\Tag\XMPXmpDM;
 
+use JMS\Serializer\Annotation\ExclusionPolicy;
 use PHPExiftool\Driver\AbstractTag;
 
+/**
+ * @ExclusionPolicy("all")
+ */
 class ContributedMediaDurationValue extends AbstractTag
 {
 

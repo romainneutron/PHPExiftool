@@ -11,8 +11,12 @@
 
 namespace PHPExiftool\Driver\Tag\XMPMP1;
 
+use JMS\Serializer\Annotation\ExclusionPolicy;
 use PHPExiftool\Driver\AbstractTag;
 
+/**
+ * @ExclusionPolicy("all")
+ */
 class PanoramicStitchPhi1 extends AbstractTag
 {
 

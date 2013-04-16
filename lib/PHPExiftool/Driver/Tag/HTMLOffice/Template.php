@@ -11,8 +11,12 @@
 
 namespace PHPExiftool\Driver\Tag\HTMLOffice;
 
+use JMS\Serializer\Annotation\ExclusionPolicy;
 use PHPExiftool\Driver\AbstractTag;
 
+/**
+ * @ExclusionPolicy("all")
+ */
 class Template extends AbstractTag
 {
 

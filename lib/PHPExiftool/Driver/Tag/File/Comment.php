@@ -11,8 +11,12 @@
 
 namespace PHPExiftool\Driver\Tag\File;
 
+use JMS\Serializer\Annotation\ExclusionPolicy;
 use PHPExiftool\Driver\AbstractTag;
 
+/**
+ * @ExclusionPolicy("all")
+ */
 class Comment extends AbstractTag
 {
 

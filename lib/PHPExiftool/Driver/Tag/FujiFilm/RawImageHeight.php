@@ -11,12 +11,16 @@
 
 namespace PHPExiftool\Driver\Tag\FujiFilm;
 
+use JMS\Serializer\Annotation\ExclusionPolicy;
 use PHPExiftool\Driver\AbstractTag;
 
+/**
+ * @ExclusionPolicy("all")
+ */
 class RawImageHeight extends AbstractTag
 {
 
-    protected $Id = 4;
+    protected $Id = 'mixed';
 
     protected $Name = 'RawImageHeight';
 
@@ -37,5 +41,7 @@ class RawImageHeight extends AbstractTag
     protected $Description = 'Raw Image Height';
 
     protected $flag_Permanent = true;
+
+    protected $Index = 1;
 
 }

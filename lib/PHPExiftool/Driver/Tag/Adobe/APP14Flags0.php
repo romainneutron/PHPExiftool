@@ -11,8 +11,12 @@
 
 namespace PHPExiftool\Driver\Tag\Adobe;
 
+use JMS\Serializer\Annotation\ExclusionPolicy;
 use PHPExiftool\Driver\AbstractTag;
 
+/**
+ * @ExclusionPolicy("all")
+ */
 class APP14Flags0 extends AbstractTag
 {
 

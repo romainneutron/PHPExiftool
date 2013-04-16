@@ -11,8 +11,12 @@
 
 namespace PHPExiftool\Driver\Tag\KodakEffectsIFD;
 
+use JMS\Serializer\Annotation\ExclusionPolicy;
 use PHPExiftool\Driver\AbstractTag;
 
+/**
+ * @ExclusionPolicy("all")
+ */
 class DigitalEffectsVersion extends AbstractTag
 {
 

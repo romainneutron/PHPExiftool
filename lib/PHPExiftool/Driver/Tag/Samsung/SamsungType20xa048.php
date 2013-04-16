@@ -11,8 +11,12 @@
 
 namespace PHPExiftool\Driver\Tag\Samsung;
 
+use JMS\Serializer\Annotation\ExclusionPolicy;
 use PHPExiftool\Driver\AbstractTag;
 
+/**
+ * @ExclusionPolicy("all")
+ */
 class SamsungType20xa048 extends AbstractTag
 {
 

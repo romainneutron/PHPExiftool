@@ -11,8 +11,12 @@
 
 namespace PHPExiftool\Driver\Tag\RealPROP;
 
+use JMS\Serializer\Annotation\ExclusionPolicy;
 use PHPExiftool\Driver\AbstractTag;
 
+/**
+ * @ExclusionPolicy("all")
+ */
 class DataOffset extends AbstractTag
 {
 

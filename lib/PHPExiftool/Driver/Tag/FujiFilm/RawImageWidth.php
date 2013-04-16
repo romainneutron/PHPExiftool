@@ -11,12 +11,16 @@
 
 namespace PHPExiftool\Driver\Tag\FujiFilm;
 
+use JMS\Serializer\Annotation\ExclusionPolicy;
 use PHPExiftool\Driver\AbstractTag;
 
+/**
+ * @ExclusionPolicy("all")
+ */
 class RawImageWidth extends AbstractTag
 {
 
-    protected $Id = 0;
+    protected $Id = 'mixed';
 
     protected $Name = 'RawImageWidth';
 

@@ -11,8 +11,12 @@
 
 namespace PHPExiftool\Driver\Tag\NikonCapture;
 
+use JMS\Serializer\Annotation\ExclusionPolicy;
 use PHPExiftool\Driver\AbstractTag;
 
+/**
+ * @ExclusionPolicy("all")
+ */
 class WBAdjLighting extends AbstractTag
 {
 

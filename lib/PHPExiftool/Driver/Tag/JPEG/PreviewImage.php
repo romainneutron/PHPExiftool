@@ -11,8 +11,12 @@
 
 namespace PHPExiftool\Driver\Tag\JPEG;
 
+use JMS\Serializer\Annotation\ExclusionPolicy;
 use PHPExiftool\Driver\AbstractTag;
 
+/**
+ * @ExclusionPolicy("all")
+ */
 class PreviewImage extends AbstractTag
 {
 

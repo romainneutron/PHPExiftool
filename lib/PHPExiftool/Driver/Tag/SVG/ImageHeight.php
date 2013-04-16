@@ -11,8 +11,12 @@
 
 namespace PHPExiftool\Driver\Tag\SVG;
 
+use JMS\Serializer\Annotation\ExclusionPolicy;
 use PHPExiftool\Driver\AbstractTag;
 
+/**
+ * @ExclusionPolicy("all")
+ */
 class ImageHeight extends AbstractTag
 {
 

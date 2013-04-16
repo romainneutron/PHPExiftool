@@ -11,8 +11,12 @@
 
 namespace PHPExiftool\Driver\Tag\Theora;
 
+use JMS\Serializer\Annotation\ExclusionPolicy;
 use PHPExiftool\Driver\AbstractTag;
 
+/**
+ * @ExclusionPolicy("all")
+ */
 class PixelAspectRatio extends AbstractTag
 {
 

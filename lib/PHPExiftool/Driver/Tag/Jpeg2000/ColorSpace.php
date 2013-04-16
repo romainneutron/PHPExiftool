@@ -11,8 +11,12 @@
 
 namespace PHPExiftool\Driver\Tag\Jpeg2000;
 
+use JMS\Serializer\Annotation\ExclusionPolicy;
 use PHPExiftool\Driver\AbstractTag;
 
+/**
+ * @ExclusionPolicy("all")
+ */
 class ColorSpace extends AbstractTag
 {
 

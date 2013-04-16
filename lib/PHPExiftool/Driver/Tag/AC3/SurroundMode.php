@@ -11,8 +11,12 @@
 
 namespace PHPExiftool\Driver\Tag\AC3;
 
+use JMS\Serializer\Annotation\ExclusionPolicy;
 use PHPExiftool\Driver\AbstractTag;
 
+/**
+ * @ExclusionPolicy("all")
+ */
 class SurroundMode extends AbstractTag
 {
 

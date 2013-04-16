@@ -11,8 +11,12 @@
 
 namespace PHPExiftool\Driver\Tag\H264;
 
+use JMS\Serializer\Annotation\ExclusionPolicy;
 use PHPExiftool\Driver\AbstractTag;
 
+/**
+ * @ExclusionPolicy("all")
+ */
 class CaptureFrameRate extends AbstractTag
 {
 

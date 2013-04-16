@@ -11,8 +11,12 @@
 
 namespace PHPExiftool\Driver\Tag\FLAC;
 
+use JMS\Serializer\Annotation\ExclusionPolicy;
 use PHPExiftool\Driver\AbstractTag;
 
+/**
+ * @ExclusionPolicy("all")
+ */
 class PictureDescription extends AbstractTag
 {
 

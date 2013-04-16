@@ -11,8 +11,12 @@
 
 namespace PHPExiftool\Driver\Tag\FujiFilm;
 
+use JMS\Serializer\Annotation\ExclusionPolicy;
 use PHPExiftool\Driver\AbstractTag;
 
+/**
+ * @ExclusionPolicy("all")
+ */
 class FujiFlashMode extends AbstractTag
 {
 

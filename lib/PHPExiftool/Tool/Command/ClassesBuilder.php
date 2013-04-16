@@ -301,7 +301,7 @@ class ClassesBuilder extends Command
                 }
             }
         } else {
-            $this->classes[$classpath] = new Builder($namespace, $classname, $properties, 'AbstractTag', array('\\PHPExiftool\\Driver\\AbstractTag'));
+            $this->classes[$classpath] = new Builder($namespace, $classname, $properties, 'AbstractTag', array('JMS\\Serializer\\Annotation\\ExclusionPolicy', '\\PHPExiftool\\Driver\\AbstractTag'), array('@ExclusionPolicy("all")'));
         }
 
         return;

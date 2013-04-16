@@ -11,8 +11,12 @@
 
 namespace PHPExiftool\Driver\Tag\PNG;
 
+use JMS\Serializer\Annotation\ExclusionPolicy;
 use PHPExiftool\Driver\AbstractTag;
 
+/**
+ * @ExclusionPolicy("all")
+ */
 class SignificantBits extends AbstractTag
 {
 

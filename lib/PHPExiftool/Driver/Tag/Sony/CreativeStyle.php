@@ -11,8 +11,12 @@
 
 namespace PHPExiftool\Driver\Tag\Sony;
 
+use JMS\Serializer\Annotation\ExclusionPolicy;
 use PHPExiftool\Driver\AbstractTag;
 
+/**
+ * @ExclusionPolicy("all")
+ */
 class CreativeStyle extends AbstractTag
 {
 

@@ -11,8 +11,12 @@
 
 namespace PHPExiftool\Driver\Tag\XMPPlus;
 
+use JMS\Serializer\Annotation\ExclusionPolicy;
 use PHPExiftool\Driver\AbstractTag;
 
+/**
+ * @ExclusionPolicy("all")
+ */
 class Custom3 extends AbstractTag
 {
 

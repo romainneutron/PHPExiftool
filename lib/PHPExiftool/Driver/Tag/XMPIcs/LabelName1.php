@@ -11,8 +11,12 @@
 
 namespace PHPExiftool\Driver\Tag\XMPIcs;
 
+use JMS\Serializer\Annotation\ExclusionPolicy;
 use PHPExiftool\Driver\AbstractTag;
 
+/**
+ * @ExclusionPolicy("all")
+ */
 class LabelName1 extends AbstractTag
 {
 

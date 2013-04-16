@@ -11,8 +11,12 @@
 
 namespace PHPExiftool\Driver\Tag\HTTPEquiv;
 
+use JMS\Serializer\Annotation\ExclusionPolicy;
 use PHPExiftool\Driver\AbstractTag;
 
+/**
+ * @ExclusionPolicy("all")
+ */
 class SetCookie extends AbstractTag
 {
 

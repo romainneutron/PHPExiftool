@@ -11,8 +11,12 @@
 
 namespace PHPExiftool\Driver\Tag\Sony;
 
+use JMS\Serializer\Annotation\ExclusionPolicy;
 use PHPExiftool\Driver\AbstractTag;
 
+/**
+ * @ExclusionPolicy("all")
+ */
 class LensType extends AbstractTag
 {
 
@@ -487,6 +491,10 @@ class LensType extends AbstractTag
             'Id' => 146,
             'Label' => 'Voigtlander Macro APO-Lanthar 125mm F2.5 SL',
         ),
+        194 => array(
+            'Id' => 194,
+            'Label' => 'Tamron SP AF 17-50mm F2.8 XR Di II LD Aspherical [IF]',
+        ),
         255 => array(
             'Id' => 255,
             'Label' => 'Tamron Lens (255)',
@@ -501,7 +509,7 @@ class LensType extends AbstractTag
         ),
         '255.3' => array(
             'Id' => '255.3',
-            'Label' => 'Tamron AF 55-200mm F4-5.6 Di II',
+            'Label' => 'Tamron AF 55-200mm F4-5.6 Di II LD Macro',
         ),
         '255.4' => array(
             'Id' => '255.4',
@@ -985,30 +993,70 @@ class LensType extends AbstractTag
         ),
         '6553.1' => array(
             'Id' => '6553.1',
-            'Label' => 'Arax MC 35mm F2.8 Tilt+Shift',
+            'Label' => 'Sony E PZ 16-50mm F3.5-5.6 OSS',
+        ),
+        '6553.10' => array(
+            'Id' => '6553.10',
+            'Label' => 'Sony E 10-18mm F4 OSS',
+        ),
+        '6553.11' => array(
+            'Id' => '6553.11',
+            'Label' => 'Sony E 18-55mm F3.5-5.6 OSS',
+        ),
+        '6553.12' => array(
+            'Id' => '6553.12',
+            'Label' => 'Sony E 18-200mm F3.5-6.3 OSS',
+        ),
+        '6553.13' => array(
+            'Id' => '6553.13',
+            'Label' => 'Sony E 55-210mm F4.5-6.3 OSS',
+        ),
+        '6553.14' => array(
+            'Id' => '6553.14',
+            'Label' => 'Sony E 16mm F2.8',
+        ),
+        '6553.15' => array(
+            'Id' => '6553.15',
+            'Label' => 'Sony E 24mm F1.8 ZA',
+        ),
+        '6553.16' => array(
+            'Id' => '6553.16',
+            'Label' => 'Sony E 30mm F2.8',
+        ),
+        '6553.17' => array(
+            'Id' => '6553.17',
+            'Label' => 'Sony E 50mm F1.8 OSS',
         ),
         '6553.2' => array(
             'Id' => '6553.2',
-            'Label' => 'Arax MC 80mm F2.8 Tilt+Shift',
+            'Label' => 'Sony E 20mm F2.8 Pancake',
         ),
         '6553.3' => array(
             'Id' => '6553.3',
-            'Label' => 'Zenitar MF 16mm F2.8 Fisheye M42',
+            'Label' => 'Arax MC 35mm F2.8 Tilt+Shift',
         ),
         '6553.4' => array(
             'Id' => '6553.4',
-            'Label' => 'Samyang 500mm Mirror F8.0',
+            'Label' => 'Arax MC 80mm F2.8 Tilt+Shift',
         ),
         '6553.5' => array(
             'Id' => '6553.5',
-            'Label' => 'Pentacon Auto 135mm F2.8',
+            'Label' => 'Zenitar MF 16mm F2.8 Fisheye M42',
         ),
         '6553.6' => array(
             'Id' => '6553.6',
-            'Label' => 'Pentacon Auto 29mm F2.8',
+            'Label' => 'Samyang 500mm Mirror F8.0',
         ),
         '6553.7' => array(
             'Id' => '6553.7',
+            'Label' => 'Pentacon Auto 135mm F2.8',
+        ),
+        '6553.8' => array(
+            'Id' => '6553.8',
+            'Label' => 'Pentacon Auto 29mm F2.8',
+        ),
+        '6553.9' => array(
+            'Id' => '6553.9',
             'Label' => 'Helios 44-2 58mm F2.0',
         ),
         25501 => array(
@@ -1473,31 +1521,71 @@ class LensType extends AbstractTag
         ),
         '65535.1' => array(
             'Id' => '65535.1',
+            'Label' => 'Sony E PZ 16-50mm F3.5-5.6 OSS',
+        ),
+        '65535.10' => array(
+            'Id' => '65535.10',
+            'Label' => 'Sony E 20mm F2.8 Pancake',
+        ),
+        '65535.11' => array(
+            'Id' => '65535.11',
             'Label' => 'Arax MC 35mm F2.8 Tilt+Shift',
+        ),
+        '65535.12' => array(
+            'Id' => '65535.12',
+            'Label' => 'Arax MC 80mm F2.8 Tilt+Shift',
+        ),
+        '65535.13' => array(
+            'Id' => '65535.13',
+            'Label' => 'Zenitar MF 16mm F2.8 Fisheye M42',
+        ),
+        '65535.14' => array(
+            'Id' => '65535.14',
+            'Label' => 'Samyang 500mm Mirror F8.0',
+        ),
+        '65535.15' => array(
+            'Id' => '65535.15',
+            'Label' => 'Pentacon Auto 135mm F2.8',
+        ),
+        '65535.16' => array(
+            'Id' => '65535.16',
+            'Label' => 'Pentacon Auto 29mm F2.8',
+        ),
+        '65535.17' => array(
+            'Id' => '65535.17',
+            'Label' => 'Helios 44-2 58mm F2.0',
         ),
         '65535.2' => array(
             'Id' => '65535.2',
-            'Label' => 'Arax MC 80mm F2.8 Tilt+Shift',
+            'Label' => 'Sony E 10-18mm F4 OSS',
         ),
         '65535.3' => array(
             'Id' => '65535.3',
-            'Label' => 'Zenitar MF 16mm F2.8 Fisheye M42',
+            'Label' => 'Sony E 18-55mm F3.5-5.6 OSS',
         ),
         '65535.4' => array(
             'Id' => '65535.4',
-            'Label' => 'Samyang 500mm Mirror F8.0',
+            'Label' => 'Sony E 18-200mm F3.5-6.3 OSS',
         ),
         '65535.5' => array(
             'Id' => '65535.5',
-            'Label' => 'Pentacon Auto 135mm F2.8',
+            'Label' => 'Sony E 55-210mm F4.5-6.3 OSS',
         ),
         '65535.6' => array(
             'Id' => '65535.6',
-            'Label' => 'Pentacon Auto 29mm F2.8',
+            'Label' => 'Sony E 16mm F2.8',
         ),
         '65535.7' => array(
             'Id' => '65535.7',
-            'Label' => 'Helios 44-2 58mm F2.0',
+            'Label' => 'Sony E 24mm F1.8 ZA',
+        ),
+        '65535.8' => array(
+            'Id' => '65535.8',
+            'Label' => 'Sony E 30mm F2.8',
+        ),
+        '65535.9' => array(
+            'Id' => '65535.9',
+            'Label' => 'Sony E 50mm F1.8 OSS',
         ),
     );
 

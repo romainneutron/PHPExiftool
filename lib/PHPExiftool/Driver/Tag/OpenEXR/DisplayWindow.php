@@ -11,8 +11,12 @@
 
 namespace PHPExiftool\Driver\Tag\OpenEXR;
 
+use JMS\Serializer\Annotation\ExclusionPolicy;
 use PHPExiftool\Driver\AbstractTag;
 
+/**
+ * @ExclusionPolicy("all")
+ */
 class DisplayWindow extends AbstractTag
 {
 

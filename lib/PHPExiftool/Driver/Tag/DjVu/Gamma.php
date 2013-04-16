@@ -11,8 +11,12 @@
 
 namespace PHPExiftool\Driver\Tag\DjVu;
 
+use JMS\Serializer\Annotation\ExclusionPolicy;
 use PHPExiftool\Driver\AbstractTag;
 
+/**
+ * @ExclusionPolicy("all")
+ */
 class Gamma extends AbstractTag
 {
 

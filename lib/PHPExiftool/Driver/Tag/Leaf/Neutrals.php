@@ -11,8 +11,12 @@
 
 namespace PHPExiftool\Driver\Tag\Leaf;
 
+use JMS\Serializer\Annotation\ExclusionPolicy;
 use PHPExiftool\Driver\AbstractTag;
 
+/**
+ * @ExclusionPolicy("all")
+ */
 class Neutrals extends AbstractTag
 {
 

@@ -11,8 +11,12 @@
 
 namespace PHPExiftool\Driver\Tag\ID3v22;
 
+use JMS\Serializer\Annotation\ExclusionPolicy;
 use PHPExiftool\Driver\AbstractTag;
 
+/**
+ * @ExclusionPolicy("all")
+ */
 class ISRC extends AbstractTag
 {
 

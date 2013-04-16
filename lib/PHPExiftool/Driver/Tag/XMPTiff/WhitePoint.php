@@ -11,8 +11,12 @@
 
 namespace PHPExiftool\Driver\Tag\XMPTiff;
 
+use JMS\Serializer\Annotation\ExclusionPolicy;
 use PHPExiftool\Driver\AbstractTag;
 
+/**
+ * @ExclusionPolicy("all")
+ */
 class WhitePoint extends AbstractTag
 {
 

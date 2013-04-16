@@ -11,8 +11,12 @@
 
 namespace PHPExiftool\Driver\Tag\MIEOrient;
 
+use JMS\Serializer\Annotation\ExclusionPolicy;
 use PHPExiftool\Driver\AbstractTag;
 
+/**
+ * @ExclusionPolicy("all")
+ */
 class Azimuth extends AbstractTag
 {
 

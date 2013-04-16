@@ -11,8 +11,12 @@
 
 namespace PHPExiftool\Driver\Tag\AdobeCM;
 
+use JMS\Serializer\Annotation\ExclusionPolicy;
 use PHPExiftool\Driver\AbstractTag;
 
+/**
+ * @ExclusionPolicy("all")
+ */
 class AdobeCMType extends AbstractTag
 {
 

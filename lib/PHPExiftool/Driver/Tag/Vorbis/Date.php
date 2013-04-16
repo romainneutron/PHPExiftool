@@ -11,8 +11,12 @@
 
 namespace PHPExiftool\Driver\Tag\Vorbis;
 
+use JMS\Serializer\Annotation\ExclusionPolicy;
 use PHPExiftool\Driver\AbstractTag;
 
+/**
+ * @ExclusionPolicy("all")
+ */
 class Date extends AbstractTag
 {
 

@@ -11,8 +11,12 @@
 
 namespace PHPExiftool\Driver\Tag\EPPIM;
 
+use JMS\Serializer\Annotation\ExclusionPolicy;
 use PHPExiftool\Driver\AbstractTag;
 
+/**
+ * @ExclusionPolicy("all")
+ */
 class PrintIM extends AbstractTag
 {
 

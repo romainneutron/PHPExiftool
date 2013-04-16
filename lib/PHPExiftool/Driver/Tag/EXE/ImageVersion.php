@@ -11,8 +11,12 @@
 
 namespace PHPExiftool\Driver\Tag\EXE;
 
+use JMS\Serializer\Annotation\ExclusionPolicy;
 use PHPExiftool\Driver\AbstractTag;
 
+/**
+ * @ExclusionPolicy("all")
+ */
 class ImageVersion extends AbstractTag
 {
 

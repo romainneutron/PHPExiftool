@@ -11,8 +11,12 @@
 
 namespace PHPExiftool\Driver\Tag\NikonCustom;
 
+use JMS\Serializer\Annotation\ExclusionPolicy;
 use PHPExiftool\Driver\AbstractTag;
 
+/**
+ * @ExclusionPolicy("all")
+ */
 class FocusPointWrap extends AbstractTag
 {
 

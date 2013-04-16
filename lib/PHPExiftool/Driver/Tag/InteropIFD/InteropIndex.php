@@ -11,8 +11,12 @@
 
 namespace PHPExiftool\Driver\Tag\InteropIFD;
 
+use JMS\Serializer\Annotation\ExclusionPolicy;
 use PHPExiftool\Driver\AbstractTag;
 
+/**
+ * @ExclusionPolicy("all")
+ */
 class InteropIndex extends AbstractTag
 {
 

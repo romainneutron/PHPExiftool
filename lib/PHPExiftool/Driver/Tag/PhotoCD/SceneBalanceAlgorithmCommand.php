@@ -11,8 +11,12 @@
 
 namespace PHPExiftool\Driver\Tag\PhotoCD;
 
+use JMS\Serializer\Annotation\ExclusionPolicy;
 use PHPExiftool\Driver\AbstractTag;
 
+/**
+ * @ExclusionPolicy("all")
+ */
 class SceneBalanceAlgorithmCommand extends AbstractTag
 {
 

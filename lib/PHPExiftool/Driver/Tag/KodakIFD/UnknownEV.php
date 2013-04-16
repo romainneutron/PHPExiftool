@@ -11,8 +11,12 @@
 
 namespace PHPExiftool\Driver\Tag\KodakIFD;
 
+use JMS\Serializer\Annotation\ExclusionPolicy;
 use PHPExiftool\Driver\AbstractTag;
 
+/**
+ * @ExclusionPolicy("all")
+ */
 class UnknownEV extends AbstractTag
 {
 

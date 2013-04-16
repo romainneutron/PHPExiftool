@@ -11,8 +11,12 @@
 
 namespace PHPExiftool\Driver\Tag\MAC;
 
+use JMS\Serializer\Annotation\ExclusionPolicy;
 use PHPExiftool\Driver\AbstractTag;
 
+/**
+ * @ExclusionPolicy("all")
+ */
 class CompressionLevel extends AbstractTag
 {
 

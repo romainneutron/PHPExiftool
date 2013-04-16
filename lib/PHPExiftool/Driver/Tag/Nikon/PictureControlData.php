@@ -11,8 +11,12 @@
 
 namespace PHPExiftool\Driver\Tag\Nikon;
 
+use JMS\Serializer\Annotation\ExclusionPolicy;
 use PHPExiftool\Driver\AbstractTag;
 
+/**
+ * @ExclusionPolicy("all")
+ */
 class PictureControlData extends AbstractTag
 {
 
@@ -37,5 +41,7 @@ class PictureControlData extends AbstractTag
     protected $Description = 'Picture Control Data';
 
     protected $flag_Binary = true;
+
+    protected $flag_Unsafe = true;
 
 }

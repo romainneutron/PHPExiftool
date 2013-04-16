@@ -11,8 +11,12 @@
 
 namespace PHPExiftool\Driver\Tag\SR2;
 
+use JMS\Serializer\Annotation\ExclusionPolicy;
 use PHPExiftool\Driver\AbstractTag;
 
+/**
+ * @ExclusionPolicy("all")
+ */
 class SR2SubIFDKey extends AbstractTag
 {
 

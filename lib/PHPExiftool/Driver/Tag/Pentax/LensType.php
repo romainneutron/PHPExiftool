@@ -11,8 +11,12 @@
 
 namespace PHPExiftool\Driver\Tag\Pentax;
 
+use JMS\Serializer\Annotation\ExclusionPolicy;
 use PHPExiftool\Driver\AbstractTag;
 
+/**
+ * @ExclusionPolicy("all")
+ */
 class LensType extends AbstractTag
 {
 
@@ -477,6 +481,10 @@ class LensType extends AbstractTag
             'Id' => '4 52',
             'Label' => 'smc PENTAX-D FA 100mm F2.8 Macro',
         ),
+        '4 56' => array(
+            'Id' => '4 56',
+            'Label' => 'Samsung D-XENON 100mm F2.8 Macro',
+        ),
         '4 75' => array(
             'Id' => '4 75',
             'Label' => 'Tamron SP AF 70-200mm F2.8 Di LD [IF] Macro (A001)',
@@ -901,17 +909,49 @@ class LensType extends AbstractTag
             'Id' => '10 0',
             'Label' => '645 A Series Lens',
         ),
+        '11 1' => array(
+            'Id' => '11 1',
+            'Label' => 'smc PENTAX-FA 645 75mm F2.8',
+        ),
+        '11 2' => array(
+            'Id' => '11 2',
+            'Label' => 'smc Pentax-FA 645 45mm F2.8',
+        ),
+        '11 3' => array(
+            'Id' => '11 3',
+            'Label' => 'smc PENTAX-FA* 645 300mm F4 ED [IF]',
+        ),
         '11 4' => array(
             'Id' => '11 4',
             'Label' => 'smc PENTAX-FA 645 45-85mm F4.5',
+        ),
+        '11 5' => array(
+            'Id' => '11 5',
+            'Label' => 'smc PENTAX-FA 645 400mm F5.6 ED [IF]',
+        ),
+        '11 7' => array(
+            'Id' => '11 7',
+            'Label' => 'smc PENTAX-FA 645 Macro 120mm F4',
         ),
         '11 8' => array(
             'Id' => '11 8',
             'Label' => 'smc PENTAX-FA 645 80-160mm F4.5',
         ),
+        '11 9' => array(
+            'Id' => '11 9',
+            'Label' => 'smc PENTAX-FA 645 200mm F4 [IF]',
+        ),
+        '11 10' => array(
+            'Id' => '11 10',
+            'Label' => 'smc PENTAX-FA 645 150mm F2.8 [IF]',
+        ),
         '11 11' => array(
             'Id' => '11 11',
             'Label' => 'smc PENTAX-FA 645 35mm F3.5 AL [IF]',
+        ),
+        '11 14' => array(
+            'Id' => '11 14',
+            'Label' => 'smc PENTAX-FA 645 55-110mm F5.6',
         ),
         '11 16' => array(
             'Id' => '11 16',

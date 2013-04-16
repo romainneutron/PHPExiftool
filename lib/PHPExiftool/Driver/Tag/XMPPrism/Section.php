@@ -11,8 +11,12 @@
 
 namespace PHPExiftool\Driver\Tag\XMPPrism;
 
+use JMS\Serializer\Annotation\ExclusionPolicy;
 use PHPExiftool\Driver\AbstractTag;
 
+/**
+ * @ExclusionPolicy("all")
+ */
 class Section extends AbstractTag
 {
 

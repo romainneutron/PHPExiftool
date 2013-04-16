@@ -11,8 +11,12 @@
 
 namespace PHPExiftool\Driver\Tag\Qualcomm;
 
+use JMS\Serializer\Annotation\ExclusionPolicy;
 use PHPExiftool\Driver\AbstractTag;
 
+/**
+ * @ExclusionPolicy("all")
+ */
 class AFTracePositions04 extends AbstractTag
 {
 

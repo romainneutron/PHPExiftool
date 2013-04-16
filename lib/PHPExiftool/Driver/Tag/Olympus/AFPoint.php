@@ -11,8 +11,12 @@
 
 namespace PHPExiftool\Driver\Tag\Olympus;
 
+use JMS\Serializer\Annotation\ExclusionPolicy;
 use PHPExiftool\Driver\AbstractTag;
 
+/**
+ * @ExclusionPolicy("all")
+ */
 class AFPoint extends AbstractTag
 {
 
@@ -132,30 +136,34 @@ class AFPoint extends AbstractTag
             'Label' => 'Bottom-right (vertical)',
         ),
         23 => array(
+            'Id' => 31,
+            'Label' => 'n/a',
+        ),
+        24 => array(
             'Id' => 0,
             'Label' => '(none)',
         ),
-        24 => array(
+        25 => array(
             'Id' => 1,
             'Label' => 'Center',
         ),
-        25 => array(
+        26 => array(
             'Id' => 0,
             'Label' => 'Left (or n/a)',
         ),
-        26 => array(
+        27 => array(
             'Id' => 1,
             'Label' => 'Center (horizontal)',
         ),
-        27 => array(
+        28 => array(
             'Id' => 2,
             'Label' => 'Right',
         ),
-        28 => array(
+        29 => array(
             'Id' => 3,
             'Label' => 'Center (vertical)',
         ),
-        29 => array(
+        30 => array(
             'Id' => 255,
             'Label' => 'None',
         ),

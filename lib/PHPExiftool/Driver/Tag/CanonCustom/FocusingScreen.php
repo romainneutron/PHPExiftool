@@ -11,8 +11,12 @@
 
 namespace PHPExiftool\Driver\Tag\CanonCustom;
 
+use JMS\Serializer\Annotation\ExclusionPolicy;
 use PHPExiftool\Driver\AbstractTag;
 
+/**
+ * @ExclusionPolicy("all")
+ */
 class FocusingScreen extends AbstractTag
 {
 
@@ -73,29 +77,41 @@ class FocusingScreen extends AbstractTag
         ),
         8 => array(
             'Id' => 0,
-            'Label' => 'Ec-CIV',
+            'Label' => 'Eg-A II',
         ),
         9 => array(
             'Id' => 1,
-            'Label' => 'Ec-A,B,C,CII,CIII,D,H,I,L',
+            'Label' => 'Eg-D',
         ),
         10 => array(
             'Id' => 2,
-            'Label' => 'Ec-S',
+            'Label' => 'Eg-S',
         ),
         11 => array(
+            'Id' => 0,
+            'Label' => 'Ec-CIV',
+        ),
+        12 => array(
+            'Id' => 1,
+            'Label' => 'Ec-A,B,C,CII,CIII,D,H,I,L',
+        ),
+        13 => array(
+            'Id' => 2,
+            'Label' => 'Ec-S',
+        ),
+        14 => array(
             'Id' => 3,
             'Label' => 'Ec-N,R',
         ),
-        12 => array(
+        15 => array(
             'Id' => 0,
             'Label' => 'Ee-A',
         ),
-        13 => array(
+        16 => array(
             'Id' => 1,
             'Label' => 'Ee-D',
         ),
-        14 => array(
+        17 => array(
             'Id' => 2,
             'Label' => 'Ee-S',
         ),

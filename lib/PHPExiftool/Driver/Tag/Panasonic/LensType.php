@@ -11,8 +11,12 @@
 
 namespace PHPExiftool\Driver\Tag\Panasonic;
 
+use JMS\Serializer\Annotation\ExclusionPolicy;
 use PHPExiftool\Driver\AbstractTag;
 
+/**
+ * @ExclusionPolicy("all")
+ */
 class LensType extends AbstractTag
 {
 
@@ -32,7 +36,7 @@ class LensType extends AbstractTag
 
     protected $Type = 'string';
 
-    protected $Writable = true;
+    protected $Writable = false;
 
     protected $Description = 'Lens Type';
 

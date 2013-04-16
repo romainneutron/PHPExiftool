@@ -11,8 +11,12 @@
 
 namespace PHPExiftool\Driver\Tag\RAF;
 
+use JMS\Serializer\Annotation\ExclusionPolicy;
 use PHPExiftool\Driver\AbstractTag;
 
+/**
+ * @ExclusionPolicy("all")
+ */
 class WBGRGBLevels extends AbstractTag
 {
 

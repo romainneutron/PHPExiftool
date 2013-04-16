@@ -11,8 +11,12 @@
 
 namespace PHPExiftool\Driver\Tag\CanonRaw;
 
+use JMS\Serializer\Annotation\ExclusionPolicy;
 use PHPExiftool\Driver\AbstractTag;
 
+/**
+ * @ExclusionPolicy("all")
+ */
 class TargetImageType extends AbstractTag
 {
 

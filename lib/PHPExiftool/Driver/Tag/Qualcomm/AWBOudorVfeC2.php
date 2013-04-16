@@ -11,8 +11,12 @@
 
 namespace PHPExiftool\Driver\Tag\Qualcomm;
 
+use JMS\Serializer\Annotation\ExclusionPolicy;
 use PHPExiftool\Driver\AbstractTag;
 
+/**
+ * @ExclusionPolicy("all")
+ */
 class AWBOudorVfeC2 extends AbstractTag
 {
 

@@ -11,8 +11,12 @@
 
 namespace PHPExiftool\Driver\Tag\NikonCustom;
 
+use JMS\Serializer\Annotation\ExclusionPolicy;
 use PHPExiftool\Driver\AbstractTag;
 
+/**
+ * @ExclusionPolicy("all")
+ */
 class AFOnForMBD10 extends AbstractTag
 {
 

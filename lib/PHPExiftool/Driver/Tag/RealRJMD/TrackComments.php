@@ -11,8 +11,12 @@
 
 namespace PHPExiftool\Driver\Tag\RealRJMD;
 
+use JMS\Serializer\Annotation\ExclusionPolicy;
 use PHPExiftool\Driver\AbstractTag;
 
+/**
+ * @ExclusionPolicy("all")
+ */
 class TrackComments extends AbstractTag
 {
 

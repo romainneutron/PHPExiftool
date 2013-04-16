@@ -11,8 +11,12 @@
 
 namespace PHPExiftool\Driver\Tag\ICCView;
 
+use JMS\Serializer\Annotation\ExclusionPolicy;
 use PHPExiftool\Driver\AbstractTag;
 
+/**
+ * @ExclusionPolicy("all")
+ */
 class ViewingCondIlluminant extends AbstractTag
 {
 

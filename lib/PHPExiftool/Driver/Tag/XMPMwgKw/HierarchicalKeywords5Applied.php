@@ -11,8 +11,12 @@
 
 namespace PHPExiftool\Driver\Tag\XMPMwgKw;
 
+use JMS\Serializer\Annotation\ExclusionPolicy;
 use PHPExiftool\Driver\AbstractTag;
 
+/**
+ * @ExclusionPolicy("all")
+ */
 class HierarchicalKeywords5Applied extends AbstractTag
 {
 

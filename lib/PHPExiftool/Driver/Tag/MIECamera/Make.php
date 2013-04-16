@@ -11,8 +11,12 @@
 
 namespace PHPExiftool\Driver\Tag\MIECamera;
 
+use JMS\Serializer\Annotation\ExclusionPolicy;
 use PHPExiftool\Driver\AbstractTag;
 
+/**
+ * @ExclusionPolicy("all")
+ */
 class Make extends AbstractTag
 {
 

@@ -11,8 +11,12 @@
 
 namespace PHPExiftool\Driver\Tag\ICCMeta;
 
+use JMS\Serializer\Annotation\ExclusionPolicy;
 use PHPExiftool\Driver\AbstractTag;
 
+/**
+ * @ExclusionPolicy("all")
+ */
 class ManufacturerName extends AbstractTag
 {
 

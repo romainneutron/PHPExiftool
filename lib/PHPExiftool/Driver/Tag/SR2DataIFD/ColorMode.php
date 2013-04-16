@@ -11,8 +11,12 @@
 
 namespace PHPExiftool\Driver\Tag\SR2DataIFD;
 
+use JMS\Serializer\Annotation\ExclusionPolicy;
 use PHPExiftool\Driver\AbstractTag;
 
+/**
+ * @ExclusionPolicy("all")
+ */
 class ColorMode extends AbstractTag
 {
 

@@ -11,8 +11,12 @@
 
 namespace PHPExiftool\Driver\Tag\PSP;
 
+use JMS\Serializer\Annotation\ExclusionPolicy;
 use PHPExiftool\Driver\AbstractTag;
 
+/**
+ * @ExclusionPolicy("all")
+ */
 class Planes extends AbstractTag
 {
 

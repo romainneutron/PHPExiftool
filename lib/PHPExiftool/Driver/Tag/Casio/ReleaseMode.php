@@ -11,8 +11,12 @@
 
 namespace PHPExiftool\Driver\Tag\Casio;
 
+use JMS\Serializer\Annotation\ExclusionPolicy;
 use PHPExiftool\Driver\AbstractTag;
 
+/**
+ * @ExclusionPolicy("all")
+ */
 class ReleaseMode extends AbstractTag
 {
 

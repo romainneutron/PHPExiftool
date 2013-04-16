@@ -11,8 +11,12 @@
 
 namespace PHPExiftool\Driver\Tag\MetaIFD;
 
+use JMS\Serializer\Annotation\ExclusionPolicy;
 use PHPExiftool\Driver\AbstractTag;
 
+/**
+ * @ExclusionPolicy("all")
+ */
 class CaptureConditionsPAR extends AbstractTag
 {
 

@@ -11,8 +11,14 @@
 
 namespace PHPExiftool\Driver;
 
+use JMS\Serializer\Annotation\SerializedName;
+use JMS\Serializer\Annotation\VirtualProperty;
+use JMS\Serializer\Annotation\ExclusionPolicy;
+
 /**
  * Abstract Tag object
+ *
+ * @ExclusionPolicy("all")
  *
  * @author      Romain Neutron - imprec@gmail.com
  * @license     http://opensource.org/licenses/MIT MIT
@@ -47,6 +53,8 @@ abstract class AbstractTag implements TagInterface
     /**
      * Return Tag Id - Tag dependant
      *
+     * @VirtualProperty
+     *
      * @return string
      */
     public function getId()
@@ -57,6 +65,8 @@ abstract class AbstractTag implements TagInterface
     /**
      * Return the tag name
      *
+     * @VirtualProperty
+     *
      * @return string
      */
     public function getName()
@@ -66,6 +76,8 @@ abstract class AbstractTag implements TagInterface
 
     /**
      * A small string about the Tag
+     *
+     * @VirtualProperty
      *
      * @return string
      */
@@ -78,6 +90,8 @@ abstract class AbstractTag implements TagInterface
      * An array of available values for this tag
      * Other values should not be allowed
      *
+     * @VirtualProperty
+     *
      * @return array
      */
     public function getValues()
@@ -87,6 +101,8 @@ abstract class AbstractTag implements TagInterface
 
     /**
      * Returns true if the Tag handles list values
+     *
+     * @VirtualProperty
      *
      * @return boolean
      */
@@ -98,6 +114,8 @@ abstract class AbstractTag implements TagInterface
     /**
      * Returns true if the value is binary
      *
+     * @VirtualProperty
+     *
      * @return type
      */
     public function isBinary()
@@ -107,6 +125,8 @@ abstract class AbstractTag implements TagInterface
 
     /**
      * Returns tag group name
+     *
+     * @VirtualProperty
      *
      * @return string
      */
@@ -118,6 +138,8 @@ abstract class AbstractTag implements TagInterface
     /**
      * Returns true if the value can be written in the tag
      *
+     * @VirtualProperty
+     *
      * @return type
      */
     public function isWritable()
@@ -128,6 +150,8 @@ abstract class AbstractTag implements TagInterface
     /**
      * Return the tagname path ; ie GroupName:Name
      *
+     * @VirtualProperty
+     *
      * @return type
      */
     public function getTagname()
@@ -135,11 +159,23 @@ abstract class AbstractTag implements TagInterface
         return $this->GroupName . ':' . $this->Name;
     }
 
+    /**
+     *
+     * @VirtualProperty
+     *
+     * @return integer
+     */
     public function getMinLength()
     {
         return $this->MinLength;
     }
 
+    /**
+     *
+     * @VirtualProperty
+     *
+     * @return integer
+     */
     public function getMaxLength()
     {
         return $this->MaxLength;

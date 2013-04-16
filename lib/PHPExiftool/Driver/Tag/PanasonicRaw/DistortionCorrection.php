@@ -11,8 +11,12 @@
 
 namespace PHPExiftool\Driver\Tag\PanasonicRaw;
 
+use JMS\Serializer\Annotation\ExclusionPolicy;
 use PHPExiftool\Driver\AbstractTag;
 
+/**
+ * @ExclusionPolicy("all")
+ */
 class DistortionCorrection extends AbstractTag
 {
 

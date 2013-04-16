@@ -11,8 +11,12 @@
 
 namespace PHPExiftool\Driver\Tag\ICCProfile;
 
+use JMS\Serializer\Annotation\ExclusionPolicy;
 use PHPExiftool\Driver\AbstractTag;
 
+/**
+ * @ExclusionPolicy("all")
+ */
 class ProfileDescriptionML extends AbstractTag
 {
 

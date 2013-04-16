@@ -11,8 +11,12 @@
 
 namespace PHPExiftool\Driver\Tag\Leica;
 
+use JMS\Serializer\Annotation\ExclusionPolicy;
 use PHPExiftool\Driver\AbstractTag;
 
+/**
+ * @ExclusionPolicy("all")
+ */
 class SensorHeight extends AbstractTag
 {
 

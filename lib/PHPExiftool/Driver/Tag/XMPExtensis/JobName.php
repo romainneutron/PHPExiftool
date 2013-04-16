@@ -11,8 +11,12 @@
 
 namespace PHPExiftool\Driver\Tag\XMPExtensis;
 
+use JMS\Serializer\Annotation\ExclusionPolicy;
 use PHPExiftool\Driver\AbstractTag;
 
+/**
+ * @ExclusionPolicy("all")
+ */
 class JobName extends AbstractTag
 {
 

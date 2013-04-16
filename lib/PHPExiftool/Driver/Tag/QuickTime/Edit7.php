@@ -11,8 +11,12 @@
 
 namespace PHPExiftool\Driver\Tag\QuickTime;
 
+use JMS\Serializer\Annotation\ExclusionPolicy;
 use PHPExiftool\Driver\AbstractTag;
 
+/**
+ * @ExclusionPolicy("all")
+ */
 class Edit7 extends AbstractTag
 {
 

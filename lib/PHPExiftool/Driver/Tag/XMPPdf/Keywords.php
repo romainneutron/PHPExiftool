@@ -11,8 +11,12 @@
 
 namespace PHPExiftool\Driver\Tag\XMPPdf;
 
+use JMS\Serializer\Annotation\ExclusionPolicy;
 use PHPExiftool\Driver\AbstractTag;
 
+/**
+ * @ExclusionPolicy("all")
+ */
 class Keywords extends AbstractTag
 {
 

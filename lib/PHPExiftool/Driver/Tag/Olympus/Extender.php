@@ -11,8 +11,12 @@
 
 namespace PHPExiftool\Driver\Tag\Olympus;
 
+use JMS\Serializer\Annotation\ExclusionPolicy;
 use PHPExiftool\Driver\AbstractTag;
 
+/**
+ * @ExclusionPolicy("all")
+ */
 class Extender extends AbstractTag
 {
 
@@ -39,20 +43,20 @@ class Extender extends AbstractTag
     protected $flag_Permanent = true;
 
     protected $Values = array(
-        '0 0' => array(
-            'Id' => '0 0',
+        '0 00' => array(
+            'Id' => '0 00',
             'Label' => 'None',
         ),
-        '0 4' => array(
-            'Id' => '0 4',
+        '0 04' => array(
+            'Id' => '0 04',
             'Label' => 'Olympus Zuiko Digital EC-14 1.4x Teleconverter',
         ),
-        '0 8' => array(
-            'Id' => '0 8',
+        '0 08' => array(
+            'Id' => '0 08',
             'Label' => 'Olympus EX-25 Extension Tube',
         ),
-        '0 16' => array(
-            'Id' => '0 16',
+        '0 10' => array(
+            'Id' => '0 10',
             'Label' => 'Olympus Zuiko Digital EC-20 2.0x Teleconverter',
         ),
     );

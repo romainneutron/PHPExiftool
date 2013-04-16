@@ -11,8 +11,12 @@
 
 namespace PHPExiftool\Driver\Tag\PhotoMechanic;
 
+use JMS\Serializer\Annotation\ExclusionPolicy;
 use PHPExiftool\Driver\AbstractTag;
 
+/**
+ * @ExclusionPolicy("all")
+ */
 class PreviewCropLeft extends AbstractTag
 {
 

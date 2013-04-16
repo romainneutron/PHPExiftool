@@ -11,8 +11,12 @@
 
 namespace PHPExiftool\Driver\Tag\AVI1;
 
+use JMS\Serializer\Annotation\ExclusionPolicy;
 use PHPExiftool\Driver\AbstractTag;
 
+/**
+ * @ExclusionPolicy("all")
+ */
 class InterleavedField extends AbstractTag
 {
 

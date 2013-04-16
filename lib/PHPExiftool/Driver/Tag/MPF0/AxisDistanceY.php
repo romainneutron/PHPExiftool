@@ -11,8 +11,12 @@
 
 namespace PHPExiftool\Driver\Tag\MPF0;
 
+use JMS\Serializer\Annotation\ExclusionPolicy;
 use PHPExiftool\Driver\AbstractTag;
 
+/**
+ * @ExclusionPolicy("all")
+ */
 class AxisDistanceY extends AbstractTag
 {
 

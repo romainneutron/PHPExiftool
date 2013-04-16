@@ -11,8 +11,12 @@
 
 namespace PHPExiftool\Driver\Tag\RTF;
 
+use JMS\Serializer\Annotation\ExclusionPolicy;
 use PHPExiftool\Driver\AbstractTag;
 
+/**
+ * @ExclusionPolicy("all")
+ */
 class Title extends AbstractTag
 {
 

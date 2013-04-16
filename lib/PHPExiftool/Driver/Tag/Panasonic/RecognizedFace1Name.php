@@ -11,8 +11,12 @@
 
 namespace PHPExiftool\Driver\Tag\Panasonic;
 
+use JMS\Serializer\Annotation\ExclusionPolicy;
 use PHPExiftool\Driver\AbstractTag;
 
+/**
+ * @ExclusionPolicy("all")
+ */
 class RecognizedFace1Name extends AbstractTag
 {
 

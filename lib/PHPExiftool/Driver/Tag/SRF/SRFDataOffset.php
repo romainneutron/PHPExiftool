@@ -11,8 +11,12 @@
 
 namespace PHPExiftool\Driver\Tag\SRF;
 
+use JMS\Serializer\Annotation\ExclusionPolicy;
 use PHPExiftool\Driver\AbstractTag;
 
+/**
+ * @ExclusionPolicy("all")
+ */
 class SRFDataOffset extends AbstractTag
 {
 

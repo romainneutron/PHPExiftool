@@ -11,8 +11,12 @@
 
 namespace PHPExiftool\Driver\Tag\Sigma;
 
+use JMS\Serializer\Annotation\ExclusionPolicy;
 use PHPExiftool\Driver\AbstractTag;
 
+/**
+ * @ExclusionPolicy("all")
+ */
 class AdjustmentMode extends AbstractTag
 {
 

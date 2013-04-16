@@ -11,8 +11,12 @@
 
 namespace PHPExiftool\Driver\Tag\RealRA5;
 
+use JMS\Serializer\Annotation\ExclusionPolicy;
 use PHPExiftool\Driver\AbstractTag;
 
+/**
+ * @ExclusionPolicy("all")
+ */
 class SubPacketH extends AbstractTag
 {
 

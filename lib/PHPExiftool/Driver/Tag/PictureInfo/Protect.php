@@ -11,8 +11,12 @@
 
 namespace PHPExiftool\Driver\Tag\PictureInfo;
 
+use JMS\Serializer\Annotation\ExclusionPolicy;
 use PHPExiftool\Driver\AbstractTag;
 
+/**
+ * @ExclusionPolicy("all")
+ */
 class Protect extends AbstractTag
 {
 

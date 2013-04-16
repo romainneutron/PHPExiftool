@@ -11,8 +11,12 @@
 
 namespace PHPExiftool\Driver\Tag\Font;
 
+use JMS\Serializer\Annotation\ExclusionPolicy;
 use PHPExiftool\Driver\AbstractTag;
 
+/**
+ * @ExclusionPolicy("all")
+ */
 class WWSFamilyName extends AbstractTag
 {
 

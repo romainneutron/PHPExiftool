@@ -11,8 +11,12 @@
 
 namespace PHPExiftool\Driver\Tag\SR2SubIFD;
 
+use JMS\Serializer\Annotation\ExclusionPolicy;
 use PHPExiftool\Driver\AbstractTag;
 
+/**
+ * @ExclusionPolicy("all")
+ */
 class WBRGBLevelsShade extends AbstractTag
 {
 

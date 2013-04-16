@@ -11,8 +11,12 @@
 
 namespace PHPExiftool\Driver\Tag\MPC;
 
+use JMS\Serializer\Annotation\ExclusionPolicy;
 use PHPExiftool\Driver\AbstractTag;
 
+/**
+ * @ExclusionPolicy("all")
+ */
 class ReplayGainTrackGain extends AbstractTag
 {
 

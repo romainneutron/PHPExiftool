@@ -11,8 +11,12 @@
 
 namespace PHPExiftool\Driver\Tag\Track;
 
+use JMS\Serializer\Annotation\ExclusionPolicy;
 use PHPExiftool\Driver\AbstractTag;
 
+/**
+ * @ExclusionPolicy("all")
+ */
 class TrackCreateDate extends AbstractTag
 {
 

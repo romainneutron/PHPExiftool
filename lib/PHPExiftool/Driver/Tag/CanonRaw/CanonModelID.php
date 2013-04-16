@@ -11,8 +11,12 @@
 
 namespace PHPExiftool\Driver\Tag\CanonRaw;
 
+use JMS\Serializer\Annotation\ExclusionPolicy;
 use PHPExiftool\Driver\AbstractTag;
 
+/**
+ * @ExclusionPolicy("all")
+ */
 class CanonModelID extends AbstractTag
 {
 
@@ -715,9 +719,21 @@ class CanonModelID extends AbstractTag
             'Id' => 53936128,
             'Label' => 'PowerShot SX500 IS',
         ),
+        54001664 => array(
+            'Id' => 54001664,
+            'Label' => 'PowerShot N',
+        ),
         54067200 => array(
             'Id' => 54067200,
             'Label' => 'IXUS 245 HS / IXY 430F',
+        ),
+        54722560 => array(
+            'Id' => 54722560,
+            'Label' => 'PowerShot A2600',
+        ),
+        54919168 => array(
+            'Id' => 54919168,
+            'Label' => 'PowerShot ELPH 130 IS / IXUS 140',
         ),
         67371008 => array(
             'Id' => 67371008,

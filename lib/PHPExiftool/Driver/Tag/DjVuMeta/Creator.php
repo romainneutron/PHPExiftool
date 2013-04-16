@@ -11,8 +11,12 @@
 
 namespace PHPExiftool\Driver\Tag\DjVuMeta;
 
+use JMS\Serializer\Annotation\ExclusionPolicy;
 use PHPExiftool\Driver\AbstractTag;
 
+/**
+ * @ExclusionPolicy("all")
+ */
 class Creator extends AbstractTag
 {
 

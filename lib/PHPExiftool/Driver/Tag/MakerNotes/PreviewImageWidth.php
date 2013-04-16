@@ -11,8 +11,12 @@
 
 namespace PHPExiftool\Driver\Tag\MakerNotes;
 
+use JMS\Serializer\Annotation\ExclusionPolicy;
 use PHPExiftool\Driver\AbstractTag;
 
+/**
+ * @ExclusionPolicy("all")
+ */
 class PreviewImageWidth extends AbstractTag
 {
 

@@ -11,8 +11,12 @@
 
 namespace PHPExiftool\Driver\Tag\MIEAudio;
 
+use JMS\Serializer\Annotation\ExclusionPolicy;
 use PHPExiftool\Driver\AbstractTag;
 
+/**
+ * @ExclusionPolicy("all")
+ */
 class Duration extends AbstractTag
 {
 

@@ -11,8 +11,12 @@
 
 namespace PHPExiftool\Driver\Tag\IFD1;
 
+use JMS\Serializer\Annotation\ExclusionPolicy;
 use PHPExiftool\Driver\AbstractTag;
 
+/**
+ * @ExclusionPolicy("all")
+ */
 class ThumbnailLength extends AbstractTag
 {
 

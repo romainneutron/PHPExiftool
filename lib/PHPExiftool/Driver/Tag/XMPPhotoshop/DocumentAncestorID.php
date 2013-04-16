@@ -11,8 +11,12 @@
 
 namespace PHPExiftool\Driver\Tag\XMPPhotoshop;
 
+use JMS\Serializer\Annotation\ExclusionPolicy;
 use PHPExiftool\Driver\AbstractTag;
 
+/**
+ * @ExclusionPolicy("all")
+ */
 class DocumentAncestorID extends AbstractTag
 {
 

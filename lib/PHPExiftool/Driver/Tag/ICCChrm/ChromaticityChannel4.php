@@ -11,8 +11,12 @@
 
 namespace PHPExiftool\Driver\Tag\ICCChrm;
 
+use JMS\Serializer\Annotation\ExclusionPolicy;
 use PHPExiftool\Driver\AbstractTag;
 
+/**
+ * @ExclusionPolicy("all")
+ */
 class ChromaticityChannel4 extends AbstractTag
 {
 

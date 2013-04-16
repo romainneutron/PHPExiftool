@@ -11,8 +11,12 @@
 
 namespace PHPExiftool\Driver\Tag\MXF;
 
+use JMS\Serializer\Annotation\ExclusionPolicy;
 use PHPExiftool\Driver\AbstractTag;
 
+/**
+ * @ExclusionPolicy("all")
+ */
 class CornerLongitudePoint4 extends AbstractTag
 {
 

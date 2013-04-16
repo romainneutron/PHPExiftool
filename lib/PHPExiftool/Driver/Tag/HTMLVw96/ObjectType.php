@@ -11,8 +11,12 @@
 
 namespace PHPExiftool\Driver\Tag\HTMLVw96;
 
+use JMS\Serializer\Annotation\ExclusionPolicy;
 use PHPExiftool\Driver\AbstractTag;
 
+/**
+ * @ExclusionPolicy("all")
+ */
 class ObjectType extends AbstractTag
 {
 

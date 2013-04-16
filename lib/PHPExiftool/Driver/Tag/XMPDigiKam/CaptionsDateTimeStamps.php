@@ -11,8 +11,12 @@
 
 namespace PHPExiftool\Driver\Tag\XMPDigiKam;
 
+use JMS\Serializer\Annotation\ExclusionPolicy;
 use PHPExiftool\Driver\AbstractTag;
 
+/**
+ * @ExclusionPolicy("all")
+ */
 class CaptionsDateTimeStamps extends AbstractTag
 {
 
@@ -35,5 +39,7 @@ class CaptionsDateTimeStamps extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Captions Date Time Stamps';
+
+    protected $local_g2 = 'Time';
 
 }

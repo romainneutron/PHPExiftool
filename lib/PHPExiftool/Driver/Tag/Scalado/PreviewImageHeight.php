@@ -11,8 +11,12 @@
 
 namespace PHPExiftool\Driver\Tag\Scalado;
 
+use JMS\Serializer\Annotation\ExclusionPolicy;
 use PHPExiftool\Driver\AbstractTag;
 
+/**
+ * @ExclusionPolicy("all")
+ */
 class PreviewImageHeight extends AbstractTag
 {
 

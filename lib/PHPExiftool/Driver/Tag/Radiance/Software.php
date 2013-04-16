@@ -11,8 +11,12 @@
 
 namespace PHPExiftool\Driver\Tag\Radiance;
 
+use JMS\Serializer\Annotation\ExclusionPolicy;
 use PHPExiftool\Driver\AbstractTag;
 
+/**
+ * @ExclusionPolicy("all")
+ */
 class Software extends AbstractTag
 {
 

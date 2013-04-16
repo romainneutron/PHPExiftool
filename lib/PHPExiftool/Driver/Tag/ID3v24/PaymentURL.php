@@ -11,8 +11,12 @@
 
 namespace PHPExiftool\Driver\Tag\ID3v24;
 
+use JMS\Serializer\Annotation\ExclusionPolicy;
 use PHPExiftool\Driver\AbstractTag;
 
+/**
+ * @ExclusionPolicy("all")
+ */
 class PaymentURL extends AbstractTag
 {
 

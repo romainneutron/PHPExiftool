@@ -11,8 +11,12 @@
 
 namespace PHPExiftool\Driver\Tag\XMPAcdsee;
 
+use JMS\Serializer\Annotation\ExclusionPolicy;
 use PHPExiftool\Driver\AbstractTag;
 
+/**
+ * @ExclusionPolicy("all")
+ */
 class RPP extends AbstractTag
 {
 

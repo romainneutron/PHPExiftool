@@ -11,8 +11,12 @@
 
 namespace PHPExiftool\Driver\Tag\Composite;
 
+use JMS\Serializer\Annotation\ExclusionPolicy;
 use PHPExiftool\Driver\AbstractTag;
 
+/**
+ * @ExclusionPolicy("all")
+ */
 class LensID extends AbstractTag
 {
 
@@ -1613,7 +1617,7 @@ class LensID extends AbstractTag
         ),
         'B2 48 5C 80 30 30 B4 0E' => array(
             'Id' => 'B2 48 5C 80 30 30 B4 0E',
-            'Label' => 'AF-S Nikkor 70-200mm f/4 ED VR',
+            'Label' => 'AF-S Nikkor 70-200mm f/4G ED VR',
         ),
         'B3 4C 62 62 14 14 B5 06' => array(
             'Id' => 'B3 4C 62 62 14 14 B5 06',
@@ -1758,6 +1762,10 @@ class LensID extends AbstractTag
         'FA 54 3C 5E 24 24 84 06' => array(
             'Id' => 'FA 54 3C 5E 24 24 84 06',
             'Label' => 'Tamron SP AF 28-75mm f/2.8 XR Di LD Aspherical (IF) Macro (A09NII)',
+        ),
+        'FA 54 3C 5E 24 24 DF 06' => array(
+            'Id' => 'FA 54 3C 5E 24 24 DF 06',
+            'Label' => 'Tamron SP AF 28-75mm F/2.8 XR Di LD Aspherical (IF) Macro (A09NII)',
         ),
         'FA 54 6E 8E 24 24 4B 02' => array(
             'Id' => 'FA 54 6E 8E 24 24 4B 02',

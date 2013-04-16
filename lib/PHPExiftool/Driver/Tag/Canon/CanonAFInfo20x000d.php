@@ -11,8 +11,12 @@
 
 namespace PHPExiftool\Driver\Tag\Canon;
 
+use JMS\Serializer\Annotation\ExclusionPolicy;
 use PHPExiftool\Driver\AbstractTag;
 
+/**
+ * @ExclusionPolicy("all")
+ */
 class CanonAFInfo20x000d extends AbstractTag
 {
 

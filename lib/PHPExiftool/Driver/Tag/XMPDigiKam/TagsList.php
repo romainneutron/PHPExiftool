@@ -11,8 +11,12 @@
 
 namespace PHPExiftool\Driver\Tag\XMPDigiKam;
 
+use JMS\Serializer\Annotation\ExclusionPolicy;
 use PHPExiftool\Driver\AbstractTag;
 
+/**
+ * @ExclusionPolicy("all")
+ */
 class TagsList extends AbstractTag
 {
 

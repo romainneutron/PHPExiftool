@@ -11,8 +11,12 @@
 
 namespace PHPExiftool\Driver\Tag\MIEExtender;
 
+use JMS\Serializer\Annotation\ExclusionPolicy;
 use PHPExiftool\Driver\AbstractTag;
 
+/**
+ * @ExclusionPolicy("all")
+ */
 class ExtenderMake extends AbstractTag
 {
 

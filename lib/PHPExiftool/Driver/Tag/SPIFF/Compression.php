@@ -11,8 +11,12 @@
 
 namespace PHPExiftool\Driver\Tag\SPIFF;
 
+use JMS\Serializer\Annotation\ExclusionPolicy;
 use PHPExiftool\Driver\AbstractTag;
 
+/**
+ * @ExclusionPolicy("all")
+ */
 class Compression extends AbstractTag
 {
 

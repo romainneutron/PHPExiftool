@@ -11,8 +11,12 @@
 
 namespace PHPExiftool\Driver\Tag\XMPExpressionmedia;
 
+use JMS\Serializer\Annotation\ExclusionPolicy;
 use PHPExiftool\Driver\AbstractTag;
 
+/**
+ * @ExclusionPolicy("all")
+ */
 class CatalogSets extends AbstractTag
 {
 

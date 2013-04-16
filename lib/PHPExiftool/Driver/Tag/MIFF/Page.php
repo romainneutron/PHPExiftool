@@ -11,8 +11,12 @@
 
 namespace PHPExiftool\Driver\Tag\MIFF;
 
+use JMS\Serializer\Annotation\ExclusionPolicy;
 use PHPExiftool\Driver\AbstractTag;
 
+/**
+ * @ExclusionPolicy("all")
+ */
 class Page extends AbstractTag
 {
 

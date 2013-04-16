@@ -11,8 +11,12 @@
 
 namespace PHPExiftool\Driver\Tag\HTMLDc;
 
+use JMS\Serializer\Annotation\ExclusionPolicy;
 use PHPExiftool\Driver\AbstractTag;
 
+/**
+ * @ExclusionPolicy("all")
+ */
 class Relation extends AbstractTag
 {
 

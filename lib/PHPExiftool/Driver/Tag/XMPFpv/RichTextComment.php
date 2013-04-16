@@ -11,8 +11,12 @@
 
 namespace PHPExiftool\Driver\Tag\XMPFpv;
 
+use JMS\Serializer\Annotation\ExclusionPolicy;
 use PHPExiftool\Driver\AbstractTag;
 
+/**
+ * @ExclusionPolicy("all")
+ */
 class RichTextComment extends AbstractTag
 {
 
