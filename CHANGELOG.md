@@ -1,6 +1,10 @@
 CHANGELOG
 ---------
 
+* 0.2.2 (2013-04-17)
+
+  * Add missing files
+
 * 0.2.1 (2013-04-16)
 
   * Add Tags serialization through JMS Serializer
