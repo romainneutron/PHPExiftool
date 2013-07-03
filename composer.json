@@ -30,8 +30,8 @@
         "symfony/dom-crawler"  : "~2.0",
         "symfony/yaml"         : "~2.0",
         "jms/serializer"       : "~0.10",
-        "sami/sami"            : "dev-master@dev",
-        "silex/silex"          : "1.0.x-dev@dev"
+        "sami/sami"            : "~1.0",
+        "silex/silex"          : "~1.0"
     },
     "autoload": {
         "psr-0": {
