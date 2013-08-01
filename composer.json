@@ -33,6 +33,14 @@
         "sami/sami"            : "~1.0",
         "silex/silex"          : "~1.0"
     },
+    "scripts": {
+        "post-install-cmd": [
+            "bin/console classes-builder --write"
+        ],
+        "post-update-cmd": [
+            "bin/console classes-builder --write"
+        ]
+    },
     "autoload": {
         "psr-0": {
             "PHPExiftool": "lib"
