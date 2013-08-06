@@ -1,6 +1,10 @@
 CHANGELOG
 ---------
 
+* 0.3.0 (2013-xx-xx)
+
+  * Add possibility to erase metadata except ICC profile.
+
 * 0.2.2 (2013-04-17)
 
   * Add missing files
