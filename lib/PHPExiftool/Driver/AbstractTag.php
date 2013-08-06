@@ -11,7 +11,6 @@
 
 namespace PHPExiftool\Driver;
 
-use JMS\Serializer\Annotation\SerializedName;
 use JMS\Serializer\Annotation\VirtualProperty;
 use JMS\Serializer\Annotation\ExclusionPolicy;
 

@@ -123,7 +123,7 @@ class Reader implements \IteratorAggregate
      *      $Reader ->files('dc00.jpg')
      *              ->files(array('/tmp/image.jpg', '/tmp/raw.CR2'))
      *
-     * @param  string|array        $files The files
+     * @param  string|array $files The files
      * @return Reader
      */
     public function files($files)
@@ -144,7 +144,7 @@ class Reader implements \IteratorAggregate
      *      $Reader ->in('documents')
      *              ->in(array('/tmp', '/var'))
      *
-     * @param  string|array        $dirs The directories
+     * @param  string|array $dirs The directories
      * @return Reader
      */
     public function in($dirs)
@@ -159,7 +159,7 @@ class Reader implements \IteratorAggregate
      * Append a reader to this one.
      * Finale result will be the sum of the current reader and all appended ones.
      *
-     * @param  Reader              $reader The reader to append
+     * @param  Reader $reader The reader to append
      * @return Reader
      */
     public function append(Reader $reader)
@@ -183,7 +183,7 @@ class Reader implements \IteratorAggregate
      *      $Reader ->in('documents')
      *              ->sort('filename')
      *
-     * @param  string|array        $by
+     * @param  string|array $by
      * @return Reader
      */
     public function sort($by)
@@ -221,7 +221,7 @@ class Reader implements \IteratorAggregate
      *      $Reader ->in('documents')
      *              ->exclude(array('test'))
      *
-     * @param  string|array        $dirs The directories
+     * @param  string|array $dirs The directories
      * @return Reader
      */
     public function exclude($dirs)
@@ -236,8 +236,8 @@ class Reader implements \IteratorAggregate
      * Restrict / Discard files based on extensions
      * Extensions are case insensitive
      *
-     * @param  string|array             $extensions The list of extension
-     * @param  Boolean                  $restrict   Toggle restrict/discard method
+     * @param  string|array   $extensions The list of extension
+     * @param  Boolean        $restrict   Toggle restrict/discard method
      * @return Reader
      * @throws LogicException
      */
@@ -333,7 +333,7 @@ class Reader implements \IteratorAggregate
      */
     public function all()
     {
-        if ( ! $this->collection) {
+        if (! $this->collection) {
             $this->collection = $this->buildQueryAndExecute();
         }
 
@@ -384,7 +384,7 @@ class Reader implements \IteratorAggregate
             /**
              * In case no file found, an exit code 1 is returned
              */
-            if ( ! $this->ignoreDotFile) {
+            if (! $this->ignoreDotFile) {
                 throw $e;
             }
         }
@@ -401,8 +401,8 @@ class Reader implements \IteratorAggregate
     /**
      * Compute raw exclude rules to simple ones, based on exclude dirs and search dirs
      *
-     * @param  string                       $rawExcludeDirs
-     * @param  string                       $rawDirs
+     * @param  string           $rawExcludeDirs
+     * @param  string           $rawDirs
      * @return array
      * @throws RuntimeException
      */
@@ -420,7 +420,7 @@ class Reader implements \IteratorAggregate
 
                 $supposedExcluded = str_replace($currentPrefix, '', realpath($currentPrefix . $excludeDir));
 
-                if ( ! $supposedExcluded) {
+                if (! $supposedExcluded) {
                     continue;
                 }
 
@@ -465,7 +465,7 @@ class Reader implements \IteratorAggregate
             }
 
 
-            if ( ! $found) {
+            if (! $found) {
                 throw new RuntimeException(sprintf("Invalid exclude dir %s ; Exclude dir is limited to the name of a directory at first depth", $excludeDir));
             }
         }
@@ -482,7 +482,7 @@ class Reader implements \IteratorAggregate
      */
     protected function buildQuery()
     {
-        if ( ! $this->dirs && ! $this->files) {
+        if (! $this->dirs && ! $this->files) {
             throw new LogicException('You have not set any files or directory');
         }
 
@@ -492,10 +492,10 @@ class Reader implements \IteratorAggregate
             $command .= ' -r';
         }
 
-        if ( ! $this->extensions) {
+        if (! $this->extensions) {
             $command .= ' -ext "*"';
         } else {
-            if ( ! $this->extensionsToggle) {
+            if (! $this->extensionsToggle) {
                 $command .= ' -ext "*"';
                 $extensionPrefix = ' --ext';
             } else {
@@ -507,7 +507,7 @@ class Reader implements \IteratorAggregate
             }
         }
 
-        if ( ! $this->followSymLinks) {
+        if (! $this->followSymLinks) {
             $command .= ' -i SYMLINKS';
         }
 

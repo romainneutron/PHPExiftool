@@ -150,7 +150,7 @@ class Builder
             if (is_array($value)) {
                 $val = "array(\n" . $this->generateClassProperties($value, $depth + 1);
 
-                for ($i = 0; $i != $depth; $i ++ ) {
+                for ($i = 0; $i != $depth; $i ++) {
                     $val .= "<spaces>";
                 }
 
@@ -161,7 +161,7 @@ class Builder
             if ($depth == 0) {
                 $buffer .= "\n<spaces>protected \$$key = $val;\n";
             } else {
-                for ($i = 0; $i != $depth; $i ++ ) {
+                for ($i = 0; $i != $depth; $i ++) {
                     $buffer .= "<spaces>";
                 }
                 $buffer .= "<spaces>" . $this->quote($key) . " => " . $val . ",\n";

@@ -74,8 +74,8 @@ class Writer
     /**
      * Enable / Disable modes
      *
-     * @param  integer             $mode   One of the self::MODE_*
-     * @param  Boolean             $active Enable or disable the mode
+     * @param  integer $mode   One of the self::MODE_*
+     * @param  Boolean $active Enable or disable the mode
      * @return Writer
      */
     public function setMode($mode, $active)
@@ -104,8 +104,8 @@ class Writer
      * Enable / disable module.
      * There's currently only one module self::MODULE_MWG
      *
-     * @param  integer             $module One of the self::MODULE_*
-     * @param  Boolean             $active Enable or disable the module
+     * @param  integer $module One of the self::MODULE_*
+     * @param  Boolean $active Enable or disable the module
      * @return Writer
      */
     public function setModule($module, $active)
