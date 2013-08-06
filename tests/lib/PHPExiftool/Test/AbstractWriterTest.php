@@ -14,6 +14,7 @@ abstract class AbstractWriterTest extends \PHPUnit_Framework_TestCase
      */
     protected $object;
     protected $in;
+    protected $inWithICC;
     protected $inPlace;
     protected $out;
 
@@ -21,6 +22,7 @@ abstract class AbstractWriterTest extends \PHPUnit_Framework_TestCase
     {
         $this->object = new Writer($this->getExiftool());
         $this->in = __DIR__ . '/../../../files/ExifTool.jpg';
+        $this->inWithICC = __DIR__ . '/../../../files/pixelWithIcc.jpg';
         $this->out = __DIR__ . '/../../../files/ExifTool_erased.jpg';
         $this->inPlace = __DIR__ . '/../../../files/ExifToolCopied.jpg';
         copy($this->in, $this->inPlace);
@@ -69,7 +71,7 @@ abstract class AbstractWriterTest extends \PHPUnit_Framework_TestCase
      * @covers PHPExiftool\Writer::write
      * @covers PHPExiftool\Writer::erase
      */
-    public function testErase()
+    public function testEraseWithoutICC()
     {
         $uniqueId = 'UNI-QUE-ID';
 
@@ -77,8 +79,8 @@ abstract class AbstractWriterTest extends \PHPUnit_Framework_TestCase
         $metadatas->add(new Driver\Metadata\Metadata(new Driver\Tag\IPTC\UniqueDocumentID(), new Driver\Value\Mono($uniqueId)));
         $metadatas->add(new Driver\Metadata\Metadata(new Driver\Tag\XMPExif\ImageUniqueID(), new Driver\Value\Mono($uniqueId)));
 
-        $this->object->erase(true);
-        $changedFiles = $this->object->write($this->in, $metadatas, $this->out);
+        $this->object->erase(true, false);
+        $changedFiles = $this->object->write($this->inWithICC, $metadatas, $this->out);
         $this->assertEquals(1, $changedFiles);
 
         $reader = new Reader($this->getExiftool(), new RDFParser());
@@ -94,6 +96,60 @@ abstract class AbstractWriterTest extends \PHPUnit_Framework_TestCase
             'File:\w+',
             'Composite:\w+',
             'IPTC:CodedCharacterSet',
+            'IPTC:EnvelopeRecordVersion',
+            'IPTC:UniqueDocumentID',
+            'IPTC:ApplicationRecordVersion',
+            'Photoshop:IPTCDigest',
+            'XMP-x:XMPToolkit',
+            'XMP-exif:ImageUniqueID',
+            'Adobe:DCTEncodeVersion',
+            'Adobe:APP14Flags0',
+            'Adobe:APP14Flags1',
+            'Adobe:ColorTransform',
+        );
+
+        foreach ($reader->files($this->out)->first()->getMetadatas() as $meta) {
+
+            $found = false;
+
+            foreach ($acceptedMetas as $accepted) {
+                if (preg_match('/' . $accepted . '/i', $meta->getTag()->getTagname())) {
+                    $found = true;
+                    break;
+                }
+            }
+
+            if ( ! $found) {
+                $this->fail(sprintf('Unexpected meta %s found', $meta->getTag()->getTagname()));
+            }
+        }
+    }
+
+    public function testEraseWithICC()
+    {
+        $uniqueId = 'UNI-QUE-ID';
+
+        $metadatas = new Driver\Metadata\MetadataBag();
+        $metadatas->add(new Driver\Metadata\Metadata(new Driver\Tag\IPTC\UniqueDocumentID(), new Driver\Value\Mono($uniqueId)));
+        $metadatas->add(new Driver\Metadata\Metadata(new Driver\Tag\XMPExif\ImageUniqueID(), new Driver\Value\Mono($uniqueId)));
+
+        $this->object->erase(true, true);
+        $changedFiles = $this->object->write($this->inWithICC, $metadatas, $this->out);
+        $this->assertEquals(1, $changedFiles);
+
+        $reader = new Reader($this->getExiftool(), new RDFParser());
+        $this->assertGreaterThan(200, count($reader->files($this->in)->first()->getMetadatas()));
+
+        $reader = new Reader($this->getExiftool(), new RDFParser());
+        $this->assertGreaterThan(4, count($reader->files($this->out)->first()->getMetadatas()));
+
+        $acceptedMetas = array(
+            'Exiftool:\w+',
+            'System:\w+',
+            'File:\w+',
+            'Composite:\w+',
+            'IPTC:CodedCharacterSet',
+            'ICC-header:\w+',
             'IPTC:EnvelopeRecordVersion',
             'IPTC:UniqueDocumentID',
             'IPTC:ApplicationRecordVersion',
