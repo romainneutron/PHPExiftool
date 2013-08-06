@@ -212,6 +212,10 @@ class Writer
 
         $command .= ' -common_args' . $common_args;
 
+        if ('' !== $syncCommand = $this->getSyncCommand()) {
+            $command .= ' -execute -overwrite_original_in_place ' . $syncCommand . ' ' . $file;
+        }
+
         $lines = explode("\n", $this->exiftool->executeCommand($command));
         $lastLine = '';
 
@@ -247,6 +251,24 @@ class Writer
     {
         $command = ' ';
 
+        if ($this->modules & self::MODULE_MWG) {
+            $command .= ' -use MWG';
+        }
+
+        foreach ($metadatas as $metadata) {
+            foreach ($metadata->getValue()->asArray() as $value) {
+                $command .= ' -' . $metadata->getTag()->getTagname() . '='
+                    . escapeshellarg($value);
+            }
+        }
+
+        return $command;
+    }
+
+    protected function getSyncCommand()
+    {
+        $syncCommand = '';
+
         $availableArgs = array(
             self::MODE_IPTC2XMP  => 'iptc2xmp.args',
             self::MODE_IPTC2EXIF => 'iptc2exif.args',
@@ -261,23 +283,11 @@ class Writer
         );
 
         foreach ($availableArgs as $arg => $cmd) {
-
             if ($this->mode & $arg) {
-                $command .= ' -@ ' . $cmd;
+                $syncCommand .= ' -@ ' . $cmd;
             }
         }
 
-        if ($this->modules & self::MODULE_MWG) {
-            $command .= ' -use MWG';
-        }
-
-        foreach ($metadatas as $metadata) {
-            foreach ($metadata->getValue()->asArray() as $value) {
-                $command .= ' -' . $metadata->getTag()->getTagname() . '='
-                    . escapeshellarg($value);
-            }
-        }
-
-        return $command;
+        return $syncCommand;
     }
 }
