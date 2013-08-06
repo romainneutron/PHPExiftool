@@ -53,6 +53,7 @@ class Writer
     protected $modules;
     protected $erase;
     private $exiftool;
+    private $eraseProfile;
 
     public function __construct(Exiftool $exiftool)
     {
@@ -65,6 +66,7 @@ class Writer
         $this->mode = 0;
         $this->modules = 0;
         $this->erase = false;
+        $this->eraseProfile = false;
 
         return $this;
     }
@@ -131,11 +133,13 @@ class Writer
     /**
      * If set to true, erase all metadatas before write
      *
-     * @param Boolean $boolean
+     * @param Boolean $boolean             Whether to erase metadata or not before writing.
+     * @param Boolean $maintainICCProfile  Whether to maintain or not ICC Profile in case of erasing metadata.
      */
-    public function erase($boolean)
+    public function erase($boolean, $maintainICCProfile = false)
     {
         $this->erase = (boolean) $boolean;
+        $this->eraseProfile = !$maintainICCProfile;
     }
 
     /**
@@ -170,7 +174,7 @@ class Writer
              * anything else.
              */
             if ( ! $destination) {
-                $command .= ' -all:all= ' . $file . ' -execute';
+                $command .= ' -all:all= ' . ($this->eraseProfile ? '' : '--icc_profile:all ') . '' . $file . ' -execute';
 
                 /**
                  * If no destination, all commands will overwrite in place
@@ -183,7 +187,7 @@ class Writer
                  * If destination was specified, we start by creating the blank
                  * destination, we will write in it at next step
                  */
-                $command .= ' -all:all= -o ' . $destination . ' ' . $file . ' -execute';
+                $command .= ' -all:all= ' . ($this->eraseProfile ? '' : '--icc_profile:all ') . '-o ' . $destination . ' ' . $file . ' -execute';
 
                 $file = $destination;
                 $destination = null;
