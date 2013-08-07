@@ -33,7 +33,9 @@ class PreviewExtractor extends Exiftool
             throw new LogicException(sprintf('%s is not writable', $outputDir));
         }
 
-        $command = "-if " . escapeshellarg('$jpgfromraw') . " -b -jpgfromraw "
+        $command = "-if " . escapeshellarg('$photoshopthumbnail') . " -b -PhotoshopThumbnail "
+            . "-w " . escapeshellarg(realpath($outputDir) . '/PhotoshopThumbnail%c.jpg') . " -execute "
+            . "-if " . escapeshellarg('$jpgfromraw') . " -b -jpgfromraw "
             . "-w " . escapeshellarg(realpath($outputDir) . '/JpgFromRaw%c.jpg') . " -execute "
             . "-if " . escapeshellarg('$previewimage') . " -b -previewimage "
             . "-w " . escapeshellarg(realpath($outputDir) . '/PreviewImage%c.jpg') . " "
