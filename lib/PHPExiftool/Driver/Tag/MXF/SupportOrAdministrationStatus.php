@@ -17,12 +17,12 @@ use PHPExiftool\Driver\AbstractTag;
 /**
  * @ExclusionPolicy("all")
  */
-class SupportorAdministrationStatus extends AbstractTag
+class SupportOrAdministrationStatus extends AbstractTag
 {
 
-    protected $Id = '060e2b34.0101.0103.02300103.01010000';
+    protected $Id = '060e2b34.0101.0101.02300103.01000000';
 
-    protected $Name = 'SupportorAdministrationStatus';
+    protected $Name = 'SupportOrAdministrationStatus';
 
     protected $FullName = 'MXF::Main';
 
@@ -34,10 +34,10 @@ class SupportorAdministrationStatus extends AbstractTag
 
     protected $g2 = 'Video';
 
-    protected $Type = '?';
+    protected $Type = 'string';
 
     protected $Writable = false;
 
-    protected $Description = 'Supportor Administration Status';
+    protected $Description = 'Support Or Administration Status';
 
 }
