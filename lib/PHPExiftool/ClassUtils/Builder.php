@@ -93,6 +93,10 @@ class Builder
         if ( ! $force && file_exists($this->getPathfile()))
             throw new \Exception(sprintf('%s already exists', $this->getPathfile()));
 
+        if (file_exists($this->getPathfile())) {
+            unlink($this->getPathfile());
+        }
+
         file_put_contents($this->getPathfile(), $this->generateContent());
 
         return $this;
