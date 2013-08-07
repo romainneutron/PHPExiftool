@@ -133,8 +133,8 @@ class Writer
     /**
      * If set to true, erase all metadatas before write
      *
-     * @param Boolean $boolean             Whether to erase metadata or not before writing.
-     * @param Boolean $maintainICCProfile  Whether to maintain or not ICC Profile in case of erasing metadata.
+     * @param Boolean $boolean            Whether to erase metadata or not before writing.
+     * @param Boolean $maintainICCProfile Whether to maintain or not ICC Profile in case of erasing metadata.
      */
     public function erase($boolean, $maintainICCProfile = false)
     {
@@ -173,7 +173,7 @@ class Writer
              * if erase is specfied, we MUST start by erasing datas before doing
              * anything else.
              */
-            if ( ! $destination) {
+            if (! $destination) {
                 $command .= ' -all:all= ' . ($this->eraseProfile ? '' : '--icc_profile:all ') . '' . $file . ' -execute';
 
                 /**
