@@ -1,7 +1,7 @@
 CHANGELOG
 ---------
 
-* 0.3.0 (2013-xx-xx)
+* 0.3.0 (2013-08-07)
 
   * Add possibility to erase metadata except ICC profile.
   * Fix sync mode support.
