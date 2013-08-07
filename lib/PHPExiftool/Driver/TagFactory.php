@@ -27,7 +27,7 @@ class TagFactory
     /**
      * Build a Tag based on his Tagname
      *
-     * @param  string                            $tagname
+     * @param  string       $tagname
      * @return TagInterface
      * @throws TagUnknown
      */

@@ -74,8 +74,8 @@ class Writer
     /**
      * Enable / Disable modes
      *
-     * @param  integer             $mode   One of the self::MODE_*
-     * @param  Boolean             $active Enable or disable the mode
+     * @param  integer $mode   One of the self::MODE_*
+     * @param  Boolean $active Enable or disable the mode
      * @return Writer
      */
     public function setMode($mode, $active)
@@ -104,8 +104,8 @@ class Writer
      * Enable / disable module.
      * There's currently only one module self::MODULE_MWG
      *
-     * @param  integer             $module One of the self::MODULE_*
-     * @param  Boolean             $active Enable or disable the module
+     * @param  integer $module One of the self::MODULE_*
+     * @param  Boolean $active Enable or disable the module
      * @return Writer
      */
     public function setModule($module, $active)
@@ -133,8 +133,8 @@ class Writer
     /**
      * If set to true, erase all metadatas before write
      *
-     * @param Boolean $boolean             Whether to erase metadata or not before writing.
-     * @param Boolean $maintainICCProfile  Whether to maintain or not ICC Profile in case of erasing metadata.
+     * @param Boolean $boolean            Whether to erase metadata or not before writing.
+     * @param Boolean $maintainICCProfile Whether to maintain or not ICC Profile in case of erasing metadata.
      */
     public function erase($boolean, $maintainICCProfile = false)
     {
@@ -173,7 +173,7 @@ class Writer
              * if erase is specfied, we MUST start by erasing datas before doing
              * anything else.
              */
-            if ( ! $destination) {
+            if (! $destination) {
                 $command .= ' -all:all= ' . ($this->eraseProfile ? '' : '--icc_profile:all ') . '' . $file . ' -execute';
 
                 /**
@@ -212,6 +212,10 @@ class Writer
 
         $command .= ' -common_args' . $common_args;
 
+        if ('' !== $syncCommand = $this->getSyncCommand()) {
+            $command .= ' -execute -overwrite_original_in_place ' . $syncCommand . ' ' . $file;
+        }
+
         $lines = explode("\n", $this->exiftool->executeCommand($command));
         $lastLine = '';
 
@@ -247,6 +251,24 @@ class Writer
     {
         $command = ' ';
 
+        if ($this->modules & self::MODULE_MWG) {
+            $command .= ' -use MWG';
+        }
+
+        foreach ($metadatas as $metadata) {
+            foreach ($metadata->getValue()->asArray() as $value) {
+                $command .= ' -' . $metadata->getTag()->getTagname() . '='
+                    . escapeshellarg($value);
+            }
+        }
+
+        return $command;
+    }
+
+    protected function getSyncCommand()
+    {
+        $syncCommand = '';
+
         $availableArgs = array(
             self::MODE_IPTC2XMP  => 'iptc2xmp.args',
             self::MODE_IPTC2EXIF => 'iptc2exif.args',
@@ -261,23 +283,11 @@ class Writer
         );
 
         foreach ($availableArgs as $arg => $cmd) {
-
             if ($this->mode & $arg) {
-                $command .= ' -@ ' . $cmd;
+                $syncCommand .= ' -@ ' . $cmd;
             }
         }
 
-        if ($this->modules & self::MODULE_MWG) {
-            $command .= ' -use MWG';
-        }
-
-        foreach ($metadatas as $metadata) {
-            foreach ($metadata->getValue()->asArray() as $value) {
-                $command .= ' -' . $metadata->getTag()->getTagname() . '='
-                    . escapeshellarg($value);
-            }
-        }
-
-        return $command;
+        return $syncCommand;
     }
 }

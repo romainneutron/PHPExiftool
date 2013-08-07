@@ -269,40 +269,40 @@ abstract class AbstractWriterTest extends \PHPUnit_Framework_TestCase
         $metadatas->add(new Driver\Metadata\Metadata(new Driver\Tag\XMPIptcExt\PersonInImage(), new Driver\Value\Multi(array('Romain', 'Nicolas'))));
 
         $writer = new WriterTester($this->getExiftool());
-        $this->assertNotContains('@', trim($writer->addMetadatasArgTester($metadatas)));
+        $this->assertNotContains('@', trim($writer->getSyncCommandTester()));
 
         $writer->setMode(WriterTester::MODE_EXIF2IPTC, true);
-        $this->assertContains('@ exif2iptc.args', $writer->addMetadatasArgTester($metadatas));
+        $this->assertContains('@ exif2iptc.args', $writer->getSyncCommandTester());
 
         $writer->setMode(WriterTester::MODE_EXIF2XMP, true);
-        $this->assertContains('@ exif2xmp.args', $writer->addMetadatasArgTester($metadatas));
+        $this->assertContains('@ exif2xmp.args', $writer->getSyncCommandTester());
 
         $writer->setMode(WriterTester::MODE_IPTC2EXIF, true);
-        $this->assertContains('@ iptc2exif', $writer->addMetadatasArgTester($metadatas));
+        $this->assertContains('@ iptc2exif', $writer->getSyncCommandTester());
 
         $writer->setMode(WriterTester::MODE_IPTC2XMP, true);
-        $this->assertContains('@ iptc2xmp', $writer->addMetadatasArgTester($metadatas));
+        $this->assertContains('@ iptc2xmp', $writer->getSyncCommandTester());
 
         $writer->setMode(WriterTester::MODE_GPS2XMP, true);
-        $this->assertContains('@ gps2xmp', $writer->addMetadatasArgTester($metadatas));
+        $this->assertContains('@ gps2xmp', $writer->getSyncCommandTester());
 
         $writer->setMode(WriterTester::MODE_PDF2XMP, true);
-        $this->assertContains('@ pdf2xmp', $writer->addMetadatasArgTester($metadatas));
+        $this->assertContains('@ pdf2xmp', $writer->getSyncCommandTester());
 
         $writer->setMode(WriterTester::MODE_XMP2PDF, true);
-        $this->assertContains('@ xmp2pdf', $writer->addMetadatasArgTester($metadatas));
+        $this->assertContains('@ xmp2pdf', $writer->getSyncCommandTester());
 
         $writer->setMode(WriterTester::MODE_XMP2GPS, true);
-        $this->assertContains('@ xmp2gps', $writer->addMetadatasArgTester($metadatas));
+        $this->assertContains('@ xmp2gps', $writer->getSyncCommandTester());
 
         $writer->setMode(WriterTester::MODE_XMP2EXIF, true);
-        $this->assertContains('@ xmp2exif', $writer->addMetadatasArgTester($metadatas));
+        $this->assertContains('@ xmp2exif', $writer->getSyncCommandTester());
 
         $writer->setMode(WriterTester::MODE_XMP2IPTC, true);
-        $this->assertContains('@ xmp2iptc', $writer->addMetadatasArgTester($metadatas));
+        $this->assertContains('@ xmp2iptc', $writer->getSyncCommandTester());
 
         $writer->setMode(WriterTester::MODE_XMP2IPTC, false);
-        $this->assertNotContains('@ xmp2iptc', $writer->addMetadatasArgTester($metadatas));
+        $this->assertNotContains('@ xmp2iptc', $writer->getSyncCommandTester());
 
         $writer->setModule(WriterTester::MODULE_MWG, true);
         $this->assertContains(' -use MWG', $writer->addMetadatasArgTester($metadatas));
@@ -318,9 +318,13 @@ abstract class AbstractWriterTest extends \PHPUnit_Framework_TestCase
 
 class WriterTester extends Writer
 {
-
     public function addMetadatasArgTester($metadatas)
     {
         return parent::addMetadatasArg($metadatas);
+    }
+
+    public function getSyncCommandTester()
+    {
+        return parent::getSyncCommand();
     }
 }
