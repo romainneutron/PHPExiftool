@@ -64,7 +64,6 @@ class ExiftoolServer extends Exiftool
 
         $prev = null;
 
-
 //        // first split execute (sub queries)
 //
 //        if (false !== $pos = strpos($commands, '-common_args')) {

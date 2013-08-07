@@ -50,7 +50,7 @@ class RDFParser
     /**
      * Opens an XML file for parsing
      *
-     * @param  string                 $XML
+     * @param  string    $XML
      * @return RDFParser
      */
     public function open($XML)
@@ -150,7 +150,7 @@ class RDFParser
     /**
      * Returns the first result for a user defined query against the RDF
      *
-     * @param  string                          $query
+     * @param  string         $query
      * @return ValueInterface The value
      */
     public function Query($query)
@@ -227,8 +227,8 @@ class RDFParser
     /**
      * Read the node value, decode it if needed
      *
-     * @param  \DOMNode           $node The node to read
-     * @param  TagInterface         $tag  The tag associated
+     * @param  \DOMNode       $node The node to read
+     * @param  TagInterface   $tag  The tag associated
      * @return ValueInterface The value extracted
      */
     protected function readNodeValue(\DOMNode $node, TagInterface $tag = null)
@@ -278,11 +278,11 @@ class RDFParser
      */
     protected function getDom()
     {
-        if ( ! $this->XML) {
+        if (! $this->XML) {
             throw new LogicException('You must open an XML first');
         }
 
-        if ( ! $this->DOM) {
+        if (! $this->DOM) {
 
             $this->DOM = new \DOMDocument;
 
@@ -301,12 +301,12 @@ class RDFParser
     /**
      * Compute the DOMXpath from the DOMDocument
      *
-     * @return \DOMXpath                  The DOMXpath object related to the XML
+     * @return \DOMXpath        The DOMXpath object related to the XML
      * @throws RuntimeException
      */
     protected function getDomXpath()
     {
-        if ( ! $this->DOMXpath) {
+        if (! $this->DOMXpath) {
             try {
                 $this->DOMXpath = new \DOMXPath($this->getDom());
             } catch (ParseError $e) {

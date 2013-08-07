@@ -17,10 +17,8 @@ namespace PHPExiftool\Driver;
  * @author      Romain Neutron - imprec@gmail.com
  * @license     http://opensource.org/licenses/MIT MIT
  */
-abstract class Type implements TypeInterface
+abstract class AbstractType implements TypeInterface
 {
-
     protected $ExiftoolName;
     protected $PHPMap;
-
 }

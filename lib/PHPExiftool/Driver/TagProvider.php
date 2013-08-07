@@ -8081,7 +8081,6 @@ class TagProvider extends \Pimple
                 'ClassificationAndMarkingSystem' => new \PHPExiftool\Driver\Tag\MXF\ClassificationAndMarkingSystem(),
                 'BroadcastServiceName' => new \PHPExiftool\Driver\Tag\MXF\BroadcastServiceName(),
                 'BroadcastMediumCode' => new \PHPExiftool\Driver\Tag\MXF\BroadcastMediumCode(),
-                'SupportorAdministrationStatus' => new \PHPExiftool\Driver\Tag\MXF\SupportorAdministrationStatus(),
                 'JobFunctionCode' => new \PHPExiftool\Driver\Tag\MXF\JobFunctionCode(),
                 'JobTitle' => new \PHPExiftool\Driver\Tag\MXF\JobTitle(),
                 'PersonDescription' => new \PHPExiftool\Driver\Tag\MXF\PersonDescription(),
@@ -9094,7 +9093,6 @@ class TagProvider extends \Pimple
                 'BusinessHomePage' => new \PHPExiftool\Driver\Tag\Microsoft\BusinessHomePage(),
                 'Artist' => new \PHPExiftool\Driver\Tag\Microsoft\Artist(),
                 'Conductors' => new \PHPExiftool\Driver\Tag\Microsoft\Conductors(),
-                'Subtitle' => new \PHPExiftool\Driver\Tag\Microsoft\Subtitle(),
                 'Free-busyStatus' => new \PHPExiftool\Driver\Tag\Microsoft\FreeBusyStatus(),
                 'URL' => new \PHPExiftool\Driver\Tag\Microsoft\URL(),
                 'DateVisited' => new \PHPExiftool\Driver\Tag\Microsoft\DateVisited(),
@@ -15233,7 +15231,6 @@ class TagProvider extends \Pimple
 
     public function getAll()
     {
-
         return array(
             'AFCP' => $this['AFCP'],
             'AIFF' => $this['AIFF'],
@@ -15466,7 +15463,6 @@ class TagProvider extends \Pimple
 
     public function getLookupTable()
     {
-
         return array(
             'afcp' => array(
                 'thumbnailimage' => array(
@@ -53829,11 +53825,6 @@ class TagProvider extends \Pimple
                     'tagname' => 'BroadcastMediumCode',
                     'classname' => 'PHPExiftool\Driver\Tag\MXF\BroadcastMediumCode',
                 ),
-                'supportoradministrationstatus' => array(
-                    'namespace' => 'MXF',
-                    'tagname' => 'SupportorAdministrationStatus',
-                    'classname' => 'PHPExiftool\Driver\Tag\MXF\SupportorAdministrationStatus',
-                ),
                 'jobfunctioncode' => array(
                     'namespace' => 'MXF',
                     'tagname' => 'JobFunctionCode',
@@ -58825,11 +58816,6 @@ class TagProvider extends \Pimple
                     'namespace' => 'Microsoft',
                     'tagname' => 'Conductors',
                     'classname' => 'PHPExiftool\Driver\Tag\Microsoft\Conductors',
-                ),
-                'subtitle' => array(
-                    'namespace' => 'Microsoft',
-                    'tagname' => 'Subtitle',
-                    'classname' => 'PHPExiftool\Driver\Tag\Microsoft\Subtitle',
                 ),
                 'free-busystatus' => array(
                     'namespace' => 'Microsoft',

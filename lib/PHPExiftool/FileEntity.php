@@ -53,9 +53,9 @@ class FileEntity implements \IteratorAggregate
     /**
      * Construct a new FileEntity
      *
-     * @param string $file
-     * @param \DOMDocument $dom
-     * @param RDFParser $parser
+     * @param  string       $file
+     * @param  \DOMDocument $dom
+     * @param  RDFParser    $parser
      * @return FileEntity
      */
     public function __construct($file, \DOMDocument $dom, RDFParser $parser)
@@ -106,7 +106,7 @@ class FileEntity implements \IteratorAggregate
     /**
      * Execute a user defined query to retrieve metadata
      *
-     * @param  string $query
+     * @param string $query
      *
      * @return ValueInterface
      */
