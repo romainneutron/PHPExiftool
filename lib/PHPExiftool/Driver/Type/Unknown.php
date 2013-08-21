@@ -18,6 +18,6 @@ class Unknown extends AbstractType
 
     protected $ExiftoolName = 'Unknown';
 
-    protected $PHPMap = 'string';
+    protected $PHPMap = 'binary';
 
 }
