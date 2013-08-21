@@ -179,78 +179,104 @@ class ClassesBuilder extends Command
 
     protected function getTypeMap($type)
     {
+        /**
+         * Some of these types are described here:
+         * http://trac.greenstone.org/browser/main/trunk/greenstone2/perllib/cpan/Image/ExifTool/README
+         * http://cpansearch.perl.org/src/EXIFTOOL/Image-ExifTool-9.13/lib/Image/ExifTool/PICT.pm
+         */
         switch ($type) {
-            case 'Int16Data':
+            # Formats defined in the wiki
+            case 'int8s':
+            case 'int8u':
+            case 'int16s':
+            case 'int16u':
+            case 'int16uRev':
+            case 'int32s':
+            case 'int32u':
+            case 'int64s':
+            case 'int64u':
+            case 'rational32s':
+            case 'rational32u':
+            case 'rational64s':
+            case 'rational64u':
+            case 'fixed16s':
+            case 'fixed32s':
+            case 'fixed32u':
+            case 'var_int16u':
+
+            # Apple data structures in PICT images
             case 'Int8uText':
             case 'Int8u2Text':
-            case 'int64u':
-            case 'var_int8u':
+            case 'Int16Data':
             case 'Int32uData':
-            case 'rational64s':
-            case 'fixed16s':
+
+            # Source unknown ...
+            case 'var_int8u':
             case 'rational':
             case 'integer':
             case 'real':
-            case 'int32s':
-            case 'int16s':
-            case 'int32u':
-            case 'int16u':
-            case 'var_int16u':
-            case 'int8u':
-            case 'int8s':
-            case 'int16uRev':
-            case 'rational32u':
-            case 'rational64u':
-            case 'rational32s':
-            case 'fixed32u':
-            case 'fixed32s':
             case 'digits':
-            case 'double':
-            case 'int64s':
+            case 'signed':
             case 'unsigned':
                 return 'int';
                 break;
+
+            # Formats defined in the wiki
             case 'float':
+            case 'double':
+            case 'extended':
                 return 'float';
                 break;
+
+            # Formats defined in the wiki
+            case 'undef':
             case 'binary':
+
+            # Source unknown ...
+            case 'var_undef':
+            case '?':
+            case 'null':
+            case 'unknown':
+            case 'Unknown':
                 return 'binary';
                 break;
-            case '?':
-            case 'unknown':
-            case 'extended':
+
+            # Formats defined in the wiki
+            case 'string':
+            case 'pstring':
+            case 'var_string':
+            case 'var_pstr32':
+
+            # Apple data structures in PICT images
             case 'Arc':
-            case 'Polygon':
-            case 'BitsRect#':
-            case 'BitsRgn#':
+            case 'BitsRect#': # version-depended
+            case 'BitsRgn#': # version-depended
+            case 'CompressedQuickTime':
             case 'DirectBitsRect':
             case 'DirectBitsRgn':
-            case 'CompressedQuickTime':
-            case 'lang-alt':
-            case 'string':
-            case 'var_string':
-            case 'undef':
-            case 'resize':
-            case 'var_pstr32':
-            case 'var_undef':
-            case 'utf8':
-            case 'signed':
-            case 'null':
-            case 'Rgn':
-            case 'Point':
-            case 'Rect':
-            case 'PixPat':
-            case 'Unknown':
-            case 'RGBColor':
-            case 'ShortLine':
-            case 'PointText':
             case 'FontName':
-            case 'pstring':
+            case 'PixPat':
+            case 'Point':
+            case 'PointText':
+            case 'Polygon':
+            case 'Rect':
+            case 'RGBColor':
+            case 'Rgn':
+            case 'ShortLine':
+
+            # Source unknown ...
+            case 'lang-alt':
+            case 'resize':
+            case 'utf8':
                 return 'string';
                 break;
+
+            # Source unknown ...
             case 'date':
                 return 'date';
                 break;
+
+            # Source unknown ...
             case 'boolean':
                 return 'boolean';
                 break;

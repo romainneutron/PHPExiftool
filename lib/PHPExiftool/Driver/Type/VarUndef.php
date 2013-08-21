@@ -18,6 +18,6 @@ class VarUndef extends AbstractType
 
     protected $ExiftoolName = 'var_undef';
 
-    protected $PHPMap = 'string';
+    protected $PHPMap = 'binary';
 
 }
