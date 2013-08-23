@@ -18,6 +18,6 @@ class Signed extends AbstractType
 
     protected $ExiftoolName = 'signed';
 
-    protected $PHPMap = 'string';
+    protected $PHPMap = 'int';
 
 }

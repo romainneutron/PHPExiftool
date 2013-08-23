@@ -18,6 +18,6 @@ class Extended extends AbstractType
 
     protected $ExiftoolName = 'extended';
 
-    protected $PHPMap = 'string';
+    protected $PHPMap = 'float';
 
 }
