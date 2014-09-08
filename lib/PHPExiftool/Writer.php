@@ -210,11 +210,11 @@ class Writer
             $command .= ' -overwrite_original_in_place ' . $file;
         }
 
-        $command .= ' -common_args' . $common_args;
-
         if ('' !== $syncCommand = $this->getSyncCommand()) {
             $command .= ' -execute -overwrite_original_in_place ' . $syncCommand . ' ' . $file;
         }
+
+        $command .= ' -common_args' . $common_args;
 
         $lines = explode("\n", $this->exiftool->executeCommand($command));
         $lastLine = '';
