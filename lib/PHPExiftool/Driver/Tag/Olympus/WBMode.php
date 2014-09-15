@@ -42,6 +42,8 @@ class WBMode extends AbstractTag
 
     protected $flag_Permanent = true;
 
+    protected $MaxLength = 2;
+
     protected $Values = array(
         1 => array(
             'Id' => 1,

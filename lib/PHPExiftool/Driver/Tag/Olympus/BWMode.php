@@ -51,6 +51,10 @@ class BWMode extends AbstractTag
             'Id' => 1,
             'Label' => 'On',
         ),
+        6 => array(
+            'Id' => 6,
+            'Label' => '(none)',
+        ),
     );
 
 }

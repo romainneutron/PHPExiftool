@@ -42,4 +42,6 @@ class Sony0x940c extends AbstractTag
 
     protected $flag_Permanent = true;
 
+    protected $Index = 1;
+
 }

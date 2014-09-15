@@ -34,7 +34,7 @@ class ICCUntagged extends AbstractTag
 
     protected $g2 = 'Image';
 
-    protected $Type = '?';
+    protected $Type = 'int8u';
 
     protected $Writable = false;
 

@@ -24,7 +24,7 @@ class SRResult extends AbstractTag
 
     protected $Name = 'SRResult';
 
-    protected $FullName = 'Pentax::SRInfo';
+    protected $FullName = 'mixed';
 
     protected $GroupName = 'Pentax';
 
@@ -51,7 +51,7 @@ class SRResult extends AbstractTag
             'Id' => 1,
             'Label' => 'Stabilized',
         ),
-        64 => array(
+        2 => array(
             'Id' => 64,
             'Label' => 'Not ready',
         ),

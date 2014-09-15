@@ -20,11 +20,11 @@ use PHPExiftool\Driver\AbstractTag;
 class AEMinExposureTime extends AbstractTag
 {
 
-    protected $Id = 5;
+    protected $Id = 'mixed';
 
     protected $Name = 'AEMinExposureTime';
 
-    protected $FullName = 'Pentax::AEInfo';
+    protected $FullName = 'mixed';
 
     protected $GroupName = 'Pentax';
 

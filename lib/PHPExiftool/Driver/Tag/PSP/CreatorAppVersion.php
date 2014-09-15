@@ -40,4 +40,6 @@ class CreatorAppVersion extends AbstractTag
 
     protected $Description = 'Creator App Version';
 
+    protected $MaxLength = 4;
+
 }

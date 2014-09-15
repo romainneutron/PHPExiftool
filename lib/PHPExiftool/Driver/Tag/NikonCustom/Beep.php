@@ -77,7 +77,7 @@ class Beep extends AbstractTag
         ),
         8 => array(
             'Id' => 0,
-            'Label' => 'High',
+            'Label' => 'Off',
         ),
         9 => array(
             'Id' => 64,
@@ -85,21 +85,45 @@ class Beep extends AbstractTag
         ),
         10 => array(
             'Id' => 128,
-            'Label' => 'Off',
+            'Label' => 'High',
         ),
         11 => array(
             'Id' => 0,
-            'Label' => 'On',
+            'Label' => 'Off',
         ),
         12 => array(
+            'Id' => 64,
+            'Label' => 'Low',
+        ),
+        13 => array(
+            'Id' => 128,
+            'Label' => 'High',
+        ),
+        14 => array(
+            'Id' => 0,
+            'Label' => 'High',
+        ),
+        15 => array(
+            'Id' => 64,
+            'Label' => 'Low',
+        ),
+        16 => array(
             'Id' => 128,
             'Label' => 'Off',
         ),
-        13 => array(
+        17 => array(
+            'Id' => 0,
+            'Label' => 'On',
+        ),
+        18 => array(
+            'Id' => 128,
+            'Label' => 'Off',
+        ),
+        19 => array(
             'Id' => 0,
             'Label' => 'Off',
         ),
-        14 => array(
+        20 => array(
             'Id' => 64,
             'Label' => 'On',
         ),

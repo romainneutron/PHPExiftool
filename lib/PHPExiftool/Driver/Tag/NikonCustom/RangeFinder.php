@@ -20,11 +20,11 @@ use PHPExiftool\Driver\AbstractTag;
 class RangeFinder extends AbstractTag
 {
 
-    protected $Id = '4.1';
+    protected $Id = 'mixed';
 
     protected $Name = 'RangeFinder';
 
-    protected $FullName = 'NikonCustom::SettingsD5000';
+    protected $FullName = 'mixed';
 
     protected $GroupName = 'NikonCustom';
 
@@ -47,8 +47,16 @@ class RangeFinder extends AbstractTag
             'Id' => 0,
             'Label' => 'Off',
         ),
-        16 => array(
+        1 => array(
             'Id' => 16,
+            'Label' => 'On',
+        ),
+        2 => array(
+            'Id' => 0,
+            'Label' => 'Off',
+        ),
+        3 => array(
+            'Id' => 4,
             'Label' => 'On',
         ),
     );

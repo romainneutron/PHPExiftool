@@ -20,11 +20,11 @@ use PHPExiftool\Driver\AbstractTag;
 class AFMicroAdj extends AbstractTag
 {
 
-    protected $Id = 381;
+    protected $Id = 'mixed';
 
     protected $Name = 'AFMicroAdj';
 
-    protected $FullName = 'Sony::Tag940e';
+    protected $FullName = 'Sony::AFInfo';
 
     protected $GroupName = 'Sony';
 

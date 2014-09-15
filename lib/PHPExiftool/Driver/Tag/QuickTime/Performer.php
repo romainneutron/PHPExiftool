@@ -24,7 +24,7 @@ class Performer extends AbstractTag
 
     protected $Name = 'Performer';
 
-    protected $FullName = 'QuickTime::ItemList';
+    protected $FullName = 'mixed';
 
     protected $GroupName = 'QuickTime';
 
@@ -32,7 +32,7 @@ class Performer extends AbstractTag
 
     protected $g1 = 'QuickTime';
 
-    protected $g2 = 'Audio';
+    protected $g2 = 'mixed';
 
     protected $Type = '?';
 

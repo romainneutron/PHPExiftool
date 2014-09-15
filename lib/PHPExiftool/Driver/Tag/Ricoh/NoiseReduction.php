@@ -20,11 +20,11 @@ use PHPExiftool\Driver\AbstractTag;
 class NoiseReduction extends AbstractTag
 {
 
-    protected $Id = 42;
+    protected $Id = 'mixed';
 
     protected $Name = 'NoiseReduction';
 
-    protected $FullName = 'Ricoh::Subdir';
+    protected $FullName = 'mixed';
 
     protected $GroupName = 'Ricoh';
 
@@ -34,7 +34,7 @@ class NoiseReduction extends AbstractTag
 
     protected $g2 = 'Camera';
 
-    protected $Type = 'int32u';
+    protected $Type = 'mixed';
 
     protected $Writable = true;
 
@@ -53,9 +53,25 @@ class NoiseReduction extends AbstractTag
         ),
         2 => array(
             'Id' => 2,
-            'Label' => 'Strong',
+            'Label' => 'Medium',
         ),
         3 => array(
+            'Id' => 3,
+            'Label' => 'Strong',
+        ),
+        4 => array(
+            'Id' => 0,
+            'Label' => 'Off',
+        ),
+        5 => array(
+            'Id' => 1,
+            'Label' => 'Weak',
+        ),
+        6 => array(
+            'Id' => 2,
+            'Label' => 'Strong',
+        ),
+        7 => array(
             'Id' => 3,
             'Label' => 'Max',
         ),

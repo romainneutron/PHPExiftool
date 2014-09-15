@@ -32,7 +32,7 @@ class Sharpness extends AbstractTag
 
     protected $g1 = 'Sony';
 
-    protected $g2 = 'Camera';
+    protected $g2 = 'mixed';
 
     protected $Type = 'mixed';
 

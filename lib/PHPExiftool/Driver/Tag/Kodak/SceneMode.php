@@ -121,11 +121,11 @@ class SceneMode extends AbstractTag
         ),
         31 => array(
             'Id' => 31,
-            'Label' => 'Panorama Left-Right',
+            'Label' => 'Panorama Left-right',
         ),
         32 => array(
             'Id' => 32,
-            'Label' => 'Panorama Right-Left',
+            'Label' => 'Panorama Right-left',
         ),
         33 => array(
             'Id' => 33,

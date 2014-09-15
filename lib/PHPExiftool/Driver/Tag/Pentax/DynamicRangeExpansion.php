@@ -42,13 +42,15 @@ class DynamicRangeExpansion extends AbstractTag
 
     protected $flag_Permanent = true;
 
+    protected $MaxLength = 4;
+
     protected $Values = array(
-        '0 0 0 0' => array(
-            'Id' => '0 0 0 0',
+        0 => array(
+            'Id' => 0,
             'Label' => 'Off',
         ),
-        '1 0 0 0' => array(
-            'Id' => '1 0 0 0',
+        1 => array(
+            'Id' => 1,
             'Label' => 'On',
         ),
     );

@@ -20,11 +20,11 @@ use PHPExiftool\Driver\AbstractTag;
 class Rotation extends AbstractTag
 {
 
-    protected $Id = 9;
+    protected $Id = 'mixed';
 
     protected $Name = 'Rotation';
 
-    protected $FullName = 'SigmaRaw::Header';
+    protected $FullName = 'mixed';
 
     protected $GroupName = 'SigmaRaw';
 

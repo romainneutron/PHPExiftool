@@ -88,7 +88,7 @@ class AFAssist extends AbstractTag
             'Label' => 'On',
         ),
         11 => array(
-            'Id' => 64,
+            'Id' => 1,
             'Label' => 'Off',
         ),
         12 => array(
@@ -96,6 +96,22 @@ class AFAssist extends AbstractTag
             'Label' => 'On',
         ),
         13 => array(
+            'Id' => 1,
+            'Label' => 'Off',
+        ),
+        14 => array(
+            'Id' => 0,
+            'Label' => 'On',
+        ),
+        15 => array(
+            'Id' => 64,
+            'Label' => 'Off',
+        ),
+        16 => array(
+            'Id' => 0,
+            'Label' => 'On',
+        ),
+        17 => array(
             'Id' => 1,
             'Label' => 'Off',
         ),

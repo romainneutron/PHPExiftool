@@ -20,11 +20,11 @@ use PHPExiftool\Driver\AbstractTag;
 class FlashMode extends AbstractTag
 {
 
-    protected $Id = 32;
+    protected $Id = 'mixed';
 
     protected $Name = 'FlashMode';
 
-    protected $FullName = 'Ricoh::ImageInfo';
+    protected $FullName = 'mixed';
 
     protected $GroupName = 'Ricoh';
 
@@ -32,9 +32,9 @@ class FlashMode extends AbstractTag
 
     protected $g1 = 'Ricoh';
 
-    protected $g2 = 'Image';
+    protected $g2 = 'mixed';
 
-    protected $Type = 'int8u';
+    protected $Type = 'mixed';
 
     protected $Writable = true;
 
@@ -54,6 +54,42 @@ class FlashMode extends AbstractTag
         2 => array(
             'Id' => 2,
             'Label' => 'On',
+        ),
+        3 => array(
+            'Id' => 0,
+            'Label' => 'Off',
+        ),
+        4 => array(
+            'Id' => 1,
+            'Label' => 'Auto, Fired',
+        ),
+        5 => array(
+            'Id' => 2,
+            'Label' => 'On',
+        ),
+        6 => array(
+            'Id' => 3,
+            'Label' => 'Auto, Fired, Red-eye reduction',
+        ),
+        7 => array(
+            'Id' => 4,
+            'Label' => 'Slow Sync',
+        ),
+        8 => array(
+            'Id' => 5,
+            'Label' => 'Manual',
+        ),
+        9 => array(
+            'Id' => 6,
+            'Label' => 'On, Red-eye reduction',
+        ),
+        10 => array(
+            'Id' => 7,
+            'Label' => 'Synchro, Red-eye reduction',
+        ),
+        11 => array(
+            'Id' => 8,
+            'Label' => 'Auto, Did not fire',
         ),
     );
 

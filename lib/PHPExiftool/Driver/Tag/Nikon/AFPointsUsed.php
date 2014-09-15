@@ -36,7 +36,7 @@ class AFPointsUsed extends AbstractTag
 
     protected $Type = 'undef';
 
-    protected $Writable = false;
+    protected $Writable = true;
 
     protected $Description = 'AF Points Used';
 
@@ -47,6 +47,10 @@ class AFPointsUsed extends AbstractTag
     protected $Index = 'mixed';
 
     protected $Values = array(
+        0 => array(
+            'Id' => 0,
+            'Label' => '(none)',
+        ),
         1 => array(
             'Id' => 1,
             'Label' => 'Center',

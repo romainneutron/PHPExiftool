@@ -128,138 +128,158 @@ class MeteringTime extends AbstractTag
             'Label' => '4 s',
         ),
         21 => array(
+            'Id' => 16,
+            'Label' => '8 s',
+        ),
+        22 => array(
+            'Id' => 32,
+            'Label' => '20 s',
+        ),
+        23 => array(
+            'Id' => 48,
+            'Label' => '1 min',
+        ),
+        24 => array(
+            'Id' => 64,
+            'Label' => '30 min',
+        ),
+        25 => array(
+            'Id' => 0,
+            'Label' => '4 s',
+        ),
+        26 => array(
             'Id' => 1,
             'Label' => '6 s',
         ),
-        22 => array(
+        27 => array(
             'Id' => 2,
             'Label' => '8 s',
         ),
-        23 => array(
+        28 => array(
             'Id' => 3,
             'Label' => '16 s',
         ),
-        24 => array(
+        29 => array(
             'Id' => 4,
             'Label' => '30 s',
         ),
-        25 => array(
+        30 => array(
             'Id' => 5,
             'Label' => '1 min',
         ),
-        26 => array(
+        31 => array(
             'Id' => 6,
             'Label' => '5 min',
         ),
-        27 => array(
+        32 => array(
             'Id' => 7,
             'Label' => '10 min',
         ),
-        28 => array(
+        33 => array(
             'Id' => 8,
             'Label' => '30 min',
         ),
-        29 => array(
+        34 => array(
             'Id' => 9,
             'Label' => 'No Limit',
         ),
-        30 => array(
+        35 => array(
             'Id' => 0,
             'Label' => '4 s',
         ),
-        31 => array(
+        36 => array(
             'Id' => 16,
             'Label' => '6 s',
         ),
-        32 => array(
+        37 => array(
             'Id' => 32,
             'Label' => '8 s',
         ),
-        33 => array(
+        38 => array(
             'Id' => 48,
             'Label' => '16 s',
         ),
-        34 => array(
+        39 => array(
             'Id' => 64,
             'Label' => '30 s',
         ),
-        35 => array(
+        40 => array(
             'Id' => 80,
             'Label' => '1 min',
         ),
-        36 => array(
+        41 => array(
             'Id' => 96,
             'Label' => '5 min',
         ),
-        37 => array(
+        42 => array(
             'Id' => 112,
             'Label' => '10 min',
         ),
-        38 => array(
+        43 => array(
             'Id' => 128,
             'Label' => '30 min',
         ),
-        39 => array(
+        44 => array(
             'Id' => 144,
             'Label' => 'No Limit',
         ),
-        40 => array(
+        45 => array(
             'Id' => 0,
             'Label' => '4 s',
         ),
-        41 => array(
+        46 => array(
             'Id' => 4,
             'Label' => '6 s',
         ),
-        42 => array(
+        47 => array(
             'Id' => 8,
             'Label' => '8 s',
         ),
-        43 => array(
+        48 => array(
             'Id' => 12,
             'Label' => '16 s',
         ),
-        44 => array(
+        49 => array(
             'Id' => 16,
             'Label' => '30 s',
         ),
-        45 => array(
+        50 => array(
             'Id' => 20,
             'Label' => '30 min',
         ),
-        46 => array(
+        51 => array(
             'Id' => 0,
             'Label' => '4 s',
         ),
-        47 => array(
+        52 => array(
             'Id' => 16,
             'Label' => '6 s',
         ),
-        48 => array(
+        53 => array(
             'Id' => 32,
             'Label' => '8 s',
         ),
-        49 => array(
+        54 => array(
             'Id' => 48,
             'Label' => '16 s',
         ),
-        50 => array(
+        55 => array(
             'Id' => 64,
             'Label' => '30 s',
         ),
-        51 => array(
+        56 => array(
             'Id' => 80,
             'Label' => '1 min',
         ),
-        52 => array(
+        57 => array(
             'Id' => 96,
             'Label' => '5 min',
         ),
-        53 => array(
+        58 => array(
             'Id' => 112,
             'Label' => '10 min',
         ),
-        54 => array(
+        59 => array(
             'Id' => 128,
             'Label' => '30 min',
         ),

@@ -20,7 +20,7 @@ use PHPExiftool\Driver\AbstractTag;
 class ThumbnailHeight extends AbstractTag
 {
 
-    protected $Id = 90;
+    protected $Id = 'mixed';
 
     protected $Name = 'ThumbnailHeight';
 
@@ -34,7 +34,7 @@ class ThumbnailHeight extends AbstractTag
 
     protected $g2 = 'Image';
 
-    protected $Type = 'int16u';
+    protected $Type = 'mixed';
 
     protected $Writable = false;
 

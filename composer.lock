@@ -1,9 +1,10 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
     ],
-    "hash": "dc4c8d9e820f10edbc7889acca88c0a3",
+    "hash": "4f0ab51826aae6aebba206d6b46513e8",
     "packages": [
         {
             "name": "doctrine/cache",
@@ -197,16 +198,16 @@
         },
         {
             "name": "phpexiftool/exiftool",
-            "version": "9.15",
+            "version": "9.70",
             "source": {
                 "type": "git",
-                "url": "https://github.com/alchemy-fr/exiftool",
-                "reference": "9.15"
+                "url": "https://github.com/alchemy-fr/exiftool.git",
+                "reference": "fd7e64947dd628f8b7cc28dc06fd59848f2caca7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/alchemy-fr/exiftool/zipball/9.15",
-                "reference": "9.15",
+                "url": "https://api.github.com/repos/alchemy-fr/exiftool/zipball/fd7e64947dd628f8b7cc28dc06fd59848f2caca7",
+                "reference": "fd7e64947dd628f8b7cc28dc06fd59848f2caca7",
                 "shasum": ""
             },
             "require": {
@@ -229,7 +230,7 @@
                 "exiftool",
                 "metadatas"
             ],
-            "time": "2013-01-30 18:48:32"
+            "time": "2014-09-15 08:05:30"
         },
         {
             "name": "psr/log",
@@ -268,6 +269,59 @@
                 "psr-3"
             ],
             "time": "2012-12-21 11:40:51"
+        },
+        {
+            "name": "symfony/console",
+            "version": "v2.3.2",
+            "target-dir": "Symfony/Component/Console",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/Console.git",
+                "reference": "v2.3.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/Console/zipball/v2.3.2",
+                "reference": "v2.3.2",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "require-dev": {
+                "symfony/event-dispatcher": "~2.1"
+            },
+            "suggest": {
+                "symfony/event-dispatcher": ""
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.3-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Symfony\\Component\\Console\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "http://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony Console Component",
+            "homepage": "http://symfony.com",
+            "time": "2013-07-11 19:36:36"
         },
         {
             "name": "symfony/process",
@@ -974,59 +1028,6 @@
             "time": "2013-07-04 07:15:36"
         },
         {
-            "name": "symfony/console",
-            "version": "v2.3.2",
-            "target-dir": "Symfony/Component/Console",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/symfony/Console.git",
-                "reference": "v2.3.2"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/symfony/Console/zipball/v2.3.2",
-                "reference": "v2.3.2",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.3.3"
-            },
-            "require-dev": {
-                "symfony/event-dispatcher": "~2.1"
-            },
-            "suggest": {
-                "symfony/event-dispatcher": ""
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "2.3-dev"
-                }
-            },
-            "autoload": {
-                "psr-0": {
-                    "Symfony\\Component\\Console\\": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Fabien Potencier",
-                    "email": "fabien@symfony.com"
-                },
-                {
-                    "name": "Symfony Community",
-                    "homepage": "http://symfony.com/contributors"
-                }
-            ],
-            "description": "Symfony Console Component",
-            "homepage": "http://symfony.com",
-            "time": "2013-07-11 19:36:36"
-        },
-        {
             "name": "symfony/css-selector",
             "version": "v2.3.2",
             "target-dir": "Symfony/Component/CssSelector",
@@ -1609,17 +1610,12 @@
             "time": "2013-08-03 15:35:31"
         }
     ],
-    "aliases": [
-
-    ],
+    "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [
-
-    ],
+    "stability-flags": [],
+    "prefer-stable": false,
     "platform": {
         "php": ">=5.3.3"
     },
-    "platform-dev": [
-
-    ]
+    "platform-dev": []
 }

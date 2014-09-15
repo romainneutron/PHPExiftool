@@ -53,6 +53,10 @@ class Make extends AbstractTag
             'Id' => 4113,
             'Label' => 'Canon',
         ),
+        4356 => array(
+            'Id' => 4356,
+            'Label' => 'JVC',
+        ),
     );
 
 }

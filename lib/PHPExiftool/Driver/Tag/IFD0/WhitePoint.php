@@ -42,4 +42,6 @@ class WhitePoint extends AbstractTag
 
     protected $local_g2 = 'Camera';
 
+    protected $MaxLength = 2;
+
 }

@@ -20,7 +20,7 @@ use PHPExiftool\Driver\AbstractTag;
 class LiveViewMetering extends AbstractTag
 {
 
-    protected $Id = 132;
+    protected $Id = 'mixed';
 
     protected $Name = 'LiveViewMetering';
 

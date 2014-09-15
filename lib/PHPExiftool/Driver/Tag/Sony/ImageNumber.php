@@ -34,7 +34,7 @@ class ImageNumber extends AbstractTag
 
     protected $g2 = 'Camera';
 
-    protected $Type = 'int16u';
+    protected $Type = 'mixed';
 
     protected $Writable = true;
 

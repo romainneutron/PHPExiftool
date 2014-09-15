@@ -59,6 +59,14 @@ class PhaseDetectAF extends AbstractTag
             'Id' => 3,
             'Label' => 'On (39-point)',
         ),
+        4 => array(
+            'Id' => 4,
+            'Label' => 'On (hybrid)',
+        ),
+        5 => array(
+            'Id' => 5,
+            'Label' => 'On (105-point)',
+        ),
     );
 
 }

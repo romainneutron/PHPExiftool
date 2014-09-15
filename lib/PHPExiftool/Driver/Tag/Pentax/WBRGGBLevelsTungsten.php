@@ -20,11 +20,11 @@ use PHPExiftool\Driver\AbstractTag;
 class WBRGGBLevelsTungsten extends AbstractTag
 {
 
-    protected $Id = 528;
+    protected $Id = 'mixed';
 
     protected $Name = 'WB_RGGBLevelsTungsten';
 
-    protected $FullName = 'Pentax::Main';
+    protected $FullName = 'mixed';
 
     protected $GroupName = 'Pentax';
 
@@ -41,5 +41,7 @@ class WBRGGBLevelsTungsten extends AbstractTag
     protected $Description = 'WB RGGB Levels Tungsten';
 
     protected $flag_Permanent = true;
+
+    protected $MaxLength = 4;
 
 }

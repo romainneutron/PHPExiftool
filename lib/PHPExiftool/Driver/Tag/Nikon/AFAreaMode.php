@@ -120,22 +120,38 @@ class AFAreaMode extends AbstractTag
             'Label' => 'Dynamic Area (wide, 3D-tracking)',
         ),
         19 => array(
+            'Id' => 128,
+            'Label' => 'Single (135 points)',
+        ),
+        20 => array(
+            'Id' => 129,
+            'Label' => 'Auto (41 points)',
+        ),
+        21 => array(
+            'Id' => 130,
+            'Label' => 'Subject Tracking (41 points)',
+        ),
+        22 => array(
+            'Id' => 131,
+            'Label' => 'Face Priority (41 points)',
+        ),
+        23 => array(
             'Id' => 0,
             'Label' => 'Contrast-detect',
         ),
-        20 => array(
+        24 => array(
             'Id' => 1,
             'Label' => 'Contrast-detect (normal area)',
         ),
-        21 => array(
+        25 => array(
             'Id' => 2,
             'Label' => 'Contrast-detect (wide area)',
         ),
-        22 => array(
+        26 => array(
             'Id' => 3,
             'Label' => 'Contrast-detect (face priority)',
         ),
-        23 => array(
+        27 => array(
             'Id' => 4,
             'Label' => 'Contrast-detect (subject tracking)',
         ),

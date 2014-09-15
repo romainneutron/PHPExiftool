@@ -183,6 +183,42 @@ class FlashSyncSpeed extends AbstractTag
             'Id' => 128,
             'Label' => '1/60 s',
         ),
+        35 => array(
+            'Id' => 0,
+            'Label' => '1/320 s (auto FP)',
+        ),
+        36 => array(
+            'Id' => 16,
+            'Label' => '1/250 s (auto FP)',
+        ),
+        37 => array(
+            'Id' => 32,
+            'Label' => '1/250 s',
+        ),
+        38 => array(
+            'Id' => 48,
+            'Label' => '1/200 s',
+        ),
+        39 => array(
+            'Id' => 64,
+            'Label' => '1/160 s',
+        ),
+        40 => array(
+            'Id' => 80,
+            'Label' => '1/125 s',
+        ),
+        41 => array(
+            'Id' => 96,
+            'Label' => '1/100 s',
+        ),
+        42 => array(
+            'Id' => 112,
+            'Label' => '1/80 s',
+        ),
+        43 => array(
+            'Id' => 128,
+            'Label' => '1/60 s',
+        ),
     );
 
     protected $Index = 'mixed';

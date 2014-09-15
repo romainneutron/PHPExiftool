@@ -47,6 +47,10 @@ class Orientation2 extends AbstractTag
             'Id' => 1,
             'Label' => 'Horizontal (normal)',
         ),
+        2 => array(
+            'Id' => 2,
+            'Label' => 'Rotate 180',
+        ),
         6 => array(
             'Id' => 6,
             'Label' => 'Rotate 90 CW',

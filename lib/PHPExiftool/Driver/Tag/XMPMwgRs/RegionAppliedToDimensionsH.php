@@ -24,7 +24,7 @@ class RegionAppliedToDimensionsH extends AbstractTag
 
     protected $Name = 'RegionAppliedToDimensionsH';
 
-    protected $FullName = 'XMP::mwg_rs';
+    protected $FullName = 'MWG::Regions';
 
     protected $GroupName = 'XMP-mwg-rs';
 

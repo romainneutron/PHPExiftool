@@ -45,11 +45,11 @@ class AFSensorActive extends AbstractTag
     protected $Values = array(
         0 => array(
             'Id' => 0,
-            'Label' => 'Top-Right',
+            'Label' => 'Top-right',
         ),
         1 => array(
             'Id' => 1,
-            'Label' => 'Bottom-Right',
+            'Label' => 'Bottom-right',
         ),
         2 => array(
             'Id' => 2,
@@ -69,11 +69,11 @@ class AFSensorActive extends AbstractTag
         ),
         6 => array(
             'Id' => 6,
-            'Label' => 'Top-Left',
+            'Label' => 'Top-left',
         ),
         7 => array(
             'Id' => 7,
-            'Label' => 'Bottom-Left',
+            'Label' => 'Bottom-left',
         ),
     );
 

@@ -60,7 +60,7 @@ class FocusMode extends AbstractTag
             'Label' => 'Multi AF',
         ),
         4 => array(
-            'Id' => 5,
+            'Id' => 4,
             'Label' => 'Face detect',
         ),
         5 => array(

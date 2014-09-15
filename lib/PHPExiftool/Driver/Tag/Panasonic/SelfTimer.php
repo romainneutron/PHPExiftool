@@ -55,6 +55,10 @@ class SelfTimer extends AbstractTag
             'Id' => 3,
             'Label' => '2 s',
         ),
+        4 => array(
+            'Id' => 4,
+            'Label' => '10 s / 3 pictures',
+        ),
     );
 
 }

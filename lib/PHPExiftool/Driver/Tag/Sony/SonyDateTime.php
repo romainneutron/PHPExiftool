@@ -20,11 +20,11 @@ use PHPExiftool\Driver\AbstractTag;
 class SonyDateTime extends AbstractTag
 {
 
-    protected $Id = 6;
+    protected $Id = 'mixed';
 
     protected $Name = 'SonyDateTime';
 
-    protected $FullName = 'Sony::ShotInfo';
+    protected $FullName = 'mixed';
 
     protected $GroupName = 'Sony';
 
@@ -34,7 +34,7 @@ class SonyDateTime extends AbstractTag
 
     protected $g2 = 'Image';
 
-    protected $Type = 'string';
+    protected $Type = 'mixed';
 
     protected $Writable = true;
 
@@ -44,6 +44,6 @@ class SonyDateTime extends AbstractTag
 
     protected $flag_Permanent = true;
 
-    protected $MaxLength = 20;
+    protected $MaxLength = 'mixed';
 
 }

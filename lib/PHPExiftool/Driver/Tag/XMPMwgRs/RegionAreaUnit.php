@@ -24,7 +24,7 @@ class RegionAreaUnit extends AbstractTag
 
     protected $Name = 'RegionAreaUnit';
 
-    protected $FullName = 'XMP::mwg_rs';
+    protected $FullName = 'MWG::Regions';
 
     protected $GroupName = 'XMP-mwg-rs';
 

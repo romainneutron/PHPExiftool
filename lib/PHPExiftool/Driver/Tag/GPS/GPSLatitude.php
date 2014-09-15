@@ -40,12 +40,12 @@ class GPSLatitude extends AbstractTag
 
     protected $Description = 'GPS Latitude';
 
+    protected $MaxLength = 3;
+
     protected $local_g1 = 'mixed';
 
     protected $local_g2 = 'mixed';
 
     protected $flag_Permanent = 'mixed';
-
-    protected $MaxLength = 'mixed';
 
 }

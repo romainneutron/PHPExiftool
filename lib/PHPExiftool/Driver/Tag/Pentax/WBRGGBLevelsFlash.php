@@ -20,11 +20,11 @@ use PHPExiftool\Driver\AbstractTag;
 class WBRGGBLevelsFlash extends AbstractTag
 {
 
-    protected $Id = 532;
+    protected $Id = 'mixed';
 
     protected $Name = 'WB_RGGBLevelsFlash';
 
-    protected $FullName = 'Pentax::Main';
+    protected $FullName = 'mixed';
 
     protected $GroupName = 'Pentax';
 
@@ -41,5 +41,7 @@ class WBRGGBLevelsFlash extends AbstractTag
     protected $Description = 'WB RGGB Levels Flash';
 
     protected $flag_Permanent = true;
+
+    protected $MaxLength = 4;
 
 }

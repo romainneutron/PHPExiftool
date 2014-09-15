@@ -40,6 +40,6 @@ class Copyright extends AbstractTag
 
     protected $Description = 'Copyright';
 
-    protected $local_g2 = 'mixed';
+    protected $local_g2 = 'Author';
 
 }

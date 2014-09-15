@@ -24,7 +24,7 @@ class KeywordInfo extends AbstractTag
 
     protected $Name = 'KeywordInfo';
 
-    protected $FullName = 'XMP::mwg_kw';
+    protected $FullName = 'MWG::Keywords';
 
     protected $GroupName = 'XMP-mwg-kw';
 

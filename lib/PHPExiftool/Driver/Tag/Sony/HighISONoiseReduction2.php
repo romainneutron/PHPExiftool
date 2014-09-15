@@ -34,9 +34,9 @@ class HighISONoiseReduction2 extends AbstractTag
 
     protected $g2 = 'Camera';
 
-    protected $Type = '?';
+    protected $Type = 'int16u';
 
-    protected $Writable = false;
+    protected $Writable = true;
 
     protected $Description = 'High ISO Noise Reduction 2';
 
@@ -54,6 +54,10 @@ class HighISONoiseReduction2 extends AbstractTag
         2 => array(
             'Id' => 2,
             'Label' => 'Low',
+        ),
+        3 => array(
+            'Id' => 3,
+            'Label' => 'Off',
         ),
         65535 => array(
             'Id' => 65535,

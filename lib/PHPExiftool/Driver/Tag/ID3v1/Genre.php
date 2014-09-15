@@ -203,7 +203,7 @@ class Genre extends AbstractTag
         ),
         40 => array(
             'Id' => 40,
-            'Label' => 'AlternRock',
+            'Label' => 'Alt. Rock',
         ),
         41 => array(
             'Id' => 41,
@@ -279,7 +279,7 @@ class Genre extends AbstractTag
         ),
         59 => array(
             'Id' => 59,
-            'Label' => 'Gangsta',
+            'Label' => 'Gangsta Rap',
         ),
         60 => array(
             'Id' => 60,
@@ -311,7 +311,7 @@ class Genre extends AbstractTag
         ),
         67 => array(
             'Id' => 67,
-            'Label' => 'Psychadelic',
+            'Label' => 'Psychedelic',
         ),
         68 => array(
             'Id' => 68,
@@ -379,11 +379,11 @@ class Genre extends AbstractTag
         ),
         84 => array(
             'Id' => 84,
-            'Label' => 'Fast Fusion',
+            'Label' => 'Fast-Fusion',
         ),
         85 => array(
             'Id' => 85,
-            'Label' => 'Bebob',
+            'Label' => 'Bebop',
         ),
         86 => array(
             'Id' => 86,
@@ -535,7 +535,7 @@ class Genre extends AbstractTag
         ),
         123 => array(
             'Id' => 123,
-            'Label' => 'Acapella',
+            'Label' => 'A Cappella',
         ),
         124 => array(
             'Id' => 124,
@@ -575,7 +575,7 @@ class Genre extends AbstractTag
         ),
         133 => array(
             'Id' => 133,
-            'Label' => 'Negerpunk',
+            'Label' => 'Afro-Punk',
         ),
         134 => array(
             'Id' => 134,
@@ -587,7 +587,7 @@ class Genre extends AbstractTag
         ),
         136 => array(
             'Id' => 136,
-            'Label' => 'Christian Gangsta',
+            'Label' => 'Christian Gangsta Rap',
         ),
         137 => array(
             'Id' => 137,
@@ -603,7 +603,7 @@ class Genre extends AbstractTag
         ),
         140 => array(
             'Id' => 140,
-            'Label' => 'Contemporary C',
+            'Label' => 'Contemporary Christian',
         ),
         141 => array(
             'Id' => 141,
@@ -631,7 +631,183 @@ class Genre extends AbstractTag
         ),
         147 => array(
             'Id' => 147,
-            'Label' => 'SynthPop',
+            'Label' => 'Synthpop',
+        ),
+        148 => array(
+            'Id' => 148,
+            'Label' => 'Abstract',
+        ),
+        149 => array(
+            'Id' => 149,
+            'Label' => 'Art Rock',
+        ),
+        150 => array(
+            'Id' => 150,
+            'Label' => 'Baroque',
+        ),
+        151 => array(
+            'Id' => 151,
+            'Label' => 'Bhangra',
+        ),
+        152 => array(
+            'Id' => 152,
+            'Label' => 'Big Beat',
+        ),
+        153 => array(
+            'Id' => 153,
+            'Label' => 'Breakbeat',
+        ),
+        154 => array(
+            'Id' => 154,
+            'Label' => 'Chillout',
+        ),
+        155 => array(
+            'Id' => 155,
+            'Label' => 'Downtempo',
+        ),
+        156 => array(
+            'Id' => 156,
+            'Label' => 'Dub',
+        ),
+        157 => array(
+            'Id' => 157,
+            'Label' => 'EBM',
+        ),
+        158 => array(
+            'Id' => 158,
+            'Label' => 'Eclectic',
+        ),
+        159 => array(
+            'Id' => 159,
+            'Label' => 'Electro',
+        ),
+        160 => array(
+            'Id' => 160,
+            'Label' => 'Electroclash',
+        ),
+        161 => array(
+            'Id' => 161,
+            'Label' => 'Emo',
+        ),
+        162 => array(
+            'Id' => 162,
+            'Label' => 'Experimental',
+        ),
+        163 => array(
+            'Id' => 163,
+            'Label' => 'Garage',
+        ),
+        164 => array(
+            'Id' => 164,
+            'Label' => 'Global',
+        ),
+        165 => array(
+            'Id' => 165,
+            'Label' => 'IDM',
+        ),
+        166 => array(
+            'Id' => 166,
+            'Label' => 'Illbient',
+        ),
+        167 => array(
+            'Id' => 167,
+            'Label' => 'Industro-Goth',
+        ),
+        168 => array(
+            'Id' => 168,
+            'Label' => 'Jam Band',
+        ),
+        169 => array(
+            'Id' => 169,
+            'Label' => 'Krautrock',
+        ),
+        170 => array(
+            'Id' => 170,
+            'Label' => 'Leftfield',
+        ),
+        171 => array(
+            'Id' => 171,
+            'Label' => 'Lounge',
+        ),
+        172 => array(
+            'Id' => 172,
+            'Label' => 'Math Rock',
+        ),
+        173 => array(
+            'Id' => 173,
+            'Label' => 'New Romantic',
+        ),
+        174 => array(
+            'Id' => 174,
+            'Label' => 'Nu-Breakz',
+        ),
+        175 => array(
+            'Id' => 175,
+            'Label' => 'Post-Punk',
+        ),
+        176 => array(
+            'Id' => 176,
+            'Label' => 'Post-Rock',
+        ),
+        177 => array(
+            'Id' => 177,
+            'Label' => 'Psytrance',
+        ),
+        178 => array(
+            'Id' => 178,
+            'Label' => 'Shoegaze',
+        ),
+        179 => array(
+            'Id' => 179,
+            'Label' => 'Space Rock',
+        ),
+        180 => array(
+            'Id' => 180,
+            'Label' => 'Trop Rock',
+        ),
+        181 => array(
+            'Id' => 181,
+            'Label' => 'World Music',
+        ),
+        182 => array(
+            'Id' => 182,
+            'Label' => 'Neoclassical',
+        ),
+        183 => array(
+            'Id' => 183,
+            'Label' => 'Audiobook',
+        ),
+        184 => array(
+            'Id' => 184,
+            'Label' => 'Audio Theatre',
+        ),
+        185 => array(
+            'Id' => 185,
+            'Label' => 'Neue Deutsche Welle',
+        ),
+        186 => array(
+            'Id' => 186,
+            'Label' => 'Podcast',
+        ),
+        187 => array(
+            'Id' => 187,
+            'Label' => 'Indie Rock',
+        ),
+        188 => array(
+            'Id' => 188,
+            'Label' => 'G-Funk',
+        ),
+        189 => array(
+            'Id' => 189,
+            'Label' => 'Dubstep',
+        ),
+        190 => array(
+            'Id' => 190,
+            'Label' => 'Garage Rock',
+        ),
+        191 => array(
+            'Id' => 191,
+            'Label' => 'Psybient',
         ),
         255 => array(
             'Id' => 255,

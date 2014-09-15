@@ -20,7 +20,7 @@ use PHPExiftool\Driver\AbstractTag;
 class BackgroundColor extends AbstractTag
 {
 
-    protected $Id = 16;
+    protected $Id = 18;
 
     protected $Name = 'BackgroundColor';
 

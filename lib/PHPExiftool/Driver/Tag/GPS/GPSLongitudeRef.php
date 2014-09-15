@@ -40,6 +40,8 @@ class GPSLongitudeRef extends AbstractTag
 
     protected $Description = 'GPS Longitude Ref';
 
+    protected $MaxLength = 2;
+
     protected $Values = array(
         'E' => array(
             'Id' => 'E',
@@ -56,7 +58,5 @@ class GPSLongitudeRef extends AbstractTag
     protected $local_g2 = 'mixed';
 
     protected $flag_Permanent = 'mixed';
-
-    protected $MaxLength = 'mixed';
 
 }

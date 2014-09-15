@@ -20,7 +20,7 @@ use PHPExiftool\Driver\AbstractTag;
 class OtherFormat extends AbstractTag
 {
 
-    protected $Id = 2;
+    protected $Id = 4;
 
     protected $Name = 'OtherFormat';
 

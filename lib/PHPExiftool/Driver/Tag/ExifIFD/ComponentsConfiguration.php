@@ -46,6 +46,8 @@ class ComponentsConfiguration extends AbstractTag
 
     protected $flag_Mandatory = true;
 
+    protected $MaxLength = 4;
+
     protected $Values = array(
         0 => array(
             'Id' => 0,

@@ -46,6 +46,6 @@ class MakerNotePanasonic2 extends AbstractTag
 
     protected $flag_Permanent = true;
 
-    protected $Index = 44;
+    protected $Index = 49;
 
 }

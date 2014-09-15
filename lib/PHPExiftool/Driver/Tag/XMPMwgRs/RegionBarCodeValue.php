@@ -24,7 +24,7 @@ class RegionBarCodeValue extends AbstractTag
 
     protected $Name = 'RegionBarCodeValue';
 
-    protected $FullName = 'XMP::mwg_rs';
+    protected $FullName = 'MWG::Regions';
 
     protected $GroupName = 'XMP-mwg-rs';
 

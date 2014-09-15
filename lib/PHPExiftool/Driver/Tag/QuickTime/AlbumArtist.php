@@ -20,11 +20,11 @@ use PHPExiftool\Driver\AbstractTag;
 class AlbumArtist extends AbstractTag
 {
 
-    protected $Id = 'aART';
+    protected $Id = 'mixed';
 
     protected $Name = 'AlbumArtist';
 
-    protected $FullName = 'QuickTime::ItemList';
+    protected $FullName = 'mixed';
 
     protected $GroupName = 'QuickTime';
 
@@ -32,12 +32,14 @@ class AlbumArtist extends AbstractTag
 
     protected $g1 = 'QuickTime';
 
-    protected $g2 = 'Audio';
+    protected $g2 = 'mixed';
 
     protected $Type = '?';
 
     protected $Writable = false;
 
     protected $Description = 'Album Artist';
+
+    protected $local_g2 = 'mixed';
 
 }

@@ -40,6 +40,8 @@ class GPSImgDirectionRef extends AbstractTag
 
     protected $Description = 'GPS Img Direction Ref';
 
+    protected $local_g2 = 'Location';
+
     protected $Values = array(
         'M' => array(
             'Id' => 'M',

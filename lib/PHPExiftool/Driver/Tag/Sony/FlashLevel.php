@@ -47,6 +47,18 @@ class FlashLevel extends AbstractTag
             'Id' => '-32768',
             'Label' => 'Low',
         ),
+        '-6' => array(
+            'Id' => '-6',
+            'Label' => '-6/3',
+        ),
+        '-5' => array(
+            'Id' => '-5',
+            'Label' => '-5/3',
+        ),
+        '-4' => array(
+            'Id' => '-4',
+            'Label' => '-4/3',
+        ),
         '-3' => array(
             'Id' => '-3',
             'Label' => '-3/3',
@@ -74,6 +86,18 @@ class FlashLevel extends AbstractTag
         3 => array(
             'Id' => 3,
             'Label' => '+3/3',
+        ),
+        4 => array(
+            'Id' => 4,
+            'Label' => '+4/3',
+        ),
+        5 => array(
+            'Id' => 5,
+            'Label' => '+5/3',
+        ),
+        6 => array(
+            'Id' => 6,
+            'Label' => '+6/3',
         ),
         128 => array(
             'Id' => 128,

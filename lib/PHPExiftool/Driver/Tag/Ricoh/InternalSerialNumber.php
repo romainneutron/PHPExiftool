@@ -42,6 +42,8 @@ class InternalSerialNumber extends AbstractTag
 
     protected $flag_Permanent = true;
 
+    protected $MaxLength = 16;
+
     protected $Index = 1;
 
 }

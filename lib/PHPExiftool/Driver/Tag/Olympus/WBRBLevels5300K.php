@@ -42,4 +42,6 @@ class WBRBLevels5300K extends AbstractTag
 
     protected $flag_Permanent = true;
 
+    protected $MaxLength = 2;
+
 }

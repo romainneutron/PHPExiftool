@@ -40,6 +40,8 @@ class GPSDestLatitudeRef extends AbstractTag
 
     protected $Description = 'GPS Dest Latitude Ref';
 
+    protected $MaxLength = 2;
+
     protected $Values = array(
         'N' => array(
             'Id' => 'N',

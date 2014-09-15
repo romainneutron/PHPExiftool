@@ -645,7 +645,7 @@ class CanonModelID extends AbstractTag
         ),
         51642368 => array(
             'Id' => 51642368,
-            'Label' => 'PowerShot ELPH 500 HS / IXUS 320 HS / IXY 32S',
+            'Label' => 'IXY 32S',
         ),
         51773440 => array(
             'Id' => 51773440,
@@ -727,13 +727,101 @@ class CanonModelID extends AbstractTag
             'Id' => 54067200,
             'Label' => 'IXUS 245 HS / IXY 430F',
         ),
+        54525952 => array(
+            'Id' => 54525952,
+            'Label' => 'PowerShot SX280 HS',
+        ),
+        54591488 => array(
+            'Id' => 54591488,
+            'Label' => 'PowerShot SX270 HS',
+        ),
+        54657024 => array(
+            'Id' => 54657024,
+            'Label' => 'PowerShot A3500 IS',
+        ),
         54722560 => array(
             'Id' => 54722560,
             'Label' => 'PowerShot A2600',
         ),
+        54853632 => array(
+            'Id' => 54853632,
+            'Label' => 'PowerShot A1400',
+        ),
         54919168 => array(
             'Id' => 54919168,
-            'Label' => 'PowerShot ELPH 130 IS / IXUS 140',
+            'Label' => 'PowerShot ELPH 130 IS / IXUS 140 / IXY 110F',
+        ),
+        54984704 => array(
+            'Id' => 54984704,
+            'Label' => 'PowerShot ELPH 115/120 IS / IXUS 132/135 / IXY 90F/100F',
+        ),
+        55115776 => array(
+            'Id' => 55115776,
+            'Label' => 'PowerShot ELPH 330 HS / IXUS 255 HS / IXY 610F',
+        ),
+        55640064 => array(
+            'Id' => 55640064,
+            'Label' => 'PowerShot A2500',
+        ),
+        55836672 => array(
+            'Id' => 55836672,
+            'Label' => 'PowerShot G16',
+        ),
+        55902208 => array(
+            'Id' => 55902208,
+            'Label' => 'PowerShot S120',
+        ),
+        55967744 => array(
+            'Id' => 55967744,
+            'Label' => 'PowerShot SX170 IS',
+        ),
+        56098816 => array(
+            'Id' => 56098816,
+            'Label' => 'PowerShot SX510 HS',
+        ),
+        56164352 => array(
+            'Id' => 56164352,
+            'Label' => 'PowerShot S200 (new)',
+        ),
+        56623104 => array(
+            'Id' => 56623104,
+            'Label' => 'IXY 620F',
+        ),
+        56688640 => array(
+            'Id' => 56688640,
+            'Label' => 'PowerShot N100',
+        ),
+        56885248 => array(
+            'Id' => 56885248,
+            'Label' => 'PowerShot G1 X Mark II',
+        ),
+        56950784 => array(
+            'Id' => 56950784,
+            'Label' => 'PowerShot D30',
+        ),
+        57016320 => array(
+            'Id' => 57016320,
+            'Label' => 'PowerShot SX700 HS',
+        ),
+        57081856 => array(
+            'Id' => 57081856,
+            'Label' => 'PowerShot SX600 HS',
+        ),
+        57147392 => array(
+            'Id' => 57147392,
+            'Label' => 'PowerShot ELPH 140 IS / IXUS 150',
+        ),
+        57212928 => array(
+            'Id' => 57212928,
+            'Label' => 'PowerShot ELPH 135 / IXUS 145 / IXY 120',
+        ),
+        57671680 => array(
+            'Id' => 57671680,
+            'Label' => 'PowerShot ELPH 340 HS / IXUS 265 HS / IXY 630',
+        ),
+        57737216 => array(
+            'Id' => 57737216,
+            'Label' => 'PowerShot ELPH 150 IS / IXUS 155 / IXY 140',
         ),
         67371008 => array(
             'Id' => 67371008,
@@ -854,6 +942,10 @@ class CanonModelID extends AbstractTag
         1074256530 => array(
             'Id' => 1074256530,
             'Label' => 'FS31/FS36/FS37/FS300/FS305/FS306/FS307',
+        ),
+        1074257321 => array(
+            'Id' => 1074257321,
+            'Label' => 'HF G25',
         ),
         2147483649 => array(
             'Id' => 2147483649,
@@ -1001,11 +1093,35 @@ class CanonModelID extends AbstractTag
         ),
         2147484418 => array(
             'Id' => 2147484418,
-            'Label' => '6D',
+            'Label' => 'EOS 6D',
+        ),
+        2147484452 => array(
+            'Id' => 2147484452,
+            'Label' => 'EOS-1D C',
+        ),
+        2147484453 => array(
+            'Id' => 2147484453,
+            'Label' => 'EOS 70D',
+        ),
+        2147484454 => array(
+            'Id' => 2147484454,
+            'Label' => 'EOS Rebel T5i / 700D / Kiss X7i',
+        ),
+        2147484455 => array(
+            'Id' => 2147484455,
+            'Label' => 'EOS Rebel T5 / 1200D / Kiss X70',
         ),
         2147484465 => array(
             'Id' => 2147484465,
             'Label' => 'EOS M',
+        ),
+        2147484486 => array(
+            'Id' => 2147484486,
+            'Label' => 'EOS Rebel SL1 / 100D / Kiss X7',
+        ),
+        2147484501 => array(
+            'Id' => 2147484501,
+            'Label' => 'EOS M2',
         ),
     );
 

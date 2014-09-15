@@ -42,4 +42,6 @@ class RawDevVersion extends AbstractTag
 
     protected $flag_Permanent = true;
 
+    protected $MaxLength = 4;
+
 }

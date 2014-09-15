@@ -36,7 +36,7 @@ class LensType extends AbstractTag
 
     protected $Type = 'mixed';
 
-    protected $Writable = false;
+    protected $Writable = true;
 
     protected $Description = 'Lens Type';
 

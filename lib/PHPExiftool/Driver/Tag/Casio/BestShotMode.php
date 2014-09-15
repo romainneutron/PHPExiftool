@@ -2919,6 +2919,150 @@ class BestShotMode extends AbstractTag
             'Id' => 5,
             'Label' => 'Soft Focus',
         ),
+        719 => array(
+            'Id' => 1,
+            'Label' => 'High Speed Night Shot',
+        ),
+        720 => array(
+            'Id' => 2,
+            'Label' => 'Blurred Background',
+        ),
+        721 => array(
+            'Id' => 3,
+            'Label' => 'Toy Camera',
+        ),
+        722 => array(
+            'Id' => 4,
+            'Label' => 'Soft Focus',
+        ),
+        723 => array(
+            'Id' => 5,
+            'Label' => 'Light Tone',
+        ),
+        724 => array(
+            'Id' => 6,
+            'Label' => 'Pop',
+        ),
+        725 => array(
+            'Id' => 7,
+            'Label' => 'Sepia',
+        ),
+        726 => array(
+            'Id' => 8,
+            'Label' => 'Monochrome',
+        ),
+        727 => array(
+            'Id' => 9,
+            'Label' => 'Miniature',
+        ),
+        728 => array(
+            'Id' => 10,
+            'Label' => 'Wide Shot',
+        ),
+        729 => array(
+            'Id' => 11,
+            'Label' => 'High Speed Best Selection',
+        ),
+        730 => array(
+            'Id' => 12,
+            'Label' => 'Lag Correction',
+        ),
+        731 => array(
+            'Id' => 13,
+            'Label' => 'High Speed Night Scene',
+        ),
+        732 => array(
+            'Id' => 14,
+            'Label' => 'High Speed Night Scene and Portrait',
+        ),
+        733 => array(
+            'Id' => 15,
+            'Label' => 'High Speed Anti Shake',
+        ),
+        734 => array(
+            'Id' => 16,
+            'Label' => 'Portrait',
+        ),
+        735 => array(
+            'Id' => 17,
+            'Label' => 'Scenery',
+        ),
+        736 => array(
+            'Id' => 18,
+            'Label' => 'Portrait with Scenery',
+        ),
+        737 => array(
+            'Id' => 19,
+            'Label' => 'Children',
+        ),
+        738 => array(
+            'Id' => 20,
+            'Label' => 'Sports',
+        ),
+        739 => array(
+            'Id' => 21,
+            'Label' => 'Candlelight Portrait',
+        ),
+        740 => array(
+            'Id' => 22,
+            'Label' => 'Party',
+        ),
+        741 => array(
+            'Id' => 23,
+            'Label' => 'Pet',
+        ),
+        742 => array(
+            'Id' => 24,
+            'Label' => 'Flower',
+        ),
+        743 => array(
+            'Id' => 25,
+            'Label' => 'Natural Green',
+        ),
+        744 => array(
+            'Id' => 26,
+            'Label' => 'Autumn Leaves',
+        ),
+        745 => array(
+            'Id' => 27,
+            'Label' => 'Soft Flowing Water',
+        ),
+        746 => array(
+            'Id' => 28,
+            'Label' => 'Splashing Water',
+        ),
+        747 => array(
+            'Id' => 29,
+            'Label' => 'Sundown',
+        ),
+        748 => array(
+            'Id' => 30,
+            'Label' => 'Fireworks',
+        ),
+        749 => array(
+            'Id' => 31,
+            'Label' => 'Food',
+        ),
+        750 => array(
+            'Id' => 32,
+            'Label' => 'Text',
+        ),
+        751 => array(
+            'Id' => 33,
+            'Label' => 'Collection',
+        ),
+        752 => array(
+            'Id' => 34,
+            'Label' => 'Auction',
+        ),
+        753 => array(
+            'Id' => 35,
+            'Label' => 'Prerecord (Movie)',
+        ),
+        754 => array(
+            'Id' => 36,
+            'Label' => 'For YouTube',
+        ),
     );
 
     protected $Index = 'mixed';

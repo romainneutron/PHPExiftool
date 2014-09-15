@@ -20,7 +20,7 @@ use PHPExiftool\Driver\AbstractTag;
 class HintFormat extends AbstractTag
 {
 
-    protected $Id = 2;
+    protected $Id = 4;
 
     protected $Name = 'HintFormat';
 

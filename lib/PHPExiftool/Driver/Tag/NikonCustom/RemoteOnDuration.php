@@ -89,22 +89,22 @@ class RemoteOnDuration extends AbstractTag
         ),
         11 => array(
             'Id' => 3,
-            'Label' => '15 min',
+            'Label' => '20 min',
         ),
         12 => array(
             'Id' => 0,
             'Label' => '1 min',
         ),
         13 => array(
-            'Id' => 64,
+            'Id' => 1,
             'Label' => '5 min',
         ),
         14 => array(
-            'Id' => 128,
+            'Id' => 2,
             'Label' => '10 min',
         ),
         15 => array(
-            'Id' => 192,
+            'Id' => 3,
             'Label' => '15 min',
         ),
         16 => array(
@@ -120,6 +120,38 @@ class RemoteOnDuration extends AbstractTag
             'Label' => '10 min',
         ),
         19 => array(
+            'Id' => 3,
+            'Label' => '15 min',
+        ),
+        20 => array(
+            'Id' => 0,
+            'Label' => '1 min',
+        ),
+        21 => array(
+            'Id' => 64,
+            'Label' => '5 min',
+        ),
+        22 => array(
+            'Id' => 128,
+            'Label' => '10 min',
+        ),
+        23 => array(
+            'Id' => 192,
+            'Label' => '15 min',
+        ),
+        24 => array(
+            'Id' => 0,
+            'Label' => '1 min',
+        ),
+        25 => array(
+            'Id' => 1,
+            'Label' => '5 min',
+        ),
+        26 => array(
+            'Id' => 2,
+            'Label' => '10 min',
+        ),
+        27 => array(
             'Id' => 3,
             'Label' => '15 min',
         ),

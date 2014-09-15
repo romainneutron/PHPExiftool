@@ -42,6 +42,8 @@ class ImageEditing extends AbstractTag
 
     protected $flag_Permanent = true;
 
+    protected $MaxLength = 4;
+
     protected $Values = array(
         '0 0' => array(
             'Id' => '0 0',
@@ -70,6 +72,10 @@ class ImageEditing extends AbstractTag
         '6 0 0 0' => array(
             'Id' => '6 0 0 0',
             'Label' => 'Digital Filter 6',
+        ),
+        '8 0 0 0' => array(
+            'Id' => '8 0 0 0',
+            'Label' => 'Red-eye Correction',
         ),
         '16 0 0 0' => array(
             'Id' => '16 0 0 0',

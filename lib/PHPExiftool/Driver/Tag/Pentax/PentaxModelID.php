@@ -437,7 +437,7 @@ class PentaxModelID extends AbstractTag
         ),
         77450 => array(
             'Id' => 77450,
-            'Label' => 'Optio RS1000 / RS1500',
+            'Label' => 'Optio RS1000/RS1500',
         ),
         77460 => array(
             'Id' => 77460,
@@ -498,6 +498,58 @@ class PentaxModelID extends AbstractTag
         77681 => array(
             'Id' => 77681,
             'Label' => 'K-5 II s',
+        ),
+        77690 => array(
+            'Id' => 77690,
+            'Label' => 'Q7',
+        ),
+        77700 => array(
+            'Id' => 77700,
+            'Label' => 'MX-1',
+        ),
+        77710 => array(
+            'Id' => 77710,
+            'Label' => 'WG-3 GPS',
+        ),
+        77720 => array(
+            'Id' => 77720,
+            'Label' => 'WG-3',
+        ),
+        77730 => array(
+            'Id' => 77730,
+            'Label' => 'WG-10',
+        ),
+        77750 => array(
+            'Id' => 77750,
+            'Label' => 'K-50',
+        ),
+        77760 => array(
+            'Id' => 77760,
+            'Label' => 'K-3',
+        ),
+        77770 => array(
+            'Id' => 77770,
+            'Label' => 'K-500',
+        ),
+        77790 => array(
+            'Id' => 77790,
+            'Label' => 'WG-4 GPS',
+        ),
+        77800 => array(
+            'Id' => 77800,
+            'Label' => 'WG-4',
+        ),
+        77830 => array(
+            'Id' => 77830,
+            'Label' => 'WG-20',
+        ),
+        77840 => array(
+            'Id' => 77840,
+            'Label' => '645Z',
+        ),
+        77850 => array(
+            'Id' => 77850,
+            'Label' => 'K-S1',
         ),
     );
 

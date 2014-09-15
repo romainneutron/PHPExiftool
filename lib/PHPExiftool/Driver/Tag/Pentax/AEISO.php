@@ -20,11 +20,11 @@ use PHPExiftool\Driver\AbstractTag;
 class AEISO extends AbstractTag
 {
 
-    protected $Id = 2;
+    protected $Id = 'mixed';
 
     protected $Name = 'AE_ISO';
 
-    protected $FullName = 'Pentax::AEInfo';
+    protected $FullName = 'mixed';
 
     protected $GroupName = 'Pentax';
 

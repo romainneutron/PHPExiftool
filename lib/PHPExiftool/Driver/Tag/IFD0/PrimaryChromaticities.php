@@ -40,4 +40,6 @@ class PrimaryChromaticities extends AbstractTag
 
     protected $Description = 'Primary Chromaticities';
 
+    protected $MaxLength = 6;
+
 }

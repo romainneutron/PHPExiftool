@@ -41,6 +41,10 @@ class MeasurementGeometry extends AbstractTag
     protected $Description = 'Measurement Geometry';
 
     protected $Values = array(
+        0 => array(
+            'Id' => 0,
+            'Label' => 'Unknown',
+        ),
         1 => array(
             'Id' => 1,
             'Label' => '0/45 or 45/0',

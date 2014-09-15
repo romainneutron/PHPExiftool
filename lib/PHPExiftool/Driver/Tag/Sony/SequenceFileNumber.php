@@ -20,11 +20,11 @@ use PHPExiftool\Driver\AbstractTag;
 class SequenceFileNumber extends AbstractTag
 {
 
-    protected $Id = 12;
+    protected $Id = 'mixed';
 
     protected $Name = 'SequenceFileNumber';
 
-    protected $FullName = 'Sony::Tag9400';
+    protected $FullName = 'mixed';
 
     protected $GroupName = 'Sony';
 

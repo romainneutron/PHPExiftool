@@ -20,11 +20,11 @@ use PHPExiftool\Driver\AbstractTag;
 class ThumbnailHeight extends AbstractTag
 {
 
-    protected $Id = 2;
+    protected $Id = 'mixed';
 
     protected $Name = 'ThumbnailHeight';
 
-    protected $FullName = 'Samsung::Thumbnail';
+    protected $FullName = 'mixed';
 
     protected $GroupName = 'Samsung';
 

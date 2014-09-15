@@ -63,6 +63,22 @@ class ActiveDLighting extends AbstractTag
             'Id' => 7,
             'Label' => 'Extra High',
         ),
+        8 => array(
+            'Id' => 8,
+            'Label' => 'Extra High 1',
+        ),
+        9 => array(
+            'Id' => 9,
+            'Label' => 'Extra High 2',
+        ),
+        10 => array(
+            'Id' => 10,
+            'Label' => 'Extra High 3',
+        ),
+        11 => array(
+            'Id' => 11,
+            'Label' => 'Extra High 4',
+        ),
         65535 => array(
             'Id' => 65535,
             'Label' => 'Auto',

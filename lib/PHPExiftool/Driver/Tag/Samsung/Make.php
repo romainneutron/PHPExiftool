@@ -24,7 +24,7 @@ class Make extends AbstractTag
 
     protected $Name = 'Make';
 
-    protected $FullName = 'Samsung::MP4';
+    protected $FullName = 'mixed';
 
     protected $GroupName = 'Samsung';
 
@@ -42,6 +42,6 @@ class Make extends AbstractTag
 
     protected $flag_Permanent = true;
 
-    protected $MaxLength = 24;
+    protected $MaxLength = 'mixed';
 
 }

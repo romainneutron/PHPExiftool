@@ -42,4 +42,6 @@ class ColorMatrix2 extends AbstractTag
 
     protected $flag_Permanent = true;
 
+    protected $MaxLength = 9;
+
 }

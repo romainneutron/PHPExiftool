@@ -59,6 +59,18 @@ class WBAdjMode extends AbstractTag
             'Id' => 4,
             'Label' => 'Calculate Automatically',
         ),
+        5 => array(
+            'Id' => 5,
+            'Label' => 'Auto2',
+        ),
+        6 => array(
+            'Id' => 6,
+            'Label' => 'Underwater',
+        ),
+        7 => array(
+            'Id' => 7,
+            'Label' => 'Auto1',
+        ),
     );
 
 }

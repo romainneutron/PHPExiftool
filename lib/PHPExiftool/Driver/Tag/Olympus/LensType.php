@@ -42,6 +42,8 @@ class LensType extends AbstractTag
 
     protected $flag_Permanent = true;
 
+    protected $MaxLength = 6;
+
     protected $Values = array(
         '0 00 00' => array(
             'Id' => '0 00 00',
@@ -145,7 +147,7 @@ class LensType extends AbstractTag
         ),
         '0 13 10' => array(
             'Id' => '0 13 10',
-            'Label' => 'Olympus M.Zuiko Digital ED 14-42mm F3.5-5.6 II R',
+            'Label' => 'Olympus M.Zuiko Digital 14-42mm F3.5-5.6 II R',
         ),
         '0 14 10' => array(
             'Id' => '0 14 10',
@@ -171,13 +173,29 @@ class LensType extends AbstractTag
             'Id' => '0 18 00',
             'Label' => 'Olympus Zuiko Digital 14-45mm F3.5-5.6',
         ),
+        '0 18 10' => array(
+            'Id' => '0 18 10',
+            'Label' => 'Olympus M.Zuiko Digital ED 75-300mm F4.8-6.7 II',
+        ),
+        '0 19 10' => array(
+            'Id' => '0 19 10',
+            'Label' => 'Olympus M.Zuiko Digital ED 12-40mm F2.8 Pro',
+        ),
         '0 20 00' => array(
             'Id' => '0 20 00',
             'Label' => 'Olympus Zuiko Digital 35mm F3.5 Macro',
         ),
+        '0 21 10' => array(
+            'Id' => '0 21 10',
+            'Label' => 'Olympus M.Zuiko Digital ED 14-42mm F3.5-5.6 EZ',
+        ),
         '0 22 00' => array(
             'Id' => '0 22 00',
             'Label' => 'Olympus Zuiko Digital 17.5-45mm F3.5-5.6',
+        ),
+        '0 22 10' => array(
+            'Id' => '0 22 10',
+            'Label' => 'Olympus M.Zuiko Digital 25mm F1.8',
         ),
         '0 23 00' => array(
             'Id' => '0 23 00',
@@ -231,25 +249,37 @@ class LensType extends AbstractTag
             'Id' => '1 03 00',
             'Label' => 'Sigma 18-125mm F3.5-5.6 DC',
         ),
+        '1 03 10' => array(
+            'Id' => '1 03 10',
+            'Label' => 'Sigma 30mm F2.8 DN | A',
+        ),
         '1 04 00' => array(
             'Id' => '1 04 00',
-            'Label' => 'Sigma 18-125mm F3.5-5.6',
+            'Label' => 'Sigma 18-125mm F3.5-5.6 DC',
+        ),
+        '1 04 10' => array(
+            'Id' => '1 04 10',
+            'Label' => 'Sigma 19mm F2.8 DN | A',
         ),
         '1 05 00' => array(
             'Id' => '1 05 00',
-            'Label' => 'Sigma 30mm F1.4',
+            'Label' => 'Sigma 30mm F1.4 EX DC HSM',
+        ),
+        '1 05 10' => array(
+            'Id' => '1 05 10',
+            'Label' => 'Sigma 60mm F2.8 DN | A',
         ),
         '1 06 00' => array(
             'Id' => '1 06 00',
-            'Label' => 'Sigma 50-500mm F4.0-6.3 EX DG APO HSM RF',
+            'Label' => 'Sigma APO 50-500mm F4.0-6.3 EX DG HSM',
         ),
         '1 07 00' => array(
             'Id' => '1 07 00',
-            'Label' => 'Sigma 105mm F2.8 DG',
+            'Label' => 'Sigma Macro 105mm F2.8 EX DG',
         ),
         '1 08 00' => array(
             'Id' => '1 08 00',
-            'Label' => 'Sigma 150mm F2.8 DG HSM',
+            'Label' => 'Sigma APO Macro 150mm F2.8 EX DG HSM',
         ),
         '1 09 00' => array(
             'Id' => '1 09 00',
@@ -261,11 +291,11 @@ class LensType extends AbstractTag
         ),
         '1 11 00' => array(
             'Id' => '1 11 00',
-            'Label' => 'Sigma 135-400mm F4.5-5.6 DG ASP APO RF',
+            'Label' => 'Sigma APO 135-400mm F4.5-5.6 DG',
         ),
         '1 12 00' => array(
             'Id' => '1 12 00',
-            'Label' => 'Sigma 300-800mm F5.6 EX DG APO',
+            'Label' => 'Sigma APO 300-800mm F5.6 EX DG HSM',
         ),
         '1 13 00' => array(
             'Id' => '1 13 00',
@@ -273,7 +303,7 @@ class LensType extends AbstractTag
         ),
         '1 14 00' => array(
             'Id' => '1 14 00',
-            'Label' => 'Sigma 50-500mm F4.0-6.3 EX DG APO HSM RF',
+            'Label' => 'Sigma APO 50-500mm F4.0-6.3 EX DG HSM',
         ),
         '1 15 00' => array(
             'Id' => '1 15 00',
@@ -281,7 +311,7 @@ class LensType extends AbstractTag
         ),
         '1 16 00' => array(
             'Id' => '1 16 00',
-            'Label' => 'Sigma 70-200mm F2.8 EX DG Macro HSM II',
+            'Label' => 'Sigma APO 70-200mm F2.8 II EX DG Macro HSM',
         ),
         '1 17 00' => array(
             'Id' => '1 17 00',
@@ -375,6 +405,26 @@ class LensType extends AbstractTag
             'Id' => '2 17 10',
             'Label' => 'Lumix G X Vario 35-100mm F2.8 Power OIS',
         ),
+        '2 18 10' => array(
+            'Id' => '2 18 10',
+            'Label' => 'Lumix G Vario 14-42mm F3.5-5.6 II Asph. Mega OIS',
+        ),
+        '2 19 10' => array(
+            'Id' => '2 19 10',
+            'Label' => 'Lumix G Vario 14-140mm F3.5-5.6 Asph. Power OIS',
+        ),
+        '2 20 10' => array(
+            'Id' => '2 20 10',
+            'Label' => 'Lumix G Vario 12-32mm F3.5-5.6 Asph. Mega OIS',
+        ),
+        '2 21 10' => array(
+            'Id' => '2 21 10',
+            'Label' => 'Leica DG Nocticron 42.5mm F1.2 Asph. Power OIS',
+        ),
+        '2 22 10' => array(
+            'Id' => '2 22 10',
+            'Label' => 'Leica DG Summilux 15mm F1.7 Asph.',
+        ),
         '3 01 00' => array(
             'Id' => '3 01 00',
             'Label' => 'Leica D Vario Elmarit 14-50mm F2.8-3.5 Asph.',
@@ -382,6 +432,10 @@ class LensType extends AbstractTag
         '3 02 00' => array(
             'Id' => '3 02 00',
             'Label' => 'Leica D Summilux 25mm F1.4 Asph.',
+        ),
+        '5 01 10' => array(
+            'Id' => '5 01 10',
+            'Label' => 'Tamron 14-150mm F3.5-5.8 Di III',
         ),
     );
 

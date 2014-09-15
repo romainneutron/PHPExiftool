@@ -221,165 +221,205 @@ class AELockButton extends AbstractTag
         ),
         44 => array(
             'Id' => 0,
-            'Label' => 'None',
+            'Label' => 'AE/AF Lock',
         ),
         45 => array(
             'Id' => 8,
-            'Label' => 'Preview',
+            'Label' => 'AE Lock Only',
         ),
         46 => array(
             'Id' => 16,
-            'Label' => 'FV Lock',
+            'Label' => 'AF Lock Only',
         ),
         47 => array(
             'Id' => 24,
-            'Label' => 'AE/AF Lock',
+            'Label' => 'AE Lock (hold)',
         ),
         48 => array(
             'Id' => 32,
-            'Label' => 'AE Lock Only',
+            'Label' => 'AF-ON',
         ),
         49 => array(
-            'Id' => 40,
-            'Label' => 'AE Lock (reset on release)',
+            'Id' => 3,
+            'Label' => 'AE/AF Lock',
         ),
         50 => array(
-            'Id' => 48,
-            'Label' => 'AE Lock (hold)',
+            'Id' => 4,
+            'Label' => 'AE Lock Only',
         ),
         51 => array(
-            'Id' => 56,
-            'Label' => 'AF Lock Only',
-        ),
-        52 => array(
-            'Id' => 64,
-            'Label' => 'AF-ON',
-        ),
-        53 => array(
-            'Id' => 72,
-            'Label' => 'Flash Off',
-        ),
-        54 => array(
-            'Id' => 80,
-            'Label' => 'Bracketing Burst',
-        ),
-        55 => array(
-            'Id' => 88,
-            'Label' => 'Matrix Metering',
-        ),
-        56 => array(
-            'Id' => 96,
-            'Label' => 'Center-weighted Metering',
-        ),
-        57 => array(
-            'Id' => 104,
-            'Label' => 'Spot Metering',
-        ),
-        58 => array(
-            'Id' => 112,
-            'Label' => 'My Menu Top',
-        ),
-        59 => array(
-            'Id' => 120,
-            'Label' => 'Live View',
-        ),
-        60 => array(
-            'Id' => 128,
-            'Label' => '+ NEF (RAW)',
-        ),
-        61 => array(
-            'Id' => 136,
-            'Label' => 'Virtual Horizon',
-        ),
-        62 => array(
-            'Id' => 0,
-            'Label' => 'AE/AF Lock',
-        ),
-        63 => array(
-            'Id' => 8,
-            'Label' => 'AE Lock Only',
-        ),
-        64 => array(
-            'Id' => 16,
-            'Label' => 'AF Lock Only',
-        ),
-        65 => array(
-            'Id' => 24,
-            'Label' => 'AE Lock (hold)',
-        ),
-        66 => array(
-            'Id' => 32,
-            'Label' => 'AF-ON',
-        ),
-        67 => array(
-            'Id' => 40,
-            'Label' => 'FV Lock',
-        ),
-        68 => array(
-            'Id' => 0,
-            'Label' => 'AE/AF Lock',
-        ),
-        69 => array(
-            'Id' => 2,
-            'Label' => 'AE Lock Only',
-        ),
-        70 => array(
-            'Id' => 4,
-            'Label' => 'AF Lock Only',
-        ),
-        71 => array(
             'Id' => 6,
             'Label' => 'AE Lock (hold)',
         ),
-        72 => array(
+        52 => array(
+            'Id' => 7,
+            'Label' => 'AF Lock Only',
+        ),
+        53 => array(
             'Id' => 8,
             'Label' => 'AF-ON',
         ),
-        73 => array(
-            'Id' => 10,
+        54 => array(
+            'Id' => 0,
+            'Label' => 'None',
+        ),
+        55 => array(
+            'Id' => 8,
+            'Label' => 'Preview',
+        ),
+        56 => array(
+            'Id' => 16,
             'Label' => 'FV Lock',
         ),
-        74 => array(
-            'Id' => 12,
-            'Label' => 'Focus Area Selection',
+        57 => array(
+            'Id' => 24,
+            'Label' => 'AE/AF Lock',
         ),
-        75 => array(
-            'Id' => 14,
-            'Label' => 'AE-L/AF-L/AF Area',
+        58 => array(
+            'Id' => 32,
+            'Label' => 'AE Lock Only',
         ),
-        76 => array(
-            'Id' => 16,
-            'Label' => 'AE-L/AF Area',
+        59 => array(
+            'Id' => 40,
+            'Label' => 'AE Lock (reset on release)',
         ),
-        77 => array(
-            'Id' => 18,
-            'Label' => 'AF-L/AF Area',
+        60 => array(
+            'Id' => 48,
+            'Label' => 'AE Lock (hold)',
         ),
-        78 => array(
-            'Id' => 20,
-            'Label' => 'AF-ON/AF Area',
+        61 => array(
+            'Id' => 56,
+            'Label' => 'AF Lock Only',
         ),
-        79 => array(
+        62 => array(
+            'Id' => 64,
+            'Label' => 'AF-ON',
+        ),
+        63 => array(
+            'Id' => 72,
+            'Label' => 'Flash Off',
+        ),
+        64 => array(
+            'Id' => 80,
+            'Label' => 'Bracketing Burst',
+        ),
+        65 => array(
+            'Id' => 88,
+            'Label' => 'Matrix Metering',
+        ),
+        66 => array(
+            'Id' => 96,
+            'Label' => 'Center-weighted Metering',
+        ),
+        67 => array(
+            'Id' => 104,
+            'Label' => 'Spot Metering',
+        ),
+        68 => array(
+            'Id' => 112,
+            'Label' => 'My Menu Top',
+        ),
+        69 => array(
+            'Id' => 120,
+            'Label' => 'Live View',
+        ),
+        70 => array(
+            'Id' => 128,
+            'Label' => '+ NEF (RAW)',
+        ),
+        71 => array(
+            'Id' => 136,
+            'Label' => 'Virtual Horizon',
+        ),
+        72 => array(
             'Id' => 0,
             'Label' => 'AE/AF Lock',
         ),
-        80 => array(
+        73 => array(
             'Id' => 8,
             'Label' => 'AE Lock Only',
         ),
-        81 => array(
+        74 => array(
             'Id' => 16,
             'Label' => 'AF Lock Only',
         ),
-        82 => array(
+        75 => array(
             'Id' => 24,
             'Label' => 'AE Lock (hold)',
         ),
-        83 => array(
+        76 => array(
             'Id' => 32,
             'Label' => 'AF-ON',
         ),
+        77 => array(
+            'Id' => 40,
+            'Label' => 'FV Lock',
+        ),
+        78 => array(
+            'Id' => 0,
+            'Label' => 'AE/AF Lock',
+        ),
+        79 => array(
+            'Id' => 2,
+            'Label' => 'AE Lock Only',
+        ),
+        80 => array(
+            'Id' => 4,
+            'Label' => 'AF Lock Only',
+        ),
+        81 => array(
+            'Id' => 6,
+            'Label' => 'AE Lock (hold)',
+        ),
+        82 => array(
+            'Id' => 8,
+            'Label' => 'AF-ON',
+        ),
+        83 => array(
+            'Id' => 10,
+            'Label' => 'FV Lock',
+        ),
         84 => array(
+            'Id' => 12,
+            'Label' => 'Focus Area Selection',
+        ),
+        85 => array(
+            'Id' => 14,
+            'Label' => 'AE-L/AF-L/AF Area',
+        ),
+        86 => array(
+            'Id' => 16,
+            'Label' => 'AE-L/AF Area',
+        ),
+        87 => array(
+            'Id' => 18,
+            'Label' => 'AF-L/AF Area',
+        ),
+        88 => array(
+            'Id' => 20,
+            'Label' => 'AF-ON/AF Area',
+        ),
+        89 => array(
+            'Id' => 0,
+            'Label' => 'AE/AF Lock',
+        ),
+        90 => array(
+            'Id' => 8,
+            'Label' => 'AE Lock Only',
+        ),
+        91 => array(
+            'Id' => 16,
+            'Label' => 'AF Lock Only',
+        ),
+        92 => array(
+            'Id' => 24,
+            'Label' => 'AE Lock (hold)',
+        ),
+        93 => array(
+            'Id' => 32,
+            'Label' => 'AF-ON',
+        ),
+        94 => array(
             'Id' => 40,
             'Label' => 'FV Lock',
         ),

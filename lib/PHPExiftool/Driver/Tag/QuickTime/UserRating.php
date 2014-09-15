@@ -20,11 +20,11 @@ use PHPExiftool\Driver\AbstractTag;
 class UserRating extends AbstractTag
 {
 
-    protected $Id = 'rating.user';
+    protected $Id = 'mixed';
 
     protected $Name = 'UserRating';
 
-    protected $FullName = 'QuickTime::Keys';
+    protected $FullName = 'mixed';
 
     protected $GroupName = 'QuickTime';
 
@@ -32,7 +32,7 @@ class UserRating extends AbstractTag
 
     protected $g1 = 'QuickTime';
 
-    protected $g2 = 'Other';
+    protected $g2 = 'mixed';
 
     protected $Type = '?';
 

@@ -40,4 +40,6 @@ class XResolution extends AbstractTag
 
     protected $Description = 'X Resolution';
 
+    protected $flag_Mandatory = true;
+
 }

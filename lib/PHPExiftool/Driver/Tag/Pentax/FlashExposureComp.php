@@ -34,12 +34,16 @@ class FlashExposureComp extends AbstractTag
 
     protected $g2 = 'Camera';
 
-    protected $Type = 'int32s';
+    protected $Type = 'mixed';
 
     protected $Writable = true;
 
     protected $Description = 'Flash Exposure Comp';
 
     protected $flag_Permanent = true;
+
+    protected $MaxLength = 'mixed';
+
+    protected $Index = 'mixed';
 
 }

@@ -53,11 +53,19 @@ class BurstMode extends AbstractTag
         ),
         2 => array(
             'Id' => 2,
-            'Label' => 'Infinite',
+            'Label' => 'Auto Exposure Bracketing (AEB)',
         ),
         4 => array(
             'Id' => 4,
             'Label' => 'Unlimited',
+        ),
+        8 => array(
+            'Id' => 8,
+            'Label' => 'White Balance Bracketing',
+        ),
+        17 => array(
+            'Id' => 17,
+            'Label' => 'On (with flash)',
         ),
     );
 

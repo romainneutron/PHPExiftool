@@ -46,6 +46,6 @@ class MakerNoteRicohText extends AbstractTag
 
     protected $flag_Permanent = true;
 
-    protected $Index = 54;
+    protected $Index = 60;
 
 }

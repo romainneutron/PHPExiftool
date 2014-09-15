@@ -84,26 +84,34 @@ class InternalFlash extends AbstractTag
             'Label' => 'Manual',
         ),
         10 => array(
-            'Id' => 128,
-            'Label' => 'Repeating Flash',
-        ),
-        11 => array(
-            'Id' => 192,
-            'Label' => 'Commander Mode',
-        ),
-        12 => array(
             'Id' => 0,
             'Label' => 'TTL',
         ),
-        13 => array(
+        11 => array(
             'Id' => 64,
             'Label' => 'Manual',
         ),
-        14 => array(
+        12 => array(
             'Id' => 128,
             'Label' => 'Repeating Flash',
         ),
+        13 => array(
+            'Id' => 192,
+            'Label' => 'Commander Mode',
+        ),
+        14 => array(
+            'Id' => 0,
+            'Label' => 'TTL',
+        ),
         15 => array(
+            'Id' => 64,
+            'Label' => 'Manual',
+        ),
+        16 => array(
+            'Id' => 128,
+            'Label' => 'Repeating Flash',
+        ),
+        17 => array(
             'Id' => 192,
             'Label' => 'Commander Mode',
         ),

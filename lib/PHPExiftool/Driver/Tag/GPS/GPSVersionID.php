@@ -42,12 +42,12 @@ class GPSVersionID extends AbstractTag
 
     protected $flag_Mandatory = true;
 
+    protected $MaxLength = 'mixed';
+
     protected $local_g1 = 'mixed';
 
     protected $local_g2 = 'mixed';
 
     protected $flag_Permanent = 'mixed';
-
-    protected $MaxLength = 'mixed';
 
 }

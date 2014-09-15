@@ -20,7 +20,7 @@ use PHPExiftool\Driver\AbstractTag;
 class LiveViewFocusMode extends AbstractTag
 {
 
-    protected $Id = 139;
+    protected $Id = 'mixed';
 
     protected $Name = 'LiveViewFocusMode';
 

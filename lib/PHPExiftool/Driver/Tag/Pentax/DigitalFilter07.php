@@ -125,6 +125,10 @@ class DigitalFilter07 extends AbstractTag
             'Id' => 21,
             'Label' => 'Invert Color',
         ),
+        23 => array(
+            'Id' => 23,
+            'Label' => 'Tone Expansion',
+        ),
         254 => array(
             'Id' => 254,
             'Label' => 'Custom Filter',

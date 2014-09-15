@@ -24,7 +24,7 @@ class RegionFocusUsage extends AbstractTag
 
     protected $Name = 'RegionFocusUsage';
 
-    protected $FullName = 'XMP::mwg_rs';
+    protected $FullName = 'MWG::Regions';
 
     protected $GroupName = 'XMP-mwg-rs';
 

@@ -93,6 +93,10 @@ class ExternalFlashFirmware extends AbstractTag
             'Id' => '5 2',
             'Label' => '5.02 (SB-900)',
         ),
+        '6 1' => array(
+            'Id' => '6 1',
+            'Label' => '6.01 (SB-700)',
+        ),
         '7 1' => array(
             'Id' => '7 1',
             'Label' => '7.01 (SB-910)',

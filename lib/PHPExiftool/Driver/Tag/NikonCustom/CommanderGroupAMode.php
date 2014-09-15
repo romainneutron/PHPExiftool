@@ -20,11 +20,11 @@ use PHPExiftool\Driver\AbstractTag;
 class CommanderGroupAMode extends AbstractTag
 {
 
-    protected $Id = '11.2';
+    protected $Id = 'mixed';
 
     protected $Name = 'CommanderGroupAMode';
 
-    protected $FullName = 'NikonCustom::SettingsD80';
+    protected $FullName = 'mixed';
 
     protected $GroupName = 'NikonCustom';
 
@@ -47,16 +47,32 @@ class CommanderGroupAMode extends AbstractTag
             'Id' => 0,
             'Label' => 'TTL',
         ),
-        16 => array(
+        1 => array(
             'Id' => 16,
             'Label' => 'Auto Aperture',
         ),
-        32 => array(
+        2 => array(
             'Id' => 32,
             'Label' => 'Manual',
         ),
-        48 => array(
+        3 => array(
             'Id' => 48,
+            'Label' => 'Off',
+        ),
+        4 => array(
+            'Id' => 0,
+            'Label' => 'TTL',
+        ),
+        5 => array(
+            'Id' => 64,
+            'Label' => 'Auto Aperture',
+        ),
+        6 => array(
+            'Id' => 128,
+            'Label' => 'Manual',
+        ),
+        7 => array(
+            'Id' => 192,
             'Label' => 'Off',
         ),
     );

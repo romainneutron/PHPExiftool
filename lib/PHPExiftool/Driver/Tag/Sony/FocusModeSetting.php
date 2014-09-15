@@ -60,20 +60,44 @@ class FocusModeSetting extends AbstractTag
             'Label' => 'AF-A',
         ),
         4 => array(
+            'Id' => 4,
+            'Label' => 'DMF',
+        ),
+        5 => array(
+            'Id' => 0,
+            'Label' => 'Manual',
+        ),
+        6 => array(
+            'Id' => 1,
+            'Label' => 'AF-S',
+        ),
+        7 => array(
+            'Id' => 2,
+            'Label' => 'AF-C',
+        ),
+        8 => array(
+            'Id' => 3,
+            'Label' => 'AF-A',
+        ),
+        9 => array(
             'Id' => 17,
             'Label' => 'AF-S',
         ),
-        5 => array(
+        10 => array(
             'Id' => 18,
             'Label' => 'AF-C',
         ),
-        6 => array(
+        11 => array(
             'Id' => 19,
             'Label' => 'AF-A',
         ),
-        7 => array(
+        12 => array(
             'Id' => 32,
             'Label' => 'Manual',
+        ),
+        13 => array(
+            'Id' => 48,
+            'Label' => 'DMF',
         ),
     );
 

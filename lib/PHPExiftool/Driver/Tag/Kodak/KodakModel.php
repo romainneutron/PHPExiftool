@@ -34,9 +34,9 @@ class KodakModel extends AbstractTag
 
     protected $g2 = 'Camera';
 
-    protected $Type = 'string';
+    protected $Type = 'mixed';
 
-    protected $Writable = true;
+    protected $Writable = false;
 
     protected $Description = 'Kodak Model';
 

@@ -64,7 +64,7 @@ class ReverseIndicators extends AbstractTag
             'Label' => '+ 0 -',
         ),
         5 => array(
-            'Id' => 8,
+            'Id' => 128,
             'Label' => '- 0 +',
         ),
         6 => array(
@@ -80,6 +80,22 @@ class ReverseIndicators extends AbstractTag
             'Label' => '+ 0 -',
         ),
         9 => array(
+            'Id' => 8,
+            'Label' => '- 0 +',
+        ),
+        10 => array(
+            'Id' => 0,
+            'Label' => '+ 0 -',
+        ),
+        11 => array(
+            'Id' => 128,
+            'Label' => '- 0 +',
+        ),
+        12 => array(
+            'Id' => 0,
+            'Label' => '+ 0 -',
+        ),
+        13 => array(
             'Id' => 128,
             'Label' => '- 0 +',
         ),

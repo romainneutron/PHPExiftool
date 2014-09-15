@@ -40,6 +40,8 @@ class GPSImgDirectionRef extends AbstractTag
 
     protected $Description = 'GPS Img Direction Ref';
 
+    protected $MaxLength = 2;
+
     protected $Values = array(
         'M' => array(
             'Id' => 'M',

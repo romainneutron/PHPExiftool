@@ -34,7 +34,7 @@ class BitDepth extends AbstractTag
 
     protected $g2 = 'Image';
 
-    protected $Type = 'int16u';
+    protected $Type = 'mixed';
 
     protected $Writable = false;
 

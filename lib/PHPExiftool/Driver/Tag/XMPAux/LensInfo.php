@@ -40,4 +40,6 @@ class LensInfo extends AbstractTag
 
     protected $Description = 'Lens Info';
 
+    protected $flag_Avoid = true;
+
 }

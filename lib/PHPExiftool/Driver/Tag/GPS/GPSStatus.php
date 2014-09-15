@@ -40,6 +40,8 @@ class GPSStatus extends AbstractTag
 
     protected $Description = 'GPS Status';
 
+    protected $MaxLength = 2;
+
     protected $Values = array(
         'A' => array(
             'Id' => 'A',
@@ -56,7 +58,5 @@ class GPSStatus extends AbstractTag
     protected $local_g2 = 'mixed';
 
     protected $flag_Permanent = 'mixed';
-
-    protected $MaxLength = 'mixed';
 
 }

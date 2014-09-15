@@ -41,6 +41,10 @@ class APP14Flags1 extends AbstractTag
     protected $Description = 'APP14 Flags 1';
 
     protected $Values = array(
+        0 => array(
+            'Id' => 0,
+            'Label' => '(none)',
+        ),
     );
 
 }

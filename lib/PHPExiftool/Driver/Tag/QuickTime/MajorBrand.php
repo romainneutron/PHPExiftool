@@ -211,6 +211,10 @@ class MajorBrand extends AbstractTag
             'Id' => 'ROSS',
             'Label' => 'Ross Video',
         ),
+        'XAVC' => array(
+            'Id' => 'XAVC',
+            'Label' => 'Sony XAVC',
+        ),
         'avc1' => array(
             'Id' => 'avc1',
             'Label' => 'MP4 Base w/ AVC ext [ISO 14496-12:2005]',

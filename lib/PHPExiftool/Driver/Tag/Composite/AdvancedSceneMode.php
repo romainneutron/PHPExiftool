@@ -165,7 +165,7 @@ class AdvancedSceneMode extends AbstractTag
         ),
         '59 6' => array(
             'Id' => '59 6',
-            'Label' => 'Minature',
+            'Label' => 'Miniature',
         ),
         '59 9' => array(
             'Id' => '59 9',
@@ -183,6 +183,10 @@ class AdvancedSceneMode extends AbstractTag
             'Id' => '59 12',
             'Label' => 'Soft',
         ),
+        '66 1' => array(
+            'Id' => '66 1',
+            'Label' => 'Impressive Art',
+        ),
         '66 2' => array(
             'Id' => '66 2',
             'Label' => 'Cross Process',
@@ -194,6 +198,78 @@ class AdvancedSceneMode extends AbstractTag
         '66 4' => array(
             'Id' => '66 4',
             'Label' => 'Star',
+        ),
+        '90 3' => array(
+            'Id' => '90 3',
+            'Label' => 'Old Days',
+        ),
+        '90 4' => array(
+            'Id' => '90 4',
+            'Label' => 'Sunshine',
+        ),
+        '90 5' => array(
+            'Id' => '90 5',
+            'Label' => 'Bleach Bypass',
+        ),
+        '90 6' => array(
+            'Id' => '90 6',
+            'Label' => 'Toy Pop',
+        ),
+        '90 7' => array(
+            'Id' => '90 7',
+            'Label' => 'Fantasy',
+        ),
+        '90 8' => array(
+            'Id' => '90 8',
+            'Label' => 'Monochrome',
+        ),
+        '90 9' => array(
+            'Id' => '90 9',
+            'Label' => 'Rough Monochrome',
+        ),
+        '90 10' => array(
+            'Id' => '90 10',
+            'Label' => 'Silky Monochrome',
+        ),
+        'DMC-TZ40 90 1' => array(
+            'Id' => 'DMC-TZ40 90 1',
+            'Label' => 'Expressive',
+        ),
+        'DMC-TZ40 90 10' => array(
+            'Id' => 'DMC-TZ40 90 10',
+            'Label' => 'Toy Effect',
+        ),
+        'DMC-TZ40 90 11' => array(
+            'Id' => 'DMC-TZ40 90 11',
+            'Label' => 'Dynamic Monochrome',
+        ),
+        'DMC-TZ40 90 12' => array(
+            'Id' => 'DMC-TZ40 90 12',
+            'Label' => 'Soft',
+        ),
+        'DMC-TZ40 90 2' => array(
+            'Id' => 'DMC-TZ40 90 2',
+            'Label' => 'Retro',
+        ),
+        'DMC-TZ40 90 3' => array(
+            'Id' => 'DMC-TZ40 90 3',
+            'Label' => 'High Key',
+        ),
+        'DMC-TZ40 90 4' => array(
+            'Id' => 'DMC-TZ40 90 4',
+            'Label' => 'Sepia',
+        ),
+        'DMC-TZ40 90 5' => array(
+            'Id' => 'DMC-TZ40 90 5',
+            'Label' => 'High Dynamic',
+        ),
+        'DMC-TZ40 90 6' => array(
+            'Id' => 'DMC-TZ40 90 6',
+            'Label' => 'Miniature',
+        ),
+        'DMC-TZ40 90 9' => array(
+            'Id' => 'DMC-TZ40 90 9',
+            'Label' => 'Low Key',
         ),
     );
 

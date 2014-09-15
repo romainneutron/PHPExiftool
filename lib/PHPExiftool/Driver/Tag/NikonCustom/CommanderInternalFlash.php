@@ -20,11 +20,11 @@ use PHPExiftool\Driver\AbstractTag;
 class CommanderInternalFlash extends AbstractTag
 {
 
-    protected $Id = '11.1';
+    protected $Id = 'mixed';
 
     protected $Name = 'CommanderInternalFlash';
 
-    protected $FullName = 'NikonCustom::SettingsD80';
+    protected $FullName = 'mixed';
 
     protected $GroupName = 'NikonCustom';
 

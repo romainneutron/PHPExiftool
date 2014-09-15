@@ -51,6 +51,10 @@ class AutoDistortionControl extends AbstractTag
             'Id' => 1,
             'Label' => 'On',
         ),
+        2 => array(
+            'Id' => 2,
+            'Label' => 'On (underwater)',
+        ),
     );
 
 }

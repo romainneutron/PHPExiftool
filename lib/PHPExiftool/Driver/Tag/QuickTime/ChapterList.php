@@ -20,11 +20,11 @@ use PHPExiftool\Driver\AbstractTag;
 class ChapterList extends AbstractTag
 {
 
-    protected $Id = 'chap';
+    protected $Id = 'chpl';
 
     protected $Name = 'ChapterList';
 
-    protected $FullName = 'QuickTime::TrackRef';
+    protected $FullName = 'QuickTime::UserData';
 
     protected $GroupName = 'QuickTime';
 
@@ -34,7 +34,7 @@ class ChapterList extends AbstractTag
 
     protected $g2 = 'Video';
 
-    protected $Type = 'int32u';
+    protected $Type = '?';
 
     protected $Writable = false;
 

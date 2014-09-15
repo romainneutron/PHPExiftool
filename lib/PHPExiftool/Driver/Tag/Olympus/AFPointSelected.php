@@ -36,10 +36,12 @@ class AFPointSelected extends AbstractTag
 
     protected $Type = 'rational64s';
 
-    protected $Writable = false;
+    protected $Writable = true;
 
     protected $Description = 'AF Point Selected';
 
     protected $flag_Permanent = true;
+
+    protected $MaxLength = 5;
 
 }

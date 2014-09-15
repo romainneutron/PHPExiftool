@@ -42,6 +42,6 @@ class MakerNoteVersion extends AbstractTag
 
     protected $flag_Permanent = true;
 
-    protected $MaxLength = 8;
+    protected $MaxLength = 'mixed';
 
 }

@@ -20,11 +20,11 @@ use PHPExiftool\Driver\AbstractTag;
 class PixelAspectRatio extends AbstractTag
 {
 
-    protected $Id = 10;
+    protected $Id = 'mixed';
 
     protected $Name = 'PixelAspectRatio';
 
-    protected $FullName = 'QuickTime::VideoProf';
+    protected $FullName = 'mixed';
 
     protected $GroupName = 'QuickTime';
 
@@ -32,7 +32,7 @@ class PixelAspectRatio extends AbstractTag
 
     protected $g1 = 'QuickTime';
 
-    protected $g2 = 'Video';
+    protected $g2 = 'mixed';
 
     protected $Type = 'int16u';
 
@@ -40,6 +40,6 @@ class PixelAspectRatio extends AbstractTag
 
     protected $Description = 'Pixel Aspect Ratio';
 
-    protected $MaxLength = 2;
+    protected $MaxLength = 'mixed';
 
 }

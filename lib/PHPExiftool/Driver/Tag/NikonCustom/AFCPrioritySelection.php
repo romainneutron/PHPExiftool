@@ -63,6 +63,34 @@ class AFCPrioritySelection extends AbstractTag
             'Id' => 128,
             'Label' => 'Focus',
         ),
+        5 => array(
+            'Id' => 0,
+            'Label' => 'Release',
+        ),
+        6 => array(
+            'Id' => 128,
+            'Label' => 'Focus',
+        ),
+        7 => array(
+            'Id' => 0,
+            'Label' => 'Release',
+        ),
+        8 => array(
+            'Id' => 64,
+            'Label' => 'Release + Focus',
+        ),
+        9 => array(
+            'Id' => 128,
+            'Label' => 'Focus',
+        ),
+        10 => array(
+            'Id' => 0,
+            'Label' => 'Release',
+        ),
+        11 => array(
+            'Id' => 128,
+            'Label' => 'Focus',
+        ),
     );
 
 }

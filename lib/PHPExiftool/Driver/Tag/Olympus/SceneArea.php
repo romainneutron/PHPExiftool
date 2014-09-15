@@ -42,4 +42,6 @@ class SceneArea extends AbstractTag
 
     protected $flag_Permanent = true;
 
+    protected $MaxLength = 8;
+
 }

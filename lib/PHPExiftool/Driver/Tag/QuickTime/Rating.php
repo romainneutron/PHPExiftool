@@ -24,7 +24,7 @@ class Rating extends AbstractTag
 
     protected $Name = 'Rating';
 
-    protected $FullName = 'QuickTime::ItemList';
+    protected $FullName = 'mixed';
 
     protected $GroupName = 'QuickTime';
 
@@ -32,7 +32,7 @@ class Rating extends AbstractTag
 
     protected $g1 = 'QuickTime';
 
-    protected $g2 = 'Audio';
+    protected $g2 = 'mixed';
 
     protected $Type = '?';
 
@@ -45,13 +45,17 @@ class Rating extends AbstractTag
             'Id' => 0,
             'Label' => 'none',
         ),
+        1 => array(
+            'Id' => 1,
+            'Label' => 'Explicit',
+        ),
         2 => array(
             'Id' => 2,
             'Label' => 'Clean',
         ),
         4 => array(
             'Id' => 4,
-            'Label' => 'Explicit',
+            'Label' => 'Explicit (old)',
         ),
     );
 

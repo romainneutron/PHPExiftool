@@ -69,7 +69,7 @@ class Saturation extends AbstractTag
         ),
         769 => array(
             'Id' => 769,
-            'Label' => 'B&W Green Filter',
+            'Label' => 'B&W Red Filter',
         ),
         770 => array(
             'Id' => 770,
@@ -77,11 +77,15 @@ class Saturation extends AbstractTag
         ),
         771 => array(
             'Id' => 771,
-            'Label' => 'B&W Blue Filter',
+            'Label' => 'B&W Green Filter',
         ),
         784 => array(
             'Id' => 784,
             'Label' => 'B&W Sepia',
+        ),
+        1024 => array(
+            'Id' => 1024,
+            'Label' => 'Low 2',
         ),
         32768 => array(
             'Id' => 32768,

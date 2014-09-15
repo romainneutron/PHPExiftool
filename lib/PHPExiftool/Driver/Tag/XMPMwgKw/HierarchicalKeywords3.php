@@ -24,7 +24,7 @@ class HierarchicalKeywords3 extends AbstractTag
 
     protected $Name = 'HierarchicalKeywords3';
 
-    protected $FullName = 'XMP::mwg_kw';
+    protected $FullName = 'MWG::Keywords';
 
     protected $GroupName = 'XMP-mwg-kw';
 

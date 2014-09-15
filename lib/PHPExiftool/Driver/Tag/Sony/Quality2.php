@@ -20,11 +20,11 @@ use PHPExiftool\Driver\AbstractTag;
 class Quality2 extends AbstractTag
 {
 
-    protected $Id = 41;
+    protected $Id = 'mixed';
 
     protected $Name = 'Quality2';
 
-    protected $FullName = 'Sony::Tag9400';
+    protected $FullName = 'mixed';
 
     protected $GroupName = 'Sony';
 
@@ -56,6 +56,50 @@ class Quality2 extends AbstractTag
             'Label' => 'RAW + JPEG',
         ),
         3 => array(
+            'Id' => 0,
+            'Label' => 'JPEG',
+        ),
+        4 => array(
+            'Id' => 1,
+            'Label' => 'RAW',
+        ),
+        5 => array(
+            'Id' => 2,
+            'Label' => 'RAW + JPEG',
+        ),
+        6 => array(
+            'Id' => 3,
+            'Label' => 'JPEG + MPO',
+        ),
+        7 => array(
+            'Id' => 0,
+            'Label' => 'JPEG',
+        ),
+        8 => array(
+            'Id' => 1,
+            'Label' => 'RAW',
+        ),
+        9 => array(
+            'Id' => 2,
+            'Label' => 'RAW + JPEG',
+        ),
+        10 => array(
+            'Id' => 3,
+            'Label' => 'JPEG + MPO',
+        ),
+        11 => array(
+            'Id' => 0,
+            'Label' => 'JPEG',
+        ),
+        12 => array(
+            'Id' => 1,
+            'Label' => 'RAW',
+        ),
+        13 => array(
+            'Id' => 2,
+            'Label' => 'RAW + JPEG',
+        ),
+        14 => array(
             'Id' => 3,
             'Label' => 'JPEG + MPO',
         ),

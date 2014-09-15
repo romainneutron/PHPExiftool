@@ -24,7 +24,7 @@ class RegionList extends AbstractTag
 
     protected $Name = 'RegionList';
 
-    protected $FullName = 'XMP::mwg_rs';
+    protected $FullName = 'MWG::Regions';
 
     protected $GroupName = 'XMP-mwg-rs';
 

@@ -32,7 +32,7 @@ class HighISONoiseReduction extends AbstractTag
 
     protected $g1 = 'Sony';
 
-    protected $g2 = 'Camera';
+    protected $g2 = 'mixed';
 
     protected $Type = 'mixed';
 
@@ -114,6 +114,22 @@ class HighISONoiseReduction extends AbstractTag
         17 => array(
             'Id' => 19,
             'Label' => 'Auto',
+        ),
+        18 => array(
+            'Id' => 0,
+            'Label' => 'Off',
+        ),
+        19 => array(
+            'Id' => 1,
+            'Label' => 'Low',
+        ),
+        20 => array(
+            'Id' => 2,
+            'Label' => 'Normal',
+        ),
+        21 => array(
+            'Id' => 3,
+            'Label' => 'High',
         ),
     );
 

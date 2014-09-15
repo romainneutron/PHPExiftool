@@ -79,6 +79,38 @@ class ISOExpansion extends AbstractTag
             'Id' => 264,
             'Label' => 'Hi 2.0',
         ),
+        265 => array(
+            'Id' => 265,
+            'Label' => 'Hi 2.3',
+        ),
+        266 => array(
+            'Id' => 266,
+            'Label' => 'Hi 2.5',
+        ),
+        267 => array(
+            'Id' => 267,
+            'Label' => 'Hi 2.7',
+        ),
+        268 => array(
+            'Id' => 268,
+            'Label' => 'Hi 3.0',
+        ),
+        269 => array(
+            'Id' => 269,
+            'Label' => 'Hi 3.3',
+        ),
+        270 => array(
+            'Id' => 270,
+            'Label' => 'Hi 3.5',
+        ),
+        271 => array(
+            'Id' => 271,
+            'Label' => 'Hi 3.7',
+        ),
+        272 => array(
+            'Id' => 272,
+            'Label' => 'Hi 4.0',
+        ),
         513 => array(
             'Id' => 513,
             'Label' => 'Lo 0.3',

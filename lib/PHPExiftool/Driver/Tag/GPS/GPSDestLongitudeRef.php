@@ -40,6 +40,8 @@ class GPSDestLongitudeRef extends AbstractTag
 
     protected $Description = 'GPS Dest Longitude Ref';
 
+    protected $MaxLength = 2;
+
     protected $Values = array(
         'E' => array(
             'Id' => 'E',

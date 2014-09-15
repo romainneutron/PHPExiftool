@@ -20,11 +20,11 @@ use PHPExiftool\Driver\AbstractTag;
 class FunctionButton extends AbstractTag
 {
 
-    protected $Id = '5.2';
+    protected $Id = 'mixed';
 
     protected $Name = 'FunctionButton';
 
-    protected $FullName = 'NikonCustom::SettingsD80';
+    protected $FullName = 'mixed';
 
     protected $GroupName = 'NikonCustom';
 
@@ -44,10 +44,66 @@ class FunctionButton extends AbstractTag
 
     protected $Values = array(
         0 => array(
+            'Id' => 3,
+            'Label' => 'AE/AF Lock',
+        ),
+        1 => array(
+            'Id' => 4,
+            'Label' => 'AE Lock Only',
+        ),
+        2 => array(
+            'Id' => 6,
+            'Label' => 'AE Lock (hold)',
+        ),
+        3 => array(
+            'Id' => 7,
+            'Label' => 'AF Lock Only',
+        ),
+        4 => array(
+            'Id' => 8,
+            'Label' => 'AF-ON',
+        ),
+        5 => array(
+            'Id' => 16,
+            'Label' => '+ NEF (RAW)',
+        ),
+        6 => array(
+            'Id' => 18,
+            'Label' => 'Active D-Lighting',
+        ),
+        7 => array(
+            'Id' => 25,
+            'Label' => 'Live View',
+        ),
+        8 => array(
+            'Id' => 26,
+            'Label' => 'Image Quality',
+        ),
+        9 => array(
+            'Id' => 27,
+            'Label' => 'ISO',
+        ),
+        10 => array(
+            'Id' => 28,
+            'Label' => 'White Balance',
+        ),
+        11 => array(
+            'Id' => 29,
+            'Label' => 'HDR',
+        ),
+        12 => array(
+            'Id' => 30,
+            'Label' => 'Auto Bracketing',
+        ),
+        13 => array(
+            'Id' => 31,
+            'Label' => 'AF-area Mode',
+        ),
+        14 => array(
             'Id' => 0,
             'Label' => 'ISO Display',
         ),
-        8 => array(
+        15 => array(
             'Id' => 8,
             'Label' => 'Framing Grid',
         ),
@@ -55,27 +111,27 @@ class FunctionButton extends AbstractTag
             'Id' => 16,
             'Label' => 'AF-area Mode',
         ),
-        24 => array(
+        17 => array(
             'Id' => 24,
             'Label' => 'Center AF Area',
         ),
-        32 => array(
+        18 => array(
             'Id' => 32,
             'Label' => 'FV Lock',
         ),
-        40 => array(
+        19 => array(
             'Id' => 40,
             'Label' => 'Flash Off',
         ),
-        48 => array(
+        20 => array(
             'Id' => 48,
             'Label' => 'Matrix Metering',
         ),
-        56 => array(
+        21 => array(
             'Id' => 56,
             'Label' => 'Center-weighted',
         ),
-        64 => array(
+        22 => array(
             'Id' => 64,
             'Label' => 'Spot Metering',
         ),

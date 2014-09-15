@@ -42,6 +42,8 @@ class YCbCrSubSampling extends AbstractTag
 
     protected $flag_Unsafe = true;
 
+    protected $MaxLength = 2;
+
     protected $Values = array(
         '1 1' => array(
             'Id' => '1 1',

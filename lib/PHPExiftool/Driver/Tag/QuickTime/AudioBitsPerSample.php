@@ -20,7 +20,7 @@ use PHPExiftool\Driver\AbstractTag;
 class AudioBitsPerSample extends AbstractTag
 {
 
-    protected $Id = 13;
+    protected $Id = 26;
 
     protected $Name = 'AudioBitsPerSample';
 

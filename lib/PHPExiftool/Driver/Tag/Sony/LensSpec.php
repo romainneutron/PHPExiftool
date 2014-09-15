@@ -44,6 +44,4 @@ class LensSpec extends AbstractTag
 
     protected $MaxLength = 8;
 
-    protected $Index = 'mixed';
-
 }

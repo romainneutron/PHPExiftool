@@ -42,6 +42,8 @@ class ExposureMode extends AbstractTag
 
     protected $flag_Permanent = true;
 
+    protected $MaxLength = 4;
+
     protected $Values = array(
         '0 0 0 0' => array(
             'Id' => '0 0 0 0',
@@ -50,6 +52,10 @@ class ExposureMode extends AbstractTag
         '1 0 0 0' => array(
             'Id' => '1 0 0 0',
             'Label' => 'Aperture-priority AE',
+        ),
+        '1 1 0 0' => array(
+            'Id' => '1 1 0 0',
+            'Label' => 'Aperture-priority AE (1)',
         ),
         '2 0 0 0' => array(
             'Id' => '2 0 0 0',

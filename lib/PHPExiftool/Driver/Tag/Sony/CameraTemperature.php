@@ -20,11 +20,11 @@ use PHPExiftool\Driver\AbstractTag;
 class CameraTemperature extends AbstractTag
 {
 
-    protected $Id = 5;
+    protected $Id = 'mixed';
 
     protected $Name = 'CameraTemperature';
 
-    protected $FullName = 'Sony::Tag9403';
+    protected $FullName = 'mixed';
 
     protected $GroupName = 'Sony';
 
@@ -32,11 +32,11 @@ class CameraTemperature extends AbstractTag
 
     protected $g1 = 'Sony';
 
-    protected $g2 = 'Image';
+    protected $g2 = 'mixed';
 
-    protected $Type = 'int8s';
+    protected $Type = 'mixed';
 
-    protected $Writable = true;
+    protected $Writable = false;
 
     protected $Description = 'Camera Temperature';
 

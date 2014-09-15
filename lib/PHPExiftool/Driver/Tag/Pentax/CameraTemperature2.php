@@ -24,7 +24,7 @@ class CameraTemperature2 extends AbstractTag
 
     protected $Name = 'CameraTemperature2';
 
-    protected $FullName = 'Pentax::TempInfoK5';
+    protected $FullName = 'Pentax::TempInfo';
 
     protected $GroupName = 'Pentax';
 

@@ -75,6 +75,14 @@ class AutoBracketOrder extends AbstractTag
             'Id' => 16,
             'Label' => '-,0,+',
         ),
+        8 => array(
+            'Id' => 0,
+            'Label' => '0,-,+',
+        ),
+        9 => array(
+            'Id' => 16,
+            'Label' => '-,0,+',
+        ),
     );
 
 }

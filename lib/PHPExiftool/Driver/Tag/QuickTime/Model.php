@@ -34,11 +34,11 @@ class Model extends AbstractTag
 
     protected $g2 = 'mixed';
 
-    protected $Type = '?';
+    protected $Type = 'mixed';
 
     protected $Writable = false;
 
-    protected $Description = 'Model';
+    protected $Description = 'mixed';
 
     protected $local_g2 = 'Camera';
 

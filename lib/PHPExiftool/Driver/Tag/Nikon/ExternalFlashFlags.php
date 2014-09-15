@@ -43,19 +43,55 @@ class ExternalFlashFlags extends AbstractTag
     protected $flag_Permanent = true;
 
     protected $Values = array(
+        0 => array(
+            'Id' => 0,
+            'Label' => '(none)',
+        ),
         1 => array(
             'Id' => 1,
             'Label' => 'Fired',
         ),
-        4 => array(
+        2 => array(
             'Id' => 4,
             'Label' => 'Bounce Flash',
         ),
-        16 => array(
+        3 => array(
             'Id' => 16,
             'Label' => 'Wide Flash Adapter',
         ),
-        32 => array(
+        4 => array(
+            'Id' => 32,
+            'Label' => 'Dome Diffuser',
+        ),
+        5 => array(
+            'Id' => 1,
+            'Label' => 'Fired',
+        ),
+        6 => array(
+            'Id' => 4,
+            'Label' => 'Bounce Flash',
+        ),
+        7 => array(
+            'Id' => 16,
+            'Label' => 'Wide Flash Adapter',
+        ),
+        8 => array(
+            'Id' => 32,
+            'Label' => 'Dome Diffuser',
+        ),
+        9 => array(
+            'Id' => 1,
+            'Label' => 'Fired',
+        ),
+        10 => array(
+            'Id' => 4,
+            'Label' => 'Bounce Flash',
+        ),
+        11 => array(
+            'Id' => 16,
+            'Label' => 'Wide Flash Adapter',
+        ),
+        12 => array(
             'Id' => 32,
             'Label' => 'Dome Diffuser',
         ),

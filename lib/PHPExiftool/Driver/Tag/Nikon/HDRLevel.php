@@ -59,6 +59,10 @@ class HDRLevel extends AbstractTag
             'Id' => 3,
             'Label' => '3 EV',
         ),
+        255 => array(
+            'Id' => 255,
+            'Label' => 'n/a',
+        ),
     );
 
 }

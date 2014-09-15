@@ -20,7 +20,7 @@ use PHPExiftool\Driver\AbstractTag;
 class AudioVendorID extends AbstractTag
 {
 
-    protected $Id = 10;
+    protected $Id = 20;
 
     protected $Name = 'AudioVendorID';
 
@@ -43,6 +43,10 @@ class AudioVendorID extends AbstractTag
     protected $MaxLength = 4;
 
     protected $Values = array(
+        'AR.D' => array(
+            'Id' => 'AR.D',
+            'Label' => 'Parrot AR.Drone',
+        ),
         'FFMP' => array(
             'Id' => 'FFMP',
             'Label' => 'FFmpeg',

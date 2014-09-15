@@ -97,6 +97,10 @@ class LensType extends AbstractTag
             'Id' => '3 23.2',
             'Label' => 'Sigma AF 28-300mm F3.5-6.3 DG IF Macro',
         ),
+        '3 23.3' => array(
+            'Id' => '3 23.3',
+            'Label' => 'Tokina 80-200mm F2.8 ATX-Pro',
+        ),
         '3 24' => array(
             'Id' => '3 24',
             'Label' => 'smc PENTAX-F 35-135mm F3.5-4.5',
@@ -115,7 +119,7 @@ class LensType extends AbstractTag
         ),
         '3 25.3' => array(
             'Id' => '3 25.3',
-            'Label' => 'Sigma AF 28-300mm F3.5-5.6 DL IF',
+            'Label' => 'Sigma AF 28-300mm F3.5-6.3 DL IF',
         ),
         '3 25.4' => array(
             'Id' => '3 25.4',
@@ -144,6 +148,10 @@ class LensType extends AbstractTag
         '3 28.1' => array(
             'Id' => '3 28.1',
             'Label' => 'Tokina 19-35mm F3.5-4.5 AF',
+        ),
+        '3 28.2' => array(
+            'Id' => '3 28.2',
+            'Label' => 'Tokina AT-X AF 400mm F5.6',
         ),
         '3 29' => array(
             'Id' => '3 29',
@@ -223,7 +231,7 @@ class LensType extends AbstractTag
         ),
         '3 44.2' => array(
             'Id' => '3 44.2',
-            'Label' => 'Sigma 12-24mm F4.5 EX DG',
+            'Label' => 'Sigma 12-24mm F4.5-5.6 EX DG',
         ),
         '3 44.3' => array(
             'Id' => '3 44.3',
@@ -239,7 +247,7 @@ class LensType extends AbstractTag
         ),
         '3 46' => array(
             'Id' => '3 46',
-            'Label' => 'Sigma Lens (3 46)',
+            'Label' => 'Sigma or Samsung Lens (3 46)',
         ),
         '3 46.1' => array(
             'Id' => '3 46.1',
@@ -248,6 +256,10 @@ class LensType extends AbstractTag
         '3 46.2' => array(
             'Id' => '3 46.2',
             'Label' => 'Sigma EX APO 100-300mm F4 IF',
+        ),
+        '3 46.3' => array(
+            'Id' => '3 46.3',
+            'Label' => 'Samsung/Schneider D-XENON 50-200mm F4-5.6 ED',
         ),
         '3 50' => array(
             'Id' => '3 50',
@@ -423,7 +435,7 @@ class LensType extends AbstractTag
         ),
         '4 36' => array(
             'Id' => '4 36',
-            'Label' => 'Tamron AF70-300mm F4-5.6 LD Macro',
+            'Label' => 'Tamron AF 70-300mm F4-5.6 LD Macro 1:2',
         ),
         '4 37' => array(
             'Id' => '4 37',
@@ -471,7 +483,7 @@ class LensType extends AbstractTag
         ),
         '4 49' => array(
             'Id' => '4 49',
-            'Label' => 'Tamron SP AF 28-75mm F2.8 XR Di (A09)',
+            'Label' => 'Tamron SP AF 28-75mm F2.8 XR Di LD Aspherical [IF] Macro',
         ),
         '4 51' => array(
             'Id' => '4 51',
@@ -481,13 +493,21 @@ class LensType extends AbstractTag
             'Id' => '4 52',
             'Label' => 'smc PENTAX-D FA 100mm F2.8 Macro',
         ),
+        '4 55' => array(
+            'Id' => '4 55',
+            'Label' => 'Samsung/Schneider D-XENOGON 35mm F2',
+        ),
         '4 56' => array(
             'Id' => '4 56',
-            'Label' => 'Samsung D-XENON 100mm F2.8 Macro',
+            'Label' => 'Samsung/Schneider D-XENON 100mm F2.8 Macro',
         ),
         '4 75' => array(
             'Id' => '4 75',
             'Label' => 'Tamron SP AF 70-200mm F2.8 Di LD [IF] Macro (A001)',
+        ),
+        '4 214' => array(
+            'Id' => '4 214',
+            'Label' => 'smc PENTAX-DA 35mm F2.4 AL',
         ),
         '4 229' => array(
             'Id' => '4 229',
@@ -507,7 +527,11 @@ class LensType extends AbstractTag
         ),
         '4 239' => array(
             'Id' => '4 239',
-            'Label' => 'Samsung D-XENON 12-24mm F4 ED AL [IF]',
+            'Label' => 'Samsung/Schneider D-XENON 12-24mm F4 ED AL [IF]',
+        ),
+        '4 242' => array(
+            'Id' => '4 242',
+            'Label' => 'smc PENTAX-DA* 16-50mm F2.8 ED AL [IF] SDM (SDM unused)',
         ),
         '4 243' => array(
             'Id' => '4 243',
@@ -519,11 +543,11 @@ class LensType extends AbstractTag
         ),
         '4 245' => array(
             'Id' => '4 245',
-            'Label' => 'Schneider D-XENON 50-200mm F4-5.6',
+            'Label' => 'Samsung/Schneider D-XENON 50-200mm F4-5.6',
         ),
         '4 246' => array(
             'Id' => '4 246',
-            'Label' => 'Schneider D-XENON 18-55mm F3.5-5.6',
+            'Label' => 'Samsung/Schneider D-XENON 18-55mm F3.5-5.6',
         ),
         '4 247' => array(
             'Id' => '4 247',
@@ -685,9 +709,41 @@ class LensType extends AbstractTag
             'Id' => '7 75',
             'Label' => 'Tamron SP AF 70-200mm F2.8 Di LD [IF] Macro (A001)',
         ),
+        '7 201' => array(
+            'Id' => '7 201',
+            'Label' => 'smc Pentax-DA L 50-200mm F4-5.6 ED WR',
+        ),
+        '7 202' => array(
+            'Id' => '7 202',
+            'Label' => 'smc PENTAX-DA L 18-55mm F3.5-5.6 AL WR',
+        ),
+        '7 203' => array(
+            'Id' => '7 203',
+            'Label' => 'HD PENTAX-DA 55-300mm F4-5.8 ED WR',
+        ),
+        '7 204' => array(
+            'Id' => '7 204',
+            'Label' => 'HD PENTAX-DA 15mm F4 ED AL Limited',
+        ),
+        '7 205' => array(
+            'Id' => '7 205',
+            'Label' => 'HD PENTAX-DA 35mm F2.8 Macro Limited',
+        ),
+        '7 206' => array(
+            'Id' => '7 206',
+            'Label' => 'HD PENTAX-DA 70mm F2.4 Limited',
+        ),
+        '7 207' => array(
+            'Id' => '7 207',
+            'Label' => 'HD PENTAX-DA 21mm F3.2 ED AL Limited',
+        ),
+        '7 208' => array(
+            'Id' => '7 208',
+            'Label' => 'HD PENTAX-DA 40mm F2.8 Limited',
+        ),
         '7 212' => array(
             'Id' => '7 212',
-            'Label' => 'smc Pentax-DA 50mm F1.8',
+            'Label' => 'smc PENTAX-DA 50mm F1.8',
         ),
         '7 213' => array(
             'Id' => '7 213',
@@ -723,7 +779,7 @@ class LensType extends AbstractTag
         ),
         '7 223' => array(
             'Id' => '7 223',
-            'Label' => 'Samsung D-XENON 18-55mm F3.5-5.6 II',
+            'Label' => 'Samsung/Schneider D-XENON 18-55mm F3.5-5.6 II',
         ),
         '7 224' => array(
             'Id' => '7 224',
@@ -731,7 +787,7 @@ class LensType extends AbstractTag
         ),
         '7 225' => array(
             'Id' => '7 225',
-            'Label' => 'Samsung D-XENON 18-250mm F3.5-6.3',
+            'Label' => 'Samsung/Schneider D-XENON 18-250mm F3.5-6.3',
         ),
         '7 226' => array(
             'Id' => '7 226',
@@ -740,6 +796,10 @@ class LensType extends AbstractTag
         '7 227' => array(
             'Id' => '7 227',
             'Label' => 'smc PENTAX-DA* 60-250mm F4 [IF] SDM (SDM unused)',
+        ),
+        '7 228' => array(
+            'Id' => '7 228',
+            'Label' => 'Samsung 16-45mm F4 ED',
         ),
         '7 229' => array(
             'Id' => '7 229',
@@ -789,9 +849,21 @@ class LensType extends AbstractTag
             'Id' => '7 244',
             'Label' => 'smc PENTAX-DA 21mm F3.2 AL Limited',
         ),
+        '8 0' => array(
+            'Id' => '8 0',
+            'Label' => 'Sigma 50-150mm F2.8 II APO EX DC HSM',
+        ),
+        '8 3' => array(
+            'Id' => '8 3',
+            'Label' => 'Sigma AF 18-125mm F3.5-5.6 DC',
+        ),
         '8 4' => array(
             'Id' => '8 4',
             'Label' => 'Sigma 50mm F1.4 EX DG HSM',
+        ),
+        '8 7' => array(
+            'Id' => '8 7',
+            'Label' => 'Sigma 24-70mm F2.8 IF EX DG HSM',
         ),
         '8 8' => array(
             'Id' => '8 8',
@@ -841,13 +913,45 @@ class LensType extends AbstractTag
             'Id' => '8 23',
             'Label' => 'Sigma 70-200mm F2.8 APO EX DG OS HSM',
         ),
+        '8 25' => array(
+            'Id' => '8 25',
+            'Label' => 'Sigma 17-50mm F2.8 EX DC HSM',
+        ),
         '8 27' => array(
             'Id' => '8 27',
             'Label' => 'Sigma 18-200mm F3.5-6.3 II DC HSM',
         ),
+        '8 28' => array(
+            'Id' => '8 28',
+            'Label' => 'Sigma 18-250mm F3.5-6.3 DC Macro HSM',
+        ),
+        '8 29' => array(
+            'Id' => '8 29',
+            'Label' => 'Sigma 35mm F1.4 DG HSM',
+        ),
+        '8 30' => array(
+            'Id' => '8 30',
+            'Label' => 'Sigma 17-70mm F2.8-4 DC Macro HSM Contemporary',
+        ),
+        '8 31' => array(
+            'Id' => '8 31',
+            'Label' => 'Sigma 18-35mm F1.8 DC HSM',
+        ),
+        '8 32' => array(
+            'Id' => '8 32',
+            'Label' => 'Sigma 30mm F1.4 DC HSM | A',
+        ),
+        '8 209' => array(
+            'Id' => '8 209',
+            'Label' => 'HD PENTAX-DA 20-40mm F2.8-4 ED Limited DC WR',
+        ),
         '8 210' => array(
             'Id' => '8 210',
-            'Label' => 'smc Pentax-DA 18-270mm F3.5-6.3 ED SDM',
+            'Label' => 'smc PENTAX-DA 18-270mm F3.5-6.3 ED SDM',
+        ),
+        '8 211' => array(
+            'Id' => '8 211',
+            'Label' => 'HD PENTAX-DA 560mm F5.6 ED AW',
         ),
         '8 215' => array(
             'Id' => '8 215',
@@ -891,15 +995,23 @@ class LensType extends AbstractTag
         ),
         '8 255.2' => array(
             'Id' => '8 255.2',
-            'Label' => 'Sigma APO 150-500mm F5-6.3 DG OS HSM',
+            'Label' => 'Sigma 150-500mm F5-6.3 DG APO [OS] HSM',
         ),
         '8 255.3' => array(
             'Id' => '8 255.3',
-            'Label' => 'Sigma 4.5mm F2.8 EX DC HSM Circular Fisheye',
+            'Label' => 'Sigma 50-150mm F2.8 II APO EX DC HSM',
         ),
         '8 255.4' => array(
             'Id' => '8 255.4',
+            'Label' => 'Sigma 4.5mm F2.8 EX DC HSM Circular Fisheye',
+        ),
+        '8 255.5' => array(
+            'Id' => '8 255.5',
             'Label' => 'Sigma 50-200mm F4-5.6 DC OS',
+        ),
+        '8 255.6' => array(
+            'Id' => '8 255.6',
+            'Label' => 'Sigma 24-70mm F2.8 EX DG HSM',
         ),
         '9 0' => array(
             'Id' => '9 0',
@@ -915,7 +1027,7 @@ class LensType extends AbstractTag
         ),
         '11 2' => array(
             'Id' => '11 2',
-            'Label' => 'smc Pentax-FA 645 45mm F2.8',
+            'Label' => 'smc PENTAX-FA 645 45mm F2.8',
         ),
         '11 3' => array(
             'Id' => '11 3',
@@ -949,6 +1061,10 @@ class LensType extends AbstractTag
             'Id' => '11 11',
             'Label' => 'smc PENTAX-FA 645 35mm F3.5 AL [IF]',
         ),
+        '11 12' => array(
+            'Id' => '11 12',
+            'Label' => 'smc PENTAX-FA 645 300mm F5.6 ED [IF]',
+        ),
         '11 14' => array(
             'Id' => '11 14',
             'Label' => 'smc PENTAX-FA 645 55-110mm F5.6',
@@ -969,6 +1085,14 @@ class LensType extends AbstractTag
             'Id' => '13 19',
             'Label' => 'smc PENTAX-D FA 645 25mm F4 AL [IF] SDM AW',
         ),
+        '13 20' => array(
+            'Id' => '13 20',
+            'Label' => 'HD PENTAX-D FA 645 90mm F2.8 ED AW SR',
+        ),
+        '13 253' => array(
+            'Id' => '13 253',
+            'Label' => 'HD PENTAX-DA 645 28-45mm F4.5 ED AW SR',
+        ),
         '21 0' => array(
             'Id' => '21 0',
             'Label' => 'Pentax Q Manual Lens',
@@ -981,21 +1105,29 @@ class LensType extends AbstractTag
             'Id' => '21 2',
             'Label' => '02 Standard Zoom 5-15mm F2.8-4.5',
         ),
-        '21 3' => array(
-            'Id' => '21 3',
-            'Label' => '03 Fish-eye 3.2mm F5.6',
-        ),
-        '21 4' => array(
-            'Id' => '21 4',
-            'Label' => '04 Toy Lens Wide 6.3mm F7.1',
-        ),
-        '21 5' => array(
-            'Id' => '21 5',
-            'Label' => '05 Toy Lens Telephoto 18mm F8',
-        ),
         '21 6' => array(
             'Id' => '21 6',
             'Label' => '06 Telephoto Zoom 15-45mm F2.8',
+        ),
+        '21 7' => array(
+            'Id' => '21 7',
+            'Label' => '07 Mount Shield 11.5mm F9',
+        ),
+        '21 8' => array(
+            'Id' => '21 8',
+            'Label' => '08 Wide Zoom 3.8-5.9mm F3.7-4',
+        ),
+        '22 3' => array(
+            'Id' => '22 3',
+            'Label' => '03 Fish-eye 3.2mm F5.6',
+        ),
+        '22 4' => array(
+            'Id' => '22 4',
+            'Label' => '04 Toy Lens Wide 6.3mm F7.1',
+        ),
+        '22 5' => array(
+            'Id' => '22 5',
+            'Label' => '05 Toy Lens Telephoto 18mm F8',
         ),
     );
 

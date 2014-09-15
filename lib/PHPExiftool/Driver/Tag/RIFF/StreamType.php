@@ -47,6 +47,10 @@ class StreamType extends AbstractTag
             'Id' => 'auds',
             'Label' => 'Audio',
         ),
+        'iavs' => array(
+            'Id' => 'iavs',
+            'Label' => 'Interleaved Audio+Video',
+        ),
         'mids' => array(
             'Id' => 'mids',
             'Label' => 'MIDI',

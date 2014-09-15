@@ -44,6 +44,8 @@ class NEFBitDepth extends AbstractTag
 
     protected $flag_Unsafe = true;
 
+    protected $MaxLength = 4;
+
     protected $Values = array(
         '0 0 0 0' => array(
             'Id' => '0 0 0 0',
@@ -60,6 +62,10 @@ class NEFBitDepth extends AbstractTag
         '14 0 0 0' => array(
             'Id' => '14 0 0 0',
             'Label' => 14,
+        ),
+        '16 16 16 0' => array(
+            'Id' => '16 16 16 0',
+            'Label' => '16 x 3',
         ),
     );
 

@@ -20,7 +20,7 @@ use PHPExiftool\Driver\AbstractTag;
 class ViewingMode2 extends AbstractTag
 {
 
-    protected $Id = 133;
+    protected $Id = 'mixed';
 
     protected $Name = 'ViewingMode2';
 

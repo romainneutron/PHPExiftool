@@ -51,6 +51,10 @@ class HDR extends AbstractTag
             'Id' => 1,
             'Label' => 'On',
         ),
+        48 => array(
+            'Id' => 48,
+            'Label' => 'Auto',
+        ),
     );
 
 }

@@ -20,11 +20,11 @@ use PHPExiftool\Driver\AbstractTag;
 class Saturation extends AbstractTag
 {
 
-    protected $Id = 40;
+    protected $Id = 'mixed';
 
     protected $Name = 'Saturation';
 
-    protected $FullName = 'Ricoh::ImageInfo';
+    protected $FullName = 'mixed';
 
     protected $GroupName = 'Ricoh';
 
@@ -32,9 +32,9 @@ class Saturation extends AbstractTag
 
     protected $g1 = 'Ricoh';
 
-    protected $g2 = 'Image';
+    protected $g2 = 'mixed';
 
-    protected $Type = 'int8u';
+    protected $Type = 'mixed';
 
     protected $Writable = true;
 

@@ -81,6 +81,26 @@ class LensType extends AbstractTag
             'Id' => 581,
             'Label' => 'Sigma 18-50mm F2.8 EX DC Macro',
         ),
+        583 => array(
+            'Id' => 583,
+            'Label' => 'Sigma 17-50mm F2.8 EX DC OS',
+        ),
+        1003 => array(
+            'Id' => 1003,
+            'Label' => 'Sigma 19mm F2.8',
+        ),
+        1004 => array(
+            'Id' => 1004,
+            'Label' => 'Sigma 30mm F2.8',
+        ),
+        1005 => array(
+            'Id' => 1005,
+            'Label' => 'Sigma 50mm F2.8 Macro',
+        ),
+        1007 => array(
+            'Id' => 1007,
+            'Label' => 'Sigma 30mm F2.8',
+        ),
         8900 => array(
             'Id' => 8900,
             'Label' => 'Sigma 70-300mm F4-5.6 DG OS',

@@ -46,6 +46,6 @@ class MakerNoteCasio2 extends AbstractTag
 
     protected $flag_Permanent = true;
 
-    protected $Index = 3;
+    protected $Index = 4;
 
 }

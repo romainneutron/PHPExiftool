@@ -45,7 +45,7 @@ class ExposureMode extends AbstractTag
     protected $Values = array(
         0 => array(
             'Id' => 0,
-            'Label' => 'Program',
+            'Label' => 'Program AE',
         ),
         1 => array(
             'Id' => 1,
@@ -73,11 +73,11 @@ class ExposureMode extends AbstractTag
         ),
         7 => array(
             'Id' => 7,
-            'Label' => 'Aperture Priority',
+            'Label' => 'Aperture-priority AE',
         ),
         8 => array(
             'Id' => 8,
-            'Label' => 'Shutter Priority',
+            'Label' => 'Shutter speed priority AE',
         ),
         9 => array(
             'Id' => 9,
@@ -129,7 +129,7 @@ class ExposureMode extends AbstractTag
         ),
         34 => array(
             'Id' => 34,
-            'Label' => 'Panorama',
+            'Label' => 'Sweep Panorama',
         ),
         35 => array(
             'Id' => 35,

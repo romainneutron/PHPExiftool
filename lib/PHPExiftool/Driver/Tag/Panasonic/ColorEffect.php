@@ -67,6 +67,10 @@ class ColorEffect extends AbstractTag
             'Id' => 6,
             'Label' => 'Happy',
         ),
+        8 => array(
+            'Id' => 8,
+            'Label' => 'Vivid',
+        ),
     );
 
 }

@@ -40,6 +40,8 @@ class JFIFVersion extends AbstractTag
 
     protected $Description = 'JFIF Version';
 
+    protected $flag_Mandatory = true;
+
     protected $MaxLength = 2;
 
 }

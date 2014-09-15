@@ -42,4 +42,6 @@ class WBRBLevelsCWB4 extends AbstractTag
 
     protected $flag_Permanent = true;
 
+    protected $MaxLength = 2;
+
 }

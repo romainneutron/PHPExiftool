@@ -20,7 +20,7 @@ use PHPExiftool\Driver\AbstractTag;
 class TextColor extends AbstractTag
 {
 
-    protected $Id = 10;
+    protected $Id = 12;
 
     protected $Name = 'TextColor';
 

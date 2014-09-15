@@ -42,6 +42,8 @@ class ColorAdjustment extends AbstractTag
 
     protected $flag_Permanent = true;
 
+    protected $MaxLength = 'mixed';
+
     protected $Index = 'mixed';
 
 }

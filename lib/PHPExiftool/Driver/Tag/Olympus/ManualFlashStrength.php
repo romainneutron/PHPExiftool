@@ -42,4 +42,15 @@ class ManualFlashStrength extends AbstractTag
 
     protected $flag_Permanent = true;
 
+    protected $Values = array(
+        'undef undef undef' => array(
+            'Id' => 'undef undef undef',
+            'Label' => 'n/a',
+        ),
+        'undef undef undef undef' => array(
+            'Id' => 'undef undef undef undef',
+            'Label' => 'n/a (x4)',
+        ),
+    );
+
 }

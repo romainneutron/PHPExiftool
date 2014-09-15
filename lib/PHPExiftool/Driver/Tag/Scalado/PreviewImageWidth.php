@@ -24,7 +24,7 @@ class PreviewImageWidth extends AbstractTag
 
     protected $Name = 'PreviewImageWidth';
 
-    protected $FullName = 'JPEG::Scalado';
+    protected $FullName = 'Scalado::Main';
 
     protected $GroupName = 'Scalado';
 

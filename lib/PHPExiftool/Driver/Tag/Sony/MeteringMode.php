@@ -32,7 +32,7 @@ class MeteringMode extends AbstractTag
 
     protected $g1 = 'Sony';
 
-    protected $g2 = 'Camera';
+    protected $g2 = 'mixed';
 
     protected $Type = 'mixed';
 
@@ -76,6 +76,90 @@ class MeteringMode extends AbstractTag
             'Label' => 'Center-weighted average',
         ),
         8 => array(
+            'Id' => 3,
+            'Label' => 'Spot',
+        ),
+        9 => array(
+            'Id' => 0,
+            'Label' => 'Multi-segment',
+        ),
+        10 => array(
+            'Id' => 2,
+            'Label' => 'Center-weighted average',
+        ),
+        11 => array(
+            'Id' => 3,
+            'Label' => 'Spot',
+        ),
+        12 => array(
+            'Id' => 0,
+            'Label' => 'Multi-segment',
+        ),
+        13 => array(
+            'Id' => 2,
+            'Label' => 'Center-weighted average',
+        ),
+        14 => array(
+            'Id' => 3,
+            'Label' => 'Spot',
+        ),
+        15 => array(
+            'Id' => 0,
+            'Label' => 'Multi-segment',
+        ),
+        16 => array(
+            'Id' => 2,
+            'Label' => 'Center-weighted average',
+        ),
+        17 => array(
+            'Id' => 3,
+            'Label' => 'Spot',
+        ),
+        18 => array(
+            'Id' => 0,
+            'Label' => 'Multi-segment',
+        ),
+        19 => array(
+            'Id' => 2,
+            'Label' => 'Center-weighted average',
+        ),
+        20 => array(
+            'Id' => 3,
+            'Label' => 'Spot',
+        ),
+        21 => array(
+            'Id' => 0,
+            'Label' => 'Multi-segment',
+        ),
+        22 => array(
+            'Id' => 2,
+            'Label' => 'Center-weighted average',
+        ),
+        23 => array(
+            'Id' => 3,
+            'Label' => 'Spot',
+        ),
+        24 => array(
+            'Id' => 0,
+            'Label' => 'Multi-segment',
+        ),
+        25 => array(
+            'Id' => 2,
+            'Label' => 'Center-weighted average',
+        ),
+        26 => array(
+            'Id' => 3,
+            'Label' => 'Spot',
+        ),
+        27 => array(
+            'Id' => 0,
+            'Label' => 'Multi-segment',
+        ),
+        28 => array(
+            'Id' => 2,
+            'Label' => 'Center-weighted average',
+        ),
+        29 => array(
             'Id' => 3,
             'Label' => 'Spot',
         ),

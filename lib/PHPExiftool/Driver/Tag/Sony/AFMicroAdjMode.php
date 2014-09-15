@@ -24,7 +24,7 @@ class AFMicroAdjMode extends AbstractTag
 
     protected $Name = 'AFMicroAdjMode';
 
-    protected $FullName = 'Sony::CameraInfo2';
+    protected $FullName = 'Sony::CameraInfo';
 
     protected $GroupName = 'Sony';
 

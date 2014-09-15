@@ -34,7 +34,7 @@ class IDsBaseValue extends AbstractTag
 
     protected $g2 = 'Image';
 
-    protected $Type = '?';
+    protected $Type = 'int32u';
 
     protected $Writable = false;
 

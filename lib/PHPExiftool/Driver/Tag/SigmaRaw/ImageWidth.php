@@ -20,11 +20,11 @@ use PHPExiftool\Driver\AbstractTag;
 class ImageWidth extends AbstractTag
 {
 
-    protected $Id = 7;
+    protected $Id = 'mixed';
 
     protected $Name = 'ImageWidth';
 
-    protected $FullName = 'SigmaRaw::Header';
+    protected $FullName = 'mixed';
 
     protected $GroupName = 'SigmaRaw';
 

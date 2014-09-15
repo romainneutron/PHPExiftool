@@ -248,26 +248,30 @@ class PictureMode extends AbstractTag
             'Label' => 'Portrait 2',
         ),
         47 => array(
+            'Id' => 74,
+            'Label' => 'Digital Microscope',
+        ),
+        48 => array(
             'Id' => 75,
             'Label' => 'Blue Sky',
         ),
-        48 => array(
+        49 => array(
             'Id' => 80,
             'Label' => 'Miniature',
         ),
-        49 => array(
+        50 => array(
             'Id' => 81,
             'Label' => 'HDR',
         ),
-        50 => array(
+        51 => array(
             'Id' => 83,
             'Label' => 'Fisheye',
         ),
-        51 => array(
+        52 => array(
             'Id' => 221,
             'Label' => 'P',
         ),
-        52 => array(
+        53 => array(
             'Id' => 255,
             'Label' => 'PICT',
         ),
@@ -516,5 +520,7 @@ class PictureMode extends AbstractTag
             'Label' => 'Video (4)',
         ),
     );
+
+    protected $MaxLength = 'mixed';
 
 }

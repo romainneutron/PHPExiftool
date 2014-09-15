@@ -20,7 +20,7 @@ use PHPExiftool\Driver\AbstractTag;
 class FontName extends AbstractTag
 {
 
-    protected $Id = 22;
+    protected $Id = 24;
 
     protected $Name = 'FontName';
 

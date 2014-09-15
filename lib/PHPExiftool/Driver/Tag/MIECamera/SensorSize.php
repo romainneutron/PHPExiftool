@@ -40,4 +40,6 @@ class SensorSize extends AbstractTag
 
     protected $Description = 'Sensor Size';
 
+    protected $MaxLength = 2;
+
 }

@@ -42,6 +42,8 @@ class FileFormat extends AbstractTag
 
     protected $flag_Permanent = true;
 
+    protected $MaxLength = 4;
+
     protected $Values = array(
         '0 0 0 2' => array(
             'Id' => '0 0 0 2',
@@ -70,6 +72,10 @@ class FileFormat extends AbstractTag
         '3 3 0 0' => array(
             'Id' => '3 3 0 0',
             'Label' => 'ARW 2.3',
+        ),
+        '3 3 1 0' => array(
+            'Id' => '3 3 1 0',
+            'Label' => 'ARW 2.3.1',
         ),
     );
 

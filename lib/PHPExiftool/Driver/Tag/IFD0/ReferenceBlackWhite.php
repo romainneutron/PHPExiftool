@@ -40,4 +40,6 @@ class ReferenceBlackWhite extends AbstractTag
 
     protected $Description = 'Reference Black White';
 
+    protected $MaxLength = 6;
+
 }

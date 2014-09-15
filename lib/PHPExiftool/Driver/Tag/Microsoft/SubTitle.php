@@ -20,7 +20,7 @@ use PHPExiftool\Driver\AbstractTag;
 class SubTitle extends AbstractTag
 {
 
-    protected $Id = 'WM/SubTitle';
+    protected $Id = 'mixed';
 
     protected $Name = 'SubTitle';
 

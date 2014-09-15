@@ -24,7 +24,7 @@ class AFMicroAdjRegisteredLenses extends AbstractTag
 
     protected $Name = 'AFMicroAdjRegisteredLenses';
 
-    protected $FullName = 'Sony::CameraInfo2';
+    protected $FullName = 'Sony::CameraInfo';
 
     protected $GroupName = 'Sony';
 

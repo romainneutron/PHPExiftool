@@ -42,4 +42,6 @@ class ArtModeParameters extends AbstractTag
 
     protected $flag_Permanent = true;
 
+    protected $MaxLength = 3;
+
 }

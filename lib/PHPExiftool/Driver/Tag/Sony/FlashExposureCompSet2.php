@@ -36,7 +36,7 @@ class FlashExposureCompSet2 extends AbstractTag
 
     protected $Type = 'int16s';
 
-    protected $Writable = false;
+    protected $Writable = true;
 
     protected $Description = 'Flash Exposure Comp. Setting 2';
 

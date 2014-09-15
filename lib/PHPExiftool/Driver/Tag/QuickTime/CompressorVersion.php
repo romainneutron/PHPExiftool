@@ -34,7 +34,7 @@ class CompressorVersion extends AbstractTag
 
     protected $g2 = 'Video';
 
-    protected $Type = '?';
+    protected $Type = 'string';
 
     protected $Writable = false;
 

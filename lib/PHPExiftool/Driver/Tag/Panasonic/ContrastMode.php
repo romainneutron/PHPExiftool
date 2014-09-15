@@ -100,98 +100,174 @@ class ContrastMode extends AbstractTag
             'Label' => '+2',
         ),
         14 => array(
+            'Id' => 5,
+            'Label' => 'Normal 2',
+        ),
+        15 => array(
             'Id' => 7,
             'Label' => 'Nature (Color Film)',
         ),
-        15 => array(
+        16 => array(
             'Id' => 9,
             'Label' => 'Expressive',
         ),
-        16 => array(
+        17 => array(
             'Id' => 12,
             'Label' => 'Smooth (Color Film) or Pure (My Color)',
         ),
-        17 => array(
+        18 => array(
             'Id' => 17,
             'Label' => 'Dynamic (B&W Film)',
         ),
-        18 => array(
+        19 => array(
             'Id' => 22,
             'Label' => 'Smooth (B&W Film)',
         ),
-        19 => array(
+        20 => array(
             'Id' => 25,
             'Label' => 'High Dynamic',
         ),
-        20 => array(
+        21 => array(
             'Id' => 26,
             'Label' => 'Retro',
         ),
-        21 => array(
+        22 => array(
             'Id' => 27,
             'Label' => 'Dynamic (Color Film)',
         ),
-        22 => array(
+        23 => array(
             'Id' => 28,
             'Label' => 'Low Key',
         ),
-        23 => array(
+        24 => array(
             'Id' => 29,
             'Label' => 'Toy Effect',
         ),
-        24 => array(
+        25 => array(
             'Id' => 32,
             'Label' => 'Vibrant (Color Film) or Expressive (My Color)',
         ),
-        25 => array(
+        26 => array(
             'Id' => 33,
             'Label' => 'Elegant (My Color)',
         ),
-        26 => array(
+        27 => array(
             'Id' => 37,
             'Label' => 'Nostalgic (Color Film)',
         ),
-        27 => array(
+        28 => array(
             'Id' => 41,
             'Label' => 'Dynamic Art (My Color)',
         ),
-        28 => array(
+        29 => array(
             'Id' => 42,
             'Label' => 'Retro (My Color)',
         ),
-        29 => array(
+        30 => array(
             'Id' => 45,
             'Label' => 'Cinema',
         ),
-        30 => array(
+        31 => array(
             'Id' => 47,
             'Label' => 'Dynamic Mono',
         ),
-        31 => array(
+        32 => array(
             'Id' => 50,
             'Label' => 'Impressive Art',
         ),
-        32 => array(
+        33 => array(
             'Id' => 51,
             'Label' => 'Cross Process',
         ),
-        33 => array(
+        34 => array(
+            'Id' => 100,
+            'Label' => 'High Dynamic 2',
+        ),
+        35 => array(
+            'Id' => 101,
+            'Label' => 'Retro 2',
+        ),
+        36 => array(
+            'Id' => 102,
+            'Label' => 'High Key 2',
+        ),
+        37 => array(
+            'Id' => 103,
+            'Label' => 'Low Key 2',
+        ),
+        38 => array(
+            'Id' => 104,
+            'Label' => 'Toy Effect 2',
+        ),
+        39 => array(
+            'Id' => 107,
+            'Label' => 'Expressive 2',
+        ),
+        40 => array(
+            'Id' => 112,
+            'Label' => 'Sepia',
+        ),
+        41 => array(
+            'Id' => 117,
+            'Label' => 'Miniature',
+        ),
+        42 => array(
+            'Id' => 122,
+            'Label' => 'Dynamic Monochrome',
+        ),
+        43 => array(
+            'Id' => 127,
+            'Label' => 'Old Days',
+        ),
+        44 => array(
+            'Id' => 132,
+            'Label' => 'Dynamic Monochrome 2',
+        ),
+        45 => array(
+            'Id' => 135,
+            'Label' => 'Impressive Art 2',
+        ),
+        46 => array(
+            'Id' => 136,
+            'Label' => 'Cross Process 2',
+        ),
+        47 => array(
+            'Id' => 137,
+            'Label' => 'Toy Pop',
+        ),
+        48 => array(
+            'Id' => 138,
+            'Label' => 'Fantasy',
+        ),
+        49 => array(
+            'Id' => 256,
+            'Label' => 'Normal 3',
+        ),
+        50 => array(
+            'Id' => 272,
+            'Label' => 'Standard',
+        ),
+        51 => array(
+            'Id' => 288,
+            'Label' => 'High',
+        ),
+        52 => array(
             'Id' => 0,
             'Label' => 'Normal',
         ),
-        34 => array(
+        53 => array(
             'Id' => 1,
             'Label' => '-2',
         ),
-        35 => array(
+        54 => array(
             'Id' => 2,
             'Label' => '+2',
         ),
-        36 => array(
+        55 => array(
             'Id' => 5,
             'Label' => '-1',
         ),
-        37 => array(
+        56 => array(
             'Id' => 6,
             'Label' => '+1',
         ),

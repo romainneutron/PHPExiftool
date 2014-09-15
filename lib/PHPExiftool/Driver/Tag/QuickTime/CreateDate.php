@@ -20,11 +20,11 @@ use PHPExiftool\Driver\AbstractTag;
 class CreateDate extends AbstractTag
 {
 
-    protected $Id = 'mixed';
+    protected $Id = 1;
 
     protected $Name = 'CreateDate';
 
-    protected $FullName = 'mixed';
+    protected $FullName = 'QuickTime::MovieHeader';
 
     protected $GroupName = 'QuickTime';
 
@@ -34,12 +34,14 @@ class CreateDate extends AbstractTag
 
     protected $g2 = 'Video';
 
-    protected $Type = 'mixed';
+    protected $Type = 'int32u';
 
-    protected $Writable = false;
+    protected $Writable = true;
 
     protected $Description = 'Create Date';
 
     protected $local_g2 = 'Time';
+
+    protected $flag_Permanent = true;
 
 }

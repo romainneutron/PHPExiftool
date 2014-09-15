@@ -40,6 +40,8 @@ class GPSTrackRef extends AbstractTag
 
     protected $Description = 'GPS Track Ref';
 
+    protected $MaxLength = 2;
+
     protected $Values = array(
         'M' => array(
             'Id' => 'M',

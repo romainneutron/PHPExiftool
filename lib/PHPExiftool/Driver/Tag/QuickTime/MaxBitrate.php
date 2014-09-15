@@ -20,11 +20,11 @@ use PHPExiftool\Driver\AbstractTag;
 class MaxBitrate extends AbstractTag
 {
 
-    protected $Id = 4;
+    protected $Id = 'mixed';
 
     protected $Name = 'MaxBitrate';
 
-    protected $FullName = 'QuickTime::HintHeader';
+    protected $FullName = 'mixed';
 
     protected $GroupName = 'QuickTime';
 
@@ -32,7 +32,7 @@ class MaxBitrate extends AbstractTag
 
     protected $g1 = 'QuickTime';
 
-    protected $g2 = 'Other';
+    protected $g2 = 'mixed';
 
     protected $Type = 'int32u';
 

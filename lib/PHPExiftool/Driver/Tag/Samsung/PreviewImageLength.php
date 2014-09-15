@@ -24,7 +24,7 @@ class PreviewImageLength extends AbstractTag
 
     protected $Name = 'PreviewImageLength';
 
-    protected $FullName = 'Samsung::Type1';
+    protected $FullName = 'Samsung::Main';
 
     protected $GroupName = 'Samsung';
 

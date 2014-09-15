@@ -42,6 +42,8 @@ class AFMicroadjustment extends AbstractTag
 
     protected $flag_Permanent = true;
 
+    protected $MaxLength = 5;
+
     protected $Values = array(
         0 => array(
             'Id' => 0,

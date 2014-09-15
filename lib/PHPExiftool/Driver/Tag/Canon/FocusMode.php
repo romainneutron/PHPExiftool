@@ -75,6 +75,18 @@ class FocusMode extends AbstractTag
             'Id' => 16,
             'Label' => 'Pan Focus',
         ),
+        256 => array(
+            'Id' => 256,
+            'Label' => 'AF + MF',
+        ),
+        512 => array(
+            'Id' => 512,
+            'Label' => 'Movie Snap Focus',
+        ),
+        519 => array(
+            'Id' => 519,
+            'Label' => 'Movie Servo AF',
+        ),
     );
 
 }

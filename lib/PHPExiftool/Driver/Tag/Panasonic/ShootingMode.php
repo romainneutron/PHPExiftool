@@ -219,6 +219,10 @@ class ShootingMode extends AbstractTag
             'Id' => 46,
             'Label' => 'Photo Frame',
         ),
+        48 => array(
+            'Id' => 48,
+            'Label' => 'Movie',
+        ),
         51 => array(
             'Id' => 51,
             'Label' => 'HDR',
@@ -235,9 +239,117 @@ class ShootingMode extends AbstractTag
             'Id' => 59,
             'Label' => 'Creative Control',
         ),
+        62 => array(
+            'Id' => 62,
+            'Label' => 'Panorama',
+        ),
+        63 => array(
+            'Id' => 63,
+            'Label' => 'Glass Through',
+        ),
+        64 => array(
+            'Id' => 64,
+            'Label' => 'HDR',
+        ),
         66 => array(
             'Id' => 66,
             'Label' => 'Digital Filter',
+        ),
+        67 => array(
+            'Id' => 67,
+            'Label' => 'Clear Portrait',
+        ),
+        68 => array(
+            'Id' => 68,
+            'Label' => 'Silky Skin',
+        ),
+        69 => array(
+            'Id' => 69,
+            'Label' => 'Backlit Softness',
+        ),
+        70 => array(
+            'Id' => 70,
+            'Label' => 'Clear in Backlight',
+        ),
+        71 => array(
+            'Id' => 71,
+            'Label' => 'Relaxing Tone',
+        ),
+        72 => array(
+            'Id' => 72,
+            'Label' => 'Sweet Child\'s Face',
+        ),
+        73 => array(
+            'Id' => 73,
+            'Label' => 'Distinct Scenery',
+        ),
+        74 => array(
+            'Id' => 74,
+            'Label' => 'Bright Blue Sky',
+        ),
+        75 => array(
+            'Id' => 75,
+            'Label' => 'Romantic Sunset Glow',
+        ),
+        76 => array(
+            'Id' => 76,
+            'Label' => 'Vivid Sunset Glow',
+        ),
+        77 => array(
+            'Id' => 77,
+            'Label' => 'Glistening Water',
+        ),
+        78 => array(
+            'Id' => 78,
+            'Label' => 'Clear Nightscape',
+        ),
+        79 => array(
+            'Id' => 79,
+            'Label' => 'Cool Night Sky',
+        ),
+        80 => array(
+            'Id' => 80,
+            'Label' => 'Warm Glowing Nightscape',
+        ),
+        81 => array(
+            'Id' => 81,
+            'Label' => 'Artistic Nightscape',
+        ),
+        82 => array(
+            'Id' => 82,
+            'Label' => 'Glittering Illuminations',
+        ),
+        83 => array(
+            'Id' => 83,
+            'Label' => 'Clear Night Portrait',
+        ),
+        84 => array(
+            'Id' => 84,
+            'Label' => 'Soft Image of a Flower',
+        ),
+        85 => array(
+            'Id' => 85,
+            'Label' => 'Appetizing Food',
+        ),
+        86 => array(
+            'Id' => 86,
+            'Label' => 'Cute Desert',
+        ),
+        87 => array(
+            'Id' => 87,
+            'Label' => 'Freeze Animal Motion',
+        ),
+        88 => array(
+            'Id' => 88,
+            'Label' => 'Clear Sports Shot',
+        ),
+        89 => array(
+            'Id' => 89,
+            'Label' => 'Monochrome',
+        ),
+        90 => array(
+            'Id' => 90,
+            'Label' => 'Creative Control',
         ),
     );
 

@@ -34,21 +34,29 @@ class FaceDetection extends AbstractTag
 
     protected $g2 = 'Camera';
 
-    protected $Type = 'int8u';
+    protected $Type = 'mixed';
 
-    protected $Writable = true;
+    protected $Writable = false;
 
     protected $Description = 'Face Detection';
 
     protected $flag_Permanent = true;
 
     protected $Values = array(
-        1 => array(
+        0 => array(
             'Id' => 1,
             'Label' => 'Off',
         ),
-        16 => array(
+        1 => array(
             'Id' => 16,
+            'Label' => 'On',
+        ),
+        2 => array(
+            'Id' => 0,
+            'Label' => 'Off',
+        ),
+        3 => array(
+            'Id' => 98,
             'Label' => 'On',
         ),
     );

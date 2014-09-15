@@ -20,11 +20,11 @@ use PHPExiftool\Driver\AbstractTag;
 class CommanderGroupBTTLAAComp extends AbstractTag
 {
 
-    protected $Id = '14.1';
+    protected $Id = 'mixed';
 
     protected $Name = 'CommanderGroupB_TTL-AAComp';
 
-    protected $FullName = 'NikonCustom::SettingsD80';
+    protected $FullName = 'mixed';
 
     protected $GroupName = 'NikonCustom';
 

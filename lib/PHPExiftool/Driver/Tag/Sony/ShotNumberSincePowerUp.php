@@ -20,11 +20,11 @@ use PHPExiftool\Driver\AbstractTag;
 class ShotNumberSincePowerUp extends AbstractTag
 {
 
-    protected $Id = 26;
+    protected $Id = 'mixed';
 
     protected $Name = 'ShotNumberSincePowerUp';
 
-    protected $FullName = 'Sony::Tag9400';
+    protected $FullName = 'mixed';
 
     protected $GroupName = 'Sony';
 
@@ -32,7 +32,7 @@ class ShotNumberSincePowerUp extends AbstractTag
 
     protected $g1 = 'Sony';
 
-    protected $g2 = 'Image';
+    protected $g2 = 'mixed';
 
     protected $Type = 'int32u';
 

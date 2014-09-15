@@ -36,7 +36,7 @@ class ExposureCompensation2 extends AbstractTag
 
     protected $Type = 'int16s';
 
-    protected $Writable = false;
+    protected $Writable = true;
 
     protected $Description = 'Exposure Compensation 2';
 

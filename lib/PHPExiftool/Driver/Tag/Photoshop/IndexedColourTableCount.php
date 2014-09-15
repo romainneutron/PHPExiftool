@@ -34,7 +34,7 @@ class IndexedColourTableCount extends AbstractTag
 
     protected $g2 = 'Image';
 
-    protected $Type = '?';
+    protected $Type = 'int16u';
 
     protected $Writable = false;
 

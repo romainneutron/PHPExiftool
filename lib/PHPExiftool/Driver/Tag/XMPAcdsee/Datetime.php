@@ -17,12 +17,12 @@ use PHPExiftool\Driver\AbstractTag;
 /**
  * @ExclusionPolicy("all")
  */
-class Datetime extends AbstractTag
+class DateTime extends AbstractTag
 {
 
     protected $Id = 'datetime';
 
-    protected $Name = 'Datetime';
+    protected $Name = 'DateTime';
 
     protected $FullName = 'XMP::acdsee';
 
@@ -38,7 +38,7 @@ class Datetime extends AbstractTag
 
     protected $Writable = true;
 
-    protected $Description = 'Datetime';
+    protected $Description = 'Date Time';
 
     protected $local_g2 = 'Time';
 

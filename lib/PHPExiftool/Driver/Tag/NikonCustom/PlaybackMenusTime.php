@@ -20,11 +20,11 @@ use PHPExiftool\Driver\AbstractTag;
 class PlaybackMenusTime extends AbstractTag
 {
 
-    protected $Id = '20.1';
+    protected $Id = 'mixed';
 
     protected $Name = 'PlaybackMenusTime';
 
-    protected $FullName = 'NikonCustom::SettingsD5000';
+    protected $FullName = 'mixed';
 
     protected $GroupName = 'NikonCustom';
 
@@ -47,20 +47,40 @@ class PlaybackMenusTime extends AbstractTag
             'Id' => 0,
             'Label' => '8 s',
         ),
-        32 => array(
+        1 => array(
             'Id' => 32,
             'Label' => '12 s',
         ),
-        64 => array(
+        2 => array(
             'Id' => 64,
             'Label' => '20 s',
         ),
-        96 => array(
+        3 => array(
             'Id' => 96,
             'Label' => '1 min',
         ),
-        128 => array(
+        4 => array(
             'Id' => 128,
+            'Label' => '10 min',
+        ),
+        5 => array(
+            'Id' => 32,
+            'Label' => '8 s',
+        ),
+        6 => array(
+            'Id' => 128,
+            'Label' => '20 s',
+        ),
+        7 => array(
+            'Id' => 160,
+            'Label' => '1 min',
+        ),
+        8 => array(
+            'Id' => 192,
+            'Label' => '5 min',
+        ),
+        9 => array(
+            'Id' => 224,
             'Label' => '10 min',
         ),
     );

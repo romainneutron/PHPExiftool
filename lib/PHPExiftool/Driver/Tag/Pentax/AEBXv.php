@@ -20,11 +20,11 @@ use PHPExiftool\Driver\AbstractTag;
 class AEBXv extends AbstractTag
 {
 
-    protected $Id = 4;
+    protected $Id = 'mixed';
 
     protected $Name = 'AEBXv';
 
-    protected $FullName = 'Pentax::AEInfo';
+    protected $FullName = 'mixed';
 
     protected $GroupName = 'Pentax';
 

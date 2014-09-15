@@ -20,7 +20,7 @@ use PHPExiftool\Driver\AbstractTag;
 class AFButtonPressed extends AbstractTag
 {
 
-    protected $Id = 131;
+    protected $Id = 'mixed';
 
     protected $Name = 'AFButtonPressed';
 

@@ -42,4 +42,6 @@ class SensorTemperature extends AbstractTag
 
     protected $flag_Permanent = true;
 
+    protected $Index = 'mixed';
+
 }

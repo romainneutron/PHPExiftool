@@ -125,7 +125,7 @@ class SonyModelID extends AbstractTag
         ),
         281 => array(
             'Id' => 281,
-            'Label' => 'SLT-A55V',
+            'Label' => 'SLT-A55 / SLT-A55V',
         ),
         282 => array(
             'Id' => 282,
@@ -145,11 +145,11 @@ class SonyModelID extends AbstractTag
         ),
         286 => array(
             'Id' => 286,
-            'Label' => 'SLT-A65V',
+            'Label' => 'SLT-A65 / SLT-A65V',
         ),
         287 => array(
             'Id' => 287,
-            'Label' => 'SLT-A77V',
+            'Label' => 'SLT-A77 / SLT-A77V',
         ),
         288 => array(
             'Id' => 288,
@@ -177,7 +177,7 @@ class SonyModelID extends AbstractTag
         ),
         294 => array(
             'Id' => 294,
-            'Label' => 'SLT-A99V',
+            'Label' => 'SLT-A99 / SLT-A99V',
         ),
         295 => array(
             'Id' => 295,
@@ -194,6 +194,74 @@ class SonyModelID extends AbstractTag
         298 => array(
             'Id' => 298,
             'Label' => 'DSC-RX1',
+        ),
+        299 => array(
+            'Id' => 299,
+            'Label' => 'NEX-VG900',
+        ),
+        300 => array(
+            'Id' => 300,
+            'Label' => 'NEX-VG30E',
+        ),
+        302 => array(
+            'Id' => 302,
+            'Label' => 'ILCE-3000 / ILCE-3500',
+        ),
+        303 => array(
+            'Id' => 303,
+            'Label' => 'SLT-A58',
+        ),
+        305 => array(
+            'Id' => 305,
+            'Label' => 'NEX-3N',
+        ),
+        306 => array(
+            'Id' => 306,
+            'Label' => 'ILCE-7',
+        ),
+        307 => array(
+            'Id' => 307,
+            'Label' => 'NEX-5T',
+        ),
+        308 => array(
+            'Id' => 308,
+            'Label' => 'DSC-RX100M2',
+        ),
+        309 => array(
+            'Id' => 309,
+            'Label' => 'DSC-RX10',
+        ),
+        310 => array(
+            'Id' => 310,
+            'Label' => 'DSC-RX1R',
+        ),
+        311 => array(
+            'Id' => 311,
+            'Label' => 'ILCE-7R',
+        ),
+        312 => array(
+            'Id' => 312,
+            'Label' => 'ILCE-6000',
+        ),
+        313 => array(
+            'Id' => 313,
+            'Label' => 'ILCE-5000',
+        ),
+        317 => array(
+            'Id' => 317,
+            'Label' => 'DSC-RX100M3',
+        ),
+        318 => array(
+            'Id' => 318,
+            'Label' => 'ILCE-7S',
+        ),
+        319 => array(
+            'Id' => 319,
+            'Label' => 'ILCA-77M2',
+        ),
+        339 => array(
+            'Id' => 339,
+            'Label' => 'ILCE-5100',
         ),
     );
 

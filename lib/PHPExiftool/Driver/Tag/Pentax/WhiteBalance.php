@@ -112,42 +112,50 @@ class WhiteBalance extends AbstractTag
             'Label' => 'Cloudy',
         ),
         17 => array(
+            'Id' => 11,
+            'Label' => 'Warm White Fluorescent',
+        ),
+        18 => array(
+            'Id' => 14,
+            'Label' => 'Multi Auto',
+        ),
+        19 => array(
             'Id' => 15,
             'Label' => 'Color Temperature Enhancement',
         ),
-        18 => array(
+        20 => array(
             'Id' => 17,
             'Label' => 'Kelvin',
         ),
-        19 => array(
+        21 => array(
             'Id' => 65534,
             'Label' => 'Unknown',
         ),
-        20 => array(
+        22 => array(
             'Id' => 65535,
             'Label' => 'User-Selected',
         ),
-        21 => array(
+        23 => array(
             'Id' => 0,
             'Label' => 'Auto',
         ),
-        22 => array(
+        24 => array(
             'Id' => 1,
             'Label' => 'Daylight',
         ),
-        23 => array(
+        25 => array(
             'Id' => 2,
             'Label' => 'Shade',
         ),
-        24 => array(
+        26 => array(
             'Id' => 3,
             'Label' => 'Tungsten',
         ),
-        25 => array(
+        27 => array(
             'Id' => 4,
             'Label' => 'Fluorescent',
         ),
-        26 => array(
+        28 => array(
             'Id' => 5,
             'Label' => 'Manual',
         ),

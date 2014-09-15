@@ -24,7 +24,7 @@ class FileVersion extends AbstractTag
 
     protected $Name = 'FileVersion';
 
-    protected $FullName = 'SigmaRaw::Header';
+    protected $FullName = 'mixed';
 
     protected $GroupName = 'SigmaRaw';
 

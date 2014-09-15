@@ -20,11 +20,11 @@ use PHPExiftool\Driver\AbstractTag;
 class ExposureCompensation extends AbstractTag
 {
 
-    protected $Id = 108;
+    protected $Id = 'mixed';
 
     protected $Name = 'ExposureCompensation';
 
-    protected $FullName = 'Sony::PMP';
+    protected $FullName = 'mixed';
 
     protected $GroupName = 'Sony';
 

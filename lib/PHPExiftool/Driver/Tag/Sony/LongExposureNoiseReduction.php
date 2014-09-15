@@ -32,7 +32,7 @@ class LongExposureNoiseReduction extends AbstractTag
 
     protected $g1 = 'Sony';
 
-    protected $g2 = 'Camera';
+    protected $g2 = 'mixed';
 
     protected $Type = 'mixed';
 
@@ -84,31 +84,21 @@ class LongExposureNoiseReduction extends AbstractTag
             'Label' => 'n/a',
         ),
         10 => array(
-            'Id' => 0,
+            'Id' => 1,
             'Label' => 'Off',
         ),
         11 => array(
-            'Id' => 1,
-            'Label' => 'On',
-        ),
-        12 => array(
-            'Id' => 2,
-            'Label' => 'On 2',
-        ),
-        13 => array(
-            'Id' => 65535,
-            'Label' => 'n/a',
-        ),
-        14 => array(
-            'Id' => 1,
-            'Label' => 'Off',
-        ),
-        15 => array(
             'Id' => 16,
             'Label' => 'On',
         ),
+        12 => array(
+            'Id' => 0,
+            'Label' => 'Off',
+        ),
+        13 => array(
+            'Id' => 1,
+            'Label' => 'On',
+        ),
     );
-
-    protected $Index = 'mixed';
 
 }

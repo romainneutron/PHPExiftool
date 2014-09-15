@@ -24,7 +24,7 @@ class DataLength extends AbstractTag
 
     protected $Name = 'DataLength';
 
-    protected $FullName = 'JPEG::Scalado';
+    protected $FullName = 'Scalado::Main';
 
     protected $GroupName = 'Scalado';
 

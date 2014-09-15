@@ -20,11 +20,11 @@ use PHPExiftool\Driver\AbstractTag;
 class WBRGGBLevelsCloudy extends AbstractTag
 {
 
-    protected $Id = 527;
+    protected $Id = 'mixed';
 
     protected $Name = 'WB_RGGBLevelsCloudy';
 
-    protected $FullName = 'Pentax::Main';
+    protected $FullName = 'mixed';
 
     protected $GroupName = 'Pentax';
 
@@ -41,5 +41,7 @@ class WBRGGBLevelsCloudy extends AbstractTag
     protected $Description = 'WB RGGB Levels Cloudy';
 
     protected $flag_Permanent = true;
+
+    protected $MaxLength = 4;
 
 }

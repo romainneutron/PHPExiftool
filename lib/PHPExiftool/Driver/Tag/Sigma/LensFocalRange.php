@@ -20,7 +20,7 @@ use PHPExiftool\Driver\AbstractTag;
 class LensFocalRange extends AbstractTag
 {
 
-    protected $Id = 10;
+    protected $Id = 'mixed';
 
     protected $Name = 'LensFocalRange';
 
@@ -34,12 +34,14 @@ class LensFocalRange extends AbstractTag
 
     protected $g2 = 'Camera';
 
-    protected $Type = 'string';
+    protected $Type = 'mixed';
 
     protected $Writable = true;
 
     protected $Description = 'Lens Focal Range';
 
     protected $flag_Permanent = true;
+
+    protected $MaxLength = 'mixed';
 
 }

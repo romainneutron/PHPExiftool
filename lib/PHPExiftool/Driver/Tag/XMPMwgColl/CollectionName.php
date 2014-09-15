@@ -24,7 +24,7 @@ class CollectionName extends AbstractTag
 
     protected $Name = 'CollectionName';
 
-    protected $FullName = 'XMP::mwg_coll';
+    protected $FullName = 'MWG::Collections';
 
     protected $GroupName = 'XMP-mwg-coll';
 

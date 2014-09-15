@@ -22,7 +22,7 @@ class AFStatusBottomLeft extends AbstractTag
 
     protected $Id = 18;
 
-    protected $Name = 'AFStatusBottom-Left';
+    protected $Name = 'AFStatusBottom-left';
 
     protected $FullName = 'Minolta::CameraInfoA100';
 
@@ -38,7 +38,7 @@ class AFStatusBottomLeft extends AbstractTag
 
     protected $Writable = true;
 
-    protected $Description = 'AF Status Bottom-Left';
+    protected $Description = 'AF Status Bottom-left';
 
     protected $flag_Permanent = true;
 

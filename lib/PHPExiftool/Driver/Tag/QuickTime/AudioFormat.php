@@ -20,7 +20,7 @@ use PHPExiftool\Driver\AbstractTag;
 class AudioFormat extends AbstractTag
 {
 
-    protected $Id = 'mixed';
+    protected $Id = 4;
 
     protected $Name = 'AudioFormat';
 

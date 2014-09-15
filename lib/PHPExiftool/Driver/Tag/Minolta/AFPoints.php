@@ -43,6 +43,10 @@ class AFPoints extends AbstractTag
     protected $flag_Permanent = true;
 
     protected $Values = array(
+        0 => array(
+            'Id' => 0,
+            'Label' => '(none)',
+        ),
         1 => array(
             'Id' => 1,
             'Label' => 'Center',
@@ -53,7 +57,7 @@ class AFPoints extends AbstractTag
         ),
         4 => array(
             'Id' => 4,
-            'Label' => 'Top-Right',
+            'Label' => 'Top-right',
         ),
         8 => array(
             'Id' => 8,
@@ -61,7 +65,7 @@ class AFPoints extends AbstractTag
         ),
         16 => array(
             'Id' => 16,
-            'Label' => 'Bottom-Right',
+            'Label' => 'Bottom-right',
         ),
         32 => array(
             'Id' => 32,
@@ -69,7 +73,7 @@ class AFPoints extends AbstractTag
         ),
         64 => array(
             'Id' => 64,
-            'Label' => 'Bottom-Left',
+            'Label' => 'Bottom-left',
         ),
         128 => array(
             'Id' => 128,
@@ -77,7 +81,7 @@ class AFPoints extends AbstractTag
         ),
         256 => array(
             'Id' => 256,
-            'Label' => 'Top-Left',
+            'Label' => 'Top-left',
         ),
     );
 

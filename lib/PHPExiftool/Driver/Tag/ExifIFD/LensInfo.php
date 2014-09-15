@@ -42,4 +42,6 @@ class LensInfo extends AbstractTag
 
     protected $local_g1 = 'ExifIFD';
 
+    protected $MaxLength = 4;
+
 }

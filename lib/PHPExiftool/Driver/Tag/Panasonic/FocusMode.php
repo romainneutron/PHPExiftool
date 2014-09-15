@@ -59,6 +59,18 @@ class FocusMode extends AbstractTag
             'Id' => 5,
             'Label' => 'Auto, Continuous',
         ),
+        6 => array(
+            'Id' => 6,
+            'Label' => 'AF-S',
+        ),
+        7 => array(
+            'Id' => 7,
+            'Label' => 'AF-C',
+        ),
+        8 => array(
+            'Id' => 8,
+            'Label' => 'AF-F',
+        ),
     );
 
 }

@@ -135,6 +135,10 @@ class SceneMode extends AbstractTag
             'Id' => 28,
             'Label' => 'Pet',
         ),
+        33 => array(
+            'Id' => 33,
+            'Label' => 'HDR',
+        ),
         65535 => array(
             'Id' => 65535,
             'Label' => 'n/a',

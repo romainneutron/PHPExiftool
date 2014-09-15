@@ -40,4 +40,6 @@ class SerialNumber extends AbstractTag
 
     protected $Description = 'Serial Number';
 
+    protected $flag_Avoid = true;
+
 }

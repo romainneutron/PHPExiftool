@@ -20,11 +20,11 @@ use PHPExiftool\Driver\AbstractTag;
 class NumberOfFocusPoints extends AbstractTag
 {
 
-    protected $Id = '0.3';
+    protected $Id = 'mixed';
 
     protected $Name = 'NumberOfFocusPoints';
 
-    protected $FullName = 'NikonCustom::SettingsD7000';
+    protected $FullName = 'mixed';
 
     protected $GroupName = 'NikonCustom';
 

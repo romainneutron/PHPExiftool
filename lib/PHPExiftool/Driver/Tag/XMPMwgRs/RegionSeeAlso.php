@@ -24,7 +24,7 @@ class RegionSeeAlso extends AbstractTag
 
     protected $Name = 'RegionSeeAlso';
 
-    protected $FullName = 'XMP::mwg_rs';
+    protected $FullName = 'MWG::Regions';
 
     protected $GroupName = 'XMP-mwg-rs';
 

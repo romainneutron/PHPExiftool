@@ -45,20 +45,40 @@ class AEBShotCount extends AbstractTag
     protected $Values = array(
         0 => array(
             'Id' => 0,
-            'Label' => 3,
+            'Label' => '3 shots',
         ),
         1 => array(
             'Id' => 1,
-            'Label' => 2,
+            'Label' => '2 shots',
         ),
         2 => array(
             'Id' => 2,
-            'Label' => 5,
+            'Label' => '5 shots',
         ),
         3 => array(
             'Id' => 3,
-            'Label' => 7,
+            'Label' => '7 shots',
+        ),
+        '2 1' => array(
+            'Id' => '2 1',
+            'Label' => '2 shots',
+        ),
+        '3 0' => array(
+            'Id' => '3 0',
+            'Label' => '3 shots',
+        ),
+        '5 2' => array(
+            'Id' => '5 2',
+            'Label' => '5 shots',
+        ),
+        '7 3' => array(
+            'Id' => '7 3',
+            'Label' => '7 shots',
         ),
     );
+
+    protected $MaxLength = 'mixed';
+
+    protected $Index = 'mixed';
 
 }

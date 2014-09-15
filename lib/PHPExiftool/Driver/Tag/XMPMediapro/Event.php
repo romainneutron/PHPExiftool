@@ -40,4 +40,6 @@ class Event extends AbstractTag
 
     protected $Description = 'Event';
 
+    protected $flag_Avoid = true;
+
 }

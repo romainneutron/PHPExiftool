@@ -46,6 +46,6 @@ class MakerNoteKodak9 extends AbstractTag
 
     protected $flag_Permanent = true;
 
-    protected $Index = 26;
+    protected $Index = 29;
 
 }

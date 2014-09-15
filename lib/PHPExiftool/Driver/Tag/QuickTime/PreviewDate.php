@@ -36,10 +36,12 @@ class PreviewDate extends AbstractTag
 
     protected $Type = 'int32u';
 
-    protected $Writable = false;
+    protected $Writable = true;
 
     protected $Description = 'Preview Date';
 
     protected $local_g2 = 'Time';
+
+    protected $flag_Permanent = true;
 
 }

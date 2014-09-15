@@ -59,6 +59,10 @@ class AFAreaMode extends AbstractTag
             'Id' => 5,
             'Label' => 'Face Detect AF',
         ),
+        6 => array(
+            'Id' => 6,
+            'Label' => 'Face + Tracking',
+        ),
         7 => array(
             'Id' => 7,
             'Label' => 'Zone AF',
@@ -70,6 +74,14 @@ class AFAreaMode extends AbstractTag
         9 => array(
             'Id' => 9,
             'Label' => 'Spot AF',
+        ),
+        11 => array(
+            'Id' => 11,
+            'Label' => 'Flexizone Multi',
+        ),
+        13 => array(
+            'Id' => 13,
+            'Label' => 'Flexizone Single',
         ),
     );
 

@@ -55,6 +55,10 @@ class LockMicrophoneButton extends AbstractTag
             'Id' => 2,
             'Label' => 'Play memo (hold:record memo)',
         ),
+        3 => array(
+            'Id' => 3,
+            'Label' => 'Rating (protect/memo:disable)',
+        ),
     );
 
 }

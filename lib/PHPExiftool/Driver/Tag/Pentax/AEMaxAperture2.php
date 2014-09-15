@@ -20,11 +20,11 @@ use PHPExiftool\Driver\AbstractTag;
 class AEMaxAperture2 extends AbstractTag
 {
 
-    protected $Id = 10;
+    protected $Id = 'mixed';
 
     protected $Name = 'AEMaxAperture2';
 
-    protected $FullName = 'Pentax::AEInfo';
+    protected $FullName = 'mixed';
 
     protected $GroupName = 'Pentax';
 

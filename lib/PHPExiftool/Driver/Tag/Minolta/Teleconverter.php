@@ -47,6 +47,14 @@ class Teleconverter extends AbstractTag
             'Id' => 0,
             'Label' => 'None',
         ),
+        4 => array(
+            'Id' => 4,
+            'Label' => 'Minolta/Sony AF 1.4x APO (D) (0x04)',
+        ),
+        5 => array(
+            'Id' => 5,
+            'Label' => 'Minolta/Sony AF 2x APO (D) (0x05)',
+        ),
         72 => array(
             'Id' => 72,
             'Label' => 'Minolta/Sony AF 2x APO (D)',

@@ -46,6 +46,6 @@ class MakerNoteCanon extends AbstractTag
 
     protected $flag_Permanent = true;
 
-    protected $Index = 1;
+    protected $Index = 2;
 
 }

@@ -42,28 +42,86 @@ class CameraOrientation extends AbstractTag
 
     protected $flag_Permanent = true;
 
+    protected $Index = 1;
+
     protected $Values = array(
         0 => array(
             'Id' => 0,
             'Label' => 'Horizontal (normal)',
         ),
         1 => array(
-            'Id' => 16,
+            'Id' => 64,
             'Label' => 'Rotate 90 CW',
         ),
         2 => array(
-            'Id' => 32,
+            'Id' => 128,
             'Label' => 'Rotate 270 CW',
         ),
         3 => array(
+            'Id' => 192,
+            'Label' => 'Rotate 180',
+        ),
+        4 => array(
+            'Id' => 0,
+            'Label' => 'Horizontal (normal)',
+        ),
+        5 => array(
+            'Id' => 16,
+            'Label' => 'Rotate 90 CW',
+        ),
+        6 => array(
+            'Id' => 32,
+            'Label' => 'Rotate 270 CW',
+        ),
+        7 => array(
+            'Id' => 48,
+            'Label' => 'Rotate 180',
+        ),
+        8 => array(
             'Id' => 1,
             'Label' => 'Horizontal (normal)',
         ),
-        4 => array(
+        9 => array(
+            'Id' => 3,
+            'Label' => 'Rotate 180',
+        ),
+        10 => array(
             'Id' => 6,
             'Label' => 'Rotate 90 CW',
         ),
-        5 => array(
+        11 => array(
+            'Id' => 8,
+            'Label' => 'Rotate 270 CW',
+        ),
+        12 => array(
+            'Id' => 1,
+            'Label' => 'Horizontal (normal)',
+        ),
+        13 => array(
+            'Id' => 3,
+            'Label' => 'Rotate 180',
+        ),
+        14 => array(
+            'Id' => 6,
+            'Label' => 'Rotate 90 CW',
+        ),
+        15 => array(
+            'Id' => 8,
+            'Label' => 'Rotate 270 CW',
+        ),
+        16 => array(
+            'Id' => 1,
+            'Label' => 'Horizontal (normal)',
+        ),
+        17 => array(
+            'Id' => 3,
+            'Label' => 'Rotate 180',
+        ),
+        18 => array(
+            'Id' => 6,
+            'Label' => 'Rotate 90 CW',
+        ),
+        19 => array(
             'Id' => 8,
             'Label' => 'Rotate 270 CW',
         ),

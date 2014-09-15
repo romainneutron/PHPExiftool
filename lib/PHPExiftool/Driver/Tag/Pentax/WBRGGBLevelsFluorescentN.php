@@ -20,11 +20,11 @@ use PHPExiftool\Driver\AbstractTag;
 class WBRGGBLevelsFluorescentN extends AbstractTag
 {
 
-    protected $Id = 530;
+    protected $Id = 'mixed';
 
     protected $Name = 'WB_RGGBLevelsFluorescentN';
 
-    protected $FullName = 'Pentax::Main';
+    protected $FullName = 'mixed';
 
     protected $GroupName = 'Pentax';
 
@@ -41,5 +41,7 @@ class WBRGGBLevelsFluorescentN extends AbstractTag
     protected $Description = 'WB RGGB Levels Fluorescent N';
 
     protected $flag_Permanent = true;
+
+    protected $MaxLength = 4;
 
 }

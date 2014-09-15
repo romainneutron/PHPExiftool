@@ -20,7 +20,7 @@ use PHPExiftool\Driver\AbstractTag;
 class AELock extends AbstractTag
 {
 
-    protected $Id = 134;
+    protected $Id = 'mixed';
 
     protected $Name = 'AELock';
 

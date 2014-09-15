@@ -75,6 +75,10 @@ class ColorMode extends AbstractTag
             'Id' => 7,
             'Label' => 'Landscape',
         ),
+        8 => array(
+            'Id' => 8,
+            'Label' => 'FOV Classic Blue',
+        ),
     );
 
 }

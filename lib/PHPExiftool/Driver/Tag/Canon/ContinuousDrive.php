@@ -71,6 +71,14 @@ class ContinuousDrive extends AbstractTag
             'Id' => 6,
             'Label' => 'Silent Single',
         ),
+        9 => array(
+            'Id' => 9,
+            'Label' => 'Single, Silent',
+        ),
+        10 => array(
+            'Id' => 10,
+            'Label' => 'Continuous, Silent',
+        ),
     );
 
 }

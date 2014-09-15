@@ -42,10 +42,10 @@ class GPSTimeStamp extends AbstractTag
 
     protected $local_g2 = 'Time';
 
+    protected $MaxLength = 3;
+
     protected $local_g1 = 'mixed';
 
     protected $flag_Permanent = 'mixed';
-
-    protected $MaxLength = 'mixed';
 
 }

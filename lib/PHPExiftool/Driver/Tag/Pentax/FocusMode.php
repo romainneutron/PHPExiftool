@@ -69,49 +69,61 @@ class FocusMode extends AbstractTag
         ),
         6 => array(
             'Id' => 16,
-            'Label' => 'AF-S',
+            'Label' => 'AF-S (Focus-priority)',
         ),
         7 => array(
             'Id' => 17,
-            'Label' => 'AF-C',
+            'Label' => 'AF-C (Focus-priority)',
         ),
         8 => array(
             'Id' => 18,
-            'Label' => 'AF-A',
+            'Label' => 'AF-A (Focus-priority)',
         ),
         9 => array(
             'Id' => 32,
-            'Label' => 'Contrast-detect',
+            'Label' => 'Contrast-detect (Focus-priority)',
         ),
         10 => array(
             'Id' => 33,
-            'Label' => 'Tracking Contrast-detect',
+            'Label' => 'Tracking Contrast-detect (Focus-priority)',
         ),
         11 => array(
-            'Id' => 288,
-            'Label' => 'Face Detect',
+            'Id' => 272,
+            'Label' => 'AF-S (Release-priority)',
         ),
         12 => array(
+            'Id' => 273,
+            'Label' => 'AF-C (Release-priority)',
+        ),
+        13 => array(
+            'Id' => 274,
+            'Label' => 'AF-A (Release-priority)',
+        ),
+        14 => array(
+            'Id' => 288,
+            'Label' => 'Contrast-detect (Release-priority)',
+        ),
+        15 => array(
             'Id' => 0,
             'Label' => 'Normal',
         ),
-        13 => array(
+        16 => array(
             'Id' => 1,
             'Label' => 'Macro (1)',
         ),
-        14 => array(
+        17 => array(
             'Id' => 2,
             'Label' => 'Macro (2)',
         ),
-        15 => array(
+        18 => array(
             'Id' => 3,
             'Label' => 'Infinity',
         ),
-        16 => array(
+        19 => array(
             'Id' => 2,
             'Label' => 'Custom',
         ),
-        17 => array(
+        20 => array(
             'Id' => 3,
             'Label' => 'Auto',
         ),

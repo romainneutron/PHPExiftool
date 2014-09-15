@@ -73,7 +73,11 @@ class RecordMode extends AbstractTag
         ),
         9 => array(
             'Id' => 9,
-            'Label' => 'Video',
+            'Label' => 'MOV',
+        ),
+        10 => array(
+            'Id' => 10,
+            'Label' => 'MP4',
         ),
     );
 

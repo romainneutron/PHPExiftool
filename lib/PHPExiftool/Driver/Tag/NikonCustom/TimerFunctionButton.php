@@ -95,6 +95,38 @@ class TimerFunctionButton extends AbstractTag
             'Id' => 56,
             'Label' => 'Auto Bracketing',
         ),
+        13 => array(
+            'Id' => 0,
+            'Label' => 'Self-timer',
+        ),
+        14 => array(
+            'Id' => 8,
+            'Label' => 'Release Mode',
+        ),
+        15 => array(
+            'Id' => 16,
+            'Label' => 'Image Quality/Size',
+        ),
+        16 => array(
+            'Id' => 24,
+            'Label' => 'ISO',
+        ),
+        17 => array(
+            'Id' => 32,
+            'Label' => 'White Balance',
+        ),
+        18 => array(
+            'Id' => 40,
+            'Label' => 'Active D-Lighting',
+        ),
+        19 => array(
+            'Id' => 48,
+            'Label' => '+ NEF (RAW)',
+        ),
+        20 => array(
+            'Id' => 56,
+            'Label' => 'Auto Bracketing',
+        ),
     );
 
 }

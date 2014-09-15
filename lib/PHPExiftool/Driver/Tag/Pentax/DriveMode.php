@@ -42,6 +42,8 @@ class DriveMode extends AbstractTag
 
     protected $flag_Permanent = true;
 
+    protected $MaxLength = 4;
+
     protected $Values = array(
         0 => array(
             'Id' => 0,
@@ -58,6 +60,10 @@ class DriveMode extends AbstractTag
         3 => array(
             'Id' => 3,
             'Label' => 'Burst',
+        ),
+        4 => array(
+            'Id' => 4,
+            'Label' => 'Continuous (Medium)',
         ),
         255 => array(
             'Id' => 255,

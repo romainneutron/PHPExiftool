@@ -40,6 +40,8 @@ class GPSDestBearingRef extends AbstractTag
 
     protected $Description = 'GPS Dest Bearing Ref';
 
+    protected $MaxLength = 2;
+
     protected $Values = array(
         'M' => array(
             'Id' => 'M',

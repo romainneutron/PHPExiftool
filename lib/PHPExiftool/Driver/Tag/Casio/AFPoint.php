@@ -69,7 +69,7 @@ class AFPoint extends AbstractTag
         ),
         7 => array(
             'Id' => 7,
-            'Label' => 'Top Near-Left',
+            'Label' => 'Top Near-left',
         ),
         8 => array(
             'Id' => 8,
@@ -77,7 +77,7 @@ class AFPoint extends AbstractTag
         ),
         9 => array(
             'Id' => 9,
-            'Label' => 'Top Near-Right',
+            'Label' => 'Top Near-right',
         ),
         10 => array(
             'Id' => 10,

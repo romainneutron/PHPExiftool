@@ -20,11 +20,11 @@ use PHPExiftool\Driver\AbstractTag;
 class Model extends AbstractTag
 {
 
-    protected $Id = 24;
+    protected $Id = 'mixed';
 
     protected $Name = 'Model';
 
-    protected $FullName = 'Samsung::MP4';
+    protected $FullName = 'mixed';
 
     protected $GroupName = 'Samsung';
 
@@ -42,6 +42,6 @@ class Model extends AbstractTag
 
     protected $flag_Permanent = true;
 
-    protected $MaxLength = 16;
+    protected $MaxLength = 'mixed';
 
 }

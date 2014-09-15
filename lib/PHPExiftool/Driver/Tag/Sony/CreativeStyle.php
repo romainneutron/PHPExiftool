@@ -32,7 +32,7 @@ class CreativeStyle extends AbstractTag
 
     protected $g1 = 'Sony';
 
-    protected $g2 = 'Camera';
+    protected $g2 = 'mixed';
 
     protected $Type = 'mixed';
 
@@ -93,7 +93,7 @@ class CreativeStyle extends AbstractTag
         ),
         12 => array(
             'Id' => 15,
-            'Label' => 'Autumn',
+            'Label' => 'Autumn Leaves',
         ),
         13 => array(
             'Id' => 16,
@@ -177,10 +177,122 @@ class CreativeStyle extends AbstractTag
         ),
         33 => array(
             'Id' => 15,
-            'Label' => 'Autumn',
+            'Label' => 'Autumn Leaves',
         ),
         34 => array(
             'Id' => 16,
+            'Label' => 'Sepia',
+        ),
+        'AdobeRGB' => array(
+            'Id' => 'AdobeRGB',
+            'Label' => 'Adobe RGB',
+        ),
+        'Autumnleaves' => array(
+            'Id' => 'Autumnleaves',
+            'Label' => 'Autumn Leaves',
+        ),
+        'BW' => array(
+            'Id' => 'BW',
+            'Label' => 'B&W',
+        ),
+        'Clear' => array(
+            'Id' => 'Clear',
+            'Label' => 'Clear',
+        ),
+        'Deep' => array(
+            'Id' => 'Deep',
+            'Label' => 'Deep',
+        ),
+        'Landscape' => array(
+            'Id' => 'Landscape',
+            'Label' => 'Landscape',
+        ),
+        'Light' => array(
+            'Id' => 'Light',
+            'Label' => 'Light',
+        ),
+        'Neutral' => array(
+            'Id' => 'Neutral',
+            'Label' => 'Neutral',
+        ),
+        'Nightview' => array(
+            'Id' => 'Nightview',
+            'Label' => 'Night View/Portrait',
+        ),
+        'None' => array(
+            'Id' => 'None',
+            'Label' => 'None',
+        ),
+        'Portrait' => array(
+            'Id' => 'Portrait',
+            'Label' => 'Portrait',
+        ),
+        'Real' => array(
+            'Id' => 'Real',
+            'Label' => 'Real',
+        ),
+        'Sepia' => array(
+            'Id' => 'Sepia',
+            'Label' => 'Sepia',
+        ),
+        'Standard' => array(
+            'Id' => 'Standard',
+            'Label' => 'Standard',
+        ),
+        'Sunset' => array(
+            'Id' => 'Sunset',
+            'Label' => 'Sunset',
+        ),
+        'Vivid' => array(
+            'Id' => 'Vivid',
+            'Label' => 'Vivid',
+        ),
+        35 => array(
+            'Id' => 0,
+            'Label' => 'Standard',
+        ),
+        36 => array(
+            'Id' => 1,
+            'Label' => 'Vivid',
+        ),
+        37 => array(
+            'Id' => 2,
+            'Label' => 'Neutral',
+        ),
+        38 => array(
+            'Id' => 3,
+            'Label' => 'Portrait',
+        ),
+        39 => array(
+            'Id' => 4,
+            'Label' => 'Landscape',
+        ),
+        40 => array(
+            'Id' => 5,
+            'Label' => 'B&W',
+        ),
+        41 => array(
+            'Id' => 6,
+            'Label' => 'Clear',
+        ),
+        42 => array(
+            'Id' => 7,
+            'Label' => 'Deep',
+        ),
+        43 => array(
+            'Id' => 8,
+            'Label' => 'Light',
+        ),
+        44 => array(
+            'Id' => 9,
+            'Label' => 'Sunset',
+        ),
+        45 => array(
+            'Id' => 11,
+            'Label' => 'Autumn Leaves',
+        ),
+        46 => array(
+            'Id' => 13,
             'Label' => 'Sepia',
         ),
     );

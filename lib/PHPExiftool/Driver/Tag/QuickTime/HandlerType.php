@@ -71,9 +71,17 @@ class HandlerType extends AbstractTag
             'Id' => 'mdta',
             'Label' => 'Metadata Tags',
         ),
+        'meta' => array(
+            'Id' => 'meta',
+            'Label' => 'NRT Metadata',
+        ),
         'mjsm' => array(
             'Id' => 'mjsm',
             'Label' => 'MPEG-J',
+        ),
+        'nrtm' => array(
+            'Id' => 'nrtm',
+            'Label' => 'Non-Real Time Metadata',
         ),
         'ocsm' => array(
             'Id' => 'ocsm',
@@ -83,6 +91,10 @@ class HandlerType extends AbstractTag
             'Id' => 'odsm',
             'Label' => 'Object Descriptor',
         ),
+        'priv' => array(
+            'Id' => 'priv',
+            'Label' => 'Private',
+        ),
         'sdsm' => array(
             'Id' => 'sdsm',
             'Label' => 'Scene Description',
@@ -90,6 +102,10 @@ class HandlerType extends AbstractTag
         'soun' => array(
             'Id' => 'soun',
             'Label' => 'Audio Track',
+        ),
+        'subp' => array(
+            'Id' => 'subp',
+            'Label' => 'Subpicture',
         ),
         'text' => array(
             'Id' => 'text',

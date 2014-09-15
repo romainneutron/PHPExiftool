@@ -45,7 +45,7 @@ class OrientationLinkedAFPoint extends AbstractTag
     protected $Values = array(
         0 => array(
             'Id' => 0,
-            'Label' => 'Same for verical and horizontal',
+            'Label' => 'Same for vertical and horizontal',
         ),
         1 => array(
             'Id' => 1,

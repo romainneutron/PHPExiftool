@@ -40,6 +40,8 @@ class GPSMeasureMode extends AbstractTag
 
     protected $Description = 'GPS Measure Mode';
 
+    protected $MaxLength = 2;
+
     protected $Values = array(
         2 => array(
             'Id' => 2,
@@ -56,7 +58,5 @@ class GPSMeasureMode extends AbstractTag
     protected $local_g2 = 'mixed';
 
     protected $flag_Permanent = 'mixed';
-
-    protected $MaxLength = 'mixed';
 
 }

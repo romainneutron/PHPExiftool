@@ -59,6 +59,14 @@ class HDRSmoothing extends AbstractTag
             'Id' => 3,
             'Label' => 'High',
         ),
+        48 => array(
+            'Id' => 48,
+            'Label' => 'Auto',
+        ),
+        255 => array(
+            'Id' => 255,
+            'Label' => 'n/a',
+        ),
     );
 
 }

@@ -20,7 +20,7 @@ use PHPExiftool\Driver\AbstractTag;
 class FlashCompensation extends AbstractTag
 {
 
-    protected $Id = 'mixed';
+    protected $Id = 10;
 
     protected $Name = 'FlashCompensation';
 

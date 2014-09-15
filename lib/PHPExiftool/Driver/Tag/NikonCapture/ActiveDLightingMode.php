@@ -67,6 +67,14 @@ class ActiveDLightingMode extends AbstractTag
             'Id' => 6,
             'Label' => 'Extra High',
         ),
+        7 => array(
+            'Id' => 7,
+            'Label' => 'Extra High 1',
+        ),
+        8 => array(
+            'Id' => 8,
+            'Label' => 'Extra High 2',
+        ),
     );
 
 }

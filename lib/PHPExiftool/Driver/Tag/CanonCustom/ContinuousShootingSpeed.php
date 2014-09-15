@@ -42,6 +42,8 @@ class ContinuousShootingSpeed extends AbstractTag
 
     protected $flag_Permanent = true;
 
+    protected $MaxLength = 3;
+
     protected $Values = array(
         0 => array(
             'Id' => 0,

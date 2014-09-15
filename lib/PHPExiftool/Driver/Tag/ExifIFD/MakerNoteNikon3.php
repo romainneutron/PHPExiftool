@@ -46,6 +46,6 @@ class MakerNoteNikon3 extends AbstractTag
 
     protected $flag_Permanent = true;
 
-    protected $Index = 34;
+    protected $Index = 38;
 
 }

@@ -46,6 +46,6 @@ class MakerNotePentax extends AbstractTag
 
     protected $flag_Permanent = true;
 
-    protected $Index = 45;
+    protected $Index = 50;
 
 }

@@ -20,11 +20,11 @@ use PHPExiftool\Driver\AbstractTag;
 class ImageHeight extends AbstractTag
 {
 
-    protected $Id = 8;
+    protected $Id = 'mixed';
 
     protected $Name = 'ImageHeight';
 
-    protected $FullName = 'SigmaRaw::Header';
+    protected $FullName = 'mixed';
 
     protected $GroupName = 'SigmaRaw';
 

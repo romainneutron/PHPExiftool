@@ -20,11 +20,11 @@ use PHPExiftool\Driver\AbstractTag;
 class CommanderGroupAManualOutput extends AbstractTag
 {
 
-    protected $Id = '13.2';
+    protected $Id = 'mixed';
 
     protected $Name = 'CommanderGroupAManualOutput';
 
-    protected $FullName = 'NikonCustom::SettingsD80';
+    protected $FullName = 'mixed';
 
     protected $GroupName = 'NikonCustom';
 

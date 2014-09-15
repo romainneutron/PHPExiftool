@@ -85,9 +85,21 @@ class LensType extends AbstractTag
             'Id' => 9,
             'Label' => 'Samsung NX 85mm F1.4 ED SSA',
         ),
+        10 => array(
+            'Id' => 10,
+            'Label' => 'Samsung NX 45mm F1.8',
+        ),
+        11 => array(
+            'Id' => 11,
+            'Label' => 'Samsung NX 45mm F1.8 2D/3D',
+        ),
         12 => array(
             'Id' => 12,
             'Label' => 'Samsung NX 12-24mm F4-5.6 ED',
+        ),
+        14 => array(
+            'Id' => 14,
+            'Label' => 'Samsung NX 10mm F3.5 Fisheye',
         ),
     );
 

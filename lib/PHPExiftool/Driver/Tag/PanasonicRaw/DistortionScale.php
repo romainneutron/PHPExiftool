@@ -32,7 +32,7 @@ class DistortionScale extends AbstractTag
 
     protected $g1 = 'PanasonicRaw';
 
-    protected $g2 = 'Other';
+    protected $g2 = 'Image';
 
     protected $Type = 'int16s';
 

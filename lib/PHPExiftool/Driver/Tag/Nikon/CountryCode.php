@@ -34,7 +34,7 @@ class CountryCode extends AbstractTag
 
     protected $g2 = 'Location';
 
-    protected $Type = 'string';
+    protected $Type = 'undef';
 
     protected $Writable = true;
 

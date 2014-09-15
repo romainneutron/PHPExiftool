@@ -42,4 +42,15 @@ class FlashFunction extends AbstractTag
 
     protected $local_g2 = 'Camera';
 
+    protected $Values = array(
+        False => array(
+            'Id' => False,
+            'Label' => False,
+        ),
+        True => array(
+            'Id' => True,
+            'Label' => True,
+        ),
+    );
+
 }

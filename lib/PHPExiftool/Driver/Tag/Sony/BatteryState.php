@@ -20,11 +20,11 @@ use PHPExiftool\Driver\AbstractTag;
 class BatteryState extends AbstractTag
 {
 
-    protected $Id = 20;
+    protected $Id = 'mixed';
 
     protected $Name = 'BatteryState';
 
-    protected $FullName = 'Sony::ExtraInfo3';
+    protected $FullName = 'mixed';
 
     protected $GroupName = 'Sony';
 
@@ -34,7 +34,7 @@ class BatteryState extends AbstractTag
 
     protected $g2 = 'Camera';
 
-    protected $Type = 'int8u';
+    protected $Type = 'mixed';
 
     protected $Writable = true;
 
@@ -43,23 +43,43 @@ class BatteryState extends AbstractTag
     protected $flag_Permanent = true;
 
     protected $Values = array(
-        1 => array(
-            'Id' => 1,
+        0 => array(
+            'Id' => 2,
             'Label' => 'Empty',
         ),
+        1 => array(
+            'Id' => 3,
+            'Label' => 'Very Low',
+        ),
         2 => array(
-            'Id' => 2,
+            'Id' => 4,
             'Label' => 'Low',
         ),
         3 => array(
+            'Id' => 5,
+            'Label' => 'Sufficient',
+        ),
+        4 => array(
+            'Id' => 6,
+            'Label' => 'Full',
+        ),
+        5 => array(
+            'Id' => 1,
+            'Label' => 'Empty',
+        ),
+        6 => array(
+            'Id' => 2,
+            'Label' => 'Low',
+        ),
+        7 => array(
             'Id' => 3,
             'Label' => 'Half full',
         ),
-        4 => array(
+        8 => array(
             'Id' => 4,
             'Label' => 'Almost full',
         ),
-        5 => array(
+        9 => array(
             'Id' => 5,
             'Label' => 'Full',
         ),

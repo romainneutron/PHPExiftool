@@ -20,7 +20,7 @@ use PHPExiftool\Driver\AbstractTag;
 class GPSAltitudeRef extends AbstractTag
 {
 
-    protected $Id = 'GPSAltitudeRef';
+    protected $Id = 'mixed';
 
     protected $Name = 'GPSAltitudeRef';
 

@@ -42,6 +42,8 @@ class Extender extends AbstractTag
 
     protected $flag_Permanent = true;
 
+    protected $MaxLength = 6;
+
     protected $Values = array(
         '0 00' => array(
             'Id' => '0 00',

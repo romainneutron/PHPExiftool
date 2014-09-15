@@ -24,7 +24,7 @@ class ShakeReduction extends AbstractTag
 
     protected $Name = 'ShakeReduction';
 
-    protected $FullName = 'Pentax::SRInfo';
+    protected $FullName = 'mixed';
 
     protected $GroupName = 'Pentax';
 
@@ -51,29 +51,77 @@ class ShakeReduction extends AbstractTag
             'Id' => 1,
             'Label' => 'On',
         ),
-        4 => array(
+        2 => array(
             'Id' => 4,
             'Label' => 'Off (4)',
         ),
-        5 => array(
+        3 => array(
             'Id' => 5,
             'Label' => 'On but Disabled',
         ),
-        6 => array(
+        4 => array(
             'Id' => 6,
             'Label' => 'On (Video)',
         ),
-        7 => array(
+        5 => array(
             'Id' => 7,
             'Label' => 'On (7)',
         ),
-        15 => array(
+        6 => array(
             'Id' => 15,
             'Label' => 'On (15)',
         ),
-        135 => array(
+        7 => array(
+            'Id' => 39,
+            'Label' => 'On (mode 2)',
+        ),
+        8 => array(
             'Id' => 135,
             'Label' => 'On (135)',
+        ),
+        9 => array(
+            'Id' => 167,
+            'Label' => 'On (mode 1)',
+        ),
+        10 => array(
+            'Id' => 0,
+            'Label' => 'Off',
+        ),
+        11 => array(
+            'Id' => 1,
+            'Label' => 'On',
+        ),
+        12 => array(
+            'Id' => 4,
+            'Label' => 'Off (AA simulation off)',
+        ),
+        13 => array(
+            'Id' => 5,
+            'Label' => 'On but Disabled',
+        ),
+        14 => array(
+            'Id' => 6,
+            'Label' => 'On (Video)',
+        ),
+        15 => array(
+            'Id' => 7,
+            'Label' => 'On (AA simulation off)',
+        ),
+        16 => array(
+            'Id' => 12,
+            'Label' => 'Off (AA simulation type 1)',
+        ),
+        17 => array(
+            'Id' => 15,
+            'Label' => 'On (AA simulation type 1)',
+        ),
+        18 => array(
+            'Id' => 20,
+            'Label' => 'Off (AA simulation type 2)',
+        ),
+        19 => array(
+            'Id' => 23,
+            'Label' => 'On (AA simulation type 2)',
         ),
     );
 

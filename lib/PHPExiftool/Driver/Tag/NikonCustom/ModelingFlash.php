@@ -75,6 +75,14 @@ class ModelingFlash extends AbstractTag
             'Id' => 32,
             'Label' => 'Off',
         ),
+        8 => array(
+            'Id' => 0,
+            'Label' => 'On',
+        ),
+        9 => array(
+            'Id' => 32,
+            'Label' => 'Off',
+        ),
     );
 
 }

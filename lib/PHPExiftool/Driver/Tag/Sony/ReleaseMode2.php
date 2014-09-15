@@ -20,11 +20,11 @@ use PHPExiftool\Driver\AbstractTag;
 class ReleaseMode2 extends AbstractTag
 {
 
-    protected $Id = 16;
+    protected $Id = 'mixed';
 
     protected $Name = 'ReleaseMode2';
 
-    protected $FullName = 'Sony::Tag9400';
+    protected $FullName = 'mixed';
 
     protected $GroupName = 'Sony';
 
@@ -34,7 +34,7 @@ class ReleaseMode2 extends AbstractTag
 
     protected $g2 = 'Image';
 
-    protected $Type = 'int8u';
+    protected $Type = 'mixed';
 
     protected $Writable = true;
 
@@ -87,9 +87,17 @@ class ReleaseMode2 extends AbstractTag
             'Id' => 13,
             'Label' => 'Continuous - 3D Sweep Panorama',
         ),
+        15 => array(
+            'Id' => 15,
+            'Label' => 'Continuous - High Resolution Sweep Panorama',
+        ),
         16 => array(
             'Id' => 16,
             'Label' => 'Continuous - 3D Image',
+        ),
+        17 => array(
+            'Id' => 17,
+            'Label' => 'Continuous - Burst 2',
         ),
         19 => array(
             'Id' => 19,
@@ -99,9 +107,17 @@ class ReleaseMode2 extends AbstractTag
             'Id' => 20,
             'Label' => 'Continuous - Multi Frame NR',
         ),
+        23 => array(
+            'Id' => 23,
+            'Label' => 'Single-frame - Exposure Bracketing',
+        ),
         26 => array(
             'Id' => 26,
-            'Label' => 'Continuous Shooting',
+            'Label' => 'Continuous Low',
+        ),
+        27 => array(
+            'Id' => 27,
+            'Label' => 'Continuous - High Sensitivity',
         ),
         28 => array(
             'Id' => 28,
@@ -110,6 +126,10 @@ class ReleaseMode2 extends AbstractTag
         29 => array(
             'Id' => 29,
             'Label' => 'Continuous - Tele-zoom Advance Priority',
+        ),
+        146 => array(
+            'Id' => 146,
+            'Label' => 'Single Frame - Movie Capture',
         ),
     );
 

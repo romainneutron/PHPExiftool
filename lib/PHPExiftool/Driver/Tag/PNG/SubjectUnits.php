@@ -43,11 +43,11 @@ class SubjectUnits extends AbstractTag
     protected $Values = array(
         1 => array(
             'Id' => 1,
-            'Label' => 'Meters',
+            'Label' => 'meters',
         ),
         2 => array(
             'Id' => 2,
-            'Label' => 'Radians',
+            'Label' => 'radians',
         ),
     );
 

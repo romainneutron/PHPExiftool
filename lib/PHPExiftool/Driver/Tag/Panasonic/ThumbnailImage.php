@@ -20,7 +20,7 @@ use PHPExiftool\Driver\AbstractTag;
 class ThumbnailImage extends AbstractTag
 {
 
-    protected $Id = 92;
+    protected $Id = 'mixed';
 
     protected $Name = 'ThumbnailImage';
 
@@ -43,5 +43,7 @@ class ThumbnailImage extends AbstractTag
     protected $flag_Permanent = true;
 
     protected $MaxLength = 16384;
+
+    protected $flag_Binary = false;
 
 }

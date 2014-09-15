@@ -40,6 +40,8 @@ class ResolutionUnit extends AbstractTag
 
     protected $Description = 'Resolution Unit';
 
+    protected $flag_Mandatory = true;
+
     protected $Values = array(
         0 => array(
             'Id' => 0,

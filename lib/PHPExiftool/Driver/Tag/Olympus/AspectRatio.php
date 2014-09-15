@@ -42,10 +42,16 @@ class AspectRatio extends AbstractTag
 
     protected $flag_Permanent = true;
 
+    protected $MaxLength = 2;
+
     protected $Values = array(
         '1 1' => array(
             'Id' => '1 1',
             'Label' => '4:3',
+        ),
+        '1 4' => array(
+            'Id' => '1 4',
+            'Label' => '1:1',
         ),
         '2 2' => array(
             'Id' => '2 2',

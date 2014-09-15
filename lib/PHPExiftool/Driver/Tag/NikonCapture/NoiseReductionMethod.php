@@ -51,6 +51,10 @@ class NoiseReductionMethod extends AbstractTag
             'Id' => 1,
             'Label' => 'Better Quality',
         ),
+        2 => array(
+            'Id' => 2,
+            'Label' => 'Better Quality 2013',
+        ),
     );
 
 }

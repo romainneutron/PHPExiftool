@@ -40,6 +40,8 @@ class GPSSpeedRef extends AbstractTag
 
     protected $Description = 'GPS Speed Ref';
 
+    protected $MaxLength = 2;
+
     protected $Values = array(
         'K' => array(
             'Id' => 'K',

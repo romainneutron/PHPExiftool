@@ -24,7 +24,7 @@ class FocalLengthTeleZoom extends AbstractTag
 
     protected $Name = 'FocalLengthTeleZoom';
 
-    protected $FullName = 'Sony::CameraInfo';
+    protected $FullName = 'Sony::CameraInfo3';
 
     protected $GroupName = 'Sony';
 

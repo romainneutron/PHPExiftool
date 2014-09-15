@@ -46,6 +46,6 @@ class MakerNoteOlympus extends AbstractTag
 
     protected $flag_Permanent = true;
 
-    protected $Index = 35;
+    protected $Index = 40;
 
 }

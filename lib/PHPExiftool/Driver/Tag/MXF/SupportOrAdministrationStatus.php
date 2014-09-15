@@ -20,7 +20,7 @@ use PHPExiftool\Driver\AbstractTag;
 class SupportOrAdministrationStatus extends AbstractTag
 {
 
-    protected $Id = '060e2b34.0101.0101.02300103.01000000';
+    protected $Id = 'mixed';
 
     protected $Name = 'SupportOrAdministrationStatus';
 
@@ -34,7 +34,7 @@ class SupportOrAdministrationStatus extends AbstractTag
 
     protected $g2 = 'Video';
 
-    protected $Type = 'string';
+    protected $Type = 'mixed';
 
     protected $Writable = false;
 

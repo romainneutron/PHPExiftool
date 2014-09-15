@@ -675,6 +675,10 @@ class CameraType extends AbstractTag
             'Id' => 'D4537',
             'Label' => 'VR340,D750',
         ),
+        'D4538' => array(
+            'Id' => 'D4538',
+            'Label' => 'VG160,X990,D745',
+        ),
         'D4541' => array(
             'Id' => 'D4541',
             'Label' => 'SZ-12',
@@ -683,9 +687,65 @@ class CameraType extends AbstractTag
             'Id' => 'D4545',
             'Label' => 'VH410',
         ),
+        'D4546' => array(
+            'Id' => 'D4546',
+            'Label' => 'XZ-10',
+        ),
+        'D4547' => array(
+            'Id' => 'D4547',
+            'Label' => 'TG-2',
+        ),
+        'D4548' => array(
+            'Id' => 'D4548',
+            'Label' => 'TG-830',
+        ),
+        'D4549' => array(
+            'Id' => 'D4549',
+            'Label' => 'TG-630',
+        ),
+        'D4550' => array(
+            'Id' => 'D4550',
+            'Label' => 'SH-50',
+        ),
+        'D4553' => array(
+            'Id' => 'D4553',
+            'Label' => 'SZ-16,DZ-105',
+        ),
         'D4562' => array(
             'Id' => 'D4562',
             'Label' => 'SP-820UZ',
+        ),
+        'D4566' => array(
+            'Id' => 'D4566',
+            'Label' => 'SZ-15',
+        ),
+        'D4572' => array(
+            'Id' => 'D4572',
+            'Label' => 'STYLUS1',
+        ),
+        'D4574' => array(
+            'Id' => 'D4574',
+            'Label' => 'TG-3',
+        ),
+        'D4575' => array(
+            'Id' => 'D4575',
+            'Label' => 'TG-850',
+        ),
+        'D4579' => array(
+            'Id' => 'D4579',
+            'Label' => 'SP-100EE',
+        ),
+        'D4580' => array(
+            'Id' => 'D4580',
+            'Label' => 'SH-60',
+        ),
+        'D4581' => array(
+            'Id' => 'D4581',
+            'Label' => 'SH-1',
+        ),
+        'D4582' => array(
+            'Id' => 'D4582',
+            'Label' => 'TG-835',
         ),
         'D4809' => array(
             'Id' => 'D4809',
@@ -806,6 +866,26 @@ class CameraType extends AbstractTag
         'S0043' => array(
             'Id' => 'S0043',
             'Label' => 'E-PM2',
+        ),
+        'S0044' => array(
+            'Id' => 'S0044',
+            'Label' => 'E-P5',
+        ),
+        'S0045' => array(
+            'Id' => 'S0045',
+            'Label' => 'E-PL6',
+        ),
+        'S0046' => array(
+            'Id' => 'S0046',
+            'Label' => 'E-PL7',
+        ),
+        'S0047' => array(
+            'Id' => 'S0047',
+            'Label' => 'E-M1',
+        ),
+        'S0051' => array(
+            'Id' => 'S0051',
+            'Label' => 'E-M10',
         ),
         'SR45' => array(
             'Id' => 'SR45',

@@ -45,11 +45,11 @@ class PanoramaDirection extends AbstractTag
     protected $Values = array(
         0 => array(
             'Id' => 0,
-            'Label' => 'Right to Left',
+            'Label' => 'Left or Up',
         ),
         1 => array(
             'Id' => 1,
-            'Label' => 'Left to Right',
+            'Label' => 'Right or Down',
         ),
     );
 

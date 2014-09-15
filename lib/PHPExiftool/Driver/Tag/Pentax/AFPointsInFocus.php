@@ -172,49 +172,167 @@ class AFPointsInFocus extends AbstractTag
             'Label' => 'None',
         ),
         32 => array(
+            'Id' => 0,
+            'Label' => '(none)',
+        ),
+        33 => array(
+            'Id' => 1,
+            'Label' => 'Top-left',
+        ),
+        34 => array(
+            'Id' => 2,
+            'Label' => 'Top Near-left',
+        ),
+        35 => array(
+            'Id' => 4,
+            'Label' => 'Top',
+        ),
+        36 => array(
+            'Id' => 8,
+            'Label' => 'Top Near-right',
+        ),
+        37 => array(
+            'Id' => 16,
+            'Label' => 'Top-right',
+        ),
+        38 => array(
+            'Id' => 32,
+            'Label' => 'Upper-left',
+        ),
+        39 => array(
+            'Id' => 64,
+            'Label' => 'Upper Near-left',
+        ),
+        40 => array(
+            'Id' => 128,
+            'Label' => 'Upper-middle',
+        ),
+        41 => array(
+            'Id' => 256,
+            'Label' => 'Upper Near-right',
+        ),
+        42 => array(
+            'Id' => 512,
+            'Label' => 'Upper-right',
+        ),
+        43 => array(
+            'Id' => 1024,
+            'Label' => 'Far Left',
+        ),
+        44 => array(
+            'Id' => 2048,
+            'Label' => 'Left',
+        ),
+        45 => array(
+            'Id' => 4096,
+            'Label' => 'Near-left',
+        ),
+        46 => array(
+            'Id' => 8192,
+            'Label' => 'Center',
+        ),
+        47 => array(
+            'Id' => 16384,
+            'Label' => 'Near-right',
+        ),
+        48 => array(
+            'Id' => 32768,
+            'Label' => 'Right',
+        ),
+        49 => array(
+            'Id' => 65536,
+            'Label' => 'Far Right',
+        ),
+        50 => array(
+            'Id' => 131072,
+            'Label' => 'Lower-left',
+        ),
+        51 => array(
+            'Id' => 262144,
+            'Label' => 'Lower Near-left',
+        ),
+        52 => array(
+            'Id' => 524288,
+            'Label' => 'Lower-middle',
+        ),
+        53 => array(
+            'Id' => 1048576,
+            'Label' => 'Lower Near-right',
+        ),
+        54 => array(
+            'Id' => 2097152,
+            'Label' => 'Lower-right',
+        ),
+        55 => array(
+            'Id' => 4194304,
+            'Label' => 'Bottom-left',
+        ),
+        56 => array(
+            'Id' => 8388608,
+            'Label' => 'Bottom Near-left',
+        ),
+        57 => array(
+            'Id' => 16777216,
+            'Label' => 'Bottom',
+        ),
+        58 => array(
+            'Id' => 33554432,
+            'Label' => 'Bottom Near-right',
+        ),
+        59 => array(
+            'Id' => 67108864,
+            'Label' => 'Bottom-right',
+        ),
+        60 => array(
+            'Id' => 0,
+            'Label' => '(none)',
+        ),
+        61 => array(
             'Id' => 1,
             'Label' => 'Upper-left',
         ),
-        33 => array(
+        62 => array(
             'Id' => 2,
             'Label' => 'Top',
         ),
-        34 => array(
+        63 => array(
             'Id' => 4,
             'Label' => 'Upper-right',
         ),
-        35 => array(
+        64 => array(
             'Id' => 8,
             'Label' => 'Left',
         ),
-        36 => array(
+        65 => array(
             'Id' => 16,
             'Label' => 'Mid-left',
         ),
-        37 => array(
+        66 => array(
             'Id' => 32,
             'Label' => 'Center',
         ),
-        38 => array(
+        67 => array(
             'Id' => 64,
             'Label' => 'Mid-right',
         ),
-        39 => array(
+        68 => array(
             'Id' => 128,
             'Label' => 'Right',
         ),
-        40 => array(
+        69 => array(
             'Id' => 256,
             'Label' => 'Lower-left',
         ),
-        41 => array(
+        70 => array(
             'Id' => 512,
             'Label' => 'Bottom',
         ),
-        42 => array(
+        71 => array(
             'Id' => 1024,
             'Label' => 'Lower-right',
         ),
     );
+
+    protected $Index = 'mixed';
 
 }

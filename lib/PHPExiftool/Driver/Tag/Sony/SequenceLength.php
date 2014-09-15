@@ -20,11 +20,11 @@ use PHPExiftool\Driver\AbstractTag;
 class SequenceLength extends AbstractTag
 {
 
-    protected $Id = 34;
+    protected $Id = 'mixed';
 
     protected $Name = 'SequenceLength';
 
-    protected $FullName = 'Sony::Tag9400';
+    protected $FullName = 'mixed';
 
     protected $GroupName = 'Sony';
 
@@ -59,6 +59,10 @@ class SequenceLength extends AbstractTag
             'Id' => 3,
             'Label' => '3 shots',
         ),
+        4 => array(
+            'Id' => 4,
+            'Label' => '4 shots',
+        ),
         5 => array(
             'Id' => 5,
             'Label' => '5 shots',
@@ -67,17 +71,37 @@ class SequenceLength extends AbstractTag
             'Id' => 6,
             'Label' => '6 shots',
         ),
-        10 => array(
+        7 => array(
             'Id' => 10,
             'Label' => '10 shots',
         ),
-        100 => array(
+        8 => array(
             'Id' => 100,
             'Label' => 'Continuous - iSweep Panorama',
         ),
-        200 => array(
+        9 => array(
             'Id' => 200,
             'Label' => 'Continuous - Sweep Panorama',
+        ),
+        10 => array(
+            'Id' => 0,
+            'Label' => 'Continuous',
+        ),
+        11 => array(
+            'Id' => 1,
+            'Label' => '1 file',
+        ),
+        12 => array(
+            'Id' => 2,
+            'Label' => '2 files',
+        ),
+        13 => array(
+            'Id' => 3,
+            'Label' => '3 files',
+        ),
+        14 => array(
+            'Id' => 5,
+            'Label' => '5 files',
         ),
     );
 

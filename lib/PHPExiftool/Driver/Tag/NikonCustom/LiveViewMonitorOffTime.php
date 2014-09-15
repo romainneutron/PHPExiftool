@@ -24,7 +24,7 @@ class LiveViewMonitorOffTime extends AbstractTag
 
     protected $Name = 'LiveViewMonitorOffTime';
 
-    protected $FullName = 'NikonCustom::SettingsD7000';
+    protected $FullName = 'mixed';
 
     protected $GroupName = 'NikonCustom';
 
@@ -45,25 +45,69 @@ class LiveViewMonitorOffTime extends AbstractTag
     protected $Values = array(
         0 => array(
             'Id' => 0,
-            'Label' => '4 s',
+            'Label' => '3 min',
+        ),
+        1 => array(
+            'Id' => 4,
+            'Label' => '5 min',
+        ),
+        2 => array(
+            'Id' => 8,
+            'Label' => '10 min',
+        ),
+        3 => array(
+            'Id' => 12,
+            'Label' => '15 min',
         ),
         4 => array(
+            'Id' => 16,
+            'Label' => '20 min',
+        ),
+        5 => array(
+            'Id' => 20,
+            'Label' => '30 min',
+        ),
+        6 => array(
+            'Id' => 4,
+            'Label' => '5 min',
+        ),
+        7 => array(
+            'Id' => 8,
+            'Label' => '10 min',
+        ),
+        8 => array(
+            'Id' => 12,
+            'Label' => '15 min',
+        ),
+        9 => array(
+            'Id' => 16,
+            'Label' => '20 min',
+        ),
+        10 => array(
+            'Id' => 20,
+            'Label' => '30 min',
+        ),
+        11 => array(
+            'Id' => 0,
+            'Label' => '4 s',
+        ),
+        12 => array(
             'Id' => 4,
             'Label' => '10 s',
         ),
-        8 => array(
+        13 => array(
             'Id' => 8,
             'Label' => '20 s',
         ),
-        12 => array(
+        14 => array(
             'Id' => 12,
             'Label' => '1 min',
         ),
-        16 => array(
+        15 => array(
             'Id' => 16,
             'Label' => '5 min',
         ),
-        20 => array(
+        16 => array(
             'Id' => 20,
             'Label' => '10 min',
         ),

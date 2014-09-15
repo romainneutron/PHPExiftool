@@ -42,6 +42,8 @@ class AFAreaMode extends AbstractTag
 
     protected $flag_Permanent = true;
 
+    protected $MaxLength = 2;
+
     protected $Values = array(
         '0 1' => array(
             'Id' => '0 1',
@@ -77,7 +79,7 @@ class AFAreaMode extends AbstractTag
         ),
         '32 0' => array(
             'Id' => '32 0',
-            'Label' => 'Auto or Face Detect',
+            'Label' => 'Tracking',
         ),
         '32 1' => array(
             'Id' => '32 1',
@@ -94,6 +96,10 @@ class AFAreaMode extends AbstractTag
         '64 0' => array(
             'Id' => '64 0',
             'Label' => 'Face Detect',
+        ),
+        '128 0' => array(
+            'Id' => '128 0',
+            'Label' => 'Spot Focusing 2',
         ),
     );
 

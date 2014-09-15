@@ -143,6 +143,10 @@ class PictureMode extends AbstractTag
             'Id' => 25,
             'Label' => 'Pro Focus',
         ),
+        26 => array(
+            'Id' => 26,
+            'Label' => 'Portrait 2',
+        ),
         27 => array(
             'Id' => 27,
             'Label' => 'Dog Face Detection',
@@ -150,6 +154,10 @@ class PictureMode extends AbstractTag
         28 => array(
             'Id' => 28,
             'Label' => 'Cat Face Detection',
+        ),
+        64 => array(
+            'Id' => 64,
+            'Label' => 'Advanced Filter',
         ),
         256 => array(
             'Id' => 256,

@@ -40,4 +40,6 @@ class PageNumber extends AbstractTag
 
     protected $Description = 'Page Number';
 
+    protected $MaxLength = 2;
+
 }

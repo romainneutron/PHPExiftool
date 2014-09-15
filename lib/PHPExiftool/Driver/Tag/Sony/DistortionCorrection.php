@@ -20,11 +20,11 @@ use PHPExiftool\Driver\AbstractTag;
 class DistortionCorrection extends AbstractTag
 {
 
-    protected $Id = 8211;
+    protected $Id = 'mixed';
 
     protected $Name = 'DistortionCorrection';
 
-    protected $FullName = 'Sony::Main';
+    protected $FullName = 'mixed';
 
     protected $GroupName = 'Sony';
 
@@ -32,9 +32,9 @@ class DistortionCorrection extends AbstractTag
 
     protected $g1 = 'Sony';
 
-    protected $g2 = 'Camera';
+    protected $g2 = 'Image';
 
-    protected $Type = 'int32u';
+    protected $Type = 'int8u';
 
     protected $Writable = true;
 
@@ -45,15 +45,11 @@ class DistortionCorrection extends AbstractTag
     protected $Values = array(
         0 => array(
             'Id' => 0,
-            'Label' => 'Off',
+            'Label' => 'None',
         ),
-        2 => array(
-            'Id' => 2,
-            'Label' => 'Auto',
-        ),
-        4294967295 => array(
-            'Id' => 4294967295,
-            'Label' => 'n/a',
+        1 => array(
+            'Id' => 1,
+            'Label' => 'Applied',
         ),
     );
 

@@ -20,7 +20,7 @@ use PHPExiftool\Driver\AbstractTag;
 class WBAdjLighting extends AbstractTag
 {
 
-    protected $Id = 21;
+    protected $Id = 20;
 
     protected $Name = 'WBAdjLighting';
 
@@ -34,7 +34,7 @@ class WBAdjLighting extends AbstractTag
 
     protected $g2 = 'Image';
 
-    protected $Type = 'int8u';
+    protected $Type = 'int16u';
 
     protected $Writable = true;
 
@@ -47,25 +47,89 @@ class WBAdjLighting extends AbstractTag
             'Id' => 0,
             'Label' => 'None',
         ),
-        1 => array(
-            'Id' => 1,
+        256 => array(
+            'Id' => 256,
             'Label' => 'Incandescent',
         ),
-        2 => array(
-            'Id' => 2,
-            'Label' => 'Daylight',
+        512 => array(
+            'Id' => 512,
+            'Label' => 'Daylight (direct sunlight)',
         ),
-        3 => array(
-            'Id' => 3,
-            'Label' => 'Standard Fluorescent',
+        513 => array(
+            'Id' => 513,
+            'Label' => 'Daylight (shade)',
         ),
-        4 => array(
-            'Id' => 4,
-            'Label' => 'High Color Rendering Fluorescent',
+        514 => array(
+            'Id' => 514,
+            'Label' => 'Daylight (cloudy)',
         ),
-        5 => array(
-            'Id' => 5,
+        768 => array(
+            'Id' => 768,
+            'Label' => 'Standard Fluorescent (warm white)',
+        ),
+        769 => array(
+            'Id' => 769,
+            'Label' => 'Standard Fluorescent (3700K)',
+        ),
+        770 => array(
+            'Id' => 770,
+            'Label' => 'Standard Fluorescent (cool white)',
+        ),
+        771 => array(
+            'Id' => 771,
+            'Label' => 'Standard Fluorescent (5000K)',
+        ),
+        772 => array(
+            'Id' => 772,
+            'Label' => 'Standard Fluorescent (daylight)',
+        ),
+        773 => array(
+            'Id' => 773,
+            'Label' => 'Standard Fluorescent (high temperature mercury vapor)',
+        ),
+        1024 => array(
+            'Id' => 1024,
+            'Label' => 'High Color Rendering Fluorescent (warm white)',
+        ),
+        1025 => array(
+            'Id' => 1025,
+            'Label' => 'High Color Rendering Fluorescent (3700K)',
+        ),
+        1026 => array(
+            'Id' => 1026,
+            'Label' => 'High Color Rendering Fluorescent (cool white)',
+        ),
+        1027 => array(
+            'Id' => 1027,
+            'Label' => 'High Color Rendering Fluorescent (5000K)',
+        ),
+        1028 => array(
+            'Id' => 1028,
+            'Label' => 'High Color Rendering Fluorescent (daylight)',
+        ),
+        1280 => array(
+            'Id' => 1280,
             'Label' => 'Flash',
+        ),
+        1281 => array(
+            'Id' => 1281,
+            'Label' => 'Flash (FL-G1 filter)',
+        ),
+        1282 => array(
+            'Id' => 1282,
+            'Label' => 'Flash (FL-G2 filter)',
+        ),
+        1283 => array(
+            'Id' => 1283,
+            'Label' => 'Flash (TN-A1 filter)',
+        ),
+        1284 => array(
+            'Id' => 1284,
+            'Label' => 'Flash (TN-A2 filter)',
+        ),
+        1536 => array(
+            'Id' => 1536,
+            'Label' => 'Sodium Vapor Lamps',
         ),
     );
 

@@ -24,7 +24,7 @@ class PreviewImageStart extends AbstractTag
 
     protected $Name = 'PreviewImageStart';
 
-    protected $FullName = 'Samsung::Type1';
+    protected $FullName = 'Samsung::Main';
 
     protected $GroupName = 'Samsung';
 

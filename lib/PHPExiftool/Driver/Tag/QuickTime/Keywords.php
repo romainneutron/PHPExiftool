@@ -20,11 +20,11 @@ use PHPExiftool\Driver\AbstractTag;
 class Keywords extends AbstractTag
 {
 
-    protected $Id = 'keywords';
+    protected $Id = 'mixed';
 
     protected $Name = 'Keywords';
 
-    protected $FullName = 'QuickTime::Keys';
+    protected $FullName = 'mixed';
 
     protected $GroupName = 'QuickTime';
 
@@ -32,7 +32,7 @@ class Keywords extends AbstractTag
 
     protected $g1 = 'QuickTime';
 
-    protected $g2 = 'Other';
+    protected $g2 = 'mixed';
 
     protected $Type = '?';
 

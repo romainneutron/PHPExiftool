@@ -55,9 +55,17 @@ class HighISONoiseReduction extends AbstractTag
             'Id' => 2,
             'Label' => 'Low',
         ),
+        3 => array(
+            'Id' => 3,
+            'Label' => 'Medium Low',
+        ),
         4 => array(
             'Id' => 4,
             'Label' => 'Normal',
+        ),
+        5 => array(
+            'Id' => 5,
+            'Label' => 'Medium High',
         ),
         6 => array(
             'Id' => 6,

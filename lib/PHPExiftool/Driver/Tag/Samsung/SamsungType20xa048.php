@@ -42,4 +42,6 @@ class SamsungType20xa048 extends AbstractTag
 
     protected $flag_Permanent = true;
 
+    protected $MaxLength = 12;
+
 }
