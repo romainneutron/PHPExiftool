@@ -1,6 +1,12 @@
 CHANGELOG
 ---------
 
+* 0.4.0 (2014-09-15)
+
+  * Update to exiftool 9.70
+  * Fix type mapping (@SimonSimCity)
+  * Fix common args order (@nlegoff)
+
 * 0.3.0 (2013-08-07)
 
   * Add possibility to erase metadata except ICC profile.
