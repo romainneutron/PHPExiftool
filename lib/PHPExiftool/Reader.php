@@ -492,11 +492,8 @@ class Reader implements \IteratorAggregate
             $command .= ' -r';
         }
 
-        if (! $this->extensions) {
-            $command .= ' -ext "*"';
-        } else {
+        if (!empty($this->extensions)) {
             if (! $this->extensionsToggle) {
-                $command .= ' -ext "*"';
                 $extensionPrefix = ' --ext';
             } else {
                 $extensionPrefix = ' -ext';

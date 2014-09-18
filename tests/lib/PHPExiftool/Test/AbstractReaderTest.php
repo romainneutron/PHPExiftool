@@ -38,8 +38,8 @@ abstract class AbstractReaderTest extends \PHPUnit_Framework_TestCase {
             mkdir(self::$tmpDir);
         }
 
-        file_put_contents(self::$tmpDir . '/hello.world', 'Hello');
-        file_put_contents(self::$tmpDir . '/hello.exiftool', 'Hello');
+        copy(__DIR__.'/../../../files/ExifTool.jpg', self::$tmpDir . '/test2.jpg');
+        copy(__DIR__.'/../../../files/ExifTool.jpg', self::$tmpDir . '/test.jpg');
 
         if (!is_dir(self::$tmpDir . '/dir')) {
             mkdir(self::$tmpDir . '/dir');
@@ -54,7 +54,7 @@ abstract class AbstractReaderTest extends \PHPUnit_Framework_TestCase {
             mkdir($tmpDir2);
         }
 
-        file_put_contents($tmpDir2 . '/hello2.world', 'Hello');
+        copy(__DIR__.'/../../../files/ExifTool.jpg', $tmpDir2 . '/test2.jpg');
 
         if (defined('PHP_WINDOWS_VERSION_BUILD')) {
             self::$disableSymLinkTest = true;
@@ -65,7 +65,7 @@ abstract class AbstractReaderTest extends \PHPUnit_Framework_TestCase {
             }
         }
 
-        file_put_contents(self::$tmpDir . '/dir/newfile.txt', 'Hello');
+        copy(__DIR__.'/../../../files/plop/CanonRaw.cr2', self::$tmpDir . '/dir/CanonRaw.cr2');
 
         $tmpDir3 = $tmpDir . '/exiftool_reader3';
 
@@ -87,7 +87,7 @@ abstract class AbstractReaderTest extends \PHPUnit_Framework_TestCase {
 
         touch($tmpDir3 . '/.git/config');
         touch($tmpDir3 . '/.roro/.roro.tmp');
-        touch($tmpDir3 . '/.phrasea.xml');
+        copy(__DIR__.'/../../../files/ExifTool.jpg', $tmpDir3 . '/.exiftool.jpg');
     }
 
     /**
@@ -113,7 +113,7 @@ abstract class AbstractReaderTest extends \PHPUnit_Framework_TestCase {
      */
     public function testGetIterator()
     {
-        $file = self::$tmpDir . '/hello.exiftool';
+        $file = self::$tmpDir . '/test.jpg';
         $this->assertInstanceOf('\\Iterator', $this->object->files($file)->getIterator());
     }
 
@@ -123,9 +123,9 @@ abstract class AbstractReaderTest extends \PHPUnit_Framework_TestCase {
      */
     public function testAppend()
     {
-        $file1 = self::$tmpDir . '/hello.exiftool';
-        $file2 = self::$tmpDir . '/hello.world';
-        $file3 = self::$tmpDir . '/dir/newfile.txt';
+        $file1 = self::$tmpDir . '/test.jpg';
+        $file2 = self::$tmpDir . '/test2.jpg';
+        $file3 = self::$tmpDir . '/dir/CanonRaw.cr2';
         $this->assertEquals(1, count($this->object->files($file1)->all()));
 
         $reader = $this->getReader();
@@ -139,9 +139,9 @@ abstract class AbstractReaderTest extends \PHPUnit_Framework_TestCase {
      */
     public function testSort()
     {
-        $file1 = self::$tmpDir . '/hello.exiftool';
-        $file2 = self::$tmpDir . '/hello.world';
-        $file3 = self::$tmpDir . '/dir/newfile.txt';
+        $file1 = self::$tmpDir . '/test.jpg';
+        $file2 = self::$tmpDir . '/test2.jpg';
+        $file3 = self::$tmpDir . '/dir/CanonRaw.cr2';
 
         $reader = $this->getReader();
         $reader->files(array($file3, $file2, $file1));
@@ -153,7 +153,7 @@ abstract class AbstractReaderTest extends \PHPUnit_Framework_TestCase {
             $results[] = basename($entity->getFile());
         }
 
-        $this->assertSame(array('hello.exiftool', 'hello.world', 'newfile.txt'), $results);
+        $this->assertSame(array('test.jpg', 'test2.jpg', 'CanonRaw.cr2'), $results);
     }
 
     /**
@@ -162,10 +162,10 @@ abstract class AbstractReaderTest extends \PHPUnit_Framework_TestCase {
      */
     public function testFiles()
     {
-        $file = self::$tmpDir . '/hello.exiftool';
+        $file = self::$tmpDir . '/test.jpg';
         $this->object->files($file);
 
-        $file = $this->object->files(self::$tmpDir . '/hello.exiftool')->first()->getFile();
+        $file = $this->object->files(self::$tmpDir . '/test.jpg')->first()->getFile();
 
         $this->assertEquals(realpath($file), realpath($file));
     }
@@ -175,9 +175,9 @@ abstract class AbstractReaderTest extends \PHPUnit_Framework_TestCase {
      */
     public function testResetFilters()
     {
-        $file = self::$tmpDir . '/hello.exiftool';
+        $file = self::$tmpDir . '/test.jpg';
         $this->object->files($file)->all();
-        $file = self::$tmpDir . '/hello.world';
+        $file = self::$tmpDir . '/test2.jpg';
         $this->object->files($file)->all();
 
         $this->assertEquals(2, count($this->object->all()));
@@ -312,23 +312,27 @@ abstract class AbstractReaderTest extends \PHPUnit_Framework_TestCase {
         $this->assertEquals(3, count($reader->all()));
 
         $reader = $this->getReader();
-        $reader->in(self::$tmpDir)->notRecursive()->extensions(array('world', 'exiftool'));
-        $this->assertEquals(2, count($reader->all()));
+        $reader->in(self::$tmpDir)->notRecursive()->extensions(array('cr2'));
+        $this->assertEquals(0, count($reader->all()));
 
         $reader = $this->getReader();
-        $reader->in(self::$tmpDir)->extensions(array('world', 'exiftool'));
-        $this->assertEquals(2, count($reader->all()));
-
-        $reader = $this->getReader();
-        $reader->in(self::$tmpDir)->extensions('world')->extensions('exiftool');
-        $this->assertEquals(2, count($reader->all()));
-
-        $reader = $this->getReader();
-        $reader->in(self::$tmpDir)->extensions(array('world', 'exiftool'), false);
+        $reader->in(self::$tmpDir)->extensions(array('cr2'));
         $this->assertEquals(1, count($reader->all()));
 
         $reader = $this->getReader();
-        $reader->in(self::$tmpDir)->extensions(array('world', 'exiftool'), false)->notRecursive();
+        $reader->in(self::$tmpDir)->extensions(array('jpg'));
+        $this->assertEquals(2, count($reader->all()));
+
+        $reader = $this->getReader();
+        $reader->in(self::$tmpDir)->extensions('jpg')->extensions('cr2');
+        $this->assertEquals(3, count($reader->all()));
+
+        $reader = $this->getReader();
+        $reader->in(self::$tmpDir)->extensions(array('jpg'), false);
+        $this->assertEquals(1, count($reader->all()));
+
+        $reader = $this->getReader();
+        $reader->in(self::$tmpDir)->extensions(array('cr2', 'jpg'), false)->notRecursive();
         $this->assertEquals(0, count($reader->all()));
     }
 
@@ -340,7 +344,7 @@ abstract class AbstractReaderTest extends \PHPUnit_Framework_TestCase {
     public function testExtensionsMisUse()
     {
         $reader = $this->getReader();
-        $reader->extensions('exiftool')->extensions('world', false);
+        $reader->extensions('exiftool')->extensions('jpg', false);
     }
 
     /**
@@ -377,7 +381,7 @@ abstract class AbstractReaderTest extends \PHPUnit_Framework_TestCase {
     public function testGetOneOrNull()
     {
         $reader = $this->getReader();
-        $reader->in(self::$tmpDir)->notRecursive()->extensions(array('world', 'exiftool'), false);
+        $reader->in(self::$tmpDir)->notRecursive()->extensions(array('jpg', 'cr2'), false);
 
         $this->assertNull($reader->getOneOrNull());
     }
@@ -390,7 +394,7 @@ abstract class AbstractReaderTest extends \PHPUnit_Framework_TestCase {
     public function testFirstEmpty()
     {
         $reader = $this->getReader();
-        $reader->in(self::$tmpDir)->notRecursive()->extensions(array('world', 'exiftool'), false);
+        $reader->in(self::$tmpDir)->notRecursive()->extensions(array('jpg', 'cr2'), false);
         $reader->first();
     }
 
