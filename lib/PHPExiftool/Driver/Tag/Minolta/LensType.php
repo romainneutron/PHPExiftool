@@ -411,13 +411,13 @@ class LensType extends AbstractTag
             'Id' => 128,
             'Label' => 'Tamron or Sigma Lens (128)',
         ),
-        '128.10' => array(
-            'Id' => '128.10',
-            'Label' => 'Sigma 50mm F1.4 EX DG HSM',
-        ),
         '128.1' => array(
             'Id' => '128.1',
             'Label' => 'Tamron AF 18-200mm F3.5-6.3 XR Di II LD Aspherical [IF] Macro',
+        ),
+        '128.10' => array(
+            'Id' => '128.10',
+            'Label' => 'Sigma 50mm F1.4 EX DG HSM',
         ),
         '128.11' => array(
             'Id' => '128.11',
@@ -1035,13 +1035,13 @@ class LensType extends AbstractTag
             'Id' => 65535,
             'Label' => 'E-Mount, T-Mount, Other Lens or no lens',
         ),
-        '65535.1' => array(
-            'Id' => '65535.1',
-            'Label' => 'Sony E 16mm F2.8',
-        ),
         '65535.10' => array(
             'Id' => '65535.10',
             'Label' => 'Sony E PZ 16-50mm F3.5-5.6 OSS',
+        ),
+        '65535.1' => array(
+            'Id' => '65535.1',
+            'Label' => 'Sony E 16mm F2.8',
         ),
         '65535.11' => array(
             'Id' => '65535.11',
