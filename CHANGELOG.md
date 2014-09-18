@@ -1,6 +1,10 @@
 CHANGELOG
 ---------
 
+* 0.4.1 (2014-09-19)
+
+  * Fix some incompatibilities with exiftool v9.70 (@nlegoff)
+
 * 0.4.0 (2014-09-15)
 
   * Update to exiftool 9.70
