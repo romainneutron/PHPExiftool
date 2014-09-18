@@ -43,6 +43,30 @@ class LensID extends AbstractTag
     protected $local_g2 = 'Camera';
 
     protected $Values = array(
+        'RL1' => array(
+            'Id' => 'RL1',
+            'Label' => 'GR Lens A12 50mm F2.5 Macro',
+        ),
+        'RL2' => array(
+            'Id' => 'RL2',
+            'Label' => 'Ricoh Lens S10 24-70mm F2.5-4.4 VC',
+        ),
+        'RL3' => array(
+            'Id' => 'RL3',
+            'Label' => 'Ricoh Lens P10 28-300mm F3.5-5.6 VC',
+        ),
+        'RL5' => array(
+            'Id' => 'RL5',
+            'Label' => 'GR Lens A12 28mm F2.5',
+        ),
+        'RL6' => array(
+            'Id' => 'RL6',
+            'Label' => 'Ricoh Lens A16 24-85mm F3.5-5.5',
+        ),
+        'RL8' => array(
+            'Id' => 'RL8',
+            'Label' => 'Mount A12',
+        ),
         '00 00 00 00 00 00 00 01' => array(
             'Id' => '00 00 00 00 00 00 00 01',
             'Label' => 'Manual Lens No CPU',
@@ -1894,30 +1918,6 @@ class LensID extends AbstractTag
         'FF 40 2D 80 2C 40 4B 06' => array(
             'Id' => 'FF 40 2D 80 2C 40 4B 06',
             'Label' => 'Sigma 18-200mm F3.5-6.3 DC',
-        ),
-        'RL1' => array(
-            'Id' => 'RL1',
-            'Label' => 'GR Lens A12 50mm F2.5 Macro',
-        ),
-        'RL2' => array(
-            'Id' => 'RL2',
-            'Label' => 'Ricoh Lens S10 24-70mm F2.5-4.4 VC',
-        ),
-        'RL3' => array(
-            'Id' => 'RL3',
-            'Label' => 'Ricoh Lens P10 28-300mm F3.5-5.6 VC',
-        ),
-        'RL5' => array(
-            'Id' => 'RL5',
-            'Label' => 'GR Lens A12 28mm F2.5',
-        ),
-        'RL6' => array(
-            'Id' => 'RL6',
-            'Label' => 'Ricoh Lens A16 24-85mm F3.5-5.5',
-        ),
-        'RL8' => array(
-            'Id' => 'RL8',
-            'Label' => 'Mount A12',
         ),
     );
 
