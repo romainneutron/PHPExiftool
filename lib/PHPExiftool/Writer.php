@@ -150,7 +150,8 @@ class Writer
      * @param MetadataBag $metadatas   A bag of metadatas
      * @param string      $destination The output file
      *
-     * @return int the number of file written
+     * @return int the number "write" operations, or null if exiftool returned nothing we understand
+     *         event for no-op (file unchanged), 1 is returned so the caller does not think the command failed.
      *
      * @throws InvalidArgumentException
      */
@@ -160,73 +161,103 @@ class Writer
             throw new InvalidArgumentException(sprintf('%s does not exists', $file));
         }
 
-        $command = '';
-
-        $common_args = ' -preserve -charset UTF8';
-
-        if (count($metadatas)) {
-            $common_args .= ' -codedcharacterset=utf8';
+        // if the -o file exists, exiftool prints an error
+        if($destination) {
+            @unlink($destination);
+            if (file_exists($destination)) {
+                throw new InvalidArgumentException(sprintf('%s cannot be replaced', $destination));
+            }
         }
+
+        $common_args = '-ignoreMinorErrors -preserve -charset UTF8';
+
+        $commands = array();
 
         if ($this->erase) {
             /**
              * if erase is specfied, we MUST start by erasing datas before doing
              * anything else.
              */
-            if (! $destination) {
-                $command .= ' -all:all= ' . ($this->eraseProfile ? '' : '--icc_profile:all ') . '' . $file . ' -execute';
+            $commands[] = '-all:all= ' . ($this->eraseProfile ? '' : '--icc_profile:all') ;
+        }
 
-                /**
-                 * If no destination, all commands will overwrite in place
-                 */
-                $common_args .= ' -overwrite_original_in_place';
-            } else {
+        if(count($metadatas) > 0) {
+            $commands[] = $this->addMetadatasArg($metadatas);
+            $common_args .= ' -codedcharacterset=utf8';
+        }
 
-                /**
-                 * @todo : NO RAW
-                 * If destination was specified, we start by creating the blank
-                 * destination, we will write in it at next step
-                 */
-                $command .= ' -all:all= ' . ($this->eraseProfile ? '' : '--icc_profile:all ') . '-o ' . $destination . ' ' . $file . ' -execute';
+        if ('' !== ($syncCommand = $this->getSyncCommand())) {
+            $commands[] = $syncCommand;
+        }
 
-                $file = $destination;
-                $destination = null;
+        if(count($commands) == 0) {
+            // nothing to do...
+            if($destination) {
+                // ... but a destination
+                $commands[] = '';   // empty command so exiftool will copy the file for us
+            }
+            else {
+                // really nothing to do = 0 ops
+                return 1;       // considered a "unchnanged"
             }
         }
 
-        $command .= $this->addMetadatasArg($metadatas);
-
-        if ($destination) {
-            $command .= ' -o ' . escapeshellarg($destination) . ' ' . $file;
-        } else {
-
-            /**
-             * Preserve the filesystem modification date/time of the original file
-             * (FileModifyDate) when writing. Note that some filesystems (ie. Mac
-             * and Windows) store a creation date which is not preserved by this
-             * option. For these systems, the -overwrite_original_in_place option
-             * may be used to preserve the creation date.
-             */
-            $command .= ' -overwrite_original_in_place ' . $file;
+        if($destination) {
+            foreach($commands as $i=>$command) {
+                if($i==0) {
+                    // the FIRST command will -o the destination
+                    $commands[0] .= ' ' . $file . ' -o ' . $destination;
+                }
+                else {
+                    // then the next commands will work on the destination
+                    $commands[$i] .= ' -overwrite_original_in_place ' . $destination;
+                }
+            }
+        }
+        else {
+            // every command (even a single one) work on the original file
+            $common_args .= ' -overwrite_original_in_place ' . $file;
         }
 
-        if ('' !== $syncCommand = $this->getSyncCommand()) {
-            $command .= ' -execute -overwrite_original_in_place ' . $syncCommand . ' ' . $file;
+
+        if(count($commands) > 1) {
+            // really need "-common_args" only if many commands are chained
+            // nb: the file argument CAN be into -common_args
+            $common_args = '-common_args ' . $common_args;
         }
 
-        $command .= ' -common_args' . $common_args;
+        $command = join(" -execute ", $commands) . ' ' . $common_args;
 
-        $lines = explode("\n", $this->exiftool->executeCommand($command));
-        $lastLine = '';
+        $ret = $this->exiftool->executeCommand($command);
 
-        while ($lines && ! $lastLine) {
-            $lastLine = array_pop($lines);
+        // exiftool may print (return) a bunch of lines, even for a single command
+        // eg. deleting tags of a file with NO tags may return 2 lines...
+        // | exiftool -all:all= notags.jpg
+        // |     0 image files updated
+        // |     1 image files unchanged
+        // ... which is NOT an error
+        // so it's not easy to decide from the output when something went REALLY wrong
+        $n_unchanged = $n_changed = 0;
+        foreach(explode("\n", $ret) as $line) {
+            if (preg_match("/(\\d+) image files (copied|created|updated|unchanged)/", $line, $matches)) {
+                if($matches[2] == 'unchanged') {
+                    $n_unchanged += (int)($matches[1]);
+                }
+                else {
+                    $n_changed += (int)($matches[1]);
+                }
+            }
         }
-
-        if (preg_match("/(\d+)\ image\ files\ (created|updated)/", $lastLine, $matches)) {
-            return $matches[1];
+        // first chance, changes happened
+        if($n_changed > 0) {
+            // return $n_changed;	// nice but breaks backward compatibility
+            return 1;   		// better, backward compatible and tests are ok
         }
-
+        // second chance, at least one no-op happened
+        if($n_unchanged > 0) {
+            return 1;
+        }
+        // too bad
         return null;
     }
 
@@ -249,15 +280,15 @@ class Writer
      */
     protected function addMetadatasArg(MetadataBag $metadatas)
     {
-        $command = ' ';
+        $command = '';
 
         if ($this->modules & self::MODULE_MWG) {
-            $command .= ' -use MWG';
+            $command .= '-use MWG';
         }
 
         foreach ($metadatas as $metadata) {
             foreach ($metadata->getValue()->asArray() as $value) {
-                $command .= ' -' . $metadata->getTag()->getTagname() . '='
+                $command .= ($command ? ' -' : '-') . $metadata->getTag()->getTagname() . '='
                     . escapeshellarg($value);
             }
         }
@@ -284,10 +315,11 @@ class Writer
 
         foreach ($availableArgs as $arg => $cmd) {
             if ($this->mode & $arg) {
-                $syncCommand .= ' -@ ' . $cmd;
+                $syncCommand .= ($syncCommand ? ' -@ ' : '-@ ') . $cmd;
             }
         }
 
         return $syncCommand;
     }
 }
+
