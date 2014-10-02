@@ -58,8 +58,9 @@ class ClassesBuilder extends Command
         $this
             ->setName('classes-builder')
             ->setDescription('Build Tags classes from exiftool documentation.')
-            ->addOption('write', 'w', null, 'Write classes on disk')
-            ->addOption('force', 'f', null, 'Force classes write whenever files already exists');
+            ->addOption('with-mwg', '', null, 'Include MWG tags')
+            ->addOption('write', 'w',   null, 'Write classes on disk')
+            ->addOption('force', 'f',   null, 'Force classes write whenever files already exists');
 
         return $this;
     }
@@ -84,7 +85,12 @@ class ClassesBuilder extends Command
 
         $dumper = new InformationDumper(new Exiftool($logger));
 
-        $dump = $dumper->listDatas(InformationDumper::LISTTYPE_SUPPORTED_XML);
+        $options = array();
+        if($input->getOption('with-mwg')) {
+            $options[] = InformationDumper::LISTOPTION_MWG;
+        }
+
+        $dump = $dumper->listDatas(InformationDumper::LISTTYPE_SUPPORTED_XML, $options);
 
         $this->output->writeln('Done !');
 
