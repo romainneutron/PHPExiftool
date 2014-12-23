@@ -86,13 +86,19 @@ foreach ($Reader as $MetaDatas) {
 ### Exiftool Writer
 
 ```php
+<?php
+
+require __DIR__ . '/vendor/autoload.php';
+
+use Monolog\Logger;
 use PHPExiftool\Writer;
-use PHPExiftool\Driver\Metadata;
-use PHPExiftool\Driver\MetadataBag;
+use PHPExiftool\Driver\Metadata\Metadata;
+use PHPExiftool\Driver\Metadata\MetadataBag;
 use PHPExiftool\Driver\Tag\IPTC\ObjectName;
 use PHPExiftool\Driver\Value\Mono;
 
-$Writer = Writer::create();
+$logger = new Logger('exiftool');
+$Writer = Writer::create($logger);
 
 $bag = new MetadataBag();
 $bag->add(new Metadata(new ObjectName(), new Mono('Pretty cool subject')));
