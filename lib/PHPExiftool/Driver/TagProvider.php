@@ -1391,6 +1391,23 @@ class TagProvider extends \Pimple
                 'ZoomedPreviewImage' => new \PHPExiftool\Driver\Tag\Composite\ZoomedPreviewImage(),
             );
         });
+        $this['MWG'] = $this->share(function(){
+            return array(
+                'City' => new \PHPExiftool\Driver\Tag\MWG\City(),
+                'Copyright' => new \PHPExiftool\Driver\Tag\MWG\Copyright(),
+                'Country' => new \PHPExiftool\Driver\Tag\MWG\Country(),
+                'CreateDate' => new \PHPExiftool\Driver\Tag\MWG\CreateDate(),
+                'Creator' => new \PHPExiftool\Driver\Tag\MWG\Creator(),
+                'DateTimeOriginal' => new \PHPExiftool\Driver\Tag\MWG\DateTimeOriginal(),
+                'Description' => new \PHPExiftool\Driver\Tag\MWG\Description(),
+                'Keywords' => new \PHPExiftool\Driver\Tag\MWG\Keywords(),
+                'Location' => new \PHPExiftool\Driver\Tag\MWG\Location(),
+                'ModifyDate' => new \PHPExiftool\Driver\Tag\MWG\ModifyDate(),
+                'Orientation' => new \PHPExiftool\Driver\Tag\MWG\Orientation(),
+                'Rating' => new \PHPExiftool\Driver\Tag\MWG\Rating(),
+                'State' => new \PHPExiftool\Driver\Tag\MWG\State(),
+            );
+        });
         $this['FLIR'] = $this->share(function(){
             return array(
                 'PeakSpectralSensitivity' => new \PHPExiftool\Driver\Tag\FLIR\PeakSpectralSensitivity(),
@@ -16554,6 +16571,7 @@ class TagProvider extends \Pimple
             'CanonVRD' => $this['CanonVRD'],
             'Casio' => $this['Casio'],
             'Composite' => $this['Composite'],
+            'MWG' => $this['MWG'],
             'FLIR' => $this['FLIR'],
             'DICOM' => $this['DICOM'],
             'ExifIFD' => $this['ExifIFD'],
@@ -23403,6 +23421,74 @@ class TagProvider extends \Pimple
                     'namespace' => 'Composite',
                     'tagname' => 'ZoomedPreviewImage',
                     'classname' => 'PHPExiftool\Driver\Tag\Composite\ZoomedPreviewImage',
+                ),
+
+            ),
+            'mwg' => array(
+                'city' => array(
+                    'namespace' => 'MWG',
+                    'tagname' => 'City',
+                    'classname' => 'PHPExiftool\Driver\Tag\MWG\City',
+                ),
+                'copyright' => array(
+                    'namespace' => 'MWG',
+                    'tagname' => 'Copyright',
+                    'classname' => 'PHPExiftool\Driver\Tag\MWG\Copyright',
+                ),
+                'country' => array(
+                    'namespace' => 'MWG',
+                    'tagname' => 'Country',
+                    'classname' => 'PHPExiftool\Driver\Tag\MWG\Country',
+                ),
+                'createdate' => array(
+                    'namespace' => 'MWG',
+                    'tagname' => 'CreateDate',
+                    'classname' => 'PHPExiftool\Driver\Tag\MWG\CreateDate',
+                ),
+                'creator' => array(
+                    'namespace' => 'MWG',
+                    'tagname' => 'Creator',
+                    'classname' => 'PHPExiftool\Driver\Tag\MWG\Creator',
+                ),
+                'datetimeoriginal' => array(
+                    'namespace' => 'MWG',
+                    'tagname' => 'DateTimeOriginal',
+                    'classname' => 'PHPExiftool\Driver\Tag\MWG\DateTimeOriginal',
+                ),
+                'description' => array(
+                    'namespace' => 'MWG',
+                    'tagname' => 'Description',
+                    'classname' => 'PHPExiftool\Driver\Tag\MWG\Description',
+                ),
+                'keywords' => array(
+                    'namespace' => 'MWG',
+                    'tagname' => 'Keywords',
+                    'classname' => 'PHPExiftool\Driver\Tag\MWG\Keywords',
+                ),
+                'location' => array(
+                    'namespace' => 'MWG',
+                    'tagname' => 'Location',
+                    'classname' => 'PHPExiftool\Driver\Tag\MWG\Location',
+                ),
+                'modifydate' => array(
+                    'namespace' => 'MWG',
+                    'tagname' => 'ModifyDate',
+                    'classname' => 'PHPExiftool\Driver\Tag\MWG\ModifyDate',
+                ),
+                'orientation' => array(
+                    'namespace' => 'MWG',
+                    'tagname' => 'Orientation',
+                    'classname' => 'PHPExiftool\Driver\Tag\MWG\Orientation',
+                ),
+                'rating' => array(
+                    'namespace' => 'MWG',
+                    'tagname' => 'Rating',
+                    'classname' => 'PHPExiftool\Driver\Tag\MWG\Rating',
+                ),
+                'state' => array(
+                    'namespace' => 'MWG',
+                    'tagname' => 'State',
+                    'classname' => 'PHPExiftool\Driver\Tag\MWG\State',
                 ),
 
             ),

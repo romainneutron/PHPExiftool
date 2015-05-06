@@ -40,6 +40,8 @@ class InformationDumper
      */
     const LISTTYPE_GROUPS            = 'g';
 
+    const LISTOPTION_MWG             = '-use MWG';
+
     private $exiftool;
 
     public function __construct(Exiftool $exiftool)
@@ -55,8 +57,12 @@ class InformationDumper
      * @return type
      * @throws \Exception
      */
-    public function listDatas($type = self::LISTTYPE_SUPPORTED_XML)
+    public function listDatas($type = self::LISTTYPE_SUPPORTED_XML, array $options=array())
     {
+        if ( ! is_array($options)) {
+            throw new InvalidArgumentException('options must be an array');
+        }
+
         $available = array(
             self::LISTTYPE_WRITABLE, self::LISTTYPE_SUPPORTED_FILEEXT
             , self::LISTTYPE_WRITABLE_FILEEXT, self::LISTTYPE_SUPPORTED_XML
@@ -67,6 +73,16 @@ class InformationDumper
             throw new InvalidArgumentException('Unknown list attribute');
         }
 
-        return $this->exiftool->executeCommand('-f -list' . $type);
+        $command = "";
+        $available = array(self::LISTOPTION_MWG);
+        foreach($options as $option) {
+            if ( ! in_array($option, $available)) {
+                throw new InvalidArgumentException('Unknown option');
+            }
+            $command .= ($command?' ':'') . $option;
+        }
+        $command .= ($command?' ':'') . '-f -list' . $type;
+
+        return $this->exiftool->executeCommand($command);
     }
 }
