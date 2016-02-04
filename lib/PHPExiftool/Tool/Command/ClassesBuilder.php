@@ -335,7 +335,6 @@ class ClassesBuilder extends Command
 
     protected function extractDump($dump)
     {
-
         $crawler = new Crawler();
         $crawler->addContent($dump);
 
@@ -474,6 +473,9 @@ class ClassesBuilder extends Command
         , 'instanceof', 'namespace', 'new', 'old_function'
         , 'or', 'private', 'protected', 'public', 'static'
         , 'switch', 'throw', 'try', 'use', 'var', 'while', 'xor'
+        , 'int', 'float', 'bool', 'string'
+        , 'true', 'false', 'null', 'resource'
+        , 'object', 'mixed', 'numeric'
     );
 
     /**
