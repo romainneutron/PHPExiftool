@@ -1035,13 +1035,13 @@ class LensType extends AbstractTag
             'Id' => 65535,
             'Label' => 'E-Mount, T-Mount, Other Lens or no lens',
         ),
-        '65535.10' => array(
-            'Id' => '65535.10',
-            'Label' => 'Sony E PZ 16-50mm F3.5-5.6 OSS',
-        ),
         '65535.1' => array(
             'Id' => '65535.1',
             'Label' => 'Sony E 16mm F2.8',
+        ),
+        '65535.10' => array(
+            'Id' => '65535.10',
+            'Label' => 'Sony E PZ 16-50mm F3.5-5.6 OSS',
         ),
         '65535.11' => array(
             'Id' => '65535.11',
@@ -1079,13 +1079,13 @@ class LensType extends AbstractTag
             'Id' => '65535.19',
             'Label' => 'Sony FE 55mm F1.8 ZA',
         ),
-        '65535.20' => array(
-            'Id' => '65535.20',
-            'Label' => 'Sony FE 70-200mm F4 G OSS',
-        ),
         '65535.2' => array(
             'Id' => '65535.2',
             'Label' => 'Sony E 18-55mm F3.5-5.6 OSS',
+        ),
+        '65535.20' => array(
+            'Id' => '65535.20',
+            'Label' => 'Sony FE 70-200mm F4 G OSS',
         ),
         '65535.21' => array(
             'Id' => '65535.21',
@@ -1123,13 +1123,13 @@ class LensType extends AbstractTag
             'Id' => '65535.29',
             'Label' => 'Arax MC 35mm F2.8 Tilt+Shift',
         ),
-        '65535.3' => array(
-            'Id' => '65535.3',
-            'Label' => 'Sony E 55-210mm F4.5-6.3 OSS',
-        ),
         '65535.30' => array(
             'Id' => '65535.30',
             'Label' => 'Arax MC 80mm F2.8 Tilt+Shift',
+        ),
+        '65535.3' => array(
+            'Id' => '65535.3',
+            'Label' => 'Sony E 55-210mm F4.5-6.3 OSS',
         ),
         '65535.31' => array(
             'Id' => '65535.31',

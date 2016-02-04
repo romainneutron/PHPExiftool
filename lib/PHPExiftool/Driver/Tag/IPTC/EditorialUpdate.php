@@ -43,8 +43,8 @@ class EditorialUpdate extends AbstractTag
     protected $MaxLength = 2;
 
     protected $Values = array(
-        01 => array(
-            'Id' => 01,
+        '01' => array(
+            'Id' => '01',
             'Label' => 'Additional language',
         ),
     );

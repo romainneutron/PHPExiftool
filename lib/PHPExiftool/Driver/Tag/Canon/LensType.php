@@ -475,13 +475,13 @@ class LensType extends AbstractTag
             'Id' => 137,
             'Label' => 'Canon EF 85mm f/1.2L or Sigma or Tamron Lens',
         ),
-        '137.10' => array(
-            'Id' => '137.10',
-            'Label' => 'Sigma 8-16mm f/4.5-5.6 DC HSM',
-        ),
         '137.1' => array(
             'Id' => '137.1',
             'Label' => 'Sigma 18-50mm f/2.8-4.5 DC OS HSM',
+        ),
+        '137.10' => array(
+            'Id' => '137.10',
+            'Label' => 'Sigma 8-16mm f/4.5-5.6 DC HSM',
         ),
         '137.11' => array(
             'Id' => '137.11',

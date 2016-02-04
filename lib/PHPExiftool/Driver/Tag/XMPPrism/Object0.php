@@ -17,7 +17,7 @@ use PHPExiftool\Driver\AbstractTag;
 /**
  * @ExclusionPolicy("all")
  */
-class Object extends AbstractTag
+class Object0 extends AbstractTag
 {
 
     protected $Id = 'object';

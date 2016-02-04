@@ -411,13 +411,13 @@ class LensType extends AbstractTag
             'Id' => 128,
             'Label' => 'Tamron or Sigma Lens (128)',
         ),
-        '128.1' => array(
-            'Id' => '128.1',
-            'Label' => 'Tamron AF 18-200mm F3.5-6.3 XR Di II LD Aspherical [IF] Macro',
-        ),
         '128.10' => array(
             'Id' => '128.10',
             'Label' => 'Sigma 50mm F1.4 EX DG HSM',
+        ),
+        '128.1' => array(
+            'Id' => '128.1',
+            'Label' => 'Tamron AF 18-200mm F3.5-6.3 XR Di II LD Aspherical [IF] Macro',
         ),
         '128.11' => array(
             'Id' => '128.11',
@@ -1035,13 +1035,13 @@ class LensType extends AbstractTag
             'Id' => 6553,
             'Label' => 'E-Mount, T-Mount, Other Lens or no lens',
         ),
-        '6553.1' => array(
-            'Id' => '6553.1',
-            'Label' => 'Sony E 16mm F2.8',
-        ),
         '6553.10' => array(
             'Id' => '6553.10',
             'Label' => 'Sony E PZ 18-200mm F3.5-6.3 OSS',
+        ),
+        '6553.1' => array(
+            'Id' => '6553.1',
+            'Label' => 'Sony E PZ 16-50mm F3.5-5.6 OSS',
         ),
         '6553.11' => array(
             'Id' => '6553.11',
@@ -1049,11 +1049,11 @@ class LensType extends AbstractTag
         ),
         '6553.12' => array(
             'Id' => '6553.12',
-            'Label' => 'Sony E 18-55mm F3.5-5.6 OSS',
+            'Label' => 'Sony FE 70-200mm F4 G OSS',
         ),
         '6553.13' => array(
             'Id' => '6553.13',
-            'Label' => 'Sony FE 70-200mm F4 G OSS',
+            'Label' => 'Sony E 18-55mm F3.5-5.6 OSS',
         ),
         '6553.14' => array(
             'Id' => '6553.14',
@@ -1079,13 +1079,13 @@ class LensType extends AbstractTag
             'Id' => '6553.19',
             'Label' => 'Zeiss Touit 12mm F2.8',
         ),
-        '6553.2' => array(
-            'Id' => '6553.2',
-            'Label' => 'Sony E PZ 16-50mm F3.5-5.6 OSS',
-        ),
         '6553.20' => array(
             'Id' => '6553.20',
             'Label' => 'Zeiss Touit 32mm F1.8',
+        ),
+        '6553.2' => array(
+            'Id' => '6553.2',
+            'Label' => 'Sony E 16mm F2.8',
         ),
         '6553.21' => array(
             'Id' => '6553.21',
@@ -1097,11 +1097,11 @@ class LensType extends AbstractTag
         ),
         '6553.23' => array(
             'Id' => '6553.23',
-            'Label' => 'Arax MC 80mm F2.8 Tilt+Shift',
+            'Label' => 'Sony E 55-210mm F4.5-6.3 OSS',
         ),
         '6553.24' => array(
             'Id' => '6553.24',
-            'Label' => 'Sony E 55-210mm F4.5-6.3 OSS',
+            'Label' => 'Arax MC 80mm F2.8 Tilt+Shift',
         ),
         '6553.25' => array(
             'Id' => '6553.25',
@@ -1695,13 +1695,13 @@ class LensType extends AbstractTag
             'Id' => '65535.19',
             'Label' => 'Sony FE 55mm F1.8 ZA',
         ),
-        '65535.2' => array(
-            'Id' => '65535.2',
-            'Label' => 'Sony E 18-55mm F3.5-5.6 OSS',
-        ),
         '65535.20' => array(
             'Id' => '65535.20',
             'Label' => 'Sony FE 70-200mm F4 G OSS',
+        ),
+        '65535.2' => array(
+            'Id' => '65535.2',
+            'Label' => 'Sony E 18-55mm F3.5-5.6 OSS',
         ),
         '65535.21' => array(
             'Id' => '65535.21',
@@ -1739,13 +1739,13 @@ class LensType extends AbstractTag
             'Id' => '65535.29',
             'Label' => 'Arax MC 35mm F2.8 Tilt+Shift',
         ),
-        '65535.30' => array(
-            'Id' => '65535.30',
-            'Label' => 'Arax MC 80mm F2.8 Tilt+Shift',
-        ),
         '65535.3' => array(
             'Id' => '65535.3',
             'Label' => 'Sony E 55-210mm F4.5-6.3 OSS',
+        ),
+        '65535.30' => array(
+            'Id' => '65535.30',
+            'Label' => 'Arax MC 80mm F2.8 Tilt+Shift',
         ),
         '65535.31' => array(
             'Id' => '65535.31',

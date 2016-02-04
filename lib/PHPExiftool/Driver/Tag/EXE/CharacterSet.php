@@ -41,8 +41,8 @@ class CharacterSet extends AbstractTag
     protected $Description = 'Character Set';
 
     protected $Values = array(
-        0000 => array(
-            'Id' => 0000,
+        '0000' => array(
+            'Id' => '0000',
             'Label' => 'ASCII',
         ),
         '03A4' => array(
