@@ -182,8 +182,7 @@ class Builder
 
     protected function quote($value)
     {
-
-        if (ctype_digit(trim($value))) {
+        if (ctype_digit(trim($value)) && !(strlen($value) > 1 && substr($value, 0, 1) === '0')) {
             return $value;
         }
         if (in_array(strtolower($value), array('true', 'false'))) {
