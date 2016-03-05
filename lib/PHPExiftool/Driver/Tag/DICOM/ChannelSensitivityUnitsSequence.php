@@ -39,5 +39,4 @@ class ChannelSensitivityUnitsSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Channel Sensitivity Units Sequence';
-
 }

@@ -41,5 +41,4 @@ class DirectoryNumber extends AbstractTag
     protected $Description = 'Directory Number';
 
     protected $flag_Permanent = true;
-
 }

@@ -39,5 +39,4 @@ class Typist extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Typist';
-
 }

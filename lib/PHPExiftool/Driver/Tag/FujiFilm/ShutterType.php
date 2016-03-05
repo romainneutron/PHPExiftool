@@ -52,5 +52,4 @@ class ShutterType extends AbstractTag
             'Label' => 'Electronic',
         ),
     );
-
 }

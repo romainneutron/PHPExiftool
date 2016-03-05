@@ -39,5 +39,4 @@ class ReaderRequirements extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Reader Requirements';
-
 }

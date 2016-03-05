@@ -39,5 +39,4 @@ class IndexEntryArray extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Index Entry Array';
-
 }

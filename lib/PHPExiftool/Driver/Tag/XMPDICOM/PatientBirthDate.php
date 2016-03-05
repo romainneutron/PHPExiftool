@@ -41,5 +41,4 @@ class PatientBirthDate extends AbstractTag
     protected $Description = 'Patient Birth Date';
 
     protected $local_g2 = 'Time';
-
 }

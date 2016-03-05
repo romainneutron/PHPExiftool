@@ -39,5 +39,4 @@ class DotRange extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Dot Range';
-
 }

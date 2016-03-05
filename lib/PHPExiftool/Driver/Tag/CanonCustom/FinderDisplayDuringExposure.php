@@ -52,5 +52,4 @@ class FinderDisplayDuringExposure extends AbstractTag
             'Label' => 'On',
         ),
     );
-
 }

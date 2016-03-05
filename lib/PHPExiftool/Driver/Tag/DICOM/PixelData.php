@@ -41,5 +41,4 @@ class PixelData extends AbstractTag
     protected $Description = 'Pixel Data';
 
     protected $flag_Binary = true;
-
 }

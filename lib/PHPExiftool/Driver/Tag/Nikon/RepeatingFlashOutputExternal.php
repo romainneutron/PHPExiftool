@@ -41,5 +41,4 @@ class RepeatingFlashOutputExternal extends AbstractTag
     protected $Description = 'Repeating Flash Output External';
 
     protected $flag_Permanent = true;
-
 }

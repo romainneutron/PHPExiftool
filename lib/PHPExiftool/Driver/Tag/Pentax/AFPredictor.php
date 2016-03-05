@@ -41,5 +41,4 @@ class AFPredictor extends AbstractTag
     protected $Description = 'AF Predictor';
 
     protected $flag_Permanent = true;
-
 }

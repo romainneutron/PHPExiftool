@@ -39,5 +39,4 @@ class ReasonForRequestedProcedureCodeSeq extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Reason For Requested Procedure Code Seq';
-
 }

@@ -39,5 +39,4 @@ class ShootingRegionName extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Shooting Region Name';
-
 }

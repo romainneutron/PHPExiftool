@@ -39,5 +39,4 @@ class ShotCueWordsSet extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Shot Cue Words Set';
-
 }

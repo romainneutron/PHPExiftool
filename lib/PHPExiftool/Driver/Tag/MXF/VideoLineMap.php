@@ -39,5 +39,4 @@ class VideoLineMap extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Video Line Map';
-
 }

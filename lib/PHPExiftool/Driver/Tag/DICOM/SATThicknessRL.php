@@ -39,5 +39,4 @@ class SATThicknessRL extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'SAT Thickness R-L';
-
 }

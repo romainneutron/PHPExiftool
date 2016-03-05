@@ -39,5 +39,4 @@ class ContributingSourcesSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Contributing Sources Sequence';
-
 }

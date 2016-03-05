@@ -41,5 +41,4 @@ class SampleGroupDescription extends AbstractTag
     protected $Description = 'Sample Group Description';
 
     protected $flag_Binary = true;
-
 }

@@ -41,5 +41,4 @@ class FNumber extends AbstractTag
     protected $Description = 'F Number';
 
     protected $flag_Permanent = true;
-
 }

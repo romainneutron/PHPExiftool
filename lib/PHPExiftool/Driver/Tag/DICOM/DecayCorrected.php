@@ -39,5 +39,4 @@ class DecayCorrected extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Decay Corrected';
-
 }

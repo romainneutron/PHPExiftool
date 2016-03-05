@@ -39,5 +39,4 @@ class NetName extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Net Name';
-
 }

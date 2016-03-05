@@ -41,5 +41,4 @@ class MaxVideoFps extends AbstractTag
     protected $Description = 'Max Video Fps';
 
     protected $flag_Permanent = true;
-
 }

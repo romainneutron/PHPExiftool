@@ -39,5 +39,4 @@ class ShotTrackIDs extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Shot Track I Ds';
-
 }

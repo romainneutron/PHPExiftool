@@ -41,5 +41,4 @@ class OriginatorReference extends AbstractTag
     protected $Description = 'Originator Reference';
 
     protected $MaxLength = 32;
-
 }

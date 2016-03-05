@@ -41,5 +41,4 @@ class ShortDocumentID extends AbstractTag
     protected $Description = 'Short Document ID';
 
     protected $MaxLength = 64;
-
 }

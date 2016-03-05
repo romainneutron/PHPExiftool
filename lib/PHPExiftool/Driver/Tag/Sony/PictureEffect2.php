@@ -100,5 +100,4 @@ class PictureEffect2 extends AbstractTag
             'Label' => 'Illustration',
         ),
     );
-
 }

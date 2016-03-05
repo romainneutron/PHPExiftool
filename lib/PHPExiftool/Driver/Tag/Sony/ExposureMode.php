@@ -168,5 +168,4 @@ class ExposureMode extends AbstractTag
             'Label' => 'n/a',
         ),
     );
-
 }

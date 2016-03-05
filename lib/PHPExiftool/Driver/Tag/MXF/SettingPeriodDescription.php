@@ -39,5 +39,4 @@ class SettingPeriodDescription extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Setting Period Description';
-
 }

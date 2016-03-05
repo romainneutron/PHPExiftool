@@ -50,5 +50,4 @@ class JPEGProcess extends AbstractTag
             'Label' => 'Extended sequential DCT, Huffman coding, 12-bit samples',
         ),
     );
-
 }

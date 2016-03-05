@@ -39,5 +39,4 @@ class CBEStartOffset extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'CBE Start Offset';
-
 }

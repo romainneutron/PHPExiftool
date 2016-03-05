@@ -41,5 +41,4 @@ class OceScanjobDesc extends AbstractTag
     protected $Description = 'Oce Scanjob Desc';
 
     protected $local_g1 = 'ExifIFD';
-
 }

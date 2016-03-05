@@ -56,5 +56,4 @@ class WBBracketMode extends AbstractTag
             'Label' => 'On (shift GM)',
         ),
     );
-
 }

@@ -39,5 +39,4 @@ class OtherConditions extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Other Conditions';
-
 }

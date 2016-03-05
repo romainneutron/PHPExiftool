@@ -54,5 +54,4 @@ class SignType extends AbstractTag
             'Label' => 'Information',
         ),
     );
-
 }

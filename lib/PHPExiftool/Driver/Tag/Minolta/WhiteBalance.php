@@ -184,5 +184,4 @@ class WhiteBalance extends AbstractTag
             'Label' => 'Custom',
         ),
     );
-
 }

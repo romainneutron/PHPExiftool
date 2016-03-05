@@ -39,5 +39,4 @@ class HasKeyFrames extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Has Key Frames';
-
 }

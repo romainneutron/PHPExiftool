@@ -41,5 +41,4 @@ class RecurrenceRule extends AbstractTag
     protected $Description = 'Recurrence Rule';
 
     protected $local_g2 = 'Time';
-
 }

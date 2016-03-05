@@ -41,5 +41,4 @@ class EncodedPixelsDimensions extends AbstractTag
     protected $Description = 'Encoded Pixels Dimensions';
 
     protected $MaxLength = 3;
-
 }

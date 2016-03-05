@@ -39,5 +39,4 @@ class PortraitRawContrast extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Portrait Raw Contrast';
-
 }

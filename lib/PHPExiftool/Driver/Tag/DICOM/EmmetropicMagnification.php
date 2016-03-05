@@ -39,5 +39,4 @@ class EmmetropicMagnification extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Emmetropic Magnification';
-
 }

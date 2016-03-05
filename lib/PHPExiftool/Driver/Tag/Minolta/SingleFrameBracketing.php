@@ -52,5 +52,4 @@ class SingleFrameBracketing extends AbstractTag
             'Label' => 'High',
         ),
     );
-
 }

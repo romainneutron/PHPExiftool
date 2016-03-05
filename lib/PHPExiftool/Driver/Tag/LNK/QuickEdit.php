@@ -39,5 +39,4 @@ class QuickEdit extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Quick Edit';
-
 }

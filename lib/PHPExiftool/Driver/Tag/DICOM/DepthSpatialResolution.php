@@ -39,5 +39,4 @@ class DepthSpatialResolution extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Depth Spatial Resolution';
-
 }

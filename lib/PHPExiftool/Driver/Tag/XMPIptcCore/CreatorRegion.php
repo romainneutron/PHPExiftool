@@ -39,5 +39,4 @@ class CreatorRegion extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Creator Region';
-
 }

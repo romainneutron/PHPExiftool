@@ -39,5 +39,4 @@ class CompensatorTransmissionData extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Compensator Transmission Data';
-
 }

@@ -41,5 +41,4 @@ class UnsharpCount extends AbstractTag
     protected $Description = 'Unsharp Count';
 
     protected $flag_Permanent = true;
-
 }

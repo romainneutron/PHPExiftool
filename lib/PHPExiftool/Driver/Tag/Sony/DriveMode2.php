@@ -170,5 +170,4 @@ class DriveMode2 extends AbstractTag
     );
 
     protected $Index = 'mixed';
-
 }

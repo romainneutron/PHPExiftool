@@ -39,5 +39,4 @@ class DefaultStyle extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Default Style';
-
 }

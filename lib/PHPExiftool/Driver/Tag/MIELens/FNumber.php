@@ -39,5 +39,4 @@ class FNumber extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'F Number';
-
 }

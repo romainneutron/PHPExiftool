@@ -39,5 +39,4 @@ class ContentPackageIndexArray extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Content Package Index Array';
-
 }

@@ -39,5 +39,4 @@ class VideoOrImageCompressionAlgorithm extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Video Or Image Compression Algorithm';
-
 }

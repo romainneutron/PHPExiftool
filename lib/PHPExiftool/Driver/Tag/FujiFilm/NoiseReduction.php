@@ -56,5 +56,4 @@ class NoiseReduction extends AbstractTag
             'Label' => 'n/a',
         ),
     );
-
 }

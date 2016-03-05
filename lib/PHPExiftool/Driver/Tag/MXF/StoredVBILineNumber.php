@@ -39,5 +39,4 @@ class StoredVBILineNumber extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Stored VBI Line Number';
-
 }

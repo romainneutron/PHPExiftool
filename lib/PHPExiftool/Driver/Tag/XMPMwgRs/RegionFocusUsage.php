@@ -56,5 +56,4 @@ class RegionFocusUsage extends AbstractTag
             'Label' => 'Not Evaluated, Not Used',
         ),
     );
-
 }

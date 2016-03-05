@@ -41,5 +41,4 @@ class SegmentUID extends AbstractTag
     protected $Description = 'Segment UID';
 
     protected $flag_Binary = true;
-
 }

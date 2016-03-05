@@ -62,5 +62,4 @@ class DisplaySize extends AbstractTag
             'Label' => 'Current Size',
         ),
     );
-
 }

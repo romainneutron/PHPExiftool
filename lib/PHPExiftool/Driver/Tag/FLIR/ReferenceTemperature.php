@@ -39,5 +39,4 @@ class ReferenceTemperature extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Reference Temperature';
-
 }

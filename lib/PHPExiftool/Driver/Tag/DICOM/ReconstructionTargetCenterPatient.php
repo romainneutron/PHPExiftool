@@ -39,5 +39,4 @@ class ReconstructionTargetCenterPatient extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Reconstruction Target Center Patient';
-
 }

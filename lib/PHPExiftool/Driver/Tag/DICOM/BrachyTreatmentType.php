@@ -39,5 +39,4 @@ class BrachyTreatmentType extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Brachy Treatment Type';
-
 }

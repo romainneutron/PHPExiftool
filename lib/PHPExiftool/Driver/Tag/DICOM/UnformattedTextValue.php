@@ -39,5 +39,4 @@ class UnformattedTextValue extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Unformatted Text Value';
-
 }

@@ -39,5 +39,4 @@ class EchoTrainLength extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Echo Train Length';
-
 }

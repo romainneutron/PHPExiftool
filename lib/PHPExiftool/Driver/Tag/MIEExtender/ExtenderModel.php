@@ -39,5 +39,4 @@ class ExtenderModel extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Extender Model';
-
 }

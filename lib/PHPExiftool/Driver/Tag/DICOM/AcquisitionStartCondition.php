@@ -39,5 +39,4 @@ class AcquisitionStartCondition extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Acquisition Start Condition';
-
 }

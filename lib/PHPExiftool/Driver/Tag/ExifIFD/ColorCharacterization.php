@@ -41,5 +41,4 @@ class ColorCharacterization extends AbstractTag
     protected $Description = 'Color Characterization';
 
     protected $local_g1 = 'ExifIFD';
-
 }

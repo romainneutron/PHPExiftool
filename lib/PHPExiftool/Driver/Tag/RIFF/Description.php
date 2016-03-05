@@ -41,5 +41,4 @@ class Description extends AbstractTag
     protected $Description = 'Description';
 
     protected $MaxLength = 256;
-
 }

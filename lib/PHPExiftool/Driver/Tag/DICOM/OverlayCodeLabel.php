@@ -39,5 +39,4 @@ class OverlayCodeLabel extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Overlay Code Label';
-
 }

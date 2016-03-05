@@ -41,5 +41,4 @@ class Site extends AbstractTag
     protected $Description = 'Site';
 
     protected $local_g1 = 'ExifIFD';
-
 }

@@ -39,5 +39,4 @@ class GPSMapDatum extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'GPS Map Datum';
-
 }

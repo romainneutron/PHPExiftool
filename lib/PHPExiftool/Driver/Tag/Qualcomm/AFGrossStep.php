@@ -41,5 +41,4 @@ class AFGrossStep extends AbstractTag
     protected $Description = 'AF Gross Step';
 
     protected $flag_Permanent = true;
-
 }

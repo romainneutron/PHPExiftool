@@ -60,5 +60,4 @@ class DECPosition extends AbstractTag
             'Label' => 'Filter',
         ),
     );
-
 }

@@ -41,5 +41,4 @@ class MeasuredEV2 extends AbstractTag
     protected $Description = 'Measured EV 2';
 
     protected $flag_Permanent = true;
-
 }

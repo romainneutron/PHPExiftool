@@ -39,5 +39,4 @@ class SortingDirection extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Sorting Direction';
-
 }

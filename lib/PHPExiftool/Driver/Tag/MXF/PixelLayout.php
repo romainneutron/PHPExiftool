@@ -39,5 +39,4 @@ class PixelLayout extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Pixel Layout';
-
 }

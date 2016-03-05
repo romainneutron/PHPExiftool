@@ -39,5 +39,4 @@ class VOIType extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'VOI Type';
-
 }

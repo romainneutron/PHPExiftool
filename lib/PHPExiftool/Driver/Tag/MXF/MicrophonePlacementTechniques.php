@@ -41,5 +41,4 @@ class MicrophonePlacementTechniques extends AbstractTag
     protected $Description = 'Microphone Placement Techniques';
 
     protected $local_g2 = 'Audio';
-
 }

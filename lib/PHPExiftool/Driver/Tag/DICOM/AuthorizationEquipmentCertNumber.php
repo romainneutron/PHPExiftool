@@ -39,5 +39,4 @@ class AuthorizationEquipmentCertNumber extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Authorization Equipment Cert Number';
-
 }

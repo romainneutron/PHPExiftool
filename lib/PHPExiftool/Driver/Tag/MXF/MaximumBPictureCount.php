@@ -39,5 +39,4 @@ class MaximumBPictureCount extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Maximum B Picture Count';
-
 }

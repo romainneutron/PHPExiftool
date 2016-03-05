@@ -39,5 +39,4 @@ class BreedRegistrationNumber extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Breed Registration Number';
-
 }

@@ -84,5 +84,4 @@ class ISOSetting extends AbstractTag
             'Label' => '100 (Low)',
         ),
     );
-
 }

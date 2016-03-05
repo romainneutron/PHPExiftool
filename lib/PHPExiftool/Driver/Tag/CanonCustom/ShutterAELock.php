@@ -76,5 +76,4 @@ class ShutterAELock extends AbstractTag
             'Label' => 'AE+release/AE+AF',
         ),
     );
-
 }

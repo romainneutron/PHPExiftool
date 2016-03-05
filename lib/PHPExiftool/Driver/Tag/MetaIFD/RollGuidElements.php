@@ -39,5 +39,4 @@ class RollGuidElements extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Roll Guid Elements';
-
 }

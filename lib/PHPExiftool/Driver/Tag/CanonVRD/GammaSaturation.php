@@ -39,5 +39,4 @@ class GammaSaturation extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Gamma Saturation';
-
 }

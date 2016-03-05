@@ -39,5 +39,4 @@ class DRMDRMHeaderSubscriptionContentID extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'DRM DRM Header Subscription Content ID';
-
 }

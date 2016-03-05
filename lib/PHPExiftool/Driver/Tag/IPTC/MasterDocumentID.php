@@ -41,5 +41,4 @@ class MasterDocumentID extends AbstractTag
     protected $Description = 'Master Document ID';
 
     protected $MaxLength = 256;
-
 }

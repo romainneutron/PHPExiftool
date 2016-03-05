@@ -39,5 +39,4 @@ class PrinterConfigurationSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Printer Configuration Sequence';
-
 }

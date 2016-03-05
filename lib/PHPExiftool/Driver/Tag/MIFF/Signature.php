@@ -39,5 +39,4 @@ class Signature extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Signature';
-
 }

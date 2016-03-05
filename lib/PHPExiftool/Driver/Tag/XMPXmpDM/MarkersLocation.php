@@ -41,5 +41,4 @@ class MarkersLocation extends AbstractTag
     protected $Description = 'Markers Location';
 
     protected $flag_List = true;
-
 }

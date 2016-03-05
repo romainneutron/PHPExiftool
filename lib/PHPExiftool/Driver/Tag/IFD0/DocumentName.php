@@ -39,5 +39,4 @@ class DocumentName extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Document Name';
-
 }

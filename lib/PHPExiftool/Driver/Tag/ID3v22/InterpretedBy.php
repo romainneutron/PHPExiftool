@@ -39,5 +39,4 @@ class InterpretedBy extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Interpreted By';
-
 }

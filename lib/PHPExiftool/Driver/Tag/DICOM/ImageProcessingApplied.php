@@ -39,5 +39,4 @@ class ImageProcessingApplied extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Image Processing Applied';
-
 }

@@ -39,5 +39,4 @@ class SurfaceCoilType extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Surface Coil Type';
-
 }

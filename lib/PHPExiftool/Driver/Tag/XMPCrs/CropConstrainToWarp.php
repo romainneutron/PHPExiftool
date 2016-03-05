@@ -39,5 +39,4 @@ class CropConstrainToWarp extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Crop Constrain To Warp';
-
 }

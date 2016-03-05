@@ -50,5 +50,4 @@ class DerivedFromMaskMarkers extends AbstractTag
             'Label' => 'None',
         ),
     );
-
 }

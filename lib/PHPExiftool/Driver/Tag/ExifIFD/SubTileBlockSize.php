@@ -41,5 +41,4 @@ class SubTileBlockSize extends AbstractTag
     protected $Description = 'Sub Tile Block Size';
 
     protected $local_g1 = 'ExifIFD';
-
 }

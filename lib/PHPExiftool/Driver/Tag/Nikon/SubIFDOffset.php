@@ -41,5 +41,4 @@ class SubIFDOffset extends AbstractTag
     protected $Description = 'Sub IFD Offset';
 
     protected $flag_Permanent = true;
-
 }

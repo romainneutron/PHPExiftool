@@ -41,5 +41,4 @@ class PF5ApertureLimits extends AbstractTag
     protected $Description = 'PF5 Aperture Limits';
 
     protected $flag_Permanent = true;
-
 }

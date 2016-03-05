@@ -39,5 +39,4 @@ class BypassOverride extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Bypass Override';
-
 }

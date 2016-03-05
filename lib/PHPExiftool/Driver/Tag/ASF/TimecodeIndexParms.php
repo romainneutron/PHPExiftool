@@ -39,5 +39,4 @@ class TimecodeIndexParms extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Timecode Index Parms';
-
 }

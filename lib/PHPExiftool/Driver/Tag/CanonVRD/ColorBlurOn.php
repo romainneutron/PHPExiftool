@@ -50,5 +50,4 @@ class ColorBlurOn extends AbstractTag
             'Label' => 'Yes',
         ),
     );
-
 }

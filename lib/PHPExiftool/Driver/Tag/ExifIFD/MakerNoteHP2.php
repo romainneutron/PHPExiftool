@@ -47,5 +47,4 @@ class MakerNoteHP2 extends AbstractTag
     protected $flag_Permanent = true;
 
     protected $Index = 11;
-
 }

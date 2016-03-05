@@ -134,5 +134,4 @@ class AFPointIllumination extends AbstractTag
     );
 
     protected $Index = 'mixed';
-
 }

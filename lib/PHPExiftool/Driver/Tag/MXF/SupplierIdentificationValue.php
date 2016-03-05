@@ -39,5 +39,4 @@ class SupplierIdentificationValue extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Supplier Identification Value';
-
 }

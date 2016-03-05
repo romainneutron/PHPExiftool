@@ -41,5 +41,4 @@ class SpotFocusPointX extends AbstractTag
     protected $Description = 'Spot Focus Point X';
 
     protected $flag_Permanent = true;
-
 }

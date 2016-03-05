@@ -39,5 +39,4 @@ class MonochromeUnsharpMaskFineness extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Monochrome Unsharp Mask Fineness';
-
 }

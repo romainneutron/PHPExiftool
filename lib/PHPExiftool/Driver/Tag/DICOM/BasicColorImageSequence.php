@@ -39,5 +39,4 @@ class BasicColorImageSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Basic Color Image Sequence';
-
 }

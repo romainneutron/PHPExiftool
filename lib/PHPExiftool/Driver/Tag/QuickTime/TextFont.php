@@ -46,5 +46,4 @@ class TextFont extends AbstractTag
             'Label' => 'System',
         ),
     );
-
 }

@@ -39,5 +39,4 @@ class IncrementalTint extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Incremental Tint';
-
 }

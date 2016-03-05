@@ -39,5 +39,4 @@ class NumberOfUnarchivedSeries extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Number Of Unarchived Series';
-
 }

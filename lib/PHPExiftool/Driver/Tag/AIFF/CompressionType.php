@@ -68,5 +68,4 @@ class CompressionType extends AbstractTag
             'Label' => 'Little-endian, no compression',
         ),
     );
-
 }

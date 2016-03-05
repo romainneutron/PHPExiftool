@@ -39,5 +39,4 @@ class DigitalSignatureUID extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Digital Signature UID';
-
 }

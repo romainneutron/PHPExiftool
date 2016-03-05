@@ -60,5 +60,4 @@ class CustomSettingsBank extends AbstractTag
             'Label' => 'D',
         ),
     );
-
 }

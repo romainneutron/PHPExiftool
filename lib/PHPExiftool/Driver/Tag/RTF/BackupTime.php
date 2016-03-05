@@ -41,5 +41,4 @@ class BackupTime extends AbstractTag
     protected $Description = 'Backup Time';
 
     protected $local_g2 = 'Time';
-
 }

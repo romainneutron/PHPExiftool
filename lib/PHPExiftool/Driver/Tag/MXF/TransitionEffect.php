@@ -39,5 +39,4 @@ class TransitionEffect extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Transition Effect';
-
 }

@@ -134,5 +134,4 @@ class ComponentsConfiguration extends AbstractTag
             'Label' => 'User-defined 8 component element',
         ),
     );
-
 }

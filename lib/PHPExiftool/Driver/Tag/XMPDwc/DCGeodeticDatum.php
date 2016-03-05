@@ -41,5 +41,4 @@ class DCGeodeticDatum extends AbstractTag
     protected $Description = 'DC Geodetic Datum';
 
     protected $local_g2 = 'Location';
-
 }

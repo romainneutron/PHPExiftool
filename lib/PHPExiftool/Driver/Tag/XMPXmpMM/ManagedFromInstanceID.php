@@ -39,5 +39,4 @@ class ManagedFromInstanceID extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Managed From Instance ID';
-
 }

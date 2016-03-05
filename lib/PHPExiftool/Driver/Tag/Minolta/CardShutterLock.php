@@ -52,5 +52,4 @@ class CardShutterLock extends AbstractTag
             'Label' => 'Off',
         ),
     );
-
 }

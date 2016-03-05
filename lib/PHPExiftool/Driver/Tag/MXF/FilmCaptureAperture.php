@@ -39,5 +39,4 @@ class FilmCaptureAperture extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Film Capture Aperture';
-
 }

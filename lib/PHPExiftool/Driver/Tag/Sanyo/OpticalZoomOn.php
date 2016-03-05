@@ -52,5 +52,4 @@ class OpticalZoomOn extends AbstractTag
             'Label' => 'On',
         ),
     );
-
 }

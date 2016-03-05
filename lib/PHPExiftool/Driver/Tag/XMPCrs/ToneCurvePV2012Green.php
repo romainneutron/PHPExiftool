@@ -43,5 +43,4 @@ class ToneCurvePV2012Green extends AbstractTag
     protected $flag_List = true;
 
     protected $flag_Seq = true;
-
 }

@@ -39,5 +39,4 @@ class RegionDataType extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Region Data Type';
-
 }

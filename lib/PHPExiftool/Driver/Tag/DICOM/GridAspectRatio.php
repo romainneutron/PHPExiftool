@@ -39,5 +39,4 @@ class GridAspectRatio extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Grid Aspect Ratio';
-
 }

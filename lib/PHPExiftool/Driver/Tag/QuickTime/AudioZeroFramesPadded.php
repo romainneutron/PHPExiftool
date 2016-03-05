@@ -39,5 +39,4 @@ class AudioZeroFramesPadded extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Audio Zero Frames Padded';
-
 }

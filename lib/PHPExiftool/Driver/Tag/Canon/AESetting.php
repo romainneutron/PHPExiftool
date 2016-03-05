@@ -64,5 +64,4 @@ class AESetting extends AbstractTag
             'Label' => 'No AE',
         ),
     );
-
 }

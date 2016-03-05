@@ -41,5 +41,4 @@ class WhiteBalanceFineTune extends AbstractTag
     protected $Description = 'White Balance Fine Tune';
 
     protected $flag_Permanent = true;
-
 }

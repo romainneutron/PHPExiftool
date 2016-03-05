@@ -41,5 +41,4 @@ class Effect extends AbstractTag
     protected $Description = 'Effect';
 
     protected $flag_Permanent = true;
-
 }

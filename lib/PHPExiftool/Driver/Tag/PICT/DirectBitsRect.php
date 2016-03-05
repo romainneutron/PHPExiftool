@@ -39,5 +39,4 @@ class DirectBitsRect extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Direct Bits Rect';
-
 }

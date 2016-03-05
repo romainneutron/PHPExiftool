@@ -41,5 +41,4 @@ class InputDeviceSerialNumber extends AbstractTag
     protected $Description = 'Input Device Serial Number';
 
     protected $MaxLength = 32;
-
 }

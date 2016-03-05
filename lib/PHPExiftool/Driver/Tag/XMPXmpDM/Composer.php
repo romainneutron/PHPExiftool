@@ -41,5 +41,4 @@ class Composer extends AbstractTag
     protected $Description = 'Composer';
 
     protected $local_g2 = 'Author';
-
 }

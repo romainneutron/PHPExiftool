@@ -39,5 +39,4 @@ class CodecEssenceKinds extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Codec Essence Kinds';
-
 }

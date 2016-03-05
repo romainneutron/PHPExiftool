@@ -41,5 +41,4 @@ class DCFootprintWKT extends AbstractTag
     protected $Description = 'DC Footprint WKT';
 
     protected $local_g2 = 'Location';
-
 }

@@ -50,5 +50,4 @@ class GammaLinear extends AbstractTag
             'Label' => 'Yes',
         ),
     );
-
 }

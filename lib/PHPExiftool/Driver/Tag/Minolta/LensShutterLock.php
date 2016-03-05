@@ -52,5 +52,4 @@ class LensShutterLock extends AbstractTag
             'Label' => 'Off',
         ),
     );
-
 }

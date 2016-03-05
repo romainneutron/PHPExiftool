@@ -39,5 +39,4 @@ class PreviewTime extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Preview Time';
-
 }

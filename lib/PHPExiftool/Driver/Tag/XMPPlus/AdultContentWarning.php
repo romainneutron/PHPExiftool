@@ -54,5 +54,4 @@ class AdultContentWarning extends AbstractTag
             'Label' => 'Unknown',
         ),
     );
-
 }

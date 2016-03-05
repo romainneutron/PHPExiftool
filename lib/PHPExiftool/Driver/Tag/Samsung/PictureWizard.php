@@ -41,5 +41,4 @@ class PictureWizard extends AbstractTag
     protected $Description = 'Picture Wizard';
 
     protected $flag_Permanent = true;
-
 }

@@ -39,5 +39,4 @@ class InterscanDelay extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Interscan Delay';
-
 }

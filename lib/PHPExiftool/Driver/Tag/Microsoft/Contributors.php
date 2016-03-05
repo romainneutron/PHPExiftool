@@ -39,5 +39,4 @@ class Contributors extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Contributors';
-
 }

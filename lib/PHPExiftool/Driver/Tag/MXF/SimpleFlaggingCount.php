@@ -39,5 +39,4 @@ class SimpleFlaggingCount extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Simple Flagging Count';
-
 }

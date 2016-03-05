@@ -39,5 +39,4 @@ class IntraOcularPressure extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Intra Ocular Pressure';
-
 }

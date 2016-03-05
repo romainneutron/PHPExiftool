@@ -39,5 +39,4 @@ class DRMLASignatureLicSrvCert extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'DRM LA Signature Lic Srv Cert';
-
 }

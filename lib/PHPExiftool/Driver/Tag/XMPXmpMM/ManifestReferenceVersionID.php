@@ -41,5 +41,4 @@ class ManifestReferenceVersionID extends AbstractTag
     protected $Description = 'Manifest Reference Version ID';
 
     protected $flag_List = true;
-
 }

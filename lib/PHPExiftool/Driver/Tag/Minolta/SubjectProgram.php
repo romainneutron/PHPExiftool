@@ -68,5 +68,4 @@ class SubjectProgram extends AbstractTag
             'Label' => 'Sports action',
         ),
     );
-
 }

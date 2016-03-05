@@ -68,5 +68,4 @@ class ViewfinderWarning extends AbstractTag
             'Label' => 'Off',
         ),
     );
-
 }

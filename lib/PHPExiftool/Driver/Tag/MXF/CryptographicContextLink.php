@@ -39,5 +39,4 @@ class CryptographicContextLink extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Cryptographic Context Link';
-
 }

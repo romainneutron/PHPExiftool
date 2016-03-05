@@ -39,5 +39,4 @@ class ContourGeometricType extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Contour Geometric Type';
-
 }

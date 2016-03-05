@@ -39,5 +39,4 @@ class ConvergenceAngle extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Convergence Angle';
-
 }

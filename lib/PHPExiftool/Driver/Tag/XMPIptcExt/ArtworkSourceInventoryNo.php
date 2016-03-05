@@ -41,5 +41,4 @@ class ArtworkSourceInventoryNo extends AbstractTag
     protected $Description = 'Artwork Source Inventory No';
 
     protected $flag_List = true;
-
 }

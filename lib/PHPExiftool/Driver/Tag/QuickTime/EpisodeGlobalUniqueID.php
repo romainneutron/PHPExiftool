@@ -39,5 +39,4 @@ class EpisodeGlobalUniqueID extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Episode Global Unique ID';
-
 }

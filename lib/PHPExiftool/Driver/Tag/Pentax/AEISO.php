@@ -41,5 +41,4 @@ class AEISO extends AbstractTag
     protected $Description = 'AE ISO';
 
     protected $flag_Permanent = true;
-
 }

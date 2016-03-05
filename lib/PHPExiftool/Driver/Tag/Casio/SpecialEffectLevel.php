@@ -41,5 +41,4 @@ class SpecialEffectLevel extends AbstractTag
     protected $Description = 'Special Effect Level';
 
     protected $flag_Permanent = true;
-
 }

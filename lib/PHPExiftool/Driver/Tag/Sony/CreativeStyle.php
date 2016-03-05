@@ -300,5 +300,4 @@ class CreativeStyle extends AbstractTag
             'Label' => 'Sepia',
         ),
     );
-
 }

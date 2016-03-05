@@ -39,5 +39,4 @@ class FluenceMode extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Fluence Mode';
-
 }

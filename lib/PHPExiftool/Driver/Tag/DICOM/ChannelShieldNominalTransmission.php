@@ -39,5 +39,4 @@ class ChannelShieldNominalTransmission extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Channel Shield Nominal Transmission';
-
 }

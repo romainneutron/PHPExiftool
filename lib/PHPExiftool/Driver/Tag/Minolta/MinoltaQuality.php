@@ -156,5 +156,4 @@ class MinoltaQuality extends AbstractTag
             'Label' => 'Extra fine',
         ),
     );
-
 }

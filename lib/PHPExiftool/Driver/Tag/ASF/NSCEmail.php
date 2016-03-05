@@ -39,5 +39,4 @@ class NSCEmail extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'NSC Email';
-
 }

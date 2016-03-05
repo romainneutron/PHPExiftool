@@ -39,5 +39,4 @@ class RichTextComment extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Rich Text Comment';
-
 }

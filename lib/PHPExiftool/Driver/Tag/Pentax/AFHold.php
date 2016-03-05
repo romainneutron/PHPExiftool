@@ -60,5 +60,4 @@ class AFHold extends AbstractTag
             'Label' => 'Long',
         ),
     );
-
 }

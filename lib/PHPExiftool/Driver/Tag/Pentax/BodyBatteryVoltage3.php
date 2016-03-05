@@ -41,5 +41,4 @@ class BodyBatteryVoltage3 extends AbstractTag
     protected $Description = 'Body Battery Voltage 3';
 
     protected $flag_Permanent = true;
-
 }

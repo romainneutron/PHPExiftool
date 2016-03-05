@@ -39,5 +39,4 @@ class BreedRegistryCodeSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Breed Registry Code Sequence';
-
 }

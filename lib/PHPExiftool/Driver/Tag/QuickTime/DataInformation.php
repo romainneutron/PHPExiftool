@@ -41,5 +41,4 @@ class DataInformation extends AbstractTag
     protected $Description = 'Data Information';
 
     protected $flag_Binary = true;
-
 }

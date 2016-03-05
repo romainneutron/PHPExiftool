@@ -39,5 +39,4 @@ class CircGradBasedCorrHue extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Circ Grad Based Corr Hue';
-
 }

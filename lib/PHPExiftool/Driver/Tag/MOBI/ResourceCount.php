@@ -39,5 +39,4 @@ class ResourceCount extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Resource Count';
-
 }

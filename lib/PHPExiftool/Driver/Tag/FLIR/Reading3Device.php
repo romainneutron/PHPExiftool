@@ -41,5 +41,4 @@ class Reading3Device extends AbstractTag
     protected $Description = 'Reading 3 Device';
 
     protected $MaxLength = 16;
-
 }

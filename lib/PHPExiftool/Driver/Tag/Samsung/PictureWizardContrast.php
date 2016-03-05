@@ -41,5 +41,4 @@ class PictureWizardContrast extends AbstractTag
     protected $Description = 'Picture Wizard Contrast';
 
     protected $flag_Permanent = true;
-
 }

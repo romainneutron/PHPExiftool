@@ -39,5 +39,4 @@ class SourceCredits extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Source Credits';
-
 }

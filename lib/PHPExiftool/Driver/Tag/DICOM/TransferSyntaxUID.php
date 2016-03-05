@@ -39,5 +39,4 @@ class TransferSyntaxUID extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Transfer Syntax UID';
-
 }

@@ -41,5 +41,4 @@ class Converter extends AbstractTag
     protected $Description = 'Converter';
 
     protected $flag_Permanent = true;
-
 }

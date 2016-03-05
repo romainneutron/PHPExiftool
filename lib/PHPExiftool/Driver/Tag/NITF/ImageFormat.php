@@ -46,5 +46,4 @@ class ImageFormat extends AbstractTag
             'Label' => 'IMode B',
         ),
     );
-
 }

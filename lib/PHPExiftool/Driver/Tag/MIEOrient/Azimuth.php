@@ -39,5 +39,4 @@ class Azimuth extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Azimuth';
-
 }

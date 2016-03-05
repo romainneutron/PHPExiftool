@@ -39,5 +39,4 @@ class KeratometricPower extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Keratometric Power';
-
 }

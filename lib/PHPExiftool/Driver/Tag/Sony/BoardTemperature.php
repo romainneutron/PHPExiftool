@@ -41,5 +41,4 @@ class BoardTemperature extends AbstractTag
     protected $Description = 'Board Temperature';
 
     protected $flag_Permanent = true;
-
 }

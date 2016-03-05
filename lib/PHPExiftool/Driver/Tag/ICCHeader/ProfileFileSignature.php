@@ -41,5 +41,4 @@ class ProfileFileSignature extends AbstractTag
     protected $Description = 'Profile File Signature';
 
     protected $MaxLength = 4;
-
 }

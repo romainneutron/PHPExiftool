@@ -39,5 +39,4 @@ class GooglePingURL extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Google Ping URL';
-
 }

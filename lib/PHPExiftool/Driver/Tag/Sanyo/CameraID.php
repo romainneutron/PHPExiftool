@@ -41,5 +41,4 @@ class CameraID extends AbstractTag
     protected $Description = 'Camera ID';
 
     protected $flag_Permanent = true;
-
 }

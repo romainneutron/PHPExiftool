@@ -39,5 +39,4 @@ class ReferencedFractionGroupSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Referenced Fraction Group Sequence';
-
 }

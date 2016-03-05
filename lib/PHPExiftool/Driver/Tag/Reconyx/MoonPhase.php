@@ -78,5 +78,4 @@ class MoonPhase extends AbstractTag
             'Label' => 'Old Crescent',
         ),
     );
-
 }

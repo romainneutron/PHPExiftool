@@ -39,5 +39,4 @@ class XRayImageReceptorTranslation extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'X Ray Image Receptor Translation';
-
 }

@@ -41,5 +41,4 @@ class AuthoringSoftwareRelease extends AbstractTag
     protected $Description = 'Authoring Software Release';
 
     protected $MaxLength = 2;
-
 }

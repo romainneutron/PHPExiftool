@@ -52,5 +52,4 @@ class OrientationLinkedAFPoint extends AbstractTag
             'Label' => 'Select different AF points',
         ),
     );
-
 }

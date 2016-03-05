@@ -41,5 +41,4 @@ class ExitPupilPosition extends AbstractTag
     protected $Description = 'Exit Pupil Position';
 
     protected $flag_Permanent = true;
-
 }

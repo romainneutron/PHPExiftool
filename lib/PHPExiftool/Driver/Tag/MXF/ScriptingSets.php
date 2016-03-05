@@ -39,5 +39,4 @@ class ScriptingSets extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Scripting Sets';
-
 }

@@ -39,5 +39,4 @@ class Clarity extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Clarity';
-
 }

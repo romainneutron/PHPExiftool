@@ -39,5 +39,4 @@ class ComputedKeyData extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Computed Key Data';
-
 }

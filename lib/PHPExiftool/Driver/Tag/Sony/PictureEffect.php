@@ -188,5 +188,4 @@ class PictureEffect extends AbstractTag
             'Label' => 'Illustration (high)',
         ),
     );
-
 }

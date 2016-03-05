@@ -41,5 +41,4 @@ class CropScaledResolution extends AbstractTag
     protected $Description = 'Crop Scaled Resolution';
 
     protected $flag_Permanent = true;
-
 }

@@ -39,5 +39,4 @@ class ExposureStatus extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Exposure Status';
-
 }

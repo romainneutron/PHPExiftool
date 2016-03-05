@@ -74,5 +74,4 @@ class CasioImageSize extends AbstractTag
             'Label' => '3008x2008',
         ),
     );
-
 }

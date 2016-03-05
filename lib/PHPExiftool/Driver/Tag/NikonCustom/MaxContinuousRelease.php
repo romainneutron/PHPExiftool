@@ -41,5 +41,4 @@ class MaxContinuousRelease extends AbstractTag
     protected $Description = 'Max Continuous Release';
 
     protected $flag_Permanent = true;
-
 }

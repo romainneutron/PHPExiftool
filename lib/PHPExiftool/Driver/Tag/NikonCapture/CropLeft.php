@@ -41,5 +41,4 @@ class CropLeft extends AbstractTag
     protected $Description = 'Crop Left';
 
     protected $flag_Permanent = true;
-
 }

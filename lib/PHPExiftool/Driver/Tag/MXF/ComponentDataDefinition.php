@@ -70,5 +70,4 @@ class ComponentDataDefinition extends AbstractTag
             'Label' => 'Data Essence Track',
         ),
     );
-
 }

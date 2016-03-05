@@ -39,5 +39,4 @@ class RASLetterForSideOfImage extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'RAS Letter For Side Of Image';
-
 }

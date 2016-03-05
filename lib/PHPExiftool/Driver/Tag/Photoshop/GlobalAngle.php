@@ -39,5 +39,4 @@ class GlobalAngle extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Global Angle';
-
 }

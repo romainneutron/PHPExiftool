@@ -39,5 +39,4 @@ class ColorHalftoningInfo extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Color Halftoning Info';
-
 }

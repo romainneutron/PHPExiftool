@@ -52,5 +52,4 @@ class Flash extends AbstractTag
             'Label' => 'Flash Fired',
         ),
     );
-
 }

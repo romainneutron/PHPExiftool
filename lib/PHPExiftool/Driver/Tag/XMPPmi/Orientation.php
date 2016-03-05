@@ -52,5 +52,4 @@ class Orientation extends AbstractTag
             'Label' => 'Vertical',
         ),
     );
-
 }

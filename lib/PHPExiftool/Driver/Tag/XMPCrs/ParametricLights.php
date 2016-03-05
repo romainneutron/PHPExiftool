@@ -39,5 +39,4 @@ class ParametricLights extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Parametric Lights';
-
 }

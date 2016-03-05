@@ -39,5 +39,4 @@ class FrequencyCorrection extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Frequency Correction';
-
 }

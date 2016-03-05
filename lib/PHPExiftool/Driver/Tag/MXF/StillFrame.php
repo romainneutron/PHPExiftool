@@ -39,5 +39,4 @@ class StillFrame extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Still Frame';
-
 }

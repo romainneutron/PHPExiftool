@@ -39,5 +39,4 @@ class MeasuredValueSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Measured Value Sequence';
-
 }

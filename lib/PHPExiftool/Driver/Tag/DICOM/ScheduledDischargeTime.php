@@ -39,5 +39,4 @@ class ScheduledDischargeTime extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Scheduled Discharge Time';
-
 }

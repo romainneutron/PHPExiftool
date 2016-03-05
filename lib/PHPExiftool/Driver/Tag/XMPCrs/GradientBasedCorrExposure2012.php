@@ -39,5 +39,4 @@ class GradientBasedCorrExposure2012 extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Gradient Based Corr Exposure 2012';
-
 }

@@ -39,5 +39,4 @@ class OpticalTrack extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Optical Track';
-
 }

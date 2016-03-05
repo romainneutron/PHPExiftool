@@ -39,5 +39,4 @@ class NominalPlayTime extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Nominal Play Time';
-
 }

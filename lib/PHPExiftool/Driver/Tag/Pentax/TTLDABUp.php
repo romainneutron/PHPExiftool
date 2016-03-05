@@ -41,5 +41,4 @@ class TTLDABUp extends AbstractTag
     protected $Description = 'TTL DA B Up';
 
     protected $flag_Permanent = true;
-
 }

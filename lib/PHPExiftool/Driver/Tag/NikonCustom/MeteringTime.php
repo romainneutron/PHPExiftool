@@ -284,5 +284,4 @@ class MeteringTime extends AbstractTag
             'Label' => '30 min',
         ),
     );
-
 }

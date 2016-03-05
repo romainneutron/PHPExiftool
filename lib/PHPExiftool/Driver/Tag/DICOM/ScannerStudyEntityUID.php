@@ -39,5 +39,4 @@ class ScannerStudyEntityUID extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Scanner Study Entity UID';
-
 }

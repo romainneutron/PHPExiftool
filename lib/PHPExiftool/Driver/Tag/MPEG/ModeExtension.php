@@ -58,5 +58,4 @@ class ModeExtension extends AbstractTag
             'Label' => 'Bands 16-31',
         ),
     );
-
 }

@@ -39,5 +39,4 @@ class AudioExtendFrequencies extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Audio Extend Frequencies';
-
 }

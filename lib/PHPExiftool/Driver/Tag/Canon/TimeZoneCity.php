@@ -184,5 +184,4 @@ class TimeZoneCity extends AbstractTag
             'Label' => '(not set)',
         ),
     );
-
 }

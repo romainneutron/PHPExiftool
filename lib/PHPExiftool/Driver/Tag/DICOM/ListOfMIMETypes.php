@@ -39,5 +39,4 @@ class ListOfMIMETypes extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'List Of MIME Types';
-
 }

@@ -39,5 +39,4 @@ class DepthOfTransverseImage extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Depth Of Transverse Image';
-
 }

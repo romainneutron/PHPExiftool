@@ -41,5 +41,4 @@ class ManifestReferenceManageTo extends AbstractTag
     protected $Description = 'Manifest Reference Manage To';
 
     protected $flag_List = true;
-
 }

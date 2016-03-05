@@ -39,5 +39,4 @@ class UserPlaycountEvening extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'User Playcount Evening';
-
 }

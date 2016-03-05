@@ -39,5 +39,4 @@ class SoftwareRelease extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Software Release';
-
 }

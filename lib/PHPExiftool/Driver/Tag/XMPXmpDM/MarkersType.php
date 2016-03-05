@@ -41,5 +41,4 @@ class MarkersType extends AbstractTag
     protected $Description = 'Markers Type';
 
     protected $flag_List = true;
-
 }

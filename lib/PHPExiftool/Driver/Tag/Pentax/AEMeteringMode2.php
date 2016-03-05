@@ -56,5 +56,4 @@ class AEMeteringMode2 extends AbstractTag
             'Label' => 'Spot',
         ),
     );
-
 }

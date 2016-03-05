@@ -39,5 +39,4 @@ class CompositionOptions extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Composition Options';
-
 }

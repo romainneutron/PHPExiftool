@@ -39,5 +39,4 @@ class BitsRect extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'CopyBits with Clipped Rectangle';
-
 }

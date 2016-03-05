@@ -66,5 +66,4 @@ class FocalPlaneResolutionUnit extends AbstractTag
             'Label' => 'um',
         ),
     );
-
 }

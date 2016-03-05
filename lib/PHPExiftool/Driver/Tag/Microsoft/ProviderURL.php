@@ -39,5 +39,4 @@ class ProviderURL extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Provider URL';
-
 }

@@ -132,5 +132,4 @@ class ExposureBracketingIndicatorLast extends AbstractTag
             'Label' => 'Over Scale',
         ),
     );
-
 }

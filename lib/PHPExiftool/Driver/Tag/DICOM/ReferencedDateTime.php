@@ -39,5 +39,4 @@ class ReferencedDateTime extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Referenced Date Time';
-
 }

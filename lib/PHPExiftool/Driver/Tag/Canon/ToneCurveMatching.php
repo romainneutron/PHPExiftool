@@ -41,5 +41,4 @@ class ToneCurveMatching extends AbstractTag
     protected $Description = 'Tone Curve Matching';
 
     protected $flag_Permanent = true;
-
 }

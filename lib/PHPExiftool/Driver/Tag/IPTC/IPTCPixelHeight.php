@@ -39,5 +39,4 @@ class IPTCPixelHeight extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'IPTC Pixel Height';
-
 }

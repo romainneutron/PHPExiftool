@@ -64,5 +64,4 @@ class ReleaseMode3 extends AbstractTag
             'Label' => 'Continuous - Speed/Advance Priority',
         ),
     );
-
 }

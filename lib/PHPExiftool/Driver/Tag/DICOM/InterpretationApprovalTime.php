@@ -39,5 +39,4 @@ class InterpretationApprovalTime extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Interpretation Approval Time';
-
 }

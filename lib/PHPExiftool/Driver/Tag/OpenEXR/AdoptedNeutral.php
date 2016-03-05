@@ -39,5 +39,4 @@ class AdoptedNeutral extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Adopted Neutral';
-
 }

@@ -39,5 +39,4 @@ class CodestreamRegistration extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Codestream Registration';
-
 }

@@ -39,5 +39,4 @@ class MosaicPattern extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Mosaic Pattern';
-
 }

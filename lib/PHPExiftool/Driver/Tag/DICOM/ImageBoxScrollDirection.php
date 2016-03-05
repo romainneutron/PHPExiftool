@@ -39,5 +39,4 @@ class ImageBoxScrollDirection extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Image Box Scroll Direction';
-
 }

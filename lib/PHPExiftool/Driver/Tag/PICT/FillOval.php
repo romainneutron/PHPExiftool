@@ -39,5 +39,4 @@ class FillOval extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Fill Oval';
-
 }

@@ -39,5 +39,4 @@ class BitsGrouped extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Bits Grouped';
-
 }

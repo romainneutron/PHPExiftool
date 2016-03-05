@@ -41,5 +41,4 @@ class SuggestedPalette extends AbstractTag
     protected $Description = 'Suggested Palette';
 
     protected $flag_Binary = true;
-
 }

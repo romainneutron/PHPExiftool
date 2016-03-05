@@ -39,5 +39,4 @@ class CellTowerID extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Cell Tower ID';
-
 }

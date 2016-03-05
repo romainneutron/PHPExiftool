@@ -39,5 +39,4 @@ class DopplerSampleVolumeYPosRetired extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Doppler Sample Volume Y Pos Retired';
-
 }

@@ -48,5 +48,4 @@ class SaturationMonochrome extends AbstractTag
             'Label' => 'n/a',
         ),
     );
-
 }

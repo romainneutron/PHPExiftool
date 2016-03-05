@@ -39,5 +39,4 @@ class CameraObjVersion extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Camera Obj Version';
-
 }

@@ -39,5 +39,4 @@ class ScalingFactor extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Scaling Factor';
-
 }

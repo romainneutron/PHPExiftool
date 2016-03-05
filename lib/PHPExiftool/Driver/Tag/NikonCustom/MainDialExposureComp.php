@@ -52,5 +52,4 @@ class MainDialExposureComp extends AbstractTag
             'Label' => 'On',
         ),
     );
-
 }

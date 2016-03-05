@@ -39,5 +39,4 @@ class PageSpecial extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Page Special';
-
 }

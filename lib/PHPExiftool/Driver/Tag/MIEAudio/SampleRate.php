@@ -39,5 +39,4 @@ class SampleRate extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Sample Rate';
-
 }

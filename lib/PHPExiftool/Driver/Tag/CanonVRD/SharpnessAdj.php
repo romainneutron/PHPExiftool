@@ -50,5 +50,4 @@ class SharpnessAdj extends AbstractTag
             'Label' => 'Unsharp Mask',
         ),
     );
-
 }

@@ -39,5 +39,4 @@ class ManagedFromVersionID extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Managed From Version ID';
-
 }

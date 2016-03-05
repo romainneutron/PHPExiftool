@@ -58,5 +58,4 @@ class ContentCompressionAlgorithm extends AbstractTag
             'Label' => 'Header Stripping',
         ),
     );
-
 }

@@ -132,5 +132,4 @@ class LightSource extends AbstractTag
             'Label' => 'Other',
         ),
     );
-
 }

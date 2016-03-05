@@ -43,5 +43,4 @@ class OnSaleDateDate extends AbstractTag
     protected $local_g2 = 'Time';
 
     protected $flag_List = true;
-
 }

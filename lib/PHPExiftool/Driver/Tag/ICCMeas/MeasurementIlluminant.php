@@ -74,5 +74,4 @@ class MeasurementIlluminant extends AbstractTag
             'Label' => 'F8',
         ),
     );
-
 }

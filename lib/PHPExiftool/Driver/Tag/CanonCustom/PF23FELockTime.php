@@ -41,5 +41,4 @@ class PF23FELockTime extends AbstractTag
     protected $Description = 'PF23 FE Lock Time';
 
     protected $flag_Permanent = true;
-
 }

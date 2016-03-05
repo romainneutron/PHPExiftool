@@ -39,5 +39,4 @@ class FixationLightPolarAngle extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Fixation Light Polar Angle';
-
 }

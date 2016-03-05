@@ -39,5 +39,4 @@ class IdentificationVerificationStatus extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Identification Verification Status';
-
 }

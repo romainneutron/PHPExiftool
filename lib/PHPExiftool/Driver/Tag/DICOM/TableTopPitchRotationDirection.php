@@ -39,5 +39,4 @@ class TableTopPitchRotationDirection extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Table Top Pitch Rotation Direction';
-
 }

@@ -39,5 +39,4 @@ class GeneratorVersion extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Generator Version';
-
 }

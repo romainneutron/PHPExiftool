@@ -39,5 +39,4 @@ class ProcessingFunction extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Processing Function';
-
 }

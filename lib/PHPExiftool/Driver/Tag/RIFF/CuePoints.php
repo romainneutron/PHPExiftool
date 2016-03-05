@@ -41,5 +41,4 @@ class CuePoints extends AbstractTag
     protected $Description = 'Cue Points';
 
     protected $flag_Binary = true;
-
 }

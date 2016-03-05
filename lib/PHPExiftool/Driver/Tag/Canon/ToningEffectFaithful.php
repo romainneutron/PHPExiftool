@@ -48,5 +48,4 @@ class ToningEffectFaithful extends AbstractTag
             'Label' => 'n/a',
         ),
     );
-
 }

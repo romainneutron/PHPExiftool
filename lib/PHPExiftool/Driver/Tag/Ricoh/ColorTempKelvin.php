@@ -41,5 +41,4 @@ class ColorTempKelvin extends AbstractTag
     protected $Description = 'Color Temp Kelvin';
 
     protected $flag_Permanent = true;
-
 }

@@ -39,5 +39,4 @@ class ScheduledPatientInstitResidence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Scheduled Patient Instit Residence';
-
 }

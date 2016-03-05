@@ -39,5 +39,4 @@ class InputInformationSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Input Information Sequence';
-
 }

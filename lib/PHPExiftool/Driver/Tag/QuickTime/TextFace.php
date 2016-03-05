@@ -74,5 +74,4 @@ class TextFace extends AbstractTag
             'Label' => 'Extend',
         ),
     );
-
 }

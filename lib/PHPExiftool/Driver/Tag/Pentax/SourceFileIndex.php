@@ -41,5 +41,4 @@ class SourceFileIndex extends AbstractTag
     protected $Description = 'Source File Index';
 
     protected $flag_Permanent = true;
-
 }

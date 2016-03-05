@@ -41,5 +41,4 @@ class GIFGraphicControlExtension extends AbstractTag
     protected $Description = 'GIF Graphic Control Extension';
 
     protected $flag_Binary = true;
-
 }

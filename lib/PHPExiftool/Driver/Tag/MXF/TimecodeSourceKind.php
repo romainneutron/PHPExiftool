@@ -39,5 +39,4 @@ class TimecodeSourceKind extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Timecode Source Kind';
-
 }

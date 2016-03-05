@@ -39,5 +39,4 @@ class SigmaRowNumberWhichRowsWereUsed extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Sigma Row Number Which Rows Were Used';
-
 }

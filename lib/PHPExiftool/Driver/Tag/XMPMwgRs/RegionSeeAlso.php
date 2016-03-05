@@ -41,5 +41,4 @@ class RegionSeeAlso extends AbstractTag
     protected $Description = 'Region See Also';
 
     protected $flag_List = true;
-
 }

@@ -39,5 +39,4 @@ class EventSets extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Event Sets';
-
 }

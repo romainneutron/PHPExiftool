@@ -39,5 +39,4 @@ class KeyPointSets extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Key Point Sets';
-
 }

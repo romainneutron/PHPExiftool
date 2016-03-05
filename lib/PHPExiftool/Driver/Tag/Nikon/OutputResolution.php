@@ -41,5 +41,4 @@ class OutputResolution extends AbstractTag
     protected $Description = 'Output Resolution';
 
     protected $flag_Permanent = true;
-
 }

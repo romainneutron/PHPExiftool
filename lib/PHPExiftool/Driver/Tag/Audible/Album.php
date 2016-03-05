@@ -39,5 +39,4 @@ class Album extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Album';
-
 }

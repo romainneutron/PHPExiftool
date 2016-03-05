@@ -19,5 +19,4 @@ class Int16s extends AbstractType
     protected $ExiftoolName = 'int16s';
 
     protected $PHPMap = 'int';
-
 }

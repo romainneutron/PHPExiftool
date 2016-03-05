@@ -39,5 +39,4 @@ class ColorSpecPrecedence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Color Spec Precedence';
-
 }

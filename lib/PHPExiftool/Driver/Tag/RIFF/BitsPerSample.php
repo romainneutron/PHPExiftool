@@ -39,5 +39,4 @@ class BitsPerSample extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Bits Per Sample';
-
 }

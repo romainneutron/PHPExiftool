@@ -41,5 +41,4 @@ class PanoramaFrameNumber extends AbstractTag
     protected $Description = 'Panorama Frame Number';
 
     protected $flag_Permanent = true;
-
 }

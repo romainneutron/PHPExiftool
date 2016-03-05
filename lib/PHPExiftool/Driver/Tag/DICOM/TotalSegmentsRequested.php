@@ -39,5 +39,4 @@ class TotalSegmentsRequested extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Total Segments Requested';
-
 }

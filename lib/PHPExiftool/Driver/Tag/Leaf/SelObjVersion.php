@@ -39,5 +39,4 @@ class SelObjVersion extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Sel Obj Version';
-
 }

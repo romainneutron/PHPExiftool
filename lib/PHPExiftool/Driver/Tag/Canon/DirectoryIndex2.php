@@ -43,5 +43,4 @@ class DirectoryIndex2 extends AbstractTag
     protected $local_g2 = 'Image';
 
     protected $flag_Permanent = true;
-
 }

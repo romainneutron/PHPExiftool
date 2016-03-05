@@ -39,5 +39,4 @@ class Prefs extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Prefs';
-
 }

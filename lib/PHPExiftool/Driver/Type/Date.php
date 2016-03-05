@@ -19,5 +19,4 @@ class Date extends AbstractType
     protected $ExiftoolName = 'date';
 
     protected $PHPMap = 'date';
-
 }

@@ -58,5 +58,4 @@ class GTModelType extends AbstractTag
             'Label' => 'User Defined',
         ),
     );
-
 }

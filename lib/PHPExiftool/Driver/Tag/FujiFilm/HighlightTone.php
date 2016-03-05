@@ -64,5 +64,4 @@ class HighlightTone extends AbstractTag
             'Label' => 'Soft',
         ),
     );
-
 }

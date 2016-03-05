@@ -39,5 +39,4 @@ class NominalPercentageOfCardiacPhase extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Nominal Percentage Of Cardiac Phase';
-
 }

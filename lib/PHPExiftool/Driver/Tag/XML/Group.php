@@ -39,5 +39,4 @@ class Group extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Group';
-
 }

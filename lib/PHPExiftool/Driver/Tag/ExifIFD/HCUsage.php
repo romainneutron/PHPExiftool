@@ -56,5 +56,4 @@ class HCUsage extends AbstractTag
             'Label' => 'Trap',
         ),
     );
-
 }

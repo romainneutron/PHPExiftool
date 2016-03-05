@@ -39,5 +39,4 @@ class ImageHeight extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Image Height';
-
 }

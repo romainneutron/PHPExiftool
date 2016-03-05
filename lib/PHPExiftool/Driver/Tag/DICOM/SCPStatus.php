@@ -39,5 +39,4 @@ class SCPStatus extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'SCP Status';
-
 }

@@ -52,5 +52,4 @@ class ContinuousBracketing extends AbstractTag
             'Label' => 'High',
         ),
     );
-
 }

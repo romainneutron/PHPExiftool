@@ -39,5 +39,4 @@ class EventHabitat extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Event Habitat';
-
 }

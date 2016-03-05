@@ -52,5 +52,4 @@ class AFOnAELockButtonSwitch extends AbstractTag
             'Label' => 'Enable',
         ),
     );
-
 }

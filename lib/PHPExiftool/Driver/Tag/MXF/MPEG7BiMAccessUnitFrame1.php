@@ -39,5 +39,4 @@ class MPEG7BiMAccessUnitFrame1 extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'MPEG7 Bi M Access Unit Frame 1';
-
 }

@@ -39,5 +39,4 @@ class PixelComponentRangeStop extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Pixel Component Range Stop';
-
 }

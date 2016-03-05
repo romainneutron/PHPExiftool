@@ -39,5 +39,4 @@ class ISCI extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'ISCI';
-
 }

@@ -48,5 +48,4 @@ class SaturationLandscape extends AbstractTag
             'Label' => 'n/a',
         ),
     );
-
 }

@@ -120,5 +120,4 @@ class AFCPrioritySelection extends AbstractTag
             'Label' => 'Focus',
         ),
     );
-
 }

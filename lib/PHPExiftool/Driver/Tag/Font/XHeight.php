@@ -39,5 +39,4 @@ class XHeight extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'X Height';
-
 }

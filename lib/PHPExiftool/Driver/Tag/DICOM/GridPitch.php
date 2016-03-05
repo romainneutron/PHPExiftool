@@ -39,5 +39,4 @@ class GridPitch extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Grid Pitch';
-
 }

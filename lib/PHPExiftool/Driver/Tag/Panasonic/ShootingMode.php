@@ -356,5 +356,4 @@ class ShootingMode extends AbstractTag
             'Label' => 'Creative Control',
         ),
     );
-
 }

@@ -39,5 +39,4 @@ class InConcatenationNumber extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'In Concatenation Number';
-
 }

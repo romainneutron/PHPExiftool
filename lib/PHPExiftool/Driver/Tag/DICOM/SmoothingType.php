@@ -39,5 +39,4 @@ class SmoothingType extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Smoothing Type';
-
 }

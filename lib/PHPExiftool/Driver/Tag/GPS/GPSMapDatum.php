@@ -47,5 +47,4 @@ class GPSMapDatum extends AbstractTag
     protected $flag_Permanent = 'mixed';
 
     protected $MaxLength = 'mixed';
-
 }

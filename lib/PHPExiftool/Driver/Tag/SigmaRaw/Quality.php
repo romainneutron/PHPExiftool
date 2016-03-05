@@ -54,5 +54,4 @@ class Quality extends AbstractTag
             'Label' => 'Medium',
         ),
     );
-
 }

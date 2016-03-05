@@ -41,5 +41,4 @@ class SceneCaptureType extends AbstractTag
     protected $Description = 'Scene Capture Type';
 
     protected $MaxLength = 32;
-
 }

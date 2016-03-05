@@ -41,5 +41,4 @@ class AWBNormVfeMaxY extends AbstractTag
     protected $Description = 'AWB Norm Vfe Max Y';
 
     protected $flag_Permanent = true;
-
 }

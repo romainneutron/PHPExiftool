@@ -104,5 +104,4 @@ class SetFunctionWhenShooting extends AbstractTag
             'Label' => 'Image replay',
         ),
     );
-
 }

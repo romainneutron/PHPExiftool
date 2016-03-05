@@ -39,5 +39,4 @@ class SidecarForExtension extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Sidecar For Extension';
-
 }

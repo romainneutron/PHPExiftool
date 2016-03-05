@@ -19,5 +19,4 @@ class Double extends AbstractType
     protected $ExiftoolName = 'double';
 
     protected $PHPMap = 'float';
-
 }

@@ -39,5 +39,4 @@ class PSDEstimatedLimit extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'PSD Estimated Limit';
-
 }

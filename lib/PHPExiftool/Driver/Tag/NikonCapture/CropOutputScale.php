@@ -41,5 +41,4 @@ class CropOutputScale extends AbstractTag
     protected $Description = 'Crop Output Scale';
 
     protected $flag_Permanent = true;
-
 }

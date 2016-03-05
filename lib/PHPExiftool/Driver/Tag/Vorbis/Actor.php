@@ -39,5 +39,4 @@ class Actor extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Actor';
-
 }

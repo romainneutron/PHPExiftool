@@ -60,5 +60,4 @@ class ShutterAELButton extends AbstractTag
             'Label' => 'AE/AF, No AE lock',
         ),
     );
-
 }

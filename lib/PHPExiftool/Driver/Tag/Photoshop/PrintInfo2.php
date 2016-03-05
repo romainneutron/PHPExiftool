@@ -39,5 +39,4 @@ class PrintInfo2 extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Print Info 2';
-
 }

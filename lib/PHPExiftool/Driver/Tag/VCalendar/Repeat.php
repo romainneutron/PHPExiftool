@@ -39,5 +39,4 @@ class Repeat extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Repeat';
-
 }

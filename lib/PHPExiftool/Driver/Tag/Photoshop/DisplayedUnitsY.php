@@ -50,5 +50,4 @@ class DisplayedUnitsY extends AbstractTag
             'Label' => 'cm',
         ),
     );
-
 }

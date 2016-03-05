@@ -39,5 +39,4 @@ class TotalDataRate extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Total Data Rate';
-
 }

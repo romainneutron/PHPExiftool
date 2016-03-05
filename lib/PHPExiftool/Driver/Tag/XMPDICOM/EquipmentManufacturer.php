@@ -39,5 +39,4 @@ class EquipmentManufacturer extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Equipment Manufacturer';
-
 }

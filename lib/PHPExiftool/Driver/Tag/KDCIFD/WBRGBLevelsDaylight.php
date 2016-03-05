@@ -41,5 +41,4 @@ class WBRGBLevelsDaylight extends AbstractTag
     protected $Description = 'WB RGB Levels Daylight';
 
     protected $flag_Permanent = true;
-
 }

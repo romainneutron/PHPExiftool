@@ -39,5 +39,4 @@ class Journal extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Journal';
-
 }

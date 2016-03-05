@@ -41,5 +41,4 @@ class SoftwareVersion extends AbstractTag
     protected $Description = 'Software Version';
 
     protected $flag_Permanent = true;
-
 }

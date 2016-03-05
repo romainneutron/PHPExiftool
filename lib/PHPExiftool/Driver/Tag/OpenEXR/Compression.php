@@ -74,5 +74,4 @@ class Compression extends AbstractTag
             'Label' => 'B44A',
         ),
     );
-
 }

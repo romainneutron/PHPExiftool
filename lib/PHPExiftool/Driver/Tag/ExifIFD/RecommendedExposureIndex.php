@@ -41,5 +41,4 @@ class RecommendedExposureIndex extends AbstractTag
     protected $Description = 'Recommended Exposure Index';
 
     protected $local_g1 = 'ExifIFD';
-
 }

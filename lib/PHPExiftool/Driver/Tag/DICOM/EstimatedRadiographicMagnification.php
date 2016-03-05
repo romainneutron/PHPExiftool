@@ -39,5 +39,4 @@ class EstimatedRadiographicMagnification extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Estimated Radiographic Magnification';
-
 }

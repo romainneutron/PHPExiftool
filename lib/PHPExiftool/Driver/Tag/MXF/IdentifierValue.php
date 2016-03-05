@@ -39,5 +39,4 @@ class IdentifierValue extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Identifier Value';
-
 }

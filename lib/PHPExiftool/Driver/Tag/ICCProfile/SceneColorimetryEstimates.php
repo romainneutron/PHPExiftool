@@ -39,5 +39,4 @@ class SceneColorimetryEstimates extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Scene Colorimetry Estimates';
-
 }

@@ -41,5 +41,4 @@ class NumAFPoints extends AbstractTag
     protected $Description = 'Num AF Points';
 
     protected $flag_Permanent = true;
-
 }

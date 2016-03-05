@@ -39,5 +39,4 @@ class ImagedNucleus extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Imaged Nucleus';
-
 }

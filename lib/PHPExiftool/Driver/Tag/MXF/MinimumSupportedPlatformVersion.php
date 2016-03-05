@@ -39,5 +39,4 @@ class MinimumSupportedPlatformVersion extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Minimum Supported Platform Version';
-
 }

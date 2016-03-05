@@ -39,5 +39,4 @@ class GenMediaVersion extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Gen Media Version';
-
 }

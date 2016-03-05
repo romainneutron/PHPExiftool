@@ -39,5 +39,4 @@ class IsFixedPitch extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Is Fixed Pitch';
-
 }

@@ -52,5 +52,4 @@ class ContrastDetectAFInFocus extends AbstractTag
             'Label' => 'Yes',
         ),
     );
-
 }

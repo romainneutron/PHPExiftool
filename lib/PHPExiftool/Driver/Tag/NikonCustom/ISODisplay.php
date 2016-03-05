@@ -88,5 +88,4 @@ class ISODisplay extends AbstractTag
             'Label' => 'Show Frame Count',
         ),
     );
-
 }

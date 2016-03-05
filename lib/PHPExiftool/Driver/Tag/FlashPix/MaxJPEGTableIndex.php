@@ -39,5 +39,4 @@ class MaxJPEGTableIndex extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Max JPEG Table Index';
-
 }

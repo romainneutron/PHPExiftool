@@ -39,5 +39,4 @@ class File1Path extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'File 1 Path';
-
 }

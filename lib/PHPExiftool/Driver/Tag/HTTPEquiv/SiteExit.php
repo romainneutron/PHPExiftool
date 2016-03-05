@@ -39,5 +39,4 @@ class SiteExit extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Site Exit';
-
 }

@@ -39,5 +39,4 @@ class ChapterFlagHidden extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Chapter Flag Hidden';
-
 }

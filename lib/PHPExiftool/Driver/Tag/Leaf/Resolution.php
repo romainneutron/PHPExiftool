@@ -39,5 +39,4 @@ class Resolution extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Resolution';
-
 }

@@ -41,5 +41,4 @@ class AEXv extends AbstractTag
     protected $Description = 'AE Xv';
 
     protected $flag_Permanent = true;
-
 }

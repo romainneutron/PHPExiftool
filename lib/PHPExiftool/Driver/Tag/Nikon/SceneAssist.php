@@ -41,5 +41,4 @@ class SceneAssist extends AbstractTag
     protected $Description = 'Scene Assist';
 
     protected $flag_Permanent = true;
-
 }

@@ -39,5 +39,4 @@ class DisplayWindowLabelVector extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Display Window Label Vector';
-
 }

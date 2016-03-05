@@ -50,5 +50,4 @@ class CopyrightFlag extends AbstractTag
             'Label' => True,
         ),
     );
-
 }

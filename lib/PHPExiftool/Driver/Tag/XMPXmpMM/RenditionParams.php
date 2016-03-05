@@ -39,5 +39,4 @@ class RenditionParams extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Rendition Params';
-
 }

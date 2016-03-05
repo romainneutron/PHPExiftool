@@ -41,5 +41,4 @@ class BroadcastDate extends AbstractTag
     protected $Description = 'Broadcast Date';
 
     protected $local_g2 = 'Time';
-
 }

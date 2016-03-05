@@ -52,5 +52,4 @@ class AFAreaMode extends AbstractTag
             'Label' => 'Manual',
         ),
     );
-
 }

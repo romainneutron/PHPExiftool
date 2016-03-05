@@ -39,5 +39,4 @@ class Gamut extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Gamut';
-
 }

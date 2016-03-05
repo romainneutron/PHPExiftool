@@ -39,5 +39,4 @@ class PatternAngle extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Pattern Rotation Angle';
-
 }

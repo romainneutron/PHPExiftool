@@ -41,5 +41,4 @@ class Stereo extends AbstractTag
     protected $Description = 'Stereo';
 
     protected $local_g2 = 'Audio';
-
 }

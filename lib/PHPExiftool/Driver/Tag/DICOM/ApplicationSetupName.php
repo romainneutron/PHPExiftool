@@ -39,5 +39,4 @@ class ApplicationSetupName extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Application Setup Name';
-
 }

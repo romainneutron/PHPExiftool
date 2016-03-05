@@ -39,5 +39,4 @@ class TrackVolume extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Track Volume';
-
 }

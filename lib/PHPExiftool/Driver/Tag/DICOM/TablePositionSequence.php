@@ -39,5 +39,4 @@ class TablePositionSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Table Position Sequence';
-
 }

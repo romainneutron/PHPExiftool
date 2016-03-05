@@ -92,5 +92,4 @@ class AFPointSelected2 extends AbstractTag
             'Label' => 'Lower-right',
         ),
     );
-
 }

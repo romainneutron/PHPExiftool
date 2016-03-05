@@ -43,5 +43,4 @@ class CMSaturation extends AbstractTag
     protected $flag_Permanent = true;
 
     protected $MaxLength = 3;
-
 }

@@ -39,5 +39,4 @@ class CrosstalkCalibrationDate extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Crosstalk Calibration Date';
-
 }

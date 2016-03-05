@@ -39,5 +39,4 @@ class IncrementBetweenChannels extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Increment Between Channels';
-
 }

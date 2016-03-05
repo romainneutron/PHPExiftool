@@ -39,5 +39,4 @@ class XRayChain extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'X-Ray Chain';
-
 }

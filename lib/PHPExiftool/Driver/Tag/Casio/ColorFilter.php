@@ -108,5 +108,4 @@ class ColorFilter extends AbstractTag
             'Label' => 'Pink',
         ),
     );
-
 }

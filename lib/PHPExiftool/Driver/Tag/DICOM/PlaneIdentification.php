@@ -39,5 +39,4 @@ class PlaneIdentification extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Plane Identification';
-
 }

@@ -41,5 +41,4 @@ class ImageData extends AbstractTag
     protected $Description = 'Image Data';
 
     protected $flag_Binary = true;
-
 }

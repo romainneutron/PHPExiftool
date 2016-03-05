@@ -39,5 +39,4 @@ class SupportOrAdministrationStatus extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Support Or Administration Status';
-
 }

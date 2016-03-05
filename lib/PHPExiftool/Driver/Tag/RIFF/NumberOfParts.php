@@ -39,5 +39,4 @@ class NumberOfParts extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Number Of Parts';
-
 }

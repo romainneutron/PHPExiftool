@@ -102,5 +102,4 @@ class AFPointSelectionMethod extends AbstractTag
     );
 
     protected $Index = 'mixed';
-
 }

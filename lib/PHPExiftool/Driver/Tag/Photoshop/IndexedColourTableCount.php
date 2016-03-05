@@ -39,5 +39,4 @@ class IndexedColourTableCount extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Indexed Colour Table Count';
-
 }

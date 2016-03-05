@@ -39,5 +39,4 @@ class IntroTime extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Intro Time';
-
 }

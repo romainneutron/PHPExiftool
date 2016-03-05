@@ -39,5 +39,4 @@ class SortingOperationsSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Sorting Operations Sequence';
-
 }

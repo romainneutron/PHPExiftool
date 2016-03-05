@@ -39,5 +39,4 @@ class TreatmentMachineName extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Treatment Machine Name';
-
 }

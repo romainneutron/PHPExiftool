@@ -39,5 +39,4 @@ class StringElementType extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'String Element Type';
-
 }

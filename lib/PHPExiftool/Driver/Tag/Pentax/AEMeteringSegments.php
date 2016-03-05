@@ -41,5 +41,4 @@ class AEMeteringSegments extends AbstractTag
     protected $Description = 'AE Metering Segments';
 
     protected $flag_Permanent = true;
-
 }

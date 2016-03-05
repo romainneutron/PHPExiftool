@@ -41,5 +41,4 @@ class FLIRUnknown extends AbstractTag
     protected $Description = 'FLIR Unknown';
 
     protected $Index = 7;
-
 }

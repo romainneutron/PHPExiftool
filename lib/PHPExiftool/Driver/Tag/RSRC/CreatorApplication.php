@@ -39,5 +39,4 @@ class CreatorApplication extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Creator Application';
-
 }

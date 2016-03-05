@@ -39,5 +39,4 @@ class ApprovalStatusDateTime extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Approval Status Date Time';
-
 }

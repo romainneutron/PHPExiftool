@@ -39,5 +39,4 @@ class FaithfulRawSharpness extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Faithful Raw Sharpness';
-
 }

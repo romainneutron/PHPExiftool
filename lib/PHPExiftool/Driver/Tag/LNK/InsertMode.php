@@ -39,5 +39,4 @@ class InsertMode extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Insert Mode';
-
 }

@@ -39,5 +39,4 @@ class AcquisitionComments extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Acquisition Comments';
-
 }

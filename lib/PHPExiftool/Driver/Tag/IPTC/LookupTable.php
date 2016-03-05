@@ -41,5 +41,4 @@ class LookupTable extends AbstractTag
     protected $Description = 'Lookup Table';
 
     protected $flag_Binary = true;
-
 }

@@ -39,5 +39,4 @@ class MinCache extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Min Cache';
-
 }

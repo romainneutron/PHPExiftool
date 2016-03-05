@@ -39,5 +39,4 @@ class ARDroneFile extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'AR Drone File';
-
 }

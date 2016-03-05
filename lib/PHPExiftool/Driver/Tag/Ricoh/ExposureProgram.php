@@ -74,5 +74,4 @@ class ExposureProgram extends AbstractTag
             'Label' => 'Movie',
         ),
     );
-
 }

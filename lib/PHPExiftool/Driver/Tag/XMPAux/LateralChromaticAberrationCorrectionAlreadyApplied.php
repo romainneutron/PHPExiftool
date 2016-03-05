@@ -39,5 +39,4 @@ class LateralChromaticAberrationCorrectionAlreadyApplied extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Lateral Chromatic Aberration Correction Already Applied';
-
 }

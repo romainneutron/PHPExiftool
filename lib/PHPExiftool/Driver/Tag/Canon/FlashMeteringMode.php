@@ -64,5 +64,4 @@ class FlashMeteringMode extends AbstractTag
             'Label' => 'Off',
         ),
     );
-
 }

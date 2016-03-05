@@ -43,5 +43,4 @@ class FileAccessDate extends AbstractTag
     protected $local_g1 = 'System';
 
     protected $local_g2 = 'Time';
-
 }

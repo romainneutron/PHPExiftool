@@ -39,5 +39,4 @@ class ImageOrientationVolume extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Image Orientation Volume';
-
 }

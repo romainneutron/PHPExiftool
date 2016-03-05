@@ -41,5 +41,4 @@ class WBGreenFlash extends AbstractTag
     protected $Description = 'WB Green Flash';
 
     protected $flag_Permanent = true;
-
 }

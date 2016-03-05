@@ -39,5 +39,4 @@ class DurationOfXrayOn extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Duration Of Xray On';
-
 }

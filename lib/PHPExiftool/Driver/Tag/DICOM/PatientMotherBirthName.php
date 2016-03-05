@@ -39,5 +39,4 @@ class PatientMotherBirthName extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Patient Mother Birth Name';
-
 }

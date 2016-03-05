@@ -39,5 +39,4 @@ class CTDIPhantomTypeCodeSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'CTDI Phantom Type Code Sequence';
-
 }

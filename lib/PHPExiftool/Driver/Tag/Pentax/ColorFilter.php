@@ -56,5 +56,4 @@ class ColorFilter extends AbstractTag
             'Label' => 'Sepia',
         ),
     );
-
 }

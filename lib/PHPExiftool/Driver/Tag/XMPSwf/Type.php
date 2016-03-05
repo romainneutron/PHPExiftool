@@ -41,5 +41,4 @@ class Type extends AbstractTag
     protected $Description = 'Type';
 
     protected $flag_Avoid = true;
-
 }

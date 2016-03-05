@@ -39,5 +39,4 @@ class CTDIvol extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'CTD Ivol';
-
 }

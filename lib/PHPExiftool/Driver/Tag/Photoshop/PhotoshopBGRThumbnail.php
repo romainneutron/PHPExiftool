@@ -43,5 +43,4 @@ class PhotoshopBGRThumbnail extends AbstractTag
     protected $local_g2 = 'Preview';
 
     protected $flag_Unsafe = true;
-
 }

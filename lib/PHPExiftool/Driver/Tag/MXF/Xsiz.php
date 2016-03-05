@@ -39,5 +39,4 @@ class Xsiz extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Xsiz';
-
 }

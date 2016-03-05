@@ -41,5 +41,4 @@ class ExpandLens extends AbstractTag
     protected $Description = 'Expand Lens';
 
     protected $local_g1 = 'ExifIFD';
-
 }

@@ -39,5 +39,4 @@ class NumberOfBeats extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Number Of Beats';
-
 }

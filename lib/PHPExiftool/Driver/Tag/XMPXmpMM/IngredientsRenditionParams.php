@@ -41,5 +41,4 @@ class IngredientsRenditionParams extends AbstractTag
     protected $Description = 'Ingredients Rendition Params';
 
     protected $flag_List = true;
-
 }

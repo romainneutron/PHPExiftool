@@ -39,5 +39,4 @@ class TableYPositionToIsocenter extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Table Y Position To Isocenter';
-
 }

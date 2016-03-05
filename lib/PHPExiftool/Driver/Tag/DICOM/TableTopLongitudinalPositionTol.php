@@ -39,5 +39,4 @@ class TableTopLongitudinalPositionTol extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Table Top Longitudinal Position Tol';
-
 }

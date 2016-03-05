@@ -39,5 +39,4 @@ class NumStreams extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Num Streams';
-
 }

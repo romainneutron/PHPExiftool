@@ -39,5 +39,4 @@ class CircGradBasedCorrSaturation extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Circ Grad Based Corr Saturation';
-
 }

@@ -39,5 +39,4 @@ class AddressTrial extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Address Trial';
-
 }

@@ -39,5 +39,4 @@ class Revision extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Revision';
-
 }

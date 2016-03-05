@@ -39,5 +39,4 @@ class MinTransmissionTime extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Min Transmission Time';
-
 }

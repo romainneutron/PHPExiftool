@@ -58,5 +58,4 @@ class MandatoryBackground extends AbstractTag
             'Label' => 'Color and Image Mandatory',
         ),
     );
-
 }

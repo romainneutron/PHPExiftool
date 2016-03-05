@@ -39,5 +39,4 @@ class DynamicRange extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Dynamic Range';
-
 }

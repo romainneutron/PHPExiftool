@@ -39,5 +39,4 @@ class CenterOfCircExposControlSensRegion extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Center Of Circ Expos Control Sens Region';
-
 }

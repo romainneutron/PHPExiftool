@@ -39,5 +39,4 @@ class GradientBasedCorrMaskCenterWeight extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Gradient Based Corr Mask Center Weight';
-
 }

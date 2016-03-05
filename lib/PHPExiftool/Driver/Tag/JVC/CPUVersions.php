@@ -41,5 +41,4 @@ class CPUVersions extends AbstractTag
     protected $Description = 'CPU Versions';
 
     protected $flag_Permanent = true;
-
 }

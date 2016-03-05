@@ -39,5 +39,4 @@ class OperatorIDSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Operator ID Sequence';
-
 }

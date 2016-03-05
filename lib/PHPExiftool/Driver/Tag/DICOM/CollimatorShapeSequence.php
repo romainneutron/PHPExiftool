@@ -39,5 +39,4 @@ class CollimatorShapeSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Collimator Shape Sequence';
-
 }

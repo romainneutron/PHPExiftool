@@ -39,5 +39,4 @@ class CharTarget extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Char Target';
-
 }

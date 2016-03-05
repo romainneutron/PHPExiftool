@@ -41,5 +41,4 @@ class MaxApertureAtMinFocal extends AbstractTag
     protected $Description = 'Max Aperture At Min Focal';
 
     protected $flag_Permanent = true;
-
 }

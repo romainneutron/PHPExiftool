@@ -39,5 +39,4 @@ class AwardCategory extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Award Category';
-
 }

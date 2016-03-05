@@ -39,5 +39,4 @@ class IntegrationIndication extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Integration Indication';
-
 }

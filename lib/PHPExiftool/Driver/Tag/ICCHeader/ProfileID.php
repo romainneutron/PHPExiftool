@@ -41,5 +41,4 @@ class ProfileID extends AbstractTag
     protected $Description = 'Profile ID';
 
     protected $MaxLength = 16;
-
 }

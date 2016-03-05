@@ -41,5 +41,4 @@ class RawDepth extends AbstractTag
     protected $Description = 'Raw Depth';
 
     protected $flag_Permanent = true;
-
 }

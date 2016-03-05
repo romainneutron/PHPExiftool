@@ -41,5 +41,4 @@ class OceIDNumber extends AbstractTag
     protected $Description = 'Oce ID Number';
 
     protected $local_g1 = 'ExifIFD';
-
 }

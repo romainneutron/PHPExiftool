@@ -39,5 +39,4 @@ class ByteOffset extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Byte Offset';
-
 }

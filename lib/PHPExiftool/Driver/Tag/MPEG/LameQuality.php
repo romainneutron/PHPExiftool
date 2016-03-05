@@ -39,5 +39,4 @@ class LameQuality extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Lame Quality';
-
 }

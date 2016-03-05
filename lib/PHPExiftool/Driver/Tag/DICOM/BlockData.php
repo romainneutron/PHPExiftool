@@ -39,5 +39,4 @@ class BlockData extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Block Data';
-
 }

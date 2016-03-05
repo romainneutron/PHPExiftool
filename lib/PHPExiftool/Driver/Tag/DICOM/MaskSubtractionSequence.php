@@ -39,5 +39,4 @@ class MaskSubtractionSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Mask Subtraction Sequence';
-
 }

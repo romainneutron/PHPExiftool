@@ -46,5 +46,4 @@ class Filter extends AbstractTag
             'Label' => 'Adaptive',
         ),
     );
-
 }

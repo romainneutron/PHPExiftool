@@ -76,5 +76,4 @@ class AFSensorActive extends AbstractTag
             'Label' => 'Bottom-left',
         ),
     );
-
 }

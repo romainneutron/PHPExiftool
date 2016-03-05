@@ -39,5 +39,4 @@ class RespiratoryTriggerPoint extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Respiratory Trigger Point';
-
 }

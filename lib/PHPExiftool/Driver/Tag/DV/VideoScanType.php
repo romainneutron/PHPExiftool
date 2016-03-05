@@ -39,5 +39,4 @@ class VideoScanType extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Video Scan Type';
-
 }

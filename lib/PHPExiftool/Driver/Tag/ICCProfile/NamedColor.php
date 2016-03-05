@@ -39,5 +39,4 @@ class NamedColor extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Named Color';
-
 }

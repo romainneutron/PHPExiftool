@@ -39,5 +39,4 @@ class AuxiliaryBitsMode extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Auxiliary Bits Mode';
-
 }

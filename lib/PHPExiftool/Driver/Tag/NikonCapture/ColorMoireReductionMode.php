@@ -60,5 +60,4 @@ class ColorMoireReductionMode extends AbstractTag
             'Label' => 'High',
         ),
     );
-
 }

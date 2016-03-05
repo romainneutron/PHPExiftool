@@ -39,5 +39,4 @@ class LastChar extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Last Char';
-
 }

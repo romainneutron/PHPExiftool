@@ -41,5 +41,4 @@ class PrintIM extends AbstractTag
     protected $Description = 'Print Image Matching';
 
     protected $flag_Binary = true;
-
 }

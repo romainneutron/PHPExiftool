@@ -52,5 +52,4 @@ class ExposureCompensationMode extends AbstractTag
             'Label' => 'Ambient Only',
         ),
     );
-
 }

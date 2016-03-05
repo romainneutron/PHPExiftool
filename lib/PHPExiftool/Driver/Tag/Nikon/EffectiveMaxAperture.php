@@ -41,5 +41,4 @@ class EffectiveMaxAperture extends AbstractTag
     protected $Description = 'Effective Max Aperture';
 
     protected $flag_Permanent = true;
-
 }

@@ -41,5 +41,4 @@ class PreviewImageSize extends AbstractTag
     protected $Description = 'Preview Image Size';
 
     protected $local_g2 = 'Image';
-
 }

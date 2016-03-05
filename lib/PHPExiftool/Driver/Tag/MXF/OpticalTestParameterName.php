@@ -39,5 +39,4 @@ class OpticalTestParameterName extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Optical Test Parameter Name';
-
 }

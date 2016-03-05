@@ -41,5 +41,4 @@ class UserDataDji extends AbstractTag
     protected $Description = 'User Data dji';
 
     protected $flag_Binary = true;
-
 }

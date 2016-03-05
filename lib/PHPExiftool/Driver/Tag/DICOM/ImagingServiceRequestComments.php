@@ -39,5 +39,4 @@ class ImagingServiceRequestComments extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Imaging Service Request Comments';
-
 }

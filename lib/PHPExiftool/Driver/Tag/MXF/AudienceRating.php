@@ -39,5 +39,4 @@ class AudienceRating extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Audience Rating';
-
 }

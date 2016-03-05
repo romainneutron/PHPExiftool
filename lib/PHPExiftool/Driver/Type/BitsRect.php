@@ -19,5 +19,4 @@ class BitsRect extends AbstractType
     protected $ExiftoolName = 'BitsRect#';
 
     protected $PHPMap = 'string';
-
 }

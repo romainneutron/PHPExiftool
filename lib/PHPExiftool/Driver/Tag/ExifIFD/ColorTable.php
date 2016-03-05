@@ -41,5 +41,4 @@ class ColorTable extends AbstractTag
     protected $Description = 'Color Table';
 
     protected $local_g1 = 'ExifIFD';
-
 }

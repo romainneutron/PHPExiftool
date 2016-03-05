@@ -54,5 +54,4 @@ class VideoFieldOrder extends AbstractTag
             'Label' => 'Upper',
         ),
     );
-
 }

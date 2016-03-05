@@ -41,5 +41,4 @@ class WBShiftGM extends AbstractTag
     protected $Description = 'WB Shift GM';
 
     protected $flag_Permanent = true;
-
 }

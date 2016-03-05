@@ -39,5 +39,4 @@ class ReflectionHardcopyOrigColorimetry extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Reflection Hardcopy Orig Colorimetry';
-
 }

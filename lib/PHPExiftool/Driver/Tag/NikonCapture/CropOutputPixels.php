@@ -41,5 +41,4 @@ class CropOutputPixels extends AbstractTag
     protected $Description = 'Crop Output Pixels';
 
     protected $flag_Permanent = true;
-
 }

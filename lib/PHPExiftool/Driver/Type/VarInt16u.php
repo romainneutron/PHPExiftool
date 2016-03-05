@@ -19,5 +19,4 @@ class VarInt16u extends AbstractType
     protected $ExiftoolName = 'var_int16u';
 
     protected $PHPMap = 'int';
-
 }

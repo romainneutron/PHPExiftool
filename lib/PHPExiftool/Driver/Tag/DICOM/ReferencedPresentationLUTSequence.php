@@ -39,5 +39,4 @@ class ReferencedPresentationLUTSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Referenced Presentation LUT Sequence';
-
 }

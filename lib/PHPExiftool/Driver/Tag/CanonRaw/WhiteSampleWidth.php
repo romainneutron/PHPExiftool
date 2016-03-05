@@ -41,5 +41,4 @@ class WhiteSampleWidth extends AbstractTag
     protected $Description = 'White Sample Width';
 
     protected $flag_Permanent = true;
-
 }

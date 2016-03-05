@@ -39,5 +39,4 @@ class CameraID extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Camera ID';
-
 }

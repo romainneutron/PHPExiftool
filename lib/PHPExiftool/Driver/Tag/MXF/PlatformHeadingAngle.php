@@ -39,5 +39,4 @@ class PlatformHeadingAngle extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Platform Heading Angle';
-
 }

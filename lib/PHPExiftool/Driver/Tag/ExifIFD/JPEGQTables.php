@@ -41,5 +41,4 @@ class JPEGQTables extends AbstractTag
     protected $Description = 'JPEGQ Tables';
 
     protected $local_g1 = 'ExifIFD';
-
 }

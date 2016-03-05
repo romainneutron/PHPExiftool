@@ -39,5 +39,4 @@ class StreamMimeType extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Stream Mime Type';
-
 }

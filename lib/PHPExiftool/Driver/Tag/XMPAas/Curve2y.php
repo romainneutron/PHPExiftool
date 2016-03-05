@@ -39,5 +39,4 @@ class Curve2y extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Curve 2y';
-
 }

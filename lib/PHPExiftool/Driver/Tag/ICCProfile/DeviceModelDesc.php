@@ -41,5 +41,4 @@ class DeviceModelDesc extends AbstractTag
     protected $Description = 'Device Model Desc';
 
     protected $local_g2 = 'Camera';
-
 }

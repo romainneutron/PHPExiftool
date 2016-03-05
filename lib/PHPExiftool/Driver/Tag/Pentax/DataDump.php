@@ -41,5 +41,4 @@ class DataDump extends AbstractTag
     protected $Description = 'Data Dump';
 
     protected $flag_Permanent = true;
-
 }

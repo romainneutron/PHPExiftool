@@ -39,5 +39,4 @@ class PrimaryDosimeterUnit extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Primary Dosimeter Unit';
-
 }

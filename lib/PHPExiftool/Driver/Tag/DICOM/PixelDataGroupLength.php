@@ -39,5 +39,4 @@ class PixelDataGroupLength extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Pixel Data Group Length';
-
 }

@@ -39,5 +39,4 @@ class DarkCorrectionType extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Dark Correction Type';
-
 }

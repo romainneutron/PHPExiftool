@@ -39,5 +39,4 @@ class ANCPayloadSampleCount extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'ANC Payload Sample Count';
-
 }

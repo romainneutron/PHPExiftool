@@ -41,5 +41,4 @@ class CopyrightFileName extends AbstractTag
     protected $Description = 'Copyright File Name';
 
     protected $MaxLength = 12;
-
 }

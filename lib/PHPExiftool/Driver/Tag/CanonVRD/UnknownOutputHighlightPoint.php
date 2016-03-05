@@ -39,5 +39,4 @@ class UnknownOutputHighlightPoint extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Unknown Output Highlight Point';
-
 }

@@ -39,5 +39,4 @@ class Copyright extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Copyright';
-
 }

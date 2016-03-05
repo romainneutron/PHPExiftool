@@ -41,5 +41,4 @@ class ABDate extends AbstractTag
     protected $Description = 'AB Date';
 
     protected $local_g2 = 'Time';
-
 }

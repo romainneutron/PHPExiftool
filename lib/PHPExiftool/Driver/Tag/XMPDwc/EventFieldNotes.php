@@ -39,5 +39,4 @@ class EventFieldNotes extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Event Field Notes';
-
 }

@@ -39,5 +39,4 @@ class CenterOfCircularShutter extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Center Of Circular Shutter';
-
 }

@@ -39,5 +39,4 @@ class PaintCorrectionExposure2012 extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Paint Correction Exposure 2012';
-
 }

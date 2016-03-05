@@ -39,5 +39,4 @@ class AcquisitionTerminationCondition extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Acquisition Termination Condition';
-
 }

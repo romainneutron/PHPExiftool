@@ -41,5 +41,4 @@ class ASF5NrmizeFactor2 extends AbstractTag
     protected $Description = 'ASF5 Nrmize Factor2';
 
     protected $flag_Permanent = true;
-
 }

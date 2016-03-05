@@ -39,5 +39,4 @@ class Starring extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Starring';
-
 }

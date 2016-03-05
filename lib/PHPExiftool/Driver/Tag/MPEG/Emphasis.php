@@ -58,5 +58,4 @@ class Emphasis extends AbstractTag
             'Label' => 'CCIT J.17',
         ),
     );
-
 }

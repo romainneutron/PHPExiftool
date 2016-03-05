@@ -41,5 +41,4 @@ class Podcast extends AbstractTag
     protected $Description = 'Podcast';
 
     protected $flag_Binary = true;
-
 }

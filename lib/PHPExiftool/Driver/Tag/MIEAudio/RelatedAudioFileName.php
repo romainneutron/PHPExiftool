@@ -39,5 +39,4 @@ class RelatedAudioFileName extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Related Audio File Name';
-
 }

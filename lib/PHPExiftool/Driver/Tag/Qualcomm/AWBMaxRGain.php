@@ -41,5 +41,4 @@ class AWBMaxRGain extends AbstractTag
     protected $Description = 'AWB Max R Gain';
 
     protected $flag_Permanent = true;
-
 }

@@ -41,5 +41,4 @@ class SensorBottomBorder extends AbstractTag
     protected $Description = 'Sensor Bottom Border';
 
     protected $flag_Permanent = true;
-
 }

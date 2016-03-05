@@ -50,5 +50,4 @@ class CameraRawLinear extends AbstractTag
             'Label' => 'Yes',
         ),
     );
-
 }

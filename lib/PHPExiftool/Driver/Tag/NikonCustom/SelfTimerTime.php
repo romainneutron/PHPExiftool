@@ -220,5 +220,4 @@ class SelfTimerTime extends AbstractTag
             'Label' => '20 s',
         ),
     );
-
 }

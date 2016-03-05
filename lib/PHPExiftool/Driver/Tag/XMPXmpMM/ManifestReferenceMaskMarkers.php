@@ -52,5 +52,4 @@ class ManifestReferenceMaskMarkers extends AbstractTag
             'Label' => 'None',
         ),
     );
-
 }

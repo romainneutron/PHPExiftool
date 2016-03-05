@@ -39,5 +39,4 @@ class RequestPriority extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Request Priority';
-
 }

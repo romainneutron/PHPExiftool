@@ -50,5 +50,4 @@ class PortraitRawLinear extends AbstractTag
             'Label' => 'Yes',
         ),
     );
-
 }

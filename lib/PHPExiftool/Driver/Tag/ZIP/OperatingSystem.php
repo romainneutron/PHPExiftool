@@ -118,5 +118,4 @@ class OperatingSystem extends AbstractTag
             'Label' => 'Unix',
         ),
     );
-
 }

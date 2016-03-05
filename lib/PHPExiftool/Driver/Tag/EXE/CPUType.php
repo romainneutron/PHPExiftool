@@ -236,5 +236,4 @@ class CPUType extends AbstractTag
     );
 
     protected $flag_List = false;
-
 }

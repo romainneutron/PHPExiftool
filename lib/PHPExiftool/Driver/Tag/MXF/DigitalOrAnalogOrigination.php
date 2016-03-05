@@ -39,5 +39,4 @@ class DigitalOrAnalogOrigination extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Digital Or Analog Origination';
-
 }

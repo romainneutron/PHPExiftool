@@ -39,5 +39,4 @@ class ClassificationReason extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Classification Reason';
-
 }

@@ -50,5 +50,4 @@ class ImageArrangement extends AbstractTag
             'Label' => 'Cross View Alignment',
         ),
     );
-
 }

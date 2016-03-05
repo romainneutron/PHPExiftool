@@ -41,5 +41,4 @@ class PanoramicStitchVersion extends AbstractTag
     protected $Description = 'Panoramic Stitch Version';
 
     protected $flag_Permanent = true;
-
 }

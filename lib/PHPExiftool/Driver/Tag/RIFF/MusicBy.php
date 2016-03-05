@@ -39,5 +39,4 @@ class MusicBy extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Music By';
-
 }

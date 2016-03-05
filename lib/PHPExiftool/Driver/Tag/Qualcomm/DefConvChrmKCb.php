@@ -41,5 +41,4 @@ class DefConvChrmKCb extends AbstractTag
     protected $Description = 'Def Conv Chrm K Cb';
 
     protected $flag_Permanent = true;
-
 }

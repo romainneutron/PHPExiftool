@@ -41,5 +41,4 @@ class AFAreaYPositions extends AbstractTag
     protected $Description = 'AF Area Y Positions';
 
     protected $flag_Permanent = true;
-
 }

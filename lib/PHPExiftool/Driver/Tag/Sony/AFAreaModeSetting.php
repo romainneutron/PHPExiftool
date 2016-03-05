@@ -102,5 +102,4 @@ class AFAreaModeSetting extends AbstractTag
     );
 
     protected $Index = 'mixed';
-
 }

@@ -39,5 +39,4 @@ class IndexingStartPosition extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Indexing Start Position';
-
 }

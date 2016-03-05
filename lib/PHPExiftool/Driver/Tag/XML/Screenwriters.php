@@ -41,5 +41,4 @@ class Screenwriters extends AbstractTag
     protected $Description = 'Screenwriters';
 
     protected $flag_List = true;
-
 }

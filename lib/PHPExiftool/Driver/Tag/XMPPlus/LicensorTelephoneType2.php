@@ -64,5 +64,4 @@ class LicensorTelephoneType2 extends AbstractTag
             'Label' => 'Work',
         ),
     );
-
 }

@@ -56,5 +56,4 @@ class FlashCurtain extends AbstractTag
             'Label' => '2nd',
         ),
     );
-
 }

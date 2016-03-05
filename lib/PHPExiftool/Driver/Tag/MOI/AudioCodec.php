@@ -52,5 +52,4 @@ class AudioCodec extends AbstractTag
             'Label' => 'MPEG',
         ),
     );
-
 }

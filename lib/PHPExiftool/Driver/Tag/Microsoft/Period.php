@@ -39,5 +39,4 @@ class Period extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Period';
-
 }

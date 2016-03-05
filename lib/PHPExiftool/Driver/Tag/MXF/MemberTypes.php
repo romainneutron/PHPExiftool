@@ -39,5 +39,4 @@ class MemberTypes extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Member Types';
-
 }

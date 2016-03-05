@@ -39,5 +39,4 @@ class ReferenceChannelUsed extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Reference Channel Used';
-
 }

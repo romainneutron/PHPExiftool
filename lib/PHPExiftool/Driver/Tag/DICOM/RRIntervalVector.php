@@ -39,5 +39,4 @@ class RRIntervalVector extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'RR Interval Vector';
-
 }

@@ -39,5 +39,4 @@ class StreamPreroll extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Stream Preroll';
-
 }

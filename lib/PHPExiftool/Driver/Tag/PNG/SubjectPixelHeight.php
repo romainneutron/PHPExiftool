@@ -39,5 +39,4 @@ class SubjectPixelHeight extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Subject Pixel Height';
-
 }

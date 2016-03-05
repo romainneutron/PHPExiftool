@@ -41,5 +41,4 @@ class KodakImageWidth extends AbstractTag
     protected $Description = 'Kodak Image Width';
 
     protected $flag_Permanent = true;
-
 }

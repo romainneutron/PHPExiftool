@@ -296,5 +296,4 @@ class SonyModelID extends AbstractTag
             'Label' => 'ILCE-6300',
         ),
     );
-
 }

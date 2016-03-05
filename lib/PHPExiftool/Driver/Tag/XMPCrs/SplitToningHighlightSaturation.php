@@ -39,5 +39,4 @@ class SplitToningHighlightSaturation extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Split Toning Highlight Saturation';
-
 }

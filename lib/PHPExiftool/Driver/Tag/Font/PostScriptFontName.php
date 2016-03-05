@@ -39,5 +39,4 @@ class PostScriptFontName extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'PostScript Font Name';
-
 }

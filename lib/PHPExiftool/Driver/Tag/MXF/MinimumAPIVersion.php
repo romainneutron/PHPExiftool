@@ -39,5 +39,4 @@ class MinimumAPIVersion extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Minimum API Version';
-
 }

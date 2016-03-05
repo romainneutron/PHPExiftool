@@ -39,5 +39,4 @@ class TypeOfReceiverUsed extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Type Of Receiver Used';
-
 }

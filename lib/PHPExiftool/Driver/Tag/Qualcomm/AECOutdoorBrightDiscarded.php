@@ -41,5 +41,4 @@ class AECOutdoorBrightDiscarded extends AbstractTag
     protected $Description = 'AEC Outdoor Bright Discarded';
 
     protected $flag_Permanent = true;
-
 }

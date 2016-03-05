@@ -41,5 +41,4 @@ class AlphaByteCount extends AbstractTag
     protected $Description = 'Alpha Byte Count';
 
     protected $local_g1 = 'ExifIFD';
-
 }

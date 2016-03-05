@@ -39,5 +39,4 @@ class VersionOp extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Version';
-
 }

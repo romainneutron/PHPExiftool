@@ -39,5 +39,4 @@ class EventCodeSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Event Code Sequence';
-
 }

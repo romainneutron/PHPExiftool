@@ -39,5 +39,4 @@ class PerformerURL extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Performer URL';
-
 }

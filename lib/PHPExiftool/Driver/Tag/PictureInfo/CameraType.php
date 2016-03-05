@@ -41,5 +41,4 @@ class CameraType extends AbstractTag
     protected $Description = 'Camera Type';
 
     protected $local_g2 = 'Camera';
-
 }

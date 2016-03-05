@@ -52,5 +52,4 @@ class FineSharpness extends AbstractTag
             'Label' => 'On',
         ),
     );
-
 }

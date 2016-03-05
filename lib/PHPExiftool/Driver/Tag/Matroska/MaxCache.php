@@ -39,5 +39,4 @@ class MaxCache extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Max Cache';
-
 }

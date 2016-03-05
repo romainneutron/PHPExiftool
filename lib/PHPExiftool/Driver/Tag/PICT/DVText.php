@@ -39,5 +39,4 @@ class DVText extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'DV Text';
-
 }

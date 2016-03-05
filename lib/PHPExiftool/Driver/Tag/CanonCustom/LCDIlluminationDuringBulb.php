@@ -52,5 +52,4 @@ class LCDIlluminationDuringBulb extends AbstractTag
             'Label' => 'On',
         ),
     );
-
 }

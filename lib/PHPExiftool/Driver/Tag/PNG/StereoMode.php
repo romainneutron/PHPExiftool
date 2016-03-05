@@ -50,5 +50,4 @@ class StereoMode extends AbstractTag
             'Label' => 'Diverging-fuse Layout',
         ),
     );
-
 }

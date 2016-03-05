@@ -41,5 +41,4 @@ class CodecPrivate extends AbstractTag
     protected $Description = 'Codec Private';
 
     protected $flag_Binary = true;
-
 }

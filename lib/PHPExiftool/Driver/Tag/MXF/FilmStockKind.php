@@ -39,5 +39,4 @@ class FilmStockKind extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Film Stock Kind';
-
 }

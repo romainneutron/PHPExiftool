@@ -39,5 +39,4 @@ class AirFilterCalibrationDate extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Air Filter Calibration Date';
-
 }

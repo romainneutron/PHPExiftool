@@ -39,5 +39,4 @@ class CompanyMainPhone extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Company Main Phone';
-
 }

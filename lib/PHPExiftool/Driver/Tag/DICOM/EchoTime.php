@@ -39,5 +39,4 @@ class EchoTime extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Echo Time';
-
 }

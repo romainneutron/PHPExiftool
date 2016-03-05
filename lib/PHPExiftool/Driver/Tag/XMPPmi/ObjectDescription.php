@@ -41,5 +41,4 @@ class ObjectDescription extends AbstractTag
     protected $Description = 'Object Description';
 
     protected $flag_Avoid = true;
-
 }

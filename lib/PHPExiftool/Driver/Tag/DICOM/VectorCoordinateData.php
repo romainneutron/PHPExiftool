@@ -39,5 +39,4 @@ class VectorCoordinateData extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Vector Coordinate Data';
-
 }

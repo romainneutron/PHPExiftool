@@ -39,5 +39,4 @@ class PolarCharacteristic extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Polar Characteristic';
-
 }

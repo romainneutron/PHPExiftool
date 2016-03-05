@@ -39,5 +39,4 @@ class ObjectRegionCode extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Object Region Code';
-
 }

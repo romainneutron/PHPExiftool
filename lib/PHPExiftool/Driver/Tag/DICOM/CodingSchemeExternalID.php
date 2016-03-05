@@ -39,5 +39,4 @@ class CodingSchemeExternalID extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Coding Scheme External ID';
-
 }

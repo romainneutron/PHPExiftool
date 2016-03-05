@@ -74,5 +74,4 @@ class YCbCrSubSampling extends AbstractTag
             'Label' => 'YCbCr4:1:0 (4 2)',
         ),
     );
-
 }

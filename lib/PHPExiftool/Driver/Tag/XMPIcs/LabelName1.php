@@ -41,5 +41,4 @@ class LabelName1 extends AbstractTag
     protected $Description = 'Label Name 1';
 
     protected $flag_List = true;
-
 }

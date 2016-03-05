@@ -56,5 +56,4 @@ class FlashSource extends AbstractTag
             'Label' => 'Internal',
         ),
     );
-
 }

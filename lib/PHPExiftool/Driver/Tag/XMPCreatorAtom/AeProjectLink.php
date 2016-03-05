@@ -39,5 +39,4 @@ class AeProjectLink extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Ae Project Link';
-
 }

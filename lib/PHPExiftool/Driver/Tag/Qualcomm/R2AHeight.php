@@ -41,5 +41,4 @@ class R2AHeight extends AbstractTag
     protected $Description = 'R2 A Height';
 
     protected $flag_Permanent = true;
-
 }

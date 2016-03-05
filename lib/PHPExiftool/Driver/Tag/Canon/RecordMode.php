@@ -80,5 +80,4 @@ class RecordMode extends AbstractTag
             'Label' => 'MP4',
         ),
     );
-
 }

@@ -52,5 +52,4 @@ class ElectronicFrontCurtainShutter extends AbstractTag
             'Label' => 'On',
         ),
     );
-
 }

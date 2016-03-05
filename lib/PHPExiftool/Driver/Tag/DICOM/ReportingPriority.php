@@ -39,5 +39,4 @@ class ReportingPriority extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Reporting Priority';
-
 }

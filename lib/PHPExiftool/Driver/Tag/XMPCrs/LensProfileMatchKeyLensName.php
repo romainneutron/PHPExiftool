@@ -39,5 +39,4 @@ class LensProfileMatchKeyLensName extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Lens Profile Match Key Lens Name';
-
 }

@@ -52,5 +52,4 @@ class HighlightColorDistortReduct extends AbstractTag
             'Label' => 'Advanced',
         ),
     );
-
 }

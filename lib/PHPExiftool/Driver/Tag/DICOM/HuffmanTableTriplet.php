@@ -39,5 +39,4 @@ class HuffmanTableTriplet extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Huffman Table Triplet';
-
 }

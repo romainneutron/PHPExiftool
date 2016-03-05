@@ -39,5 +39,4 @@ class AudioMinimumNumberOutputPackets extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Audio Minimum Number Output Packets';
-
 }

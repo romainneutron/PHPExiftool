@@ -41,5 +41,4 @@ class DevelopmentDynamicRange extends AbstractTag
     protected $Description = 'Development Dynamic Range';
 
     protected $flag_Permanent = true;
-
 }

@@ -39,5 +39,4 @@ class LayerNumber extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Layer Number';
-
 }

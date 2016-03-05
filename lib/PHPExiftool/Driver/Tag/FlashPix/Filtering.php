@@ -39,5 +39,4 @@ class Filtering extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Filtering';
-
 }

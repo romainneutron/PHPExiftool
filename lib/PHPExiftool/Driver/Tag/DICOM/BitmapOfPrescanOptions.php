@@ -39,5 +39,4 @@ class BitmapOfPrescanOptions extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Bitmap Of Prescan Options';
-
 }

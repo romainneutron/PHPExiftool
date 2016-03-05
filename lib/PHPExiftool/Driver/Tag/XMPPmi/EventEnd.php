@@ -41,5 +41,4 @@ class EventEnd extends AbstractTag
     protected $Description = 'Event End';
 
     protected $flag_Avoid = true;
-
 }

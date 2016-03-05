@@ -41,5 +41,4 @@ class ReuseProhibited extends AbstractTag
     protected $Description = 'Reuse Prohibited';
 
     protected $flag_Avoid = true;
-
 }

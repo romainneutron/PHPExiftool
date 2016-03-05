@@ -39,5 +39,4 @@ class InvertSameRgn extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Invert Same Rgn';
-
 }

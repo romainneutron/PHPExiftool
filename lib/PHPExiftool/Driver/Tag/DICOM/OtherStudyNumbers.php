@@ -39,5 +39,4 @@ class OtherStudyNumbers extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Other Study Numbers';
-
 }

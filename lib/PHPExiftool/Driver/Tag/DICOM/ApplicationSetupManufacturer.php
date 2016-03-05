@@ -39,5 +39,4 @@ class ApplicationSetupManufacturer extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Application Setup Manufacturer';
-
 }

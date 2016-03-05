@@ -39,5 +39,4 @@ class ColorComponents extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Color Components';
-
 }

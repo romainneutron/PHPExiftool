@@ -39,5 +39,4 @@ class LowRRValue extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Low RR Value';
-
 }

@@ -39,5 +39,4 @@ class InternalLeading extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Internal Leading';
-
 }

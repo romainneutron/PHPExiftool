@@ -39,5 +39,4 @@ class RegisterKind extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Register Kind';
-
 }

@@ -39,5 +39,4 @@ class UsedExtensionNumbers extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Used Extension Numbers';
-
 }

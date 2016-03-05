@@ -41,5 +41,4 @@ class ISOSelection extends AbstractTag
     protected $Description = 'ISO Selection';
 
     protected $flag_Permanent = true;
-
 }

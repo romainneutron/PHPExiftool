@@ -39,5 +39,4 @@ class OS extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'OS';
-
 }

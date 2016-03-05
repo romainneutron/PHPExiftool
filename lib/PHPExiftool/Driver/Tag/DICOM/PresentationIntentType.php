@@ -39,5 +39,4 @@ class PresentationIntentType extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Presentation Intent Type';
-
 }

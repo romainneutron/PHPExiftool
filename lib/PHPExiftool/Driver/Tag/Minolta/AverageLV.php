@@ -41,5 +41,4 @@ class AverageLV extends AbstractTag
     protected $Description = 'Average LV';
 
     protected $flag_Permanent = true;
-
 }

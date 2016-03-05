@@ -41,5 +41,4 @@ class PreviewApplicationName extends AbstractTag
     protected $Description = 'Preview Application Name';
 
     protected $flag_Unsafe = true;
-
 }

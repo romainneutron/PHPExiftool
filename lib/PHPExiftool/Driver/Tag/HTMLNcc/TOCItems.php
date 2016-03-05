@@ -39,5 +39,4 @@ class TOCItems extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'TOC Items';
-
 }

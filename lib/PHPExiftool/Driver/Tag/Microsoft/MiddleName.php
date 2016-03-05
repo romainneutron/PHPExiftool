@@ -39,5 +39,4 @@ class MiddleName extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Middle Name';
-
 }

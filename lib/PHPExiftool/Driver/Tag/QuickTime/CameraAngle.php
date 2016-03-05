@@ -39,5 +39,4 @@ class CameraAngle extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Camera Angle';
-
 }

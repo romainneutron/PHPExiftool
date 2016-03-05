@@ -41,5 +41,4 @@ class ExifCameraInfo extends AbstractTag
     protected $Description = 'Exif Camera Info';
 
     protected $MaxLength = 4096;
-
 }

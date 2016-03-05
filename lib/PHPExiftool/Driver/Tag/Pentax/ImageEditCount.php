@@ -41,5 +41,4 @@ class ImageEditCount extends AbstractTag
     protected $Description = 'Image Edit Count';
 
     protected $flag_Permanent = true;
-
 }

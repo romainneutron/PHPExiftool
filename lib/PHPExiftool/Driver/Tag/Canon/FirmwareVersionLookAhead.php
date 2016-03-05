@@ -43,5 +43,4 @@ class FirmwareVersionLookAhead extends AbstractTag
     protected $flag_Permanent = true;
 
     protected $MaxLength = 'mixed';
-
 }

@@ -39,5 +39,4 @@ class RadionuclideHalfLife extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Radionuclide Half Life';
-
 }

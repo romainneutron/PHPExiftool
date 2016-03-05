@@ -41,5 +41,4 @@ class GeoTiffDoubleParams extends AbstractTag
     protected $Description = 'Geo Tiff Double Params';
 
     protected $flag_Binary = true;
-
 }

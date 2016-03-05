@@ -39,5 +39,4 @@ class TimeBasedImageSetsSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Time Based Image Sets Sequence';
-
 }

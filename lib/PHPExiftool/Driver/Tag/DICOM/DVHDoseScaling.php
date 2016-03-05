@@ -39,5 +39,4 @@ class DVHDoseScaling extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'DVH Dose Scaling';
-
 }

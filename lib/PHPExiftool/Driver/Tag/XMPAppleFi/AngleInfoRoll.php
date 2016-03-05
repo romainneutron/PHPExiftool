@@ -39,5 +39,4 @@ class AngleInfoRoll extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Angle Info Roll';
-
 }

@@ -41,5 +41,4 @@ class DistortionCorrParams extends AbstractTag
     protected $Description = 'Distortion Corr Params';
 
     protected $flag_Permanent = true;
-
 }

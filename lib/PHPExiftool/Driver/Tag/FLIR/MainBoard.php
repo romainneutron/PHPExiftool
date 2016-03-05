@@ -43,5 +43,4 @@ class MainBoard extends AbstractTag
     protected $flag_Permanent = true;
 
     protected $Index = 12;
-
 }

@@ -39,5 +39,4 @@ class V10IndexTableSegment extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'V10 Index Table Segment';
-
 }

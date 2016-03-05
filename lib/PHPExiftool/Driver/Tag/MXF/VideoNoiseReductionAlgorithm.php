@@ -39,5 +39,4 @@ class VideoNoiseReductionAlgorithm extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Video Noise Reduction Algorithm';
-
 }

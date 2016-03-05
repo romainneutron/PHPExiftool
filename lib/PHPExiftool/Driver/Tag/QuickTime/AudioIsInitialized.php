@@ -39,5 +39,4 @@ class AudioIsInitialized extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Audio Is Initialized';
-
 }

@@ -39,5 +39,4 @@ class NamesOfIntendedRecipientsOfResults extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Names Of Intended Recipients Of Results';
-
 }

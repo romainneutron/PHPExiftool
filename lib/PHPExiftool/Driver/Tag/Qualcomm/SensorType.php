@@ -41,5 +41,4 @@ class SensorType extends AbstractTag
     protected $Description = 'Sensor Type';
 
     protected $flag_Permanent = true;
-
 }

@@ -39,5 +39,4 @@ class AngleNumber extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Angle Number';
-
 }

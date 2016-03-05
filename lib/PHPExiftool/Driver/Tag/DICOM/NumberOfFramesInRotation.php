@@ -39,5 +39,4 @@ class NumberOfFramesInRotation extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Number Of Frames In Rotation';
-
 }

@@ -39,5 +39,4 @@ class FillRgn extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Fill Rgn';
-
 }

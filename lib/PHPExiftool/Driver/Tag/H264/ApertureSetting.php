@@ -50,5 +50,4 @@ class ApertureSetting extends AbstractTag
             'Label' => 'Auto',
         ),
     );
-
 }

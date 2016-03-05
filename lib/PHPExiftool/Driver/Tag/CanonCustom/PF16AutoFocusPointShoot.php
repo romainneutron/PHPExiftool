@@ -41,5 +41,4 @@ class PF16AutoFocusPointShoot extends AbstractTag
     protected $Description = 'PF16 Auto Focus Point Shoot';
 
     protected $flag_Permanent = true;
-
 }

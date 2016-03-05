@@ -39,5 +39,4 @@ class SteeringAngle extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Steering Angle';
-
 }

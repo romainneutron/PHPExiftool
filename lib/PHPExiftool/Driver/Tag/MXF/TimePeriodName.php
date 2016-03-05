@@ -39,5 +39,4 @@ class TimePeriodName extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Time Period Name';
-
 }

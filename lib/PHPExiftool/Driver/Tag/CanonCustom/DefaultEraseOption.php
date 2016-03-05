@@ -52,5 +52,4 @@ class DefaultEraseOption extends AbstractTag
             'Label' => 'Erase selected',
         ),
     );
-
 }

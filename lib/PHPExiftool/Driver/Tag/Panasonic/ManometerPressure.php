@@ -41,5 +41,4 @@ class ManometerPressure extends AbstractTag
     protected $Description = 'Manometer Pressure';
 
     protected $flag_Permanent = true;
-
 }

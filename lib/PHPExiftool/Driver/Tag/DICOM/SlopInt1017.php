@@ -39,5 +39,4 @@ class SlopInt1017 extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Slop Int 10-17';
-
 }

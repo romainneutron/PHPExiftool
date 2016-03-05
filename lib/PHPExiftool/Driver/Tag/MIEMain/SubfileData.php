@@ -41,5 +41,4 @@ class SubfileData extends AbstractTag
     protected $Description = 'Subfile Data';
 
     protected $flag_Binary = true;
-
 }

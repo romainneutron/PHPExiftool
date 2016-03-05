@@ -39,5 +39,4 @@ class Rerun extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Rerun';
-
 }

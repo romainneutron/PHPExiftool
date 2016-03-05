@@ -41,5 +41,4 @@ class DCMaximumDepthInMeters extends AbstractTag
     protected $Description = 'DC Maximum Depth In Meters';
 
     protected $local_g2 = 'Location';
-
 }

@@ -39,5 +39,4 @@ class VideoTrackID extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Video Track ID';
-
 }

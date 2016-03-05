@@ -39,5 +39,4 @@ class ReferencedNonImageCompositeSOPSeq extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Referenced Non Image Composite SOP Seq';
-
 }

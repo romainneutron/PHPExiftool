@@ -41,5 +41,4 @@ class OffsetXY extends AbstractTag
     protected $Description = 'Offset XY';
 
     protected $MaxLength = 2;
-
 }

@@ -41,5 +41,4 @@ class RowInterleaveFactor extends AbstractTag
     protected $Description = 'Row Interleave Factor';
 
     protected $local_g1 = 'ExifIFD';
-
 }

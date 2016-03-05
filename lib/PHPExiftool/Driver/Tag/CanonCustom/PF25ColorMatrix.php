@@ -41,5 +41,4 @@ class PF25ColorMatrix extends AbstractTag
     protected $Description = 'PF25 Color Matrix';
 
     protected $flag_Permanent = true;
-
 }

@@ -41,5 +41,4 @@ class AFBoundary extends AbstractTag
     protected $Description = 'AF Boundary';
 
     protected $flag_Permanent = true;
-
 }

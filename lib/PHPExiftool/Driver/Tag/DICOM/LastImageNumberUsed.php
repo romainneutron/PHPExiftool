@@ -39,5 +39,4 @@ class LastImageNumberUsed extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Last Image Number Used';
-
 }

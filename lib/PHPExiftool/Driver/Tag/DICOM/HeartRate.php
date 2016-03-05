@@ -39,5 +39,4 @@ class HeartRate extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Heart Rate';
-
 }

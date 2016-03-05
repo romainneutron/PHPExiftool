@@ -41,5 +41,4 @@ class PreviewIFDOffset extends AbstractTag
     protected $Description = 'Preview IFD Offset';
 
     protected $flag_Permanent = true;
-
 }

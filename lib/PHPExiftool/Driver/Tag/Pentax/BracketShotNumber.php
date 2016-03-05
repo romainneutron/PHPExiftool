@@ -88,5 +88,4 @@ class BracketShotNumber extends AbstractTag
             'Label' => '5 of 5',
         ),
     );
-
 }

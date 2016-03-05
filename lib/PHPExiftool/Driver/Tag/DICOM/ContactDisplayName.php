@@ -39,5 +39,4 @@ class ContactDisplayName extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Contact Display Name';
-
 }

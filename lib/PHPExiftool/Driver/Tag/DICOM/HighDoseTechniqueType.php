@@ -39,5 +39,4 @@ class HighDoseTechniqueType extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'High Dose Technique Type';
-
 }

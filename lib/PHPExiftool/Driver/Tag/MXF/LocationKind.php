@@ -39,5 +39,4 @@ class LocationKind extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Location Kind';
-
 }

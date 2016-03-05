@@ -54,5 +54,4 @@ class InterleavedField extends AbstractTag
             'Label' => 'Even',
         ),
     );
-
 }

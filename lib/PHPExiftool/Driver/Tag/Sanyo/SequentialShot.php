@@ -60,5 +60,4 @@ class SequentialShot extends AbstractTag
             'Label' => 'Adjust Exposure',
         ),
     );
-
 }

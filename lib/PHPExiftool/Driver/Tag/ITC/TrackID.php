@@ -41,5 +41,4 @@ class TrackID extends AbstractTag
     protected $Description = 'Track ID';
 
     protected $MaxLength = 8;
-
 }

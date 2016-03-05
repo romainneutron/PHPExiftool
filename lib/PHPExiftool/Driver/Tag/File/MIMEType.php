@@ -39,5 +39,4 @@ class MIMEType extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'MIME Type';
-
 }

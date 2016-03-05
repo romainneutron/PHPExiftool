@@ -39,5 +39,4 @@ class ProductOrServiceConstraints extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Product Or Service Constraints';
-
 }

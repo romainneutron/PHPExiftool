@@ -52,5 +52,4 @@ class CropMode35mm extends AbstractTag
             'Label' => 'On',
         ),
     );
-
 }

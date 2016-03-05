@@ -52,5 +52,4 @@ class LinkAEToAFPoint extends AbstractTag
             'Label' => 'On',
         ),
     );
-
 }

@@ -41,5 +41,4 @@ class GreenGain extends AbstractTag
     protected $Description = 'Green Gain';
 
     protected $flag_Permanent = true;
-
 }

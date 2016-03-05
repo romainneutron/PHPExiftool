@@ -39,5 +39,4 @@ class StationCallSign extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Station Call Sign';
-
 }

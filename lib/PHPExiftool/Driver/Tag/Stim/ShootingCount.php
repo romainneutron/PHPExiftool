@@ -39,5 +39,4 @@ class ShootingCount extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Shooting Count';
-
 }

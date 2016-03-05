@@ -64,5 +64,4 @@ class RawFormat extends AbstractTag
             'Label' => 'IIQ Sv2',
         ),
     );
-
 }

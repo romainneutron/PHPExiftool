@@ -76,5 +76,4 @@ class RawJpgQuality extends AbstractTag
             'Label' => 'Movie (2)',
         ),
     );
-
 }

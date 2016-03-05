@@ -39,5 +39,4 @@ class Paragraphs extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Paragraphs';
-
 }

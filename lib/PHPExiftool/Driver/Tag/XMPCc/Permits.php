@@ -62,5 +62,4 @@ class Permits extends AbstractTag
             'Label' => 'Sharing',
         ),
     );
-
 }

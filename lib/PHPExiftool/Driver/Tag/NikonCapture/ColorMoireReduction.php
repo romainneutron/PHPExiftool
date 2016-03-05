@@ -52,5 +52,4 @@ class ColorMoireReduction extends AbstractTag
             'Label' => 'On',
         ),
     );
-
 }

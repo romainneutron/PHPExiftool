@@ -64,5 +64,4 @@ class ImageStabilization extends AbstractTag
             'Label' => 'n/a',
         ),
     );
-
 }

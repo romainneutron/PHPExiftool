@@ -39,5 +39,4 @@ class FlashVersion extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Flash Version';
-
 }

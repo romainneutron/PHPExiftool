@@ -39,5 +39,4 @@ class DistanceReceptorPlaneToDetHousing extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Distance Receptor Plane To Det Housing';
-
 }

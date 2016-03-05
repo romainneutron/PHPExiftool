@@ -39,5 +39,4 @@ class VariableCoefficientsSDVN extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Variable Coefficients SDVN';
-
 }

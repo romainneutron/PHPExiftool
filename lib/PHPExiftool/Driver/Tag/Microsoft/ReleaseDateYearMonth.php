@@ -41,5 +41,4 @@ class ReleaseDateYearMonth extends AbstractTag
     protected $Description = 'Release Date Year Month';
 
     protected $local_g2 = 'Time';
-
 }

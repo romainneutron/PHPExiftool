@@ -39,5 +39,4 @@ class PlaceKeyword extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Place Keyword';
-
 }

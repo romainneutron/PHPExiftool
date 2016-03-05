@@ -39,5 +39,4 @@ class FilmCategory extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Film Category';
-
 }

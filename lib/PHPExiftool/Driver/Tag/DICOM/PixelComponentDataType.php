@@ -39,5 +39,4 @@ class PixelComponentDataType extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Pixel Component Data Type';
-
 }

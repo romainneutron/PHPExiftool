@@ -39,5 +39,4 @@ class BackProjectorCoefficient extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Back Projector Coefficient';
-
 }

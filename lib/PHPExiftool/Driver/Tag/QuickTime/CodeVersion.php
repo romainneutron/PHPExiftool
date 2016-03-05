@@ -39,5 +39,4 @@ class CodeVersion extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Code Version';
-
 }

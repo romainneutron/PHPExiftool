@@ -41,5 +41,4 @@ class ColorFilter extends AbstractTag
     protected $Description = 'Color Filter';
 
     protected $flag_Permanent = true;
-
 }

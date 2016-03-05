@@ -76,5 +76,4 @@ class AFPoint extends AbstractTag
             'Label' => 'Face Detect',
         ),
     );
-
 }

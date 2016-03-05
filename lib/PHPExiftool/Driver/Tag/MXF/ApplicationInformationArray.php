@@ -39,5 +39,4 @@ class ApplicationInformationArray extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Application Information Array';
-
 }

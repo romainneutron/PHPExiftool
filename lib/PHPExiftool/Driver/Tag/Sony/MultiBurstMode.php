@@ -52,5 +52,4 @@ class MultiBurstMode extends AbstractTag
             'Label' => 'On',
         ),
     );
-
 }

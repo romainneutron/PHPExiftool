@@ -41,5 +41,4 @@ class AlphaOffset extends AbstractTag
     protected $Description = 'Alpha Offset';
 
     protected $local_g1 = 'ExifIFD';
-
 }

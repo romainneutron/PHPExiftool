@@ -39,5 +39,4 @@ class TemplateNumber extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Template Number';
-
 }

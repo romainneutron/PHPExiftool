@@ -39,5 +39,4 @@ class RequestAttributesSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Request Attributes Sequence';
-
 }

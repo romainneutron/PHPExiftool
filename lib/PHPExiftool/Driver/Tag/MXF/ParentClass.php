@@ -39,5 +39,4 @@ class ParentClass extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Parent Class';
-
 }

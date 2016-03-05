@@ -41,5 +41,4 @@ class PF3Value extends AbstractTag
     protected $Description = 'PF3 Value';
 
     protected $flag_Permanent = true;
-
 }

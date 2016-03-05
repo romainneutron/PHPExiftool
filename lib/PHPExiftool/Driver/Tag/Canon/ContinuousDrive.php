@@ -80,5 +80,4 @@ class ContinuousDrive extends AbstractTag
             'Label' => 'Continuous, Silent',
         ),
     );
-
 }

@@ -39,5 +39,4 @@ class TargetClassOfStrongReference extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Target Class Of Strong Reference';
-
 }

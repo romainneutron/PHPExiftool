@@ -39,5 +39,4 @@ class BorderColor extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Border Color';
-
 }

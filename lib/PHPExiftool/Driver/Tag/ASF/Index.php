@@ -39,5 +39,4 @@ class Index extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Index';
-
 }

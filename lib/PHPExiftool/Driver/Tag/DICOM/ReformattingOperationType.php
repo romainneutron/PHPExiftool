@@ -39,5 +39,4 @@ class ReformattingOperationType extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Reformatting Operation Type';
-
 }

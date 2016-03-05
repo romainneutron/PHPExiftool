@@ -39,5 +39,4 @@ class ISOSpeedLatitudezzz extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'ISO Speed Latitude zzz';
-
 }

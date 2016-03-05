@@ -56,5 +56,4 @@ class OldSubfileType extends AbstractTag
             'Label' => 'Single page of multi-page image',
         ),
     );
-
 }

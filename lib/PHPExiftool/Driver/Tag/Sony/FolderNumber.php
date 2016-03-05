@@ -41,5 +41,4 @@ class FolderNumber extends AbstractTag
     protected $Description = 'Folder Number';
 
     protected $flag_Permanent = true;
-
 }

@@ -41,5 +41,4 @@ class Contrast extends AbstractTag
     protected $Description = 'Contrast';
 
     protected $flag_Permanent = true;
-
 }

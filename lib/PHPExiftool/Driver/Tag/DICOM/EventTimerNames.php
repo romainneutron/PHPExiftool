@@ -39,5 +39,4 @@ class EventTimerNames extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Event Timer Names';
-
 }

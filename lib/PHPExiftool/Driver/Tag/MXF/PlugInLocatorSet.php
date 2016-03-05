@@ -39,5 +39,4 @@ class PlugInLocatorSet extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Plug-In Locator Set';
-
 }

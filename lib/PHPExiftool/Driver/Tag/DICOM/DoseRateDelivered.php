@@ -39,5 +39,4 @@ class DoseRateDelivered extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Dose Rate Delivered';
-
 }

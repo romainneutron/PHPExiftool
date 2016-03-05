@@ -39,5 +39,4 @@ class PurchasingDepartment extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Purchasing Department';
-
 }

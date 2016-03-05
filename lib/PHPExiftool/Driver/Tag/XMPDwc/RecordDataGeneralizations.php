@@ -39,5 +39,4 @@ class RecordDataGeneralizations extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Record Data Generalizations';
-
 }

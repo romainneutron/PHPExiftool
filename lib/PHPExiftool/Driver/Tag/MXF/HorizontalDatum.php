@@ -39,5 +39,4 @@ class HorizontalDatum extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Horizontal Datum';
-
 }

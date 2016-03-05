@@ -62,5 +62,4 @@ class Extender extends AbstractTag
             'Label' => 'Olympus Zuiko Digital EC-20 2.0x Teleconverter',
         ),
     );
-
 }

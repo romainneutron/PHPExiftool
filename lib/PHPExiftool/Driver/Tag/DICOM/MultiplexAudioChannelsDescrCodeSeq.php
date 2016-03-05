@@ -39,5 +39,4 @@ class MultiplexAudioChannelsDescrCodeSeq extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Multiplex Audio Channels Descr Code Seq';
-
 }

@@ -39,5 +39,4 @@ class IntensifierActiveShape extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Intensifier Active Shape';
-
 }

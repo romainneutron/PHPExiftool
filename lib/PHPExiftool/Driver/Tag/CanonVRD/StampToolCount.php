@@ -39,5 +39,4 @@ class StampToolCount extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Stamp Tool Count';
-
 }

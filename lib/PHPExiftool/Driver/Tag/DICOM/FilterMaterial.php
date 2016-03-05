@@ -39,5 +39,4 @@ class FilterMaterial extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Filter Material';
-
 }

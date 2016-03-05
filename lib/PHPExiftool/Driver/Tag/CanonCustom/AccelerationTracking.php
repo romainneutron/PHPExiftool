@@ -41,5 +41,4 @@ class AccelerationTracking extends AbstractTag
     protected $Description = 'Acceleration Tracking';
 
     protected $flag_Permanent = true;
-
 }

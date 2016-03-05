@@ -39,5 +39,4 @@ class RelevantInformationSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Relevant Information Sequence';
-
 }

@@ -39,5 +39,4 @@ class CommercialURL extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Commercial URL';
-
 }

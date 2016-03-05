@@ -39,5 +39,4 @@ class RoundedTimecodeTimebase extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Rounded Timecode Timebase';
-
 }

@@ -39,5 +39,4 @@ class SimpleBlock extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Simple Block';
-
 }

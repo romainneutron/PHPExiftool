@@ -39,5 +39,4 @@ class TargetFileSize extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Target File Size';
-
 }

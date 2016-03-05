@@ -41,5 +41,4 @@ class JPEGDCTables extends AbstractTag
     protected $Description = 'JPEGDC Tables';
 
     protected $local_g1 = 'ExifIFD';
-
 }

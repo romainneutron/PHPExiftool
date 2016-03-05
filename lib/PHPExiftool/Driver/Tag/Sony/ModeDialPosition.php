@@ -78,5 +78,4 @@ class ModeDialPosition extends AbstractTag
             'Label' => 'Manual',
         ),
     );
-
 }

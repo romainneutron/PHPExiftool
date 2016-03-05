@@ -39,5 +39,4 @@ class IndicatesIfTheStudyHasCompleteInfo extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Indicates If The Study Has Complete Info';
-
 }

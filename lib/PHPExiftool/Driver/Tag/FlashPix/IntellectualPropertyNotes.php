@@ -41,5 +41,4 @@ class IntellectualPropertyNotes extends AbstractTag
     protected $Description = 'Intellectual Property Notes';
 
     protected $local_g2 = 'Author';
-
 }

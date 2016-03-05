@@ -132,5 +132,4 @@ class ExposureIndicator extends AbstractTag
             'Label' => 'Over Scale',
         ),
     );
-
 }

@@ -39,5 +39,4 @@ class BulkMotionSignalSource extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Bulk Motion Signal Source';
-
 }

@@ -39,5 +39,4 @@ class TrailerSignature extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Trailer Signature';
-
 }

@@ -41,5 +41,4 @@ class Edition extends AbstractTag
     protected $Description = 'Edition';
 
     protected $flag_Avoid = true;
-
 }

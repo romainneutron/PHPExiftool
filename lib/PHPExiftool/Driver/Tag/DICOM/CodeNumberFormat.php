@@ -39,5 +39,4 @@ class CodeNumberFormat extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Code Number Format';
-
 }

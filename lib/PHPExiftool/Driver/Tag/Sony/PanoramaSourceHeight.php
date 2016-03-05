@@ -41,5 +41,4 @@ class PanoramaSourceHeight extends AbstractTag
     protected $Description = 'Panorama Source Height';
 
     protected $flag_Permanent = true;
-
 }

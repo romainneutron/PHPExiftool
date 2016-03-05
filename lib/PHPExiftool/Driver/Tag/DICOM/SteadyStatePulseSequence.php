@@ -39,5 +39,4 @@ class SteadyStatePulseSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Steady State Pulse Sequence';
-
 }

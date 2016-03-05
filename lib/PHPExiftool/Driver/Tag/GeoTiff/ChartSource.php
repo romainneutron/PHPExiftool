@@ -39,5 +39,4 @@ class ChartSource extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Chart Source';
-
 }

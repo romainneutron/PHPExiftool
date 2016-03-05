@@ -41,5 +41,4 @@ class HistoryChanged extends AbstractTag
     protected $Description = 'History Changed';
 
     protected $flag_List = true;
-
 }

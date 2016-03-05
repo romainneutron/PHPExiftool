@@ -39,5 +39,4 @@ class PaintSameArc extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Paint Same Arc';
-
 }

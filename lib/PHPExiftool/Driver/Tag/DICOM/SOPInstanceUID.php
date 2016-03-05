@@ -39,5 +39,4 @@ class SOPInstanceUID extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'SOP Instance UID';
-
 }

@@ -39,5 +39,4 @@ class FlashType extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Flash Type';
-
 }

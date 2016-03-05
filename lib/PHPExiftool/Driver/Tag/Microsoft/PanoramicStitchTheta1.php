@@ -41,5 +41,4 @@ class PanoramicStitchTheta1 extends AbstractTag
     protected $Description = 'Panoramic Stitch Theta 1';
 
     protected $flag_Permanent = true;
-
 }

@@ -39,5 +39,4 @@ class CurrentNumberInSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Current Number In Sequence';
-
 }

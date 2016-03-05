@@ -39,5 +39,4 @@ class ModalitiesInStudy extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Modalities In Study';
-
 }

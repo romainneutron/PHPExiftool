@@ -130,5 +130,4 @@ class WBType6 extends AbstractTag
             'Label' => 'Other',
         ),
     );
-
 }

@@ -39,5 +39,4 @@ class QuantitySequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Quantity Sequence';
-
 }

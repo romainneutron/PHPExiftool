@@ -39,5 +39,4 @@ class ISSN extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'ISSN';
-
 }

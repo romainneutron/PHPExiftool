@@ -41,5 +41,4 @@ class ShadowScale extends AbstractTag
     protected $Description = 'Shadow Scale';
 
     protected $flag_Unsafe = true;
-
 }

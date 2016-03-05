@@ -39,5 +39,4 @@ class ObjectPixelSpacingInCenterOfBeam extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Object Pixel Spacing In Center Of Beam';
-
 }

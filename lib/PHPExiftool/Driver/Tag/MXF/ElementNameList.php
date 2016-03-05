@@ -39,5 +39,4 @@ class ElementNameList extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Element Name List';
-
 }

@@ -41,5 +41,4 @@ class SensrQtrWdth extends AbstractTag
     protected $Description = 'Sensr Qtr Wdth';
 
     protected $flag_Permanent = true;
-
 }

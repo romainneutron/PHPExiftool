@@ -43,5 +43,4 @@ class AudioSampleRate extends AbstractTag
     protected $local_g2 = 'Audio';
 
     protected $flag_Permanent = true;
-
 }

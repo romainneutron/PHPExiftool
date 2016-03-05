@@ -52,5 +52,4 @@ class ProfileType extends AbstractTag
             'Label' => 'Group 3 FAX',
         ),
     );
-
 }

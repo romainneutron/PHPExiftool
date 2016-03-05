@@ -39,5 +39,4 @@ class RequestingAE extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Requesting AE';
-
 }

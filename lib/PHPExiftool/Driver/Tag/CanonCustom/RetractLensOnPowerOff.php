@@ -52,5 +52,4 @@ class RetractLensOnPowerOff extends AbstractTag
             'Label' => 'Disable',
         ),
     );
-
 }

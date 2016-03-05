@@ -96,5 +96,4 @@ class FocusStatus extends AbstractTag
             'Label' => 'Not confirmed, Tracking',
         ),
     );
-
 }

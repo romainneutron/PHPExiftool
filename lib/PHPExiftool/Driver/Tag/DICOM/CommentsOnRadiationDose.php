@@ -39,5 +39,4 @@ class CommentsOnRadiationDose extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Comments On Radiation Dose';
-
 }

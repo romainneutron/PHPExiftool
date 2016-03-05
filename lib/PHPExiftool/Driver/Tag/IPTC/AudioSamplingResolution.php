@@ -41,5 +41,4 @@ class AudioSamplingResolution extends AbstractTag
     protected $Description = 'Audio Sampling Resolution';
 
     protected $MaxLength = 2;
-
 }

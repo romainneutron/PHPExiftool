@@ -60,5 +60,4 @@ class AspectRatio extends AbstractTag
             'Label' => '16:9',
         ),
     );
-
 }

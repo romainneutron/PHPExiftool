@@ -39,5 +39,4 @@ class ProjRectifiedGridAngle extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Proj Rectified Grid Angle';
-
 }

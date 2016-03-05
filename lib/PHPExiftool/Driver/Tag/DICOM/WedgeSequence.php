@@ -39,5 +39,4 @@ class WedgeSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Wedge Sequence';
-
 }

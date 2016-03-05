@@ -41,5 +41,4 @@ class Comment extends AbstractTag
     protected $Description = 'Comment';
 
     protected $MaxLength = 30;
-
 }

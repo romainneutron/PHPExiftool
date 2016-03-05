@@ -39,5 +39,4 @@ class FillLight extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Fill Light';
-
 }

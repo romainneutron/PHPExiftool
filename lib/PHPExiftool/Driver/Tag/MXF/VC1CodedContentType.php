@@ -39,5 +39,4 @@ class VC1CodedContentType extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'VC-1 Coded Content Type';
-
 }

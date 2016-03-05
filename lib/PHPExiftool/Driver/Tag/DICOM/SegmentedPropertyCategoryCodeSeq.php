@@ -39,5 +39,4 @@ class SegmentedPropertyCategoryCodeSeq extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Segmented Property Category Code Seq';
-
 }

@@ -39,5 +39,4 @@ class IrradiationEventUID extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Irradiation Event UID';
-
 }

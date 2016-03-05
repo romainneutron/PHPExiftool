@@ -39,5 +39,4 @@ class SpecimenAccessionNumber extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Specimen Accession Number';
-
 }

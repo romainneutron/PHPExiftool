@@ -140,5 +140,4 @@ class ChrominanceNoiseReduction extends AbstractTag
     );
 
     protected $Index = 'mixed';
-
 }

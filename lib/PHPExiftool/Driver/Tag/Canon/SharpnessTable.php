@@ -41,5 +41,4 @@ class SharpnessTable extends AbstractTag
     protected $Description = 'Sharpness Table';
 
     protected $flag_Permanent = true;
-
 }

@@ -50,5 +50,4 @@ class EnvironmentMap extends AbstractTag
             'Label' => 'Cube',
         ),
     );
-
 }

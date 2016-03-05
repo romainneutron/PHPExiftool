@@ -39,5 +39,4 @@ class InvertRRect extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Invert R Rect';
-
 }

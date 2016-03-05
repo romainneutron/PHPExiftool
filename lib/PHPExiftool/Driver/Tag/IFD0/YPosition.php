@@ -39,5 +39,4 @@ class YPosition extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Y Position';
-
 }

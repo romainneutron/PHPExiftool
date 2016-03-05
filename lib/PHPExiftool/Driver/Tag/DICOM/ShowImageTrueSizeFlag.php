@@ -39,5 +39,4 @@ class ShowImageTrueSizeFlag extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Show Image True Size Flag';
-
 }

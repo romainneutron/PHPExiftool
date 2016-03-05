@@ -39,5 +39,4 @@ class Lotus extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Lotus';
-
 }

@@ -39,5 +39,4 @@ class DigitalImageGUID extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Digital Image GUID';
-
 }

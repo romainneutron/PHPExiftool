@@ -39,5 +39,4 @@ class School extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'School';
-
 }

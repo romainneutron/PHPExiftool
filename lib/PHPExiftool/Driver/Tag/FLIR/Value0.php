@@ -39,5 +39,4 @@ class Value0 extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Value 0';
-
 }

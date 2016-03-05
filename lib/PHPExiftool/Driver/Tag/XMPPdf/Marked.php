@@ -41,5 +41,4 @@ class Marked extends AbstractTag
     protected $Description = 'Marked';
 
     protected $flag_Avoid = true;
-
 }

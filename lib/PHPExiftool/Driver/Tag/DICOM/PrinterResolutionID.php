@@ -39,5 +39,4 @@ class PrinterResolutionID extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Printer Resolution ID';
-
 }

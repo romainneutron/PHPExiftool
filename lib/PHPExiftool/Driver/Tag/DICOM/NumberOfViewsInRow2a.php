@@ -39,5 +39,4 @@ class NumberOfViewsInRow2a extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Number Of Views In Row 2a';
-
 }

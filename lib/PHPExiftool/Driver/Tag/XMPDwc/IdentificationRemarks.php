@@ -39,5 +39,4 @@ class IdentificationRemarks extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Identification Remarks';
-
 }

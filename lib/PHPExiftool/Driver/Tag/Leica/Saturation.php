@@ -72,5 +72,4 @@ class Saturation extends AbstractTag
             'Label' => 'Vintage B&W',
         ),
     );
-
 }

@@ -39,5 +39,4 @@ class CoefficientCodingPointers extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Coefficient Coding Pointers';
-
 }

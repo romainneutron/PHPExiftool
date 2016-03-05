@@ -39,5 +39,4 @@ class RatingOrg extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Rating Org';
-
 }

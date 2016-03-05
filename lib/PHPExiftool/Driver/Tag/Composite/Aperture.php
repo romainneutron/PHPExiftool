@@ -41,5 +41,4 @@ class Aperture extends AbstractTag
     protected $Description = 'Aperture';
 
     protected $local_g2 = 'Image';
-
 }

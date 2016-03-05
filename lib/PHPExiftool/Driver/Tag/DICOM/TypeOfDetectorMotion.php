@@ -39,5 +39,4 @@ class TypeOfDetectorMotion extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Type Of Detector Motion';
-
 }

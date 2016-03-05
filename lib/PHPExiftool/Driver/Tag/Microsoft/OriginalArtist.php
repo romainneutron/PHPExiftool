@@ -39,5 +39,4 @@ class OriginalArtist extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Original Artist';
-
 }

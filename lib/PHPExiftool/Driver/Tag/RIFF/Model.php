@@ -41,5 +41,4 @@ class Model extends AbstractTag
     protected $Description = 'Model';
 
     protected $local_g2 = 'Camera';
-
 }

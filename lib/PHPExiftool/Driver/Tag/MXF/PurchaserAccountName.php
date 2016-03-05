@@ -39,5 +39,4 @@ class PurchaserAccountName extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Purchaser Account Name';
-
 }

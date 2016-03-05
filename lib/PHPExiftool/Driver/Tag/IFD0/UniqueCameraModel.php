@@ -39,5 +39,4 @@ class UniqueCameraModel extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Unique Camera Model';
-
 }

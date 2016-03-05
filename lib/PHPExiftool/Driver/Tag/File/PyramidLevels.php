@@ -39,5 +39,4 @@ class PyramidLevels extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Pyramid Levels';
-
 }

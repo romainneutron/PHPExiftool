@@ -39,5 +39,4 @@ class CleanApertureOffsetY extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Clean Aperture Offset Y';
-
 }

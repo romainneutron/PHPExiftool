@@ -41,5 +41,4 @@ class HJREnable extends AbstractTag
     protected $Description = 'HJR Enable';
 
     protected $flag_Permanent = true;
-
 }

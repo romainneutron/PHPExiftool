@@ -131,7 +131,7 @@ class Builder
 
         $content .= $this->generateClassProperties($this->properties);
 
-        $content .= "\n}\n";
+        $content .= "}\n";
 
         if ( ! is_dir(dirname($this->getPathfile()))) {
             mkdir(dirname($this->getPathfile()), 0754, true);

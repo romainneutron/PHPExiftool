@@ -39,5 +39,4 @@ class ErasePoly extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Erase Poly';
-
 }

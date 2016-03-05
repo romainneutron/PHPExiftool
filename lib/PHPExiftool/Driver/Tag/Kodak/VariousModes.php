@@ -41,5 +41,4 @@ class VariousModes extends AbstractTag
     protected $Description = 'Various Modes';
 
     protected $flag_Permanent = true;
-
 }

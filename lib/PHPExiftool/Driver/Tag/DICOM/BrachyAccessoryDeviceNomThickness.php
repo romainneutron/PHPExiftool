@@ -39,5 +39,4 @@ class BrachyAccessoryDeviceNomThickness extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Brachy Accessory Device Nom Thickness';
-
 }

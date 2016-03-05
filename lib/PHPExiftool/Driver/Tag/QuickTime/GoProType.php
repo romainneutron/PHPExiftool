@@ -39,5 +39,4 @@ class GoProType extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Go Pro Type';
-
 }

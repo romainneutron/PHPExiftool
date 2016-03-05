@@ -39,5 +39,4 @@ class MRVelocityEncodingSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'MR Velocity Encoding Sequence';
-
 }

@@ -100,5 +100,4 @@ class AFPointsUnknown1 extends AbstractTag
             'Label' => 'All',
         ),
     );
-
 }

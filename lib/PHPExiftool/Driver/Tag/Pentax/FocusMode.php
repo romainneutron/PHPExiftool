@@ -130,5 +130,4 @@ class FocusMode extends AbstractTag
     );
 
     protected $Index = 'mixed';
-
 }

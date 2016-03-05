@@ -39,5 +39,4 @@ class RecordedBrachyAccessoryDeviceSeq extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Recorded Brachy Accessory Device Seq';
-
 }

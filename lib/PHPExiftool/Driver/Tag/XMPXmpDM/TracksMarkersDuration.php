@@ -41,5 +41,4 @@ class TracksMarkersDuration extends AbstractTag
     protected $Description = 'Tracks Markers Duration';
 
     protected $flag_List = true;
-
 }

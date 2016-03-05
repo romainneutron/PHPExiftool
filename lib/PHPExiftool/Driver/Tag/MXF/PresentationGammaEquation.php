@@ -39,5 +39,4 @@ class PresentationGammaEquation extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Presentation Gamma Equation';
-
 }

@@ -39,5 +39,4 @@ class MRTransmitCoilSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'MR Transmit Coil Sequence';
-
 }

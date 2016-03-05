@@ -39,5 +39,4 @@ class StudyPhysician extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Study Physician';
-
 }

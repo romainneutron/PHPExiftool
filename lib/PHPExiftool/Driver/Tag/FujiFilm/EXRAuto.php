@@ -52,5 +52,4 @@ class EXRAuto extends AbstractTag
             'Label' => 'Manual',
         ),
     );
-
 }

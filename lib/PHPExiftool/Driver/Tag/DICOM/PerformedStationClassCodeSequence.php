@@ -39,5 +39,4 @@ class PerformedStationClassCodeSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Performed Station Class Code Sequence';
-
 }

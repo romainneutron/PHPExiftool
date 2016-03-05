@@ -39,5 +39,4 @@ class PanOverlapV extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Pan Overlap V';
-
 }

@@ -39,5 +39,4 @@ class PerimeterTable extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Perimeter Table';
-
 }

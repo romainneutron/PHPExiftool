@@ -39,5 +39,4 @@ class TrackNumberBatch extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Track Number Batch';
-
 }

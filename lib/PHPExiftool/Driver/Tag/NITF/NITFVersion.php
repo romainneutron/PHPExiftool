@@ -41,5 +41,4 @@ class NITFVersion extends AbstractTag
     protected $Description = 'NITF Version';
 
     protected $MaxLength = 2;
-
 }

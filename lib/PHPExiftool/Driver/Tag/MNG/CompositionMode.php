@@ -54,5 +54,4 @@ class CompositionMode extends AbstractTag
             'Label' => 'Under',
         ),
     );
-
 }

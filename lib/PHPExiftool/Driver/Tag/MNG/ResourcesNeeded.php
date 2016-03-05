@@ -41,5 +41,4 @@ class ResourcesNeeded extends AbstractTag
     protected $Description = 'Resources Needed';
 
     protected $flag_Binary = true;
-
 }

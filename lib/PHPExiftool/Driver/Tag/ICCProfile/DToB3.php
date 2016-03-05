@@ -41,5 +41,4 @@ class DToB3 extends AbstractTag
     protected $Description = 'D To B3';
 
     protected $flag_Binary = true;
-
 }

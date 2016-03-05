@@ -41,5 +41,4 @@ class AlternateTitleAPlatform extends AbstractTag
     protected $Description = 'Alternate Title A-platform';
 
     protected $flag_List = true;
-
 }

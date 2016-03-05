@@ -182,5 +182,4 @@ class FuncButtonPlusDials extends AbstractTag
             'Label' => 'Exposure Delay Mode',
         ),
     );
-
 }

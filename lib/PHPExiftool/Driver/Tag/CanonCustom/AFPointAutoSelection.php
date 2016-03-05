@@ -56,5 +56,4 @@ class AFPointAutoSelection extends AbstractTag
             'Label' => 'Control-direct:enable/Main:enable',
         ),
     );
-
 }

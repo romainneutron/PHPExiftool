@@ -41,5 +41,4 @@ class CropH extends AbstractTag
     protected $Description = 'Crop H';
 
     protected $flag_Avoid = true;
-
 }

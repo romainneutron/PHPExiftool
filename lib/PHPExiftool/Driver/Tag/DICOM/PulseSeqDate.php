@@ -39,5 +39,4 @@ class PulseSeqDate extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Pulse Seq Date';
-
 }

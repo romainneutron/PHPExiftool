@@ -506,5 +506,4 @@ class PreviewButton extends AbstractTag
     );
 
     protected $Index = 'mixed';
-
 }

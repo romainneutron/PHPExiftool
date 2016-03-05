@@ -39,5 +39,4 @@ class PlannedVerificationImageSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Planned Verification Image Sequence';
-
 }

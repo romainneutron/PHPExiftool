@@ -39,5 +39,4 @@ class DeliveredPulseRepetitionInterval extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Delivered Pulse Repetition Interval';
-
 }

@@ -52,5 +52,4 @@ class GPSDestBearingRef extends AbstractTag
             'Label' => 'True North',
         ),
     );
-
 }

@@ -39,5 +39,4 @@ class LensProfileMatchKeyIsRaw extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Lens Profile Match Key Is Raw';
-
 }

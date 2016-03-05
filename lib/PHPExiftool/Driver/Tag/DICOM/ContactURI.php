@@ -39,5 +39,4 @@ class ContactURI extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Contact URI';
-
 }

@@ -39,5 +39,4 @@ class PurposeOfReferenceCodeSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Purpose Of Reference Code Sequence';
-
 }

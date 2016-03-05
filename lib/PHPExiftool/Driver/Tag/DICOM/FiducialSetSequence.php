@@ -39,5 +39,4 @@ class FiducialSetSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Fiducial Set Sequence';
-
 }

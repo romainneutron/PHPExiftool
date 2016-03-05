@@ -39,5 +39,4 @@ class InterpretationApproverSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Interpretation Approver Sequence';
-
 }

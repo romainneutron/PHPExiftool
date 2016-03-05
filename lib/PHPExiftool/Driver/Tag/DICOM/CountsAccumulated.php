@@ -39,5 +39,4 @@ class CountsAccumulated extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Counts Accumulated';
-
 }

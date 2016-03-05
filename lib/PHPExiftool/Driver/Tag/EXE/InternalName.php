@@ -39,5 +39,4 @@ class InternalName extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Internal Name';
-
 }

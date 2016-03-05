@@ -41,5 +41,4 @@ class AffineTransformMat extends AbstractTag
     protected $Description = 'Affine Transform Mat';
 
     protected $local_g1 = 'ExifIFD';
-
 }

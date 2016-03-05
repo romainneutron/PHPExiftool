@@ -41,5 +41,4 @@ class GPSLatitude extends AbstractTag
     protected $Description = 'GPS Latitude';
 
     protected $local_g2 = 'Location';
-
 }

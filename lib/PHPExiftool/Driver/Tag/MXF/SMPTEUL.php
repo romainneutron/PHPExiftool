@@ -39,5 +39,4 @@ class SMPTEUL extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'SMPTEUL';
-
 }

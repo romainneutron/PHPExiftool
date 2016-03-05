@@ -39,5 +39,4 @@ class PeakEnvelopeVersion extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Peak Envelope Version';
-
 }

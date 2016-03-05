@@ -39,5 +39,4 @@ class FillArc extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Fill Arc';
-
 }

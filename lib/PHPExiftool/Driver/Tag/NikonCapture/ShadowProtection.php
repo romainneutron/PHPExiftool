@@ -41,5 +41,4 @@ class ShadowProtection extends AbstractTag
     protected $Description = 'Shadow Protection';
 
     protected $flag_Permanent = true;
-
 }

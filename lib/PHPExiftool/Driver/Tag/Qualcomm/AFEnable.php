@@ -41,5 +41,4 @@ class AFEnable extends AbstractTag
     protected $Description = 'AF Enable';
 
     protected $flag_Permanent = true;
-
 }

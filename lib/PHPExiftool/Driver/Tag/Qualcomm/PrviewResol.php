@@ -41,5 +41,4 @@ class PrviewResol extends AbstractTag
     protected $Description = 'Prview Resol';
 
     protected $flag_Permanent = true;
-
 }

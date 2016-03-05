@@ -41,5 +41,4 @@ class StartTimecodeRelativeToReference extends AbstractTag
     protected $Description = 'Start Timecode Relative To Reference';
 
     protected $local_g2 = 'Time';
-
 }

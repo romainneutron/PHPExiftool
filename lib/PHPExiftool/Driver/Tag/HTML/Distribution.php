@@ -39,5 +39,4 @@ class Distribution extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Distribution';
-
 }

@@ -39,5 +39,4 @@ class MACIDNumber extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'MACID Number';
-
 }

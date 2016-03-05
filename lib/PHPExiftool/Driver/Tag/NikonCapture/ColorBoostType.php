@@ -52,5 +52,4 @@ class ColorBoostType extends AbstractTag
             'Label' => 'People',
         ),
     );
-
 }

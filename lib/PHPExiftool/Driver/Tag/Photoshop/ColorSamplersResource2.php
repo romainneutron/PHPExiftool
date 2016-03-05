@@ -39,5 +39,4 @@ class ColorSamplersResource2 extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Color Samplers Resource 2';
-
 }

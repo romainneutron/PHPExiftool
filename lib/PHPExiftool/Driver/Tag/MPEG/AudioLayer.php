@@ -54,5 +54,4 @@ class AudioLayer extends AbstractTag
             'Label' => 1,
         ),
     );
-
 }

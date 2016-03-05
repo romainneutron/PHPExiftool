@@ -39,5 +39,4 @@ class IsFixedV extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Is Fixed V';
-
 }

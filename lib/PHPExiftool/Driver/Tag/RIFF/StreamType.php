@@ -64,5 +64,4 @@ class StreamType extends AbstractTag
             'Label' => 'Video',
         ),
     );
-
 }

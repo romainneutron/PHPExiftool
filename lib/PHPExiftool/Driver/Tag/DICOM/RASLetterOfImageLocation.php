@@ -39,5 +39,4 @@ class RASLetterOfImageLocation extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'RAS Letter Of Image Location';
-
 }

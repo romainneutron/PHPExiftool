@@ -39,5 +39,4 @@ class ShadowEndPoints extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Shadow End Points';
-
 }

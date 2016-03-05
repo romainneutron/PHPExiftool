@@ -39,5 +39,4 @@ class DecimateCropResult extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Decimate Crop Result';
-
 }

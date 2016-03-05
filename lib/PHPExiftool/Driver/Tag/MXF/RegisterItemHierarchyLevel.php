@@ -39,5 +39,4 @@ class RegisterItemHierarchyLevel extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Register Item Hierarchy Level';
-
 }

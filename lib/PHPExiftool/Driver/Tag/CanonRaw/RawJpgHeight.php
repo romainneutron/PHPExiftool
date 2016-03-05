@@ -41,5 +41,4 @@ class RawJpgHeight extends AbstractTag
     protected $Description = 'Raw Jpg Height';
 
     protected $flag_Permanent = true;
-
 }

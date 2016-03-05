@@ -41,5 +41,4 @@ class HueAdjustment extends AbstractTag
     protected $Description = 'Hue Adjustment';
 
     protected $flag_Permanent = true;
-
 }

@@ -39,5 +39,4 @@ class ImageTransformationMatrix extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Image Transformation Matrix';
-
 }

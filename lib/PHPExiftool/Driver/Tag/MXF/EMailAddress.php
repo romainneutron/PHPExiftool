@@ -39,5 +39,4 @@ class EMailAddress extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'E-mail Address';
-
 }

@@ -39,5 +39,4 @@ class ApproximateImageContainerSize extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Approximate Image Container Size';
-
 }

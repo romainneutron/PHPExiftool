@@ -39,5 +39,4 @@ class CompensatorPosition extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Compensator Position';
-
 }

@@ -39,5 +39,4 @@ class Selected extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Selected';
-
 }

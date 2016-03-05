@@ -39,5 +39,4 @@ class DataSetSubtype extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Data Set Subtype';
-
 }

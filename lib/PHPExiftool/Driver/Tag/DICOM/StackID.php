@@ -39,5 +39,4 @@ class StackID extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Stack ID';
-
 }

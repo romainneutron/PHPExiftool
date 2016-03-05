@@ -39,5 +39,4 @@ class ReferencedFilmSessionSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Referenced Film Session Sequence';
-
 }

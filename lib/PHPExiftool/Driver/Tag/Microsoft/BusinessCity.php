@@ -39,5 +39,4 @@ class BusinessCity extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Business City';
-
 }

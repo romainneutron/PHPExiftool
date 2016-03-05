@@ -54,5 +54,4 @@ class StackedImage extends AbstractTag
             'Label' => 'Focus-stacked (8 images)',
         ),
     );
-
 }

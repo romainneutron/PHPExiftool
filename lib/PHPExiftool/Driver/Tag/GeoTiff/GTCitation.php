@@ -39,5 +39,4 @@ class GTCitation extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'GT Citation';
-
 }

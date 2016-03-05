@@ -72,5 +72,4 @@ class MultiSelectorLiveView extends AbstractTag
             'Label' => 'Not Used',
         ),
     );
-
 }

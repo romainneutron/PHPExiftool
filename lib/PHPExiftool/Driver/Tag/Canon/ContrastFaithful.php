@@ -48,5 +48,4 @@ class ContrastFaithful extends AbstractTag
             'Label' => 'n/a',
         ),
     );
-
 }

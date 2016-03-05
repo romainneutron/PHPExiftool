@@ -41,5 +41,4 @@ class FocusStepInfinity extends AbstractTag
     protected $Description = 'Focus Step Infinity';
 
     protected $flag_Permanent = true;
-
 }

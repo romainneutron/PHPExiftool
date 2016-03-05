@@ -41,5 +41,4 @@ class Caption extends AbstractTag
     protected $Description = 'Caption';
 
     protected $flag_Avoid = true;
-
 }

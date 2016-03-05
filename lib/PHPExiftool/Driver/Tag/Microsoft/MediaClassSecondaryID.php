@@ -102,5 +102,4 @@ class MediaClassSecondaryID extends AbstractTag
             'Label' => 'Song from Game',
         ),
     );
-
 }

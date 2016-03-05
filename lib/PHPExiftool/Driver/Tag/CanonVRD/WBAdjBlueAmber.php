@@ -39,5 +39,4 @@ class WBAdjBlueAmber extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'WB Adj Blue Amber';
-
 }

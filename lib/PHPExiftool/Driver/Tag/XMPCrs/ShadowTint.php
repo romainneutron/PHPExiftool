@@ -39,5 +39,4 @@ class ShadowTint extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Shadow Tint';
-
 }

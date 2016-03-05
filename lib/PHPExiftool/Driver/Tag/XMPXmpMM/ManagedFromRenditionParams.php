@@ -39,5 +39,4 @@ class ManagedFromRenditionParams extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Managed From Rendition Params';
-
 }

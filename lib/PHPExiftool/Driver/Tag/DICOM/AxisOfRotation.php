@@ -39,5 +39,4 @@ class AxisOfRotation extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Axis Of Rotation';
-
 }

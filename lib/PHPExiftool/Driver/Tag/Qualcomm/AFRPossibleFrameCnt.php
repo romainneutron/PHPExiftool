@@ -41,5 +41,4 @@ class AFRPossibleFrameCnt extends AbstractTag
     protected $Description = 'AFR Possible Frame Cnt';
 
     protected $flag_Permanent = true;
-
 }

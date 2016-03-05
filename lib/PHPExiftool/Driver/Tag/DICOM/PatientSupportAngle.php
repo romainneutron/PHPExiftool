@@ -39,5 +39,4 @@ class PatientSupportAngle extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Patient Support Angle';
-
 }

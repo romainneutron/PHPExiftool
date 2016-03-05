@@ -41,5 +41,4 @@ class WhiteBalanceBracket extends AbstractTag
     protected $Description = 'White Balance Bracket';
 
     protected $flag_Permanent = true;
-
 }

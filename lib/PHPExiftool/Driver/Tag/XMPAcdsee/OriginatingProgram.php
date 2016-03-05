@@ -41,5 +41,4 @@ class OriginatingProgram extends AbstractTag
     protected $Description = 'Originating Program';
 
     protected $flag_Avoid = true;
-
 }

@@ -39,5 +39,4 @@ class ParametricMidtoneSplit extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Parametric Midtone Split';
-
 }

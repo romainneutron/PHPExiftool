@@ -45,5 +45,4 @@ class DNGPrivateData extends AbstractTag
     protected $flag_Unsafe = true;
 
     protected $Index = 4;
-
 }

@@ -39,5 +39,4 @@ class TrackLyrics extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Track Lyrics';
-
 }

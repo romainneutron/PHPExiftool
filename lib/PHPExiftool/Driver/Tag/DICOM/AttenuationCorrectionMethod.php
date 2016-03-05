@@ -39,5 +39,4 @@ class AttenuationCorrectionMethod extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Attenuation Correction Method';
-
 }

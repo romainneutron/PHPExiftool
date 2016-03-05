@@ -41,5 +41,4 @@ class ISOFloor extends AbstractTag
     protected $Description = 'ISO Floor';
 
     protected $flag_Permanent = true;
-
 }

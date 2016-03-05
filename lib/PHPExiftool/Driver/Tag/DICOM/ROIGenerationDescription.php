@@ -39,5 +39,4 @@ class ROIGenerationDescription extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'ROI Generation Description';
-
 }

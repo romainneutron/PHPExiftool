@@ -39,5 +39,4 @@ class MultiPlanarExcitation extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Multi Planar Excitation';
-
 }

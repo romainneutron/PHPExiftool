@@ -39,5 +39,4 @@ class BillingSuppliesAndDevicesSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Billing Supplies And Devices Sequence';
-
 }

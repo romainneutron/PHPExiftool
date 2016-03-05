@@ -39,5 +39,4 @@ class RootObjectDirectory extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Root Object Directory';
-
 }

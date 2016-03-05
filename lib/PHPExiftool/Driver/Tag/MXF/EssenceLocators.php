@@ -39,5 +39,4 @@ class EssenceLocators extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Essence Locators';
-
 }

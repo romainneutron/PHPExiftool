@@ -128,5 +128,4 @@ class ShootingInfoDisplay extends AbstractTag
             'Label' => 'Manual (light on dark)',
         ),
     );
-
 }

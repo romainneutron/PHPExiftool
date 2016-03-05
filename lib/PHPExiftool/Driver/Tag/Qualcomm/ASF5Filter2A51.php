@@ -41,5 +41,4 @@ class ASF5Filter2A51 extends AbstractTag
     protected $Description = 'ASF5 Filter2 A51';
 
     protected $flag_Permanent = true;
-
 }

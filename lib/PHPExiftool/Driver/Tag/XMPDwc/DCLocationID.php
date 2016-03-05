@@ -41,5 +41,4 @@ class DCLocationID extends AbstractTag
     protected $Description = 'DC Location ID';
 
     protected $local_g2 = 'Location';
-
 }

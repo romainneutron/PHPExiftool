@@ -39,5 +39,4 @@ class ColorSpace extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Color Space';
-
 }

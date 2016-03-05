@@ -39,5 +39,4 @@ class RecordedTrackNumber extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Recorded Track Number';
-
 }

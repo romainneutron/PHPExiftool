@@ -39,5 +39,4 @@ class PhotometricInterpretation extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Photometric Interpretation';
-
 }

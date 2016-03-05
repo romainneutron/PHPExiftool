@@ -60,5 +60,4 @@ class PanoramaSize3D extends AbstractTag
             'Label' => '16:9',
         ),
     );
-
 }

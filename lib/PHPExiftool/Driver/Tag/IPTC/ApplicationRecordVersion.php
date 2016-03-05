@@ -41,5 +41,4 @@ class ApplicationRecordVersion extends AbstractTag
     protected $Description = 'Application Record Version';
 
     protected $flag_Mandatory = true;
-
 }

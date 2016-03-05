@@ -41,5 +41,4 @@ class Quality extends AbstractTag
     protected $Description = 'Quality';
 
     protected $flag_Permanent = true;
-
 }

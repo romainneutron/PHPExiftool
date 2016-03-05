@@ -39,5 +39,4 @@ class SampleIndex extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Sample Index';
-
 }

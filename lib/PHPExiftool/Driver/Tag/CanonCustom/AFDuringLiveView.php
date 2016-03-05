@@ -66,5 +66,4 @@ class AFDuringLiveView extends AbstractTag
     );
 
     protected $Index = 'mixed';
-
 }

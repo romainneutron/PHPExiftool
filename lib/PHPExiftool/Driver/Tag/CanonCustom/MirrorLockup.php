@@ -112,5 +112,4 @@ class MirrorLockup extends AbstractTag
             'Label' => 'Enable',
         ),
     );
-
 }

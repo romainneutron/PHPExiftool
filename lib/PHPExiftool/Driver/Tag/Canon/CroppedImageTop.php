@@ -41,5 +41,4 @@ class CroppedImageTop extends AbstractTag
     protected $Description = 'Cropped Image Top';
 
     protected $flag_Permanent = true;
-
 }

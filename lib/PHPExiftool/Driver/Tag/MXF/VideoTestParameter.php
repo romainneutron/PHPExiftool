@@ -39,5 +39,4 @@ class VideoTestParameter extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Video Test Parameter';
-
 }

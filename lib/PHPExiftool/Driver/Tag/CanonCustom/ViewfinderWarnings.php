@@ -64,5 +64,4 @@ class ViewfinderWarnings extends AbstractTag
             'Label' => 'Spot metering',
         ),
     );
-
 }

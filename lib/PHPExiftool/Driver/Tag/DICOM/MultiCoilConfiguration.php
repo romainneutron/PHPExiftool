@@ -39,5 +39,4 @@ class MultiCoilConfiguration extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Multi Coil Configuration';
-
 }

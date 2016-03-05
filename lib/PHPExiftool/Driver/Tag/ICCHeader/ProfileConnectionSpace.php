@@ -41,5 +41,4 @@ class ProfileConnectionSpace extends AbstractTag
     protected $Description = 'Profile Connection Space';
 
     protected $MaxLength = 4;
-
 }

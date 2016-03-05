@@ -39,5 +39,4 @@ class PresentationFormat extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Presentation Format';
-
 }

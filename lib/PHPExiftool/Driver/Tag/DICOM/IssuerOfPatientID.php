@@ -39,5 +39,4 @@ class IssuerOfPatientID extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Issuer Of Patient ID';
-
 }

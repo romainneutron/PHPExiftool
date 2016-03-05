@@ -41,5 +41,4 @@ class TvExposureTimeSetting extends AbstractTag
     protected $Description = 'Tv Exposure Time Setting';
 
     protected $flag_Permanent = true;
-
 }

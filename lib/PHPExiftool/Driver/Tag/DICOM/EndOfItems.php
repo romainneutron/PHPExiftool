@@ -39,5 +39,4 @@ class EndOfItems extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'End Of Items';
-
 }

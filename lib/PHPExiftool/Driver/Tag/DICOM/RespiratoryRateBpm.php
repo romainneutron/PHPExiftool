@@ -39,5 +39,4 @@ class RespiratoryRateBpm extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Respiratory Rate Bpm';
-
 }

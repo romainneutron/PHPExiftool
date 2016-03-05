@@ -1174,5 +1174,4 @@ class LensType extends AbstractTag
             'Label' => '05 Toy Lens Telephoto 18mm F8',
         ),
     );
-
 }

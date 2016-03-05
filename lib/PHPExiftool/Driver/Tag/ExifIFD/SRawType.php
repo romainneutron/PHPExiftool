@@ -41,5 +41,4 @@ class SRawType extends AbstractTag
     protected $Description = 'SRaw Type';
 
     protected $local_g1 = 'ExifIFD';
-
 }

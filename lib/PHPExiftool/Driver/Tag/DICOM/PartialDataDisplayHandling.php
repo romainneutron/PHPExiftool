@@ -39,5 +39,4 @@ class PartialDataDisplayHandling extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Partial Data Display Handling';
-
 }

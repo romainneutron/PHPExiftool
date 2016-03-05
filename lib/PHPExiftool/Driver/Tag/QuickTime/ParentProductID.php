@@ -39,5 +39,4 @@ class ParentProductID extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Parent Product ID';
-
 }

@@ -39,5 +39,4 @@ class NativeDigest extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Native Digest';
-
 }

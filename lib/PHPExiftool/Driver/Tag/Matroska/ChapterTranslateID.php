@@ -41,5 +41,4 @@ class ChapterTranslateID extends AbstractTag
     protected $Description = 'Chapter Translate ID';
 
     protected $flag_Binary = true;
-
 }

@@ -41,5 +41,4 @@ class RawImageSegmentation extends AbstractTag
     protected $Description = 'Raw Image Segmentation';
 
     protected $local_g1 = 'ExifIFD';
-
 }

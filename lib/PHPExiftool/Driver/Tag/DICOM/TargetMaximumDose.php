@@ -39,5 +39,4 @@ class TargetMaximumDose extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Target Maximum Dose';
-
 }

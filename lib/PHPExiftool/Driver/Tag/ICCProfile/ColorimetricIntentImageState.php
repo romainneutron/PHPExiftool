@@ -39,5 +39,4 @@ class ColorimetricIntentImageState extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Colorimetric Intent Image State';
-
 }

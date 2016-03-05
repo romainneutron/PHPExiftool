@@ -39,5 +39,4 @@ class DataCollectionCenterPatient extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Data Collection Center Patient';
-
 }

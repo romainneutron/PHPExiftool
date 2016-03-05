@@ -41,5 +41,4 @@ class ScanDate extends AbstractTag
     protected $Description = 'Scan Date';
 
     protected $local_g2 = 'Time';
-
 }

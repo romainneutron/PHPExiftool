@@ -43,5 +43,4 @@ class OtherImageLength extends AbstractTag
     protected $local_g1 = 'ExifIFD';
 
     protected $Index = 9;
-
 }

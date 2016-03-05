@@ -39,5 +39,4 @@ class RegisterItemDefiningDocumentName extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Register Item Defining Document Name';
-
 }

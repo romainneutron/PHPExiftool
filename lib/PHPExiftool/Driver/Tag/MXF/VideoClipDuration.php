@@ -39,5 +39,4 @@ class VideoClipDuration extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Video Clip Duration';
-
 }

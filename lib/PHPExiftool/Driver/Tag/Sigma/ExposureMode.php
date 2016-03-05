@@ -60,5 +60,4 @@ class ExposureMode extends AbstractTag
             'Label' => 'Shutter speed priority AE',
         ),
     );
-
 }

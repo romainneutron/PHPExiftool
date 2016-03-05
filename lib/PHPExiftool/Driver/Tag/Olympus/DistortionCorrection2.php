@@ -52,5 +52,4 @@ class DistortionCorrection2 extends AbstractTag
             'Label' => 'On',
         ),
     );
-
 }

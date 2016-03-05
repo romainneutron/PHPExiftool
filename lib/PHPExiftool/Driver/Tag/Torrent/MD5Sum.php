@@ -39,5 +39,4 @@ class MD5Sum extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'MD5 Sum';
-
 }

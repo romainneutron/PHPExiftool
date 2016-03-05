@@ -39,5 +39,4 @@ class PictureBitsPerPixel extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Picture Bits Per Pixel';
-
 }

@@ -39,5 +39,4 @@ class RegisterItemSymbol extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Register Item Symbol';
-
 }

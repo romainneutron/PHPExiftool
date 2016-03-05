@@ -39,5 +39,4 @@ class PictureIndexedColors extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Picture Indexed Colors';
-
 }

@@ -39,5 +39,4 @@ class PhysicalDeltaX extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Physical Delta X';
-
 }

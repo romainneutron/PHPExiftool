@@ -41,5 +41,4 @@ class OriginalFileName extends AbstractTag
     protected $Description = 'Original File Name';
 
     protected $local_g1 = 'ExifIFD';
-
 }

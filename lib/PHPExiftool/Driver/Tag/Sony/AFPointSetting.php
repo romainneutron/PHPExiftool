@@ -124,5 +124,4 @@ class AFPointSetting extends AbstractTag
             'Label' => 'Upper-left',
         ),
     );
-
 }

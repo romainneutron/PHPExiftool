@@ -41,5 +41,4 @@ class ColorNoiseReduction extends AbstractTag
     protected $Description = 'Color Noise Reduction';
 
     protected $flag_Permanent = true;
-
 }

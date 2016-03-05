@@ -39,5 +39,4 @@ class RTRelatedROISequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'RT Related ROI Sequence';
-
 }

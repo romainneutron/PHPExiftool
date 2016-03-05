@@ -39,5 +39,4 @@ class DLOSettingApplied extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'DLO Setting Applied';
-
 }

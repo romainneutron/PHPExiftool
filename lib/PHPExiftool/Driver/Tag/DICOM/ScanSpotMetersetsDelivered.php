@@ -39,5 +39,4 @@ class ScanSpotMetersetsDelivered extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Scan Spot Metersets Delivered';
-
 }

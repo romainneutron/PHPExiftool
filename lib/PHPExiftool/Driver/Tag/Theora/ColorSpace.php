@@ -54,5 +54,4 @@ class ColorSpace extends AbstractTag
             'Label' => 'Rec. 470BG',
         ),
     );
-
 }

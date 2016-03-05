@@ -39,5 +39,4 @@ class MediaBlackPoint extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Media Black Point';
-
 }

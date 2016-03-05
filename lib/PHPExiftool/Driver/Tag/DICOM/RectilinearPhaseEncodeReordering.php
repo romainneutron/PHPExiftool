@@ -39,5 +39,4 @@ class RectilinearPhaseEncodeReordering extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Rectilinear Phase Encode Reordering';
-
 }

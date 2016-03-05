@@ -41,5 +41,4 @@ class DefectPixCorEnable extends AbstractTag
     protected $Description = 'Defect Pix Cor Enable';
 
     protected $flag_Permanent = true;
-
 }

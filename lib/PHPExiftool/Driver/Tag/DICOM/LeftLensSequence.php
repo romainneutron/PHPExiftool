@@ -39,5 +39,4 @@ class LeftLensSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Left Lens Sequence';
-
 }

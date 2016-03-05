@@ -39,5 +39,4 @@ class AcquisitionEndConditionData extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Acquisition End Condition Data';
-
 }

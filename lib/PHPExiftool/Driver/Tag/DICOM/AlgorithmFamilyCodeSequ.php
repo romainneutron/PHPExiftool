@@ -39,5 +39,4 @@ class AlgorithmFamilyCodeSequ extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Algorithm Family Code Sequ';
-
 }

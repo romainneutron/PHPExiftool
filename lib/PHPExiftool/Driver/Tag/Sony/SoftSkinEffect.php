@@ -64,5 +64,4 @@ class SoftSkinEffect extends AbstractTag
             'Label' => 'n/a',
         ),
     );
-
 }

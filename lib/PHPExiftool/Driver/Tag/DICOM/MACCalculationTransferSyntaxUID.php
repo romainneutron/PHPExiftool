@@ -39,5 +39,4 @@ class MACCalculationTransferSyntaxUID extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'MAC Calculation Transfer Syntax UID';
-
 }

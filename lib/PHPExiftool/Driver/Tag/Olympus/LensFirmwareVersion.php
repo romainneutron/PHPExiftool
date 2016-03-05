@@ -41,5 +41,4 @@ class LensFirmwareVersion extends AbstractTag
     protected $Description = 'Lens Firmware Version';
 
     protected $flag_Permanent = true;
-
 }

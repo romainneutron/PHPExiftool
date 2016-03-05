@@ -39,5 +39,4 @@ class ImageLength extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Image Length';
-
 }

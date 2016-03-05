@@ -41,5 +41,4 @@ class FocusStepCount extends AbstractTag
     protected $Description = 'Focus Step Count';
 
     protected $flag_Permanent = true;
-
 }

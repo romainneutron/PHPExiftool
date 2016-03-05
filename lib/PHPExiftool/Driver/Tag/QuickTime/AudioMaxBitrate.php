@@ -39,5 +39,4 @@ class AudioMaxBitrate extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Audio Max Bitrate';
-
 }

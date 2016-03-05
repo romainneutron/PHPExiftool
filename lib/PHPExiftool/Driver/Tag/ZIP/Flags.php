@@ -62,5 +62,4 @@ class Flags extends AbstractTag
             'Label' => 'Comment',
         ),
     );
-
 }

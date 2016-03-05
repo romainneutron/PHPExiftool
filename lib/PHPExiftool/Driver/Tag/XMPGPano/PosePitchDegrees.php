@@ -39,5 +39,4 @@ class PosePitchDegrees extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Pose Pitch Degrees';
-
 }

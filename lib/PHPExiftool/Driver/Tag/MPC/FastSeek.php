@@ -50,5 +50,4 @@ class FastSeek extends AbstractTag
             'Label' => 'Yes',
         ),
     );
-
 }

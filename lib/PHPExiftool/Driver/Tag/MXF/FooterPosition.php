@@ -39,5 +39,4 @@ class FooterPosition extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Footer Position';
-
 }

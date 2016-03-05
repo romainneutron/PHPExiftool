@@ -39,5 +39,4 @@ class Tempo extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Tempo';
-
 }

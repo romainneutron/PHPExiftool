@@ -39,5 +39,4 @@ class VirtualPageUnits extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Virtual Page Units';
-
 }

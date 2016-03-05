@@ -41,5 +41,4 @@ class FontName extends AbstractTag
     protected $Description = 'Font Name';
 
     protected $MaxLength = 64;
-
 }

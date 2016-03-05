@@ -39,5 +39,4 @@ class EffectiveBW extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Effective BW';
-
 }

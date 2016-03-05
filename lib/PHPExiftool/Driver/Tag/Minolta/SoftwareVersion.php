@@ -43,5 +43,4 @@ class SoftwareVersion extends AbstractTag
     protected $flag_Permanent = true;
 
     protected $MaxLength = 16;
-
 }

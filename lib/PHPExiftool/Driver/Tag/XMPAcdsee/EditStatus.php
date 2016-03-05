@@ -41,5 +41,4 @@ class EditStatus extends AbstractTag
     protected $Description = 'Edit Status';
 
     protected $flag_Avoid = true;
-
 }

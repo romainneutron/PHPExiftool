@@ -80,5 +80,4 @@ class RecordingMode extends AbstractTag
             'Label' => 'Landscape',
         ),
     );
-
 }

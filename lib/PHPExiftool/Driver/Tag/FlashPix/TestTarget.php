@@ -74,5 +74,4 @@ class TestTarget extends AbstractTag
             'Label' => 'Micrometer Scale',
         ),
     );
-
 }

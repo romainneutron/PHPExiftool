@@ -39,5 +39,4 @@ class OfflineStatus extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Offline Status';
-
 }

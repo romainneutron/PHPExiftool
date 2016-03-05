@@ -60,5 +60,4 @@ class AutoFP extends AbstractTag
             'Label' => 'On',
         ),
     );
-
 }

@@ -39,5 +39,4 @@ class StdScaledOutput extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Std Scaled Output';
-
 }

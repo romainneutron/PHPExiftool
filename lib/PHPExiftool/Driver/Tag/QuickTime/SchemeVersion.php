@@ -39,5 +39,4 @@ class SchemeVersion extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Scheme Version';
-
 }

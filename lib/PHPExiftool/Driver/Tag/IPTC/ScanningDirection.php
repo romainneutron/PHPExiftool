@@ -74,5 +74,4 @@ class ScanningDirection extends AbstractTag
             'Label' => 'Bottom-Top, R-L',
         ),
     );
-
 }

@@ -39,5 +39,4 @@ class ApplicationSchemeBatch extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Application Scheme Batch';
-
 }

@@ -90,5 +90,4 @@ class Subsystem extends AbstractTag
             'Label' => 'XBOX',
         ),
     );
-
 }

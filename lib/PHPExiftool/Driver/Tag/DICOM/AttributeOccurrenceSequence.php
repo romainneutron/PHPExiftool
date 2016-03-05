@@ -39,5 +39,4 @@ class AttributeOccurrenceSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Attribute Occurrence Sequence';
-
 }

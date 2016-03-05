@@ -39,5 +39,4 @@ class CompensatorPixelSpacing extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Compensator Pixel Spacing';
-
 }

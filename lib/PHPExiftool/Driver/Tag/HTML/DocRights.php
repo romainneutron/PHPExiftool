@@ -39,5 +39,4 @@ class DocRights extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Doc Rights';
-
 }

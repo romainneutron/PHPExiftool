@@ -54,5 +54,4 @@ class FieldPermissions extends AbstractTag
             'Label' => 'Disallow changes to specified form fields',
         ),
     );
-
 }

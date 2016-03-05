@@ -41,5 +41,4 @@ class CMExposureCompensation extends AbstractTag
     protected $Description = 'CM Exposure Compensation';
 
     protected $flag_Permanent = true;
-
 }

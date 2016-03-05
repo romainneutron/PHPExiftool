@@ -56,5 +56,4 @@ class Quality extends AbstractTag
             'Label' => 'Fine',
         ),
     );
-
 }

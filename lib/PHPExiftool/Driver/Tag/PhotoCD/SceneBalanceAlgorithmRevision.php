@@ -41,5 +41,4 @@ class SceneBalanceAlgorithmRevision extends AbstractTag
     protected $Description = 'Scene Balance Algorithm Revision';
 
     protected $MaxLength = 2;
-
 }

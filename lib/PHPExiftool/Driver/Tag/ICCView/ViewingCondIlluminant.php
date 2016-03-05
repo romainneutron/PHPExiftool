@@ -41,5 +41,4 @@ class ViewingCondIlluminant extends AbstractTag
     protected $Description = 'Viewing Cond Illuminant';
 
     protected $MaxLength = 3;
-
 }

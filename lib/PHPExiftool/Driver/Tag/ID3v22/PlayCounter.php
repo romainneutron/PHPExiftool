@@ -39,5 +39,4 @@ class PlayCounter extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Play Counter';
-
 }

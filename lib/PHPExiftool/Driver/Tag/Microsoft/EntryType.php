@@ -39,5 +39,4 @@ class EntryType extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Entry Type';
-
 }

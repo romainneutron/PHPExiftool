@@ -41,5 +41,4 @@ class AECSnapshotExposureTimeMs extends AbstractTag
     protected $Description = 'AEC Snapshot Exposure Time Ms';
 
     protected $flag_Permanent = true;
-
 }

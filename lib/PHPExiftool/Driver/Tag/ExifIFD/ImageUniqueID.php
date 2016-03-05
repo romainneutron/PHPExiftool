@@ -41,5 +41,4 @@ class ImageUniqueID extends AbstractTag
     protected $Description = 'Image Unique ID';
 
     protected $local_g1 = 'ExifIFD';
-
 }

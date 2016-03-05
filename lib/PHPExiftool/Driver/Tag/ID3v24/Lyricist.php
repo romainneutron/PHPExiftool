@@ -39,5 +39,4 @@ class Lyricist extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Lyricist';
-
 }

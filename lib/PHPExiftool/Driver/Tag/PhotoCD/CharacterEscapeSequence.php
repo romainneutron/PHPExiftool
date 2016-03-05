@@ -43,5 +43,4 @@ class CharacterEscapeSequence extends AbstractTag
     protected $flag_Binary = true;
 
     protected $MaxLength = 32;
-
 }

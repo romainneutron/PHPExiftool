@@ -56,5 +56,4 @@ class Audio extends AbstractTag
             'Label' => 'Stereo',
         ),
     );
-
 }

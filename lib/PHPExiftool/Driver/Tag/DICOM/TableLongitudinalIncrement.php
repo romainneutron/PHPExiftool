@@ -39,5 +39,4 @@ class TableLongitudinalIncrement extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Table Longitudinal Increment';
-
 }

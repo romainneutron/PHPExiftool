@@ -41,5 +41,4 @@ class ZoomSourceWidth extends AbstractTag
     protected $Description = 'Zoom Source Width';
 
     protected $flag_Permanent = true;
-
 }

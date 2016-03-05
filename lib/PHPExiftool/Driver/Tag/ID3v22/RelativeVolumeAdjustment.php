@@ -39,5 +39,4 @@ class RelativeVolumeAdjustment extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Relative Volume Adjustment';
-
 }

@@ -39,5 +39,4 @@ class CoarseMapImage extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Coarse Map Image';
-
 }

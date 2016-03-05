@@ -39,5 +39,4 @@ class ProjFalseOriginNorthing extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Proj False Origin Northing';
-
 }

@@ -41,5 +41,4 @@ class MultiBurstImageWidth extends AbstractTag
     protected $Description = 'Multi Burst Image Width';
 
     protected $flag_Permanent = true;
-
 }

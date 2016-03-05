@@ -39,5 +39,4 @@ class ID3Size extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'ID3 Size';
-
 }

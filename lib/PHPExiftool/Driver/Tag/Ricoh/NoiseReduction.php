@@ -76,5 +76,4 @@ class NoiseReduction extends AbstractTag
             'Label' => 'Max',
         ),
     );
-
 }

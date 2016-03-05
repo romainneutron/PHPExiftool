@@ -60,5 +60,4 @@ class FileSource extends AbstractTag
             'Label' => 'Sigma Digital Camera',
         ),
     );
-
 }

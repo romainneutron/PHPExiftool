@@ -39,5 +39,4 @@ class SaturationAdjustmentAqua extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Saturation Adjustment Aqua';
-
 }

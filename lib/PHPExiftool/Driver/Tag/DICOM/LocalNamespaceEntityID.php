@@ -39,5 +39,4 @@ class LocalNamespaceEntityID extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Local Namespace Entity ID';
-
 }

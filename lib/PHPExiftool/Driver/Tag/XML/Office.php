@@ -39,5 +39,4 @@ class Office extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Office';
-
 }

@@ -39,5 +39,4 @@ class TriggerVector extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Trigger Vector';
-
 }

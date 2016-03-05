@@ -39,5 +39,4 @@ class BrachyControlPointSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Brachy Control Point Sequence';
-
 }

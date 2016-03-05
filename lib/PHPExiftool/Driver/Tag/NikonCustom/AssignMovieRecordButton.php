@@ -84,5 +84,4 @@ class AssignMovieRecordButton extends AbstractTag
             'Label' => 'ISO Sensitivity',
         ),
     );
-
 }

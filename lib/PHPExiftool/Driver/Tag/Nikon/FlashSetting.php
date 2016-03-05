@@ -41,5 +41,4 @@ class FlashSetting extends AbstractTag
     protected $Description = 'Flash Setting';
 
     protected $flag_Permanent = true;
-
 }

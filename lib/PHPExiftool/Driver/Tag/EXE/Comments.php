@@ -39,5 +39,4 @@ class Comments extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Comments';
-
 }

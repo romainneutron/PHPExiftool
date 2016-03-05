@@ -39,5 +39,4 @@ class ClippingPathName extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Clipping Path Name';
-
 }

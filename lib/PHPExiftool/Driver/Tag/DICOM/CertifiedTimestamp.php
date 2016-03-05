@@ -39,5 +39,4 @@ class CertifiedTimestamp extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Certified Timestamp';
-
 }

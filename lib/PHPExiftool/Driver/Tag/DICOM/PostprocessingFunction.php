@@ -39,5 +39,4 @@ class PostprocessingFunction extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Postprocessing Function';
-
 }

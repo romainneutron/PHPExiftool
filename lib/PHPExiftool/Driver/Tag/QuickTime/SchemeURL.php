@@ -39,5 +39,4 @@ class SchemeURL extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Scheme URL';
-
 }

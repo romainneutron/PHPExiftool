@@ -41,5 +41,4 @@ class SourceFileName extends AbstractTag
     protected $Description = 'Source File Name';
 
     protected $MaxLength = 100;
-
 }

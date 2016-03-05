@@ -39,5 +39,4 @@ class AudioHasVariablePacketByteSizes extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Audio Has Variable Packet Byte Sizes';
-
 }

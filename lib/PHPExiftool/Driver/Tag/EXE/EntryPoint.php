@@ -39,5 +39,4 @@ class EntryPoint extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Entry Point';
-
 }

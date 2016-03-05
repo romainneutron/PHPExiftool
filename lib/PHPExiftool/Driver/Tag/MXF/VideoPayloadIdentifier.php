@@ -39,5 +39,4 @@ class VideoPayloadIdentifier extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Video Payload Identifier';
-
 }

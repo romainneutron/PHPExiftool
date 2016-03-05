@@ -52,5 +52,4 @@ class PeripheralLightingSetting extends AbstractTag
             'Label' => 'On',
         ),
     );
-
 }

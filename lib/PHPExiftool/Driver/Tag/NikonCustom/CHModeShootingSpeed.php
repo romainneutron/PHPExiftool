@@ -64,5 +64,4 @@ class CHModeShootingSpeed extends AbstractTag
             'Label' => '11 fps',
         ),
     );
-
 }

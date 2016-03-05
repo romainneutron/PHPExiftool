@@ -39,5 +39,4 @@ class SpecifiedTreatmentTime extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Specified Treatment Time';
-
 }

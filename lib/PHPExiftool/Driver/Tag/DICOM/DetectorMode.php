@@ -39,5 +39,4 @@ class DetectorMode extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Detector Mode';
-
 }

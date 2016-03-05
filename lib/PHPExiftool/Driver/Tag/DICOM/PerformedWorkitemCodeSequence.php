@@ -39,5 +39,4 @@ class PerformedWorkitemCodeSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Performed Workitem Code Sequence';
-
 }

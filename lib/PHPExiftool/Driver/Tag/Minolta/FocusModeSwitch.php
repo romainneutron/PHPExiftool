@@ -52,5 +52,4 @@ class FocusModeSwitch extends AbstractTag
             'Label' => 'MF',
         ),
     );
-
 }

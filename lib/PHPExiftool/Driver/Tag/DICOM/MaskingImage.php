@@ -39,5 +39,4 @@ class MaskingImage extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Masking Image';
-
 }

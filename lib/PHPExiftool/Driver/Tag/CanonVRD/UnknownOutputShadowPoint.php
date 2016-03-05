@@ -39,5 +39,4 @@ class UnknownOutputShadowPoint extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Unknown Output Shadow Point';
-
 }

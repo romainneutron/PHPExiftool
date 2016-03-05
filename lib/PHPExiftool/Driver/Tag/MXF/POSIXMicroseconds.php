@@ -39,5 +39,4 @@ class POSIXMicroseconds extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'POSIX Microseconds';
-
 }

@@ -39,5 +39,4 @@ class CalculatedScaleMin extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Calculated Scale Min';
-
 }

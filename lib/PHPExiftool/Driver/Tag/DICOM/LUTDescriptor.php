@@ -39,5 +39,4 @@ class LUTDescriptor extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'LUT Descriptor';
-
 }

@@ -41,5 +41,4 @@ class FlashEnergy extends AbstractTag
     protected $Description = 'Flash Energy';
 
     protected $local_g2 = 'Camera';
-
 }

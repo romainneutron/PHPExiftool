@@ -41,5 +41,4 @@ class IngredientsInstanceID extends AbstractTag
     protected $Description = 'Ingredients Instance ID';
 
     protected $flag_List = true;
-
 }

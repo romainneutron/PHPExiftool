@@ -39,5 +39,4 @@ class ReconstructionFieldOfView extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Reconstruction Field Of View';
-
 }

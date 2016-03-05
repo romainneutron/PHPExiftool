@@ -39,5 +39,4 @@ class HasFileTransferStream extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Has File Transfer Stream';
-
 }

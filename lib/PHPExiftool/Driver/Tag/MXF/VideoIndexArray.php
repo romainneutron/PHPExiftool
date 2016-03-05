@@ -39,5 +39,4 @@ class VideoIndexArray extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Video Index Array';
-
 }

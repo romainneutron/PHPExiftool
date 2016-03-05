@@ -41,5 +41,4 @@ class XTransLayout extends AbstractTag
     protected $Description = 'X-Trans Layout';
 
     protected $MaxLength = 36;
-
 }

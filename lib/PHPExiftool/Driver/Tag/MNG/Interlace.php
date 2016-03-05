@@ -58,5 +58,4 @@ class Interlace extends AbstractTag
             'Label' => 'Progressive',
         ),
     );
-
 }

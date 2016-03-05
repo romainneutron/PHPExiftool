@@ -41,5 +41,4 @@ class FocusDistanceLower extends AbstractTag
     protected $Description = 'Focus Distance Lower';
 
     protected $flag_Permanent = true;
-
 }

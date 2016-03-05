@@ -39,5 +39,4 @@ class MediaStationCallSign extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Media Station Call Sign';
-
 }

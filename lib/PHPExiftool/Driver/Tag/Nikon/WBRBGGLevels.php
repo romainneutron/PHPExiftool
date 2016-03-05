@@ -45,5 +45,4 @@ class WBRBGGLevels extends AbstractTag
     protected $flag_Unsafe = true;
 
     protected $MaxLength = 4;
-
 }

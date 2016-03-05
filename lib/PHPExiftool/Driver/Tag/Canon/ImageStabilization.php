@@ -84,5 +84,4 @@ class ImageStabilization extends AbstractTag
             'Label' => 'Dynamic (2)',
         ),
     );
-
 }

@@ -41,5 +41,4 @@ class EventVerbatimEventDate extends AbstractTag
     protected $Description = 'Event Verbatim Event Date';
 
     protected $local_g2 = 'Time';
-
 }

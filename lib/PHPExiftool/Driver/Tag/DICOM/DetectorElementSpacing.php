@@ -39,5 +39,4 @@ class DetectorElementSpacing extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Detector Element Spacing';
-
 }

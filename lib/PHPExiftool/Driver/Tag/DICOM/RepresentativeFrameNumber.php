@@ -39,5 +39,4 @@ class RepresentativeFrameNumber extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Representative Frame Number';
-
 }

@@ -19,5 +19,4 @@ class Integer extends AbstractType
     protected $ExiftoolName = 'integer';
 
     protected $PHPMap = 'int';
-
 }

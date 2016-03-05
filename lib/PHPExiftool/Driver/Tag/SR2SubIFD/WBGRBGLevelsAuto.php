@@ -41,5 +41,4 @@ class WBGRBGLevelsAuto extends AbstractTag
     protected $Description = 'WB GRBG Levels Auto';
 
     protected $flag_Permanent = true;
-
 }

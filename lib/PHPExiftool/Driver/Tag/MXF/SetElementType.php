@@ -39,5 +39,4 @@ class SetElementType extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Set Element Type';
-
 }

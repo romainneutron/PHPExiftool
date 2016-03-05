@@ -68,5 +68,4 @@ class FlashMode extends AbstractTag
             'Label' => 'Fired, TTL Mode',
         ),
     );
-
 }

@@ -39,5 +39,4 @@ class XRayOnPosition extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'X Ray On Position';
-
 }

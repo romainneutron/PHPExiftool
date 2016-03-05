@@ -52,5 +52,4 @@ class FlashExposureCompArea extends AbstractTag
             'Label' => 'Background only',
         ),
     );
-
 }

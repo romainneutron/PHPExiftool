@@ -39,5 +39,4 @@ class SpecialBuild extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Special Build';
-
 }

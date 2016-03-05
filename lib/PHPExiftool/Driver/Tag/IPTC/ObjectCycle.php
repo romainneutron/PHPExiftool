@@ -56,5 +56,4 @@ class ObjectCycle extends AbstractTag
             'Label' => 'Evening',
         ),
     );
-
 }

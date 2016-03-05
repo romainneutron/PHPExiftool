@@ -39,5 +39,4 @@ class MRDRDirectoryRecordOffset extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'MRDR Directory Record Offset';
-
 }

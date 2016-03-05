@@ -39,5 +39,4 @@ class ScriptingLocators extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Scripting Locators';
-
 }

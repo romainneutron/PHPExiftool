@@ -39,5 +39,4 @@ class Theme extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Theme';
-
 }

@@ -41,5 +41,4 @@ class HintFormat extends AbstractTag
     protected $Description = 'Hint Format';
 
     protected $MaxLength = 4;
-
 }

@@ -39,5 +39,4 @@ class MediaLanguageCode extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Media Language Code';
-
 }

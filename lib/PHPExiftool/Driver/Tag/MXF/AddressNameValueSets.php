@@ -39,5 +39,4 @@ class AddressNameValueSets extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Address Name Value Sets';
-
 }

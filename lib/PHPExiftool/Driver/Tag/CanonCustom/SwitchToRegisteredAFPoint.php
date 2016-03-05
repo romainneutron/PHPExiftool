@@ -78,5 +78,4 @@ class SwitchToRegisteredAFPoint extends AbstractTag
     );
 
     protected $Index = 'mixed';
-
 }

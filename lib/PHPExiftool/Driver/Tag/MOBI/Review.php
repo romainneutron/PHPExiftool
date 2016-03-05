@@ -39,5 +39,4 @@ class Review extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Review';
-
 }

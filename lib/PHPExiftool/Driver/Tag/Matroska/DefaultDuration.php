@@ -41,5 +41,4 @@ class DefaultDuration extends AbstractTag
     protected $Description = 'Default Duration';
 
     protected $Index = 1;
-
 }

@@ -124,5 +124,4 @@ class AFAssist extends AbstractTag
             'Label' => 'Off',
         ),
     );
-
 }

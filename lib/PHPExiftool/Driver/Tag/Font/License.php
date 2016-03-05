@@ -39,5 +39,4 @@ class License extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'License';
-
 }

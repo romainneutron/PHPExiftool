@@ -41,5 +41,4 @@ class FrameID extends AbstractTag
     protected $Description = 'Frame ID';
 
     protected $MaxLength = 32;
-
 }

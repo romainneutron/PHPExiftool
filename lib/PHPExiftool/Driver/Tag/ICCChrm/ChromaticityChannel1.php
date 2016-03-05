@@ -41,5 +41,4 @@ class ChromaticityChannel1 extends AbstractTag
     protected $Description = 'Chromaticity Channel 1';
 
     protected $MaxLength = 2;
-
 }

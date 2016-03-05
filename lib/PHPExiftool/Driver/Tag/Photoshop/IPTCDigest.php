@@ -41,5 +41,4 @@ class IPTCDigest extends AbstractTag
     protected $Description = 'IPTC Digest';
 
     protected $flag_Unsafe = true;
-
 }

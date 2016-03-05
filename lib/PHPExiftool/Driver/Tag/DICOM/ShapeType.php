@@ -39,5 +39,4 @@ class ShapeType extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Shape Type';
-
 }

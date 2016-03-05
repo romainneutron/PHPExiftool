@@ -41,5 +41,4 @@ class SeekID extends AbstractTag
     protected $Description = 'Seek ID';
 
     protected $flag_Binary = true;
-
 }

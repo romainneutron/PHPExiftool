@@ -39,5 +39,4 @@ class StudyComponentStatusID extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Study Component Status ID';
-
 }

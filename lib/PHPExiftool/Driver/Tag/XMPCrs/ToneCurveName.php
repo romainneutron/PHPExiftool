@@ -58,5 +58,4 @@ class ToneCurveName extends AbstractTag
             'Label' => 'Strong Contrast',
         ),
     );
-
 }

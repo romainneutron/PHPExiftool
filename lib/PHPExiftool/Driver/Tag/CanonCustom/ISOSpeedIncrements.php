@@ -52,5 +52,4 @@ class ISOSpeedIncrements extends AbstractTag
             'Label' => '1 Stop',
         ),
     );
-
 }

@@ -41,5 +41,4 @@ class FileHardLinks extends AbstractTag
     protected $Description = 'File Hard Links';
 
     protected $local_g1 = 'System';
-
 }

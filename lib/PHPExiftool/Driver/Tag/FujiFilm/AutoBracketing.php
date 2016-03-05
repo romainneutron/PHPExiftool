@@ -56,5 +56,4 @@ class AutoBracketing extends AbstractTag
             'Label' => 'No flash & flash',
         ),
     );
-
 }

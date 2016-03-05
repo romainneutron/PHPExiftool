@@ -39,5 +39,4 @@ class RelationshipOfResource extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Relationship Of Resource';
-
 }

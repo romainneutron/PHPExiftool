@@ -39,5 +39,4 @@ class ProfileVersion extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Profile Version';
-
 }

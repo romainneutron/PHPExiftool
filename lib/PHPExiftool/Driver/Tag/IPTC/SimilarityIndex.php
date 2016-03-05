@@ -41,5 +41,4 @@ class SimilarityIndex extends AbstractTag
     protected $Description = 'Similarity Index';
 
     protected $MaxLength = 32;
-
 }

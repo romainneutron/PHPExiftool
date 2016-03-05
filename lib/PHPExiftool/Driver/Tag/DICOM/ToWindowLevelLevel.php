@@ -39,5 +39,4 @@ class ToWindowLevelLevel extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'To Window Level Level';
-
 }

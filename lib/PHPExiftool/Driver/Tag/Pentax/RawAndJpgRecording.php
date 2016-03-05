@@ -104,5 +104,4 @@ class RawAndJpgRecording extends AbstractTag
             'Label' => 'RAW+JPEG (DNG, Good)',
         ),
     );
-
 }

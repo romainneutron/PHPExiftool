@@ -48,5 +48,4 @@ class DataType extends AbstractTag
             'Label' => 'Artwork',
         ),
     );
-
 }

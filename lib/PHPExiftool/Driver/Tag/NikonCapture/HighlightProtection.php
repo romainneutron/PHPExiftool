@@ -41,5 +41,4 @@ class HighlightProtection extends AbstractTag
     protected $Description = 'Highlight Protection';
 
     protected $flag_Permanent = true;
-
 }

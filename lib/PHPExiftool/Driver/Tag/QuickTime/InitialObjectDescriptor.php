@@ -41,5 +41,4 @@ class InitialObjectDescriptor extends AbstractTag
     protected $Description = 'Initial Object Descriptor';
 
     protected $flag_Binary = true;
-
 }

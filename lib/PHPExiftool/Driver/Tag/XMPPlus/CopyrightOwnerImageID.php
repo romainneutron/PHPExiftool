@@ -39,5 +39,4 @@ class CopyrightOwnerImageID extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Copyright Owner Image ID';
-
 }

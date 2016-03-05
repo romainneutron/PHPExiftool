@@ -39,5 +39,4 @@ class DefHilite extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Use Default Highlight Color';
-
 }

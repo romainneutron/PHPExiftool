@@ -39,5 +39,4 @@ class RadioFormat extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Radio Format';
-
 }

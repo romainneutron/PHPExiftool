@@ -84,5 +84,4 @@ class Enhancement extends AbstractTag
             'Label' => 'Flesh Tones',
         ),
     );
-
 }

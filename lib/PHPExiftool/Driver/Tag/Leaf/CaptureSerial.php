@@ -39,5 +39,4 @@ class CaptureSerial extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Capture Serial Number';
-
 }

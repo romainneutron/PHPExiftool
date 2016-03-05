@@ -39,5 +39,4 @@ class MidScanFlag extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Mid Scan Flag';
-
 }

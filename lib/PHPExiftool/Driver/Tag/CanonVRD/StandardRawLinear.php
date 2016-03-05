@@ -50,5 +50,4 @@ class StandardRawLinear extends AbstractTag
             'Label' => 'Yes',
         ),
     );
-
 }

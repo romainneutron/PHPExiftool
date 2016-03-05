@@ -56,5 +56,4 @@ class DateStampMode extends AbstractTag
             'Label' => 'Date & Time',
         ),
     );
-
 }

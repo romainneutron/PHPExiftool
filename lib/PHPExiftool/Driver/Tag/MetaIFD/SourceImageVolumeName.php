@@ -39,5 +39,4 @@ class SourceImageVolumeName extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Source Image Volume Name';
-
 }

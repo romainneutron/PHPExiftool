@@ -39,5 +39,4 @@ class ExposureIndex extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Exposure Index';
-
 }

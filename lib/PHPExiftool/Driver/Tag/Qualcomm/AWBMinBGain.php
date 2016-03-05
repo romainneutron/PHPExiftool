@@ -41,5 +41,4 @@ class AWBMinBGain extends AbstractTag
     protected $Description = 'AWB Min B Gain';
 
     protected $flag_Permanent = true;
-
 }

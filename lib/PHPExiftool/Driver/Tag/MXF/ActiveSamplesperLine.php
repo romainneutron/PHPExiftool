@@ -39,5 +39,4 @@ class ActiveSamplesperLine extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Active Samplesper Line';
-
 }

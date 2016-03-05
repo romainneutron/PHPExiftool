@@ -52,5 +52,4 @@ class SubSelectorAssignment extends AbstractTag
             'Label' => 'Same As Multi-selector',
         ),
     );
-
 }

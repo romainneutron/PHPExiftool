@@ -39,5 +39,4 @@ class MIMECharSet extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'MIME Char Set';
-
 }

@@ -41,5 +41,4 @@ class SpecificationVersion extends AbstractTag
     protected $Description = 'Specification Version';
 
     protected $MaxLength = 2;
-
 }

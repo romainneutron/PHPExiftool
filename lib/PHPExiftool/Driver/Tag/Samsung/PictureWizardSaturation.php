@@ -41,5 +41,4 @@ class PictureWizardSaturation extends AbstractTag
     protected $Description = 'Picture Wizard Saturation';
 
     protected $flag_Permanent = true;
-
 }

@@ -41,5 +41,4 @@ class FocalLength extends AbstractTag
     protected $Description = 'Focal Length';
 
     protected $flag_Permanent = true;
-
 }

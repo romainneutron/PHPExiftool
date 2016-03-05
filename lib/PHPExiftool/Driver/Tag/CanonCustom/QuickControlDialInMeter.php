@@ -64,5 +64,4 @@ class QuickControlDialInMeter extends AbstractTag
             'Label' => 'ISO speed swapped with Exposure comp',
         ),
     );
-
 }

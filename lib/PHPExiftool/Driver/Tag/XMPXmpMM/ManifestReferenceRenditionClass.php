@@ -41,5 +41,4 @@ class ManifestReferenceRenditionClass extends AbstractTag
     protected $Description = 'Manifest Reference Rendition Class';
 
     protected $flag_List = true;
-
 }

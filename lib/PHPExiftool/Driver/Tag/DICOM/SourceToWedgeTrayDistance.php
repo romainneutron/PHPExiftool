@@ -39,5 +39,4 @@ class SourceToWedgeTrayDistance extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Source To Wedge Tray Distance';
-
 }

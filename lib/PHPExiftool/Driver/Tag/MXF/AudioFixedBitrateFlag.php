@@ -41,5 +41,4 @@ class AudioFixedBitrateFlag extends AbstractTag
     protected $Description = 'Audio Fixed Bitrate Flag';
 
     protected $local_g2 = 'Audio';
-
 }

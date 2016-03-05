@@ -39,5 +39,4 @@ class FourCC2Len extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Four CC2 Len';
-
 }

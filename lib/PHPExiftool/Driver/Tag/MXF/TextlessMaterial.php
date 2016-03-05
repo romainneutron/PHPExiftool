@@ -39,5 +39,4 @@ class TextlessMaterial extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Textless Material';
-
 }

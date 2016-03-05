@@ -39,5 +39,4 @@ class ExposureModulationType extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Exposure Modulation Type';
-
 }

@@ -39,5 +39,4 @@ class TxFont extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Font Number';
-
 }

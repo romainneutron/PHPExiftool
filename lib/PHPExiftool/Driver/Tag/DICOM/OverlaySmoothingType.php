@@ -39,5 +39,4 @@ class OverlaySmoothingType extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Overlay Smoothing Type';
-
 }

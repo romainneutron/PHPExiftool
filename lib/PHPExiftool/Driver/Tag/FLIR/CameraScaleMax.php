@@ -39,5 +39,4 @@ class CameraScaleMax extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Camera Scale Max';
-
 }

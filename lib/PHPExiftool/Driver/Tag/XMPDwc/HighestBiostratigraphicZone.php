@@ -39,5 +39,4 @@ class HighestBiostratigraphicZone extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Highest Biostratigraphic Zone';
-
 }

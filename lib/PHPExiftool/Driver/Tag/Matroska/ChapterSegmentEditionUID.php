@@ -41,5 +41,4 @@ class ChapterSegmentEditionUID extends AbstractTag
     protected $Description = 'Chapter Segment Edition UID';
 
     protected $flag_Binary = true;
-
 }

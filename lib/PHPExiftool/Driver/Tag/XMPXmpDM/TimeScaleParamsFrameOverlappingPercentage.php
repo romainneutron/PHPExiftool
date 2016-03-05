@@ -39,5 +39,4 @@ class TimeScaleParamsFrameOverlappingPercentage extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Time Scale Params Frame Overlapping Percentage';
-
 }

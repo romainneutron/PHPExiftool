@@ -39,5 +39,4 @@ class ReferencedStoredPrintSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Referenced Stored Print Sequence';
-
 }

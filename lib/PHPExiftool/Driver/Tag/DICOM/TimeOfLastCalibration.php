@@ -39,5 +39,4 @@ class TimeOfLastCalibration extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Time Of Last Calibration';
-
 }

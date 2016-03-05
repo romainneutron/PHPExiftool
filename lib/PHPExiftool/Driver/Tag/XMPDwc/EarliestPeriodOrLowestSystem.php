@@ -39,5 +39,4 @@ class EarliestPeriodOrLowestSystem extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Earliest Period Or Lowest System';
-
 }

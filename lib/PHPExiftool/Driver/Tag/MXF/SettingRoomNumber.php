@@ -39,5 +39,4 @@ class SettingRoomNumber extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Setting Room Number';
-
 }

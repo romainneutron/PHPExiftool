@@ -48,5 +48,4 @@ class SaturationFaithful extends AbstractTag
             'Label' => 'n/a',
         ),
     );
-
 }

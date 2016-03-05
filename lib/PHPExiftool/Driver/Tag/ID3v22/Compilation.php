@@ -50,5 +50,4 @@ class Compilation extends AbstractTag
             'Label' => 'Yes',
         ),
     );
-
 }

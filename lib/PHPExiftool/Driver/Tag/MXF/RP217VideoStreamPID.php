@@ -39,5 +39,4 @@ class RP217VideoStreamPID extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'RP217 Video Stream PID';
-
 }

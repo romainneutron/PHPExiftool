@@ -39,5 +39,4 @@ class AeProjectLinkFullPath extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Ae Project Link Full Path';
-
 }

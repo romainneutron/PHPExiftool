@@ -39,5 +39,4 @@ class InterpretationDiagnosisCodeSeq extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Interpretation Diagnosis Code Seq';
-
 }

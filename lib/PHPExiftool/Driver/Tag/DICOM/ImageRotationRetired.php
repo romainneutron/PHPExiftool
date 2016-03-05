@@ -39,5 +39,4 @@ class ImageRotationRetired extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Image Rotation Retired';
-
 }

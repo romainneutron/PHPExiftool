@@ -96,5 +96,4 @@ class PictureWizardMode extends AbstractTag
             'Label' => 'n/a',
         ),
     );
-
 }

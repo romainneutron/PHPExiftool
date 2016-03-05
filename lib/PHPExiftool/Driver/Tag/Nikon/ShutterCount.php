@@ -45,5 +45,4 @@ class ShutterCount extends AbstractTag
     protected $flag_Unsafe = true;
 
     protected $MaxLength = 'mixed';
-
 }

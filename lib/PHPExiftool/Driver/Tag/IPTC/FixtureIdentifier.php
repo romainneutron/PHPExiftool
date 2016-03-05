@@ -41,5 +41,4 @@ class FixtureIdentifier extends AbstractTag
     protected $Description = 'Fixture Identifier';
 
     protected $MaxLength = 32;
-
 }

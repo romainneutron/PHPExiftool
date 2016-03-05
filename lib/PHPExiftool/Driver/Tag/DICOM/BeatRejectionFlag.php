@@ -39,5 +39,4 @@ class BeatRejectionFlag extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Beat Rejection Flag';
-
 }

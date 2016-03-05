@@ -538,5 +538,4 @@ class AFFineTuneAdj extends AbstractTag
     );
 
     protected $Index = 'mixed';
-
 }

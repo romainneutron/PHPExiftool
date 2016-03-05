@@ -60,5 +60,4 @@ class BatteryState extends AbstractTag
             'Label' => 'Sufficient Power Remaining',
         ),
     );
-
 }

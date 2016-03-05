@@ -60,5 +60,4 @@ class AutoBracketingMode extends AbstractTag
             'Label' => 'Flash Only',
         ),
     );
-
 }

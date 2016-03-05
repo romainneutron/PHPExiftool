@@ -39,5 +39,4 @@ class WBFineTuneSaturation extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'WB Fine Tune Saturation';
-
 }

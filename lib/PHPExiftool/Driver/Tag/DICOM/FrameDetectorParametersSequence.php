@@ -39,5 +39,4 @@ class FrameDetectorParametersSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Frame Detector Parameters Sequence';
-
 }

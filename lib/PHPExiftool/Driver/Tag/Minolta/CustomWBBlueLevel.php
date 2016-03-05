@@ -41,5 +41,4 @@ class CustomWBBlueLevel extends AbstractTag
     protected $Description = 'Custom WB Blue Level';
 
     protected $flag_Permanent = true;
-
 }

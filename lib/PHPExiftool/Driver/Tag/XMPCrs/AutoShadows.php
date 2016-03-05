@@ -39,5 +39,4 @@ class AutoShadows extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Auto Shadows';
-
 }

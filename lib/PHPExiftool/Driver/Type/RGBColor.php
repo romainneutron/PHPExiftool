@@ -19,5 +19,4 @@ class RGBColor extends AbstractType
     protected $ExiftoolName = 'RGBColor';
 
     protected $PHPMap = 'string';
-
 }

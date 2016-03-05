@@ -39,5 +39,4 @@ class Columns extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Columns';
-
 }

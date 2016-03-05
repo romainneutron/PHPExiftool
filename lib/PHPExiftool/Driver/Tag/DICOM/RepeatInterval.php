@@ -39,5 +39,4 @@ class RepeatInterval extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Repeat Interval';
-
 }

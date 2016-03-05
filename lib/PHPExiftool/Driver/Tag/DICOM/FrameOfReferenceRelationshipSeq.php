@@ -39,5 +39,4 @@ class FrameOfReferenceRelationshipSeq extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Frame Of Reference Relationship Seq';
-
 }

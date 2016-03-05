@@ -39,5 +39,4 @@ class DeltaEntryArray extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Delta Entry Array';
-
 }

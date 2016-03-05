@@ -39,5 +39,4 @@ class CTExposureSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'CT Exposure Sequence';
-
 }

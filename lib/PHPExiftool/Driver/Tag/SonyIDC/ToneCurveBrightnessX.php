@@ -41,5 +41,4 @@ class ToneCurveBrightnessX extends AbstractTag
     protected $Description = 'Tone Curve Brightness X';
 
     protected $flag_Permanent = true;
-
 }

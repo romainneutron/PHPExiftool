@@ -41,5 +41,4 @@ class Decode extends AbstractTag
     protected $Description = 'Decode';
 
     protected $local_g1 = 'ExifIFD';
-
 }

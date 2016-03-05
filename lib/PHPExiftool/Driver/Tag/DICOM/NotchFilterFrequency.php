@@ -39,5 +39,4 @@ class NotchFilterFrequency extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Notch Filter Frequency';
-
 }

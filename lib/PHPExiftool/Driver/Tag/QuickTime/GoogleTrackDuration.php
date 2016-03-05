@@ -39,5 +39,4 @@ class GoogleTrackDuration extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Google Track Duration';
-
 }

@@ -39,5 +39,4 @@ class ObjectHorizontalAverageDimension extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Object Horizontal Average Dimension';
-
 }

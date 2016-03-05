@@ -94,5 +94,4 @@ class WBMode extends AbstractTag
             'Label' => 'One-touch',
         ),
     );
-
 }

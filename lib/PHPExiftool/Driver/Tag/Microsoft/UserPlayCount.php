@@ -39,5 +39,4 @@ class UserPlayCount extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'User Play Count';
-
 }

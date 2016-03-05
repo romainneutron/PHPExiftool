@@ -39,5 +39,4 @@ class WorkingPath extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Working Path';
-
 }

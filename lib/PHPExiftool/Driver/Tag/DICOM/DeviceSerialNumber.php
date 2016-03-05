@@ -39,5 +39,4 @@ class DeviceSerialNumber extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Device Serial Number';
-
 }

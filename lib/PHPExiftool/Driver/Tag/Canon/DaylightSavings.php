@@ -52,5 +52,4 @@ class DaylightSavings extends AbstractTag
             'Label' => 'On',
         ),
     );
-
 }

@@ -43,5 +43,4 @@ class RawImageFullSize extends AbstractTag
     protected $local_g1 = 'RAF2';
 
     protected $MaxLength = 2;
-
 }

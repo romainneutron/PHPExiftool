@@ -136,5 +136,4 @@ class SceneMode extends AbstractTag
             'Label' => 'High ISO',
         ),
     );
-
 }

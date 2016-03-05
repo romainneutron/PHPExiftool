@@ -70,5 +70,4 @@ class ToneCurveProperty extends AbstractTag
             'Label' => 'Custom 5',
         ),
     );
-
 }

@@ -52,5 +52,4 @@ class InternalFlash extends AbstractTag
             'Label' => 'Fired',
         ),
     );
-
 }

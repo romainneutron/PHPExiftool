@@ -41,5 +41,4 @@ class SequenceName extends AbstractTag
     protected $Description = 'Sequence Name';
 
     protected $flag_Avoid = true;
-
 }

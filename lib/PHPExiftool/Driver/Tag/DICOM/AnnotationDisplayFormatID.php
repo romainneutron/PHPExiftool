@@ -39,5 +39,4 @@ class AnnotationDisplayFormatID extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Annotation Display Format ID';
-
 }

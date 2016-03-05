@@ -41,5 +41,4 @@ class LicenseTransactionDate extends AbstractTag
     protected $Description = 'License Transaction Date';
 
     protected $local_g2 = 'Time';
-
 }

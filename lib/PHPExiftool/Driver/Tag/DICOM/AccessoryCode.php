@@ -39,5 +39,4 @@ class AccessoryCode extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Accessory Code';
-
 }

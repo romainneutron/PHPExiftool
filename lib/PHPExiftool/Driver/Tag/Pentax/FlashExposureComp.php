@@ -45,5 +45,4 @@ class FlashExposureComp extends AbstractTag
     protected $MaxLength = 'mixed';
 
     protected $Index = 'mixed';
-
 }

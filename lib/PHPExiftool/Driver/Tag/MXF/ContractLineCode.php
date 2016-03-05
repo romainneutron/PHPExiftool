@@ -39,5 +39,4 @@ class ContractLineCode extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Contract Line Code';
-
 }

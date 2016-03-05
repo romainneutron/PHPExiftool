@@ -41,5 +41,4 @@ class AWBOutdoorSampleInfluence extends AbstractTag
     protected $Description = 'AWB Outdoor Sample Influence';
 
     protected $flag_Permanent = true;
-
 }

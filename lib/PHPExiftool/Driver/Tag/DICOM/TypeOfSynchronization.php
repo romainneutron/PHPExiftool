@@ -39,5 +39,4 @@ class TypeOfSynchronization extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Type Of Synchronization';
-
 }

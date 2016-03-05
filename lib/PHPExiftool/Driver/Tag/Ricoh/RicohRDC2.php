@@ -41,5 +41,4 @@ class RicohRDC2 extends AbstractTag
     protected $Description = 'Ricoh RDC2';
 
     protected $flag_Permanent = true;
-
 }

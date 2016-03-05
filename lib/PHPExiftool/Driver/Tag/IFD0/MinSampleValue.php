@@ -39,5 +39,4 @@ class MinSampleValue extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Min Sample Value';
-
 }

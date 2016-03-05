@@ -39,5 +39,4 @@ class TimelineInfo extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Timeline Info';
-
 }

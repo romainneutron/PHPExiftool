@@ -41,5 +41,4 @@ class AdvancedSceneType extends AbstractTag
     protected $Description = 'Advanced Scene Type';
 
     protected $flag_Permanent = true;
-
 }

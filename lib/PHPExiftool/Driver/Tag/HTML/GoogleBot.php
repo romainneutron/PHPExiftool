@@ -39,5 +39,4 @@ class GoogleBot extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Google Bot';
-
 }

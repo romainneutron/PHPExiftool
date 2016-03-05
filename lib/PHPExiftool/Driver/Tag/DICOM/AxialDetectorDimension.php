@@ -39,5 +39,4 @@ class AxialDetectorDimension extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Axial Detector Dimension';
-
 }

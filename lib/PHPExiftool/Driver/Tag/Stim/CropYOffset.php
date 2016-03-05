@@ -39,5 +39,4 @@ class CropYOffset extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Crop Y Offset';
-
 }

@@ -39,5 +39,4 @@ class ContextIdentifier extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Context Identifier';
-
 }

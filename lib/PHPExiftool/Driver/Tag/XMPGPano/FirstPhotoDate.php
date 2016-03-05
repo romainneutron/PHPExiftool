@@ -41,5 +41,4 @@ class FirstPhotoDate extends AbstractTag
     protected $Description = 'First Photo Date';
 
     protected $local_g2 = 'Time';
-
 }

@@ -39,5 +39,4 @@ class VariableEchoflag extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Variable Echoflag';
-
 }

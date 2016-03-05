@@ -39,5 +39,4 @@ class AddNearSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Add Near Sequence';
-
 }

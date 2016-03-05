@@ -47,5 +47,4 @@ class MakerNoteLeica extends AbstractTag
     protected $flag_Permanent = true;
 
     protected $Index = 43;
-
 }

@@ -41,5 +41,4 @@ class PrimaryItemReference extends AbstractTag
     protected $Description = 'Primary Item Reference';
 
     protected $flag_Binary = true;
-
 }

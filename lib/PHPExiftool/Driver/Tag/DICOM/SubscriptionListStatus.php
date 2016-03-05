@@ -39,5 +39,4 @@ class SubscriptionListStatus extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Subscription List Status';
-
 }

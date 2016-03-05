@@ -39,5 +39,4 @@ class PresentationSizeMode extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Presentation Size Mode';
-
 }

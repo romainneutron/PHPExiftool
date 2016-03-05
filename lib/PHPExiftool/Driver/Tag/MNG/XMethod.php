@@ -66,5 +66,4 @@ class XMethod extends AbstractTag
             'Label' => 'Color Closest Pixel and Alpha Linear Interpolation',
         ),
     );
-
 }

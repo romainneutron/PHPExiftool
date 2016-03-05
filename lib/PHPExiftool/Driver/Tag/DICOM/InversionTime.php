@@ -39,5 +39,4 @@ class InversionTime extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Inversion Time';
-
 }

@@ -39,5 +39,4 @@ class Webpage extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Webpage';
-
 }

@@ -72,5 +72,4 @@ class AutoBracketing extends AbstractTag
             'Label' => 'Effect',
         ),
     );
-
 }

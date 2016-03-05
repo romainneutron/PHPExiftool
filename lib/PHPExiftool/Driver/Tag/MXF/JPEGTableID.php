@@ -39,5 +39,4 @@ class JPEGTableID extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'JPEG Table ID';
-
 }

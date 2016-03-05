@@ -48,5 +48,4 @@ class FilterEffectPortrait extends AbstractTag
             'Label' => 'n/a',
         ),
     );
-
 }

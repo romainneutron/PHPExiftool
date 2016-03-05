@@ -41,5 +41,4 @@ class MusicCDIdentifier extends AbstractTag
     protected $Description = 'Music CD Identifier';
 
     protected $flag_Binary = true;
-
 }

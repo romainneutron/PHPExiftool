@@ -39,5 +39,4 @@ class FluenceDataSource extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Fluence Data Source';
-
 }

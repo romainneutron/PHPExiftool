@@ -39,5 +39,4 @@ class RespiratoryCyclePosition extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Respiratory Cycle Position';
-
 }

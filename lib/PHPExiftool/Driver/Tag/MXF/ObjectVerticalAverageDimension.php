@@ -39,5 +39,4 @@ class ObjectVerticalAverageDimension extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Object Vertical Average Dimension';
-
 }

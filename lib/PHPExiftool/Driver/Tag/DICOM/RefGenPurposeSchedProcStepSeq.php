@@ -39,5 +39,4 @@ class RefGenPurposeSchedProcStepSeq extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Ref Gen Purpose Sched Proc Step Seq';
-
 }

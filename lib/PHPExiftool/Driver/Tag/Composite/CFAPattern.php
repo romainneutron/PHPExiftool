@@ -41,5 +41,4 @@ class CFAPattern extends AbstractTag
     protected $Description = 'CFA Pattern';
 
     protected $local_g2 = 'Image';
-
 }

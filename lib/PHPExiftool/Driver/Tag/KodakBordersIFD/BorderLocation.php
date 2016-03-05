@@ -39,5 +39,4 @@ class BorderLocation extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Border Location';
-
 }

@@ -39,5 +39,4 @@ class LocalDatumAbsolutePositionAccuracy extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Local Datum Absolute Position Accuracy';
-
 }

@@ -39,5 +39,4 @@ class ChemicalShiftReference extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Chemical Shift Reference';
-
 }

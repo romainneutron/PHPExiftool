@@ -41,5 +41,4 @@ class HardLink extends AbstractTag
     protected $Description = 'Hard Link';
 
     protected $flag_Unsafe = true;
-
 }

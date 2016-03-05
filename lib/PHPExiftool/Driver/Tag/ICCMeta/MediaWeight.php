@@ -39,5 +39,4 @@ class MediaWeight extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Media Weight';
-
 }

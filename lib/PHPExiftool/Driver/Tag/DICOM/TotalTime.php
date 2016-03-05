@@ -39,5 +39,4 @@ class TotalTime extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Total Time';
-
 }

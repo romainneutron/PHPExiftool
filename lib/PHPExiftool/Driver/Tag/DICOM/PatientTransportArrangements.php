@@ -39,5 +39,4 @@ class PatientTransportArrangements extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Patient Transport Arrangements';
-
 }

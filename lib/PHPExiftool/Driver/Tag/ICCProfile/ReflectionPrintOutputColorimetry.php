@@ -39,5 +39,4 @@ class ReflectionPrintOutputColorimetry extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Reflection Print Output Colorimetry';
-
 }

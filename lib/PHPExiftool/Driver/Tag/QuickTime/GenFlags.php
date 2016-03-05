@@ -41,5 +41,4 @@ class GenFlags extends AbstractTag
     protected $Description = 'Gen Flags';
 
     protected $MaxLength = 3;
-
 }

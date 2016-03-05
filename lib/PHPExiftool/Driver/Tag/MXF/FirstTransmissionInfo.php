@@ -39,5 +39,4 @@ class FirstTransmissionInfo extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'First Transmission Info';
-
 }

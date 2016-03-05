@@ -41,5 +41,4 @@ class DriveMode extends AbstractTag
     protected $Description = 'Drive Mode';
 
     protected $flag_Permanent = true;
-
 }

@@ -39,5 +39,4 @@ class InvertArc extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Invert Arc';
-
 }

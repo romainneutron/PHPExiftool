@@ -39,5 +39,4 @@ class AudioSampleSize extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Audio Sample Size';
-
 }

@@ -39,5 +39,4 @@ class LossyImageCompression extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Lossy Image Compression';
-
 }

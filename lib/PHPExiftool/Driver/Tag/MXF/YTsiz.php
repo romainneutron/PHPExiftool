@@ -39,5 +39,4 @@ class YTsiz extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Y Tsiz';
-
 }

@@ -39,5 +39,4 @@ class PrinterName extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Printer Name';
-
 }

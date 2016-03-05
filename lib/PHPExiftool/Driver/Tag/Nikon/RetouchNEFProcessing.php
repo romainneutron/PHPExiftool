@@ -52,5 +52,4 @@ class RetouchNEFProcessing extends AbstractTag
             'Label' => 'On',
         ),
     );
-
 }

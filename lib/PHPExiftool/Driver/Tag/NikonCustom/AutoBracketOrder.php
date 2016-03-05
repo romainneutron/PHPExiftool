@@ -118,5 +118,4 @@ class AutoBracketOrder extends AbstractTag
     );
 
     protected $Index = 'mixed';
-
 }

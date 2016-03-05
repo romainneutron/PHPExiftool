@@ -39,5 +39,4 @@ class TimeOfFlightContrast extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Time Of Flight Contrast';
-
 }

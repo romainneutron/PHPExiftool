@@ -39,5 +39,4 @@ class AnnotationGroupNumber extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Annotation Group Number';
-
 }

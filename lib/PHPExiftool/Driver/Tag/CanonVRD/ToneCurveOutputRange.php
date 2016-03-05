@@ -41,5 +41,4 @@ class ToneCurveOutputRange extends AbstractTag
     protected $Description = 'Tone Curve Output Range';
 
     protected $MaxLength = 2;
-
 }

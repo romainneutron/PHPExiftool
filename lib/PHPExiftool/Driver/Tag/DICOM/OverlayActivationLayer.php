@@ -39,5 +39,4 @@ class OverlayActivationLayer extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Overlay Activation Layer';
-
 }

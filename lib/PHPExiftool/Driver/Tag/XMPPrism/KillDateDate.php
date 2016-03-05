@@ -41,5 +41,4 @@ class KillDateDate extends AbstractTag
     protected $Description = 'Kill Date Date';
 
     protected $local_g2 = 'Time';
-
 }

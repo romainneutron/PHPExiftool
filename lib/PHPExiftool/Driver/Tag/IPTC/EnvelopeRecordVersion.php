@@ -41,5 +41,4 @@ class EnvelopeRecordVersion extends AbstractTag
     protected $Description = 'Envelope Record Version';
 
     protected $flag_Mandatory = true;
-
 }

@@ -39,5 +39,4 @@ class SideNumber extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Side Number';
-
 }

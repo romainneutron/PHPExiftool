@@ -39,5 +39,4 @@ class ApplicationPlugInInstanceID extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Application Plug-In Instance ID';
-
 }

@@ -41,5 +41,4 @@ class DigitalZoomRatio extends AbstractTag
     protected $Description = 'Digital Zoom Ratio';
 
     protected $flag_Permanent = true;
-
 }

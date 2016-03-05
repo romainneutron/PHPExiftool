@@ -41,5 +41,4 @@ class VideoFrameRate extends AbstractTag
     protected $Description = 'Video Frame Rate';
 
     protected $Index = 1;
-
 }

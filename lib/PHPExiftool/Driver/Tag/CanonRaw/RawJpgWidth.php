@@ -41,5 +41,4 @@ class RawJpgWidth extends AbstractTag
     protected $Description = 'Raw Jpg Width';
 
     protected $flag_Permanent = true;
-
 }

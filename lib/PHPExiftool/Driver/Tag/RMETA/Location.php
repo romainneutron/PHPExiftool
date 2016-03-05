@@ -58,5 +58,4 @@ class Location extends AbstractTag
             'Label' => 'Roundabout',
         ),
     );
-
 }

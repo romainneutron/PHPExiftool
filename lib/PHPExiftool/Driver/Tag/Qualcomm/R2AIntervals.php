@@ -41,5 +41,4 @@ class R2AIntervals extends AbstractTag
     protected $Description = 'R2 A Intervals';
 
     protected $flag_Permanent = true;
-
 }

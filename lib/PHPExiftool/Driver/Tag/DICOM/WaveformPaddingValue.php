@@ -39,5 +39,4 @@ class WaveformPaddingValue extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Waveform Padding Value';
-
 }

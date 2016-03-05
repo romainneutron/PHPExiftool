@@ -39,5 +39,4 @@ class MRMetaboliteMapSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'MR Metabolite Map Sequence';
-
 }

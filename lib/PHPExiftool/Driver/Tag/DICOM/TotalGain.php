@@ -39,5 +39,4 @@ class TotalGain extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Total Gain';
-
 }

@@ -41,5 +41,4 @@ class SonyImageWidth extends AbstractTag
     protected $Description = 'Sony Image Width';
 
     protected $flag_Permanent = true;
-
 }

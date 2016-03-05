@@ -56,5 +56,4 @@ class SafetyShift extends AbstractTag
             'Label' => 'Enable (ISO speed)',
         ),
     );
-
 }

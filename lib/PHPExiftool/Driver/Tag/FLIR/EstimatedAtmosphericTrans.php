@@ -41,5 +41,4 @@ class EstimatedAtmosphericTrans extends AbstractTag
     protected $Description = 'Estimated Atmospheric Trans';
 
     protected $flag_Permanent = 'mixed';
-
 }

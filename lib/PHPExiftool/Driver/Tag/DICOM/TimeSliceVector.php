@@ -39,5 +39,4 @@ class TimeSliceVector extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Time Slice Vector';
-
 }

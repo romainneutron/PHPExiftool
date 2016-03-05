@@ -41,5 +41,4 @@ class MarkersCuePointType extends AbstractTag
     protected $Description = 'Markers Cue Point Type';
 
     protected $flag_List = true;
-
 }

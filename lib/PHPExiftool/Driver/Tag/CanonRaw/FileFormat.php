@@ -60,5 +60,4 @@ class FileFormat extends AbstractTag
             'Label' => 'CRW',
         ),
     );
-
 }

@@ -39,5 +39,4 @@ class ColorObjName extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Color Obj Name';
-
 }

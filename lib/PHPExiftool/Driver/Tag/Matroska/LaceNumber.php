@@ -39,5 +39,4 @@ class LaceNumber extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Lace Number';
-
 }

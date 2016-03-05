@@ -80,5 +80,4 @@ class Teleconverter extends AbstractTag
             'Label' => 'Minolta AF 1.4x APO',
         ),
     );
-
 }

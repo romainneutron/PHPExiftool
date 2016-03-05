@@ -62,5 +62,4 @@ class TriggerMode extends AbstractTag
             'Label' => 'Time Lapse',
         ),
     );
-
 }

@@ -39,5 +39,4 @@ class OpticalZoom extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Optical Zoom';
-
 }

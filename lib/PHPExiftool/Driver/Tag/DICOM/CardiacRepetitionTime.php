@@ -39,5 +39,4 @@ class CardiacRepetitionTime extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Cardiac Repetition Time';
-
 }

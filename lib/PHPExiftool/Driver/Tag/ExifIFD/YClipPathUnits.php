@@ -41,5 +41,4 @@ class YClipPathUnits extends AbstractTag
     protected $Description = 'Y Clip Path Units';
 
     protected $local_g1 = 'ExifIFD';
-
 }

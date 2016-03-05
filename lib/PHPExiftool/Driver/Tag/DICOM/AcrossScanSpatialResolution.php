@@ -39,5 +39,4 @@ class AcrossScanSpatialResolution extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Across Scan Spatial Resolution';
-
 }

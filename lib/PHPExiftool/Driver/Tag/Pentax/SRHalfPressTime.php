@@ -41,5 +41,4 @@ class SRHalfPressTime extends AbstractTag
     protected $Description = 'SR Half Press Time';
 
     protected $flag_Permanent = true;
-
 }

@@ -39,5 +39,4 @@ class Medium extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Medium';
-
 }

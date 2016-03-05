@@ -41,5 +41,4 @@ class CollectionName extends AbstractTag
     protected $Description = 'Collection Name';
 
     protected $flag_List = true;
-
 }

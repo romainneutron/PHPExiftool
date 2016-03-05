@@ -39,5 +39,4 @@ class CarPhone extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Car Phone';
-
 }

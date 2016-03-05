@@ -39,5 +39,4 @@ class VideoAverageBitrate extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Video Average Bitrate';
-
 }

@@ -39,5 +39,4 @@ class SharedUserRating extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Shared User Rating';
-
 }

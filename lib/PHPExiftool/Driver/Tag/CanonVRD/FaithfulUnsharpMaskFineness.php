@@ -39,5 +39,4 @@ class FaithfulUnsharpMaskFineness extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Faithful Unsharp Mask Fineness';
-
 }

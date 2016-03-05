@@ -39,5 +39,4 @@ class SharpenRadius extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Sharpen Radius';
-
 }

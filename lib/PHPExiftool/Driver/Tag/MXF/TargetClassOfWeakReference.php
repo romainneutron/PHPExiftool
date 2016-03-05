@@ -39,5 +39,4 @@ class TargetClassOfWeakReference extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Target Class Of Weak Reference';
-
 }

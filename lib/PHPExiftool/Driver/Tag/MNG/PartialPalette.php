@@ -41,5 +41,4 @@ class PartialPalette extends AbstractTag
     protected $Description = 'Partial Palette';
 
     protected $flag_Binary = true;
-
 }

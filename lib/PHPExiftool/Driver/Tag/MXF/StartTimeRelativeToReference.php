@@ -39,5 +39,4 @@ class StartTimeRelativeToReference extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Start Time Relative To Reference';
-
 }

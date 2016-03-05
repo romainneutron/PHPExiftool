@@ -39,5 +39,4 @@ class VideoFixedBitrate extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Video Fixed Bitrate';
-
 }

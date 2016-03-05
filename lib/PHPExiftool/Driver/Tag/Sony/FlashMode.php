@@ -308,5 +308,4 @@ class FlashMode extends AbstractTag
             'Label' => 'Wireless',
         ),
     );
-
 }

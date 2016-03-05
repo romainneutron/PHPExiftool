@@ -39,5 +39,4 @@ class CallLetters extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Call Letters';
-
 }

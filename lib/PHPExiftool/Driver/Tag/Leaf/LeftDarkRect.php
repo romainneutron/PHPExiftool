@@ -39,5 +39,4 @@ class LeftDarkRect extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Left Dark Rect';
-
 }

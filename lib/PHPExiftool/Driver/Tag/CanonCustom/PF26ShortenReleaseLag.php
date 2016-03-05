@@ -41,5 +41,4 @@ class PF26ShortenReleaseLag extends AbstractTag
     protected $Description = 'PF26 Shorten Release Lag';
 
     protected $flag_Permanent = true;
-
 }

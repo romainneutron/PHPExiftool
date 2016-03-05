@@ -82,5 +82,4 @@ class DisplayYResolutionUnit extends AbstractTag
             'Label' => 'um',
         ),
     );
-
 }

@@ -96,5 +96,4 @@ class MultiSelectorShootMode extends AbstractTag
             'Label' => 'Not Used (None)',
         ),
     );
-
 }

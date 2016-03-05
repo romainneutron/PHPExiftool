@@ -39,5 +39,4 @@ class Broadcast extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Broadcast';
-
 }

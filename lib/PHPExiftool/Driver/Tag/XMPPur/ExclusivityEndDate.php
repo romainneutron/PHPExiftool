@@ -47,5 +47,4 @@ class ExclusivityEndDate extends AbstractTag
     protected $flag_List = true;
 
     protected $flag_Bag = true;
-
 }

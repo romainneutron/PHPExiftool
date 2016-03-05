@@ -39,5 +39,4 @@ class ExposedArea extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Exposed Area';
-
 }

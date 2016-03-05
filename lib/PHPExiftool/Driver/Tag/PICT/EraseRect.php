@@ -39,5 +39,4 @@ class EraseRect extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Erase Rect';
-
 }

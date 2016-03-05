@@ -39,5 +39,4 @@ class CachedImageWidth extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Cached Image Width';
-
 }

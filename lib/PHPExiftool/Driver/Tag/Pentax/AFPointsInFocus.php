@@ -334,5 +334,4 @@ class AFPointsInFocus extends AbstractTag
     );
 
     protected $Index = 'mixed';
-
 }

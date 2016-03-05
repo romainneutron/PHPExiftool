@@ -84,5 +84,4 @@ class EnvelopePriority extends AbstractTag
             'Label' => '9 (user-defined priority)',
         ),
     );
-
 }

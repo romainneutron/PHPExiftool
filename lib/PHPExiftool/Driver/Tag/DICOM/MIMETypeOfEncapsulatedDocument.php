@@ -39,5 +39,4 @@ class MIMETypeOfEncapsulatedDocument extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'MIME Type Of Encapsulated Document';
-
 }

@@ -72,5 +72,4 @@ class LiveViewAF extends AbstractTag
             'Label' => 'Normal Area',
         ),
     );
-
 }

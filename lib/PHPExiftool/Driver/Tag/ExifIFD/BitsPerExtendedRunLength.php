@@ -41,5 +41,4 @@ class BitsPerExtendedRunLength extends AbstractTag
     protected $Description = 'Bits Per Extended Run Length';
 
     protected $local_g1 = 'ExifIFD';
-
 }

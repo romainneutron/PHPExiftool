@@ -39,5 +39,4 @@ class DisplaySetLabel extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Display Set Label';
-
 }

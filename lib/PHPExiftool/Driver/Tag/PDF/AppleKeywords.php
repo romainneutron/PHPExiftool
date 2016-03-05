@@ -41,5 +41,4 @@ class AppleKeywords extends AbstractTag
     protected $Description = 'Apple Keywords';
 
     protected $flag_List = true;
-
 }

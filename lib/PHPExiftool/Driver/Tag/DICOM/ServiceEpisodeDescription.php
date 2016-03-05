@@ -39,5 +39,4 @@ class ServiceEpisodeDescription extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Service Episode Description';
-
 }

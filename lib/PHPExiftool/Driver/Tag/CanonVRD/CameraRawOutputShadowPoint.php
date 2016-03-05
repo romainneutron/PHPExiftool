@@ -39,5 +39,4 @@ class CameraRawOutputShadowPoint extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Camera Raw Output Shadow Point';
-
 }

@@ -39,5 +39,4 @@ class BolusID extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Bolus ID';
-
 }

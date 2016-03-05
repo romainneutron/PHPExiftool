@@ -39,5 +39,4 @@ class MagnifyToNumberOfColumns extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Magnify To Number Of Columns';
-
 }

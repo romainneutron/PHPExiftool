@@ -41,5 +41,4 @@ class PageCount extends AbstractTag
     protected $Description = 'Page Count';
 
     protected $flag_Avoid = true;
-
 }

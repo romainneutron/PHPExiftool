@@ -41,5 +41,4 @@ class DecoderTableNumber extends AbstractTag
     protected $Description = 'Decoder Table Number';
 
     protected $flag_Permanent = true;
-
 }

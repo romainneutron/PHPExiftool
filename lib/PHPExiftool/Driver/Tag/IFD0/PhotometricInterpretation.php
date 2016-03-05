@@ -100,5 +100,4 @@ class PhotometricInterpretation extends AbstractTag
             'Label' => 'Linear Raw',
         ),
     );
-
 }

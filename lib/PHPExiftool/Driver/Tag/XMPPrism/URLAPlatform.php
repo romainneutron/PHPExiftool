@@ -41,5 +41,4 @@ class URLAPlatform extends AbstractTag
     protected $Description = 'URLA-platform';
 
     protected $flag_List = true;
-
 }

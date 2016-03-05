@@ -39,5 +39,4 @@ class ScanSoftware extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Scan Software';
-
 }

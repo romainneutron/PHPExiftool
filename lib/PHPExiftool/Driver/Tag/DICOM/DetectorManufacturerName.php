@@ -39,5 +39,4 @@ class DetectorManufacturerName extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Detector Manufacturer Name';
-
 }

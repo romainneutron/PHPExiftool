@@ -52,5 +52,4 @@ class FocusProcess extends AbstractTag
             'Label' => 'AF Used',
         ),
     );
-
 }

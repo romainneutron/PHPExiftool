@@ -56,5 +56,4 @@ class MultiExposure extends AbstractTag
             'Label' => 'On (RAW)',
         ),
     );
-
 }

@@ -92,5 +92,4 @@ class AFPointsUnknown2 extends AbstractTag
             'Label' => 'Lower-right',
         ),
     );
-
 }

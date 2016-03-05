@@ -39,5 +39,4 @@ class VersionNumberString extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Version Number String';
-
 }

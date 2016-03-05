@@ -39,5 +39,4 @@ class ComputeType extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Compute Type';
-
 }

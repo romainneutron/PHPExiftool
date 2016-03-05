@@ -41,5 +41,4 @@ class ITunesU extends AbstractTag
     protected $Description = 'iTunes U';
 
     protected $flag_Binary = true;
-
 }

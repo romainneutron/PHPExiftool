@@ -52,5 +52,4 @@ class UVIRFilterCorrection extends AbstractTag
             'Label' => 'Active',
         ),
     );
-
 }

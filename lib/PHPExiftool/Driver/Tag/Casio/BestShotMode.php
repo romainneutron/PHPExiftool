@@ -3066,5 +3066,4 @@ class BestShotMode extends AbstractTag
     );
 
     protected $Index = 'mixed';
-
 }

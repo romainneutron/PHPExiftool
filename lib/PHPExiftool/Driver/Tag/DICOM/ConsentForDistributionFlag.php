@@ -39,5 +39,4 @@ class ConsentForDistributionFlag extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Consent For Distribution Flag';
-
 }

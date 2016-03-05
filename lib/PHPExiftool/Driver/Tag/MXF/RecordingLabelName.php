@@ -39,5 +39,4 @@ class RecordingLabelName extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Recording Label Name';
-
 }

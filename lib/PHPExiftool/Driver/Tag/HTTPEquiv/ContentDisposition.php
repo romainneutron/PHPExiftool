@@ -39,5 +39,4 @@ class ContentDisposition extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Content Disposition';
-
 }

@@ -41,5 +41,4 @@ class GammaEnable extends AbstractTag
     protected $Description = 'Gamma Enable';
 
     protected $flag_Permanent = true;
-
 }

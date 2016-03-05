@@ -39,5 +39,4 @@ class ServiceOrganizationName extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Service Organization Name';
-
 }

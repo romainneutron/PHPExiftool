@@ -39,5 +39,4 @@ class AbstractPriorValue extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Abstract Prior Value';
-
 }

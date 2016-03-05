@@ -39,5 +39,4 @@ class UCRBG extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Under Color Removal and Black Gen.';
-
 }

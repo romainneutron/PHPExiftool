@@ -39,5 +39,4 @@ class ContractType extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Contract Type';
-
 }

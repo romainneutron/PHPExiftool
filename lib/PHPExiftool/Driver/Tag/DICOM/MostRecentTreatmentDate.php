@@ -39,5 +39,4 @@ class MostRecentTreatmentDate extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Most Recent Treatment Date';
-
 }

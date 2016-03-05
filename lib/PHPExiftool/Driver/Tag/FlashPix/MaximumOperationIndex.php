@@ -39,5 +39,4 @@ class MaximumOperationIndex extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Maximum Operation Index';
-
 }

@@ -50,5 +50,4 @@ class TrackForced extends AbstractTag
             'Label' => 'Yes',
         ),
     );
-
 }

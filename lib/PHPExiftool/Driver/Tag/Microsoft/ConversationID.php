@@ -39,5 +39,4 @@ class ConversationID extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Conversation ID';
-
 }

@@ -39,5 +39,4 @@ class NumberOfSeriesRelatedInstances extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Number Of Series Related Instances';
-
 }

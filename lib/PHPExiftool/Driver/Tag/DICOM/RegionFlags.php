@@ -39,5 +39,4 @@ class RegionFlags extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Region Flags';
-
 }

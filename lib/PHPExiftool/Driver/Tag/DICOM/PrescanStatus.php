@@ -39,5 +39,4 @@ class PrescanStatus extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Prescan Status';
-
 }

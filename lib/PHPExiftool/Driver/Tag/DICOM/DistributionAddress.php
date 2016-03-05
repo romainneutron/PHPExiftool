@@ -39,5 +39,4 @@ class DistributionAddress extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Distribution Address';
-
 }

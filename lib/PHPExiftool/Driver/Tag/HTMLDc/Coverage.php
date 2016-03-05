@@ -39,5 +39,4 @@ class Coverage extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Coverage';
-
 }

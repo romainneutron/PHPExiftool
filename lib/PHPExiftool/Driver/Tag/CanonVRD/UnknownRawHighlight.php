@@ -39,5 +39,4 @@ class UnknownRawHighlight extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Unknown Raw Highlight';
-
 }

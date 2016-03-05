@@ -56,5 +56,4 @@ class MenuButtonDisplayPosition extends AbstractTag
             'Label' => 'Top',
         ),
     );
-
 }

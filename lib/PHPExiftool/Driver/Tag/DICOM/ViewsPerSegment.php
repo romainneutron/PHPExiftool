@@ -39,5 +39,4 @@ class ViewsPerSegment extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Views Per Segment';
-
 }

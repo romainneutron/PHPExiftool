@@ -39,5 +39,4 @@ class CommentLen extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Comment Len';
-
 }

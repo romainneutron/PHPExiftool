@@ -39,5 +39,4 @@ class DistortionCorrection extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Distortion Correction';
-
 }

@@ -39,5 +39,4 @@ class AuthenticationType extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Authentication Type';
-
 }

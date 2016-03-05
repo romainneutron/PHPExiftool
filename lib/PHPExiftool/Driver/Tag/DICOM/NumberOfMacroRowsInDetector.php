@@ -39,5 +39,4 @@ class NumberOfMacroRowsInDetector extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Number Of Macro Rows In Detector';
-
 }

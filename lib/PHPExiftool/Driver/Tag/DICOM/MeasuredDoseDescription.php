@@ -39,5 +39,4 @@ class MeasuredDoseDescription extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Measured Dose Description';
-
 }

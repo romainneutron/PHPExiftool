@@ -41,5 +41,4 @@ class AFVfeHorzWidth extends AbstractTag
     protected $Description = 'AF Vfe Horz Width';
 
     protected $flag_Permanent = true;
-
 }

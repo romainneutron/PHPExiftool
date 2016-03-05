@@ -39,5 +39,4 @@ class PoseHeadingDegrees extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Pose Heading Degrees';
-
 }

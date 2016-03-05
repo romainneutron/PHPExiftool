@@ -39,5 +39,4 @@ class SurfaceProcessingRatio extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Surface Processing Ratio';
-
 }

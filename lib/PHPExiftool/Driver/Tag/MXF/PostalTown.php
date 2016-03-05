@@ -39,5 +39,4 @@ class PostalTown extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Postal Town';
-
 }

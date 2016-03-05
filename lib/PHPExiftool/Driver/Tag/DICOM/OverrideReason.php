@@ -39,5 +39,4 @@ class OverrideReason extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Override Reason';
-
 }

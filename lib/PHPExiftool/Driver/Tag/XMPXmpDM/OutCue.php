@@ -39,5 +39,4 @@ class OutCue extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Out Cue';
-
 }

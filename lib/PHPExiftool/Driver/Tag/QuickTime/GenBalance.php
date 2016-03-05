@@ -39,5 +39,4 @@ class GenBalance extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Gen Balance';
-
 }

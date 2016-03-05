@@ -39,5 +39,4 @@ class ContributingSOPInstancesRefSeq extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Contributing SOP Instances Ref Seq';
-
 }

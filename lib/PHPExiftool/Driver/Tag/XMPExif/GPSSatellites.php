@@ -41,5 +41,4 @@ class GPSSatellites extends AbstractTag
     protected $Description = 'GPS Satellites';
 
     protected $local_g2 = 'Location';
-
 }

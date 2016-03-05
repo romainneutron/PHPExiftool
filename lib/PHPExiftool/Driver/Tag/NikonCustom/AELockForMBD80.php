@@ -72,5 +72,4 @@ class AELockForMBD80 extends AbstractTag
             'Label' => 'AE/AF Lock',
         ),
     );
-
 }

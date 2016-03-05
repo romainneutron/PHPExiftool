@@ -52,5 +52,4 @@ class ExtendedWBDetect extends AbstractTag
             'Label' => 'On',
         ),
     );
-
 }

@@ -41,5 +41,4 @@ class CopyrightOwnerName extends AbstractTag
     protected $Description = 'Copyright Owner Name';
 
     protected $flag_List = true;
-
 }

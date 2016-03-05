@@ -39,5 +39,4 @@ class ConvolutionKernelGroup extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Convolution Kernel Group';
-
 }

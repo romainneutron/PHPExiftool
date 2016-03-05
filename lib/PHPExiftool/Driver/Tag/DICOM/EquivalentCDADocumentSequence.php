@@ -39,5 +39,4 @@ class EquivalentCDADocumentSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Equivalent CDA Document Sequence';
-
 }

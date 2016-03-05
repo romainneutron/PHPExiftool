@@ -39,5 +39,4 @@ class PersonalTitle extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Personal Title';
-
 }

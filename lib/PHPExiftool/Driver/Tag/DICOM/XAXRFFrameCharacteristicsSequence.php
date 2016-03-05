@@ -39,5 +39,4 @@ class XAXRFFrameCharacteristicsSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'XA-XRF Frame Characteristics Sequence';
-
 }

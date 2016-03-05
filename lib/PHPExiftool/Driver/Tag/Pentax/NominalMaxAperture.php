@@ -41,5 +41,4 @@ class NominalMaxAperture extends AbstractTag
     protected $Description = 'Nominal Max Aperture';
 
     protected $flag_Permanent = true;
-
 }

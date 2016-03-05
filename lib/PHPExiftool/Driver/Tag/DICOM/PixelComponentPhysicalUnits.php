@@ -39,5 +39,4 @@ class PixelComponentPhysicalUnits extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Pixel Component Physical Units';
-
 }

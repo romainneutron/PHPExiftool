@@ -39,5 +39,4 @@ class LuminanceNoiseReductionDetail extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Luminance Noise Reduction Detail';
-
 }

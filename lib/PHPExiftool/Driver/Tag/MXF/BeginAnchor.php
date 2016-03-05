@@ -39,5 +39,4 @@ class BeginAnchor extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Begin Anchor';
-
 }

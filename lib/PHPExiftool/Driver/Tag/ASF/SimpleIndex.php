@@ -39,5 +39,4 @@ class SimpleIndex extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Simple Index';
-
 }

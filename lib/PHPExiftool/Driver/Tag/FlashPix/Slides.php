@@ -39,5 +39,4 @@ class Slides extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Slides';
-
 }

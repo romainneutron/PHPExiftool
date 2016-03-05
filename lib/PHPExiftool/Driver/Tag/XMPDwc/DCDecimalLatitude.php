@@ -41,5 +41,4 @@ class DCDecimalLatitude extends AbstractTag
     protected $Description = 'DC Decimal Latitude';
 
     protected $local_g2 = 'Location';
-
 }

@@ -39,5 +39,4 @@ class SDKVersion extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'SDK Version';
-
 }

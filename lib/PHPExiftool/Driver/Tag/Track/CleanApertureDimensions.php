@@ -41,5 +41,4 @@ class CleanApertureDimensions extends AbstractTag
     protected $Description = 'Clean Aperture Dimensions';
 
     protected $MaxLength = 3;
-
 }

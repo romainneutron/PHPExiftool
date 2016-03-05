@@ -41,5 +41,4 @@ class MeasurementDeterminedDate extends AbstractTag
     protected $Description = 'Measurement Determined Date';
 
     protected $local_g2 = 'Time';
-
 }

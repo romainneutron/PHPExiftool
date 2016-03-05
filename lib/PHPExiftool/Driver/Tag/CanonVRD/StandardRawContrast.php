@@ -39,5 +39,4 @@ class StandardRawContrast extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Standard Raw Contrast';
-
 }

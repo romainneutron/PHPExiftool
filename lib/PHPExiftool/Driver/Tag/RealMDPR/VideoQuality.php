@@ -39,5 +39,4 @@ class VideoQuality extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Video Quality';
-
 }

@@ -39,5 +39,4 @@ class CharacterSet extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Character Set';
-
 }

@@ -52,5 +52,4 @@ class AFActivation extends AbstractTag
             'Label' => 'AF-On Only',
         ),
     );
-
 }

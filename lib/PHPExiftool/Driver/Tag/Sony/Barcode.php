@@ -41,5 +41,4 @@ class Barcode extends AbstractTag
     protected $Description = 'Barcode';
 
     protected $flag_Permanent = true;
-
 }

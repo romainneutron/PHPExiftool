@@ -39,5 +39,4 @@ class PerformedSeriesSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Performed Series Sequence';
-
 }

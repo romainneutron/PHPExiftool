@@ -84,5 +84,4 @@ class AFPoint extends AbstractTag
             'Label' => 'Top-left',
         ),
     );
-
 }

@@ -39,5 +39,4 @@ class VolumeLocalizationTechnique extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Volume Localization Technique';
-
 }

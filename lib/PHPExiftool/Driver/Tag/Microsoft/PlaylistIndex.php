@@ -39,5 +39,4 @@ class PlaylistIndex extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Playlist Index';
-
 }

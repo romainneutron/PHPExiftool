@@ -80,5 +80,4 @@ class FlashOptions2 extends AbstractTag
             'Label' => 'Trailing-curtain Sync',
         ),
     );
-
 }

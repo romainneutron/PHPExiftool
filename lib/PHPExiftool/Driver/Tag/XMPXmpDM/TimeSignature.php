@@ -78,5 +78,4 @@ class TimeSignature extends AbstractTag
             'Label' => 'other',
         ),
     );
-
 }

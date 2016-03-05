@@ -39,5 +39,4 @@ class SortByCategory extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Sort By Category';
-
 }

@@ -41,5 +41,4 @@ class PF28NoQuickDialExpComp extends AbstractTag
     protected $Description = 'PF28 No Quick Dial Exp Comp';
 
     protected $flag_Permanent = true;
-
 }

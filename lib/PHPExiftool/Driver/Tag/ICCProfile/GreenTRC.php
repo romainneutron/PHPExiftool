@@ -39,5 +39,4 @@ class GreenTRC extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Green Tone Reproduction Curve';
-
 }

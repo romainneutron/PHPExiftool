@@ -39,5 +39,4 @@ class ComputedKeyFrames extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Computed Key Frames';
-
 }

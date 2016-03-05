@@ -39,5 +39,4 @@ class BlockTrayID extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Block Tray ID';
-
 }

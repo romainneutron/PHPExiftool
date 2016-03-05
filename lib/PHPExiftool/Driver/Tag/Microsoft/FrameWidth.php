@@ -39,5 +39,4 @@ class FrameWidth extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Frame Width';
-
 }

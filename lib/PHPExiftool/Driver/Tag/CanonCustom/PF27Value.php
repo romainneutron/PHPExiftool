@@ -41,5 +41,4 @@ class PF27Value extends AbstractTag
     protected $Description = 'PF27 Value';
 
     protected $flag_Permanent = true;
-
 }

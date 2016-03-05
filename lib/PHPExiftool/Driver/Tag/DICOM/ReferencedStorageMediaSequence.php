@@ -39,5 +39,4 @@ class ReferencedStorageMediaSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Referenced Storage Media Sequence';
-
 }

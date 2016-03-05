@@ -39,5 +39,4 @@ class PurchaseDate extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Purchase Date';
-
 }

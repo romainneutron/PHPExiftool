@@ -39,5 +39,4 @@ class StreamAvgBitrate extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Stream Avg Bitrate';
-
 }

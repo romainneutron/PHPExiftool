@@ -39,5 +39,4 @@ class ScheduledProtocolCodeSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Scheduled Protocol Code Sequence';
-
 }

@@ -39,5 +39,4 @@ class MinimumSupportedEngineVersion extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Minimum Supported Engine Version';
-
 }

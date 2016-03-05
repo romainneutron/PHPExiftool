@@ -56,5 +56,4 @@ class PictureEffect extends AbstractTag
             'Label' => 'Kodachrome',
         ),
     );
-
 }

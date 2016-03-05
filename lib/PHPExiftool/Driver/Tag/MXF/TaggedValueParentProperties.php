@@ -39,5 +39,4 @@ class TaggedValueParentProperties extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Tagged Value Parent Properties';
-
 }

@@ -41,5 +41,4 @@ class Codirectors extends AbstractTag
     protected $Description = 'Codirectors';
 
     protected $flag_List = true;
-
 }

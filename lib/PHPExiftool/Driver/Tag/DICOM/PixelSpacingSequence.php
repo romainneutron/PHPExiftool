@@ -39,5 +39,4 @@ class PixelSpacingSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Pixel Spacing Sequence';
-
 }

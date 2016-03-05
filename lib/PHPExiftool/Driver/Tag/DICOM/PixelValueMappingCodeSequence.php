@@ -39,5 +39,4 @@ class PixelValueMappingCodeSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Pixel Value Mapping Code Sequence';
-
 }

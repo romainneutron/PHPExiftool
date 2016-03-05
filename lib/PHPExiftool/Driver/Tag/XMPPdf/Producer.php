@@ -41,5 +41,4 @@ class Producer extends AbstractTag
     protected $Description = 'Producer';
 
     protected $local_g2 = 'Author';
-
 }

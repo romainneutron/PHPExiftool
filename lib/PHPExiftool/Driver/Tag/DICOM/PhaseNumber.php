@@ -39,5 +39,4 @@ class PhaseNumber extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Phase Number';
-
 }

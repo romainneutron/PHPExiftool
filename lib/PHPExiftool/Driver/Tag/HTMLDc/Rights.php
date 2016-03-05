@@ -41,5 +41,4 @@ class Rights extends AbstractTag
     protected $Description = 'Rights';
 
     protected $local_g2 = 'Author';
-
 }

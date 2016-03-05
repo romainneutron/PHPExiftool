@@ -41,5 +41,4 @@ class WBAdjRGGBLevels extends AbstractTag
     protected $Description = 'WB Adj RGGB Levels';
 
     protected $MaxLength = 'mixed';
-
 }

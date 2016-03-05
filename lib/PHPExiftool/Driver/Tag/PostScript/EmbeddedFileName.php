@@ -39,5 +39,4 @@ class EmbeddedFileName extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Embedded File Name';
-
 }

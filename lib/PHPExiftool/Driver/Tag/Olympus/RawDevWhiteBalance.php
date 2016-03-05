@@ -52,5 +52,4 @@ class RawDevWhiteBalance extends AbstractTag
             'Label' => 'Gray Point',
         ),
     );
-
 }

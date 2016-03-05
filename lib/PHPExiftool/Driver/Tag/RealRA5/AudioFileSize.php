@@ -39,5 +39,4 @@ class AudioFileSize extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Audio File Size';
-
 }

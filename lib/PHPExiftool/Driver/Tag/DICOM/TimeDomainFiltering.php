@@ -39,5 +39,4 @@ class TimeDomainFiltering extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Time Domain Filtering';
-
 }

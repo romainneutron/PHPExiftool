@@ -138,5 +138,4 @@ class VerticalUnits extends AbstractTag
             'Label' => 'User Defined',
         ),
     );
-
 }

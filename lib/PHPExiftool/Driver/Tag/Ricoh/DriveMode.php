@@ -56,5 +56,4 @@ class DriveMode extends AbstractTag
             'Label' => 'AF-priority Continuous',
         ),
     );
-
 }

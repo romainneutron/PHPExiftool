@@ -39,5 +39,4 @@ class MajorVersion extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Major Version';
-
 }

@@ -39,5 +39,4 @@ class SectorSize extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Sector Size';
-
 }

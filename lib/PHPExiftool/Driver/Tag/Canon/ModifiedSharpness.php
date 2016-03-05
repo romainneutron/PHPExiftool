@@ -41,5 +41,4 @@ class ModifiedSharpness extends AbstractTag
     protected $Description = 'Modified Sharpness';
 
     protected $flag_Permanent = true;
-
 }

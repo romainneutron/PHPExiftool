@@ -56,5 +56,4 @@ class ExposureMode extends AbstractTag
             'Label' => 'Auto bracket',
         ),
     );
-
 }

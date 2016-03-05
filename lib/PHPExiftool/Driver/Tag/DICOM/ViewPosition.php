@@ -39,5 +39,4 @@ class ViewPosition extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'View Position';
-
 }

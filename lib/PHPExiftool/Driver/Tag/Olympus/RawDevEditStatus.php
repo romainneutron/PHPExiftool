@@ -60,5 +60,4 @@ class RawDevEditStatus extends AbstractTag
             'Label' => 'Edited (Portrait)',
         ),
     );
-
 }

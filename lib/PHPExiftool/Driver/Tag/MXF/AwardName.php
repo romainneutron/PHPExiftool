@@ -39,5 +39,4 @@ class AwardName extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Award Name';
-
 }

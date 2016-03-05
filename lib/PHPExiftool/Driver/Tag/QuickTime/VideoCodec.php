@@ -41,5 +41,4 @@ class VideoCodec extends AbstractTag
     protected $Description = 'Video Codec';
 
     protected $MaxLength = 4;
-
 }

@@ -52,5 +52,4 @@ class MacroLED extends AbstractTag
             'Label' => 'On',
         ),
     );
-
 }

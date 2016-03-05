@@ -41,5 +41,4 @@ class AmbientTemperatureFahrenheit extends AbstractTag
     protected $Description = 'Ambient Temperature Fahrenheit';
 
     protected $flag_Permanent = true;
-
 }

@@ -39,5 +39,4 @@ class DoubleExposureMeterset extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Double Exposure Meterset';
-
 }

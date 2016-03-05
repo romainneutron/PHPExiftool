@@ -39,5 +39,4 @@ class SingleCollimationWidth extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Single Collimation Width';
-
 }

@@ -39,5 +39,4 @@ class DimensionIndexPrivateCreator extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Dimension Index Private Creator';
-
 }

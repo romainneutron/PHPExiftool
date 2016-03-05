@@ -39,5 +39,4 @@ class DoseCalibrationFactor extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Dose Calibration Factor';
-
 }

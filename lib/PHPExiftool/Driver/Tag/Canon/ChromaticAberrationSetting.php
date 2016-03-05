@@ -52,5 +52,4 @@ class ChromaticAberrationSetting extends AbstractTag
             'Label' => 'On',
         ),
     );
-
 }

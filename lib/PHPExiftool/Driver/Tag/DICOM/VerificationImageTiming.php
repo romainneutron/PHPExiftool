@@ -39,5 +39,4 @@ class VerificationImageTiming extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Verification Image Timing';
-
 }

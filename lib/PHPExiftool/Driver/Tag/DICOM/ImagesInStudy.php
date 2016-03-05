@@ -39,5 +39,4 @@ class ImagesInStudy extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Images In Study';
-
 }

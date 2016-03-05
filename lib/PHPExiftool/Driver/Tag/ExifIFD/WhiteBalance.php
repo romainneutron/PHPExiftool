@@ -56,5 +56,4 @@ class WhiteBalance extends AbstractTag
     );
 
     protected $flag_Avoid = 'mixed';
-
 }

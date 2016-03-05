@@ -39,5 +39,4 @@ class VideoTestResult extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Video Test Result';
-
 }

@@ -52,5 +52,4 @@ class RawAndJpgRecording extends AbstractTag
             'Label' => 'On',
         ),
     );
-
 }

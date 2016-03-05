@@ -39,5 +39,4 @@ class ClosedGOPIndicator extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Closed GOP Indicator';
-
 }

@@ -39,5 +39,4 @@ class OriginalRawFileType extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Original Raw File Type';
-
 }

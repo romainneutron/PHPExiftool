@@ -39,5 +39,4 @@ class TransverseMash extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Transverse Mash';
-
 }

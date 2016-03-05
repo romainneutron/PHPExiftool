@@ -41,5 +41,4 @@ class FlashThreshold extends AbstractTag
     protected $Description = 'Flash Threshold';
 
     protected $flag_Permanent = true;
-
 }

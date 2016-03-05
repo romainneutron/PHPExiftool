@@ -39,5 +39,4 @@ class BeamCurrentModulationID extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Beam Current Modulation ID';
-
 }

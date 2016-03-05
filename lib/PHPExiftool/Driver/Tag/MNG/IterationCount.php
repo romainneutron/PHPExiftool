@@ -39,5 +39,4 @@ class IterationCount extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Iteration Count';
-
 }

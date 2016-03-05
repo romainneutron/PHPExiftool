@@ -39,5 +39,4 @@ class BlockTransmission extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Block Transmission';
-
 }

@@ -39,5 +39,4 @@ class Command extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Command';
-
 }

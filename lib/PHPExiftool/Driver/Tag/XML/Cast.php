@@ -41,5 +41,4 @@ class Cast extends AbstractTag
     protected $Description = 'Cast';
 
     protected $flag_List = true;
-
 }

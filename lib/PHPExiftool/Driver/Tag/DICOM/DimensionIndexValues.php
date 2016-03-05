@@ -39,5 +39,4 @@ class DimensionIndexValues extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Dimension Index Values';
-
 }

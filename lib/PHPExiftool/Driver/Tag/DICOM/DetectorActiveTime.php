@@ -39,5 +39,4 @@ class DetectorActiveTime extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Detector Active Time';
-
 }

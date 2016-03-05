@@ -50,5 +50,4 @@ class SlideShow extends AbstractTag
             'Label' => 'Yes',
         ),
     );
-
 }

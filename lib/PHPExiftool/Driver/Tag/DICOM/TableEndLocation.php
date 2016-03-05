@@ -39,5 +39,4 @@ class TableEndLocation extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Table End Location';
-
 }

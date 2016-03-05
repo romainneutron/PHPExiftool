@@ -39,5 +39,4 @@ class AnatomicRegionSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Anatomic Region Sequence';
-
 }

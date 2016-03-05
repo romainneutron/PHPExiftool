@@ -39,5 +39,4 @@ class BuyTickets extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Buy Tickets';
-
 }

@@ -60,5 +60,4 @@ class AFPointIllumination extends AbstractTag
             'Label' => 'Brighter',
         ),
     );
-
 }

@@ -39,5 +39,4 @@ class LandscapeOutputShadowPoint extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Landscape Output Shadow Point';
-
 }

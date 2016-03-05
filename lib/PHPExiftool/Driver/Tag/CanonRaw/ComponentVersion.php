@@ -41,5 +41,4 @@ class ComponentVersion extends AbstractTag
     protected $Description = 'Component Version';
 
     protected $flag_Permanent = true;
-
 }

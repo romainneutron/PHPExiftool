@@ -41,5 +41,4 @@ class HueAdj extends AbstractTag
     protected $Description = 'Hue Adj';
 
     protected $flag_Permanent = true;
-
 }

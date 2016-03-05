@@ -41,5 +41,4 @@ class PreviewAtomType extends AbstractTag
     protected $Description = 'Preview Atom Type';
 
     protected $MaxLength = 4;
-
 }

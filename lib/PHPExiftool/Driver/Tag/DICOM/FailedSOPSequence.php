@@ -39,5 +39,4 @@ class FailedSOPSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Failed SOP Sequence';
-
 }

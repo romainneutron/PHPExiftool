@@ -174,5 +174,4 @@ class PentaxImageSize extends AbstractTag
             'Label' => '3008x2000',
         ),
     );
-
 }

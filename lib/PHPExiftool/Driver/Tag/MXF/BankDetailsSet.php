@@ -39,5 +39,4 @@ class BankDetailsSet extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Bank Details Set';
-
 }

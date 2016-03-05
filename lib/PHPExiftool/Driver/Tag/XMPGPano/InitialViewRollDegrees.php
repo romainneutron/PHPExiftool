@@ -39,5 +39,4 @@ class InitialViewRollDegrees extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Initial View Roll Degrees';
-
 }

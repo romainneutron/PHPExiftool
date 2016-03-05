@@ -84,5 +84,4 @@ class CommandDialsApertureSetting extends AbstractTag
             'Label' => 'Aperture Ring',
         ),
     );
-
 }

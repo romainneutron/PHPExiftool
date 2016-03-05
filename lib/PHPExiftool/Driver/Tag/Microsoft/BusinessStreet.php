@@ -39,5 +39,4 @@ class BusinessStreet extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Business Street';
-
 }

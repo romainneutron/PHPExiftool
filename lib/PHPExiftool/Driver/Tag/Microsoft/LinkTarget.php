@@ -39,5 +39,4 @@ class LinkTarget extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Link Target';
-
 }

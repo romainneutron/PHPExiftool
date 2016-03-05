@@ -98,5 +98,4 @@ class AspectRatio extends AbstractTag
             'Label' => '1.2015',
         ),
     );
-
 }

@@ -39,5 +39,4 @@ class ColorResolutionDepth extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Color Resolution Depth';
-
 }

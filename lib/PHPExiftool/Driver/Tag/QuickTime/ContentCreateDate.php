@@ -41,5 +41,4 @@ class ContentCreateDate extends AbstractTag
     protected $Description = 'Content Create Date';
 
     protected $local_g2 = 'Time';
-
 }

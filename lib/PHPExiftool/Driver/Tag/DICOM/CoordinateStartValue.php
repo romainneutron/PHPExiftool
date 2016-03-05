@@ -39,5 +39,4 @@ class CoordinateStartValue extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Coordinate Start Value';
-
 }

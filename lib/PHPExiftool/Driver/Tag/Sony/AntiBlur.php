@@ -60,5 +60,4 @@ class AntiBlur extends AbstractTag
             'Label' => 'n/a',
         ),
     );
-
 }

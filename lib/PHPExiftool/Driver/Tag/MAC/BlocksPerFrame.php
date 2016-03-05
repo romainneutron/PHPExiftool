@@ -39,5 +39,4 @@ class BlocksPerFrame extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Blocks Per Frame';
-
 }

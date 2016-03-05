@@ -39,5 +39,4 @@ class WholeBodyTechnique extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Whole Body Technique';
-
 }

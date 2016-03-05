@@ -39,5 +39,4 @@ class ImageLocation extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Image Location';
-
 }

@@ -56,5 +56,4 @@ class CleanFaxData extends AbstractTag
             'Label' => 'Unclean',
         ),
     );
-
 }

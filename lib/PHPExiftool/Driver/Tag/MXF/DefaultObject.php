@@ -39,5 +39,4 @@ class DefaultObject extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Default Object';
-
 }

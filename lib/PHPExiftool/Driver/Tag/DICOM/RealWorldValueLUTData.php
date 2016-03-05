@@ -39,5 +39,4 @@ class RealWorldValueLUTData extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Real World Value LUT Data';
-
 }

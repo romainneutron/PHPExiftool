@@ -41,5 +41,4 @@ class CDDBDiscTracks extends AbstractTag
     protected $Description = 'CDDB Disc Tracks';
 
     protected $local_g2 = 'Audio';
-
 }

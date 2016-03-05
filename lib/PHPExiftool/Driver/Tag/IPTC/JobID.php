@@ -41,5 +41,4 @@ class JobID extends AbstractTag
     protected $Description = 'Job ID';
 
     protected $MaxLength = 64;
-
 }

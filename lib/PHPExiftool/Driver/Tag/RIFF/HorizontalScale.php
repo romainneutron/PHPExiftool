@@ -39,5 +39,4 @@ class HorizontalScale extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Horizontal Scale';
-
 }

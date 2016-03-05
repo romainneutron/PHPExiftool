@@ -39,5 +39,4 @@ class ImagesInSeries extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Images In Series';
-
 }

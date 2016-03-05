@@ -39,5 +39,4 @@ class EnergyWindowLowerLimit extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Energy Window Lower Limit';
-
 }

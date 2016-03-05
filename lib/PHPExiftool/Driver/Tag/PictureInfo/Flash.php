@@ -50,5 +50,4 @@ class Flash extends AbstractTag
             'Label' => 'On',
         ),
     );
-
 }

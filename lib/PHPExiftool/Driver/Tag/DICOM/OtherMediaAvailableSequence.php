@@ -39,5 +39,4 @@ class OtherMediaAvailableSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Other Media Available Sequence';
-
 }

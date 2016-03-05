@@ -39,5 +39,4 @@ class RenderingTransform extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Rendering Transform';
-
 }

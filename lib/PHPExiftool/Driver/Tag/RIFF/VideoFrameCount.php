@@ -41,5 +41,4 @@ class VideoFrameCount extends AbstractTag
     protected $Description = 'Video Frame Count';
 
     protected $Index = 1;
-
 }

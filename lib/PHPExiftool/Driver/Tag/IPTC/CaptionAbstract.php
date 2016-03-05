@@ -41,5 +41,4 @@ class CaptionAbstract extends AbstractTag
     protected $Description = 'Caption-Abstract';
 
     protected $MaxLength = 2000;
-
 }

@@ -96,5 +96,4 @@ class AFOnButton extends AbstractTag
             'Label' => 'None',
         ),
     );
-
 }

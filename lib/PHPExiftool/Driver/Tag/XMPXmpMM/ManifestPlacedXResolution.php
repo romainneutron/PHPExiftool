@@ -41,5 +41,4 @@ class ManifestPlacedXResolution extends AbstractTag
     protected $Description = 'Manifest Placed X Resolution';
 
     protected $flag_List = true;
-
 }

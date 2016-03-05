@@ -41,5 +41,4 @@ class InternalFlashStrength extends AbstractTag
     protected $Description = 'Internal Flash Strength';
 
     protected $flag_Permanent = true;
-
 }

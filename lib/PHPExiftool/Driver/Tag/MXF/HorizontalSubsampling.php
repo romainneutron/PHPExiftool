@@ -39,5 +39,4 @@ class HorizontalSubsampling extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Horizontal Subsampling';
-
 }

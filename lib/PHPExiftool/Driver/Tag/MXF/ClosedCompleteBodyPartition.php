@@ -39,5 +39,4 @@ class ClosedCompleteBodyPartition extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Closed Complete Body Partition';
-
 }

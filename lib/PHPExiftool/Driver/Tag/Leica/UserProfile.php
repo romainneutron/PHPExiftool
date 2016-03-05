@@ -60,5 +60,4 @@ class UserProfile extends AbstractTag
             'Label' => 'User Profile 0 (Dynamic)',
         ),
     );
-
 }

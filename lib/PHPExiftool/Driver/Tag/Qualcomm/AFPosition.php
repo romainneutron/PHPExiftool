@@ -41,5 +41,4 @@ class AFPosition extends AbstractTag
     protected $Description = 'AF Position';
 
     protected $flag_Permanent = true;
-
 }

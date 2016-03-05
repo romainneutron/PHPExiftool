@@ -39,5 +39,4 @@ class PhysicianApprovingInterpretation extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Physician Approving Interpretation';
-
 }

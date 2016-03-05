@@ -68,5 +68,4 @@ class NEFCompression extends AbstractTag
             'Label' => 'Small',
         ),
     );
-
 }

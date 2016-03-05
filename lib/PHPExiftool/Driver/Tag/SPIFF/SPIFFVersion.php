@@ -41,5 +41,4 @@ class SPIFFVersion extends AbstractTag
     protected $Description = 'SPIFF Version';
 
     protected $MaxLength = 2;
-
 }

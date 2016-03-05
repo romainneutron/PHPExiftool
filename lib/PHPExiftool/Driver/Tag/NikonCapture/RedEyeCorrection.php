@@ -56,5 +56,4 @@ class RedEyeCorrection extends AbstractTag
             'Label' => 'Click on Eyes',
         ),
     );
-
 }

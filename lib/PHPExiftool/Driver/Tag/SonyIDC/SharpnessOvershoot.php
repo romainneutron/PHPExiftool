@@ -41,5 +41,4 @@ class SharpnessOvershoot extends AbstractTag
     protected $Description = 'Sharpness Overshoot';
 
     protected $flag_Permanent = true;
-
 }

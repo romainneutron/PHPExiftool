@@ -518,5 +518,4 @@ class AELockButton extends AbstractTag
     );
 
     protected $Index = 'mixed';
-
 }

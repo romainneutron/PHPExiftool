@@ -60,5 +60,4 @@ class SubjectDistanceRange extends AbstractTag
             'Label' => 'Distant',
         ),
     );
-
 }

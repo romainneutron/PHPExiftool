@@ -52,5 +52,4 @@ class Statistics extends AbstractTag
             'Label' => 'OK',
         ),
     );
-
 }

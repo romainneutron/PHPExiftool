@@ -39,5 +39,4 @@ class SnoutID extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Snout ID';
-
 }

@@ -132,5 +132,4 @@ class ReleaseMode2 extends AbstractTag
             'Label' => 'Single Frame - Movie Capture',
         ),
     );
-
 }

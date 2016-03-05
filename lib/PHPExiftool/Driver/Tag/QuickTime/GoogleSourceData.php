@@ -39,5 +39,4 @@ class GoogleSourceData extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Google Source Data';
-
 }

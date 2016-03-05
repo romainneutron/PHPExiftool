@@ -39,5 +39,4 @@ class SpExtra extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Extra Space';
-
 }

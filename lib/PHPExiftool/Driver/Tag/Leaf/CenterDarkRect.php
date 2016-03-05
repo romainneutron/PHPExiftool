@@ -39,5 +39,4 @@ class CenterDarkRect extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Center Dark Rect';
-
 }

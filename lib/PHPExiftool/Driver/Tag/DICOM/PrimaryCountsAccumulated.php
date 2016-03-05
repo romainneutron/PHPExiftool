@@ -39,5 +39,4 @@ class PrimaryCountsAccumulated extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Primary Counts Accumulated';
-
 }

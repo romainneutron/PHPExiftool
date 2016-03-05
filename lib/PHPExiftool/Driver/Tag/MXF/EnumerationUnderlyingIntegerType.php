@@ -39,5 +39,4 @@ class EnumerationUnderlyingIntegerType extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Enumeration Underlying Integer Type';
-
 }

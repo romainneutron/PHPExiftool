@@ -39,5 +39,4 @@ class CompatibleFontName extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Compatible Font Name';
-
 }

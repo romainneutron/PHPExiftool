@@ -39,5 +39,4 @@ class Ownership extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Ownership';
-
 }

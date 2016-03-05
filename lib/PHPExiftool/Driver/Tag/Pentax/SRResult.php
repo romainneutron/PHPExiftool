@@ -56,5 +56,4 @@ class SRResult extends AbstractTag
             'Label' => 'Not ready',
         ),
     );
-
 }

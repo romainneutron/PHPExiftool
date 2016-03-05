@@ -39,5 +39,4 @@ class PortraitRawColorTone extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Portrait Raw Color Tone';
-
 }

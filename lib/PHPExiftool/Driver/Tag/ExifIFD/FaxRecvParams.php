@@ -41,5 +41,4 @@ class FaxRecvParams extends AbstractTag
     protected $Description = 'Fax Recv Params';
 
     protected $local_g1 = 'ExifIFD';
-
 }

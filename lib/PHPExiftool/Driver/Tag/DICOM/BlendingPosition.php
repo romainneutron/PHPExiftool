@@ -39,5 +39,4 @@ class BlendingPosition extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Blending Position';
-
 }

@@ -41,5 +41,4 @@ class AECIndoorIdx extends AbstractTag
     protected $Description = 'AEC Indoor Idx';
 
     protected $flag_Permanent = true;
-
 }

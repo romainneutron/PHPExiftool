@@ -41,5 +41,4 @@ class UserAdjSBARGBShifts extends AbstractTag
     protected $Description = 'User Adj SBA RGB Shifts';
 
     protected $flag_Binary = true;
-
 }

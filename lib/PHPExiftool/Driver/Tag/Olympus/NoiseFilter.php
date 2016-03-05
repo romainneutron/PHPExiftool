@@ -66,5 +66,4 @@ class NoiseFilter extends AbstractTag
             'Label' => 'High',
         ),
     );
-
 }

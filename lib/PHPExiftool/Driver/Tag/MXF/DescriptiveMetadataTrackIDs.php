@@ -39,5 +39,4 @@ class DescriptiveMetadataTrackIDs extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Descriptive Metadata Track I Ds';
-
 }

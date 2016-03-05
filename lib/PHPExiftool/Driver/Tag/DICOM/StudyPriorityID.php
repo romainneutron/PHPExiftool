@@ -39,5 +39,4 @@ class StudyPriorityID extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Study Priority ID';
-
 }

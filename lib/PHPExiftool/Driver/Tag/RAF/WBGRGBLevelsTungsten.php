@@ -41,5 +41,4 @@ class WBGRGBLevelsTungsten extends AbstractTag
     protected $Description = 'WB GRGB Levels Tungsten';
 
     protected $MaxLength = 4;
-
 }

@@ -50,5 +50,4 @@ class SubjectUnits extends AbstractTag
             'Label' => 'radians',
         ),
     );
-
 }

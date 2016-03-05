@@ -54,5 +54,4 @@ class ImageDuplicationConstraints extends AbstractTag
             'Label' => 'No Duplication',
         ),
     );
-
 }

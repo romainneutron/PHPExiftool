@@ -39,5 +39,4 @@ class CapHeight extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Cap Height';
-
 }

@@ -39,5 +39,4 @@ class GradientOffsetInY extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Gradient Offset In Y';
-
 }

@@ -64,5 +64,4 @@ class ImageStabilization extends AbstractTag
             'Label' => 'On, Mode 4',
         ),
     );
-
 }

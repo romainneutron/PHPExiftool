@@ -39,5 +39,4 @@ class RouteOfAdmissions extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Route Of Admissions';
-
 }

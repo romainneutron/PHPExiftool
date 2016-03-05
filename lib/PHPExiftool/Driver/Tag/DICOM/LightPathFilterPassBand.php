@@ -39,5 +39,4 @@ class LightPathFilterPassBand extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Light Path Filter Pass Band';
-
 }

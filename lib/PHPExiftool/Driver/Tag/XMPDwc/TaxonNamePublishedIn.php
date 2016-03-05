@@ -39,5 +39,4 @@ class TaxonNamePublishedIn extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Taxon Name Published In';
-
 }

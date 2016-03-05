@@ -39,5 +39,4 @@ class AxisUnits extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Axis Units';
-
 }

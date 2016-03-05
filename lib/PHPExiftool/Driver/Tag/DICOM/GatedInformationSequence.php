@@ -39,5 +39,4 @@ class GatedInformationSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Gated Information Sequence';
-
 }

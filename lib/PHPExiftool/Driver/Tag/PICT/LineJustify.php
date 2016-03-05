@@ -41,5 +41,4 @@ class LineJustify extends AbstractTag
     protected $Description = 'Line Justify';
 
     protected $MaxLength = 10;
-
 }

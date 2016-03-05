@@ -39,5 +39,4 @@ class LuminanceSmoothing extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Luminance Smoothing';
-
 }

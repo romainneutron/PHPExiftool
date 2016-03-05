@@ -80,5 +80,4 @@ class AmbienceSelection extends AbstractTag
             'Label' => 'Monochrome',
         ),
     );
-
 }

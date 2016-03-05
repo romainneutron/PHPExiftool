@@ -39,5 +39,4 @@ class OriginalSpecializedSOPClassUID extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Original Specialized SOP Class UID';
-
 }

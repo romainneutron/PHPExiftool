@@ -39,5 +39,4 @@ class MidScanTime extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Mid Scan Time';
-
 }

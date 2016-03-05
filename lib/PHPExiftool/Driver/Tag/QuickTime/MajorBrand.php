@@ -388,5 +388,4 @@ class MajorBrand extends AbstractTag
             'Label' => 'Samsung stereoscopic, dual stream',
         ),
     );
-
 }

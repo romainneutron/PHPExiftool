@@ -39,5 +39,4 @@ class PrinterPixelSpacing extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Printer Pixel Spacing';
-
 }

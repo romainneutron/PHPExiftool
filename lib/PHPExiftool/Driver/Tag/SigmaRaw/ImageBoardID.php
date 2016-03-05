@@ -39,5 +39,4 @@ class ImageBoardID extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Image Board ID';
-
 }

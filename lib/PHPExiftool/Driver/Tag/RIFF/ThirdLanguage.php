@@ -39,5 +39,4 @@ class ThirdLanguage extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Third Language';
-
 }

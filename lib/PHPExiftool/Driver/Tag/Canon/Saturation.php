@@ -48,5 +48,4 @@ class Saturation extends AbstractTag
             'Label' => 'Normal',
         ),
     );
-
 }

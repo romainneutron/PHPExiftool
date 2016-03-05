@@ -41,5 +41,4 @@ class AEError extends AbstractTag
     protected $Description = 'AE Error';
 
     protected $flag_Permanent = true;
-
 }

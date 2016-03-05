@@ -39,5 +39,4 @@ class GeogCitation extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Geog Citation';
-
 }

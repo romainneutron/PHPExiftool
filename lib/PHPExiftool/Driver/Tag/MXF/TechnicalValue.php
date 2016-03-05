@@ -39,5 +39,4 @@ class TechnicalValue extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Technical Value';
-
 }

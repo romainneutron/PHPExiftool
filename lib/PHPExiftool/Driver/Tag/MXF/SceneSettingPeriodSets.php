@@ -39,5 +39,4 @@ class SceneSettingPeriodSets extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Scene Setting Period Sets';
-
 }

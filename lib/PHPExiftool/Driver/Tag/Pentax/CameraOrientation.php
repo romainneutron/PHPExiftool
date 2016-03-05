@@ -68,5 +68,4 @@ class CameraOrientation extends AbstractTag
             'Label' => 'Downwards',
         ),
     );
-
 }

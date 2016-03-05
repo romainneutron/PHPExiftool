@@ -41,5 +41,4 @@ class PanoramaMode extends AbstractTag
     protected $Description = 'Panorama Mode';
 
     protected $flag_Permanent = true;
-
 }

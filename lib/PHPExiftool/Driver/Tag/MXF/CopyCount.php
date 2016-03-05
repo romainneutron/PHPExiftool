@@ -39,5 +39,4 @@ class CopyCount extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Copy Count';
-
 }

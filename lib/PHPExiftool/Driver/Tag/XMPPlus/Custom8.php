@@ -43,5 +43,4 @@ class Custom8 extends AbstractTag
     protected $flag_List = true;
 
     protected $flag_Bag = true;
-
 }

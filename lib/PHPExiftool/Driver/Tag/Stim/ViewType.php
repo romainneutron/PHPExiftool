@@ -50,5 +50,4 @@ class ViewType extends AbstractTag
             'Label' => 'Pop-up Effect',
         ),
     );
-
 }

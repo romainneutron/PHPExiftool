@@ -45,5 +45,4 @@ class PerChannelBlackLevel extends AbstractTag
     protected $MaxLength = 4;
 
     protected $Index = 'mixed';
-
 }

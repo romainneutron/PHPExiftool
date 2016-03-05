@@ -41,5 +41,4 @@ class SettingDateTime extends AbstractTag
     protected $Description = 'Setting Date Time';
 
     protected $local_g2 = 'Time';
-
 }

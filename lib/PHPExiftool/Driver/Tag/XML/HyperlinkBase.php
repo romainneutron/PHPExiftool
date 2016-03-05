@@ -39,5 +39,4 @@ class HyperlinkBase extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Hyperlink Base';
-
 }

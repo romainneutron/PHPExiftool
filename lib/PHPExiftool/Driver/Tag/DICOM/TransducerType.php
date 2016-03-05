@@ -39,5 +39,4 @@ class TransducerType extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Transducer Type';
-
 }

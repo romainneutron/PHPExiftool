@@ -39,5 +39,4 @@ class TableHeight extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Table Height';
-
 }

@@ -39,5 +39,4 @@ class AudioType extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Audio Type';
-
 }

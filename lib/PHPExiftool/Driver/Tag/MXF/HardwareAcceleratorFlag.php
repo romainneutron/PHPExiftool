@@ -39,5 +39,4 @@ class HardwareAcceleratorFlag extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Hardware Accelerator Flag';
-
 }

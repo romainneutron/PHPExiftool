@@ -41,5 +41,4 @@ class ASF5NrmShrpDegF2 extends AbstractTag
     protected $Description = 'ASF5 Nrm Shrp Deg F2';
 
     protected $flag_Permanent = true;
-
 }

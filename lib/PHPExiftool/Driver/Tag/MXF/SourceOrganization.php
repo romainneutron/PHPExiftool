@@ -39,5 +39,4 @@ class SourceOrganization extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Source Organization';
-
 }

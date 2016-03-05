@@ -41,5 +41,4 @@ class AudioNoiseReductionAlgorithm extends AbstractTag
     protected $Description = 'Audio Noise Reduction Algorithm';
 
     protected $local_g2 = 'Audio';
-
 }

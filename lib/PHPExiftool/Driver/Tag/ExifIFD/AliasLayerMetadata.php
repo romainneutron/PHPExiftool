@@ -41,5 +41,4 @@ class AliasLayerMetadata extends AbstractTag
     protected $Description = 'Alias Layer Metadata';
 
     protected $local_g1 = 'ExifIFD';
-
 }

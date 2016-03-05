@@ -39,5 +39,4 @@ class PerPictureNotes extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Per Picture Notes';
-
 }

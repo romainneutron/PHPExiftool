@@ -39,5 +39,4 @@ class UprightFocalLength35mm extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Upright Focal Length 35mm';
-
 }

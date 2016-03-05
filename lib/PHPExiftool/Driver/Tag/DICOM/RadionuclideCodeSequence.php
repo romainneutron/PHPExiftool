@@ -39,5 +39,4 @@ class RadionuclideCodeSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Radionuclide Code Sequence';
-
 }

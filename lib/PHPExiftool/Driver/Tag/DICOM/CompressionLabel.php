@@ -39,5 +39,4 @@ class CompressionLabel extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Compression Label';
-
 }

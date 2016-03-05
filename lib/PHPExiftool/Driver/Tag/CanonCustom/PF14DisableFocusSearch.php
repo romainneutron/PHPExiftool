@@ -41,5 +41,4 @@ class PF14DisableFocusSearch extends AbstractTag
     protected $Description = 'PF14 Disable Focus Search';
 
     protected $flag_Permanent = true;
-
 }

@@ -41,5 +41,4 @@ class Studio extends AbstractTag
     protected $Description = 'Studio';
 
     protected $flag_List = true;
-
 }

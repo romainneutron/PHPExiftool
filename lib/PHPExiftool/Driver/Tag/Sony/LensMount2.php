@@ -60,5 +60,4 @@ class LensMount2 extends AbstractTag
             'Label' => 'A-mount (5)',
         ),
     );
-
 }

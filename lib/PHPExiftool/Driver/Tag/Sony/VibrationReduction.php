@@ -52,5 +52,4 @@ class VibrationReduction extends AbstractTag
             'Label' => 'On',
         ),
     );
-
 }

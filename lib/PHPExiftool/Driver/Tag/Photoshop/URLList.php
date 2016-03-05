@@ -39,5 +39,4 @@ class URLList extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'URL List';
-
 }

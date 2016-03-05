@@ -39,5 +39,4 @@ class NumberOfViewsShifted extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Number Of Views Shifted';
-
 }

@@ -39,5 +39,4 @@ class FilterType extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Filter Type';
-
 }

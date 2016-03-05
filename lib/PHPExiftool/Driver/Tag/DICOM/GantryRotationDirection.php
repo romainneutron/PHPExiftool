@@ -39,5 +39,4 @@ class GantryRotationDirection extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Gantry Rotation Direction';
-
 }

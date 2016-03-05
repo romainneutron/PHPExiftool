@@ -39,5 +39,4 @@ class DialNorm extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Dial Norm';
-
 }

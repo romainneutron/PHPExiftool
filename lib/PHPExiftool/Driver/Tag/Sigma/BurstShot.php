@@ -41,5 +41,4 @@ class BurstShot extends AbstractTag
     protected $Description = 'Burst Shot';
 
     protected $flag_Permanent = true;
-
 }

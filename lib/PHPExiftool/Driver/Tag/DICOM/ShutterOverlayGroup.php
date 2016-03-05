@@ -39,5 +39,4 @@ class ShutterOverlayGroup extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Shutter Overlay Group';
-
 }

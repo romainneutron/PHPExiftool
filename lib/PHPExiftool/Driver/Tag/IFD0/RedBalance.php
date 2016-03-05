@@ -39,5 +39,4 @@ class RedBalance extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Red Balance';
-
 }

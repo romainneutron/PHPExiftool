@@ -56,5 +56,4 @@ class ExposureCompStepSize extends AbstractTag
             'Label' => '1 EV',
         ),
     );
-
 }

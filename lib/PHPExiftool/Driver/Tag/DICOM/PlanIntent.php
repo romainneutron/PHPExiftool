@@ -39,5 +39,4 @@ class PlanIntent extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Plan Intent';
-
 }

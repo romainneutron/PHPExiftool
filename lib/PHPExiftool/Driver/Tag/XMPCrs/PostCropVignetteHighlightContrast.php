@@ -39,5 +39,4 @@ class PostCropVignetteHighlightContrast extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Post Crop Vignette Highlight Contrast';
-
 }

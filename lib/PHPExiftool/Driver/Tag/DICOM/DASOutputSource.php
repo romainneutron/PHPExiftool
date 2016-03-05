@@ -39,5 +39,4 @@ class DASOutputSource extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'DAS Output Source';
-
 }

@@ -64,5 +64,4 @@ class FlashMetering extends AbstractTag
             'Label' => 'Pre-flash TTL',
         ),
     );
-
 }

@@ -39,5 +39,4 @@ class CenterOfCircularCollimator extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Center Of Circular Collimator';
-
 }

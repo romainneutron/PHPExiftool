@@ -39,5 +39,4 @@ class HighBit extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'High Bit';
-
 }

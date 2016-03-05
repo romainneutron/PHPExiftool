@@ -39,5 +39,4 @@ class RollAngle extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Roll Angle';
-
 }

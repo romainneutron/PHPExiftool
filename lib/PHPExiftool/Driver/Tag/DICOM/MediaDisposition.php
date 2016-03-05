@@ -39,5 +39,4 @@ class MediaDisposition extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Media Disposition';
-
 }

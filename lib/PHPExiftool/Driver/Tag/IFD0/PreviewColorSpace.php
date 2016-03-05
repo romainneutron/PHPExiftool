@@ -64,5 +64,4 @@ class PreviewColorSpace extends AbstractTag
             'Label' => 'ProPhoto RGB',
         ),
     );
-
 }

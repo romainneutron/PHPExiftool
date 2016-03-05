@@ -39,5 +39,4 @@ class VideoFormat extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Video Format';
-
 }

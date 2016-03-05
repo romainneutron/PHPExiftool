@@ -52,5 +52,4 @@ class HDRImageType extends AbstractTag
             'Label' => 'Original Image',
         ),
     );
-
 }

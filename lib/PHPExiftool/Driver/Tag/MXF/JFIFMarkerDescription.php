@@ -39,5 +39,4 @@ class JFIFMarkerDescription extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'JFIF Marker Description';
-
 }

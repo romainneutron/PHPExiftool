@@ -41,5 +41,4 @@ class CornerLongitudePoint2 extends AbstractTag
     protected $Description = 'Corner Longitude Point 2';
 
     protected $local_g2 = 'mixed';
-
 }

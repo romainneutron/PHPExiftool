@@ -41,5 +41,4 @@ class RedBalance extends AbstractTag
     protected $Description = 'Red Balance';
 
     protected $flag_Permanent = true;
-
 }

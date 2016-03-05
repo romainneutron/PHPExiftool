@@ -39,5 +39,4 @@ class CropAspectRatioCustom extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Crop Aspect Ratio Custom';
-
 }

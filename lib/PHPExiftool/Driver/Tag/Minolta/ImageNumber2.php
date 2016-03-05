@@ -41,5 +41,4 @@ class ImageNumber2 extends AbstractTag
     protected $Description = 'Image Number 2';
 
     protected $flag_Permanent = true;
-
 }

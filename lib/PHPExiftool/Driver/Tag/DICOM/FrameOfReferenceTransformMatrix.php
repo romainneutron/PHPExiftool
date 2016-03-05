@@ -39,5 +39,4 @@ class FrameOfReferenceTransformMatrix extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Frame Of Reference Transform Matrix';
-
 }

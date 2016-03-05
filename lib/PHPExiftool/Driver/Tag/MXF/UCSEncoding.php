@@ -39,5 +39,4 @@ class UCSEncoding extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'UCS Encoding';
-
 }

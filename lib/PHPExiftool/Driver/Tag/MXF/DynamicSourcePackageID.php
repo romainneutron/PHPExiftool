@@ -39,5 +39,4 @@ class DynamicSourcePackageID extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Dynamic Source Package ID';
-
 }

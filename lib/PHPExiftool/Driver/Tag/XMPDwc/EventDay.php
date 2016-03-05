@@ -41,5 +41,4 @@ class EventDay extends AbstractTag
     protected $Description = 'Event Day';
 
     protected $local_g2 = 'Time';
-
 }

@@ -39,5 +39,4 @@ class InitialViewHeadingDegrees extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Initial View Heading Degrees';
-
 }

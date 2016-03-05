@@ -41,5 +41,4 @@ class SourceDirectoryIndex extends AbstractTag
     protected $Description = 'Source Directory Index';
 
     protected $flag_Permanent = true;
-
 }

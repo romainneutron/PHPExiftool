@@ -41,5 +41,4 @@ class Unsharp1HaloWidth extends AbstractTag
     protected $Description = 'Unsharp 1 Halo Width';
 
     protected $flag_Permanent = true;
-
 }

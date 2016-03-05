@@ -490,5 +490,4 @@ class LanguageCode extends AbstractTag
             'Label' => 'French (Swiss)',
         ),
     );
-
 }

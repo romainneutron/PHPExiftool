@@ -52,5 +52,4 @@ class AFStatus44D7 extends AbstractTag
             'Label' => 'In Focus',
         ),
     );
-
 }

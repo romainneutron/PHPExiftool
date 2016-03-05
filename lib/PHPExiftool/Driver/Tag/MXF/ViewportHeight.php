@@ -39,5 +39,4 @@ class ViewportHeight extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Viewport Height';
-
 }

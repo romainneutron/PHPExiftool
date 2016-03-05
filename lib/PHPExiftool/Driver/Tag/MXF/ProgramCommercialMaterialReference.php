@@ -39,5 +39,4 @@ class ProgramCommercialMaterialReference extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Program Commercial Material Reference';
-
 }

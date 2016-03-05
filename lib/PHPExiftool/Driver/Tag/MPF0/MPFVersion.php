@@ -39,5 +39,4 @@ class MPFVersion extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'MPF Version';
-
 }

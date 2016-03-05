@@ -39,5 +39,4 @@ class AuthenticationFlag extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Authentication Flag';
-
 }

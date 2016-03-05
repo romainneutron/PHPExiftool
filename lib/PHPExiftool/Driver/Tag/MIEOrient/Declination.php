@@ -39,5 +39,4 @@ class Declination extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Declination';
-
 }

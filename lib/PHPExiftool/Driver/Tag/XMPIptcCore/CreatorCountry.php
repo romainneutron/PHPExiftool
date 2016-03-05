@@ -39,5 +39,4 @@ class CreatorCountry extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Creator Country';
-
 }

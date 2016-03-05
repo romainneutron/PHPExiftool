@@ -39,5 +39,4 @@ class RegionPixelShiftSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Region Pixel Shift Sequence';
-
 }

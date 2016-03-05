@@ -41,5 +41,4 @@ class EmbeddedImageFilter extends AbstractTag
     protected $Description = 'Embedded Image Filter';
 
     protected $flag_List = true;
-
 }

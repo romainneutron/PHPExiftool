@@ -39,5 +39,4 @@ class PatientSize extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Patient Size';
-
 }

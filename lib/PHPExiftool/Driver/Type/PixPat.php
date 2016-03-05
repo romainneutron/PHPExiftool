@@ -19,5 +19,4 @@ class PixPat extends AbstractType
     protected $ExiftoolName = 'PixPat';
 
     protected $PHPMap = 'string';
-
 }

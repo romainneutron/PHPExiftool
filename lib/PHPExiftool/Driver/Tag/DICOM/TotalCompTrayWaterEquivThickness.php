@@ -39,5 +39,4 @@ class TotalCompTrayWaterEquivThickness extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Total Comp Tray Water Equiv Thickness';
-
 }

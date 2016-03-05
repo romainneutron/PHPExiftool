@@ -39,5 +39,4 @@ class ReferencePriority extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Reference Priority';
-
 }

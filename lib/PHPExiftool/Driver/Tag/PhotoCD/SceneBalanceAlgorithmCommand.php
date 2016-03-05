@@ -58,5 +58,4 @@ class SceneBalanceAlgorithmCommand extends AbstractTag
             'Label' => 'Neutral SBA Off, Color SBA On',
         ),
     );
-
 }

@@ -39,5 +39,4 @@ class CueRefTime extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Cue Ref Time';
-
 }

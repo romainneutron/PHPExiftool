@@ -39,5 +39,4 @@ class PersonDescription extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Person Description';
-
 }

@@ -41,5 +41,4 @@ class Rotation extends AbstractTag
     protected $Description = 'Rotation';
 
     protected $flag_Permanent = true;
-
 }

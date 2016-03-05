@@ -312,5 +312,4 @@ class HDRSetting extends AbstractTag
             'Label' => 'HDR 6 EV',
         ),
     );
-
 }

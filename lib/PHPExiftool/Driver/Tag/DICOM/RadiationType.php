@@ -39,5 +39,4 @@ class RadiationType extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Radiation Type';
-
 }

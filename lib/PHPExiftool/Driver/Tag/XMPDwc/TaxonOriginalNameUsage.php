@@ -39,5 +39,4 @@ class TaxonOriginalNameUsage extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Taxon Original Name Usage';
-
 }

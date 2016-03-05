@@ -39,5 +39,4 @@ class OverlayPlanes extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Overlay Planes';
-
 }

@@ -39,5 +39,4 @@ class TableDirectionInOrOut extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Table Direction In Or Out';
-
 }

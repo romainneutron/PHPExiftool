@@ -50,5 +50,4 @@ class FocalPlaneAFPointsUsed extends AbstractTag
     );
 
     protected $Index = 'mixed';
-
 }

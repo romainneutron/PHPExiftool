@@ -39,5 +39,4 @@ class CaptionKind extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Caption Kind';
-
 }

@@ -56,5 +56,4 @@ class BeepPitch extends AbstractTag
             'Label' => 'High',
         ),
     );
-
 }

@@ -39,5 +39,4 @@ class PhantomCalibrationTime extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Phantom Calibration Time';
-
 }

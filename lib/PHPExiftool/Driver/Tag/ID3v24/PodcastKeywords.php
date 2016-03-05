@@ -39,5 +39,4 @@ class PodcastKeywords extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Podcast Keywords';
-
 }

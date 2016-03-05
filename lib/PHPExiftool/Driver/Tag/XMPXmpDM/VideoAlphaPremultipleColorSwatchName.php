@@ -39,5 +39,4 @@ class VideoAlphaPremultipleColorSwatchName extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Video Alpha Premultiple Color Swatch Name';
-
 }

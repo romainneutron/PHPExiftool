@@ -56,5 +56,4 @@ class GPSTrackRef extends AbstractTag
     protected $local_g1 = 'mixed';
 
     protected $local_g2 = 'mixed';
-
 }

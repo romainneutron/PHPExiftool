@@ -39,5 +39,4 @@ class ControlPointIndex extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Control Point Index';
-
 }

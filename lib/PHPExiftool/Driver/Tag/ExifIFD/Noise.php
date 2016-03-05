@@ -41,5 +41,4 @@ class Noise extends AbstractTag
     protected $Description = 'Noise';
 
     protected $local_g1 = 'ExifIFD';
-
 }

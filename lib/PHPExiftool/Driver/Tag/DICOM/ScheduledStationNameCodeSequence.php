@@ -39,5 +39,4 @@ class ScheduledStationNameCodeSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Scheduled Station Name Code Sequence';
-
 }

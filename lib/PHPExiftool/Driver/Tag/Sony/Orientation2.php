@@ -62,5 +62,4 @@ class Orientation2 extends AbstractTag
     );
 
     protected $Index = 'mixed';
-
 }

@@ -39,5 +39,4 @@ class ComputedKeywords extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Computed Keywords';
-
 }

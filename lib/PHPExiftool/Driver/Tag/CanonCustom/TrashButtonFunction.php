@@ -52,5 +52,4 @@ class TrashButtonFunction extends AbstractTag
             'Label' => 'Depth-of-field preview',
         ),
     );
-
 }

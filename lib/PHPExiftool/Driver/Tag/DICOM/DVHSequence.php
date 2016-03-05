@@ -39,5 +39,4 @@ class DVHSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'DVH Sequence';
-
 }

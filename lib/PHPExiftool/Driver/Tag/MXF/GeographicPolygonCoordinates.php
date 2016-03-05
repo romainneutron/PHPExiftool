@@ -39,5 +39,4 @@ class GeographicPolygonCoordinates extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Geographic Polygon Coordinates';
-
 }

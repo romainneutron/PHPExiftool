@@ -39,5 +39,4 @@ class ChartWGSNSShift extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Chart WGSNS Shift';
-
 }

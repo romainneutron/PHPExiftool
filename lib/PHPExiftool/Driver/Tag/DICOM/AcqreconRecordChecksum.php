@@ -39,5 +39,4 @@ class AcqreconRecordChecksum extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Acqrecon Record Checksum';
-
 }

@@ -39,5 +39,4 @@ class ImagePathFilterPassThroughWavelen extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Image Path Filter Pass Through Wavelen';
-
 }

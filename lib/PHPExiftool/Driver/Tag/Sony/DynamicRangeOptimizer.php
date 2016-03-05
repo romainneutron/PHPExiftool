@@ -592,5 +592,4 @@ class DynamicRangeOptimizer extends AbstractTag
             'Label' => 'n/a',
         ),
     );
-
 }

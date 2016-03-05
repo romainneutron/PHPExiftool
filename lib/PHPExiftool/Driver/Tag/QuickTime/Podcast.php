@@ -50,5 +50,4 @@ class Podcast extends AbstractTag
             'Label' => 'Yes',
         ),
     );
-
 }

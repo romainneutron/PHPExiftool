@@ -39,5 +39,4 @@ class PreviewImageWidth extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Preview Image Width';
-
 }

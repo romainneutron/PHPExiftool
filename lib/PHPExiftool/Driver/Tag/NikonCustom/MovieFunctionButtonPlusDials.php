@@ -52,5 +52,4 @@ class MovieFunctionButtonPlusDials extends AbstractTag
             'Label' => 'Choose Image Area',
         ),
     );
-
 }

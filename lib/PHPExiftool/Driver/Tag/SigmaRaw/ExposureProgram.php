@@ -58,5 +58,4 @@ class ExposureProgram extends AbstractTag
             'Label' => 'Shutter Priority',
         ),
     );
-
 }

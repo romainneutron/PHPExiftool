@@ -39,5 +39,4 @@ class WindowLocation extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Window Location';
-
 }

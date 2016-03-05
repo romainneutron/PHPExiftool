@@ -39,5 +39,4 @@ class DTCPIPHost extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'DTCPIP Host';
-
 }

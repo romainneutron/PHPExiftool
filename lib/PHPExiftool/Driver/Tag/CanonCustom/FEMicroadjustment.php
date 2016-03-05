@@ -54,5 +54,4 @@ class FEMicroadjustment extends AbstractTag
             'Label' => 'Enable',
         ),
     );
-
 }

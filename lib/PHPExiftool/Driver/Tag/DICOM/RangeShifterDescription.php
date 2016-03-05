@@ -39,5 +39,4 @@ class RangeShifterDescription extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Range Shifter Description';
-
 }

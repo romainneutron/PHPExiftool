@@ -39,5 +39,4 @@ class RenderingType3D extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Rendering Type 3D';
-
 }

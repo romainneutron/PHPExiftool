@@ -39,5 +39,4 @@ class InStackPositionNumber extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'In Stack Position Number';
-
 }

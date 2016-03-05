@@ -41,5 +41,4 @@ class OtherFormat extends AbstractTag
     protected $Description = 'Other Format';
 
     protected $MaxLength = 4;
-
 }

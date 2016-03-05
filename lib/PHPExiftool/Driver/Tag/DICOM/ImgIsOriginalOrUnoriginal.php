@@ -39,5 +39,4 @@ class ImgIsOriginalOrUnoriginal extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Img Is Original Or Unoriginal';
-
 }

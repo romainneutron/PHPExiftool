@@ -39,5 +39,4 @@ class IconIndex extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Icon Index';
-
 }

@@ -41,5 +41,4 @@ class Editor extends AbstractTag
     protected $Description = 'Editor';
 
     protected $local_g2 = 'Author';
-
 }

@@ -41,5 +41,4 @@ class UserDataRes extends AbstractTag
     protected $Description = 'User Data res';
 
     protected $flag_Binary = true;
-
 }

@@ -39,5 +39,4 @@ class PropertySetIDCodes extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Property Set ID Codes';
-
 }

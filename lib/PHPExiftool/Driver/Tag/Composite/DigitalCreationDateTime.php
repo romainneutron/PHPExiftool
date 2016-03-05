@@ -41,5 +41,4 @@ class DigitalCreationDateTime extends AbstractTag
     protected $Description = 'Digital Creation Date/Time';
 
     protected $local_g2 = 'Time';
-
 }

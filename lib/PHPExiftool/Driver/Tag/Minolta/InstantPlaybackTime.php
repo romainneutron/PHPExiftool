@@ -41,5 +41,4 @@ class InstantPlaybackTime extends AbstractTag
     protected $Description = 'Instant Playback Time';
 
     protected $flag_Permanent = true;
-
 }

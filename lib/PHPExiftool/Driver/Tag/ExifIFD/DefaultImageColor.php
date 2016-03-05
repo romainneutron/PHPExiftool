@@ -41,5 +41,4 @@ class DefaultImageColor extends AbstractTag
     protected $Description = 'Default Image Color';
 
     protected $local_g1 = 'ExifIFD';
-
 }

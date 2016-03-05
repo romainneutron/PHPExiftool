@@ -41,5 +41,4 @@ class HistoryAction extends AbstractTag
     protected $Description = 'History Action';
 
     protected $flag_List = true;
-
 }

@@ -41,5 +41,4 @@ class WBRGBLevelsCloudy extends AbstractTag
     protected $Description = 'WB RGB Levels Cloudy';
 
     protected $flag_Permanent = true;
-
 }

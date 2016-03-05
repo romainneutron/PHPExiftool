@@ -39,5 +39,4 @@ class ObsoletePhotoshopTag3 extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Obsolete Photoshop Tag 3';
-
 }

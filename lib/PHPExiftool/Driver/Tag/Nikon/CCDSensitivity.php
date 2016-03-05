@@ -41,5 +41,4 @@ class CCDSensitivity extends AbstractTag
     protected $Description = 'CCD Sensitivity';
 
     protected $flag_Permanent = true;
-
 }

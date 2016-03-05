@@ -124,5 +124,4 @@ class CommandDialsReverseRotation extends AbstractTag
             'Label' => 'Yes',
         ),
     );
-
 }

@@ -39,5 +39,4 @@ class PhaseContrast extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Phase Contrast';
-
 }

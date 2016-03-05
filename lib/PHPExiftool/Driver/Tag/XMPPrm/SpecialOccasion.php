@@ -41,5 +41,4 @@ class SpecialOccasion extends AbstractTag
     protected $Description = 'Special Occasion';
 
     protected $flag_Avoid = true;
-
 }

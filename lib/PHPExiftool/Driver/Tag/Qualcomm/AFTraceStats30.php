@@ -41,5 +41,4 @@ class AFTraceStats30 extends AbstractTag
     protected $Description = 'AF Trace Stats 30';
 
     protected $flag_Permanent = true;
-
 }

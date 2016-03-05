@@ -39,5 +39,4 @@ class RRIntervalTimeNominal extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'RR Interval Time Nominal';
-
 }

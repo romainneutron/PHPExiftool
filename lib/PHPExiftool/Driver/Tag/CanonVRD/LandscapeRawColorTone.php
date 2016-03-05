@@ -39,5 +39,4 @@ class LandscapeRawColorTone extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Landscape Raw Color Tone';
-
 }

@@ -41,5 +41,4 @@ class XClipPathUnits extends AbstractTag
     protected $Description = 'X Clip Path Units';
 
     protected $local_g1 = 'ExifIFD';
-
 }

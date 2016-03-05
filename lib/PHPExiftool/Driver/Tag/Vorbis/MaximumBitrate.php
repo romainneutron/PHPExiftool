@@ -39,5 +39,4 @@ class MaximumBitrate extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Maximum Bitrate';
-
 }

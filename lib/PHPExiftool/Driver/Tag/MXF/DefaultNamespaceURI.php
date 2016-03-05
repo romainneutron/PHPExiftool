@@ -39,5 +39,4 @@ class DefaultNamespaceURI extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Default Namespace URI';
-
 }

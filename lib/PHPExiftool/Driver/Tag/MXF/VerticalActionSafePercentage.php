@@ -39,5 +39,4 @@ class VerticalActionSafePercentage extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Vertical Action Safe Percentage';
-
 }

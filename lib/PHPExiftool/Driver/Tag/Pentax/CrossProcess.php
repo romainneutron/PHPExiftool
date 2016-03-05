@@ -76,5 +76,4 @@ class CrossProcess extends AbstractTag
             'Label' => 'Favorite 3',
         ),
     );
-
 }

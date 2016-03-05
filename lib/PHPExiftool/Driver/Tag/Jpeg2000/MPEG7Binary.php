@@ -39,5 +39,4 @@ class MPEG7Binary extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'MPEG7 Binary';
-
 }

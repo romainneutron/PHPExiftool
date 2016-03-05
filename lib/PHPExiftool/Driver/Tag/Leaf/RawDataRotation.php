@@ -39,5 +39,4 @@ class RawDataRotation extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Raw Data Rotation';
-
 }

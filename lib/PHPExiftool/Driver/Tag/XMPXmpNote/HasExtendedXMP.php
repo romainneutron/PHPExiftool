@@ -41,5 +41,4 @@ class HasExtendedXMP extends AbstractTag
     protected $Description = 'Has Extended XMP';
 
     protected $flag_Protected = true;
-
 }

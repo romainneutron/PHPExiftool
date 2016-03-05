@@ -41,5 +41,4 @@ class DeviceLongitude extends AbstractTag
     protected $Description = 'Device Longitude';
 
     protected $local_g2 = 'Location';
-
 }

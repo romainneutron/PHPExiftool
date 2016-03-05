@@ -39,5 +39,4 @@ class TotalNumberInSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Total Number In Sequence';
-
 }

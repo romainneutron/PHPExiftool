@@ -39,5 +39,4 @@ class CumulativeDoseToDoseReference extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Cumulative Dose To Dose Reference';
-
 }

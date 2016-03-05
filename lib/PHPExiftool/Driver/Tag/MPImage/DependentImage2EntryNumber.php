@@ -39,5 +39,4 @@ class DependentImage2EntryNumber extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Dependent Image 2 Entry Number';
-
 }

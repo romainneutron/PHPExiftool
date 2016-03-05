@@ -41,5 +41,4 @@ class FlashLevel extends AbstractTag
     protected $Description = 'Flash Level';
 
     protected $flag_Permanent = true;
-
 }

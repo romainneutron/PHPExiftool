@@ -432,5 +432,4 @@ class SceneMode extends AbstractTag
             'Label' => 'HDR',
         ),
     );
-
 }

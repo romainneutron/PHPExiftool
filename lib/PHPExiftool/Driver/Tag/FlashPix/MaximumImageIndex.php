@@ -39,5 +39,4 @@ class MaximumImageIndex extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Maximum Image Index';
-
 }

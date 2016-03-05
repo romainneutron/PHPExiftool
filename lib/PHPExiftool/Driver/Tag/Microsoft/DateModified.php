@@ -41,5 +41,4 @@ class DateModified extends AbstractTag
     protected $Description = 'Date Modified';
 
     protected $local_g2 = 'Time';
-
 }

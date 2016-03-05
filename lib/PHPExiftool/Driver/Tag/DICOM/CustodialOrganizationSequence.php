@@ -39,5 +39,4 @@ class CustodialOrganizationSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Custodial Organization Sequence';
-
 }

@@ -39,5 +39,4 @@ class CountInfo extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Count Info';
-
 }

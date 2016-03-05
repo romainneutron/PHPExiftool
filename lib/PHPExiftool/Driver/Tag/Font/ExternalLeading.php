@@ -39,5 +39,4 @@ class ExternalLeading extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'External Leading';
-
 }

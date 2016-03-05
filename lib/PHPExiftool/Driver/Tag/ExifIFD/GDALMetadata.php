@@ -41,5 +41,4 @@ class GDALMetadata extends AbstractTag
     protected $Description = 'GDAL Metadata';
 
     protected $local_g1 = 'ExifIFD';
-
 }

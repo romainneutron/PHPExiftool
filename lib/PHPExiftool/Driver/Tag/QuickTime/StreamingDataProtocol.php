@@ -39,5 +39,4 @@ class StreamingDataProtocol extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Streaming Data Protocol';
-
 }

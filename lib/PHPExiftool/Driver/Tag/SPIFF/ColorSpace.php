@@ -90,5 +90,4 @@ class ColorSpace extends AbstractTag
             'Label' => 'CIELab',
         ),
     );
-
 }

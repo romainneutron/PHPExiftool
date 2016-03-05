@@ -52,5 +52,4 @@ class RecordShutterRelease extends AbstractTag
             'Label' => 'Press start, press stop',
         ),
     );
-
 }

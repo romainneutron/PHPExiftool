@@ -39,5 +39,4 @@ class MediaColor extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Media Color';
-
 }

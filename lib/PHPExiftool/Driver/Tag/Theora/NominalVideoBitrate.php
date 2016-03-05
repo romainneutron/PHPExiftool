@@ -46,5 +46,4 @@ class NominalVideoBitrate extends AbstractTag
             'Label' => 'Unspecified',
         ),
     );
-
 }

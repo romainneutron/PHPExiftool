@@ -52,5 +52,4 @@ class SweepPanoramaSize extends AbstractTag
             'Label' => 'Wide',
         ),
     );
-
 }

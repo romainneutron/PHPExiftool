@@ -39,5 +39,4 @@ class BlackLevel2 extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Black Level 2';
-
 }

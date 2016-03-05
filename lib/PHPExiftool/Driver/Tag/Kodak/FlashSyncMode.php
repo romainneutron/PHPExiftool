@@ -41,5 +41,4 @@ class FlashSyncMode extends AbstractTag
     protected $Description = 'Flash Sync Mode';
 
     protected $flag_Permanent = true;
-
 }

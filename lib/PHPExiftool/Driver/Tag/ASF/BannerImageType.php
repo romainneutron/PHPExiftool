@@ -58,5 +58,4 @@ class BannerImageType extends AbstractTag
             'Label' => 'GIF',
         ),
     );
-
 }

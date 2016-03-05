@@ -39,5 +39,4 @@ class MaxAvailHeight extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Max Avail Height';
-
 }

@@ -41,5 +41,4 @@ class ContributedMediaPath extends AbstractTag
     protected $Description = 'Contributed Media Path';
 
     protected $flag_List = true;
-
 }

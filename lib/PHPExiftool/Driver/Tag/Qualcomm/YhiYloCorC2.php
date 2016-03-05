@@ -41,5 +41,4 @@ class YhiYloCorC2 extends AbstractTag
     protected $Description = 'Yhi Ylo Cor C2';
 
     protected $flag_Permanent = true;
-
 }

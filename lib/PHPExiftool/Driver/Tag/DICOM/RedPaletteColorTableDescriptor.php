@@ -39,5 +39,4 @@ class RedPaletteColorTableDescriptor extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Red Palette Color Table Descriptor';
-
 }

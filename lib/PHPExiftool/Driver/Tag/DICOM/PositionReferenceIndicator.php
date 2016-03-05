@@ -39,5 +39,4 @@ class PositionReferenceIndicator extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Position Reference Indicator';
-
 }

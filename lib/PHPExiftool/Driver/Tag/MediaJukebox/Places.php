@@ -39,5 +39,4 @@ class Places extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Places';
-
 }

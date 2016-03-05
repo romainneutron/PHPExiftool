@@ -39,5 +39,4 @@ class CurrentRequestedProcEvidenceSeq extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Current Requested Proc Evidence Seq';
-
 }

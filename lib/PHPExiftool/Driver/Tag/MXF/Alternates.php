@@ -39,5 +39,4 @@ class Alternates extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Alternates';
-
 }

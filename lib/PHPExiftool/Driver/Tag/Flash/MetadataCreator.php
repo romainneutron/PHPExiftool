@@ -39,5 +39,4 @@ class MetadataCreator extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Metadata Creator';
-
 }

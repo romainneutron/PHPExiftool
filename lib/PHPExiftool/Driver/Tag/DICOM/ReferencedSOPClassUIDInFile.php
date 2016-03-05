@@ -39,5 +39,4 @@ class ReferencedSOPClassUIDInFile extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Referenced SOP Class UID In File';
-
 }

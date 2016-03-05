@@ -88,5 +88,4 @@ class Quality extends AbstractTag
             'Label' => 'Best',
         ),
     );
-
 }

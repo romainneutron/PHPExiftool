@@ -52,5 +52,4 @@ class LCDDisplayAtPowerOn extends AbstractTag
             'Label' => 'Retain power off status',
         ),
     );
-
 }

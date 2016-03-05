@@ -41,5 +41,4 @@ class KodakInfoType extends AbstractTag
     protected $Description = 'Kodak Info Type';
 
     protected $flag_Permanent = true;
-
 }

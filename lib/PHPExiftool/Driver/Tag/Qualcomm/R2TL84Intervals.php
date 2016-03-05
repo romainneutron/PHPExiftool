@@ -41,5 +41,4 @@ class R2TL84Intervals extends AbstractTag
     protected $Description = 'R2 TL84 Intervals';
 
     protected $flag_Permanent = true;
-
 }

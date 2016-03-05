@@ -39,5 +39,4 @@ class DigitalEffectsName extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Digital Effects Name';
-
 }

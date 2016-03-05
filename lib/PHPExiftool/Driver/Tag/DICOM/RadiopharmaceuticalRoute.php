@@ -39,5 +39,4 @@ class RadiopharmaceuticalRoute extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Radiopharmaceutical Route';
-
 }

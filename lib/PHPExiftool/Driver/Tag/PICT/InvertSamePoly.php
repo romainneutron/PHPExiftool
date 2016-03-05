@@ -39,5 +39,4 @@ class InvertSamePoly extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Invert Same Poly';
-
 }

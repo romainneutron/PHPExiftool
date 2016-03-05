@@ -39,5 +39,4 @@ class DigitalVideoFileFormat extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Digital Video File Format';
-
 }

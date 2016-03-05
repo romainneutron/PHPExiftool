@@ -39,5 +39,4 @@ class ParallelReductFactorInPlaneRetired extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Parallel Reduct Factor In Plane Retired';
-
 }

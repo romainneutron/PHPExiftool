@@ -39,5 +39,4 @@ class MediaOriginalChannel extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Media Original Channel';
-
 }

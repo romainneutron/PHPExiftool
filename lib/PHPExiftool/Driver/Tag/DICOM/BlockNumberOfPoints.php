@@ -39,5 +39,4 @@ class BlockNumberOfPoints extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Block Number Of Points';
-
 }

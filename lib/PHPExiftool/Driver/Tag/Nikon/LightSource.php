@@ -41,5 +41,4 @@ class LightSource extends AbstractTag
     protected $Description = 'Light Source';
 
     protected $flag_Permanent = true;
-
 }

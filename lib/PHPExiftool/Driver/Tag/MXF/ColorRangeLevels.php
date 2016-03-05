@@ -39,5 +39,4 @@ class ColorRangeLevels extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Color Range Levels';
-
 }

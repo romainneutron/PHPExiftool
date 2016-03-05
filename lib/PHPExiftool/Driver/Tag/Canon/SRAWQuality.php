@@ -56,5 +56,4 @@ class SRAWQuality extends AbstractTag
             'Label' => 'sRAW2 (sRAW)',
         ),
     );
-
 }

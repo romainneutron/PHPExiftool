@@ -39,5 +39,4 @@ class CameraScaleMin extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Camera Scale Min';
-
 }

@@ -41,5 +41,4 @@ class SignaturePublicKey extends AbstractTag
     protected $Description = 'Signature Public Key';
 
     protected $flag_Binary = true;
-
 }

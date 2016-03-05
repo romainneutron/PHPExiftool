@@ -41,5 +41,4 @@ class MultiExposureShots extends AbstractTag
     protected $Description = 'Multi Exposure Shots';
 
     protected $flag_Permanent = true;
-
 }

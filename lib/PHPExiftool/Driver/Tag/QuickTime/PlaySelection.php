@@ -39,5 +39,4 @@ class PlaySelection extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Play Selection';
-
 }

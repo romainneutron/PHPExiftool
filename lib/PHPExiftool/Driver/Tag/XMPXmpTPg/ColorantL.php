@@ -41,5 +41,4 @@ class ColorantL extends AbstractTag
     protected $Description = 'Colorant L';
 
     protected $flag_List = true;
-
 }

@@ -39,5 +39,4 @@ class VOILUTFunction extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'VOI LUT Function';
-
 }

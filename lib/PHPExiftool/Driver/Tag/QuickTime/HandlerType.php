@@ -124,5 +124,4 @@ class HandlerType extends AbstractTag
             'Label' => 'Video Track',
         ),
     );
-
 }

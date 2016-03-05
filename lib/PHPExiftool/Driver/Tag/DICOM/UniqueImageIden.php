@@ -39,5 +39,4 @@ class UniqueImageIden extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Unique Image Iden';
-
 }

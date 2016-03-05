@@ -52,5 +52,4 @@ class AFButtonPressed extends AbstractTag
             'Label' => 'Yes',
         ),
     );
-
 }

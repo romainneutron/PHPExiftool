@@ -39,5 +39,4 @@ class RelationshipGroupLength extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Relationship Group Length';
-
 }

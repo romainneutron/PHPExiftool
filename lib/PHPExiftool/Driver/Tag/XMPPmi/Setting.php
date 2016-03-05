@@ -41,5 +41,4 @@ class Setting extends AbstractTag
     protected $Description = 'Setting';
 
     protected $flag_Avoid = true;
-
 }

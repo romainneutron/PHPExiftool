@@ -39,5 +39,4 @@ class HL7DocumentTypeCodeSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'HL7 Document Type Code Sequence';
-
 }

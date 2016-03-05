@@ -39,5 +39,4 @@ class ImageDimensionY extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Image Dimension Y';
-
 }

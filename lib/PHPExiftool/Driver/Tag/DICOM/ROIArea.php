@@ -39,5 +39,4 @@ class ROIArea extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'ROI Area';
-
 }

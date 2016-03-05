@@ -41,5 +41,4 @@ class ImageVersion extends AbstractTag
     protected $Description = 'Image Version';
 
     protected $MaxLength = 2;
-
 }

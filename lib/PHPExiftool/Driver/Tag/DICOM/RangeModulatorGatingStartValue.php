@@ -39,5 +39,4 @@ class RangeModulatorGatingStartValue extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Range Modulator Gating Start Value';
-
 }

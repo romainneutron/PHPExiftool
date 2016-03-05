@@ -41,5 +41,4 @@ class AECSnapshotSensorGain extends AbstractTag
     protected $Description = 'AEC Snapshot Sensor Gain';
 
     protected $flag_Permanent = true;
-
 }

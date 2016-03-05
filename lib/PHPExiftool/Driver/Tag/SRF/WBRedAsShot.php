@@ -41,5 +41,4 @@ class WBRedAsShot extends AbstractTag
     protected $Description = 'WB Red As Shot';
 
     protected $flag_Permanent = true;
-
 }

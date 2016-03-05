@@ -52,5 +52,4 @@ class ImageStabilizationSetting extends AbstractTag
             'Label' => 'On',
         ),
     );
-
 }

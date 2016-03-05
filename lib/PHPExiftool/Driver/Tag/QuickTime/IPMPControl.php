@@ -41,5 +41,4 @@ class IPMPControl extends AbstractTag
     protected $Description = 'IPMP Control';
 
     protected $flag_Binary = true;
-
 }

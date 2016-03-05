@@ -41,5 +41,4 @@ class DiscardFrstFrm extends AbstractTag
     protected $Description = 'Discard Frst Frm';
 
     protected $flag_Permanent = true;
-
 }

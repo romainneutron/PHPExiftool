@@ -39,5 +39,4 @@ class TextObjectSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Text Object Sequence';
-
 }

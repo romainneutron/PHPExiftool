@@ -39,5 +39,4 @@ class MinimumCoordinateValue extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Minimum Coordinate Value';
-
 }

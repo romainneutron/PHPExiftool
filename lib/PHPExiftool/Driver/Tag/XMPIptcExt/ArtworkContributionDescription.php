@@ -41,5 +41,4 @@ class ArtworkContributionDescription extends AbstractTag
     protected $Description = 'Artwork Contribution Description';
 
     protected $flag_List = true;
-
 }

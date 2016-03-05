@@ -39,5 +39,4 @@ class ToolVersion extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Tool Version';
-
 }

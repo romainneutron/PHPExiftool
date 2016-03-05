@@ -41,5 +41,4 @@ class ImageAdjustment extends AbstractTag
     protected $Description = 'Image Adjustment';
 
     protected $flag_Permanent = true;
-
 }

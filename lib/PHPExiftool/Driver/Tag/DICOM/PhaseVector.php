@@ -39,5 +39,4 @@ class PhaseVector extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Phase Vector';
-
 }

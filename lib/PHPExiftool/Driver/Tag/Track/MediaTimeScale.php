@@ -39,5 +39,4 @@ class MediaTimeScale extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Media Time Scale';
-
 }

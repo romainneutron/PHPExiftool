@@ -39,5 +39,4 @@ class TextSize extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Text Size';
-
 }

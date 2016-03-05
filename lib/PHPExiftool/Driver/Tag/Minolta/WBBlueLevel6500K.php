@@ -41,5 +41,4 @@ class WBBlueLevel6500K extends AbstractTag
     protected $Description = 'WB Blue Level 6500K';
 
     protected $flag_Permanent = true;
-
 }

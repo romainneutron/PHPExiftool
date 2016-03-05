@@ -41,5 +41,4 @@ class R2D65GreenStbl03 extends AbstractTag
     protected $Description = 'R2 D65 Green Stbl 03';
 
     protected $flag_Permanent = true;
-
 }

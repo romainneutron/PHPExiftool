@@ -39,5 +39,4 @@ class ClinicalTrialSponsorName extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Clinical Trial Sponsor Name';
-
 }

@@ -39,5 +39,4 @@ class PrivateRTKInfo extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Private RTK Info';
-
 }

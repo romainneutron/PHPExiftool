@@ -39,5 +39,4 @@ class Palette extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Palette';
-
 }

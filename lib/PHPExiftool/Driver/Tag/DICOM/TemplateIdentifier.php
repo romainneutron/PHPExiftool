@@ -39,5 +39,4 @@ class TemplateIdentifier extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Template Identifier';
-
 }

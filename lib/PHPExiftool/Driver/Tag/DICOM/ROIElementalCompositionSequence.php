@@ -39,5 +39,4 @@ class ROIElementalCompositionSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'ROI Elemental Composition Sequence';
-
 }

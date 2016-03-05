@@ -60,5 +60,4 @@ class MovieFunctionButton extends AbstractTag
             'Label' => 'View Photo Shooting Info',
         ),
     );
-
 }

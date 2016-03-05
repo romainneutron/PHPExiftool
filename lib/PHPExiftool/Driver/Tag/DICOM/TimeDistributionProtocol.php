@@ -39,5 +39,4 @@ class TimeDistributionProtocol extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Time Distribution Protocol';
-
 }

@@ -41,5 +41,4 @@ class Emissivity extends AbstractTag
     protected $Description = 'Emissivity';
 
     protected $flag_Permanent = 'mixed';
-
 }

@@ -41,5 +41,4 @@ class ModifiedWhiteBalanceBlue extends AbstractTag
     protected $Description = 'Modified White Balance Blue';
 
     protected $flag_Permanent = true;
-
 }

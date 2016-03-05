@@ -64,5 +64,4 @@ class HDREffect extends AbstractTag
             'Label' => 'Art (embossed)',
         ),
     );
-
 }

@@ -54,5 +54,4 @@ class ResampleParamsQuality extends AbstractTag
             'Label' => 'Medium',
         ),
     );
-
 }

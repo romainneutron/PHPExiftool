@@ -39,5 +39,4 @@ class SubtractionItemID extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Subtraction Item ID';
-
 }

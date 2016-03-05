@@ -39,5 +39,4 @@ class RCoordOfBottomRightCorner extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'R Coord Of Bottom Right Corner';
-
 }

@@ -41,5 +41,4 @@ class DateTimeOriginal extends AbstractTag
     protected $Description = 'Date/Time Original';
 
     protected $flag_Permanent = true;
-
 }

@@ -41,5 +41,4 @@ class PeripheralLightingValue extends AbstractTag
     protected $Description = 'Peripheral Lighting Value';
 
     protected $flag_Permanent = true;
-
 }

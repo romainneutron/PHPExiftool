@@ -39,5 +39,4 @@ class SampledYOffset extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Sampled Y Offset';
-
 }

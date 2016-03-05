@@ -39,5 +39,4 @@ class PupilDilated extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Pupil Dilated';
-
 }

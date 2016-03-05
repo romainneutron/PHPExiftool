@@ -41,5 +41,4 @@ class ModelYear extends AbstractTag
     protected $Description = 'Model Year';
 
     protected $flag_Avoid = true;
-
 }

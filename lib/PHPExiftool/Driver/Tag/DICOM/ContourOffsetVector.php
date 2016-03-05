@@ -39,5 +39,4 @@ class ContourOffsetVector extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Contour Offset Vector';
-
 }

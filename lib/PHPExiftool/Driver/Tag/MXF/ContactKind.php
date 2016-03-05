@@ -39,5 +39,4 @@ class ContactKind extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Contact Kind';
-
 }

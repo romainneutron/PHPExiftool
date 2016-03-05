@@ -39,5 +39,4 @@ class BWHalftoningInfo extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'BW Halftoning Info';
-
 }

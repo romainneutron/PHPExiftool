@@ -39,5 +39,4 @@ class MCDI extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'MCDI';
-
 }

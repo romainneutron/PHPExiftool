@@ -41,5 +41,4 @@ class LensFocalLength extends AbstractTag
     protected $Description = 'Lens Focal Length';
 
     protected $flag_Permanent = true;
-
 }

@@ -58,5 +58,4 @@ class ScaleType extends AbstractTag
             'Label' => 'Neither',
         ),
     );
-
 }

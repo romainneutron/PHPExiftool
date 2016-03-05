@@ -39,5 +39,4 @@ class QuadratureReceiveCoil extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Quadrature Receive Coil';
-
 }

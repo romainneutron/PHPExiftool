@@ -39,5 +39,4 @@ class StudyDescription extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Study Description';
-
 }

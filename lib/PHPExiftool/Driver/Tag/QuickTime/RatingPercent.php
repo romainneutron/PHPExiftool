@@ -39,5 +39,4 @@ class RatingPercent extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Rating Percent';
-
 }

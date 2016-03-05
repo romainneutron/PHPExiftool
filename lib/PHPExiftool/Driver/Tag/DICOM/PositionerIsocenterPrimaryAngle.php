@@ -39,5 +39,4 @@ class PositionerIsocenterPrimaryAngle extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Positioner Isocenter Primary Angle';
-
 }

@@ -39,5 +39,4 @@ class DecimalVisualAcuity extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Decimal Visual Acuity';
-
 }

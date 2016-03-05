@@ -39,5 +39,4 @@ class VerticalCitation extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Vertical Citation';
-
 }

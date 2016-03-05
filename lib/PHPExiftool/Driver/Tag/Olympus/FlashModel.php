@@ -84,5 +84,4 @@ class FlashModel extends AbstractTag
             'Label' => 'FL-600R',
         ),
     );
-
 }

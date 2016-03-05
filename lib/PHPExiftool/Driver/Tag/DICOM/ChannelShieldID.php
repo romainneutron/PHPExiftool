@@ -39,5 +39,4 @@ class ChannelShieldID extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Channel Shield ID';
-
 }

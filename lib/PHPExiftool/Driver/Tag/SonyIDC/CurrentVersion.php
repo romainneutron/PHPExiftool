@@ -41,5 +41,4 @@ class CurrentVersion extends AbstractTag
     protected $Description = 'Current Version';
 
     protected $flag_Permanent = true;
-
 }

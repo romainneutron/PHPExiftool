@@ -39,5 +39,4 @@ class DefaultFadeType extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Default Fade Type';
-
 }

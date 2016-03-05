@@ -41,5 +41,4 @@ class OriginalImageBroker extends AbstractTag
     protected $Description = 'Original Image Broker';
 
     protected $local_g2 = 'Author';
-
 }

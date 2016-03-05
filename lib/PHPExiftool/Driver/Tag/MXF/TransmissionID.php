@@ -39,5 +39,4 @@ class TransmissionID extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Transmission ID';
-
 }

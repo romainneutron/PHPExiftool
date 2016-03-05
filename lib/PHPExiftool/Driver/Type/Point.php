@@ -19,5 +19,4 @@ class Point extends AbstractType
     protected $ExiftoolName = 'Point';
 
     protected $PHPMap = 'string';
-
 }

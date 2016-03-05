@@ -39,5 +39,4 @@ class PatientClinicalTrialParticipSeq extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Patient Clinical Trial Particip Seq';
-
 }

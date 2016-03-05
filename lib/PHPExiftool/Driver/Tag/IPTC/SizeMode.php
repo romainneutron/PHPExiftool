@@ -50,5 +50,4 @@ class SizeMode extends AbstractTag
             'Label' => 'Size Known',
         ),
     );
-
 }

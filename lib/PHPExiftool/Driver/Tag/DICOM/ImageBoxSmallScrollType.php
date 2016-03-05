@@ -39,5 +39,4 @@ class ImageBoxSmallScrollType extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Image Box Small Scroll Type';
-
 }

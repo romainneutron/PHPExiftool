@@ -39,5 +39,4 @@ class SourceToCompensatorDistance extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Source To Compensator Distance';
-
 }

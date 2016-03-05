@@ -39,5 +39,4 @@ class CDEType extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'CDE Type';
-
 }

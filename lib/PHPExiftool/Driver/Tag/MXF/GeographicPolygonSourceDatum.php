@@ -39,5 +39,4 @@ class GeographicPolygonSourceDatum extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Geographic Polygon Source Datum';
-
 }

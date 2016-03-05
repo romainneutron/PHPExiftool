@@ -41,5 +41,4 @@ class RawDevMemoryColorEmphasis extends AbstractTag
     protected $Description = 'Raw Dev Memory Color Emphasis';
 
     protected $flag_Permanent = true;
-
 }

@@ -39,5 +39,4 @@ class DeadTimeCorrectionFlag extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Dead Time Correction Flag';
-
 }

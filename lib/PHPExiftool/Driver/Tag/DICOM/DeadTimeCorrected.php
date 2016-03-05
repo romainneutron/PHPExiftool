@@ -39,5 +39,4 @@ class DeadTimeCorrected extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Dead Time Corrected';
-
 }

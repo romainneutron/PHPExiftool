@@ -52,5 +52,4 @@ class BayerPattern extends AbstractTag
             'Label' => 'GBRG',
         ),
     );
-
 }

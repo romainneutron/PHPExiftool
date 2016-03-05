@@ -41,5 +41,4 @@ class RecipePageRange extends AbstractTag
     protected $Description = 'Recipe Page Range';
 
     protected $flag_Avoid = true;
-
 }

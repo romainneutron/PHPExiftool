@@ -52,5 +52,4 @@ class EyeStartAF extends AbstractTag
             'Label' => 'Off',
         ),
     );
-
 }

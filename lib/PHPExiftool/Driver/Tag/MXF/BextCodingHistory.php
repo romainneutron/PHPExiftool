@@ -39,5 +39,4 @@ class BextCodingHistory extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Bext Coding History';
-
 }

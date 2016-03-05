@@ -68,5 +68,4 @@ class FilterEffect extends AbstractTag
             'Label' => 'n/a',
         ),
     );
-
 }

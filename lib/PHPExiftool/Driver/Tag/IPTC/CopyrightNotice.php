@@ -43,5 +43,4 @@ class CopyrightNotice extends AbstractTag
     protected $local_g2 = 'Author';
 
     protected $MaxLength = 128;
-
 }

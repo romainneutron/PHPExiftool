@@ -39,5 +39,4 @@ class BoundingBoxTopLeftHandCorner extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Bounding Box Top Left Hand Corner';
-
 }

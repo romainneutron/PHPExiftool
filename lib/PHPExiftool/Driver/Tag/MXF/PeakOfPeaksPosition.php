@@ -39,5 +39,4 @@ class PeakOfPeaksPosition extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Peak Of Peaks Position';
-
 }

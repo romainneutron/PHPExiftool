@@ -41,5 +41,4 @@ class DatabaseName extends AbstractTag
     protected $Description = 'Database Name';
 
     protected $MaxLength = 32;
-
 }

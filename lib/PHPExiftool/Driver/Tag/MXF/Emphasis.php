@@ -39,5 +39,4 @@ class Emphasis extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Emphasis';
-
 }

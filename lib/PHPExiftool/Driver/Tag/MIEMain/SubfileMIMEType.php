@@ -39,5 +39,4 @@ class SubfileMIMEType extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Subfile MIME Type';
-
 }

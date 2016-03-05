@@ -39,5 +39,4 @@ class MediaIsFinale extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Media Is Finale';
-
 }

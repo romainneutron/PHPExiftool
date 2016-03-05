@@ -39,5 +39,4 @@ class PerformedProcessingAppsCodeSeq extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Performed Processing Apps Code Seq';
-
 }

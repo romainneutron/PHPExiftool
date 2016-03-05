@@ -41,5 +41,4 @@ class AudioOutcue extends AbstractTag
     protected $Description = 'Audio Outcue';
 
     protected $MaxLength = 64;
-
 }

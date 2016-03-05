@@ -41,5 +41,4 @@ class CellLength extends AbstractTag
     protected $Description = 'Cell Length';
 
     protected $flag_Unsafe = true;
-
 }

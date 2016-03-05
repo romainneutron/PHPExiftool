@@ -56,5 +56,4 @@ class WhiteBalanceBracketing extends AbstractTag
             'Label' => 'High',
         ),
     );
-
 }

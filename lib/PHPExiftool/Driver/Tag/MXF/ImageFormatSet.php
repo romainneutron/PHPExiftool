@@ -39,5 +39,4 @@ class ImageFormatSet extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Image Format Set';
-
 }

@@ -50,5 +50,4 @@ class ExcursionTolerance extends AbstractTag
             'Label' => 'Allowed',
         ),
     );
-
 }

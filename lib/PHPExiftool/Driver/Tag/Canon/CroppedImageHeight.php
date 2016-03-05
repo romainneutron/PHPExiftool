@@ -41,5 +41,4 @@ class CroppedImageHeight extends AbstractTag
     protected $Description = 'Cropped Image Height';
 
     protected $flag_Permanent = true;
-
 }

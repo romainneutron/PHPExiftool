@@ -50,5 +50,4 @@ class RepresentativeImage extends AbstractTag
             'Label' => 'Right Viewpoint',
         ),
     );
-
 }

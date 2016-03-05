@@ -52,5 +52,4 @@ class AFWithShutter extends AbstractTag
             'Label' => 'Off',
         ),
     );
-
 }

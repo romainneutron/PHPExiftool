@@ -41,5 +41,4 @@ class ImageNumber extends AbstractTag
     protected $Description = 'Image Number';
 
     protected $local_g1 = 'ExifIFD';
-
 }

@@ -39,5 +39,4 @@ class FirmwareVersion extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Firmware Version';
-
 }

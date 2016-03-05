@@ -39,5 +39,4 @@ class ProviderRating extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Provider Rating';
-
 }

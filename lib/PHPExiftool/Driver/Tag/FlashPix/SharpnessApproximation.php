@@ -39,5 +39,4 @@ class SharpnessApproximation extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Sharpness Approximation';
-
 }

@@ -39,5 +39,4 @@ class Locks extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Locks';
-
 }

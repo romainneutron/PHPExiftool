@@ -74,5 +74,4 @@ class LicenseType extends AbstractTag
             'Label' => 'Unknown',
         ),
     );
-
 }

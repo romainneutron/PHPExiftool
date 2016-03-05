@@ -41,5 +41,4 @@ class LocalCaption extends AbstractTag
     protected $Description = 'Local Caption';
 
     protected $MaxLength = 256;
-
 }

@@ -39,5 +39,4 @@ class HistogramNumberOfBins extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Histogram Number Of Bins';
-
 }

@@ -39,5 +39,4 @@ class EXRVersion extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'EXR Version';
-
 }

@@ -41,5 +41,4 @@ class LastBackupDate extends AbstractTag
     protected $Description = 'Last Backup Date';
 
     protected $local_g2 = 'Time';
-
 }

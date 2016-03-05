@@ -41,5 +41,4 @@ class ColorCorrection extends AbstractTag
     protected $Description = 'Color Correction';
 
     protected $flag_Permanent = true;
-
 }

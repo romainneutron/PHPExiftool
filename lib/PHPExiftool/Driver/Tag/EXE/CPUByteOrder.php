@@ -50,5 +50,4 @@ class CPUByteOrder extends AbstractTag
             'Label' => 'Big endian',
         ),
     );
-
 }

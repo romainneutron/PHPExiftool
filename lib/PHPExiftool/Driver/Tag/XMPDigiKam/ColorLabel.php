@@ -39,5 +39,4 @@ class ColorLabel extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Color Label';
-
 }

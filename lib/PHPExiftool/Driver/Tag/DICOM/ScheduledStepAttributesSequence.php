@@ -39,5 +39,4 @@ class ScheduledStepAttributesSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Scheduled Step Attributes Sequence';
-
 }

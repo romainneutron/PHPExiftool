@@ -39,5 +39,4 @@ class BackgroundColor extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Background Color';
-
 }

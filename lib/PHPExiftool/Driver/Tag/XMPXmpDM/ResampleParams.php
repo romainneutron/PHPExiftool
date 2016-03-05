@@ -39,5 +39,4 @@ class ResampleParams extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Resample Params';
-
 }

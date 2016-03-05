@@ -39,5 +39,4 @@ class UserSelectGroupTitle extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'User Select Group Title';
-
 }

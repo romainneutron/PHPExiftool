@@ -58,5 +58,4 @@ class MultipleExposureMode extends AbstractTag
             'Label' => 'On (3 frames)',
         ),
     );
-
 }

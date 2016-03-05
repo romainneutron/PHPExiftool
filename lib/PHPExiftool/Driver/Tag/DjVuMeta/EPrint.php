@@ -39,5 +39,4 @@ class EPrint extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'E Print';
-
 }

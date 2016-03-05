@@ -41,5 +41,4 @@ class PhysicalMediaLength extends AbstractTag
     protected $Description = 'Physical Media Length';
 
     protected $local_g2 = 'Time';
-
 }

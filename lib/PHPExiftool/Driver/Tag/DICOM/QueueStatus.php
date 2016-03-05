@@ -39,5 +39,4 @@ class QueueStatus extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Queue Status';
-
 }

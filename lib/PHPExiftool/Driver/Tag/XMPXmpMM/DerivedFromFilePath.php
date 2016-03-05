@@ -39,5 +39,4 @@ class DerivedFromFilePath extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Derived From File Path';
-
 }

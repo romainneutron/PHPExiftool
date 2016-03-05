@@ -43,5 +43,4 @@ class ImageType extends AbstractTag
     protected $local_g2 = 'Image';
 
     protected $MaxLength = 2;
-
 }

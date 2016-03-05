@@ -39,5 +39,4 @@ class BrachyReferencedDoseReferenceSeq extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Brachy Referenced Dose Reference Seq';
-
 }

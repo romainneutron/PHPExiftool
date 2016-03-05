@@ -39,5 +39,4 @@ class ReferencedBasicAnnotationBoxSeq extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Referenced Basic Annotation Box Seq';
-
 }

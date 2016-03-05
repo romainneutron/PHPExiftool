@@ -39,5 +39,4 @@ class StageName extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Stage Name';
-
 }

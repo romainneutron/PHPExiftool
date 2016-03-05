@@ -39,5 +39,4 @@ class Stereo3DMode extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Stereo 3D Mode';
-
 }

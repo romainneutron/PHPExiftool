@@ -39,5 +39,4 @@ class FramePixelShiftSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Frame Pixel Shift Sequence';
-
 }

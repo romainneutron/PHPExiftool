@@ -58,5 +58,4 @@ class MultiSelectorLiveViewMode extends AbstractTag
             'Label' => 'None',
         ),
     );
-
 }

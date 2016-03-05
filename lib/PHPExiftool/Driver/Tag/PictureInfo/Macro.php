@@ -50,5 +50,4 @@ class Macro extends AbstractTag
             'Label' => 'On',
         ),
     );
-
 }

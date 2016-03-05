@@ -43,5 +43,4 @@ class PotentialFace2Position extends AbstractTag
     protected $flag_Permanent = true;
 
     protected $MaxLength = 4;
-
 }

@@ -39,5 +39,4 @@ class LocalTagUniqueID extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Local Tag Unique ID';
-
 }

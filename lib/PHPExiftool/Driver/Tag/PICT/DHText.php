@@ -39,5 +39,4 @@ class DHText extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'DH Text';
-
 }

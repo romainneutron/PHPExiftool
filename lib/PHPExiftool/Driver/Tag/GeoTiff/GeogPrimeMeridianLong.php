@@ -39,5 +39,4 @@ class GeogPrimeMeridianLong extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Geog Prime Meridian Long';
-
 }

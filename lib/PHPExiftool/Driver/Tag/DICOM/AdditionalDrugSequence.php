@@ -39,5 +39,4 @@ class AdditionalDrugSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Additional Drug Sequence';
-
 }

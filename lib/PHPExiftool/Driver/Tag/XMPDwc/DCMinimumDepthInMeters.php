@@ -41,5 +41,4 @@ class DCMinimumDepthInMeters extends AbstractTag
     protected $Description = 'DC Minimum Depth In Meters';
 
     protected $local_g2 = 'Location';
-
 }

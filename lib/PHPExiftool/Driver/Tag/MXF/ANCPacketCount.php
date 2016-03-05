@@ -39,5 +39,4 @@ class ANCPacketCount extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'ANC Packet Count';
-
 }

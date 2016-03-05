@@ -39,5 +39,4 @@ class PrivateBuild extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Private Build';
-
 }

@@ -41,5 +41,4 @@ class OpColor extends AbstractTag
     protected $Description = 'Op Color';
 
     protected $MaxLength = 3;
-
 }

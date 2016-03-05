@@ -39,5 +39,4 @@ class InvertSameRect extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Invert Same Rect';
-
 }

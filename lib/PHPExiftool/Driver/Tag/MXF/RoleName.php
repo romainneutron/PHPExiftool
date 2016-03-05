@@ -39,5 +39,4 @@ class RoleName extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Role Name';
-
 }

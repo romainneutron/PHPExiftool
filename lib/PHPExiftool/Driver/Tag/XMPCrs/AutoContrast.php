@@ -39,5 +39,4 @@ class AutoContrast extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Auto Contrast';
-
 }

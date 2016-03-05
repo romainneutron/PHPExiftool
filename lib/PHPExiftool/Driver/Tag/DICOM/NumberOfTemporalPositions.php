@@ -39,5 +39,4 @@ class NumberOfTemporalPositions extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Number Of Temporal Positions';
-
 }

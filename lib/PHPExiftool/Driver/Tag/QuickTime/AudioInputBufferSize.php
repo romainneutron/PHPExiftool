@@ -39,5 +39,4 @@ class AudioInputBufferSize extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Audio Input Buffer Size';
-
 }

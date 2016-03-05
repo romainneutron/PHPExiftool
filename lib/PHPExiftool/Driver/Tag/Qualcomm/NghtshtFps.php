@@ -41,5 +41,4 @@ class NghtshtFps extends AbstractTag
     protected $Description = 'Nghtsht Fps';
 
     protected $flag_Permanent = true;
-
 }

@@ -41,5 +41,4 @@ class HeaderVersion extends AbstractTag
     protected $Description = 'Header Version';
 
     protected $MaxLength = 8;
-
 }

@@ -39,5 +39,4 @@ class FileMetaInfoGroupLength extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'File Meta Info Group Length';
-
 }

@@ -39,5 +39,4 @@ class ParticipantOrganizationSets extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Participant Organization Sets';
-
 }

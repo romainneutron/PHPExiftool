@@ -39,5 +39,4 @@ class RetouchAreaFeather extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Retouch Area Feather';
-
 }

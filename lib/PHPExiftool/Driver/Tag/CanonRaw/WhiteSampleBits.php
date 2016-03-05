@@ -41,5 +41,4 @@ class WhiteSampleBits extends AbstractTag
     protected $Description = 'White Sample Bits';
 
     protected $flag_Permanent = true;
-
 }

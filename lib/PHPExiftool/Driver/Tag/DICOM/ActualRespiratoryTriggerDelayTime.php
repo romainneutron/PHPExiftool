@@ -39,5 +39,4 @@ class ActualRespiratoryTriggerDelayTime extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Actual Respiratory Trigger Delay Time';
-
 }

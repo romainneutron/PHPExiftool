@@ -39,5 +39,4 @@ class LameBitrate extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Lame Bitrate';
-
 }

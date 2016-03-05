@@ -50,5 +50,4 @@ class HasXFA extends AbstractTag
             'Label' => 'Yes',
         ),
     );
-
 }

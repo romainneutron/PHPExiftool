@@ -41,5 +41,4 @@ class LinearityUpperMargin extends AbstractTag
     protected $Description = 'Linearity Upper Margin';
 
     protected $flag_Permanent = true;
-
 }

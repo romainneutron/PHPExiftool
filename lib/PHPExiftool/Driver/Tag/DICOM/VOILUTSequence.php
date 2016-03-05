@@ -39,5 +39,4 @@ class VOILUTSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'VOILUT Sequence';
-
 }

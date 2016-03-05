@@ -39,5 +39,4 @@ class DisplayFilterPercentage extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Display Filter Percentage';
-
 }

@@ -39,5 +39,4 @@ class SubstanceAdministrationNotes extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Substance Administration Notes';
-
 }

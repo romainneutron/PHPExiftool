@@ -41,5 +41,4 @@ class WBGRGBLevelsDayWhiteFluor extends AbstractTag
     protected $Description = 'WB GRGB Levels Day White Fluor';
 
     protected $MaxLength = 4;
-
 }

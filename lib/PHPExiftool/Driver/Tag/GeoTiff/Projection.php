@@ -1754,5 +1754,4 @@ class Projection extends AbstractTag
             'Label' => 'User Defined',
         ),
     );
-
 }

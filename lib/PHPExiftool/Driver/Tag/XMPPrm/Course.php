@@ -41,5 +41,4 @@ class Course extends AbstractTag
     protected $Description = 'Course';
 
     protected $flag_Avoid = true;
-
 }

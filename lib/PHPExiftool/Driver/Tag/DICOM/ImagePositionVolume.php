@@ -39,5 +39,4 @@ class ImagePositionVolume extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Image Position Volume';
-
 }

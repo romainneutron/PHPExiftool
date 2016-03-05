@@ -41,5 +41,4 @@ class MarkersProbability extends AbstractTag
     protected $Description = 'Markers Probability';
 
     protected $flag_List = true;
-
 }

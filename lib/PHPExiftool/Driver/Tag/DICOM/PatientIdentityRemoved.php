@@ -39,5 +39,4 @@ class PatientIdentityRemoved extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Patient Identity Removed';
-
 }

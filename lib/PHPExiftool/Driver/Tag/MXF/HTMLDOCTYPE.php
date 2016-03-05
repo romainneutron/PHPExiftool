@@ -39,5 +39,4 @@ class HTMLDOCTYPE extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'HTMLDOCTYPE';
-
 }

@@ -39,5 +39,4 @@ class MaxPageNormal extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Max Page Normal';
-
 }

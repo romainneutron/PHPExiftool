@@ -41,5 +41,4 @@ class R2ACx extends AbstractTag
     protected $Description = 'R2 A Cx';
 
     protected $flag_Permanent = true;
-
 }

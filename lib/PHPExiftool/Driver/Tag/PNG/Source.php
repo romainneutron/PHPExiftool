@@ -39,5 +39,4 @@ class Source extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Source';
-
 }

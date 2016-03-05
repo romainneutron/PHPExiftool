@@ -39,5 +39,4 @@ class MedicalRecordLocator extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Medical Record Locator';
-
 }

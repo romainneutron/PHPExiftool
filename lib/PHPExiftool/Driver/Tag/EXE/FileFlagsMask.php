@@ -39,5 +39,4 @@ class FileFlagsMask extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'File Flags Mask';
-
 }

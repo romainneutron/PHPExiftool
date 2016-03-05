@@ -41,5 +41,4 @@ class MainIngredient extends AbstractTag
     protected $Description = 'Main Ingredient';
 
     protected $flag_Avoid = true;
-
 }

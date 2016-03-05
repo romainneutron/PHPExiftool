@@ -39,5 +39,4 @@ class FiducialUID extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Fiducial UID';
-
 }

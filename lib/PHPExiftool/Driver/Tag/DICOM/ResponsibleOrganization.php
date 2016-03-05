@@ -39,5 +39,4 @@ class ResponsibleOrganization extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Responsible Organization';
-
 }

@@ -39,5 +39,4 @@ class UsedFiducialsSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Used Fiducials Sequence';
-
 }

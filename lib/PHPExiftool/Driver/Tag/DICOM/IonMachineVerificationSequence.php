@@ -39,5 +39,4 @@ class IonMachineVerificationSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Ion Machine Verification Sequence';
-
 }

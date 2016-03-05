@@ -43,5 +43,4 @@ class ThumbnailLength extends AbstractTag
     protected $flag_Protected = true;
 
     protected $Index = 1;
-
 }

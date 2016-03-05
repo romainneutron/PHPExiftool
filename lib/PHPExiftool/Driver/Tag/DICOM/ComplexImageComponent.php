@@ -39,5 +39,4 @@ class ComplexImageComponent extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Complex Image Component';
-
 }

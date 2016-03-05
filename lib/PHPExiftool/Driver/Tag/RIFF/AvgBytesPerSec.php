@@ -39,5 +39,4 @@ class AvgBytesPerSec extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Avg Bytes Per Sec';
-
 }

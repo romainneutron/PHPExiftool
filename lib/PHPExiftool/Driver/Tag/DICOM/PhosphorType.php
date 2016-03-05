@@ -39,5 +39,4 @@ class PhosphorType extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Phosphor Type';
-
 }

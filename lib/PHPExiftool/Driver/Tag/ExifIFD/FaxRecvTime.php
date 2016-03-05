@@ -41,5 +41,4 @@ class FaxRecvTime extends AbstractTag
     protected $Description = 'Fax Recv Time';
 
     protected $local_g1 = 'ExifIFD';
-
 }

@@ -50,5 +50,4 @@ class FillMethod extends AbstractTag
             'Label' => 'Zero Fill',
         ),
     );
-
 }

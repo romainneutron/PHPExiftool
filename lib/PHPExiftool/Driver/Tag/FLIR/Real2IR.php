@@ -39,5 +39,4 @@ class Real2IR extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Real 2 IR';
-
 }

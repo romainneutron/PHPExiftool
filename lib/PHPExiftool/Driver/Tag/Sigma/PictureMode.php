@@ -41,5 +41,4 @@ class PictureMode extends AbstractTag
     protected $Description = 'Picture Mode';
 
     protected $flag_Permanent = true;
-
 }

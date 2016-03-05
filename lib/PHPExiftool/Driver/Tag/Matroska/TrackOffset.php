@@ -39,5 +39,4 @@ class TrackOffset extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Track Offset';
-
 }

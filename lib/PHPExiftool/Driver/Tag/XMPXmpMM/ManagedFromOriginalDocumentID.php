@@ -39,5 +39,4 @@ class ManagedFromOriginalDocumentID extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Managed From Original Document ID';
-
 }

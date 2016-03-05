@@ -39,5 +39,4 @@ class MRAcquisitionType extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'MR Acquisition Type';
-
 }

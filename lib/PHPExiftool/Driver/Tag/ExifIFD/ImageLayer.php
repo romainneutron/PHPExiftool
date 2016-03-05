@@ -41,5 +41,4 @@ class ImageLayer extends AbstractTag
     protected $Description = 'Image Layer';
 
     protected $local_g1 = 'ExifIFD';
-
 }

@@ -41,5 +41,4 @@ class FileDeviceID extends AbstractTag
     protected $Description = 'File Device ID';
 
     protected $local_g1 = 'System';
-
 }

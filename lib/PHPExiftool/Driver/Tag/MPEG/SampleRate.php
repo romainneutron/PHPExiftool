@@ -80,5 +80,4 @@ class SampleRate extends AbstractTag
     );
 
     protected $Index = 'mixed';
-
 }

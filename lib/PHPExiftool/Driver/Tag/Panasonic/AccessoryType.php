@@ -41,5 +41,4 @@ class AccessoryType extends AbstractTag
     protected $Description = 'Accessory Type';
 
     protected $flag_Permanent = true;
-
 }

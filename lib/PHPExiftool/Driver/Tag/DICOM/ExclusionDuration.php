@@ -39,5 +39,4 @@ class ExclusionDuration extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Exclusion Duration';
-
 }

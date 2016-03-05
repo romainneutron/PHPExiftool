@@ -39,5 +39,4 @@ class BoneThermalIndex extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Bone Thermal Index';
-
 }

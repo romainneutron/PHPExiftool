@@ -39,5 +39,4 @@ class PackageMarkInPosition extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Package Mark In Position';
-
 }

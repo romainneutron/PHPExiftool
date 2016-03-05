@@ -41,5 +41,4 @@ class Manufacturer extends AbstractTag
     protected $Description = 'Manufacturer';
 
     protected $flag_Avoid = true;
-
 }

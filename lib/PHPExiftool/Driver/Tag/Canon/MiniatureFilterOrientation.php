@@ -52,5 +52,4 @@ class MiniatureFilterOrientation extends AbstractTag
             'Label' => 'Vertical',
         ),
     );
-
 }

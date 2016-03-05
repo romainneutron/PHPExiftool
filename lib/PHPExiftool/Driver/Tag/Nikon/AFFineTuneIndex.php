@@ -41,5 +41,4 @@ class AFFineTuneIndex extends AbstractTag
     protected $Description = 'AF Fine Tune Index';
 
     protected $flag_Permanent = true;
-
 }

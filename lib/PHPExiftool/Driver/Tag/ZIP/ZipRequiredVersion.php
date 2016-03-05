@@ -39,5 +39,4 @@ class ZipRequiredVersion extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Zip Required Version';
-
 }

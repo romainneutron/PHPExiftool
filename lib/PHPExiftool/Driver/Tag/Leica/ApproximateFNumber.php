@@ -41,5 +41,4 @@ class ApproximateFNumber extends AbstractTag
     protected $Description = 'Approximate F Number';
 
     protected $flag_Permanent = true;
-
 }

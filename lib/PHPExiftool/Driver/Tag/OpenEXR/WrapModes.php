@@ -39,5 +39,4 @@ class WrapModes extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Wrap Modes';
-
 }

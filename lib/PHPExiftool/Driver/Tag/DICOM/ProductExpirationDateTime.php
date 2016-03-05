@@ -39,5 +39,4 @@ class ProductExpirationDateTime extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Product Expiration Date Time';
-
 }

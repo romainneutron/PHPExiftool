@@ -39,5 +39,4 @@ class CodeSize extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Code Size';
-
 }

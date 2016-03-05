@@ -41,5 +41,4 @@ class AudioStream extends AbstractTag
     protected $Description = 'Audio Stream';
 
     protected $local_g2 = 'Audio';
-
 }

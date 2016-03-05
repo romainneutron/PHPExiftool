@@ -39,5 +39,4 @@ class FilterByAttributePresence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Filter By Attribute Presence';
-
 }

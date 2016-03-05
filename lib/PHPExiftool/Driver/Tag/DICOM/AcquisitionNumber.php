@@ -39,5 +39,4 @@ class AcquisitionNumber extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Acquisition Number';
-
 }

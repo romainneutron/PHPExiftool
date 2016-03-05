@@ -39,5 +39,4 @@ class AnatomicStructureModifierSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Anatomic Structure Modifier Sequence';
-
 }

@@ -252,5 +252,4 @@ class FocusMode extends AbstractTag
             'Label' => 'DMF',
         ),
     );
-
 }

@@ -39,5 +39,4 @@ class RoundedCaptureFilmFrameRate extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Rounded Capture Film Frame Rate';
-
 }

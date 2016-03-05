@@ -41,5 +41,4 @@ class AWBLoVfeMinY extends AbstractTag
     protected $Description = 'AWB Lo Vfe Min Y';
 
     protected $flag_Permanent = true;
-
 }

@@ -41,5 +41,4 @@ class RelativeHumidity extends AbstractTag
     protected $Description = 'Relative Humidity';
 
     protected $flag_Permanent = 'mixed';
-
 }

@@ -41,5 +41,4 @@ class ASF5NrmLoThres extends AbstractTag
     protected $Description = 'ASF5 Nrm Lo Thres';
 
     protected $flag_Permanent = true;
-
 }

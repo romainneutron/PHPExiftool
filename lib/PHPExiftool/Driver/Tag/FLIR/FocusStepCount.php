@@ -39,5 +39,4 @@ class FocusStepCount extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Focus Step Count';
-
 }

@@ -41,5 +41,4 @@ class CopyrightYear extends AbstractTag
     protected $Description = 'Copyright Year';
 
     protected $flag_Avoid = true;
-
 }

@@ -41,5 +41,4 @@ class ToneComp extends AbstractTag
     protected $Description = 'Tone Comp';
 
     protected $flag_Permanent = true;
-
 }

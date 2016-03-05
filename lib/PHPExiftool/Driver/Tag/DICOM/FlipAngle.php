@@ -39,5 +39,4 @@ class FlipAngle extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Flip Angle';
-
 }

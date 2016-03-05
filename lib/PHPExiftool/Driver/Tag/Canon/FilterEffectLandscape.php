@@ -48,5 +48,4 @@ class FilterEffectLandscape extends AbstractTag
             'Label' => 'n/a',
         ),
     );
-
 }

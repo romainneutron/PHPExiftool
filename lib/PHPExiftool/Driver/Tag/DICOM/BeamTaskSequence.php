@@ -39,5 +39,4 @@ class BeamTaskSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Beam Task Sequence';
-
 }

@@ -41,5 +41,4 @@ class WBRGBLevelsFluorescentM1 extends AbstractTag
     protected $Description = 'WB RGB Levels Fluorescent M1';
 
     protected $flag_Permanent = true;
-
 }

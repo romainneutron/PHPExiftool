@@ -39,5 +39,4 @@ class ReferencedStudySequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Referenced Study Sequence';
-
 }

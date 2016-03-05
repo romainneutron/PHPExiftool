@@ -1014,5 +1014,4 @@ class Encoding extends AbstractTag
             'Label' => 'Development',
         ),
     );
-
 }

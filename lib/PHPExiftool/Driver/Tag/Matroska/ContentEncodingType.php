@@ -50,5 +50,4 @@ class ContentEncodingType extends AbstractTag
             'Label' => 'Encryption',
         ),
     );
-
 }

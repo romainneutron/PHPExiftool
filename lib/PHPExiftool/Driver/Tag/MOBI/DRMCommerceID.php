@@ -39,5 +39,4 @@ class DRMCommerceID extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'DRM Commerce ID';
-
 }

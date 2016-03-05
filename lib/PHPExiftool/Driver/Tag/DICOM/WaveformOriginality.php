@@ -39,5 +39,4 @@ class WaveformOriginality extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Waveform Originality';
-
 }

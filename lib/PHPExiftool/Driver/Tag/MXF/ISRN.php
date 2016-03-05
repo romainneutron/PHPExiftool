@@ -39,5 +39,4 @@ class ISRN extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'ISRN';
-
 }

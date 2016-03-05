@@ -39,5 +39,4 @@ class TotalIncome extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Total Income';
-
 }

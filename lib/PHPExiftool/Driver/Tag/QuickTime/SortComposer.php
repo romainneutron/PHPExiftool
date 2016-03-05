@@ -39,5 +39,4 @@ class SortComposer extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Sort Composer';
-
 }

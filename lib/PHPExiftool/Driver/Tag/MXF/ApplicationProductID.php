@@ -39,5 +39,4 @@ class ApplicationProductID extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Application Product ID';
-
 }

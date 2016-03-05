@@ -110,5 +110,4 @@ class FileNumberSequence extends AbstractTag
     );
 
     protected $Index = 'mixed';
-
 }

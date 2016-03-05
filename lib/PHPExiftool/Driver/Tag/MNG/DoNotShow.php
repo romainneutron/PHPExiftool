@@ -39,5 +39,4 @@ class DoNotShow extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Do Not Show';
-
 }

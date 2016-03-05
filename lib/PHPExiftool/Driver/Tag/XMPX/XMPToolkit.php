@@ -41,5 +41,4 @@ class XMPToolkit extends AbstractTag
     protected $Description = 'XMP Toolkit';
 
     protected $flag_Unsafe = true;
-
 }

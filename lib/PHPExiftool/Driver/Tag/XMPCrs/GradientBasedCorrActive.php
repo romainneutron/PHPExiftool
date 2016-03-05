@@ -39,5 +39,4 @@ class GradientBasedCorrActive extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Gradient Based Corr Active';
-
 }

@@ -39,5 +39,4 @@ class ReferencedStopControlPointIndex extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Referenced Stop Control Point Index';
-
 }

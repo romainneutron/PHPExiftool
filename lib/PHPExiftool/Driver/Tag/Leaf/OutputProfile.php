@@ -39,5 +39,4 @@ class OutputProfile extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Output Profile';
-
 }

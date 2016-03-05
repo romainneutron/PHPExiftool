@@ -54,5 +54,4 @@ class CloneType extends AbstractTag
             'Label' => 'Renumber object',
         ),
     );
-
 }

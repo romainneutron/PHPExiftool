@@ -39,5 +39,4 @@ class UltrasoundColorDataPresent extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Ultrasound Color Data Present';
-
 }

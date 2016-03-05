@@ -41,5 +41,4 @@ class SharpnessThreshold extends AbstractTag
     protected $Description = 'Sharpness Threshold';
 
     protected $flag_Permanent = true;
-
 }

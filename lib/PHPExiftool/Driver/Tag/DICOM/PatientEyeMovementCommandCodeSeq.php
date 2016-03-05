@@ -39,5 +39,4 @@ class PatientEyeMovementCommandCodeSeq extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Patient Eye Movement Command Code Seq';
-
 }

@@ -41,5 +41,4 @@ class LastPrinted extends AbstractTag
     protected $Description = 'Last Printed';
 
     protected $local_g2 = 'Time';
-
 }

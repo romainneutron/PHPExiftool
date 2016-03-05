@@ -39,5 +39,4 @@ class ProjectSet extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Project Set';
-
 }

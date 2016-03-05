@@ -39,5 +39,4 @@ class Lines extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Lines';
-
 }

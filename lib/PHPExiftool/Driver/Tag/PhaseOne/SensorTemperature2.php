@@ -41,5 +41,4 @@ class SensorTemperature2 extends AbstractTag
     protected $Description = 'Sensor Temperature 2';
 
     protected $flag_Permanent = true;
-
 }

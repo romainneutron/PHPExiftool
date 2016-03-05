@@ -39,5 +39,4 @@ class StitchingSoftware extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Stitching Software';
-
 }

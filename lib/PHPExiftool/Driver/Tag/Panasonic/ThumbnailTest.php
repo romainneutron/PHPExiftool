@@ -43,5 +43,4 @@ class ThumbnailTest extends AbstractTag
     protected $flag_Permanent = true;
 
     protected $MaxLength = 600;
-
 }

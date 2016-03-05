@@ -41,5 +41,4 @@ class MatrixWorldToScreen extends AbstractTag
     protected $Description = 'Matrix World To Screen';
 
     protected $local_g1 = 'ExifIFD';
-
 }

@@ -58,5 +58,4 @@ class DisplayUnits extends AbstractTag
             'Label' => 'mm',
         ),
     );
-
 }

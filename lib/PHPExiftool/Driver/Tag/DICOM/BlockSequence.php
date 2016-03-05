@@ -39,5 +39,4 @@ class BlockSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Block Sequence';
-
 }

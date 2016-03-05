@@ -39,5 +39,4 @@ class FocalDistance extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Focal Distance';
-
 }

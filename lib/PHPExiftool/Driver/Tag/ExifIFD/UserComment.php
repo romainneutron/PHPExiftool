@@ -41,5 +41,4 @@ class UserComment extends AbstractTag
     protected $Description = 'User Comment';
 
     protected $local_g1 = 'ExifIFD';
-
 }

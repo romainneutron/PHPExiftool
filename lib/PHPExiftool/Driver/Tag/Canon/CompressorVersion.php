@@ -41,5 +41,4 @@ class CompressorVersion extends AbstractTag
     protected $Description = 'Compressor Version';
 
     protected $flag_Permanent = true;
-
 }

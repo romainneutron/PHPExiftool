@@ -76,5 +76,4 @@ class FocusRangeIndex extends AbstractTag
             'Label' => '0 (very close)',
         ),
     );
-
 }

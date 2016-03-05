@@ -39,5 +39,4 @@ class AudioComponentVersion extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Audio Component Version';
-
 }

@@ -19,5 +19,4 @@ class Undef extends AbstractType
     protected $ExiftoolName = 'undef';
 
     protected $PHPMap = 'binary';
-
 }

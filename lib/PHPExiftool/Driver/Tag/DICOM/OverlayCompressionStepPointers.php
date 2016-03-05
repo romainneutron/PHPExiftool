@@ -39,5 +39,4 @@ class OverlayCompressionStepPointers extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Overlay Compression Step Pointers';
-
 }

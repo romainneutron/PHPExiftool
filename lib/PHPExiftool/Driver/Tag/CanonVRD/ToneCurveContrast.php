@@ -39,5 +39,4 @@ class ToneCurveContrast extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Tone Curve Contrast';
-
 }

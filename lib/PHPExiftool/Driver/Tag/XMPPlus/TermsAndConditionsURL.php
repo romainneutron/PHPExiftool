@@ -39,5 +39,4 @@ class TermsAndConditionsURL extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Terms And Conditions URL';
-
 }

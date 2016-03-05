@@ -39,5 +39,4 @@ class IntellectualPropertyRights extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Intellectual Property Rights';
-
 }

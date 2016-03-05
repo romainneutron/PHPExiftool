@@ -39,5 +39,4 @@ class Imprint extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Imprint';
-
 }

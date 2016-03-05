@@ -39,5 +39,4 @@ class CaptureXResolution extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Capture X Resolution';
-
 }

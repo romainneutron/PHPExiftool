@@ -41,5 +41,4 @@ class Comment extends AbstractTag
     protected $Description = 'Comment';
 
     protected $local_g2 = 'Video';
-
 }

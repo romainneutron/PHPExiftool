@@ -39,5 +39,4 @@ class MIMEEncoding extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'MIME Encoding';
-
 }

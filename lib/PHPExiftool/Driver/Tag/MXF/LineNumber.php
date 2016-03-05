@@ -39,5 +39,4 @@ class LineNumber extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Line Number';
-
 }

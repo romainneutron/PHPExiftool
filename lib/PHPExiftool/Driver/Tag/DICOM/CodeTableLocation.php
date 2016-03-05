@@ -39,5 +39,4 @@ class CodeTableLocation extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Code Table Location';
-
 }

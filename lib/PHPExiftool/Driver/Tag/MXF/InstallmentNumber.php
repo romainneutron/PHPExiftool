@@ -39,5 +39,4 @@ class InstallmentNumber extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Installment Number';
-
 }

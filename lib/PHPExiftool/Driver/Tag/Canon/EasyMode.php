@@ -328,5 +328,4 @@ class EasyMode extends AbstractTag
             'Label' => 'Low Light 2',
         ),
     );
-
 }

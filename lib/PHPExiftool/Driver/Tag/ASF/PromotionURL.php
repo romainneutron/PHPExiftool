@@ -39,5 +39,4 @@ class PromotionURL extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Promotion URL';
-
 }

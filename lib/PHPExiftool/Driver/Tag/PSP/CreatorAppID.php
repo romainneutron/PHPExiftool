@@ -50,5 +50,4 @@ class CreatorAppID extends AbstractTag
             'Label' => 'Paint Shop Pro',
         ),
     );
-
 }

@@ -39,5 +39,4 @@ class OtherAddress extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Other Address';
-
 }

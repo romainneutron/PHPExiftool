@@ -39,5 +39,4 @@ class OverlayBitsAllocated extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Overlay Bits Allocated';
-
 }

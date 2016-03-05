@@ -39,5 +39,4 @@ class NSCName extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'NSC Name';
-
 }

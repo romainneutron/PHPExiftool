@@ -41,5 +41,4 @@ class MasterGain extends AbstractTag
     protected $Description = 'Master Gain';
 
     protected $flag_Permanent = true;
-
 }

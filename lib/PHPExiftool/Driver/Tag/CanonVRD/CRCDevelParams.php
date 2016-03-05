@@ -41,5 +41,4 @@ class CRCDevelParams extends AbstractTag
     protected $Description = 'CRC Devel Params';
 
     protected $flag_Binary = true;
-
 }

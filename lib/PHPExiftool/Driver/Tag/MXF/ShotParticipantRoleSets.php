@@ -39,5 +39,4 @@ class ShotParticipantRoleSets extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Shot Participant Role Sets';
-
 }

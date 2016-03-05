@@ -39,5 +39,4 @@ class AnodeTargetMaterial extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Anode Target Material';
-
 }

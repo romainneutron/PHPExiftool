@@ -41,5 +41,4 @@ class AutoBracketing extends AbstractTag
     protected $Description = 'Auto Bracketing';
 
     protected $flag_Permanent = true;
-
 }

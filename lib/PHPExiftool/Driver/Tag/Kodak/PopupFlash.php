@@ -41,5 +41,4 @@ class PopupFlash extends AbstractTag
     protected $Description = 'Popup Flash';
 
     protected $flag_Permanent = true;
-
 }

@@ -41,5 +41,4 @@ class PixelMagicJBIGOptions extends AbstractTag
     protected $Description = 'Pixel Magic JBIG Options';
 
     protected $local_g1 = 'ExifIFD';
-
 }

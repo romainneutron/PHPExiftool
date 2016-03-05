@@ -52,5 +52,4 @@ class SensorCleaning extends AbstractTag
             'Label' => 'Enable',
         ),
     );
-
 }

@@ -39,5 +39,4 @@ class DependantOnNoViewsProcessed extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Dependant On No Views Processed';
-
 }

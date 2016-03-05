@@ -60,5 +60,4 @@ class AFPointSpotMetering extends AbstractTag
             'Label' => '9/Active AF point',
         ),
     );
-
 }

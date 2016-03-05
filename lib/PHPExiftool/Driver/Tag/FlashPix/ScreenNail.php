@@ -41,5 +41,4 @@ class ScreenNail extends AbstractTag
     protected $Description = 'Screen Nail';
 
     protected $local_g2 = 'Other';
-
 }

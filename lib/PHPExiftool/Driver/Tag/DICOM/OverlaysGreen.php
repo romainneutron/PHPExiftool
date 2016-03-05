@@ -39,5 +39,4 @@ class OverlaysGreen extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Overlays Green';
-
 }

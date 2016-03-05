@@ -41,5 +41,4 @@ class OriginalTransmissionReference extends AbstractTag
     protected $Description = 'Original Transmission Reference';
 
     protected $MaxLength = 32;
-
 }

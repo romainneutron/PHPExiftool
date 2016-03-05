@@ -39,5 +39,4 @@ class HasArbitraryDataStream extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Has Arbitrary Data Stream';
-
 }

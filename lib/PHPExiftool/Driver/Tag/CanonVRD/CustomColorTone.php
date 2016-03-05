@@ -39,5 +39,4 @@ class CustomColorTone extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Custom Color Tone';
-
 }

@@ -39,5 +39,4 @@ class BusinessStateOrProvince extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Business State Or Province';
-
 }

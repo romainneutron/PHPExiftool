@@ -39,5 +39,4 @@ class ColorMatrix extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Color Matrix';
-
 }

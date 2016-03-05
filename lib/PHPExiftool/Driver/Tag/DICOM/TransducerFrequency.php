@@ -39,5 +39,4 @@ class TransducerFrequency extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Transducer Frequency';
-
 }

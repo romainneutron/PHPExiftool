@@ -39,5 +39,4 @@ class PageNumberVector extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Page Number Vector';
-
 }

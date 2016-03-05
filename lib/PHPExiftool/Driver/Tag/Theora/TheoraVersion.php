@@ -41,5 +41,4 @@ class TheoraVersion extends AbstractTag
     protected $Description = 'Theora Version';
 
     protected $MaxLength = 3;
-
 }

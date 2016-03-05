@@ -39,5 +39,4 @@ class DetectorConditionsNominalFlag extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Detector Conditions Nominal Flag';
-
 }

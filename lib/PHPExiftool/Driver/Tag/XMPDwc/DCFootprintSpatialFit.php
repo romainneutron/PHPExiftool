@@ -41,5 +41,4 @@ class DCFootprintSpatialFit extends AbstractTag
     protected $Description = 'DC Footprint Spatial Fit';
 
     protected $local_g2 = 'Location';
-
 }

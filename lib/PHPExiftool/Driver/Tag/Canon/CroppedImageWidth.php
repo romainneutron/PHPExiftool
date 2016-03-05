@@ -41,5 +41,4 @@ class CroppedImageWidth extends AbstractTag
     protected $Description = 'Cropped Image Width';
 
     protected $flag_Permanent = true;
-
 }

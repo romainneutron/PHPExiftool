@@ -116,5 +116,4 @@ class CanonImageSize extends AbstractTag
             'Label' => '1920x1080 Movie',
         ),
     );
-
 }

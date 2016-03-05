@@ -39,5 +39,4 @@ class HL7DocumentEffectiveTime extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'HL7 Document Effective Time';
-
 }

@@ -52,5 +52,4 @@ class Indexed extends AbstractTag
             'Label' => 'Indexed',
         ),
     );
-
 }

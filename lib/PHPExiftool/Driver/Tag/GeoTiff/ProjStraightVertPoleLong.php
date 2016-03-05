@@ -39,5 +39,4 @@ class ProjStraightVertPoleLong extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Proj Straight Vert Pole Long';
-
 }

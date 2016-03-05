@@ -39,5 +39,4 @@ class SelObjType extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Sel Obj Type';
-
 }

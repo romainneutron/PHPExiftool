@@ -39,5 +39,4 @@ class ReferencedInstanceSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Referenced Instance Sequence';
-
 }

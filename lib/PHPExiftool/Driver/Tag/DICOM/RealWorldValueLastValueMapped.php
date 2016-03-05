@@ -39,5 +39,4 @@ class RealWorldValueLastValueMapped extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Real World Value Last Value Mapped';
-
 }

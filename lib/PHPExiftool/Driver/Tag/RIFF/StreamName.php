@@ -39,5 +39,4 @@ class StreamName extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Stream Name';
-
 }

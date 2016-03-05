@@ -58,5 +58,4 @@ class RenderingIntent extends AbstractTag
             'Label' => 'ICC-Absolute Colorimetric',
         ),
     );
-
 }

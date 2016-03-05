@@ -39,5 +39,4 @@ class BackgroundMusicFlag extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Background Music Flag';
-
 }

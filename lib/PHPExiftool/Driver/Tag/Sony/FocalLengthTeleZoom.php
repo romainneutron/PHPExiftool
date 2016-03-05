@@ -41,5 +41,4 @@ class FocalLengthTeleZoom extends AbstractTag
     protected $Description = 'Focal Length Tele Zoom';
 
     protected $flag_Permanent = true;
-
 }

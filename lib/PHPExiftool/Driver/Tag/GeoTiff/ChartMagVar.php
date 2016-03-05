@@ -39,5 +39,4 @@ class ChartMagVar extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Chart Mag Var';
-
 }

@@ -41,5 +41,4 @@ class RegisterItemStatusChangeDateTime extends AbstractTag
     protected $Description = 'Register Item Status Change Date Time';
 
     protected $local_g2 = 'Time';
-
 }

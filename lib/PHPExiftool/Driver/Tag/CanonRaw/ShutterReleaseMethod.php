@@ -52,5 +52,4 @@ class ShutterReleaseMethod extends AbstractTag
             'Label' => 'Continuous Shooting',
         ),
     );
-
 }

@@ -19,5 +19,4 @@ class Pstring extends AbstractType
     protected $ExiftoolName = 'pstring';
 
     protected $PHPMap = 'string';
-
 }

@@ -39,5 +39,4 @@ class AdvantageCompOverflow extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Advantage Comp Overflow';
-
 }

@@ -39,5 +39,4 @@ class GoogleHostHeader extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Google Host Header';
-
 }

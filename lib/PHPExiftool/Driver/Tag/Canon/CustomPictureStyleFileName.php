@@ -41,5 +41,4 @@ class CustomPictureStyleFileName extends AbstractTag
     protected $Description = 'Custom Picture Style File Name';
 
     protected $flag_Permanent = true;
-
 }

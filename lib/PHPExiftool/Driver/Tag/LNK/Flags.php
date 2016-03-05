@@ -142,5 +142,4 @@ class Flags extends AbstractTag
             'Label' => 'KeepLocalIDList',
         ),
     );
-
 }

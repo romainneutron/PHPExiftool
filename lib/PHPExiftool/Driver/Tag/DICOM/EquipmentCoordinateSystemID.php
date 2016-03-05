@@ -39,5 +39,4 @@ class EquipmentCoordinateSystemID extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Equipment Coordinate System ID';
-
 }

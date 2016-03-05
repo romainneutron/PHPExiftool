@@ -39,5 +39,4 @@ class CornealSize extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Corneal Size';
-
 }

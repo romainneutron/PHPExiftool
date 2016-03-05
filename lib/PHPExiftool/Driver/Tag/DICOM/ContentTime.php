@@ -39,5 +39,4 @@ class ContentTime extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Content Time';
-
 }

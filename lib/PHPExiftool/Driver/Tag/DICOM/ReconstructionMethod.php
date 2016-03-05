@@ -39,5 +39,4 @@ class ReconstructionMethod extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Reconstruction Method';
-
 }

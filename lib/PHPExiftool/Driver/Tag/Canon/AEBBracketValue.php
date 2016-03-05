@@ -41,5 +41,4 @@ class AEBBracketValue extends AbstractTag
     protected $Description = 'AEB Bracket Value';
 
     protected $flag_Permanent = true;
-
 }

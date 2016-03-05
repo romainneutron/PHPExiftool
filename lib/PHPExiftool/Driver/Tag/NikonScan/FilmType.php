@@ -41,5 +41,4 @@ class FilmType extends AbstractTag
     protected $Description = 'Film Type';
 
     protected $flag_Permanent = true;
-
 }

@@ -39,5 +39,4 @@ class OverlayPixelDataSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Overlay Pixel Data Sequence';
-
 }

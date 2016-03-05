@@ -41,5 +41,4 @@ class ExposureIndex extends AbstractTag
     protected $Description = 'Exposure Index';
 
     protected $local_g1 = 'ExifIFD';
-
 }

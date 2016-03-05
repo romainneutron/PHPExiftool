@@ -50,5 +50,4 @@ class Reuse extends AbstractTag
             'Label' => 'Repeat Use',
         ),
     );
-
 }

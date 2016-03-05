@@ -39,5 +39,4 @@ class TimeScale extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Time Scale';
-
 }

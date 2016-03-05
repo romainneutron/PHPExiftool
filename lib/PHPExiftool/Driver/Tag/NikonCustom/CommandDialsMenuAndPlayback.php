@@ -96,5 +96,4 @@ class CommandDialsMenuAndPlayback extends AbstractTag
             'Label' => 'On (Image Review Excluded)',
         ),
     );
-
 }

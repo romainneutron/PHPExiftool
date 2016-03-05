@@ -39,5 +39,4 @@ class MaxBlockAdditionID extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Max Block Addition ID';
-
 }

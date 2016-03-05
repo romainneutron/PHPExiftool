@@ -41,5 +41,4 @@ class BlueGain extends AbstractTag
     protected $Description = 'Blue Gain';
 
     protected $flag_Permanent = true;
-
 }

@@ -39,5 +39,4 @@ class PerformedStationGeogLocCodeSeq extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Performed Station Geog Loc Code Seq';
-
 }

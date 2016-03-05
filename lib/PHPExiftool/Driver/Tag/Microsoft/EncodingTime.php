@@ -41,5 +41,4 @@ class EncodingTime extends AbstractTag
     protected $Description = 'Encoding Time';
 
     protected $local_g2 = 'Time';
-
 }

@@ -41,5 +41,4 @@ class IPTCPictureNumber extends AbstractTag
     protected $Description = 'IPTC Picture Number';
 
     protected $MaxLength = 16;
-
 }

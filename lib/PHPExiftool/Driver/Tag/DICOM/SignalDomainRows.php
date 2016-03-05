@@ -39,5 +39,4 @@ class SignalDomainRows extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Signal Domain Rows';
-
 }

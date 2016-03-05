@@ -39,5 +39,4 @@ class PerformedProcedureStepStatus extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Performed Procedure Step Status';
-
 }

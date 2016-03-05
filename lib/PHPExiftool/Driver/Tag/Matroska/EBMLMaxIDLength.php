@@ -39,5 +39,4 @@ class EBMLMaxIDLength extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'EBML Max ID Length';
-
 }

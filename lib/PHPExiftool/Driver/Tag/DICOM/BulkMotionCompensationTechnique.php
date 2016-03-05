@@ -39,5 +39,4 @@ class BulkMotionCompensationTechnique extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Bulk Motion Compensation Technique';
-
 }

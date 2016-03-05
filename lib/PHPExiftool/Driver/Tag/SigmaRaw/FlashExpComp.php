@@ -39,5 +39,4 @@ class FlashExpComp extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Flash Exp Comp';
-
 }

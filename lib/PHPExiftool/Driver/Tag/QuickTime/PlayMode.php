@@ -39,5 +39,4 @@ class PlayMode extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Play Mode';
-
 }

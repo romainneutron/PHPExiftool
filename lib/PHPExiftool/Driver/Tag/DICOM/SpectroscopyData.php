@@ -39,5 +39,4 @@ class SpectroscopyData extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Spectroscopy Data';
-
 }

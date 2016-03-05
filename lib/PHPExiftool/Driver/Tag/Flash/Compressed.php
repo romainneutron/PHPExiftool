@@ -50,5 +50,4 @@ class Compressed extends AbstractTag
             'Label' => True,
         ),
     );
-
 }

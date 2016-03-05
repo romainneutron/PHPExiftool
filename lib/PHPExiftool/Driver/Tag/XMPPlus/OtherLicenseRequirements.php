@@ -39,5 +39,4 @@ class OtherLicenseRequirements extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Other License Requirements';
-
 }

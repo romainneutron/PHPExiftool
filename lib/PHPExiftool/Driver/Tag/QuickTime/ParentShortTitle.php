@@ -39,5 +39,4 @@ class ParentShortTitle extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Parent Short Title';
-
 }

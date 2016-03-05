@@ -39,5 +39,4 @@ class TransformedImageTitle extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Transformed Image Title';
-
 }

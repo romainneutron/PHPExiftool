@@ -39,5 +39,4 @@ class RTDoseROISequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'RT Dose ROI Sequence';
-
 }

@@ -39,5 +39,4 @@ class BurnedInAnnotation extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Burned In Annotation';
-
 }

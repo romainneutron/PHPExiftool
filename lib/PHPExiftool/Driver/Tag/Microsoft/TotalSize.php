@@ -39,5 +39,4 @@ class TotalSize extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Total Size';
-
 }

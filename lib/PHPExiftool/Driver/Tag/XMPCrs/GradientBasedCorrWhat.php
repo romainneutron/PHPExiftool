@@ -39,5 +39,4 @@ class GradientBasedCorrWhat extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Gradient Based Corr What';
-
 }

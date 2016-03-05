@@ -41,5 +41,4 @@ class Make extends AbstractTag
     protected $Description = 'Make';
 
     protected $flag_Avoid = true;
-
 }

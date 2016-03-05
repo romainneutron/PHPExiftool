@@ -62,5 +62,4 @@ class GrayResponseUnit extends AbstractTag
             'Label' => '1e-06',
         ),
     );
-
 }

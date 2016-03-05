@@ -92,5 +92,4 @@ class Saturation extends AbstractTag
             'Label' => 'Film Simulation',
         ),
     );
-
 }

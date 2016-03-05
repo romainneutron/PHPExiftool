@@ -39,5 +39,4 @@ class MediaContentTypes extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Media Content Types';
-
 }

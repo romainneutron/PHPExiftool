@@ -39,5 +39,4 @@ class SequenceOffset extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Sequence Offset';
-
 }

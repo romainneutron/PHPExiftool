@@ -41,5 +41,4 @@ class IntegrationTime extends AbstractTag
     protected $Description = 'Integration Time';
 
     protected $local_g2 = 'Image';
-
 }

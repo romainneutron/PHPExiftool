@@ -19,5 +19,4 @@ class Binary extends AbstractType
     protected $ExiftoolName = 'binary';
 
     protected $PHPMap = 'binary';
-
 }

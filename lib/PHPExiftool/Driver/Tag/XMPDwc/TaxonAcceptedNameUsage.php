@@ -39,5 +39,4 @@ class TaxonAcceptedNameUsage extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Taxon Accepted Name Usage';
-
 }

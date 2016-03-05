@@ -39,5 +39,4 @@ class VirtualImageWidth extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Virtual Image Width';
-
 }

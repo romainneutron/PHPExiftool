@@ -39,5 +39,4 @@ class ShootingCountryCode extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Shooting Country Code';
-
 }

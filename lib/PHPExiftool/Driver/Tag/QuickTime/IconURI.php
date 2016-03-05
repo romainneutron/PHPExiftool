@@ -39,5 +39,4 @@ class IconURI extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Icon URI';
-
 }

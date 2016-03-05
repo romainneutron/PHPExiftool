@@ -39,5 +39,4 @@ class ProjStdParallel2 extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Proj Std Parallel 2';
-
 }

@@ -39,5 +39,4 @@ class AppleStoreAccount extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Apple Store Account';
-
 }

@@ -56,5 +56,4 @@ class AEBSequence extends AbstractTag
             'Label' => '+,0,-',
         ),
     );
-
 }

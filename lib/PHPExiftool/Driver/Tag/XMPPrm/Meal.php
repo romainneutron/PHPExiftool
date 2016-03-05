@@ -41,5 +41,4 @@ class Meal extends AbstractTag
     protected $Description = 'Meal';
 
     protected $flag_Avoid = true;
-
 }

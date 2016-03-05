@@ -39,5 +39,4 @@ class TagString extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Tag String';
-
 }

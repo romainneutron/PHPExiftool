@@ -39,5 +39,4 @@ class AlphaMinimumRef extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Alpha Minimum Ref';
-
 }

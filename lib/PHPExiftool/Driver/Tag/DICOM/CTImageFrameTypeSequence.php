@@ -39,5 +39,4 @@ class CTImageFrameTypeSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'CT Image Frame Type Sequence';
-
 }

@@ -39,5 +39,4 @@ class ContainerComponentWidth extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Container Component Width';
-
 }

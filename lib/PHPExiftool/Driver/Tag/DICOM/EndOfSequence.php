@@ -39,5 +39,4 @@ class EndOfSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'End Of Sequence';
-
 }

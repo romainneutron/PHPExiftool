@@ -39,5 +39,4 @@ class KLVMetadataSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'KLV Metadata Sequence';
-
 }

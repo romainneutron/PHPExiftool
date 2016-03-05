@@ -41,5 +41,4 @@ class Framing extends AbstractTag
     protected $Description = 'Framing';
 
     protected $flag_Avoid = true;
-
 }

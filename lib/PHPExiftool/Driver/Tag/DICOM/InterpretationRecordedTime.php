@@ -39,5 +39,4 @@ class InterpretationRecordedTime extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Interpretation Recorded Time';
-
 }

@@ -41,5 +41,4 @@ class FontFace extends AbstractTag
     protected $Description = 'Font Face';
 
     protected $flag_List = true;
-
 }

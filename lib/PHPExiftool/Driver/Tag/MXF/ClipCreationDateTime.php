@@ -41,5 +41,4 @@ class ClipCreationDateTime extends AbstractTag
     protected $Description = 'Clip Creation Date Time';
 
     protected $local_g2 = 'Time';
-
 }

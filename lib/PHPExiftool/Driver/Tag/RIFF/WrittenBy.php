@@ -39,5 +39,4 @@ class WrittenBy extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Written By';
-
 }

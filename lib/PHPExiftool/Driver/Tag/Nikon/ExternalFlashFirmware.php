@@ -102,5 +102,4 @@ class ExternalFlashFirmware extends AbstractTag
             'Label' => '7.01 (SB-910)',
         ),
     );
-
 }

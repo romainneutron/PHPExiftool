@@ -39,5 +39,4 @@ class PodcastID extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Podcast ID';
-
 }

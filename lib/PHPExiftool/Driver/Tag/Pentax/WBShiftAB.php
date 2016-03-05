@@ -41,5 +41,4 @@ class WBShiftAB extends AbstractTag
     protected $Description = 'WB Shift AB';
 
     protected $flag_Permanent = true;
-
 }

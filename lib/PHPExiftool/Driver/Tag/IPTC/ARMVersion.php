@@ -39,5 +39,4 @@ class ARMVersion extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'ARM Version';
-
 }

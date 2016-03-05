@@ -56,5 +56,4 @@ class LiveViewMetering extends AbstractTag
             'Label' => '1200-zone Evaluative',
         ),
     );
-
 }

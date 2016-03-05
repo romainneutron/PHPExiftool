@@ -39,5 +39,4 @@ class EarliestEraOrLowestErathem extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Earliest Era Or Lowest Erathem';
-
 }

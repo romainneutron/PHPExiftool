@@ -39,5 +39,4 @@ class FileNameAsDelivered extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'File Name As Delivered';
-
 }

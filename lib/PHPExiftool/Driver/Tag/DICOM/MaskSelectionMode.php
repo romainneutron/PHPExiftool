@@ -39,5 +39,4 @@ class MaskSelectionMode extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Mask Selection Mode';
-
 }

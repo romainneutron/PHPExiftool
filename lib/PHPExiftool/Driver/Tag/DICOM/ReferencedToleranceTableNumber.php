@@ -39,5 +39,4 @@ class ReferencedToleranceTableNumber extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Referenced Tolerance Table Number';
-
 }

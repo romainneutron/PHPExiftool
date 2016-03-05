@@ -41,5 +41,4 @@ class PaymentDueDateTime extends AbstractTag
     protected $Description = 'Payment Due Date Time';
 
     protected $local_g2 = 'Time';
-
 }

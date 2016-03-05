@@ -52,5 +52,4 @@ class FocusAreaSelection extends AbstractTag
             'Label' => 'Wrap',
         ),
     );
-
 }

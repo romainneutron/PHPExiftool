@@ -39,5 +39,4 @@ class ReferencedSOPSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Referenced SOP Sequence';
-
 }

@@ -41,5 +41,4 @@ class ShootID extends AbstractTag
     protected $Description = 'Shoot ID';
 
     protected $flag_Avoid = true;
-
 }

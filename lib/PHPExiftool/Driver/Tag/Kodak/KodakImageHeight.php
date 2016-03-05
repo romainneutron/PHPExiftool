@@ -41,5 +41,4 @@ class KodakImageHeight extends AbstractTag
     protected $Description = 'Kodak Image Height';
 
     protected $flag_Permanent = true;
-
 }

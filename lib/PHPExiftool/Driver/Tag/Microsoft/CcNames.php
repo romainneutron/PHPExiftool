@@ -39,5 +39,4 @@ class CcNames extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Cc Names';
-
 }

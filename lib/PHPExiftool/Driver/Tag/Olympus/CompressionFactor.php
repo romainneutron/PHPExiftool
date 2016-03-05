@@ -41,5 +41,4 @@ class CompressionFactor extends AbstractTag
     protected $Description = 'Compression Factor';
 
     protected $flag_Permanent = true;
-
 }

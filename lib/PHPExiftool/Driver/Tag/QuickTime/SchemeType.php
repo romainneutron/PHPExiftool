@@ -41,5 +41,4 @@ class SchemeType extends AbstractTag
     protected $Description = 'Scheme Type';
 
     protected $MaxLength = 4;
-
 }

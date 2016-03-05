@@ -39,5 +39,4 @@ class ViewingDistanceType extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Viewing Distance Type';
-
 }

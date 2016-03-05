@@ -39,5 +39,4 @@ class ReelOrRollNumber extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Reel Or Roll Number';
-
 }

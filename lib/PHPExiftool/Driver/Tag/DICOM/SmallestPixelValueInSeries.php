@@ -39,5 +39,4 @@ class SmallestPixelValueInSeries extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Smallest Pixel Value In Series';
-
 }

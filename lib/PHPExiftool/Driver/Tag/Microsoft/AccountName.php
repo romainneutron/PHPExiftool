@@ -39,5 +39,4 @@ class AccountName extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Account Name';
-
 }

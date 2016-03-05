@@ -39,5 +39,4 @@ class SampledHeight extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Sampled Height';
-
 }

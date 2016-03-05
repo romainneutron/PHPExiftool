@@ -39,5 +39,4 @@ class GeneratorPower extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Generator Power';
-
 }

@@ -39,5 +39,4 @@ class PlugInPlatformID extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Plug-In Platform ID';
-
 }

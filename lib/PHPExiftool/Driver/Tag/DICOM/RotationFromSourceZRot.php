@@ -39,5 +39,4 @@ class RotationFromSourceZRot extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Rotation From Source Z Rot';
-
 }

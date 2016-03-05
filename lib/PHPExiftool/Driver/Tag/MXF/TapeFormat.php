@@ -39,5 +39,4 @@ class TapeFormat extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Tape Format';
-
 }

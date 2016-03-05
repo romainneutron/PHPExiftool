@@ -39,5 +39,4 @@ class VersionOfTheHdrStruct extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Version Of The Hdr Struct';
-
 }

@@ -39,5 +39,4 @@ class SCoordOfTopRightCorner extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'S Coord Of Top Right Corner';
-
 }

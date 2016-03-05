@@ -41,5 +41,4 @@ class CookingMethod extends AbstractTag
     protected $Description = 'Cooking Method';
 
     protected $flag_Avoid = true;
-
 }

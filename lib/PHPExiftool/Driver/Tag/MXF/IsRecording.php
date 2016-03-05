@@ -39,5 +39,4 @@ class IsRecording extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Is Recording';
-
 }

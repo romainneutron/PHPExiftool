@@ -39,5 +39,4 @@ class StdOutputColorMode extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Std Output Color Mode';
-
 }

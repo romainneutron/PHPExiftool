@@ -39,5 +39,4 @@ class InstanceUID extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Instance UID';
-
 }

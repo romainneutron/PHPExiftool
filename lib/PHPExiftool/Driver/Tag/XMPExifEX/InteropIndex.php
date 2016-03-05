@@ -54,5 +54,4 @@ class InteropIndex extends AbstractTag
             'Label' => 'THM - DCF thumbnail file',
         ),
     );
-
 }

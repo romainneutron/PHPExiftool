@@ -43,5 +43,4 @@ class Copyright extends AbstractTag
     protected $local_g2 = 'Author';
 
     protected $MaxLength = 'mixed';
-
 }

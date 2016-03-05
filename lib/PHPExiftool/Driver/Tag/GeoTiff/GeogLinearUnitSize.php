@@ -39,5 +39,4 @@ class GeogLinearUnitSize extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Geog Linear Unit Size';
-
 }

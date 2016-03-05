@@ -52,5 +52,4 @@ class PlanarConfiguration extends AbstractTag
             'Label' => 'Planar',
         ),
     );
-
 }

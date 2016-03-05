@@ -39,5 +39,4 @@ class DefringeGreenAmount extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Defringe Green Amount';
-
 }

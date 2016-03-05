@@ -41,5 +41,4 @@ class TTLDAADown extends AbstractTag
     protected $Description = 'TTL DA A Down';
 
     protected $flag_Permanent = true;
-
 }

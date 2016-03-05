@@ -45,5 +45,4 @@ class NewGUID extends AbstractTag
     protected $local_g1 = 'ExifTool';
 
     protected $local_g2 = 'Other';
-
 }

@@ -39,5 +39,4 @@ class AudioRequiresPacketDescription extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Audio Requires Packet Description';
-
 }

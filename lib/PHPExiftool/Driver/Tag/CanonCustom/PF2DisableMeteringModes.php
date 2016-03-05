@@ -41,5 +41,4 @@ class PF2DisableMeteringModes extends AbstractTag
     protected $Description = 'PF2 Disable Metering Modes';
 
     protected $flag_Permanent = true;
-
 }

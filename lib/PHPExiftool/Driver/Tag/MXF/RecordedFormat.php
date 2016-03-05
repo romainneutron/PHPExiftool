@@ -39,5 +39,4 @@ class RecordedFormat extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Recorded Format';
-
 }

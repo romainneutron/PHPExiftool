@@ -41,5 +41,4 @@ class TiffMeteringImageWidth extends AbstractTag
     protected $Description = 'Tiff Metering Image Width';
 
     protected $flag_Permanent = true;
-
 }

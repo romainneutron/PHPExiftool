@@ -39,5 +39,4 @@ class CodecEssenceDescriptor extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Codec Essence Descriptor';
-
 }

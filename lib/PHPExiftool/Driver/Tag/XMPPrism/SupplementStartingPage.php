@@ -41,5 +41,4 @@ class SupplementStartingPage extends AbstractTag
     protected $Description = 'Supplement Starting Page';
 
     protected $flag_Avoid = true;
-
 }

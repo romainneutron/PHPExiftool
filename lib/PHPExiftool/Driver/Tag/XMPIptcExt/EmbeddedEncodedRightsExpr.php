@@ -41,5 +41,4 @@ class EmbeddedEncodedRightsExpr extends AbstractTag
     protected $Description = 'Embedded Encoded Rights Expr';
 
     protected $flag_List = true;
-
 }

@@ -41,5 +41,4 @@ class PixelAspectRatio extends AbstractTag
     protected $Description = 'Pixel Aspect Ratio';
 
     protected $flag_Permanent = true;
-
 }

@@ -39,5 +39,4 @@ class ClinicalTrialProtocolID extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Clinical Trial Protocol ID';
-
 }

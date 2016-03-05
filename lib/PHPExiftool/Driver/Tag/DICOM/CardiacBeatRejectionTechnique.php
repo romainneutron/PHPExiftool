@@ -39,5 +39,4 @@ class CardiacBeatRejectionTechnique extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Cardiac Beat Rejection Technique';
-
 }

@@ -41,5 +41,4 @@ class DayltConvChrmCP extends AbstractTag
     protected $Description = 'Daylt Conv Chrm C P';
 
     protected $flag_Permanent = true;
-
 }

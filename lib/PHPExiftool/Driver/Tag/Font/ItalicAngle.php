@@ -39,5 +39,4 @@ class ItalicAngle extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Italic Angle';
-
 }

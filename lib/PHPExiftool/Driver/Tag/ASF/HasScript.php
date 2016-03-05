@@ -39,5 +39,4 @@ class HasScript extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Has Script';
-
 }

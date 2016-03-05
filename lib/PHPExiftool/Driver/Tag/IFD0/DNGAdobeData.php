@@ -45,5 +45,4 @@ class DNGAdobeData extends AbstractTag
     protected $flag_Unsafe = true;
 
     protected $Index = 1;
-
 }

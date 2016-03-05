@@ -39,5 +39,4 @@ class InterestedPartyName extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Interested Party Name';
-
 }

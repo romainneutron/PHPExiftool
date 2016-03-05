@@ -39,5 +39,4 @@ class MainSponsorName extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Main Sponsor Name';
-
 }

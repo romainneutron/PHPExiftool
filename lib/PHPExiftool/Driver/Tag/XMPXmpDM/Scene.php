@@ -41,5 +41,4 @@ class Scene extends AbstractTag
     protected $Description = 'Scene';
 
     protected $flag_Avoid = true;
-
 }

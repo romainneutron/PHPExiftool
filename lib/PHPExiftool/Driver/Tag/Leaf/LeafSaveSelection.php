@@ -39,5 +39,4 @@ class LeafSaveSelection extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Leaf Save Selection';
-
 }

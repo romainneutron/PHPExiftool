@@ -41,5 +41,4 @@ class IngredientsManageUI extends AbstractTag
     protected $Description = 'Ingredients Manage UI';
 
     protected $flag_List = true;
-
 }

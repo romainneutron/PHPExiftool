@@ -39,5 +39,4 @@ class ApplicatorDescription extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Applicator Description';
-
 }

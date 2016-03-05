@@ -39,5 +39,4 @@ class SelectorSLValue extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Selector SL Value';
-
 }

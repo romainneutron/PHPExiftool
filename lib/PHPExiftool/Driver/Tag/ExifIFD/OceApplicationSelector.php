@@ -41,5 +41,4 @@ class OceApplicationSelector extends AbstractTag
     protected $Description = 'Oce Application Selector';
 
     protected $local_g1 = 'ExifIFD';
-
 }

@@ -52,5 +52,4 @@ class PageProgressionDirection extends AbstractTag
             'Label' => 'Right to Left',
         ),
     );
-
 }

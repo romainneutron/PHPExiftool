@@ -19,5 +19,4 @@ class Null0 extends AbstractType
     protected $ExiftoolName = 'null';
 
     protected $PHPMap = 'binary';
-
 }

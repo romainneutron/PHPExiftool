@@ -39,5 +39,4 @@ class CameraMaker extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Camera Maker';
-
 }

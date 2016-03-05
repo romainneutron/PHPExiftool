@@ -41,5 +41,4 @@ class Robots extends AbstractTag
     protected $Description = 'Robots';
 
     protected $flag_List = true;
-
 }

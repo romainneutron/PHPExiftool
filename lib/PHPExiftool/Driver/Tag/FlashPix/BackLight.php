@@ -54,5 +54,4 @@ class BackLight extends AbstractTag
             'Label' => 'Back Lit 2',
         ),
     );
-
 }

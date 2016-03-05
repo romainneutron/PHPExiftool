@@ -39,5 +39,4 @@ class PaintPoly extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Paint Poly';
-
 }

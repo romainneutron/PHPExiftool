@@ -39,5 +39,4 @@ class BluePrimary extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Blue Primary';
-
 }

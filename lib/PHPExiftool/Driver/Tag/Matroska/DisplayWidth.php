@@ -39,5 +39,4 @@ class DisplayWidth extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Display Width';
-
 }

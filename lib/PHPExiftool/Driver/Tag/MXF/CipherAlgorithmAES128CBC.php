@@ -39,5 +39,4 @@ class CipherAlgorithmAES128CBC extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Cipher Algorithm AES128 CBC';
-
 }

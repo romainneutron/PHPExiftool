@@ -58,5 +58,4 @@ class Reading1Units extends AbstractTag
             'Label' => 'g/kg',
         ),
     );
-
 }

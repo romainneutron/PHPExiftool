@@ -52,5 +52,4 @@ class DynamicRange extends AbstractTag
             'Label' => 'Wide',
         ),
     );
-
 }

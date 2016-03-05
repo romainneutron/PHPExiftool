@@ -39,5 +39,4 @@ class StandardRawSharpness extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Standard Raw Sharpness';
-
 }

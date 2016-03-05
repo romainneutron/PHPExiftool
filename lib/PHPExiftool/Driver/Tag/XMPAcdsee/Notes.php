@@ -41,5 +41,4 @@ class Notes extends AbstractTag
     protected $Description = 'Notes';
 
     protected $flag_Avoid = true;
-
 }

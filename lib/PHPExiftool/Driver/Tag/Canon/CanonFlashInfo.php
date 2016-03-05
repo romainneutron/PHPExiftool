@@ -41,5 +41,4 @@ class CanonFlashInfo extends AbstractTag
     protected $Description = 'Canon Flash Info';
 
     protected $flag_Permanent = true;
-
 }

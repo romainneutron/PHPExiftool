@@ -52,5 +52,4 @@ class CCDScanMode extends AbstractTag
             'Label' => 'Progressive',
         ),
     );
-
 }

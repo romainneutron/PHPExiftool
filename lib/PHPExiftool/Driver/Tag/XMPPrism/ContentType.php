@@ -41,5 +41,4 @@ class ContentType extends AbstractTag
     protected $Description = 'Content Type';
 
     protected $flag_Avoid = true;
-
 }

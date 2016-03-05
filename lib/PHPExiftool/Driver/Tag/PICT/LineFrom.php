@@ -39,5 +39,4 @@ class LineFrom extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Line From';
-
 }

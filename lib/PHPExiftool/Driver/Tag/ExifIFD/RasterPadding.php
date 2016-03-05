@@ -64,5 +64,4 @@ class RasterPadding extends AbstractTag
             'Label' => 'Long Sector',
         ),
     );
-
 }

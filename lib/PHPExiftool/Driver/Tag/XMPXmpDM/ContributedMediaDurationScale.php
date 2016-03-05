@@ -41,5 +41,4 @@ class ContributedMediaDurationScale extends AbstractTag
     protected $Description = 'Contributed Media Duration Scale';
 
     protected $flag_List = true;
-
 }

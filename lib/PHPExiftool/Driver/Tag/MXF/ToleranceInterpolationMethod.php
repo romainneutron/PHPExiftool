@@ -39,5 +39,4 @@ class ToleranceInterpolationMethod extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Tolerance Interpolation Method';
-
 }

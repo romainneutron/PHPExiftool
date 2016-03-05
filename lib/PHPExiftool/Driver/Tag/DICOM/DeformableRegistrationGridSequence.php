@@ -39,5 +39,4 @@ class DeformableRegistrationGridSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Deformable Registration Grid Sequence';
-
 }

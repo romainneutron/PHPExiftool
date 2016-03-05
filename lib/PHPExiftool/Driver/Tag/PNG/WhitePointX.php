@@ -39,5 +39,4 @@ class WhitePointX extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'White Point X';
-
 }

@@ -39,5 +39,4 @@ class Instrument extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Instrument';
-
 }

@@ -43,5 +43,4 @@ class CompressedBitsPerPixel extends AbstractTag
     protected $local_g1 = 'ExifIFD';
 
     protected $flag_Unsafe = true;
-
 }

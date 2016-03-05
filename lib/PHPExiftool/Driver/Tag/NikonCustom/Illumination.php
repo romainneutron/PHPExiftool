@@ -52,5 +52,4 @@ class Illumination extends AbstractTag
             'Label' => 'On',
         ),
     );
-
 }

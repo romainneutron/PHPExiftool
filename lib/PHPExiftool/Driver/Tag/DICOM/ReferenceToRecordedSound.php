@@ -39,5 +39,4 @@ class ReferenceToRecordedSound extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Reference To Recorded Sound';
-
 }

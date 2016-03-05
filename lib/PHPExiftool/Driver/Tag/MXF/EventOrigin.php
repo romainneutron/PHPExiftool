@@ -39,5 +39,4 @@ class EventOrigin extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Event Origin';
-
 }

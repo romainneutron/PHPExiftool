@@ -41,5 +41,4 @@ class GPSHPositioningError extends AbstractTag
     protected $Description = 'GPS Horizontal Positioning Error';
 
     protected $local_g2 = 'Location';
-
 }

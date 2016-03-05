@@ -39,5 +39,4 @@ class FileSecurityWave extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'File Security Wave';
-
 }

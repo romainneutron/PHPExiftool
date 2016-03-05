@@ -50,5 +50,4 @@ class MSStereo extends AbstractTag
             'Label' => 'On',
         ),
     );
-
 }

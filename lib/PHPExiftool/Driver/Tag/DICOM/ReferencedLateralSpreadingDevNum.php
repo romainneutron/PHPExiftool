@@ -39,5 +39,4 @@ class ReferencedLateralSpreadingDevNum extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Referenced Lateral Spreading Dev Num';
-
 }

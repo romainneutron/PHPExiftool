@@ -41,5 +41,4 @@ class JpgFromRawLength extends AbstractTag
     protected $Description = 'Jpg From Raw Length';
 
     protected $flag_Permanent = true;
-
 }

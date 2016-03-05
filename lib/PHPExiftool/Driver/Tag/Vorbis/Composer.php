@@ -39,5 +39,4 @@ class Composer extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Composer';
-
 }

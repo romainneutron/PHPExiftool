@@ -82,5 +82,4 @@ class InitialZoomSetting extends AbstractTag
     );
 
     protected $Index = 'mixed';
-
 }

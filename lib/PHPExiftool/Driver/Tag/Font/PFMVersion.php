@@ -39,5 +39,4 @@ class PFMVersion extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'PFM Version';
-
 }

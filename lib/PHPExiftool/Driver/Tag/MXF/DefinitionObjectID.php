@@ -39,5 +39,4 @@ class DefinitionObjectID extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Definition Object ID';
-
 }

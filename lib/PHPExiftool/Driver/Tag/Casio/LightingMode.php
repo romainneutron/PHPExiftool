@@ -60,5 +60,4 @@ class LightingMode extends AbstractTag
             'Label' => 'Shadow Enhance High',
         ),
     );
-
 }

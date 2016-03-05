@@ -52,5 +52,4 @@ class AFStatusCenter12 extends AbstractTag
             'Label' => 'In Focus',
         ),
     );
-
 }

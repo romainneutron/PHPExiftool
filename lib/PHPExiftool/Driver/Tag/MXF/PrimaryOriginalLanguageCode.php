@@ -39,5 +39,4 @@ class PrimaryOriginalLanguageCode extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Primary Original Language Code';
-
 }

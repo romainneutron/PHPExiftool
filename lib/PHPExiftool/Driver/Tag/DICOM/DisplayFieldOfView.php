@@ -39,5 +39,4 @@ class DisplayFieldOfView extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Display Field Of View';
-
 }

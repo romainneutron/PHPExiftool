@@ -39,5 +39,4 @@ class AdmittingDiagnosesCodeSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Admitting Diagnoses Code Sequence';
-
 }

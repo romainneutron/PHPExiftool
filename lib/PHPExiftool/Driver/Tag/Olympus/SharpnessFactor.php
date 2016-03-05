@@ -41,5 +41,4 @@ class SharpnessFactor extends AbstractTag
     protected $Description = 'Sharpness Factor';
 
     protected $flag_Permanent = true;
-
 }

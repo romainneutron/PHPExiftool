@@ -41,5 +41,4 @@ class ReductionMatrix1 extends AbstractTag
     protected $Description = 'Reduction Matrix 1';
 
     protected $flag_Unsafe = true;
-
 }

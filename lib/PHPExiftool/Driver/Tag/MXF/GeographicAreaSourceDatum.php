@@ -39,5 +39,4 @@ class GeographicAreaSourceDatum extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Geographic Area Source Datum';
-
 }

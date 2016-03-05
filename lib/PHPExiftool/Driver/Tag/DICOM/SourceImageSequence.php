@@ -39,5 +39,4 @@ class SourceImageSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Source Image Sequence';
-
 }

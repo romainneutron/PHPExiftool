@@ -39,5 +39,4 @@ class StartDate extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Start Date';
-
 }

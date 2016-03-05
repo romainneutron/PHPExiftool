@@ -58,5 +58,4 @@ class CompressionClass extends AbstractTag
             'Label' => 'Class 4 - Text and graphics, high dynamic range',
         ),
     );
-
 }

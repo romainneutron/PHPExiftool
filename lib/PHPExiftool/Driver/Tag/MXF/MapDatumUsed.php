@@ -39,5 +39,4 @@ class MapDatumUsed extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Map Datum Used';
-
 }

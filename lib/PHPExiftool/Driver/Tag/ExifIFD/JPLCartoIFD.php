@@ -41,5 +41,4 @@ class JPLCartoIFD extends AbstractTag
     protected $Description = 'JPL Carto IFD';
 
     protected $local_g1 = 'ExifIFD';
-
 }

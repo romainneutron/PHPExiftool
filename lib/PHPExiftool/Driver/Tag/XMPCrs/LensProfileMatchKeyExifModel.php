@@ -39,5 +39,4 @@ class LensProfileMatchKeyExifModel extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Lens Profile Match Key Exif Model';
-
 }

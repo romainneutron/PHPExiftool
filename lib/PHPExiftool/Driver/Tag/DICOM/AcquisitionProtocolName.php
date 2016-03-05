@@ -39,5 +39,4 @@ class AcquisitionProtocolName extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Acquisition Protocol Name';
-
 }

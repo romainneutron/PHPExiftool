@@ -39,5 +39,4 @@ class InterpretationDiagnosisDescription extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Interpretation Diagnosis Description';
-
 }

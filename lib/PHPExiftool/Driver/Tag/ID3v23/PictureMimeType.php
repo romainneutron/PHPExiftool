@@ -41,5 +41,4 @@ class PictureMIMEType extends AbstractTag
     protected $Description = 'Picture MIME Type';
 
     protected $local_g2 = 'Image';
-
 }

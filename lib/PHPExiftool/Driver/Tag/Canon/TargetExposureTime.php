@@ -41,5 +41,4 @@ class TargetExposureTime extends AbstractTag
     protected $Description = 'Target Exposure Time';
 
     protected $flag_Permanent = true;
-
 }

@@ -41,5 +41,4 @@ class ControllerBoardVersion extends AbstractTag
     protected $Description = 'Controller Board Version';
 
     protected $flag_Permanent = true;
-
 }

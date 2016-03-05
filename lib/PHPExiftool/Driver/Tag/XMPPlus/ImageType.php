@@ -62,5 +62,4 @@ class ImageType extends AbstractTag
             'Label' => 'Video',
         ),
     );
-
 }

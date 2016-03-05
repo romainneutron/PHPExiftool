@@ -39,5 +39,4 @@ class PatientReligiousPreference extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Patient Religious Preference';
-
 }

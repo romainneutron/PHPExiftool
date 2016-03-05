@@ -41,5 +41,4 @@ class DCGeoreferenceVerificationStatus extends AbstractTag
     protected $Description = 'DC Georeference Verification Status';
 
     protected $local_g2 = 'Location';
-
 }

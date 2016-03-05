@@ -50,5 +50,4 @@ class TrackDefault extends AbstractTag
             'Label' => 'Yes',
         ),
     );
-
 }

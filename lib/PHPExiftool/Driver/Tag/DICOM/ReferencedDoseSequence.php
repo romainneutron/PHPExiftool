@@ -39,5 +39,4 @@ class ReferencedDoseSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Referenced Dose Sequence';
-
 }

@@ -41,5 +41,4 @@ class PreviewImageWidth extends AbstractTag
     protected $Description = 'Preview Image Width';
 
     protected $flag_Permanent = true;
-
 }

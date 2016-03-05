@@ -39,5 +39,4 @@ class ThicknessDisclaimer extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Thickness Disclaimer';
-
 }

@@ -56,5 +56,4 @@ class ColorSpace extends AbstractTag
             'Label' => 'Pro Photo RGB',
         ),
     );
-
 }

@@ -76,5 +76,4 @@ class AEWhiteBalance extends AbstractTag
             'Label' => 'Tungsten',
         ),
     );
-
 }

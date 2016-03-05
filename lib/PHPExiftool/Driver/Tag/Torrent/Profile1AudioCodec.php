@@ -39,5 +39,4 @@ class Profile1AudioCodec extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Profile 1 Audio Codec';
-
 }

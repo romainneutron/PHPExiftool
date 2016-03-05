@@ -64,5 +64,4 @@ class ImageQuality2 extends AbstractTag
             'Label' => 'SQ (5)',
         ),
     );
-
 }

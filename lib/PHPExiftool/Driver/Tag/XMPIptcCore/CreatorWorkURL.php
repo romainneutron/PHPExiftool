@@ -39,5 +39,4 @@ class CreatorWorkURL extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Creator Work URL';
-
 }

@@ -39,5 +39,4 @@ class ICCProfileName extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'ICC Profile Name';
-
 }

@@ -39,5 +39,4 @@ class DeltaStartTime extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Delta Start Time';
-
 }

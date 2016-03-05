@@ -39,5 +39,4 @@ class ShimName extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Shim Name';
-
 }

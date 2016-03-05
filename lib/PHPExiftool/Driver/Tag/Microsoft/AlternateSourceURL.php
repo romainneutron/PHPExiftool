@@ -39,5 +39,4 @@ class AlternateSourceURL extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Alternate Source URL';
-
 }

@@ -39,5 +39,4 @@ class RequestingService extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Requesting Service';
-
 }

@@ -39,5 +39,4 @@ class LockedIndicator extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Locked Indicator';
-
 }

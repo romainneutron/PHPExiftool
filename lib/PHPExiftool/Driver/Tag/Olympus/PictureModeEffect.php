@@ -62,5 +62,4 @@ class PictureModeEffect extends AbstractTag
             'Label' => 'High',
         ),
     );
-
 }

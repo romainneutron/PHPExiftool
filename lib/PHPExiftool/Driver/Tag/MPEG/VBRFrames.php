@@ -39,5 +39,4 @@ class VBRFrames extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'VBR Frames';
-
 }

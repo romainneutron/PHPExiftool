@@ -39,5 +39,4 @@ class OtherValues extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Other Values';
-
 }

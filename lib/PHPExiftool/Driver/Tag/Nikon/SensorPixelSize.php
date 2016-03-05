@@ -43,5 +43,4 @@ class SensorPixelSize extends AbstractTag
     protected $flag_Permanent = true;
 
     protected $MaxLength = 2;
-
 }

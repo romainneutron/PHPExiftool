@@ -41,5 +41,4 @@ class ClipToAfRato extends AbstractTag
     protected $Description = 'Clip To Af Rato';
 
     protected $flag_Permanent = true;
-
 }

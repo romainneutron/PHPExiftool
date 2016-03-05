@@ -41,5 +41,4 @@ class PF5ApertureMax extends AbstractTag
     protected $Description = 'PF5 Aperture Max';
 
     protected $flag_Permanent = true;
-
 }

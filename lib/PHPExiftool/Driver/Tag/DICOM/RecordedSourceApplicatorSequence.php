@@ -39,5 +39,4 @@ class RecordedSourceApplicatorSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Recorded Source Applicator Sequence';
-
 }

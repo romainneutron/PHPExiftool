@@ -41,5 +41,4 @@ class EnvelopeNumber extends AbstractTag
     protected $Description = 'Envelope Number';
 
     protected $MaxLength = 8;
-
 }

@@ -39,5 +39,4 @@ class LicenseInfoURL extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'License Info URL';
-
 }

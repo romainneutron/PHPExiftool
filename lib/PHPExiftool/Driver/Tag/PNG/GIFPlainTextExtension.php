@@ -41,5 +41,4 @@ class GIFPlainTextExtension extends AbstractTag
     protected $Description = 'GIF Plain Text Extension';
 
     protected $flag_Binary = true;
-
 }

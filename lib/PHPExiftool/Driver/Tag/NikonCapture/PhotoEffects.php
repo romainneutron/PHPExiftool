@@ -52,5 +52,4 @@ class PhotoEffects extends AbstractTag
             'Label' => 'On',
         ),
     );
-
 }

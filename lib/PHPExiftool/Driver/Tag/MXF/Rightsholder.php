@@ -39,5 +39,4 @@ class Rightsholder extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Rightsholder';
-
 }

@@ -41,5 +41,4 @@ class TimeSincePowerOn extends AbstractTag
     protected $Description = 'Time Since Power On';
 
     protected $flag_Permanent = true;
-
 }

@@ -39,5 +39,4 @@ class LevelValue extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Level Value';
-
 }

@@ -52,5 +52,4 @@ class FlashExposureLock extends AbstractTag
             'Label' => 'On',
         ),
     );
-
 }

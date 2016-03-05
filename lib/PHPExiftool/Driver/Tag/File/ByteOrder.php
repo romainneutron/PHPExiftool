@@ -52,5 +52,4 @@ class ByteOrder extends AbstractTag
             'Label' => 'Little-endian',
         ),
     );
-
 }

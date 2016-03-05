@@ -45,5 +45,4 @@ class XML extends AbstractTag
     protected $flag_Unsafe = true;
 
     protected $flag_List = true;
-
 }

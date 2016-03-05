@@ -39,5 +39,4 @@ class BusinessPOBox extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Business PO Box';
-
 }

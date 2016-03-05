@@ -39,5 +39,4 @@ class VideoCodecDescription extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Video Codec Description';
-
 }

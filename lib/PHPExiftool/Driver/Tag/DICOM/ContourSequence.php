@@ -39,5 +39,4 @@ class ContourSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Contour Sequence';
-
 }

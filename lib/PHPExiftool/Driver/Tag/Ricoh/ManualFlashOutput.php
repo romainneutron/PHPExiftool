@@ -92,5 +92,4 @@ class ManualFlashOutput extends AbstractTag
             'Label' => 'Full',
         ),
     );
-
 }

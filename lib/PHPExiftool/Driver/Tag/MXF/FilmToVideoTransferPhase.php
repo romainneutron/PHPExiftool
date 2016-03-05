@@ -39,5 +39,4 @@ class FilmToVideoTransferPhase extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Film To Video Transfer Phase';
-
 }

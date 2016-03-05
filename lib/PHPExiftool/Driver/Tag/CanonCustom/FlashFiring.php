@@ -52,5 +52,4 @@ class FlashFiring extends AbstractTag
             'Label' => 'Does not fire',
         ),
     );
-
 }

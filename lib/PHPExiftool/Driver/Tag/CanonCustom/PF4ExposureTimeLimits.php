@@ -41,5 +41,4 @@ class PF4ExposureTimeLimits extends AbstractTag
     protected $Description = 'PF4 Exposure Time Limits';
 
     protected $flag_Permanent = true;
-
 }

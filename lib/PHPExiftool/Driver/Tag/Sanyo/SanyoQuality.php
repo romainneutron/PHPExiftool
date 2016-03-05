@@ -140,5 +140,4 @@ class SanyoQuality extends AbstractTag
             'Label' => 'Super Fine/Super High',
         ),
     );
-
 }

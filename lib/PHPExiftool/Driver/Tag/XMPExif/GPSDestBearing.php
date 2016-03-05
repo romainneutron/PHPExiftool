@@ -41,5 +41,4 @@ class GPSDestBearing extends AbstractTag
     protected $Description = 'GPS Dest Bearing';
 
     protected $local_g2 = 'Location';
-
 }

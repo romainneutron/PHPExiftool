@@ -39,5 +39,4 @@ class GrayLookupTableData extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Gray Lookup Table Data';
-
 }

@@ -39,5 +39,4 @@ class QltyStartOfModulation extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Qlty Start Of Modulation';
-
 }

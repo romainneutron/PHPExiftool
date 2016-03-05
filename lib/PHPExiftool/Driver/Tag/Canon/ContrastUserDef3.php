@@ -48,5 +48,4 @@ class ContrastUserDef3 extends AbstractTag
             'Label' => 'n/a',
         ),
     );
-
 }

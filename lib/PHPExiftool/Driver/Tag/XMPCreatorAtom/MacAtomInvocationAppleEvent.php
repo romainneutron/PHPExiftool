@@ -39,5 +39,4 @@ class MacAtomInvocationAppleEvent extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Mac Atom Invocation Apple Event';
-
 }

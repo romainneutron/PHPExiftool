@@ -39,5 +39,4 @@ class FlashTTLMode extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Flash TTL Mode';
-
 }

@@ -52,5 +52,4 @@ class ButtonFunctionControlOff extends AbstractTag
             'Label' => 'Disable main, Control, Multi-control',
         ),
     );
-
 }

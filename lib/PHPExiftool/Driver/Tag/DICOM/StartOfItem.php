@@ -39,5 +39,4 @@ class StartOfItem extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Start Of Item';
-
 }

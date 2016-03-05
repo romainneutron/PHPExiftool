@@ -39,5 +39,4 @@ class IndexStreamID extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Index Stream ID';
-
 }

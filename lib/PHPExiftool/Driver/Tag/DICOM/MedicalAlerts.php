@@ -39,5 +39,4 @@ class MedicalAlerts extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Medical Alerts';
-
 }

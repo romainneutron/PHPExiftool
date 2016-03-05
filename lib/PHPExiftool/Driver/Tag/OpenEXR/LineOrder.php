@@ -54,5 +54,4 @@ class LineOrder extends AbstractTag
             'Label' => 'Random Y',
         ),
     );
-
 }

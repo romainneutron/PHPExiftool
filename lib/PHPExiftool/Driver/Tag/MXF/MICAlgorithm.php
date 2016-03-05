@@ -39,5 +39,4 @@ class MICAlgorithm extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'MIC Algorithm';
-
 }

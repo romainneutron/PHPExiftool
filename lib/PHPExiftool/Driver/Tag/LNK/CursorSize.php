@@ -39,5 +39,4 @@ class CursorSize extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Cursor Size';
-
 }

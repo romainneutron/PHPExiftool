@@ -39,5 +39,4 @@ class UPID extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'UPID';
-
 }

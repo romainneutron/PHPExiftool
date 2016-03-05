@@ -39,5 +39,4 @@ class DoseUnits extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Dose Units';
-
 }

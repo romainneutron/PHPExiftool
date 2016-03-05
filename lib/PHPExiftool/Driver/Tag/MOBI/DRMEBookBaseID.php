@@ -39,5 +39,4 @@ class DRMEBookBaseID extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'DRM E-Book Base ID';
-
 }

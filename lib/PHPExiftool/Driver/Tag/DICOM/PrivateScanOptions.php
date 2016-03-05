@@ -39,5 +39,4 @@ class PrivateScanOptions extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Private Scan Options';
-
 }

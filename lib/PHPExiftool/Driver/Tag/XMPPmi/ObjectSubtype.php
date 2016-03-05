@@ -41,5 +41,4 @@ class ObjectSubtype extends AbstractTag
     protected $Description = 'Object Subtype';
 
     protected $flag_Avoid = true;
-
 }

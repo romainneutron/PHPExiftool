@@ -68,5 +68,4 @@ class SampleFormat extends AbstractTag
             'Label' => 'Complex float',
         ),
     );
-
 }

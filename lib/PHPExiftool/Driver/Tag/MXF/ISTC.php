@@ -39,5 +39,4 @@ class ISTC extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'ISTC';
-
 }

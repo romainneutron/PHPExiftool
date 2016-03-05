@@ -39,5 +39,4 @@ class GrainSize extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Grain Size';
-
 }

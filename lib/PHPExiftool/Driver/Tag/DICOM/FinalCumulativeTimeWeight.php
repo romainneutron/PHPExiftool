@@ -39,5 +39,4 @@ class FinalCumulativeTimeWeight extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Final Cumulative Time Weight';
-
 }

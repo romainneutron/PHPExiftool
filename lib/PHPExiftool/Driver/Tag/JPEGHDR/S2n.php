@@ -39,5 +39,4 @@ class S2n extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'S2n';
-
 }

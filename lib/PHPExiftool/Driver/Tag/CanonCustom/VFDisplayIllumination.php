@@ -56,5 +56,4 @@ class VFDisplayIllumination extends AbstractTag
             'Label' => 'Disable',
         ),
     );
-
 }

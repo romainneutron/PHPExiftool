@@ -41,5 +41,4 @@ class SonyFNumber extends AbstractTag
     protected $Description = 'Sony F Number';
 
     protected $flag_Permanent = true;
-
 }

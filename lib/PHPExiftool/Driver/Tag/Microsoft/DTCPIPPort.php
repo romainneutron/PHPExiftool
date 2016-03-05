@@ -39,5 +39,4 @@ class DTCPIPPort extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'DTCPIP Port';
-
 }

@@ -52,5 +52,4 @@ class GPSDestLatitudeRef extends AbstractTag
             'Label' => 'South',
         ),
     );
-
 }

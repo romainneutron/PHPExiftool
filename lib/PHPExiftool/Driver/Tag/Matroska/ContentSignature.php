@@ -41,5 +41,4 @@ class ContentSignature extends AbstractTag
     protected $Description = 'Content Signature';
 
     protected $flag_Binary = true;
-
 }

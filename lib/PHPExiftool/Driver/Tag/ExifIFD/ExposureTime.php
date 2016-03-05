@@ -41,5 +41,4 @@ class ExposureTime extends AbstractTag
     protected $Description = 'Exposure Time';
 
     protected $local_g1 = 'ExifIFD';
-
 }

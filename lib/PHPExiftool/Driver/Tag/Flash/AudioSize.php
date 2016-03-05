@@ -41,5 +41,4 @@ class AudioSize extends AbstractTag
     protected $Description = 'Audio Size';
 
     protected $local_g2 = 'Audio';
-
 }

@@ -39,5 +39,4 @@ class T2Preparation extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'T2 Preparation';
-
 }

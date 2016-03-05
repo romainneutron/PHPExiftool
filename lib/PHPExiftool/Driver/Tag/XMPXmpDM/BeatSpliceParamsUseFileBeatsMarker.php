@@ -39,5 +39,4 @@ class BeatSpliceParamsUseFileBeatsMarker extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Beat Splice Params Use File Beats Marker';
-
 }

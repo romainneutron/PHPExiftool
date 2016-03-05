@@ -41,5 +41,4 @@ class SubjectDistance extends AbstractTag
     protected $Description = 'Subject Distance';
 
     protected $flag_Permanent = true;
-
 }

@@ -52,5 +52,4 @@ class ShutterReleaseNoCFCard extends AbstractTag
             'Label' => 'No',
         ),
     );
-
 }

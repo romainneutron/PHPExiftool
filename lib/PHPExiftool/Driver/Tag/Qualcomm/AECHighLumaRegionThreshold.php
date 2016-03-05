@@ -41,5 +41,4 @@ class AECHighLumaRegionThreshold extends AbstractTag
     protected $Description = 'AEC High Luma Region Threshold';
 
     protected $flag_Permanent = true;
-
 }

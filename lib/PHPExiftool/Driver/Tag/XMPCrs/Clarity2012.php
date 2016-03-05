@@ -39,5 +39,4 @@ class Clarity2012 extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Clarity 2012';
-
 }

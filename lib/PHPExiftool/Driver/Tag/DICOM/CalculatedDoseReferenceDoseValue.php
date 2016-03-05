@@ -39,5 +39,4 @@ class CalculatedDoseReferenceDoseValue extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Calculated Dose Reference Dose Value';
-
 }

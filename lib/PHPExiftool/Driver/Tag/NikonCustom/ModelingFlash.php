@@ -108,5 +108,4 @@ class ModelingFlash extends AbstractTag
             'Label' => 'Off',
         ),
     );
-
 }

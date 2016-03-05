@@ -39,5 +39,4 @@ class DetectorGeometry extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Detector Geometry';
-
 }

@@ -39,5 +39,4 @@ class SpecificCharacterSetOfFile extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Specific Character Set Of File';
-
 }

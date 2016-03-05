@@ -54,5 +54,4 @@ class CopyrightStatus extends AbstractTag
             'Label' => 'Unknown',
         ),
     );
-
 }

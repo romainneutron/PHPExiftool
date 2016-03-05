@@ -76,5 +76,4 @@ class PhotoEffect extends AbstractTag
             'Label' => 'My Color Data',
         ),
     );
-
 }

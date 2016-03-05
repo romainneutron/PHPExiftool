@@ -39,5 +39,4 @@ class MediaCredits extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Media Credits';
-
 }

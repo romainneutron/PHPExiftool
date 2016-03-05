@@ -39,5 +39,4 @@ class RadiopharmaceuticalStartTime extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Radiopharmaceutical Start Time';
-
 }

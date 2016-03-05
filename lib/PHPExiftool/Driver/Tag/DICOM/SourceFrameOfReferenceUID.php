@@ -39,5 +39,4 @@ class SourceFrameOfReferenceUID extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Source Frame Of Reference UID';
-
 }

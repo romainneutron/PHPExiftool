@@ -39,5 +39,4 @@ class AutoSummary extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Auto Summary';
-
 }

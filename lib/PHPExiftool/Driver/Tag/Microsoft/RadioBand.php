@@ -39,5 +39,4 @@ class RadioBand extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Radio Band';
-
 }

@@ -60,5 +60,4 @@ class HighISONoiseReduction extends AbstractTag
             'Label' => 'Off',
         ),
     );
-
 }

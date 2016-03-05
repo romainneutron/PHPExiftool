@@ -39,5 +39,4 @@ class PublisherLimit extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Publisher Limit';
-
 }

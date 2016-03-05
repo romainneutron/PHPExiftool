@@ -39,5 +39,4 @@ class PrintIMVersion extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'PrintIM Version';
-
 }

@@ -45,5 +45,4 @@ class ColorAdjustment extends AbstractTag
     protected $MaxLength = 'mixed';
 
     protected $Index = 'mixed';
-
 }

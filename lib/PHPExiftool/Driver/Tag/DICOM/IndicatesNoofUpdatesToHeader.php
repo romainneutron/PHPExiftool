@@ -39,5 +39,4 @@ class IndicatesNoofUpdatesToHeader extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Indicates Noof Updates To Header';
-
 }

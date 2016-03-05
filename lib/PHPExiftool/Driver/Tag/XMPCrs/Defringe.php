@@ -39,5 +39,4 @@ class Defringe extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Defringe';
-
 }

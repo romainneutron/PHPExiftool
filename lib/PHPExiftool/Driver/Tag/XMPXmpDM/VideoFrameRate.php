@@ -39,5 +39,4 @@ class VideoFrameRate extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Video Frame Rate';
-
 }

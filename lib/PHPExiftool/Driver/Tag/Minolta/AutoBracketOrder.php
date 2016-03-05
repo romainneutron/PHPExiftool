@@ -52,5 +52,4 @@ class AutoBracketOrder extends AbstractTag
             'Label' => '- 0 +',
         ),
     );
-
 }

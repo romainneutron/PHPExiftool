@@ -39,5 +39,4 @@ class StandardOutputSensitivity extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Standard Output Sensitivity';
-
 }

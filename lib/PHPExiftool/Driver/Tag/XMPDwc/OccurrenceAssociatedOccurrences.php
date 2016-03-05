@@ -39,5 +39,4 @@ class OccurrenceAssociatedOccurrences extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Occurrence Associated Occurrences';
-
 }

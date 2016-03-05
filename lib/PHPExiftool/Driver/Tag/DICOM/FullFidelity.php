@@ -39,5 +39,4 @@ class FullFidelity extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Full Fidelity';
-
 }

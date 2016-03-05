@@ -41,5 +41,4 @@ class BlockLocation extends AbstractTag
     protected $Description = 'Block Location';
 
     protected $MaxLength = 2;
-
 }

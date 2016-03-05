@@ -41,5 +41,4 @@ class AEMinExposureTime extends AbstractTag
     protected $Description = 'AE Min Exposure Time';
 
     protected $flag_Permanent = true;
-
 }

@@ -52,5 +52,4 @@ class NumberOfFocusPoints extends AbstractTag
             'Label' => '11 Points',
         ),
     );
-
 }

@@ -41,5 +41,4 @@ class CellWidth extends AbstractTag
     protected $Description = 'Cell Width';
 
     protected $flag_Unsafe = true;
-
 }

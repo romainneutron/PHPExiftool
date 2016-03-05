@@ -39,5 +39,4 @@ class GammaShadow extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Gamma Shadow';
-
 }

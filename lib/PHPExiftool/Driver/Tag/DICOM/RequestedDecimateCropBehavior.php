@@ -39,5 +39,4 @@ class RequestedDecimateCropBehavior extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Requested Decimate-Crop Behavior';
-
 }

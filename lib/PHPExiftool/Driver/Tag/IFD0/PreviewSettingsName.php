@@ -41,5 +41,4 @@ class PreviewSettingsName extends AbstractTag
     protected $Description = 'Preview Settings Name';
 
     protected $flag_Unsafe = true;
-
 }

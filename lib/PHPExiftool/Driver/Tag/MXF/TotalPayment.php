@@ -39,5 +39,4 @@ class TotalPayment extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Total Payment';
-
 }

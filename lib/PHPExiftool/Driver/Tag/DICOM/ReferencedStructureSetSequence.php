@@ -39,5 +39,4 @@ class ReferencedStructureSetSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Referenced Structure Set Sequence';
-
 }

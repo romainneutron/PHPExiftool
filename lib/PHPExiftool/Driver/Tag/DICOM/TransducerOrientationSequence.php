@@ -39,5 +39,4 @@ class TransducerOrientationSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Transducer Orientation Sequence';
-
 }

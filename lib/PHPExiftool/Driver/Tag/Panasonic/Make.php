@@ -45,5 +45,4 @@ class Make extends AbstractTag
     protected $flag_Permanent = true;
 
     protected $MaxLength = 22;
-
 }

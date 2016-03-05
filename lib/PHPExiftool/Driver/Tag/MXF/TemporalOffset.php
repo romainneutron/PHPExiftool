@@ -39,5 +39,4 @@ class TemporalOffset extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Temporal Offset';
-
 }

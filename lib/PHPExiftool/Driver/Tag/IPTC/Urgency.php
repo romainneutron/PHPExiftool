@@ -84,5 +84,4 @@ class Urgency extends AbstractTag
             'Label' => '9 (user-defined priority)',
         ),
     );
-
 }

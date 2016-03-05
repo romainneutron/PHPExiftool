@@ -41,5 +41,4 @@ class PF19ShootingSpeedHigh extends AbstractTag
     protected $Description = 'PF19 Shooting Speed High';
 
     protected $flag_Permanent = true;
-
 }

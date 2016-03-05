@@ -39,5 +39,4 @@ class ConventionalMachineVerificationSeq extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Conventional Machine Verification Seq';
-
 }

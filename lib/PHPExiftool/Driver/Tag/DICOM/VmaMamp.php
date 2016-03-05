@@ -39,5 +39,4 @@ class VmaMamp extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Vma Mamp';
-
 }

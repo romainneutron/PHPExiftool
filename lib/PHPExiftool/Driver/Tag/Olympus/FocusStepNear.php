@@ -41,5 +41,4 @@ class FocusStepNear extends AbstractTag
     protected $Description = 'Focus Step Near';
 
     protected $flag_Permanent = true;
-
 }

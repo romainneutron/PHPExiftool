@@ -41,5 +41,4 @@ class AntiBadingPixelClk extends AbstractTag
     protected $Description = 'Anti Bading Pixel Clk';
 
     protected $flag_Permanent = true;
-
 }

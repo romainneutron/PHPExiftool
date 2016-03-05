@@ -41,5 +41,4 @@ class Altitude extends AbstractTag
     protected $Description = 'Altitude';
 
     protected $flag_Permanent = true;
-
 }

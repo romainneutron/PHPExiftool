@@ -39,5 +39,4 @@ class PositionOfIsocenterProjection extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Position Of Isocenter Projection';
-
 }

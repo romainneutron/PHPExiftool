@@ -43,5 +43,4 @@ class WBRGGBLevelsUnknown4 extends AbstractTag
     protected $flag_Permanent = true;
 
     protected $MaxLength = 4;
-
 }

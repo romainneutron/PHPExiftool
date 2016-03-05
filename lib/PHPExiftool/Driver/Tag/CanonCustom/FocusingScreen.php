@@ -134,5 +134,4 @@ class FocusingScreen extends AbstractTag
     );
 
     protected $Index = 'mixed';
-
 }

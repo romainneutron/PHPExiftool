@@ -39,5 +39,4 @@ class FrameReadoutTime extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Frame Readout Time';
-
 }

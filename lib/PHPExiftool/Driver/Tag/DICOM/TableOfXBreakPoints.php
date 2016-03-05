@@ -39,5 +39,4 @@ class TableOfXBreakPoints extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Table Of X Break Points';
-
 }

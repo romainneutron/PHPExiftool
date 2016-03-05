@@ -39,5 +39,4 @@ class RTPlanGeometry extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'RT Plan Geometry';
-
 }

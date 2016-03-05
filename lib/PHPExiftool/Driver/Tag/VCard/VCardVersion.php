@@ -39,5 +39,4 @@ class VCardVersion extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'VCard Version';
-
 }

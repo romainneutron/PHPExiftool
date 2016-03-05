@@ -39,5 +39,4 @@ class ReferenceVirtual extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Reference Virtual';
-
 }

@@ -41,5 +41,4 @@ class VariProgram extends AbstractTag
     protected $Description = 'Vari Program';
 
     protected $flag_Permanent = true;
-
 }

@@ -39,5 +39,4 @@ class PointsPerPeakValue extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Points Per Peak Value';
-
 }

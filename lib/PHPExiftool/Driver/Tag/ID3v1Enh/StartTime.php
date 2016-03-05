@@ -41,5 +41,4 @@ class StartTime extends AbstractTag
     protected $Description = 'Start Time';
 
     protected $MaxLength = 6;
-
 }

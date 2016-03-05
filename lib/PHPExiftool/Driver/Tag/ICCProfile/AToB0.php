@@ -39,5 +39,4 @@ class AToB0 extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'A To B0';
-
 }

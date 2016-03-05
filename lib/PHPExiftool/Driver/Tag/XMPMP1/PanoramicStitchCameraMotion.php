@@ -58,5 +58,4 @@ class PanoramicStitchCameraMotion extends AbstractTag
             'Label' => 'Rigid Scale',
         ),
     );
-
 }

@@ -39,5 +39,4 @@ class MonochromeOutputHighlightPoint extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Monochrome Output Highlight Point';
-
 }

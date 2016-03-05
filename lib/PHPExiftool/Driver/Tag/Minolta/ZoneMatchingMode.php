@@ -56,5 +56,4 @@ class ZoneMatchingMode extends AbstractTag
             'Label' => 'Advanced',
         ),
     );
-
 }

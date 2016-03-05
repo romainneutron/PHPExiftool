@@ -39,5 +39,4 @@ class AlternateDuotoneColors extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Alternate Duotone Colors';
-
 }

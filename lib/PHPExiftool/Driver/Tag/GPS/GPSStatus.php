@@ -58,5 +58,4 @@ class GPSStatus extends AbstractTag
     protected $local_g2 = 'mixed';
 
     protected $flag_Permanent = 'mixed';
-
 }

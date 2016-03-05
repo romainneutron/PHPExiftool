@@ -39,5 +39,4 @@ class ConcreteFlag extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Concrete Flag';
-
 }

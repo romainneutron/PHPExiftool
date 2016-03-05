@@ -39,5 +39,4 @@ class UnifiedProcedureStepComURISeq extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Unified Procedure Step Com URI Seq';
-
 }

@@ -39,5 +39,4 @@ class StudyIDIssuer extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Study ID Issuer';
-
 }

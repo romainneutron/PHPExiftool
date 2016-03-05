@@ -41,5 +41,4 @@ class Credit extends AbstractTag
     protected $Description = 'Credit';
 
     protected $local_g2 = 'Author';
-
 }

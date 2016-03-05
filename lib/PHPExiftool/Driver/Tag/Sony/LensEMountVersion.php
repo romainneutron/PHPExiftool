@@ -41,5 +41,4 @@ class LensEMountVersion extends AbstractTag
     protected $Description = 'Lens E-mount Version';
 
     protected $flag_Permanent = true;
-
 }

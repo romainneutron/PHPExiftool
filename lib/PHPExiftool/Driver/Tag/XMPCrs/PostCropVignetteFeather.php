@@ -39,5 +39,4 @@ class PostCropVignetteFeather extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Post Crop Vignette Feather';
-
 }

@@ -39,5 +39,4 @@ class BrachyAccessoryDeviceNumber extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Brachy Accessory Device Number';
-
 }

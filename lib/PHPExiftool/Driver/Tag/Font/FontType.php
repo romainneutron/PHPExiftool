@@ -39,5 +39,4 @@ class FontType extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Font Type';
-
 }

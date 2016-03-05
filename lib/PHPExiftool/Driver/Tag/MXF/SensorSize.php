@@ -39,5 +39,4 @@ class SensorSize extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Sensor Size';
-
 }

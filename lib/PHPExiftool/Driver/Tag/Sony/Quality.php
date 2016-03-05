@@ -128,5 +128,4 @@ class Quality extends AbstractTag
             'Label' => 'n/a',
         ),
     );
-
 }

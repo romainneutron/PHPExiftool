@@ -41,5 +41,4 @@ class TiffMeteringImageHeight extends AbstractTag
     protected $Description = 'Tiff Metering Image Height';
 
     protected $flag_Permanent = true;
-
 }

@@ -39,5 +39,4 @@ class ToolName extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Tool Name';
-
 }

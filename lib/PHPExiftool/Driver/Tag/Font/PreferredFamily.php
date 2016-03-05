@@ -39,5 +39,4 @@ class PreferredFamily extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Preferred Family';
-
 }

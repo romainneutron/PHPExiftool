@@ -41,5 +41,4 @@ class RecipeEndingPage extends AbstractTag
     protected $Description = 'Recipe Ending Page';
 
     protected $flag_Avoid = true;
-
 }

@@ -2008,5 +2008,4 @@ class LensType extends AbstractTag
             'Label' => 'Helios 44-2 58mm F2.0',
         ),
     );
-
 }

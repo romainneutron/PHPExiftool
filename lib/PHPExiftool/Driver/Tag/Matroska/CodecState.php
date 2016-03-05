@@ -41,5 +41,4 @@ class CodecState extends AbstractTag
     protected $Description = 'Codec State';
 
     protected $flag_Binary = true;
-
 }

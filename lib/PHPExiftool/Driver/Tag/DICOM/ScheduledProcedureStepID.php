@@ -39,5 +39,4 @@ class ScheduledProcedureStepID extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Scheduled Procedure Step ID';
-
 }

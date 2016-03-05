@@ -39,5 +39,4 @@ class GradientBasedCorrMaskFullY extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Gradient Based Corr Mask Full Y';
-
 }

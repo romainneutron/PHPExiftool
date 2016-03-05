@@ -39,5 +39,4 @@ class TextlessBlackDuration extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Textless Black Duration';
-
 }

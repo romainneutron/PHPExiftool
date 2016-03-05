@@ -58,5 +58,4 @@ class ISOAutoParameters extends AbstractTag
             'Label' => 'Fast',
         ),
     );
-
 }

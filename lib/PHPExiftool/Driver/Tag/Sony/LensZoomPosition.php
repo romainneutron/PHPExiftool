@@ -41,5 +41,4 @@ class LensZoomPosition extends AbstractTag
     protected $Description = 'Lens Zoom Position';
 
     protected $flag_Permanent = true;
-
 }

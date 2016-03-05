@@ -52,5 +52,4 @@ class FillOrder extends AbstractTag
             'Label' => 'Reversed',
         ),
     );
-
 }

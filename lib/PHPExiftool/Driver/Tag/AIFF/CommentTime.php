@@ -41,5 +41,4 @@ class CommentTime extends AbstractTag
     protected $Description = 'Comment Time';
 
     protected $local_g2 = 'Time';
-
 }

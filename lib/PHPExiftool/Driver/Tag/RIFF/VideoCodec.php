@@ -43,5 +43,4 @@ class VideoCodec extends AbstractTag
     protected $MaxLength = 4;
 
     protected $Index = 1;
-
 }

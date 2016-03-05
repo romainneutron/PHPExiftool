@@ -39,5 +39,4 @@ class FrameAcquisitionDateTime extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Frame Acquisition Date Time';
-
 }

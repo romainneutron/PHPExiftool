@@ -41,5 +41,4 @@ class CompressionRatio extends AbstractTag
     protected $Description = 'Compression Ratio';
 
     protected $flag_Permanent = true;
-
 }

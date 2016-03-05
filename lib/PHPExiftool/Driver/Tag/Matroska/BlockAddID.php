@@ -39,5 +39,4 @@ class BlockAddID extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Block Add ID';
-
 }

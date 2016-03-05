@@ -39,5 +39,4 @@ class StudyCompletionDate extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Study Completion Date';
-
 }

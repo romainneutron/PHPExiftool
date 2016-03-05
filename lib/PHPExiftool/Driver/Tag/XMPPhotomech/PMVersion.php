@@ -39,5 +39,4 @@ class PMVersion extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'PM Version';
-
 }

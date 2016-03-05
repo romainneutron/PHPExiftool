@@ -41,5 +41,4 @@ class SlateInformation extends AbstractTag
     protected $Description = 'Slate Information';
 
     protected $MaxLength = 100;
-
 }

@@ -39,5 +39,4 @@ class ParentMEID extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Parent MEID';
-
 }

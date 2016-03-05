@@ -39,5 +39,4 @@ class EncryptedTrackFileID extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Encrypted Track File ID';
-
 }

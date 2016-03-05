@@ -39,5 +39,4 @@ class PostCropVignetteStyle extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Post Crop Vignette Style';
-
 }

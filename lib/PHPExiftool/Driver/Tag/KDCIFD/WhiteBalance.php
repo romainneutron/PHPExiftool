@@ -64,5 +64,4 @@ class WhiteBalance extends AbstractTag
             'Label' => 'Shade',
         ),
     );
-
 }

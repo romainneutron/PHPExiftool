@@ -76,5 +76,4 @@ class MinoltaModelID extends AbstractTag
             'Label' => 'DiMAGE A2 or S414',
         ),
     );
-
 }

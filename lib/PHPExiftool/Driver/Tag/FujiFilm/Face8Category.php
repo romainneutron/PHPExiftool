@@ -56,5 +56,4 @@ class Face8Category extends AbstractTag
             'Label' => 'Friend',
         ),
     );
-
 }

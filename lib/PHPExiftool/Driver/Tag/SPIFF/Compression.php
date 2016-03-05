@@ -66,5 +66,4 @@ class Compression extends AbstractTag
             'Label' => 'JPEG',
         ),
     );
-
 }

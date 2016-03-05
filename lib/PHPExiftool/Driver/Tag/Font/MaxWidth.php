@@ -39,5 +39,4 @@ class MaxWidth extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Max Width';
-
 }

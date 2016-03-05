@@ -41,5 +41,4 @@ class WBRGBLevelsShade extends AbstractTag
     protected $Description = 'WB RGB Levels Shade';
 
     protected $flag_Permanent = true;
-
 }

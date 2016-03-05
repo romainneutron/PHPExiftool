@@ -54,5 +54,4 @@ class SurroundMode extends AbstractTag
             'Label' => 'Dolby surround',
         ),
     );
-
 }

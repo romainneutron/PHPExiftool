@@ -41,5 +41,4 @@ class ColorTempMeasured extends AbstractTag
     protected $Description = 'Color Temp Measured';
 
     protected $flag_Permanent = true;
-
 }

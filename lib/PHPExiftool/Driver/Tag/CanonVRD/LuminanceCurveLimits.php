@@ -41,5 +41,4 @@ class LuminanceCurveLimits extends AbstractTag
     protected $Description = 'Luminance Curve Limits';
 
     protected $MaxLength = 4;
-
 }

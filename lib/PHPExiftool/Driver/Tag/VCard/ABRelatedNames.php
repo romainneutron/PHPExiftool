@@ -39,5 +39,4 @@ class ABRelatedNames extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'AB Related Names';
-
 }

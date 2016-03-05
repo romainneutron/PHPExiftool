@@ -39,5 +39,4 @@ class LastKeyFrameTime extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Last Key Frame Time';
-
 }

@@ -39,5 +39,4 @@ class EPGProgramSynopsis extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'EPG Program Synopsis';
-
 }

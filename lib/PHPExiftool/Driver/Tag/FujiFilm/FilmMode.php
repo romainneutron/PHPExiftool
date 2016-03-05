@@ -88,5 +88,4 @@ class FilmMode extends AbstractTag
             'Label' => 'Classic Chrome',
         ),
     );
-
 }

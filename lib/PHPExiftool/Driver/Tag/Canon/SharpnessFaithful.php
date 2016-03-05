@@ -48,5 +48,4 @@ class SharpnessFaithful extends AbstractTag
             'Label' => 'n/a',
         ),
     );
-
 }

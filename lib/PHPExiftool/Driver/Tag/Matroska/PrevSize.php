@@ -39,5 +39,4 @@ class PrevSize extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Prev Size';
-
 }

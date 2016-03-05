@@ -41,5 +41,4 @@ class DateTimeRate extends AbstractTag
     protected $Description = 'Date Time Rate';
 
     protected $local_g2 = 'Time';
-
 }

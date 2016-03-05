@@ -39,5 +39,4 @@ class InvolvedPeople extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Involved People';
-
 }

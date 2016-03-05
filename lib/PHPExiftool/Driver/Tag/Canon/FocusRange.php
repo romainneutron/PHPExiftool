@@ -88,5 +88,4 @@ class FocusRange extends AbstractTag
             'Label' => 'Infinity',
         ),
     );
-
 }

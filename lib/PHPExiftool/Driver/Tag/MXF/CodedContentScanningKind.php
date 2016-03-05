@@ -58,5 +58,4 @@ class CodedContentScanningKind extends AbstractTag
             'Label' => 'Mixed',
         ),
     );
-
 }

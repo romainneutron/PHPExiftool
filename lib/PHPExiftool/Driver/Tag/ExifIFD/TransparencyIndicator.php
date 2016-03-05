@@ -41,5 +41,4 @@ class TransparencyIndicator extends AbstractTag
     protected $Description = 'Transparency Indicator';
 
     protected $local_g1 = 'ExifIFD';
-
 }

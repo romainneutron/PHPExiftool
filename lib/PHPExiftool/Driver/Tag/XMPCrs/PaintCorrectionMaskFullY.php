@@ -39,5 +39,4 @@ class PaintCorrectionMaskFullY extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Paint Correction Mask Full Y';
-
 }

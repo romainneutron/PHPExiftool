@@ -52,5 +52,4 @@ class ImageDustOff extends AbstractTag
             'Label' => 'On',
         ),
     );
-
 }

@@ -41,5 +41,4 @@ class State extends AbstractTag
     protected $Description = 'State';
 
     protected $local_g2 = 'Location';
-
 }

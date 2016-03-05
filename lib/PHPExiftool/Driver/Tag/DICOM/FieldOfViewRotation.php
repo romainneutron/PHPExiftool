@@ -39,5 +39,4 @@ class FieldOfViewRotation extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Field Of View Rotation';
-
 }

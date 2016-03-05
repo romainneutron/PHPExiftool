@@ -39,5 +39,4 @@ class LightSource extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Light Source';
-
 }

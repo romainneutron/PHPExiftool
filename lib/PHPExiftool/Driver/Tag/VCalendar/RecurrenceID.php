@@ -39,5 +39,4 @@ class RecurrenceID extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Recurrence ID';
-
 }

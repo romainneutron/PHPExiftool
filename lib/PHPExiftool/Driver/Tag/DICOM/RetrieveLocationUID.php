@@ -39,5 +39,4 @@ class RetrieveLocationUID extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Retrieve Location UID';
-
 }

@@ -39,5 +39,4 @@ class CompressionForce extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Compression Force';
-
 }

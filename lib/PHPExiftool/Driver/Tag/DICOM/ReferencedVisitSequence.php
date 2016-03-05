@@ -39,5 +39,4 @@ class ReferencedVisitSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Referenced Visit Sequence';
-
 }

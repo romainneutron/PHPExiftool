@@ -39,5 +39,4 @@ class RecordOwnerInstitutionCode extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Record Owner Institution Code';
-
 }

@@ -39,5 +39,4 @@ class Children extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Children';
-
 }

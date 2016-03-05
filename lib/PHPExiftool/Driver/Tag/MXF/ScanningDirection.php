@@ -39,5 +39,4 @@ class ScanningDirection extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Scanning Direction';
-
 }

@@ -39,5 +39,4 @@ class FileCount extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'File Count';
-
 }

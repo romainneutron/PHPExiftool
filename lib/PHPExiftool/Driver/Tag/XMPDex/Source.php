@@ -41,5 +41,4 @@ class Source extends AbstractTag
     protected $Description = 'Source';
 
     protected $flag_Avoid = true;
-
 }

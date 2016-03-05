@@ -41,5 +41,4 @@ class UnknownTemperature2 extends AbstractTag
     protected $Description = 'Unknown Temperature 2';
 
     protected $flag_Permanent = 'mixed';
-
 }

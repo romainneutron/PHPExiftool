@@ -39,5 +39,4 @@ class Italic extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Italic';
-
 }

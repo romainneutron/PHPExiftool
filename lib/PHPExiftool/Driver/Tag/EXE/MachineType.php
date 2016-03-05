@@ -150,5 +150,4 @@ class MachineType extends AbstractTag
             'Label' => 'clr pure MSIL',
         ),
     );
-
 }

@@ -64,5 +64,4 @@ class JPEGSize extends AbstractTag
             'Label' => '1280x864',
         ),
     );
-
 }

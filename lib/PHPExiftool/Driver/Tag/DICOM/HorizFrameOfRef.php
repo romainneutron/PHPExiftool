@@ -39,5 +39,4 @@ class HorizFrameOfRef extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Horiz Frame Of Ref';
-
 }

@@ -41,5 +41,4 @@ class Frame extends AbstractTag
     protected $Description = 'Frame';
 
     protected $flag_Binary = true;
-
 }

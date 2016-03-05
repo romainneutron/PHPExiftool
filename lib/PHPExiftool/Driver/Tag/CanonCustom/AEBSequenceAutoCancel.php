@@ -60,5 +60,4 @@ class AEBSequenceAutoCancel extends AbstractTag
             'Label' => '-,0,+/Disabled',
         ),
     );
-
 }

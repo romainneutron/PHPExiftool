@@ -39,5 +39,4 @@ class RequestedResolutionID extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Requested Resolution ID';
-
 }

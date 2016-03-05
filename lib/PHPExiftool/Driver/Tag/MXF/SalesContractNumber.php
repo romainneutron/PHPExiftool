@@ -39,5 +39,4 @@ class SalesContractNumber extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Sales Contract Number';
-
 }

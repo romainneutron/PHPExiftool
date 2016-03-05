@@ -39,5 +39,4 @@ class BlockColumns extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Block Columns';
-
 }

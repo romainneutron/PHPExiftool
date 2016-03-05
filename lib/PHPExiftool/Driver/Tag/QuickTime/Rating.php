@@ -58,5 +58,4 @@ class Rating extends AbstractTag
             'Label' => 'Explicit (old)',
         ),
     );
-
 }

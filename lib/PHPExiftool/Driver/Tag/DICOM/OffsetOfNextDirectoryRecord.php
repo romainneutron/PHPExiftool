@@ -39,5 +39,4 @@ class OffsetOfNextDirectoryRecord extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Offset Of Next Directory Record';
-
 }

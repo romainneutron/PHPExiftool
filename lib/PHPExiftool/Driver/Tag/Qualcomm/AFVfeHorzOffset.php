@@ -41,5 +41,4 @@ class AFVfeHorzOffset extends AbstractTag
     protected $Description = 'AF Vfe Horz Offset';
 
     protected $flag_Permanent = true;
-
 }

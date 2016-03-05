@@ -39,5 +39,4 @@ class DerivationImageSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Derivation Image Sequence';
-
 }

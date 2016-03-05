@@ -66,5 +66,4 @@ class VideoPixelDepth extends AbstractTag
             'Label' => 'Other',
         ),
     );
-
 }

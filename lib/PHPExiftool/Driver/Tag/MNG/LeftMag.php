@@ -39,5 +39,4 @@ class LeftMag extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Left Mag';
-
 }

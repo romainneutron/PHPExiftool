@@ -39,5 +39,4 @@ class PatientPrimaryLanguageCodeSeq extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Patient Primary Language Code Seq';
-
 }

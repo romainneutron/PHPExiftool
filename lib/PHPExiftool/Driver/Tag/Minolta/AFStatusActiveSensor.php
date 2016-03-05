@@ -52,5 +52,4 @@ class AFStatusActiveSensor extends AbstractTag
             'Label' => 'In Focus',
         ),
     );
-
 }

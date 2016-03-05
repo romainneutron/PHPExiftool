@@ -39,5 +39,4 @@ class Complete extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Complete';
-
 }

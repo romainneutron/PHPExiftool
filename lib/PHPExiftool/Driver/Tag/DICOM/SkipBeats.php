@@ -39,5 +39,4 @@ class SkipBeats extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Skip Beats';
-
 }

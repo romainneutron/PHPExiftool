@@ -39,5 +39,4 @@ class ApplicationScheme extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Application Scheme';
-
 }

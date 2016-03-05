@@ -39,5 +39,4 @@ class StripByteCounts extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Strip Byte Counts';
-
 }

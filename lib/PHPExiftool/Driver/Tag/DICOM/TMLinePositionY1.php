@@ -39,5 +39,4 @@ class TMLinePositionY1 extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'TM Line Position Y1';
-
 }

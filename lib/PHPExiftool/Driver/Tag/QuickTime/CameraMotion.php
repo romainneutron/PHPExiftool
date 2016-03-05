@@ -41,5 +41,4 @@ class CameraMotion extends AbstractTag
     protected $Description = 'Camera Motion';
 
     protected $local_g2 = 'Location';
-
 }

@@ -39,5 +39,4 @@ class MultipleCopiesFlag extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Multiple Copies Flag';
-
 }

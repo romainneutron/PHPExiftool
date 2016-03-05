@@ -39,5 +39,4 @@ class MinimumBitrate extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Minimum Bitrate';
-
 }

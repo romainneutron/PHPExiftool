@@ -39,5 +39,4 @@ class ProgrammingGroupKind extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Programming Group Kind';
-
 }

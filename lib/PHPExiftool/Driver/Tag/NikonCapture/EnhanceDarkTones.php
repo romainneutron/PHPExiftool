@@ -52,5 +52,4 @@ class EnhanceDarkTones extends AbstractTag
             'Label' => 'On',
         ),
     );
-
 }

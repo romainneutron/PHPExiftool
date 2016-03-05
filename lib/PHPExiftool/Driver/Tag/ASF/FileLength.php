@@ -39,5 +39,4 @@ class FileLength extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'File Length';
-
 }

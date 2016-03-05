@@ -41,5 +41,4 @@ class ModifiedParamFlag extends AbstractTag
     protected $Description = 'Modified Param Flag';
 
     protected $flag_Permanent = true;
-
 }

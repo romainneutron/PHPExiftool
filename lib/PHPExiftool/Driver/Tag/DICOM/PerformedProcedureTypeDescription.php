@@ -39,5 +39,4 @@ class PerformedProcedureTypeDescription extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Performed Procedure Type Description';
-
 }

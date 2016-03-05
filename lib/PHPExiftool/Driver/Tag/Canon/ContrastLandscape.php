@@ -48,5 +48,4 @@ class ContrastLandscape extends AbstractTag
             'Label' => 'n/a',
         ),
     );
-
 }

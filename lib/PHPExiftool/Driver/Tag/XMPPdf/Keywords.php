@@ -39,5 +39,4 @@ class Keywords extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Keywords';
-
 }

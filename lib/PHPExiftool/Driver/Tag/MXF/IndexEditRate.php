@@ -39,5 +39,4 @@ class IndexEditRate extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Index Edit Rate';
-
 }

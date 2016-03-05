@@ -41,5 +41,4 @@ class ShortLineFrom extends AbstractTag
     protected $Description = 'Short Line From';
 
     protected $MaxLength = 2;
-
 }

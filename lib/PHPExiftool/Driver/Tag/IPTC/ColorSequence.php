@@ -39,5 +39,4 @@ class ColorSequence extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Color Sequence';
-
 }

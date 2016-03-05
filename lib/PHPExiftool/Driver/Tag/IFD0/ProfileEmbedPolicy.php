@@ -60,5 +60,4 @@ class ProfileEmbedPolicy extends AbstractTag
             'Label' => 'No Restrictions',
         ),
     );
-
 }

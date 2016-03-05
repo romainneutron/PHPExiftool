@@ -39,5 +39,4 @@ class PointCoordinatesData extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Point Coordinates Data';
-
 }

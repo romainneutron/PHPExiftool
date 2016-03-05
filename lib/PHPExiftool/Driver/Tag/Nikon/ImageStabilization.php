@@ -41,5 +41,4 @@ class ImageStabilization extends AbstractTag
     protected $Description = 'Image Stabilization';
 
     protected $flag_Permanent = true;
-
 }

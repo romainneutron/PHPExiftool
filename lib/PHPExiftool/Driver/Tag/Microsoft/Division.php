@@ -39,5 +39,4 @@ class Division extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Division';
-
 }

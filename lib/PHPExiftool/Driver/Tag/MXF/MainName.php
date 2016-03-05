@@ -39,5 +39,4 @@ class MainName extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Main Name';
-
 }

@@ -41,5 +41,4 @@ class AWBMaxGGain extends AbstractTag
     protected $Description = 'AWB Max G Gain';
 
     protected $flag_Permanent = true;
-
 }

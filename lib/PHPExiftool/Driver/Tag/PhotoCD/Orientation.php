@@ -58,5 +58,4 @@ class Orientation extends AbstractTag
             'Label' => 'Rotate 90 CW',
         ),
     );
-
 }

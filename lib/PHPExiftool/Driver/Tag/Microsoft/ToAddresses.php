@@ -39,5 +39,4 @@ class ToAddresses extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'To Addresses';
-
 }

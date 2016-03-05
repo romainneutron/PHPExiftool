@@ -54,5 +54,4 @@ class Prohibits extends AbstractTag
             'Label' => 'High Income Nation Use',
         ),
     );
-
 }

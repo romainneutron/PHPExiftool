@@ -39,5 +39,4 @@ class FrameworkExtendedTextLanguageCode extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Framework Extended Text Language Code';
-
 }

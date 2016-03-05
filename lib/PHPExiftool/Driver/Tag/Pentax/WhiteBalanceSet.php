@@ -96,5 +96,4 @@ class WhiteBalanceSet extends AbstractTag
             'Label' => 'Set Color Temperature 3',
         ),
     );
-
 }

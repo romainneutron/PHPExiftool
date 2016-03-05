@@ -39,5 +39,4 @@ class UserCustom1 extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'User Custom 1';
-
 }

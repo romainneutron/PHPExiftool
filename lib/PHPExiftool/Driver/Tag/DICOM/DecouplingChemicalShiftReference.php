@@ -39,5 +39,4 @@ class DecouplingChemicalShiftReference extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Decoupling Chemical Shift Reference';
-
 }

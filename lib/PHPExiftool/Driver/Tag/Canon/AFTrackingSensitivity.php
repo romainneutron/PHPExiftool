@@ -41,5 +41,4 @@ class AFTrackingSensitivity extends AbstractTag
     protected $Description = 'AF Tracking Sensitivity';
 
     protected $flag_Permanent = true;
-
 }

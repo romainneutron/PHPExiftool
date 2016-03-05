@@ -39,5 +39,4 @@ class SampleText extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Sample Text';
-
 }

@@ -39,5 +39,4 @@ class IsUniqueIdentifier extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Is Unique Identifier';
-
 }

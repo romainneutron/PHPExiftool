@@ -41,5 +41,4 @@ class ASF5FilterMode extends AbstractTag
     protected $Description = 'ASF5 Filter Mode';
 
     protected $flag_Permanent = true;
-
 }

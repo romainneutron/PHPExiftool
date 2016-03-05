@@ -39,5 +39,4 @@ class TriggerDelayTime extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Trigger Delay Time';
-
 }

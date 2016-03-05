@@ -41,5 +41,4 @@ class CopyrightURL extends AbstractTag
     protected $Description = 'Copyright URL';
 
     protected $local_g2 = 'mixed';
-
 }

@@ -39,5 +39,4 @@ class LinearityLimitGreen extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Linearity Limit Green';
-
 }

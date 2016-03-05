@@ -80,5 +80,4 @@ class FaxProfile extends AbstractTag
             'Label' => 'Multi Profiles',
         ),
     );
-
 }

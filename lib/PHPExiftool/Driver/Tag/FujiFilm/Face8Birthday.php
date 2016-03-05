@@ -41,5 +41,4 @@ class Face8Birthday extends AbstractTag
     protected $Description = 'Face 8 Birthday';
 
     protected $flag_Permanent = true;
-
 }

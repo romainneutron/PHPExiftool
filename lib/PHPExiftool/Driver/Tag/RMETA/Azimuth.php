@@ -106,5 +106,4 @@ class Azimuth extends AbstractTag
             'Label' => 'NNW',
         ),
     );
-
 }

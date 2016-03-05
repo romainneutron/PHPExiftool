@@ -58,5 +58,4 @@ class VideoAttributes extends AbstractTag
             'Label' => 'Interlaced',
         ),
     );
-
 }

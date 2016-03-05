@@ -41,5 +41,4 @@ class ToneCurveRedY extends AbstractTag
     protected $Description = 'Tone Curve Red Y';
 
     protected $flag_Permanent = true;
-
 }

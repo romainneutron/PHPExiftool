@@ -41,5 +41,4 @@ class Identifier extends AbstractTag
     protected $Description = 'Identifier';
 
     protected $local_g2 = 'Image';
-
 }

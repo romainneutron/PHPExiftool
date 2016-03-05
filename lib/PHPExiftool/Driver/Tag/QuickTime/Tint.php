@@ -39,5 +39,4 @@ class Tint extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Tint';
-
 }

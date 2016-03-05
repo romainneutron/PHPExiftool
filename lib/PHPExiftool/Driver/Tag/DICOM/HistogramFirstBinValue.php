@@ -39,5 +39,4 @@ class HistogramFirstBinValue extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Histogram First Bin Value';
-
 }

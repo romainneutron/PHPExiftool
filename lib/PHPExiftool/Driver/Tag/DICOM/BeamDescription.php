@@ -39,5 +39,4 @@ class BeamDescription extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Beam Description';
-
 }

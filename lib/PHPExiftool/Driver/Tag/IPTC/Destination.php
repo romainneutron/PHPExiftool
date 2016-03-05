@@ -45,5 +45,4 @@ class Destination extends AbstractTag
     protected $flag_List = true;
 
     protected $MaxLength = 1024;
-
 }

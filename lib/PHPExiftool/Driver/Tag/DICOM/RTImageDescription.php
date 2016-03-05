@@ -39,5 +39,4 @@ class RTImageDescription extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'RT Image Description';
-
 }

@@ -66,5 +66,4 @@ class AFAndMeteringButtons extends AbstractTag
             'Label' => 'No function',
         ),
     );
-
 }

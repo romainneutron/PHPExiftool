@@ -39,5 +39,4 @@ class ActualScaleMin extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Actual Scale Min';
-
 }

@@ -41,5 +41,4 @@ class DeviceManufacturer extends AbstractTag
     protected $Description = 'Device Manufacturer';
 
     protected $MaxLength = 4;
-
 }

@@ -39,5 +39,4 @@ class Void extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Void';
-
 }

@@ -41,5 +41,4 @@ class CueSheet extends AbstractTag
     protected $Description = 'Cue Sheet';
 
     protected $flag_Binary = true;
-
 }

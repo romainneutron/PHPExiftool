@@ -39,5 +39,4 @@ class OverlayGroupLength extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Overlay Group Length';
-
 }

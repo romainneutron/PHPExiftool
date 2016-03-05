@@ -39,5 +39,4 @@ class CalciumScoringMassFactorDevice extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Calcium Scoring Mass Factor Device';
-
 }

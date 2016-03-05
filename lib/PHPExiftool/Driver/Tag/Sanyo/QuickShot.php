@@ -52,5 +52,4 @@ class QuickShot extends AbstractTag
             'Label' => 'On',
         ),
     );
-
 }

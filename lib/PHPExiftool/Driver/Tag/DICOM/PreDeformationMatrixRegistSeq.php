@@ -39,5 +39,4 @@ class PreDeformationMatrixRegistSeq extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Pre Deformation Matrix Regist Seq';
-
 }

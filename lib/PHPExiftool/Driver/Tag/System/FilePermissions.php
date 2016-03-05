@@ -41,5 +41,4 @@ class FilePermissions extends AbstractTag
     protected $Description = 'File Permissions';
 
     protected $local_g1 = 'System';
-
 }

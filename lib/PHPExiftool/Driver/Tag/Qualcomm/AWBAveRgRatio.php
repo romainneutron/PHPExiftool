@@ -41,5 +41,4 @@ class AWBAveRgRatio extends AbstractTag
     protected $Description = 'AWB Ave Rg Ratio';
 
     protected $flag_Permanent = true;
-
 }

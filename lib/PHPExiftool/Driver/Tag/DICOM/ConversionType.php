@@ -39,5 +39,4 @@ class ConversionType extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Conversion Type';
-
 }

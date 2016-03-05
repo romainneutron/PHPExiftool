@@ -62,5 +62,4 @@ class ImageFileConstraints extends AbstractTag
             'Label' => 'Maintain Metadata',
         ),
     );
-
 }

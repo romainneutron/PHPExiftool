@@ -39,5 +39,4 @@ class ResonantNucleus extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Resonant Nucleus';
-
 }

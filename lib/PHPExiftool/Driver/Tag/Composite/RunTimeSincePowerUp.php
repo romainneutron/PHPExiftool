@@ -41,5 +41,4 @@ class RunTimeSincePowerUp extends AbstractTag
     protected $Description = 'Run Time Since Power Up';
 
     protected $local_g2 = 'Camera';
-
 }

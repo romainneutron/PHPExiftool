@@ -39,5 +39,4 @@ class EBMLReadVersion extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'EBML Read Version';
-
 }

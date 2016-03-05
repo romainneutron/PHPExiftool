@@ -132,5 +132,4 @@ class WhiteBalance extends AbstractTag
             'Label' => 'Auto (ambience priority)',
         ),
     );
-
 }

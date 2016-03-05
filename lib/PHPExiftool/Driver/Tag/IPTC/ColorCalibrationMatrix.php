@@ -41,5 +41,4 @@ class ColorCalibrationMatrix extends AbstractTag
     protected $Description = 'Color Calibration Matrix';
 
     protected $flag_Binary = true;
-
 }

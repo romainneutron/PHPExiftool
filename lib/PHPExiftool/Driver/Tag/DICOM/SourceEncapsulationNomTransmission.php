@@ -39,5 +39,4 @@ class SourceEncapsulationNomTransmission extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Source Encapsulation Nom Transmission';
-
 }

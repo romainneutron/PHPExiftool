@@ -39,5 +39,4 @@ class CoverURI extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Cover URI';
-
 }

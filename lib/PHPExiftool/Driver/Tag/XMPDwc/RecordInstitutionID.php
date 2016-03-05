@@ -39,5 +39,4 @@ class RecordInstitutionID extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Record Institution ID';
-
 }

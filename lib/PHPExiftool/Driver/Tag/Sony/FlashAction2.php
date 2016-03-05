@@ -96,5 +96,4 @@ class FlashAction2 extends AbstractTag
             'Label' => 'External Flash fired (4)',
         ),
     );
-
 }

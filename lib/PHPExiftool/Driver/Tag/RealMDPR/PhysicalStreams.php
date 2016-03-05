@@ -39,5 +39,4 @@ class PhysicalStreams extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Physical Streams';
-
 }

@@ -41,5 +41,4 @@ class RawDevExposureBiasValue extends AbstractTag
     protected $Description = 'Raw Dev Exposure Bias Value';
 
     protected $flag_Permanent = true;
-
 }

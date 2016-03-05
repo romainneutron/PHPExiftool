@@ -39,5 +39,4 @@ class Technician extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Technician';
-
 }

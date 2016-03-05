@@ -39,5 +39,4 @@ class FirstObjectID extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'First Object ID';
-
 }

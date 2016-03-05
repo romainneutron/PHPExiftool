@@ -78,5 +78,4 @@ class ColorClass extends AbstractTag
             'Label' => '8 (Trash)',
         ),
     );
-
 }

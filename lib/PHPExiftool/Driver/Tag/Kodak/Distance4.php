@@ -41,5 +41,4 @@ class Distance4 extends AbstractTag
     protected $Description = 'Distance 4';
 
     protected $flag_Permanent = true;
-
 }

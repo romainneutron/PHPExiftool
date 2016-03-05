@@ -39,5 +39,4 @@ class GraphicsTechnologyStandardOutput extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Graphics Technology Standard Output';
-
 }

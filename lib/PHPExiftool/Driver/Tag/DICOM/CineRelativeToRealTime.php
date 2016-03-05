@@ -39,5 +39,4 @@ class CineRelativeToRealTime extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Cine Relative To Real Time';
-
 }

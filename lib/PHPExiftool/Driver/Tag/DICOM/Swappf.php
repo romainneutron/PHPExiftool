@@ -39,5 +39,4 @@ class Swappf extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Swappf';
-
 }

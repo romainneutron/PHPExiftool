@@ -41,5 +41,4 @@ class ContractDateTime extends AbstractTag
     protected $Description = 'Contract Date Time';
 
     protected $local_g2 = 'Time';
-
 }

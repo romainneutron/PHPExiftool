@@ -39,5 +39,4 @@ class ElementCount extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Element Count';
-
 }

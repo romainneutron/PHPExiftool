@@ -41,5 +41,4 @@ class LocalUserDateTime extends AbstractTag
     protected $Description = 'Local User Date Time';
 
     protected $local_g2 = 'Time';
-
 }

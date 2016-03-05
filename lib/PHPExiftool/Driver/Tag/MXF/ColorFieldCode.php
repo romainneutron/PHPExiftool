@@ -39,5 +39,4 @@ class ColorFieldCode extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Color Field Code';
-
 }

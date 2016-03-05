@@ -41,5 +41,4 @@ class DRangeOptimizerShadow extends AbstractTag
     protected $Description = 'D-Range Optimizer Shadow';
 
     protected $flag_Permanent = true;
-
 }

@@ -39,5 +39,4 @@ class EffectiveDuration extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Effective Duration';
-
 }

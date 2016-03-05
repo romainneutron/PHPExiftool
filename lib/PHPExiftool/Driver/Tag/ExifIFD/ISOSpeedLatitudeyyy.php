@@ -41,5 +41,4 @@ class ISOSpeedLatitudeyyy extends AbstractTag
     protected $Description = 'ISO Speed Latitude yyy';
 
     protected $local_g1 = 'ExifIFD';
-
 }

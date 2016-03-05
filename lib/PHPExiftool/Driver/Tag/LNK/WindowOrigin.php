@@ -41,5 +41,4 @@ class WindowOrigin extends AbstractTag
     protected $Description = 'Window Origin';
 
     protected $MaxLength = 2;
-
 }

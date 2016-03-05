@@ -39,5 +39,4 @@ class PlanckO extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Planck O';
-
 }

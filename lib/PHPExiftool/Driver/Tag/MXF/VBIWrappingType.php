@@ -39,5 +39,4 @@ class VBIWrappingType extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'VBI Wrapping Type';
-
 }

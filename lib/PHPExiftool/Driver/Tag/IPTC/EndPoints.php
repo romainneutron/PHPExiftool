@@ -41,5 +41,4 @@ class EndPoints extends AbstractTag
     protected $Description = 'End Points';
 
     protected $flag_Binary = true;
-
 }

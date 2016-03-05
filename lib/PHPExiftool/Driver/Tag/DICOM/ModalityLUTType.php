@@ -39,5 +39,4 @@ class ModalityLUTType extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Modality LUT Type';
-
 }

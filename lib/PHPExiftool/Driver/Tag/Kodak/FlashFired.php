@@ -52,5 +52,4 @@ class FlashFired extends AbstractTag
             'Label' => 'Yes',
         ),
     );
-
 }

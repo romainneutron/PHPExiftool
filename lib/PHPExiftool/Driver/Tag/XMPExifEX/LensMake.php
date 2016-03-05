@@ -39,5 +39,4 @@ class LensMake extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Lens Make';
-
 }

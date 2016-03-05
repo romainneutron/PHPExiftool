@@ -39,5 +39,4 @@ class XMag extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'X Mag';
-
 }

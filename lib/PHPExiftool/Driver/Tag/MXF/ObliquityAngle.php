@@ -39,5 +39,4 @@ class ObliquityAngle extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Obliquity Angle';
-
 }

@@ -54,5 +54,4 @@ class OriginalMedium extends AbstractTag
             'Label' => 'Line Art',
         ),
     );
-
 }

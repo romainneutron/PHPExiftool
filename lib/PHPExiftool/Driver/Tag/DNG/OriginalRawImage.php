@@ -41,5 +41,4 @@ class OriginalRawImage extends AbstractTag
     protected $Description = 'Original Raw Image';
 
     protected $flag_Binary = true;
-
 }

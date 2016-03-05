@@ -41,5 +41,4 @@ class ImageDataSize extends AbstractTag
     protected $Description = 'Image Data Size';
 
     protected $flag_Permanent = true;
-
 }

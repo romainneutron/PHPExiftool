@@ -58,5 +58,4 @@ class ProjectRefType extends AbstractTag
             'Label' => 'Still Image',
         ),
     );
-
 }

@@ -41,5 +41,4 @@ class BurstMode2 extends AbstractTag
     protected $Description = 'Burst Mode 2';
 
     protected $flag_Permanent = true;
-
 }

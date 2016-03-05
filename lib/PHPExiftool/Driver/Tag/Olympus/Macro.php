@@ -56,5 +56,4 @@ class Macro extends AbstractTag
             'Label' => 'Super Macro',
         ),
     );
-
 }

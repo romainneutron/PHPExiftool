@@ -39,5 +39,4 @@ class AssistantsPhone extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Assistants Phone';
-
 }

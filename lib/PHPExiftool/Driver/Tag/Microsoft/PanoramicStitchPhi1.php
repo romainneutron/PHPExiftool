@@ -41,5 +41,4 @@ class PanoramicStitchPhi1 extends AbstractTag
     protected $Description = 'Panoramic Stitch Phi 1';
 
     protected $flag_Permanent = true;
-
 }

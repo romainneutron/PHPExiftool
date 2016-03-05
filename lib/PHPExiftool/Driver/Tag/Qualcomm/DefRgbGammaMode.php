@@ -41,5 +41,4 @@ class DefRgbGammaMode extends AbstractTag
     protected $Description = 'Def Rgb Gamma Mode';
 
     protected $flag_Permanent = true;
-
 }

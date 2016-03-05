@@ -39,5 +39,4 @@ class NormalACoord extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Normal A Coord';
-
 }

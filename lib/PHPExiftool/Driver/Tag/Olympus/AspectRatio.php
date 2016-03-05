@@ -102,5 +102,4 @@ class AspectRatio extends AbstractTag
             'Label' => '3:4',
         ),
     );
-
 }

@@ -41,5 +41,4 @@ class ContentSignatureKeyID extends AbstractTag
     protected $Description = 'Content Signature Key ID';
 
     protected $flag_Binary = true;
-
 }

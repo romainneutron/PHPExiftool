@@ -39,5 +39,4 @@ class PageMode extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Page Mode';
-
 }

@@ -39,5 +39,4 @@ class PrismSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Prism Sequence';
-
 }

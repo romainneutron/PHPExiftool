@@ -19,5 +19,4 @@ class Utf8 extends AbstractType
     protected $ExiftoolName = 'utf8';
 
     protected $PHPMap = 'string';
-
 }

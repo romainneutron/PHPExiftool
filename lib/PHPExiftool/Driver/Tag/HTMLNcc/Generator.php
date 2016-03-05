@@ -39,5 +39,4 @@ class Generator extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Generator';
-
 }

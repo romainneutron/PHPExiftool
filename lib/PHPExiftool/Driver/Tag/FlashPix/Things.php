@@ -39,5 +39,4 @@ class Things extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Things';
-
 }

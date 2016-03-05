@@ -64,5 +64,4 @@ class FujiFlashMode extends AbstractTag
             'Label' => 'External',
         ),
     );
-
 }

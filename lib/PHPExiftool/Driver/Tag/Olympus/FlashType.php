@@ -56,5 +56,4 @@ class FlashType extends AbstractTag
             'Label' => 'E-System',
         ),
     );
-
 }

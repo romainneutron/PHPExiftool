@@ -39,5 +39,4 @@ class ComponentKLVData extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Component KLV Data';
-
 }

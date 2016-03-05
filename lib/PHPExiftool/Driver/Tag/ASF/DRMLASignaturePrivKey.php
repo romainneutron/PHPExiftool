@@ -39,5 +39,4 @@ class DRMLASignaturePrivKey extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'DRM LA Signature Priv Key';
-
 }

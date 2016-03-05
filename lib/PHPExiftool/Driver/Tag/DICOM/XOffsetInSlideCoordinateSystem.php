@@ -39,5 +39,4 @@ class XOffsetInSlideCoordinateSystem extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'X Offset In Slide Coordinate System';
-
 }

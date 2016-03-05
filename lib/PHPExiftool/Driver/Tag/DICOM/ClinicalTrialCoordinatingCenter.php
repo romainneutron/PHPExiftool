@@ -39,5 +39,4 @@ class ClinicalTrialCoordinatingCenter extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Clinical Trial Coordinating Center';
-
 }

@@ -39,5 +39,4 @@ class Zoom extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Zoom';
-
 }

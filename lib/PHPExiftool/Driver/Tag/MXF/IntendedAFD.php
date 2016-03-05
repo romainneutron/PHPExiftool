@@ -39,5 +39,4 @@ class IntendedAFD extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Intended AFD';
-
 }

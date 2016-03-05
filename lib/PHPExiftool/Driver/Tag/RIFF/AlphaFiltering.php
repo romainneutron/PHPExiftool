@@ -58,5 +58,4 @@ class AlphaFiltering extends AbstractTag
             'Label' => 'Gradient',
         ),
     );
-
 }

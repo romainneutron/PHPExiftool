@@ -39,5 +39,4 @@ class CardiacRRIntervalSpecified extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Cardiac RR Interval Specified';
-
 }

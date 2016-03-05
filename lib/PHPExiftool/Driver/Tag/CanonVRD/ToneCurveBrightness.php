@@ -39,5 +39,4 @@ class ToneCurveBrightness extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Tone Curve Brightness';
-
 }

@@ -41,5 +41,4 @@ class AFMicroAdjValue extends AbstractTag
     protected $Description = 'AF Micro Adj Value';
 
     protected $flag_Permanent = true;
-
 }

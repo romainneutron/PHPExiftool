@@ -39,5 +39,4 @@ class Quantity extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Quantity';
-
 }

@@ -39,5 +39,4 @@ class BackSerial extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Back Serial Number';
-
 }

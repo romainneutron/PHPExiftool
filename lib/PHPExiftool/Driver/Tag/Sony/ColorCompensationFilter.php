@@ -41,5 +41,4 @@ class ColorCompensationFilter extends AbstractTag
     protected $Description = 'Color Compensation Filter';
 
     protected $flag_Permanent = true;
-
 }

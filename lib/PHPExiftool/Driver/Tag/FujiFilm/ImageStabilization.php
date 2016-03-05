@@ -62,5 +62,4 @@ class ImageStabilization extends AbstractTag
             'Label' => 'Digital',
         ),
     );
-
 }

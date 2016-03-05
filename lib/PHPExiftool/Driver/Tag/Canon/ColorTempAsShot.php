@@ -41,5 +41,4 @@ class ColorTempAsShot extends AbstractTag
     protected $Description = 'Color Temp As Shot';
 
     protected $flag_Permanent = true;
-
 }

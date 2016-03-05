@@ -39,5 +39,4 @@ class ApplicationSetupType extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Application Setup Type';
-
 }

@@ -39,5 +39,4 @@ class Designer extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Designer';
-
 }

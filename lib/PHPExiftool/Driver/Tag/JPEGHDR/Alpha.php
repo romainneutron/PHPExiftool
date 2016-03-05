@@ -39,5 +39,4 @@ class Alpha extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Alpha';
-
 }

@@ -39,5 +39,4 @@ class BorderInformation extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Border Information';
-
 }

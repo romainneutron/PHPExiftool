@@ -45,5 +45,4 @@ class ReferenceDate extends AbstractTag
     protected $flag_List = true;
 
     protected $MaxLength = 8;
-
 }

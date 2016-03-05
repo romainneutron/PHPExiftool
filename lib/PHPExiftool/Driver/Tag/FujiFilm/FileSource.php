@@ -41,5 +41,4 @@ class FileSource extends AbstractTag
     protected $Description = 'File Source';
 
     protected $flag_Permanent = true;
-
 }

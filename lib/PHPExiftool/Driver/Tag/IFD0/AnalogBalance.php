@@ -41,5 +41,4 @@ class AnalogBalance extends AbstractTag
     protected $Description = 'Analog Balance';
 
     protected $flag_Unsafe = true;
-
 }

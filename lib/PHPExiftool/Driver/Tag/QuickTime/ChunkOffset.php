@@ -41,5 +41,4 @@ class ChunkOffset extends AbstractTag
     protected $Description = 'Chunk Offset';
 
     protected $flag_Binary = true;
-
 }

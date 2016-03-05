@@ -41,5 +41,4 @@ class DocumentUsageRights extends AbstractTag
     protected $Description = 'Document Usage Rights';
 
     protected $flag_List = true;
-
 }

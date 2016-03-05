@@ -39,5 +39,4 @@ class PostScript2CRD1 extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Post Script 2 CRD1';
-
 }

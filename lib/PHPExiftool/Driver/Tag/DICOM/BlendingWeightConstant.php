@@ -39,5 +39,4 @@ class BlendingWeightConstant extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Blending Weight Constant';
-
 }

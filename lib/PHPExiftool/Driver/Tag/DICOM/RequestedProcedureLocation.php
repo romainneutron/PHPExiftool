@@ -39,5 +39,4 @@ class RequestedProcedureLocation extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Requested Procedure Location';
-
 }

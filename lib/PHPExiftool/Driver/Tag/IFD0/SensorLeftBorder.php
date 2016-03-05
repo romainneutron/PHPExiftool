@@ -39,5 +39,4 @@ class SensorLeftBorder extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Sensor Left Border';
-
 }

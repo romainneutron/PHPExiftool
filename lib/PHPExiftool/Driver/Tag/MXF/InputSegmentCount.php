@@ -39,5 +39,4 @@ class InputSegmentCount extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Input Segment Count';
-
 }

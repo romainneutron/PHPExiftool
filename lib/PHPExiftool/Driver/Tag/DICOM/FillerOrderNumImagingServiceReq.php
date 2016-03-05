@@ -39,5 +39,4 @@ class FillerOrderNumImagingServiceReq extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Filler Order Num-Imaging Service Req';
-
 }

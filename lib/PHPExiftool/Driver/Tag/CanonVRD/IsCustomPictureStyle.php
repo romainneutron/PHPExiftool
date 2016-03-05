@@ -50,5 +50,4 @@ class IsCustomPictureStyle extends AbstractTag
             'Label' => 'Yes',
         ),
     );
-
 }

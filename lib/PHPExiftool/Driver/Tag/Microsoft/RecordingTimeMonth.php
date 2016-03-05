@@ -41,5 +41,4 @@ class RecordingTimeMonth extends AbstractTag
     protected $Description = 'Recording Time Month';
 
     protected $local_g2 = 'Time';
-
 }

@@ -39,5 +39,4 @@ class InterventionDescription extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Intervention Description';
-
 }

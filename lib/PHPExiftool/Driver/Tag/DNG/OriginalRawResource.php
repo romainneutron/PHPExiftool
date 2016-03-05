@@ -41,5 +41,4 @@ class OriginalRawResource extends AbstractTag
     protected $Description = 'Original Raw Resource';
 
     protected $flag_Binary = true;
-
 }

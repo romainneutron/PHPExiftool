@@ -52,5 +52,4 @@ class ImageAuthentication extends AbstractTag
             'Label' => 'On',
         ),
     );
-
 }

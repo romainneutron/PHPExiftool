@@ -39,5 +39,4 @@ class UprightTransformCount extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Upright Transform Count';
-
 }

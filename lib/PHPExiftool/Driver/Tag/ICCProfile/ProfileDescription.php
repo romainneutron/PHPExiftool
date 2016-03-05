@@ -39,5 +39,4 @@ class ProfileDescription extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Profile Description';
-
 }

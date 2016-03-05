@@ -39,5 +39,4 @@ class Arranger extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Arranger';
-
 }

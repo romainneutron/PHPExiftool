@@ -41,5 +41,4 @@ class ScannerPixelSize extends AbstractTag
     protected $Description = 'Scanner Pixel Size';
 
     protected $MaxLength = 2;
-
 }

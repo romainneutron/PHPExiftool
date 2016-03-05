@@ -39,5 +39,4 @@ class LastScanRas extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Last Scan Ras';
-
 }

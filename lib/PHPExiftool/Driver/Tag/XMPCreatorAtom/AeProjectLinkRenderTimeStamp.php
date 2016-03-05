@@ -39,5 +39,4 @@ class AeProjectLinkRenderTimeStamp extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Ae Project Link Render Time Stamp';
-
 }

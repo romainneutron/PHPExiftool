@@ -41,5 +41,4 @@ class PF27ReverseDialRotation extends AbstractTag
     protected $Description = 'PF27 Reverse Dial Rotation';
 
     protected $flag_Permanent = true;
-
 }

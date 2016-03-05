@@ -39,5 +39,4 @@ class UID extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'UID';
-
 }

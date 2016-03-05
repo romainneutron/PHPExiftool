@@ -39,5 +39,4 @@ class CaptureConditionsPAR extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Capture Conditions PAR';
-
 }

@@ -39,5 +39,4 @@ class ReferencedRangeModulatorNumber extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Referenced Range Modulator Number';
-
 }

@@ -39,5 +39,4 @@ class Blacks2012 extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Blacks 2012';
-
 }

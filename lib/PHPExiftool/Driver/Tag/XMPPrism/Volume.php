@@ -41,5 +41,4 @@ class Volume extends AbstractTag
     protected $Description = 'Volume';
 
     protected $flag_Avoid = true;
-
 }

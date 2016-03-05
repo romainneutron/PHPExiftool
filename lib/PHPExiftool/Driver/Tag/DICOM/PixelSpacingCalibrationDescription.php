@@ -39,5 +39,4 @@ class PixelSpacingCalibrationDescription extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Pixel Spacing Calibration Description';
-
 }

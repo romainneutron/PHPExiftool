@@ -52,5 +52,4 @@ class MonitorDisplayOff extends AbstractTag
             'Label' => 'Manual',
         ),
     );
-
 }

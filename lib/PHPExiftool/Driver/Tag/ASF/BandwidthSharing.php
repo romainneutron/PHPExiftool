@@ -39,5 +39,4 @@ class BandwidthSharing extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Bandwidth Sharing';
-
 }

@@ -39,5 +39,4 @@ class OtherPupillaryDistance extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Other Pupillary Distance';
-
 }

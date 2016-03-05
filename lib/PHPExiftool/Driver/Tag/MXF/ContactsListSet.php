@@ -39,5 +39,4 @@ class ContactsListSet extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Contacts List Set';
-
 }

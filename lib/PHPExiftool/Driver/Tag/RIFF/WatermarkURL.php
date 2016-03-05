@@ -39,5 +39,4 @@ class WatermarkURL extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Watermark URL';
-
 }

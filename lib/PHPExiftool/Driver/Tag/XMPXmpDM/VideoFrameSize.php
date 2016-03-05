@@ -39,5 +39,4 @@ class VideoFrameSize extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Video Frame Size';
-
 }

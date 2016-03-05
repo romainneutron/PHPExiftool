@@ -39,5 +39,4 @@ class ControlPoint3DPosition extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Control Point 3D Position';
-
 }

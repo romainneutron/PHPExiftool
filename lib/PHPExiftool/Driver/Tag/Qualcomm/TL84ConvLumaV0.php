@@ -41,5 +41,4 @@ class TL84ConvLumaV0 extends AbstractTag
     protected $Description = 'TL84 Conv Luma V0';
 
     protected $flag_Permanent = true;
-
 }

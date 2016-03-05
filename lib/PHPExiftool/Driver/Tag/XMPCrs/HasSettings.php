@@ -39,5 +39,4 @@ class HasSettings extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Has Settings';
-
 }

@@ -39,5 +39,4 @@ class Origin extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Origin';
-
 }

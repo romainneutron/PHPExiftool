@@ -39,5 +39,4 @@ class KeyCode extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Key Code';
-
 }

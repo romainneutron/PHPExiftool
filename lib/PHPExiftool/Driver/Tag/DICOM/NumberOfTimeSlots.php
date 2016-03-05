@@ -39,5 +39,4 @@ class NumberOfTimeSlots extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Number Of Time Slots';
-
 }

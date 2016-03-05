@@ -39,5 +39,4 @@ class ContiguousCodestream extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Contiguous Codestream';
-
 }

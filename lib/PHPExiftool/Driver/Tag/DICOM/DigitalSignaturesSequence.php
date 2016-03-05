@@ -39,5 +39,4 @@ class DigitalSignaturesSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Digital Signatures Sequence';
-
 }

@@ -52,5 +52,4 @@ class ApertureLock extends AbstractTag
             'Label' => 'On',
         ),
     );
-
 }

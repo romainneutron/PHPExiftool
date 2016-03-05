@@ -39,5 +39,4 @@ class LengthUnitKind extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Length Unit Kind';
-
 }

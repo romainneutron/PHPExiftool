@@ -39,5 +39,4 @@ class ReflectedAmbientLight extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Reflected Ambient Light';
-
 }

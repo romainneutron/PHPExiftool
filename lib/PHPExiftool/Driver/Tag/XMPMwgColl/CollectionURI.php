@@ -41,5 +41,4 @@ class CollectionURI extends AbstractTag
     protected $Description = 'Collection URI';
 
     protected $flag_List = true;
-
 }

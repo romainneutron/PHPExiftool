@@ -52,5 +52,4 @@ class ManualFlashStrength extends AbstractTag
             'Label' => 'n/a (x4)',
         ),
     );
-
 }

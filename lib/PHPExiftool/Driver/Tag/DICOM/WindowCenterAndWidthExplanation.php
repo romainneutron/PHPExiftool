@@ -39,5 +39,4 @@ class WindowCenterAndWidthExplanation extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Window Center And Width Explanation';
-
 }

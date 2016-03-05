@@ -39,5 +39,4 @@ class WorldToNDC extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'World To NDC';
-
 }

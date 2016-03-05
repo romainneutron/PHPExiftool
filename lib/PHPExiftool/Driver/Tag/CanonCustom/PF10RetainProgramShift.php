@@ -41,5 +41,4 @@ class PF10RetainProgramShift extends AbstractTag
     protected $Description = 'PF10 Retain Program Shift';
 
     protected $flag_Permanent = true;
-
 }

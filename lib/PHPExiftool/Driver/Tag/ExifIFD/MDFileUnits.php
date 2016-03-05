@@ -41,5 +41,4 @@ class MDFileUnits extends AbstractTag
     protected $Description = 'MD File Units';
 
     protected $local_g1 = 'ExifIFD';
-
 }

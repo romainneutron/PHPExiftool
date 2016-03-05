@@ -120,5 +120,4 @@ class HandlerVendorID extends AbstractTag
             'Label' => 'Sanyo',
         ),
     );
-
 }

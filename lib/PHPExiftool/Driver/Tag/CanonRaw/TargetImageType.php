@@ -52,5 +52,4 @@ class TargetImageType extends AbstractTag
             'Label' => 'Written Document',
         ),
     );
-
 }

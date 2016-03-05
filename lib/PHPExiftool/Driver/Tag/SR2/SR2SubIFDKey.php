@@ -41,5 +41,4 @@ class SR2SubIFDKey extends AbstractTag
     protected $Description = 'SR2 Sub IFD Key';
 
     protected $flag_Permanent = true;
-
 }

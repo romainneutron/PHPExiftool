@@ -68,5 +68,4 @@ class ManualTv extends AbstractTag
             'Label' => 'Tv=Control/Av=Main',
         ),
     );
-
 }

@@ -39,5 +39,4 @@ class SyringeCounts extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Syringe Counts';
-
 }

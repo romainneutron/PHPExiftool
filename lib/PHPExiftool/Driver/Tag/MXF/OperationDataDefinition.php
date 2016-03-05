@@ -39,5 +39,4 @@ class OperationDataDefinition extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Operation Data Definition';
-
 }

@@ -39,5 +39,4 @@ class EnergyWindowTotalWidth extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Energy Window Total Width';
-
 }

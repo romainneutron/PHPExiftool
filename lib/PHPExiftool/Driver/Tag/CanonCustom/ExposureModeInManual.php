@@ -64,5 +64,4 @@ class ExposureModeInManual extends AbstractTag
             'Label' => 'Center-weighted average',
         ),
     );
-
 }

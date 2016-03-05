@@ -39,5 +39,4 @@ class DescriptiveMetadataPlugInID extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Descriptive Metadata Plug-In ID';
-
 }

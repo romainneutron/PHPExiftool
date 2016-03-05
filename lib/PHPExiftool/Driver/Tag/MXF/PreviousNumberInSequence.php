@@ -39,5 +39,4 @@ class PreviousNumberInSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Previous Number In Sequence';
-
 }

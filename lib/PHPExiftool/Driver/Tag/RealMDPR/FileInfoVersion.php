@@ -39,5 +39,4 @@ class FileInfoVersion extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'File Info Version';
-
 }

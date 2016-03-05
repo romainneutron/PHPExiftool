@@ -39,5 +39,4 @@ class FilmFormatName extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Film Format Name';
-
 }

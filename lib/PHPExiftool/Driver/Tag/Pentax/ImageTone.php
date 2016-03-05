@@ -84,5 +84,4 @@ class ImageTone extends AbstractTag
             'Label' => 'Radiant',
         ),
     );
-
 }

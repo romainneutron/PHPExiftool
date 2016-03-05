@@ -54,5 +54,4 @@ class ISOSpeedRange extends AbstractTag
             'Label' => 'Enable',
         ),
     );
-
 }

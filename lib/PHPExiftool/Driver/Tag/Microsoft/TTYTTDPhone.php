@@ -39,5 +39,4 @@ class TTYTTDPhone extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'TTY-TTD Phone';
-
 }

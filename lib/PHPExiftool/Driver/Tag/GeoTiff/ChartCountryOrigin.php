@@ -39,5 +39,4 @@ class ChartCountryOrigin extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Chart Country Origin';
-
 }

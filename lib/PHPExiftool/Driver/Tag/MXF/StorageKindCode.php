@@ -39,5 +39,4 @@ class StorageKindCode extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Storage Kind Code';
-
 }

@@ -52,5 +52,4 @@ class HandlerClass extends AbstractTag
             'Label' => 'Media Handler',
         ),
     );
-
 }

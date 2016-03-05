@@ -41,5 +41,4 @@ class RegionPersonLiveIdCID extends AbstractTag
     protected $Description = 'Region Person Live Id CID';
 
     protected $flag_List = true;
-
 }

@@ -52,5 +52,4 @@ class ColorSpace extends AbstractTag
             'Label' => 'Adobe RGB',
         ),
     );
-
 }

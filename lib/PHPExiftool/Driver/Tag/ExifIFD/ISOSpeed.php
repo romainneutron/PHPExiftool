@@ -41,5 +41,4 @@ class ISOSpeed extends AbstractTag
     protected $Description = 'ISO Speed';
 
     protected $local_g1 = 'ExifIFD';
-
 }

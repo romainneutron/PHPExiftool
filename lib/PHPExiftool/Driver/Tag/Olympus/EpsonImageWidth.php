@@ -41,5 +41,4 @@ class EpsonImageWidth extends AbstractTag
     protected $Description = 'Epson Image Width';
 
     protected $flag_Permanent = true;
-
 }

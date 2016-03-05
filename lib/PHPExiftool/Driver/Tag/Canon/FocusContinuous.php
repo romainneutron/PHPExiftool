@@ -56,5 +56,4 @@ class FocusContinuous extends AbstractTag
             'Label' => 'Manual',
         ),
     );
-
 }

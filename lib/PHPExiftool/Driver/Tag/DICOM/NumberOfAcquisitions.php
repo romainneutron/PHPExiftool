@@ -39,5 +39,4 @@ class NumberOfAcquisitions extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Number Of Acquisitions';
-
 }

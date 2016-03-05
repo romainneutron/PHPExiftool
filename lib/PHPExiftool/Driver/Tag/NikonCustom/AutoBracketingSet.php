@@ -64,5 +64,4 @@ class AutoBracketingSet extends AbstractTag
             'Label' => 'Active D-Lighting',
         ),
     );
-
 }

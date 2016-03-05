@@ -41,5 +41,4 @@ class Index15 extends AbstractTag
     protected $Description = 'Index 15';
 
     protected $flag_Permanent = true;
-
 }

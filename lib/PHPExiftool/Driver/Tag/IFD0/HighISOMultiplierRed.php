@@ -39,5 +39,4 @@ class HighISOMultiplierRed extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'High ISO Multiplier Red';
-
 }

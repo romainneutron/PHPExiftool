@@ -39,5 +39,4 @@ class ApplicationMaximumRepaintTime extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Application Maximum Repaint Time';
-
 }

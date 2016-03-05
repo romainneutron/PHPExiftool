@@ -78,5 +78,4 @@ class Categories extends AbstractTag
             'Label' => 'To Do',
         ),
     );
-
 }

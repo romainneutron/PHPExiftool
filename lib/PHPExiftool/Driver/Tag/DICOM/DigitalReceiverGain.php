@@ -39,5 +39,4 @@ class DigitalReceiverGain extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Digital Receiver Gain';
-
 }

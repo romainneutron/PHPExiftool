@@ -60,5 +60,4 @@ class MacroMode extends AbstractTag
             'Label' => 'Macro Zoom',
         ),
     );
-
 }

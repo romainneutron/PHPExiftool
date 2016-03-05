@@ -39,5 +39,4 @@ class ModifiedType extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Modified Type';
-
 }

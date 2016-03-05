@@ -39,5 +39,4 @@ class FlashPower extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Flash Power';
-
 }

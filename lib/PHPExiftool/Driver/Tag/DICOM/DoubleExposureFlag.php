@@ -39,5 +39,4 @@ class DoubleExposureFlag extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Double Exposure Flag';
-
 }

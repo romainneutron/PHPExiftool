@@ -41,5 +41,4 @@ class SRFocalLength extends AbstractTag
     protected $Description = 'SR Focal Length';
 
     protected $flag_Permanent = true;
-
 }

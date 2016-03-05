@@ -41,5 +41,4 @@ class MDScalePixel extends AbstractTag
     protected $Description = 'MD Scale Pixel';
 
     protected $local_g1 = 'ExifIFD';
-
 }

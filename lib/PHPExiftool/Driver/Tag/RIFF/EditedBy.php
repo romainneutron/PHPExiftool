@@ -39,5 +39,4 @@ class EditedBy extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Edited By';
-
 }

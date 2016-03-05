@@ -39,5 +39,4 @@ class FaceID extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Face ID';
-
 }

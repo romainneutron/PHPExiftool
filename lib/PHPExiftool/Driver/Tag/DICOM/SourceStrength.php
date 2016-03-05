@@ -39,5 +39,4 @@ class SourceStrength extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Source Strength';
-
 }

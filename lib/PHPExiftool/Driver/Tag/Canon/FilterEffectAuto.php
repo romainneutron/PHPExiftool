@@ -68,5 +68,4 @@ class FilterEffectAuto extends AbstractTag
             'Label' => 'Green',
         ),
     );
-
 }

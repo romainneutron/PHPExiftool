@@ -39,5 +39,4 @@ class PostCropVignetteRoundness extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Post Crop Vignette Roundness';
-
 }

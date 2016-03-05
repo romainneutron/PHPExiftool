@@ -39,5 +39,4 @@ class StereoBaselineDisplacement extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Stereo Baseline Displacement';
-
 }

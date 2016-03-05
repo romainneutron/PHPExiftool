@@ -41,5 +41,4 @@ class ColorTempFlash extends AbstractTag
     protected $Description = 'Color Temp Flash';
 
     protected $flag_Permanent = true;
-
 }

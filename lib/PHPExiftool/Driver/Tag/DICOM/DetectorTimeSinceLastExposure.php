@@ -39,5 +39,4 @@ class DetectorTimeSinceLastExposure extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Detector Time Since Last Exposure';
-
 }

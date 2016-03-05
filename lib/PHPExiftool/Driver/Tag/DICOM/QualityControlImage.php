@@ -39,5 +39,4 @@ class QualityControlImage extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Quality Control Image';
-
 }

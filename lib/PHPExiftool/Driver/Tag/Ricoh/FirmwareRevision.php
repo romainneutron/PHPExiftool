@@ -43,5 +43,4 @@ class FirmwareRevision extends AbstractTag
     protected $flag_Permanent = true;
 
     protected $MaxLength = 12;
-
 }

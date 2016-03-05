@@ -39,5 +39,4 @@ class LandscapeRawSharpness extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Landscape Raw Sharpness';
-
 }

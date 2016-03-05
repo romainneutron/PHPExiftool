@@ -64,5 +64,4 @@ class DataImprint extends AbstractTag
             'Label' => 'Text + ID#',
         ),
     );
-
 }

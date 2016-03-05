@@ -132,5 +132,4 @@ class FlashExposureIndicatorLast extends AbstractTag
             'Label' => 'Over Scale',
         ),
     );
-
 }

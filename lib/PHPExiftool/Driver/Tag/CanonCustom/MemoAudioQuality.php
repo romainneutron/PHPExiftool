@@ -52,5 +52,4 @@ class MemoAudioQuality extends AbstractTag
             'Label' => 'Low (8 kHz)',
         ),
     );
-
 }

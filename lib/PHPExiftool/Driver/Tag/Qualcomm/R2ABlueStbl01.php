@@ -41,5 +41,4 @@ class R2ABlueStbl01 extends AbstractTag
     protected $Description = 'R2 A Blue Stbl 01';
 
     protected $flag_Permanent = true;
-
 }

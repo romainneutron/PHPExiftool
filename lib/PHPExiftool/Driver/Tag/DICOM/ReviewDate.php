@@ -39,5 +39,4 @@ class ReviewDate extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Review Date';
-
 }

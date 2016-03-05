@@ -43,5 +43,4 @@ class CameraPartNumber extends AbstractTag
     protected $MaxLength = 'mixed';
 
     protected $local_g2 = 'mixed';
-
 }

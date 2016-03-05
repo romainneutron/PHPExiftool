@@ -39,5 +39,4 @@ class ContrastBolusStopTime extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Contrast Bolus Stop Time';
-
 }

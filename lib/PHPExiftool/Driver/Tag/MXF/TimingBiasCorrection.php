@@ -39,5 +39,4 @@ class TimingBiasCorrection extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Timing Bias Correction';
-
 }

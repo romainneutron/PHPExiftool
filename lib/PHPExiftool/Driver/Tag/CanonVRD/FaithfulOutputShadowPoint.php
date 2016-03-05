@@ -39,5 +39,4 @@ class FaithfulOutputShadowPoint extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Faithful Output Shadow Point';
-
 }

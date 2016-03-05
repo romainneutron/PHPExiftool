@@ -41,5 +41,4 @@ class Manager extends AbstractTag
     protected $Description = 'Manager';
 
     protected $local_g2 = 'Author';
-
 }

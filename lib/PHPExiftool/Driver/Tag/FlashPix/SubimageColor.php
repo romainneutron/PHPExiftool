@@ -90,5 +90,4 @@ class SubimageColor extends AbstractTag
             'Label' => 'RGB with Opacity (uncalibrated)',
         ),
     );
-
 }

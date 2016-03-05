@@ -74,5 +74,4 @@ class Orientation extends AbstractTag
             'Label' => 'Mirror horizontal and rotate 90 CW',
         ),
     );
-
 }

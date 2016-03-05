@@ -39,5 +39,4 @@ class PixelShiftFrameRange extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Pixel Shift Frame Range';
-
 }

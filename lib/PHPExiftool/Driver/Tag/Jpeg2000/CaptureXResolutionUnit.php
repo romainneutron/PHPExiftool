@@ -82,5 +82,4 @@ class CaptureXResolutionUnit extends AbstractTag
             'Label' => 'um',
         ),
     );
-
 }

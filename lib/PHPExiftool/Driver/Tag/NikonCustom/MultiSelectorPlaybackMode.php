@@ -120,5 +120,4 @@ class MultiSelectorPlaybackMode extends AbstractTag
             'Label' => 'Choose Folder',
         ),
     );
-
 }

@@ -39,5 +39,4 @@ class HonorsAndQualifications extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Honors And Qualifications';
-
 }

@@ -41,5 +41,4 @@ class RicohImageWidth extends AbstractTag
     protected $Description = 'Ricoh Image Width';
 
     protected $flag_Permanent = true;
-
 }

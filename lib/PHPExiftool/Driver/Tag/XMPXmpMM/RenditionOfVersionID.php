@@ -39,5 +39,4 @@ class RenditionOfVersionID extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Rendition Of Version ID';
-
 }

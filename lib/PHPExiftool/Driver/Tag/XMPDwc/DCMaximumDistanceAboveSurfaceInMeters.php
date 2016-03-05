@@ -41,5 +41,4 @@ class DCMaximumDistanceAboveSurfaceInMeters extends AbstractTag
     protected $Description = 'DC Maximum Distance Above Surface In Meters';
 
     protected $local_g2 = 'Location';
-
 }

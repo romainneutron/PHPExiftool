@@ -39,5 +39,4 @@ class LUTFrameRange extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'LUT Frame Range';
-
 }

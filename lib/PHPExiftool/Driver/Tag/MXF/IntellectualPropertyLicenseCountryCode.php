@@ -39,5 +39,4 @@ class IntellectualPropertyLicenseCountryCode extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Intellectual Property License Country Code';
-
 }

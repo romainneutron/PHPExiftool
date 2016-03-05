@@ -39,5 +39,4 @@ class GraphicLayer extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Graphic Layer';
-
 }

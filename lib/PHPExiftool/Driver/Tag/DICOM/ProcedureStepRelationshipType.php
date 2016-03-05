@@ -39,5 +39,4 @@ class ProcedureStepRelationshipType extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Procedure Step Relationship Type';
-
 }

@@ -41,5 +41,4 @@ class CoverArt extends AbstractTag
     protected $Description = 'Cover Art';
 
     protected $local_g2 = 'Preview';
-
 }

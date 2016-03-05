@@ -41,5 +41,4 @@ class RunTimeEpoch extends AbstractTag
     protected $Description = 'Run Time Epoch';
 
     protected $flag_Permanent = true;
-
 }

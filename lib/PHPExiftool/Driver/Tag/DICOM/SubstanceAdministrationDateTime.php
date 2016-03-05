@@ -39,5 +39,4 @@ class SubstanceAdministrationDateTime extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Substance Administration Date Time';
-
 }

@@ -39,5 +39,4 @@ class EndCumulativeMetersetWeight extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'End Cumulative Meterset Weight';
-
 }

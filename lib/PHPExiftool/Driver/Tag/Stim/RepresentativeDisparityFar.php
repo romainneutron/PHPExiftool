@@ -39,5 +39,4 @@ class RepresentativeDisparityFar extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Representative Disparity Far';
-
 }

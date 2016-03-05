@@ -41,5 +41,4 @@ class ASF3LowerThreshold extends AbstractTag
     protected $Description = 'ASF3 Lower Threshold';
 
     protected $flag_Permanent = true;
-
 }

@@ -39,5 +39,4 @@ class MeanZError extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Mean Z Error';
-
 }

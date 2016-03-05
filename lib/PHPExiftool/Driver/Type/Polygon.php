@@ -19,5 +19,4 @@ class Polygon extends AbstractType
     protected $ExiftoolName = 'Polygon';
 
     protected $PHPMap = 'string';
-
 }

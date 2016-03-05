@@ -39,5 +39,4 @@ class AcquisitionMatrix extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Acquisition Matrix';
-
 }

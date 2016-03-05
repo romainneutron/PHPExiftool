@@ -39,5 +39,4 @@ class OutputInformationSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Output Information Sequence';
-
 }

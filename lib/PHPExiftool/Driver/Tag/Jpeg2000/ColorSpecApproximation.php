@@ -62,5 +62,4 @@ class ColorSpecApproximation extends AbstractTag
             'Label' => 'Poor Quality',
         ),
     );
-
 }

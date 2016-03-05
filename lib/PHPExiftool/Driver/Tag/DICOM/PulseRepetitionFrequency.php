@@ -39,5 +39,4 @@ class PulseRepetitionFrequency extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Pulse Repetition Frequency';
-
 }

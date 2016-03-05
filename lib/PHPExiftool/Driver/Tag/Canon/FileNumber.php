@@ -45,5 +45,4 @@ class FileNumber extends AbstractTag
     protected $Index = 'mixed';
 
     protected $local_g2 = 'mixed';
-
 }

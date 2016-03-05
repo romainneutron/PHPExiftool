@@ -41,5 +41,4 @@ class UserName extends AbstractTag
     protected $Description = 'User Name';
 
     protected $local_g2 = 'Author';
-
 }

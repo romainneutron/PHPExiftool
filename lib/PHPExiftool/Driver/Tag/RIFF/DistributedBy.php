@@ -39,5 +39,4 @@ class DistributedBy extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Distributed By';
-
 }

@@ -41,5 +41,4 @@ class DigitalROC extends AbstractTag
     protected $Description = 'Digital ROC';
 
     protected $flag_Permanent = true;
-
 }

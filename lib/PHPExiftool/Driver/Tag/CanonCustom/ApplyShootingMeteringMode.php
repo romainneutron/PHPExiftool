@@ -54,5 +54,4 @@ class ApplyShootingMeteringMode extends AbstractTag
             'Label' => 'Enable',
         ),
     );
-
 }

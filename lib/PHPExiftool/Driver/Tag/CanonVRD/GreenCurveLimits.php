@@ -41,5 +41,4 @@ class GreenCurveLimits extends AbstractTag
     protected $Description = 'Green Curve Limits';
 
     protected $MaxLength = 4;
-
 }

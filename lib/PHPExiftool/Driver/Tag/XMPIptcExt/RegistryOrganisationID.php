@@ -41,5 +41,4 @@ class RegistryOrganisationID extends AbstractTag
     protected $Description = 'Registry Organisation ID';
 
     protected $flag_List = true;
-
 }

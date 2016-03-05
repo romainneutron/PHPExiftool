@@ -54,5 +54,4 @@ class ChapterProcessTime extends AbstractTag
             'Label' => 'After Chapter',
         ),
     );
-
 }

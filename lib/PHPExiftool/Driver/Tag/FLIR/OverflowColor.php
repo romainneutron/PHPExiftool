@@ -41,5 +41,4 @@ class OverflowColor extends AbstractTag
     protected $Description = 'Overflow Color';
 
     protected $MaxLength = 3;
-
 }

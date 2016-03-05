@@ -39,5 +39,4 @@ class RotationAngle extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Rotation Angle';
-
 }

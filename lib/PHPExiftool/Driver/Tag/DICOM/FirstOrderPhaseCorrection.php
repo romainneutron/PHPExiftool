@@ -39,5 +39,4 @@ class FirstOrderPhaseCorrection extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'First Order Phase Correction';
-
 }

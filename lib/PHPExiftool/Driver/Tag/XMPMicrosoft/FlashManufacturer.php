@@ -39,5 +39,4 @@ class FlashManufacturer extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Flash Manufacturer';
-
 }

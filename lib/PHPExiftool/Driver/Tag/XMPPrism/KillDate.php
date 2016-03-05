@@ -41,5 +41,4 @@ class KillDate extends AbstractTag
     protected $Description = 'Kill Date';
 
     protected $flag_Avoid = true;
-
 }

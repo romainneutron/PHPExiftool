@@ -52,5 +52,4 @@ class ISOAuto extends AbstractTag
             'Label' => 'On',
         ),
     );
-
 }

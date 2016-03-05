@@ -41,5 +41,4 @@ class Flash extends AbstractTag
     protected $Description = 'Flash';
 
     protected $local_g2 = 'Camera';
-
 }

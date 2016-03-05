@@ -74,5 +74,4 @@ class QuantizationMethod extends AbstractTag
             'Label' => 'Gamma Compensated',
         ),
     );
-
 }

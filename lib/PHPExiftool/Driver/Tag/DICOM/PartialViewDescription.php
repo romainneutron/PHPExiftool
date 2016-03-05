@@ -39,5 +39,4 @@ class PartialViewDescription extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Partial View Description';
-
 }

@@ -39,5 +39,4 @@ class BlockedPixels extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Blocked Pixels';
-
 }

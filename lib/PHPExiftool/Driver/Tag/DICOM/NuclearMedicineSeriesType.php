@@ -39,5 +39,4 @@ class NuclearMedicineSeriesType extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Nuclear Medicine Series Type';
-
 }

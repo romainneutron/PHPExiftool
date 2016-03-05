@@ -60,5 +60,4 @@ class CameraOrientation extends AbstractTag
             'Label' => 'Rotate 180',
         ),
     );
-
 }

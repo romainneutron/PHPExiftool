@@ -39,5 +39,4 @@ class RootMetaDictionary extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Root Meta Dictionary';
-
 }

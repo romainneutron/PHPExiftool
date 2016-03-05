@@ -39,5 +39,4 @@ class DataLength extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Data Length';
-
 }

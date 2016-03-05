@@ -41,5 +41,4 @@ class LicensorTelephone1 extends AbstractTag
     protected $Description = 'Licensor Telephone 1';
 
     protected $flag_List = true;
-
 }

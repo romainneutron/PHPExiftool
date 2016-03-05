@@ -39,5 +39,4 @@ class WMADRCAverageReference extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'WMADRC Average Reference';
-
 }

@@ -39,5 +39,4 @@ class IlluminationWaveLength extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Illumination Wave Length';
-
 }

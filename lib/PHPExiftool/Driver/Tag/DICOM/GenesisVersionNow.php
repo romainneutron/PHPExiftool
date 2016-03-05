@@ -39,5 +39,4 @@ class GenesisVersionNow extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Genesis Version Now';
-
 }

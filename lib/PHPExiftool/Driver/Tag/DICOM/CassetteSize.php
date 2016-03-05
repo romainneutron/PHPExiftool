@@ -39,5 +39,4 @@ class CassetteSize extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Cassette Size';
-
 }

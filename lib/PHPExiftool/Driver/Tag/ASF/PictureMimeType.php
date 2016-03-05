@@ -39,5 +39,4 @@ class PictureMIMEType extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Picture MIME Type';
-
 }

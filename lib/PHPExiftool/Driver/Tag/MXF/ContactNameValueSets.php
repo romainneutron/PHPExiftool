@@ -39,5 +39,4 @@ class ContactNameValueSets extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Contact Name Value Sets';
-
 }

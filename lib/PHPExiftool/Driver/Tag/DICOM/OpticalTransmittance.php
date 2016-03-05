@@ -39,5 +39,4 @@ class OpticalTransmittance extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Optical Transmittance';
-
 }

@@ -41,5 +41,4 @@ class AWBOudorVfeMaxY extends AbstractTag
     protected $Description = 'AWB Oudor Vfe Max Y';
 
     protected $flag_Permanent = true;
-
 }

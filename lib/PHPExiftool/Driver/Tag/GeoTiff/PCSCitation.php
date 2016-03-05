@@ -39,5 +39,4 @@ class PCSCitation extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'PCS Citation';
-
 }

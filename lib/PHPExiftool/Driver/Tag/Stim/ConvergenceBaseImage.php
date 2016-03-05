@@ -54,5 +54,4 @@ class ConvergenceBaseImage extends AbstractTag
             'Label' => 'Equivalent for Both Viewpoints',
         ),
     );
-
 }

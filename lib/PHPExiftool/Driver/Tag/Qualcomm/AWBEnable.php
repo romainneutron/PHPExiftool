@@ -41,5 +41,4 @@ class AWBEnable extends AbstractTag
     protected $Description = 'AWB Enable';
 
     protected $flag_Permanent = true;
-
 }

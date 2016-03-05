@@ -43,5 +43,4 @@ class StripByteCounts extends AbstractTag
     protected $local_g1 = 'ExifIFD';
 
     protected $Index = 'mixed';
-
 }

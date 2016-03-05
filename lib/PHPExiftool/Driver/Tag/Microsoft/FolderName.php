@@ -39,5 +39,4 @@ class FolderName extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Folder Name';
-
 }

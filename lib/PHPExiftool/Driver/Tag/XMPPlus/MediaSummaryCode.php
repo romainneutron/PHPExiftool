@@ -39,5 +39,4 @@ class MediaSummaryCode extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Media Summary Code';
-
 }

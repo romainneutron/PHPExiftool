@@ -50,5 +50,4 @@ class AlphaCompression extends AbstractTag
             'Label' => 'JNG 8-bit Grayscale JDAA',
         ),
     );
-
 }

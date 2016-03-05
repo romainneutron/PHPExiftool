@@ -39,5 +39,4 @@ class DisplaySetPatientOrientation extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Display Set Patient Orientation';
-
 }

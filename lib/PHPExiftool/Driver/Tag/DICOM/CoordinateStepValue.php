@@ -39,5 +39,4 @@ class CoordinateStepValue extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Coordinate Step Value';
-
 }

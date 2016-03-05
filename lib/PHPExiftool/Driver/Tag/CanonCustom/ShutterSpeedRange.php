@@ -54,5 +54,4 @@ class ShutterSpeedRange extends AbstractTag
             'Label' => 'Enable',
         ),
     );
-
 }

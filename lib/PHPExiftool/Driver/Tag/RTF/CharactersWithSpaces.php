@@ -39,5 +39,4 @@ class CharactersWithSpaces extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Characters With Spaces';
-
 }

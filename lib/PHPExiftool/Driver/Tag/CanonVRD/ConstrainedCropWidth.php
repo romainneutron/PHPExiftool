@@ -39,5 +39,4 @@ class ConstrainedCropWidth extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Constrained Crop Width';
-
 }

@@ -140,5 +140,4 @@ class AFPointsSelected extends AbstractTag
             'Label' => '(all)',
         ),
     );
-
 }

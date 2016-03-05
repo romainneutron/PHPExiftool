@@ -41,5 +41,4 @@ class AFPosDefMacro extends AbstractTag
     protected $Description = 'AF Pos Def Macro';
 
     protected $flag_Permanent = true;
-
 }

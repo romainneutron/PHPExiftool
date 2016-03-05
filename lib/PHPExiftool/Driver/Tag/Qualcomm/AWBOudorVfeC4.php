@@ -41,5 +41,4 @@ class AWBOudorVfeC4 extends AbstractTag
     protected $Description = 'AWB Oudor Vfe C4';
 
     protected $flag_Permanent = true;
-
 }

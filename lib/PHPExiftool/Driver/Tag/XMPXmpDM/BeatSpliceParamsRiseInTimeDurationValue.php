@@ -39,5 +39,4 @@ class BeatSpliceParamsRiseInTimeDurationValue extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Beat Splice Params Rise In Time Duration Value';
-
 }

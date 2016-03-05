@@ -52,5 +52,4 @@ class LCHEditor extends AbstractTag
             'Label' => 'On',
         ),
     );
-
 }

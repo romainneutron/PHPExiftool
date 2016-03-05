@@ -41,5 +41,4 @@ class Distributor extends AbstractTag
     protected $Description = 'Distributor';
 
     protected $flag_Avoid = true;
-
 }

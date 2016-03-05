@@ -41,5 +41,4 @@ class RawValueRange extends AbstractTag
     protected $Description = 'Raw Value Range';
 
     protected $local_g2 = 'Image';
-
 }

@@ -39,5 +39,4 @@ class VideoClosedCaptioning extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Video Closed Captioning';
-
 }

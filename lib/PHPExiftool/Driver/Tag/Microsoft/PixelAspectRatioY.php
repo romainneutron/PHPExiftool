@@ -39,5 +39,4 @@ class PixelAspectRatioY extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Pixel Aspect Ratio Y';
-
 }

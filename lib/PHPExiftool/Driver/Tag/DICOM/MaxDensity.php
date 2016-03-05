@@ -39,5 +39,4 @@ class MaxDensity extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Max Density';
-
 }

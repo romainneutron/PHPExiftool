@@ -39,5 +39,4 @@ class MonochromeRawShadowPoint extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Monochrome Raw Shadow Point';
-
 }

@@ -76,5 +76,4 @@ class FlashIntensity extends AbstractTag
             'Label' => 'Strong',
         ),
     );
-
 }

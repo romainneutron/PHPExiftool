@@ -39,5 +39,4 @@ class CaptureFrameRate extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Capture Frame Rate';
-
 }

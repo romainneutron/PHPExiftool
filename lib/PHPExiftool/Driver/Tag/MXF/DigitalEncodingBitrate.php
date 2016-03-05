@@ -39,5 +39,4 @@ class DigitalEncodingBitrate extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Digital Encoding Bitrate';
-
 }

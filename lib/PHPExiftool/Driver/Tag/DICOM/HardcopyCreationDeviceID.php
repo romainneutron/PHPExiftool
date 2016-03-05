@@ -39,5 +39,4 @@ class HardcopyCreationDeviceID extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Hardcopy Creation Device ID';
-
 }

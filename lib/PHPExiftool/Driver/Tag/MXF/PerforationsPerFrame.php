@@ -39,5 +39,4 @@ class PerforationsPerFrame extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Perforations Per Frame';
-
 }

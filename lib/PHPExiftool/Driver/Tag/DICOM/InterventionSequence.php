@@ -39,5 +39,4 @@ class InterventionSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Intervention Sequence';
-
 }

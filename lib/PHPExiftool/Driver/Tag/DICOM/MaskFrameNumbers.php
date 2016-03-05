@@ -39,5 +39,4 @@ class MaskFrameNumbers extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Mask Frame Numbers';
-
 }

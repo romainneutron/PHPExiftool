@@ -41,5 +41,4 @@ class LocalLocationName extends AbstractTag
     protected $Description = 'Local Location Name';
 
     protected $flag_Permanent = true;
-
 }

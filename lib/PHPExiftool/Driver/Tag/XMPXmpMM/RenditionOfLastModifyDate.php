@@ -41,5 +41,4 @@ class RenditionOfLastModifyDate extends AbstractTag
     protected $Description = 'Rendition Of Last Modify Date';
 
     protected $local_g2 = 'Time';
-
 }

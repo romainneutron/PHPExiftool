@@ -39,5 +39,4 @@ class RepeatFractionCycleLength extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Repeat Fraction Cycle Length';
-
 }

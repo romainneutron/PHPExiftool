@@ -41,5 +41,4 @@ class CustomSettingsOffset extends AbstractTag
     protected $Description = 'Custom Settings Offset';
 
     protected $flag_Permanent = true;
-
 }

@@ -39,5 +39,4 @@ class TreatmentSessionIonBeamSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Treatment Session Ion Beam Sequence';
-
 }

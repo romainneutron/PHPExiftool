@@ -52,5 +52,4 @@ class NeutralDensityFilter extends AbstractTag
             'Label' => 'On',
         ),
     );
-
 }

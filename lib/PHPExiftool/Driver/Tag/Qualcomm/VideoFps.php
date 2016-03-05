@@ -41,5 +41,4 @@ class VideoFps extends AbstractTag
     protected $Description = 'Video Fps';
 
     protected $flag_Permanent = true;
-
 }

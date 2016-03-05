@@ -41,5 +41,4 @@ class KodakMake extends AbstractTag
     protected $Description = 'Kodak Make';
 
     protected $flag_Permanent = true;
-
 }

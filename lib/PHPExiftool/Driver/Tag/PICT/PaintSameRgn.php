@@ -39,5 +39,4 @@ class PaintSameRgn extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Paint Same Rgn';
-
 }

@@ -50,5 +50,4 @@ class HDVideo extends AbstractTag
             'Label' => 'Yes',
         ),
     );
-
 }

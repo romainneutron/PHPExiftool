@@ -39,5 +39,4 @@ class ABUID extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'AB UID';
-
 }

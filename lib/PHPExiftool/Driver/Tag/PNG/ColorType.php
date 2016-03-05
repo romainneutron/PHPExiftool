@@ -62,5 +62,4 @@ class ColorType extends AbstractTag
             'Label' => 'RGB with Alpha',
         ),
     );
-
 }

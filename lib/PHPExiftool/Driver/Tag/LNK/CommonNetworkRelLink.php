@@ -39,5 +39,4 @@ class CommonNetworkRelLink extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Common Network Rel Link';
-
 }

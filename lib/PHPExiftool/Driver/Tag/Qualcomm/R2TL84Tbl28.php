@@ -41,5 +41,4 @@ class R2TL84Tbl28 extends AbstractTag
     protected $Description = 'R2 TL84 Tbl 28';
 
     protected $flag_Permanent = true;
-
 }

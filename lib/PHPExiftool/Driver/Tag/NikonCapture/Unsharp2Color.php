@@ -72,5 +72,4 @@ class Unsharp2Color extends AbstractTag
             'Label' => 'Cyan',
         ),
     );
-
 }

@@ -39,5 +39,4 @@ class CenterOfRotationOffset extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Center Of Rotation Offset';
-
 }

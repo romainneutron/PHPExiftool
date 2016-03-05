@@ -39,5 +39,4 @@ class Action extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Action';
-
 }

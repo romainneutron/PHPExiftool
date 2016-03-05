@@ -41,5 +41,4 @@ class PanoramaFullHeight extends AbstractTag
     protected $Description = 'Panorama Full Height';
 
     protected $flag_Permanent = true;
-
 }

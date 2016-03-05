@@ -39,5 +39,4 @@ class ProjCenterLong extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Proj Center Long';
-
 }

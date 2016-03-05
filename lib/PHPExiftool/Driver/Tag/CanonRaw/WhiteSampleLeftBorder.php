@@ -41,5 +41,4 @@ class WhiteSampleLeftBorder extends AbstractTag
     protected $Description = 'White Sample Left Border';
 
     protected $flag_Permanent = true;
-
 }

@@ -39,5 +39,4 @@ class WMProvider extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'WM Provider';
-
 }

@@ -41,5 +41,4 @@ class ExposureValue extends AbstractTag
     protected $Description = 'Exposure Value';
 
     protected $flag_Permanent = true;
-
 }

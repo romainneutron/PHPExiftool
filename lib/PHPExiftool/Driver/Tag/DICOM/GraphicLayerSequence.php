@@ -39,5 +39,4 @@ class GraphicLayerSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Graphic Layer Sequence';
-
 }

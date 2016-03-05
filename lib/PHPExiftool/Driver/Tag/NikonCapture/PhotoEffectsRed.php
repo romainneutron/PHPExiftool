@@ -41,5 +41,4 @@ class PhotoEffectsRed extends AbstractTag
     protected $Description = 'Photo Effects Red';
 
     protected $flag_Permanent = true;
-
 }

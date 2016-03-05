@@ -39,5 +39,4 @@ class DiffusionBMatrixSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Diffusion B Matrix Sequence';
-
 }

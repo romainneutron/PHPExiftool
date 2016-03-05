@@ -41,5 +41,4 @@ class GDALNoData extends AbstractTag
     protected $Description = 'GDAL No Data';
 
     protected $local_g1 = 'ExifIFD';
-
 }

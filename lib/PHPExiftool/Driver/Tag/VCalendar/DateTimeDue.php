@@ -41,5 +41,4 @@ class DateTimeDue extends AbstractTag
     protected $Description = 'Date Time Due';
 
     protected $local_g2 = 'Time';
-
 }

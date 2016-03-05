@@ -39,5 +39,4 @@ class CCDVideoRect extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'CCD Video Rect';
-
 }

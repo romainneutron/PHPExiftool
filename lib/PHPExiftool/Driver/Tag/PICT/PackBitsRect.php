@@ -39,5 +39,4 @@ class PackBitsRect extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Packed CopyBits with Clipped Rectangle';
-
 }

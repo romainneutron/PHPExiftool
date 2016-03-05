@@ -39,5 +39,4 @@ class CameraOwner extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Camera Owner';
-
 }

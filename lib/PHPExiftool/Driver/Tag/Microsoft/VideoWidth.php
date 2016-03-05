@@ -39,5 +39,4 @@ class VideoWidth extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Video Width';
-
 }

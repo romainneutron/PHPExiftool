@@ -39,5 +39,4 @@ class FirstLanguage extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'First Language';
-
 }

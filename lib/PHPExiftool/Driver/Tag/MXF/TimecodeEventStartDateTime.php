@@ -41,5 +41,4 @@ class TimecodeEventStartDateTime extends AbstractTag
     protected $Description = 'Timecode Event Start Date Time';
 
     protected $local_g2 = 'Time';
-
 }

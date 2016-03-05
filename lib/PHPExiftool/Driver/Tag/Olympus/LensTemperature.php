@@ -41,5 +41,4 @@ class LensTemperature extends AbstractTag
     protected $Description = 'Lens Temperature';
 
     protected $flag_Permanent = true;
-
 }

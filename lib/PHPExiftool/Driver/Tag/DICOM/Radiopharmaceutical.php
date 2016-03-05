@@ -39,5 +39,4 @@ class Radiopharmaceutical extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Radiopharmaceutical';
-
 }

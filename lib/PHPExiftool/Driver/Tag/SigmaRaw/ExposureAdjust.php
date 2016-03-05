@@ -39,5 +39,4 @@ class ExposureAdjust extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Exposure Adjust';
-
 }

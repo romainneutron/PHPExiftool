@@ -39,5 +39,4 @@ class LinkedDescriptiveObjectPlugInID extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Linked Descriptive Object Plug-In ID';
-
 }

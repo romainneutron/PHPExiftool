@@ -39,5 +39,4 @@ class SaturationAdj extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Saturation Adj';
-
 }

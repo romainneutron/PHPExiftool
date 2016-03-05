@@ -41,5 +41,4 @@ class AsShotPreProfileMatrix extends AbstractTag
     protected $Description = 'As Shot Pre Profile Matrix';
 
     protected $flag_Unsafe = true;
-
 }

@@ -41,5 +41,4 @@ class ProfileCopyright extends AbstractTag
     protected $Description = 'Profile Copyright';
 
     protected $flag_Unsafe = true;
-
 }

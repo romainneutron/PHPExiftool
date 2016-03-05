@@ -39,5 +39,4 @@ class LameLowPassFilter extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Lame Low Pass Filter';
-
 }

@@ -39,5 +39,4 @@ class MeasurementOrFact extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Measurement Or Fact';
-
 }

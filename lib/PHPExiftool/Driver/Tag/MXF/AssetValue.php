@@ -39,5 +39,4 @@ class AssetValue extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Asset Value';
-
 }

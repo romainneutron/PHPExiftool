@@ -41,5 +41,4 @@ class Date extends AbstractTag
     protected $Description = 'Date';
 
     protected $local_g2 = 'Time';
-
 }

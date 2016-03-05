@@ -56,5 +56,4 @@ class LateralChromaticAberration extends AbstractTag
             'Label' => 'n/a',
         ),
     );
-
 }

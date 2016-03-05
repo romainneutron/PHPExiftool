@@ -39,5 +39,4 @@ class ElementLength extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Element Length';
-
 }

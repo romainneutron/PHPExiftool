@@ -39,5 +39,4 @@ class CRDInfo extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'CRD Info';
-
 }

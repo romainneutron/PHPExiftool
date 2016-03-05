@@ -39,5 +39,4 @@ class CTBoneNumber extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'CT Bone Number';
-
 }

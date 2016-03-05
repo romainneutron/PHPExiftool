@@ -41,5 +41,4 @@ class ImageTemperatureMin extends AbstractTag
     protected $Description = 'Image Temperature Min';
 
     protected $flag_Permanent = true;
-
 }

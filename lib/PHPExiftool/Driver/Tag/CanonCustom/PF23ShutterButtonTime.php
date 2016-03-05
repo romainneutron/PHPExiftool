@@ -41,5 +41,4 @@ class PF23ShutterButtonTime extends AbstractTag
     protected $Description = 'PF23 Shutter Button Time';
 
     protected $flag_Permanent = true;
-
 }

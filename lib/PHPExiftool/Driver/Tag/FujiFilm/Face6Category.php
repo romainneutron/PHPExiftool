@@ -56,5 +56,4 @@ class Face6Category extends AbstractTag
             'Label' => 'Friend',
         ),
     );
-
 }

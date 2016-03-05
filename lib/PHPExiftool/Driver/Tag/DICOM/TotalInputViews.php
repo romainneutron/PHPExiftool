@@ -39,5 +39,4 @@ class TotalInputViews extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Total Input Views';
-
 }

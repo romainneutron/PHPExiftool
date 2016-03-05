@@ -39,5 +39,4 @@ class Approved extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Approved';
-
 }

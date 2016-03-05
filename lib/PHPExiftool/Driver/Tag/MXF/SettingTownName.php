@@ -39,5 +39,4 @@ class SettingTownName extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Setting Town Name';
-
 }

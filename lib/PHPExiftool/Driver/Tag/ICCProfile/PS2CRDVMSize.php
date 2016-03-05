@@ -39,5 +39,4 @@ class PS2CRDVMSize extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'PS2 CRDVM Size';
-
 }

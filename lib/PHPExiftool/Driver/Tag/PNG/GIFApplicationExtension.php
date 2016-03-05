@@ -41,5 +41,4 @@ class GIFApplicationExtension extends AbstractTag
     protected $Description = 'GIF Application Extension';
 
     protected $flag_Binary = true;
-
 }

@@ -444,5 +444,4 @@ class CPUSubtype extends AbstractTag
             'Label' => 'VEO 2',
         ),
     );
-
 }

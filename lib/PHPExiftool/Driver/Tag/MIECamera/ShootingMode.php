@@ -39,5 +39,4 @@ class ShootingMode extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Shooting Mode';
-
 }

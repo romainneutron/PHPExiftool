@@ -39,5 +39,4 @@ class AudioQualitySetting extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Audio Quality Setting';
-
 }

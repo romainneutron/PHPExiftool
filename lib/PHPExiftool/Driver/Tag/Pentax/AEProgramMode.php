@@ -164,5 +164,4 @@ class AEProgramMode extends AbstractTag
             'Label' => 'HDR',
         ),
     );
-
 }

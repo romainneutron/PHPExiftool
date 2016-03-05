@@ -162,5 +162,4 @@ class FlashSyncSpeedAv extends AbstractTag
     );
 
     protected $Index = 'mixed';
-
 }

@@ -39,5 +39,4 @@ class Quality extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Quality';
-
 }

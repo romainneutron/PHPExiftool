@@ -39,5 +39,4 @@ class CommunicationSets extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Communication Sets';
-
 }

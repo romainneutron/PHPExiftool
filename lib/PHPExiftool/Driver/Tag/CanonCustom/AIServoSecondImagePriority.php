@@ -56,5 +56,4 @@ class AIServoSecondImagePriority extends AbstractTag
             'Label' => 'Focus priority',
         ),
     );
-
 }

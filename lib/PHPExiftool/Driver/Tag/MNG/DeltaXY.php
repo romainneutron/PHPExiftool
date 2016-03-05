@@ -41,5 +41,4 @@ class DeltaXY extends AbstractTag
     protected $Description = 'Delta XY';
 
     protected $MaxLength = 2;
-
 }

@@ -41,5 +41,4 @@ class WBMode extends AbstractTag
     protected $Description = 'WB Mode';
 
     protected $flag_Permanent = true;
-
 }

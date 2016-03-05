@@ -39,5 +39,4 @@ class ProjAzimuthAngle extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Proj Azimuth Angle';
-
 }

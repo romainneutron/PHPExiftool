@@ -39,5 +39,4 @@ class SurfaceEntryPoint extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Surface Entry Point';
-
 }

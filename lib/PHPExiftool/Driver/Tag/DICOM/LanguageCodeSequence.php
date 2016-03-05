@@ -39,5 +39,4 @@ class LanguageCodeSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Language Code Sequence';
-
 }

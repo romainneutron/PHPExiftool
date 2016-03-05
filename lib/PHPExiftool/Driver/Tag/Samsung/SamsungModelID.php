@@ -196,5 +196,4 @@ class SamsungModelID extends AbstractTag
             'Label' => 'SMX-C20N',
         ),
     );
-
 }

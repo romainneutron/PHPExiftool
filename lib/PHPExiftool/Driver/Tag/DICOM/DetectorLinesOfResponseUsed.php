@@ -39,5 +39,4 @@ class DetectorLinesOfResponseUsed extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Detector Lines Of Response Used';
-
 }

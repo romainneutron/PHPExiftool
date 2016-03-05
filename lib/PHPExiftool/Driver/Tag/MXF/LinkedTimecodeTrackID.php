@@ -39,5 +39,4 @@ class LinkedTimecodeTrackID extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Linked Timecode Track ID';
-
 }

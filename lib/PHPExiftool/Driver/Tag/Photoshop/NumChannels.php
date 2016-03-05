@@ -39,5 +39,4 @@ class NumChannels extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Num Channels';
-
 }

@@ -39,5 +39,4 @@ class ScreenMinimumGrayscaleBitDepth extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Screen Minimum Grayscale Bit Depth';
-
 }

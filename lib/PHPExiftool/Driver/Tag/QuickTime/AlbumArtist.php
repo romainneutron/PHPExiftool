@@ -41,5 +41,4 @@ class AlbumArtist extends AbstractTag
     protected $Description = 'Album Artist';
 
     protected $local_g2 = 'Author';
-
 }

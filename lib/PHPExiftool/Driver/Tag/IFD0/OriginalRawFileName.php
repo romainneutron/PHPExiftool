@@ -41,5 +41,4 @@ class OriginalRawFileName extends AbstractTag
     protected $Description = 'Original Raw File Name';
 
     protected $flag_Unsafe = true;
-
 }

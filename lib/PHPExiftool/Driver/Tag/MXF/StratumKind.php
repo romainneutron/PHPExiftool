@@ -39,5 +39,4 @@ class StratumKind extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Stratum Kind';
-
 }

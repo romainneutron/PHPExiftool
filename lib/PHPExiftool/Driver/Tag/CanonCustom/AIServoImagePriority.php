@@ -60,5 +60,4 @@ class AIServoImagePriority extends AbstractTag
             'Label' => '1: Release, 2: Tracking',
         ),
     );
-
 }

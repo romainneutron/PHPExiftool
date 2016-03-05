@@ -39,5 +39,4 @@ class SamplingHierarchyCode extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Sampling Hierarchy Code';
-
 }

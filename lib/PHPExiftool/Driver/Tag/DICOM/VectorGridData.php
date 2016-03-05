@@ -39,5 +39,4 @@ class VectorGridData extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Vector Grid Data';
-
 }

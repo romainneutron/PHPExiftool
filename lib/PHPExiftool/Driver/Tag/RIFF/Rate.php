@@ -41,5 +41,4 @@ class Rate extends AbstractTag
     protected $Description = 'Rate';
 
     protected $local_g2 = 'Video';
-
 }

@@ -39,5 +39,4 @@ class SignificantBits extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Significant Bits';
-
 }

@@ -39,5 +39,4 @@ class XRayOutput extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'X Ray Output';
-
 }

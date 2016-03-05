@@ -39,5 +39,4 @@ class ReferencedOverlayPlaneSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Referenced Overlay Plane Sequence';
-
 }

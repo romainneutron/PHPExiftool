@@ -50,5 +50,4 @@ class MoireFilter extends AbstractTag
             'Label' => 'On',
         ),
     );
-
 }

@@ -39,5 +39,4 @@ class RemoveHistoryDuplicates extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Remove History Duplicates';
-
 }

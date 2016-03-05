@@ -52,5 +52,4 @@ class Curves extends AbstractTag
             'Label' => 'On',
         ),
     );
-
 }

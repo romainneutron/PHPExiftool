@@ -39,5 +39,4 @@ class AlbumCoverURL extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Album Cover URL';
-
 }

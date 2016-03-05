@@ -41,5 +41,4 @@ class Person extends AbstractTag
     protected $Description = 'Person';
 
     protected $flag_Avoid = true;
-
 }

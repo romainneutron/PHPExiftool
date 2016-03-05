@@ -41,5 +41,4 @@ class DigitalFilter extends AbstractTag
     protected $Description = 'Digital Filter';
 
     protected $flag_Permanent = true;
-
 }

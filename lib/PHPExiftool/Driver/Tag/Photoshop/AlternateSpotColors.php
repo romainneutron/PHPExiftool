@@ -39,5 +39,4 @@ class AlternateSpotColors extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Alternate Spot Colors';
-
 }

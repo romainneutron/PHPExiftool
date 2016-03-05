@@ -39,5 +39,4 @@ class ViewportImageCenterCCoordinate extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Viewport Image Center C Coordinate';
-
 }

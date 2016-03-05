@@ -41,5 +41,4 @@ class ToneCurveTable extends AbstractTag
     protected $Description = 'Tone Curve Table';
 
     protected $flag_Permanent = true;
-
 }

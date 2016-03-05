@@ -39,5 +39,4 @@ class WindowsAtomInvocationFlags extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Windows Atom Invocation Flags';
-
 }

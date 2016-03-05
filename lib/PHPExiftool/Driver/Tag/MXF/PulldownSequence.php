@@ -39,5 +39,4 @@ class PulldownSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Pulldown Sequence';
-
 }

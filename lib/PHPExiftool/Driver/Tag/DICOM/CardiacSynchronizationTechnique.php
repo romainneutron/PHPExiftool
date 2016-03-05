@@ -39,5 +39,4 @@ class CardiacSynchronizationTechnique extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Cardiac Synchronization Technique';
-
 }

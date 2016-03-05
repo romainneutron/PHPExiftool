@@ -39,5 +39,4 @@ class ExposureTimeInMicroSec extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Exposure Time In Micro Sec';
-
 }

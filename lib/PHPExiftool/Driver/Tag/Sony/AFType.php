@@ -56,5 +56,4 @@ class AFType extends AbstractTag
             'Label' => '79-point',
         ),
     );
-
 }

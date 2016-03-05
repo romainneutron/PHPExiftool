@@ -39,5 +39,4 @@ class PartOfSet extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Part Of Set';
-
 }

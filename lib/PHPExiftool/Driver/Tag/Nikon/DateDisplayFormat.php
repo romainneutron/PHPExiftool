@@ -56,5 +56,4 @@ class DateDisplayFormat extends AbstractTag
             'Label' => 'D/M/Y',
         ),
     );
-
 }

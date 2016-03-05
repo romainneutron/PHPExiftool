@@ -41,5 +41,4 @@ class HJRMaxNumFrames extends AbstractTag
     protected $Description = 'HJR Max Num Frames';
 
     protected $flag_Permanent = true;
-
 }

@@ -41,5 +41,4 @@ class PageImageWidth extends AbstractTag
     protected $Description = 'Page Image Width';
 
     protected $flag_List = true;
-
 }

@@ -39,5 +39,4 @@ class SoftTissueSurfaceThermalIndex extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Soft Tissue Surface Thermal Index';
-
 }

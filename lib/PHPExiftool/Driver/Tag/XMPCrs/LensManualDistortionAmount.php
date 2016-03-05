@@ -39,5 +39,4 @@ class LensManualDistortionAmount extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Lens Manual Distortion Amount';
-
 }

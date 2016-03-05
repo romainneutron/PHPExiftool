@@ -39,5 +39,4 @@ class CameraArrangementInterval extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Camera Arrangement Interval';
-
 }

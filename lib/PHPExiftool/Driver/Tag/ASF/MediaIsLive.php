@@ -39,5 +39,4 @@ class MediaIsLive extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Media Is Live';
-
 }

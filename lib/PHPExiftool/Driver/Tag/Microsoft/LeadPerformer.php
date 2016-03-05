@@ -39,5 +39,4 @@ class LeadPerformer extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Lead Performer';
-
 }

@@ -41,5 +41,4 @@ class ContributedMediaTrack extends AbstractTag
     protected $Description = 'Contributed Media Track';
 
     protected $flag_List = true;
-
 }

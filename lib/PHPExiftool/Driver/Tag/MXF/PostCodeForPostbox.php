@@ -39,5 +39,4 @@ class PostCodeForPostbox extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Post Code For Postbox';
-
 }

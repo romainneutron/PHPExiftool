@@ -39,5 +39,4 @@ class RealWorldValueSlope extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Real World Value Slope';
-
 }

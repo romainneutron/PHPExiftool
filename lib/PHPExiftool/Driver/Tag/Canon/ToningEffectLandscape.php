@@ -48,5 +48,4 @@ class ToningEffectLandscape extends AbstractTag
             'Label' => 'n/a',
         ),
     );
-
 }

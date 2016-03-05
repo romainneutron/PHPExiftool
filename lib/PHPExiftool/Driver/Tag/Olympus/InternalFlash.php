@@ -60,5 +60,4 @@ class InternalFlash extends AbstractTag
             'Label' => 'On',
         ),
     );
-
 }

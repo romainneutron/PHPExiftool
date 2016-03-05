@@ -39,5 +39,4 @@ class BaselineLength extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Baseline Length';
-
 }

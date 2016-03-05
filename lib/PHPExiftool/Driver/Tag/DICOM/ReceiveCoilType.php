@@ -39,5 +39,4 @@ class ReceiveCoilType extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Receive Coil Type';
-
 }

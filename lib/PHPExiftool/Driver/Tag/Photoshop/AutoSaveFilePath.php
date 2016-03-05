@@ -39,5 +39,4 @@ class AutoSaveFilePath extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Auto Save File Path';
-
 }

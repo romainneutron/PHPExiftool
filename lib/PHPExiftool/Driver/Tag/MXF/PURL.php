@@ -39,5 +39,4 @@ class PURL extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'PURL';
-
 }

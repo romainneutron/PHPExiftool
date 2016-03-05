@@ -60,5 +60,4 @@ class VignetteControl extends AbstractTag
             'Label' => 'High',
         ),
     );
-
 }

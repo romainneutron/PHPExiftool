@@ -39,5 +39,4 @@ class FixedArrayElementType extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Fixed Array Element Type';
-
 }

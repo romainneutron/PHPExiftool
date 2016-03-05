@@ -39,5 +39,4 @@ class CustomUnsharpMaskThreshold extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Custom Unsharp Mask Threshold';
-
 }

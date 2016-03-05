@@ -41,5 +41,4 @@ class SignatureUsageRights extends AbstractTag
     protected $Description = 'Signature Usage Rights';
 
     protected $flag_List = true;
-
 }

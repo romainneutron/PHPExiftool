@@ -39,5 +39,4 @@ class Profile1Width extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Profile 1 Width';
-
 }

@@ -60,5 +60,4 @@ class AutoISO extends AbstractTag
             'Label' => 'On',
         ),
     );
-
 }

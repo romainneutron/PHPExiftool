@@ -39,5 +39,4 @@ class OrganizationIDKind extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Organization ID Kind';
-
 }

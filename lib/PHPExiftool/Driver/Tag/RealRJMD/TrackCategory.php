@@ -39,5 +39,4 @@ class TrackCategory extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Track Category';
-
 }

@@ -39,5 +39,4 @@ class AudioBitsPerSample extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Audio Bits Per Sample';
-
 }

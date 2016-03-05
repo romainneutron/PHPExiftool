@@ -39,5 +39,4 @@ class DataPathAssignment extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Data Path Assignment';
-
 }

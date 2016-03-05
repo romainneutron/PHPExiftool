@@ -64,5 +64,4 @@ class RawDevPictureMode extends AbstractTag
             'Label' => 'Sepia',
         ),
     );
-
 }

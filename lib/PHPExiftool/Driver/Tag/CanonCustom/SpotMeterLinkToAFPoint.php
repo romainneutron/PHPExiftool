@@ -52,5 +52,4 @@ class SpotMeterLinkToAFPoint extends AbstractTag
             'Label' => 'Enable (use active AF point)',
         ),
     );
-
 }

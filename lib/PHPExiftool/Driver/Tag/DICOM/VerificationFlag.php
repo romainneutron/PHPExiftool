@@ -39,5 +39,4 @@ class VerificationFlag extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Verification Flag';
-
 }

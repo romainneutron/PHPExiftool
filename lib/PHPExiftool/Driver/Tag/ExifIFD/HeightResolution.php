@@ -41,5 +41,4 @@ class HeightResolution extends AbstractTag
     protected $Description = 'Height Resolution';
 
     protected $local_g1 = 'ExifIFD';
-
 }

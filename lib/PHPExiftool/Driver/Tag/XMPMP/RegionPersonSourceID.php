@@ -41,5 +41,4 @@ class RegionPersonSourceID extends AbstractTag
     protected $Description = 'Region Person Source ID';
 
     protected $flag_List = true;
-
 }

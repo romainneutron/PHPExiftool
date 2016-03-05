@@ -41,5 +41,4 @@ class About extends AbstractTag
     protected $Description = 'About';
 
     protected $flag_Unsafe = true;
-
 }

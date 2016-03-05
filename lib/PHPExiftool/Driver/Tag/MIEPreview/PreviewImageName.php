@@ -39,5 +39,4 @@ class PreviewImageName extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Preview Image Name';
-
 }

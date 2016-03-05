@@ -39,5 +39,4 @@ class GrayScale extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Gray Scale';
-
 }

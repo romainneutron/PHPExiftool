@@ -39,5 +39,4 @@ class CTTableDynamicsSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'CT Table Dynamics Sequence';
-
 }

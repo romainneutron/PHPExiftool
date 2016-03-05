@@ -39,5 +39,4 @@ class AlgorithmVersion extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Algorithm Version';
-
 }

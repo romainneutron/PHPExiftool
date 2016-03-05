@@ -41,5 +41,4 @@ class ColorBW extends AbstractTag
     protected $Description = 'Color BW';
 
     protected $flag_Permanent = true;
-
 }

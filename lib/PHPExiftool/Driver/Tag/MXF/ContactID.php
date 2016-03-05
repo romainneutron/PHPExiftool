@@ -39,5 +39,4 @@ class ContactID extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Contact ID';
-
 }

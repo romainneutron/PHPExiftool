@@ -39,5 +39,4 @@ class IssueDateOfImagingServiceRequest extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Issue Date Of Imaging Service Request';
-
 }

@@ -41,5 +41,4 @@ class BracketShotNumber extends AbstractTag
     protected $Description = 'Bracket Shot Number';
 
     protected $flag_Permanent = true;
-
 }

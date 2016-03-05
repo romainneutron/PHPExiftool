@@ -39,5 +39,4 @@ class ContentScriptType extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Content Script Type';
-
 }

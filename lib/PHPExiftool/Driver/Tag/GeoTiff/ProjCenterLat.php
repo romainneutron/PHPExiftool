@@ -39,5 +39,4 @@ class ProjCenterLat extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Proj Center Lat';
-
 }

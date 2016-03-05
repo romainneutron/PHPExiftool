@@ -46,5 +46,4 @@ class APP14Flags1 extends AbstractTag
             'Label' => '(none)',
         ),
     );
-
 }

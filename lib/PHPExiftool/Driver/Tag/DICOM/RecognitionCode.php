@@ -39,5 +39,4 @@ class RecognitionCode extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Recognition Code';
-
 }

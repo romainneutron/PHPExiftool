@@ -41,5 +41,4 @@ class VideoSize extends AbstractTag
     protected $Description = 'Video Size';
 
     protected $MaxLength = 2;
-
 }

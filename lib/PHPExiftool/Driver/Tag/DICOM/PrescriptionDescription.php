@@ -39,5 +39,4 @@ class PrescriptionDescription extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Prescription Description';
-
 }

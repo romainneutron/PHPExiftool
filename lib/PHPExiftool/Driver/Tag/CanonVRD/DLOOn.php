@@ -50,5 +50,4 @@ class DLOOn extends AbstractTag
             'Label' => 'Yes',
         ),
     );
-
 }

@@ -41,5 +41,4 @@ class ShotNumberSincePowerUp extends AbstractTag
     protected $Description = 'Shot Number Since Power Up';
 
     protected $flag_Permanent = true;
-
 }

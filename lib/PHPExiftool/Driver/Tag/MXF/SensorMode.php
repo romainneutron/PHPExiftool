@@ -39,5 +39,4 @@ class SensorMode extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Sensor Mode';
-
 }

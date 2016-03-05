@@ -41,5 +41,4 @@ class DistortionCorrParams extends AbstractTag
     protected $Description = 'Distortion Corr Params';
 
     protected $local_g1 = 'ExifIFD';
-
 }

@@ -39,5 +39,4 @@ class DecayCorrectionDateTime extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Decay Correction Date Time';
-
 }

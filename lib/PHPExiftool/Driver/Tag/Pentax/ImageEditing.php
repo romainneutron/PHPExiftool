@@ -82,5 +82,4 @@ class ImageEditing extends AbstractTag
             'Label' => 'Frame Synthesis?',
         ),
     );
-
 }

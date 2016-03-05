@@ -41,5 +41,4 @@ class SensorImageWidth extends AbstractTag
     protected $Description = 'Sensor Image Width';
 
     protected $flag_Permanent = true;
-
 }

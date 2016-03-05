@@ -39,5 +39,4 @@ class IPTCImageWidth extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'IPTC Image Width';
-
 }

@@ -104,5 +104,4 @@ class Rotation extends AbstractTag
             'Label' => 'Rotate 90 CW',
         ),
     );
-
 }

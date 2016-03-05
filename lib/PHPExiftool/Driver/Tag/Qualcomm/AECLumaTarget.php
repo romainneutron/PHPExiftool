@@ -41,5 +41,4 @@ class AECLumaTarget extends AbstractTag
     protected $Description = 'AEC Luma Target';
 
     protected $flag_Permanent = true;
-
 }

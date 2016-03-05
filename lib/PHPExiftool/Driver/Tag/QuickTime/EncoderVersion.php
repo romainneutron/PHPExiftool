@@ -39,5 +39,4 @@ class EncoderVersion extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Encoder Version';
-
 }

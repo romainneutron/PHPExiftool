@@ -39,5 +39,4 @@ class TicksPerSecond extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Ticks Per Second';
-
 }

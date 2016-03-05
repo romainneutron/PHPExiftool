@@ -41,5 +41,4 @@ class RawDevWBFineAdjustment extends AbstractTag
     protected $Description = 'Raw Dev WB Fine Adjustment';
 
     protected $flag_Permanent = true;
-
 }

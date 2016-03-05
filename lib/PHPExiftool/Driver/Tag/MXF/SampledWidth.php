@@ -39,5 +39,4 @@ class SampledWidth extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Sampled Width';
-
 }

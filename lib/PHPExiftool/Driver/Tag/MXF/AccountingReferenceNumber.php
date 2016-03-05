@@ -39,5 +39,4 @@ class AccountingReferenceNumber extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Accounting Reference Number';
-
 }

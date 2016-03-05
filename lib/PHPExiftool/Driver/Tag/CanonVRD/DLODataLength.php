@@ -39,5 +39,4 @@ class DLODataLength extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'DLO Data Length';
-
 }

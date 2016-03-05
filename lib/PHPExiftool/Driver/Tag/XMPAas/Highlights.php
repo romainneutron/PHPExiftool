@@ -41,5 +41,4 @@ class Highlights extends AbstractTag
     protected $Description = 'Highlights';
 
     protected $flag_Avoid = true;
-
 }

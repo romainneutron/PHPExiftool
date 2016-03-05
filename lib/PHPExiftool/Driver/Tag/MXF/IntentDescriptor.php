@@ -39,5 +39,4 @@ class IntentDescriptor extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Intent Descriptor';
-
 }

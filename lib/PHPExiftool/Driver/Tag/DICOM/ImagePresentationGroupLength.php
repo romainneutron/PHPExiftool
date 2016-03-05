@@ -39,5 +39,4 @@ class ImagePresentationGroupLength extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Image Presentation Group Length';
-
 }

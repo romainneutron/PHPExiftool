@@ -41,5 +41,4 @@ class UserDataUid extends AbstractTag
     protected $Description = 'User Data uid';
 
     protected $flag_Binary = true;
-
 }

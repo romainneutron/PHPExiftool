@@ -39,5 +39,4 @@ class MediaDuration extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Media Duration';
-
 }

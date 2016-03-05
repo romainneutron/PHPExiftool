@@ -76,5 +76,4 @@ class OriginPlatform extends AbstractTag
             'Label' => 'Web',
         ),
     );
-
 }

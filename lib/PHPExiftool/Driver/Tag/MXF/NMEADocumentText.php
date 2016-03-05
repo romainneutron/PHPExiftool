@@ -39,5 +39,4 @@ class NMEADocumentText extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'NMEA Document Text';
-
 }

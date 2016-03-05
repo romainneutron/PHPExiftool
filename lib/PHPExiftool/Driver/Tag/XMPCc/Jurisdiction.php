@@ -39,5 +39,4 @@ class Jurisdiction extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Jurisdiction';
-
 }

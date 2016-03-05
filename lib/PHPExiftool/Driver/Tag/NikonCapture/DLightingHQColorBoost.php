@@ -41,5 +41,4 @@ class DLightingHQColorBoost extends AbstractTag
     protected $Description = 'D-Lighting HQ Color Boost';
 
     protected $flag_Permanent = true;
-
 }

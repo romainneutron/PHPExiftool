@@ -39,5 +39,4 @@ class OpenWithApplication extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Open With Application';
-
 }

@@ -39,5 +39,4 @@ class ChartSourceDate extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Chart Source Date';
-
 }

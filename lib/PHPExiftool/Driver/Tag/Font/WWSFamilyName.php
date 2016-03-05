@@ -39,5 +39,4 @@ class WWSFamilyName extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'WWS Family Name';
-
 }

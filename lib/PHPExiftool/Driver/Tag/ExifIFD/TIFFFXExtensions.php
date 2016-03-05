@@ -64,5 +64,4 @@ class TIFFFXExtensions extends AbstractTag
             'Label' => 'JBIG2 Profile M',
         ),
     );
-
 }

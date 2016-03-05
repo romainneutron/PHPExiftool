@@ -46,5 +46,4 @@ class SaturationRenderingIntentGamut extends AbstractTag
             'Label' => 'Perceptual Reference Medium Gamut',
         ),
     );
-
 }

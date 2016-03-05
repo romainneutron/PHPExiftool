@@ -41,5 +41,4 @@ class InternalFlashTable extends AbstractTag
     protected $Description = 'Internal Flash Table';
 
     protected $flag_Permanent = true;
-
 }

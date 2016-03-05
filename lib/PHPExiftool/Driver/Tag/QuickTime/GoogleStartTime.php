@@ -39,5 +39,4 @@ class GoogleStartTime extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Google Start Time';
-
 }

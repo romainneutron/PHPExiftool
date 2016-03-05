@@ -39,5 +39,4 @@ class RWavePointer extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'R Wave Pointer';
-
 }

@@ -41,5 +41,4 @@ class WBRedDaylight extends AbstractTag
     protected $Description = 'WB Red Daylight';
 
     protected $flag_Permanent = true;
-
 }

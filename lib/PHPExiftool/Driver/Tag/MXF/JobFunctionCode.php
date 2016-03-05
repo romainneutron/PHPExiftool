@@ -39,5 +39,4 @@ class JobFunctionCode extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Job Function Code';
-
 }

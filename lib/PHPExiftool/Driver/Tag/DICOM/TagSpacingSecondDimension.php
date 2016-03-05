@@ -39,5 +39,4 @@ class TagSpacingSecondDimension extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Tag Spacing Second Dimension';
-
 }

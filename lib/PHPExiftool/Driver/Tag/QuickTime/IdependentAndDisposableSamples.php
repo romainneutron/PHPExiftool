@@ -41,5 +41,4 @@ class IdependentAndDisposableSamples extends AbstractTag
     protected $Description = 'Idependent And Disposable Samples';
 
     protected $flag_Binary = true;
-
 }

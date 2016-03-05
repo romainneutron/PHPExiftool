@@ -39,5 +39,4 @@ class CommentsOnPerformedProcedureStep extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Comments On Performed Procedure Step';
-
 }

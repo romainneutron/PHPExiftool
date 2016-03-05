@@ -39,5 +39,4 @@ class RadiopharmaceuticalSpecActivity extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Radiopharmaceutical Spec Activity';
-
 }

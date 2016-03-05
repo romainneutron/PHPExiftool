@@ -41,5 +41,4 @@ class DeviceSettings extends AbstractTag
     protected $Description = 'Device Settings';
 
     protected $local_g2 = 'Camera';
-
 }

@@ -39,5 +39,4 @@ class AxialLengthOfTheEye extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Axial Length Of The Eye';
-
 }

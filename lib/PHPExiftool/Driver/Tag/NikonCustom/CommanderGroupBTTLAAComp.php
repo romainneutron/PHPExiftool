@@ -41,5 +41,4 @@ class CommanderGroupBTTLAAComp extends AbstractTag
     protected $Description = 'Commander Group B TTL-AA Comp';
 
     protected $flag_Permanent = true;
-
 }

@@ -39,5 +39,4 @@ class WriterName extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Writer Name';
-
 }

@@ -41,5 +41,4 @@ class ImageMagnificationDescriptor extends AbstractTag
     protected $Description = 'Image Magnification Descriptor';
 
     protected $MaxLength = 2;
-
 }

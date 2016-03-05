@@ -39,5 +39,4 @@ class ParentalRating extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Parental Rating';
-
 }

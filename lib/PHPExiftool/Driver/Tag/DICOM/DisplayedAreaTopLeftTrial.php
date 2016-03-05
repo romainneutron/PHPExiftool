@@ -39,5 +39,4 @@ class DisplayedAreaTopLeftTrial extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Displayed Area Top Left Trial';
-
 }

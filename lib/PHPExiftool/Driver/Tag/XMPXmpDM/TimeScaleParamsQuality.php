@@ -54,5 +54,4 @@ class TimeScaleParamsQuality extends AbstractTag
             'Label' => 'Medium',
         ),
     );
-
 }

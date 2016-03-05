@@ -39,5 +39,4 @@ class FilmSize extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Film Size';
-
 }

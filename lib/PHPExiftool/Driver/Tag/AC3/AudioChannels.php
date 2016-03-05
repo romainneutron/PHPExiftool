@@ -98,5 +98,4 @@ class AudioChannels extends AbstractTag
             'Label' => '6 max',
         ),
     );
-
 }

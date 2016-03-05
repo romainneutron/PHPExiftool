@@ -39,5 +39,4 @@ class OffsetY extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Offset Y';
-
 }

@@ -41,5 +41,4 @@ class ID extends AbstractTag
     protected $Description = 'ID';
 
     protected $local_g2 = 'Camera';
-
 }

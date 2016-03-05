@@ -76,5 +76,4 @@ class CommanderGroupBMode extends AbstractTag
             'Label' => 'Off',
         ),
     );
-
 }

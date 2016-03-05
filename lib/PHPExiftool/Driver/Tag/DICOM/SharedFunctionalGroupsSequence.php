@@ -39,5 +39,4 @@ class SharedFunctionalGroupsSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Shared Functional Groups Sequence';
-
 }

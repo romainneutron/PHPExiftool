@@ -39,5 +39,4 @@ class PaintCorrectionTint extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Paint Correction Tint';
-
 }

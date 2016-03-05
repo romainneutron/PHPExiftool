@@ -41,5 +41,4 @@ class BlackLevel extends AbstractTag
     protected $Description = 'Black Level';
 
     protected $flag_Permanent = true;
-
 }

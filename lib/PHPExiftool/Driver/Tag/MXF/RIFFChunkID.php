@@ -39,5 +39,4 @@ class RIFFChunkID extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'RIFF Chunk ID';
-
 }

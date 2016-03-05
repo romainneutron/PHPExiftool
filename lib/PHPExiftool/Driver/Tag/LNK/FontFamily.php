@@ -66,5 +66,4 @@ class FontFamily extends AbstractTag
             'Label' => 'Decorative',
         ),
     );
-
 }

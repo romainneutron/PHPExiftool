@@ -39,5 +39,4 @@ class HL7StructuredDocumentRefSeq extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'HL7 Structured Document Ref Seq';
-
 }

@@ -39,5 +39,4 @@ class ColorObjBackType extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Color Obj Back Type';
-
 }

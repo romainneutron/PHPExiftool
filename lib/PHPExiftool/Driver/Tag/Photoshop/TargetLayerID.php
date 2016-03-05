@@ -39,5 +39,4 @@ class TargetLayerID extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Target Layer ID';
-
 }

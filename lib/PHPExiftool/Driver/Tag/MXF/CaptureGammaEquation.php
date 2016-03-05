@@ -39,5 +39,4 @@ class CaptureGammaEquation extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Capture Gamma Equation';
-
 }

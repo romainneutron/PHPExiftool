@@ -39,5 +39,4 @@ class KLVDataParentProperties extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'KLV Data Parent Properties';
-
 }

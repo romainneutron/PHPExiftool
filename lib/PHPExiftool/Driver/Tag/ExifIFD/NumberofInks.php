@@ -41,5 +41,4 @@ class NumberofInks extends AbstractTag
     protected $Description = 'Numberof Inks';
 
     protected $local_g1 = 'ExifIFD';
-
 }

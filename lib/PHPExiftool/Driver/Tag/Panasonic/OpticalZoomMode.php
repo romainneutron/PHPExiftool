@@ -52,5 +52,4 @@ class OpticalZoomMode extends AbstractTag
             'Label' => 'Extended',
         ),
     );
-
 }

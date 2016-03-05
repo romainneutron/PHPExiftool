@@ -39,5 +39,4 @@ class PanoramicStitchTheta0 extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Panoramic Stitch Theta 0';
-
 }

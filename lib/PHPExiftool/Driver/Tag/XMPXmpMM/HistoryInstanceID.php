@@ -41,5 +41,4 @@ class HistoryInstanceID extends AbstractTag
     protected $Description = 'History Instance ID';
 
     protected $flag_List = true;
-
 }

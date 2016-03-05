@@ -39,5 +39,4 @@ class OrganAtRiskLimitDose extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Organ At Risk Limit Dose';
-
 }

@@ -41,5 +41,4 @@ class FaceWidth extends AbstractTag
     protected $Description = 'Face Width';
 
     protected $flag_Permanent = true;
-
 }

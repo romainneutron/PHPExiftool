@@ -39,5 +39,4 @@ class Message extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Message';
-
 }

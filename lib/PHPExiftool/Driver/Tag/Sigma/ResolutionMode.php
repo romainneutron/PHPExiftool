@@ -41,5 +41,4 @@ class ResolutionMode extends AbstractTag
     protected $Description = 'Resolution Mode';
 
     protected $flag_Permanent = true;
-
 }

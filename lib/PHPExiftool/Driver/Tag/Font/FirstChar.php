@@ -39,5 +39,4 @@ class FirstChar extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'First Char';
-
 }

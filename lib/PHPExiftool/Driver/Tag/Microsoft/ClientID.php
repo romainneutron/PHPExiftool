@@ -39,5 +39,4 @@ class ClientID extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Client ID';
-
 }

@@ -52,5 +52,4 @@ class RedEyeReduction extends AbstractTag
             'Label' => 'On',
         ),
     );
-
 }

@@ -39,5 +39,4 @@ class PreviewImageType extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Preview Image Type';
-
 }

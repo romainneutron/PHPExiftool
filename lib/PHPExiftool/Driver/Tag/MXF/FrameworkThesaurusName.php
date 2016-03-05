@@ -39,5 +39,4 @@ class FrameworkThesaurusName extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Framework Thesaurus Name';
-
 }

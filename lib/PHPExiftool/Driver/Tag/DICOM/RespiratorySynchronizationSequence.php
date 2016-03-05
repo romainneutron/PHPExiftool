@@ -39,5 +39,4 @@ class RespiratorySynchronizationSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Respiratory Synchronization Sequence';
-
 }

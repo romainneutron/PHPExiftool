@@ -39,5 +39,4 @@ class NormalRCoord extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Normal R Coord';
-
 }

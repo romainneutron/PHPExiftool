@@ -39,5 +39,4 @@ class DefringePurpleAmount extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Defringe Purple Amount';
-
 }

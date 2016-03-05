@@ -39,5 +39,4 @@ class DeviceAbsolutePositionalAccuracy extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Device Absolute Positional Accuracy';
-
 }

@@ -39,5 +39,4 @@ class SourcePhotosCount extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Source Photos Count';
-
 }

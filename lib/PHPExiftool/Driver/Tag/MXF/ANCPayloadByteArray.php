@@ -39,5 +39,4 @@ class ANCPayloadByteArray extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'ANC Payload Byte Array';
-
 }

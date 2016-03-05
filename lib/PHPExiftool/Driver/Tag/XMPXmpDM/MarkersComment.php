@@ -41,5 +41,4 @@ class MarkersComment extends AbstractTag
     protected $Description = 'Markers Comment';
 
     protected $flag_List = true;
-
 }

@@ -39,5 +39,4 @@ class ConventionalControlPointVerifySeq extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Conventional Control Point Verify Seq';
-
 }

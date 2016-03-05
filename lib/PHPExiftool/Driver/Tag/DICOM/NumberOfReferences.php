@@ -39,5 +39,4 @@ class NumberOfReferences extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Number Of References';
-
 }

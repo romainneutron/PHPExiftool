@@ -39,5 +39,4 @@ class SegmentSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Segment Sequence';
-
 }

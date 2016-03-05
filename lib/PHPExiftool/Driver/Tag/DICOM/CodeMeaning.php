@@ -39,5 +39,4 @@ class CodeMeaning extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Code Meaning';
-
 }

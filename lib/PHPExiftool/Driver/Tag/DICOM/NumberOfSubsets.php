@@ -39,5 +39,4 @@ class NumberOfSubsets extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Number Of Subsets';
-
 }

@@ -39,5 +39,4 @@ class BeamDosePointEquivalentDepth extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Beam Dose Point Equivalent Depth';
-
 }

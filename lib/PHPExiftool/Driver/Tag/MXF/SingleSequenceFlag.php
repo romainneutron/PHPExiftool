@@ -39,5 +39,4 @@ class SingleSequenceFlag extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Single Sequence Flag';
-
 }

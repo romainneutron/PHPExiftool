@@ -39,5 +39,4 @@ class CodeLabel extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Code Label';
-
 }

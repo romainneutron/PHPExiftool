@@ -39,5 +39,4 @@ class ReferencedOverlayGroup extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Referenced Overlay Group';
-
 }

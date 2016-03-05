@@ -39,5 +39,4 @@ class Optotype extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Optotype';
-
 }

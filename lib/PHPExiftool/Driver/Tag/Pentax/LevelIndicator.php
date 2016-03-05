@@ -41,5 +41,4 @@ class LevelIndicator extends AbstractTag
     protected $Description = 'Level Indicator';
 
     protected $flag_Permanent = true;
-
 }

@@ -41,5 +41,4 @@ class OwnerID extends AbstractTag
     protected $Description = 'Owner ID';
 
     protected $MaxLength = 128;
-
 }

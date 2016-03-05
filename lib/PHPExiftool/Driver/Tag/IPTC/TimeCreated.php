@@ -43,5 +43,4 @@ class TimeCreated extends AbstractTag
     protected $local_g2 = 'Time';
 
     protected $MaxLength = 11;
-
 }

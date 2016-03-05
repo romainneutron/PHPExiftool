@@ -84,5 +84,4 @@ class PictureFinish extends AbstractTag
             'Label' => 'Adobe RGB (ICC)',
         ),
     );
-
 }

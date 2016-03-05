@@ -39,5 +39,4 @@ class TreatmentSummaryCalcDoseRefSeq extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Treatment Summary Calc Dose Ref Seq';
-
 }

@@ -39,5 +39,4 @@ class ContainerIdentifier extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Container Identifier';
-
 }

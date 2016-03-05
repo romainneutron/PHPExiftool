@@ -39,5 +39,4 @@ class PlayDuration extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Play Duration';
-
 }

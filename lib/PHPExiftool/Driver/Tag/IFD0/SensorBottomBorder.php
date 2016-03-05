@@ -39,5 +39,4 @@ class SensorBottomBorder extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Sensor Bottom Border';
-
 }

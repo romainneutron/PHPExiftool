@@ -39,5 +39,4 @@ class DimensionIndexPointer extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Dimension Index Pointer';
-
 }

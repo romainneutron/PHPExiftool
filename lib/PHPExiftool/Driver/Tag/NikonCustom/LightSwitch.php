@@ -52,5 +52,4 @@ class LightSwitch extends AbstractTag
             'Label' => 'LCD Backlight and Shooting Information',
         ),
     );
-
 }

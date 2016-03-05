@@ -39,5 +39,4 @@ class DBDt extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'DB-Dt';
-
 }

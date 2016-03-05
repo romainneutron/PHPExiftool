@@ -39,5 +39,4 @@ class PayerAccountNumber extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Payer Account Number';
-
 }

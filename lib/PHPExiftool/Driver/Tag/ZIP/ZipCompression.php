@@ -114,5 +114,4 @@ class ZipCompression extends AbstractTag
             'Label' => 'PPMd version I, Rev 1',
         ),
     );
-
 }

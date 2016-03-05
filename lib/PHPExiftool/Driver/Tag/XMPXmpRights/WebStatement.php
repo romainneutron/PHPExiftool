@@ -39,5 +39,4 @@ class WebStatement extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Web Statement';
-
 }

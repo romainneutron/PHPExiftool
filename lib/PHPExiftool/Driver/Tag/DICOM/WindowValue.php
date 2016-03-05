@@ -39,5 +39,4 @@ class WindowValue extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Window Value';
-
 }

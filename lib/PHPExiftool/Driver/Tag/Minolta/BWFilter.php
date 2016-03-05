@@ -41,5 +41,4 @@ class BWFilter extends AbstractTag
     protected $Description = 'BW Filter';
 
     protected $flag_Permanent = true;
-
 }

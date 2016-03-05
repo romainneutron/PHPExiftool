@@ -82,5 +82,4 @@ class FileFormat extends AbstractTag
             'Label' => 'ARW 2.3.2',
         ),
     );
-
 }

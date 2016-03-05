@@ -39,5 +39,4 @@ class SourceIndex extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Source Index';
-
 }

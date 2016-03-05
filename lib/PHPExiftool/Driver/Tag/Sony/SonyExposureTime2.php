@@ -41,5 +41,4 @@ class SonyExposureTime2 extends AbstractTag
     protected $Description = 'Sony Exposure Time 2';
 
     protected $flag_Permanent = true;
-
 }

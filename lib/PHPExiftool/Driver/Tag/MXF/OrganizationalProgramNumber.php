@@ -39,5 +39,4 @@ class OrganizationalProgramNumber extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Organizational Program Number';
-
 }

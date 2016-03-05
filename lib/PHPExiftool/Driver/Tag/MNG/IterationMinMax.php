@@ -41,5 +41,4 @@ class IterationMinMax extends AbstractTag
     protected $Description = 'Iteration Min Max';
 
     protected $MaxLength = 2;
-
 }

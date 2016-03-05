@@ -39,5 +39,4 @@ class HueAdjustmentAqua extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Hue Adjustment Aqua';
-
 }

@@ -39,5 +39,4 @@ class PresentationCreationTime extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Presentation Creation Time';
-
 }

@@ -39,5 +39,4 @@ class ChannelSensitivityCorrectionFactor extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Channel Sensitivity Correction Factor';
-
 }

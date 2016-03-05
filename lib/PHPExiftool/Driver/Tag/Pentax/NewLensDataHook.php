@@ -41,5 +41,4 @@ class NewLensDataHook extends AbstractTag
     protected $Description = 'New Lens Data Hook';
 
     protected $flag_Permanent = true;
-
 }

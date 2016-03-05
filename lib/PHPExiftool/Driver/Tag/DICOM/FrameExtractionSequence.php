@@ -39,5 +39,4 @@ class FrameExtractionSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Frame Extraction Sequence';
-
 }

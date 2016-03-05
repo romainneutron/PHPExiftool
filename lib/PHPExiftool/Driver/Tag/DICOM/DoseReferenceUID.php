@@ -39,5 +39,4 @@ class DoseReferenceUID extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Dose Reference UID';
-
 }

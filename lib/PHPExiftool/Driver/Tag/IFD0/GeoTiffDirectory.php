@@ -41,5 +41,4 @@ class GeoTiffDirectory extends AbstractTag
     protected $Description = 'Geo Tiff Directory';
 
     protected $flag_Binary = true;
-
 }

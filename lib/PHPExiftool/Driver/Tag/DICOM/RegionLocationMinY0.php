@@ -39,5 +39,4 @@ class RegionLocationMinY0 extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Region Location Min Y0';
-
 }

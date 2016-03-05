@@ -39,5 +39,4 @@ class SliceOffsetList extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Slice Offset List';
-
 }

@@ -60,5 +60,4 @@ class RearDisplay extends AbstractTag
             'Label' => 'Exposures Remaining',
         ),
     );
-
 }

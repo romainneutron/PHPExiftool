@@ -98,5 +98,4 @@ class MobiType extends AbstractTag
             'Label' => 'HTML',
         ),
     );
-
 }

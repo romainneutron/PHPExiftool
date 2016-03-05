@@ -41,5 +41,4 @@ class DCCountryCode extends AbstractTag
     protected $Description = 'DC Country Code';
 
     protected $local_g2 = 'Location';
-
 }

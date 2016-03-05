@@ -39,5 +39,4 @@ class EmbeddedAudioFile extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Embedded Audio File';
-
 }

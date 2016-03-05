@@ -41,5 +41,4 @@ class DataType extends AbstractTag
     protected $Description = 'Data Type';
 
     protected $local_g1 = 'ExifIFD';
-
 }

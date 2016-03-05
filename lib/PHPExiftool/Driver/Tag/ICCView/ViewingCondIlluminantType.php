@@ -74,5 +74,4 @@ class ViewingCondIlluminantType extends AbstractTag
             'Label' => 'F8',
         ),
     );
-
 }

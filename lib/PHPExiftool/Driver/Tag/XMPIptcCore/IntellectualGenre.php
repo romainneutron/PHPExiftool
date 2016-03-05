@@ -41,5 +41,4 @@ class IntellectualGenre extends AbstractTag
     protected $Description = 'Intellectual Genre';
 
     protected $local_g2 = 'Other';
-
 }

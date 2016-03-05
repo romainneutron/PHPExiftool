@@ -41,5 +41,4 @@ class DLOData extends AbstractTag
     protected $Description = 'DLO Data';
 
     protected $flag_Binary = true;
-
 }

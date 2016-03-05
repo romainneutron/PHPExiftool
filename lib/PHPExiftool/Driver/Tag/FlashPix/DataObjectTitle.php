@@ -39,5 +39,4 @@ class DataObjectTitle extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Data Object Title';
-
 }

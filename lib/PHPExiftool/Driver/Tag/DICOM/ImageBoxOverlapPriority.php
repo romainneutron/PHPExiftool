@@ -39,5 +39,4 @@ class ImageBoxOverlapPriority extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Image Box Overlap Priority';
-
 }

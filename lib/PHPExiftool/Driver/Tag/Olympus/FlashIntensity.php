@@ -52,5 +52,4 @@ class FlashIntensity extends AbstractTag
             'Label' => 'n/a (x4)',
         ),
     );
-
 }

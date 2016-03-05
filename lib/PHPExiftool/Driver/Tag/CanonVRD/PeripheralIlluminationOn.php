@@ -50,5 +50,4 @@ class PeripheralIlluminationOn extends AbstractTag
             'Label' => 'Yes',
         ),
     );
-
 }

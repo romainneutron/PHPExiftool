@@ -92,5 +92,4 @@ class ImageStabilization extends AbstractTag
             'Label' => 'High Sensitivity',
         ),
     );
-
 }

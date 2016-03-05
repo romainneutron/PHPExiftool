@@ -41,5 +41,4 @@ class CaptionWriter extends AbstractTag
     protected $Description = 'Caption Writer';
 
     protected $local_g2 = 'Author';
-
 }

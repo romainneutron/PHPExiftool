@@ -39,5 +39,4 @@ class CreatorMajorVersion extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Creator Major Version';
-
 }

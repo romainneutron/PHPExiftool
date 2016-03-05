@@ -41,5 +41,4 @@ class ImageWorkstationMake extends AbstractTag
     protected $Description = 'Image Workstation Make';
 
     protected $MaxLength = 20;
-
 }

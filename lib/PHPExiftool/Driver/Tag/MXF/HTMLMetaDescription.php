@@ -39,5 +39,4 @@ class HTMLMetaDescription extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'HTML Meta Description';
-
 }

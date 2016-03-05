@@ -58,5 +58,4 @@ class SampleRate extends AbstractTag
             'Label' => 32000,
         ),
     );
-
 }

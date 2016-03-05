@@ -41,5 +41,4 @@ class ReleaseDate extends AbstractTag
     protected $Description = 'Release Date';
 
     protected $flag_Avoid = true;
-
 }

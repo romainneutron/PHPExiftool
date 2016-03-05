@@ -39,5 +39,4 @@ class EssenceContainerArray extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Essence Container Array';
-
 }

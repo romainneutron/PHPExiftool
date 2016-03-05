@@ -41,5 +41,4 @@ class WBRGBLevels6000K extends AbstractTag
     protected $Description = 'WB RGB Levels 6000K';
 
     protected $flag_Permanent = true;
-
 }

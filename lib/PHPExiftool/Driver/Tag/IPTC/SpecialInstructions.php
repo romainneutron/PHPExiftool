@@ -41,5 +41,4 @@ class SpecialInstructions extends AbstractTag
     protected $Description = 'Special Instructions';
 
     protected $MaxLength = 256;
-
 }

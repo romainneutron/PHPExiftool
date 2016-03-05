@@ -39,5 +39,4 @@ class ZSlopeCalibrationDate extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Z Slope Calibration Date';
-
 }

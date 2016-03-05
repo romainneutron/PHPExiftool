@@ -39,5 +39,4 @@ class RelatedResourceID extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Related Resource ID';
-
 }

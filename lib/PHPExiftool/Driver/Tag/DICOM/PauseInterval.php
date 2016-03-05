@@ -39,5 +39,4 @@ class PauseInterval extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Pause Interval';
-
 }

@@ -56,5 +56,4 @@ class GPSSpeedRef extends AbstractTag
             'Label' => 'knots',
         ),
     );
-
 }

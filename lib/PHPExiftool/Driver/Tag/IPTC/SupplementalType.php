@@ -58,5 +58,4 @@ class SupplementalType extends AbstractTag
             'Label' => 'Rasterized Caption',
         ),
     );
-
 }

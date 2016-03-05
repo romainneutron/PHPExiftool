@@ -41,5 +41,4 @@ class FirmwareVersion extends AbstractTag
     protected $Description = 'Firmware Version';
 
     protected $flag_Permanent = true;
-
 }

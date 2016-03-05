@@ -39,5 +39,4 @@ class SpecifiedNumberOfPulses extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Specified Number Of Pulses';
-
 }

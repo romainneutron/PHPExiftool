@@ -39,5 +39,4 @@ class LocalTargetID extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Local Target ID';
-
 }

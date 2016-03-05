@@ -39,5 +39,4 @@ class BlendingOperationType extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Blending Operation Type';
-
 }

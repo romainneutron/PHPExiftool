@@ -41,5 +41,4 @@ class FileNumber extends AbstractTag
     protected $Description = 'File Number';
 
     protected $local_g2 = 'Image';
-
 }

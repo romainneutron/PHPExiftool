@@ -39,5 +39,4 @@ class ParticipantSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Participant Sequence';
-
 }

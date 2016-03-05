@@ -39,5 +39,4 @@ class ParticipationDateTime extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Participation Date Time';
-
 }

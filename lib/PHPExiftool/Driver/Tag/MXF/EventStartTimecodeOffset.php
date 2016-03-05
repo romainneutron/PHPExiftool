@@ -41,5 +41,4 @@ class EventStartTimecodeOffset extends AbstractTag
     protected $Description = 'Event Start Timecode Offset';
 
     protected $local_g2 = 'Time';
-
 }

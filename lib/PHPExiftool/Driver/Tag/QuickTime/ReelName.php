@@ -39,5 +39,4 @@ class ReelName extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Reel Name';
-
 }

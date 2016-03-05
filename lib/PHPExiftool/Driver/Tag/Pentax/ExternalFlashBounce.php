@@ -56,5 +56,4 @@ class ExternalFlashBounce extends AbstractTag
             'Label' => 'Bounce',
         ),
     );
-
 }

@@ -41,5 +41,4 @@ class OriginalTHMResource extends AbstractTag
     protected $Description = 'Original THM Resource';
 
     protected $flag_Binary = true;
-
 }

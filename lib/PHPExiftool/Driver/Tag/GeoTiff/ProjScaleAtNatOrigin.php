@@ -39,5 +39,4 @@ class ProjScaleAtNatOrigin extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Proj Scale At Nat Origin';
-
 }

@@ -39,5 +39,4 @@ class IVUSPullbackStopFrameNumber extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'IVUS Pullback Stop Frame Number';
-
 }

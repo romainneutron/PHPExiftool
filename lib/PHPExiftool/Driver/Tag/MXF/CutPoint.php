@@ -39,5 +39,4 @@ class CutPoint extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Cut Point';
-
 }

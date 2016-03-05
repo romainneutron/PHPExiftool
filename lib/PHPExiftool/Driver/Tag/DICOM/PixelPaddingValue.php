@@ -39,5 +39,4 @@ class PixelPaddingValue extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Pixel Padding Value';
-
 }

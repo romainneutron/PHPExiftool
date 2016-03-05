@@ -39,5 +39,4 @@ class FileOwner extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'File Owner';
-
 }

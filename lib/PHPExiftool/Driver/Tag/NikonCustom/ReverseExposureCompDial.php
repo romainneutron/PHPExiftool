@@ -52,5 +52,4 @@ class ReverseExposureCompDial extends AbstractTag
             'Label' => 'Yes',
         ),
     );
-
 }

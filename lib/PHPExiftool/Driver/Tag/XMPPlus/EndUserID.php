@@ -41,5 +41,4 @@ class EndUserID extends AbstractTag
     protected $Description = 'End User ID';
 
     protected $flag_List = true;
-
 }

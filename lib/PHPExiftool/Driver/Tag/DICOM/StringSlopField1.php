@@ -39,5 +39,4 @@ class StringSlopField1 extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'String Slop Field 1';
-
 }

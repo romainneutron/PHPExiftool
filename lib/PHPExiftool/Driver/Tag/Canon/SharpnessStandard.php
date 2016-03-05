@@ -48,5 +48,4 @@ class SharpnessStandard extends AbstractTag
             'Label' => 'n/a',
         ),
     );
-
 }

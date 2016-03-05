@@ -39,5 +39,4 @@ class ChromaticityChannels extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Chromaticity Channels';
-
 }

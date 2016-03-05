@@ -39,5 +39,4 @@ class ConfigurationInformationDescr extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Configuration Information Descr';
-
 }

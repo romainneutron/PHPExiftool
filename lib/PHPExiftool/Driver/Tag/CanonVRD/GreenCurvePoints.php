@@ -41,5 +41,4 @@ class GreenCurvePoints extends AbstractTag
     protected $Description = 'Green Curve Points';
 
     protected $MaxLength = 21;
-
 }

@@ -39,5 +39,4 @@ class IconFileName extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Icon File Name';
-
 }

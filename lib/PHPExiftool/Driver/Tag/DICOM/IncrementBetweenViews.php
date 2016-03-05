@@ -39,5 +39,4 @@ class IncrementBetweenViews extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Increment Between Views';
-
 }

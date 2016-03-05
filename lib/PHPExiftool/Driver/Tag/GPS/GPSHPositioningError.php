@@ -39,5 +39,4 @@ class GPSHPositioningError extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'GPS Horizontal Positioning Error';
-
 }

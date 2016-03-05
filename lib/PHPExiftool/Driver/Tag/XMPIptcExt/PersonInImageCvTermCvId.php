@@ -41,5 +41,4 @@ class PersonInImageCvTermCvId extends AbstractTag
     protected $Description = 'Person In Image Cv Term Cv Id';
 
     protected $flag_List = true;
-
 }

@@ -39,5 +39,4 @@ class BlockMountingPosition extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Block Mounting Position';
-
 }

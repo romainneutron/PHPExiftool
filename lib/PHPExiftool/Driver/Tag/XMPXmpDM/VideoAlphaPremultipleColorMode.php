@@ -54,5 +54,4 @@ class VideoAlphaPremultipleColorMode extends AbstractTag
             'Label' => 'RGB',
         ),
     );
-
 }

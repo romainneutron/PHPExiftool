@@ -39,5 +39,4 @@ class AFArea extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'AF Area';
-
 }

@@ -41,5 +41,4 @@ class ObjectDistance extends AbstractTag
     protected $Description = 'Object Distance';
 
     protected $flag_Permanent = true;
-
 }

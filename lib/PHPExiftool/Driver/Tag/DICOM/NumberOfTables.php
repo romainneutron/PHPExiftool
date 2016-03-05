@@ -39,5 +39,4 @@ class NumberOfTables extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Number Of Tables';
-
 }

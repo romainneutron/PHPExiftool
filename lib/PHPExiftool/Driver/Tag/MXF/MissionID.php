@@ -39,5 +39,4 @@ class MissionID extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Mission ID';
-
 }

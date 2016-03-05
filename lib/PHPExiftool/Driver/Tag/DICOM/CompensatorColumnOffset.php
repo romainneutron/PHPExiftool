@@ -39,5 +39,4 @@ class CompensatorColumnOffset extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Compensator Column Offset';
-
 }

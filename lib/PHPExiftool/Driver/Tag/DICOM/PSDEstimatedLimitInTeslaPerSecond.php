@@ -39,5 +39,4 @@ class PSDEstimatedLimitInTeslaPerSecond extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'PSD Estimated Limit In Tesla Per Second';
-
 }

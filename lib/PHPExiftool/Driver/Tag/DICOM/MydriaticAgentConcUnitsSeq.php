@@ -39,5 +39,4 @@ class MydriaticAgentConcUnitsSeq extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Mydriatic Agent Conc Units Seq';
-
 }

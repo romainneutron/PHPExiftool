@@ -39,5 +39,4 @@ class NativeDisplayInfo extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Native Display Info';
-
 }

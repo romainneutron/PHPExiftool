@@ -39,5 +39,4 @@ class PseudoColorType extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Pseudo Color Type';
-
 }

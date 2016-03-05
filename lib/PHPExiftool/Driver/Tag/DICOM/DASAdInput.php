@@ -39,5 +39,4 @@ class DASAdInput extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'DAS Ad Input';
-
 }

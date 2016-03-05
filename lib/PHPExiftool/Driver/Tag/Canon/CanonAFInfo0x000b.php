@@ -45,5 +45,4 @@ class CanonAFInfo0x000b extends AbstractTag
     protected $MaxLength = 8;
 
     protected $Index = 1;
-
 }

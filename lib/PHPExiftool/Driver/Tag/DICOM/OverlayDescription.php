@@ -39,5 +39,4 @@ class OverlayDescription extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Overlay Description';
-
 }

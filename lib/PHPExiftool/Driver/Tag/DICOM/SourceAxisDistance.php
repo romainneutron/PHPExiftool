@@ -39,5 +39,4 @@ class SourceAxisDistance extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Source Axis Distance';
-
 }

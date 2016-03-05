@@ -52,5 +52,4 @@ class WorldTimeLocation extends AbstractTag
             'Label' => 'Destination',
         ),
     );
-
 }

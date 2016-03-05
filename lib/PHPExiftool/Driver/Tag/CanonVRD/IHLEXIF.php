@@ -43,5 +43,4 @@ class IHLEXIF extends AbstractTag
     protected $flag_Binary = true;
 
     protected $Index = 1;
-
 }

@@ -39,5 +39,4 @@ class OrganAtRiskFullVolumeDose extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Organ At Risk Full Volume Dose';
-
 }

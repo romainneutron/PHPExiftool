@@ -41,5 +41,4 @@ class DateImported extends AbstractTag
     protected $Description = 'Date Imported';
 
     protected $local_g2 = 'Time';
-
 }

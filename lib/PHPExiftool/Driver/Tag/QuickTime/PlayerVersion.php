@@ -39,5 +39,4 @@ class PlayerVersion extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Player Version';
-
 }

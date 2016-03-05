@@ -46,5 +46,4 @@ class ImageRotation extends AbstractTag
             'Label' => 'None',
         ),
     );
-
 }

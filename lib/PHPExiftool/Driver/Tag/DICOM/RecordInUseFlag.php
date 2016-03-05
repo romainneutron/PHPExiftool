@@ -39,5 +39,4 @@ class RecordInUseFlag extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Record In Use Flag';
-
 }

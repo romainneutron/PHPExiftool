@@ -41,5 +41,4 @@ class IngredientsToPart extends AbstractTag
     protected $Description = 'Ingredients To Part';
 
     protected $flag_List = true;
-
 }

@@ -39,5 +39,4 @@ class CodePage extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Code Page';
-
 }

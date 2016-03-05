@@ -39,5 +39,4 @@ class RawImageFullHeight extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Raw Image Full Height';
-
 }

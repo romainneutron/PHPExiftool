@@ -39,5 +39,4 @@ class VerticesOfPolygonalCollimator extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Vertices Of Polygonal Collimator';
-
 }

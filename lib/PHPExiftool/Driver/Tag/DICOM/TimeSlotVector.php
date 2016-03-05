@@ -39,5 +39,4 @@ class TimeSlotVector extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Time Slot Vector';
-
 }

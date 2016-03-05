@@ -39,5 +39,4 @@ class PrintFlags extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Print Flags';
-
 }

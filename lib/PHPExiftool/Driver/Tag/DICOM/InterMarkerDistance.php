@@ -39,5 +39,4 @@ class InterMarkerDistance extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Inter Marker Distance';
-
 }

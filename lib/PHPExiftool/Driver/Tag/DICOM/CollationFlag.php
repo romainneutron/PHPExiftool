@@ -39,5 +39,4 @@ class CollationFlag extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Collation Flag';
-
 }

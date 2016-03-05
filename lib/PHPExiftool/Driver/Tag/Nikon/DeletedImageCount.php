@@ -41,5 +41,4 @@ class DeletedImageCount extends AbstractTag
     protected $Description = 'Deleted Image Count';
 
     protected $flag_Permanent = true;
-
 }

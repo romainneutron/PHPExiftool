@@ -52,5 +52,4 @@ class TouchAE extends AbstractTag
             'Label' => 'On',
         ),
     );
-
 }

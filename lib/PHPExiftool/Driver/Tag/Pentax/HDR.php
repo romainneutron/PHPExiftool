@@ -66,5 +66,4 @@ class HDR extends AbstractTag
             'Label' => 'HDR 3',
         ),
     );
-
 }

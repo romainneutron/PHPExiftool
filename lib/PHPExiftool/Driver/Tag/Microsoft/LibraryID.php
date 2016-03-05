@@ -39,5 +39,4 @@ class LibraryID extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Library ID';
-
 }

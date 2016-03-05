@@ -39,5 +39,4 @@ class ReasonForRequestedProcedure extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Reason For Requested Procedure';
-
 }

@@ -39,5 +39,4 @@ class TransparentIndex extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Transparent Index';
-
 }

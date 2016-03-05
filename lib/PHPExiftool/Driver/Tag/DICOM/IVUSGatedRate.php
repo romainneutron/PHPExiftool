@@ -39,5 +39,4 @@ class IVUSGatedRate extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'IVUS Gated Rate';
-
 }

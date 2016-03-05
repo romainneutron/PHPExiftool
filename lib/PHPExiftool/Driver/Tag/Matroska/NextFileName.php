@@ -39,5 +39,4 @@ class NextFileName extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Next File Name';
-
 }

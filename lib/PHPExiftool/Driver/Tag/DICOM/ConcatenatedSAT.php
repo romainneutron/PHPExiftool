@@ -39,5 +39,4 @@ class ConcatenatedSAT extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Concatenated SAT';
-
 }

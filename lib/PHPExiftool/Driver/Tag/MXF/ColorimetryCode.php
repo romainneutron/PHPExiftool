@@ -39,5 +39,4 @@ class ColorimetryCode extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Colorimetry Code';
-
 }

@@ -41,5 +41,4 @@ class EventStart extends AbstractTag
     protected $Description = 'Event Start';
 
     protected $flag_Avoid = true;
-
 }

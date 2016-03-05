@@ -41,5 +41,4 @@ class Sensor extends AbstractTag
     protected $Description = 'Sensor';
 
     protected $flag_Permanent = true;
-
 }

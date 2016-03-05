@@ -39,5 +39,4 @@ class ASIN2 extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'ASIN2';
-
 }

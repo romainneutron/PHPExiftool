@@ -39,5 +39,4 @@ class OverlayForegroundDensity extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Overlay Foreground Density';
-
 }

@@ -39,5 +39,4 @@ class NegativeCachePath extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Negative Cache Path';
-
 }

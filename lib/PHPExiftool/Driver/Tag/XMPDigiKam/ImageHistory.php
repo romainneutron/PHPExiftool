@@ -41,5 +41,4 @@ class ImageHistory extends AbstractTag
     protected $Description = 'Image History';
 
     protected $flag_Avoid = true;
-
 }

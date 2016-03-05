@@ -41,5 +41,4 @@ class TextLayerName extends AbstractTag
     protected $Description = 'Text Layer Name';
 
     protected $flag_List = true;
-
 }

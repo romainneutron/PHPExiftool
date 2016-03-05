@@ -39,5 +39,4 @@ class ImagePathFilterPassBand extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Image Path Filter Pass Band';
-
 }

@@ -39,5 +39,4 @@ class QueryRetrieveLevel extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Query Retrieve Level';
-
 }

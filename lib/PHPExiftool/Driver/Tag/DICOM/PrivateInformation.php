@@ -39,5 +39,4 @@ class PrivateInformation extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Private Information';
-
 }

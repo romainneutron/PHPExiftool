@@ -39,5 +39,4 @@ class YFocusCenter extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Y Focus Center';
-
 }

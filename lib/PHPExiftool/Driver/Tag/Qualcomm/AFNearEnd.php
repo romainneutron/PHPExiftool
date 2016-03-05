@@ -41,5 +41,4 @@ class AFNearEnd extends AbstractTag
     protected $Description = 'AF Near End';
 
     protected $flag_Permanent = true;
-
 }

@@ -46,5 +46,4 @@ class StreamColor extends AbstractTag
             'Label' => 'Monochrome',
         ),
     );
-
 }

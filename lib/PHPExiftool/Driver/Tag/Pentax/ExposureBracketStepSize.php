@@ -76,5 +76,4 @@ class ExposureBracketStepSize extends AbstractTag
             'Label' => '2.0',
         ),
     );
-
 }

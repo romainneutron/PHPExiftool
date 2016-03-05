@@ -41,5 +41,4 @@ class Field extends AbstractTag
     protected $Description = 'Field';
 
     protected $flag_Avoid = true;
-
 }

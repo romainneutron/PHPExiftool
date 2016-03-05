@@ -92,5 +92,4 @@ class ColorDataVersion extends AbstractTag
             'Label' => '12 (5DS/5DSR)',
         ),
     );
-
 }

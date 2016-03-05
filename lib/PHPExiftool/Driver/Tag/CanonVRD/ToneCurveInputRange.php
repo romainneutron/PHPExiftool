@@ -41,5 +41,4 @@ class ToneCurveInputRange extends AbstractTag
     protected $Description = 'Tone Curve Input Range';
 
     protected $MaxLength = 2;
-
 }

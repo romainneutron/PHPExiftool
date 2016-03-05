@@ -39,5 +39,4 @@ class StorageMediaID extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Storage Media ID';
-
 }

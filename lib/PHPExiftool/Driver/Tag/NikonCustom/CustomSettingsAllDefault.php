@@ -52,5 +52,4 @@ class CustomSettingsAllDefault extends AbstractTag
             'Label' => 'No',
         ),
     );
-
 }

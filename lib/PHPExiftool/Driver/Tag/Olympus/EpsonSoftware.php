@@ -41,5 +41,4 @@ class EpsonSoftware extends AbstractTag
     protected $Description = 'Epson Software';
 
     protected $flag_Permanent = true;
-
 }

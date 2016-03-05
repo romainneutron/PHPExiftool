@@ -39,5 +39,4 @@ class BookName extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Book Name';
-
 }

@@ -39,5 +39,4 @@ class ScheduledStudyLocationAETitle extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Scheduled Study Location AE Title';
-
 }

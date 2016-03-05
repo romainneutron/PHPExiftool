@@ -39,5 +39,4 @@ class ThesaurusName extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Thesaurus Name';
-
 }

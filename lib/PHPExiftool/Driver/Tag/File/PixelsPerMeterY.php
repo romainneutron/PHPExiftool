@@ -39,5 +39,4 @@ class PixelsPerMeterY extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Pixels Per Meter Y';
-
 }

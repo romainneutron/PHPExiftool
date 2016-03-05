@@ -112,5 +112,4 @@ class FlashLevel extends AbstractTag
             'Label' => 'High',
         ),
     );
-
 }

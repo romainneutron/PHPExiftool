@@ -39,5 +39,4 @@ class LastPseq extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Last Pseq';
-
 }

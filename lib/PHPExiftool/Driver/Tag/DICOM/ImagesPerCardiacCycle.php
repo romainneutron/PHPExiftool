@@ -39,5 +39,4 @@ class ImagesPerCardiacCycle extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Images Per Cardiac Cycle';
-
 }

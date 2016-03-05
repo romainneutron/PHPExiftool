@@ -72,5 +72,4 @@ class WhiteBalance extends AbstractTag
             'Label' => 'Tungsten',
         ),
     );
-
 }

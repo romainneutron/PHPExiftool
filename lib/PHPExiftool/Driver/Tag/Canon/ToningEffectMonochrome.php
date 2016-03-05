@@ -68,5 +68,4 @@ class ToningEffectMonochrome extends AbstractTag
             'Label' => 'Green',
         ),
     );
-
 }

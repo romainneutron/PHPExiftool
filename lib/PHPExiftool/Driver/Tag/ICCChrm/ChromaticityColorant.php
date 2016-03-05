@@ -58,5 +58,4 @@ class ChromaticityColorant extends AbstractTag
             'Label' => 'P22',
         ),
     );
-
 }

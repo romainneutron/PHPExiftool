@@ -39,5 +39,4 @@ class Footnotes extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Footnotes';
-
 }

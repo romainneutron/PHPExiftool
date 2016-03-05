@@ -39,5 +39,4 @@ class PulseSequenceName extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Pulse Sequence Name';
-
 }

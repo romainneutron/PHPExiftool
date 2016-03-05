@@ -39,5 +39,4 @@ class LowDelayIndicator extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Low Delay Indicator';
-
 }

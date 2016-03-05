@@ -41,5 +41,4 @@ class ColorPalette extends AbstractTag
     protected $Description = 'Color Palette';
 
     protected $flag_Binary = true;
-
 }

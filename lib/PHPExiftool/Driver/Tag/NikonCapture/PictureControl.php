@@ -52,5 +52,4 @@ class PictureControl extends AbstractTag
             'Label' => 'On',
         ),
     );
-
 }

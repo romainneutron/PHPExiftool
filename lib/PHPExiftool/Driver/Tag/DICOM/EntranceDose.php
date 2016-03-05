@@ -39,5 +39,4 @@ class EntranceDose extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Entrance Dose';
-
 }

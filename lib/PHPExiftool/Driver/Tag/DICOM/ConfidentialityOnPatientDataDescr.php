@@ -39,5 +39,4 @@ class ConfidentialityOnPatientDataDescr extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Confidentiality On Patient Data Descr';
-
 }

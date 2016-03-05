@@ -41,5 +41,4 @@ class DateTimeDigitized extends AbstractTag
     protected $Description = 'Date/Time Digitized';
 
     protected $local_g2 = 'Time';
-
 }

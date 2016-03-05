@@ -39,5 +39,4 @@ class EditStatus extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Edit Status';
-
 }

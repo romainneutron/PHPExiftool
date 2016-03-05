@@ -39,5 +39,4 @@ class CreatorTool extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Creator Tool';
-
 }

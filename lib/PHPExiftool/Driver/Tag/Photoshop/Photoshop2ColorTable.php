@@ -39,5 +39,4 @@ class Photoshop2ColorTable extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Photoshop 2 Color Table';
-
 }

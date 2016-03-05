@@ -41,5 +41,4 @@ class ManifestReferenceToPart extends AbstractTag
     protected $Description = 'Manifest Reference To Part';
 
     protected $flag_List = true;
-
 }

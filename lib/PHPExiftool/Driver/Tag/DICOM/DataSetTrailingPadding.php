@@ -41,5 +41,4 @@ class DataSetTrailingPadding extends AbstractTag
     protected $Description = 'Data Set Trailing Padding';
 
     protected $flag_Binary = true;
-
 }

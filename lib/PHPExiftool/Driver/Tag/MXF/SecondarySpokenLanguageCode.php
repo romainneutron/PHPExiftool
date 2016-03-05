@@ -39,5 +39,4 @@ class SecondarySpokenLanguageCode extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Secondary Spoken Language Code';
-
 }

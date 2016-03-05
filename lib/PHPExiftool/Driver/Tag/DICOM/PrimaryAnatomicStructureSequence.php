@@ -39,5 +39,4 @@ class PrimaryAnatomicStructureSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Primary Anatomic Structure Sequence';
-
 }

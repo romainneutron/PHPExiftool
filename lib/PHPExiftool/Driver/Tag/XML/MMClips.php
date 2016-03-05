@@ -39,5 +39,4 @@ class MMClips extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'MM Clips';
-
 }

@@ -39,5 +39,4 @@ class StreamID extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Stream ID';
-
 }

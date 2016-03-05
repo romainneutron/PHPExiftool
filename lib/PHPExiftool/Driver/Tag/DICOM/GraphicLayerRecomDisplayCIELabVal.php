@@ -39,5 +39,4 @@ class GraphicLayerRecomDisplayCIELabVal extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Graphic Layer Recom Display CIE Lab Val';
-
 }

@@ -41,5 +41,4 @@ class WindowSize extends AbstractTag
     protected $Description = 'Window Size';
 
     protected $MaxLength = 2;
-
 }

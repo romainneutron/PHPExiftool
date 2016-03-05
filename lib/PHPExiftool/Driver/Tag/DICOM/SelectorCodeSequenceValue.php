@@ -39,5 +39,4 @@ class SelectorCodeSequenceValue extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Selector Code Sequence Value';
-
 }

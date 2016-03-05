@@ -72,5 +72,4 @@ class MovieSubSelectorAssignment extends AbstractTag
             'Label' => 'View Photo Shooting Info',
         ),
     );
-
 }

@@ -39,5 +39,4 @@ class StorageMediaKind extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Storage Media Kind';
-
 }

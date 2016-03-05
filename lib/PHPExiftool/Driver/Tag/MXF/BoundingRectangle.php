@@ -39,5 +39,4 @@ class BoundingRectangle extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Bounding Rectangle';
-
 }

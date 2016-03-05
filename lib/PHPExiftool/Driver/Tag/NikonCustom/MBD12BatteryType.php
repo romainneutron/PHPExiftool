@@ -56,5 +56,4 @@ class MBD12BatteryType extends AbstractTag
             'Label' => 'FR6 (AA lithium)',
         ),
     );
-
 }

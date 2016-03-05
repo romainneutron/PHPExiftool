@@ -74,5 +74,4 @@ class InterchangeColorSpace extends AbstractTag
             'Label' => 'sRGB',
         ),
     );
-
 }

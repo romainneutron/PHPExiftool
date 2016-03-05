@@ -41,5 +41,4 @@ class EditVersionName extends AbstractTag
     protected $Description = 'Edit Version Name';
 
     protected $flag_Permanent = true;
-
 }

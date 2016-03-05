@@ -60,5 +60,4 @@ class ConversionLens extends AbstractTag
             'Label' => 'Macro',
         ),
     );
-
 }

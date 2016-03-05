@@ -39,5 +39,4 @@ class SliceSensitivityFactor extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Slice Sensitivity Factor';
-
 }

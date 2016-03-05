@@ -39,5 +39,4 @@ class PixelComponentMask extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Pixel Component Mask';
-
 }

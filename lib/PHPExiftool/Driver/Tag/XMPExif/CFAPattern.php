@@ -39,5 +39,4 @@ class CFAPattern extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'CFA Pattern';
-
 }

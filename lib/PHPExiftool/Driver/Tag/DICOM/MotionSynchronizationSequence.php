@@ -39,5 +39,4 @@ class MotionSynchronizationSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Motion Synchronization Sequence';
-
 }

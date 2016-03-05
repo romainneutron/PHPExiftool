@@ -64,5 +64,4 @@ class IntelligentResolution extends AbstractTag
             'Label' => 'Extended',
         ),
     );
-
 }

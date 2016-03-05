@@ -39,5 +39,4 @@ class HL7InstanceIdentifier extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'HL7 Instance Identifier';
-
 }

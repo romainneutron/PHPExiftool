@@ -39,5 +39,4 @@ class HighlightEndPoints extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Highlight End Points';
-
 }

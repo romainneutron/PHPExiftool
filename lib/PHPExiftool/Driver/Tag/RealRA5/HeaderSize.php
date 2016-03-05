@@ -39,5 +39,4 @@ class HeaderSize extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Header Size';
-
 }

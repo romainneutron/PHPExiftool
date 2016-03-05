@@ -41,5 +41,4 @@ class WBRGBLevelsTungsten extends AbstractTag
     protected $Description = 'WB RGB Levels Tungsten';
 
     protected $flag_Permanent = true;
-
 }

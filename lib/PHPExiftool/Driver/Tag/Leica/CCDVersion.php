@@ -41,5 +41,4 @@ class CCDVersion extends AbstractTag
     protected $Description = 'CCD Version';
 
     protected $flag_Permanent = true;
-
 }

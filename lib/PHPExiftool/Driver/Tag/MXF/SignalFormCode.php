@@ -39,5 +39,4 @@ class SignalFormCode extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Signal Form Code';
-
 }

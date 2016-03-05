@@ -39,5 +39,4 @@ class MeasurementScale extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Measurement Scale';
-
 }

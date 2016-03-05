@@ -41,5 +41,4 @@ class RecordID extends AbstractTag
     protected $Description = 'Record ID';
 
     protected $flag_Permanent = true;
-
 }

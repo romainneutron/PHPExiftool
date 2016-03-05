@@ -39,5 +39,4 @@ class CodingSchemeIDSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Coding Scheme ID Sequence';
-
 }

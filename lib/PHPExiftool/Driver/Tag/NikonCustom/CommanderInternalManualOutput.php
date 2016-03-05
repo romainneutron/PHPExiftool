@@ -41,5 +41,4 @@ class CommanderInternalManualOutput extends AbstractTag
     protected $Description = 'Commander Internal Manual Output';
 
     protected $flag_Permanent = true;
-
 }

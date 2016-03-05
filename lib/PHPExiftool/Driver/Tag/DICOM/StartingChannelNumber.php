@@ -39,5 +39,4 @@ class StartingChannelNumber extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Starting Channel Number';
-
 }

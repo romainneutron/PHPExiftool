@@ -39,5 +39,4 @@ class ROIInterpreter extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'ROI Interpreter';
-
 }

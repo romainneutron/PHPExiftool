@@ -41,5 +41,4 @@ class OnSaleDayDay extends AbstractTag
     protected $Description = 'On Sale Day Day';
 
     protected $flag_List = true;
-
 }

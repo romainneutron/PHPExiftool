@@ -52,5 +52,4 @@ class GPSAltitudeRef extends AbstractTag
             'Label' => 'Below Sea Level',
         ),
     );
-
 }

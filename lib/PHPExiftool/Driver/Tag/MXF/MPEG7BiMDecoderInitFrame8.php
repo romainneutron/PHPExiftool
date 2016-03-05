@@ -39,5 +39,4 @@ class MPEG7BiMDecoderInitFrame8 extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'MPEG7 Bi M Decoder Init Frame 8';
-
 }

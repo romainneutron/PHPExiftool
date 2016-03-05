@@ -126,5 +126,4 @@ class AutoBracketModeM extends AbstractTag
     );
 
     protected $Index = 'mixed';
-
 }

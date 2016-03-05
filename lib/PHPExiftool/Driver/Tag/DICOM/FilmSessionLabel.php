@@ -39,5 +39,4 @@ class FilmSessionLabel extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Film Session Label';
-
 }

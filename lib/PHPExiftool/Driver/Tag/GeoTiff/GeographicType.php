@@ -746,5 +746,4 @@ class GeographicType extends AbstractTag
             'Label' => 'User Defined',
         ),
     );
-
 }

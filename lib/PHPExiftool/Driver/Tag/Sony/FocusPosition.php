@@ -41,5 +41,4 @@ class FocusPosition extends AbstractTag
     protected $Description = 'Focus Position';
 
     protected $flag_Permanent = true;
-
 }

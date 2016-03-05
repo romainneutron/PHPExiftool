@@ -39,5 +39,4 @@ class HumanPerformerCodeSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Human Performer Code Sequence';
-
 }

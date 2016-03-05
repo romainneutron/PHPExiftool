@@ -80,5 +80,4 @@ class CFALayout extends AbstractTag
             'Label' => 'Even rows offset down by 1/2 row, even columns offset right by 1/2 column',
         ),
     );
-
 }

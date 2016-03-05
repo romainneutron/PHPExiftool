@@ -39,5 +39,4 @@ class DASTemperature extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'DAS Temperature';
-
 }

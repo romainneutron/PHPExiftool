@@ -43,5 +43,4 @@ class BlackLevelDeltaV extends AbstractTag
     protected $local_g1 = 'SubIFD';
 
     protected $flag_Unsafe = true;
-
 }

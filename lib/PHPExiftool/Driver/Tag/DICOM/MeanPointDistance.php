@@ -39,5 +39,4 @@ class MeanPointDistance extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Mean Point Distance';
-
 }

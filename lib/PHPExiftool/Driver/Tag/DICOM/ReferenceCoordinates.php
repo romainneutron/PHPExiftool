@@ -39,5 +39,4 @@ class ReferenceCoordinates extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Reference Coordinates';
-
 }

@@ -41,5 +41,4 @@ class SensorBlueLevel extends AbstractTag
     protected $Description = 'Sensor Blue Level';
 
     protected $flag_Permanent = true;
-
 }

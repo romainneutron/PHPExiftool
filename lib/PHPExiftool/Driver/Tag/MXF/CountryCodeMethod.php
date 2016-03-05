@@ -39,5 +39,4 @@ class CountryCodeMethod extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Country Code Method';
-
 }

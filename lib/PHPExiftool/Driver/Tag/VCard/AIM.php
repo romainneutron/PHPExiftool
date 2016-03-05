@@ -39,5 +39,4 @@ class AIM extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'AIM';
-
 }

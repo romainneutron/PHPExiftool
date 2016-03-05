@@ -39,5 +39,4 @@ class YOsiz extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Y Osiz';
-
 }

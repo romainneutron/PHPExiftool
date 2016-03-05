@@ -41,5 +41,4 @@ class ManualFocusDistance extends AbstractTag
     protected $Description = 'Manual Focus Distance';
 
     protected $flag_Permanent = true;
-
 }

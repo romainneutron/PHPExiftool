@@ -41,5 +41,4 @@ class CLModeShootingSpeed extends AbstractTag
     protected $Description = 'CL Mode Shooting Speed';
 
     protected $flag_Permanent = true;
-
 }

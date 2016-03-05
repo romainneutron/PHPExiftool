@@ -39,5 +39,4 @@ class AAFManufacturerID extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'AAF Manufacturer ID';
-
 }

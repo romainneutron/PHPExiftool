@@ -39,5 +39,4 @@ class MinPacketSize extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Min Packet Size';
-
 }

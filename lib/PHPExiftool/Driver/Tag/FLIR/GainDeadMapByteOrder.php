@@ -39,5 +39,4 @@ class GainDeadMapByteOrder extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Gain Dead Map Byte Order';
-
 }

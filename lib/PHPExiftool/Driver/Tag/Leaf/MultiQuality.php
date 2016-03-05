@@ -39,5 +39,4 @@ class MultiQuality extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Multi Quality';
-
 }

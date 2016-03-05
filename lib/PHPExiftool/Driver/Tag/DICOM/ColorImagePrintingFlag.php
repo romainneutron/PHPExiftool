@@ -39,5 +39,4 @@ class ColorImagePrintingFlag extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Color Image Printing Flag';
-
 }

@@ -39,5 +39,4 @@ class AngularStep extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Angular Step';
-
 }

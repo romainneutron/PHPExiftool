@@ -52,5 +52,4 @@ class SmartRange extends AbstractTag
             'Label' => 'On',
         ),
     );
-
 }

@@ -41,5 +41,4 @@ class PeakEnvelopeData extends AbstractTag
     protected $Description = 'Peak Envelope Data';
 
     protected $local_g2 = 'Audio';
-
 }

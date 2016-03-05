@@ -39,5 +39,4 @@ class BroadcastMediumKind extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Broadcast Medium Kind';
-
 }

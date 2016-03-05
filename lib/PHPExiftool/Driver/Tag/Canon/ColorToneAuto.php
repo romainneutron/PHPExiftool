@@ -48,5 +48,4 @@ class ColorToneAuto extends AbstractTag
             'Label' => 'n/a',
         ),
     );
-
 }

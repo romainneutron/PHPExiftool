@@ -39,5 +39,4 @@ class ColorNoiseReductionSmoothness extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Color Noise Reduction Smoothness';
-
 }

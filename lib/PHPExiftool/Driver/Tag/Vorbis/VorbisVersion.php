@@ -39,5 +39,4 @@ class VorbisVersion extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Vorbis Version';
-
 }

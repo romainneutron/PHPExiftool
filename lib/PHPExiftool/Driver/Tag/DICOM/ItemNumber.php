@@ -39,5 +39,4 @@ class ItemNumber extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Item Number';
-
 }

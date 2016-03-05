@@ -39,5 +39,4 @@ class EvalState extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Eval State';
-
 }

@@ -39,5 +39,4 @@ class PerformedProcessingParametersSeq extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Performed Processing Parameters Seq';
-
 }

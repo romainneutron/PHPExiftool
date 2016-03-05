@@ -41,5 +41,4 @@ class AFStepsNearFar extends AbstractTag
     protected $Description = 'AF Steps Near Far';
 
     protected $flag_Permanent = true;
-
 }

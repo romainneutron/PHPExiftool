@@ -39,5 +39,4 @@ class MinimumDasValueFoundInTheScanData extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Minimum Das Value Found In The Scan Data';
-
 }

@@ -39,5 +39,4 @@ class OrganDose extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Organ Dose';
-
 }

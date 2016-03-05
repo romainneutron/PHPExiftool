@@ -41,5 +41,4 @@ class FocalPlaneDiagonal extends AbstractTag
     protected $Description = 'Focal Plane Diagonal';
 
     protected $flag_Permanent = true;
-
 }

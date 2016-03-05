@@ -60,5 +60,4 @@ class Saturation extends AbstractTag
     );
 
     protected $flag_Avoid = 'mixed';
-
 }

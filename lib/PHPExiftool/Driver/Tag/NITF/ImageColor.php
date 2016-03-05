@@ -46,5 +46,4 @@ class ImageColor extends AbstractTag
             'Label' => 'Monochrome',
         ),
     );
-
 }

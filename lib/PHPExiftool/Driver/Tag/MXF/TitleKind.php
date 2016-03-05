@@ -39,5 +39,4 @@ class TitleKind extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Title Kind';
-
 }

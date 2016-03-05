@@ -39,5 +39,4 @@ class AdditionalPatientHistory extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Additional Patient History';
-
 }

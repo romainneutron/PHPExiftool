@@ -39,5 +39,4 @@ class LatestEonOrHighestEonothem extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Latest Eon Or Highest Eonothem';
-
 }

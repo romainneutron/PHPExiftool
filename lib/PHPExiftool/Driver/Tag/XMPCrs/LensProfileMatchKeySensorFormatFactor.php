@@ -39,5 +39,4 @@ class LensProfileMatchKeySensorFormatFactor extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Lens Profile Match Key Sensor Format Factor';
-
 }

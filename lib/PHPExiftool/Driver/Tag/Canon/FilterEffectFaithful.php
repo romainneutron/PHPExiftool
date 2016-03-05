@@ -48,5 +48,4 @@ class FilterEffectFaithful extends AbstractTag
             'Label' => 'n/a',
         ),
     );
-
 }

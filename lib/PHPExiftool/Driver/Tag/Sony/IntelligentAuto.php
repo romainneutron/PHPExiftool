@@ -56,5 +56,4 @@ class IntelligentAuto extends AbstractTag
             'Label' => 'Advanced',
         ),
     );
-
 }

@@ -39,5 +39,4 @@ class SharpInfo extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Sharp Info';
-
 }

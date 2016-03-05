@@ -39,5 +39,4 @@ class FilmStockManufacturerName extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Film Stock Manufacturer Name';
-
 }

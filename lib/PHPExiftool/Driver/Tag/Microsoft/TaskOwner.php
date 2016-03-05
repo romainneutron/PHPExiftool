@@ -39,5 +39,4 @@ class TaskOwner extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Task Owner';
-
 }

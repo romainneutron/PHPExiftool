@@ -50,5 +50,4 @@ class OriginalMedia extends AbstractTag
             'Label' => True,
         ),
     );
-
 }

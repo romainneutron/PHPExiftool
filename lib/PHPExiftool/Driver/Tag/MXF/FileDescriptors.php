@@ -39,5 +39,4 @@ class FileDescriptors extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'File Descriptors';
-
 }

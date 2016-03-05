@@ -39,5 +39,4 @@ class EssenceContainerFormat extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Essence Container Format';
-
 }

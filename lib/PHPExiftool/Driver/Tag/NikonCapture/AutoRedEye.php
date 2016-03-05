@@ -52,5 +52,4 @@ class AutoRedEye extends AbstractTag
             'Label' => 'On',
         ),
     );
-
 }

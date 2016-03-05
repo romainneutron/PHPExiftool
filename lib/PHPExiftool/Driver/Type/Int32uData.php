@@ -19,5 +19,4 @@ class Int32uData extends AbstractType
     protected $ExiftoolName = 'Int32uData';
 
     protected $PHPMap = 'int';
-
 }

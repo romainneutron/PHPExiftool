@@ -50,5 +50,4 @@ class DecimationMethod extends AbstractTag
             'Label' => '8-point Prefilter',
         ),
     );
-
 }

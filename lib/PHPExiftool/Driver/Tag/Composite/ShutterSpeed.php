@@ -41,5 +41,4 @@ class ShutterSpeed extends AbstractTag
     protected $Description = 'Shutter Speed';
 
     protected $local_g2 = 'Image';
-
 }

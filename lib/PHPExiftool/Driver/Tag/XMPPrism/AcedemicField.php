@@ -41,5 +41,4 @@ class AcedemicField extends AbstractTag
     protected $Description = 'Acedemic Field';
 
     protected $flag_Avoid = true;
-
 }

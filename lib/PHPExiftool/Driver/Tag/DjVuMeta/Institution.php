@@ -39,5 +39,4 @@ class Institution extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Institution';
-
 }

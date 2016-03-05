@@ -41,5 +41,4 @@ class ExtenderFirmwareVersion extends AbstractTag
     protected $Description = 'Extender Firmware Version';
 
     protected $flag_Permanent = true;
-
 }

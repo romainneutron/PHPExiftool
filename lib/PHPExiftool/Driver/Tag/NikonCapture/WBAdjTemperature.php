@@ -41,5 +41,4 @@ class WBAdjTemperature extends AbstractTag
     protected $Description = 'WB Adj Temperature';
 
     protected $flag_Permanent = true;
-
 }

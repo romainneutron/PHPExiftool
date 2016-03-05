@@ -39,5 +39,4 @@ class EditionUID extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Edition UID';
-
 }

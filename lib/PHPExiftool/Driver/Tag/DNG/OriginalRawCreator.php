@@ -39,5 +39,4 @@ class OriginalRawCreator extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Original Raw Creator';
-
 }

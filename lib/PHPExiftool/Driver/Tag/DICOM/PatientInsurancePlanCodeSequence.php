@@ -39,5 +39,4 @@ class PatientInsurancePlanCodeSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Patient Insurance Plan Code Sequence';
-
 }

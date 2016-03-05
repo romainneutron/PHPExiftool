@@ -52,5 +52,4 @@ class FlashWarning extends AbstractTag
             'Label' => 'Off',
         ),
     );
-
 }

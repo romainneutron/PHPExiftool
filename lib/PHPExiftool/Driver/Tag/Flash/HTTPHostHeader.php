@@ -39,5 +39,4 @@ class HTTPHostHeader extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'HTTP Host Header';
-
 }

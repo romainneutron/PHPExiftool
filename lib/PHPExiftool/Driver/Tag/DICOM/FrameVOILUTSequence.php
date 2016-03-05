@@ -39,5 +39,4 @@ class FrameVOILUTSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Frame VOILUT Sequence';
-
 }

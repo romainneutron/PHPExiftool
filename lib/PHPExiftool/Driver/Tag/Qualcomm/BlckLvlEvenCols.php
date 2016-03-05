@@ -41,5 +41,4 @@ class BlckLvlEvenCols extends AbstractTag
     protected $Description = 'Blck Lvl Even Cols';
 
     protected $flag_Permanent = true;
-
 }

@@ -39,5 +39,4 @@ class EffectiveEchoTime extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Effective Echo Time';
-
 }

@@ -39,5 +39,4 @@ class AudioCurrentTargetBitRate extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Audio Current Target Bit Rate';
-
 }

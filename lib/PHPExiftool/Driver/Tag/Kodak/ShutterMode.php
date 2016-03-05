@@ -56,5 +56,4 @@ class ShutterMode extends AbstractTag
             'Label' => 'Manual?',
         ),
     );
-
 }

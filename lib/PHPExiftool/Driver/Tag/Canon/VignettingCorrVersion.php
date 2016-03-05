@@ -41,5 +41,4 @@ class VignettingCorrVersion extends AbstractTag
     protected $Description = 'Vignetting Corr Version';
 
     protected $flag_Permanent = true;
-
 }

@@ -39,5 +39,4 @@ class TableHorizontalRotationAngle extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Table Horizontal Rotation Angle';
-
 }

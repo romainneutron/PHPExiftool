@@ -50,5 +50,4 @@ class ChapterTranslateCodec extends AbstractTag
             'Label' => 'DVD Menu',
         ),
     );
-
 }

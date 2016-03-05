@@ -39,5 +39,4 @@ class Untitled2 extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Untitled 2';
-
 }

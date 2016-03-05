@@ -56,5 +56,4 @@ class ToneCurve extends AbstractTag
             'Label' => 'Custom',
         ),
     );
-
 }

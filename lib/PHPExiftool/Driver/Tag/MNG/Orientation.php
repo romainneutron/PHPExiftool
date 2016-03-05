@@ -62,5 +62,4 @@ class Orientation extends AbstractTag
             'Label' => 'Tiled',
         ),
     );
-
 }

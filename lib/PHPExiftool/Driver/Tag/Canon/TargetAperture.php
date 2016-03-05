@@ -41,5 +41,4 @@ class TargetAperture extends AbstractTag
     protected $Description = 'Target Aperture';
 
     protected $flag_Permanent = true;
-
 }

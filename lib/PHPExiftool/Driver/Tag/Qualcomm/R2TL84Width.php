@@ -41,5 +41,4 @@ class R2TL84Width extends AbstractTag
     protected $Description = 'R2 TL84 Width';
 
     protected $flag_Permanent = true;
-
 }

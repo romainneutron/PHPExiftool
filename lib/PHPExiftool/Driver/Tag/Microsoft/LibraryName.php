@@ -39,5 +39,4 @@ class LibraryName extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Library Name';
-
 }

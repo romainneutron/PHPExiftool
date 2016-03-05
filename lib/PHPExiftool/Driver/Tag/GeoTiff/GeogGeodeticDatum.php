@@ -670,5 +670,4 @@ class GeogGeodeticDatum extends AbstractTag
             'Label' => 'User Defined',
         ),
     );
-
 }

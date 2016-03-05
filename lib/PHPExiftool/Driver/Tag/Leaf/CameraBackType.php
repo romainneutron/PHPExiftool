@@ -39,5 +39,4 @@ class CameraBackType extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Camera Back Type';
-
 }

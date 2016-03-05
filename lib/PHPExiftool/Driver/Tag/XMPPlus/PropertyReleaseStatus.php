@@ -58,5 +58,4 @@ class PropertyReleaseStatus extends AbstractTag
             'Label' => 'Unlimited Property Releases',
         ),
     );
-
 }

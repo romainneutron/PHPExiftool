@@ -39,5 +39,4 @@ class MPImageLength extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'MP Image Length';
-
 }

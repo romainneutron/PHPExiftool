@@ -39,5 +39,4 @@ class StartAngle extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Start Angle';
-
 }

@@ -39,5 +39,4 @@ class GraphicData extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Graphic Data';
-
 }

@@ -52,5 +52,4 @@ class FullPressSnap extends AbstractTag
             'Label' => 'On',
         ),
     );
-
 }

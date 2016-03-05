@@ -39,5 +39,4 @@ class LinkedPackageID extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Linked Package ID';
-
 }

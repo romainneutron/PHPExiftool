@@ -41,5 +41,4 @@ class Title extends AbstractTag
     protected $Description = 'Title';
 
     protected $flag_Permanent = true;
-
 }

@@ -70,5 +70,4 @@ class HighISONoiseReduction extends AbstractTag
     );
 
     protected $Index = 'mixed';
-
 }

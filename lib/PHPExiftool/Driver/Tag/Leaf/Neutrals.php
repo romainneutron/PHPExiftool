@@ -39,5 +39,4 @@ class Neutrals extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Neutrals';
-
 }

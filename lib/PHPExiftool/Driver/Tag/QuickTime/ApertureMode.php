@@ -39,5 +39,4 @@ class ApertureMode extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Aperture Mode';
-
 }

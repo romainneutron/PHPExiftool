@@ -39,5 +39,4 @@ class TransmitGain extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Transmit Gain';
-
 }

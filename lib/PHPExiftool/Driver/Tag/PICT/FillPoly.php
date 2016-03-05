@@ -39,5 +39,4 @@ class FillPoly extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Fill Poly';
-
 }

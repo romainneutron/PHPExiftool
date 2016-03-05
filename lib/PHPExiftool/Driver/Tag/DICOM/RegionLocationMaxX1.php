@@ -39,5 +39,4 @@ class RegionLocationMaxX1 extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Region Location Max X1';
-
 }

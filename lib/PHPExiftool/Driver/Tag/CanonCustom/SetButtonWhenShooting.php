@@ -258,5 +258,4 @@ class SetButtonWhenShooting extends AbstractTag
     );
 
     protected $Index = 'mixed';
-
 }

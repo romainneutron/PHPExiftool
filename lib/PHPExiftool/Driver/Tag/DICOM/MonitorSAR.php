@@ -39,5 +39,4 @@ class MonitorSAR extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Monitor SAR';
-
 }

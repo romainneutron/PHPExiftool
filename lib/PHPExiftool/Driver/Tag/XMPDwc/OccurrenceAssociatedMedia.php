@@ -39,5 +39,4 @@ class OccurrenceAssociatedMedia extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Occurrence Associated Media';
-
 }

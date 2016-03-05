@@ -39,5 +39,4 @@ class MuxingApp extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Muxing App';
-
 }

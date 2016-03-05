@@ -39,5 +39,4 @@ class ExposedAspectRatio extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Exposed Aspect Ratio';
-
 }

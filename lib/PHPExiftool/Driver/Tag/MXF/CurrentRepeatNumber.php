@@ -39,5 +39,4 @@ class CurrentRepeatNumber extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Current Repeat Number';
-
 }

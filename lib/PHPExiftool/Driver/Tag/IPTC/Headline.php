@@ -41,5 +41,4 @@ class Headline extends AbstractTag
     protected $Description = 'Headline';
 
     protected $MaxLength = 256;
-
 }

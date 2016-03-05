@@ -41,5 +41,4 @@ class ModifiedDigitalGain extends AbstractTag
     protected $Description = 'Modified Digital Gain';
 
     protected $flag_Permanent = true;
-
 }

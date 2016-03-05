@@ -39,5 +39,4 @@ class NominalScannedPixelSpacing extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Nominal Scanned Pixel Spacing';
-
 }

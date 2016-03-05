@@ -39,5 +39,4 @@ class LastMenstrualDate extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Last Menstrual Date';
-
 }

@@ -39,5 +39,4 @@ class MediaStationName extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Media Station Name';
-
 }

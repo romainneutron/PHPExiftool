@@ -39,5 +39,4 @@ class AcquisitionDeviceTypeCodeSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Acquisition Device Type Code Sequence';
-
 }

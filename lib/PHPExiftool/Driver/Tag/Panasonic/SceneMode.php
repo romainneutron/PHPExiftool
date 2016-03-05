@@ -360,5 +360,4 @@ class SceneMode extends AbstractTag
             'Label' => 'Creative Control',
         ),
     );
-
 }

@@ -60,5 +60,4 @@ class MultiFunctionLock extends AbstractTag
             'Label' => 'On (main dial and quick control dial)',
         ),
     );
-
 }

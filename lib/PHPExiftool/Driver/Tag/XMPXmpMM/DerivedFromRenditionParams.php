@@ -39,5 +39,4 @@ class DerivedFromRenditionParams extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Derived From Rendition Params';
-
 }

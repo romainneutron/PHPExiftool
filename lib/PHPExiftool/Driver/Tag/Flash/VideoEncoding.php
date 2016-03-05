@@ -70,5 +70,4 @@ class VideoEncoding extends AbstractTag
             'Label' => 'H.264',
         ),
     );
-
 }

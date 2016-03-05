@@ -39,5 +39,4 @@ class RTImagePosition extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'RT Image Position';
-
 }

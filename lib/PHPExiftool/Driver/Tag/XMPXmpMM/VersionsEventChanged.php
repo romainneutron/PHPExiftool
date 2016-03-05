@@ -41,5 +41,4 @@ class VersionsEventChanged extends AbstractTag
     protected $Description = 'Versions Event Changed';
 
     protected $flag_List = true;
-
 }

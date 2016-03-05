@@ -39,5 +39,4 @@ class OrganAtRiskOverdoseVolumeFraction extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Organ At Risk Overdose Volume Fraction';
-
 }

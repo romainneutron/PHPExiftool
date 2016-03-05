@@ -39,5 +39,4 @@ class FrameLabelVector extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Frame Label Vector';
-
 }

@@ -54,5 +54,4 @@ class AudioSampleRate extends AbstractTag
             'Label' => 32000,
         ),
     );
-
 }

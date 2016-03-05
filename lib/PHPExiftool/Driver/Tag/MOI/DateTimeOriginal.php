@@ -43,5 +43,4 @@ class DateTimeOriginal extends AbstractTag
     protected $local_g2 = 'Time';
 
     protected $MaxLength = 8;
-
 }

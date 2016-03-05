@@ -39,5 +39,4 @@ class RGBLUTTransferFunction extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'RGBLUT Transfer Function';
-
 }

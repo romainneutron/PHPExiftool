@@ -39,5 +39,4 @@ class ImgProfName extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Img Prof Name';
-
 }

@@ -41,5 +41,4 @@ class ImageID extends AbstractTag
     protected $Description = 'Image ID';
 
     protected $local_g1 = 'ExifIFD';
-
 }

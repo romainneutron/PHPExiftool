@@ -41,5 +41,4 @@ class AudioDuration extends AbstractTag
     protected $Description = 'Audio Duration';
 
     protected $MaxLength = 6;
-
 }

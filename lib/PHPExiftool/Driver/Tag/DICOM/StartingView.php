@@ -39,5 +39,4 @@ class StartingView extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Starting View';
-
 }

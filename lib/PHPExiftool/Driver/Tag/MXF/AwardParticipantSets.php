@@ -39,5 +39,4 @@ class AwardParticipantSets extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Award Participant Sets';
-
 }

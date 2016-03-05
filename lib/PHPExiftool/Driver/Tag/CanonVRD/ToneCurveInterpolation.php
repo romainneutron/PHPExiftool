@@ -50,5 +50,4 @@ class ToneCurveInterpolation extends AbstractTag
             'Label' => 'Straight',
         ),
     );
-
 }

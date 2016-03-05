@@ -39,5 +39,4 @@ class ByteLength extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Byte Length';
-
 }

@@ -39,5 +39,4 @@ class JPEGQualityEstimate extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'JPEG Quality Estimate';
-
 }

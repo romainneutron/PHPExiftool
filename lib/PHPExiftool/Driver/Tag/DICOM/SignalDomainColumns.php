@@ -39,5 +39,4 @@ class SignalDomainColumns extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Signal Domain Columns';
-
 }

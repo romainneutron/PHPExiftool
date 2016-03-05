@@ -39,5 +39,4 @@ class CDDBTrackNumber extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'CDDB Track Number';
-
 }

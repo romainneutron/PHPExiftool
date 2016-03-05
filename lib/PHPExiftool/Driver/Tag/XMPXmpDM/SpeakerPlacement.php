@@ -39,5 +39,4 @@ class SpeakerPlacement extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Speaker Placement';
-
 }

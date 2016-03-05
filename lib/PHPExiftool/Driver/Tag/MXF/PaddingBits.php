@@ -39,5 +39,4 @@ class PaddingBits extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Padding Bits';
-
 }

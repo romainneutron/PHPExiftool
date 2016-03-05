@@ -39,5 +39,4 @@ class Highlights2012 extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Highlights 2012';
-
 }

@@ -68,5 +68,4 @@ class RawAndJpgRecording extends AbstractTag
             'Label' => 'RAW+Large/Fine',
         ),
     );
-
 }

@@ -39,5 +39,4 @@ class RelativeScope extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Relative Scope';
-
 }

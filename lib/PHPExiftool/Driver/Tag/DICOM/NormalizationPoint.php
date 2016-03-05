@@ -39,5 +39,4 @@ class NormalizationPoint extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Normalization Point';
-
 }

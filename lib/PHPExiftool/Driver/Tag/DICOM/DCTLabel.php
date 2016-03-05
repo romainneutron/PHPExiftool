@@ -39,5 +39,4 @@ class DCTLabel extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'DCT Label';
-
 }

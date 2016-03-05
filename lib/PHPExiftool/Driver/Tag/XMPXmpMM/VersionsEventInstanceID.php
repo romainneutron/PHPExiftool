@@ -41,5 +41,4 @@ class VersionsEventInstanceID extends AbstractTag
     protected $Description = 'Versions Event Instance ID';
 
     protected $flag_List = true;
-
 }

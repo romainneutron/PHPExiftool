@@ -39,5 +39,4 @@ class CueRefNumber extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Cue Ref Number';
-
 }

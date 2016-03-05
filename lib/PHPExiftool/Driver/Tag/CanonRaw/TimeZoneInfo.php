@@ -41,5 +41,4 @@ class TimeZoneInfo extends AbstractTag
     protected $Description = 'Time Zone Info';
 
     protected $flag_Permanent = true;
-
 }

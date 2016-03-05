@@ -39,5 +39,4 @@ class LensModel extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Lens Model';
-
 }

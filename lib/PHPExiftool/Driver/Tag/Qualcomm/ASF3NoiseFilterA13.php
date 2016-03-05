@@ -41,5 +41,4 @@ class ASF3NoiseFilterA13 extends AbstractTag
     protected $Description = 'ASF3 Noise Filter A13';
 
     protected $flag_Permanent = true;
-
 }

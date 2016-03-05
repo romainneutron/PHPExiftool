@@ -39,5 +39,4 @@ class CropCircleY extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Crop Circle Y';
-
 }

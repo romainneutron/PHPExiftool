@@ -39,5 +39,4 @@ class AnatomicalOrientationType extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Anatomical Orientation Type';
-
 }

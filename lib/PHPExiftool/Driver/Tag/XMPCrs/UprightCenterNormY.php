@@ -39,5 +39,4 @@ class UprightCenterNormY extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Upright Center Norm Y';
-
 }

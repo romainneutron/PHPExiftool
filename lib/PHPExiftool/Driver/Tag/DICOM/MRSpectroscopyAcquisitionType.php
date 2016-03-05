@@ -39,5 +39,4 @@ class MRSpectroscopyAcquisitionType extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'MR Spectroscopy Acquisition Type';
-
 }

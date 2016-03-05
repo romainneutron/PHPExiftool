@@ -39,5 +39,4 @@ class ManufacturerInformationObject extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Manufacturer Information Object';
-
 }

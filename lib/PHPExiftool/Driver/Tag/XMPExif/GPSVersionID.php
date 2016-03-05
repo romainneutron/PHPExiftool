@@ -41,5 +41,4 @@ class GPSVersionID extends AbstractTag
     protected $Description = 'GPS Version ID';
 
     protected $local_g2 = 'Location';
-
 }

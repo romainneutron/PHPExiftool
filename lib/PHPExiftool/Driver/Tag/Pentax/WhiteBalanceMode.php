@@ -84,5 +84,4 @@ class WhiteBalanceMode extends AbstractTag
             'Label' => 'User-Selected',
         ),
     );
-
 }

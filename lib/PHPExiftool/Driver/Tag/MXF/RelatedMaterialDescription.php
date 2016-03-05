@@ -39,5 +39,4 @@ class RelatedMaterialDescription extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Related Material Description';
-
 }

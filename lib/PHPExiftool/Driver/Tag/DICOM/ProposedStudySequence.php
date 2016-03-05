@@ -39,5 +39,4 @@ class ProposedStudySequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Proposed Study Sequence';
-
 }

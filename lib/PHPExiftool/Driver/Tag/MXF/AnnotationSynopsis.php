@@ -39,5 +39,4 @@ class AnnotationSynopsis extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Annotation Synopsis';
-
 }

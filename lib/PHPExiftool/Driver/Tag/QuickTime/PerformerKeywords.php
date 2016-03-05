@@ -39,5 +39,4 @@ class PerformerKeywords extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Performer Keywords';
-
 }

@@ -47,5 +47,4 @@ class MakerNoteUnknownBinary extends AbstractTag
     protected $flag_Permanent = true;
 
     protected $Index = 80;
-
 }

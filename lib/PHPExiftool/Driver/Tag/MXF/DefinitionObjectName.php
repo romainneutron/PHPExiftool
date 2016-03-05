@@ -39,5 +39,4 @@ class DefinitionObjectName extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Definition Object Name';
-
 }

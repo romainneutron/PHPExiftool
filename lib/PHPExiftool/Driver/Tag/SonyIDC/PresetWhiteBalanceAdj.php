@@ -41,5 +41,4 @@ class PresetWhiteBalanceAdj extends AbstractTag
     protected $Description = 'Preset White Balance Adj';
 
     protected $flag_Permanent = true;
-
 }

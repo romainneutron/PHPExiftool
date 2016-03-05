@@ -39,5 +39,4 @@ class FilmFrameNumber extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Film Frame Number';
-
 }

@@ -19,5 +19,4 @@ class VarUstr32 extends AbstractType
     protected $ExiftoolName = 'var_ustr32';
 
     protected $PHPMap = '';
-
 }

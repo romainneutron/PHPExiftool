@@ -54,5 +54,4 @@ class ApertureRange extends AbstractTag
             'Label' => 'Enable',
         ),
     );
-
 }

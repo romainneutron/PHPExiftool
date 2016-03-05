@@ -198,5 +198,4 @@ class MagicFilter extends AbstractTag
             'Label' => 'Partial Color III',
         ),
     );
-
 }

@@ -39,5 +39,4 @@ class FrameReferenceDateTime extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Frame Reference Date Time';
-
 }

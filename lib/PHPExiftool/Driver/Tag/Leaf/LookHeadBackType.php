@@ -39,5 +39,4 @@ class LookHeadBackType extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Look Head Back Type';
-
 }

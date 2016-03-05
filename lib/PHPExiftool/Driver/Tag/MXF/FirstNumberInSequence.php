@@ -39,5 +39,4 @@ class FirstNumberInSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'First Number In Sequence';
-
 }

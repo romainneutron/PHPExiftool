@@ -39,5 +39,4 @@ class MRFOVGeometrySequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'MRFOV-Geometry Sequence';
-
 }

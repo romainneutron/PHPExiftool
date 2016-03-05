@@ -39,5 +39,4 @@ class RevisitAfter extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Revisit After';
-
 }

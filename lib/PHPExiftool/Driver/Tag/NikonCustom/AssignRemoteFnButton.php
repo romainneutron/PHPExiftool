@@ -88,5 +88,4 @@ class AssignRemoteFnButton extends AbstractTag
             'Label' => 'Flash Disable/Enable',
         ),
     );
-
 }

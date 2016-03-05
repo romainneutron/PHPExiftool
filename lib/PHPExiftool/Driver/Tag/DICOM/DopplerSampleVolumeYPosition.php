@@ -39,5 +39,4 @@ class DopplerSampleVolumeYPosition extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Doppler Sample Volume Y Position';
-
 }

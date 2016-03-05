@@ -39,5 +39,4 @@ class OverlayLocation extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Overlay Location';
-
 }

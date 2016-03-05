@@ -39,5 +39,4 @@ class PageLayout extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Page Layout';
-
 }

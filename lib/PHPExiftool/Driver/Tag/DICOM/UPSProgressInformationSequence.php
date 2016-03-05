@@ -39,5 +39,4 @@ class UPSProgressInformationSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'UPS Progress Information Sequence';
-
 }

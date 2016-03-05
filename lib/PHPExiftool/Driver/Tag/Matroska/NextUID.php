@@ -41,5 +41,4 @@ class NextUID extends AbstractTag
     protected $Description = 'Next UID';
 
     protected $flag_Binary = true;
-
 }

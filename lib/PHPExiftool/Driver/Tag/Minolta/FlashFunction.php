@@ -84,5 +84,4 @@ class FlashFunction extends AbstractTag
             'Label' => 'HSS',
         ),
     );
-
 }

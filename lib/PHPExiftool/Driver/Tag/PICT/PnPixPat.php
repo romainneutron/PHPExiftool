@@ -39,5 +39,4 @@ class PnPixPat extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Pen Pixel Pattern';
-
 }

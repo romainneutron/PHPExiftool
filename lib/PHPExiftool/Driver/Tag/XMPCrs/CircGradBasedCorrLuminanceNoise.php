@@ -39,5 +39,4 @@ class CircGradBasedCorrLuminanceNoise extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Circ Grad Based Corr Luminance Noise';
-
 }

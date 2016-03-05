@@ -39,5 +39,4 @@ class ExCCIData extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Ex CCI Data';
-
 }

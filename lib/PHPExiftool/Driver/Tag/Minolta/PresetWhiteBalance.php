@@ -68,5 +68,4 @@ class PresetWhiteBalance extends AbstractTag
             'Label' => 'Flash',
         ),
     );
-
 }

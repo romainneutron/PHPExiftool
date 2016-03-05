@@ -39,5 +39,4 @@ class ITunTool extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'iTunTool';
-
 }

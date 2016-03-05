@@ -172,5 +172,4 @@ class PictureMode extends AbstractTag
             'Label' => 'Manual',
         ),
     );
-
 }

@@ -39,5 +39,4 @@ class Preroll extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Preroll';
-
 }

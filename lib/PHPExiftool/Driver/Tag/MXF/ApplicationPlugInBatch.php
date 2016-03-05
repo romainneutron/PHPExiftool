@@ -39,5 +39,4 @@ class ApplicationPlugInBatch extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Application Plug-In Batch';
-
 }

@@ -64,5 +64,4 @@ class ReleaseMode extends AbstractTag
             'Label' => 'High Speed Burst',
         ),
     );
-
 }

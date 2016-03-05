@@ -39,5 +39,4 @@ class GrayscalePresentationStateSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Grayscale Presentation State Sequence';
-
 }

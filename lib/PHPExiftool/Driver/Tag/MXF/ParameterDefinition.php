@@ -39,5 +39,4 @@ class ParameterDefinition extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Parameter Definition';
-
 }

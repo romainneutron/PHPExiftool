@@ -48,5 +48,4 @@ class ColorToneMonochrome extends AbstractTag
             'Label' => 'n/a',
         ),
     );
-
 }

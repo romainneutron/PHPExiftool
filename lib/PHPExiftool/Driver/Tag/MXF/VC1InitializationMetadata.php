@@ -39,5 +39,4 @@ class VC1InitializationMetadata extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'VC-1 Initialization Metadata';
-
 }

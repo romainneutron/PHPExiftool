@@ -39,5 +39,4 @@ class StdAutoActive extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Std Auto Active';
-
 }

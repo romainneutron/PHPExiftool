@@ -39,5 +39,4 @@ class PEFVersion extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'PEF Version';
-
 }

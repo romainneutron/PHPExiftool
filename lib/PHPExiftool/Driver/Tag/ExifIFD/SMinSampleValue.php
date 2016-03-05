@@ -41,5 +41,4 @@ class SMinSampleValue extends AbstractTag
     protected $Description = 'S Min Sample Value';
 
     protected $local_g1 = 'ExifIFD';
-
 }

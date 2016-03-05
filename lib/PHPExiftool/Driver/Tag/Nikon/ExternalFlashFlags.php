@@ -96,5 +96,4 @@ class ExternalFlashFlags extends AbstractTag
             'Label' => 'Dome Diffuser',
         ),
     );
-
 }

@@ -41,5 +41,4 @@ class UserID extends AbstractTag
     protected $Description = 'User ID';
 
     protected $MaxLength = 32;
-
 }

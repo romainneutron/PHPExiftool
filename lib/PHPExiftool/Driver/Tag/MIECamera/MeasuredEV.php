@@ -39,5 +39,4 @@ class MeasuredEV extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Measured EV';
-
 }

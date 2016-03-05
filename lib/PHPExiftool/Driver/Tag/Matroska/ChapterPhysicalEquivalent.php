@@ -70,5 +70,4 @@ class ChapterPhysicalEquivalent extends AbstractTag
             'Label' => 'Set / Package',
         ),
     );
-
 }

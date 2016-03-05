@@ -88,5 +88,4 @@ class ExternalFlashExposureComp extends AbstractTag
             'Label' => '1.0',
         ),
     );
-
 }

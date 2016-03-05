@@ -41,5 +41,4 @@ class EndingPage extends AbstractTag
     protected $Description = 'Ending Page';
 
     protected $flag_Avoid = true;
-
 }

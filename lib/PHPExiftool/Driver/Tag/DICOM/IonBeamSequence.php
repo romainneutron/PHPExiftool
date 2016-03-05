@@ -39,5 +39,4 @@ class IonBeamSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Ion Beam Sequence';
-
 }

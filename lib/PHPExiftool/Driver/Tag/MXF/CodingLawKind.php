@@ -39,5 +39,4 @@ class CodingLawKind extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Coding Law Kind';
-
 }

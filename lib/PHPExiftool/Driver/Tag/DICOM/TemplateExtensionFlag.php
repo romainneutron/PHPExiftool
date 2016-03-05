@@ -39,5 +39,4 @@ class TemplateExtensionFlag extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Template Extension Flag';
-
 }

@@ -39,5 +39,4 @@ class ThemeMusicFlag extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Theme Music Flag';
-
 }

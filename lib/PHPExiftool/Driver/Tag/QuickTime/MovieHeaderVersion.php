@@ -39,5 +39,4 @@ class MovieHeaderVersion extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Movie Header Version';
-
 }

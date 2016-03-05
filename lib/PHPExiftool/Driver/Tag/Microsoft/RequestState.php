@@ -39,5 +39,4 @@ class RequestState extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Request State';
-
 }

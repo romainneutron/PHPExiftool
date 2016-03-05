@@ -41,5 +41,4 @@ class RelatedVideoFile extends AbstractTag
     protected $Description = 'Related Video File';
 
     protected $flag_Binary = true;
-
 }

@@ -41,5 +41,4 @@ class MXFVersion extends AbstractTag
     protected $Description = 'MXF Version';
 
     protected $MaxLength = 2;
-
 }

@@ -39,5 +39,4 @@ class GroupSynopsis extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Group Synopsis';
-
 }

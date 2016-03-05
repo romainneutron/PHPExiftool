@@ -41,5 +41,4 @@ class Category extends AbstractTag
     protected $Description = 'Category';
 
     protected $MaxLength = 3;
-
 }

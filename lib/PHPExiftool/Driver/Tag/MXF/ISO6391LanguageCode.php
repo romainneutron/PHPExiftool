@@ -39,5 +39,4 @@ class ISO6391LanguageCode extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'ISO639-1 Language Code';
-
 }

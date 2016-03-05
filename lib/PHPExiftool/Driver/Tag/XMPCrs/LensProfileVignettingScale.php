@@ -39,5 +39,4 @@ class LensProfileVignettingScale extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Lens Profile Vignetting Scale';
-
 }

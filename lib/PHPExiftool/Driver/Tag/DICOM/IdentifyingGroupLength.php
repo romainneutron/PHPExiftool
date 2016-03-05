@@ -39,5 +39,4 @@ class IdentifyingGroupLength extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Identifying Group Length';
-
 }

@@ -39,5 +39,4 @@ class BranchOfService extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Branch Of Service';
-
 }

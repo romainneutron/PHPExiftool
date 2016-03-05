@@ -39,5 +39,4 @@ class DataValueRepresentation extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Data Value Representation';
-
 }

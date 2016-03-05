@@ -64,5 +64,4 @@ class Sharpening extends AbstractTag
             'Label' => 'High',
         ),
     );
-
 }

@@ -41,5 +41,4 @@ class TileDepth extends AbstractTag
     protected $Description = 'Tile Depth';
 
     protected $local_g1 = 'ExifIFD';
-
 }

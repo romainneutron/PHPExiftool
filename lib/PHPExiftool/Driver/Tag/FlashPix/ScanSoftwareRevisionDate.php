@@ -41,5 +41,4 @@ class ScanSoftwareRevisionDate extends AbstractTag
     protected $Description = 'Scan Software Revision Date';
 
     protected $local_g2 = 'Time';
-
 }

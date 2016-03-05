@@ -39,5 +39,4 @@ class IonRangeCompensatorSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Ion Range Compensator Sequence';
-
 }

@@ -39,5 +39,4 @@ class ContributionStatus extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Contribution Status';
-
 }

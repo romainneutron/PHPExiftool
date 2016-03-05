@@ -39,5 +39,4 @@ class VBIPayloadSampleCount extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'VBI Payload Sample Count';
-
 }

@@ -41,5 +41,4 @@ class PentaxModelType extends AbstractTag
     protected $Description = 'Pentax Model Type';
 
     protected $flag_Permanent = true;
-
 }

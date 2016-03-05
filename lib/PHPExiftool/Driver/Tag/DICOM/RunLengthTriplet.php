@@ -39,5 +39,4 @@ class RunLengthTriplet extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Run Length Triplet';
-
 }

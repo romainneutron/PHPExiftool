@@ -41,5 +41,4 @@ class ColorTempPC3 extends AbstractTag
     protected $Description = 'Color Temp PC3';
 
     protected $flag_Permanent = true;
-
 }

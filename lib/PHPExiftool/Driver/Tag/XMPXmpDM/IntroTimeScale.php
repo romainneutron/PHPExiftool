@@ -39,5 +39,4 @@ class IntroTimeScale extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Intro Time Scale';
-
 }

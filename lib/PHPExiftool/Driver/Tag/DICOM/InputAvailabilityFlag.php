@@ -39,5 +39,4 @@ class InputAvailabilityFlag extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Input Availability Flag';
-
 }

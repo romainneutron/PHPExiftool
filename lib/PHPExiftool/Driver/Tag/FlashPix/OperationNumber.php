@@ -39,5 +39,4 @@ class OperationNumber extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Operation Number';
-
 }

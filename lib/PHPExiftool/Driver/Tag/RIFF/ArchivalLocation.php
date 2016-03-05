@@ -39,5 +39,4 @@ class ArchivalLocation extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Archival Location';
-
 }

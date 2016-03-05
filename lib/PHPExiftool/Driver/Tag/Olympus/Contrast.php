@@ -56,5 +56,4 @@ class Contrast extends AbstractTag
             'Label' => 'Low',
         ),
     );
-
 }

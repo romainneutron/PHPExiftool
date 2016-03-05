@@ -39,5 +39,4 @@ class FunctionalGroupPrivateCreator extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Functional Group Private Creator';
-
 }

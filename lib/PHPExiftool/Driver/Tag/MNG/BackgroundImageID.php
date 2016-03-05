@@ -39,5 +39,4 @@ class BackgroundImageID extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Background Image ID';
-
 }

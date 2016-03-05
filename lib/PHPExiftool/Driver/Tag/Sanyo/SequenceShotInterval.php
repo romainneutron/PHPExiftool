@@ -60,5 +60,4 @@ class SequenceShotInterval extends AbstractTag
             'Label' => '20 frames/s',
         ),
     );
-
 }

@@ -39,5 +39,4 @@ class TelephoneNumberTrial extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Telephone Number Trial';
-
 }

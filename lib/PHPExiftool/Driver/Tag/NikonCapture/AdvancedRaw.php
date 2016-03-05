@@ -52,5 +52,4 @@ class AdvancedRaw extends AbstractTag
             'Label' => 'On',
         ),
     );
-
 }

@@ -39,5 +39,4 @@ class MaxDataRate extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Max Data Rate';
-
 }

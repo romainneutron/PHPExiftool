@@ -60,5 +60,4 @@ class AFAssist extends AbstractTag
             'Label' => 'Emits/Does not fire',
         ),
     );
-
 }

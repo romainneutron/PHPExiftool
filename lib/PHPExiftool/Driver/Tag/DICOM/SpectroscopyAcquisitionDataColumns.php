@@ -39,5 +39,4 @@ class SpectroscopyAcquisitionDataColumns extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Spectroscopy Acquisition Data Columns';
-
 }

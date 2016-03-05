@@ -41,5 +41,4 @@ class BrightnessValue extends AbstractTag
     protected $Description = 'Brightness Value';
 
     protected $flag_Permanent = true;
-
 }

@@ -39,5 +39,4 @@ class ObservationDateTime extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Observation Date Time';
-
 }

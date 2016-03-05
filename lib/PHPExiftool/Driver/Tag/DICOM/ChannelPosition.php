@@ -39,5 +39,4 @@ class ChannelPosition extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Channel Position';
-
 }

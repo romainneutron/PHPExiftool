@@ -56,5 +56,4 @@ class FlashReturn extends AbstractTag
             'Label' => 'Return detected',
         ),
     );
-
 }

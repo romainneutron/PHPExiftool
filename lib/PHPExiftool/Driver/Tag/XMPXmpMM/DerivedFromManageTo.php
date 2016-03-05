@@ -39,5 +39,4 @@ class DerivedFromManageTo extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Derived From Manage To';
-
 }

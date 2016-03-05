@@ -39,5 +39,4 @@ class TaxonParentNameUsageID extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Taxon Parent Name Usage ID';
-
 }

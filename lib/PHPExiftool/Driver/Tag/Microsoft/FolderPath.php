@@ -39,5 +39,4 @@ class FolderPath extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Folder Path';
-
 }

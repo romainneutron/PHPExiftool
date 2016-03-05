@@ -39,5 +39,4 @@ class MaximumCollatedFilms extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Maximum Collated Films';
-
 }

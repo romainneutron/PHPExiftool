@@ -39,5 +39,4 @@ class FullPanoWidthPixels extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Full Pano Width Pixels';
-
 }

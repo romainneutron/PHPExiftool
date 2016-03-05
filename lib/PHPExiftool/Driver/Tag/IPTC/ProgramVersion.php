@@ -41,5 +41,4 @@ class ProgramVersion extends AbstractTag
     protected $Description = 'Program Version';
 
     protected $MaxLength = 10;
-
 }

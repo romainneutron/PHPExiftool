@@ -39,5 +39,4 @@ class VC1Level extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'VC-1 Level';
-
 }

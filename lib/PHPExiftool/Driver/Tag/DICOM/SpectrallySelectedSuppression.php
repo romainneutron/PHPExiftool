@@ -39,5 +39,4 @@ class SpectrallySelectedSuppression extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Spectrally Selected Suppression';
-
 }

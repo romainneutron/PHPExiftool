@@ -39,5 +39,4 @@ class MRSpectroscopyFOVGeometrySequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'MR Spectroscopy FOV-Geometry Sequence';
-
 }

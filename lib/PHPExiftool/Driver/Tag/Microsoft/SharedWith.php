@@ -39,5 +39,4 @@ class SharedWith extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Shared With';
-
 }

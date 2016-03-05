@@ -39,5 +39,4 @@ class StreamCount extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Stream Count';
-
 }

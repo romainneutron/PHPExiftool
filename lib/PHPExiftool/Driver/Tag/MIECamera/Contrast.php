@@ -39,5 +39,4 @@ class Contrast extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Contrast';
-
 }

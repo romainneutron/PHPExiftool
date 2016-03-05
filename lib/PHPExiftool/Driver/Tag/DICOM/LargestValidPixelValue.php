@@ -39,5 +39,4 @@ class LargestValidPixelValue extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Largest Valid Pixel Value';
-
 }

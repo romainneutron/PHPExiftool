@@ -41,5 +41,4 @@ class TrackTranslateTrackID extends AbstractTag
     protected $Description = 'Track Translate Track ID';
 
     protected $flag_Binary = true;
-
 }

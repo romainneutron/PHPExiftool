@@ -41,5 +41,4 @@ class ImageSize extends AbstractTag
     protected $Description = 'Image Size';
 
     protected $local_g2 = 'Image';
-
 }

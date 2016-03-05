@@ -39,5 +39,4 @@ class DecimationPrefilterWidth extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Decimation Prefilter Width';
-
 }

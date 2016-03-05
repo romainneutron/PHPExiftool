@@ -39,5 +39,4 @@ class DASType extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'DAS Type';
-
 }

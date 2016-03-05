@@ -41,5 +41,4 @@ class LADetect extends AbstractTag
     protected $Description = 'LA Detect';
 
     protected $flag_Permanent = true;
-
 }

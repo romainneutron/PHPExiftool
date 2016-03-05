@@ -39,5 +39,4 @@ class CircGradBasedCorrMaskX extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Circ Grad Based Corr Mask X';
-
 }

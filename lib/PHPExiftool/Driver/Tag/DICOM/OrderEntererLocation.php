@@ -39,5 +39,4 @@ class OrderEntererLocation extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Order Enterer Location';
-
 }

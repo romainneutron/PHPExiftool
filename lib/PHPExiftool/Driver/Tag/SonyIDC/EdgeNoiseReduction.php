@@ -41,5 +41,4 @@ class EdgeNoiseReduction extends AbstractTag
     protected $Description = 'Edge Noise Reduction';
 
     protected $flag_Permanent = true;
-
 }

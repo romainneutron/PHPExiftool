@@ -39,5 +39,4 @@ class NavigationDisplaySet extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Navigation Display Set';
-
 }

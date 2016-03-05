@@ -39,5 +39,4 @@ class EssenceStreamID extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Essence Stream ID';
-
 }

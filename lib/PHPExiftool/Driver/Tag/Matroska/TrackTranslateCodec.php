@@ -50,5 +50,4 @@ class TrackTranslateCodec extends AbstractTag
             'Label' => 'DVD Menu',
         ),
     );
-
 }

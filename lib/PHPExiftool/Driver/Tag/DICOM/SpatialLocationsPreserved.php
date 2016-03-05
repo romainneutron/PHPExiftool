@@ -39,5 +39,4 @@ class SpatialLocationsPreserved extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Spatial Locations Preserved';
-
 }

@@ -39,5 +39,4 @@ class SpatialFrequencyResponse extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Spatial Frequency Response';
-
 }

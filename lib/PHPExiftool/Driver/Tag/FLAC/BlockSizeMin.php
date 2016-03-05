@@ -39,5 +39,4 @@ class BlockSizeMin extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Block Size Min';
-
 }

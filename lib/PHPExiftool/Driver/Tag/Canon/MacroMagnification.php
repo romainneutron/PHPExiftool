@@ -41,5 +41,4 @@ class MacroMagnification extends AbstractTag
     protected $Description = 'Macro Magnification';
 
     protected $flag_Permanent = true;
-
 }

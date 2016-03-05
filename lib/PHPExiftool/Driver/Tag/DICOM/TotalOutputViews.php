@@ -39,5 +39,4 @@ class TotalOutputViews extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Total Output Views';
-
 }

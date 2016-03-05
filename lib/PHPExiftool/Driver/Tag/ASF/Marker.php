@@ -39,5 +39,4 @@ class Marker extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Marker';
-
 }

@@ -39,5 +39,4 @@ class YResolution extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Y Resolution';
-
 }

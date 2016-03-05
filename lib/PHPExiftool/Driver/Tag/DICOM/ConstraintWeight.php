@@ -39,5 +39,4 @@ class ConstraintWeight extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Constraint Weight';
-
 }

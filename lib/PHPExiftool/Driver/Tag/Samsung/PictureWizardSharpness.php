@@ -41,5 +41,4 @@ class PictureWizardSharpness extends AbstractTag
     protected $Description = 'Picture Wizard Sharpness';
 
     protected $flag_Permanent = true;
-
 }

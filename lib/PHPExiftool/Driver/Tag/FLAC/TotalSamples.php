@@ -39,5 +39,4 @@ class TotalSamples extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Total Samples';
-
 }

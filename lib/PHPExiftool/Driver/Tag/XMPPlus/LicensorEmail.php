@@ -41,5 +41,4 @@ class LicensorEmail extends AbstractTag
     protected $Description = 'Licensor Email';
 
     protected $flag_List = true;
-
 }

@@ -39,5 +39,4 @@ class UserServiceRating extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'User Service Rating';
-
 }

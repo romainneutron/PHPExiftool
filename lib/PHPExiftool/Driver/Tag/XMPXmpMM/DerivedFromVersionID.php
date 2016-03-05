@@ -39,5 +39,4 @@ class DerivedFromVersionID extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Derived From Version ID';
-
 }

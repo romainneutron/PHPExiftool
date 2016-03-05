@@ -39,5 +39,4 @@ class MetaboliteMapCodeSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Metabolite Map Code Sequence';
-
 }

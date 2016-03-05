@@ -39,5 +39,4 @@ class RowOverlap extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Row Overlap';
-
 }

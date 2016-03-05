@@ -41,5 +41,4 @@ class Model extends AbstractTag
     protected $Description = 'Camera Model Name';
 
     protected $flag_Permanent = true;
-
 }

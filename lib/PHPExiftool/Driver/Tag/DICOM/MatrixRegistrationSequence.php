@@ -39,5 +39,4 @@ class MatrixRegistrationSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Matrix Registration Sequence';
-
 }

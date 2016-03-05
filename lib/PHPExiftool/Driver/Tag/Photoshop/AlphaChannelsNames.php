@@ -39,5 +39,4 @@ class AlphaChannelsNames extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Alpha Channels Names';
-
 }

@@ -41,5 +41,4 @@ class MovieData extends AbstractTag
     protected $Description = 'Movie Data';
 
     protected $flag_Binary = true;
-
 }

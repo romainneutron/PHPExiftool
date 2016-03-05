@@ -39,5 +39,4 @@ class DMComment extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'DM Comment';
-
 }

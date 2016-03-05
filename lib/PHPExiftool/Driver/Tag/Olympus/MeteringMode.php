@@ -68,5 +68,4 @@ class MeteringMode extends AbstractTag
             'Label' => 'Spot+Shadow control',
         ),
     );
-
 }

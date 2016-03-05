@@ -39,5 +39,4 @@ class UprightDependentDigest extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Upright Dependent Digest';
-
 }

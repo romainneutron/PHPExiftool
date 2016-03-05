@@ -39,5 +39,4 @@ class ReferencedFrameNumber extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Referenced Frame Number';
-
 }

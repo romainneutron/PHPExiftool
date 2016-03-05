@@ -41,5 +41,4 @@ class Megapixels extends AbstractTag
     protected $Description = 'Megapixels';
 
     protected $local_g2 = 'Image';
-
 }

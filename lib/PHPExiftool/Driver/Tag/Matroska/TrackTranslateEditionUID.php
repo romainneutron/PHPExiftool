@@ -39,5 +39,4 @@ class TrackTranslateEditionUID extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Track Translate Edition UID';
-
 }

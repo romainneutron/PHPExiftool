@@ -39,5 +39,4 @@ class FixationDevicePitchAngle extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Fixation Device Pitch Angle';
-
 }

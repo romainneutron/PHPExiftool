@@ -84,5 +84,4 @@ class ColorMode extends AbstractTag
             'Label' => 'Sepia',
         ),
     );
-
 }

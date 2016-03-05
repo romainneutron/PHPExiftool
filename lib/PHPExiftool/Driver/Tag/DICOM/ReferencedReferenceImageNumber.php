@@ -39,5 +39,4 @@ class ReferencedReferenceImageNumber extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Referenced Reference Image Number';
-
 }

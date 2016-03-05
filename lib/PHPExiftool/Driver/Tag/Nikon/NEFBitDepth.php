@@ -68,5 +68,4 @@ class NEFBitDepth extends AbstractTag
             'Label' => '16 x 3',
         ),
     );
-
 }

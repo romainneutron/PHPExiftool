@@ -39,5 +39,4 @@ class DeviceRelativePositionY extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Device Relative Position Y';
-
 }

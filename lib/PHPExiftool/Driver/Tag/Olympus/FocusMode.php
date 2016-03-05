@@ -76,5 +76,4 @@ class FocusMode extends AbstractTag
             'Label' => 'Manual',
         ),
     );
-
 }

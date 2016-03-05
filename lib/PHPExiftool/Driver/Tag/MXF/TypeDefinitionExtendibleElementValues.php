@@ -39,5 +39,4 @@ class TypeDefinitionExtendibleElementValues extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Type Definition Extendible Element Values';
-
 }

@@ -39,5 +39,4 @@ class AnatomicalReferenceForScout extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Anatomical Reference For Scout';
-
 }

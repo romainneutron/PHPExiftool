@@ -41,5 +41,4 @@ class ContrastAdj extends AbstractTag
     protected $Description = 'Contrast Adj';
 
     protected $flag_Permanent = true;
-
 }

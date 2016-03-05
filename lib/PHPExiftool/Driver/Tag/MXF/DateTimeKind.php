@@ -41,5 +41,4 @@ class DateTimeKind extends AbstractTag
     protected $Description = 'Date Time Kind';
 
     protected $local_g2 = 'Time';
-
 }

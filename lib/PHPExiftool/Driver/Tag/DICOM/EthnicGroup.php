@@ -39,5 +39,4 @@ class EthnicGroup extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Ethnic Group';
-
 }

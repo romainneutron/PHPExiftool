@@ -39,5 +39,4 @@ class SourceLength extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Source Length';
-
 }

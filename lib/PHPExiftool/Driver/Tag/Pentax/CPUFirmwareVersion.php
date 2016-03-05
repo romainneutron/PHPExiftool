@@ -41,5 +41,4 @@ class CPUFirmwareVersion extends AbstractTag
     protected $Description = 'CPU Firmware Version';
 
     protected $flag_Permanent = true;
-
 }

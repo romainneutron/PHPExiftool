@@ -39,5 +39,4 @@ class AffineB extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Affine B';
-
 }

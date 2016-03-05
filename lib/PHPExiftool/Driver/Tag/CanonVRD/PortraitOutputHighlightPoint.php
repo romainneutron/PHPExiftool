@@ -39,5 +39,4 @@ class PortraitOutputHighlightPoint extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Portrait Output Highlight Point';
-
 }

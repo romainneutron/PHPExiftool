@@ -39,5 +39,4 @@ class RequestedImageSize extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Requested Image Size';
-
 }

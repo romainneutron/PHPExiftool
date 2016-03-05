@@ -52,5 +52,4 @@ class BackgroundColorIndicator extends AbstractTag
             'Label' => 'Specified Background Color',
         ),
     );
-
 }

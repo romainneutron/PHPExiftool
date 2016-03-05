@@ -39,5 +39,4 @@ class TitlesOfParts extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Titles Of Parts';
-
 }

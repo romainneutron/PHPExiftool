@@ -39,5 +39,4 @@ class ClipNumber extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Clip Number';
-
 }

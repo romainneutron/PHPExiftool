@@ -39,5 +39,4 @@ class DetectorActiveOrigin extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Detector Active Origin';
-
 }

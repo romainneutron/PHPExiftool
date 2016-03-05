@@ -39,5 +39,4 @@ class ProjectRefPath extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Project Ref Path';
-
 }

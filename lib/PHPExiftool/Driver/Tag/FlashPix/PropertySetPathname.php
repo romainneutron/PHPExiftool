@@ -39,5 +39,4 @@ class PropertySetPathname extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Property Set Pathname';
-
 }

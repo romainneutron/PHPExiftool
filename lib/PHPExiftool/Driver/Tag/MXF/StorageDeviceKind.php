@@ -39,5 +39,4 @@ class StorageDeviceKind extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Storage Device Kind';
-
 }

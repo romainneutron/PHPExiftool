@@ -39,5 +39,4 @@ class CryptographicKeyID extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Cryptographic Key ID';
-
 }

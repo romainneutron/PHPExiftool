@@ -41,5 +41,4 @@ class ExifInfo2 extends AbstractTag
     protected $Description = 'Exif Info 2';
 
     protected $flag_Binary = true;
-
 }

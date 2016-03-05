@@ -39,5 +39,4 @@ class CommandLineArguments extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Command Line Arguments';
-
 }

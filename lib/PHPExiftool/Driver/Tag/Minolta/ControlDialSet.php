@@ -52,5 +52,4 @@ class ControlDialSet extends AbstractTag
             'Label' => 'Aperture',
         ),
     );
-
 }

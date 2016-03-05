@@ -39,5 +39,4 @@ class CameraManufacturer extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Camera Manufacturer';
-
 }

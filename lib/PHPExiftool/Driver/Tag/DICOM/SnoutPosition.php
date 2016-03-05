@@ -39,5 +39,4 @@ class SnoutPosition extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Snout Position';
-
 }

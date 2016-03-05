@@ -39,5 +39,4 @@ class LensFocalRange extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Lens Focal Range';
-
 }

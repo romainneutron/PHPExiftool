@@ -39,5 +39,4 @@ class AvgBitrate extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Avg Bitrate';
-
 }

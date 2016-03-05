@@ -39,5 +39,4 @@ class FilterThicknessMinimum extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Filter Thickness Minimum';
-
 }

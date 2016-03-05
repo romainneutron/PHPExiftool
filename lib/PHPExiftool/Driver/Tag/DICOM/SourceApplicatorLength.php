@@ -39,5 +39,4 @@ class SourceApplicatorLength extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Source Applicator Length';
-
 }

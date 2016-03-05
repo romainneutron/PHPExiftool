@@ -114,5 +114,4 @@ class PictureStyle extends AbstractTag
             'Label' => 'Custom',
         ),
     );
-
 }

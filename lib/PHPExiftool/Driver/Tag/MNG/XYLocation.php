@@ -41,5 +41,4 @@ class XYLocation extends AbstractTag
     protected $Description = 'XY Location';
 
     protected $MaxLength = 2;
-
 }

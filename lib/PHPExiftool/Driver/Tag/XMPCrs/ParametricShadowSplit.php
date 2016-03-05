@@ -39,5 +39,4 @@ class ParametricShadowSplit extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Parametric Shadow Split';
-
 }

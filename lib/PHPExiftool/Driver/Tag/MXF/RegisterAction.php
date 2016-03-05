@@ -39,5 +39,4 @@ class RegisterAction extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Register Action';
-
 }

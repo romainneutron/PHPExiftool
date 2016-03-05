@@ -39,5 +39,4 @@ class ImageFilter extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Image Filter';
-
 }

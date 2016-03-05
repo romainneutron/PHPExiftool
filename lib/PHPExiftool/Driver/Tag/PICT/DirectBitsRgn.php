@@ -39,5 +39,4 @@ class DirectBitsRgn extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Direct Bits Rgn';
-
 }

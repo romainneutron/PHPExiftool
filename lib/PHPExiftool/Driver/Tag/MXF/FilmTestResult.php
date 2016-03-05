@@ -41,5 +41,4 @@ class FilmTestResult extends AbstractTag
     protected $Description = 'Film Test Result';
 
     protected $local_g2 = 'mixed';
-
 }

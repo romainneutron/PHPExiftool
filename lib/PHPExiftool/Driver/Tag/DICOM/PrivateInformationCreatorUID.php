@@ -39,5 +39,4 @@ class PrivateInformationCreatorUID extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Private Information Creator UID';
-
 }

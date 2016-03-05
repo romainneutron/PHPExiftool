@@ -41,5 +41,4 @@ class Owner extends AbstractTag
     protected $Description = 'Owner';
 
     protected $local_g2 = 'Author';
-
 }

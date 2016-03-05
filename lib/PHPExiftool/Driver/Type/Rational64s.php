@@ -19,5 +19,4 @@ class Rational64s extends AbstractType
     protected $ExiftoolName = 'rational64s';
 
     protected $PHPMap = 'int';
-
 }

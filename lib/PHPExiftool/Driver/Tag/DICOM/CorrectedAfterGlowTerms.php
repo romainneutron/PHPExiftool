@@ -39,5 +39,4 @@ class CorrectedAfterGlowTerms extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Corrected After Glow Terms';
-
 }

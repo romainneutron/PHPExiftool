@@ -39,5 +39,4 @@ class SourceWaveformSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Source Waveform Sequence';
-
 }

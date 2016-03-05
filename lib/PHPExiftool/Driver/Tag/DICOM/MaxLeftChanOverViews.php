@@ -39,5 +39,4 @@ class MaxLeftChanOverViews extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Max Left Chan Over Views';
-
 }

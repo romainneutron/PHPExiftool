@@ -78,5 +78,4 @@ class SynchronizedLyricsType extends AbstractTag
             'Label' => 'Image URL',
         ),
     );
-
 }

@@ -39,5 +39,4 @@ class TransducerPositionModifierSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Transducer Position Modifier Sequence';
-
 }

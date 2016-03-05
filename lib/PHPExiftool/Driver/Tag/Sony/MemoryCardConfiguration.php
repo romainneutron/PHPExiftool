@@ -60,5 +60,4 @@ class MemoryCardConfiguration extends AbstractTag
             'Label' => 'SD card in use, MemoryStick slot empty',
         ),
     );
-
 }

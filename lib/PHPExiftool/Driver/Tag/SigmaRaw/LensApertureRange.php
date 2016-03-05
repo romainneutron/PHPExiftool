@@ -39,5 +39,4 @@ class LensApertureRange extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Lens Aperture Range';
-
 }

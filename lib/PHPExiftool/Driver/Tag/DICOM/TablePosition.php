@@ -39,5 +39,4 @@ class TablePosition extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Table Position';
-
 }

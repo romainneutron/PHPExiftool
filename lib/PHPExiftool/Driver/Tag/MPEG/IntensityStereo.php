@@ -50,5 +50,4 @@ class IntensityStereo extends AbstractTag
             'Label' => 'On',
         ),
     );
-
 }

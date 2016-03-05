@@ -39,5 +39,4 @@ class NumberOfViewsInStage extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Number Of Views In Stage';
-
 }

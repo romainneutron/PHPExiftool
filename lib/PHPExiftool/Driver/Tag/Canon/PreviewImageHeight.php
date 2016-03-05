@@ -41,5 +41,4 @@ class PreviewImageHeight extends AbstractTag
     protected $Description = 'Preview Image Height';
 
     protected $flag_Permanent = true;
-
 }

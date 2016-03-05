@@ -39,5 +39,4 @@ class MarkerID extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Marker ID';
-
 }

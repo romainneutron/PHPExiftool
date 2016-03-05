@@ -41,5 +41,4 @@ class NationalCatalogNumber extends AbstractTag
     protected $Description = 'National Catalog Number';
 
     protected $flag_Avoid = true;
-
 }

@@ -39,5 +39,4 @@ class FileURL extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'File URL';
-
 }

@@ -39,5 +39,4 @@ class OutCueScale extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Out Cue Scale';
-
 }

@@ -39,5 +39,4 @@ class RegisterItemNotes extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Register Item Notes';
-
 }

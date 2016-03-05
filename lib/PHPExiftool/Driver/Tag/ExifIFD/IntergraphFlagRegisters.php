@@ -41,5 +41,4 @@ class IntergraphFlagRegisters extends AbstractTag
     protected $Description = 'Intergraph Flag Registers';
 
     protected $local_g1 = 'ExifIFD';
-
 }

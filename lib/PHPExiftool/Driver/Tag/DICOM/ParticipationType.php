@@ -39,5 +39,4 @@ class ParticipationType extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Participation Type';
-
 }

@@ -41,5 +41,4 @@ class CIP3Side extends AbstractTag
     protected $Description = 'CIP3 Side';
 
     protected $local_g1 = 'ExifIFD';
-
 }

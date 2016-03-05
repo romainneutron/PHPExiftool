@@ -39,5 +39,4 @@ class BlockDivergence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Block Divergence';
-
 }

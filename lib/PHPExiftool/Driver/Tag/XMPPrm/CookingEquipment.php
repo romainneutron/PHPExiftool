@@ -41,5 +41,4 @@ class CookingEquipment extends AbstractTag
     protected $Description = 'Cooking Equipment';
 
     protected $flag_Avoid = true;
-
 }

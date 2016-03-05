@@ -41,5 +41,4 @@ class M16CVersion extends AbstractTag
     protected $Description = 'M16C Version';
 
     protected $flag_Permanent = true;
-
 }

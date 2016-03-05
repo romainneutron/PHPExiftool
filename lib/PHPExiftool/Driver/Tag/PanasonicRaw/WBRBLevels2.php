@@ -41,5 +41,4 @@ class WBRBLevels2 extends AbstractTag
     protected $Description = 'WB RB Levels 2';
 
     protected $MaxLength = 2;
-
 }

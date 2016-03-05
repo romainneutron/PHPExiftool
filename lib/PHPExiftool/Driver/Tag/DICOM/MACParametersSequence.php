@@ -39,5 +39,4 @@ class MACParametersSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'MAC Parameters Sequence';
-
 }

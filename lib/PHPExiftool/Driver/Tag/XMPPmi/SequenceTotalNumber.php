@@ -41,5 +41,4 @@ class SequenceTotalNumber extends AbstractTag
     protected $Description = 'Sequence Total Number';
 
     protected $flag_Avoid = true;
-
 }

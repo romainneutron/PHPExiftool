@@ -39,5 +39,4 @@ class SoftcopyVOILUTSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Softcopy VOILUT Sequence';
-
 }

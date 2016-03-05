@@ -39,5 +39,4 @@ class TeletextSubtitlesFlag extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Teletext Subtitles Flag';
-
 }

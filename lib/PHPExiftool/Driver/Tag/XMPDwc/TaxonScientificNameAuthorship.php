@@ -39,5 +39,4 @@ class TaxonScientificNameAuthorship extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Taxon Scientific Name Authorship';
-
 }

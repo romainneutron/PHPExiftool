@@ -39,5 +39,4 @@ class UnknownData extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Unknown Data';
-
 }

@@ -39,5 +39,4 @@ class SetSubtitle extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Set Subtitle';
-
 }

@@ -41,5 +41,4 @@ class BayerPattern extends AbstractTag
     protected $Description = 'Bayer Pattern';
 
     protected $flag_Permanent = true;
-
 }

@@ -39,5 +39,4 @@ class BurstShot extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Burst Shot';
-
 }

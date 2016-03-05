@@ -39,5 +39,4 @@ class BroadcastChannel extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Broadcast Channel';
-
 }

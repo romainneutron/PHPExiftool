@@ -41,5 +41,4 @@ class AWBNormVfeC2 extends AbstractTag
     protected $Description = 'AWB Norm Vfe C2';
 
     protected $flag_Permanent = true;
-
 }

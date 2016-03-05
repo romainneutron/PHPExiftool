@@ -39,5 +39,4 @@ class RotationInformationSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Rotation Information Sequence';
-
 }

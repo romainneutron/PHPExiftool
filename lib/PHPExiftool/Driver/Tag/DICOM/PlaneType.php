@@ -39,5 +39,4 @@ class PlaneType extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Plane Type';
-
 }

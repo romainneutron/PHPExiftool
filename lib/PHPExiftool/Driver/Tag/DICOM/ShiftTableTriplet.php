@@ -39,5 +39,4 @@ class ShiftTableTriplet extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Shift Table Triplet';
-
 }

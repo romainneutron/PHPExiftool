@@ -41,5 +41,4 @@ class FormExtraUsageRights extends AbstractTag
     protected $Description = 'Form Extra Usage Rights';
 
     protected $flag_List = true;
-
 }

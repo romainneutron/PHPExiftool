@@ -43,5 +43,4 @@ class FlashpixVersion extends AbstractTag
     protected $local_g1 = 'ExifIFD';
 
     protected $flag_Mandatory = true;
-
 }

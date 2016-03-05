@@ -39,5 +39,4 @@ class DeliveredPrimaryMeterset extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Delivered Primary Meterset';
-
 }

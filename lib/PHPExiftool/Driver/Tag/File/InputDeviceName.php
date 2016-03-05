@@ -41,5 +41,4 @@ class InputDeviceName extends AbstractTag
     protected $Description = 'Input Device Name';
 
     protected $MaxLength = 32;
-
 }

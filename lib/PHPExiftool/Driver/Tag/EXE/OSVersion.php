@@ -41,5 +41,4 @@ class OSVersion extends AbstractTag
     protected $Description = 'OS Version';
 
     protected $MaxLength = 2;
-
 }

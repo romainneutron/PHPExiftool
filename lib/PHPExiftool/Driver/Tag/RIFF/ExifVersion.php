@@ -39,5 +39,4 @@ class ExifVersion extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Exif Version';
-
 }

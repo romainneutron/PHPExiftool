@@ -39,5 +39,4 @@ class PatientMotionCorrected extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Patient Motion Corrected';
-
 }

@@ -41,5 +41,4 @@ class DCGeoreferenceProtocol extends AbstractTag
     protected $Description = 'DC Georeference Protocol';
 
     protected $local_g2 = 'Location';
-
 }

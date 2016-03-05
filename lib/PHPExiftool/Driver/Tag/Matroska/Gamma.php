@@ -39,5 +39,4 @@ class Gamma extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Gamma';
-
 }

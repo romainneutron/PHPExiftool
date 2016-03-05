@@ -41,5 +41,4 @@ class Weighting extends AbstractTag
     protected $Description = 'Weighting';
 
     protected $local_g2 = 'Audio';
-
 }

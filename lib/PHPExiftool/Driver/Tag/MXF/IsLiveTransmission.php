@@ -39,5 +39,4 @@ class IsLiveTransmission extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Is Live Transmission';
-
 }

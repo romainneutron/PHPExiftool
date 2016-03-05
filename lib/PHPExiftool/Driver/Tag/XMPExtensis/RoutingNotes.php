@@ -39,5 +39,4 @@ class RoutingNotes extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Routing Notes';
-
 }

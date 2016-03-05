@@ -39,5 +39,4 @@ class RegisterEntryStatus extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Register Entry Status';
-
 }

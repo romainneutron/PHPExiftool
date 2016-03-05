@@ -41,5 +41,4 @@ class Saturation extends AbstractTag
     protected $Description = 'Saturation';
 
     protected $flag_Permanent = true;
-
 }

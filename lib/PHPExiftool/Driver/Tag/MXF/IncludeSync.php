@@ -39,5 +39,4 @@ class IncludeSync extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Include Sync';
-
 }

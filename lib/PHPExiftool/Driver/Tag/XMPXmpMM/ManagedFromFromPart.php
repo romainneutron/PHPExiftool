@@ -39,5 +39,4 @@ class ManagedFromFromPart extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Managed From From Part';
-
 }

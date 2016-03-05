@@ -39,5 +39,4 @@ class ColorSaturationAdj extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Color Saturation Adj';
-
 }

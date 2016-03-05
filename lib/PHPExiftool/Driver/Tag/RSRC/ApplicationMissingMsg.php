@@ -39,5 +39,4 @@ class ApplicationMissingMsg extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Application Missing Msg';
-
 }

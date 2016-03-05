@@ -39,5 +39,4 @@ class CenterFreqMethod extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Center Freq Method';
-
 }

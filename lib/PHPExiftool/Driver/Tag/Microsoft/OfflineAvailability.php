@@ -39,5 +39,4 @@ class OfflineAvailability extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Offline Availability';
-
 }

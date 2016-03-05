@@ -39,5 +39,4 @@ class MRAcqPhaseEncodingStepsOutOfPlane extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'MR Acq Phase Encoding Steps Out Of Plane';
-
 }

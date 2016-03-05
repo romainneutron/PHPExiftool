@@ -39,5 +39,4 @@ class IsTrusted extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Is Trusted';
-
 }

@@ -39,5 +39,4 @@ class MechanicalIndex extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Mechanical Index';
-
 }

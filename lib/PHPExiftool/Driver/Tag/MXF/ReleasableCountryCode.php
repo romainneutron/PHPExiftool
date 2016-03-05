@@ -39,5 +39,4 @@ class ReleasableCountryCode extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Releasable Country Code';
-
 }

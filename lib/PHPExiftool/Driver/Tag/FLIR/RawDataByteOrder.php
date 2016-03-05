@@ -39,5 +39,4 @@ class RawDataByteOrder extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Raw Data Byte Order';
-
 }

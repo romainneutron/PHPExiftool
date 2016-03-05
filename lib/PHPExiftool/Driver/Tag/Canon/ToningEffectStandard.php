@@ -48,5 +48,4 @@ class ToningEffectStandard extends AbstractTag
             'Label' => 'n/a',
         ),
     );
-
 }

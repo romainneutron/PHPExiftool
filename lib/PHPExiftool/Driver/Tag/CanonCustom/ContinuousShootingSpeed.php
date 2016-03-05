@@ -54,5 +54,4 @@ class ContinuousShootingSpeed extends AbstractTag
             'Label' => 'Enable',
         ),
     );
-
 }

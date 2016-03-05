@@ -60,5 +60,4 @@ class AlphaDataDiscard extends AbstractTag
             'Label' => 'Highpass and LowPass Frequency Data Discarded',
         ),
     );
-
 }

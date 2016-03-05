@@ -66,5 +66,4 @@ class CameraType extends AbstractTag
             'Label' => 'DV Camera',
         ),
     );
-
 }

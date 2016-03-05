@@ -41,5 +41,4 @@ class Number extends AbstractTag
     protected $Description = 'Number';
 
     protected $flag_Avoid = true;
-
 }

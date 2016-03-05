@@ -39,5 +39,4 @@ class ChannelStatus extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Channel Status';
-
 }

@@ -41,5 +41,4 @@ class MeasuredLV extends AbstractTag
     protected $Description = 'Measured LV';
 
     protected $flag_Permanent = true;
-
 }

@@ -39,5 +39,4 @@ class PlateType extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Plate Type';
-
 }

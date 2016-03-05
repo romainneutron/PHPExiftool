@@ -96,5 +96,4 @@ class AFAreaMode extends AbstractTag
             'Label' => 'Large Zone AF',
         ),
     );
-
 }

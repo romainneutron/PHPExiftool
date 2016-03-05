@@ -39,5 +39,4 @@ class AFInFocus extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'AF In Focus';
-
 }

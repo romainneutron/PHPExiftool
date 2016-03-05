@@ -39,5 +39,4 @@ class MaxApertureAtMaxFocal extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Max Aperture At Max Focal';
-
 }

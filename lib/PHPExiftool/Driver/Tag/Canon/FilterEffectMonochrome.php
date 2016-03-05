@@ -68,5 +68,4 @@ class FilterEffectMonochrome extends AbstractTag
             'Label' => 'Green',
         ),
     );
-
 }

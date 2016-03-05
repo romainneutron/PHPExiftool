@@ -39,5 +39,4 @@ class EarliestEpochOrLowestSeries extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Earliest Epoch Or Lowest Series';
-
 }

@@ -39,5 +39,4 @@ class EarliestEonOrLowestEonothem extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Earliest Eon Or Lowest Eonothem';
-
 }

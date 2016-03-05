@@ -39,5 +39,4 @@ class ImageToolbar extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Image Toolbar';
-
 }

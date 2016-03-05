@@ -41,5 +41,4 @@ class AEMinAperture extends AbstractTag
     protected $Description = 'AE Min Aperture';
 
     protected $flag_Permanent = true;
-
 }

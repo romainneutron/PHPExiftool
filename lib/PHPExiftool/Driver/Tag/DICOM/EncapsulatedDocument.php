@@ -39,5 +39,4 @@ class EncapsulatedDocument extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Encapsulated Document';
-
 }

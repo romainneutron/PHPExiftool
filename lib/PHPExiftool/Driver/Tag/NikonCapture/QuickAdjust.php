@@ -41,5 +41,4 @@ class QuickAdjust extends AbstractTag
     protected $Description = 'Quick Adjust';
 
     protected $flag_Permanent = true;
-
 }

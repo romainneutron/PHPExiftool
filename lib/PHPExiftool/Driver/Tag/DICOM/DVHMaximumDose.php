@@ -39,5 +39,4 @@ class DVHMaximumDose extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'DVH Maximum Dose';
-
 }

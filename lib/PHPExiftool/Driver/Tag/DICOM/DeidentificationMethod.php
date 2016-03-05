@@ -39,5 +39,4 @@ class DeidentificationMethod extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Deidentification Method';
-
 }

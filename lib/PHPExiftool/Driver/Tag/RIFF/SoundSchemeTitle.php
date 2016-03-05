@@ -39,5 +39,4 @@ class SoundSchemeTitle extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Sound Scheme Title';
-
 }

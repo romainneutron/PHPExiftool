@@ -66,5 +66,4 @@ class WhiteBalance extends AbstractTag
             'Label' => 'Manual',
         ),
     );
-
 }

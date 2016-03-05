@@ -41,5 +41,4 @@ class AnalogSystem extends AbstractTag
     protected $Description = 'Analog System';
 
     protected $local_g2 = 'Audio';
-
 }

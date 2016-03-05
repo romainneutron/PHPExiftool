@@ -39,5 +39,4 @@ class ReferencedRequestSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Referenced Request Sequence';
-
 }

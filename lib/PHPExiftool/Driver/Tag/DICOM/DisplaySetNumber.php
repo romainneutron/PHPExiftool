@@ -39,5 +39,4 @@ class DisplaySetNumber extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Display Set Number';
-
 }

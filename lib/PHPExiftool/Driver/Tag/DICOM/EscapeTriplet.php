@@ -39,5 +39,4 @@ class EscapeTriplet extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Escape Triplet';
-
 }

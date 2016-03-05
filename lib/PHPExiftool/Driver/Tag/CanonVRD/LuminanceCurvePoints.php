@@ -41,5 +41,4 @@ class LuminanceCurvePoints extends AbstractTag
     protected $Description = 'Luminance Curve Points';
 
     protected $MaxLength = 21;
-
 }

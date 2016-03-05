@@ -39,5 +39,4 @@ class CanSeekToEnd extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Can Seek To End';
-
 }

@@ -39,5 +39,4 @@ class CroppedAreaImageHeightPixels extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Cropped Area Image Height Pixels';
-
 }

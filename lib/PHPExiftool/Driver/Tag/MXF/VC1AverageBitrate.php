@@ -39,5 +39,4 @@ class VC1AverageBitrate extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'VC-1 Average Bitrate';
-
 }

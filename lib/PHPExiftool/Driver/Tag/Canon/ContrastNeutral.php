@@ -48,5 +48,4 @@ class ContrastNeutral extends AbstractTag
             'Label' => 'n/a',
         ),
     );
-
 }

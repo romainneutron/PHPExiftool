@@ -39,5 +39,4 @@ class CurrentUser extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Current User';
-
 }

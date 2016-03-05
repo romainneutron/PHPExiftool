@@ -39,5 +39,4 @@ class CueTrack extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Cue Track';
-
 }

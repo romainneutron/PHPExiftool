@@ -41,5 +41,4 @@ class FocalPlaneXResolution extends AbstractTag
     protected $Description = 'Focal Plane X Resolution';
 
     protected $local_g2 = 'Camera';
-
 }

@@ -39,5 +39,4 @@ class MagneticTrack extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Magnetic Track';
-
 }

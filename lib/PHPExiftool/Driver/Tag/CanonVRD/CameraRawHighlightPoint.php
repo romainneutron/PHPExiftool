@@ -39,5 +39,4 @@ class CameraRawHighlightPoint extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Camera Raw Highlight Point';
-
 }

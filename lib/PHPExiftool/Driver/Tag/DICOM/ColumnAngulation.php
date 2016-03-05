@@ -39,5 +39,4 @@ class ColumnAngulation extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Column Angulation';
-
 }

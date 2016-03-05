@@ -140,5 +140,4 @@ class ExposureDelayMode extends AbstractTag
             'Label' => 'On',
         ),
     );
-
 }

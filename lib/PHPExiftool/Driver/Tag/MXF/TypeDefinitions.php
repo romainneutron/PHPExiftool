@@ -39,5 +39,4 @@ class TypeDefinitions extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Type Definitions';
-
 }

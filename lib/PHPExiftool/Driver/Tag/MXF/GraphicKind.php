@@ -39,5 +39,4 @@ class GraphicKind extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Graphic Kind';
-
 }

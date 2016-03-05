@@ -41,5 +41,4 @@ class Focus extends AbstractTag
     protected $Description = 'Focus';
 
     protected $flag_Permanent = true;
-
 }

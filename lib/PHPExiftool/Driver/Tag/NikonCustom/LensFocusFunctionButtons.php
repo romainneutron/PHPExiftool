@@ -96,5 +96,4 @@ class LensFocusFunctionButtons extends AbstractTag
             'Label' => 'AF-Area Mode: Auto area AF',
         ),
     );
-
 }

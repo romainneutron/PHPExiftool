@@ -39,5 +39,4 @@ class LogoIconURL extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Logo Icon URL';
-
 }

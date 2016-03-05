@@ -39,5 +39,4 @@ class RespiratoryTriggerDelayThreshold extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Respiratory Trigger Delay Threshold';
-
 }

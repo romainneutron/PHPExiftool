@@ -58,5 +58,4 @@ class TerminationAction extends AbstractTag
             'Label' => 'Repeat Sequence',
         ),
     );
-
 }

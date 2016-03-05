@@ -52,5 +52,4 @@ class OPIProxy extends AbstractTag
             'Label' => 'Higher resolution image exists',
         ),
     );
-
 }

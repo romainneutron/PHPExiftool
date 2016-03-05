@@ -192,5 +192,4 @@ class DriveMode extends AbstractTag
             'Label' => 'Continuous - 3D Sweep Panorama',
         ),
     );
-
 }

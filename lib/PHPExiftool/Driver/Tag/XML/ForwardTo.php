@@ -39,5 +39,4 @@ class ForwardTo extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Forward To';
-
 }

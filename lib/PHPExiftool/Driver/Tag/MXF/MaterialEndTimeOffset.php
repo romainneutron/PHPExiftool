@@ -39,5 +39,4 @@ class MaterialEndTimeOffset extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Material End Time Offset';
-
 }

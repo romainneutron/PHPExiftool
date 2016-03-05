@@ -80,5 +80,4 @@ class FlashMode extends AbstractTag
             'Label' => 'Off',
         ),
     );
-
 }

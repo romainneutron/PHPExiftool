@@ -39,5 +39,4 @@ class BorderDensity extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Border Density';
-
 }

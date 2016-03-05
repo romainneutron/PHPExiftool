@@ -39,5 +39,4 @@ class Citizenship extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Citizenship';
-
 }

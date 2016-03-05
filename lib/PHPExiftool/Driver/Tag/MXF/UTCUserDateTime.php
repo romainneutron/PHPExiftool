@@ -41,5 +41,4 @@ class UTCUserDateTime extends AbstractTag
     protected $Description = 'UTC User Date Time';
 
     protected $local_g2 = 'Time';
-
 }

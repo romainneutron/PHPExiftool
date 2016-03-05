@@ -39,5 +39,4 @@ class SyncState extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Sync State';
-
 }

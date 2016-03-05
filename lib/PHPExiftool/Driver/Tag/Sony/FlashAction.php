@@ -98,5 +98,4 @@ class FlashAction extends AbstractTag
     );
 
     protected $Index = 'mixed';
-
 }

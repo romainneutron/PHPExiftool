@@ -186,5 +186,4 @@ class GeogEllipsoid extends AbstractTag
             'Label' => 'User Defined',
         ),
     );
-
 }

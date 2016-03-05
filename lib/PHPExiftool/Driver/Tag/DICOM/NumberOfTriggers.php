@@ -39,5 +39,4 @@ class NumberOfTriggers extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Number Of Triggers';
-
 }

@@ -39,5 +39,4 @@ class VirtualImageHeight extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Virtual Image Height';
-
 }

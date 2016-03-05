@@ -39,5 +39,4 @@ class ImageQuality extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Image Quality';
-
 }

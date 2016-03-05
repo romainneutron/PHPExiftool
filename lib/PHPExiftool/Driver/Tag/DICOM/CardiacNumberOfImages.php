@@ -39,5 +39,4 @@ class CardiacNumberOfImages extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Cardiac Number Of Images';
-
 }

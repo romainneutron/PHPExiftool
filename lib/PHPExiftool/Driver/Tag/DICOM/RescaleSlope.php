@@ -39,5 +39,4 @@ class RescaleSlope extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Rescale Slope';
-
 }

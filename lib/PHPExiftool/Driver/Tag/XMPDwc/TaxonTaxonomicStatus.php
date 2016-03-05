@@ -39,5 +39,4 @@ class TaxonTaxonomicStatus extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Taxon Taxonomic Status';
-
 }

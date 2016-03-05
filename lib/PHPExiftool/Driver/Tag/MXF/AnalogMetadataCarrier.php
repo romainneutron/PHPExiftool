@@ -39,5 +39,4 @@ class AnalogMetadataCarrier extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Analog Metadata Carrier';
-
 }

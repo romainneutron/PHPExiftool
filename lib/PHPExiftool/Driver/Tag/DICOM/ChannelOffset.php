@@ -39,5 +39,4 @@ class ChannelOffset extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Channel Offset';
-
 }

@@ -39,5 +39,4 @@ class ScannerPixelSize extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Scanner Pixel Size';
-
 }

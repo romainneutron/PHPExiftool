@@ -39,5 +39,4 @@ class RP217DataStreamPID extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'RP217 Data Stream PID';
-
 }

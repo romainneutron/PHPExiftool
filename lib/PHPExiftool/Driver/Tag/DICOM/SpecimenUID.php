@@ -39,5 +39,4 @@ class SpecimenUID extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Specimen UID';
-
 }

@@ -39,5 +39,4 @@ class PlaceName extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Place Name';
-
 }

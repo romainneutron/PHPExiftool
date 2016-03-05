@@ -41,5 +41,4 @@ class HJROneToTwoOffset extends AbstractTag
     protected $Description = 'HJR One To Two Offset';
 
     protected $flag_Permanent = true;
-
 }

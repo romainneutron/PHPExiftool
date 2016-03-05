@@ -39,5 +39,4 @@ class NamespacePrefixes extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Namespace Prefixes';
-
 }

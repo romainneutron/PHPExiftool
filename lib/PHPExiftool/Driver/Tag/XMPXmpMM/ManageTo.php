@@ -41,5 +41,4 @@ class ManageTo extends AbstractTag
     protected $Description = 'Manage To';
 
     protected $local_g2 = 'Author';
-
 }

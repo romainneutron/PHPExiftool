@@ -41,5 +41,4 @@ class T88Options extends AbstractTag
     protected $Description = 'T88 Options';
 
     protected $local_g1 = 'ExifIFD';
-
 }

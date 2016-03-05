@@ -918,5 +918,4 @@ class SceneBalanceAlgorithmFilmID extends AbstractTag
             'Label' => 'Kodak Ektapress PJ800-2',
         ),
     );
-
 }

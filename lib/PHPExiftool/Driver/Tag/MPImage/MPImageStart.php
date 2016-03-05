@@ -39,5 +39,4 @@ class MPImageStart extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'MP Image Start';
-
 }

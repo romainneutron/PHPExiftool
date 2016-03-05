@@ -41,5 +41,4 @@ class FlashBatteryLevel extends AbstractTag
     protected $Description = 'Flash Battery Level';
 
     protected $flag_Permanent = true;
-
 }

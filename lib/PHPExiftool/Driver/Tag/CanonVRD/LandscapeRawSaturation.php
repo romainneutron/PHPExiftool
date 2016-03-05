@@ -39,5 +39,4 @@ class LandscapeRawSaturation extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Landscape Raw Saturation';
-
 }

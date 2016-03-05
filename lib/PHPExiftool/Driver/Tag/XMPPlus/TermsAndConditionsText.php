@@ -39,5 +39,4 @@ class TermsAndConditionsText extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Terms And Conditions Text';
-
 }

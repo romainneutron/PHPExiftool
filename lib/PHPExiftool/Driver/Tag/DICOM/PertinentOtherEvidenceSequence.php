@@ -39,5 +39,4 @@ class PertinentOtherEvidenceSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Pertinent Other Evidence Sequence';
-
 }

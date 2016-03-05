@@ -41,5 +41,4 @@ class RightsAgent extends AbstractTag
     protected $Description = 'Rights Agent';
 
     protected $flag_Avoid = true;
-
 }

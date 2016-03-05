@@ -39,5 +39,4 @@ class Volume extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Volume';
-
 }

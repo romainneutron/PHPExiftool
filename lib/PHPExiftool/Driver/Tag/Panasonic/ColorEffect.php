@@ -72,5 +72,4 @@ class ColorEffect extends AbstractTag
             'Label' => 'Vivid',
         ),
     );
-
 }

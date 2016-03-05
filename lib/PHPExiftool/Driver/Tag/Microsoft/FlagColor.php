@@ -39,5 +39,4 @@ class FlagColor extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Flag Color';
-
 }

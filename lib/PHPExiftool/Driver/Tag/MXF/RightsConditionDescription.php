@@ -39,5 +39,4 @@ class RightsConditionDescription extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Rights Condition Description';
-
 }

@@ -56,5 +56,4 @@ class TextEncoding extends AbstractTag
             'Label' => 'UTF16',
         ),
     );
-
 }

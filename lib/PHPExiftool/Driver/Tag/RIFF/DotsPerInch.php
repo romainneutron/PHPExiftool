@@ -39,5 +39,4 @@ class DotsPerInch extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Dots Per Inch';
-
 }

@@ -41,5 +41,4 @@ class CMYKEquivalent extends AbstractTag
     protected $Description = 'CMYK Equivalent';
 
     protected $local_g1 = 'ExifIFD';
-
 }

@@ -39,5 +39,4 @@ class ContactDepartmentName extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Contact Department Name';
-
 }

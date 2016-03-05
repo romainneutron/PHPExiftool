@@ -39,5 +39,4 @@ class VideoAlphaPremultipleColorTint extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Video Alpha Premultiple Color Tint';
-
 }

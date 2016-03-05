@@ -41,5 +41,4 @@ class ContributedMediaStartTimeValue extends AbstractTag
     protected $Description = 'Contributed Media Start Time Value';
 
     protected $flag_List = true;
-
 }

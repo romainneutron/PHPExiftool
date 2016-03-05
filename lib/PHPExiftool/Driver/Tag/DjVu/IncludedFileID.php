@@ -39,5 +39,4 @@ class IncludedFileID extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Included File ID';
-
 }

@@ -39,5 +39,4 @@ class LowestBiostratigraphicZone extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Lowest Biostratigraphic Zone';
-
 }

@@ -41,5 +41,4 @@ class PF31OriginalDecisionData extends AbstractTag
     protected $Description = 'PF31 Original Decision Data';
 
     protected $flag_Permanent = true;
-
 }

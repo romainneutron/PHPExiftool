@@ -39,5 +39,4 @@ class ImageDescription extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Image Description';
-
 }

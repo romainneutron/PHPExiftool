@@ -39,5 +39,4 @@ class ICCUntagged extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'ICC Untagged';
-
 }

@@ -39,5 +39,4 @@ class DurationValue extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Duration Value';
-
 }

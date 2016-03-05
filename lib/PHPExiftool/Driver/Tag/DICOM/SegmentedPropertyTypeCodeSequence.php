@@ -39,5 +39,4 @@ class SegmentedPropertyTypeCodeSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Segmented Property Type Code Sequence';
-
 }

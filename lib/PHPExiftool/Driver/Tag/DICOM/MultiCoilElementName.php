@@ -39,5 +39,4 @@ class MultiCoilElementName extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Multi Coil Element Name';
-
 }

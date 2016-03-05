@@ -41,5 +41,4 @@ class EventEarliestDate extends AbstractTag
     protected $Description = 'Event Earliest Date';
 
     protected $local_g2 = 'Time';
-
 }

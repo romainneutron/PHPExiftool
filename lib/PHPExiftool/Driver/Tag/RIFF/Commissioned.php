@@ -39,5 +39,4 @@ class Commissioned extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Commissioned';
-
 }

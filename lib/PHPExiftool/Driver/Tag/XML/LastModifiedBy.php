@@ -41,5 +41,4 @@ class LastModifiedBy extends AbstractTag
     protected $Description = 'Last Modified By';
 
     protected $local_g2 = 'Author';
-
 }

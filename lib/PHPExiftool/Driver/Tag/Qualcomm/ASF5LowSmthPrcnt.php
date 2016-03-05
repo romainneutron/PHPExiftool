@@ -41,5 +41,4 @@ class ASF5LowSmthPrcnt extends AbstractTag
     protected $Description = 'ASF5 Low Smth Prcnt';
 
     protected $flag_Permanent = true;
-
 }

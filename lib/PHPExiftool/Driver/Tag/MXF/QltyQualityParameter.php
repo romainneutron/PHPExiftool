@@ -39,5 +39,4 @@ class QltyQualityParameter extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Qlty Quality Parameter';
-
 }

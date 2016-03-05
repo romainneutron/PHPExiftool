@@ -39,5 +39,4 @@ class GPSDestDistance extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'GPS Dest Distance';
-
 }

@@ -41,5 +41,4 @@ class LocationBody extends AbstractTag
     protected $Description = 'Location Body';
 
     protected $local_g2 = 'Location';
-
 }

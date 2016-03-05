@@ -39,5 +39,4 @@ class GroupCaption extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Group Caption';
-
 }

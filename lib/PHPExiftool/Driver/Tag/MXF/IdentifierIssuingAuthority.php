@@ -39,5 +39,4 @@ class IdentifierIssuingAuthority extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Identifier Issuing Authority';
-
 }

@@ -39,5 +39,4 @@ class NetworkID extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Network ID';
-
 }

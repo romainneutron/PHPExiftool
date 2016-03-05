@@ -39,5 +39,4 @@ class TotalTimeOfFluoroscopy extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Total Time Of Fluoroscopy';
-
 }

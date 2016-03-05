@@ -39,5 +39,4 @@ class OutputPower extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Output Power';
-
 }

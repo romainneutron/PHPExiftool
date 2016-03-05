@@ -41,5 +41,4 @@ class DateTimeEmbeddedFlag extends AbstractTag
     protected $Description = 'Date Time Embedded Flag';
 
     protected $local_g2 = 'Time';
-
 }

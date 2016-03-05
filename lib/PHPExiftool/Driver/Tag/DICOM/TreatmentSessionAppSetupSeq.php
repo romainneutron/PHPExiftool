@@ -39,5 +39,4 @@ class TreatmentSessionAppSetupSeq extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Treatment Session App Setup Seq';
-
 }

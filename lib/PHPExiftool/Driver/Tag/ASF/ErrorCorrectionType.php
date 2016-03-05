@@ -52,5 +52,4 @@ class ErrorCorrectionType extends AbstractTag
             'Label' => 'Audio Spread',
         ),
     );
-
 }

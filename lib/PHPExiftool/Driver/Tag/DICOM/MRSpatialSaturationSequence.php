@@ -39,5 +39,4 @@ class MRSpatialSaturationSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'MR Spatial Saturation Sequence';
-
 }

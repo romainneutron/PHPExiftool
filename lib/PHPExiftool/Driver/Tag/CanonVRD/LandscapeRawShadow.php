@@ -39,5 +39,4 @@ class LandscapeRawShadow extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Landscape Raw Shadow';
-
 }

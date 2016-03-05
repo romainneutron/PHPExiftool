@@ -39,5 +39,4 @@ class SeriesTime extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Series Time';
-
 }

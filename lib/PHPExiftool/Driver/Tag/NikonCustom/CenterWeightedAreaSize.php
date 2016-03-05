@@ -190,5 +190,4 @@ class CenterWeightedAreaSize extends AbstractTag
     );
 
     protected $Index = 'mixed';
-
 }

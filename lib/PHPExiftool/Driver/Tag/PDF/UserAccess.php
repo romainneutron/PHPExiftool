@@ -74,5 +74,4 @@ class UserAccess extends AbstractTag
             'Label' => 'Print high-res',
         ),
     );
-
 }

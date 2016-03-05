@@ -39,5 +39,4 @@ class SensorRollAngle extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Sensor Roll Angle';
-
 }

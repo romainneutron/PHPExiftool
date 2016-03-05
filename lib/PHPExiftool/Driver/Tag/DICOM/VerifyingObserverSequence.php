@@ -39,5 +39,4 @@ class VerifyingObserverSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Verifying Observer Sequence';
-
 }

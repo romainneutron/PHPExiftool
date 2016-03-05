@@ -52,5 +52,4 @@ class StorageMethod extends AbstractTag
             'Label' => 'Linear',
         ),
     );
-
 }

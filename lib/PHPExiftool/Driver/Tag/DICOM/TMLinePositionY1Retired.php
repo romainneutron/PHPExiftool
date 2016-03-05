@@ -39,5 +39,4 @@ class TMLinePositionY1Retired extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'TM Line Position Y1 Retired';
-
 }

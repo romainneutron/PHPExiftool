@@ -50,5 +50,4 @@ class AppleStoreAccountType extends AbstractTag
             'Label' => 'AOL',
         ),
     );
-
 }

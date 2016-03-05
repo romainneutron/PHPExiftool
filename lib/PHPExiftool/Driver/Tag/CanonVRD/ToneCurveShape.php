@@ -50,5 +50,4 @@ class ToneCurveShape extends AbstractTag
             'Label' => 'Straight',
         ),
     );
-
 }

@@ -39,5 +39,4 @@ class MetaboliteMapDescription extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Metabolite Map Description';
-
 }

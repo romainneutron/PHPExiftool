@@ -39,5 +39,4 @@ class TomoType extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Tomo Type';
-
 }

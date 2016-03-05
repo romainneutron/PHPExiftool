@@ -62,5 +62,4 @@ class DocSecurity extends AbstractTag
             'Label' => 'Locked for annotations',
         ),
     );
-
 }

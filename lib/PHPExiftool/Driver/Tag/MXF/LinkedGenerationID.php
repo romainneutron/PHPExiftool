@@ -39,5 +39,4 @@ class LinkedGenerationID extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Linked Generation ID';
-
 }

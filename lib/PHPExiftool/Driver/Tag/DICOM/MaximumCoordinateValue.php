@@ -39,5 +39,4 @@ class MaximumCoordinateValue extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Maximum Coordinate Value';
-
 }

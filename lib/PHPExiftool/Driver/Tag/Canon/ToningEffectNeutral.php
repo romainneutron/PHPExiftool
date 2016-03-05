@@ -48,5 +48,4 @@ class ToningEffectNeutral extends AbstractTag
             'Label' => 'n/a',
         ),
     );
-
 }

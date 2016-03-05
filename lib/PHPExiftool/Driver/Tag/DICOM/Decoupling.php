@@ -39,5 +39,4 @@ class Decoupling extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Decoupling';
-
 }

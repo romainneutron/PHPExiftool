@@ -39,5 +39,4 @@ class SamplesPerPixelUsed extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Samples Per Pixel Used';
-
 }

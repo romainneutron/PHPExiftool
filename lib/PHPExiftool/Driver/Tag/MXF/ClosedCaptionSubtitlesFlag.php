@@ -39,5 +39,4 @@ class ClosedCaptionSubtitlesFlag extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Closed Caption Subtitles Flag';
-
 }

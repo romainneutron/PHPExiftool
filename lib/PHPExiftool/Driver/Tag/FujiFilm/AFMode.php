@@ -60,5 +60,4 @@ class AFMode extends AbstractTag
             'Label' => 'Wide/Tracking',
         ),
     );
-
 }

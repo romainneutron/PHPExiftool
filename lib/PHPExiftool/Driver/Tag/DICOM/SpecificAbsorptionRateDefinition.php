@@ -39,5 +39,4 @@ class SpecificAbsorptionRateDefinition extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Specific Absorption Rate Definition';
-
 }

@@ -50,5 +50,4 @@ class ChapterProcessCodecID extends AbstractTag
             'Label' => 'DVD',
         ),
     );
-
 }

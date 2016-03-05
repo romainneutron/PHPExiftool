@@ -39,5 +39,4 @@ class RegionConstraints extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Region Constraints';
-
 }

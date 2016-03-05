@@ -39,5 +39,4 @@ class SharpObjVersion extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Sharp Obj Version';
-
 }

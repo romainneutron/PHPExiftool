@@ -41,5 +41,4 @@ class TIFFEPStandardID extends AbstractTag
     protected $Description = 'TIFF-EP Standard ID';
 
     protected $local_g1 = 'ExifIFD';
-
 }

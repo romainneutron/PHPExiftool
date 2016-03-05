@@ -41,5 +41,4 @@ class R2AWidth extends AbstractTag
     protected $Description = 'R2 A Width';
 
     protected $flag_Permanent = true;
-
 }

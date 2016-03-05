@@ -39,5 +39,4 @@ class AudienceReach extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Audience Reach';
-
 }

@@ -39,5 +39,4 @@ class DisplayF2Offset extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Display F2 Offset';
-
 }

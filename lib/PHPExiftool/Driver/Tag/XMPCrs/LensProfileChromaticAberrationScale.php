@@ -39,5 +39,4 @@ class LensProfileChromaticAberrationScale extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Lens Profile Chromatic Aberration Scale';
-
 }

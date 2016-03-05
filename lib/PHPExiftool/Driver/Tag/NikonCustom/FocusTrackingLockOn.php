@@ -180,5 +180,4 @@ class FocusTrackingLockOn extends AbstractTag
             'Label' => '5 (Long)',
         ),
     );
-
 }

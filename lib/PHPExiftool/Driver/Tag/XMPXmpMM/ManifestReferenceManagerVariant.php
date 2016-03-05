@@ -41,5 +41,4 @@ class ManifestReferenceManagerVariant extends AbstractTag
     protected $Description = 'Manifest Reference Manager Variant';
 
     protected $flag_List = true;
-
 }

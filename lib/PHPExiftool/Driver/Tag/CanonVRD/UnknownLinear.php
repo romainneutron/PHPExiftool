@@ -50,5 +50,4 @@ class UnknownLinear extends AbstractTag
             'Label' => 'Yes',
         ),
     );
-
 }

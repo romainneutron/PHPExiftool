@@ -39,5 +39,4 @@ class TableLateralIncrement extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Table Lateral Increment';
-
 }

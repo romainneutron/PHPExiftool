@@ -58,5 +58,4 @@ class Rotation extends AbstractTag
             'Label' => 270,
         ),
     );
-
 }

@@ -54,5 +54,4 @@ class IterationEndAction extends AbstractTag
             'Label' => 'Show First Frame',
         ),
     );
-
 }

@@ -39,5 +39,4 @@ class ImplementationVersionName extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Implementation Version Name';
-
 }

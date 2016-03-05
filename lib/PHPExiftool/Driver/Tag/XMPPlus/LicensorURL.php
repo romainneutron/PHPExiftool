@@ -41,5 +41,4 @@ class LicensorURL extends AbstractTag
     protected $Description = 'Licensor URL';
 
     protected $flag_List = true;
-
 }

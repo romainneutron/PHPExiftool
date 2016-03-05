@@ -41,5 +41,4 @@ class ProfileHueSatMapData1 extends AbstractTag
     protected $Description = 'Profile Hue Sat Map Data 1';
 
     protected $flag_Unsafe = true;
-
 }

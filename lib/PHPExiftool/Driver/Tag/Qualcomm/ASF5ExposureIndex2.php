@@ -41,5 +41,4 @@ class ASF5ExposureIndex2 extends AbstractTag
     protected $Description = 'ASF5 Exposure Index 2';
 
     protected $flag_Permanent = true;
-
 }

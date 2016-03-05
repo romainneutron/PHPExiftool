@@ -41,5 +41,4 @@ class ExposureShift extends AbstractTag
     protected $Description = 'Exposure Shift';
 
     protected $flag_Permanent = true;
-
 }

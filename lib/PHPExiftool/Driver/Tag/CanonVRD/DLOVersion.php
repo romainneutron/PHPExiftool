@@ -41,5 +41,4 @@ class DLOVersion extends AbstractTag
     protected $Description = 'DLO Version';
 
     protected $MaxLength = 10;
-
 }

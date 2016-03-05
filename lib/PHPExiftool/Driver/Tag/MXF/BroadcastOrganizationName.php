@@ -39,5 +39,4 @@ class BroadcastOrganizationName extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Broadcast Organization Name';
-
 }

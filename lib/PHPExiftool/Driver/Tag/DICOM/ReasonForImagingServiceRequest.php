@@ -39,5 +39,4 @@ class ReasonForImagingServiceRequest extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Reason For Imaging Service Request';
-
 }

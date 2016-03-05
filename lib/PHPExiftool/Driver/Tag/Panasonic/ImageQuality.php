@@ -76,5 +76,4 @@ class ImageQuality extends AbstractTag
             'Label' => '4k Movie',
         ),
     );
-
 }

@@ -128,5 +128,4 @@ class LensMount extends AbstractTag
             'Label' => 'E-mount',
         ),
     );
-
 }

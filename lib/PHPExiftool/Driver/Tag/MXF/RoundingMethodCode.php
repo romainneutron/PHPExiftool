@@ -39,5 +39,4 @@ class RoundingMethodCode extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Rounding Method Code';
-
 }

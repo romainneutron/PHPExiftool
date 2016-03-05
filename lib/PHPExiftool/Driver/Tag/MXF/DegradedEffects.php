@@ -39,5 +39,4 @@ class DegradedEffects extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Degraded Effects';
-
 }

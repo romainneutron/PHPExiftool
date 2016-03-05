@@ -62,5 +62,4 @@ class ImageFileSizeAsDelivered extends AbstractTag
             'Label' => 'Up to 50 MB',
         ),
     );
-
 }

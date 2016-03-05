@@ -41,5 +41,4 @@ class ColorBitDepth extends AbstractTag
     protected $Description = 'Color Bit Depth';
 
     protected $flag_Permanent = true;
-
 }

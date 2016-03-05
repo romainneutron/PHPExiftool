@@ -39,5 +39,4 @@ class CodingSchemeRegistry extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Coding Scheme Registry';
-
 }

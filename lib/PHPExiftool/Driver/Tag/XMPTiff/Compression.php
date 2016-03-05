@@ -206,5 +206,4 @@ class Compression extends AbstractTag
             'Label' => 'Pentax PEF Compressed',
         ),
     );
-
 }

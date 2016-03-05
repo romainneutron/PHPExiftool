@@ -41,5 +41,4 @@ class AnnotationUsageRights extends AbstractTag
     protected $Description = 'Annotation Usage Rights';
 
     protected $flag_List = true;
-
 }

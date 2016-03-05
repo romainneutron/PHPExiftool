@@ -41,5 +41,4 @@ class LC3 extends AbstractTag
     protected $Description = 'LC3';
 
     protected $flag_Permanent = true;
-
 }

@@ -41,5 +41,4 @@ class InternalNDFilter extends AbstractTag
     protected $Description = 'Internal ND Filter';
 
     protected $flag_Permanent = true;
-
 }

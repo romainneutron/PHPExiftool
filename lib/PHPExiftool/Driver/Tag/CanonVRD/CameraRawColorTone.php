@@ -39,5 +39,4 @@ class CameraRawColorTone extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Camera Raw Color Tone';
-
 }

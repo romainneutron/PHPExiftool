@@ -41,5 +41,4 @@ class R2AGreenCtbl15 extends AbstractTag
     protected $Description = 'R2 A Green Ctbl 15';
 
     protected $flag_Permanent = true;
-
 }

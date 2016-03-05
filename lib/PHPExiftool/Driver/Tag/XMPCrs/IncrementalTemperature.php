@@ -39,5 +39,4 @@ class IncrementalTemperature extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Incremental Temperature';
-
 }

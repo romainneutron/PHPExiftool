@@ -39,5 +39,4 @@ class DRMV1LicenseAcqURL extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'DRM V1 License Acq URL';
-
 }

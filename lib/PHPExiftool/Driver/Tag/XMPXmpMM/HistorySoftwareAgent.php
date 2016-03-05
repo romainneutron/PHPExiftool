@@ -41,5 +41,4 @@ class HistorySoftwareAgent extends AbstractTag
     protected $Description = 'History Software Agent';
 
     protected $flag_List = true;
-
 }

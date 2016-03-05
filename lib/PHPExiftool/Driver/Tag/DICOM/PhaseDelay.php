@@ -39,5 +39,4 @@ class PhaseDelay extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Phase Delay';
-
 }

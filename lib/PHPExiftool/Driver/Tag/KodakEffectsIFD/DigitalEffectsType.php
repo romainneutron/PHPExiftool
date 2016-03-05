@@ -39,5 +39,4 @@ class DigitalEffectsType extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Digital Effects Type';
-
 }

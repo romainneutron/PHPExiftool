@@ -39,5 +39,4 @@ class Smoothness extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Smoothness';
-
 }

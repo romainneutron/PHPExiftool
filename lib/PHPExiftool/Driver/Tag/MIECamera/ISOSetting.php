@@ -39,5 +39,4 @@ class ISOSetting extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'ISO Setting';
-
 }

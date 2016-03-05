@@ -39,5 +39,4 @@ class InvertPoly extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Invert Poly';
-
 }

@@ -41,5 +41,4 @@ class PreviewApplicationVersion extends AbstractTag
     protected $Description = 'Preview Application Version';
 
     protected $flag_Unsafe = true;
-
 }

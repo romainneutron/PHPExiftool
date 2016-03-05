@@ -39,5 +39,4 @@ class PatientGroupLength extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Patient Group Length';
-
 }

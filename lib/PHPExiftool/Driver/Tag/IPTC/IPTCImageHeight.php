@@ -39,5 +39,4 @@ class IPTCImageHeight extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'IPTC Image Height';
-
 }

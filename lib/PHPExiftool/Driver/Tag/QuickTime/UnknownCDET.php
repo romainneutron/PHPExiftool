@@ -39,5 +39,4 @@ class UnknownCDET extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Unknown CDET';
-
 }

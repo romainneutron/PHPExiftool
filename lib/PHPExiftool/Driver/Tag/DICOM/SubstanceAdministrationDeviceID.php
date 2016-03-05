@@ -39,5 +39,4 @@ class SubstanceAdministrationDeviceID extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Substance Administration Device ID';
-
 }

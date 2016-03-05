@@ -41,5 +41,4 @@ class TextureFormat extends AbstractTag
     protected $Description = 'Texture Format';
 
     protected $local_g1 = 'ExifIFD';
-
 }

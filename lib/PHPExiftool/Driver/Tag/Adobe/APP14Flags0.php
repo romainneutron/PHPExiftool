@@ -50,5 +50,4 @@ class APP14Flags0 extends AbstractTag
             'Label' => 'Encoded with Blend=1 downsampling',
         ),
     );
-
 }

@@ -39,5 +39,4 @@ class HorizontalFieldOfView extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Horizontal Field Of View';
-
 }

@@ -39,5 +39,4 @@ class WaveformDisplayBkgCIELabValue extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Waveform Display Bkg CIE Lab Value';
-
 }

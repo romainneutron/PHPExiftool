@@ -41,5 +41,4 @@ class DataKey extends AbstractTag
     protected $Description = 'Data Key';
 
     protected $flag_Permanent = true;
-
 }

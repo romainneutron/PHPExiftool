@@ -39,5 +39,4 @@ class DVBParentalRating extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'DVB Parental Rating';
-
 }

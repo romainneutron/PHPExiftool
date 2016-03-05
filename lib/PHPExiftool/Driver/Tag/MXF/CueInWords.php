@@ -39,5 +39,4 @@ class CueInWords extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Cue-In Words';
-
 }

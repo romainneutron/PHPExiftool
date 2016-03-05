@@ -39,5 +39,4 @@ class EffectiveEchoSpacing extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Effective Echo Spacing';
-
 }

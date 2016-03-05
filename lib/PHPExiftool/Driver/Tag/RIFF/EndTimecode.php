@@ -41,5 +41,4 @@ class EndTimecode extends AbstractTag
     protected $Description = 'End Timecode';
 
     protected $local_g2 = 'Video';
-
 }

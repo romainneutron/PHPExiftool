@@ -39,5 +39,4 @@ class DeviceDiameter extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Device Diameter';
-
 }

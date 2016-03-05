@@ -41,5 +41,4 @@ class RawDataOffset extends AbstractTag
     protected $Description = 'Raw Data Offset';
 
     protected $flag_Permanent = true;
-
 }

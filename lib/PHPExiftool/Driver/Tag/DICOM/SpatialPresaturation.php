@@ -39,5 +39,4 @@ class SpatialPresaturation extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Spatial Presaturation';
-
 }

@@ -39,5 +39,4 @@ class Grouping extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Grouping';
-
 }

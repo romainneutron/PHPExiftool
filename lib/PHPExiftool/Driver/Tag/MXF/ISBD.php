@@ -39,5 +39,4 @@ class ISBD extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'ISBD';
-
 }

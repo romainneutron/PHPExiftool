@@ -1206,5 +1206,4 @@ class Model extends AbstractTag
             'Label' => 'SP-620UZ',
         ),
     );
-
 }

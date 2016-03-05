@@ -41,5 +41,4 @@ class UIC3Tag extends AbstractTag
     protected $Description = 'UIC3 Tag';
 
     protected $local_g1 = 'ExifIFD';
-
 }

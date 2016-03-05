@@ -41,5 +41,4 @@ class AEMaxAperture2 extends AbstractTag
     protected $Description = 'AE Max Aperture 2';
 
     protected $flag_Permanent = true;
-
 }

@@ -39,5 +39,4 @@ class AutoExposure extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Auto Exposure';
-
 }

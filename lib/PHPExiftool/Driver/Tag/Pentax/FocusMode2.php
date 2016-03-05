@@ -60,5 +60,4 @@ class FocusMode2 extends AbstractTag
             'Label' => 'AF-A',
         ),
     );
-
 }

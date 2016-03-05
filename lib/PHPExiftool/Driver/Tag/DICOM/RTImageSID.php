@@ -39,5 +39,4 @@ class RTImageSID extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'RT Image SID';
-
 }

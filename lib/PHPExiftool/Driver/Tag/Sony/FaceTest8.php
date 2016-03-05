@@ -41,5 +41,4 @@ class FaceTest8 extends AbstractTag
     protected $Description = 'Face Test 8';
 
     protected $flag_Permanent = true;
-
 }

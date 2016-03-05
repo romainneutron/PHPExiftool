@@ -39,5 +39,4 @@ class OversamplingPhase extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Oversampling Phase';
-
 }

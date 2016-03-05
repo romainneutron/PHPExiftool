@@ -50,5 +50,4 @@ class Lit extends AbstractTag
             'Label' => 'No',
         ),
     );
-
 }

@@ -39,5 +39,4 @@ class BluePaletteColorTableData extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Blue Palette Color Table Data';
-
 }

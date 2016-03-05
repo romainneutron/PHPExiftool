@@ -39,5 +39,4 @@ class DVHROIContributionType extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'DVHROI Contribution Type';
-
 }

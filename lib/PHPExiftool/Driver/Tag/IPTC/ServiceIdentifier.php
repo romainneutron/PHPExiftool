@@ -41,5 +41,4 @@ class ServiceIdentifier extends AbstractTag
     protected $Description = 'Service Identifier';
 
     protected $MaxLength = 10;
-
 }

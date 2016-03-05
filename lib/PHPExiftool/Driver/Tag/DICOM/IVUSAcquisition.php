@@ -39,5 +39,4 @@ class IVUSAcquisition extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'IVUS Acquisition';
-
 }

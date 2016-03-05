@@ -39,5 +39,4 @@ class Geotag extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Geotag';
-
 }

@@ -39,5 +39,4 @@ class DistanceObjectToTableTop extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Distance Object To Table Top';
-
 }

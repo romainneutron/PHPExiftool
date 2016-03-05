@@ -39,5 +39,4 @@ class SensorSerialNumber extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Sensor Serial Number';
-
 }

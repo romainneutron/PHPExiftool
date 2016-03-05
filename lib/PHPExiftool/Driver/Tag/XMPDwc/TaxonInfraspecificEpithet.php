@@ -39,5 +39,4 @@ class TaxonInfraspecificEpithet extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Taxon Infraspecific Epithet';
-
 }

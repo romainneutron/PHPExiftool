@@ -39,5 +39,4 @@ class PresentationTarget extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Presentation Target';
-
 }

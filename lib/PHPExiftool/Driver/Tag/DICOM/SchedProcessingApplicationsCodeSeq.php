@@ -39,5 +39,4 @@ class SchedProcessingApplicationsCodeSeq extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Sched Processing Applications Code Seq';
-
 }

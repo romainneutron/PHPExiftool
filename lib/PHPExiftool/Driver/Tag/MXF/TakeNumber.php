@@ -39,5 +39,4 @@ class TakeNumber extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Take Number';
-
 }

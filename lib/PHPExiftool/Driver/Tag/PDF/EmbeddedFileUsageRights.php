@@ -41,5 +41,4 @@ class EmbeddedFileUsageRights extends AbstractTag
     protected $Description = 'Embedded File Usage Rights';
 
     protected $flag_List = true;
-
 }

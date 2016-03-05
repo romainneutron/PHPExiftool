@@ -39,5 +39,4 @@ class Packets extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Packets';
-
 }

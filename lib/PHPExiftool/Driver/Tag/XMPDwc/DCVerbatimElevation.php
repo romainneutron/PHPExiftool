@@ -41,5 +41,4 @@ class DCVerbatimElevation extends AbstractTag
     protected $Description = 'DC Verbatim Elevation';
 
     protected $local_g2 = 'Location';
-
 }

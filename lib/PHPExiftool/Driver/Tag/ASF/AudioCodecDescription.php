@@ -39,5 +39,4 @@ class AudioCodecDescription extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Audio Codec Description';
-
 }

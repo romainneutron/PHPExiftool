@@ -88,5 +88,4 @@ class AFPoint extends AbstractTag
             'Label' => 'Far Right',
         ),
     );
-
 }

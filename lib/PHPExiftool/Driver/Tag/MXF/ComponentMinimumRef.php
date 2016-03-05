@@ -39,5 +39,4 @@ class ComponentMinimumRef extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Component Minimum Ref';
-
 }

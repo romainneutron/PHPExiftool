@@ -39,5 +39,4 @@ class Ascent extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Ascent';
-
 }

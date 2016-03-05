@@ -170,5 +170,4 @@ class AFPoint extends AbstractTag
     );
 
     protected $Index = 'mixed';
-
 }

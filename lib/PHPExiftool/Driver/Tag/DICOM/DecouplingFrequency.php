@@ -39,5 +39,4 @@ class DecouplingFrequency extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Decoupling Frequency';
-
 }

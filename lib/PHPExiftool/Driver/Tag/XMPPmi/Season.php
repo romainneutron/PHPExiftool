@@ -60,5 +60,4 @@ class Season extends AbstractTag
             'Label' => 'Winter',
         ),
     );
-
 }

@@ -39,5 +39,4 @@ class TotalBitrate extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Total Bitrate';
-
 }

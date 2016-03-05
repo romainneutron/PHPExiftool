@@ -41,5 +41,4 @@ class AECVfeLuma extends AbstractTag
     protected $Description = 'AEC Vfe Luma';
 
     protected $flag_Permanent = true;
-
 }

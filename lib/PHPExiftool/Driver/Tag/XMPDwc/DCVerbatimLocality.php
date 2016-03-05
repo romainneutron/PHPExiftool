@@ -41,5 +41,4 @@ class DCVerbatimLocality extends AbstractTag
     protected $Description = 'DC Verbatim Locality';
 
     protected $local_g2 = 'Location';
-
 }

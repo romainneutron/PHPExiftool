@@ -39,5 +39,4 @@ class AspectRatio extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Aspect Ratio';
-
 }

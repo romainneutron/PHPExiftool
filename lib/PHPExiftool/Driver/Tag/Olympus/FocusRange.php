@@ -52,5 +52,4 @@ class FocusRange extends AbstractTag
             'Label' => 'Macro',
         ),
     );
-
 }

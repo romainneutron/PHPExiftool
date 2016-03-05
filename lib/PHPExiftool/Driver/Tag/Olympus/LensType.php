@@ -466,5 +466,4 @@ class LensType extends AbstractTag
             'Label' => 'Tamron 14-150mm F3.5-5.8 Di III',
         ),
     );
-
 }

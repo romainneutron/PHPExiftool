@@ -39,5 +39,4 @@ class IdentifierKind extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Identifier Kind';
-
 }

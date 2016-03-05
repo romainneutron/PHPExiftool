@@ -39,5 +39,4 @@ class BottomMag extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Bottom Mag';
-
 }

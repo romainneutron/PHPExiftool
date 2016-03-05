@@ -39,5 +39,4 @@ class HasFlag extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Has Flag';
-
 }

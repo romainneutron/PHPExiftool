@@ -39,5 +39,4 @@ class RecordedBlockSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Recorded Block Sequence';
-
 }

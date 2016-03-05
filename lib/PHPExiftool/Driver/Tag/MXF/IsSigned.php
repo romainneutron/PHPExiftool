@@ -39,5 +39,4 @@ class IsSigned extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Is Signed';
-
 }

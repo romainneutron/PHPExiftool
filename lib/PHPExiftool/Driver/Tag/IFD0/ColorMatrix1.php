@@ -41,5 +41,4 @@ class ColorMatrix1 extends AbstractTag
     protected $Description = 'Color Matrix 1';
 
     protected $flag_Unsafe = true;
-
 }

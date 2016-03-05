@@ -39,5 +39,4 @@ class ExaminedBodyThickness extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Examined Body Thickness';
-
 }

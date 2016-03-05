@@ -39,5 +39,4 @@ class ModeFlags extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Mode Flags';
-
 }

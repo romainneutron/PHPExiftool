@@ -39,5 +39,4 @@ class OperationParameters extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Operation Parameters';
-
 }

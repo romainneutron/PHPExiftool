@@ -41,5 +41,4 @@ class MarkersSpeaker extends AbstractTag
     protected $Description = 'Markers Speaker';
 
     protected $flag_List = true;
-
 }

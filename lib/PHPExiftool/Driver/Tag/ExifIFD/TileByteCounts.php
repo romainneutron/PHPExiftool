@@ -41,5 +41,4 @@ class TileByteCounts extends AbstractTag
     protected $Description = 'Tile Byte Counts';
 
     protected $local_g1 = 'ExifIFD';
-
 }

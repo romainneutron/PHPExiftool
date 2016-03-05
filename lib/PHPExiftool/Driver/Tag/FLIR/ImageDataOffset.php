@@ -39,5 +39,4 @@ class ImageDataOffset extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Image Data Offset';
-
 }

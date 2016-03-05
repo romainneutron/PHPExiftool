@@ -39,5 +39,4 @@ class AuthorObserverSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Author Observer Sequence';
-
 }

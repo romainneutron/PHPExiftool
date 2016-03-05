@@ -39,5 +39,4 @@ class ChapterLanguage extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Chapter Language';
-
 }

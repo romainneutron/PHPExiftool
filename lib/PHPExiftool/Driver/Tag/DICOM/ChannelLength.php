@@ -39,5 +39,4 @@ class ChannelLength extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Channel Length';
-
 }

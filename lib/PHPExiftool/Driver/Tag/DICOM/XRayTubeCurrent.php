@@ -39,5 +39,4 @@ class XRayTubeCurrent extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'X Ray Tube Current';
-
 }

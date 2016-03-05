@@ -39,5 +39,4 @@ class FlashSerialNumber extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Flash Serial Number';
-
 }

@@ -39,5 +39,4 @@ class ImagePathFilterTypeStackCodeSeq extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Image Path Filter Type Stack Code Seq';
-
 }

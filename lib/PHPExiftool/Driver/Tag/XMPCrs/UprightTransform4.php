@@ -39,5 +39,4 @@ class UprightTransform4 extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Upright Transform 4';
-
 }

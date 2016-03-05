@@ -39,5 +39,4 @@ class CollimatorLeftVerticalEdge extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Collimator Left Vertical Edge';
-
 }

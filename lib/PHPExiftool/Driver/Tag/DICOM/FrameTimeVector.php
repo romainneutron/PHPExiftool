@@ -39,5 +39,4 @@ class FrameTimeVector extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Frame Time Vector';
-
 }

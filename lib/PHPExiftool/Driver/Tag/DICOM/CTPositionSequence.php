@@ -39,5 +39,4 @@ class CTPositionSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'CT Position Sequence';
-
 }

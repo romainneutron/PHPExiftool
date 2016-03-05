@@ -41,5 +41,4 @@ class ColorantTableOut extends AbstractTag
     protected $Description = 'Colorant Table Out';
 
     protected $flag_Binary = true;
-
 }

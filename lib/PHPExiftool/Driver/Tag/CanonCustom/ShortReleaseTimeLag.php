@@ -52,5 +52,4 @@ class ShortReleaseTimeLag extends AbstractTag
             'Label' => 'Enable',
         ),
     );
-
 }

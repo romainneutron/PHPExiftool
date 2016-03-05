@@ -41,5 +41,4 @@ class RunTimeValue extends AbstractTag
     protected $Description = 'Run Time Value';
 
     protected $flag_Permanent = true;
-
 }

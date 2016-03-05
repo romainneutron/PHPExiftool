@@ -39,5 +39,4 @@ class WorkToDo extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Work To Do';
-
 }

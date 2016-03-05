@@ -52,5 +52,4 @@ class DialDirectionTvAv extends AbstractTag
             'Label' => 'Reversed',
         ),
     );
-
 }

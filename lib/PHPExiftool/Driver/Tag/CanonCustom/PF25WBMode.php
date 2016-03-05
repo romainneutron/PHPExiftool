@@ -41,5 +41,4 @@ class PF25WBMode extends AbstractTag
     protected $Description = 'PF25 WB Mode';
 
     protected $flag_Permanent = true;
-
 }

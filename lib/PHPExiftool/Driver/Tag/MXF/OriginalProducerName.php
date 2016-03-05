@@ -39,5 +39,4 @@ class OriginalProducerName extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Original Producer Name';
-
 }

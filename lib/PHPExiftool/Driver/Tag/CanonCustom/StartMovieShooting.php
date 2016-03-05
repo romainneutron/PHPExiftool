@@ -52,5 +52,4 @@ class StartMovieShooting extends AbstractTag
             'Label' => 'Quick start (FEL button)',
         ),
     );
-
 }

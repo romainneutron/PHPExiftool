@@ -39,5 +39,4 @@ class ReferringPhysicianTelephoneNumber extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Referring Physician Telephone Number';
-
 }

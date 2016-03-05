@@ -39,5 +39,4 @@ class UserFillMapLSW extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'User Fill Map LSW';
-
 }

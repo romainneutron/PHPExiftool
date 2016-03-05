@@ -39,5 +39,4 @@ class ScheduledStationAETitle extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Scheduled Station AE Title';
-
 }

@@ -39,5 +39,4 @@ class OverlayBitsForCodeWord extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Overlay Bits For Code Word';
-
 }

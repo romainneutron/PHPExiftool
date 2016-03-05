@@ -39,5 +39,4 @@ class GammaUnsharpMaskThreshold extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Gamma Unsharp Mask Threshold';
-
 }

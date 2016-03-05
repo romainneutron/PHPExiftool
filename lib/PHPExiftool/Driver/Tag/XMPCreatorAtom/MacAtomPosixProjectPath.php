@@ -39,5 +39,4 @@ class MacAtomPosixProjectPath extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Mac Atom Posix Project Path';
-
 }

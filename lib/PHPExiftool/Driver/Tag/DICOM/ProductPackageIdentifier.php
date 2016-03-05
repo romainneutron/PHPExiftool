@@ -39,5 +39,4 @@ class ProductPackageIdentifier extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Product Package Identifier';
-
 }

@@ -39,5 +39,4 @@ class ConstantBPictureFlag extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Constant B Picture Flag';
-
 }

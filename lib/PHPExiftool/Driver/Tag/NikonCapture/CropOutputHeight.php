@@ -41,5 +41,4 @@ class CropOutputHeight extends AbstractTag
     protected $Description = 'Crop Output Height';
 
     protected $flag_Permanent = true;
-
 }

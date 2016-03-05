@@ -39,5 +39,4 @@ class ImagingDeviceSpecificAcqParams extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Imaging Device Specific Acq Params';
-
 }

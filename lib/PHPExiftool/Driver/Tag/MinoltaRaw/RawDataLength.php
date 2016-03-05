@@ -41,5 +41,4 @@ class RawDataLength extends AbstractTag
     protected $Description = 'Raw Data Length';
 
     protected $flag_Permanent = true;
-
 }

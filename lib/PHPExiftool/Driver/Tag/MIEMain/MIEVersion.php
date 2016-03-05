@@ -39,5 +39,4 @@ class MIEVersion extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'MIE Version';
-
 }

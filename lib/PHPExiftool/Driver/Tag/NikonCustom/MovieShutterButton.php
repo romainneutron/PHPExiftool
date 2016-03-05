@@ -64,5 +64,4 @@ class MovieShutterButton extends AbstractTag
             'Label' => 'Record Movies',
         ),
     );
-
 }

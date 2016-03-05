@@ -39,5 +39,4 @@ class OriginalImageIdentification extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Original Image Identification';
-
 }

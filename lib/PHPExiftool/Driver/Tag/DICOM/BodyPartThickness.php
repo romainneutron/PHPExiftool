@@ -39,5 +39,4 @@ class BodyPartThickness extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Body Part Thickness';
-
 }

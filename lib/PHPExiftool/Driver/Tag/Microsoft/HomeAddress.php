@@ -39,5 +39,4 @@ class HomeAddress extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Home Address';
-
 }

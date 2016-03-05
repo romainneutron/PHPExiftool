@@ -41,5 +41,4 @@ class ChapterProcessData extends AbstractTag
     protected $Description = 'Chapter Process Data';
 
     protected $flag_Binary = true;
-
 }

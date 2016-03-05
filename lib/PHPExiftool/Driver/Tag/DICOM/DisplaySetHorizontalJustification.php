@@ -39,5 +39,4 @@ class DisplaySetHorizontalJustification extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Display Set Horizontal Justification';
-
 }

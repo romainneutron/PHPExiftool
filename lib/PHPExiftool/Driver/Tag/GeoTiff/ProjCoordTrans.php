@@ -158,5 +158,4 @@ class ProjCoordTrans extends AbstractTag
             'Label' => 'User Defined',
         ),
     );
-
 }

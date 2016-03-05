@@ -39,5 +39,4 @@ class JPEGHandling extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'JPEG Handling';
-
 }

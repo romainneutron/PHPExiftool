@@ -41,5 +41,4 @@ class BlockSize extends AbstractTag
     protected $Description = 'Block Size';
 
     protected $MaxLength = 2;
-
 }

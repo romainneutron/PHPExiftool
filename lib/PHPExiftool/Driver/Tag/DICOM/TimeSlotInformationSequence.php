@@ -39,5 +39,4 @@ class TimeSlotInformationSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Time Slot Information Sequence';
-
 }

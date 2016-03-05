@@ -41,5 +41,4 @@ class BlueBalance extends AbstractTag
     protected $Description = 'Blue Balance';
 
     protected $local_g2 = 'Camera';
-
 }

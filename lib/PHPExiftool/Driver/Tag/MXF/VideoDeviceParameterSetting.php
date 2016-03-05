@@ -39,5 +39,4 @@ class VideoDeviceParameterSetting extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Video Device Parameter Setting';
-
 }

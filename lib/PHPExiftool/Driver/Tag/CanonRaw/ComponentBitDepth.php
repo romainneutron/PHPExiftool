@@ -41,5 +41,4 @@ class ComponentBitDepth extends AbstractTag
     protected $Description = 'Component Bit Depth';
 
     protected $flag_Permanent = true;
-
 }

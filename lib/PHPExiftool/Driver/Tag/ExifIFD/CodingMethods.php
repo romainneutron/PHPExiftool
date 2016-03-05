@@ -72,5 +72,4 @@ class CodingMethods extends AbstractTag
             'Label' => 'JBIG color',
         ),
     );
-
 }

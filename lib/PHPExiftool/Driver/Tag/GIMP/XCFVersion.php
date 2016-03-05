@@ -56,5 +56,4 @@ class XCFVersion extends AbstractTag
             'Label' => 2,
         ),
     );
-
 }

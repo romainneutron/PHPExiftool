@@ -41,5 +41,4 @@ class CustomControls extends AbstractTag
     protected $Description = 'Custom Controls';
 
     protected $flag_Permanent = true;
-
 }

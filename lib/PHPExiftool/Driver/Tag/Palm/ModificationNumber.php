@@ -39,5 +39,4 @@ class ModificationNumber extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Modification Number';
-
 }

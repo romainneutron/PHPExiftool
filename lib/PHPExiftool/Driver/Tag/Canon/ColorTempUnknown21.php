@@ -41,5 +41,4 @@ class ColorTempUnknown21 extends AbstractTag
     protected $Description = 'Color Temp Unknown 21';
 
     protected $flag_Permanent = true;
-
 }

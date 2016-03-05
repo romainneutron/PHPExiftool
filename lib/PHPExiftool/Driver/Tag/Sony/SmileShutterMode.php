@@ -56,5 +56,4 @@ class SmileShutterMode extends AbstractTag
             'Label' => 'Big Smile',
         ),
     );
-
 }

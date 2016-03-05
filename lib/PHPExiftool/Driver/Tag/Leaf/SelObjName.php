@@ -39,5 +39,4 @@ class SelObjName extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Sel Obj Name';
-
 }

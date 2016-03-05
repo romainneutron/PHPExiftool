@@ -39,5 +39,4 @@ class KLVDataDefinitions extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'KLV Data Definitions';
-
 }

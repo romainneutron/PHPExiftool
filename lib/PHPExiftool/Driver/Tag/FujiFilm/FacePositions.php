@@ -41,5 +41,4 @@ class FacePositions extends AbstractTag
     protected $Description = 'Face Positions';
 
     protected $flag_Permanent = true;
-
 }

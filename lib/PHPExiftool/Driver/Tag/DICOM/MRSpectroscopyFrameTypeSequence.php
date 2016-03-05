@@ -39,5 +39,4 @@ class MRSpectroscopyFrameTypeSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'MR Spectroscopy Frame Type Sequence';
-
 }

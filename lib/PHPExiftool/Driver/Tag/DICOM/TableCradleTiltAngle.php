@@ -39,5 +39,4 @@ class TableCradleTiltAngle extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Table Cradle Tilt Angle';
-
 }

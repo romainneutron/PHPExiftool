@@ -39,5 +39,4 @@ class Edition extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Edition';
-
 }

@@ -39,5 +39,4 @@ class OrganizationCode extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Organization Code';
-
 }

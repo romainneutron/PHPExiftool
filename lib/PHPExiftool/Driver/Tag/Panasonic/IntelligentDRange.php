@@ -60,5 +60,4 @@ class IntelligentDRange extends AbstractTag
             'Label' => 'High',
         ),
     );
-
 }

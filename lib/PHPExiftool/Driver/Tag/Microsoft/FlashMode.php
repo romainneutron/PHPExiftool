@@ -39,5 +39,4 @@ class FlashMode extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Flash Mode';
-
 }

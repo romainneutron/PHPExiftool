@@ -39,5 +39,4 @@ class RangeShifterWaterEquivThickness extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Range Shifter Water Equiv Thickness';
-
 }

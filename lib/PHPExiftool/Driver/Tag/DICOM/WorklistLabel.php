@@ -39,5 +39,4 @@ class WorklistLabel extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Worklist Label';
-
 }

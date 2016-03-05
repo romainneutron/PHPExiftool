@@ -39,5 +39,4 @@ class Director extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Director';
-
 }

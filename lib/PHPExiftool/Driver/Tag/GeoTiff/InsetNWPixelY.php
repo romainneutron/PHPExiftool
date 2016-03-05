@@ -39,5 +39,4 @@ class InsetNWPixelY extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Inset NW Pixel Y';
-
 }

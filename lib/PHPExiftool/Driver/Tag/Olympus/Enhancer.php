@@ -41,5 +41,4 @@ class Enhancer extends AbstractTag
     protected $Description = 'Enhancer';
 
     protected $flag_Permanent = true;
-
 }

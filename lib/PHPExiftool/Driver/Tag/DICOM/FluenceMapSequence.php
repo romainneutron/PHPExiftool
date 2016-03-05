@@ -39,5 +39,4 @@ class FluenceMapSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Fluence Map Sequence';
-
 }

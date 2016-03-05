@@ -41,5 +41,4 @@ class RawValueMedian extends AbstractTag
     protected $Description = 'Raw Value Median';
 
     protected $local_g2 = 'Image';
-
 }

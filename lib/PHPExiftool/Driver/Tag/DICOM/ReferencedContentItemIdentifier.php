@@ -39,5 +39,4 @@ class ReferencedContentItemIdentifier extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Referenced Content Item Identifier';
-
 }

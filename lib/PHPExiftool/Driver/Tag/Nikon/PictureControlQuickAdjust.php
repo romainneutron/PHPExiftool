@@ -41,5 +41,4 @@ class PictureControlQuickAdjust extends AbstractTag
     protected $Description = 'Picture Control Quick Adjust';
 
     protected $flag_Permanent = true;
-
 }

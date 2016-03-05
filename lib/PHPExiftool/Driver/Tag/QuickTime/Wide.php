@@ -41,5 +41,4 @@ class Wide extends AbstractTag
     protected $Description = 'Wide';
 
     protected $flag_Binary = true;
-
 }

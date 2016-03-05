@@ -41,5 +41,4 @@ class AWBCompactClusterR2 extends AbstractTag
     protected $Description = 'AWB Compact Cluster R2';
 
     protected $flag_Permanent = true;
-
 }

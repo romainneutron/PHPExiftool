@@ -74,5 +74,4 @@ class SensitivityType extends AbstractTag
             'Label' => 'Standard Output Sensitivity, Recommended Exposure Index and ISO Speed',
         ),
     );
-
 }

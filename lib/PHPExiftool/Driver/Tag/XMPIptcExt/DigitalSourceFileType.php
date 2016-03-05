@@ -39,5 +39,4 @@ class DigitalSourceFileType extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Digital Source File Type';
-
 }

@@ -39,5 +39,4 @@ class DecayFactor extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Decay Factor';
-
 }

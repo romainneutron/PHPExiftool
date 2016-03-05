@@ -56,5 +56,4 @@ class MeteringMode2 extends AbstractTag
             'Label' => 'Spot',
         ),
     );
-
 }

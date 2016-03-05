@@ -39,5 +39,4 @@ class BackgroundAlpha extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Background Alpha';
-
 }

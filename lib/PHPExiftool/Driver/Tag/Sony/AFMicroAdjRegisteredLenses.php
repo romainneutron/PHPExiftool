@@ -41,5 +41,4 @@ class AFMicroAdjRegisteredLenses extends AbstractTag
     protected $Description = 'AF Micro Adj Registered Lenses';
 
     protected $flag_Permanent = true;
-
 }

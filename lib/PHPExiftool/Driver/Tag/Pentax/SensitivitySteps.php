@@ -60,5 +60,4 @@ class SensitivitySteps extends AbstractTag
             'Label' => 'As EV Steps',
         ),
     );
-
 }

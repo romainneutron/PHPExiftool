@@ -39,5 +39,4 @@ class HorizontalPrismBase extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Horizontal Prism Base';
-
 }

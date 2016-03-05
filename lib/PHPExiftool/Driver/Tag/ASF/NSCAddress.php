@@ -39,5 +39,4 @@ class NSCAddress extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'NSC Address';
-
 }

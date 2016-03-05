@@ -39,5 +39,4 @@ class CMMFlags extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'CMM Flags';
-
 }

@@ -41,5 +41,4 @@ class DCMinimumElevationInMeters extends AbstractTag
     protected $Description = 'DC Minimum Elevation In Meters';
 
     protected $local_g2 = 'Location';
-
 }

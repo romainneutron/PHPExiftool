@@ -39,5 +39,4 @@ class StartingViewForRow2a extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Starting View For Row 2a';
-
 }

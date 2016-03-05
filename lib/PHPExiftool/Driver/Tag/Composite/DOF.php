@@ -41,5 +41,4 @@ class DOF extends AbstractTag
     protected $Description = 'Depth Of Field';
 
     protected $local_g2 = 'Image';
-
 }

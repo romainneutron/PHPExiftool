@@ -41,5 +41,4 @@ class SR2SubIFDOffset extends AbstractTag
     protected $Description = 'SR2 Sub IFD Offset';
 
     protected $flag_Permanent = true;
-
 }

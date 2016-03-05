@@ -41,5 +41,4 @@ class Album2 extends AbstractTag
     protected $Description = 'Album 2';
 
     protected $MaxLength = 60;
-
 }

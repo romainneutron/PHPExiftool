@@ -68,5 +68,4 @@ class SubfileType extends AbstractTag
             'Label' => 'Thumbnail image',
         ),
     );
-
 }

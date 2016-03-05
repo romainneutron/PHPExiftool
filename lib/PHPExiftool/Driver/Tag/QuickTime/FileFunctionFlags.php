@@ -54,5 +54,4 @@ class FileFunctionFlags extends AbstractTag
             'Label' => 'Edited',
         ),
     );
-
 }

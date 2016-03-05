@@ -39,5 +39,4 @@ class ContextDescription extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Context Description';
-
 }

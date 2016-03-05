@@ -39,5 +39,4 @@ class RetrieveURI extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Retrieve URI';
-
 }

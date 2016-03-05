@@ -39,5 +39,4 @@ class LossyImageCompressionRatio extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Lossy Image Compression Ratio';
-
 }

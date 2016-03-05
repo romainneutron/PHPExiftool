@@ -39,5 +39,4 @@ class TimecodeStreamData extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Timecode Stream Data';
-
 }

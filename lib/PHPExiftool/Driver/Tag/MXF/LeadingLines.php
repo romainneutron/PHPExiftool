@@ -39,5 +39,4 @@ class LeadingLines extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Leading Lines';
-
 }

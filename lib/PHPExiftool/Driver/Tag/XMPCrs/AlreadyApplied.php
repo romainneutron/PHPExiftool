@@ -39,5 +39,4 @@ class AlreadyApplied extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Already Applied';
-
 }

@@ -39,5 +39,4 @@ class CheckedBy extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Checked By';
-
 }

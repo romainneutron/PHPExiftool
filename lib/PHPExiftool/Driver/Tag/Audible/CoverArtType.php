@@ -39,5 +39,4 @@ class CoverArtType extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Cover Art Type';
-
 }

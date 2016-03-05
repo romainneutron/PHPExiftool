@@ -39,5 +39,4 @@ class DeviceParameterNameValueSets extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Device Parameter Name Value Sets';
-
 }

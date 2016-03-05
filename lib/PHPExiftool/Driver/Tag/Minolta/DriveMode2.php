@@ -84,5 +84,4 @@ class DriveMode2 extends AbstractTag
             'Label' => 'Continuous Bracketing High',
         ),
     );
-
 }

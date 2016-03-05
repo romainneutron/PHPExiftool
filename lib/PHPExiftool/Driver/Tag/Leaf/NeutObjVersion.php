@@ -39,5 +39,4 @@ class NeutObjVersion extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Neut Obj Version';
-
 }

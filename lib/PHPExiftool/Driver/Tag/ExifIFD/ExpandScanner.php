@@ -41,5 +41,4 @@ class ExpandScanner extends AbstractTag
     protected $Description = 'Expand Scanner';
 
     protected $local_g1 = 'ExifIFD';
-
 }

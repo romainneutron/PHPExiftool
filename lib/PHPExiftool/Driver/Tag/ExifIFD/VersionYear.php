@@ -41,5 +41,4 @@ class VersionYear extends AbstractTag
     protected $Description = 'Version Year';
 
     protected $local_g1 = 'ExifIFD';
-
 }

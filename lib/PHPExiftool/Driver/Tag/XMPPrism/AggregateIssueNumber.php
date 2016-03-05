@@ -41,5 +41,4 @@ class AggregateIssueNumber extends AbstractTag
     protected $Description = 'Aggregate Issue Number';
 
     protected $flag_Avoid = true;
-
 }

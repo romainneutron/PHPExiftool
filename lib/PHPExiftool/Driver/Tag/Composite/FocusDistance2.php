@@ -41,5 +41,4 @@ class FocusDistance2 extends AbstractTag
     protected $Description = 'Focus Distance 2';
 
     protected $local_g2 = 'Camera';
-
 }

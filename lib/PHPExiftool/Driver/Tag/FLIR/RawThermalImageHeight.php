@@ -39,5 +39,4 @@ class RawThermalImageHeight extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Raw Thermal Image Height';
-
 }

@@ -39,5 +39,4 @@ class FilmConsumptionSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Film Consumption Sequence';
-
 }

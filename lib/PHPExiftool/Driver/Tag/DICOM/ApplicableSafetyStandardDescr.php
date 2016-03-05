@@ -39,5 +39,4 @@ class ApplicableSafetyStandardDescr extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Applicable Safety Standard Descr';
-
 }

@@ -78,5 +78,4 @@ class AFPointDisplayDuringFocus extends AbstractTag
     );
 
     protected $Index = 'mixed';
-
 }

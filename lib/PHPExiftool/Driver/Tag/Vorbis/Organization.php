@@ -41,5 +41,4 @@ class Organization extends AbstractTag
     protected $Description = 'Organization';
 
     protected $local_g2 = 'Author';
-
 }

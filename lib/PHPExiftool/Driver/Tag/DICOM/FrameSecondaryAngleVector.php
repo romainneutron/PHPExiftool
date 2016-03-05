@@ -39,5 +39,4 @@ class FrameSecondaryAngleVector extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Frame Secondary Angle Vector';
-
 }

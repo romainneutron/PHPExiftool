@@ -52,5 +52,4 @@ class ManualAFPointSelectPattern extends AbstractTag
             'Label' => 'Continuous',
         ),
     );
-
 }

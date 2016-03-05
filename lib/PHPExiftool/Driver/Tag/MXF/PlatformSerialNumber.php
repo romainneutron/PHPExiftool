@@ -39,5 +39,4 @@ class PlatformSerialNumber extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Platform Serial Number';
-
 }

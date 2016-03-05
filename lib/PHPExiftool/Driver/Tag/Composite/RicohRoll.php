@@ -41,5 +41,4 @@ class RicohRoll extends AbstractTag
     protected $Description = 'Ricoh Roll';
 
     protected $local_g2 = 'Camera';
-
 }

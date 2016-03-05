@@ -39,5 +39,4 @@ class AcquisitionContrast extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Acquisition Contrast';
-
 }

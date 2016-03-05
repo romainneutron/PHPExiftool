@@ -39,5 +39,4 @@ class DetectorExposuresSinceManufactured extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Detector Exposures Since Manufactured';
-
 }

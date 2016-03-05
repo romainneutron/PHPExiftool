@@ -41,5 +41,4 @@ class ExposureBracketValue extends AbstractTag
     protected $Description = 'Exposure Bracket Value';
 
     protected $flag_Permanent = true;
-
 }

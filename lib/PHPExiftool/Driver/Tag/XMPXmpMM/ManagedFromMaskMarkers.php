@@ -50,5 +50,4 @@ class ManagedFromMaskMarkers extends AbstractTag
             'Label' => 'None',
         ),
     );
-
 }

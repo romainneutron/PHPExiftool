@@ -60,5 +60,4 @@ class SequenceNumber extends AbstractTag
             'Label' => 'n/a',
         ),
     );
-
 }

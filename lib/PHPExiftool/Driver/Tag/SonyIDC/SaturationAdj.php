@@ -41,5 +41,4 @@ class SaturationAdj extends AbstractTag
     protected $Description = 'Saturation Adj';
 
     protected $flag_Permanent = true;
-
 }

@@ -39,5 +39,4 @@ class SupplyContractNumber extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Supply Contract Number';
-
 }

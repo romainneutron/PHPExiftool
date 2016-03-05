@@ -60,5 +60,4 @@ class IntelligentExposure extends AbstractTag
             'Label' => 'High',
         ),
     );
-
 }

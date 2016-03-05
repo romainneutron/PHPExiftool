@@ -41,5 +41,4 @@ class MDColorTable extends AbstractTag
     protected $Description = 'MD Color Table';
 
     protected $local_g1 = 'ExifIFD';
-
 }

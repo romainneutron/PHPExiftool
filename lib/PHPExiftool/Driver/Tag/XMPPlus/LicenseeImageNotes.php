@@ -39,5 +39,4 @@ class LicenseeImageNotes extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Licensee Image Notes';
-
 }

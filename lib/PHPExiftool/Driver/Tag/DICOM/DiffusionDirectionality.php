@@ -39,5 +39,4 @@ class DiffusionDirectionality extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Diffusion Directionality';
-
 }

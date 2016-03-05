@@ -39,5 +39,4 @@ class NominalScreenDefinitionSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Nominal Screen Definition Sequence';
-
 }

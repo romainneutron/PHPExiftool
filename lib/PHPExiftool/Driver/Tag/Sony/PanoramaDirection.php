@@ -52,5 +52,4 @@ class PanoramaDirection extends AbstractTag
             'Label' => 'Right or Down',
         ),
     );
-
 }

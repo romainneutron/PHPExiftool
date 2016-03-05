@@ -39,5 +39,4 @@ class PipelineVersion extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Pipeline Version';
-
 }

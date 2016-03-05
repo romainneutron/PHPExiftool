@@ -41,5 +41,4 @@ class AudioReferenceLevel extends AbstractTag
     protected $Description = 'Audio Reference Level';
 
     protected $local_g2 = 'Audio';
-
 }

@@ -70,5 +70,4 @@ class LameStereoMode extends AbstractTag
             'Label' => 'Intensity Stereo',
         ),
     );
-
 }

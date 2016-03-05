@@ -41,5 +41,4 @@ class ThumbnailHeight extends AbstractTag
     protected $Description = 'Thumbnail Height';
 
     protected $flag_List = true;
-
 }

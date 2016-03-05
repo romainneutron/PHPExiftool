@@ -41,5 +41,4 @@ class PublishingFrequency extends AbstractTag
     protected $Description = 'Publishing Frequency';
 
     protected $flag_Avoid = true;
-
 }

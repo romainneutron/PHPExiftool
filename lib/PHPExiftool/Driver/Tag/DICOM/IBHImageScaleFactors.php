@@ -39,5 +39,4 @@ class IBHImageScaleFactors extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'IBH Image Scale Factors';
-
 }

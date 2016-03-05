@@ -39,5 +39,4 @@ class AnalogReceiverGain extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Analog Receiver Gain';
-
 }

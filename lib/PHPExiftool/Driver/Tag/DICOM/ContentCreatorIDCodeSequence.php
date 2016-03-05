@@ -39,5 +39,4 @@ class ContentCreatorIDCodeSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Content Creator ID Code Sequence';
-
 }

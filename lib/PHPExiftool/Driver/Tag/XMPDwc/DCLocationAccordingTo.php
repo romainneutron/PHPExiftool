@@ -41,5 +41,4 @@ class DCLocationAccordingTo extends AbstractTag
     protected $Description = 'DC Location According To';
 
     protected $local_g2 = 'Location';
-
 }

@@ -39,5 +39,4 @@ class AxialMash extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Axial Mash';
-
 }

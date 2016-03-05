@@ -39,5 +39,4 @@ class TranscriptReference extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Transcript Reference';
-
 }

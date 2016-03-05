@@ -41,5 +41,4 @@ class BAHPVer extends AbstractTag
     protected $Description = 'BAHP Ver';
 
     protected $flag_Permanent = true;
-
 }

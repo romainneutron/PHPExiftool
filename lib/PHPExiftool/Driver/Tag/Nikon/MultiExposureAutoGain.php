@@ -52,5 +52,4 @@ class MultiExposureAutoGain extends AbstractTag
             'Label' => 'On',
         ),
     );
-
 }

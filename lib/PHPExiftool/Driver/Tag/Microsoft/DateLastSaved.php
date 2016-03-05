@@ -41,5 +41,4 @@ class DateLastSaved extends AbstractTag
     protected $Description = 'Date Last Saved';
 
     protected $local_g2 = 'Time';
-
 }

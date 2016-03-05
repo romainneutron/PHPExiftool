@@ -45,5 +45,4 @@ class UserComment extends AbstractTag
     protected $MaxLength = 256;
 
     protected $Index = 1;
-
 }

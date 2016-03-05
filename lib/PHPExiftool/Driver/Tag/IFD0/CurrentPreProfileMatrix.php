@@ -41,5 +41,4 @@ class CurrentPreProfileMatrix extends AbstractTag
     protected $Description = 'Current Pre Profile Matrix';
 
     protected $flag_Unsafe = true;
-
 }

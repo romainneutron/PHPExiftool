@@ -39,5 +39,4 @@ class DescriptiveMetadataApplicationEnvironmentID extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Descriptive Metadata Application Environment ID';
-
 }

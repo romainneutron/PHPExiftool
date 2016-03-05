@@ -39,5 +39,4 @@ class CalculatedAnatomyThickness extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Calculated Anatomy Thickness';
-
 }

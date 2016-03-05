@@ -39,5 +39,4 @@ class EndingRespiratoryAmplitude extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Ending Respiratory Amplitude';
-
 }

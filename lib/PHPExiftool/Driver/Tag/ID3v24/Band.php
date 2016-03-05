@@ -39,5 +39,4 @@ class Band extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Band';
-
 }

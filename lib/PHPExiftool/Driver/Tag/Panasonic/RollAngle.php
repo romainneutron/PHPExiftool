@@ -41,5 +41,4 @@ class RollAngle extends AbstractTag
     protected $Description = 'Roll Angle';
 
     protected $flag_Permanent = true;
-
 }

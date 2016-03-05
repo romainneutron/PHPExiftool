@@ -39,5 +39,4 @@ class PublishingServiceName extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Publishing Service Name';
-
 }

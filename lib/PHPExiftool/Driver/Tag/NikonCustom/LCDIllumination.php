@@ -92,5 +92,4 @@ class LCDIllumination extends AbstractTag
             'Label' => 'On',
         ),
     );
-
 }

@@ -41,5 +41,4 @@ class NewsPhotoVersion extends AbstractTag
     protected $Description = 'News Photo Version';
 
     protected $flag_Mandatory = true;
-
 }

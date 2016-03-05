@@ -41,5 +41,4 @@ class GenOpColor extends AbstractTag
     protected $Description = 'Gen Op Color';
 
     protected $MaxLength = 3;
-
 }

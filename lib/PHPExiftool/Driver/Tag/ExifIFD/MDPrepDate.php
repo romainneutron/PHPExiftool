@@ -41,5 +41,4 @@ class MDPrepDate extends AbstractTag
     protected $Description = 'MD Prep Date';
 
     protected $local_g1 = 'ExifIFD';
-
 }

@@ -39,5 +39,4 @@ class MaximumAPIVersion extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Maximum API Version';
-
 }

@@ -41,5 +41,4 @@ class PictureModeHue extends AbstractTag
     protected $Description = 'Picture Mode Hue';
 
     protected $flag_Permanent = true;
-
 }

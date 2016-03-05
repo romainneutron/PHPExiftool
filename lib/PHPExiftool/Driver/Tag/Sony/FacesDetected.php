@@ -84,5 +84,4 @@ class FacesDetected extends AbstractTag
             'Label' => 7,
         ),
     );
-
 }

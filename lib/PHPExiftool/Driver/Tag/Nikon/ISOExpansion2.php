@@ -96,5 +96,4 @@ class ISOExpansion2 extends AbstractTag
             'Label' => 'Lo 1.0',
         ),
     );
-
 }

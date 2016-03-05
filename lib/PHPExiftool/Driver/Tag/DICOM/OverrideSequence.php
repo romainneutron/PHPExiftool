@@ -39,5 +39,4 @@ class OverrideSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Override Sequence';
-
 }

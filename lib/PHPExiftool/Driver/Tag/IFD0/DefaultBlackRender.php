@@ -52,5 +52,4 @@ class DefaultBlackRender extends AbstractTag
             'Label' => 'None',
         ),
     );
-
 }

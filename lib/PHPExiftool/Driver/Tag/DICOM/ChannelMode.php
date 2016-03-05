@@ -39,5 +39,4 @@ class ChannelMode extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Channel Mode';
-
 }

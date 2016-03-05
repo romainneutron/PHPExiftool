@@ -39,5 +39,4 @@ class TriggerFrequency extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Trigger Frequency';
-
 }

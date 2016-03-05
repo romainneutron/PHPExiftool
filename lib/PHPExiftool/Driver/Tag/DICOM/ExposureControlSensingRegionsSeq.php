@@ -39,5 +39,4 @@ class ExposureControlSensingRegionsSeq extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Exposure Control Sensing Regions Seq';
-
 }

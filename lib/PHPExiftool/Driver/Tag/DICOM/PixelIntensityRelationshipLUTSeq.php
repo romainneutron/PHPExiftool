@@ -39,5 +39,4 @@ class PixelIntensityRelationshipLUTSeq extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Pixel Intensity Relationship LUT Seq';
-
 }

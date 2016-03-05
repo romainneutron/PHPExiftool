@@ -39,5 +39,4 @@ class Matte extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Matte';
-
 }

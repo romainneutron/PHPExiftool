@@ -39,5 +39,4 @@ class RealWorldValueMappingSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Real World Value Mapping Sequence';
-
 }

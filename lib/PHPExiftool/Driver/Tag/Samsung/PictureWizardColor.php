@@ -41,5 +41,4 @@ class PictureWizardColor extends AbstractTag
     protected $Description = 'Picture Wizard Color';
 
     protected $flag_Permanent = true;
-
 }

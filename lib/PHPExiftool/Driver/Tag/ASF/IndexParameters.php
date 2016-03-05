@@ -39,5 +39,4 @@ class IndexParameters extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Index Parameters';
-
 }

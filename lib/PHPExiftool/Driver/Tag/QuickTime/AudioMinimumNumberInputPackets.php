@@ -39,5 +39,4 @@ class AudioMinimumNumberInputPackets extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Audio Minimum Number Input Packets';
-
 }

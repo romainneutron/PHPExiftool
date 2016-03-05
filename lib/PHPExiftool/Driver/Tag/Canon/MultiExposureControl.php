@@ -60,5 +60,4 @@ class MultiExposureControl extends AbstractTag
             'Label' => 'Dark (comparative)',
         ),
     );
-
 }

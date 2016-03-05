@@ -39,5 +39,4 @@ class RelativeTimeUnits extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Relative Time Units';
-
 }

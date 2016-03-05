@@ -39,5 +39,4 @@ class MaximumPointDistance extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Maximum Point Distance';
-
 }

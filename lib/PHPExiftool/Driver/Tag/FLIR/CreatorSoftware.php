@@ -41,5 +41,4 @@ class CreatorSoftware extends AbstractTag
     protected $Description = 'Creator Software';
 
     protected $MaxLength = 16;
-
 }

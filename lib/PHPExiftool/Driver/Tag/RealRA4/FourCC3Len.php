@@ -39,5 +39,4 @@ class FourCC3Len extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Four CC3 Len';
-
 }

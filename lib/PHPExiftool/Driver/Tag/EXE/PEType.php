@@ -50,5 +50,4 @@ class PEType extends AbstractTag
             'Label' => 'PE32+',
         ),
     );
-
 }

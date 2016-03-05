@@ -39,5 +39,4 @@ class DVHReferencedROISequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'DVH Referenced ROI Sequence';
-
 }

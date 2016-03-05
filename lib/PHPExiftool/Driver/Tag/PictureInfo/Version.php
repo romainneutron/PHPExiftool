@@ -41,5 +41,4 @@ class Version extends AbstractTag
     protected $Description = 'Version';
 
     protected $local_g2 = 'Camera';
-
 }

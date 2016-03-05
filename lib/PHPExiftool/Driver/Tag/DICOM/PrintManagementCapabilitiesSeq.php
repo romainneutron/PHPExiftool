@@ -39,5 +39,4 @@ class PrintManagementCapabilitiesSeq extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Print Management Capabilities Seq';
-
 }

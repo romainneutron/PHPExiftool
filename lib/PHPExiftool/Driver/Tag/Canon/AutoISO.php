@@ -41,5 +41,4 @@ class AutoISO extends AbstractTag
     protected $Description = 'Auto ISO';
 
     protected $flag_Permanent = true;
-
 }

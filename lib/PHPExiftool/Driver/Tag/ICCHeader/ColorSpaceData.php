@@ -41,5 +41,4 @@ class ColorSpaceData extends AbstractTag
     protected $Description = 'Color Space Data';
 
     protected $MaxLength = 4;
-
 }

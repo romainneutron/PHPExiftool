@@ -39,5 +39,4 @@ class DefineQuantizationTable extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Define Quantization Table';
-
 }

@@ -41,5 +41,4 @@ class TargetPrinter extends AbstractTag
     protected $Description = 'Target Printer';
 
     protected $local_g1 = 'ExifIFD';
-
 }

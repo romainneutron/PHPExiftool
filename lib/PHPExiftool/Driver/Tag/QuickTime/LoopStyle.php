@@ -50,5 +50,4 @@ class LoopStyle extends AbstractTag
             'Label' => 'Palindromic',
         ),
     );
-
 }

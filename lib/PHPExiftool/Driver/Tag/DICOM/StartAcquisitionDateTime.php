@@ -39,5 +39,4 @@ class StartAcquisitionDateTime extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Start Acquisition Date Time';
-
 }

@@ -48,5 +48,4 @@ class MiniatureFilter extends AbstractTag
             'Label' => 'Off',
         ),
     );
-
 }

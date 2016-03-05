@@ -39,5 +39,4 @@ class RadiusOfCircularShutter extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Radius Of Circular Shutter';
-
 }

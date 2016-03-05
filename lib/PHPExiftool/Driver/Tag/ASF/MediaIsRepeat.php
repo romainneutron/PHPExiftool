@@ -39,5 +39,4 @@ class MediaIsRepeat extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Media Is Repeat';
-
 }

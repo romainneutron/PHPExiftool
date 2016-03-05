@@ -70,5 +70,4 @@ class TrackType extends AbstractTag
             'Label' => 'Control',
         ),
     );
-
 }

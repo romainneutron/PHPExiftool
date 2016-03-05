@@ -39,5 +39,4 @@ class ActualFrameDuration extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Actual Frame Duration';
-
 }

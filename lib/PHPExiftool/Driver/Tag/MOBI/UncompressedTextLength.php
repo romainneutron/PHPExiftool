@@ -39,5 +39,4 @@ class UncompressedTextLength extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Uncompressed Text Length';
-
 }

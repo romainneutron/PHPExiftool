@@ -50,5 +50,4 @@ class CopyrightStatus extends AbstractTag
             'Label' => 'Not specified',
         ),
     );
-
 }

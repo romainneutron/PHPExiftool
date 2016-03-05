@@ -52,5 +52,4 @@ class DataLocation extends AbstractTag
             'Label' => 'Local Music File',
         ),
     );
-
 }

@@ -39,5 +39,4 @@ class MRImagingModifierSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'MR Imaging Modifier Sequence';
-
 }

@@ -41,5 +41,4 @@ class AudioWatermarkKind extends AbstractTag
     protected $Description = 'Audio Watermark Kind';
 
     protected $local_g2 = 'Audio';
-
 }

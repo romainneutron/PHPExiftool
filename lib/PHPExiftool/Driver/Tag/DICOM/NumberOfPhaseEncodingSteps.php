@@ -39,5 +39,4 @@ class NumberOfPhaseEncodingSteps extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Number Of Phase Encoding Steps';
-
 }

@@ -39,5 +39,4 @@ class ProgID extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Prog ID';
-
 }

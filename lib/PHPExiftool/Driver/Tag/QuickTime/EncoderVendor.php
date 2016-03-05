@@ -41,5 +41,4 @@ class EncoderVendor extends AbstractTag
     protected $Description = 'Encoder Vendor';
 
     protected $MaxLength = 4;
-
 }

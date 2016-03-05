@@ -39,5 +39,4 @@ class BytesPerMinute extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Bytes Per Minute';
-
 }

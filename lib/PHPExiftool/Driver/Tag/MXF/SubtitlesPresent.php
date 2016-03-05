@@ -39,5 +39,4 @@ class SubtitlesPresent extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Subtitles Present';
-
 }

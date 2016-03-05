@@ -39,5 +39,4 @@ class SubtitleDatafileFlag extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Subtitle Datafile Flag';
-
 }

@@ -39,5 +39,4 @@ class DCEvent extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'DC Event';
-
 }

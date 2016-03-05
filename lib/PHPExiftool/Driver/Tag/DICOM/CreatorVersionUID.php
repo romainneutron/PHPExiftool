@@ -39,5 +39,4 @@ class CreatorVersionUID extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Creator Version UID';
-
 }

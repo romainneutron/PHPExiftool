@@ -41,5 +41,4 @@ class PanasonicImageHeight extends AbstractTag
     protected $Description = 'Panasonic Image Height';
 
     protected $flag_Permanent = true;
-
 }

@@ -39,5 +39,4 @@ class QuickMaskInfo extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Quick Mask Info';
-
 }

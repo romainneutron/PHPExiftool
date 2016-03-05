@@ -50,5 +50,4 @@ class LandscapeRawLinear extends AbstractTag
             'Label' => 'Yes',
         ),
     );
-
 }

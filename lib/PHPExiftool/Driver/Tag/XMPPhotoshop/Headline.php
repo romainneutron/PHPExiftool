@@ -39,5 +39,4 @@ class Headline extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Headline';
-
 }

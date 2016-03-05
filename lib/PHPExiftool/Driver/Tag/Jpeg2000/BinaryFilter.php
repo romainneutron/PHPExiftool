@@ -39,5 +39,4 @@ class BinaryFilter extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Binary Filter';
-
 }

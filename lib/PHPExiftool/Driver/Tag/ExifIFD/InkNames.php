@@ -41,5 +41,4 @@ class InkNames extends AbstractTag
     protected $Description = 'Ink Names';
 
     protected $local_g1 = 'ExifIFD';
-
 }

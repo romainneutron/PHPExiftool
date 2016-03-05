@@ -39,5 +39,4 @@ class VmaMod extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Vma Mod';
-
 }

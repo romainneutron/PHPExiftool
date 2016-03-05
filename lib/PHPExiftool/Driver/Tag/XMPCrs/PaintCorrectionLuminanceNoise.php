@@ -39,5 +39,4 @@ class PaintCorrectionLuminanceNoise extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Paint Correction Luminance Noise';
-
 }

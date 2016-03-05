@@ -39,5 +39,4 @@ class VerticalGraphicsSafePercentage extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Vertical Graphics Safe Percentage';
-
 }

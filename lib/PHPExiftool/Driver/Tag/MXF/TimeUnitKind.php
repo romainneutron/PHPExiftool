@@ -39,5 +39,4 @@ class TimeUnitKind extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Time Unit Kind';
-
 }

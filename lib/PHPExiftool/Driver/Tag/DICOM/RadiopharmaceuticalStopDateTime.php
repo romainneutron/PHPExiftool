@@ -39,5 +39,4 @@ class RadiopharmaceuticalStopDateTime extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Radiopharmaceutical Stop Date Time';
-
 }

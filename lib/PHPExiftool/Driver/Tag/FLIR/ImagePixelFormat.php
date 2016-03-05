@@ -58,5 +58,4 @@ class ImagePixelFormat extends AbstractTag
             'Label' => '8-byte double',
         ),
     );
-
 }

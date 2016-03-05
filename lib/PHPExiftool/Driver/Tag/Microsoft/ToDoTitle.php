@@ -39,5 +39,4 @@ class ToDoTitle extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'To Do Title';
-
 }

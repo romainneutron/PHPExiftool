@@ -41,5 +41,4 @@ class OlympusImageWidth extends AbstractTag
     protected $Description = 'Olympus Image Width';
 
     protected $flag_Permanent = true;
-
 }

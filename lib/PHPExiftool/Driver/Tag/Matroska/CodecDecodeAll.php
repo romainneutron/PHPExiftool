@@ -50,5 +50,4 @@ class CodecDecodeAll extends AbstractTag
             'Label' => 'Yes',
         ),
     );
-
 }

@@ -39,5 +39,4 @@ class LandscapeOutputHighlightPoint extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Landscape Output Highlight Point';
-
 }

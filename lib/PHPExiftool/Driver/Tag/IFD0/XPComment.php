@@ -39,5 +39,4 @@ class XPComment extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'XP Comment';
-
 }

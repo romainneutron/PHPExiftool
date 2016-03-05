@@ -41,5 +41,4 @@ class DefectPixMaxThresh extends AbstractTag
     protected $Description = 'Defect Pix Max Thresh';
 
     protected $flag_Permanent = true;
-
 }

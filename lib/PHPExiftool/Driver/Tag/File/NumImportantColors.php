@@ -39,5 +39,4 @@ class NumImportantColors extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Num Important Colors';
-
 }

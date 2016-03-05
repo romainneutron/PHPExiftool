@@ -41,5 +41,4 @@ class PF25ImageSize extends AbstractTag
     protected $Description = 'PF25 Image Size';
 
     protected $flag_Permanent = true;
-
 }

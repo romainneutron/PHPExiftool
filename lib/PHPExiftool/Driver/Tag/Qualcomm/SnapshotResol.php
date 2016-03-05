@@ -41,5 +41,4 @@ class SnapshotResol extends AbstractTag
     protected $Description = 'Snapshot Resol';
 
     protected $flag_Permanent = true;
-
 }

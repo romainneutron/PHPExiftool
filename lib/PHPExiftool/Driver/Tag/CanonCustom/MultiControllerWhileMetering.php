@@ -52,5 +52,4 @@ class MultiControllerWhileMetering extends AbstractTag
             'Label' => 'AF point selection',
         ),
     );
-
 }

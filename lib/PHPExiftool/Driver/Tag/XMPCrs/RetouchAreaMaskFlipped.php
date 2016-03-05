@@ -39,5 +39,4 @@ class RetouchAreaMaskFlipped extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Retouch Area Mask Flipped';
-
 }

@@ -39,5 +39,4 @@ class CompensatorRelStoppingPowerRatio extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Compensator Rel Stopping Power Ratio';
-
 }

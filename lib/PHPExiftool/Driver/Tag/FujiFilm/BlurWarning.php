@@ -52,5 +52,4 @@ class BlurWarning extends AbstractTag
             'Label' => 'Blur Warning',
         ),
     );
-
 }

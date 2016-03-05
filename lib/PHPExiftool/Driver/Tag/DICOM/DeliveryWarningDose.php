@@ -39,5 +39,4 @@ class DeliveryWarningDose extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Delivery Warning Dose';
-
 }

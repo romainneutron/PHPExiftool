@@ -39,5 +39,4 @@ class AlgorithmType extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Algorithm Type';
-
 }

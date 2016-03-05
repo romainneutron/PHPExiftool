@@ -41,5 +41,4 @@ class SupplementTitle extends AbstractTag
     protected $Description = 'Supplement Title';
 
     protected $flag_Avoid = true;
-
 }

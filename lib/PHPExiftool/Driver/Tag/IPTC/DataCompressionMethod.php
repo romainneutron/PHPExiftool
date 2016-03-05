@@ -39,5 +39,4 @@ class DataCompressionMethod extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Data Compression Method';
-
 }

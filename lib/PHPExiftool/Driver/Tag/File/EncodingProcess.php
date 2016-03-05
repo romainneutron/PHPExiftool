@@ -94,5 +94,4 @@ class EncodingProcess extends AbstractTag
             'Label' => 'Lossless, differential arithmetic coding',
         ),
     );
-
 }

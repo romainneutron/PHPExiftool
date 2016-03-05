@@ -39,5 +39,4 @@ class AnatomicPerspectiveDescrTrial extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Anatomic Perspective Descr Trial';
-
 }

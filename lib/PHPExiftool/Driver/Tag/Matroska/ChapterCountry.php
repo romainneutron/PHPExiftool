@@ -39,5 +39,4 @@ class ChapterCountry extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Chapter Country';
-
 }

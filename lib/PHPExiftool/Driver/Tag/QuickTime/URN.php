@@ -39,5 +39,4 @@ class URN extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'URN';
-
 }

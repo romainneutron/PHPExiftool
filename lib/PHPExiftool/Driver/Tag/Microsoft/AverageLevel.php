@@ -39,5 +39,4 @@ class AverageLevel extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Average Level';
-
 }

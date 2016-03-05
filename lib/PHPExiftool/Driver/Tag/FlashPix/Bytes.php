@@ -39,5 +39,4 @@ class Bytes extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Bytes';
-
 }

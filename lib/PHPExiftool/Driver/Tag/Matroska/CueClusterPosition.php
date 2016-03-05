@@ -39,5 +39,4 @@ class CueClusterPosition extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Cue Cluster Position';
-
 }

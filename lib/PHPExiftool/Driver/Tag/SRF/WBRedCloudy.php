@@ -41,5 +41,4 @@ class WBRedCloudy extends AbstractTag
     protected $Description = 'WB Red Cloudy';
 
     protected $flag_Permanent = true;
-
 }

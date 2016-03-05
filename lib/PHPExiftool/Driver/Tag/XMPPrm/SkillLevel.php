@@ -41,5 +41,4 @@ class SkillLevel extends AbstractTag
     protected $Description = 'Skill Level';
 
     protected $flag_Avoid = true;
-
 }

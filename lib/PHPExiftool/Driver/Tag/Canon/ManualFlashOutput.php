@@ -64,5 +64,4 @@ class ManualFlashOutput extends AbstractTag
             'Label' => 'n/a',
         ),
     );
-
 }

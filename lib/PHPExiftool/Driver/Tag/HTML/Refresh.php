@@ -39,5 +39,4 @@ class Refresh extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Refresh';
-
 }

@@ -39,5 +39,4 @@ class ReferencedFileID extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Referenced File ID';
-
 }

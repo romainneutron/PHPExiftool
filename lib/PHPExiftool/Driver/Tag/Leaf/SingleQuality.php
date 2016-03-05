@@ -39,5 +39,4 @@ class SingleQuality extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Single Quality';
-
 }

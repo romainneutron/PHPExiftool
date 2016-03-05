@@ -39,5 +39,4 @@ class CaptionsViaTeletext extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Captions Via Teletext';
-
 }

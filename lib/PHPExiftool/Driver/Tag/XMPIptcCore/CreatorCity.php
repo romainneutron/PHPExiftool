@@ -39,5 +39,4 @@ class CreatorCity extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Creator City';
-
 }

@@ -39,5 +39,4 @@ class ProducedNotice extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Produced Notice';
-
 }

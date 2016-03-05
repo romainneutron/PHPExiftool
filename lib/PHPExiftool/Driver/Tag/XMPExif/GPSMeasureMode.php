@@ -52,5 +52,4 @@ class GPSMeasureMode extends AbstractTag
             'Label' => '3-Dimensional',
         ),
     );
-
 }

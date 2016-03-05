@@ -39,5 +39,4 @@ class EffectsVisible extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Effects Visible';
-
 }

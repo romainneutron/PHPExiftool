@@ -39,5 +39,4 @@ class WMContentID extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'WM Content ID';
-
 }

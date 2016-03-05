@@ -39,5 +39,4 @@ class RegionAppliedToDimensionsW extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Region Applied To Dimensions W';
-
 }

@@ -39,5 +39,4 @@ class FlowCompensation extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Flow Compensation';
-
 }

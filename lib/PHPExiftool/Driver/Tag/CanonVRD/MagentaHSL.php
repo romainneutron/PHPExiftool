@@ -39,5 +39,4 @@ class MagentaHSL extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Magenta HSL';
-
 }

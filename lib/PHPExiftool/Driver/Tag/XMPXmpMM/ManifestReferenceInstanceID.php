@@ -41,5 +41,4 @@ class ManifestReferenceInstanceID extends AbstractTag
     protected $Description = 'Manifest Reference Instance ID';
 
     protected $flag_List = true;
-
 }

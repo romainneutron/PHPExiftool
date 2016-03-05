@@ -39,5 +39,4 @@ class SettingCountryName extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Setting Country Name';
-
 }

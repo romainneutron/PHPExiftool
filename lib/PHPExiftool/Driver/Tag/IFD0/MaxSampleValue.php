@@ -39,5 +39,4 @@ class MaxSampleValue extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Max Sample Value';
-
 }

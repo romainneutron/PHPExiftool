@@ -164,5 +164,4 @@ class ShootingInfoMonitorOffTime extends AbstractTag
             'Label' => '10 min',
         ),
     );
-
 }

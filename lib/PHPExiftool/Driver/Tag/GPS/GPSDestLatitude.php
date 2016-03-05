@@ -41,5 +41,4 @@ class GPSDestLatitude extends AbstractTag
     protected $Description = 'GPS Dest Latitude';
 
     protected $MaxLength = 3;
-
 }

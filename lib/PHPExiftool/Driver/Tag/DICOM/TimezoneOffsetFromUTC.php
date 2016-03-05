@@ -39,5 +39,4 @@ class TimezoneOffsetFromUTC extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Timezone Offset From UTC';
-
 }

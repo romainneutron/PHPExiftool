@@ -39,5 +39,4 @@ class SpecimenIdentifier extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Specimen Identifier';
-
 }

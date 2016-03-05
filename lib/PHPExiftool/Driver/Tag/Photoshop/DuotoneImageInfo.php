@@ -39,5 +39,4 @@ class DuotoneImageInfo extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Duotone Image Info';
-
 }

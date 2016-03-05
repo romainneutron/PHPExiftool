@@ -39,5 +39,4 @@ class SafePositionExitDate extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Safe Position Exit Date';
-
 }

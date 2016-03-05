@@ -39,5 +39,4 @@ class PartialFourierDirection extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Partial Fourier Direction';
-
 }

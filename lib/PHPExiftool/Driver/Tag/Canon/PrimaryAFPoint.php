@@ -41,5 +41,4 @@ class PrimaryAFPoint extends AbstractTag
     protected $Description = 'Primary AF Point';
 
     protected $flag_Permanent = true;
-
 }

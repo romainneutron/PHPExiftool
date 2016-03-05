@@ -39,5 +39,4 @@ class OffsetToMetadata extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Offset To Metadata';
-
 }

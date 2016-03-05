@@ -52,5 +52,4 @@ class PlaybackZoom extends AbstractTag
             'Label' => 'Use Either Zoom Button with Command Dial',
         ),
     );
-
 }

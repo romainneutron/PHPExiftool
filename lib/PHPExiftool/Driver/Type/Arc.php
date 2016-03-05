@@ -19,5 +19,4 @@ class Arc extends AbstractType
     protected $ExiftoolName = 'Arc';
 
     protected $PHPMap = 'string';
-
 }

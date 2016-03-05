@@ -39,5 +39,4 @@ class SmokingStatus extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Smoking Status';
-
 }

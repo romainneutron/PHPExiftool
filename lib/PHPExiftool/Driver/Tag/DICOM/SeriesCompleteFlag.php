@@ -39,5 +39,4 @@ class SeriesCompleteFlag extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Series Complete Flag';
-
 }

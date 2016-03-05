@@ -39,5 +39,4 @@ class Stridable extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Stridable';
-
 }

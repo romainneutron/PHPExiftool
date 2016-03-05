@@ -1746,5 +1746,4 @@ class ExposureProgram extends AbstractTag
     );
 
     protected $Index = 'mixed';
-
 }

@@ -138,5 +138,4 @@ class GeogAngularUnits extends AbstractTag
             'Label' => 'User Defined',
         ),
     );
-
 }

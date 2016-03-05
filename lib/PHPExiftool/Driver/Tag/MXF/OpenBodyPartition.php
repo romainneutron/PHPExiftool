@@ -39,5 +39,4 @@ class OpenBodyPartition extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Open Body Partition';
-
 }

@@ -39,5 +39,4 @@ class PlayAllFrames extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Play All Frames';
-
 }

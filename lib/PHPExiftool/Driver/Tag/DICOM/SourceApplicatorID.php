@@ -39,5 +39,4 @@ class SourceApplicatorID extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Source Applicator ID';
-
 }

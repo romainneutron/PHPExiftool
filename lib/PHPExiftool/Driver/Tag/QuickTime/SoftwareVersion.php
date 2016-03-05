@@ -39,5 +39,4 @@ class SoftwareVersion extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Software Version';
-
 }

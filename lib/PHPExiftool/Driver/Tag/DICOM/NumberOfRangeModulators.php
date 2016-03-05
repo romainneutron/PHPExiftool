@@ -39,5 +39,4 @@ class NumberOfRangeModulators extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Number Of Range Modulators';
-
 }

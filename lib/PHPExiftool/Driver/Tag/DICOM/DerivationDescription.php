@@ -39,5 +39,4 @@ class DerivationDescription extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Derivation Description';
-
 }

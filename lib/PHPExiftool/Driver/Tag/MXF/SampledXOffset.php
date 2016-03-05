@@ -39,5 +39,4 @@ class SampledXOffset extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Sampled X Offset';
-
 }

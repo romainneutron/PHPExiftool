@@ -41,5 +41,4 @@ class Project extends AbstractTag
     protected $Description = 'Project';
 
     protected $MaxLength = 200;
-
 }

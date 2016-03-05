@@ -39,5 +39,4 @@ class NominalPriorDose extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Nominal Prior Dose';
-
 }

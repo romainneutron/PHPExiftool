@@ -41,5 +41,4 @@ class IngredientsPartMapping extends AbstractTag
     protected $Description = 'Ingredients Part Mapping';
 
     protected $flag_List = true;
-
 }

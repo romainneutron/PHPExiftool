@@ -39,5 +39,4 @@ class CameraInfoByteOrder extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Camera Info Byte Order';
-
 }

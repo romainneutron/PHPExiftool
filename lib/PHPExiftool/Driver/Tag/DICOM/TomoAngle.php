@@ -39,5 +39,4 @@ class TomoAngle extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Tomo Angle';
-
 }

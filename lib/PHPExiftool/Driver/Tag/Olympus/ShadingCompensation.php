@@ -52,5 +52,4 @@ class ShadingCompensation extends AbstractTag
             'Label' => 'On',
         ),
     );
-
 }

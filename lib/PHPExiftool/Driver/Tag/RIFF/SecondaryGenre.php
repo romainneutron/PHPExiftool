@@ -39,5 +39,4 @@ class SecondaryGenre extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Secondary Genre';
-
 }

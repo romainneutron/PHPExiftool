@@ -41,5 +41,4 @@ class AdjustmentMode extends AbstractTag
     protected $Description = 'Adjustment Mode';
 
     protected $flag_Permanent = true;
-
 }

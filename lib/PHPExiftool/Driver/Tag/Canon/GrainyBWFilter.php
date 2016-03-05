@@ -48,5 +48,4 @@ class GrainyBWFilter extends AbstractTag
             'Label' => 'Off',
         ),
     );
-
 }

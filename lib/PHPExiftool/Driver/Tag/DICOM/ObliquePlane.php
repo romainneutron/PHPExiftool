@@ -39,5 +39,4 @@ class ObliquePlane extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Oblique Plane';
-
 }

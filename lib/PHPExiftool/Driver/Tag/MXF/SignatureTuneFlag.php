@@ -39,5 +39,4 @@ class SignatureTuneFlag extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Signature Tune Flag';
-
 }

@@ -39,5 +39,4 @@ class TapeStock extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Tape Stock';
-
 }

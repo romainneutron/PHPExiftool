@@ -39,5 +39,4 @@ class ImageSetLabel extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Image Set Label';
-
 }

@@ -39,5 +39,4 @@ class XMLDocumentText extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'XML Document Text';
-
 }

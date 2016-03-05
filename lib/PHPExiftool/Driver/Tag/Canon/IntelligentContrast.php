@@ -56,5 +56,4 @@ class IntelligentContrast extends AbstractTag
             'Label' => 'n/a',
         ),
     );
-
 }

@@ -84,5 +84,4 @@ class SetButtonCrossKeysFunc extends AbstractTag
             'Label' => 'Cross keys: AF point select',
         ),
     );
-
 }

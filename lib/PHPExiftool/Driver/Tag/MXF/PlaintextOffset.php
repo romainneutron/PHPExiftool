@@ -39,5 +39,4 @@ class PlaintextOffset extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Plaintext Offset';
-
 }

@@ -39,5 +39,4 @@ class CropAngle extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Crop Angle';
-
 }

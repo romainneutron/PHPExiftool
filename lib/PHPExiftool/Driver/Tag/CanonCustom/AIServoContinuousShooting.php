@@ -52,5 +52,4 @@ class AIServoContinuousShooting extends AbstractTag
             'Label' => 'Shooting possible without focus',
         ),
     );
-
 }

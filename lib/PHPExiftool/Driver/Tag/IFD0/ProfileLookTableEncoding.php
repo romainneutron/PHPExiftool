@@ -52,5 +52,4 @@ class ProfileLookTableEncoding extends AbstractTag
             'Label' => 'sRGB',
         ),
     );
-
 }

@@ -39,5 +39,4 @@ class OffsetToIndexTable extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Offset To Index Table';
-
 }

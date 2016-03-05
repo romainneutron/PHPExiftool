@@ -39,5 +39,4 @@ class TransmitterFrequency extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Transmitter Frequency';
-
 }

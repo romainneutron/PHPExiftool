@@ -39,5 +39,4 @@ class Trim extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Trim';
-
 }

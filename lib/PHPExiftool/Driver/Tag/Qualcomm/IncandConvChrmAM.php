@@ -41,5 +41,4 @@ class IncandConvChrmAM extends AbstractTag
     protected $Description = 'Incand Conv Chrm A M';
 
     protected $flag_Permanent = true;
-
 }

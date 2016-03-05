@@ -60,5 +60,4 @@ class FaceOrientation extends AbstractTag
             'Label' => 'Rotate 180',
         ),
     );
-
 }

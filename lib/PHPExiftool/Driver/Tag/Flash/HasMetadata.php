@@ -39,5 +39,4 @@ class HasMetadata extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Has Metadata';
-
 }

@@ -41,5 +41,4 @@ class AuxiliaryLens extends AbstractTag
     protected $Description = 'Auxiliary Lens';
 
     protected $flag_Permanent = true;
-
 }

@@ -39,5 +39,4 @@ class BitsForCodeWord extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Bits For Code Word';
-
 }

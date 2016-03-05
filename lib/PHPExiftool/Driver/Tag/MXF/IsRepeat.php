@@ -39,5 +39,4 @@ class IsRepeat extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Is Repeat';
-
 }

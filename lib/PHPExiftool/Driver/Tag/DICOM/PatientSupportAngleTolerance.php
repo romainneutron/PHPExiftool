@@ -39,5 +39,4 @@ class PatientSupportAngleTolerance extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Patient Support Angle Tolerance';
-
 }

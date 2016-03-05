@@ -39,5 +39,4 @@ class GradientEchoTrainLength extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Gradient Echo Train Length';
-
 }

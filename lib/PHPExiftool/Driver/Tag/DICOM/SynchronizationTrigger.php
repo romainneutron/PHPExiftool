@@ -39,5 +39,4 @@ class SynchronizationTrigger extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Synchronization Trigger';
-
 }

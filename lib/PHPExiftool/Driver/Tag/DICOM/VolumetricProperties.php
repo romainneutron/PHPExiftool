@@ -39,5 +39,4 @@ class VolumetricProperties extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Volumetric Properties';
-
 }

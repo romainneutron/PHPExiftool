@@ -39,5 +39,4 @@ class EncryptedSourceValue extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Encrypted Source Value';
-
 }

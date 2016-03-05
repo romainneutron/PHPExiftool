@@ -39,5 +39,4 @@ class BaselineCorrection extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Baseline Correction';
-
 }

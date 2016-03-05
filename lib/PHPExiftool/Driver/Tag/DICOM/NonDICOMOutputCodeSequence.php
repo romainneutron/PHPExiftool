@@ -39,5 +39,4 @@ class NonDICOMOutputCodeSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Non DICOM Output Code Sequence';
-
 }

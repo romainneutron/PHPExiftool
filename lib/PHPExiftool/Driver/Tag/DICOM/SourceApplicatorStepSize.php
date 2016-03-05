@@ -39,5 +39,4 @@ class SourceApplicatorStepSize extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Source Applicator Step Size';
-
 }

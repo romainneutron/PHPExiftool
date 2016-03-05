@@ -39,5 +39,4 @@ class FaithfulOutputHighlightPoint extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Faithful Output Highlight Point';
-
 }

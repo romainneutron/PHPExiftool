@@ -39,5 +39,4 @@ class DataDefinition extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Data Definition';
-
 }

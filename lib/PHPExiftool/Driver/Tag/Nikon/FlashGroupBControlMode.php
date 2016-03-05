@@ -76,5 +76,4 @@ class FlashGroupBControlMode extends AbstractTag
             'Label' => 'Repeating Flash',
         ),
     );
-
 }

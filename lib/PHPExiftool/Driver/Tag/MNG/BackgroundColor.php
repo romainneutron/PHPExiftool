@@ -41,5 +41,4 @@ class BackgroundColor extends AbstractTag
     protected $Description = 'Background Color';
 
     protected $MaxLength = 3;
-
 }

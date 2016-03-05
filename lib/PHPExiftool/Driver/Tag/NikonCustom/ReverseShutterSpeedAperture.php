@@ -52,5 +52,4 @@ class ReverseShutterSpeedAperture extends AbstractTag
             'Label' => 'Yes',
         ),
     );
-
 }

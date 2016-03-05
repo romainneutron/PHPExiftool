@@ -52,5 +52,4 @@ class PreviewImageValid extends AbstractTag
             'Label' => 'Yes',
         ),
     );
-
 }

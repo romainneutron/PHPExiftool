@@ -41,5 +41,4 @@ class PublicationName extends AbstractTag
     protected $Description = 'Publication Name';
 
     protected $flag_Avoid = true;
-
 }

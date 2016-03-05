@@ -39,5 +39,4 @@ class PhaseInformationSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Phase Information Sequence';
-
 }

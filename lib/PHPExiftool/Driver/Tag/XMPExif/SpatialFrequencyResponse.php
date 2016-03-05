@@ -41,5 +41,4 @@ class SpatialFrequencyResponse extends AbstractTag
     protected $Description = 'Spatial Frequency Response';
 
     protected $local_g2 = 'Camera';
-
 }

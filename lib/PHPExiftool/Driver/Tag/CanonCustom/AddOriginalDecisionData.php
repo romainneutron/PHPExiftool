@@ -52,5 +52,4 @@ class AddOriginalDecisionData extends AbstractTag
             'Label' => 'On',
         ),
     );
-
 }

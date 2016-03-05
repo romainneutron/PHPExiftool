@@ -39,5 +39,4 @@ class Unused extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Unused';
-
 }

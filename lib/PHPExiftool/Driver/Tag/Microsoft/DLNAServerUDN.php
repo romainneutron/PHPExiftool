@@ -39,5 +39,4 @@ class DLNAServerUDN extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'DLNA Server UDN';
-
 }

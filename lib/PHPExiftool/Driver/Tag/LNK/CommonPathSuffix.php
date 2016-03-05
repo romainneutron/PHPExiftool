@@ -39,5 +39,4 @@ class CommonPathSuffix extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Common Path Suffix';
-
 }

@@ -39,5 +39,4 @@ class ScheduledProcedureStepStartDate extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Scheduled Procedure Step Start Date';
-
 }

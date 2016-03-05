@@ -41,5 +41,4 @@ class VignetteControlIntensity extends AbstractTag
     protected $Description = 'Vignette Control Intensity';
 
     protected $flag_Permanent = true;
-
 }

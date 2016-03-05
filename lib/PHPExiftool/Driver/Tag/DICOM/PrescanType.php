@@ -39,5 +39,4 @@ class PrescanType extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Prescan Type';
-
 }

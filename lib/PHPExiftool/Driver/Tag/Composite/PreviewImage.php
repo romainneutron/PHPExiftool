@@ -43,5 +43,4 @@ class PreviewImage extends AbstractTag
     protected $local_g2 = 'Preview';
 
     protected $flag_Binary = false;
-
 }

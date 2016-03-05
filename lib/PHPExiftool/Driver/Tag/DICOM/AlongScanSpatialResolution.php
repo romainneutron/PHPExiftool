@@ -39,5 +39,4 @@ class AlongScanSpatialResolution extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Along Scan Spatial Resolution';
-
 }

@@ -39,5 +39,4 @@ class ClinicalTrialTimePointDescription extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Clinical Trial Time Point Description';
-
 }

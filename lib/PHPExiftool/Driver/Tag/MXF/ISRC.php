@@ -39,5 +39,4 @@ class ISRC extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'ISRC';
-
 }

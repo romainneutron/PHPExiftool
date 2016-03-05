@@ -41,5 +41,4 @@ class WhiteBalanceTable extends AbstractTag
     protected $Description = 'White Balance Table';
 
     protected $flag_Permanent = true;
-
 }

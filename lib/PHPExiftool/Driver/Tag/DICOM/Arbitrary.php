@@ -39,5 +39,4 @@ class Arbitrary extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Arbitrary';
-
 }

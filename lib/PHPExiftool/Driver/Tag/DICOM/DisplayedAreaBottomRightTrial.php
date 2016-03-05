@@ -39,5 +39,4 @@ class DisplayedAreaBottomRightTrial extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Displayed Area Bottom Right Trial';
-
 }

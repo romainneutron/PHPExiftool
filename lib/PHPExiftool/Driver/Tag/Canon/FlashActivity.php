@@ -41,5 +41,4 @@ class FlashActivity extends AbstractTag
     protected $Description = 'Flash Activity';
 
     protected $flag_Permanent = true;
-
 }

@@ -39,5 +39,4 @@ class TagAngleSecondAxis extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Tag Angle Second Axis';
-
 }

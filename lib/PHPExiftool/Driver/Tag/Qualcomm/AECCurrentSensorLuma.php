@@ -41,5 +41,4 @@ class AECCurrentSensorLuma extends AbstractTag
     protected $Description = 'AEC Current Sensor Luma';
 
     protected $flag_Permanent = true;
-
 }

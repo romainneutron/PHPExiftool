@@ -39,5 +39,4 @@ class QltyBasicData extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Qlty Basic Data';
-
 }

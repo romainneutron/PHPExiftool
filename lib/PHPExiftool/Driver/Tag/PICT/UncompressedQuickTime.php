@@ -39,5 +39,4 @@ class UncompressedQuickTime extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Uncompressed Quick Time';
-
 }

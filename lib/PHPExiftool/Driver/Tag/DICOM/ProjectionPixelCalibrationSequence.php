@@ -39,5 +39,4 @@ class ProjectionPixelCalibrationSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Projection Pixel Calibration Sequence';
-
 }

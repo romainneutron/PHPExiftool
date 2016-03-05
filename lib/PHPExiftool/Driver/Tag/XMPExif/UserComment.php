@@ -39,5 +39,4 @@ class UserComment extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'User Comment';
-
 }

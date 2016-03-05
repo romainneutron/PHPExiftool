@@ -39,5 +39,4 @@ class DetectorActiveDimensions extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Detector Active Dimensions';
-
 }

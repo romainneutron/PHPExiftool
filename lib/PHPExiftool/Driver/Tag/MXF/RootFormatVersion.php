@@ -39,5 +39,4 @@ class RootFormatVersion extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Root Format Version';
-
 }

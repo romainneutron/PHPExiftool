@@ -41,5 +41,4 @@ class Image8Description extends AbstractTag
     protected $Description = 'Image 8 Description';
 
     protected $MaxLength = 32;
-
 }

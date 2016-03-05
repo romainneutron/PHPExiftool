@@ -41,5 +41,4 @@ class StopsAboveBaseISO extends AbstractTag
     protected $Description = 'Stops Above Base ISO';
 
     protected $flag_Permanent = true;
-
 }

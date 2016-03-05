@@ -39,5 +39,4 @@ class PnMode extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Pen Mode';
-
 }

@@ -39,5 +39,4 @@ class HorizontalResolution extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Horizontal Resolution';
-
 }

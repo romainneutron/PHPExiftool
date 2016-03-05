@@ -41,5 +41,4 @@ class DCIsland extends AbstractTag
     protected $Description = 'DC Island';
 
     protected $local_g2 = 'Location';
-
 }

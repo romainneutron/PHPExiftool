@@ -39,5 +39,4 @@ class AttributeModificationDateTime extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Attribute Modification Date Time';
-
 }

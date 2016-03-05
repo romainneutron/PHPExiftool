@@ -54,5 +54,4 @@ class ColorMode extends AbstractTag
             'Label' => 'Indexed Color',
         ),
     );
-
 }

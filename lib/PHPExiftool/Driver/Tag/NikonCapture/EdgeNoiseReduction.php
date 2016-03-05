@@ -52,5 +52,4 @@ class EdgeNoiseReduction extends AbstractTag
             'Label' => 'On',
         ),
     );
-
 }

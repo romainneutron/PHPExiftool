@@ -39,5 +39,4 @@ class MeasurementUnitsCodeSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Measurement Units Code Sequence';
-
 }

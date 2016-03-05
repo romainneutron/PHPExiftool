@@ -39,5 +39,4 @@ class SaveCompInstancesAfterMediaCreate extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Save Comp Instances After Media Create';
-
 }

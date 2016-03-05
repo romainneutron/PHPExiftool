@@ -39,5 +39,4 @@ class DropChunks extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Drop Chunks';
-
 }

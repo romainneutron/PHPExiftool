@@ -39,5 +39,4 @@ class KLVDataValue extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'KLV Data Value';
-
 }

@@ -39,5 +39,4 @@ class MaximumFractionalValue extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Maximum Fractional Value';
-
 }

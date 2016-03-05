@@ -82,5 +82,4 @@ class AltTimecodeTimeFormat extends AbstractTag
             'Label' => '60 fps',
         ),
     );
-
 }

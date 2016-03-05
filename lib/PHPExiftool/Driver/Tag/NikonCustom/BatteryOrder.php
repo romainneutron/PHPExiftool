@@ -68,5 +68,4 @@ class BatteryOrder extends AbstractTag
             'Label' => 'Camera Battery First',
         ),
     );
-
 }

@@ -39,5 +39,4 @@ class Weight extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Weight';
-
 }

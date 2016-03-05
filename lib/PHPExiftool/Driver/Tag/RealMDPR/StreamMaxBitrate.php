@@ -39,5 +39,4 @@ class StreamMaxBitrate extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Stream Max Bitrate';
-
 }

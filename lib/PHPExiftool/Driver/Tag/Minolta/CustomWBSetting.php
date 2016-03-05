@@ -52,5 +52,4 @@ class CustomWBSetting extends AbstractTag
             'Label' => 'Recall',
         ),
     );
-
 }

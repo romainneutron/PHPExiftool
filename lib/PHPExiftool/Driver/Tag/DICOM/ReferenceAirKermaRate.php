@@ -39,5 +39,4 @@ class ReferenceAirKermaRate extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Reference Air Kerma Rate';
-
 }

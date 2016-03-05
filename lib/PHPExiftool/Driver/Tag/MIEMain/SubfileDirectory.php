@@ -39,5 +39,4 @@ class SubfileDirectory extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Subfile Directory';
-
 }

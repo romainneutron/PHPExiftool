@@ -52,5 +52,4 @@ class NoiseReductionMode extends AbstractTag
             'Label' => 'On',
         ),
     );
-
 }

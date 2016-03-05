@@ -41,5 +41,4 @@ class TracksMarkersLocation extends AbstractTag
     protected $Description = 'Tracks Markers Location';
 
     protected $flag_List = true;
-
 }

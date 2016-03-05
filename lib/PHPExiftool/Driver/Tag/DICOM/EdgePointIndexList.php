@@ -39,5 +39,4 @@ class EdgePointIndexList extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Edge Point Index List';
-
 }

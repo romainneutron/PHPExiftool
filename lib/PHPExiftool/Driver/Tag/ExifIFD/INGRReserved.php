@@ -41,5 +41,4 @@ class INGRReserved extends AbstractTag
     protected $Description = 'INGR Reserved';
 
     protected $local_g1 = 'ExifIFD';
-
 }

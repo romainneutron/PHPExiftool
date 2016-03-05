@@ -100,5 +100,4 @@ class AFPointsUsed extends AbstractTag
             'Label' => 'All 11 Points',
         ),
     );
-
 }

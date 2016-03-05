@@ -41,5 +41,4 @@ class Status extends AbstractTag
     protected $Description = 'Status';
 
     protected $flag_Avoid = true;
-
 }

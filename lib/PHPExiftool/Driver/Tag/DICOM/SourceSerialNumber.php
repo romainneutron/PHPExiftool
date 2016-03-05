@@ -39,5 +39,4 @@ class SourceSerialNumber extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Source Serial Number';
-
 }

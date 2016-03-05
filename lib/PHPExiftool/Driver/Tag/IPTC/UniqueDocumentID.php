@@ -41,5 +41,4 @@ class UniqueDocumentID extends AbstractTag
     protected $Description = 'Unique Document ID';
 
     protected $MaxLength = 128;
-
 }

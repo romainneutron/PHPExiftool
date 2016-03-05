@@ -39,5 +39,4 @@ class PreliminaryFlag extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Preliminary Flag';
-
 }

@@ -39,5 +39,4 @@ class QualityFlag extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Quality Flag';
-
 }

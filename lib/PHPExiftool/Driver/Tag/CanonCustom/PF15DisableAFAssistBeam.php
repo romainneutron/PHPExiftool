@@ -41,5 +41,4 @@ class PF15DisableAFAssistBeam extends AbstractTag
     protected $Description = 'PF15 Disable AF Assist Beam';
 
     protected $flag_Permanent = true;
-
 }

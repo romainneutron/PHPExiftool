@@ -39,5 +39,4 @@ class BlueTRC extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Blue Tone Reproduction Curve';
-
 }

@@ -39,5 +39,4 @@ class LocationAreaCode extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Location Area Code';
-
 }

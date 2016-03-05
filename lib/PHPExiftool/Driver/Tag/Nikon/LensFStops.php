@@ -43,5 +43,4 @@ class LensFStops extends AbstractTag
     protected $flag_Permanent = true;
 
     protected $MaxLength = 'mixed';
-
 }

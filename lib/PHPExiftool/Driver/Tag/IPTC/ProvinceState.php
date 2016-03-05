@@ -43,5 +43,4 @@ class ProvinceState extends AbstractTag
     protected $local_g2 = 'Location';
 
     protected $MaxLength = 32;
-
 }

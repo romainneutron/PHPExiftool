@@ -54,5 +54,4 @@ class Compression extends AbstractTag
             'Label' => 'HUFF/CDIC',
         ),
     );
-
 }

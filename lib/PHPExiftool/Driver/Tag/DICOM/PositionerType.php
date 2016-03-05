@@ -39,5 +39,4 @@ class PositionerType extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Positioner Type';
-
 }

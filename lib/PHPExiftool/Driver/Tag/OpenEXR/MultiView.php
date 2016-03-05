@@ -39,5 +39,4 @@ class MultiView extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Multi View';
-
 }

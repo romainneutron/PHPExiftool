@@ -39,5 +39,4 @@ class SurfaceCoilIntensity extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Surface Coil Intensity';
-
 }

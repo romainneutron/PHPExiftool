@@ -54,5 +54,4 @@ class MPEGAudioVersion extends AbstractTag
             'Label' => 1,
         ),
     );
-
 }

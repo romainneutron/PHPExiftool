@@ -39,5 +39,4 @@ class Chapter extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Chapter';
-
 }

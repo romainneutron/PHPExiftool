@@ -56,5 +56,4 @@ class InstantPlaybackSetup extends AbstractTag
             'Label' => 'Image and Histogram',
         ),
     );
-
 }

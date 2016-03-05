@@ -39,5 +39,4 @@ class DetailsOfCoefficients extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Details Of Coefficients';
-
 }

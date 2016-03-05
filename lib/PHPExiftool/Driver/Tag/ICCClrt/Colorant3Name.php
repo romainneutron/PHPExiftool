@@ -41,5 +41,4 @@ class Colorant3Name extends AbstractTag
     protected $Description = 'Colorant 3 Name';
 
     protected $MaxLength = 32;
-
 }

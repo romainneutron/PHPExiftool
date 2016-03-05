@@ -41,5 +41,4 @@ class CameraDirection extends AbstractTag
     protected $Description = 'Camera Direction';
 
     protected $local_g2 = 'Location';
-
 }

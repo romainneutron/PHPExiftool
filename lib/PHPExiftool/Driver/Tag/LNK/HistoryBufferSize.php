@@ -39,5 +39,4 @@ class HistoryBufferSize extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'History Buffer Size';
-
 }

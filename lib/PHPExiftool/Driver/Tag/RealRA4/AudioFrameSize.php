@@ -39,5 +39,4 @@ class AudioFrameSize extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Audio Frame Size';
-
 }

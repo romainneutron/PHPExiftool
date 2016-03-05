@@ -120,5 +120,4 @@ class VerticalFuncButton extends AbstractTag
             'Label' => 'Flash Disable/Enable',
         ),
     );
-
 }

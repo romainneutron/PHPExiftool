@@ -41,5 +41,4 @@ class PreviewSettingsDigest extends AbstractTag
     protected $Description = 'Preview Settings Digest';
 
     protected $flag_Unsafe = true;
-
 }

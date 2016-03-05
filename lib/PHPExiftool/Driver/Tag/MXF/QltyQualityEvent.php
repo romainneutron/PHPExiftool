@@ -39,5 +39,4 @@ class QltyQualityEvent extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Qlty Quality Event';
-
 }

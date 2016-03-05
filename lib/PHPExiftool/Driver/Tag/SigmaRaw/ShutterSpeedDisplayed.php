@@ -39,5 +39,4 @@ class ShutterSpeedDisplayed extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Shutter Speed Displayed';
-
 }

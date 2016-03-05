@@ -39,5 +39,4 @@ class UnicodeAlphaNames extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Unicode Alpha Names';
-
 }

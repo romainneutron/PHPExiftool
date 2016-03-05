@@ -41,5 +41,4 @@ class GPSProcessingMethod extends AbstractTag
     protected $Description = 'GPS Processing Method';
 
     protected $local_g2 = 'Location';
-
 }

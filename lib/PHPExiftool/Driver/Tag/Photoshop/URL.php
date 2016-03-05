@@ -41,5 +41,4 @@ class URL extends AbstractTag
     protected $Description = 'URL';
 
     protected $local_g2 = 'Author';
-
 }

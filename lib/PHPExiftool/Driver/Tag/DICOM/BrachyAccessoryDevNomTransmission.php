@@ -39,5 +39,4 @@ class BrachyAccessoryDevNomTransmission extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Brachy Accessory Dev Nom Transmission';
-
 }

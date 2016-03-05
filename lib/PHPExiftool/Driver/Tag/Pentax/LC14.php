@@ -41,5 +41,4 @@ class LC14 extends AbstractTag
     protected $Description = 'LC14';
 
     protected $flag_Permanent = true;
-
 }

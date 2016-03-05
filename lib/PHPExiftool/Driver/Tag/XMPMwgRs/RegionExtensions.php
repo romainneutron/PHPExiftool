@@ -41,5 +41,4 @@ class RegionExtensions extends AbstractTag
     protected $Description = 'Region Extensions';
 
     protected $flag_List = true;
-
 }

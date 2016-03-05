@@ -41,5 +41,4 @@ class VersionIdentifier extends AbstractTag
     protected $Description = 'Version Identifier';
 
     protected $flag_Avoid = true;
-
 }

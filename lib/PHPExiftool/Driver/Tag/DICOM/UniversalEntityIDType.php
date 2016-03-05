@@ -39,5 +39,4 @@ class UniversalEntityIDType extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Universal Entity ID Type';
-
 }

@@ -52,5 +52,4 @@ class JPEGQuality extends AbstractTag
             'Label' => 'Fine',
         ),
     );
-
 }

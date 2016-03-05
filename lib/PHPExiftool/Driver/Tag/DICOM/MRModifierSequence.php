@@ -39,5 +39,4 @@ class MRModifierSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'MR Modifier Sequence';
-
 }

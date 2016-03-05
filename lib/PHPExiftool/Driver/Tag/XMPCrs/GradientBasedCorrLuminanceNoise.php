@@ -39,5 +39,4 @@ class GradientBasedCorrLuminanceNoise extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Gradient Based Corr Luminance Noise';
-
 }

@@ -41,5 +41,4 @@ class AudioChannels extends AbstractTag
     protected $Description = 'Audio Channels';
 
     protected $local_g2 = 'Audio';
-
 }

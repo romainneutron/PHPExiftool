@@ -39,5 +39,4 @@ class IsocenterToRangeShifterDistance extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Isocenter To Range Shifter Distance';
-
 }

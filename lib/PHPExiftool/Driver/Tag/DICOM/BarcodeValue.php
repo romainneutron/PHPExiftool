@@ -39,5 +39,4 @@ class BarcodeValue extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Barcode Value';
-
 }

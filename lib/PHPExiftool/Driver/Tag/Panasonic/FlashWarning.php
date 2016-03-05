@@ -52,5 +52,4 @@ class FlashWarning extends AbstractTag
             'Label' => 'Yes (flash required but disabled)',
         ),
     );
-
 }

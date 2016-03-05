@@ -41,5 +41,4 @@ class DCWaterBody extends AbstractTag
     protected $Description = 'DC Water Body';
 
     protected $local_g2 = 'Location';
-
 }

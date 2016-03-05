@@ -39,5 +39,4 @@ class UUIDList extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'UUID List';
-
 }

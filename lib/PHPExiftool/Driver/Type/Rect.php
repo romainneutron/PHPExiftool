@@ -19,5 +19,4 @@ class Rect extends AbstractType
     protected $ExiftoolName = 'Rect';
 
     protected $PHPMap = 'string';
-
 }

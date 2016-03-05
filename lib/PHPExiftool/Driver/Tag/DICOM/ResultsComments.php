@@ -39,5 +39,4 @@ class ResultsComments extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Results Comments';
-
 }

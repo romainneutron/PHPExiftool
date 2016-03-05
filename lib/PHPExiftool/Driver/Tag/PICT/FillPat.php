@@ -41,5 +41,4 @@ class FillPat extends AbstractTag
     protected $Description = 'Fill Pattern';
 
     protected $MaxLength = 8;
-
 }

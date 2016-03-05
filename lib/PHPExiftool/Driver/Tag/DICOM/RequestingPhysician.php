@@ -39,5 +39,4 @@ class RequestingPhysician extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Requesting Physician';
-
 }

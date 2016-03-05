@@ -39,5 +39,4 @@ class RetouchAreaSeed extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Retouch Area Seed';
-
 }

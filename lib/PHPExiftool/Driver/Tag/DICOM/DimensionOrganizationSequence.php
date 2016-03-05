@@ -39,5 +39,4 @@ class DimensionOrganizationSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Dimension Organization Sequence';
-
 }

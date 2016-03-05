@@ -41,5 +41,4 @@ class CanonFirmwareVersion extends AbstractTag
     protected $Description = 'Canon Firmware Version';
 
     protected $flag_Permanent = true;
-
 }

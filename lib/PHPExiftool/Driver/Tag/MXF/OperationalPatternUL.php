@@ -39,5 +39,4 @@ class OperationalPatternUL extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Operational Pattern UL';
-
 }

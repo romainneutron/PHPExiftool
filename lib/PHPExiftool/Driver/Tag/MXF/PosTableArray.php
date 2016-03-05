@@ -39,5 +39,4 @@ class PosTableArray extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Pos Table Array';
-
 }

@@ -39,5 +39,4 @@ class AdministrationRouteCodeSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Administration Route Code Sequence';
-
 }

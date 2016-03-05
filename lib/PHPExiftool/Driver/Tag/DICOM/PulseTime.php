@@ -39,5 +39,4 @@ class PulseTime extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Pulse Time';
-
 }

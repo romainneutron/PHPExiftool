@@ -39,5 +39,4 @@ class TrianglePointIndexList extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Triangle Point Index List';
-
 }

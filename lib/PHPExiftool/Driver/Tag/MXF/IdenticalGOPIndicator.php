@@ -39,5 +39,4 @@ class IdenticalGOPIndicator extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Identical GOP Indicator';
-
 }

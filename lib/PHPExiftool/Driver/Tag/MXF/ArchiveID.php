@@ -39,5 +39,4 @@ class ArchiveID extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Archive ID';
-
 }

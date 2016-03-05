@@ -41,5 +41,4 @@ class Vibrance extends AbstractTag
     protected $Description = 'Vibrance';
 
     protected $flag_Avoid = true;
-
 }

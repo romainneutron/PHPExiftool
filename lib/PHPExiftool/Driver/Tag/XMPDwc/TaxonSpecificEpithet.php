@@ -39,5 +39,4 @@ class TaxonSpecificEpithet extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Taxon Specific Epithet';
-
 }

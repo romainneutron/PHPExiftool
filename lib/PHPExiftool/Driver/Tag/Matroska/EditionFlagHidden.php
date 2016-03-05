@@ -39,5 +39,4 @@ class EditionFlagHidden extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Edition Flag Hidden';
-
 }

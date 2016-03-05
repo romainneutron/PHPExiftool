@@ -41,5 +41,4 @@ class BabyName extends AbstractTag
     protected $Description = 'Baby Name';
 
     protected $flag_Permanent = true;
-
 }

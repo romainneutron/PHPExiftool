@@ -39,5 +39,4 @@ class CodecFlavorID extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Codec Flavor ID';
-
 }

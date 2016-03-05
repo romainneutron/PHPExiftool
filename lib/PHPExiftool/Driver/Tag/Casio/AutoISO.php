@@ -64,5 +64,4 @@ class AutoISO extends AbstractTag
             'Label' => 'High Speed',
         ),
     );
-
 }

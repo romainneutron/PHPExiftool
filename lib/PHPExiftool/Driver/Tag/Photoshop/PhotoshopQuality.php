@@ -39,5 +39,4 @@ class PhotoshopQuality extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Photoshop Quality';
-
 }

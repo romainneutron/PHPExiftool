@@ -39,5 +39,4 @@ class CalibrationDataSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Calibration Data Sequence';
-
 }

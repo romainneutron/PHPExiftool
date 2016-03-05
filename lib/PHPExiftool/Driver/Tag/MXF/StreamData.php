@@ -39,5 +39,4 @@ class StreamData extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Stream Data';
-
 }

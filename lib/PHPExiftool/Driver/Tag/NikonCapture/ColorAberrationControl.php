@@ -52,5 +52,4 @@ class ColorAberrationControl extends AbstractTag
             'Label' => 'On',
         ),
     );
-
 }

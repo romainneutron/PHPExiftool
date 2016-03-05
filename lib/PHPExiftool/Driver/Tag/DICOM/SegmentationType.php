@@ -39,5 +39,4 @@ class SegmentationType extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Segmentation Type';
-
 }

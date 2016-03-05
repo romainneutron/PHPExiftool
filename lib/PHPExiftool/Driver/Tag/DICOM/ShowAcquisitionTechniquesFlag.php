@@ -39,5 +39,4 @@ class ShowAcquisitionTechniquesFlag extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Show Acquisition Techniques Flag';
-
 }

@@ -39,5 +39,4 @@ class NITFLayerTargetID extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'NITF Layer Target ID';
-
 }

@@ -39,5 +39,4 @@ class SupplementaryOrganizationName extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Supplementary Organization Name';
-
 }

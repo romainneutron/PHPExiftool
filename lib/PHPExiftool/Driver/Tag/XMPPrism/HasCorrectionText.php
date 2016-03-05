@@ -39,5 +39,4 @@ class HasCorrectionText extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Has Correction Text';
-
 }

@@ -39,5 +39,4 @@ class History extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'History';
-
 }

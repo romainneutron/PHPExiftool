@@ -50,5 +50,4 @@ class OffsetOrigin extends AbstractTag
             'Label' => 'Target Origin',
         ),
     );
-
 }

@@ -41,5 +41,4 @@ class CCDBoardVersion extends AbstractTag
     protected $Description = 'CCD Board Version';
 
     protected $flag_Permanent = true;
-
 }

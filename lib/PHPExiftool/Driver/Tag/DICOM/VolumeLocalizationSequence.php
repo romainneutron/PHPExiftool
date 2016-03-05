@@ -39,5 +39,4 @@ class VolumeLocalizationSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Volume Localization Sequence';
-
 }

@@ -39,5 +39,4 @@ class LumaEquation extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Luma Equation';
-
 }

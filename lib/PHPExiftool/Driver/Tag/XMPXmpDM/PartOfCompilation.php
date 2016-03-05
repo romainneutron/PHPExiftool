@@ -39,5 +39,4 @@ class PartOfCompilation extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Part Of Compilation';
-
 }

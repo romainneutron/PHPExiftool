@@ -41,5 +41,4 @@ class AccessorySerialNumber extends AbstractTag
     protected $Description = 'Accessory Serial Number';
 
     protected $flag_Permanent = true;
-
 }

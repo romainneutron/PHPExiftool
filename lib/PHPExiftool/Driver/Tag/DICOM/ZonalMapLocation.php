@@ -39,5 +39,4 @@ class ZonalMapLocation extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Zonal Map Location';
-
 }

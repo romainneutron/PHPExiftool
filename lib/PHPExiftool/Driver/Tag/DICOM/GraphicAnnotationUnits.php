@@ -39,5 +39,4 @@ class GraphicAnnotationUnits extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Graphic Annotation Units';
-
 }

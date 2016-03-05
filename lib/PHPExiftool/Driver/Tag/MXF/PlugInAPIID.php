@@ -39,5 +39,4 @@ class PlugInAPIID extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Plug-In APIID';
-
 }

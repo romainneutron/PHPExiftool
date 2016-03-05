@@ -41,5 +41,4 @@ class ProfileSequenceIdentifier extends AbstractTag
     protected $Description = 'Profile Sequence Identifier';
 
     protected $flag_Binary = true;
-
 }

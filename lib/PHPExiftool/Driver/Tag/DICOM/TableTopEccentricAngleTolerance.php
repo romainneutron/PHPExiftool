@@ -39,5 +39,4 @@ class TableTopEccentricAngleTolerance extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Table Top Eccentric Angle Tolerance';
-
 }

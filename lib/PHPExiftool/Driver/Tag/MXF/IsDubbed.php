@@ -39,5 +39,4 @@ class IsDubbed extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Is Dubbed';
-
 }

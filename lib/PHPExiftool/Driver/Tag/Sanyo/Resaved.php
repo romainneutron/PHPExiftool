@@ -52,5 +52,4 @@ class Resaved extends AbstractTag
             'Label' => 'Yes',
         ),
     );
-
 }

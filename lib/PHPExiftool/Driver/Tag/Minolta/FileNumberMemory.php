@@ -52,5 +52,4 @@ class FileNumberMemory extends AbstractTag
             'Label' => 'On',
         ),
     );
-
 }

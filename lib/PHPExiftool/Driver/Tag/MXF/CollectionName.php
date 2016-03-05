@@ -39,5 +39,4 @@ class CollectionName extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Collection Name';
-
 }

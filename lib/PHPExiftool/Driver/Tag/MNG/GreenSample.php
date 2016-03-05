@@ -39,5 +39,4 @@ class GreenSample extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Green Sample';
-
 }

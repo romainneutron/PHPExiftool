@@ -39,5 +39,4 @@ class EventElapsedTimeToStart extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Event Elapsed Time To Start';
-
 }

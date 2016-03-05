@@ -41,5 +41,4 @@ class WBRGBLevelsFlash extends AbstractTag
     protected $Description = 'WB RGB Levels Flash';
 
     protected $flag_Permanent = true;
-
 }

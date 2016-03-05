@@ -41,5 +41,4 @@ class ExternalFlashGuideNumber extends AbstractTag
     protected $Description = 'External Flash Guide Number';
 
     protected $flag_Permanent = true;
-
 }

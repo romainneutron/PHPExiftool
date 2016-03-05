@@ -39,5 +39,4 @@ class GammaBlackPoint extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Gamma Black Point';
-
 }

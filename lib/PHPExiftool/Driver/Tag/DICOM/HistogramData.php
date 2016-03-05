@@ -39,5 +39,4 @@ class HistogramData extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Histogram Data';
-
 }

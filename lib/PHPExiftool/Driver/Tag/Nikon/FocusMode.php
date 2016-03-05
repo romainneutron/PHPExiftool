@@ -41,5 +41,4 @@ class FocusMode extends AbstractTag
     protected $Description = 'Focus Mode';
 
     protected $flag_Permanent = true;
-
 }

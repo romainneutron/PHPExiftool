@@ -60,5 +60,4 @@ class LiveViewAFAreaMode extends AbstractTag
             'Label' => 'SubjectTracking',
         ),
     );
-
 }

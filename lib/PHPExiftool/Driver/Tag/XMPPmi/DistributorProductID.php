@@ -41,5 +41,4 @@ class DistributorProductID extends AbstractTag
     protected $Description = 'Distributor Product ID';
 
     protected $flag_Avoid = true;
-
 }

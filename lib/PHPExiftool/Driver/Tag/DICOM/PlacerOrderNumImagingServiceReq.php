@@ -39,5 +39,4 @@ class PlacerOrderNumImagingServiceReq extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Placer Order Num-Imaging Service Req';
-
 }

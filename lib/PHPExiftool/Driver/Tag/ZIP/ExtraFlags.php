@@ -54,5 +54,4 @@ class ExtraFlags extends AbstractTag
             'Label' => 'Fastest Algorithm',
         ),
     );
-
 }

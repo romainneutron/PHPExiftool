@@ -56,5 +56,4 @@ class LensFormat extends AbstractTag
             'Label' => 'Full-frame',
         ),
     );
-
 }

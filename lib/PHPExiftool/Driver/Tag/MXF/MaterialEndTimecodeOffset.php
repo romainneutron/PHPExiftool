@@ -41,5 +41,4 @@ class MaterialEndTimecodeOffset extends AbstractTag
     protected $Description = 'Material End Timecode Offset';
 
     protected $local_g2 = 'Time';
-
 }

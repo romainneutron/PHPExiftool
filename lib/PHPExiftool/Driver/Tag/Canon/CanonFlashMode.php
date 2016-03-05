@@ -80,5 +80,4 @@ class CanonFlashMode extends AbstractTag
             'Label' => 'External flash',
         ),
     );
-
 }

@@ -52,5 +52,4 @@ class DigitalZoomOn extends AbstractTag
             'Label' => 'On',
         ),
     );
-
 }

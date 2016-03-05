@@ -46,5 +46,4 @@ class MPImageFormat extends AbstractTag
             'Label' => 'JPEG',
         ),
     );
-
 }

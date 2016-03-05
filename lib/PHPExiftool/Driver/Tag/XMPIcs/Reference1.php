@@ -41,5 +41,4 @@ class Reference1 extends AbstractTag
     protected $Description = 'Reference 1';
 
     protected $flag_List = true;
-
 }

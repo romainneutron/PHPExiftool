@@ -62,5 +62,4 @@ class BlurControl extends AbstractTag
             'Label' => 'High',
         ),
     );
-
 }

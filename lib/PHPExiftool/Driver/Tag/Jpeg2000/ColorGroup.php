@@ -39,5 +39,4 @@ class ColorGroup extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Color Group';
-
 }

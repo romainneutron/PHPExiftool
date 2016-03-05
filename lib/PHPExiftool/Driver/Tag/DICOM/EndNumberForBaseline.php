@@ -39,5 +39,4 @@ class EndNumberForBaseline extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'End Number For Baseline';
-
 }

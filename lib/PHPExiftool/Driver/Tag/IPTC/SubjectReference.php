@@ -43,5 +43,4 @@ class SubjectReference extends AbstractTag
     protected $flag_List = true;
 
     protected $MaxLength = 236;
-
 }

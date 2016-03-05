@@ -39,5 +39,4 @@ class JobStatus extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Job Status';
-
 }

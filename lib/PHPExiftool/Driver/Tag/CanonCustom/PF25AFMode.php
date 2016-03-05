@@ -41,5 +41,4 @@ class PF25AFMode extends AbstractTag
     protected $Description = 'PF25 AF Mode';
 
     protected $flag_Permanent = true;
-
 }

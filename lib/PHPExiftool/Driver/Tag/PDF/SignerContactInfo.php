@@ -39,5 +39,4 @@ class SignerContactInfo extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Signer Contact Info';
-
 }

@@ -50,5 +50,4 @@ class AlphaPreprocessing extends AbstractTag
             'Label' => 'Level Reduction',
         ),
     );
-
 }

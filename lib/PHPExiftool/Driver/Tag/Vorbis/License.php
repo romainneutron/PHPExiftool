@@ -41,5 +41,4 @@ class License extends AbstractTag
     protected $Description = 'License';
 
     protected $local_g2 = 'Author';
-
 }

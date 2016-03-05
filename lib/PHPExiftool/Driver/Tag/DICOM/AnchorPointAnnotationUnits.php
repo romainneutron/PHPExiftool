@@ -39,5 +39,4 @@ class AnchorPointAnnotationUnits extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Anchor Point Annotation Units';
-
 }

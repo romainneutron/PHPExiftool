@@ -39,5 +39,4 @@ class UPSListStatus extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'UPS List Status';
-
 }

@@ -90,5 +90,4 @@ class SelectableAFPoint extends AbstractTag
     );
 
     protected $Index = 'mixed';
-
 }

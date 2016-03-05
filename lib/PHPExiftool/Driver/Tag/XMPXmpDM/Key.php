@@ -90,5 +90,4 @@ class Key extends AbstractTag
             'Label' => 'G#',
         ),
     );
-
 }

@@ -39,5 +39,4 @@ class DLNASourceURI extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'DLNA Source URI';
-
 }

@@ -39,5 +39,4 @@ class PaintCorrectionHue extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Paint Correction Hue';
-
 }

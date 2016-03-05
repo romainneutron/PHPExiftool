@@ -39,5 +39,4 @@ class LabelFromInfoExtractedFromInstance extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Label From Info Extracted From Instance';
-
 }

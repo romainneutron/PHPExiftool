@@ -39,5 +39,4 @@ class AudioFileURL extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Audio File URL';
-
 }

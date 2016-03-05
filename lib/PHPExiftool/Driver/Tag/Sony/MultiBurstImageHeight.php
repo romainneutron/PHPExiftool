@@ -41,5 +41,4 @@ class MultiBurstImageHeight extends AbstractTag
     protected $Description = 'Multi Burst Image Height';
 
     protected $flag_Permanent = true;
-
 }

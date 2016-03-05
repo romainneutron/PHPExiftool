@@ -39,5 +39,4 @@ class DHDVText extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'DHDV Text';
-
 }

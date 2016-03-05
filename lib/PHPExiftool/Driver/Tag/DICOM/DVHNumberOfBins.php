@@ -39,5 +39,4 @@ class DVHNumberOfBins extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'DVH Number Of Bins';
-
 }

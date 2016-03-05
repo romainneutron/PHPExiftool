@@ -19,5 +19,4 @@ class Rgn extends AbstractType
     protected $ExiftoolName = 'Rgn';
 
     protected $PHPMap = 'string';
-
 }

@@ -39,5 +39,4 @@ class ImagePlanePixelSpacing extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Image Plane Pixel Spacing';
-
 }

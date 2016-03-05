@@ -39,5 +39,4 @@ class PageCount extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Page Count';
-
 }

@@ -39,5 +39,4 @@ class SoftwareOnlySupportFlag extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Software-Only Support Flag';
-
 }

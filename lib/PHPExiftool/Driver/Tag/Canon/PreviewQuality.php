@@ -76,5 +76,4 @@ class PreviewQuality extends AbstractTag
             'Label' => 'Movie (2)',
         ),
     );
-
 }

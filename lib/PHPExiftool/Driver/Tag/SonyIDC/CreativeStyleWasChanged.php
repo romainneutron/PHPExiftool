@@ -52,5 +52,4 @@ class CreativeStyleWasChanged extends AbstractTag
             'Label' => 'Yes',
         ),
     );
-
 }

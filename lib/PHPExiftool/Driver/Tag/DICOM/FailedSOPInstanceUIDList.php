@@ -39,5 +39,4 @@ class FailedSOPInstanceUIDList extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Failed SOP Instance UID List';
-
 }

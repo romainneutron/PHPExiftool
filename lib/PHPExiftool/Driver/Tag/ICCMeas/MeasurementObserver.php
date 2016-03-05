@@ -50,5 +50,4 @@ class MeasurementObserver extends AbstractTag
             'Label' => 'CIE 1964',
         ),
     );
-
 }

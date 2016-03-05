@@ -41,5 +41,4 @@ class FaxSubAddress extends AbstractTag
     protected $Description = 'Fax Sub Address';
 
     protected $local_g1 = 'ExifIFD';
-
 }

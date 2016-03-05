@@ -41,5 +41,4 @@ class FrameNumber extends AbstractTag
     protected $Description = 'Frame Number';
 
     protected $flag_Permanent = true;
-
 }

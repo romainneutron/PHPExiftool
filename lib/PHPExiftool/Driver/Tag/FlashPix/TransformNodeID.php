@@ -39,5 +39,4 @@ class TransformNodeID extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Transform Node ID';
-
 }

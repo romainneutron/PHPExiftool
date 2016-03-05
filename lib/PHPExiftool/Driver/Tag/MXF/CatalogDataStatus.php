@@ -39,5 +39,4 @@ class CatalogDataStatus extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Catalog Data Status';
-
 }

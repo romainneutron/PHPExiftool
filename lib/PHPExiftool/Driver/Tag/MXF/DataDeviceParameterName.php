@@ -39,5 +39,4 @@ class DataDeviceParameterName extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Data Device Parameter Name';
-
 }

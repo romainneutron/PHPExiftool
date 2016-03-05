@@ -39,5 +39,4 @@ class BlockStartOffset extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Block Start Offset';
-
 }

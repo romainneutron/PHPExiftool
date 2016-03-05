@@ -39,5 +39,4 @@ class TerminatingFillerData extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Terminating Filler Data';
-
 }

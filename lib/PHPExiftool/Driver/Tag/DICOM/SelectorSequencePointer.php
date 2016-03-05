@@ -39,5 +39,4 @@ class SelectorSequencePointer extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Selector Sequence Pointer';
-
 }

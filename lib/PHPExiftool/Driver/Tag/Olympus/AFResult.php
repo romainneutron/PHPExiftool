@@ -41,5 +41,4 @@ class AFResult extends AbstractTag
     protected $Description = 'AF Result';
 
     protected $flag_Permanent = true;
-
 }

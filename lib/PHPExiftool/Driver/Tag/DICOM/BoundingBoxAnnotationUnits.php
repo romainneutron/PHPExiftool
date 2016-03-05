@@ -39,5 +39,4 @@ class BoundingBoxAnnotationUnits extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Bounding Box Annotation Units';
-
 }

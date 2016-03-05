@@ -39,5 +39,4 @@ class ZSmoothingFactor extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Z Smoothing Factor';
-
 }

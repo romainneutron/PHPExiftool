@@ -39,5 +39,4 @@ class InternalVersionNumber extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Internal Version Number';
-
 }

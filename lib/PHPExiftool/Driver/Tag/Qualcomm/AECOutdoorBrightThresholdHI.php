@@ -41,5 +41,4 @@ class AECOutdoorBrightThresholdHI extends AbstractTag
     protected $Description = 'AEC Outdoor Bright Threshold HI';
 
     protected $flag_Permanent = true;
-
 }

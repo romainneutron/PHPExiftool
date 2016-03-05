@@ -39,5 +39,4 @@ class CreatorContactInfo extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Creator Contact Info';
-
 }

@@ -39,5 +39,4 @@ class NameUTF8 extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Name UTF-8';
-
 }

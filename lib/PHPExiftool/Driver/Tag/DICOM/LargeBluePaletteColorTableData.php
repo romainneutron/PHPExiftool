@@ -41,5 +41,4 @@ class LargeBluePaletteColorTableData extends AbstractTag
     protected $Description = 'Large Blue Palette Color Table Data';
 
     protected $flag_Binary = true;
-
 }

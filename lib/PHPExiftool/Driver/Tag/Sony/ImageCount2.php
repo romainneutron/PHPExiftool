@@ -41,5 +41,4 @@ class ImageCount2 extends AbstractTag
     protected $Description = 'Image Count 2';
 
     protected $flag_Permanent = true;
-
 }

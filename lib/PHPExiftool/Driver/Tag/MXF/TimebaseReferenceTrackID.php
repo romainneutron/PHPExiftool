@@ -39,5 +39,4 @@ class TimebaseReferenceTrackID extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Timebase Reference Track ID';
-
 }

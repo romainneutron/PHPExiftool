@@ -39,5 +39,4 @@ class CenterSCoordOfPlaneImage extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Center S Coord Of Plane Image';
-
 }

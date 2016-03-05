@@ -39,5 +39,4 @@ class KByteSize extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'K Byte Size';
-
 }

@@ -41,5 +41,4 @@ class AECCurrentExpIndex extends AbstractTag
     protected $Description = 'AEC Current Exp Index';
 
     protected $flag_Permanent = true;
-
 }

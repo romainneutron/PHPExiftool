@@ -41,5 +41,4 @@ class PF24LightLCDDuringBulb extends AbstractTag
     protected $Description = 'PF24 Light LCD During Bulb';
 
     protected $flag_Permanent = true;
-
 }

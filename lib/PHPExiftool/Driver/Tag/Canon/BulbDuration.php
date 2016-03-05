@@ -41,5 +41,4 @@ class BulbDuration extends AbstractTag
     protected $Description = 'Bulb Duration';
 
     protected $flag_Permanent = true;
-
 }

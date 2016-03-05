@@ -70,5 +70,4 @@ class ContentRating extends AbstractTag
             'Label' => 'Adults Only',
         ),
     );
-
 }

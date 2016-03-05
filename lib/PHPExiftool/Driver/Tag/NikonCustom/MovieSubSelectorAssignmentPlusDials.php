@@ -52,5 +52,4 @@ class MovieSubSelectorAssignmentPlusDials extends AbstractTag
             'Label' => 'Choose Image Area',
         ),
     );
-
 }

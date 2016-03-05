@@ -39,5 +39,4 @@ class MultiplexGroupLabel extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Multiplex Group Label';
-
 }

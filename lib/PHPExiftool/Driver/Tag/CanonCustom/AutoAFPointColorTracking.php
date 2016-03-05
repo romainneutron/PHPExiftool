@@ -52,5 +52,4 @@ class AutoAFPointColorTracking extends AbstractTag
             'Label' => 'Disable',
         ),
     );
-
 }

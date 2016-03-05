@@ -41,5 +41,4 @@ class ProductInImageGTIN extends AbstractTag
     protected $Description = 'Product In Image GTIN';
 
     protected $flag_List = true;
-
 }

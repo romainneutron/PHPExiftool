@@ -56,5 +56,4 @@ class DynamicRangeOptimizer extends AbstractTag
             'Label' => 'Advanced',
         ),
     );
-
 }

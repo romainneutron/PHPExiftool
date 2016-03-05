@@ -39,5 +39,4 @@ class RTROIIdentificationCodeSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'RTROI Identification Code Sequence';
-
 }

@@ -56,5 +56,4 @@ class ShutterType extends AbstractTag
             'Label' => 'Hybrid',
         ),
     );
-
 }

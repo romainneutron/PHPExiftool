@@ -39,5 +39,4 @@ class ExtendedClipIDArray extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Extended Clip ID Array';
-
 }

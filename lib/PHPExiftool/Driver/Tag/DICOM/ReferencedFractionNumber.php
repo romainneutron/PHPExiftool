@@ -39,5 +39,4 @@ class ReferencedFractionNumber extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Referenced Fraction Number';
-
 }

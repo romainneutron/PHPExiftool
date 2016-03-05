@@ -41,5 +41,4 @@ class ArtworkSContentDescription extends AbstractTag
     protected $Description = 'Artwork S Content Description';
 
     protected $flag_List = true;
-
 }

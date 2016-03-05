@@ -39,5 +39,4 @@ class StructureSetName extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Structure Set Name';
-
 }

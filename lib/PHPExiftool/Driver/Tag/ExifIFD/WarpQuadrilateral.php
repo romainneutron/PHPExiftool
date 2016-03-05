@@ -41,5 +41,4 @@ class WarpQuadrilateral extends AbstractTag
     protected $Description = 'Warp Quadrilateral';
 
     protected $local_g1 = 'ExifIFD';
-
 }

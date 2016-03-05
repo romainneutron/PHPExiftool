@@ -39,5 +39,4 @@ class PiPY1 extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'PiP Y1';
-
 }

@@ -256,5 +256,4 @@ class LensType extends AbstractTag
             'Label' => 'Apo-Summicron-M 50mm f/2 (VI)',
         ),
     );
-
 }

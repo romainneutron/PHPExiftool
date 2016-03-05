@@ -52,5 +52,4 @@ class ColorTemperatureSetting extends AbstractTag
             'Label' => 'Color Filter',
         ),
     );
-
 }

@@ -39,5 +39,4 @@ class LensSerialNumber extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Lens Serial Number';
-
 }

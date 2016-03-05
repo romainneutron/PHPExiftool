@@ -39,5 +39,4 @@ class GreenHue extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Green Hue';
-
 }

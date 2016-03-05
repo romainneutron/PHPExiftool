@@ -39,5 +39,4 @@ class AnchorPoint extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Anchor Point';
-
 }

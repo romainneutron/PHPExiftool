@@ -52,5 +52,4 @@ class HighlightTonePriority extends AbstractTag
             'Label' => 'Enable',
         ),
     );
-
 }

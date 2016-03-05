@@ -39,5 +39,4 @@ class MaxSubfileSize extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Max Subfile Size';
-
 }

@@ -39,5 +39,4 @@ class ProgramMode extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Program Mode';
-
 }

@@ -39,5 +39,4 @@ class IonBeamLimitingDeviceSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Ion Beam Limiting Device Sequence';
-
 }

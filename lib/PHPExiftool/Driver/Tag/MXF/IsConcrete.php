@@ -39,5 +39,4 @@ class IsConcrete extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Is Concrete';
-
 }

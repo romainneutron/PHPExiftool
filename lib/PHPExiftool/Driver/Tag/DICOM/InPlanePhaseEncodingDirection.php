@@ -39,5 +39,4 @@ class InPlanePhaseEncodingDirection extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'In Plane Phase Encoding Direction';
-
 }

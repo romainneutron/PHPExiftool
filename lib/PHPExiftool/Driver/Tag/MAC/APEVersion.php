@@ -39,5 +39,4 @@ class APEVersion extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'APE Version';
-
 }

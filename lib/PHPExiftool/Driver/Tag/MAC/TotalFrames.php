@@ -39,5 +39,4 @@ class TotalFrames extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Total Frames';
-
 }

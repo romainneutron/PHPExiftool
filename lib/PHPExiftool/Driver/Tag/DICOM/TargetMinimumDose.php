@@ -39,5 +39,4 @@ class TargetMinimumDose extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Target Minimum Dose';
-
 }

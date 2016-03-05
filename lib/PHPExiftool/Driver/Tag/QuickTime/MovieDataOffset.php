@@ -39,5 +39,4 @@ class MovieDataOffset extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Movie Data Offset';
-
 }

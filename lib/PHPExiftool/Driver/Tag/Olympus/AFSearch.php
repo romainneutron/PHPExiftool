@@ -52,5 +52,4 @@ class AFSearch extends AbstractTag
             'Label' => 'Ready',
         ),
     );
-
 }

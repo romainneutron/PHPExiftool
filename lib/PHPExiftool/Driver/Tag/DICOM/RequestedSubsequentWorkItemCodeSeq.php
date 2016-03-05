@@ -39,5 +39,4 @@ class RequestedSubsequentWorkItemCodeSeq extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Requested Subsequent Work Item Code Seq';
-
 }

@@ -39,5 +39,4 @@ class RTROIInterpretedType extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'RTROI Interpreted Type';
-
 }

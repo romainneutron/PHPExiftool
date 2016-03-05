@@ -64,5 +64,4 @@ class BracketMode extends AbstractTag
             'Label' => 'WB',
         ),
     );
-
 }

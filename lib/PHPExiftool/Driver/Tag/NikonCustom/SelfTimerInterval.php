@@ -60,5 +60,4 @@ class SelfTimerInterval extends AbstractTag
             'Label' => '3 s',
         ),
     );
-
 }

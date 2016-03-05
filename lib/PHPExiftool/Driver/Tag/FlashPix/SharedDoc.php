@@ -50,5 +50,4 @@ class SharedDoc extends AbstractTag
             'Label' => 'Yes',
         ),
     );
-
 }

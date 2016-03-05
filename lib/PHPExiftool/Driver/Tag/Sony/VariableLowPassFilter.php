@@ -60,5 +60,4 @@ class VariableLowPassFilter extends AbstractTag
             'Label' => 'High',
         ),
     );
-
 }

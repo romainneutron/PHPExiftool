@@ -43,5 +43,4 @@ class State extends AbstractTag
     protected $local_g2 = 'Location';
 
     protected $flag_Permanent = true;
-
 }

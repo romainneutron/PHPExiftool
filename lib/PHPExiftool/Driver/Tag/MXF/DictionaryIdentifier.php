@@ -39,5 +39,4 @@ class DictionaryIdentifier extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Dictionary Identifier';
-
 }

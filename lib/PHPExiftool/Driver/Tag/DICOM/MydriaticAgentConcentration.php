@@ -39,5 +39,4 @@ class MydriaticAgentConcentration extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Mydriatic Agent Concentration';
-
 }

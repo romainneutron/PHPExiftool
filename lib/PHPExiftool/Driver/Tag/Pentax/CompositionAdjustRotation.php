@@ -41,5 +41,4 @@ class CompositionAdjustRotation extends AbstractTag
     protected $Description = 'Composition Adjust Rotation';
 
     protected $flag_Permanent = true;
-
 }

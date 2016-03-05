@@ -41,5 +41,4 @@ class BlogURL extends AbstractTag
     protected $Description = 'Blog URL';
 
     protected $flag_Avoid = true;
-
 }

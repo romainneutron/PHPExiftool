@@ -39,5 +39,4 @@ class ConcatenationFrameOffsetNumber extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Concatenation Frame Offset Number';
-
 }

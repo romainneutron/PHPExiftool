@@ -39,5 +39,4 @@ class GradientBasedCorrClarity2012 extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Gradient Based Corr Clarity 2012';
-
 }

@@ -41,5 +41,4 @@ class DisplayName extends AbstractTag
     protected $Description = 'Display Name';
 
     protected $flag_Avoid = true;
-
 }

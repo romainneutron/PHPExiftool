@@ -39,5 +39,4 @@ class GraphicAnnotationSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Graphic Annotation Sequence';
-
 }

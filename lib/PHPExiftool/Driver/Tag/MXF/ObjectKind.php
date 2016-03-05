@@ -39,5 +39,4 @@ class ObjectKind extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Object Kind';
-
 }

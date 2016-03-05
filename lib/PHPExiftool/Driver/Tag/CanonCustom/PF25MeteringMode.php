@@ -41,5 +41,4 @@ class PF25MeteringMode extends AbstractTag
     protected $Description = 'PF25 Metering Mode';
 
     protected $flag_Permanent = true;
-
 }

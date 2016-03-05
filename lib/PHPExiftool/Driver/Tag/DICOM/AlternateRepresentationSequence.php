@@ -39,5 +39,4 @@ class AlternateRepresentationSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Alternate Representation Sequence';
-
 }

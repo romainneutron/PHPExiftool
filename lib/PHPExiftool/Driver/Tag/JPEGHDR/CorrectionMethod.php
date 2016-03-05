@@ -39,5 +39,4 @@ class CorrectionMethod extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Correction Method';
-
 }

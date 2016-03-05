@@ -39,5 +39,4 @@ class BlocksPerRow extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Blocks Per Row';
-
 }

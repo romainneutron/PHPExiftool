@@ -39,5 +39,4 @@ class Tagging extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Tagging';
-
 }

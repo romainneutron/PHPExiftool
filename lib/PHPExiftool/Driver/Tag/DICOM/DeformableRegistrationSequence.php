@@ -39,5 +39,4 @@ class DeformableRegistrationSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Deformable Registration Sequence';
-
 }

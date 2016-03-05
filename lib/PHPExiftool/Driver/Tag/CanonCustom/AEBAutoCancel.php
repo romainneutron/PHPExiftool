@@ -52,5 +52,4 @@ class AEBAutoCancel extends AbstractTag
             'Label' => 'Off',
         ),
     );
-
 }

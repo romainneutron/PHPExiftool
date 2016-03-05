@@ -41,5 +41,4 @@ class CropOutputWidthInches extends AbstractTag
     protected $Description = 'Crop Output Width Inches';
 
     protected $flag_Permanent = true;
-
 }

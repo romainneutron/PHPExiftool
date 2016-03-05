@@ -52,5 +52,4 @@ class InfraredIlluminator extends AbstractTag
             'Label' => 'On',
         ),
     );
-
 }

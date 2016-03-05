@@ -41,5 +41,4 @@ class StandardOutputSensitivity extends AbstractTag
     protected $Description = 'Standard Output Sensitivity';
 
     protected $local_g1 = 'ExifIFD';
-
 }

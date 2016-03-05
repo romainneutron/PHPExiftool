@@ -39,5 +39,4 @@ class GridFocalDistance extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Grid Focal Distance';
-
 }

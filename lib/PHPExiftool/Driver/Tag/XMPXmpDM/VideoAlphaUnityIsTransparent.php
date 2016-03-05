@@ -39,5 +39,4 @@ class VideoAlphaUnityIsTransparent extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Video Alpha Unity Is Transparent';
-
 }

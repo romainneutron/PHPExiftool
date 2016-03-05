@@ -39,5 +39,4 @@ class CaptureDeviceFID extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Capture Device FID';
-
 }

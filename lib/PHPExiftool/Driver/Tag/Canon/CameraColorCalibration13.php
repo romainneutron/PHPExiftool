@@ -43,5 +43,4 @@ class CameraColorCalibration13 extends AbstractTag
     protected $flag_Permanent = true;
 
     protected $MaxLength = 'mixed';
-
 }

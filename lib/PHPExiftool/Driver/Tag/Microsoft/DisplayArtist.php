@@ -39,5 +39,4 @@ class DisplayArtist extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Display Artist';
-
 }

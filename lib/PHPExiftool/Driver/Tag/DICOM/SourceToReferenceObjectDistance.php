@@ -39,5 +39,4 @@ class SourceToReferenceObjectDistance extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Source To Reference Object Distance';
-
 }

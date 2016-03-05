@@ -41,5 +41,4 @@ class JBIGOptions extends AbstractTag
     protected $Description = 'JBIG Options';
 
     protected $local_g1 = 'ExifIFD';
-
 }

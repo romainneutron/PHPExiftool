@@ -39,5 +39,4 @@ class KF8CoverURI extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'KF8 Cover URI';
-
 }

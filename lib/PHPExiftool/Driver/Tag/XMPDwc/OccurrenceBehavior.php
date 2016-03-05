@@ -39,5 +39,4 @@ class OccurrenceBehavior extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Occurrence Behavior';
-
 }

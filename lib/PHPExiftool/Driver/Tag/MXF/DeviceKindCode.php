@@ -39,5 +39,4 @@ class DeviceKindCode extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Device Kind Code';
-
 }

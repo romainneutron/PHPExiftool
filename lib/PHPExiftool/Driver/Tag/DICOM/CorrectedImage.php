@@ -39,5 +39,4 @@ class CorrectedImage extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Corrected Image';
-
 }

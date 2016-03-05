@@ -41,5 +41,4 @@ class AboveColor extends AbstractTag
     protected $Description = 'Above Color';
 
     protected $MaxLength = 3;
-
 }

@@ -41,5 +41,4 @@ class AFPointSwitching extends AbstractTag
     protected $Description = 'AF Point Switching';
 
     protected $flag_Permanent = true;
-
 }

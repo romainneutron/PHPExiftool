@@ -68,5 +68,4 @@ class ProgramMode extends AbstractTag
             'Label' => 'Sports',
         ),
     );
-
 }

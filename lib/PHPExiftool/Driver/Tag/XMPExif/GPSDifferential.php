@@ -52,5 +52,4 @@ class GPSDifferential extends AbstractTag
             'Label' => 'Differential Corrected',
         ),
     );
-
 }

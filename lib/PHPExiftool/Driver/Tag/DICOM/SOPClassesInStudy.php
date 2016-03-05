@@ -39,5 +39,4 @@ class SOPClassesInStudy extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'SOP Classes In Study';
-
 }

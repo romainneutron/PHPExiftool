@@ -39,5 +39,4 @@ class HighlightAdj extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Highlight Adj';
-
 }

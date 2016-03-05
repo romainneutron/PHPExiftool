@@ -74,5 +74,4 @@ class Meas1Type extends AbstractTag
             'Label' => 'Difference',
         ),
     );
-
 }

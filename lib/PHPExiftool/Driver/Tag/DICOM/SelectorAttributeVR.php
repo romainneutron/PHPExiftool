@@ -39,5 +39,4 @@ class SelectorAttributeVR extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Selector Attribute VR';
-
 }

@@ -41,5 +41,4 @@ class AEApertureSteps extends AbstractTag
     protected $Description = 'AE Aperture Steps';
 
     protected $flag_Permanent = true;
-
 }

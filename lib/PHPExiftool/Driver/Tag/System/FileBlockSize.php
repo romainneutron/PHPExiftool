@@ -41,5 +41,4 @@ class FileBlockSize extends AbstractTag
     protected $Description = 'File Block Size';
 
     protected $local_g1 = 'System';
-
 }

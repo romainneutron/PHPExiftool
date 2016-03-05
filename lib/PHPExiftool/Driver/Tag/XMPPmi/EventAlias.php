@@ -41,5 +41,4 @@ class EventAlias extends AbstractTag
     protected $Description = 'Event Alias';
 
     protected $flag_Avoid = true;
-
 }

@@ -52,5 +52,4 @@ class ColorProfile extends AbstractTag
             'Label' => 'Embedded',
         ),
     );
-
 }

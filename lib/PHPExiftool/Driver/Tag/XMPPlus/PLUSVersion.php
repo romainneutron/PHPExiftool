@@ -39,5 +39,4 @@ class PLUSVersion extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'PLUS Version';
-
 }

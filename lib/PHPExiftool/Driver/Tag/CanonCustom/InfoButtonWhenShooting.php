@@ -62,5 +62,4 @@ class InfoButtonWhenShooting extends AbstractTag
     );
 
     protected $Index = 'mixed';
-
 }

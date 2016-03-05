@@ -166,5 +166,4 @@ class GraphicsMode extends AbstractTag
             'Label' => 'Component Alpha',
         ),
     );
-
 }

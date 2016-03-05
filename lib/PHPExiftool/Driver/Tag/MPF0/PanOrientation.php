@@ -62,5 +62,4 @@ class PanOrientation extends AbstractTag
             'Label' => 'Start at bottom right',
         ),
     );
-
 }

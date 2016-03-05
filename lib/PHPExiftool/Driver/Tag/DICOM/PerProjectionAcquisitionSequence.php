@@ -39,5 +39,4 @@ class PerProjectionAcquisitionSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Per Projection Acquisition Sequence';
-
 }

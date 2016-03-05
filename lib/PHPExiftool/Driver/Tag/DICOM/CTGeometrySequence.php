@@ -39,5 +39,4 @@ class CTGeometrySequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'CT Geometry Sequence';
-
 }

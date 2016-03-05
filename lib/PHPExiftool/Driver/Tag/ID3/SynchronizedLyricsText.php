@@ -41,5 +41,4 @@ class SynchronizedLyricsText extends AbstractTag
     protected $Description = 'Synchronized Lyrics Text';
 
     protected $flag_List = true;
-
 }

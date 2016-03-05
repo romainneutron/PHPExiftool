@@ -39,5 +39,4 @@ class ProjNatOriginLat extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Proj Nat Origin Lat';
-
 }

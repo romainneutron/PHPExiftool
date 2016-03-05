@@ -39,5 +39,4 @@ class ScanSpotMetersetWeights extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Scan Spot Meterset Weights';
-
 }

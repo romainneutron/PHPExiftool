@@ -39,5 +39,4 @@ class BodyPartExamined extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Body Part Examined';
-
 }

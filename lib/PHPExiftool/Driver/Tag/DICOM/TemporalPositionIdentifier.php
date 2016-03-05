@@ -39,5 +39,4 @@ class TemporalPositionIdentifier extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Temporal Position Identifier';
-
 }

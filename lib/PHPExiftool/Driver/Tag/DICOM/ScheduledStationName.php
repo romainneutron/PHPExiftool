@@ -39,5 +39,4 @@ class ScheduledStationName extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Scheduled Station Name';
-
 }

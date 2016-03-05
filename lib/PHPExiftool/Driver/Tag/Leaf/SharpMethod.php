@@ -39,5 +39,4 @@ class SharpMethod extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Sharp Method';
-
 }

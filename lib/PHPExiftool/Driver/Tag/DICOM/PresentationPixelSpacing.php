@@ -39,5 +39,4 @@ class PresentationPixelSpacing extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Presentation Pixel Spacing';
-
 }

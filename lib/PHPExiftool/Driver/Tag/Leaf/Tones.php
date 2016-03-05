@@ -39,5 +39,4 @@ class Tones extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Tones';
-
 }

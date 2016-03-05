@@ -41,5 +41,4 @@ class ExposureCompensationSetting extends AbstractTag
     protected $Description = 'Exposure Compensation Setting';
 
     protected $flag_Permanent = true;
-
 }

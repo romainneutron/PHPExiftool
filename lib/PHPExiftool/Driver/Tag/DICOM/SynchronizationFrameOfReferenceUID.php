@@ -39,5 +39,4 @@ class SynchronizationFrameOfReferenceUID extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Synchronization Frame Of Reference UID';
-
 }

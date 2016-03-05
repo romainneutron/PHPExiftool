@@ -39,5 +39,4 @@ class NumHistoryBuffers extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Num History Buffers';
-
 }

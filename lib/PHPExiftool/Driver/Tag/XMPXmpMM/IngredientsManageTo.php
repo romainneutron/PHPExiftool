@@ -41,5 +41,4 @@ class IngredientsManageTo extends AbstractTag
     protected $Description = 'Ingredients Manage To';
 
     protected $flag_List = true;
-
 }

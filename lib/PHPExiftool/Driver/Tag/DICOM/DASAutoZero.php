@@ -39,5 +39,4 @@ class DASAutoZero extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'DAS Auto Zero';
-
 }

@@ -39,5 +39,4 @@ class ChapterListTrackID extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Chapter List Track ID';
-
 }

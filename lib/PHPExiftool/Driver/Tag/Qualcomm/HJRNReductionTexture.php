@@ -41,5 +41,4 @@ class HJRNReductionTexture extends AbstractTag
     protected $Description = 'HJR N Reduction Texture';
 
     protected $flag_Permanent = true;
-
 }

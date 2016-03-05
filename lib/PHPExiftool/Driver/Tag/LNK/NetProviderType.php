@@ -174,5 +174,4 @@ class NetProviderType extends AbstractTag
             'Label' => 'DFS',
         ),
     );
-
 }

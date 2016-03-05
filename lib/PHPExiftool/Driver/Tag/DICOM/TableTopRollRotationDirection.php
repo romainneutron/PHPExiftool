@@ -39,5 +39,4 @@ class TableTopRollRotationDirection extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Table Top Roll Rotation Direction';
-
 }

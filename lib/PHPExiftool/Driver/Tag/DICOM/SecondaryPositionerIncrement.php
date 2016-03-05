@@ -39,5 +39,4 @@ class SecondaryPositionerIncrement extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Secondary Positioner Increment';
-
 }

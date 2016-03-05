@@ -39,5 +39,4 @@ class PatientEyeMovementCommanded extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Patient Eye Movement Commanded';
-
 }

@@ -39,5 +39,4 @@ class ChannelMaximumValue extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Channel Maximum Value';
-
 }

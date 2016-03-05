@@ -39,5 +39,4 @@ class PositionTableCount extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Position Table Count';
-
 }

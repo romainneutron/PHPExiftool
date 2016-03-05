@@ -41,5 +41,4 @@ class ZoomStepCount extends AbstractTag
     protected $Description = 'Zoom Step Count';
 
     protected $flag_Permanent = true;
-
 }

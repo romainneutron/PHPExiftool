@@ -41,5 +41,4 @@ class Geolocation extends AbstractTag
     protected $Description = 'Geolocation';
 
     protected $local_g2 = 'Location';
-
 }

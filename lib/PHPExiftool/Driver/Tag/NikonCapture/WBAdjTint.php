@@ -41,5 +41,4 @@ class WBAdjTint extends AbstractTag
     protected $Description = 'WB Adj Tint';
 
     protected $flag_Permanent = true;
-
 }

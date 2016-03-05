@@ -39,5 +39,4 @@ class CompressionRatio extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Compression Ratio';
-
 }

@@ -39,5 +39,4 @@ class LockedPropertyList extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Locked Property List';
-
 }

@@ -66,5 +66,4 @@ class Reading3Description extends AbstractTag
             'Label' => 'Difference Temperature',
         ),
     );
-
 }

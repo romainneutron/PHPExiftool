@@ -64,5 +64,4 @@ class FlashActionExternal extends AbstractTag
             'Label' => 'Fired, HSS',
         ),
     );
-
 }

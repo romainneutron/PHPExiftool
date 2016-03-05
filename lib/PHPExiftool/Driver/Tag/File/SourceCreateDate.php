@@ -41,5 +41,4 @@ class SourceCreateDate extends AbstractTag
     protected $Description = 'Source Create Date';
 
     protected $MaxLength = 24;
-
 }

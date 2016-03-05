@@ -52,5 +52,4 @@ class AFPointSelection extends AbstractTag
             'Label' => '11 Points',
         ),
     );
-
 }

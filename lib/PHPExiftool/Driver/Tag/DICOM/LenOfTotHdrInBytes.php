@@ -39,5 +39,4 @@ class LenOfTotHdrInBytes extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Len Of Tot Hdr In Bytes';
-
 }

@@ -39,5 +39,4 @@ class PlaylistDelay extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Playlist Delay';
-
 }

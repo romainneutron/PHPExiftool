@@ -39,5 +39,4 @@ class LocalFilePath extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Local File Path';
-
 }

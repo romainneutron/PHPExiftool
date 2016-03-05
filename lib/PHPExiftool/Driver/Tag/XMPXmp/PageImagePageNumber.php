@@ -41,5 +41,4 @@ class PageImagePageNumber extends AbstractTag
     protected $Description = 'Page Image Page Number';
 
     protected $flag_List = true;
-
 }

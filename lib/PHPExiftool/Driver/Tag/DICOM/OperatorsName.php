@@ -39,5 +39,4 @@ class OperatorsName extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Operators Name';
-
 }

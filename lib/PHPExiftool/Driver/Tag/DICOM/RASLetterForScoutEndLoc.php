@@ -39,5 +39,4 @@ class RASLetterForScoutEndLoc extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'RAS Letter For Scout End Loc';
-
 }

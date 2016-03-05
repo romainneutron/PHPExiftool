@@ -41,5 +41,4 @@ class GEImageSize extends AbstractTag
     protected $Description = 'GE Image Size';
 
     protected $flag_Permanent = true;
-
 }

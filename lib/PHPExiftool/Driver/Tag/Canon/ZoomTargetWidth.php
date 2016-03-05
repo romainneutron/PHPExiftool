@@ -41,5 +41,4 @@ class ZoomTargetWidth extends AbstractTag
     protected $Description = 'Zoom Target Width';
 
     protected $flag_Permanent = true;
-
 }

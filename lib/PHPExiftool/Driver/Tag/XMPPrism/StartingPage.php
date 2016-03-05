@@ -41,5 +41,4 @@ class StartingPage extends AbstractTag
     protected $Description = 'Starting Page';
 
     protected $flag_Avoid = true;
-
 }

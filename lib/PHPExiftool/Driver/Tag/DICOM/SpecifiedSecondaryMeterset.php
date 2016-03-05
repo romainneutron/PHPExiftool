@@ -39,5 +39,4 @@ class SpecifiedSecondaryMeterset extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Specified Secondary Meterset';
-
 }

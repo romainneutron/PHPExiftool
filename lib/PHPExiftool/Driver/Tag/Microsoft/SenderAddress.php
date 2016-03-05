@@ -39,5 +39,4 @@ class SenderAddress extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Sender Address';
-
 }

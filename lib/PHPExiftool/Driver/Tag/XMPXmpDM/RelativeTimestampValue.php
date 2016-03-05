@@ -39,5 +39,4 @@ class RelativeTimestampValue extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Relative Timestamp Value';
-
 }

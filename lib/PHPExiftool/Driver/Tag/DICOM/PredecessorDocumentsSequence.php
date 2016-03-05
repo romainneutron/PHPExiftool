@@ -39,5 +39,4 @@ class PredecessorDocumentsSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Predecessor Documents Sequence';
-
 }

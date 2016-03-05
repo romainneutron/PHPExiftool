@@ -39,5 +39,4 @@ class ROIPhysicalProperty extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'ROI Physical Property';
-
 }

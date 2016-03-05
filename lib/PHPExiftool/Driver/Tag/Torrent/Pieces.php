@@ -39,5 +39,4 @@ class Pieces extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Pieces';
-
 }

@@ -41,5 +41,4 @@ class SharpeningAdj extends AbstractTag
     protected $Description = 'Sharpening Adj';
 
     protected $flag_Permanent = true;
-
 }

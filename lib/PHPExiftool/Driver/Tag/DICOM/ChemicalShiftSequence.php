@@ -39,5 +39,4 @@ class ChemicalShiftSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Chemical Shift Sequence';
-
 }

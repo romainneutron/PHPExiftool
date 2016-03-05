@@ -39,5 +39,4 @@ class NeutralOutputHighlightPoint extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Neutral Output Highlight Point';
-
 }

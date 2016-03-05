@@ -39,5 +39,4 @@ class TaxonNomenclaturalStatus extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Taxon Nomenclatural Status';
-
 }

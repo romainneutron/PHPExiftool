@@ -39,5 +39,4 @@ class PerformedProtocolType extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Performed Protocol Type';
-
 }

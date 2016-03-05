@@ -50,5 +50,4 @@ class Layout extends AbstractTag
             'Label' => 'Tiles',
         ),
     );
-
 }

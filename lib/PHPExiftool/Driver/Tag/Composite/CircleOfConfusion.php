@@ -41,5 +41,4 @@ class CircleOfConfusion extends AbstractTag
     protected $Description = 'Circle Of Confusion';
 
     protected $local_g2 = 'Camera';
-
 }

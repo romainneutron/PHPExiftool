@@ -39,5 +39,4 @@ class ImageComments extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Image Comments';
-
 }

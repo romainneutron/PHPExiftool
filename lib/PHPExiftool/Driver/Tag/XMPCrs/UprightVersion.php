@@ -39,5 +39,4 @@ class UprightVersion extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Upright Version';
-
 }

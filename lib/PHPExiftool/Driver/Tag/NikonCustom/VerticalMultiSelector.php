@@ -56,5 +56,4 @@ class VerticalMultiSelector extends AbstractTag
             'Label' => 'Focus Point Selection',
         ),
     );
-
 }

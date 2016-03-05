@@ -39,5 +39,4 @@ class NumIndexEntries extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Num Index Entries';
-
 }

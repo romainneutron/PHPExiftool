@@ -39,5 +39,4 @@ class IsocenterToCompensatorTrayDistance extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Isocenter To Compensator Tray Distance';
-
 }

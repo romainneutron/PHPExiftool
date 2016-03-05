@@ -41,5 +41,4 @@ class SensorCalibration0x0408 extends AbstractTag
     protected $Description = 'Sensor Calibration 0x0408';
 
     protected $flag_Permanent = true;
-
 }

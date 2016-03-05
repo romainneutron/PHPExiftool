@@ -39,5 +39,4 @@ class AvgPDUSize extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Avg PDU Size';
-
 }

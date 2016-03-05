@@ -39,5 +39,4 @@ class Depth extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Depth';
-
 }

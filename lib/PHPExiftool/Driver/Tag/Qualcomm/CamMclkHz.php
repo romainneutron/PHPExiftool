@@ -41,5 +41,4 @@ class CamMclkHz extends AbstractTag
     protected $Description = 'Cam Mclk Hz';
 
     protected $flag_Permanent = true;
-
 }

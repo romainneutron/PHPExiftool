@@ -39,5 +39,4 @@ class FrameCenterElevation extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Frame Center Elevation';
-
 }

@@ -39,5 +39,4 @@ class ShutterPresentationValue extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Shutter Presentation Value';
-
 }

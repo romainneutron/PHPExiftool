@@ -41,5 +41,4 @@ class ColorTempDaylight extends AbstractTag
     protected $Description = 'Color Temp Daylight';
 
     protected $flag_Permanent = true;
-
 }

@@ -39,5 +39,4 @@ class VolumeNormalization extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Volume Normalization';
-
 }

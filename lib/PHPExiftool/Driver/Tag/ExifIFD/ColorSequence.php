@@ -41,5 +41,4 @@ class ColorSequence extends AbstractTag
     protected $Description = 'Color Sequence';
 
     protected $local_g1 = 'ExifIFD';
-
 }

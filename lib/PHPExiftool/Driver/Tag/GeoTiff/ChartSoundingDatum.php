@@ -98,5 +98,4 @@ class ChartSoundingDatum extends AbstractTag
             'Label' => 'Tropic Lower Low Water',
         ),
     );
-
 }

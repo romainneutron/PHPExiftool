@@ -39,5 +39,4 @@ class CustomOutputShadowPoint extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Custom Output Shadow Point';
-
 }

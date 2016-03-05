@@ -39,5 +39,4 @@ class RetouchAreaMaskSizeX extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Retouch Area Mask Size X';
-
 }

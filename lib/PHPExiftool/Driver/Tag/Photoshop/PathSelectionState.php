@@ -39,5 +39,4 @@ class PathSelectionState extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Path Selection State';
-
 }

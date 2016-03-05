@@ -39,5 +39,4 @@ class RespiratorySignalSource extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Respiratory Signal Source';
-
 }

@@ -39,5 +39,4 @@ class ResultsDistributionListSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Results Distribution List Sequence';
-
 }

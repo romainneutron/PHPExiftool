@@ -39,5 +39,4 @@ class DigitalZoom extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Digital Zoom';
-
 }

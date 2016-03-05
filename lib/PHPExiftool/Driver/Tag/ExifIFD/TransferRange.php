@@ -41,5 +41,4 @@ class TransferRange extends AbstractTag
     protected $Description = 'Transfer Range';
 
     protected $local_g1 = 'ExifIFD';
-
 }

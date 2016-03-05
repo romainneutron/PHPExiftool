@@ -58,5 +58,4 @@ class Compression extends AbstractTag
             'Label' => 'Fractal',
         ),
     );
-
 }

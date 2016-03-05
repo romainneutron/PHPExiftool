@@ -41,5 +41,4 @@ class SlideshowNumber extends AbstractTag
     protected $Description = 'Slideshow Number';
 
     protected $flag_Avoid = true;
-
 }

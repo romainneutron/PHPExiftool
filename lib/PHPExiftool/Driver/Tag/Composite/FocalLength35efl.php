@@ -41,5 +41,4 @@ class FocalLength35efl extends AbstractTag
     protected $Description = 'Focal Length';
 
     protected $local_g2 = 'Camera';
-
 }

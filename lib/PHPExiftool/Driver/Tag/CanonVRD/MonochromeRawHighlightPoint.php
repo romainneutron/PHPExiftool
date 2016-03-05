@@ -39,5 +39,4 @@ class MonochromeRawHighlightPoint extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Monochrome Raw Highlight Point';
-
 }

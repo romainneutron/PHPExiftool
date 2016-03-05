@@ -39,5 +39,4 @@ class NOLACode extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'NOLA Code';
-
 }

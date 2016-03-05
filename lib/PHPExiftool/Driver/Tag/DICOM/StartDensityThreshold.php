@@ -39,5 +39,4 @@ class StartDensityThreshold extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Start Density Threshold';
-
 }

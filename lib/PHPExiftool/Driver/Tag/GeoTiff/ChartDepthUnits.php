@@ -138,5 +138,4 @@ class ChartDepthUnits extends AbstractTag
             'Label' => 'User Defined',
         ),
     );
-
 }

@@ -41,5 +41,4 @@ class RegionPersonEmailDigest extends AbstractTag
     protected $Description = 'Region Person Email Digest';
 
     protected $flag_List = true;
-
 }

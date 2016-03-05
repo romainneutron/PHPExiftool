@@ -39,5 +39,4 @@ class ImgProfVersion extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Img Prof Version';
-
 }

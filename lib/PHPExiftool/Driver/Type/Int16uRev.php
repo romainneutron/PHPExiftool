@@ -19,5 +19,4 @@ class Int16uRev extends AbstractType
     protected $ExiftoolName = 'int16uRev';
 
     protected $PHPMap = 'int';
-
 }

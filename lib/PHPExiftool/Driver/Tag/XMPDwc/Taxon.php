@@ -39,5 +39,4 @@ class Taxon extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Taxon';
-
 }

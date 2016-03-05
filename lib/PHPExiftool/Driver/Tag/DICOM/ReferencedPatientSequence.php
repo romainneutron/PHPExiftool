@@ -39,5 +39,4 @@ class ReferencedPatientSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Referenced Patient Sequence';
-
 }

@@ -41,5 +41,4 @@ class SubfileResource extends AbstractTag
     protected $Description = 'Subfile Resource';
 
     protected $flag_Binary = true;
-
 }

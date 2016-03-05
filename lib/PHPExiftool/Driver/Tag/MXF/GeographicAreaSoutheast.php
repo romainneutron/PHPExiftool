@@ -39,5 +39,4 @@ class GeographicAreaSoutheast extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Geographic Area Southeast';
-
 }

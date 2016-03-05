@@ -52,5 +52,4 @@ class SlowSync extends AbstractTag
             'Label' => 'On',
         ),
     );
-
 }

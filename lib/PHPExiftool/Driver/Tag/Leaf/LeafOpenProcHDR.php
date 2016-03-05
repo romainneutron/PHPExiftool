@@ -39,5 +39,4 @@ class LeafOpenProcHDR extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Leaf Open Proc HDR';
-
 }

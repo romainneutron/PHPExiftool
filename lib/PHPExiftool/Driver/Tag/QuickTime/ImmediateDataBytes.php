@@ -39,5 +39,4 @@ class ImmediateDataBytes extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Immediate Data Bytes';
-
 }

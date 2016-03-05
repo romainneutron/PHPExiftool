@@ -39,5 +39,4 @@ class TotalBytesNoRTPHeaders extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Total Bytes No RTP Headers';
-
 }

@@ -134,5 +134,4 @@ class DigitalFilter13 extends AbstractTag
             'Label' => 'Custom Filter',
         ),
     );
-
 }

@@ -39,5 +39,4 @@ class WedgeAngle extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Wedge Angle';
-
 }

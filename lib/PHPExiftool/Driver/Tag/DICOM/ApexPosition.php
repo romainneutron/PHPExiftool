@@ -39,5 +39,4 @@ class ApexPosition extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Apex Position';
-
 }

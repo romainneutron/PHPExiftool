@@ -39,5 +39,4 @@ class GooglePingMessage extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Google Ping Message';
-
 }

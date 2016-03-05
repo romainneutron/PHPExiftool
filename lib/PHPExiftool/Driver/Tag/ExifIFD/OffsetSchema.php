@@ -41,5 +41,4 @@ class OffsetSchema extends AbstractTag
     protected $Description = 'Offset Schema';
 
     protected $local_g1 = 'ExifIFD';
-
 }

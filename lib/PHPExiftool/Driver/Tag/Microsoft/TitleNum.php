@@ -39,5 +39,4 @@ class TitleNum extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Title Num';
-
 }

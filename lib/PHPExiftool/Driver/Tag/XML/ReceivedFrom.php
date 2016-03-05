@@ -39,5 +39,4 @@ class ReceivedFrom extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Received From';
-
 }

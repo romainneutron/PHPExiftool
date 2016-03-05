@@ -41,5 +41,4 @@ class IssueType extends AbstractTag
     protected $Description = 'Issue Type';
 
     protected $flag_Avoid = true;
-
 }

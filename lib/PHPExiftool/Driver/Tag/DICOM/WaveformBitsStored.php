@@ -39,5 +39,4 @@ class WaveformBitsStored extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Waveform Bits Stored';
-
 }

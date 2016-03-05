@@ -39,5 +39,4 @@ class RawThermalImageType extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Raw Thermal Image Type';
-
 }

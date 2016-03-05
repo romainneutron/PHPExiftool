@@ -39,5 +39,4 @@ class KAGSize extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'KAG Size';
-
 }

@@ -41,5 +41,4 @@ class SubSecDateTimeOriginal extends AbstractTag
     protected $Description = 'Date/Time Original';
 
     protected $local_g2 = 'Time';
-
 }

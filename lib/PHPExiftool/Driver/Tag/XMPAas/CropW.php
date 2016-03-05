@@ -41,5 +41,4 @@ class CropW extends AbstractTag
     protected $Description = 'Crop W';
 
     protected $flag_Avoid = true;
-
 }

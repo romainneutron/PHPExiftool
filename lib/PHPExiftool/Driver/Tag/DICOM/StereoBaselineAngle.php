@@ -39,5 +39,4 @@ class StereoBaselineAngle extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Stereo Baseline Angle';
-
 }

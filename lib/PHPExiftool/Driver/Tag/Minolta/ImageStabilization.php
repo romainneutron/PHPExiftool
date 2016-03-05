@@ -86,5 +86,4 @@ class ImageStabilization extends AbstractTag
     );
 
     protected $Index = 'mixed';
-
 }

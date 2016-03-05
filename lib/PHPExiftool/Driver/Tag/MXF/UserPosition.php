@@ -39,5 +39,4 @@ class UserPosition extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'User Position';
-
 }

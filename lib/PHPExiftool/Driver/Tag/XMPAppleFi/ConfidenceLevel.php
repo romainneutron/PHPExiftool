@@ -39,5 +39,4 @@ class ConfidenceLevel extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Confidence Level';
-
 }

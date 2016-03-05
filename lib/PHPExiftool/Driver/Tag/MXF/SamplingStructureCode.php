@@ -39,5 +39,4 @@ class SamplingStructureCode extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Sampling Structure Code';
-
 }

@@ -41,5 +41,4 @@ class RightsStartDateTime extends AbstractTag
     protected $Description = 'Rights Start Date Time';
 
     protected $local_g2 = 'Time';
-
 }

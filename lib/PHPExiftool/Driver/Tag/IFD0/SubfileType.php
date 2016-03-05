@@ -92,5 +92,4 @@ class SubfileType extends AbstractTag
             'Label' => 'invalid',
         ),
     );
-
 }

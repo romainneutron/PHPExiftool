@@ -39,5 +39,4 @@ class GPSSatellites extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'GPS Satellites';
-
 }

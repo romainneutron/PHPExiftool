@@ -39,5 +39,4 @@ class AngleOfFirstView extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Angle Of First View';
-
 }

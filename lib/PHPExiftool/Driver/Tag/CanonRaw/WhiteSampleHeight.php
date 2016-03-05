@@ -41,5 +41,4 @@ class WhiteSampleHeight extends AbstractTag
     protected $Description = 'White Sample Height';
 
     protected $flag_Permanent = true;
-
 }

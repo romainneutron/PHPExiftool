@@ -39,5 +39,4 @@ class PII extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'PII';
-
 }

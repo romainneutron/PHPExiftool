@@ -41,5 +41,4 @@ class ISO2 extends AbstractTag
     protected $Description = 'ISO2';
 
     protected $flag_Permanent = true;
-
 }

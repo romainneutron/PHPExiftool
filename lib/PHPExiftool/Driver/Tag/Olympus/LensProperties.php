@@ -41,5 +41,4 @@ class LensProperties extends AbstractTag
     protected $Description = 'Lens Properties';
 
     protected $flag_Permanent = true;
-
 }

@@ -136,5 +136,4 @@ class FunctionButton extends AbstractTag
             'Label' => 'Spot Metering',
         ),
     );
-
 }

@@ -39,5 +39,4 @@ class CurrencyName extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Currency Name';
-
 }

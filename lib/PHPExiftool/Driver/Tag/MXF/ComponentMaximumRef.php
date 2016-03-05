@@ -39,5 +39,4 @@ class ComponentMaximumRef extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Component Maximum Ref';
-
 }

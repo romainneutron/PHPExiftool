@@ -41,5 +41,4 @@ class LastUpdate extends AbstractTag
     protected $Description = 'Last Update';
 
     protected $local_g2 = 'Time';
-
 }

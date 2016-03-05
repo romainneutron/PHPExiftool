@@ -48,5 +48,4 @@ class ContrastStandard extends AbstractTag
             'Label' => 'n/a',
         ),
     );
-
 }

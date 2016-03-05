@@ -43,5 +43,4 @@ class FilterSerialNumber extends AbstractTag
     protected $MaxLength = 32;
 
     protected $local_g2 = 'mixed';
-
 }

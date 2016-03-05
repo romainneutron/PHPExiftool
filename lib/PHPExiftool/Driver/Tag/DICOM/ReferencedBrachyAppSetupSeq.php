@@ -39,5 +39,4 @@ class ReferencedBrachyAppSetupSeq extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Referenced Brachy App Setup Seq';
-
 }

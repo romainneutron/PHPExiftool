@@ -39,5 +39,4 @@ class Private0 extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Private';
-
 }

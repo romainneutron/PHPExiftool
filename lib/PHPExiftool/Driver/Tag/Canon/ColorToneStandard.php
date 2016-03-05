@@ -48,5 +48,4 @@ class ColorToneStandard extends AbstractTag
             'Label' => 'n/a',
         ),
     );
-
 }

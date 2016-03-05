@@ -58,5 +58,4 @@ class CreditLineRequired extends AbstractTag
             'Label' => 'Not Required',
         ),
     );
-
 }

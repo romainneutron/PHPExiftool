@@ -39,5 +39,4 @@ class PeripheralIllumination extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Peripheral Illumination';
-
 }

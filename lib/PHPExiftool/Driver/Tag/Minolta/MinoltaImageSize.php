@@ -122,5 +122,4 @@ class MinoltaImageSize extends AbstractTag
     );
 
     protected $Index = 'mixed';
-
 }

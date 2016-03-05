@@ -39,5 +39,4 @@ class GeogInvFlattening extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Geog Inv Flattening';
-
 }

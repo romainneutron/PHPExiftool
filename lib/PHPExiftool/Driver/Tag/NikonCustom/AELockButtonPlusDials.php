@@ -138,5 +138,4 @@ class AELockButtonPlusDials extends AbstractTag
     );
 
     protected $Index = 'mixed';
-
 }

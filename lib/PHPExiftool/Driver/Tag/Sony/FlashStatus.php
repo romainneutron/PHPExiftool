@@ -120,5 +120,4 @@ class FlashStatus extends AbstractTag
             'Label' => 'External Flash Fired',
         ),
     );
-
 }

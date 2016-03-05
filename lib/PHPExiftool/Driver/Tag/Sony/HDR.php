@@ -98,5 +98,4 @@ class HDR extends AbstractTag
             'Label' => '6.0 EV',
         ),
     );
-
 }

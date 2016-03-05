@@ -39,5 +39,4 @@ class HumanPerformerName extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Human Performer Name';
-
 }

@@ -39,5 +39,4 @@ class PrimitivePointIndexList extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Primitive Point Index List';
-
 }

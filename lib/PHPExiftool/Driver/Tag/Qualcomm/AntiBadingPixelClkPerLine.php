@@ -41,5 +41,4 @@ class AntiBadingPixelClkPerLine extends AbstractTag
     protected $Description = 'Anti Bading Pixel Clk Per Line';
 
     protected $flag_Permanent = true;
-
 }

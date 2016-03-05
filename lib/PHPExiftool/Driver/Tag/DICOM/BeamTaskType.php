@@ -39,5 +39,4 @@ class BeamTaskType extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Beam Task Type';
-
 }

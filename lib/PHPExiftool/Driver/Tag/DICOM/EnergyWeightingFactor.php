@@ -39,5 +39,4 @@ class EnergyWeightingFactor extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Energy Weighting Factor';
-
 }

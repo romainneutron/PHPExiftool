@@ -62,5 +62,4 @@ class PanoramicStitchMapType extends AbstractTag
             'Label' => 'Vertical Spherical',
         ),
     );
-
 }

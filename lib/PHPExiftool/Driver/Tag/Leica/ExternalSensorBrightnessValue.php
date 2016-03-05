@@ -41,5 +41,4 @@ class ExternalSensorBrightnessValue extends AbstractTag
     protected $Description = 'External Sensor Brightness Value';
 
     protected $flag_Permanent = true;
-
 }

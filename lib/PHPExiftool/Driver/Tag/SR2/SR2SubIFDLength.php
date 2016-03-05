@@ -41,5 +41,4 @@ class SR2SubIFDLength extends AbstractTag
     protected $Description = 'SR2 Sub IFD Length';
 
     protected $flag_Permanent = true;
-
 }

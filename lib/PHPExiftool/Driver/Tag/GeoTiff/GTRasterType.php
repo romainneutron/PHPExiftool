@@ -54,5 +54,4 @@ class GTRasterType extends AbstractTag
             'Label' => 'User Defined',
         ),
     );
-
 }

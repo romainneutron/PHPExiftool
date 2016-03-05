@@ -41,5 +41,4 @@ class WBGRGBLevelsAuto extends AbstractTag
     protected $Description = 'WB GRGB Levels Auto';
 
     protected $MaxLength = 4;
-
 }

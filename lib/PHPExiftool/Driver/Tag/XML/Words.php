@@ -39,5 +39,4 @@ class Words extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Words';
-
 }

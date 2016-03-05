@@ -39,5 +39,4 @@ class FilterHighFrequency extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Filter High Frequency';
-
 }

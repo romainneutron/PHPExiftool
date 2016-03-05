@@ -39,5 +39,4 @@ class StereoVerticalPixelOffset extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Stereo Vertical Pixel Offset';
-
 }

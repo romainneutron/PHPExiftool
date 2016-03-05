@@ -41,5 +41,4 @@ class Text extends AbstractTag
     protected $Description = 'Text';
 
     protected $flag_Binary = true;
-
 }

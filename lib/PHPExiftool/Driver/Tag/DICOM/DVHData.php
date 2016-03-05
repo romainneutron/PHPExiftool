@@ -39,5 +39,4 @@ class DVHData extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'DVH Data';
-
 }

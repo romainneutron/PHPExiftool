@@ -39,5 +39,4 @@ class IncludeDisplayApplication extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Include Display Application';
-
 }

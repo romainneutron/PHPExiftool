@@ -64,5 +64,4 @@ class LiveViewButtonOptions extends AbstractTag
             'Label' => 'Disable',
         ),
     );
-
 }

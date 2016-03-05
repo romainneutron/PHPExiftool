@@ -41,5 +41,4 @@ class SupplementDisplayID extends AbstractTag
     protected $Description = 'Supplement Display ID';
 
     protected $flag_Avoid = true;
-
 }

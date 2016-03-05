@@ -41,5 +41,4 @@ class GeoTiffAsciiParams extends AbstractTag
     protected $Description = 'Geo Tiff Ascii Params';
 
     protected $flag_Binary = true;
-
 }

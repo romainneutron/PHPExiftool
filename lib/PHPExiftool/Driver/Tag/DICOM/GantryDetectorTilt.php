@@ -39,5 +39,4 @@ class GantryDetectorTilt extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Gantry Detector Tilt';
-
 }

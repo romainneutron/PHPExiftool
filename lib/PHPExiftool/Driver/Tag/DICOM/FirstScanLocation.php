@@ -39,5 +39,4 @@ class FirstScanLocation extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'First Scan Location';
-
 }

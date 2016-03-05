@@ -39,5 +39,4 @@ class DefaultDataValue extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Default Data Value';
-
 }

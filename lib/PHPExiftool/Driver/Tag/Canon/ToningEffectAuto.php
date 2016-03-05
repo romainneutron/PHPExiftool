@@ -68,5 +68,4 @@ class ToningEffectAuto extends AbstractTag
             'Label' => 'Green',
         ),
     );
-
 }

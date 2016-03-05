@@ -39,5 +39,4 @@ class VideoAlphaPremultipleColorCyan extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Video Alpha Premultiple Color Cyan';
-
 }

@@ -41,5 +41,4 @@ class ProductionApertureDimensions extends AbstractTag
     protected $Description = 'Production Aperture Dimensions';
 
     protected $MaxLength = 3;
-
 }

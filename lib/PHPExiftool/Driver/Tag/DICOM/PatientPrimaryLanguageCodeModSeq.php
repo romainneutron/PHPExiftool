@@ -39,5 +39,4 @@ class PatientPrimaryLanguageCodeModSeq extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Patient Primary Language Code Mod Seq';
-
 }

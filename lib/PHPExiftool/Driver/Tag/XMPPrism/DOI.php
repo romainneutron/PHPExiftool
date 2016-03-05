@@ -41,5 +41,4 @@ class DOI extends AbstractTag
     protected $Description = 'Digital Object Identifier';
 
     protected $flag_Avoid = true;
-
 }

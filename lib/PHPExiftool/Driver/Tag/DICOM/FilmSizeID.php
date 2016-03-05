@@ -39,5 +39,4 @@ class FilmSizeID extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Film Size ID';
-
 }

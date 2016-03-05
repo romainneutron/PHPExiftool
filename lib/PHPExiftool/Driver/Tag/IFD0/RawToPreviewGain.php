@@ -41,5 +41,4 @@ class RawToPreviewGain extends AbstractTag
     protected $Description = 'Raw To Preview Gain';
 
     protected $flag_Unsafe = true;
-
 }

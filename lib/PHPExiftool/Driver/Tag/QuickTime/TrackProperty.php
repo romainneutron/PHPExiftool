@@ -50,5 +50,4 @@ class TrackProperty extends AbstractTag
             'Label' => 'Main track',
         ),
     );
-
 }

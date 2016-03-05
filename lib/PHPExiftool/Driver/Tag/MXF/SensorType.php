@@ -39,5 +39,4 @@ class SensorType extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Sensor Type';
-
 }

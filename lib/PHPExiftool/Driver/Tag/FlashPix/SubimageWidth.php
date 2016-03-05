@@ -39,5 +39,4 @@ class SubimageWidth extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Subimage Width';
-
 }

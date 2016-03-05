@@ -39,5 +39,4 @@ class SequenceFrameNumber extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Sequence Frame Number';
-
 }

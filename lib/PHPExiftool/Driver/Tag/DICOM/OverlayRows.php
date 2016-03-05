@@ -39,5 +39,4 @@ class OverlayRows extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Overlay Rows';
-
 }

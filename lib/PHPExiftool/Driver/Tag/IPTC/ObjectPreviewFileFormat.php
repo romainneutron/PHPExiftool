@@ -164,5 +164,4 @@ class ObjectPreviewFileFormat extends AbstractTag
             'Label' => 'Corel Draw [.CDR]',
         ),
     );
-
 }

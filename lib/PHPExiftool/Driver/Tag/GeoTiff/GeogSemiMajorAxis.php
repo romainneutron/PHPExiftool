@@ -39,5 +39,4 @@ class GeogSemiMajorAxis extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Geog Semi Major Axis';
-
 }

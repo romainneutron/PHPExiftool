@@ -50,5 +50,4 @@ class Interlace extends AbstractTag
             'Label' => 'Adam7 Interlace',
         ),
     );
-
 }

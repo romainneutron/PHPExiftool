@@ -39,5 +39,4 @@ class ReferencedReferenceImageSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Referenced Reference Image Sequence';
-
 }

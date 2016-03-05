@@ -96,5 +96,4 @@ class RecordMode extends AbstractTag
             'Label' => 'Best Shot',
         ),
     );
-
 }

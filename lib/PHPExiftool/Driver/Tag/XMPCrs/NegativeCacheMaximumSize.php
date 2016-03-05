@@ -39,5 +39,4 @@ class NegativeCacheMaximumSize extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Negative Cache Maximum Size';
-
 }

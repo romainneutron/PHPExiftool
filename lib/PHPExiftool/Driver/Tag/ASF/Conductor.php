@@ -39,5 +39,4 @@ class Conductor extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Conductor';
-
 }

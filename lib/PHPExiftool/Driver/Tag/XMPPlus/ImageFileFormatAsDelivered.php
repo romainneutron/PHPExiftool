@@ -90,5 +90,4 @@ class ImageFileFormatAsDelivered extends AbstractTag
             'Label' => 'Windows Media Photo (HD Photo)',
         ),
     );
-
 }

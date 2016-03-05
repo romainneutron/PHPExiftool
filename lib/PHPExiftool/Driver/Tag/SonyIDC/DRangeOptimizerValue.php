@@ -41,5 +41,4 @@ class DRangeOptimizerValue extends AbstractTag
     protected $Description = 'D-Range Optimizer Value';
 
     protected $flag_Permanent = true;
-
 }

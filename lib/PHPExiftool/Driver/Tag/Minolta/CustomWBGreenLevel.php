@@ -41,5 +41,4 @@ class CustomWBGreenLevel extends AbstractTag
     protected $Description = 'Custom WB Green Level';
 
     protected $flag_Permanent = true;
-
 }

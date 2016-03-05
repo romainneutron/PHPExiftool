@@ -39,5 +39,4 @@ class ImageArchiveFlag extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Image Archive Flag';
-
 }

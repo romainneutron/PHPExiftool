@@ -39,5 +39,4 @@ class PnLocHFrac extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Fractional Pen Position';
-
 }

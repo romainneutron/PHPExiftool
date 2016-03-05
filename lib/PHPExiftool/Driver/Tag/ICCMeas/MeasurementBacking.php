@@ -41,5 +41,4 @@ class MeasurementBacking extends AbstractTag
     protected $Description = 'Measurement Backing';
 
     protected $MaxLength = 3;
-
 }

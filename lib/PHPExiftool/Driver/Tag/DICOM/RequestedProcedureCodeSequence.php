@@ -39,5 +39,4 @@ class RequestedProcedureCodeSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Requested Procedure Code Sequence';
-
 }

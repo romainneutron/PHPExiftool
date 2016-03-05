@@ -39,5 +39,4 @@ class HorizontalActionSafePercentage extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Horizontal Action Safe Percentage';
-
 }

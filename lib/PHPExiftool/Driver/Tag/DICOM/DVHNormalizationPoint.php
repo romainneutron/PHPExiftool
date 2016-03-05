@@ -39,5 +39,4 @@ class DVHNormalizationPoint extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'DVH Normalization Point';
-
 }

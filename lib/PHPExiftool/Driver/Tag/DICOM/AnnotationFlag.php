@@ -39,5 +39,4 @@ class AnnotationFlag extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Annotation Flag';
-
 }

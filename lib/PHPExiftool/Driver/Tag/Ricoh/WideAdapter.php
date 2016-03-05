@@ -52,5 +52,4 @@ class WideAdapter extends AbstractTag
             'Label' => 'Attached',
         ),
     );
-
 }

@@ -39,5 +39,4 @@ class ThumbnailImageName extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Thumbnail Image Name';
-
 }

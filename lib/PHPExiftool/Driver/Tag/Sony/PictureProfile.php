@@ -116,5 +116,4 @@ class PictureProfile extends AbstractTag
             'Label' => 'Gamma ITU709(800%)',
         ),
     );
-
 }

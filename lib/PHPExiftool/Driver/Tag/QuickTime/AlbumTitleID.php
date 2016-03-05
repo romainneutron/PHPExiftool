@@ -39,5 +39,4 @@ class AlbumTitleID extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Album Title ID';
-
 }

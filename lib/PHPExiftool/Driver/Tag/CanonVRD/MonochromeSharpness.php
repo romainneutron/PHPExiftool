@@ -39,5 +39,4 @@ class MonochromeSharpness extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Monochrome Sharpness';
-
 }

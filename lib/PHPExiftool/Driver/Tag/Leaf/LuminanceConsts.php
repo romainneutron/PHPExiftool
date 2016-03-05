@@ -39,5 +39,4 @@ class LuminanceConsts extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Luminance Consts';
-
 }

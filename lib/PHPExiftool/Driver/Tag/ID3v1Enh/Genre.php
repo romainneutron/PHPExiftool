@@ -41,5 +41,4 @@ class Genre extends AbstractTag
     protected $Description = 'Genre';
 
     protected $MaxLength = 30;
-
 }

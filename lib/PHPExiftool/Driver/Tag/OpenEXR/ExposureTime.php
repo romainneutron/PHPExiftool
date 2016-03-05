@@ -39,5 +39,4 @@ class ExposureTime extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Exposure Time';
-
 }

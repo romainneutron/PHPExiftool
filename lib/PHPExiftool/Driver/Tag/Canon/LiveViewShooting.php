@@ -52,5 +52,4 @@ class LiveViewShooting extends AbstractTag
             'Label' => 'On',
         ),
     );
-
 }

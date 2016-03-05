@@ -39,5 +39,4 @@ class OverrideParameterPointer extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Override Parameter Pointer';
-
 }

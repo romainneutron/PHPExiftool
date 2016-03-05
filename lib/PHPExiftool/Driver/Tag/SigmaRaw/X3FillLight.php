@@ -39,5 +39,4 @@ class X3FillLight extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'X3 Fill Light';
-
 }

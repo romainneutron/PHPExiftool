@@ -39,5 +39,4 @@ class ResourceType extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Resource Type';
-
 }

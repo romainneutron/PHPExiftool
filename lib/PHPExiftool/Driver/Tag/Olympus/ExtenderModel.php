@@ -41,5 +41,4 @@ class ExtenderModel extends AbstractTag
     protected $Description = 'Extender Model';
 
     protected $flag_Permanent = true;
-
 }

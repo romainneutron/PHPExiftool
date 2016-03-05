@@ -41,5 +41,4 @@ class ProfileCMMType extends AbstractTag
     protected $Description = 'Profile CMM Type';
 
     protected $MaxLength = 4;
-
 }

@@ -39,5 +39,4 @@ class ReviewerName extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Reviewer Name';
-
 }

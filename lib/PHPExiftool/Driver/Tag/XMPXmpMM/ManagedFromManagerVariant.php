@@ -39,5 +39,4 @@ class ManagedFromManagerVariant extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Managed From Manager Variant';
-
 }

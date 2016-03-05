@@ -39,5 +39,4 @@ class MagnetizationTransfer extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Magnetization Transfer';
-
 }

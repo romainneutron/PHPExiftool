@@ -39,5 +39,4 @@ class ResultingGenPurposePerfProcStepSeq extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Resulting Gen Purpose Perf Proc Step Seq';
-
 }

@@ -39,5 +39,4 @@ class AdID extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Ad-ID';
-
 }

@@ -39,5 +39,4 @@ class ProductionSettingPeriodSets extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Production Setting Period Sets';
-
 }

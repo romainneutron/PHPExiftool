@@ -41,5 +41,4 @@ class GEModel extends AbstractTag
     protected $Description = 'GE Model';
 
     protected $flag_Permanent = true;
-
 }

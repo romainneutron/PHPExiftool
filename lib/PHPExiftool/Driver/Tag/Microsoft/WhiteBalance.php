@@ -39,5 +39,4 @@ class WhiteBalance extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'White Balance';
-
 }

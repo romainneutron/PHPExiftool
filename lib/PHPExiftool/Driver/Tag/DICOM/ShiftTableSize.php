@@ -39,5 +39,4 @@ class ShiftTableSize extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Shift Table Size';
-
 }

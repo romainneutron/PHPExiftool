@@ -662,5 +662,4 @@ class AppleStoreCountry extends AbstractTag
             'Label' => 'Zimbabwe',
         ),
     );
-
 }

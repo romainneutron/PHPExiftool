@@ -98,5 +98,4 @@ class ExposureProgram extends AbstractTag
             'Label' => 'Landscape',
         ),
     );
-
 }

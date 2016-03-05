@@ -276,5 +276,4 @@ class AdvancedSceneMode extends AbstractTag
             'Label' => 'Soft',
         ),
     );
-
 }

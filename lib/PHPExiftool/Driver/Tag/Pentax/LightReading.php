@@ -41,5 +41,4 @@ class LightReading extends AbstractTag
     protected $Description = 'Light Reading';
 
     protected $flag_Permanent = true;
-
 }

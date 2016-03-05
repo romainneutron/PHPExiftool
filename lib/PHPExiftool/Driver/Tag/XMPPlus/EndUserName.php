@@ -41,5 +41,4 @@ class EndUserName extends AbstractTag
     protected $Description = 'End User Name';
 
     protected $flag_List = true;
-
 }

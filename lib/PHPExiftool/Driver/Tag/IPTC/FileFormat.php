@@ -164,5 +164,4 @@ class FileFormat extends AbstractTag
             'Label' => 'Corel Draw [.CDR]',
         ),
     );
-
 }

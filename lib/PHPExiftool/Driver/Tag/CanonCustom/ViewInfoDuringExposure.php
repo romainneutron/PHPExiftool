@@ -52,5 +52,4 @@ class ViewInfoDuringExposure extends AbstractTag
             'Label' => 'Enable',
         ),
     );
-
 }

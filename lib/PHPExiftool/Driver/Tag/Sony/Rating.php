@@ -41,5 +41,4 @@ class Rating extends AbstractTag
     protected $Description = 'Rating';
 
     protected $flag_Permanent = true;
-
 }

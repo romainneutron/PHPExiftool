@@ -39,5 +39,4 @@ class ZipBitFlag extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Zip Bit Flag';
-
 }

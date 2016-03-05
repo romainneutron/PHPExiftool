@@ -39,5 +39,4 @@ class VignetteMidpoint extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Vignette Midpoint';
-
 }

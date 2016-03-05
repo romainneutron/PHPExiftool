@@ -96,5 +96,4 @@ class FlashRemoteControl extends AbstractTag
             'Label' => 'Channel 4, High',
         ),
     );
-
 }

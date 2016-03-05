@@ -54,5 +54,4 @@ class FlashAttributes extends AbstractTag
             'Label' => 'HasMetadata',
         ),
     );
-
 }

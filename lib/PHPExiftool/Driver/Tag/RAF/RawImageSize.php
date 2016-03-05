@@ -43,5 +43,4 @@ class RawImageSize extends AbstractTag
     protected $MaxLength = 2;
 
     protected $Index = 'mixed';
-
 }

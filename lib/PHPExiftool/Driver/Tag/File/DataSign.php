@@ -50,5 +50,4 @@ class DataSign extends AbstractTag
             'Label' => 'Signed',
         ),
     );
-
 }

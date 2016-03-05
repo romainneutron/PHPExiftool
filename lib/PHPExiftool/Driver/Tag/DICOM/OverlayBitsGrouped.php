@@ -39,5 +39,4 @@ class OverlayBitsGrouped extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Overlay Bits Grouped';
-
 }

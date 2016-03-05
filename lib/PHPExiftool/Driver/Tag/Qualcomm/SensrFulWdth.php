@@ -41,5 +41,4 @@ class SensrFulWdth extends AbstractTag
     protected $Description = 'Sensr Ful Wdth';
 
     protected $flag_Permanent = true;
-
 }

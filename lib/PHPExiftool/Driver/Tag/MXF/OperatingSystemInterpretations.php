@@ -39,5 +39,4 @@ class OperatingSystemInterpretations extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Operating System Interpretations';
-
 }

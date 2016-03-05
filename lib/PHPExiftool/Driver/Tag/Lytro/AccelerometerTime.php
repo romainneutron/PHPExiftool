@@ -39,5 +39,4 @@ class AccelerometerTime extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Accelerometer Time';
-
 }

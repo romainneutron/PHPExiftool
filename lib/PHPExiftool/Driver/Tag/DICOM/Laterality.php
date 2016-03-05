@@ -39,5 +39,4 @@ class Laterality extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Laterality';
-
 }

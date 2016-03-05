@@ -39,5 +39,4 @@ class RecordedChannelShieldSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Recorded Channel Shield Sequence';
-
 }

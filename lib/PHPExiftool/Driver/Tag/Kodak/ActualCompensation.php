@@ -41,5 +41,4 @@ class ActualCompensation extends AbstractTag
     protected $Description = 'Actual Compensation';
 
     protected $flag_Permanent = true;
-
 }

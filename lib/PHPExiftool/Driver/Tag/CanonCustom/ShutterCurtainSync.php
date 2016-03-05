@@ -52,5 +52,4 @@ class ShutterCurtainSync extends AbstractTag
             'Label' => '2nd-curtain sync',
         ),
     );
-
 }

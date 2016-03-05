@@ -41,5 +41,4 @@ class AudioStereoChannelCount extends AbstractTag
     protected $Description = 'Audio Stereo Channel Count';
 
     protected $local_g2 = 'Audio';
-
 }

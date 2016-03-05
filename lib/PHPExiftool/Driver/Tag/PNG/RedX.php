@@ -39,5 +39,4 @@ class RedX extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Red X';
-
 }

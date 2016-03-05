@@ -39,5 +39,4 @@ class PrimaryPackage extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Primary Package';
-
 }

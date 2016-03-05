@@ -39,5 +39,4 @@ class ExtendedCaptionsLanguageCode extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Extended Captions Language Code';
-
 }

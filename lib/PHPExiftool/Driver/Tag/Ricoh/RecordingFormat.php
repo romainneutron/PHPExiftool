@@ -52,5 +52,4 @@ class RecordingFormat extends AbstractTag
             'Label' => 'DNG',
         ),
     );
-
 }

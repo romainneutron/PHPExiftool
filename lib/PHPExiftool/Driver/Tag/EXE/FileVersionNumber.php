@@ -41,5 +41,4 @@ class FileVersionNumber extends AbstractTag
     protected $Description = 'File Version Number';
 
     protected $MaxLength = 4;
-
 }

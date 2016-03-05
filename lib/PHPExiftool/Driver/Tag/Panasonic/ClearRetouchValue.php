@@ -41,5 +41,4 @@ class ClearRetouchValue extends AbstractTag
     protected $Description = 'Clear Retouch Value';
 
     protected $flag_Permanent = true;
-
 }

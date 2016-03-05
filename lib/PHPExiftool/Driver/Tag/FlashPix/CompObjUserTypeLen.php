@@ -39,5 +39,4 @@ class CompObjUserTypeLen extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Comp Obj User Type Len';
-
 }

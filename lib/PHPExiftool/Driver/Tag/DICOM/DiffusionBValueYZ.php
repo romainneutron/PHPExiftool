@@ -39,5 +39,4 @@ class DiffusionBValueYZ extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Diffusion B Value YZ';
-
 }

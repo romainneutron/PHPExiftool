@@ -52,5 +52,4 @@ class AFStatus35G7Vertical extends AbstractTag
             'Label' => 'In Focus',
         ),
     );
-
 }

@@ -41,5 +41,4 @@ class DCVerbatimSRS extends AbstractTag
     protected $Description = 'DC Verbatim SRS';
 
     protected $local_g2 = 'Location';
-
 }

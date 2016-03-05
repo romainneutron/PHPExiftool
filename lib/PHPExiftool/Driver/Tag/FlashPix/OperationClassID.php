@@ -39,5 +39,4 @@ class OperationClassID extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Operation Class ID';
-
 }

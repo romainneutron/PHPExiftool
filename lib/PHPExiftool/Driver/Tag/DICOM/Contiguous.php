@@ -39,5 +39,4 @@ class Contiguous extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Contiguous';
-
 }

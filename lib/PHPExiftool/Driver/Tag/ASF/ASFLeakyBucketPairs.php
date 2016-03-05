@@ -41,5 +41,4 @@ class ASFLeakyBucketPairs extends AbstractTag
     protected $Description = 'ASF Leaky Bucket Pairs';
 
     protected $flag_Binary = true;
-
 }

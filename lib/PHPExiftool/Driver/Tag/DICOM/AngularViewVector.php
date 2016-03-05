@@ -39,5 +39,4 @@ class AngularViewVector extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Angular View Vector';
-
 }

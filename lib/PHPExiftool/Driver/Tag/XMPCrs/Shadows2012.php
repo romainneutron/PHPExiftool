@@ -39,5 +39,4 @@ class Shadows2012 extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Shadows 2012';
-
 }

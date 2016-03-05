@@ -39,5 +39,4 @@ class RelativeImagePositionCodeSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Relative Image Position Code Sequence';
-
 }

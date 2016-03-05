@@ -39,5 +39,4 @@ class TableFeedPerRotation extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Table Feed Per Rotation';
-
 }

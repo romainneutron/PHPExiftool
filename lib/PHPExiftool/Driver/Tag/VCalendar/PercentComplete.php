@@ -39,5 +39,4 @@ class PercentComplete extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Percent Complete';
-
 }

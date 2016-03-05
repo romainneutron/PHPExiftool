@@ -39,5 +39,4 @@ class EpisodeNumber extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Episode Number';
-
 }

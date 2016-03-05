@@ -39,5 +39,4 @@ class AudioDoesSampleRateConversion extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Audio Does Sample Rate Conversion';
-
 }

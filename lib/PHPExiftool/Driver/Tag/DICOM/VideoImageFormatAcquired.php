@@ -39,5 +39,4 @@ class VideoImageFormatAcquired extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Video Image Format Acquired';
-
 }

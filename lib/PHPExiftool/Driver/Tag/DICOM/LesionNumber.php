@@ -39,5 +39,4 @@ class LesionNumber extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Lesion Number';
-
 }

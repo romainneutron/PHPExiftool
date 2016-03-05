@@ -39,5 +39,4 @@ class PositionerPositionSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Positioner Position Sequence';
-
 }

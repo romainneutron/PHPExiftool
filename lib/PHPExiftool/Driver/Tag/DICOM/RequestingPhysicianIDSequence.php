@@ -39,5 +39,4 @@ class RequestingPhysicianIDSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Requesting Physician ID Sequence';
-
 }

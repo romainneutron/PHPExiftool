@@ -39,5 +39,4 @@ class LongDescription extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Long Description';
-
 }

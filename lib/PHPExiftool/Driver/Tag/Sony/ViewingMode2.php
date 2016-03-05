@@ -60,5 +60,4 @@ class ViewingMode2 extends AbstractTag
             'Label' => 'Quick AF Live View',
         ),
     );
-
 }

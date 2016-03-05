@@ -39,5 +39,4 @@ class MilitaryRank extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Military Rank';
-
 }

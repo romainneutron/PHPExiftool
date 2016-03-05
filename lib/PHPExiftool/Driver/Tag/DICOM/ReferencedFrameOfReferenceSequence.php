@@ -39,5 +39,4 @@ class ReferencedFrameOfReferenceSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Referenced Frame Of Reference Sequence';
-
 }

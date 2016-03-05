@@ -39,5 +39,4 @@ class EndAnchor extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'End Anchor';
-
 }

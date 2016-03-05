@@ -39,5 +39,4 @@ class ChapterCount extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Chapter Count';
-
 }

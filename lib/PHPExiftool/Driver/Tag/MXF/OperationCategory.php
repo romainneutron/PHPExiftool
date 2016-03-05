@@ -39,5 +39,4 @@ class OperationCategory extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Operation Category';
-
 }

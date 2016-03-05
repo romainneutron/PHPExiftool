@@ -50,5 +50,4 @@ class LocalDeltaType extends AbstractTag
             'Label' => 'Relative',
         ),
     );
-
 }

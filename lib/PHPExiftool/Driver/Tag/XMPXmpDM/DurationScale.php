@@ -39,5 +39,4 @@ class DurationScale extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Duration Scale';
-
 }

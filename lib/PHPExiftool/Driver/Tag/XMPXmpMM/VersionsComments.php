@@ -41,5 +41,4 @@ class VersionsComments extends AbstractTag
     protected $Description = 'Versions Comments';
 
     protected $flag_List = true;
-
 }

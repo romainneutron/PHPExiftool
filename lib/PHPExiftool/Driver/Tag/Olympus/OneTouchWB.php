@@ -56,5 +56,4 @@ class OneTouchWB extends AbstractTag
             'Label' => 'On (Preset)',
         ),
     );
-
 }

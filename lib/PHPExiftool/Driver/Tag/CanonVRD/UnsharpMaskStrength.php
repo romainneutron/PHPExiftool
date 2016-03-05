@@ -39,5 +39,4 @@ class UnsharpMaskStrength extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Unsharp Mask Strength';
-
 }

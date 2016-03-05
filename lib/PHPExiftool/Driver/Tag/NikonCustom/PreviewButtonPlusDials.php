@@ -178,5 +178,4 @@ class PreviewButtonPlusDials extends AbstractTag
     );
 
     protected $Index = 'mixed';
-
 }

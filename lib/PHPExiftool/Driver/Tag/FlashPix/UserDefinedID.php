@@ -39,5 +39,4 @@ class UserDefinedID extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'User Defined ID';
-
 }

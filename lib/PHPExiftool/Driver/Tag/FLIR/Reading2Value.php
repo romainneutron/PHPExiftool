@@ -39,5 +39,4 @@ class Reading2Value extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Reading 2 Value';
-
 }

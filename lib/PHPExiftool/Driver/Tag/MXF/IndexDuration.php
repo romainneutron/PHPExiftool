@@ -39,5 +39,4 @@ class IndexDuration extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Index Duration';
-
 }

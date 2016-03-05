@@ -39,5 +39,4 @@ class UpperRangeOfPixels2 extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Upper Range Of Pixels 2';
-
 }

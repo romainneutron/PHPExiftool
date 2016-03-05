@@ -41,5 +41,4 @@ class ImageColorValue extends AbstractTag
     protected $Description = 'Image Color Value';
 
     protected $local_g1 = 'ExifIFD';
-
 }

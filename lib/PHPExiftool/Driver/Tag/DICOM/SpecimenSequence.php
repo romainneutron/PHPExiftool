@@ -39,5 +39,4 @@ class SpecimenSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Specimen Sequence';
-
 }

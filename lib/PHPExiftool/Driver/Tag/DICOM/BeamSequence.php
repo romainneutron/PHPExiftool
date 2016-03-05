@@ -39,5 +39,4 @@ class BeamSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Beam Sequence';
-
 }

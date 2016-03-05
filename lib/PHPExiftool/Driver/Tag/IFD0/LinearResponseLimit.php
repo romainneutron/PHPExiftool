@@ -41,5 +41,4 @@ class LinearResponseLimit extends AbstractTag
     protected $Description = 'Linear Response Limit';
 
     protected $flag_Unsafe = true;
-
 }

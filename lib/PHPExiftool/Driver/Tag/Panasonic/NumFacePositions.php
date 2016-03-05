@@ -41,5 +41,4 @@ class NumFacePositions extends AbstractTag
     protected $Description = 'Num Face Positions';
 
     protected $flag_Permanent = true;
-
 }

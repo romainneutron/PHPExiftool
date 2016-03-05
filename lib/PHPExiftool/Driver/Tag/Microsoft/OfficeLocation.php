@@ -39,5 +39,4 @@ class OfficeLocation extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Office Location';
-
 }

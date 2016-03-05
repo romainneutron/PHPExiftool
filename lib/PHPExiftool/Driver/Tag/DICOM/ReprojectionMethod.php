@@ -39,5 +39,4 @@ class ReprojectionMethod extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Reprojection Method';
-
 }

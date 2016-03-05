@@ -41,5 +41,4 @@ class AFUndershootProtect extends AbstractTag
     protected $Description = 'AF Undershoot Protect';
 
     protected $flag_Permanent = true;
-
 }

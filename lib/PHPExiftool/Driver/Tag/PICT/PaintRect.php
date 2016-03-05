@@ -39,5 +39,4 @@ class PaintRect extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Paint Rect';
-
 }

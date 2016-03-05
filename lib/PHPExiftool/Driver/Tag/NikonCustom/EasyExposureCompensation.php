@@ -80,5 +80,4 @@ class EasyExposureCompensation extends AbstractTag
             'Label' => 'On (auto reset)',
         ),
     );
-
 }

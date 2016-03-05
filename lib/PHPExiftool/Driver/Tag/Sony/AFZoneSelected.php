@@ -86,5 +86,4 @@ class AFZoneSelected extends AbstractTag
             'Label' => 'Top Right',
         ),
     );
-
 }

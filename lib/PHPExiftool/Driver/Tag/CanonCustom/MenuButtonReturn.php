@@ -56,5 +56,4 @@ class MenuButtonReturn extends AbstractTag
             'Label' => 'Previous',
         ),
     );
-
 }

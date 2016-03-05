@@ -41,5 +41,4 @@ class MOIVersion extends AbstractTag
     protected $Description = 'MOI Version';
 
     protected $MaxLength = 2;
-
 }

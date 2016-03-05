@@ -41,5 +41,4 @@ class AECAggressiveness extends AbstractTag
     protected $Description = 'AEC Aggressiveness';
 
     protected $flag_Permanent = true;
-
 }

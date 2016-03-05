@@ -39,5 +39,4 @@ class StartTrim extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Start Trim';
-
 }

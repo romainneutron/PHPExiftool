@@ -39,5 +39,4 @@ class ApplicationPlatform extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Application Platform';
-
 }

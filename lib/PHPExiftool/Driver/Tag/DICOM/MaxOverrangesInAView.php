@@ -39,5 +39,4 @@ class MaxOverrangesInAView extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Max Overranges In A View';
-
 }

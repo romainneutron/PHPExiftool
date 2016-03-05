@@ -62,5 +62,4 @@ class SpecialEffectMode extends AbstractTag
             'Label' => 'Vivid Landscape',
         ),
     );
-
 }

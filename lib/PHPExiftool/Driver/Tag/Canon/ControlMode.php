@@ -56,5 +56,4 @@ class ControlMode extends AbstractTag
             'Label' => 'Computer Remote Control',
         ),
     );
-
 }

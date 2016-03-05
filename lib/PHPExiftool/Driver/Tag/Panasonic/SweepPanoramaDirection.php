@@ -64,5 +64,4 @@ class SweepPanoramaDirection extends AbstractTag
             'Label' => 'Bottom to Top',
         ),
     );
-
 }

@@ -80,5 +80,4 @@ class RawDevSettings extends AbstractTag
             'Label' => 'Noise Reduction',
         ),
     );
-
 }

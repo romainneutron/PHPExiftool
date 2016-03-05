@@ -41,5 +41,4 @@ class DLightingHQShadow extends AbstractTag
     protected $Description = 'D-Lighting HQ Shadow';
 
     protected $flag_Permanent = true;
-
 }

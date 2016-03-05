@@ -39,5 +39,4 @@ class SubjectPixelWidth extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Subject Pixel Width';
-
 }

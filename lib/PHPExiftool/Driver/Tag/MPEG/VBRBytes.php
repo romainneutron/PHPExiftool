@@ -39,5 +39,4 @@ class VBRBytes extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'VBR Bytes';
-
 }

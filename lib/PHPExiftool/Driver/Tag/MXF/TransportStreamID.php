@@ -39,5 +39,4 @@ class TransportStreamID extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Transport Stream ID';
-
 }

@@ -39,5 +39,4 @@ class ProgramKind extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Program Kind';
-
 }

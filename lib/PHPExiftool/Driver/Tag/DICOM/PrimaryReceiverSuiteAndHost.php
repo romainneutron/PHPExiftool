@@ -39,5 +39,4 @@ class PrimaryReceiverSuiteAndHost extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Primary Receiver Suite And Host';
-
 }

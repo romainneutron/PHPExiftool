@@ -39,5 +39,4 @@ class ExposureControlSensRegionLeftEdge extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Exposure Control Sens Region Left Edge';
-
 }

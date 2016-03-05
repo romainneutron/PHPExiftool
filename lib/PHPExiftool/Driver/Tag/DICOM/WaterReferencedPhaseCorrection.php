@@ -39,5 +39,4 @@ class WaterReferencedPhaseCorrection extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Water Referenced Phase Correction';
-
 }

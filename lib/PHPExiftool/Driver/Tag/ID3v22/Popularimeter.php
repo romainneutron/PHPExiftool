@@ -39,5 +39,4 @@ class Popularimeter extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Popularimeter';
-
 }

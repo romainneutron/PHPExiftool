@@ -39,5 +39,4 @@ class NumberOfWaveformChannels extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Number Of Waveform Channels';
-
 }

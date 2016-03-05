@@ -160,5 +160,4 @@ class LiveViewMonitorOffTime extends AbstractTag
             'Label' => 'No Limit',
         ),
     );
-
 }

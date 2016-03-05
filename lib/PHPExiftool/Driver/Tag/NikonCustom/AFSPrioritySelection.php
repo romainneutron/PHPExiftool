@@ -52,5 +52,4 @@ class AFSPrioritySelection extends AbstractTag
             'Label' => 'Release',
         ),
     );
-
 }

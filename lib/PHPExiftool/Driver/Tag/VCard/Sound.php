@@ -39,5 +39,4 @@ class Sound extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Sound';
-
 }

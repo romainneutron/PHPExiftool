@@ -39,5 +39,4 @@ class HardcopyDeviceManufacturer extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Hardcopy Device Manufacturer';
-
 }

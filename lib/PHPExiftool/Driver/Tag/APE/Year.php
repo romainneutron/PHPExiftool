@@ -39,5 +39,4 @@ class Year extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Year';
-
 }

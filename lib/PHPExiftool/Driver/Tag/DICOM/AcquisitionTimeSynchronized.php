@@ -39,5 +39,4 @@ class AcquisitionTimeSynchronized extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Acquisition Time Synchronized';
-
 }

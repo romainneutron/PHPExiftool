@@ -39,5 +39,4 @@ class PageName extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Page Name';
-
 }

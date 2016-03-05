@@ -46,5 +46,4 @@ class Compression extends AbstractTag
             'Label' => 'Deflated',
         ),
     );
-
 }

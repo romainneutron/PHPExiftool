@@ -39,5 +39,4 @@ class HardcopyDeviceSoftwareVersion extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Hardcopy Device Software Version';
-
 }

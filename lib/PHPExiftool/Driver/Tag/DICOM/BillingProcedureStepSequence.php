@@ -39,5 +39,4 @@ class BillingProcedureStepSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Billing Procedure Step Sequence';
-
 }

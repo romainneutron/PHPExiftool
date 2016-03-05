@@ -41,5 +41,4 @@ class DisplayAperture extends AbstractTag
     protected $Description = 'Display Aperture';
 
     protected $flag_Permanent = true;
-
 }

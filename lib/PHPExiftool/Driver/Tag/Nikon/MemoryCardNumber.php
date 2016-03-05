@@ -41,5 +41,4 @@ class MemoryCardNumber extends AbstractTag
     protected $Description = 'Memory Card Number';
 
     protected $flag_Permanent = true;
-
 }

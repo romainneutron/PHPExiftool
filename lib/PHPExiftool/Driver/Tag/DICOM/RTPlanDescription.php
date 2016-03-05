@@ -39,5 +39,4 @@ class RTPlanDescription extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'RT Plan Description';
-
 }

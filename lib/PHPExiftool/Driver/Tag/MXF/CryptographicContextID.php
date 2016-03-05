@@ -39,5 +39,4 @@ class CryptographicContextID extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Cryptographic Context ID';
-
 }

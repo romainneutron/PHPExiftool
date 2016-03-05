@@ -41,5 +41,4 @@ class AFFineSrchPoints extends AbstractTag
     protected $Description = 'AF Fine Srch Points';
 
     protected $flag_Permanent = true;
-
 }

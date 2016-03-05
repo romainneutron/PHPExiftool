@@ -84,5 +84,4 @@ class LevelOrientation extends AbstractTag
             'Label' => 'Downwards',
         ),
     );
-
 }

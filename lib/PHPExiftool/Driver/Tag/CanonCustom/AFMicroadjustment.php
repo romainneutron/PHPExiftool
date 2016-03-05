@@ -58,5 +58,4 @@ class AFMicroadjustment extends AbstractTag
             'Label' => 'Adjust by lens',
         ),
     );
-
 }

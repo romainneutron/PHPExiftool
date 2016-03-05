@@ -52,5 +52,4 @@ class ColorBooster extends AbstractTag
             'Label' => 'On',
         ),
     );
-
 }

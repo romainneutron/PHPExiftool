@@ -41,5 +41,4 @@ class AFProcess extends AbstractTag
     protected $Description = 'AF Process';
 
     protected $flag_Permanent = true;
-
 }

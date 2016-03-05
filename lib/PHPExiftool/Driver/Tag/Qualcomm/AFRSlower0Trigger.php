@@ -41,5 +41,4 @@ class AFRSlower0Trigger extends AbstractTag
     protected $Description = 'AFR Slower 0 Trigger';
 
     protected $flag_Permanent = true;
-
 }

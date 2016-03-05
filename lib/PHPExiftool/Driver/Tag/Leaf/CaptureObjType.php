@@ -39,5 +39,4 @@ class CaptureObjType extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Capture Obj Type';
-
 }

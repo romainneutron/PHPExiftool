@@ -54,5 +54,4 @@ class ContentSignatureHashAlgorithm extends AbstractTag
             'Label' => 'MD5',
         ),
     );
-
 }

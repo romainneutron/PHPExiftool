@@ -39,5 +39,4 @@ class ContentEncodingOrder extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Content Encoding Order';
-
 }

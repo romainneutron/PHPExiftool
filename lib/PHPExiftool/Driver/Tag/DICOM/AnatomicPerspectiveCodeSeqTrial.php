@@ -39,5 +39,4 @@ class AnatomicPerspectiveCodeSeqTrial extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Anatomic Perspective Code Seq Trial';
-
 }

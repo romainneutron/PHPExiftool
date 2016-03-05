@@ -41,5 +41,4 @@ class BodyFirmwareVersion extends AbstractTag
     protected $Description = 'Body Firmware Version';
 
     protected $flag_Permanent = true;
-
 }

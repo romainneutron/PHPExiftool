@@ -52,5 +52,4 @@ class WideRange extends AbstractTag
             'Label' => 'On',
         ),
     );
-
 }

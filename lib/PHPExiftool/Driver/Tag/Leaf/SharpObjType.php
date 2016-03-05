@@ -39,5 +39,4 @@ class SharpObjType extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Sharp Obj Type';
-
 }

@@ -39,5 +39,4 @@ class PersonIdentificationCodeSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Person Identification Code Sequence';
-
 }

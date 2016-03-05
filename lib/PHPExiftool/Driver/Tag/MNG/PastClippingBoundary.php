@@ -41,5 +41,4 @@ class PastClippingBoundary extends AbstractTag
     protected $Description = 'Past Clipping Boundary';
 
     protected $MaxLength = 4;
-
 }

@@ -39,5 +39,4 @@ class BiPlaneAcquisitionSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Bi Plane Acquisition Sequence';
-
 }

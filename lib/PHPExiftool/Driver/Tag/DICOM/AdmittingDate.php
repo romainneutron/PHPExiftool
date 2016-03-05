@@ -39,5 +39,4 @@ class AdmittingDate extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Admitting Date';
-
 }

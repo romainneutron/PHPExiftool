@@ -39,5 +39,4 @@ class PatientSex extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Patient Sex';
-
 }

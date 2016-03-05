@@ -58,5 +58,4 @@ class Speed extends AbstractTag
             'Label' => 'Hardcore',
         ),
     );
-
 }

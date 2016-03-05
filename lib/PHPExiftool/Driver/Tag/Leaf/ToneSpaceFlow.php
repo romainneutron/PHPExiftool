@@ -39,5 +39,4 @@ class ToneSpaceFlow extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'ICC To Tone Space Flow';
-
 }

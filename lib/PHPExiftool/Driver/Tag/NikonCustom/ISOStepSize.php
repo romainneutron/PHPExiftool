@@ -92,5 +92,4 @@ class ISOStepSize extends AbstractTag
             'Label' => '1 EV',
         ),
     );
-
 }

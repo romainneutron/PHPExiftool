@@ -39,5 +39,4 @@ class DisplayedAreaTopLeft extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Displayed Area Top Left';
-
 }

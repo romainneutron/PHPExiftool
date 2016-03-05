@@ -41,5 +41,4 @@ class PF8BracketShots extends AbstractTag
     protected $Description = 'PF8 Bracket Shots';
 
     protected $flag_Permanent = true;
-
 }

@@ -39,5 +39,4 @@ class ExposureSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Exposure Sequence';
-
 }

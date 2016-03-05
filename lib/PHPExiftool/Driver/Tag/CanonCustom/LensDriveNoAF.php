@@ -52,5 +52,4 @@ class LensDriveNoAF extends AbstractTag
             'Label' => 'Focus search off',
         ),
     );
-
 }

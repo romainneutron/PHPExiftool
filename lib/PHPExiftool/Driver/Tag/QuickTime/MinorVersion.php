@@ -41,5 +41,4 @@ class MinorVersion extends AbstractTag
     protected $Description = 'Minor Version';
 
     protected $MaxLength = 4;
-
 }

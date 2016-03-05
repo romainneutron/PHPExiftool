@@ -39,5 +39,4 @@ class ArchiveRequested extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Archive Requested';
-
 }

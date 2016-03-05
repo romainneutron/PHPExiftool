@@ -62,5 +62,4 @@ class CreatorSoftware extends AbstractTag
             'Label' => 'Kindlegen (Mac)',
         ),
     );
-
 }

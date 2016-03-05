@@ -39,5 +39,4 @@ class IsVBR extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Is VBR';
-
 }

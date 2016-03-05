@@ -39,5 +39,4 @@ class PaintCorrectionHighlights2012 extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Paint Correction Highlights 2012';
-
 }

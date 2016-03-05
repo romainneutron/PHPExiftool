@@ -41,5 +41,4 @@ class Equipment extends AbstractTag
     protected $Description = 'Equipment';
 
     protected $flag_Permanent = true;
-
 }

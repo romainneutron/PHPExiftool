@@ -39,5 +39,4 @@ class InitialHorizontalFOVDegrees extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Initial Horizontal FOV Degrees';
-
 }

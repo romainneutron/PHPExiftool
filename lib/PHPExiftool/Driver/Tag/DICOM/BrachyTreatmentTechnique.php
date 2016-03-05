@@ -39,5 +39,4 @@ class BrachyTreatmentTechnique extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Brachy Treatment Technique';
-
 }

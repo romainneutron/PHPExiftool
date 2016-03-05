@@ -39,5 +39,4 @@ class RenderingIntent extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Rendering Intent';
-
 }

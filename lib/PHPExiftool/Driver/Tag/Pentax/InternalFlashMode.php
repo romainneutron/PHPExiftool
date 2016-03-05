@@ -128,5 +128,4 @@ class InternalFlashMode extends AbstractTag
             'Label' => 'Did not fire, Trailing-curtain Sync',
         ),
     );
-
 }

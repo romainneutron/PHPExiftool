@@ -39,5 +39,4 @@ class ProjScaleAtCenter extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Proj Scale At Center';
-
 }

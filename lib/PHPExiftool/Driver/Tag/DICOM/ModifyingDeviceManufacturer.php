@@ -39,5 +39,4 @@ class ModifyingDeviceManufacturer extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Modifying Device Manufacturer';
-
 }

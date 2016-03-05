@@ -39,5 +39,4 @@ class DASRegXm extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'DAS Reg Xm';
-
 }

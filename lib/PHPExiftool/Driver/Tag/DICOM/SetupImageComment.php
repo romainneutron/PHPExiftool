@@ -39,5 +39,4 @@ class SetupImageComment extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Setup Image Comment';
-
 }

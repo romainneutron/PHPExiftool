@@ -41,5 +41,4 @@ class EndTime extends AbstractTag
     protected $Description = 'End Time';
 
     protected $MaxLength = 6;
-
 }

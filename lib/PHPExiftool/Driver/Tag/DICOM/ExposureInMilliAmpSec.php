@@ -39,5 +39,4 @@ class ExposureInMilliAmpSec extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Exposure In Milli Amp Sec';
-
 }

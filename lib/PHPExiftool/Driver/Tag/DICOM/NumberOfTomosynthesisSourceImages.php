@@ -39,5 +39,4 @@ class NumberOfTomosynthesisSourceImages extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Number Of Tomosynthesis Source Images';
-
 }

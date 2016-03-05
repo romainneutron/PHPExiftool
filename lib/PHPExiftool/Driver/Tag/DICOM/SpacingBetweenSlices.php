@@ -39,5 +39,4 @@ class SpacingBetweenSlices extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Spacing Between Slices';
-
 }

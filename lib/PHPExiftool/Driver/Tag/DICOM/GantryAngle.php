@@ -39,5 +39,4 @@ class GantryAngle extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Gantry Angle';
-
 }

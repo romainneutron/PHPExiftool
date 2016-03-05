@@ -39,5 +39,4 @@ class GradientOutput extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Gradient Output';
-
 }

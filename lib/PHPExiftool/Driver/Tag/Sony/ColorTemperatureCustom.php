@@ -41,5 +41,4 @@ class ColorTemperatureCustom extends AbstractTag
     protected $Description = 'Color Temperature Custom';
 
     protected $flag_Permanent = true;
-
 }

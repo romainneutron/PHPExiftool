@@ -39,5 +39,4 @@ class Tiles extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Tiles';
-
 }

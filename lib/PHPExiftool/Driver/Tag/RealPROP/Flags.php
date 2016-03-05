@@ -58,5 +58,4 @@ class Flags extends AbstractTag
             'Label' => 'Allow Download',
         ),
     );
-
 }

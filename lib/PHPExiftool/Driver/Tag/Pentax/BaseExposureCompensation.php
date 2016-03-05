@@ -41,5 +41,4 @@ class BaseExposureCompensation extends AbstractTag
     protected $Description = 'Base Exposure Compensation';
 
     protected $flag_Permanent = true;
-
 }

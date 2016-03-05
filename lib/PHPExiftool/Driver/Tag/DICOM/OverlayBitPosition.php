@@ -39,5 +39,4 @@ class OverlayBitPosition extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Overlay Bit Position';
-
 }

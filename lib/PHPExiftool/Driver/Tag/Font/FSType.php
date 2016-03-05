@@ -39,5 +39,4 @@ class FSType extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'FS Type';
-
 }

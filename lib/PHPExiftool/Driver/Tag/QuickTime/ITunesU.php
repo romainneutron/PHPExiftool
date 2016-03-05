@@ -50,5 +50,4 @@ class ITunesU extends AbstractTag
             'Label' => 'Yes',
         ),
     );
-
 }

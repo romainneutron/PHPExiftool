@@ -50,5 +50,4 @@ class TaggedPDF extends AbstractTag
             'Label' => 'Yes',
         ),
     );
-
 }

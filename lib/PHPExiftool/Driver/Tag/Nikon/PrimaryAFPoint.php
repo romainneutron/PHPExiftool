@@ -1030,5 +1030,4 @@ class PrimaryAFPoint extends AbstractTag
     );
 
     protected $Index = 'mixed';
-
 }

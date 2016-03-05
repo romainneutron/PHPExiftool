@@ -39,5 +39,4 @@ class AnatomicEntrancePortalCodeSeqTrial extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Anatomic Entrance Portal Code Seq Trial';
-
 }

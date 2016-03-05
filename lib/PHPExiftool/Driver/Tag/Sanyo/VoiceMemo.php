@@ -52,5 +52,4 @@ class VoiceMemo extends AbstractTag
             'Label' => 'On',
         ),
     );
-
 }

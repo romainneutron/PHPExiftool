@@ -39,5 +39,4 @@ class SpatialOrientation extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Spatial Orientation';
-
 }

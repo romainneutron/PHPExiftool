@@ -39,5 +39,4 @@ class LinkedTrackID extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Linked Track ID';
-
 }

@@ -39,5 +39,4 @@ class File1PathUTF8 extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'File 1 Path UTF-8';
-
 }

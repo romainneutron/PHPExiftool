@@ -60,5 +60,4 @@ class PanoramicStitchCameraMotion extends AbstractTag
             'Label' => 'Homography',
         ),
     );
-
 }

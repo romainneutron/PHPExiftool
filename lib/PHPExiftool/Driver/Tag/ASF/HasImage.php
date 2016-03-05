@@ -39,5 +39,4 @@ class HasImage extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Has Image';
-
 }

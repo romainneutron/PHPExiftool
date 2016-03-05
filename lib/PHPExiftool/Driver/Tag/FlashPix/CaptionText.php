@@ -39,5 +39,4 @@ class CaptionText extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Caption Text';
-
 }

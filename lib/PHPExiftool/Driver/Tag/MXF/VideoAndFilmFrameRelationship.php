@@ -39,5 +39,4 @@ class VideoAndFilmFrameRelationship extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Video And Film Frame Relationship';
-
 }

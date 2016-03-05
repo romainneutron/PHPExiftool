@@ -39,5 +39,4 @@ class ObjectSizeAnnounced extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Object Size Announced';
-
 }

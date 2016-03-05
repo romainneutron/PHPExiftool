@@ -52,5 +52,4 @@ class FlashRedEyeMode extends AbstractTag
             'Label' => True,
         ),
     );
-
 }

@@ -41,5 +41,4 @@ class PeripheralIllumCentralValue extends AbstractTag
     protected $Description = 'Peripheral Illum Central Value';
 
     protected $flag_Permanent = true;
-
 }

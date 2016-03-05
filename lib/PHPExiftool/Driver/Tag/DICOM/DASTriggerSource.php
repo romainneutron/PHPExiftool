@@ -39,5 +39,4 @@ class DASTriggerSource extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'DAS Trigger Source';
-
 }

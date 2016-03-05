@@ -52,5 +52,4 @@ class ImageReview extends AbstractTag
             'Label' => 'Off',
         ),
     );
-
 }

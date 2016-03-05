@@ -41,5 +41,4 @@ class DCCoordinatePrecision extends AbstractTag
     protected $Description = 'DC Coordinate Precision';
 
     protected $local_g2 = 'Location';
-
 }

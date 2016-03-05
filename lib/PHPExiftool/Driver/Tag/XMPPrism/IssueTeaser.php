@@ -41,5 +41,4 @@ class IssueTeaser extends AbstractTag
     protected $Description = 'Issue Teaser';
 
     protected $flag_Avoid = true;
-
 }

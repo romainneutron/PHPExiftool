@@ -39,5 +39,4 @@ class ReferencedRTPlanSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Referenced RT Plan Sequence';
-
 }

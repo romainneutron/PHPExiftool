@@ -39,5 +39,4 @@ class ElementDelta extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Element Delta';
-
 }

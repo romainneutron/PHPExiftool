@@ -41,5 +41,4 @@ class SweepPanoramaFieldOfView extends AbstractTag
     protected $Description = 'Sweep Panorama Field Of View';
 
     protected $flag_Permanent = true;
-
 }

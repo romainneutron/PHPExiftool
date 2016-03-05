@@ -39,5 +39,4 @@ class WindowTarget extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Window Target';
-
 }

@@ -66,5 +66,4 @@ class CharacterSet extends AbstractTag
             'Label' => 'Includes characters not ISO 2375 registered',
         ),
     );
-
 }

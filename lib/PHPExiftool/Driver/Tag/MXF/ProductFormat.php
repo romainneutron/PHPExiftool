@@ -39,5 +39,4 @@ class ProductFormat extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Product Format';
-
 }

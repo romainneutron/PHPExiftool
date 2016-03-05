@@ -39,5 +39,4 @@ class ControlPointRelativePosition extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Control Point Relative Position';
-
 }

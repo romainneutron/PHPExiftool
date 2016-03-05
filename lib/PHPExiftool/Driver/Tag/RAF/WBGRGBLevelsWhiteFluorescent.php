@@ -41,5 +41,4 @@ class WBGRGBLevelsWhiteFluorescent extends AbstractTag
     protected $Description = 'WB GRGB Levels White Fluorescent';
 
     protected $MaxLength = 4;
-
 }

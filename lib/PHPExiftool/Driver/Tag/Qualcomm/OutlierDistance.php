@@ -41,5 +41,4 @@ class OutlierDistance extends AbstractTag
     protected $Description = 'Outlier Distance';
 
     protected $flag_Permanent = true;
-
 }

@@ -39,5 +39,4 @@ class ForwardLock extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Forward Lock';
-
 }

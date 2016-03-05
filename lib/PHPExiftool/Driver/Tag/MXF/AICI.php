@@ -39,5 +39,4 @@ class AICI extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'AICI';
-
 }

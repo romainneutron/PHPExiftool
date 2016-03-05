@@ -41,5 +41,4 @@ class Birthday extends AbstractTag
     protected $Description = 'Birthday';
 
     protected $local_g2 = 'Time';
-
 }

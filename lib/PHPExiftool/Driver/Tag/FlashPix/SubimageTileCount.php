@@ -39,5 +39,4 @@ class SubimageTileCount extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Subimage Tile Count';
-
 }

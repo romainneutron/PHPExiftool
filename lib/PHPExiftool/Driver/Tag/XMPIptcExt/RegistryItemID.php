@@ -41,5 +41,4 @@ class RegistryItemID extends AbstractTag
     protected $Description = 'Registry Item ID';
 
     protected $flag_List = true;
-
 }

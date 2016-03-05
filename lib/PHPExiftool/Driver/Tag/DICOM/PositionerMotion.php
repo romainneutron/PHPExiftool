@@ -39,5 +39,4 @@ class PositionerMotion extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Positioner Motion';
-
 }

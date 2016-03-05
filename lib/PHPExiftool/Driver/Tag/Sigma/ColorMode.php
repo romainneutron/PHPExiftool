@@ -80,5 +80,4 @@ class ColorMode extends AbstractTag
             'Label' => 'FOV Classic Blue',
         ),
     );
-
 }

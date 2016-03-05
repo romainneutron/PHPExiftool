@@ -39,5 +39,4 @@ class PixelShiftSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Pixel Shift Sequence';
-
 }

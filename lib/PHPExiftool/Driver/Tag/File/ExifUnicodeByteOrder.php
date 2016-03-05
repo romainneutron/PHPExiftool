@@ -50,5 +50,4 @@ class ExifUnicodeByteOrder extends AbstractTag
             'Label' => 'Big-endian (Motorola, MM)',
         ),
     );
-
 }

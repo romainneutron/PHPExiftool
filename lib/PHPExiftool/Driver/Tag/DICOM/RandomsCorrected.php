@@ -39,5 +39,4 @@ class RandomsCorrected extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Randoms Corrected';
-
 }

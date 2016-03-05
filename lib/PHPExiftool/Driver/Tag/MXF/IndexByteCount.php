@@ -39,5 +39,4 @@ class IndexByteCount extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Index Byte Count';
-
 }

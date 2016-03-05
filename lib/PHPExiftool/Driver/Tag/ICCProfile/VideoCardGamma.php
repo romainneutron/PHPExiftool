@@ -39,5 +39,4 @@ class VideoCardGamma extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Video Card Gamma';
-
 }

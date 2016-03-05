@@ -41,5 +41,4 @@ class Comments extends AbstractTag
     protected $Description = 'Comments';
 
     protected $flag_Avoid = true;
-
 }

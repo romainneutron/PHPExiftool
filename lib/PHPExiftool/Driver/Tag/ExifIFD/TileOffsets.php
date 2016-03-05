@@ -41,5 +41,4 @@ class TileOffsets extends AbstractTag
     protected $Description = 'Tile Offsets';
 
     protected $local_g1 = 'ExifIFD';
-
 }

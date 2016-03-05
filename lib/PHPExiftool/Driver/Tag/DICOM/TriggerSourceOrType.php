@@ -39,5 +39,4 @@ class TriggerSourceOrType extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Trigger Source Or Type';
-
 }

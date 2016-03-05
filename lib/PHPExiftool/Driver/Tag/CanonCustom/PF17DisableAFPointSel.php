@@ -41,5 +41,4 @@ class PF17DisableAFPointSel extends AbstractTag
     protected $Description = 'PF17 Disable AF Point Sel';
 
     protected $flag_Permanent = true;
-
 }

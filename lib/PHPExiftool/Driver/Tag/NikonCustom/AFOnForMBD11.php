@@ -72,5 +72,4 @@ class AFOnForMBD11 extends AbstractTag
             'Label' => 'Same as FUNC Button',
         ),
     );
-
 }

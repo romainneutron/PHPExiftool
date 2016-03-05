@@ -43,5 +43,4 @@ class RasterizedCaption extends AbstractTag
     protected $flag_Binary = true;
 
     protected $MaxLength = 7360;
-
 }

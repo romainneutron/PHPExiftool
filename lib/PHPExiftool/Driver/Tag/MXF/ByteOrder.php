@@ -50,5 +50,4 @@ class ByteOrder extends AbstractTag
             'Label' => 'Big-endian (Motorola, MM)',
         ),
     );
-
 }

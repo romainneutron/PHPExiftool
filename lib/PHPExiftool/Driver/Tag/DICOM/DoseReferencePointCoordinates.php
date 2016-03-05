@@ -39,5 +39,4 @@ class DoseReferencePointCoordinates extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Dose Reference Point Coordinates';
-
 }

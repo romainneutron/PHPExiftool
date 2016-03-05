@@ -39,5 +39,4 @@ class EscChar extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Esc Char';
-
 }

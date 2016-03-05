@@ -39,5 +39,4 @@ class BlackReferenceLevel extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Black Reference Level';
-
 }

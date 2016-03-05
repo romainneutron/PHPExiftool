@@ -39,5 +39,4 @@ class FadeOutDuration extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Fade-Out Duration';
-
 }

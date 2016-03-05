@@ -19,5 +19,4 @@ class VarString extends AbstractType
     protected $ExiftoolName = 'var_string';
 
     protected $PHPMap = 'string';
-
 }

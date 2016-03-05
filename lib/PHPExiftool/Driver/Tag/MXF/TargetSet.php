@@ -39,5 +39,4 @@ class TargetSet extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Target Set';
-
 }

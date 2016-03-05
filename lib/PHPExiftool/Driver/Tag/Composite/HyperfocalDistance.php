@@ -41,5 +41,4 @@ class HyperfocalDistance extends AbstractTag
     protected $Description = 'Hyperfocal Distance';
 
     protected $local_g2 = 'Camera';
-
 }

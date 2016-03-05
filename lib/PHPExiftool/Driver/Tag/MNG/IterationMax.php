@@ -39,5 +39,4 @@ class IterationMax extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Iteration Max';
-
 }

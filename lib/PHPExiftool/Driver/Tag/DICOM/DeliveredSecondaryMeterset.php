@@ -39,5 +39,4 @@ class DeliveredSecondaryMeterset extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Delivered Secondary Meterset';
-
 }

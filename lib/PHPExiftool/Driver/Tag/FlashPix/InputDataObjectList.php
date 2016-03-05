@@ -39,5 +39,4 @@ class InputDataObjectList extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Input Data Object List';
-
 }

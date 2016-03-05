@@ -41,5 +41,4 @@ class CanonColorInfo2 extends AbstractTag
     protected $Description = 'Canon Color Info 2';
 
     protected $flag_Permanent = true;
-
 }

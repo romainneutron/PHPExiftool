@@ -41,5 +41,4 @@ class WBRGGBLevels extends AbstractTag
     protected $Description = 'WB RGGB Levels';
 
     protected $local_g2 = 'mixed';
-
 }

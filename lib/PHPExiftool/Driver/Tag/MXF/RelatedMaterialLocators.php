@@ -39,5 +39,4 @@ class RelatedMaterialLocators extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Related Material Locators';
-
 }

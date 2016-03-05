@@ -41,5 +41,4 @@ class ASF5BrtLoThres extends AbstractTag
     protected $Description = 'ASF5 Brt Lo Thres';
 
     protected $flag_Permanent = true;
-
 }

@@ -39,5 +39,4 @@ class LastScanLoc extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Last Scan Loc';
-
 }

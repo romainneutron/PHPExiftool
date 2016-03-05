@@ -41,5 +41,4 @@ class ManualFlashOutput extends AbstractTag
     protected $Description = 'Manual Flash Output';
 
     protected $flag_Permanent = true;
-
 }

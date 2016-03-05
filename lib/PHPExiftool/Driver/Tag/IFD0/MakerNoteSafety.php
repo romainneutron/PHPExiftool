@@ -50,5 +50,4 @@ class MakerNoteSafety extends AbstractTag
             'Label' => 'Safe',
         ),
     );
-
 }

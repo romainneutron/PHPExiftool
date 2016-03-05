@@ -39,5 +39,4 @@ class DiaphragmPosition extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Diaphragm Position';
-
 }

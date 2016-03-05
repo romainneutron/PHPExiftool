@@ -39,5 +39,4 @@ class NumSampleFrames extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Num Sample Frames';
-
 }

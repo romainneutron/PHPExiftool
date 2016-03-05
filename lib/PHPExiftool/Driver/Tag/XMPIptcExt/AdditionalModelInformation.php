@@ -39,5 +39,4 @@ class AdditionalModelInformation extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Additional Model Information';
-
 }

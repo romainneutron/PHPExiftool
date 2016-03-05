@@ -39,5 +39,4 @@ class AssumedDistanceView extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Assumed Distance View';
-
 }

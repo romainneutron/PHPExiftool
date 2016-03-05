@@ -39,5 +39,4 @@ class Certificate extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Certificate';
-
 }

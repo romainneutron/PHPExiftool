@@ -39,5 +39,4 @@ class Performer extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Performer';
-
 }

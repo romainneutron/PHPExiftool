@@ -39,5 +39,4 @@ class GeographicLocation extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Geographic Location';
-
 }

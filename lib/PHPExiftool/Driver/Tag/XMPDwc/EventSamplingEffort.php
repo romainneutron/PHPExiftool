@@ -39,5 +39,4 @@ class EventSamplingEffort extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Event Sampling Effort';
-
 }

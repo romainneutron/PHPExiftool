@@ -39,5 +39,4 @@ class ToleranceWindow extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Tolerance Window';
-
 }

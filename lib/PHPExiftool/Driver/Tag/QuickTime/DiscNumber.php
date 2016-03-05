@@ -39,5 +39,4 @@ class DiscNumber extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Disc Number';
-
 }

@@ -54,5 +54,4 @@ class SuperimposedDisplay extends AbstractTag
     );
 
     protected $Index = 'mixed';
-
 }

@@ -39,5 +39,4 @@ class FirstObject extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'First Object';
-
 }

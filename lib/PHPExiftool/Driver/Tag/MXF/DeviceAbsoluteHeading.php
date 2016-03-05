@@ -39,5 +39,4 @@ class DeviceAbsoluteHeading extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Device Absolute Heading';
-
 }

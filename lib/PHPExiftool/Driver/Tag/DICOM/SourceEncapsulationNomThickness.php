@@ -39,5 +39,4 @@ class SourceEncapsulationNomThickness extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Source Encapsulation Nom Thickness';
-
 }

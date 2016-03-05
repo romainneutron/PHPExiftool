@@ -39,5 +39,4 @@ class Characters extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Characters';
-
 }

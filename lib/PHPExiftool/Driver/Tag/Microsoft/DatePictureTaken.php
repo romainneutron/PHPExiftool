@@ -41,5 +41,4 @@ class DatePictureTaken extends AbstractTag
     protected $Description = 'Date Picture Taken';
 
     protected $local_g2 = 'Time';
-
 }

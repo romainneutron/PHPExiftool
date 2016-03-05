@@ -180,5 +180,4 @@ class WhiteBalance extends AbstractTag
             'Label' => 'Underwater Auto',
         ),
     );
-
 }

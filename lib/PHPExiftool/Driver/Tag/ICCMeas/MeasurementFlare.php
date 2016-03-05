@@ -39,5 +39,4 @@ class MeasurementFlare extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Measurement Flare';
-
 }

@@ -39,5 +39,4 @@ class Birthday extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Birthday';
-
 }

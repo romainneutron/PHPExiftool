@@ -39,5 +39,4 @@ class CoverageOfKSpace extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Coverage Of K Space';
-
 }

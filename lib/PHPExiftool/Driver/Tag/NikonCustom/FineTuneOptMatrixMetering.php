@@ -41,5 +41,4 @@ class FineTuneOptMatrixMetering extends AbstractTag
     protected $Description = 'Fine Tune Opt Matrix Metering';
 
     protected $flag_Permanent = true;
-
 }

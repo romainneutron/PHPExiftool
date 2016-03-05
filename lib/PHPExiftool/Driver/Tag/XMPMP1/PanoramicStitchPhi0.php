@@ -39,5 +39,4 @@ class PanoramicStitchPhi0 extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Panoramic Stitch Phi 0';
-
 }

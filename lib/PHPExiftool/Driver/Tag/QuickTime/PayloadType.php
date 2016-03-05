@@ -39,5 +39,4 @@ class PayloadType extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Payload Type';
-
 }

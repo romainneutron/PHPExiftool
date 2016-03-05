@@ -41,5 +41,4 @@ class ArtworkSource extends AbstractTag
     protected $Description = 'Artwork Source';
 
     protected $flag_List = true;
-
 }

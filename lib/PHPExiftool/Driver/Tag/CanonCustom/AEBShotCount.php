@@ -80,5 +80,4 @@ class AEBShotCount extends AbstractTag
     protected $MaxLength = 'mixed';
 
     protected $Index = 'mixed';
-
 }

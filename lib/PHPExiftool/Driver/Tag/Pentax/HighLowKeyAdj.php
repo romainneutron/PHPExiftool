@@ -82,5 +82,4 @@ class HighLowKeyAdj extends AbstractTag
             'Label' => 4,
         ),
     );
-
 }

@@ -39,5 +39,4 @@ class IndexTableSegment extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Index Table Segment';
-
 }

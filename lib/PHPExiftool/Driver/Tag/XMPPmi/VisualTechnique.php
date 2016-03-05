@@ -41,5 +41,4 @@ class VisualTechnique extends AbstractTag
     protected $Description = 'Visual Technique';
 
     protected $flag_Avoid = true;
-
 }

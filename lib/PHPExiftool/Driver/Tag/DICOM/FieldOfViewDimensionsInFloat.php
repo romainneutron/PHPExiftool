@@ -39,5 +39,4 @@ class FieldOfViewDimensionsInFloat extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Field Of View Dimensions In Float';
-
 }

@@ -39,5 +39,4 @@ class SpectroscopyAcquisitionPhaseRows extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Spectroscopy Acquisition Phase Rows';
-
 }

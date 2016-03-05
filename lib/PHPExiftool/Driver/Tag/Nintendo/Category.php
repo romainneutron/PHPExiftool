@@ -60,5 +60,4 @@ class Category extends AbstractTag
             'Label' => 'Woman',
         ),
     );
-
 }

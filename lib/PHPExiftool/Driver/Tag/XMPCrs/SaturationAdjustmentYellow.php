@@ -39,5 +39,4 @@ class SaturationAdjustmentYellow extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Saturation Adjustment Yellow';
-
 }

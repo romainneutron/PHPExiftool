@@ -41,5 +41,4 @@ class BaselineNoise extends AbstractTag
     protected $Description = 'Baseline Noise';
 
     protected $flag_Unsafe = true;
-
 }

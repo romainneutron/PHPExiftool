@@ -39,5 +39,4 @@ class ReferencedBolusSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Referenced Bolus Sequence';
-
 }

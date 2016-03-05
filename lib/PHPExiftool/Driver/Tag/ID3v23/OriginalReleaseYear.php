@@ -39,5 +39,4 @@ class OriginalReleaseYear extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Original Release Year';
-
 }

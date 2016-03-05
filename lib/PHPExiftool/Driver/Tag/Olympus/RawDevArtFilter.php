@@ -198,5 +198,4 @@ class RawDevArtFilter extends AbstractTag
             'Label' => 'Partial Color III',
         ),
     );
-
 }

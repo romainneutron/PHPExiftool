@@ -39,5 +39,4 @@ class PrepPulse extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Prep Pulse';
-
 }

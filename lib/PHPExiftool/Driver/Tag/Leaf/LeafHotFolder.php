@@ -39,5 +39,4 @@ class LeafHotFolder extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Leaf Hot Folder';
-
 }

@@ -39,5 +39,4 @@ class FixationDevicePosition extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Fixation Device Position';
-
 }

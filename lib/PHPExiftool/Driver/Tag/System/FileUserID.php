@@ -41,5 +41,4 @@ class FileUserID extends AbstractTag
     protected $Description = 'File User ID';
 
     protected $local_g1 = 'System';
-
 }

@@ -41,5 +41,4 @@ class AFTracePositions12 extends AbstractTag
     protected $Description = 'AF Trace Positions 12';
 
     protected $flag_Permanent = true;
-
 }

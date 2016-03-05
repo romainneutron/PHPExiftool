@@ -39,5 +39,4 @@ class TaggedValueDefinitions extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Tagged Value Definitions';
-
 }

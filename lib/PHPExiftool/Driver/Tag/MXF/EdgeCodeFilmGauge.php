@@ -39,5 +39,4 @@ class EdgeCodeFilmGauge extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Edge Code Film Gauge';
-
 }

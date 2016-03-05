@@ -39,5 +39,4 @@ class CustomDefaultUnsharpThreshold extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Custom Default Unsharp Threshold';
-
 }

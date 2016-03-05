@@ -482,5 +482,4 @@ class LensType extends AbstractTag
             'Label' => 'Sigma 24-70mm F2.8 DG Macro',
         ),
     );
-
 }

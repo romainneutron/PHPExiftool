@@ -58,5 +58,4 @@ class VP8Version extends AbstractTag
             'Label' => '3 (no reconstruction, no loop)',
         ),
     );
-
 }

@@ -68,5 +68,4 @@ class ModifiedSharpnessFreq extends AbstractTag
             'Label' => 'Highest',
         ),
     );
-
 }

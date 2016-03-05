@@ -52,5 +52,4 @@ class Pitch extends AbstractTag
             'Label' => 'Low',
         ),
     );
-
 }

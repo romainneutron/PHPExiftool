@@ -39,5 +39,4 @@ class DerivedFrom extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Derived From';
-
 }

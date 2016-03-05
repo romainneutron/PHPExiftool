@@ -822,5 +822,4 @@ class Genre extends AbstractTag
             'Label' => 'Remix',
         ),
     );
-
 }

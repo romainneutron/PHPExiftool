@@ -39,5 +39,4 @@ class MediaCreated extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Media Created';
-
 }

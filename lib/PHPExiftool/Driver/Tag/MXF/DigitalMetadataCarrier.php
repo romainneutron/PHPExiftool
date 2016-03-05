@@ -39,5 +39,4 @@ class DigitalMetadataCarrier extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Digital Metadata Carrier';
-
 }

@@ -60,5 +60,4 @@ class SelectAFAreaSelectMode extends AbstractTag
             'Label' => 'Select AF-modes',
         ),
     );
-
 }

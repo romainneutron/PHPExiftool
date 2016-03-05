@@ -39,5 +39,4 @@ class Association extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Association';
-
 }

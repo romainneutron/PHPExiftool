@@ -70,5 +70,4 @@ class DriveType extends AbstractTag
             'Label' => 'Ram Disk',
         ),
     );
-
 }

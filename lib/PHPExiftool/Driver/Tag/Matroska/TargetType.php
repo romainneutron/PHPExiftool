@@ -39,5 +39,4 @@ class TargetType extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Target Type';
-
 }

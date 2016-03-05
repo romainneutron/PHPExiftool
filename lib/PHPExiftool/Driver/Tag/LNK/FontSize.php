@@ -41,5 +41,4 @@ class FontSize extends AbstractTag
     protected $Description = 'Font Size';
 
     protected $MaxLength = 2;
-
 }

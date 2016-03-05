@@ -39,5 +39,4 @@ class ChannelDerivationDescription extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Channel Derivation Description';
-
 }

@@ -41,5 +41,4 @@ class CameraSoftware extends AbstractTag
     protected $Description = 'Camera Software';
 
     protected $MaxLength = 16;
-
 }

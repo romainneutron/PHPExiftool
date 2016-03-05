@@ -41,5 +41,4 @@ class AECHighLumaRegionCount extends AbstractTag
     protected $Description = 'AEC High Luma Region Count';
 
     protected $flag_Permanent = true;
-
 }

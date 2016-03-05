@@ -39,5 +39,4 @@ class Note extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Note';
-
 }

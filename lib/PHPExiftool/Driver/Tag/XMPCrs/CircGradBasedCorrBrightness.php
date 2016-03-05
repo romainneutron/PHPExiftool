@@ -39,5 +39,4 @@ class CircGradBasedCorrBrightness extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Circ Grad Based Corr Brightness';
-
 }

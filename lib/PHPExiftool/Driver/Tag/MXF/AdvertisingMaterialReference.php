@@ -39,5 +39,4 @@ class AdvertisingMaterialReference extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Advertising Material Reference';
-
 }

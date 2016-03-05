@@ -39,5 +39,4 @@ class SpotHalftone extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Spot Halftone';
-
 }

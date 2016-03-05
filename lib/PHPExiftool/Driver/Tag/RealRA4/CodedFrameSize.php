@@ -39,5 +39,4 @@ class CodedFrameSize extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Coded Frame Size';
-
 }

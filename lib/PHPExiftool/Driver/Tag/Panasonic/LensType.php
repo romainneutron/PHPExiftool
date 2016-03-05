@@ -41,5 +41,4 @@ class LensType extends AbstractTag
     protected $Description = 'Lens Type';
 
     protected $flag_Permanent = true;
-
 }

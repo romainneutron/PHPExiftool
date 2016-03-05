@@ -41,5 +41,4 @@ class Notice extends AbstractTag
     protected $Description = 'Notice';
 
     protected $local_g2 = 'Author';
-
 }

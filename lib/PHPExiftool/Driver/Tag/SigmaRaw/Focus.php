@@ -54,5 +54,4 @@ class Focus extends AbstractTag
             'Label' => 'Auto-focus Didn\'t Lock',
         ),
     );
-
 }

@@ -39,5 +39,4 @@ class PhotographicSensitivity extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Photographic Sensitivity';
-
 }

@@ -88,5 +88,4 @@ class FocusMode extends AbstractTag
             'Label' => 'Movie Servo AF',
         ),
     );
-
 }

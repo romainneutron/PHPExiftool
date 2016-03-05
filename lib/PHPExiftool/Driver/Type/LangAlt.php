@@ -19,5 +19,4 @@ class LangAlt extends AbstractType
     protected $ExiftoolName = 'lang-alt';
 
     protected $PHPMap = 'string';
-
 }

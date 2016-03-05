@@ -39,5 +39,4 @@ class VerticalDatum extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Vertical Datum';
-
 }

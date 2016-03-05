@@ -39,5 +39,4 @@ class MeasurementAccuracy extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Measurement Accuracy';
-
 }

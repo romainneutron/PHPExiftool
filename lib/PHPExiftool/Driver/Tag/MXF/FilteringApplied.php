@@ -41,5 +41,4 @@ class FilteringApplied extends AbstractTag
     protected $Description = 'Filtering Applied';
 
     protected $local_g2 = 'Audio';
-
 }

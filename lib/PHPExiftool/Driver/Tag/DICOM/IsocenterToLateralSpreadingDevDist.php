@@ -39,5 +39,4 @@ class IsocenterToLateralSpreadingDevDist extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Isocenter To Lateral Spreading Dev Dist';
-
 }

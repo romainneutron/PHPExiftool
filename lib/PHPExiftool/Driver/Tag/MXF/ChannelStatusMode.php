@@ -66,5 +66,4 @@ class ChannelStatusMode extends AbstractTag
             'Label' => 'Stream of Data Multiplexed within MXF Body',
         ),
     );
-
 }

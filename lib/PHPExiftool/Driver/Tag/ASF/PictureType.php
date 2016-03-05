@@ -126,5 +126,4 @@ class PictureType extends AbstractTag
             'Label' => 'Publisher Logo',
         ),
     );
-
 }

@@ -41,5 +41,4 @@ class SignedElement extends AbstractTag
     protected $Description = 'Signed Element';
 
     protected $flag_Binary = true;
-
 }

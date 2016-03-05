@@ -39,5 +39,4 @@ class ContrastBolusTotalDose extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Contrast Bolus Total Dose';
-
 }

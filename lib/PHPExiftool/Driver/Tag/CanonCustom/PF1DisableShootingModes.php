@@ -41,5 +41,4 @@ class PF1DisableShootingModes extends AbstractTag
     protected $Description = 'PF1 Disable Shooting Modes';
 
     protected $flag_Permanent = true;
-
 }

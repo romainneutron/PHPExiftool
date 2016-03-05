@@ -62,5 +62,4 @@ class HometownDST extends AbstractTag
             'Label' => 'Yes',
         ),
     );
-
 }

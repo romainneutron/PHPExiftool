@@ -39,5 +39,4 @@ class CompressedBitsPerPixel extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Compressed Bits Per Pixel';
-
 }

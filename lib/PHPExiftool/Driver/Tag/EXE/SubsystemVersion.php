@@ -41,5 +41,4 @@ class SubsystemVersion extends AbstractTag
     protected $Description = 'Subsystem Version';
 
     protected $MaxLength = 2;
-
 }

@@ -56,5 +56,4 @@ class InitialZoomLiveView extends AbstractTag
             'Label' => 'High Magnification',
         ),
     );
-
 }

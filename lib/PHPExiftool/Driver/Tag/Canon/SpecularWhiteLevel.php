@@ -41,5 +41,4 @@ class SpecularWhiteLevel extends AbstractTag
     protected $Description = 'Specular White Level';
 
     protected $flag_Permanent = true;
-
 }

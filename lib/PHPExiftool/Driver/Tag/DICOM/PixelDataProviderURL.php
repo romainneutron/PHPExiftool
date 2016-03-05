@@ -39,5 +39,4 @@ class PixelDataProviderURL extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Pixel Data Provider URL';
-
 }

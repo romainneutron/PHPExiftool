@@ -39,5 +39,4 @@ class Pager extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Pager';
-
 }

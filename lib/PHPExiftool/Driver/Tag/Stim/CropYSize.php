@@ -39,5 +39,4 @@ class CropYSize extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Crop Y Size';
-
 }

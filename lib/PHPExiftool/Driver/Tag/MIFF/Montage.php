@@ -39,5 +39,4 @@ class Montage extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Montage';
-
 }

@@ -39,5 +39,4 @@ class PreMedication extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Pre Medication';
-
 }

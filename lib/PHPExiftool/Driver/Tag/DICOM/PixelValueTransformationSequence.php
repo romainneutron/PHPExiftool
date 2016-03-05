@@ -39,5 +39,4 @@ class PixelValueTransformationSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Pixel Value Transformation Sequence';
-
 }

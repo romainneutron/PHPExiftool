@@ -39,5 +39,4 @@ class AttachedContours extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Attached Contours';
-
 }

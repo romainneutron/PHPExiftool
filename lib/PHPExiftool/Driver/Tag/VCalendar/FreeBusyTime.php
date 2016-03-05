@@ -39,5 +39,4 @@ class FreeBusyTime extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Free Busy Time';
-
 }

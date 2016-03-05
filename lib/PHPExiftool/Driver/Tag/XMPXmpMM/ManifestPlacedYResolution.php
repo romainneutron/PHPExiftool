@@ -41,5 +41,4 @@ class ManifestPlacedYResolution extends AbstractTag
     protected $Description = 'Manifest Placed Y Resolution';
 
     protected $flag_List = true;
-
 }

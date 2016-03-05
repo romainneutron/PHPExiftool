@@ -39,5 +39,4 @@ class CanSeekOnTime extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Can Seek On Time';
-
 }

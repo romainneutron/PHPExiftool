@@ -39,5 +39,4 @@ class AudioPacketFrameSize extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Audio Packet Frame Size';
-
 }

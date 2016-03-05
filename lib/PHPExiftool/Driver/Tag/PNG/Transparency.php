@@ -39,5 +39,4 @@ class Transparency extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Transparency';
-
 }

@@ -39,5 +39,4 @@ class AxialAcceptance extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Axial Acceptance';
-
 }

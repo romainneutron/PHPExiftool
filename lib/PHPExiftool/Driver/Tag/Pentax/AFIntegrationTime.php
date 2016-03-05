@@ -41,5 +41,4 @@ class AFIntegrationTime extends AbstractTag
     protected $Description = 'AF Integration Time';
 
     protected $flag_Permanent = true;
-
 }

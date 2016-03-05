@@ -41,5 +41,4 @@ class WhiteBoard extends AbstractTag
     protected $Description = 'White Board';
 
     protected $flag_Permanent = true;
-
 }

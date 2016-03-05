@@ -41,5 +41,4 @@ class ColorResponseUnit extends AbstractTag
     protected $Description = 'Color Response Unit';
 
     protected $local_g1 = 'ExifIFD';
-
 }

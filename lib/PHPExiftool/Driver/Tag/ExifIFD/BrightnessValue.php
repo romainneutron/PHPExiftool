@@ -41,5 +41,4 @@ class BrightnessValue extends AbstractTag
     protected $Description = 'Brightness Value';
 
     protected $local_g1 = 'ExifIFD';
-
 }

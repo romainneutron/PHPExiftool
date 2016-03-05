@@ -41,5 +41,4 @@ class StoNits extends AbstractTag
     protected $Description = 'Sto Nits';
 
     protected $local_g1 = 'ExifIFD';
-
 }

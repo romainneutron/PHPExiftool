@@ -56,5 +56,4 @@ class DRangeOptimizerMode extends AbstractTag
             'Label' => 'Manual',
         ),
     );
-
 }

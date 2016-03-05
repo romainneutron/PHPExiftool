@@ -39,5 +39,4 @@ class RadiopharmaceuticalVolume extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Radiopharmaceutical Volume';
-
 }

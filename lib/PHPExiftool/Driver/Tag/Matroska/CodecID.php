@@ -41,5 +41,4 @@ class CodecID extends AbstractTag
     protected $Description = 'Codec ID';
 
     protected $Index = 2;
-
 }

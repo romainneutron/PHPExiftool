@@ -39,5 +39,4 @@ class NominalPercentOfRespiratoryPhase extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Nominal Percent Of Respiratory Phase';
-
 }

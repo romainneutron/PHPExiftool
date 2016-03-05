@@ -39,5 +39,4 @@ class JumpToXPEP extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Jump To XPEP';
-
 }

@@ -50,5 +50,4 @@ class NeutralRawLinear extends AbstractTag
             'Label' => 'Yes',
         ),
     );
-
 }

@@ -41,5 +41,4 @@ class MPEGAudioRecodingDataset extends AbstractTag
     protected $Description = 'MPEG Audio Recoding Dataset';
 
     protected $local_g2 = 'Audio';
-
 }

@@ -39,5 +39,4 @@ class VolumeBasedCalculationTechnique extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Volume Based Calculation Technique';
-
 }

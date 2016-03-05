@@ -39,5 +39,4 @@ class AvailableRepresentations extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Available Representations';
-
 }

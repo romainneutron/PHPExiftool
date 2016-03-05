@@ -39,5 +39,4 @@ class AnchorPointVisibility extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Anchor Point Visibility';
-
 }

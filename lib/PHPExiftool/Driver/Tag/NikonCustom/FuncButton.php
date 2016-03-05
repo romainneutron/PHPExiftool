@@ -542,5 +542,4 @@ class FuncButton extends AbstractTag
             'Label' => '+ NEF (RAW)',
         ),
     );
-
 }

@@ -39,5 +39,4 @@ class AnnotationCueWordsSet extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Annotation Cue Words Set';
-
 }

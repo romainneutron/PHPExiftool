@@ -100,5 +100,4 @@ class FocusMode extends AbstractTag
             'Label' => 'Super Macro',
         ),
     );
-
 }

@@ -41,5 +41,4 @@ class HJRNReductionFlat extends AbstractTag
     protected $Description = 'HJR N Reduction Flat';
 
     protected $flag_Permanent = true;
-
 }

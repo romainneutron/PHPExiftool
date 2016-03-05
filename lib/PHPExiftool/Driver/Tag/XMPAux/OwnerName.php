@@ -41,5 +41,4 @@ class OwnerName extends AbstractTag
     protected $Description = 'Owner Name';
 
     protected $flag_Avoid = true;
-
 }

@@ -39,5 +39,4 @@ class PatientInstitutionResidence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Patient Institution Residence';
-
 }

@@ -39,5 +39,4 @@ class VideoPixelAspectRatio extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Video Pixel Aspect Ratio';
-
 }

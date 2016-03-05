@@ -39,5 +39,4 @@ class ROIObservationDescription extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'ROI Observation Description';
-
 }

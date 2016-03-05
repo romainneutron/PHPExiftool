@@ -39,5 +39,4 @@ class ReferencePixelY0 extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Reference Pixel Y0';
-
 }

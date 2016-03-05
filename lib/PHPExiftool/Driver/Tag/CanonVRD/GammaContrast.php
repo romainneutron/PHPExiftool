@@ -39,5 +39,4 @@ class GammaContrast extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Gamma Contrast';
-
 }

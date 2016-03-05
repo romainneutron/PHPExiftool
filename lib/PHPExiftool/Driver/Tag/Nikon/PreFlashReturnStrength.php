@@ -41,5 +41,4 @@ class PreFlashReturnStrength extends AbstractTag
     protected $Description = 'Pre Flash Return Strength';
 
     protected $flag_Permanent = true;
-
 }

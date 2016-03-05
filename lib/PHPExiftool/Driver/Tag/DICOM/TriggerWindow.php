@@ -39,5 +39,4 @@ class TriggerWindow extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Trigger Window';
-
 }

@@ -41,5 +41,4 @@ class ReleaseSetting extends AbstractTag
     protected $Description = 'Release Setting';
 
     protected $flag_Permanent = true;
-
 }

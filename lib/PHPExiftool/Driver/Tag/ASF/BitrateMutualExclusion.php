@@ -39,5 +39,4 @@ class BitrateMutualExclusion extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Bitrate Mutual Exclusion';
-
 }

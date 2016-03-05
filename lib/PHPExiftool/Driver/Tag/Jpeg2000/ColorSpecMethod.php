@@ -58,5 +58,4 @@ class ColorSpecMethod extends AbstractTag
             'Label' => 'Vendor Color',
         ),
     );
-
 }

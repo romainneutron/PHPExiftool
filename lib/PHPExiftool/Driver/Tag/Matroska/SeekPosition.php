@@ -39,5 +39,4 @@ class SeekPosition extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Seek Position';
-
 }

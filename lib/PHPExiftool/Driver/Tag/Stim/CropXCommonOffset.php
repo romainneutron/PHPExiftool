@@ -50,5 +50,4 @@ class CropXCommonOffset extends AbstractTag
             'Label' => 'Individual Offset Setting',
         ),
     );
-
 }

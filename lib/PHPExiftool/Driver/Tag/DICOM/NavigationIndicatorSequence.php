@@ -39,5 +39,4 @@ class NavigationIndicatorSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Navigation Indicator Sequence';
-
 }

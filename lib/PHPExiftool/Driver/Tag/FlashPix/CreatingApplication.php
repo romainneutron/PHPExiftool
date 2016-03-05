@@ -39,5 +39,4 @@ class CreatingApplication extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Creating Application';
-
 }

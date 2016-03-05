@@ -41,5 +41,4 @@ class ExposureCount extends AbstractTag
     protected $Description = 'Exposure Count';
 
     protected $flag_Permanent = true;
-
 }

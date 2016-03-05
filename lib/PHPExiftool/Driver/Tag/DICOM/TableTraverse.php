@@ -39,5 +39,4 @@ class TableTraverse extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Table Traverse';
-
 }

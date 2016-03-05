@@ -54,5 +54,4 @@ class TimerLength extends AbstractTag
             'Label' => 'Enable',
         ),
     );
-
 }

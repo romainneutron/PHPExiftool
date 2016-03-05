@@ -39,5 +39,4 @@ class DataSize extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Data Size';
-
 }

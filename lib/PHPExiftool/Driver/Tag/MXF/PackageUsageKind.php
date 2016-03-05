@@ -39,5 +39,4 @@ class PackageUsageKind extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Package Usage Kind';
-
 }

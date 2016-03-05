@@ -132,5 +132,4 @@ class AELExposureIndicator extends AbstractTag
             'Label' => 'Over Scale',
         ),
     );
-
 }

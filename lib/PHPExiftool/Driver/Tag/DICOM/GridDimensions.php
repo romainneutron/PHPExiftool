@@ -39,5 +39,4 @@ class GridDimensions extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Grid Dimensions';
-
 }

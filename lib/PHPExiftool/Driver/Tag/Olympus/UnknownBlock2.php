@@ -43,5 +43,4 @@ class UnknownBlock2 extends AbstractTag
     protected $flag_Binary = true;
 
     protected $flag_Permanent = true;
-
 }

@@ -84,5 +84,4 @@ class UserDef2PictureStyle extends AbstractTag
             'Label' => 'Auto',
         ),
     );
-
 }

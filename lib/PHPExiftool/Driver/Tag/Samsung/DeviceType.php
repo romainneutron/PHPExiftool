@@ -64,5 +64,4 @@ class DeviceType extends AbstractTag
             'Label' => 'SMX Video Camera',
         ),
     );
-
 }

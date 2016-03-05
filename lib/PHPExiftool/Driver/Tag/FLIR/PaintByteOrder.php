@@ -39,5 +39,4 @@ class PaintByteOrder extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Paint Byte Order';
-
 }

@@ -39,5 +39,4 @@ class ScannerModel extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Scanner Model';
-
 }

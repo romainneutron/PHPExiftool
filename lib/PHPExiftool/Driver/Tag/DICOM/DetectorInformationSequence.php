@@ -39,5 +39,4 @@ class DetectorInformationSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Detector Information Sequence';
-
 }

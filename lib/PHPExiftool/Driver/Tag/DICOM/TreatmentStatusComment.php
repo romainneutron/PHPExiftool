@@ -39,5 +39,4 @@ class TreatmentStatusComment extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Treatment Status Comment';
-
 }

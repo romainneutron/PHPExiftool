@@ -39,5 +39,4 @@ class CueBlockNumber extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Cue Block Number';
-
 }

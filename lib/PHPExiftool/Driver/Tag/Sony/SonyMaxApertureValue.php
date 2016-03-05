@@ -41,5 +41,4 @@ class SonyMaxApertureValue extends AbstractTag
     protected $Description = 'Sony Max Aperture Value';
 
     protected $flag_Permanent = true;
-
 }

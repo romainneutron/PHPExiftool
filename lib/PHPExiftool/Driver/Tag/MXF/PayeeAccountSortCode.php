@@ -39,5 +39,4 @@ class PayeeAccountSortCode extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Payee Account Sort Code';
-
 }

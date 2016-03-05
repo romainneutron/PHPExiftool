@@ -41,5 +41,4 @@ class ImageLimitExposureBias extends AbstractTag
     protected $Description = 'Image Limit Exposure Bias';
 
     protected $local_g2 = 'Image';
-
 }

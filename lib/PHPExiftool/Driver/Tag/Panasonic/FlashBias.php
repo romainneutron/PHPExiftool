@@ -41,5 +41,4 @@ class FlashBias extends AbstractTag
     protected $Description = 'Flash Bias';
 
     protected $flag_Permanent = true;
-
 }

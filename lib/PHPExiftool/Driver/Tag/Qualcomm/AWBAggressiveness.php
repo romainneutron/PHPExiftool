@@ -41,5 +41,4 @@ class AWBAggressiveness extends AbstractTag
     protected $Description = 'AWB Aggressiveness';
 
     protected $flag_Permanent = true;
-
 }

@@ -88,5 +88,4 @@ class DriveModeSetting extends AbstractTag
             'Label' => 'Remote Commander',
         ),
     );
-
 }

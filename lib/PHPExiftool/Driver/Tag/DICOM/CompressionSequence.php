@@ -39,5 +39,4 @@ class CompressionSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Compression Sequence';
-
 }

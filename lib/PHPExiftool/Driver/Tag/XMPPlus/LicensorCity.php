@@ -41,5 +41,4 @@ class LicensorCity extends AbstractTag
     protected $Description = 'Licensor City';
 
     protected $flag_List = true;
-
 }

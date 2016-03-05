@@ -39,5 +39,4 @@ class AestheticValue extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Aesthetic Value';
-
 }

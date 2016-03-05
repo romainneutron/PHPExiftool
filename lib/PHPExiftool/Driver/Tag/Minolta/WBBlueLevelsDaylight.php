@@ -43,5 +43,4 @@ class WBBlueLevelsDaylight extends AbstractTag
     protected $flag_Permanent = true;
 
     protected $MaxLength = 7;
-
 }

@@ -39,5 +39,4 @@ class PictureDisplayRate extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Picture Display Rate';
-
 }

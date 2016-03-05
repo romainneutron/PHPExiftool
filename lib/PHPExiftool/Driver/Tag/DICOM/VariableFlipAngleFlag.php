@@ -39,5 +39,4 @@ class VariableFlipAngleFlag extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Variable Flip Angle Flag';
-
 }

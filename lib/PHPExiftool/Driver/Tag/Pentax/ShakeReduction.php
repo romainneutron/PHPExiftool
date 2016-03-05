@@ -124,5 +124,4 @@ class ShakeReduction extends AbstractTag
             'Label' => 'On (AA simulation type 2)',
         ),
     );
-
 }

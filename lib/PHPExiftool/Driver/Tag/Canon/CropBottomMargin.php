@@ -41,5 +41,4 @@ class CropBottomMargin extends AbstractTag
     protected $Description = 'Crop Bottom Margin';
 
     protected $flag_Permanent = true;
-
 }

@@ -39,5 +39,4 @@ class ImageTriggerDelay extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Image Trigger Delay';
-
 }

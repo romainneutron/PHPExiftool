@@ -60,5 +60,4 @@ class Contrast extends AbstractTag
     );
 
     protected $flag_Avoid = 'mixed';
-
 }

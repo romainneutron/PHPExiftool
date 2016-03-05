@@ -39,5 +39,4 @@ class Nop extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'No Operation';
-
 }

@@ -41,5 +41,4 @@ class LicensorPostalCode extends AbstractTag
     protected $Description = 'Licensor Postal Code';
 
     protected $flag_List = true;
-
 }

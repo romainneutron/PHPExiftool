@@ -41,5 +41,4 @@ class OrderNumber extends AbstractTag
     protected $Description = 'Order Number';
 
     protected $flag_Permanent = true;
-
 }

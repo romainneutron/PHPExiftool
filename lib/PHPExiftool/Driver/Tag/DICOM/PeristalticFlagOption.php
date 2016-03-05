@@ -39,5 +39,4 @@ class PeristalticFlagOption extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Peristaltic Flag Option';
-
 }

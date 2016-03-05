@@ -41,5 +41,4 @@ class ServingSize extends AbstractTag
     protected $Description = 'Serving Size';
 
     protected $flag_Avoid = true;
-
 }

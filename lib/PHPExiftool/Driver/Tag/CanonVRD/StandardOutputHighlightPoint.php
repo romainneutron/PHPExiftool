@@ -39,5 +39,4 @@ class StandardOutputHighlightPoint extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Standard Output Highlight Point';
-
 }

@@ -56,5 +56,4 @@ class PictureControlAdjust extends AbstractTag
             'Label' => 'Full Control',
         ),
     );
-
 }

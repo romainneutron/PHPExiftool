@@ -39,5 +39,4 @@ class SchedStationGeographicLocCodeSeq extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Sched Station Geographic Loc Code Seq';
-
 }

@@ -39,5 +39,4 @@ class ImageSourceEK extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Image Source EK';
-
 }

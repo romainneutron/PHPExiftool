@@ -41,5 +41,4 @@ class DCLocationRemarks extends AbstractTag
     protected $Description = 'DC Location Remarks';
 
     protected $local_g2 = 'Location';
-
 }

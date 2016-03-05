@@ -41,5 +41,4 @@ class ImageHistory extends AbstractTag
     protected $Description = 'Image History';
 
     protected $local_g1 = 'ExifIFD';
-
 }

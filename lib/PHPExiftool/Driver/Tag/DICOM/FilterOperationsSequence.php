@@ -39,5 +39,4 @@ class FilterOperationsSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Filter Operations Sequence';
-
 }

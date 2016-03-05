@@ -39,5 +39,4 @@ class ExposureInMicroAmpSec extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Exposure In Micro Amp Sec';
-
 }

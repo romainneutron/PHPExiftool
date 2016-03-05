@@ -41,5 +41,4 @@ class LightValuePeriphery extends AbstractTag
     protected $Description = 'Light Value Periphery';
 
     protected $flag_Permanent = true;
-
 }

@@ -39,5 +39,4 @@ class QuantizationDefault extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Quantization Default';
-
 }

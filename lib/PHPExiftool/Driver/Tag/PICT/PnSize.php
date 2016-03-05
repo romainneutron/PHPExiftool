@@ -39,5 +39,4 @@ class PnSize extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Pen Size';
-
 }

@@ -39,5 +39,4 @@ class MetadataID extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Metadata ID';
-
 }

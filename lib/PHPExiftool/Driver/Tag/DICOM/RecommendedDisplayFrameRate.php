@@ -39,5 +39,4 @@ class RecommendedDisplayFrameRate extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Recommended Display Frame Rate';
-
 }

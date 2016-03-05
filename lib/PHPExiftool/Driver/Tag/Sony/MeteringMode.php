@@ -176,5 +176,4 @@ class MeteringMode extends AbstractTag
             'Label' => 'Spot',
         ),
     );
-
 }

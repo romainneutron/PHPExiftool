@@ -41,5 +41,4 @@ class UnderflowColor extends AbstractTag
     protected $Description = 'Underflow Color';
 
     protected $MaxLength = 3;
-
 }

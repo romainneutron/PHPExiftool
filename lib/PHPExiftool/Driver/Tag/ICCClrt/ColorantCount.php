@@ -39,5 +39,4 @@ class ColorantCount extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Colorant Count';
-
 }

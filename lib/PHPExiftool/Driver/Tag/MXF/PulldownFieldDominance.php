@@ -39,5 +39,4 @@ class PulldownFieldDominance extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Pulldown Field Dominance';
-
 }

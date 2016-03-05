@@ -41,5 +41,4 @@ class CommanderGroupBManualOutput extends AbstractTag
     protected $Description = 'Commander Group B Manual Output';
 
     protected $flag_Permanent = true;
-
 }

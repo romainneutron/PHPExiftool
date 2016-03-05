@@ -39,5 +39,4 @@ class ApertureValue extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Aperture Value';
-
 }

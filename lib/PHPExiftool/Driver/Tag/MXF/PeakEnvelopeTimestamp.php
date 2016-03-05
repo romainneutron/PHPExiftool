@@ -39,5 +39,4 @@ class PeakEnvelopeTimestamp extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Peak Envelope Timestamp';
-
 }

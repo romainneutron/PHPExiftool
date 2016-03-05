@@ -39,5 +39,4 @@ class HalfValueLayer extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Half Value Layer';
-
 }

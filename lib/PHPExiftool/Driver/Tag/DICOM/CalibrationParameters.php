@@ -39,5 +39,4 @@ class CalibrationParameters extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Calibration Parameters';
-
 }

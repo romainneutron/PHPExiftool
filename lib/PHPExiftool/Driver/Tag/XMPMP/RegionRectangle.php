@@ -41,5 +41,4 @@ class RegionRectangle extends AbstractTag
     protected $Description = 'Region Rectangle';
 
     protected $flag_List = true;
-
 }

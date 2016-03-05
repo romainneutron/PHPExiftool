@@ -39,5 +39,4 @@ class ChartMagVarYear extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Chart Mag Var Year';
-
 }

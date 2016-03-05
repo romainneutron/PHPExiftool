@@ -39,5 +39,4 @@ class ColorTemperature extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Color Temperature';
-
 }

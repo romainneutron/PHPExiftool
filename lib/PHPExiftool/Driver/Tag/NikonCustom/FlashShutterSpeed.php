@@ -92,5 +92,4 @@ class FlashShutterSpeed extends AbstractTag
             'Label' => '30 s',
         ),
     );
-
 }

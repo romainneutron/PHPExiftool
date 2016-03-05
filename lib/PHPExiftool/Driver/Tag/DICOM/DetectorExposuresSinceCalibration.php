@@ -39,5 +39,4 @@ class DetectorExposuresSinceCalibration extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Detector Exposures Since Calibration';
-
 }

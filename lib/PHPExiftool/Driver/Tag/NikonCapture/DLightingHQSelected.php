@@ -52,5 +52,4 @@ class DLightingHQSelected extends AbstractTag
             'Label' => 'Yes',
         ),
     );
-
 }

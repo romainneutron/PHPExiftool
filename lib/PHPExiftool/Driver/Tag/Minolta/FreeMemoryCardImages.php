@@ -41,5 +41,4 @@ class FreeMemoryCardImages extends AbstractTag
     protected $Description = 'Free Memory Card Images';
 
     protected $flag_Permanent = true;
-
 }

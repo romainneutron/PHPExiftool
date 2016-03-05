@@ -39,5 +39,4 @@ class IntegerSlop extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Integer Slop';
-
 }

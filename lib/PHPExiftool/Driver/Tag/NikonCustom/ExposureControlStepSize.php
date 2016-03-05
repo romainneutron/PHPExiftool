@@ -100,5 +100,4 @@ class ExposureControlStepSize extends AbstractTag
             'Label' => '1/2 EV',
         ),
     );
-
 }

@@ -39,5 +39,4 @@ class RadiusOfCurvature extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Radius Of Curvature';
-
 }

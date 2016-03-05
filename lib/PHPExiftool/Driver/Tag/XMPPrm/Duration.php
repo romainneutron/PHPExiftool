@@ -41,5 +41,4 @@ class Duration extends AbstractTag
     protected $Description = 'Duration';
 
     protected $flag_Avoid = true;
-
 }

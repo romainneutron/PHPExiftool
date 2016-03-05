@@ -41,5 +41,4 @@ class ValidAFPoints extends AbstractTag
     protected $Description = 'Valid AF Points';
 
     protected $flag_Permanent = true;
-
 }

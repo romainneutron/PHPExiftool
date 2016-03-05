@@ -41,5 +41,4 @@ class BelowColor extends AbstractTag
     protected $Description = 'Below Color';
 
     protected $MaxLength = 3;
-
 }

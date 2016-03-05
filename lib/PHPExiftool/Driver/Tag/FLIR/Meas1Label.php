@@ -39,5 +39,4 @@ class Meas1Label extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Meas 1 Label';
-
 }

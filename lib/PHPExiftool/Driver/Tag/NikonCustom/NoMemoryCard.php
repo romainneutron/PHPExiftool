@@ -132,5 +132,4 @@ class NoMemoryCard extends AbstractTag
             'Label' => 'Enable Release',
         ),
     );
-
 }

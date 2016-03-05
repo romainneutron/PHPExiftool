@@ -39,5 +39,4 @@ class GammaUnsharpMaskFineness extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Gamma Unsharp Mask Fineness';
-
 }

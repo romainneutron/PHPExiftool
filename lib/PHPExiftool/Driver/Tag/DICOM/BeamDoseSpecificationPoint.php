@@ -39,5 +39,4 @@ class BeamDoseSpecificationPoint extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Beam Dose Specification Point';
-
 }

@@ -39,5 +39,4 @@ class EraseRgn extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Erase Rgn';
-
 }

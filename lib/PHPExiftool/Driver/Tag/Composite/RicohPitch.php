@@ -41,5 +41,4 @@ class RicohPitch extends AbstractTag
     protected $Description = 'Ricoh Pitch';
 
     protected $local_g2 = 'Camera';
-
 }

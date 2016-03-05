@@ -39,5 +39,4 @@ class CalculatedScaleMax extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Calculated Scale Max';
-
 }

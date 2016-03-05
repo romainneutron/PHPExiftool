@@ -54,5 +54,4 @@ class CropUnits extends AbstractTag
             'Label' => 'cm',
         ),
     );
-
 }

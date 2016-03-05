@@ -39,5 +39,4 @@ class PrintingBitDepth extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Printing Bit Depth';
-
 }

@@ -41,5 +41,4 @@ class R2ATbl15 extends AbstractTag
     protected $Description = 'R2 A Tbl 15';
 
     protected $flag_Permanent = true;
-
 }

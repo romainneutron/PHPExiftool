@@ -39,5 +39,4 @@ class IsCompleted extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Is Completed';
-
 }

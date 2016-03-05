@@ -64,5 +64,4 @@ class SubSelectorPlusDials extends AbstractTag
             'Label' => 'Shooting Bank Menu',
         ),
     );
-
 }

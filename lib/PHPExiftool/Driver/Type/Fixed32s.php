@@ -19,5 +19,4 @@ class Fixed32s extends AbstractType
     protected $ExiftoolName = 'fixed32s';
 
     protected $PHPMap = 'int';
-
 }

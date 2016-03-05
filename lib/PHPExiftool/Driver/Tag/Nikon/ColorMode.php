@@ -41,5 +41,4 @@ class ColorMode extends AbstractTag
     protected $Description = 'Color Mode';
 
     protected $flag_Permanent = true;
-
 }

@@ -41,5 +41,4 @@ class DigitalDEEHighlightAdj extends AbstractTag
     protected $Description = 'Digital DEE Highlight Adj';
 
     protected $flag_Permanent = true;
-
 }

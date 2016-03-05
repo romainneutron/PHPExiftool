@@ -132,5 +132,4 @@ class WBAdjLighting extends AbstractTag
             'Label' => 'Sodium Vapor Lamps',
         ),
     );
-
 }

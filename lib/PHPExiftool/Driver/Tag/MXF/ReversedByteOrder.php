@@ -39,5 +39,4 @@ class ReversedByteOrder extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Reversed Byte Order';
-
 }

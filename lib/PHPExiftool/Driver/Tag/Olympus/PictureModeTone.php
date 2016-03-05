@@ -68,5 +68,4 @@ class PictureModeTone extends AbstractTag
             'Label' => 'Green',
         ),
     );
-
 }

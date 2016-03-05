@@ -39,5 +39,4 @@ class ConcatenationUID extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Concatenation UID';
-
 }

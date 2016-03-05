@@ -41,5 +41,4 @@ class FileID extends AbstractTag
     protected $Description = 'File ID';
 
     protected $MaxLength = 16;
-
 }

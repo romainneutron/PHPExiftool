@@ -39,5 +39,4 @@ class ChapterTimeEnd extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Chapter Time End';
-
 }

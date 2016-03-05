@@ -41,5 +41,4 @@ class WBGRGBLevelsDaylight extends AbstractTag
     protected $Description = 'WB GRGB Levels Daylight';
 
     protected $MaxLength = 4;
-
 }

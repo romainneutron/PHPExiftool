@@ -39,5 +39,4 @@ class HorizontalGraphicsSafePercentage extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Horizontal Graphics Safe Percentage';
-
 }

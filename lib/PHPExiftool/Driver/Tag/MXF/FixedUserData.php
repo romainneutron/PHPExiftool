@@ -39,5 +39,4 @@ class FixedUserData extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Fixed User Data';
-
 }

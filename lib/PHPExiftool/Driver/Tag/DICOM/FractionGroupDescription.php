@@ -39,5 +39,4 @@ class FractionGroupDescription extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Fraction Group Description';
-
 }

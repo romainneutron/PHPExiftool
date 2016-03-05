@@ -39,5 +39,4 @@ class SBAInputImageColorspace extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'SBA Input Image Colorspace';
-
 }

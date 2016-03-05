@@ -50,5 +50,4 @@ class Compression extends AbstractTag
             'Label' => 'Huffman-coded baseline JPEG',
         ),
     );
-
 }

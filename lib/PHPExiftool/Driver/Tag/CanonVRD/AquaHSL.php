@@ -39,5 +39,4 @@ class AquaHSL extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Aqua HSL';
-
 }

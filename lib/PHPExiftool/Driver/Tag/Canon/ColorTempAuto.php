@@ -41,5 +41,4 @@ class ColorTempAuto extends AbstractTag
     protected $Description = 'Color Temp Auto';
 
     protected $flag_Permanent = true;
-
 }

@@ -39,5 +39,4 @@ class TableTopVerticalPositionTolerance extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Table Top Vertical Position Tolerance';
-
 }

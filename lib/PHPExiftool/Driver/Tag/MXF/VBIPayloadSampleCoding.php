@@ -39,5 +39,4 @@ class VBIPayloadSampleCoding extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'VBI Payload Sample Coding';
-
 }

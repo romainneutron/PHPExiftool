@@ -102,5 +102,4 @@ class FileAttributes extends AbstractTag
             'Label' => 'Encrypted',
         ),
     );
-
 }

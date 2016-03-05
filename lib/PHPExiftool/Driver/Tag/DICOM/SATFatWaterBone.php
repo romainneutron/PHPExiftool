@@ -39,5 +39,4 @@ class SATFatWaterBone extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'SAT Fat Water Bone';
-
 }

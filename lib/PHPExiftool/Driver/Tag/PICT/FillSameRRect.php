@@ -39,5 +39,4 @@ class FillSameRRect extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Fill Same R Rect';
-
 }

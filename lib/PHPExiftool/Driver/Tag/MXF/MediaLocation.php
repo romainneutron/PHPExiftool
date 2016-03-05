@@ -39,5 +39,4 @@ class MediaLocation extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Media Location';
-
 }

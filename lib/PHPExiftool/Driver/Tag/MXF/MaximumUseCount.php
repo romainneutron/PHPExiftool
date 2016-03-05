@@ -39,5 +39,4 @@ class MaximumUseCount extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Maximum Use Count';
-
 }

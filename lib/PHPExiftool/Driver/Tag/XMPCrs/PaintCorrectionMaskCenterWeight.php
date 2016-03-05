@@ -39,5 +39,4 @@ class PaintCorrectionMaskCenterWeight extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Paint Correction Mask Center Weight';
-
 }

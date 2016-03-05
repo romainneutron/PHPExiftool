@@ -41,5 +41,4 @@ class HasSBA extends AbstractTag
     protected $Description = 'Has SBA';
 
     protected $MaxLength = 3;
-
 }

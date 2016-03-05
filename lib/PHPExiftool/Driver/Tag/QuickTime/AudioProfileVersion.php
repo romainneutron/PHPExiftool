@@ -39,5 +39,4 @@ class AudioProfileVersion extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Audio Profile Version';
-
 }

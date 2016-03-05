@@ -41,5 +41,4 @@ class NullMediaHeader extends AbstractTag
     protected $Description = 'Null Media Header';
 
     protected $flag_Binary = true;
-
 }

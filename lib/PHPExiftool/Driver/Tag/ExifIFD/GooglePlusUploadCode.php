@@ -41,5 +41,4 @@ class GooglePlusUploadCode extends AbstractTag
     protected $Description = 'Google Plus Upload Code';
 
     protected $local_g1 = 'ExifIFD';
-
 }

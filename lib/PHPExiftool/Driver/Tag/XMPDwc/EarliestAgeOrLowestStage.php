@@ -39,5 +39,4 @@ class EarliestAgeOrLowestStage extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Earliest Age Or Lowest Stage';
-
 }

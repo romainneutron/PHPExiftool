@@ -39,5 +39,4 @@ class BitDepth extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Bit Depth';
-
 }

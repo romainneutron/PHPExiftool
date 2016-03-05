@@ -41,5 +41,4 @@ class ManifestReferenceFilePath extends AbstractTag
     protected $Description = 'Manifest Reference File Path';
 
     protected $flag_List = true;
-
 }

@@ -108,5 +108,4 @@ class DriveMode extends AbstractTag
             'Label' => 'Auto-N',
         ),
     );
-
 }

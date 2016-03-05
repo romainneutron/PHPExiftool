@@ -39,5 +39,4 @@ class Event extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Event';
-
 }

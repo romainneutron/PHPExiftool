@@ -39,5 +39,4 @@ class ImageHorizontalFlip extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Image Horizontal Flip';
-
 }

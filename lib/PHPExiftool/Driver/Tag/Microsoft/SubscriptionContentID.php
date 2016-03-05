@@ -39,5 +39,4 @@ class SubscriptionContentID extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Subscription Content ID';
-
 }

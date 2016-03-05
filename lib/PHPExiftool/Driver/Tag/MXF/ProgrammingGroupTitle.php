@@ -39,5 +39,4 @@ class ProgrammingGroupTitle extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Programming Group Title';
-
 }

@@ -39,5 +39,4 @@ class StateOrProvinceOrCountyName extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'State Or Province Or County Name';
-
 }

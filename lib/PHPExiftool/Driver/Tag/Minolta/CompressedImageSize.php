@@ -41,5 +41,4 @@ class CompressedImageSize extends AbstractTag
     protected $Description = 'Compressed Image Size';
 
     protected $flag_Permanent = true;
-
 }

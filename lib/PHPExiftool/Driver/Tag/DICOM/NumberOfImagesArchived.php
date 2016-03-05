@@ -39,5 +39,4 @@ class NumberOfImagesArchived extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Number Of Images Archived';
-
 }

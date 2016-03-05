@@ -41,5 +41,4 @@ class MPEGAudioBitrate extends AbstractTag
     protected $Description = 'MPEG Audio Bitrate';
 
     protected $local_g2 = 'Audio';
-
 }

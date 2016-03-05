@@ -41,5 +41,4 @@ class BuildDate extends AbstractTag
     protected $Description = 'Build Date';
 
     protected $local_g2 = 'Time';
-
 }

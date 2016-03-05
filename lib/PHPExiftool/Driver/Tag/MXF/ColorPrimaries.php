@@ -39,5 +39,4 @@ class ColorPrimaries extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Color Primaries';
-
 }

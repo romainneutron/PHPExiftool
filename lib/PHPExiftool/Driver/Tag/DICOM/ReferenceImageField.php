@@ -39,5 +39,4 @@ class ReferenceImageField extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Reference Image Field';
-
 }

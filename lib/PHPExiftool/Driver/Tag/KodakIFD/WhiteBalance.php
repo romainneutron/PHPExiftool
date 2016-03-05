@@ -44,5 +44,4 @@ class WhiteBalance extends AbstractTag
 
     protected $Values = array(
     );
-
 }

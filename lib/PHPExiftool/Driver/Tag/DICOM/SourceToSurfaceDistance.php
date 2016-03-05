@@ -39,5 +39,4 @@ class SourceToSurfaceDistance extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Source To Surface Distance';
-
 }

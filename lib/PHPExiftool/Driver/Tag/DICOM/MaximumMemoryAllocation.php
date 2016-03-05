@@ -39,5 +39,4 @@ class MaximumMemoryAllocation extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Maximum Memory Allocation';
-
 }

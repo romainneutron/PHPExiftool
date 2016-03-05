@@ -76,5 +76,4 @@ class ISOSetting extends AbstractTag
             'Label' => '200 (Zone Matching High)',
         ),
     );
-
 }

@@ -39,5 +39,4 @@ class CRC32 extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'CRC32';
-
 }

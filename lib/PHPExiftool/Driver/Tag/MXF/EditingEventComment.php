@@ -39,5 +39,4 @@ class EditingEventComment extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Editing Event Comment';
-
 }

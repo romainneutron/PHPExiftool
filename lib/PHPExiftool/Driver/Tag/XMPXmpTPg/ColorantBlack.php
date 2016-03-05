@@ -41,5 +41,4 @@ class ColorantBlack extends AbstractTag
     protected $Description = 'Colorant Black';
 
     protected $flag_List = true;
-
 }

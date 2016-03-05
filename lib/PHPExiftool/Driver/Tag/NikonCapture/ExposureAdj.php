@@ -41,5 +41,4 @@ class ExposureAdj extends AbstractTag
     protected $Description = 'Exposure Adj';
 
     protected $flag_Permanent = true;
-
 }

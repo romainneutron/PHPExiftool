@@ -43,5 +43,4 @@ class CanonAFInfo20x000d extends AbstractTag
     protected $flag_Permanent = true;
 
     protected $Index = 1;
-
 }

@@ -41,5 +41,4 @@ class AboutCvTermName extends AbstractTag
     protected $Description = 'About Cv Term Name';
 
     protected $flag_List = true;
-
 }

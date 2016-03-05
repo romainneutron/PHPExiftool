@@ -39,5 +39,4 @@ class TotalCollimationWidth extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Total Collimation Width';
-
 }

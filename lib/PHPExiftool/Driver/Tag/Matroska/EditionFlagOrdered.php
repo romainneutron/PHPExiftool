@@ -39,5 +39,4 @@ class EditionFlagOrdered extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Edition Flag Ordered';
-
 }

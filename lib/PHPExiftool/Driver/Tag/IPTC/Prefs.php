@@ -43,5 +43,4 @@ class Prefs extends AbstractTag
     protected $local_g2 = 'Image';
 
     protected $MaxLength = 64;
-
 }

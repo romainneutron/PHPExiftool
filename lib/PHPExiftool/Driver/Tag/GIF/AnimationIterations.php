@@ -39,5 +39,4 @@ class AnimationIterations extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Animation Iterations';
-
 }

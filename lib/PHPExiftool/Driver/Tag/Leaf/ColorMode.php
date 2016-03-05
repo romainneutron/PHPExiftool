@@ -39,5 +39,4 @@ class ColorMode extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Color Mode';
-
 }

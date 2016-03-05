@@ -39,5 +39,4 @@ class ObserverType extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Observer Type';
-
 }

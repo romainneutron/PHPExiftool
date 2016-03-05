@@ -41,5 +41,4 @@ class PreviewImage extends AbstractTag
     protected $Description = 'Preview Image';
 
     protected $Index = 'mixed';
-
 }

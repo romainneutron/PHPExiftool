@@ -39,5 +39,4 @@ class DetectorBinning extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Detector Binning';
-
 }

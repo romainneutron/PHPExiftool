@@ -39,5 +39,4 @@ class ROIName extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'ROI Name';
-
 }

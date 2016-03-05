@@ -39,5 +39,4 @@ class SourceIsotopeName extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Source Isotope Name';
-
 }

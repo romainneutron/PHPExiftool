@@ -39,5 +39,4 @@ class ImageReadyVariables extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Image Ready Variables';
-
 }

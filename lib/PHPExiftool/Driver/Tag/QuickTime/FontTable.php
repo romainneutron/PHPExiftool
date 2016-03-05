@@ -39,5 +39,4 @@ class FontTable extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Font Table';
-
 }

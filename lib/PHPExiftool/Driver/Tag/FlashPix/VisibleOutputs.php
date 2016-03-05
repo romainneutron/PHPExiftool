@@ -39,5 +39,4 @@ class VisibleOutputs extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Visible Outputs';
-
 }

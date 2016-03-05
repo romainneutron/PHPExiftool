@@ -92,5 +92,4 @@ class Sharpness extends AbstractTag
             'Label' => 'Hard',
         ),
     );
-
 }

@@ -39,5 +39,4 @@ class LocalizedCameraModel extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Localized Camera Model';
-
 }

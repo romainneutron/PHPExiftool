@@ -39,5 +39,4 @@ class EpisodeName extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Episode Name';
-
 }

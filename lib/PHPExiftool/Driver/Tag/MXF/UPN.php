@@ -39,5 +39,4 @@ class UPN extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'UPN';
-
 }

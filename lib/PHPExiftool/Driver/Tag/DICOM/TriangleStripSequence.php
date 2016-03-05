@@ -39,5 +39,4 @@ class TriangleStripSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Triangle Strip Sequence';
-
 }

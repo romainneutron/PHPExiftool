@@ -39,5 +39,4 @@ class ContentMaturityRating extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Content Maturity Rating';
-
 }

@@ -41,5 +41,4 @@ class PanoramaFrameHeight extends AbstractTag
     protected $Description = 'Panorama Frame Height';
 
     protected $flag_Permanent = true;
-
 }

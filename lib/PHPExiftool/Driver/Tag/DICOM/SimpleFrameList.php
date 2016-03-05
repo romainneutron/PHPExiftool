@@ -39,5 +39,4 @@ class SimpleFrameList extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Simple Frame List';
-
 }

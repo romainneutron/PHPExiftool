@@ -39,5 +39,4 @@ class InstructionSet extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Instruction Set';
-
 }

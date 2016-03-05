@@ -41,5 +41,4 @@ class DCPointRadiusSpatialFit extends AbstractTag
     protected $Description = 'DC Point Radius Spatial Fit';
 
     protected $local_g2 = 'Location';
-
 }

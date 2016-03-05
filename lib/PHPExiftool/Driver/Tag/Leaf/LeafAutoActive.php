@@ -39,5 +39,4 @@ class LeafAutoActive extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Leaf Auto Active';
-
 }

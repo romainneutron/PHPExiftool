@@ -41,5 +41,4 @@ class OptoElectricConvFactor extends AbstractTag
     protected $Description = 'Opto-Electric Conv Factor';
 
     protected $local_g2 = 'Camera';
-
 }

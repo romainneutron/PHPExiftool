@@ -52,5 +52,4 @@ class AutoPortraitFramed extends AbstractTag
             'Label' => 'Yes',
         ),
     );
-
 }

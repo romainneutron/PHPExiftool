@@ -39,5 +39,4 @@ class PrescribedFlowAxis extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Prescribed Flow Axis';
-
 }

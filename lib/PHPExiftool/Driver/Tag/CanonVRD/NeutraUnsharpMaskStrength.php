@@ -39,5 +39,4 @@ class NeutraUnsharpMaskStrength extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Neutra Unsharp Mask Strength';
-
 }

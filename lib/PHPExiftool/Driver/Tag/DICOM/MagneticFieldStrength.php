@@ -39,5 +39,4 @@ class MagneticFieldStrength extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Magnetic Field Strength';
-
 }

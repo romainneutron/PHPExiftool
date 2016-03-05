@@ -39,5 +39,4 @@ class EventAnnotationSets extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Event Annotation Sets';
-
 }

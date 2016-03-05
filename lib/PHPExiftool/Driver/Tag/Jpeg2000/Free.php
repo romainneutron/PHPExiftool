@@ -39,5 +39,4 @@ class Free extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Free';
-
 }

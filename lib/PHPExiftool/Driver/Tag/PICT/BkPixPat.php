@@ -39,5 +39,4 @@ class BkPixPat extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Background Pixel Pattern';
-
 }

@@ -39,5 +39,4 @@ class CropBottom extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Crop Bottom';
-
 }

@@ -39,5 +39,4 @@ class InstanceAvailability extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Instance Availability';
-
 }

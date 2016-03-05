@@ -41,5 +41,4 @@ class OutputImageHeight extends AbstractTag
     protected $Description = 'Output Image Height';
 
     protected $flag_Permanent = true;
-
 }

@@ -19,5 +19,4 @@ class Fixed32u extends AbstractType
     protected $ExiftoolName = 'fixed32u';
 
     protected $PHPMap = 'int';
-
 }

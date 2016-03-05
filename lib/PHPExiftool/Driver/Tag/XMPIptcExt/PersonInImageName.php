@@ -41,5 +41,4 @@ class PersonInImageName extends AbstractTag
     protected $Description = 'Person In Image Name';
 
     protected $flag_List = true;
-
 }

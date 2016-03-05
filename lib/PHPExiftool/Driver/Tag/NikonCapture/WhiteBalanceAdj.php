@@ -52,5 +52,4 @@ class WhiteBalanceAdj extends AbstractTag
             'Label' => 'On',
         ),
     );
-
 }

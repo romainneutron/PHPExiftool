@@ -116,5 +116,4 @@ class ReverseIndicators extends AbstractTag
             'Label' => '- 0 +',
         ),
     );
-
 }

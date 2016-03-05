@@ -41,5 +41,4 @@ class RegionAreaW extends AbstractTag
     protected $Description = 'Region Area W';
 
     protected $flag_List = true;
-
 }

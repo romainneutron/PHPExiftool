@@ -50,5 +50,4 @@ class ToneCurveMode extends AbstractTag
             'Label' => 'Luminance',
         ),
     );
-
 }

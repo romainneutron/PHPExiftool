@@ -39,5 +39,4 @@ class KeypointKind extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Keypoint Kind';
-
 }

@@ -41,5 +41,4 @@ class MatrixStructure extends AbstractTag
     protected $Description = 'Matrix Structure';
 
     protected $MaxLength = 9;
-
 }

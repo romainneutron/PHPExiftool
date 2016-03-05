@@ -41,5 +41,4 @@ class DateTimeCompleted extends AbstractTag
     protected $Description = 'Date Time Completed';
 
     protected $local_g2 = 'Time';
-
 }

@@ -39,5 +39,4 @@ class ImageBoxTileHorizontalDimension extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Image Box Tile Horizontal Dimension';
-
 }

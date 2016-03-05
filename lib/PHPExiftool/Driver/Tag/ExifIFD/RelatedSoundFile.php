@@ -41,5 +41,4 @@ class RelatedSoundFile extends AbstractTag
     protected $Description = 'Related Sound File';
 
     protected $local_g1 = 'ExifIFD';
-
 }

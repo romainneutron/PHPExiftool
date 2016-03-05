@@ -39,5 +39,4 @@ class StorageStreamPathname extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Storage-Stream Pathname';
-
 }

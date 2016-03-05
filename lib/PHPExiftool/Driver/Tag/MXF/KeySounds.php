@@ -39,5 +39,4 @@ class KeySounds extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Key Sounds';
-
 }

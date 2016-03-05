@@ -39,5 +39,4 @@ class LimitsInUnitsOfPercent extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Limits In Units Of Percent';
-
 }

@@ -39,5 +39,4 @@ class UpperLowerPixelValues extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Upper Lower Pixel Values';
-
 }

@@ -39,5 +39,4 @@ class PETPositionSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'PET Position Sequence';
-
 }

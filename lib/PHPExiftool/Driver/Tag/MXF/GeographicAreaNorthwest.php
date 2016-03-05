@@ -39,5 +39,4 @@ class GeographicAreaNorthwest extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Geographic Area Northwest';
-
 }

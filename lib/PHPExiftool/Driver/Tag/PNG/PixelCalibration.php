@@ -41,5 +41,4 @@ class PixelCalibration extends AbstractTag
     protected $Description = 'Pixel Calibration';
 
     protected $flag_Binary = true;
-
 }

@@ -39,5 +39,4 @@ class AngularPosition extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Angular Position';
-
 }

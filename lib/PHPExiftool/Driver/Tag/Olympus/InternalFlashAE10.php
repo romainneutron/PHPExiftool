@@ -41,5 +41,4 @@ class InternalFlashAE10 extends AbstractTag
     protected $Description = 'Internal Flash AE1 0';
 
     protected $flag_Permanent = true;
-
 }

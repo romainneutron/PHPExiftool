@@ -39,5 +39,4 @@ class UserCollection extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'User Collection';
-
 }

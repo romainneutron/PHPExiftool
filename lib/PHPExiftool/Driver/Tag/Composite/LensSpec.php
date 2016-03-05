@@ -41,5 +41,4 @@ class LensSpec extends AbstractTag
     protected $Description = 'Lens';
 
     protected $local_g2 = 'Camera';
-
 }

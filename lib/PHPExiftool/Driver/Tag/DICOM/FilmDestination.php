@@ -39,5 +39,4 @@ class FilmDestination extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Film Destination';
-
 }

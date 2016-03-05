@@ -39,5 +39,4 @@ class AudioOutputPrecedence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Audio Output Precedence';
-
 }

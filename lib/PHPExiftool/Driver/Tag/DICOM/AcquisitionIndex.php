@@ -39,5 +39,4 @@ class AcquisitionIndex extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Acquisition Index';
-
 }

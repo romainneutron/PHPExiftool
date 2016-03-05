@@ -39,5 +39,4 @@ class PaletteColorTableUID extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Palette Color Table UID';
-
 }

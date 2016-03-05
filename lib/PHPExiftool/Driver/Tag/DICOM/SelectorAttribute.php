@@ -39,5 +39,4 @@ class SelectorAttribute extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Selector Attribute';
-
 }

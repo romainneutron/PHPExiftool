@@ -39,5 +39,4 @@ class SpherePower extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Sphere Power';
-
 }

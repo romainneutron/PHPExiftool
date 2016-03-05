@@ -39,5 +39,4 @@ class ZoomFactor extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Zoom Factor';
-
 }

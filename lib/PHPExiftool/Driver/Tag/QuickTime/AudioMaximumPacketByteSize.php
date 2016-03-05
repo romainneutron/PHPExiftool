@@ -39,5 +39,4 @@ class AudioMaximumPacketByteSize extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Audio Maximum Packet Byte Size';
-
 }

@@ -39,5 +39,4 @@ class GridFrameOffsetVector extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Grid Frame Offset Vector';
-
 }

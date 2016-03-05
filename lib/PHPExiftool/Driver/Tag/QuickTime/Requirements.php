@@ -39,5 +39,4 @@ class Requirements extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Requirements';
-
 }

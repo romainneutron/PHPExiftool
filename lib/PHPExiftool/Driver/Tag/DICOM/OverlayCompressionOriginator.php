@@ -39,5 +39,4 @@ class OverlayCompressionOriginator extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Overlay Compression Originator';
-
 }

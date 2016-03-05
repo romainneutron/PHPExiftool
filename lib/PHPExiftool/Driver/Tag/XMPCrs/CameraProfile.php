@@ -39,5 +39,4 @@ class CameraProfile extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Camera Profile';
-
 }

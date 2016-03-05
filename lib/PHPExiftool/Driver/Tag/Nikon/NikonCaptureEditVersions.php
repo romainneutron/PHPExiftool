@@ -45,5 +45,4 @@ class NikonCaptureEditVersions extends AbstractTag
     protected $flag_Unsafe = 'mixed';
 
     protected $Index = 'mixed';
-
 }

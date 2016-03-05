@@ -41,5 +41,4 @@ class Profession extends AbstractTag
     protected $Description = 'Profession';
 
     protected $flag_Avoid = true;
-
 }

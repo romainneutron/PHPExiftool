@@ -39,5 +39,4 @@ class LyricsURI extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Lyrics URI';
-
 }

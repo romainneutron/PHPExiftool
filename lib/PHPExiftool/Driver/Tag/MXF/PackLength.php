@@ -39,5 +39,4 @@ class PackLength extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Pack Length';
-
 }

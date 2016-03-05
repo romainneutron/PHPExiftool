@@ -39,5 +39,4 @@ class AlphaMaximumRef extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Alpha Maximum Ref';
-
 }

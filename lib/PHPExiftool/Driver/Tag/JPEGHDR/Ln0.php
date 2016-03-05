@@ -39,5 +39,4 @@ class Ln0 extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Ln0';
-
 }

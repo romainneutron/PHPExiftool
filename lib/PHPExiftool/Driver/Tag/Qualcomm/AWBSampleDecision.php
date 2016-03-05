@@ -41,5 +41,4 @@ class AWBSampleDecision extends AbstractTag
     protected $Description = 'AWB Sample Decision';
 
     protected $flag_Permanent = true;
-
 }

@@ -41,5 +41,4 @@ class TimeReference extends AbstractTag
     protected $Description = 'Time Reference';
 
     protected $MaxLength = 2;
-
 }

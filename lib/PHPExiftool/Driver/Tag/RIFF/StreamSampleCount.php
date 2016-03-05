@@ -41,5 +41,4 @@ class StreamSampleCount extends AbstractTag
     protected $Description = 'Stream Sample Count';
 
     protected $Index = 2;
-
 }

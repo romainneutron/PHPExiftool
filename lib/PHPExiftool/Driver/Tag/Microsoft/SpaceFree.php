@@ -39,5 +39,4 @@ class SpaceFree extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Space Free';
-
 }

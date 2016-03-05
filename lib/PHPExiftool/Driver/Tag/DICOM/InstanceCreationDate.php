@@ -39,5 +39,4 @@ class InstanceCreationDate extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Instance Creation Date';
-
 }

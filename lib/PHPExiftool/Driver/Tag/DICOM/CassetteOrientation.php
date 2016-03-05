@@ -39,5 +39,4 @@ class CassetteOrientation extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Cassette Orientation';
-
 }

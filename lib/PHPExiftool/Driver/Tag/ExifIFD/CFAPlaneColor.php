@@ -41,5 +41,4 @@ class CFAPlaneColor extends AbstractTag
     protected $Description = 'CFA Plane Color';
 
     protected $local_g1 = 'ExifIFD';
-
 }

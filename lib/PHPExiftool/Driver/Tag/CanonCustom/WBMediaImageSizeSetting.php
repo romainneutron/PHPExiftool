@@ -56,5 +56,4 @@ class WBMediaImageSizeSetting extends AbstractTag
             'Label' => 'Off (disable button)',
         ),
     );
-
 }

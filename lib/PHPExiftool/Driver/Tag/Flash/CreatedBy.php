@@ -39,5 +39,4 @@ class CreatedBy extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Created By';
-
 }

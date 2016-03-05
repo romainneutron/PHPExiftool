@@ -52,5 +52,4 @@ class FolderName extends AbstractTag
             'Label' => 'Data Form',
         ),
     );
-
 }

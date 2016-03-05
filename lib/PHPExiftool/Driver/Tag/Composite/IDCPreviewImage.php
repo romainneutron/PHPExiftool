@@ -41,5 +41,4 @@ class IDCPreviewImage extends AbstractTag
     protected $Description = 'IDC Preview Image';
 
     protected $local_g2 = 'Preview';
-
 }

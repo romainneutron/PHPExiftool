@@ -41,5 +41,4 @@ class Track extends AbstractTag
     protected $Description = 'Track';
 
     protected $MaxLength = 2;
-
 }

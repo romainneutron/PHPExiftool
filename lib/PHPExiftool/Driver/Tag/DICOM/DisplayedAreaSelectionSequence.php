@@ -39,5 +39,4 @@ class DisplayedAreaSelectionSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Displayed Area Selection Sequence';
-
 }

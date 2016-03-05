@@ -41,5 +41,4 @@ class AFTestMode extends AbstractTag
     protected $Description = 'AF Test Mode';
 
     protected $flag_Permanent = true;
-
 }

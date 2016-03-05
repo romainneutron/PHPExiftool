@@ -39,5 +39,4 @@ class CArmPositionerTabletopRelationship extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'C Arm Positioner Tabletop Relationship';
-
 }

@@ -48,5 +48,4 @@ class ComplianceProfile extends AbstractTag
             'Label' => 'Three',
         ),
     );
-
 }

@@ -41,5 +41,4 @@ class JPEGRestartInterval extends AbstractTag
     protected $Description = 'JPEG Restart Interval';
 
     protected $local_g1 = 'ExifIFD';
-
 }

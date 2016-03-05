@@ -52,5 +52,4 @@ class SpotMeteringMode extends AbstractTag
             'Label' => 'AF Point',
         ),
     );
-
 }

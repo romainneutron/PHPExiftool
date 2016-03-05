@@ -39,5 +39,4 @@ class SegmentedKSpaceTraversal extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Segmented K Space Traversal';
-
 }

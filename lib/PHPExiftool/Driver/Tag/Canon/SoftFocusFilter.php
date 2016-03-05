@@ -48,5 +48,4 @@ class SoftFocusFilter extends AbstractTag
             'Label' => 'Off',
         ),
     );
-
 }

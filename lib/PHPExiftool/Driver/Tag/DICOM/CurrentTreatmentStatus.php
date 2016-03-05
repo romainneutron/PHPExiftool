@@ -39,5 +39,4 @@ class CurrentTreatmentStatus extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Current Treatment Status';
-
 }

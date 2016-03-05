@@ -39,5 +39,4 @@ class PositionerIsocenterDetRotAngle extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Positioner Isocenter Det Rot Angle';
-
 }

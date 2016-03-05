@@ -41,5 +41,4 @@ class RicohMake extends AbstractTag
     protected $Description = 'Ricoh Make';
 
     protected $flag_Permanent = true;
-
 }

@@ -39,5 +39,4 @@ class FluenceDataScale extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Fluence Data Scale';
-
 }

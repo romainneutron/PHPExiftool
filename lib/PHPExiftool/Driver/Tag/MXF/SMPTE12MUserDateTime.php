@@ -41,5 +41,4 @@ class SMPTE12MUserDateTime extends AbstractTag
     protected $Description = 'SMPTE12M User Date Time';
 
     protected $local_g2 = 'Time';
-
 }

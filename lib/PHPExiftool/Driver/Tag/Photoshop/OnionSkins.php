@@ -39,5 +39,4 @@ class OnionSkins extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Onion Skins';
-
 }

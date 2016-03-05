@@ -41,5 +41,4 @@ class WBGreenTungsten extends AbstractTag
     protected $Description = 'WB Green Tungsten';
 
     protected $flag_Permanent = true;
-
 }

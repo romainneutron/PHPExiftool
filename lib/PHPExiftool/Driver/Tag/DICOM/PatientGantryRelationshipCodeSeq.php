@@ -39,5 +39,4 @@ class PatientGantryRelationshipCodeSeq extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Patient Gantry Relationship Code Seq';
-
 }

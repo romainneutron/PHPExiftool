@@ -41,5 +41,4 @@ class SBAExposureRecord extends AbstractTag
     protected $Description = 'SBA Exposure Record';
 
     protected $flag_Binary = true;
-
 }

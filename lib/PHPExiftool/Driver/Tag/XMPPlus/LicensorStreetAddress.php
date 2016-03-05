@@ -41,5 +41,4 @@ class LicensorStreetAddress extends AbstractTag
     protected $Description = 'Licensor Street Address';
 
     protected $flag_List = true;
-
 }

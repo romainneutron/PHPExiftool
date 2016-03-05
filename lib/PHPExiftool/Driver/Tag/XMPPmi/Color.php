@@ -68,5 +68,4 @@ class Color extends AbstractTag
             'Label' => 'Tritone',
         ),
     );
-
 }

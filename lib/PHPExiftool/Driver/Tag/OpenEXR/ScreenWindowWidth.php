@@ -39,5 +39,4 @@ class ScreenWindowWidth extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Screen Window Width';
-
 }

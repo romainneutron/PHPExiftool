@@ -652,5 +652,4 @@ class CodePage extends AbstractTag
             'Label' => 'Unicode (UTF-8)',
         ),
     );
-
 }

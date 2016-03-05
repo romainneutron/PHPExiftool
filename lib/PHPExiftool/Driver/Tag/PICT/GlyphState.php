@@ -41,5 +41,4 @@ class GlyphState extends AbstractTag
     protected $Description = 'Glyph State';
 
     protected $MaxLength = 8;
-
 }

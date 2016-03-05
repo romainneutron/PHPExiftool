@@ -39,5 +39,4 @@ class ToneCurveName2012 extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Tone Curve Name 2012';
-
 }

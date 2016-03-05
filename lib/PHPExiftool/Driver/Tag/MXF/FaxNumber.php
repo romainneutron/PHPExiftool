@@ -39,5 +39,4 @@ class FaxNumber extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Fax Number';
-
 }

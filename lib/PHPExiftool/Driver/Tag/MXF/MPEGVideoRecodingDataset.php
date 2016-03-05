@@ -39,5 +39,4 @@ class MPEGVideoRecodingDataset extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'MPEG Video Recoding Dataset';
-
 }

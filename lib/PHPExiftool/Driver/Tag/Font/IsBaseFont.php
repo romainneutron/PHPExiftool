@@ -39,5 +39,4 @@ class IsBaseFont extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Is Base Font';
-
 }

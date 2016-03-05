@@ -39,5 +39,4 @@ class LightS extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Light S';
-
 }

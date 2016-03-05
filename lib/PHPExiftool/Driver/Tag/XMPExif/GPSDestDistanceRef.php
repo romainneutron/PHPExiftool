@@ -56,5 +56,4 @@ class GPSDestDistanceRef extends AbstractTag
             'Label' => 'Nautical Miles',
         ),
     );
-
 }

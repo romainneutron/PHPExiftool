@@ -41,5 +41,4 @@ class FrmSkipPttrn extends AbstractTag
     protected $Description = 'Frm Skip Pttrn';
 
     protected $flag_Permanent = true;
-
 }

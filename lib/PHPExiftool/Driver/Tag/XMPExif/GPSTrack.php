@@ -41,5 +41,4 @@ class GPSTrack extends AbstractTag
     protected $Description = 'GPS Track';
 
     protected $local_g2 = 'Location';
-
 }

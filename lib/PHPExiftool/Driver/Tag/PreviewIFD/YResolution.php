@@ -41,5 +41,4 @@ class YResolution extends AbstractTag
     protected $Description = 'Y Resolution';
 
     protected $flag_Permanent = true;
-
 }

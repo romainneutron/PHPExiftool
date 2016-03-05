@@ -64,5 +64,4 @@ class FlashControl extends AbstractTag
             'Label' => 'Pre-flash TTL',
         ),
     );
-
 }

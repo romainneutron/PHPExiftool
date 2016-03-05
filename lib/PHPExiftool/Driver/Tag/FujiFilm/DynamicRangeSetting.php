@@ -68,5 +68,4 @@ class DynamicRangeSetting extends AbstractTag
             'Label' => 'Film Simulation',
         ),
     );
-
 }

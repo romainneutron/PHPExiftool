@@ -39,5 +39,4 @@ class MediaIsSAP extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Media Is SAP';
-
 }

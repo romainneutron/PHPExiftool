@@ -39,5 +39,4 @@ class EraseSameRgn extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Erase Same Rgn';
-
 }

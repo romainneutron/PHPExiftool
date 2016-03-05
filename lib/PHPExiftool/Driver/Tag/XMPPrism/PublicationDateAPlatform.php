@@ -41,5 +41,4 @@ class PublicationDateAPlatform extends AbstractTag
     protected $Description = 'Publication Date A-platform';
 
     protected $flag_List = true;
-
 }

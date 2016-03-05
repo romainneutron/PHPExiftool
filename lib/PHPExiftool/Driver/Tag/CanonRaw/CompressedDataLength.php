@@ -41,5 +41,4 @@ class CompressedDataLength extends AbstractTag
     protected $Description = 'Compressed Data Length';
 
     protected $flag_Permanent = true;
-
 }

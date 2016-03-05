@@ -41,5 +41,4 @@ class CompressedDataOffset extends AbstractTag
     protected $Description = 'Compressed Data Offset';
 
     protected $flag_Permanent = true;
-
 }

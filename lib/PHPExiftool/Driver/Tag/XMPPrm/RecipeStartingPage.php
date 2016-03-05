@@ -41,5 +41,4 @@ class RecipeStartingPage extends AbstractTag
     protected $Description = 'Recipe Starting Page';
 
     protected $flag_Avoid = true;
-
 }

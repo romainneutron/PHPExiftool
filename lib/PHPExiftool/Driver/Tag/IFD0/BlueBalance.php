@@ -39,5 +39,4 @@ class BlueBalance extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Blue Balance';
-
 }

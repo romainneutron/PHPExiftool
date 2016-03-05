@@ -41,5 +41,4 @@ class Format extends AbstractTag
     protected $Description = 'Format';
 
     protected $flag_Avoid = true;
-
 }

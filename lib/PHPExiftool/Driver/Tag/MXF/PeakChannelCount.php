@@ -39,5 +39,4 @@ class PeakChannelCount extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Peak Channel Count';
-
 }

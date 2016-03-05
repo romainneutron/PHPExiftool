@@ -39,5 +39,4 @@ class MemoryBitDepth extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Memory Bit Depth';
-
 }

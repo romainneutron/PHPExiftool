@@ -41,5 +41,4 @@ class ApertureValue extends AbstractTag
     protected $Description = 'Aperture Value';
 
     protected $flag_Permanent = true;
-
 }

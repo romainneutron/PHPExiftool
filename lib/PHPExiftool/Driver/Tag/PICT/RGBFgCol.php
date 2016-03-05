@@ -39,5 +39,4 @@ class RGBFgCol extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Foreground Color';
-
 }

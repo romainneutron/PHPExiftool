@@ -41,5 +41,4 @@ class BabyAge extends AbstractTag
     protected $Description = 'Baby Age';
 
     protected $flag_Permanent = true;
-
 }

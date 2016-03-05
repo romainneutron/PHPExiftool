@@ -41,5 +41,4 @@ class Sony0x940f extends AbstractTag
     protected $Description = 'Sony 0x940f';
 
     protected $flag_Permanent = true;
-
 }

@@ -39,5 +39,4 @@ class ShotLocation extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Shot Location';
-
 }

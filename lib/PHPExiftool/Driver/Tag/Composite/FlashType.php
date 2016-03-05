@@ -52,5 +52,4 @@ class FlashType extends AbstractTag
             'Label' => 'External',
         ),
     );
-
 }

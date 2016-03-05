@@ -39,5 +39,4 @@ class AnalogMonitoringAndControlCodingKind extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Analog Monitoring And Control Coding Kind';
-
 }

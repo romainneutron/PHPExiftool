@@ -39,5 +39,4 @@ class BlendingLUT2Sequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Blending LUT2 Sequence';
-
 }

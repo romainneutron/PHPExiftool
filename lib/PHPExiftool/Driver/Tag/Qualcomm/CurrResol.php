@@ -41,5 +41,4 @@ class CurrResol extends AbstractTag
     protected $Description = 'Curr Resol';
 
     protected $flag_Permanent = true;
-
 }

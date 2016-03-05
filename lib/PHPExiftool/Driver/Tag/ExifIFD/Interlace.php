@@ -41,5 +41,4 @@ class Interlace extends AbstractTag
     protected $Description = 'Interlace';
 
     protected $local_g1 = 'ExifIFD';
-
 }

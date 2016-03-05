@@ -39,5 +39,4 @@ class ShootingDistance extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Shooting Distance';
-
 }

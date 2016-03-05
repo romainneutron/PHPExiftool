@@ -39,5 +39,4 @@ class Meas1Params extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Meas 1 Params';
-
 }

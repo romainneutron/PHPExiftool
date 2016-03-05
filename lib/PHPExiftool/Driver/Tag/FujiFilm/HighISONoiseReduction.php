@@ -64,5 +64,4 @@ class HighISONoiseReduction extends AbstractTag
             'Label' => 'Medium Weak',
         ),
     );
-
 }

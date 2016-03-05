@@ -39,5 +39,4 @@ class ConTake extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Con Take';
-
 }

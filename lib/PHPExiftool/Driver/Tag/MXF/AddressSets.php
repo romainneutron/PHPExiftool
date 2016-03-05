@@ -39,5 +39,4 @@ class AddressSets extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Address Sets';
-
 }

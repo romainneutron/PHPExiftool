@@ -39,5 +39,4 @@ class IsNetworkFeed extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Is Network Feed';
-
 }

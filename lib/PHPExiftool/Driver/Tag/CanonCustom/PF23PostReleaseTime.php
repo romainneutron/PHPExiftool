@@ -41,5 +41,4 @@ class PF23PostReleaseTime extends AbstractTag
     protected $Description = 'PF23 Post Release Time';
 
     protected $flag_Permanent = true;
-
 }

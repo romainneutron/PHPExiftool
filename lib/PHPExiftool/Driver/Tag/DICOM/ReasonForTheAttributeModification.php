@@ -39,5 +39,4 @@ class ReasonForTheAttributeModification extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Reason For The Attribute Modification';
-
 }

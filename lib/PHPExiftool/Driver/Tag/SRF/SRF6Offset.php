@@ -41,5 +41,4 @@ class SRF6Offset extends AbstractTag
     protected $Description = 'SRF6 Offset';
 
     protected $flag_Permanent = true;
-
 }

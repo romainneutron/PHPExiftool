@@ -39,5 +39,4 @@ class RectificationType extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Rectification Type';
-
 }

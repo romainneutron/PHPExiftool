@@ -39,5 +39,4 @@ class Photoshop2Info extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Photoshop 2 Info';
-
 }

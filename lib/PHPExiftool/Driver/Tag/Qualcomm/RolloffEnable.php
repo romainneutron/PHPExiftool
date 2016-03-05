@@ -41,5 +41,4 @@ class RolloffEnable extends AbstractTag
     protected $Description = 'Rolloff Enable';
 
     protected $flag_Permanent = true;
-
 }

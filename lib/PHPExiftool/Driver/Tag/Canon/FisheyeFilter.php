@@ -48,5 +48,4 @@ class FisheyeFilter extends AbstractTag
             'Label' => 'Off',
         ),
     );
-
 }

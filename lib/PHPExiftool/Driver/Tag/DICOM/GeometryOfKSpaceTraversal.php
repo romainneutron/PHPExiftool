@@ -39,5 +39,4 @@ class GeometryOfKSpaceTraversal extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Geometry Of K Space Traversal';
-
 }

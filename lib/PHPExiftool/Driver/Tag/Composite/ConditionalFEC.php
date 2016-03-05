@@ -41,5 +41,4 @@ class ConditionalFEC extends AbstractTag
     protected $Description = 'Flash Exposure Compensation';
 
     protected $local_g2 = 'Camera';
-
 }

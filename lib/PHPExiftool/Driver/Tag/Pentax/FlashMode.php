@@ -120,5 +120,4 @@ class FlashMode extends AbstractTag
             'Label' => 'Red-eye reduction',
         ),
     );
-
 }

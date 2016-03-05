@@ -39,5 +39,4 @@ class TableType extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Table Type';
-
 }

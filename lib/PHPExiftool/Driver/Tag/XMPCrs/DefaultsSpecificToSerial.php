@@ -39,5 +39,4 @@ class DefaultsSpecificToSerial extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Defaults Specific To Serial';
-
 }

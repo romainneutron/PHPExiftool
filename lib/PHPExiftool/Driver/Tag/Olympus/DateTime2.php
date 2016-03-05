@@ -45,5 +45,4 @@ class DateTime2 extends AbstractTag
     protected $flag_Permanent = true;
 
     protected $MaxLength = 24;
-
 }

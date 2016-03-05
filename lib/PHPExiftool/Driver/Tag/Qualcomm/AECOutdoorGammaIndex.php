@@ -41,5 +41,4 @@ class AECOutdoorGammaIndex extends AbstractTag
     protected $Description = 'AEC Outdoor Gamma Index';
 
     protected $flag_Permanent = true;
-
 }

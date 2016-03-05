@@ -48,5 +48,4 @@ class ColorToneFaithful extends AbstractTag
             'Label' => 'n/a',
         ),
     );
-
 }

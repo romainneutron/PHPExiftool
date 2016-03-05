@@ -39,5 +39,4 @@ class Nationality extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Nationality';
-
 }

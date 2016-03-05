@@ -39,5 +39,4 @@ class PregnancyStatus extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Pregnancy Status';
-
 }

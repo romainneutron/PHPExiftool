@@ -39,5 +39,4 @@ class ChemicalShiftsMaxIntegrateLimitHz extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Chemical Shifts Max Integrate Limit Hz';
-
 }

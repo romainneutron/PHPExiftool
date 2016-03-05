@@ -56,5 +56,4 @@ class MacroMode extends AbstractTag
             'Label' => 'Super Macro',
         ),
     );
-
 }

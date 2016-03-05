@@ -41,5 +41,4 @@ class FileFormat extends AbstractTag
     protected $Description = 'File Format';
 
     protected $flag_Permanent = true;
-
 }

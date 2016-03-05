@@ -39,5 +39,4 @@ class BWFVersion extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'BWF Version';
-
 }

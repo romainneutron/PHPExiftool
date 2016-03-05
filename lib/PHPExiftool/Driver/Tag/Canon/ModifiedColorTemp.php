@@ -41,5 +41,4 @@ class ModifiedColorTemp extends AbstractTag
     protected $Description = 'Modified Color Temp';
 
     protected $flag_Permanent = true;
-
 }

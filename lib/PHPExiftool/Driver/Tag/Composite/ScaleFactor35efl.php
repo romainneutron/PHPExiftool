@@ -41,5 +41,4 @@ class ScaleFactor35efl extends AbstractTag
     protected $Description = 'Scale Factor To 35 mm Equivalent';
 
     protected $local_g2 = 'Camera';
-
 }

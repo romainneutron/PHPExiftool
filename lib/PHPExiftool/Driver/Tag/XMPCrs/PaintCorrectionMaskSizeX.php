@@ -39,5 +39,4 @@ class PaintCorrectionMaskSizeX extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Paint Correction Mask Size X';
-
 }

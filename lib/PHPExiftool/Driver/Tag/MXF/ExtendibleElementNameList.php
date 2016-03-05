@@ -39,5 +39,4 @@ class ExtendibleElementNameList extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Extendible Element Name List';
-
 }

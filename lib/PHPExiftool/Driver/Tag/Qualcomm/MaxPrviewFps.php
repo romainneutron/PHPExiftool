@@ -41,5 +41,4 @@ class MaxPrviewFps extends AbstractTag
     protected $Description = 'Max Prview Fps';
 
     protected $flag_Permanent = true;
-
 }

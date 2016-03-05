@@ -56,5 +56,4 @@ class ExtenderStatus extends AbstractTag
             'Label' => 'Removed',
         ),
     );
-
 }

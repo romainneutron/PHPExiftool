@@ -39,5 +39,4 @@ class DataElementsSigned extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Data Elements Signed';
-
 }

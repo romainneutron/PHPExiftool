@@ -39,5 +39,4 @@ class BracketShot extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Bracket Shot';
-
 }

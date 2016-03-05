@@ -41,5 +41,4 @@ class ImageHeight extends AbstractTag
     protected $Description = 'Image Height';
 
     protected $local_g1 = 'ExifIFD';
-
 }

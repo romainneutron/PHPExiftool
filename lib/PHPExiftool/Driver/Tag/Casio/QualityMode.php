@@ -56,5 +56,4 @@ class QualityMode extends AbstractTag
             'Label' => 'Fine',
         ),
     );
-
 }

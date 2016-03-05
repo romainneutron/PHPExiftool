@@ -39,5 +39,4 @@ class ChExtra extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Added Width for NonSpace Characters';
-
 }

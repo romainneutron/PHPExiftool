@@ -140,5 +140,4 @@ class ChrominanceNRTIFFJPEG extends AbstractTag
     );
 
     protected $Index = 'mixed';
-
 }

@@ -39,5 +39,4 @@ class TrackOverlay extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Track Overlay';
-
 }

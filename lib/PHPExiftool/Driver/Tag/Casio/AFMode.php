@@ -68,5 +68,4 @@ class AFMode extends AbstractTag
             'Label' => 'Intelligent',
         ),
     );
-
 }

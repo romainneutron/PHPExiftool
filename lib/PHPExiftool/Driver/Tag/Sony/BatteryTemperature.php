@@ -41,5 +41,4 @@ class BatteryTemperature extends AbstractTag
     protected $Description = 'Battery Temperature';
 
     protected $flag_Permanent = true;
-
 }

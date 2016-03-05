@@ -39,5 +39,4 @@ class TStop extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'T Stop';
-
 }

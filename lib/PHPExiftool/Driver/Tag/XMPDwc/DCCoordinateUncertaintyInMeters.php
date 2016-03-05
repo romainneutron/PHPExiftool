@@ -41,5 +41,4 @@ class DCCoordinateUncertaintyInMeters extends AbstractTag
     protected $Description = 'DC Coordinate Uncertainty In Meters';
 
     protected $local_g2 = 'Location';
-
 }

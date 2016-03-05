@@ -39,5 +39,4 @@ class ImageFields extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Image Fields';
-
 }

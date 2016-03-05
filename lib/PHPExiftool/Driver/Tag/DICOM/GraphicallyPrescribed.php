@@ -39,5 +39,4 @@ class GraphicallyPrescribed extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Graphically Prescribed';
-
 }

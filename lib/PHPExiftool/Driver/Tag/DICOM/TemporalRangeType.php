@@ -39,5 +39,4 @@ class TemporalRangeType extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Temporal Range Type';
-
 }

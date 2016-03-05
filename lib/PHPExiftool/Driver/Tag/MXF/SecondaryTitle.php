@@ -39,5 +39,4 @@ class SecondaryTitle extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Secondary Title';
-
 }

@@ -41,5 +41,4 @@ class GPSDOP extends AbstractTag
     protected $Description = 'GPSDOP';
 
     protected $local_g2 = 'Location';
-
 }

@@ -39,5 +39,4 @@ class ScreenWindowCenter extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Screen Window Center';
-
 }

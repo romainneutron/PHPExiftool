@@ -39,5 +39,4 @@ class IsVoiceover extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Is Voiceover';
-
 }

@@ -39,5 +39,4 @@ class PGFVersion extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'PGF Version';
-
 }

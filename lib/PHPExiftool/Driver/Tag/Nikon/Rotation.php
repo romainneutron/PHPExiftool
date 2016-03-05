@@ -60,5 +60,4 @@ class Rotation extends AbstractTag
             'Label' => 'Rotated 180',
         ),
     );
-
 }

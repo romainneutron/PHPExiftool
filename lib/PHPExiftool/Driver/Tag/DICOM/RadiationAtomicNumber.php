@@ -39,5 +39,4 @@ class RadiationAtomicNumber extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Radiation Atomic Number';
-
 }

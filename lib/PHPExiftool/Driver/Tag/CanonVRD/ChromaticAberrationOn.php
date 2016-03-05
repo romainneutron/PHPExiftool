@@ -50,5 +50,4 @@ class ChromaticAberrationOn extends AbstractTag
             'Label' => 'Yes',
         ),
     );
-
 }

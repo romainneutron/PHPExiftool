@@ -39,5 +39,4 @@ class GantryDetectorSlew extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Gantry Detector Slew';
-
 }

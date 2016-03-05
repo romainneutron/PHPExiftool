@@ -52,5 +52,4 @@ class ColorBalanceAdj extends AbstractTag
             'Label' => 'On',
         ),
     );
-
 }

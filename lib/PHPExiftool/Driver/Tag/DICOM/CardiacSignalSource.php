@@ -39,5 +39,4 @@ class CardiacSignalSource extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Cardiac Signal Source';
-
 }

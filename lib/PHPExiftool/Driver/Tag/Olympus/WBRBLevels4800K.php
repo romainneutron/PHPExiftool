@@ -43,5 +43,4 @@ class WBRBLevels4800K extends AbstractTag
     protected $flag_Permanent = true;
 
     protected $MaxLength = 2;
-
 }

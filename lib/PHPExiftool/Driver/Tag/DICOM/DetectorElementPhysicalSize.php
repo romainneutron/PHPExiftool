@@ -39,5 +39,4 @@ class DetectorElementPhysicalSize extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Detector Element Physical Size';
-
 }

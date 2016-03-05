@@ -39,5 +39,4 @@ class RenditionOfFilePath extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Rendition Of File Path';
-
 }

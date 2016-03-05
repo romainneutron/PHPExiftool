@@ -39,5 +39,4 @@ class ImagePrintStatus extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Image Print Status';
-
 }

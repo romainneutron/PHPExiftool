@@ -41,5 +41,4 @@ class DayltConvLumaV2 extends AbstractTag
     protected $Description = 'Daylt Conv Luma V2';
 
     protected $flag_Permanent = true;
-
 }

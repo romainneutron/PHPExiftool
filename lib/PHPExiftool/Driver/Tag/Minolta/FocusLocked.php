@@ -60,5 +60,4 @@ class FocusLocked extends AbstractTag
             'Label' => 'Yes',
         ),
     );
-
 }

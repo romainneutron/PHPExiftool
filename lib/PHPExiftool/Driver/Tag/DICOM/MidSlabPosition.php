@@ -39,5 +39,4 @@ class MidSlabPosition extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Mid Slab Position';
-
 }

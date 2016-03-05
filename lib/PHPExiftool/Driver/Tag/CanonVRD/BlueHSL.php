@@ -39,5 +39,4 @@ class BlueHSL extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Blue HSL';
-
 }

@@ -39,5 +39,4 @@ class ImageResolution extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Image Resolution';
-
 }

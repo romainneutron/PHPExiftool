@@ -39,5 +39,4 @@ class NativeXResolution extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Native X Resolution';
-
 }

@@ -39,5 +39,4 @@ class FocusDepth extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Focus Depth';
-
 }

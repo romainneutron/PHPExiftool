@@ -72,5 +72,4 @@ class WBAdjMode extends AbstractTag
             'Label' => 'Auto1',
         ),
     );
-
 }

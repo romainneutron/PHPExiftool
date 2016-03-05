@@ -128,5 +128,4 @@ class SceneModeUsed extends AbstractTag
             'Label' => 'Panorama',
         ),
     );
-
 }

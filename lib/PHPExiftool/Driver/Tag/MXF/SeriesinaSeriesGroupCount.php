@@ -39,5 +39,4 @@ class SeriesinaSeriesGroupCount extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Seriesina Series Group Count';
-
 }

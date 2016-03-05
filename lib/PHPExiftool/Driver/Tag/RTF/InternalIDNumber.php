@@ -39,5 +39,4 @@ class InternalIDNumber extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Internal ID Number';
-
 }

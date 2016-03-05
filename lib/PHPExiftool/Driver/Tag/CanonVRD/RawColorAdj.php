@@ -54,5 +54,4 @@ class RawColorAdj extends AbstractTag
             'Label' => 'Custom',
         ),
     );
-
 }

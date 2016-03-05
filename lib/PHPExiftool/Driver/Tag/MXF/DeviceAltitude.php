@@ -41,5 +41,4 @@ class DeviceAltitude extends AbstractTag
     protected $Description = 'Device Altitude';
 
     protected $local_g2 = 'Location';
-
 }

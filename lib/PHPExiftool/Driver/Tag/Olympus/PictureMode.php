@@ -72,5 +72,4 @@ class PictureMode extends AbstractTag
             'Label' => 'Sepia',
         ),
     );
-
 }

@@ -39,5 +39,4 @@ class PointPositionAccuracy extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Point Position Accuracy';
-
 }

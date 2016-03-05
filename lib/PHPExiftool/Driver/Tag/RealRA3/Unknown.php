@@ -41,5 +41,4 @@ class Unknown extends AbstractTag
     protected $Description = 'Unknown';
 
     protected $MaxLength = 3;
-
 }

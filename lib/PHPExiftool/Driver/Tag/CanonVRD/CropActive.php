@@ -50,5 +50,4 @@ class CropActive extends AbstractTag
             'Label' => 'Yes',
         ),
     );
-
 }

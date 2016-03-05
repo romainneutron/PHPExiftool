@@ -39,5 +39,4 @@ class TableTopEccentricAxisDistance extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Table Top Eccentric Axis Distance';
-
 }

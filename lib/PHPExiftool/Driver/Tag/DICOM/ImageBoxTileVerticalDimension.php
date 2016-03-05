@@ -39,5 +39,4 @@ class ImageBoxTileVerticalDimension extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Image Box Tile Vertical Dimension';
-
 }

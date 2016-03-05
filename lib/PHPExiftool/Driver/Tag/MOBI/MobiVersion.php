@@ -39,5 +39,4 @@ class MobiVersion extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Mobi Version';
-
 }

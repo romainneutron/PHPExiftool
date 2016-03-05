@@ -41,5 +41,4 @@ class ExceptionDateTimes extends AbstractTag
     protected $Description = 'Exception Date Times';
 
     protected $local_g2 = 'Time';
-
 }

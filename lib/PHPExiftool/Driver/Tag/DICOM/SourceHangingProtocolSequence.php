@@ -39,5 +39,4 @@ class SourceHangingProtocolSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Source Hanging Protocol Sequence';
-
 }

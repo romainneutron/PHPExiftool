@@ -39,5 +39,4 @@ class ArchivedFileName extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Archived File Name';
-
 }

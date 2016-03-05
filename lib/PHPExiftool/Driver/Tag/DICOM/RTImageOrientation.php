@@ -39,5 +39,4 @@ class RTImageOrientation extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'RT Image Orientation';
-
 }

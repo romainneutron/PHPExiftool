@@ -92,5 +92,4 @@ class ScreenTips extends AbstractTag
             'Label' => 'On',
         ),
     );
-
 }

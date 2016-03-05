@@ -41,5 +41,4 @@ class AverageBytesPerSecond extends AbstractTag
     protected $Description = 'Average Bytes Per Second';
 
     protected $local_g2 = 'Audio';
-
 }

@@ -41,5 +41,4 @@ class DynamicRangeOptimizerLevel extends AbstractTag
     protected $Description = 'Dynamic Range Optimizer Level';
 
     protected $flag_Permanent = true;
-
 }

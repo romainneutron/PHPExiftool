@@ -41,5 +41,4 @@ class AWBCcBias extends AbstractTag
     protected $Description = 'AWB Cc Bias';
 
     protected $flag_Permanent = true;
-
 }

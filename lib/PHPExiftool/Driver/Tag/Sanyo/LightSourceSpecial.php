@@ -52,5 +52,4 @@ class LightSourceSpecial extends AbstractTag
             'Label' => 'On',
         ),
     );
-
 }

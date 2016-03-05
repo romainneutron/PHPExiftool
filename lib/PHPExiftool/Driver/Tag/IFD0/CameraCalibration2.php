@@ -41,5 +41,4 @@ class CameraCalibration2 extends AbstractTag
     protected $Description = 'Camera Calibration 2';
 
     protected $flag_Unsafe = true;
-
 }

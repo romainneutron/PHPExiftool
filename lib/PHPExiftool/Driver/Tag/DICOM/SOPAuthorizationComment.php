@@ -39,5 +39,4 @@ class SOPAuthorizationComment extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'SOP Authorization Comment';
-
 }

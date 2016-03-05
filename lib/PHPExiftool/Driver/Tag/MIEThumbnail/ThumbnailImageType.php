@@ -39,5 +39,4 @@ class ThumbnailImageType extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Thumbnail Image Type';
-
 }

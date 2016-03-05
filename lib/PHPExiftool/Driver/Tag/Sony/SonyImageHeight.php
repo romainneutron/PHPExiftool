@@ -41,5 +41,4 @@ class SonyImageHeight extends AbstractTag
     protected $Description = 'Sony Image Height';
 
     protected $flag_Permanent = true;
-
 }

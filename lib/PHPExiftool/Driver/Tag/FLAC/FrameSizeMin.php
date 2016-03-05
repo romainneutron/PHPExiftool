@@ -39,5 +39,4 @@ class FrameSizeMin extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Frame Size Min';
-
 }

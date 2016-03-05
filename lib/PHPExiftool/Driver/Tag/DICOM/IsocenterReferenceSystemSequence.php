@@ -39,5 +39,4 @@ class IsocenterReferenceSystemSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Isocenter Reference System Sequence';
-
 }

@@ -39,5 +39,4 @@ class AnatomicStructure extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Anatomic Structure';
-
 }

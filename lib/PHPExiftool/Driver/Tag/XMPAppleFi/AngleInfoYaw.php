@@ -39,5 +39,4 @@ class AngleInfoYaw extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Angle Info Yaw';
-
 }

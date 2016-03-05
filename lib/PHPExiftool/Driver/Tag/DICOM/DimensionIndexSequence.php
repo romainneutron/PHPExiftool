@@ -39,5 +39,4 @@ class DimensionIndexSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Dimension Index Sequence';
-
 }

@@ -39,5 +39,4 @@ class AdaptiveMapFormat extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Adaptive Map Format';
-
 }

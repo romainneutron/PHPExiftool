@@ -39,5 +39,4 @@ class DerivedFromToPart extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Derived From To Part';
-
 }

@@ -41,5 +41,4 @@ class SeriesDateTime extends AbstractTag
     protected $Description = 'Series Date Time';
 
     protected $local_g2 = 'Time';
-
 }

@@ -39,5 +39,4 @@ class PatientSetupLabel extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Patient Setup Label';
-
 }

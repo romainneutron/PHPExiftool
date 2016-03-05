@@ -41,5 +41,4 @@ class EventType extends AbstractTag
     protected $Description = 'Event Type';
 
     protected $flag_Avoid = true;
-
 }

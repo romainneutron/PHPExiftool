@@ -39,5 +39,4 @@ class TriangleFanSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Triangle Fan Sequence';
-
 }

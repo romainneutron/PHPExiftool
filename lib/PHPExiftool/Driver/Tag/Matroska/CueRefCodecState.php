@@ -39,5 +39,4 @@ class CueRefCodecState extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Cue Ref Codec State';
-
 }

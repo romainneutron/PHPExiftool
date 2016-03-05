@@ -39,5 +39,4 @@ class SATLocationP extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'SAT Location P';
-
 }

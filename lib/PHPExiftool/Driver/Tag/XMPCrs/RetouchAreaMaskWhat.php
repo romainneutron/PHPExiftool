@@ -39,5 +39,4 @@ class RetouchAreaMaskWhat extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Retouch Area Mask What';
-
 }

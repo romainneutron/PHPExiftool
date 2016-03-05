@@ -39,5 +39,4 @@ class MD5Digest extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'MD5 Digest';
-
 }

@@ -52,5 +52,4 @@ class DLightingHS extends AbstractTag
             'Label' => 'On',
         ),
     );
-
 }

@@ -39,5 +39,4 @@ class PresentationLUTFlag extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Presentation LUT Flag';
-
 }

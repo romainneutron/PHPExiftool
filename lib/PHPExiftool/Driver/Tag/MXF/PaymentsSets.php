@@ -39,5 +39,4 @@ class PaymentsSets extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Payments Sets';
-
 }

@@ -39,5 +39,4 @@ class Expires extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Expires';
-
 }

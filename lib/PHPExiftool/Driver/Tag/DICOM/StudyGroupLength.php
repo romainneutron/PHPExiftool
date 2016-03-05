@@ -39,5 +39,4 @@ class StudyGroupLength extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Study Group Length';
-
 }

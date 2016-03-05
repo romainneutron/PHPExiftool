@@ -39,5 +39,4 @@ class KVP extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'KVP';
-
 }

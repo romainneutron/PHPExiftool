@@ -39,5 +39,4 @@ class ScanningSpotSize extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Scanning Spot Size';
-
 }

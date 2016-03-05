@@ -62,5 +62,4 @@ class GripBatteryState extends AbstractTag
     );
 
     protected $Index = 'mixed';
-
 }

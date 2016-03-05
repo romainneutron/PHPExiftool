@@ -138,5 +138,4 @@ class GeogLinearUnits extends AbstractTag
             'Label' => 'User Defined',
         ),
     );
-
 }

@@ -41,5 +41,4 @@ class FrameCount extends AbstractTag
     protected $Description = 'Frame Count';
 
     protected $flag_Permanent = true;
-
 }

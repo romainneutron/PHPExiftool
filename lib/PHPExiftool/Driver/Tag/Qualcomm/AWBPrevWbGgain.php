@@ -41,5 +41,4 @@ class AWBPrevWbGgain extends AbstractTag
     protected $Description = 'AWB Prev Wb Ggain';
 
     protected $flag_Permanent = true;
-
 }

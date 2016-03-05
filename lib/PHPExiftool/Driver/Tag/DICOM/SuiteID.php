@@ -39,5 +39,4 @@ class SuiteID extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Suite ID';
-
 }

@@ -39,5 +39,4 @@ class GIFVersion extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'GIF Version';
-
 }

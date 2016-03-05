@@ -39,5 +39,4 @@ class BannerImageURL extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Banner Image URL';
-
 }

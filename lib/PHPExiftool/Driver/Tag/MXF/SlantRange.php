@@ -39,5 +39,4 @@ class SlantRange extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Slant Range';
-
 }

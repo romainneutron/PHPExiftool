@@ -39,5 +39,4 @@ class RegistrationSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Registration Sequence';
-
 }

@@ -39,5 +39,4 @@ class Converter extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Converter';
-
 }

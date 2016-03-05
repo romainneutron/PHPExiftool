@@ -41,5 +41,4 @@ class FontComposite extends AbstractTag
     protected $Description = 'Font Composite';
 
     protected $flag_List = true;
-
 }

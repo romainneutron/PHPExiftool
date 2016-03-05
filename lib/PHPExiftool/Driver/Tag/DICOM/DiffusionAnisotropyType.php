@@ -39,5 +39,4 @@ class DiffusionAnisotropyType extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Diffusion Anisotropy Type';
-
 }

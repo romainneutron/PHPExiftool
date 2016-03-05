@@ -39,5 +39,4 @@ class ShutterSpeedValue extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Shutter Speed Value';
-
 }

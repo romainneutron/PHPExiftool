@@ -1170,5 +1170,4 @@ class CameraType2 extends AbstractTag
             'Label' => 'FE190/X750',
         ),
     );
-
 }

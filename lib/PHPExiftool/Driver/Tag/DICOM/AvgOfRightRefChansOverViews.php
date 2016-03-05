@@ -39,5 +39,4 @@ class AvgOfRightRefChansOverViews extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Avg Of Right Ref Chans Over Views';
-
 }

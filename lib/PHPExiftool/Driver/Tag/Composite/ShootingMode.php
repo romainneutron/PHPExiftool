@@ -41,5 +41,4 @@ class ShootingMode extends AbstractTag
     protected $Description = 'Shooting Mode';
 
     protected $local_g2 = 'Camera';
-
 }

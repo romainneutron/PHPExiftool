@@ -52,5 +52,4 @@ class ContrastHighlightShadowAdj extends AbstractTag
             'Label' => 'On',
         ),
     );
-
 }

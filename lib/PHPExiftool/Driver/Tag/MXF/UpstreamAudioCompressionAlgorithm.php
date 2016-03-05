@@ -41,5 +41,4 @@ class UpstreamAudioCompressionAlgorithm extends AbstractTag
     protected $Description = 'Upstream Audio Compression Algorithm';
 
     protected $local_g2 = 'Audio';
-
 }

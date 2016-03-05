@@ -39,5 +39,4 @@ class ZoomCenter extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Zoom Center';
-
 }

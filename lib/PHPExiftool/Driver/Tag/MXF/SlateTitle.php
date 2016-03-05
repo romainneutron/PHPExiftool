@@ -39,5 +39,4 @@ class SlateTitle extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Slate Title';
-
 }

@@ -39,5 +39,4 @@ class RealWorldValueFirstValueMapped extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Real World Value First Value Mapped';
-
 }

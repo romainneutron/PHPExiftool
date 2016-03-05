@@ -76,5 +76,4 @@ class OKButton extends AbstractTag
             'Label' => 'Not Used',
         ),
     );
-
 }

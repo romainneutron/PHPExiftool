@@ -41,5 +41,4 @@ class CMWhiteBalanceComp extends AbstractTag
     protected $Description = 'CM White Balance Comp';
 
     protected $flag_Permanent = true;
-
 }

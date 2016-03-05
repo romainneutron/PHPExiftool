@@ -41,5 +41,4 @@ class RoundingLaw extends AbstractTag
     protected $Description = 'Rounding Law';
 
     protected $local_g2 = 'Audio';
-
 }

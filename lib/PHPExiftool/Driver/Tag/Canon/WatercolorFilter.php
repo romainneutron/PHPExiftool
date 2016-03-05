@@ -48,5 +48,4 @@ class WatercolorFilter extends AbstractTag
             'Label' => 'Off',
         ),
     );
-
 }

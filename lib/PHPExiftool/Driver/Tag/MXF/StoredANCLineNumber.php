@@ -39,5 +39,4 @@ class StoredANCLineNumber extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Stored ANC Line Number';
-
 }

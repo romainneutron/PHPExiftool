@@ -41,5 +41,4 @@ class IsTranslationOf extends AbstractTag
     protected $Description = 'Is Translation Of';
 
     protected $flag_Avoid = true;
-
 }

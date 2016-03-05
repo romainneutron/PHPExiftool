@@ -39,5 +39,4 @@ class LargestPixelValueInSeries extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Largest Pixel Value In Series';
-
 }

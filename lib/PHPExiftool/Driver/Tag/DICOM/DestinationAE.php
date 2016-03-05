@@ -39,5 +39,4 @@ class DestinationAE extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Destination AE';
-
 }

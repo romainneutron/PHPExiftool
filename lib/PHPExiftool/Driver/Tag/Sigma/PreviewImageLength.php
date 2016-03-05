@@ -45,5 +45,4 @@ class PreviewImageLength extends AbstractTag
     protected $flag_Protected = true;
 
     protected $Index = 'mixed';
-
 }

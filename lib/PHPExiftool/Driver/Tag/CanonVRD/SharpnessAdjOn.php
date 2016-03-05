@@ -50,5 +50,4 @@ class SharpnessAdjOn extends AbstractTag
             'Label' => 'Yes',
         ),
     );
-
 }

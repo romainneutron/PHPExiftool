@@ -39,5 +39,4 @@ class GenerationCopyNumber extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Generation Copy Number';
-
 }

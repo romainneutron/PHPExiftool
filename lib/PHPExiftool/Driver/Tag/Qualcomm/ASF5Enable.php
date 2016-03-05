@@ -41,5 +41,4 @@ class ASF5Enable extends AbstractTag
     protected $Description = 'ASF5 Enable';
 
     protected $flag_Permanent = true;
-
 }

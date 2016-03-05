@@ -41,5 +41,4 @@ class PitchAngle extends AbstractTag
     protected $Description = 'Pitch Angle';
 
     protected $flag_Permanent = true;
-
 }

@@ -39,5 +39,4 @@ class VBILineCount extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'VBI Line Count';
-
 }

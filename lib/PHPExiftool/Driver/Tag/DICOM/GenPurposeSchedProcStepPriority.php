@@ -39,5 +39,4 @@ class GenPurposeSchedProcStepPriority extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Gen Purpose Sched Proc Step Priority';
-
 }

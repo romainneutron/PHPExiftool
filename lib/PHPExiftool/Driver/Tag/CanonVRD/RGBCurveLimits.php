@@ -41,5 +41,4 @@ class RGBCurveLimits extends AbstractTag
     protected $Description = 'RGB Curve Limits';
 
     protected $MaxLength = 4;
-
 }

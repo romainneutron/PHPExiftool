@@ -39,5 +39,4 @@ class ProjLinearUnitSize extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Proj Linear Unit Size';
-
 }

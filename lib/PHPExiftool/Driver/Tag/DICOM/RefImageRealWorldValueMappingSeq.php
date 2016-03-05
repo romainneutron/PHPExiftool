@@ -39,5 +39,4 @@ class RefImageRealWorldValueMappingSeq extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Ref Image Real World Value Mapping Seq';
-
 }

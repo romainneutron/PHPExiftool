@@ -52,5 +52,4 @@ class FlashFunction extends AbstractTag
             'Label' => True,
         ),
     );
-
 }

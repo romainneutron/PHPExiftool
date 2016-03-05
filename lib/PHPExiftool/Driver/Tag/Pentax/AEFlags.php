@@ -56,5 +56,4 @@ class AEFlags extends AbstractTag
             'Label' => 'Aperture wide open',
         ),
     );
-
 }

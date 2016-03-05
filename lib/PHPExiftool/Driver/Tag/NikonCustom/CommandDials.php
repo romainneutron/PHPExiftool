@@ -52,5 +52,4 @@ class CommandDials extends AbstractTag
             'Label' => 'Reversed (Main Aperture, Sub Shutter)',
         ),
     );
-
 }

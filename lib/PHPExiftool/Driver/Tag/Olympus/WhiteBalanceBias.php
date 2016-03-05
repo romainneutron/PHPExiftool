@@ -41,5 +41,4 @@ class WhiteBalanceBias extends AbstractTag
     protected $Description = 'White Balance Bias';
 
     protected $flag_Permanent = true;
-
 }

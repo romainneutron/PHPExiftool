@@ -41,5 +41,4 @@ class BkPat extends AbstractTag
     protected $Description = 'Background Pattern';
 
     protected $MaxLength = 8;
-
 }

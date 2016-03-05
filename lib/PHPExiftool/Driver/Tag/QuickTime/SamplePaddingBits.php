@@ -41,5 +41,4 @@ class SamplePaddingBits extends AbstractTag
     protected $Description = 'Sample Padding Bits';
 
     protected $flag_Binary = true;
-
 }

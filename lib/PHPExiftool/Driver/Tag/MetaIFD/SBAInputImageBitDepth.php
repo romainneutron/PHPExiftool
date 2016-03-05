@@ -39,5 +39,4 @@ class SBAInputImageBitDepth extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'SBA Input Image Bit Depth';
-
 }

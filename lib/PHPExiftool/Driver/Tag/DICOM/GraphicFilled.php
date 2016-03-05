@@ -39,5 +39,4 @@ class GraphicFilled extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Graphic Filled';
-
 }

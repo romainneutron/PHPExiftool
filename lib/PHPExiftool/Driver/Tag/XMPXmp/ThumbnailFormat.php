@@ -41,5 +41,4 @@ class ThumbnailFormat extends AbstractTag
     protected $Description = 'Thumbnail Format';
 
     protected $flag_List = true;
-
 }

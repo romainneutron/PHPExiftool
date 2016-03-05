@@ -39,5 +39,4 @@ class Saturation extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Saturation';
-
 }

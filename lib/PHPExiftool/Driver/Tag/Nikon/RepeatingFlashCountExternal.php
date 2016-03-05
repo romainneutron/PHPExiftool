@@ -41,5 +41,4 @@ class RepeatingFlashCountExternal extends AbstractTag
     protected $Description = 'Repeating Flash Count External';
 
     protected $flag_Permanent = true;
-
 }

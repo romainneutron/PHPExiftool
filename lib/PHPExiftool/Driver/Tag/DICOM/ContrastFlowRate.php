@@ -39,5 +39,4 @@ class ContrastFlowRate extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Contrast Flow Rate';
-
 }

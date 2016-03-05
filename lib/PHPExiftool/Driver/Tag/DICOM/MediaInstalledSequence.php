@@ -39,5 +39,4 @@ class MediaInstalledSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Media Installed Sequence';
-
 }

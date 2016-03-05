@@ -39,5 +39,4 @@ class LegacyIPTCDigest extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Legacy IPTC Digest';
-
 }

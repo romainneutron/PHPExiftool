@@ -39,5 +39,4 @@ class DeliveryVerificationImageSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Delivery Verification Image Sequence';
-
 }

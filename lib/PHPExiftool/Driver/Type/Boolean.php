@@ -19,5 +19,4 @@ class Boolean extends AbstractType
     protected $ExiftoolName = 'boolean';
 
     protected $PHPMap = 'boolean';
-
 }

@@ -41,5 +41,4 @@ class ExternalFlashMode extends AbstractTag
     protected $Description = 'External Flash Mode';
 
     protected $flag_Permanent = true;
-
 }

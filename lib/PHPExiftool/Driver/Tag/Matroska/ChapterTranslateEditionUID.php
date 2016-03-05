@@ -39,5 +39,4 @@ class ChapterTranslateEditionUID extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Chapter Translate Edition UID';
-
 }

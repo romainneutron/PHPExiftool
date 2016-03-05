@@ -39,5 +39,4 @@ class ColorSiting extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Color Siting';
-
 }

@@ -39,5 +39,4 @@ class FieldDominance extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Field Dominance';
-
 }

@@ -39,5 +39,4 @@ class SortShow extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Sort Show';
-
 }

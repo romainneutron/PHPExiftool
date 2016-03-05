@@ -39,5 +39,4 @@ class SMPTE337MDataStreamNumber extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'SMPTE337M Data Stream Number';
-
 }

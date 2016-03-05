@@ -39,5 +39,4 @@ class ProjFalseOriginLong extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Proj False Origin Long';
-
 }

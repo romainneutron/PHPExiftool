@@ -39,5 +39,4 @@ class PatientSupportType extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Patient Support Type';
-
 }

@@ -41,5 +41,4 @@ class FreeByteCounts extends AbstractTag
     protected $Description = 'Free Byte Counts';
 
     protected $local_g1 = 'ExifIFD';
-
 }

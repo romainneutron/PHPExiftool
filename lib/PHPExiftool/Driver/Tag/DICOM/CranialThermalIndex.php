@@ -39,5 +39,4 @@ class CranialThermalIndex extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Cranial Thermal Index';
-
 }

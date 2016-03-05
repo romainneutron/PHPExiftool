@@ -39,5 +39,4 @@ class SubfileType extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Subfile Type';
-
 }

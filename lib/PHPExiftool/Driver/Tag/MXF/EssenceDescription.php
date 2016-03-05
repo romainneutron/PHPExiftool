@@ -39,5 +39,4 @@ class EssenceDescription extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Essence Description';
-
 }

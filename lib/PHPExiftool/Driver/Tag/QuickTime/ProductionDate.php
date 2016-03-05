@@ -41,5 +41,4 @@ class ProductionDate extends AbstractTag
     protected $Description = 'Production Date';
 
     protected $local_g2 = 'Time';
-
 }

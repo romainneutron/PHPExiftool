@@ -39,5 +39,4 @@ class TotalBlockTrayFactor extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Total Block Tray Factor';
-
 }

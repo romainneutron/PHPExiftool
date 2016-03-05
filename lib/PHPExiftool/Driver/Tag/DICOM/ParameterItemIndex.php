@@ -39,5 +39,4 @@ class ParameterItemIndex extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Parameter Item Index';
-
 }

@@ -39,5 +39,4 @@ class WMCollectionGroupID extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'WM Collection Group ID';
-
 }

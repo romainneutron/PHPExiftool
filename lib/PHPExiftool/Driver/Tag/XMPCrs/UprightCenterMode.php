@@ -39,5 +39,4 @@ class UprightCenterMode extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Upright Center Mode';
-
 }

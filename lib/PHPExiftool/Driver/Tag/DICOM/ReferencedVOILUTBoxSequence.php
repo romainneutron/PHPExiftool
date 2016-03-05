@@ -39,5 +39,4 @@ class ReferencedVOILUTBoxSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Referenced VOILUT Box Sequence';
-
 }

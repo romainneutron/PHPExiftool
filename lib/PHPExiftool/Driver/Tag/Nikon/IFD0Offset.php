@@ -41,5 +41,4 @@ class IFD0Offset extends AbstractTag
     protected $Description = 'IFD0 Offset';
 
     protected $flag_Permanent = true;
-
 }

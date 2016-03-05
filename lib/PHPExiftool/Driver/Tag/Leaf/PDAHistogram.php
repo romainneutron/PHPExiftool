@@ -41,5 +41,4 @@ class PDAHistogram extends AbstractTag
     protected $Description = 'PDA Histogram';
 
     protected $flag_Binary = true;
-
 }

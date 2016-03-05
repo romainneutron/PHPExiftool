@@ -41,5 +41,4 @@ class SubSampleInformation extends AbstractTag
     protected $Description = 'Sub-sample Information';
 
     protected $flag_Binary = true;
-
 }

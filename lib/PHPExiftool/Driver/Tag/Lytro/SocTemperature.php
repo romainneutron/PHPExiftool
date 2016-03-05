@@ -39,5 +39,4 @@ class SocTemperature extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Soc Temperature';
-
 }

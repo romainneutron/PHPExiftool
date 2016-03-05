@@ -39,5 +39,4 @@ class OrganExposed extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Organ Exposed';
-
 }

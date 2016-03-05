@@ -41,5 +41,4 @@ class ImageOptimization extends AbstractTag
     protected $Description = 'Image Optimization';
 
     protected $flag_Permanent = true;
-
 }

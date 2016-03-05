@@ -39,5 +39,4 @@ class PauseBetweenFrames extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Pause Between Frames';
-
 }

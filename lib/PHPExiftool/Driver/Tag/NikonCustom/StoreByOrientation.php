@@ -56,5 +56,4 @@ class StoreByOrientation extends AbstractTag
             'Label' => 'Focus Point and AF-area mode',
         ),
     );
-
 }

@@ -39,5 +39,4 @@ class ContentDistributorID extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Content Distributor ID';
-
 }

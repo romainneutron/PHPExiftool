@@ -39,5 +39,4 @@ class CurveRange extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Curve Range';
-
 }

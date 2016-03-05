@@ -39,5 +39,4 @@ class EndDate extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'End Date';
-
 }

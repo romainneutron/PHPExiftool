@@ -39,5 +39,4 @@ class UserPlaycountWeekend extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'User Playcount Weekend';
-
 }

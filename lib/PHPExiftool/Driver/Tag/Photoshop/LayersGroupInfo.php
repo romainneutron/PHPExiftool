@@ -39,5 +39,4 @@ class LayersGroupInfo extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Layers Group Info';
-
 }

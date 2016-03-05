@@ -39,5 +39,4 @@ class CineRate extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Cine Rate';
-
 }

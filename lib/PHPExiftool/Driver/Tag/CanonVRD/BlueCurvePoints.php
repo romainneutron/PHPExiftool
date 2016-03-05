@@ -41,5 +41,4 @@ class BlueCurvePoints extends AbstractTag
     protected $Description = 'Blue Curve Points';
 
     protected $MaxLength = 21;
-
 }

@@ -41,5 +41,4 @@ class ColorimetricReference extends AbstractTag
     protected $Description = 'Colorimetric Reference';
 
     protected $flag_Unsafe = true;
-
 }

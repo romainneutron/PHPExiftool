@@ -41,5 +41,4 @@ class PixelIntensityRange extends AbstractTag
     protected $Description = 'Pixel Intensity Range';
 
     protected $local_g1 = 'ExifIFD';
-
 }

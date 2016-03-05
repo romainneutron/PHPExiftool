@@ -39,5 +39,4 @@ class BrightnessValue extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Brightness Value';
-
 }

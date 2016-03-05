@@ -39,5 +39,4 @@ class RetouchAreaSpotType extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Retouch Area Spot Type';
-
 }

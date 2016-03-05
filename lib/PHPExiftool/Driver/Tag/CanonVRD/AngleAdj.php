@@ -39,5 +39,4 @@ class AngleAdj extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Angle Adj';
-
 }

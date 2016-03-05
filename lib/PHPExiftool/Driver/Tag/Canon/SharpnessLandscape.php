@@ -48,5 +48,4 @@ class SharpnessLandscape extends AbstractTag
             'Label' => 'n/a',
         ),
     );
-
 }

@@ -41,5 +41,4 @@ class EmbeddedAudioFileName extends AbstractTag
     protected $Description = 'Embedded Audio File Name';
 
     protected $flag_Permanent = true;
-
 }

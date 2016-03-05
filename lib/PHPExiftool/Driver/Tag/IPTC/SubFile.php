@@ -43,5 +43,4 @@ class SubFile extends AbstractTag
     protected $flag_Binary = true;
 
     protected $flag_List = true;
-
 }

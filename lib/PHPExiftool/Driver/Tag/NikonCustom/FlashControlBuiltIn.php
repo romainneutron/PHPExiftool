@@ -60,5 +60,4 @@ class FlashControlBuiltIn extends AbstractTag
             'Label' => 'Commander Mode',
         ),
     );
-
 }

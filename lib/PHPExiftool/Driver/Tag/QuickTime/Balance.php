@@ -39,5 +39,4 @@ class Balance extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Balance';
-
 }

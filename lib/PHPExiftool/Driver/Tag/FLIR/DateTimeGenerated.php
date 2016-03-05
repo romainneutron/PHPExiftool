@@ -41,5 +41,4 @@ class DateTimeGenerated extends AbstractTag
     protected $Description = 'Date/Time Generated';
 
     protected $local_g2 = 'Time';
-
 }

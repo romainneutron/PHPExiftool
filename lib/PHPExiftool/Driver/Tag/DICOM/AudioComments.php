@@ -39,5 +39,4 @@ class AudioComments extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Audio Comments';
-
 }

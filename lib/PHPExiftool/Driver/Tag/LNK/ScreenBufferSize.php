@@ -41,5 +41,4 @@ class ScreenBufferSize extends AbstractTag
     protected $Description = 'Screen Buffer Size';
 
     protected $MaxLength = 2;
-
 }

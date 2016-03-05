@@ -41,5 +41,4 @@ class PageImageHeight extends AbstractTag
     protected $Description = 'Page Image Height';
 
     protected $flag_List = true;
-
 }

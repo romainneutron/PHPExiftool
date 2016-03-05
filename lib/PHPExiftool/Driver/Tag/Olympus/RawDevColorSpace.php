@@ -56,5 +56,4 @@ class RawDevColorSpace extends AbstractTag
             'Label' => 'Pro Photo RGB',
         ),
     );
-
 }

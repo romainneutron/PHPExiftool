@@ -54,5 +54,4 @@ class ContinuousShotLimit extends AbstractTag
             'Label' => 'Enable',
         ),
     );
-
 }

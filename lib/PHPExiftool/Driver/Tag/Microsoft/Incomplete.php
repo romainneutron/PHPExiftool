@@ -39,5 +39,4 @@ class Incomplete extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Incomplete';
-
 }

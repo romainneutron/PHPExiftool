@@ -39,5 +39,4 @@ class CellNumberAtTheta extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Cell Number At Theta';
-
 }

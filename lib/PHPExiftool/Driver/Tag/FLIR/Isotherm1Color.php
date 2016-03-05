@@ -41,5 +41,4 @@ class Isotherm1Color extends AbstractTag
     protected $Description = 'Isotherm 1 Color';
 
     protected $MaxLength = 3;
-
 }

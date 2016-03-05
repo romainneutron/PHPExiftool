@@ -41,5 +41,4 @@ class ASF5BrtUpThres extends AbstractTag
     protected $Description = 'ASF5 Brt Up Thres';
 
     protected $flag_Permanent = true;
-
 }

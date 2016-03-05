@@ -39,5 +39,4 @@ class AudioUseRecommendedSampleRate extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Audio Use Recommended Sample Rate';
-
 }

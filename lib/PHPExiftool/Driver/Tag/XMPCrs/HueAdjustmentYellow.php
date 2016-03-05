@@ -39,5 +39,4 @@ class HueAdjustmentYellow extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Hue Adjustment Yellow';
-
 }

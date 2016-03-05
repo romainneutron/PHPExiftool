@@ -39,5 +39,4 @@ class EnergyWindowVector extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Energy Window Vector';
-
 }

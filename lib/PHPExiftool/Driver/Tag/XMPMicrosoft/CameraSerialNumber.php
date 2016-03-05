@@ -39,5 +39,4 @@ class CameraSerialNumber extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Camera Serial Number';
-
 }

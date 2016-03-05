@@ -39,5 +39,4 @@ class BlueSaturation extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Blue Saturation';
-
 }

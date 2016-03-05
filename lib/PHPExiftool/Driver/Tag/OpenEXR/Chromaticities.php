@@ -39,5 +39,4 @@ class Chromaticities extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Chromaticities';
-
 }

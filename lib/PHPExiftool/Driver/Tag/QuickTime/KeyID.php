@@ -39,5 +39,4 @@ class KeyID extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Key ID';
-
 }

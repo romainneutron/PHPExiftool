@@ -41,5 +41,4 @@ class FilePath extends AbstractTag
     protected $Description = 'File Path';
 
     protected $local_g1 = 'System';
-
 }

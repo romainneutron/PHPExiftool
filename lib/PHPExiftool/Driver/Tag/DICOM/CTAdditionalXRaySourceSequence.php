@@ -39,5 +39,4 @@ class CTAdditionalXRaySourceSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'CT Additional X Ray Source Sequence';
-
 }

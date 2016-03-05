@@ -52,5 +52,4 @@ class ImageRotated extends AbstractTag
             'Label' => 'Yes',
         ),
     );
-
 }

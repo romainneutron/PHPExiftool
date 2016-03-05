@@ -50,5 +50,4 @@ class ScaleCrop extends AbstractTag
             'Label' => 'Yes',
         ),
     );
-
 }

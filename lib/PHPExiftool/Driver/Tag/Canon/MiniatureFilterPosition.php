@@ -41,5 +41,4 @@ class MiniatureFilterPosition extends AbstractTag
     protected $Description = 'Miniature Filter Position';
 
     protected $flag_Permanent = true;
-
 }

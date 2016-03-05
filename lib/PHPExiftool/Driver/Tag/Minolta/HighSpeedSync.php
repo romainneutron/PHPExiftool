@@ -52,5 +52,4 @@ class HighSpeedSync extends AbstractTag
             'Label' => 'On',
         ),
     );
-
 }

@@ -41,5 +41,4 @@ class LinkerVersion extends AbstractTag
     protected $Description = 'Linker Version';
 
     protected $MaxLength = 2;
-
 }

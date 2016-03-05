@@ -39,5 +39,4 @@ class GroupSets extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Group Sets';
-
 }

@@ -39,5 +39,4 @@ class TargetPrescriptionDose extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Target Prescription Dose';
-
 }

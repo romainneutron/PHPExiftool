@@ -41,5 +41,4 @@ class ASF5BrtSmthPercent extends AbstractTag
     protected $Description = 'ASF5 Brt Smth Percent';
 
     protected $flag_Permanent = true;
-
 }

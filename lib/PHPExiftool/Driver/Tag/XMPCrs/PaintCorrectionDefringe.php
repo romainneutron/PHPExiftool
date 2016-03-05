@@ -39,5 +39,4 @@ class PaintCorrectionDefringe extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Paint Correction Defringe';
-
 }

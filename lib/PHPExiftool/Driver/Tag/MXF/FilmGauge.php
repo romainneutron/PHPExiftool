@@ -39,5 +39,4 @@ class FilmGauge extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Film Gauge';
-
 }

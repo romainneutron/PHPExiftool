@@ -41,5 +41,4 @@ class DCMinimumDistanceAboveSurfaceInMeters extends AbstractTag
     protected $Description = 'DC Minimum Distance Above Surface In Meters';
 
     protected $local_g2 = 'Location';
-
 }

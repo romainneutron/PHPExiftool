@@ -41,5 +41,4 @@ class RegionBarCodeValue extends AbstractTag
     protected $Description = 'Region Bar Code Value';
 
     protected $flag_List = true;
-
 }

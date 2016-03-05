@@ -41,5 +41,4 @@ class ArtworkCopyrightNotice extends AbstractTag
     protected $Description = 'Artwork Copyright Notice';
 
     protected $flag_List = true;
-
 }

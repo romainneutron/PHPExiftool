@@ -41,5 +41,4 @@ class Face7Name extends AbstractTag
     protected $Description = 'Face 7 Name';
 
     protected $flag_Permanent = true;
-
 }

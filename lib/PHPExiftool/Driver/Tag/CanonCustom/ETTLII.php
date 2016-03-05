@@ -52,5 +52,4 @@ class ETTLII extends AbstractTag
             'Label' => 'Average',
         ),
     );
-
 }

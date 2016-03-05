@@ -39,5 +39,4 @@ class ChartContourInterval extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Chart Contour Interval';
-
 }

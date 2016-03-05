@@ -39,5 +39,4 @@ class PackBitsRgn extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Packed CopyBits with Clipped Region';
-
 }

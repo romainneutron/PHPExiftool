@@ -39,5 +39,4 @@ class ModifiedImageID extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Modified Image ID';
-
 }

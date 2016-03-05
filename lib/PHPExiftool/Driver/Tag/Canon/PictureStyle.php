@@ -132,5 +132,4 @@ class PictureStyle extends AbstractTag
             'Label' => 'Fine Detail',
         ),
     );
-
 }

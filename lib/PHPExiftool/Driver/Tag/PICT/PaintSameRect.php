@@ -39,5 +39,4 @@ class PaintSameRect extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Paint Same Rect';
-
 }

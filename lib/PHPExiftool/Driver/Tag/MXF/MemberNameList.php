@@ -39,5 +39,4 @@ class MemberNameList extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Member Name List';
-
 }

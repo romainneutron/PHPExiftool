@@ -41,5 +41,4 @@ class FieldCount extends AbstractTag
     protected $Description = 'Field Count';
 
     protected $flag_Permanent = true;
-
 }

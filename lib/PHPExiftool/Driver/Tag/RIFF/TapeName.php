@@ -41,5 +41,4 @@ class TapeName extends AbstractTag
     protected $Description = 'Tape Name';
 
     protected $local_g2 = 'Video';
-
 }

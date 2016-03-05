@@ -39,5 +39,4 @@ class ImageCenterPointCoordinatesSeq extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Image Center Point Coordinates Seq';
-
 }

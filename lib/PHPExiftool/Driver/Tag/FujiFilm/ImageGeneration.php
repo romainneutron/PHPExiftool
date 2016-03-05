@@ -52,5 +52,4 @@ class ImageGeneration extends AbstractTag
             'Label' => 'Re-developed from RAW',
         ),
     );
-
 }

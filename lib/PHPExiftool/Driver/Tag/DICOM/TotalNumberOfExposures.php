@@ -39,5 +39,4 @@ class TotalNumberOfExposures extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Total Number Of Exposures';
-
 }

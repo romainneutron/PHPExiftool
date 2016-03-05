@@ -41,5 +41,4 @@ class USPTOMiscellaneous extends AbstractTag
     protected $Description = 'USPTO Miscellaneous';
 
     protected $local_g1 = 'ExifIFD';
-
 }

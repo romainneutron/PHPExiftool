@@ -39,5 +39,4 @@ class FormerFamilyName extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Former Family Name';
-
 }

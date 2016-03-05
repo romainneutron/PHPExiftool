@@ -39,5 +39,4 @@ class BlockType extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Block Type';
-
 }

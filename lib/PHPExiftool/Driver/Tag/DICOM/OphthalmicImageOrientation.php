@@ -39,5 +39,4 @@ class OphthalmicImageOrientation extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Ophthalmic Image Orientation';
-
 }

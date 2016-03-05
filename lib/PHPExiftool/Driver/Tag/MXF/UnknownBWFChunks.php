@@ -39,5 +39,4 @@ class UnknownBWFChunks extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Unknown BWF Chunks';
-
 }

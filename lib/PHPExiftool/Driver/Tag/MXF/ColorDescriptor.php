@@ -39,5 +39,4 @@ class ColorDescriptor extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Color Descriptor';
-
 }

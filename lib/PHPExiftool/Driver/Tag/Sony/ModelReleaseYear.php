@@ -41,5 +41,4 @@ class ModelReleaseYear extends AbstractTag
     protected $Description = 'Model Release Year';
 
     protected $flag_Permanent = true;
-
 }

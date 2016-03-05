@@ -41,5 +41,4 @@ class ImageDepth extends AbstractTag
     protected $Description = 'Image Depth';
 
     protected $local_g1 = 'ExifIFD';
-
 }

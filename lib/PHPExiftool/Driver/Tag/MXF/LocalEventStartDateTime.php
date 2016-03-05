@@ -41,5 +41,4 @@ class LocalEventStartDateTime extends AbstractTag
     protected $Description = 'Local Event Start Date Time';
 
     protected $local_g2 = 'Time';
-
 }

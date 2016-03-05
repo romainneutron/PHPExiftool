@@ -39,5 +39,4 @@ class OverlayMode extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Overlay Mode';
-
 }

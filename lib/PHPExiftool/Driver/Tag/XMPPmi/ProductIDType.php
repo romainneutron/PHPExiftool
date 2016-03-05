@@ -41,5 +41,4 @@ class ProductIDType extends AbstractTag
     protected $Description = 'Product ID Type';
 
     protected $flag_Avoid = true;
-
 }

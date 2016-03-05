@@ -39,5 +39,4 @@ class UserLastPlayedTime extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'User Last Played Time';
-
 }

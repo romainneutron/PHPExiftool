@@ -41,5 +41,4 @@ class ContributedMediaManaged extends AbstractTag
     protected $Description = 'Contributed Media Managed';
 
     protected $flag_List = true;
-
 }

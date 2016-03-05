@@ -39,5 +39,4 @@ class UseGuidelines extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Use Guidelines';
-
 }

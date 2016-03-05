@@ -39,5 +39,4 @@ class RegisterApproverName extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Register Approver Name';
-
 }

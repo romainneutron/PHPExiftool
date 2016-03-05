@@ -39,5 +39,4 @@ class StereoRotation extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Stereo Rotation';
-
 }

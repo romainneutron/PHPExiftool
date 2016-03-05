@@ -39,5 +39,4 @@ class LensSegmentType extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Lens Segment Type';
-
 }

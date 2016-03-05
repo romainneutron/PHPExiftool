@@ -39,5 +39,4 @@ class ReformattingInterval extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Reformatting Interval';
-
 }

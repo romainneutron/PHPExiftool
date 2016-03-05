@@ -39,5 +39,4 @@ class CoverArtMIMEType extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Cover Art MIME Type';
-
 }

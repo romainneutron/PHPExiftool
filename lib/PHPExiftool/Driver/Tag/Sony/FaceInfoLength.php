@@ -41,5 +41,4 @@ class FaceInfoLength extends AbstractTag
     protected $Description = 'Face Info Length';
 
     protected $flag_Permanent = true;
-
 }

@@ -39,5 +39,4 @@ class BoundingBoxTextHorizJustification extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Bounding Box Text Horiz Justification';
-
 }

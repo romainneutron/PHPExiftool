@@ -41,5 +41,4 @@ class SensrFulHght extends AbstractTag
     protected $Description = 'Sensr Ful Hght';
 
     protected $flag_Permanent = true;
-
 }

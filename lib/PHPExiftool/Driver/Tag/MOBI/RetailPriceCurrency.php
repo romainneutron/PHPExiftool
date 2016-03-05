@@ -39,5 +39,4 @@ class RetailPriceCurrency extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Retail Price Currency';
-
 }

@@ -142,5 +142,4 @@ class CropAspectRatio extends AbstractTag
             'Label' => 'Custom',
         ),
     );
-
 }

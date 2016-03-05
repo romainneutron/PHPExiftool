@@ -41,5 +41,4 @@ class ImageProcessing extends AbstractTag
     protected $Description = 'Image Processing';
 
     protected $flag_Permanent = true;
-
 }

@@ -39,5 +39,4 @@ class AnnounceList1 extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Announce List 1';
-
 }

@@ -39,5 +39,4 @@ class DeviceYDimension extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Device Y Dimension';
-
 }

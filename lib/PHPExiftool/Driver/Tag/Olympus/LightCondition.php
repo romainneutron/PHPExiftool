@@ -41,5 +41,4 @@ class LightCondition extends AbstractTag
     protected $Description = 'Light Condition';
 
     protected $flag_Permanent = true;
-
 }

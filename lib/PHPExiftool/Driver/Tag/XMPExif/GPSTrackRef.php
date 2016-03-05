@@ -52,5 +52,4 @@ class GPSTrackRef extends AbstractTag
             'Label' => 'True North',
         ),
     );
-
 }

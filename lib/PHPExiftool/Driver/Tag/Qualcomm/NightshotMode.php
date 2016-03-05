@@ -41,5 +41,4 @@ class NightshotMode extends AbstractTag
     protected $Description = 'Nightshot Mode';
 
     protected $flag_Permanent = true;
-
 }

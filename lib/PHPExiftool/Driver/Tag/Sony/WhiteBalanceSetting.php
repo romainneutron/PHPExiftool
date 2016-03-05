@@ -496,5 +496,4 @@ class WhiteBalanceSetting extends AbstractTag
             'Label' => 'Color Temperature/Color Filter',
         ),
     );
-
 }

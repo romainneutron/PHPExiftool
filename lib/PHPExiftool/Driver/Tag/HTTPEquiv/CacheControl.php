@@ -39,5 +39,4 @@ class CacheControl extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Cache Control';
-
 }

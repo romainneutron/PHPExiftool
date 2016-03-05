@@ -39,5 +39,4 @@ class RetouchAreaMaskDabs extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Retouch Area Mask Dabs';
-
 }

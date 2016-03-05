@@ -39,5 +39,4 @@ class EmbeddedXMPDigest extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Embedded XMP Digest';
-
 }

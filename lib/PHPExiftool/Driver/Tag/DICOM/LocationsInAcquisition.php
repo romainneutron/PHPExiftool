@@ -39,5 +39,4 @@ class LocationsInAcquisition extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Locations In Acquisition';
-
 }

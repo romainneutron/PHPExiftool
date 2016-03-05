@@ -41,5 +41,4 @@ class OnSaleDateAPlatform extends AbstractTag
     protected $Description = 'On Sale Date A-platform';
 
     protected $flag_List = true;
-
 }

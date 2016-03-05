@@ -41,5 +41,4 @@ class AFStepsNearInfinity extends AbstractTag
     protected $Description = 'AF Steps Near Infinity';
 
     protected $flag_Permanent = true;
-
 }

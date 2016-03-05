@@ -39,5 +39,4 @@ class SharpenDetail extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Sharpen Detail';
-
 }

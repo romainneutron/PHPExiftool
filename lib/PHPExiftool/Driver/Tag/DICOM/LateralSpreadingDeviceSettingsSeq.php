@@ -39,5 +39,4 @@ class LateralSpreadingDeviceSettingsSeq extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Lateral Spreading Device Settings Seq';
-
 }

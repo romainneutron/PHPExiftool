@@ -39,5 +39,4 @@ class ARMIdentifier extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'ARM Identifier';
-
 }

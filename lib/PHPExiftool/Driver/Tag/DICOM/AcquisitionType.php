@@ -39,5 +39,4 @@ class AcquisitionType extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Acquisition Type';
-
 }

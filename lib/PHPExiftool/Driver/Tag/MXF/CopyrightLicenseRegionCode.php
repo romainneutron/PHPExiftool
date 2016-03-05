@@ -39,5 +39,4 @@ class CopyrightLicenseRegionCode extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Copyright License Region Code';
-
 }

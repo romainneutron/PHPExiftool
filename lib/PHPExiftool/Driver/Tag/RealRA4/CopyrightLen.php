@@ -39,5 +39,4 @@ class CopyrightLen extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Copyright Len';
-
 }

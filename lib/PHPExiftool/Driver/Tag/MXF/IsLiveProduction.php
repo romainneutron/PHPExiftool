@@ -39,5 +39,4 @@ class IsLiveProduction extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Is Live Production';
-
 }

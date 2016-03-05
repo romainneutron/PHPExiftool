@@ -48,5 +48,4 @@ class SaturationStandard extends AbstractTag
             'Label' => 'n/a',
         ),
     );
-
 }

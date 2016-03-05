@@ -39,5 +39,4 @@ class CompensatorThicknessData extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Compensator Thickness Data';
-
 }

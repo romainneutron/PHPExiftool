@@ -39,5 +39,4 @@ class PersonOrganizationSets extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Person Organization Sets';
-
 }

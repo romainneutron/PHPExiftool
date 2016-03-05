@@ -39,5 +39,4 @@ class VC1Profile extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'VC-1 Profile';
-
 }

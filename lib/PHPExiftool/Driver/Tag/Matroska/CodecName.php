@@ -41,5 +41,4 @@ class CodecName extends AbstractTag
     protected $Description = 'Codec Name';
 
     protected $Index = 2;
-
 }

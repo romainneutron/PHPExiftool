@@ -39,5 +39,4 @@ class FilmBatchNumber extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Film Batch Number';
-
 }

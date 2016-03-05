@@ -39,5 +39,4 @@ class TaxonConceptID extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Taxon Concept ID';
-
 }

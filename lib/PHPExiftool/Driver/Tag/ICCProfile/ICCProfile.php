@@ -47,5 +47,4 @@ class ICCProfile extends AbstractTag
     protected $flag_Binary = true;
 
     protected $flag_Unsafe = true;
-
 }

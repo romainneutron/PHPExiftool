@@ -48,5 +48,4 @@ class ToningEffectPortrait extends AbstractTag
             'Label' => 'n/a',
         ),
     );
-
 }

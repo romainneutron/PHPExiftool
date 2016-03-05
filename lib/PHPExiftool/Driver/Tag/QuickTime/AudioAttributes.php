@@ -54,5 +54,4 @@ class AudioAttributes extends AbstractTag
             'Label' => 'Dual mono',
         ),
     );
-
 }

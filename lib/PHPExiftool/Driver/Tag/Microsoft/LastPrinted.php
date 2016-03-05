@@ -39,5 +39,4 @@ class LastPrinted extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Last Printed';
-
 }

@@ -39,5 +39,4 @@ class ExifImageHeight extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Exif Image Height';
-
 }

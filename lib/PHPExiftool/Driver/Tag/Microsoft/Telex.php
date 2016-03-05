@@ -39,5 +39,4 @@ class Telex extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Telex';
-
 }

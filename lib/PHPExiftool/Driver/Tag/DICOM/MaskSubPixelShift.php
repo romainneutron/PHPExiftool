@@ -39,5 +39,4 @@ class MaskSubPixelShift extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Mask Sub Pixel Shift';
-
 }

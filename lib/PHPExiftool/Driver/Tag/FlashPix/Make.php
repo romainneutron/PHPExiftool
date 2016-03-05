@@ -41,5 +41,4 @@ class Make extends AbstractTag
     protected $Description = 'Make';
 
     protected $local_g2 = 'Camera';
-
 }

@@ -39,5 +39,4 @@ class DetectorPrimaryAngle extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Detector Primary Angle';
-
 }

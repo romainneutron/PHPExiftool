@@ -39,5 +39,4 @@ class HuffmanTableSize extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Huffman Table Size';
-
 }

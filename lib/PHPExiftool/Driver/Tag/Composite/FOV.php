@@ -41,5 +41,4 @@ class FOV extends AbstractTag
     protected $Description = 'Field Of View';
 
     protected $local_g2 = 'Image';
-
 }

@@ -39,5 +39,4 @@ class ReferencedWaveformSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Referenced Waveform Sequence';
-
 }

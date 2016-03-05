@@ -39,5 +39,4 @@ class ContinuityOfContent extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Continuity Of Content';
-
 }

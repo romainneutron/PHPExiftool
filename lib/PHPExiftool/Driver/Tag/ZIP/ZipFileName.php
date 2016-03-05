@@ -39,5 +39,4 @@ class ZipFileName extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Zip File Name';
-
 }

@@ -39,5 +39,4 @@ class RawDataRunNumber extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Raw Data Run Number';
-
 }

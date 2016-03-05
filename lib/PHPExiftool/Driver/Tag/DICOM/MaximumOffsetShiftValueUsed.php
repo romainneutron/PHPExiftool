@@ -39,5 +39,4 @@ class MaximumOffsetShiftValueUsed extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Maximum Offset Shift Value Used';
-
 }

@@ -39,5 +39,4 @@ class ScanSpotPositionMap extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Scan Spot Position Map';
-
 }

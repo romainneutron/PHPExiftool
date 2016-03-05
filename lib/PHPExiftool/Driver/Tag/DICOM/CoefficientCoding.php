@@ -39,5 +39,4 @@ class CoefficientCoding extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Coefficient Coding';
-
 }

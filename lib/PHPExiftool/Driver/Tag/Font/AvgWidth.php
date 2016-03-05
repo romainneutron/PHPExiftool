@@ -39,5 +39,4 @@ class AvgWidth extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Avg Width';
-
 }

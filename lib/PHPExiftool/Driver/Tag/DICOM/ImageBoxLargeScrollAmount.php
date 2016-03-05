@@ -39,5 +39,4 @@ class ImageBoxLargeScrollAmount extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Image Box Large Scroll Amount';
-
 }

@@ -39,5 +39,4 @@ class AngleToNorth extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Angle To North';
-
 }

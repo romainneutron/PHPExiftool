@@ -39,5 +39,4 @@ class Scale extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Scale';
-
 }

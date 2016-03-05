@@ -39,5 +39,4 @@ class RecordedCompensatorSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Recorded Compensator Sequence';
-
 }

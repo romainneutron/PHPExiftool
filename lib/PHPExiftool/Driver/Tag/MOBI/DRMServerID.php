@@ -39,5 +39,4 @@ class DRMServerID extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'DRM Server ID';
-
 }

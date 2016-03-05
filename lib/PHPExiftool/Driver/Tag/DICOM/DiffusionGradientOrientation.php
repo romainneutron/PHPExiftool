@@ -39,5 +39,4 @@ class DiffusionGradientOrientation extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Diffusion Gradient Orientation';
-
 }

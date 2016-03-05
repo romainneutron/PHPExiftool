@@ -39,5 +39,4 @@ class RepeatedDataBytes extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Repeated Data Bytes';
-
 }

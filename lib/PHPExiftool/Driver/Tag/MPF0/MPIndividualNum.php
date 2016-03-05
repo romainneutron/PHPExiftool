@@ -39,5 +39,4 @@ class MPIndividualNum extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'MP Individual Num';
-
 }

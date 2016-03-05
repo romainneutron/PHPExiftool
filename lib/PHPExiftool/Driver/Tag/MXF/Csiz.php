@@ -39,5 +39,4 @@ class Csiz extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Csiz';
-
 }

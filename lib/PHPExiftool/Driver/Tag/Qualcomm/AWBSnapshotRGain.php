@@ -41,5 +41,4 @@ class AWBSnapshotRGain extends AbstractTag
     protected $Description = 'AWB Snapshot R Gain';
 
     protected $flag_Permanent = true;
-
 }

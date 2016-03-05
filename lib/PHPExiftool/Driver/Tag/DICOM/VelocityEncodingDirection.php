@@ -39,5 +39,4 @@ class VelocityEncodingDirection extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Velocity Encoding Direction';
-
 }

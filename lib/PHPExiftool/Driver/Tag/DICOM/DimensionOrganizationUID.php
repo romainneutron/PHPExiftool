@@ -39,5 +39,4 @@ class DimensionOrganizationUID extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Dimension Organization UID';
-
 }

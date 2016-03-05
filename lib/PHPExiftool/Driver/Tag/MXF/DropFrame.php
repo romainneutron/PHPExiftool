@@ -39,5 +39,4 @@ class DropFrame extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Drop Frame';
-
 }

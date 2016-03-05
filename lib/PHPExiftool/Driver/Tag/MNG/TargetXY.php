@@ -41,5 +41,4 @@ class TargetXY extends AbstractTag
     protected $Description = 'Target XY';
 
     protected $MaxLength = 2;
-
 }

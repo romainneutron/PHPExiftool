@@ -39,5 +39,4 @@ class Sidebars extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Sidebars';
-
 }

@@ -39,5 +39,4 @@ class AccelerometerZ extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Accelerometer Z';
-
 }

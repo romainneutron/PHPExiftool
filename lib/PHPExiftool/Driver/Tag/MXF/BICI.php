@@ -39,5 +39,4 @@ class BICI extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'BICI';
-
 }

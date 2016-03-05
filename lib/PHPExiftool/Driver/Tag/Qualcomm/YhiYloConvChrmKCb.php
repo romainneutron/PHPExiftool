@@ -41,5 +41,4 @@ class YhiYloConvChrmKCb extends AbstractTag
     protected $Description = 'Yhi Ylo Conv Chrm K Cb';
 
     protected $flag_Permanent = true;
-
 }

@@ -41,5 +41,4 @@ class AWBLoVfeC3 extends AbstractTag
     protected $Description = 'AWB Lo Vfe C3';
 
     protected $flag_Permanent = true;
-
 }

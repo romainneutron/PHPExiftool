@@ -170,5 +170,4 @@ class RetouchHistory extends AbstractTag
             'Label' => 'Drawing',
         ),
     );
-
 }

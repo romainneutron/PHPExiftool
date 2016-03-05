@@ -120,5 +120,4 @@ class ColorSpace extends AbstractTag
             'Label' => 'e-sYCC',
         ),
     );
-
 }

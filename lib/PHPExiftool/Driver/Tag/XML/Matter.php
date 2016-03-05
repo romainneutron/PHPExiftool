@@ -39,5 +39,4 @@ class Matter extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Matter';
-
 }

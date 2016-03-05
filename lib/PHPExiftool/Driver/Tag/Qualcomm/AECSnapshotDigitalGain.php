@@ -41,5 +41,4 @@ class AECSnapshotDigitalGain extends AbstractTag
     protected $Description = 'AEC Snapshot Digital Gain';
 
     protected $flag_Permanent = true;
-
 }

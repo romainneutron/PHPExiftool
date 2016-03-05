@@ -39,5 +39,4 @@ class PreviewQuality extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Preview Quality';
-
 }

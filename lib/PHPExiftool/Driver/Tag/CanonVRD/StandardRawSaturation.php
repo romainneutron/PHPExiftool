@@ -39,5 +39,4 @@ class StandardRawSaturation extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Standard Raw Saturation';
-
 }

@@ -64,5 +64,4 @@ class PrimaryPlatform extends AbstractTag
             'Label' => 'Taligent Inc.',
         ),
     );
-
 }

@@ -41,5 +41,4 @@ class Device extends AbstractTag
     protected $Description = 'Device';
 
     protected $flag_Avoid = true;
-
 }

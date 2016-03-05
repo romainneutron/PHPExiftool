@@ -41,5 +41,4 @@ class TL84ConvChrmBP extends AbstractTag
     protected $Description = 'TL84 Conv Chrm B P';
 
     protected $flag_Permanent = true;
-
 }

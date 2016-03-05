@@ -41,5 +41,4 @@ class SplitColumn extends AbstractTag
     protected $Description = 'Split Column';
 
     protected $flag_Permanent = true;
-
 }

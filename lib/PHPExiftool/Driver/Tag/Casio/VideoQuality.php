@@ -60,5 +60,4 @@ class VideoQuality extends AbstractTag
             'Label' => 'Low',
         ),
     );
-
 }

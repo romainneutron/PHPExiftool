@@ -39,5 +39,4 @@ class RecommendedDisplayCIELabValue extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Recommended Display CIE Lab Value';
-
 }

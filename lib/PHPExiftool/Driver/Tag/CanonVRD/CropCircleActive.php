@@ -50,5 +50,4 @@ class CropCircleActive extends AbstractTag
             'Label' => 'Yes',
         ),
     );
-
 }

@@ -39,5 +39,4 @@ class MRDiffusionSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'MR Diffusion Sequence';
-
 }

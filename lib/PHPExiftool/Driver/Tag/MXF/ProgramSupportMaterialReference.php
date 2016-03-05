@@ -39,5 +39,4 @@ class ProgramSupportMaterialReference extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Program Support Material Reference';
-
 }

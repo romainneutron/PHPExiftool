@@ -39,5 +39,4 @@ class CalciumScoringMassFactorPatient extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Calcium Scoring Mass Factor Patient';
-
 }

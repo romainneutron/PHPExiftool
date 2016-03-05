@@ -39,5 +39,4 @@ class NumberOfTransformSteps extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Number Of Transform Steps';
-
 }

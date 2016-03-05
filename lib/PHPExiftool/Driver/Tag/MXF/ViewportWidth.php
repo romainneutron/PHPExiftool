@@ -39,5 +39,4 @@ class ViewportWidth extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Viewport Width';
-
 }

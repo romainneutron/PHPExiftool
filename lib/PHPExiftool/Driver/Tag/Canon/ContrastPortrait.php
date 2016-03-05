@@ -48,5 +48,4 @@ class ContrastPortrait extends AbstractTag
             'Label' => 'n/a',
         ),
     );
-
 }

@@ -52,5 +52,4 @@ class FaceDetect extends AbstractTag
             'Label' => 'On',
         ),
     );
-
 }

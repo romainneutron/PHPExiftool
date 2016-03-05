@@ -41,5 +41,4 @@ class FileVersion extends AbstractTag
     protected $Description = 'File Version';
 
     protected $local_g2 = 'Image';
-
 }

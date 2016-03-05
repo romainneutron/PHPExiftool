@@ -39,5 +39,4 @@ class MeteringMode extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Metering Mode';
-
 }

@@ -41,5 +41,4 @@ class MCUVersion extends AbstractTag
     protected $Description = 'MCU Version';
 
     protected $flag_Permanent = true;
-
 }

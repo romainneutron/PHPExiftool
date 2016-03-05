@@ -39,5 +39,4 @@ class UsageRightsMessage extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Usage Rights Message';
-
 }

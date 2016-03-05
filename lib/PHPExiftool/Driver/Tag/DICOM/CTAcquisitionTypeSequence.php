@@ -39,5 +39,4 @@ class CTAcquisitionTypeSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'CT Acquisition Type Sequence';
-
 }

@@ -41,5 +41,4 @@ class AlternateTitleText extends AbstractTag
     protected $Description = 'Alternate Title Text';
 
     protected $flag_List = true;
-
 }

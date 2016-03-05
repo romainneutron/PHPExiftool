@@ -39,5 +39,4 @@ class RegionName extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Region Name';
-
 }

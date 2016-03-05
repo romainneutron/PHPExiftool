@@ -39,5 +39,4 @@ class DynamicZAlphaValue extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Dynamic Z Alpha Value';
-
 }

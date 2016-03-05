@@ -84,5 +84,4 @@ class MonochromeToning extends AbstractTag
             'Label' => 'None',
         ),
     );
-
 }

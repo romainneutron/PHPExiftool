@@ -39,5 +39,4 @@ class BulkMotionStatus extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Bulk Motion Status';
-
 }

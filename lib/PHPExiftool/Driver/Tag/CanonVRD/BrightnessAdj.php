@@ -39,5 +39,4 @@ class BrightnessAdj extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Brightness Adj';
-
 }

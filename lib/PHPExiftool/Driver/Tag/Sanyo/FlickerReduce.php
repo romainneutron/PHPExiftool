@@ -52,5 +52,4 @@ class FlickerReduce extends AbstractTag
             'Label' => 'On',
         ),
     );
-
 }

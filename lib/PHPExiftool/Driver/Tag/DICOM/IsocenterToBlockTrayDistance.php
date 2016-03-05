@@ -39,5 +39,4 @@ class IsocenterToBlockTrayDistance extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Isocenter To Block Tray Distance';
-
 }

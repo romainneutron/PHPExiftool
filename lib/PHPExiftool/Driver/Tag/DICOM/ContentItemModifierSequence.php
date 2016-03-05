@@ -39,5 +39,4 @@ class ContentItemModifierSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Content Item Modifier Sequence';
-
 }

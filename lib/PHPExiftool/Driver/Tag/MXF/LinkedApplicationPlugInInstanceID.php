@@ -39,5 +39,4 @@ class LinkedApplicationPlugInInstanceID extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Linked Application Plug-In Instance ID';
-
 }

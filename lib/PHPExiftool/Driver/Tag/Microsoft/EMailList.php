@@ -39,5 +39,4 @@ class EMailList extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'E-mail List';
-
 }

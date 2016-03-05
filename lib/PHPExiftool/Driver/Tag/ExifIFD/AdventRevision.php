@@ -41,5 +41,4 @@ class AdventRevision extends AbstractTag
     protected $Description = 'Advent Revision';
 
     protected $local_g1 = 'ExifIFD';
-
 }

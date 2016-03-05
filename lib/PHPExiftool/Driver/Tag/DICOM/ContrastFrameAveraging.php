@@ -39,5 +39,4 @@ class ContrastFrameAveraging extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Contrast Frame Averaging';
-
 }

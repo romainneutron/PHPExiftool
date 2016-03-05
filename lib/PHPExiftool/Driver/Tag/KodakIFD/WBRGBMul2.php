@@ -41,5 +41,4 @@ class WBRGBMul2 extends AbstractTag
     protected $Description = 'WB RGB Mul 2';
 
     protected $flag_Permanent = true;
-
 }

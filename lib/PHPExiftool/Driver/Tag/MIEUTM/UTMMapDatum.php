@@ -39,5 +39,4 @@ class UTMMapDatum extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'UTM Map Datum';
-
 }

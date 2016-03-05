@@ -39,5 +39,4 @@ class ImageFrameOrigin extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Image Frame Origin';
-
 }

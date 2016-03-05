@@ -39,5 +39,4 @@ class CorrectedParameterSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Corrected Parameter Sequence';
-
 }

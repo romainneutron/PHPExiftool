@@ -39,5 +39,4 @@ class LandscapeUnsharpMaskFineness extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Landscape Unsharp Mask Fineness';
-
 }

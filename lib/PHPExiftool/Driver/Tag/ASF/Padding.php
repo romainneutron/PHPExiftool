@@ -39,5 +39,4 @@ class Padding extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Padding';
-
 }

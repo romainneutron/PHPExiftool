@@ -50,5 +50,4 @@ class GPSLongitudeRef extends AbstractTag
             'Label' => 'West',
         ),
     );
-
 }

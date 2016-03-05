@@ -39,5 +39,4 @@ class LatestEpochOrHighestSeries extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Latest Epoch Or Highest Series';
-
 }

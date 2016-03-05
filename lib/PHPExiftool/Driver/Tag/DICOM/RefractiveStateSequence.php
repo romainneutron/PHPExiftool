@@ -39,5 +39,4 @@ class RefractiveStateSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Refractive State Sequence';
-
 }

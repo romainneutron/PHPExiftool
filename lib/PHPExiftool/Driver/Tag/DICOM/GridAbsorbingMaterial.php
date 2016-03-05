@@ -39,5 +39,4 @@ class GridAbsorbingMaterial extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Grid Absorbing Material';
-
 }

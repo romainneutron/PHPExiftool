@@ -39,5 +39,4 @@ class DocTypeVersion extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Doc Type Version';
-
 }

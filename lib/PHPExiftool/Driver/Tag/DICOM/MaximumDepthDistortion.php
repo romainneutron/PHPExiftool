@@ -39,5 +39,4 @@ class MaximumDepthDistortion extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Maximum Depth Distortion';
-
 }

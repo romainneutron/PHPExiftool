@@ -41,5 +41,4 @@ class PackageLastModifyDate extends AbstractTag
     protected $Description = 'Package Last Modify Date';
 
     protected $local_g2 = 'Time';
-
 }

@@ -39,5 +39,4 @@ class GeometricalProperties extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Geometrical Properties';
-
 }

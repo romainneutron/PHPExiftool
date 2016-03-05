@@ -80,5 +80,4 @@ class MonochromeFilterEffect extends AbstractTag
             'Label' => 'None',
         ),
     );
-
 }

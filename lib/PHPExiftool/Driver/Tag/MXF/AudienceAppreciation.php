@@ -39,5 +39,4 @@ class AudienceAppreciation extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Audience Appreciation';
-
 }

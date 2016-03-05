@@ -41,5 +41,4 @@ class FovCot extends AbstractTag
     protected $Description = 'Fov Cot';
 
     protected $local_g1 = 'ExifIFD';
-
 }

@@ -39,5 +39,4 @@ class RFEchoTrainLength extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'RF Echo Train Length';
-
 }

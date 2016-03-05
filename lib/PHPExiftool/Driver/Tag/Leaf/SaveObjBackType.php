@@ -39,5 +39,4 @@ class SaveObjBackType extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Save Obj Back Type';
-
 }

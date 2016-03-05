@@ -50,5 +50,4 @@ class Linearized extends AbstractTag
             'Label' => 'Yes',
         ),
     );
-
 }

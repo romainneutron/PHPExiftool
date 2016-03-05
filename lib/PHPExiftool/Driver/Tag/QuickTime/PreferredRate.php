@@ -39,5 +39,4 @@ class PreferredRate extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Preferred Rate';
-
 }

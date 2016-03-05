@@ -39,5 +39,4 @@ class CardiacPhases extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Cardiac Phases';
-
 }

@@ -39,5 +39,4 @@ class DeviceParametersSets extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Device Parameters Sets';
-
 }

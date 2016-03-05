@@ -41,5 +41,4 @@ class HometownCity extends AbstractTag
     protected $Description = 'Hometown City';
 
     protected $flag_Permanent = true;
-
 }

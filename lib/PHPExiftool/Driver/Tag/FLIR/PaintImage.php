@@ -39,5 +39,4 @@ class PaintImage extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Paint Image';
-
 }

@@ -39,5 +39,4 @@ class FileDescription extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'File Description';
-
 }

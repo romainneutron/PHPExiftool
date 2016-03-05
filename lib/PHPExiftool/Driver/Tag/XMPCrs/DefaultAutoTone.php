@@ -39,5 +39,4 @@ class DefaultAutoTone extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Default Auto Tone';
-
 }

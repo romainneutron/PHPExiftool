@@ -41,5 +41,4 @@ class Subsection2 extends AbstractTag
     protected $Description = 'Subsection 2';
 
     protected $flag_Avoid = true;
-
 }

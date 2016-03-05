@@ -39,5 +39,4 @@ class RIFFChunkLength extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'RIFF Chunk Length';
-
 }

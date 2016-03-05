@@ -39,5 +39,4 @@ class FilmGencode extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Film Gencode';
-
 }

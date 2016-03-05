@@ -39,5 +39,4 @@ class DoseGridScaling extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Dose Grid Scaling';
-
 }

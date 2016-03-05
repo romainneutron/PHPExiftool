@@ -39,5 +39,4 @@ class SEMInfo extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'SEM Info';
-
 }

@@ -43,5 +43,4 @@ class Dictionary extends AbstractTag
     protected $local_g2 = 'Other';
 
     protected $flag_Binary = true;
-
 }

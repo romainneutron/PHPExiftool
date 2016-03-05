@@ -39,5 +39,4 @@ class ViewingCondDesc extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Viewing Cond Desc';
-
 }

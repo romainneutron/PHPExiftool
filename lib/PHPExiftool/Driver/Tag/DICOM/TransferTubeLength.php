@@ -39,5 +39,4 @@ class TransferTubeLength extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Transfer Tube Length';
-
 }

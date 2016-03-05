@@ -96,5 +96,4 @@ class PresetWhiteBalance extends AbstractTag
             'Label' => 'Auto',
         ),
     );
-
 }

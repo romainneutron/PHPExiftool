@@ -39,5 +39,4 @@ class NextTrackID extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Next Track ID';
-
 }

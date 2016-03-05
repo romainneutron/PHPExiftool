@@ -39,5 +39,4 @@ class Spouse extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Spouse';
-
 }

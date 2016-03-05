@@ -39,5 +39,4 @@ class OriginalScannedImageSize extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Original Scanned Image Size';
-
 }

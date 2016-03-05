@@ -43,5 +43,4 @@ class FocalLengthIn35mmFormat extends AbstractTag
     protected $local_g1 = 'ExifIFD';
 
     protected $local_g2 = 'Camera';
-
 }

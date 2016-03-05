@@ -41,5 +41,4 @@ class VersionsEventSoftwareAgent extends AbstractTag
     protected $Description = 'Versions Event Software Agent';
 
     protected $flag_List = true;
-
 }

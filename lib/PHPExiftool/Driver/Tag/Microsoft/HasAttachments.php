@@ -39,5 +39,4 @@ class HasAttachments extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Has Attachments';
-
 }

@@ -39,5 +39,4 @@ class VideoHeight extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Video Height';
-
 }

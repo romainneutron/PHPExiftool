@@ -41,5 +41,4 @@ class PhoneNumber extends AbstractTag
     protected $Description = 'Phone Number';
 
     protected $local_g2 = 'Author';
-
 }

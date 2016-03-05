@@ -41,5 +41,4 @@ class DCGeoreferenceSources extends AbstractTag
     protected $Description = 'DC Georeference Sources';
 
     protected $local_g2 = 'Location';
-
 }

@@ -39,5 +39,4 @@ class MediumType extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Medium Type';
-
 }

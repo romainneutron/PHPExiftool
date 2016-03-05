@@ -39,5 +39,4 @@ class SkipFrameRangeFlag extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Skip Frame Range Flag';
-
 }

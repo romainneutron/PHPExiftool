@@ -630,5 +630,4 @@ class AFPointAtShutterRelease extends AbstractTag
     );
 
     protected $Index = 'mixed';
-
 }

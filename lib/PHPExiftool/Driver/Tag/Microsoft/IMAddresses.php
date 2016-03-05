@@ -39,5 +39,4 @@ class IMAddresses extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'IM Addresses';
-
 }

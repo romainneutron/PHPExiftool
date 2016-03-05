@@ -70,5 +70,4 @@ class ImageAlterationConstraints extends AbstractTag
             'Label' => 'No Retouching',
         ),
     );
-
 }

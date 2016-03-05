@@ -80,5 +80,4 @@ class SonyImageSize extends AbstractTag
             'Label' => 'Small (16:9)',
         ),
     );
-
 }

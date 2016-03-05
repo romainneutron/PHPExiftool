@@ -39,5 +39,4 @@ class RWaveTimeVector extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'R Wave Time Vector';
-
 }

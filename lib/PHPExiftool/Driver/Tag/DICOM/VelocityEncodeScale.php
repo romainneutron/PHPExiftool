@@ -39,5 +39,4 @@ class VelocityEncodeScale extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Velocity Encode Scale';
-
 }

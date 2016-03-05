@@ -68,5 +68,4 @@ class FilterEffectUserDef1 extends AbstractTag
             'Label' => 'Green',
         ),
     );
-
 }

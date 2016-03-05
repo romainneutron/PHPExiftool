@@ -39,5 +39,4 @@ class SearchRanking extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Search Ranking';
-
 }

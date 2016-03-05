@@ -39,5 +39,4 @@ class GlobalAltitude extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Global Altitude';
-
 }

@@ -39,5 +39,4 @@ class StdSharpenOutput extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Std Sharpen Output';
-
 }

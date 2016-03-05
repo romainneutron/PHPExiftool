@@ -39,5 +39,4 @@ class DefaultAutoGray extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Default Auto Gray';
-
 }

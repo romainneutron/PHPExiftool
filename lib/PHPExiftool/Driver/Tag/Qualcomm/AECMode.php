@@ -41,5 +41,4 @@ class AECMode extends AbstractTag
     protected $Description = 'AEC Mode';
 
     protected $flag_Permanent = true;
-
 }

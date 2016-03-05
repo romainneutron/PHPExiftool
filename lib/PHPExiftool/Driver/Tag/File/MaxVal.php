@@ -39,5 +39,4 @@ class MaxVal extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Max Val';
-
 }

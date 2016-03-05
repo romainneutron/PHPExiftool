@@ -94,5 +94,4 @@ class MinorModelAgeDisclosure extends AbstractTag
             'Label' => 'Age Unknown',
         ),
     );
-
 }

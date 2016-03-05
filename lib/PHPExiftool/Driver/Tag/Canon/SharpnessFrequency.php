@@ -68,5 +68,4 @@ class SharpnessFrequency extends AbstractTag
             'Label' => 'Highest',
         ),
     );
-
 }

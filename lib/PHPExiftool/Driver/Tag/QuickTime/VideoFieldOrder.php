@@ -50,5 +50,4 @@ class VideoFieldOrder extends AbstractTag
             'Label' => '2:1 Interlaced',
         ),
     );
-
 }

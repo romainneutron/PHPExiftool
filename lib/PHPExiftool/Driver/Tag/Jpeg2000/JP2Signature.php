@@ -39,5 +39,4 @@ class JP2Signature extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'JP2 Signature';
-
 }

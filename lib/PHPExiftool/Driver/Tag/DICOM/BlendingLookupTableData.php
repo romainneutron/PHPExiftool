@@ -39,5 +39,4 @@ class BlendingLookupTableData extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Blending Lookup Table Data';
-
 }

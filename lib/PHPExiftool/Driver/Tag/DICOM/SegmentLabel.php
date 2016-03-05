@@ -39,5 +39,4 @@ class SegmentLabel extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Segment Label';
-
 }

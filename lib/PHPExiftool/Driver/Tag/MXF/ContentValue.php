@@ -39,5 +39,4 @@ class ContentValue extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Content Value';
-
 }

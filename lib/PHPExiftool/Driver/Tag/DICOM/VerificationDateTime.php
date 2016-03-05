@@ -39,5 +39,4 @@ class VerificationDateTime extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Verification Date Time';
-
 }

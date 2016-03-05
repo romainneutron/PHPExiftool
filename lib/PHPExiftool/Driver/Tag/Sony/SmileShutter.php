@@ -52,5 +52,4 @@ class SmileShutter extends AbstractTag
             'Label' => 'On',
         ),
     );
-
 }

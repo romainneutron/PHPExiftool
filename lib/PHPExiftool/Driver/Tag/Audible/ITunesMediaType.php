@@ -39,5 +39,4 @@ class ITunesMediaType extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'iTunes Media Type';
-
 }

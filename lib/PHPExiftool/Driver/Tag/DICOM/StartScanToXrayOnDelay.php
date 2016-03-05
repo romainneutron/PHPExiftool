@@ -39,5 +39,4 @@ class StartScanToXrayOnDelay extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Start Scan To Xray On Delay';
-
 }

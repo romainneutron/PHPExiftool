@@ -41,5 +41,4 @@ class GPSAltitude extends AbstractTag
     protected $Description = 'GPS Altitude';
 
     protected $flag_Permanent = true;
-
 }

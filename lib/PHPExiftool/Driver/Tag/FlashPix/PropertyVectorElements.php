@@ -39,5 +39,4 @@ class PropertyVectorElements extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Property Vector Elements';
-
 }

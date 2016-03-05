@@ -39,5 +39,4 @@ class NumberOfPriorsReferenced extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Number Of Priors Referenced';
-
 }

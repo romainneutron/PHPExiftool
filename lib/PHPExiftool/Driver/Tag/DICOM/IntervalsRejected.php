@@ -39,5 +39,4 @@ class IntervalsRejected extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Intervals Rejected';
-
 }

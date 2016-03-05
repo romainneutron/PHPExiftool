@@ -39,5 +39,4 @@ class TimecodeUserBitsFlag extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Timecode User Bits Flag';
-
 }

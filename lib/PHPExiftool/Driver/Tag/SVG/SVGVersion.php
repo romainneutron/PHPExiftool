@@ -39,5 +39,4 @@ class SVGVersion extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'SVG Version';
-
 }

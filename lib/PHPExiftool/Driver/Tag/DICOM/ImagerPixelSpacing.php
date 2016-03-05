@@ -39,5 +39,4 @@ class ImagerPixelSpacing extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Imager Pixel Spacing';
-
 }

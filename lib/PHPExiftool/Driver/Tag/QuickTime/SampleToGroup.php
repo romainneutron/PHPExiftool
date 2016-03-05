@@ -41,5 +41,4 @@ class SampleToGroup extends AbstractTag
     protected $Description = 'Sample To Group';
 
     protected $flag_Binary = true;
-
 }

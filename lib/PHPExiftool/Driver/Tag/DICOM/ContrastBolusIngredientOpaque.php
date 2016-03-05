@@ -39,5 +39,4 @@ class ContrastBolusIngredientOpaque extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Contrast Bolus Ingredient Opaque';
-
 }

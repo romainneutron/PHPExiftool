@@ -39,5 +39,4 @@ class OccurrenceIndividualCount extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Occurrence Individual Count';
-
 }

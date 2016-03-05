@@ -41,5 +41,4 @@ class SelfTimerMode extends AbstractTag
     protected $Description = 'Self Timer Mode';
 
     protected $local_g1 = 'ExifIFD';
-
 }

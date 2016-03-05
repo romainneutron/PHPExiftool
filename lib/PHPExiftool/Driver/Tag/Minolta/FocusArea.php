@@ -52,5 +52,4 @@ class FocusArea extends AbstractTag
             'Label' => 'Spot Focus',
         ),
     );
-
 }

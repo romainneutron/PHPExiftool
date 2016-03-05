@@ -39,5 +39,4 @@ class NominationCategory extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Nomination Category';
-
 }

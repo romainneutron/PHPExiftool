@@ -78,5 +78,4 @@ class ImageMedium extends AbstractTag
             'Label' => 'Synthetic image',
         ),
     );
-
 }

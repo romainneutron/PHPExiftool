@@ -39,5 +39,4 @@ class BccNames extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Bcc Names';
-
 }

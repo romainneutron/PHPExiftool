@@ -1254,5 +1254,4 @@ class DR4CameraModel extends AbstractTag
             'Label' => 'EOS 5DS R',
         ),
     );
-
 }

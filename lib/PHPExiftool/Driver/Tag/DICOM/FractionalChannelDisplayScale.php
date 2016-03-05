@@ -39,5 +39,4 @@ class FractionalChannelDisplayScale extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Fractional Channel Display Scale';
-
 }

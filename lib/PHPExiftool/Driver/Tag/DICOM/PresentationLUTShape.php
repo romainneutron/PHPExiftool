@@ -39,5 +39,4 @@ class PresentationLUTShape extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Presentation LUT Shape';
-
 }

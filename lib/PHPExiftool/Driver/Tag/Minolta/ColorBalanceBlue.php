@@ -41,5 +41,4 @@ class ColorBalanceBlue extends AbstractTag
     protected $Description = 'Color Balance Blue';
 
     protected $flag_Permanent = true;
-
 }

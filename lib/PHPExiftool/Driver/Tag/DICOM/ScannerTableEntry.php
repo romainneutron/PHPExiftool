@@ -39,5 +39,4 @@ class ScannerTableEntry extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Scanner Table Entry';
-
 }

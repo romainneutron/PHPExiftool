@@ -39,5 +39,4 @@ class MobileNetworkCode extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Mobile Network Code';
-
 }

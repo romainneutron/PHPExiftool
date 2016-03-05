@@ -39,5 +39,4 @@ class GantryPeriod extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Gantry Period';
-
 }

@@ -41,5 +41,4 @@ class FileGroupID extends AbstractTag
     protected $Description = 'File Group ID';
 
     protected $local_g1 = 'System';
-
 }

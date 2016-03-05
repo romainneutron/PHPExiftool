@@ -39,5 +39,4 @@ class AssignedCategoryValue extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Assigned Category Value';
-
 }

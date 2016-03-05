@@ -39,5 +39,4 @@ class OvSize extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Oval Size';
-
 }

@@ -39,5 +39,4 @@ class IntervalNumber extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Interval Number';
-
 }

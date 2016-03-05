@@ -41,5 +41,4 @@ class ZipModifyDate extends AbstractTag
     protected $Description = 'Zip Modify Date';
 
     protected $local_g2 = 'Time';
-
 }

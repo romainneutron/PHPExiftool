@@ -39,5 +39,4 @@ class FillRect extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Fill Rect';
-
 }

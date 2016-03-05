@@ -39,5 +39,4 @@ class OriginalDocumentID extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Original Document ID';
-
 }

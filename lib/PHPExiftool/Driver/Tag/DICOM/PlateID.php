@@ -39,5 +39,4 @@ class PlateID extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Plate ID';
-
 }

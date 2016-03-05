@@ -41,5 +41,4 @@ class ConversionLens extends AbstractTag
     protected $Description = 'Conversion Lens';
 
     protected $flag_Permanent = true;
-
 }

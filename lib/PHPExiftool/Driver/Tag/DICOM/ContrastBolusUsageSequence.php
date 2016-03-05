@@ -39,5 +39,4 @@ class ContrastBolusUsageSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Contrast Bolus Usage Sequence';
-
 }

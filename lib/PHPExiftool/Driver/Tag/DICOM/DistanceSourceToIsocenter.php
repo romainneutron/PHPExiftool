@@ -39,5 +39,4 @@ class DistanceSourceToIsocenter extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Distance Source To Isocenter';
-
 }

@@ -39,5 +39,4 @@ class MRTimingAndRelatedParametersSeq extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'MR Timing And Related Parameters Seq';
-
 }

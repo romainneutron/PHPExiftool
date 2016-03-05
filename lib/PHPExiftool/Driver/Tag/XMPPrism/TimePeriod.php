@@ -41,5 +41,4 @@ class TimePeriod extends AbstractTag
     protected $Description = 'Time Period';
 
     protected $flag_Avoid = true;
-
 }

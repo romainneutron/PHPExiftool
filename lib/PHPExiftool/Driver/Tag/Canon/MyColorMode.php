@@ -100,5 +100,4 @@ class MyColorMode extends AbstractTag
             'Label' => 'B&W',
         ),
     );
-
 }

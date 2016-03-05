@@ -39,5 +39,4 @@ class NumRules extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Num Rules';
-
 }

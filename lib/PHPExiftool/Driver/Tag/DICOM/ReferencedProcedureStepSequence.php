@@ -39,5 +39,4 @@ class ReferencedProcedureStepSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Referenced Procedure Step Sequence';
-
 }

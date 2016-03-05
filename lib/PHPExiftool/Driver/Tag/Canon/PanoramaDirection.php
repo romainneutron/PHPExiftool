@@ -64,5 +64,4 @@ class PanoramaDirection extends AbstractTag
             'Label' => '2x2 Matrix (Clockwise)',
         ),
     );
-
 }

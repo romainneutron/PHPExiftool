@@ -39,5 +39,4 @@ class TaxonVerbatimTaxonRank extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Taxon Verbatim Taxon Rank';
-
 }

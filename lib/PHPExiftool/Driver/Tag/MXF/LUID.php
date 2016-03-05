@@ -39,5 +39,4 @@ class LUID extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'LUID';
-
 }

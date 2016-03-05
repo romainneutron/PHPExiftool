@@ -39,5 +39,4 @@ class FillPixPat extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Fill Pixel Pattern';
-
 }

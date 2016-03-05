@@ -41,5 +41,4 @@ class ObjectName extends AbstractTag
     protected $Description = 'Object Name';
 
     protected $MaxLength = 64;
-
 }

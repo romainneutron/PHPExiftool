@@ -39,5 +39,4 @@ class MappingResource extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Mapping Resource';
-
 }

@@ -41,5 +41,4 @@ class AEBXv extends AbstractTag
     protected $Description = 'AEB Xv';
 
     protected $flag_Permanent = true;
-
 }

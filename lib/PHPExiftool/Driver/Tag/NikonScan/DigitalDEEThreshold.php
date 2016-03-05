@@ -41,5 +41,4 @@ class DigitalDEEThreshold extends AbstractTag
     protected $Description = 'Digital DEE Threshold';
 
     protected $flag_Permanent = true;
-
 }

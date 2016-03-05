@@ -39,5 +39,4 @@ class ReformattingThickness extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Reformatting Thickness';
-
 }

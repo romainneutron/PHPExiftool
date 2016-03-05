@@ -39,5 +39,4 @@ class ShotComment extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Shot Comment';
-
 }

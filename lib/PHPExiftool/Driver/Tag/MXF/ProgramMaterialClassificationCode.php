@@ -39,5 +39,4 @@ class ProgramMaterialClassificationCode extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Program Material Classification Code';
-
 }

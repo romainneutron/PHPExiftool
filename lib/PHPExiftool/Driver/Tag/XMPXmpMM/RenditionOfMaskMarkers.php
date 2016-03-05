@@ -50,5 +50,4 @@ class RenditionOfMaskMarkers extends AbstractTag
             'Label' => 'None',
         ),
     );
-
 }

@@ -41,5 +41,4 @@ class StraightenAngle extends AbstractTag
     protected $Description = 'Straighten Angle';
 
     protected $flag_Permanent = true;
-
 }

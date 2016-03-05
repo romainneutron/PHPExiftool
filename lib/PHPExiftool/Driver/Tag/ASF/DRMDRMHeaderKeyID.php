@@ -39,5 +39,4 @@ class DRMDRMHeaderKeyID extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'DRM DRM Header Key ID';
-
 }

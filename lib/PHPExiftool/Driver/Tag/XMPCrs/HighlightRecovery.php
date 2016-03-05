@@ -39,5 +39,4 @@ class HighlightRecovery extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Highlight Recovery';
-
 }

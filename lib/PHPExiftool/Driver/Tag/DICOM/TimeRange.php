@@ -39,5 +39,4 @@ class TimeRange extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Time Range';
-
 }

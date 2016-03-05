@@ -39,5 +39,4 @@ class LastDirectoryRecordOffset extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Last Directory Record Offset';
-
 }

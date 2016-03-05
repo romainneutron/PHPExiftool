@@ -39,5 +39,4 @@ class CreatorBuildNumber extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Creator Build Number';
-
 }

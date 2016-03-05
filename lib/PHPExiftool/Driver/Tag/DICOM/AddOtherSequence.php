@@ -39,5 +39,4 @@ class AddOtherSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Add Other Sequence';
-
 }

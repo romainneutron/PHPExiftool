@@ -39,5 +39,4 @@ class ZTrackingFlag extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Z Tracking Flag';
-
 }

@@ -39,5 +39,4 @@ class SceneAppearanceEstimates extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Scene Appearance Estimates';
-
 }

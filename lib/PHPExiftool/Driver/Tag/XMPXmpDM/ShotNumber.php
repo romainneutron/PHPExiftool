@@ -39,5 +39,4 @@ class ShotNumber extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Shot Number';
-
 }

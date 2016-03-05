@@ -39,5 +39,4 @@ class IlluminationTypeCodeSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Illumination Type Code Sequence';
-
 }

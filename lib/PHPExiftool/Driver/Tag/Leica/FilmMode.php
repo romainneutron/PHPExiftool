@@ -41,5 +41,4 @@ class FilmMode extends AbstractTag
     protected $Description = 'Film Mode';
 
     protected $flag_Permanent = true;
-
 }

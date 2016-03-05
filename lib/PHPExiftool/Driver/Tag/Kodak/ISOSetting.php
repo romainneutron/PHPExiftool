@@ -41,5 +41,4 @@ class ISOSetting extends AbstractTag
     protected $Description = 'ISO Setting';
 
     protected $flag_Permanent = true;
-
 }

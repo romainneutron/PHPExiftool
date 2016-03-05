@@ -39,5 +39,4 @@ class CentralTelephoneNumber extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Central Telephone Number';
-
 }

@@ -39,5 +39,4 @@ class DistanceSourceToPatient extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Distance Source To Patient';
-
 }

@@ -39,5 +39,4 @@ class ChemicalShiftsMinIntegrateLimitPPM extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Chemical Shifts Min Integrate Limit PPM';
-
 }

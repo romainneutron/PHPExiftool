@@ -41,5 +41,4 @@ class Padding extends AbstractTag
     protected $Description = 'Padding';
 
     protected $flag_Binary = true;
-
 }

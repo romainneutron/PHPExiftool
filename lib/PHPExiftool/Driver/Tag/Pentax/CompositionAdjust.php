@@ -60,5 +60,4 @@ class CompositionAdjust extends AbstractTag
             'Label' => 'Horizon Correction',
         ),
     );
-
 }

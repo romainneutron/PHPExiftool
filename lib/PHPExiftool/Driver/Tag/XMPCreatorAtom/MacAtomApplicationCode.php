@@ -39,5 +39,4 @@ class MacAtomApplicationCode extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Mac Atom Application Code';
-
 }

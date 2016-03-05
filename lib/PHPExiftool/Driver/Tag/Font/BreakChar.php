@@ -39,5 +39,4 @@ class BreakChar extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Break Char';
-
 }

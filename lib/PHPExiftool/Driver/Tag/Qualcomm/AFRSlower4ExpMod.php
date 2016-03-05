@@ -41,5 +41,4 @@ class AFRSlower4ExpMod extends AbstractTag
     protected $Description = 'AFR Slower 4 Exp Mod';
 
     protected $flag_Permanent = true;
-
 }

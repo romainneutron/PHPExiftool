@@ -128,5 +128,4 @@ class MinFocusDistance extends AbstractTag
             'Label' => '5.6 m',
         ),
     );
-
 }

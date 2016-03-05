@@ -39,5 +39,4 @@ class LatestPeriodOrHighestSystem extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Latest Period Or Highest System';
-
 }

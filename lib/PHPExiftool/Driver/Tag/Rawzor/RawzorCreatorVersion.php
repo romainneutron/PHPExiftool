@@ -39,5 +39,4 @@ class RawzorCreatorVersion extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Rawzor Creator Version';
-
 }

@@ -39,5 +39,4 @@ class VoiceTalentName extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Voice Talent Name';
-
 }

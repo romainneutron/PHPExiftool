@@ -39,5 +39,4 @@ class AnalogVideoSystemName extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Analog Video System Name';
-
 }

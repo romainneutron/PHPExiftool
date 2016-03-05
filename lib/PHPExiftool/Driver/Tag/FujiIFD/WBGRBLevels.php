@@ -39,5 +39,4 @@ class WBGRBLevels extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'WB GRB Levels';
-
 }

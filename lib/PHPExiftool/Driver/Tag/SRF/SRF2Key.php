@@ -41,5 +41,4 @@ class SRF2Key extends AbstractTag
     protected $Description = 'SRF2 Key';
 
     protected $flag_Permanent = true;
-
 }

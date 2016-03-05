@@ -39,5 +39,4 @@ class Status extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Status';
-
 }

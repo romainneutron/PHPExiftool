@@ -39,5 +39,4 @@ class NegativeCacheLargePreviewSize extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Negative Cache Large Preview Size';
-
 }

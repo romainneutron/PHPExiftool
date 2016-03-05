@@ -39,5 +39,4 @@ class CueRefCluster extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Cue Ref Cluster';
-
 }

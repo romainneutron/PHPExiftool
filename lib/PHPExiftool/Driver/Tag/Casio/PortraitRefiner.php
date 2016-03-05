@@ -56,5 +56,4 @@ class PortraitRefiner extends AbstractTag
             'Label' => '+2',
         ),
     );
-
 }

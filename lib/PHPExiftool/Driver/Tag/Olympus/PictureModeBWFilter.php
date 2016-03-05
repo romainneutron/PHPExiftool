@@ -68,5 +68,4 @@ class PictureModeBWFilter extends AbstractTag
             'Label' => 'Green',
         ),
     );
-
 }

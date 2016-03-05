@@ -39,5 +39,4 @@ class TissueHeterogeneityCorrection extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Tissue Heterogeneity Correction';
-
 }

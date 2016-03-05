@@ -39,5 +39,4 @@ class PredictorConstants extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Predictor Constants';
-
 }

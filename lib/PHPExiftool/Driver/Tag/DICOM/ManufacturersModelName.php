@@ -39,5 +39,4 @@ class ManufacturersModelName extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Manufacturers Model Name';
-
 }

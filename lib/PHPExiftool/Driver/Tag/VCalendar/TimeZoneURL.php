@@ -41,5 +41,4 @@ class TimeZoneURL extends AbstractTag
     protected $Description = 'Time Zone URL';
 
     protected $local_g2 = 'Time';
-
 }

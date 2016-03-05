@@ -39,5 +39,4 @@ class ChannelHandle extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Channel Handle';
-
 }

@@ -108,5 +108,4 @@ class PictureMode2 extends AbstractTag
             'Label' => 'Flash X-Sync Speed AE',
         ),
     );
-
 }

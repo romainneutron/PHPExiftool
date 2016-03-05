@@ -39,5 +39,4 @@ class PercentSampling extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Percent Sampling';
-
 }

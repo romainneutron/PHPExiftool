@@ -56,5 +56,4 @@ class NoiseReductionMethod extends AbstractTag
             'Label' => 'Better Quality 2013',
         ),
     );
-
 }

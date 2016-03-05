@@ -39,5 +39,4 @@ class SelectorUTValue extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Selector UT Value';
-
 }

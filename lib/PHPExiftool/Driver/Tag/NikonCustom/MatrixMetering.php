@@ -52,5 +52,4 @@ class MatrixMetering extends AbstractTag
             'Label' => 'Face Detection Off',
         ),
     );
-
 }

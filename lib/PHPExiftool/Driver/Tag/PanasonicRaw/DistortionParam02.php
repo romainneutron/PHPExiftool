@@ -39,5 +39,4 @@ class DistortionParam02 extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Distortion Param 02';
-
 }

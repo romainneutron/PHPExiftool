@@ -41,5 +41,4 @@ class FormatVersionTime extends AbstractTag
     protected $Description = 'Format Version Time';
 
     protected $local_g2 = 'Time';
-
 }

@@ -39,5 +39,4 @@ class ReadStatus extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Read Status';
-
 }

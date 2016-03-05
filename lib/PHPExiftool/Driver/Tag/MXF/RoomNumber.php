@@ -39,5 +39,4 @@ class RoomNumber extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Room Number';
-
 }

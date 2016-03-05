@@ -41,5 +41,4 @@ class ColorTemperatureAdj extends AbstractTag
     protected $Description = 'Color Temperature Adj';
 
     protected $flag_Permanent = true;
-
 }

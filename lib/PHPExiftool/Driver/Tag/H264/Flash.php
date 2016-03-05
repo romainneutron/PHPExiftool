@@ -150,5 +150,4 @@ class Flash extends AbstractTag
             'Label' => 'Auto, Fired, Red-eye reduction, Return detected',
         ),
     );
-
 }

@@ -54,5 +54,4 @@ class MeasurementGeometry extends AbstractTag
             'Label' => '0/d or d/0',
         ),
     );
-
 }

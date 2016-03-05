@@ -52,5 +52,4 @@ class ClearRetouch extends AbstractTag
             'Label' => 'On',
         ),
     );
-
 }

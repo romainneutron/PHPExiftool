@@ -39,5 +39,4 @@ class ContextUID extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Context UID';
-
 }

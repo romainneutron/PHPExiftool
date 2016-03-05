@@ -47,5 +47,4 @@ class MakerNoteMinolta2 extends AbstractTag
     protected $flag_Permanent = true;
 
     protected $Index = 35;
-
 }

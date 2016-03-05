@@ -39,5 +39,4 @@ class TapeCapacity extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Tape Capacity';
-
 }

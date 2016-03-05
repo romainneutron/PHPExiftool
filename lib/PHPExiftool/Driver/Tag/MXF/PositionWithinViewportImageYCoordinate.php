@@ -39,5 +39,4 @@ class PositionWithinViewportImageYCoordinate extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Position Within Viewport Image Y Coordinate';
-
 }

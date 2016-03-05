@@ -39,5 +39,4 @@ class SelectorSHValue extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Selector SH Value';
-
 }

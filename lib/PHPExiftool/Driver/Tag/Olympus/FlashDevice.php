@@ -60,5 +60,4 @@ class FlashDevice extends AbstractTag
             'Label' => 'Internal + External',
         ),
     );
-
 }

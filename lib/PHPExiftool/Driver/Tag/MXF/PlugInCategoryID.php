@@ -39,5 +39,4 @@ class PlugInCategoryID extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Plug-In Category ID';
-
 }

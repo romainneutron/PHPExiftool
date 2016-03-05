@@ -39,5 +39,4 @@ class CreatorMinorVersion extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Creator Minor Version';
-
 }

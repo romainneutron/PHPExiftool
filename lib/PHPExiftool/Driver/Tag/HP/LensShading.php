@@ -41,5 +41,4 @@ class LensShading extends AbstractTag
     protected $Description = 'Lens Shading';
 
     protected $flag_Permanent = true;
-
 }

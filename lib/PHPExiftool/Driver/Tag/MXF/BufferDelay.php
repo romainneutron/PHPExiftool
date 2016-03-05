@@ -39,5 +39,4 @@ class BufferDelay extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Buffer Delay';
-
 }

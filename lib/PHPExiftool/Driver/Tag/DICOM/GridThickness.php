@@ -39,5 +39,4 @@ class GridThickness extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Grid Thickness';
-
 }

@@ -39,5 +39,4 @@ class UnknownSharpness extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Unknown Sharpness';
-
 }

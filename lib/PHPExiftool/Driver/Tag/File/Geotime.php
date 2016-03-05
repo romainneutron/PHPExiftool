@@ -39,5 +39,4 @@ class Geotime extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Geotime';
-
 }

@@ -39,5 +39,4 @@ class ModalityLUTSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Modality LUT Sequence';
-
 }

@@ -41,5 +41,4 @@ class FlashType extends AbstractTag
     protected $Description = 'Flash Type';
 
     protected $flag_Permanent = true;
-
 }

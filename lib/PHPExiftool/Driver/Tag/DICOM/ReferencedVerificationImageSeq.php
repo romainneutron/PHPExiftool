@@ -39,5 +39,4 @@ class ReferencedVerificationImageSeq extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Referenced Verification Image Seq';
-
 }

@@ -41,5 +41,4 @@ class LightValueCenter extends AbstractTag
     protected $Description = 'Light Value Center';
 
     protected $flag_Permanent = true;
-
 }

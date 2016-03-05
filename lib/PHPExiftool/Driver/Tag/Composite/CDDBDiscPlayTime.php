@@ -41,5 +41,4 @@ class CDDBDiscPlayTime extends AbstractTag
     protected $Description = 'CDDB Disc Play Time';
 
     protected $local_g2 = 'Audio';
-
 }

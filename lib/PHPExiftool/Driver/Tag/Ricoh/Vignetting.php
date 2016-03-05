@@ -60,5 +60,4 @@ class Vignetting extends AbstractTag
             'Label' => 'High',
         ),
     );
-
 }

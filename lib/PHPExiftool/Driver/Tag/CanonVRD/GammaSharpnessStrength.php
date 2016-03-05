@@ -39,5 +39,4 @@ class GammaSharpnessStrength extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Gamma Sharpness Strength';
-
 }

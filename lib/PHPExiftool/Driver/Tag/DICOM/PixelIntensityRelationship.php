@@ -39,5 +39,4 @@ class PixelIntensityRelationship extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Pixel Intensity Relationship';
-
 }

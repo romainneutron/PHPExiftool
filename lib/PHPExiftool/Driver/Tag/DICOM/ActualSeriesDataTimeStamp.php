@@ -39,5 +39,4 @@ class ActualSeriesDataTimeStamp extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Actual Series Data Time Stamp';
-
 }

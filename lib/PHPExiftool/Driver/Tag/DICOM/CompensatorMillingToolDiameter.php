@@ -39,5 +39,4 @@ class CompensatorMillingToolDiameter extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Compensator Milling Tool Diameter';
-
 }

@@ -39,5 +39,4 @@ class Rsiz extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Rsiz';
-
 }

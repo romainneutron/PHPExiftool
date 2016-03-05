@@ -19,5 +19,4 @@ class Unsigned extends AbstractType
     protected $ExiftoolName = 'unsigned';
 
     protected $PHPMap = 'int';
-
 }

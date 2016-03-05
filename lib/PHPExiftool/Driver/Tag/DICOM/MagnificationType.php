@@ -39,5 +39,4 @@ class MagnificationType extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Magnification Type';
-
 }

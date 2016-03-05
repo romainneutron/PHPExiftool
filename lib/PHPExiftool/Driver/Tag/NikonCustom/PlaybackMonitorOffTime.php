@@ -188,5 +188,4 @@ class PlaybackMonitorOffTime extends AbstractTag
             'Label' => '10 min',
         ),
     );
-
 }

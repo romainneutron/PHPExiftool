@@ -39,5 +39,4 @@ class FileSetDescriptorFileID extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'File Set Descriptor File ID';
-
 }

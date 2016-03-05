@@ -39,5 +39,4 @@ class CurveTime extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Curve Time';
-
 }

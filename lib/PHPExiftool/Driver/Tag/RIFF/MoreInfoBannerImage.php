@@ -39,5 +39,4 @@ class MoreInfoBannerImage extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'More Info Banner Image';
-
 }

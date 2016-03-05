@@ -41,5 +41,4 @@ class HierarchicalKeywords1Applied extends AbstractTag
     protected $Description = 'Hierarchical Keywords 1 Applied';
 
     protected $flag_List = true;
-
 }

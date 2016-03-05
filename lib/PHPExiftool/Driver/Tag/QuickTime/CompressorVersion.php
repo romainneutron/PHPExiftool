@@ -39,5 +39,4 @@ class CompressorVersion extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Compressor Version';
-
 }

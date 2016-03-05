@@ -39,5 +39,4 @@ class RTReferencedSeriesSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'RT Referenced Series Sequence';
-
 }

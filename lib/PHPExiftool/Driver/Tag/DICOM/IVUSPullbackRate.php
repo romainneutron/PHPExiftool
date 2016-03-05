@@ -39,5 +39,4 @@ class IVUSPullbackRate extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'IVUS Pullback Rate';
-
 }

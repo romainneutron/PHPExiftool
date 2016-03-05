@@ -41,5 +41,4 @@ class PreCaptureFrames extends AbstractTag
     protected $Description = 'Pre Capture Frames';
 
     protected $flag_Permanent = true;
-
 }

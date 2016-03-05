@@ -39,5 +39,4 @@ class Strikeout extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Strikeout';
-
 }

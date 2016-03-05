@@ -41,5 +41,4 @@ class Model2 extends AbstractTag
     protected $Description = 'Model 2';
 
     protected $local_g1 = 'ExifIFD';
-
 }

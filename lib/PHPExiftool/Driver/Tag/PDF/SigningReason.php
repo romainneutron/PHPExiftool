@@ -39,5 +39,4 @@ class SigningReason extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Signing Reason';
-
 }

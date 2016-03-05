@@ -43,5 +43,4 @@ class Thumbnails extends AbstractTag
     protected $flag_List = true;
 
     protected $flag_Alt = true;
-
 }

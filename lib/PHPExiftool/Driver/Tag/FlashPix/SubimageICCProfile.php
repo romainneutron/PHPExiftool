@@ -39,5 +39,4 @@ class SubimageICCProfile extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Subimage ICC Profile';
-
 }

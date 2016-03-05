@@ -56,5 +56,4 @@ class CommanderInternalFlash extends AbstractTag
             'Label' => 'Off',
         ),
     );
-
 }

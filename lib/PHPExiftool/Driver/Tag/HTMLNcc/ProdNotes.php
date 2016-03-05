@@ -39,5 +39,4 @@ class ProdNotes extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Prod Notes';
-
 }

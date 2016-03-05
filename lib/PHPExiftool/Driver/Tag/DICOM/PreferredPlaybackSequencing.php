@@ -39,5 +39,4 @@ class PreferredPlaybackSequencing extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Preferred Playback Sequencing';
-
 }

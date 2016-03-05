@@ -39,5 +39,4 @@ class AdmittingDiagnosesDescription extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Admitting Diagnoses Description';
-
 }

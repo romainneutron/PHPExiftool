@@ -39,5 +39,4 @@ class ReasonForStudy extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Reason For Study';
-
 }

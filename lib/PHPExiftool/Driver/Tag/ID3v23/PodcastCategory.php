@@ -39,5 +39,4 @@ class PodcastCategory extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Podcast Category';
-
 }

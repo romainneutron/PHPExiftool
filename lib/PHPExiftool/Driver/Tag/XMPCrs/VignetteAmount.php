@@ -39,5 +39,4 @@ class VignetteAmount extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Vignette Amount';
-
 }

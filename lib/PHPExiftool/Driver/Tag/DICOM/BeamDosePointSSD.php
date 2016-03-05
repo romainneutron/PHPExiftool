@@ -39,5 +39,4 @@ class BeamDosePointSSD extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Beam Dose Point SSD';
-
 }

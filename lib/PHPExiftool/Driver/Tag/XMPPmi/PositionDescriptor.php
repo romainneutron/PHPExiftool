@@ -41,5 +41,4 @@ class PositionDescriptor extends AbstractTag
     protected $Description = 'Position Descriptor';
 
     protected $flag_Avoid = true;
-
 }

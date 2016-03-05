@@ -39,5 +39,4 @@ class ParameterDataType extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Parameter Data Type';
-
 }

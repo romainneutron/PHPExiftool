@@ -52,5 +52,4 @@ class ZoneMatchingOn extends AbstractTag
             'Label' => 'On',
         ),
     );
-
 }

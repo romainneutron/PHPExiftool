@@ -39,5 +39,4 @@ class RawDataType extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Raw Data Type';
-
 }

@@ -39,5 +39,4 @@ class LuminanceNoiseReductionContrast extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Luminance Noise Reduction Contrast';
-
 }

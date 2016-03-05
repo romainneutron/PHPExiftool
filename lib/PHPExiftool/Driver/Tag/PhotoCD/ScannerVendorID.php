@@ -41,5 +41,4 @@ class ScannerVendorID extends AbstractTag
     protected $Description = 'Scanner Vendor ID';
 
     protected $MaxLength = 20;
-
 }

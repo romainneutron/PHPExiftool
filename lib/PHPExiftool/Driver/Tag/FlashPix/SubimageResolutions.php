@@ -39,5 +39,4 @@ class SubimageResolutions extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Subimage Resolutions';
-
 }

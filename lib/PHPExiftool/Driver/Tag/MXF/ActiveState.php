@@ -39,5 +39,4 @@ class ActiveState extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Active State';
-
 }

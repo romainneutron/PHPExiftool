@@ -39,5 +39,4 @@ class FadeOutType extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Fade-Out Type';
-
 }

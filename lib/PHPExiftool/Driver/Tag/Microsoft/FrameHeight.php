@@ -39,5 +39,4 @@ class FrameHeight extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Frame Height';
-
 }

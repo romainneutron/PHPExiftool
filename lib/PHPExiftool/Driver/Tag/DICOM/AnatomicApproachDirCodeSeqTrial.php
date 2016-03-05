@@ -39,5 +39,4 @@ class AnatomicApproachDirCodeSeqTrial extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Anatomic Approach Dir Code Seq Trial';
-
 }

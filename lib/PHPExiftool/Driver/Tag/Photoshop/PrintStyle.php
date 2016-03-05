@@ -39,5 +39,4 @@ class PrintStyle extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Print Style';
-
 }

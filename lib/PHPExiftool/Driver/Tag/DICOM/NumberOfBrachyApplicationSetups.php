@@ -39,5 +39,4 @@ class NumberOfBrachyApplicationSetups extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Number Of Brachy Application Setups';
-
 }

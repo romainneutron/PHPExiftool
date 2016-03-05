@@ -39,5 +39,4 @@ class FilmBrand extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Film Brand';
-
 }

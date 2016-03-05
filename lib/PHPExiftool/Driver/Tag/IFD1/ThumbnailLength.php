@@ -43,5 +43,4 @@ class ThumbnailLength extends AbstractTag
     protected $local_g1 = 'IFD1';
 
     protected $flag_Protected = true;
-
 }

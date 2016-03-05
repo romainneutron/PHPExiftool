@@ -82,5 +82,4 @@ class ContrastShadow extends AbstractTag
             'Label' => 4,
         ),
     );
-
 }

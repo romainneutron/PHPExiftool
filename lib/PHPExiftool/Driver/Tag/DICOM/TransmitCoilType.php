@@ -39,5 +39,4 @@ class TransmitCoilType extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Transmit Coil Type';
-
 }

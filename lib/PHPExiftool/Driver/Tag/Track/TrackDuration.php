@@ -39,5 +39,4 @@ class TrackDuration extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Track Duration';
-
 }

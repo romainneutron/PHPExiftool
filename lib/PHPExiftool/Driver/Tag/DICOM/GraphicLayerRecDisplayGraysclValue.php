@@ -39,5 +39,4 @@ class GraphicLayerRecDisplayGraysclValue extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Graphic Layer Rec Display Grayscl Value';
-
 }

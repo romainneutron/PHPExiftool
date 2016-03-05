@@ -39,5 +39,4 @@ class MagneticDiskNumber extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Magnetic Disk Number';
-
 }

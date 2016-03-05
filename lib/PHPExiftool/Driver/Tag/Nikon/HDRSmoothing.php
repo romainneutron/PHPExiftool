@@ -68,5 +68,4 @@ class HDRSmoothing extends AbstractTag
             'Label' => 'n/a',
         ),
     );
-
 }

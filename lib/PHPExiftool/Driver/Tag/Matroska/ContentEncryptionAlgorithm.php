@@ -66,5 +66,4 @@ class ContentEncryptionAlgorithm extends AbstractTag
             'Label' => 'AES',
         ),
     );
-
 }

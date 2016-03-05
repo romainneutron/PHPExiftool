@@ -41,5 +41,4 @@ class ISO extends AbstractTag
     protected $Description = 'ISO';
 
     protected $flag_Permanent = true;
-
 }

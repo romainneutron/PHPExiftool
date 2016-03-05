@@ -39,5 +39,4 @@ class YMag extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Y Mag';
-
 }

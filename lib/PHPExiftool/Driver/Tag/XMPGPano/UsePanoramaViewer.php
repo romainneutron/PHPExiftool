@@ -39,5 +39,4 @@ class UsePanoramaViewer extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Use Panorama Viewer';
-
 }

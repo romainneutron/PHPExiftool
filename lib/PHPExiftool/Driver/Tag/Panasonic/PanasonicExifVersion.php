@@ -41,5 +41,4 @@ class PanasonicExifVersion extends AbstractTag
     protected $Description = 'Panasonic Exif Version';
 
     protected $flag_Permanent = true;
-
 }

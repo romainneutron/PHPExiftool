@@ -41,5 +41,4 @@ class CameraModelID extends AbstractTag
     protected $Description = 'Camera Model ID';
 
     protected $flag_Avoid = true;
-
 }

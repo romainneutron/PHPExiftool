@@ -41,5 +41,4 @@ class AutoDynamicRange extends AbstractTag
     protected $Description = 'Auto Dynamic Range';
 
     protected $flag_Permanent = true;
-
 }

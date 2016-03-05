@@ -39,5 +39,4 @@ class LightPathFilterTypeStackCodeSeq extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Light Path Filter Type Stack Code Seq';
-
 }

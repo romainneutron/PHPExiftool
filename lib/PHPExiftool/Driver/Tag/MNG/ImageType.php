@@ -54,5 +54,4 @@ class ImageType extends AbstractTag
             'Label' => 'JNG',
         ),
     );
-
 }

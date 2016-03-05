@@ -39,5 +39,4 @@ class ScreeningDesc extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Screening Desc';
-
 }

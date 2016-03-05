@@ -39,5 +39,4 @@ class SceneShotSets extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Scene Shot Sets';
-
 }

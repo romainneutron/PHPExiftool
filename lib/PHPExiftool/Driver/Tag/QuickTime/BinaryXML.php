@@ -41,5 +41,4 @@ class BinaryXML extends AbstractTag
     protected $Description = 'Binary XML';
 
     protected $flag_Binary = true;
-
 }

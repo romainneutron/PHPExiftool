@@ -41,5 +41,4 @@ class ExternalFlashCompensation extends AbstractTag
     protected $Description = 'External Flash Compensation';
 
     protected $flag_Permanent = true;
-
 }

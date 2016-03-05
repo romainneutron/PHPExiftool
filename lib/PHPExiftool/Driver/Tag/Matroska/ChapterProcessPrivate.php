@@ -41,5 +41,4 @@ class ChapterProcessPrivate extends AbstractTag
     protected $Description = 'Chapter Process Private';
 
     protected $flag_Binary = true;
-
 }

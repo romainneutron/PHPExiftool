@@ -39,5 +39,4 @@ class FrameSameRRect extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Frame Same R Rect';
-
 }

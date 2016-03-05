@@ -52,5 +52,4 @@ class RAWFileType extends AbstractTag
             'Label' => 'Uncompressed RAW',
         ),
     );
-
 }

@@ -60,5 +60,4 @@ class MinAperture extends AbstractTag
             'Label' => 16,
         ),
     );
-
 }

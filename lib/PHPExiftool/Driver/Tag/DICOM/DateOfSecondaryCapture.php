@@ -39,5 +39,4 @@ class DateOfSecondaryCapture extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Date Of Secondary Capture';
-
 }

@@ -39,5 +39,4 @@ class ColorTwistMatrix extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Color Twist Matrix';
-
 }

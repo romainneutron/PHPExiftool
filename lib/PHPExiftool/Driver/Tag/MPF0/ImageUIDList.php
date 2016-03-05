@@ -41,5 +41,4 @@ class ImageUIDList extends AbstractTag
     protected $Description = 'Image UID List';
 
     protected $flag_Binary = true;
-
 }

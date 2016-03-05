@@ -39,5 +39,4 @@ class DNGIgnoreSidecars extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'DNG Ignore Sidecars';
-
 }

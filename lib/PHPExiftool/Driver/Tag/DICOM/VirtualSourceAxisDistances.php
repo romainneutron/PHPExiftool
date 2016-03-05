@@ -39,5 +39,4 @@ class VirtualSourceAxisDistances extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Virtual Source Axis Distances';
-
 }

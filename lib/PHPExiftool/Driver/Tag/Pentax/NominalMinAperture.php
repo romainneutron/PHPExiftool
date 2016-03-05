@@ -41,5 +41,4 @@ class NominalMinAperture extends AbstractTag
     protected $Description = 'Nominal Min Aperture';
 
     protected $flag_Permanent = true;
-
 }

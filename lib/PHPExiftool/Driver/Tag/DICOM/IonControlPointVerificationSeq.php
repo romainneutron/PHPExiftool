@@ -39,5 +39,4 @@ class IonControlPointVerificationSeq extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Ion Control Point Verification Seq';
-
 }

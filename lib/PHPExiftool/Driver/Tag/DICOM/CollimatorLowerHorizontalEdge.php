@@ -39,5 +39,4 @@ class CollimatorLowerHorizontalEdge extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Collimator Lower Horizontal Edge';
-
 }

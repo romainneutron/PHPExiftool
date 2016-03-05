@@ -39,5 +39,4 @@ class SourceInstanceSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Source Instance Sequence';
-
 }

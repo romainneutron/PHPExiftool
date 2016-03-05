@@ -39,5 +39,4 @@ class RequestedProcedurePriority extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Requested Procedure Priority';
-
 }

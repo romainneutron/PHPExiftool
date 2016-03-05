@@ -39,5 +39,4 @@ class ExposuresOnPlate extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Exposures On Plate';
-
 }

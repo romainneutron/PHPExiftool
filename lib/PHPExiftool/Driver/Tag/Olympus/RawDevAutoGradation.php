@@ -52,5 +52,4 @@ class RawDevAutoGradation extends AbstractTag
             'Label' => 'On',
         ),
     );
-
 }

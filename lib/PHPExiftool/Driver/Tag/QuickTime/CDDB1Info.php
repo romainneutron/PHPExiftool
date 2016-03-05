@@ -39,5 +39,4 @@ class CDDB1Info extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'CDDB1 Info';
-
 }

@@ -39,5 +39,4 @@ class AcquisitionContextDescription extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Acquisition Context Description';
-
 }

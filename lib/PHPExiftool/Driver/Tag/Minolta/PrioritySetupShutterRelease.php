@@ -52,5 +52,4 @@ class PrioritySetupShutterRelease extends AbstractTag
             'Label' => 'Release',
         ),
     );
-
 }

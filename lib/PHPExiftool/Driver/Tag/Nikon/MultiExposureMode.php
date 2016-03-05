@@ -60,5 +60,4 @@ class MultiExposureMode extends AbstractTag
             'Label' => 'HDR',
         ),
     );
-
 }

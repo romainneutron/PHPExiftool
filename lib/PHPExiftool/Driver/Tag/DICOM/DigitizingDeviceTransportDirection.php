@@ -39,5 +39,4 @@ class DigitizingDeviceTransportDirection extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Digitizing Device Transport Direction';
-
 }

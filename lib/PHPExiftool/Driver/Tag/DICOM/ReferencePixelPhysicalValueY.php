@@ -39,5 +39,4 @@ class ReferencePixelPhysicalValueY extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Reference Pixel Physical Value Y';
-
 }

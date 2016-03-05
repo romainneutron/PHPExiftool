@@ -39,5 +39,4 @@ class Edit5 extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Edit 5';
-
 }

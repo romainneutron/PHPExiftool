@@ -19,5 +19,4 @@ class Real extends AbstractType
     protected $ExiftoolName = 'real';
 
     protected $PHPMap = 'int';
-
 }

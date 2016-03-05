@@ -52,5 +52,4 @@ class LongExposureNoiseReduction extends AbstractTag
             'Label' => 'On',
         ),
     );
-
 }

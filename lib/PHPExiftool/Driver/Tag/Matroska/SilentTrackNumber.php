@@ -39,5 +39,4 @@ class SilentTrackNumber extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Silent Track Number';
-
 }

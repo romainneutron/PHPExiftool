@@ -39,5 +39,4 @@ class StartNumberForBaseline extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Start Number For Baseline';
-
 }

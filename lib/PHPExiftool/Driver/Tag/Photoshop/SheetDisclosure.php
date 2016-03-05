@@ -39,5 +39,4 @@ class SheetDisclosure extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Sheet Disclosure';
-
 }

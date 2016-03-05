@@ -39,5 +39,4 @@ class TitleLen extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Title Len';
-
 }

@@ -39,5 +39,4 @@ class GantryPitchAngleTolerance extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Gantry Pitch Angle Tolerance';
-
 }

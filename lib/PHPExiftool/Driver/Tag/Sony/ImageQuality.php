@@ -56,5 +56,4 @@ class ImageQuality extends AbstractTag
             'Label' => 'Fine',
         ),
     );
-
 }

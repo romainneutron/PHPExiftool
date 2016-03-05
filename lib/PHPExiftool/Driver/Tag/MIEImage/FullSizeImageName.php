@@ -39,5 +39,4 @@ class FullSizeImageName extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Full Size Image Name';
-
 }

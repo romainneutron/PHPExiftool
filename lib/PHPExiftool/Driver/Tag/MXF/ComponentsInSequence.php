@@ -39,5 +39,4 @@ class ComponentsInSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Components In Sequence';
-
 }

@@ -39,5 +39,4 @@ class ConvergenceDistance extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Convergence Distance';
-
 }

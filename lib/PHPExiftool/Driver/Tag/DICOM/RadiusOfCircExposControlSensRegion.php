@@ -39,5 +39,4 @@ class RadiusOfCircExposControlSensRegion extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Radius Of Circ Expos Control Sens Region';
-
 }

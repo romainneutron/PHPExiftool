@@ -48,5 +48,4 @@ class ToyCameraFilter extends AbstractTag
             'Label' => 'Off',
         ),
     );
-
 }

@@ -41,5 +41,4 @@ class XMLData extends AbstractTag
     protected $Description = 'XML Data';
 
     protected $flag_Binary = true;
-
 }

@@ -39,5 +39,4 @@ class ImplementationClassUID extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Implementation Class UID';
-
 }

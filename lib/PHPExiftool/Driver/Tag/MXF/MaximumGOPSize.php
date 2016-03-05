@@ -39,5 +39,4 @@ class MaximumGOPSize extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Maximum GOP Size';
-
 }

@@ -41,5 +41,4 @@ class JPEGTables extends AbstractTag
     protected $Description = 'JPEG Tables';
 
     protected $flag_Binary = true;
-
 }

@@ -39,5 +39,4 @@ class FrameOfReferenceTransformType extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Frame Of Reference Transform Type';
-
 }

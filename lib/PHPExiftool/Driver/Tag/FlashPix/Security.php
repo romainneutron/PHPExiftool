@@ -62,5 +62,4 @@ class Security extends AbstractTag
             'Label' => 'Locked for annotations',
         ),
     );
-
 }

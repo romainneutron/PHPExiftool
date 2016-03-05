@@ -41,5 +41,4 @@ class NormalWhiteLevel extends AbstractTag
     protected $Description = 'Normal White Level';
 
     protected $flag_Permanent = true;
-
 }

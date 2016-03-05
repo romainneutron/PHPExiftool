@@ -41,5 +41,4 @@ class FractalParameters extends AbstractTag
     protected $Description = 'Fractal Parameters';
 
     protected $flag_Binary = true;
-
 }

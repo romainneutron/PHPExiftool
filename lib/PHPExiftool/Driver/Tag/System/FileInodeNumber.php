@@ -41,5 +41,4 @@ class FileInodeNumber extends AbstractTag
     protected $Description = 'File Inode Number';
 
     protected $local_g1 = 'System';
-
 }

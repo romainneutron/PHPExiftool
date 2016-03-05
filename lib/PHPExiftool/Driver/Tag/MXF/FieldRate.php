@@ -39,5 +39,4 @@ class FieldRate extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Field Rate';
-
 }

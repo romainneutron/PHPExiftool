@@ -39,5 +39,4 @@ class BBHCoefficients extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'BBH Coefficients';
-
 }

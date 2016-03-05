@@ -41,5 +41,4 @@ class DCMunicipality extends AbstractTag
     protected $Description = 'DC Municipality';
 
     protected $local_g2 = 'Location';
-
 }

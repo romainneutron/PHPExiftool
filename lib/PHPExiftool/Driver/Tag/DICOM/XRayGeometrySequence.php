@@ -39,5 +39,4 @@ class XRayGeometrySequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'X Ray Geometry Sequence';
-
 }

@@ -41,5 +41,4 @@ class MakerNotes extends AbstractTag
     protected $Description = 'Maker Notes';
 
     protected $flag_Binary = true;
-
 }

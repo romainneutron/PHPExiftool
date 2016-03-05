@@ -72,5 +72,4 @@ class AutoISOMax extends AbstractTag
             'Label' => 1600,
         ),
     );
-
 }

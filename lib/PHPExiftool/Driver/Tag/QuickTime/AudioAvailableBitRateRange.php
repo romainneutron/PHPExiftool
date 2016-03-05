@@ -39,5 +39,4 @@ class AudioAvailableBitRateRange extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Audio Available Bit Rate Range';
-
 }

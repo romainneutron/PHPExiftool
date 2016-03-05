@@ -78,5 +78,4 @@ class MeteringMode extends AbstractTag
             'Label' => 'Other',
         ),
     );
-
 }

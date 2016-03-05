@@ -39,5 +39,4 @@ class LegalCode extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Legal Code';
-
 }

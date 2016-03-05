@@ -72,5 +72,4 @@ class LimitAFAreaModeSelection extends AbstractTag
             'Label' => 'Dynamic area (9 points)',
         ),
     );
-
 }

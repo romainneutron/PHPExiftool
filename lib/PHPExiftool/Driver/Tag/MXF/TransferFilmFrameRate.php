@@ -39,5 +39,4 @@ class TransferFilmFrameRate extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Transfer Film Frame Rate';
-
 }

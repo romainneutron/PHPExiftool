@@ -39,5 +39,4 @@ class TreatmentMachineSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Treatment Machine Sequence';
-
 }

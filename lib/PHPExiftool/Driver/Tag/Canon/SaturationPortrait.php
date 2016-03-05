@@ -48,5 +48,4 @@ class SaturationPortrait extends AbstractTag
             'Label' => 'n/a',
         ),
     );
-
 }

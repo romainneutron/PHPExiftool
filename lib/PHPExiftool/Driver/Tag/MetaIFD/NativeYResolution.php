@@ -39,5 +39,4 @@ class NativeYResolution extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Native Y Resolution';
-
 }

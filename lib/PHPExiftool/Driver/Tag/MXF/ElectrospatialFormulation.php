@@ -41,5 +41,4 @@ class ElectrospatialFormulation extends AbstractTag
     protected $Description = 'Electrospatial Formulation';
 
     protected $local_g2 = 'Audio';
-
 }

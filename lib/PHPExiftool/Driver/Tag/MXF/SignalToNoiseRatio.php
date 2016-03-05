@@ -41,5 +41,4 @@ class SignalToNoiseRatio extends AbstractTag
     protected $Description = 'Signal-to-Noise Ratio';
 
     protected $local_g2 = 'Audio';
-
 }

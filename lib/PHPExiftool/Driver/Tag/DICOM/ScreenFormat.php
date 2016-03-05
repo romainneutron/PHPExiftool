@@ -39,5 +39,4 @@ class ScreenFormat extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Screen Format';
-
 }

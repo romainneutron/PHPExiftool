@@ -64,5 +64,4 @@ class RawDevPMBWFilter extends AbstractTag
             'Label' => 'Green',
         ),
     );
-
 }

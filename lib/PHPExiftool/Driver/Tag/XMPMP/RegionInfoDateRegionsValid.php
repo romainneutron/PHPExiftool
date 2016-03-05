@@ -41,5 +41,4 @@ class RegionInfoDateRegionsValid extends AbstractTag
     protected $Description = 'Region Info Date Regions Valid';
 
     protected $local_g2 = 'Time';
-
 }

@@ -41,5 +41,4 @@ class IT8Header extends AbstractTag
     protected $Description = 'IT8 Header';
 
     protected $local_g1 = 'ExifIFD';
-
 }

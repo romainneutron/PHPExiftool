@@ -39,5 +39,4 @@ class RawCodecVersion extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Raw Codec Version';
-
 }

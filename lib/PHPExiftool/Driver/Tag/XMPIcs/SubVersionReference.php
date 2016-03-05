@@ -41,5 +41,4 @@ class SubVersionReference extends AbstractTag
     protected $Description = 'Sub Version Reference';
 
     protected $flag_List = true;
-
 }

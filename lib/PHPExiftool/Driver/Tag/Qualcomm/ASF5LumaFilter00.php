@@ -41,5 +41,4 @@ class ASF5LumaFilter00 extends AbstractTag
     protected $Description = 'ASF5 Luma Filter 00';
 
     protected $flag_Permanent = true;
-
 }

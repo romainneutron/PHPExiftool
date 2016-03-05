@@ -39,5 +39,4 @@ class WMADRCPeakReference extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'WMADRC Peak Reference';
-
 }

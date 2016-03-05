@@ -39,5 +39,4 @@ class NativeResolutionUnit extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Native Resolution Unit';
-
 }

@@ -39,5 +39,4 @@ class FailedAttributesSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Failed Attributes Sequence';
-
 }

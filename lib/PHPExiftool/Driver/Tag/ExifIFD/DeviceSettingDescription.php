@@ -45,5 +45,4 @@ class DeviceSettingDescription extends AbstractTag
     protected $local_g2 = 'Camera';
 
     protected $flag_Binary = true;
-
 }

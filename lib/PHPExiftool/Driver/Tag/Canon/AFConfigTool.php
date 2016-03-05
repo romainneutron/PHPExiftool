@@ -41,5 +41,4 @@ class AFConfigTool extends AbstractTag
     protected $Description = 'AF Config Tool';
 
     protected $flag_Permanent = true;
-
 }

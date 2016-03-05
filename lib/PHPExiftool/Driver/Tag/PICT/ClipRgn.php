@@ -39,5 +39,4 @@ class ClipRgn extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Clipping Region';
-
 }

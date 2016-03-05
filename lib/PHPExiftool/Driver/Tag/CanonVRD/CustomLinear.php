@@ -50,5 +50,4 @@ class CustomLinear extends AbstractTag
             'Label' => 'Yes',
         ),
     );
-
 }

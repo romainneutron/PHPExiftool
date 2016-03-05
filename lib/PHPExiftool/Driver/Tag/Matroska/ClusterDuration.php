@@ -39,5 +39,4 @@ class ClusterDuration extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Cluster Duration';
-
 }

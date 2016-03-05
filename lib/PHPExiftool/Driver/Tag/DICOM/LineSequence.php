@@ -39,5 +39,4 @@ class LineSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Line Sequence';
-
 }

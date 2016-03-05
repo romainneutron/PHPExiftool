@@ -39,5 +39,4 @@ class PhysicianReadingStudyIDSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Physician Reading Study ID Sequence';
-
 }

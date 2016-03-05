@@ -41,5 +41,4 @@ class ScannerFirmwareDate extends AbstractTag
     protected $Description = 'Scanner Firmware Date';
 
     protected $MaxLength = 8;
-
 }

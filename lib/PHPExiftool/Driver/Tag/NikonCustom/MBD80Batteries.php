@@ -60,5 +60,4 @@ class MBD80Batteries extends AbstractTag
             'Label' => 'ZR6 (AA Ni-Mg)',
         ),
     );
-
 }

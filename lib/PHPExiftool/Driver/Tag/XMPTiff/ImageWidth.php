@@ -39,5 +39,4 @@ class ImageWidth extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Image Width';
-
 }

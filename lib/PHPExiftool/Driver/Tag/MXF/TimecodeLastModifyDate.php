@@ -41,5 +41,4 @@ class TimecodeLastModifyDate extends AbstractTag
     protected $Description = 'Timecode Last Modify Date';
 
     protected $local_g2 = 'Time';
-
 }

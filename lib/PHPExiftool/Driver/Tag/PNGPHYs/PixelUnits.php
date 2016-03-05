@@ -50,5 +50,4 @@ class PixelUnits extends AbstractTag
             'Label' => 'meters',
         ),
     );
-
 }

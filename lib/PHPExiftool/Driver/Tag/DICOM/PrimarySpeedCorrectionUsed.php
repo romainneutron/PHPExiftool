@@ -39,5 +39,4 @@ class PrimarySpeedCorrectionUsed extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Primary Speed Correction Used';
-
 }

@@ -39,5 +39,4 @@ class SliceProgressionDirection extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Slice Progression Direction';
-
 }

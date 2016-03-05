@@ -39,5 +39,4 @@ class ShowGraphicAnnotationFlag extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Show Graphic Annotation Flag';
-
 }

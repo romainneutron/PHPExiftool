@@ -39,5 +39,4 @@ class RadiationMachineSAD extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Radiation Machine SAD';
-
 }

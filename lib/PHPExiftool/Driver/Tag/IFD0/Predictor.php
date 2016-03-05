@@ -52,5 +52,4 @@ class Predictor extends AbstractTag
             'Label' => 'Horizontal differencing',
         ),
     );
-
 }

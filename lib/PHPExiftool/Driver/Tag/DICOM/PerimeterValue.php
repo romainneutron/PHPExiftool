@@ -39,5 +39,4 @@ class PerimeterValue extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Perimeter Value';
-
 }

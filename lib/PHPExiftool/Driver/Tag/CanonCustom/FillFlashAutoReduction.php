@@ -52,5 +52,4 @@ class FillFlashAutoReduction extends AbstractTag
             'Label' => 'Disable',
         ),
     );
-
 }

@@ -39,5 +39,4 @@ class ShootObjVersion extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Shoot Obj Version';
-
 }

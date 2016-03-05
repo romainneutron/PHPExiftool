@@ -39,5 +39,4 @@ class CHMVersion extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'CHM Version';
-
 }

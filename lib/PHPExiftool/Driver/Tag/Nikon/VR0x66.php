@@ -56,5 +56,4 @@ class VR0x66 extends AbstractTag
             'Label' => 'On (active)',
         ),
     );
-
 }

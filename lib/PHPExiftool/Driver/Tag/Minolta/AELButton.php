@@ -60,5 +60,4 @@ class AELButton extends AbstractTag
             'Label' => 'Spot Toggle',
         ),
     );
-
 }

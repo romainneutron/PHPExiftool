@@ -39,5 +39,4 @@ class DASFpaGain extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'DAS Fpa Gain';
-
 }

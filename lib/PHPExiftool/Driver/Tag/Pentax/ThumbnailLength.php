@@ -41,5 +41,4 @@ class ThumbnailLength extends AbstractTag
     protected $Description = 'Thumbnail Length';
 
     protected $flag_Permanent = true;
-
 }

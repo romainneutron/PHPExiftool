@@ -41,5 +41,4 @@ class ExposureCompensation extends AbstractTag
     protected $Description = 'Exposure Compensation';
 
     protected $local_g2 = 'Image';
-
 }

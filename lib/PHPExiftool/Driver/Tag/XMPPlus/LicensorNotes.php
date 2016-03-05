@@ -39,5 +39,4 @@ class LicensorNotes extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Licensor Notes';
-
 }

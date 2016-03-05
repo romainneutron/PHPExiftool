@@ -39,5 +39,4 @@ class TargetFileDOSName extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Target File DOS Name';
-
 }

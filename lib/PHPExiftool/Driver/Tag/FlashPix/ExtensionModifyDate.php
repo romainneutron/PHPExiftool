@@ -41,5 +41,4 @@ class ExtensionModifyDate extends AbstractTag
     protected $Description = 'Extension Modify Date';
 
     protected $local_g2 = 'Time';
-
 }

@@ -41,5 +41,4 @@ class PixelScale extends AbstractTag
     protected $Description = 'Pixel Scale';
 
     protected $local_g1 = 'ExifIFD';
-
 }

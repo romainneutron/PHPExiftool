@@ -39,5 +39,4 @@ class GroupMutualExclusion extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Group Mutual Exclusion';
-
 }

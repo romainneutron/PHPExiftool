@@ -39,5 +39,4 @@ class SBARGBShifts extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'SBA RGB Shifts';
-
 }

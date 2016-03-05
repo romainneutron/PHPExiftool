@@ -41,5 +41,4 @@ class IngredientsManagerVariant extends AbstractTag
     protected $Description = 'Ingredients Manager Variant';
 
     protected $flag_List = true;
-
 }

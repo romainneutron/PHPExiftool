@@ -39,5 +39,4 @@ class AvgPacketSize extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Avg Packet Size';
-
 }

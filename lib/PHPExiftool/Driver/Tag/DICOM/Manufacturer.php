@@ -39,5 +39,4 @@ class Manufacturer extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Manufacturer';
-
 }

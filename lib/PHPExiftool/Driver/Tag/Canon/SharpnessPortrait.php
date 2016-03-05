@@ -48,5 +48,4 @@ class SharpnessPortrait extends AbstractTag
             'Label' => 'n/a',
         ),
     );
-
 }

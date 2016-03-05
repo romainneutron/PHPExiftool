@@ -74,5 +74,4 @@ class LameMethod extends AbstractTag
             'Label' => 'ABR (2-pass)',
         ),
     );
-
 }

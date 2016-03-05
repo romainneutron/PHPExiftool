@@ -58,5 +58,4 @@ class Make extends AbstractTag
             'Label' => 'JVC',
         ),
     );
-
 }

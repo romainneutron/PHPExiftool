@@ -39,5 +39,4 @@ class MultiplexGroupTimeOffset extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Multiplex Group Time Offset';
-
 }

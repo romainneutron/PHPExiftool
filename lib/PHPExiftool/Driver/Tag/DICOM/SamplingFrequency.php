@@ -39,5 +39,4 @@ class SamplingFrequency extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Sampling Frequency';
-
 }

@@ -39,5 +39,4 @@ class FlashPixStreamFieldOffset extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Flash Pix Stream Field Offset';
-
 }

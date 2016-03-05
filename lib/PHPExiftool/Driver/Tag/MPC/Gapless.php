@@ -50,5 +50,4 @@ class Gapless extends AbstractTag
             'Label' => 'Yes',
         ),
     );
-
 }

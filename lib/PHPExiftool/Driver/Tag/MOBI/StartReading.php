@@ -39,5 +39,4 @@ class StartReading extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Start Reading';
-
 }

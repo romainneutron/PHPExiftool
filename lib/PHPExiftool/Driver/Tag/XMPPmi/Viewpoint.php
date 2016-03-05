@@ -41,5 +41,4 @@ class Viewpoint extends AbstractTag
     protected $Description = 'Viewpoint';
 
     protected $flag_Avoid = true;
-
 }

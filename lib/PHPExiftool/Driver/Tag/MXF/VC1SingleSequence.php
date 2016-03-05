@@ -39,5 +39,4 @@ class VC1SingleSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'VC-1 Single Sequence';
-
 }

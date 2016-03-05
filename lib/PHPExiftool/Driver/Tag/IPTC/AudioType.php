@@ -112,5 +112,4 @@ class AudioType extends AbstractTag
             'Label' => 'Stereo Wrap',
         ),
     );
-
 }

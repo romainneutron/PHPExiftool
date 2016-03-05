@@ -39,5 +39,4 @@ class BitsStored extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Bits Stored';
-
 }

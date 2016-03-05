@@ -41,5 +41,4 @@ class AECOutdoorBrightReduction extends AbstractTag
     protected $Description = 'AEC Outdoor Bright Reduction';
 
     protected $flag_Permanent = true;
-
 }

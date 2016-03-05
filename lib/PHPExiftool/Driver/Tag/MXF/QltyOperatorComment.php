@@ -39,5 +39,4 @@ class QltyOperatorComment extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Qlty Operator Comment';
-
 }

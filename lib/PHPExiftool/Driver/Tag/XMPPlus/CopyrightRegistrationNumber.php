@@ -39,5 +39,4 @@ class CopyrightRegistrationNumber extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Copyright Registration Number';
-
 }

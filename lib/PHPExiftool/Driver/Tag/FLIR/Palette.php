@@ -41,5 +41,4 @@ class Palette extends AbstractTag
     protected $Description = 'Palette';
 
     protected $flag_Binary = true;
-
 }

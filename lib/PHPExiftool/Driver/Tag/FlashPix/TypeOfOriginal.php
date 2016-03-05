@@ -58,5 +58,4 @@ class TypeOfOriginal extends AbstractTag
             'Label' => 'Color Document',
         ),
     );
-
 }

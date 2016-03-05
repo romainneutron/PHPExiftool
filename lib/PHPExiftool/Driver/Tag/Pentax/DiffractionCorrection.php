@@ -52,5 +52,4 @@ class DiffractionCorrection extends AbstractTag
             'Label' => 'On',
         ),
     );
-
 }

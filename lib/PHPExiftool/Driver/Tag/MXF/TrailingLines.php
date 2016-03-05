@@ -39,5 +39,4 @@ class TrailingLines extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Trailing Lines';
-
 }

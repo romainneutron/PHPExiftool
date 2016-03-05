@@ -88,5 +88,4 @@ class ExternalFlashMode extends AbstractTag
             'Label' => 'Not Connected',
         ),
     );
-
 }

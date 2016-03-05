@@ -41,5 +41,4 @@ class CIP3DataFile extends AbstractTag
     protected $Description = 'CIP3 Data File';
 
     protected $local_g1 = 'ExifIFD';
-
 }

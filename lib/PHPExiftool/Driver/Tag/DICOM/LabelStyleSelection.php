@@ -39,5 +39,4 @@ class LabelStyleSelection extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Label Style Selection';
-
 }

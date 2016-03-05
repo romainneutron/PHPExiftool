@@ -41,5 +41,4 @@ class MultiSample extends AbstractTag
     protected $Description = 'Multi Sample';
 
     protected $flag_Permanent = true;
-
 }

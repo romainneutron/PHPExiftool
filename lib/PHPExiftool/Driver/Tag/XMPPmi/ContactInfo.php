@@ -41,5 +41,4 @@ class ContactInfo extends AbstractTag
     protected $Description = 'Contact Info';
 
     protected $flag_Avoid = true;
-
 }

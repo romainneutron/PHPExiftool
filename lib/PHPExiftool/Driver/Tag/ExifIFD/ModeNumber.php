@@ -41,5 +41,4 @@ class ModeNumber extends AbstractTag
     protected $Description = 'Mode Number';
 
     protected $local_g1 = 'ExifIFD';
-
 }

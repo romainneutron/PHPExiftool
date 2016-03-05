@@ -50,5 +50,4 @@ class WBFineTuneActive extends AbstractTag
             'Label' => 'Yes',
         ),
     );
-
 }

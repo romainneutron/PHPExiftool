@@ -39,5 +39,4 @@ class InsertMusicFlag extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Insert Music Flag';
-
 }

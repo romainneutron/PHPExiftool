@@ -39,5 +39,4 @@ class BluePaletteColorTableDescriptor extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Blue Palette Color Table Descriptor';
-
 }

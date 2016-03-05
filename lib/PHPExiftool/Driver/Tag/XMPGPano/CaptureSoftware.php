@@ -39,5 +39,4 @@ class CaptureSoftware extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Capture Software';
-
 }

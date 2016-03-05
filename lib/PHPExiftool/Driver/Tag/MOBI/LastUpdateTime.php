@@ -39,5 +39,4 @@ class LastUpdateTime extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Last Update Time';
-
 }

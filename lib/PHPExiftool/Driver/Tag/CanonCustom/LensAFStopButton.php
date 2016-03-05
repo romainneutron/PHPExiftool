@@ -208,5 +208,4 @@ class LensAFStopButton extends AbstractTag
             'Label' => 'Lock AE and start timer',
         ),
     );
-
 }

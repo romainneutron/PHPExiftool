@@ -41,5 +41,4 @@ class FourCC2 extends AbstractTag
     protected $Description = 'Four CC2';
 
     protected $MaxLength = 4;
-
 }

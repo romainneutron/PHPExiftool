@@ -39,5 +39,4 @@ class ReferencedWaveformChannels extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Referenced Waveform Channels';
-
 }

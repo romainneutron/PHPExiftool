@@ -56,5 +56,4 @@ class ColorantMode extends AbstractTag
             'Label' => 'RGB',
         ),
     );
-
 }

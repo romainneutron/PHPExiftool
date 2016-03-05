@@ -39,5 +39,4 @@ class KeyFrameSampleCount extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Key Frame Sample Count';
-
 }

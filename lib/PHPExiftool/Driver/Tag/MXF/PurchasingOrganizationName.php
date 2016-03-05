@@ -39,5 +39,4 @@ class PurchasingOrganizationName extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Purchasing Organization Name';
-
 }

@@ -41,5 +41,4 @@ class TracksMarkersCuePointParamsValue extends AbstractTag
     protected $Description = 'Tracks Markers Cue Point Params Value';
 
     protected $flag_List = true;
-
 }

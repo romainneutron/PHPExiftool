@@ -41,5 +41,4 @@ class Year extends AbstractTag
     protected $Description = 'Year';
 
     protected $local_g2 = 'mixed';
-
 }

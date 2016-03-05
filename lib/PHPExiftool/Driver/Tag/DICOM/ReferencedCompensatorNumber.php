@@ -39,5 +39,4 @@ class ReferencedCompensatorNumber extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Referenced Compensator Number';
-
 }

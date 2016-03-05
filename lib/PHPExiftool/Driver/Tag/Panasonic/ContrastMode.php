@@ -274,5 +274,4 @@ class ContrastMode extends AbstractTag
     );
 
     protected $Index = 'mixed';
-
 }

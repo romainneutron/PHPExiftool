@@ -41,5 +41,4 @@ class LocalCreationDateTime extends AbstractTag
     protected $Description = 'Local Creation Date Time';
 
     protected $local_g2 = 'Time';
-
 }

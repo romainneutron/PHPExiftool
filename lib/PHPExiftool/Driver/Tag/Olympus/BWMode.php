@@ -56,5 +56,4 @@ class BWMode extends AbstractTag
             'Label' => '(none)',
         ),
     );
-
 }

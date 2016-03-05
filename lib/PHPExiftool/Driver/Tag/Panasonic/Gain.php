@@ -41,5 +41,4 @@ class Gain extends AbstractTag
     protected $Description = 'Gain';
 
     protected $flag_Permanent = true;
-
 }

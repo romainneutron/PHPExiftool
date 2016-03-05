@@ -74,5 +74,4 @@ class AudioSampleType extends AbstractTag
             'Label' => 'Packed',
         ),
     );
-
 }

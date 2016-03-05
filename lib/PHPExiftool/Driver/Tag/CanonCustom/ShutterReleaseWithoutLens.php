@@ -52,5 +52,4 @@ class ShutterReleaseWithoutLens extends AbstractTag
             'Label' => 'Enable',
         ),
     );
-
 }

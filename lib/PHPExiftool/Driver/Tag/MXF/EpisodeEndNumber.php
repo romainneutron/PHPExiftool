@@ -39,5 +39,4 @@ class EpisodeEndNumber extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Episode End Number';
-
 }

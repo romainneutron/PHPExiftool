@@ -41,5 +41,4 @@ class SelfTimerShotCount extends AbstractTag
     protected $Description = 'Self Timer Shot Count';
 
     protected $flag_Permanent = true;
-
 }

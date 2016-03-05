@@ -41,5 +41,4 @@ class Platform extends AbstractTag
     protected $Description = 'Platform';
 
     protected $flag_Avoid = true;
-
 }

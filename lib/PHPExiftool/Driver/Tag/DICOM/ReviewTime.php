@@ -39,5 +39,4 @@ class ReviewTime extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Review Time';
-
 }

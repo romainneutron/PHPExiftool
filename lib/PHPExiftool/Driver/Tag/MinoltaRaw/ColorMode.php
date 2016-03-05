@@ -190,5 +190,4 @@ class ColorMode extends AbstractTag
     );
 
     protected $Index = 'mixed';
-
 }

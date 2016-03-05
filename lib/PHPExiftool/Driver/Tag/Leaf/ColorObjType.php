@@ -39,5 +39,4 @@ class ColorObjType extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Color Obj Type';
-
 }

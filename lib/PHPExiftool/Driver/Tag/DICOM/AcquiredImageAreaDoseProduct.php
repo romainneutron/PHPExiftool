@@ -39,5 +39,4 @@ class AcquiredImageAreaDoseProduct extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Acquired Image Area Dose Product';
-
 }

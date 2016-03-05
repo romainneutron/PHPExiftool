@@ -41,5 +41,4 @@ class ToneCurveFileName extends AbstractTag
     protected $Description = 'Tone Curve File Name';
 
     protected $flag_Permanent = true;
-
 }

@@ -39,5 +39,4 @@ class ContrastFlowDuration extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Contrast Flow Duration';
-
 }

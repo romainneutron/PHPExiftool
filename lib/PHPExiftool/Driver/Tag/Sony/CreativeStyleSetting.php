@@ -68,5 +68,4 @@ class CreativeStyleSetting extends AbstractTag
             'Label' => 'Sunset',
         ),
     );
-
 }

@@ -47,5 +47,4 @@ class ThumbnailImage extends AbstractTag
     protected $MaxLength = 16384;
 
     protected $flag_Binary = false;
-
 }

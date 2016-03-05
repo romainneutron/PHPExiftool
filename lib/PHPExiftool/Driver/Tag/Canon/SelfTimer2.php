@@ -41,5 +41,4 @@ class SelfTimer2 extends AbstractTag
     protected $Description = 'Self Timer 2';
 
     protected $flag_Permanent = true;
-
 }

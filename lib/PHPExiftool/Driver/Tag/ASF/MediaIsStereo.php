@@ -39,5 +39,4 @@ class MediaIsStereo extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Media Is Stereo';
-
 }

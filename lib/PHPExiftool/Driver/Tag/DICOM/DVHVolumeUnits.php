@@ -39,5 +39,4 @@ class DVHVolumeUnits extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'DVH Volume Units';
-
 }

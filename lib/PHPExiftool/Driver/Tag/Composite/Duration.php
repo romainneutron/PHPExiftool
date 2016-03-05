@@ -41,5 +41,4 @@ class Duration extends AbstractTag
     protected $Description = 'Duration';
 
     protected $local_g2 = 'mixed';
-
 }

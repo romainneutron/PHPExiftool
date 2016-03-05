@@ -39,5 +39,4 @@ class PictureComponentSizing extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Picture Component Sizing';
-
 }

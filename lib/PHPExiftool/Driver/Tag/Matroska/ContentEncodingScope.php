@@ -39,5 +39,4 @@ class ContentEncodingScope extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Content Encoding Scope';
-
 }

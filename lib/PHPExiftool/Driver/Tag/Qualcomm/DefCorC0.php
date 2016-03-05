@@ -41,5 +41,4 @@ class DefCorC0 extends AbstractTag
     protected $Description = 'Def Cor C0';
 
     protected $flag_Permanent = true;
-
 }

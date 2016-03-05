@@ -39,5 +39,4 @@ class Lyrics extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Lyrics';
-
 }

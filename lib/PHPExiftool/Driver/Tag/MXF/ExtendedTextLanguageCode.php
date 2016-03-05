@@ -39,5 +39,4 @@ class ExtendedTextLanguageCode extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Extended Text Language Code';
-
 }

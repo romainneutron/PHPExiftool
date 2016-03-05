@@ -41,5 +41,4 @@ class HJRTextureThreshold extends AbstractTag
     protected $Description = 'HJR Texture Threshold';
 
     protected $flag_Permanent = true;
-
 }

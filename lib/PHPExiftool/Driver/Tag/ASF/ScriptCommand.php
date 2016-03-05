@@ -39,5 +39,4 @@ class ScriptCommand extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Script Command';
-
 }

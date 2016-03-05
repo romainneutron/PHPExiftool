@@ -132,5 +132,4 @@ class HighISONoiseReduction extends AbstractTag
             'Label' => 'High',
         ),
     );
-
 }

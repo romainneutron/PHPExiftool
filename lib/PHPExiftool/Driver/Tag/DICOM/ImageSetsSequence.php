@@ -39,5 +39,4 @@ class ImageSetsSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Image Sets Sequence';
-
 }

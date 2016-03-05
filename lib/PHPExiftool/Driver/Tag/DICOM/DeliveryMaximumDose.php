@@ -39,5 +39,4 @@ class DeliveryMaximumDose extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Delivery Maximum Dose';
-
 }

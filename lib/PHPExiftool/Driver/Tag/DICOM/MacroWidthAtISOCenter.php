@@ -39,5 +39,4 @@ class MacroWidthAtISOCenter extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Macro Width At ISO Center';
-
 }

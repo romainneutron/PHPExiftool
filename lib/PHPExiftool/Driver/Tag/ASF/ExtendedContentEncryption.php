@@ -39,5 +39,4 @@ class ExtendedContentEncryption extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Extended Content Encryption';
-
 }

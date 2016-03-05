@@ -39,5 +39,4 @@ class EntranceDoseInMilliGy extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Entrance Dose In Milli Gy';
-
 }

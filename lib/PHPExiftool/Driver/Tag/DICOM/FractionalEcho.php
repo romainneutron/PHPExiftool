@@ -39,5 +39,4 @@ class FractionalEcho extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Fractional Echo';
-
 }

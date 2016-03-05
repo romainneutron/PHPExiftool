@@ -39,5 +39,4 @@ class NumberOfVerticalPixels extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Number Of Vertical Pixels';
-
 }

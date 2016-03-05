@@ -39,5 +39,4 @@ class UnderlinePosition extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Underline Position';
-
 }

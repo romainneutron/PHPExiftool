@@ -39,5 +39,4 @@ class DescriptiveMetadataFramework extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Descriptive Metadata Framework';
-
 }

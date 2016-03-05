@@ -41,5 +41,4 @@ class KodakSubIFD30x8005 extends AbstractTag
     protected $Description = 'Kodak Sub IFD3 0x8005';
 
     protected $flag_Permanent = true;
-
 }

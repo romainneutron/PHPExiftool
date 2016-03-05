@@ -64,5 +64,4 @@ class ShadowTone extends AbstractTag
             'Label' => 'Soft',
         ),
     );
-
 }

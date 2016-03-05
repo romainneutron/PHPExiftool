@@ -39,5 +39,4 @@ class ScramblingKeyValue extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Scrambling Key Value';
-
 }

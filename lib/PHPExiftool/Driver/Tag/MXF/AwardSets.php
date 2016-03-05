@@ -39,5 +39,4 @@ class AwardSets extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Award Sets';
-
 }

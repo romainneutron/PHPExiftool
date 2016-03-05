@@ -43,5 +43,4 @@ class Contributors extends AbstractTag
     protected $local_g2 = 'Author';
 
     protected $flag_List = true;
-
 }

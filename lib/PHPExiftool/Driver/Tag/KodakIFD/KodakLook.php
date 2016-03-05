@@ -41,5 +41,4 @@ class KodakLook extends AbstractTag
     protected $Description = 'Kodak Look';
 
     protected $flag_Permanent = true;
-
 }

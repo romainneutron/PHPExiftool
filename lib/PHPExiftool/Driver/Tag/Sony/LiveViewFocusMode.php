@@ -56,5 +56,4 @@ class LiveViewFocusMode extends AbstractTag
             'Label' => 'Manual',
         ),
     );
-
 }

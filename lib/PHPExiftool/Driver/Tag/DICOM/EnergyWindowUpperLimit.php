@@ -39,5 +39,4 @@ class EnergyWindowUpperLimit extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Energy Window Upper Limit';
-
 }

@@ -39,5 +39,4 @@ class PanScanInformation extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Pan Scan Information';
-
 }

@@ -39,5 +39,4 @@ class CurveActivationLayer extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Curve Activation Layer';
-
 }

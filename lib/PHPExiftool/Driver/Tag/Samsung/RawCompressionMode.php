@@ -41,5 +41,4 @@ class RawCompressionMode extends AbstractTag
     protected $Description = 'Raw Compression Mode';
 
     protected $flag_Permanent = true;
-
 }

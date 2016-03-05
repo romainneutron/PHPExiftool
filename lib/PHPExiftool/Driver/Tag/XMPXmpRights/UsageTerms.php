@@ -39,5 +39,4 @@ class UsageTerms extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Usage Terms';
-
 }

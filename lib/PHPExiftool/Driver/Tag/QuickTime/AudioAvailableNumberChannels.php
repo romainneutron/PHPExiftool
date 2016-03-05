@@ -39,5 +39,4 @@ class AudioAvailableNumberChannels extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Audio Available Number Channels';
-
 }

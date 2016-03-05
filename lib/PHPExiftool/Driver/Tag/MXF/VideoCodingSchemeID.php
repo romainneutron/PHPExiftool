@@ -39,5 +39,4 @@ class VideoCodingSchemeID extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Video Coding Scheme ID';
-
 }

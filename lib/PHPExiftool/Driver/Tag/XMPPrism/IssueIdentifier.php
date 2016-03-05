@@ -41,5 +41,4 @@ class IssueIdentifier extends AbstractTag
     protected $Description = 'Issue Identifier';
 
     protected $flag_Avoid = true;
-
 }

@@ -48,5 +48,4 @@ class PaintingFilter extends AbstractTag
             'Label' => 'Off',
         ),
     );
-
 }

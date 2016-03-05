@@ -41,5 +41,4 @@ class EventAbsoluteDuration extends AbstractTag
     protected $Description = 'Event Absolute Duration';
 
     protected $local_g2 = 'mixed';
-
 }

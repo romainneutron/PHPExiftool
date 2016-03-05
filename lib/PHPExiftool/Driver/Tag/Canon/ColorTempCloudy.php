@@ -41,5 +41,4 @@ class ColorTempCloudy extends AbstractTag
     protected $Description = 'Color Temp Cloudy';
 
     protected $flag_Permanent = true;
-
 }

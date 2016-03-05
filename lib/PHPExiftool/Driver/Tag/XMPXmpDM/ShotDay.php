@@ -39,5 +39,4 @@ class ShotDay extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Shot Day';
-
 }

@@ -52,5 +52,4 @@ class SerialNumberFormat extends AbstractTag
             'Label' => 'Format 2',
         ),
     );
-
 }

@@ -39,5 +39,4 @@ class ViewportAspectRatio extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Viewport Aspect Ratio';
-
 }

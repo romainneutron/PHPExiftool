@@ -39,5 +39,4 @@ class AFDAndBarData extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'AFD And Bar Data';
-
 }

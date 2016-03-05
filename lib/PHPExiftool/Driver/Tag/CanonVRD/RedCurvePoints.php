@@ -41,5 +41,4 @@ class RedCurvePoints extends AbstractTag
     protected $Description = 'Red Curve Points';
 
     protected $MaxLength = 21;
-
 }

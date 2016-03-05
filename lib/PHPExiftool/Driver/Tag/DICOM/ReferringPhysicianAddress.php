@@ -39,5 +39,4 @@ class ReferringPhysicianAddress extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Referring Physician Address';
-
 }

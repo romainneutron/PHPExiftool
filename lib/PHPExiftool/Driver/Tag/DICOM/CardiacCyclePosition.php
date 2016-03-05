@@ -39,5 +39,4 @@ class CardiacCyclePosition extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Cardiac Cycle Position';
-
 }

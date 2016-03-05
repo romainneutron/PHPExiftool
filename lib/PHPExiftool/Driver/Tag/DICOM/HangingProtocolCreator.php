@@ -39,5 +39,4 @@ class HangingProtocolCreator extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Hanging Protocol Creator';
-
 }

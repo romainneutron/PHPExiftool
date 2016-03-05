@@ -39,5 +39,4 @@ class FieldOfViewInDetectorCells extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Field Of View In Detector Cells';
-
 }

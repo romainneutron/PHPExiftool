@@ -39,5 +39,4 @@ class EventEndTimeOffset extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Event End Time Offset';
-
 }

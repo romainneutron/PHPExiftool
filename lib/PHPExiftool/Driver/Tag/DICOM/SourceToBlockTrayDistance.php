@@ -39,5 +39,4 @@ class SourceToBlockTrayDistance extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Source To Block Tray Distance';
-
 }

@@ -41,5 +41,4 @@ class RatingPercent extends AbstractTag
     protected $Description = 'Rating Percent';
 
     protected $flag_Avoid = true;
-
 }

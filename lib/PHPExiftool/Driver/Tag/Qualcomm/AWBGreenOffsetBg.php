@@ -41,5 +41,4 @@ class AWBGreenOffsetBg extends AbstractTag
     protected $Description = 'AWB Green Offset Bg';
 
     protected $flag_Permanent = true;
-
 }

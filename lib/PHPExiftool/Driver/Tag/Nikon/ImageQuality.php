@@ -104,5 +104,4 @@ class ImageQuality extends AbstractTag
             'Label' => 'NEF (RAW) + JPEG Basic',
         ),
     );
-
 }

@@ -39,5 +39,4 @@ class LookModTransform extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Look Mod Transform';
-
 }

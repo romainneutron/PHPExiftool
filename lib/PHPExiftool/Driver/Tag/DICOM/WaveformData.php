@@ -39,5 +39,4 @@ class WaveformData extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Waveform Data';
-
 }

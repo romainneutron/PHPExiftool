@@ -39,5 +39,4 @@ class ReferenceBlock extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Reference Block';
-
 }

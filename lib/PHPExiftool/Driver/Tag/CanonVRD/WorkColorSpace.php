@@ -82,5 +82,4 @@ class WorkColorSpace extends AbstractTag
             'Label' => 'ColorMatch RGB',
         ),
     );
-
 }

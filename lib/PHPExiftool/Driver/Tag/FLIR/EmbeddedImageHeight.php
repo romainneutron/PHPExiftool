@@ -39,5 +39,4 @@ class EmbeddedImageHeight extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Embedded Image Height';
-
 }

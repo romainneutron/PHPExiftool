@@ -41,5 +41,4 @@ class AvApertureSetting extends AbstractTag
     protected $Description = 'Av Aperture Setting';
 
     protected $flag_Permanent = true;
-
 }

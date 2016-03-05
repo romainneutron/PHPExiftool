@@ -41,5 +41,4 @@ class DefLumaGammaMode extends AbstractTag
     protected $Description = 'Def Luma Gamma Mode';
 
     protected $flag_Permanent = true;
-
 }

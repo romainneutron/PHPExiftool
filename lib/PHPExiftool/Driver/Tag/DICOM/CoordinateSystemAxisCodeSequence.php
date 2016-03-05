@@ -39,5 +39,4 @@ class CoordinateSystemAxisCodeSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Coordinate System Axis Code Sequence';
-
 }

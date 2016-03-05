@@ -62,5 +62,4 @@ class ModificationPermissions extends AbstractTag
             'Label' => 'Restrict all applications to reader permissions',
         ),
     );
-
 }

@@ -41,5 +41,4 @@ class PeripheralIllumCentralRadius extends AbstractTag
     protected $Description = 'Peripheral Illum Central Radius';
 
     protected $flag_Permanent = true;
-
 }

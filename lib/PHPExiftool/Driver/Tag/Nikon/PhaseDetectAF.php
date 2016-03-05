@@ -72,5 +72,4 @@ class PhaseDetectAF extends AbstractTag
             'Label' => 'On (105-point)',
         ),
     );
-
 }

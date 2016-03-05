@@ -66,5 +66,4 @@ class GainControl extends AbstractTag
             'Label' => 'High gain down',
         ),
     );
-
 }

@@ -39,5 +39,4 @@ class SourceImageCenterXCoordinate extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Source Image Center X Coordinate';
-
 }

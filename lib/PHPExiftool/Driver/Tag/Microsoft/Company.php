@@ -39,5 +39,4 @@ class Company extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Company';
-
 }

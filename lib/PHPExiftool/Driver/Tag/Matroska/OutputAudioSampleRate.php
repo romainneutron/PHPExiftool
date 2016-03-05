@@ -41,5 +41,4 @@ class OutputAudioSampleRate extends AbstractTag
     protected $Description = 'Output Audio Sample Rate';
 
     protected $local_g2 = 'Audio';
-
 }

@@ -39,5 +39,4 @@ class Allergies extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Allergies';
-
 }

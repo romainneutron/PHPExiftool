@@ -39,5 +39,4 @@ class SurfacePointsSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Surface Points Sequence';
-
 }

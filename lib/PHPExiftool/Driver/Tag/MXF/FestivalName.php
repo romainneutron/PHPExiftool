@@ -39,5 +39,4 @@ class FestivalName extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Festival Name';
-
 }

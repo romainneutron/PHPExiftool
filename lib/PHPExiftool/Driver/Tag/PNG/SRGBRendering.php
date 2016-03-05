@@ -58,5 +58,4 @@ class SRGBRendering extends AbstractTag
             'Label' => 'Absolute Colorimetric',
         ),
     );
-
 }

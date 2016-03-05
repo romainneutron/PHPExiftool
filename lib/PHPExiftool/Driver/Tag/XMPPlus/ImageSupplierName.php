@@ -41,5 +41,4 @@ class ImageSupplierName extends AbstractTag
     protected $Description = 'Image Supplier Name';
 
     protected $flag_List = true;
-
 }

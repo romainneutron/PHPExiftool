@@ -50,5 +50,4 @@ class TagDefault extends AbstractTag
             'Label' => 'Yes',
         ),
     );
-
 }

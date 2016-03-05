@@ -39,5 +39,4 @@ class HomeFax extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Home Fax';
-
 }

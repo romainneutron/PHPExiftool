@@ -39,5 +39,4 @@ class PresentationGroupNumber extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Presentation Group Number';
-
 }

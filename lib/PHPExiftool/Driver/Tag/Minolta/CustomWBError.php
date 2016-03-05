@@ -52,5 +52,4 @@ class CustomWBError extends AbstractTag
             'Label' => 'Error',
         ),
     );
-
 }

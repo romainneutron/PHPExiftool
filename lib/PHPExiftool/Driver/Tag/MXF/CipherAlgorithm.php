@@ -39,5 +39,4 @@ class CipherAlgorithm extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Cipher Algorithm';
-
 }

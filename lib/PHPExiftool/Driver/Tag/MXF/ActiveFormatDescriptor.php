@@ -39,5 +39,4 @@ class ActiveFormatDescriptor extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Active Format Descriptor';
-
 }

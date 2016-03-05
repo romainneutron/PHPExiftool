@@ -41,5 +41,4 @@ class SegmentFamily extends AbstractTag
     protected $Description = 'Segment Family';
 
     protected $flag_Binary = true;
-
 }

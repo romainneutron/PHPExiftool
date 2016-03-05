@@ -39,5 +39,4 @@ class FieldFrameTypeCode extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Field Frame Type Code';
-
 }

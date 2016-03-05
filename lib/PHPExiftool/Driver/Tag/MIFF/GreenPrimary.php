@@ -39,5 +39,4 @@ class GreenPrimary extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Green Primary';
-
 }

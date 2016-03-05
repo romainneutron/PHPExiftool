@@ -39,5 +39,4 @@ class TotalReferenceAirKerma extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Total Reference Air Kerma';
-
 }

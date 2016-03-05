@@ -39,5 +39,4 @@ class ZonalMapNumberFormat extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Zonal Map Number Format';
-
 }

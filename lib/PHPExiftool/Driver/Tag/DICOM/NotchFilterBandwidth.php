@@ -39,5 +39,4 @@ class NotchFilterBandwidth extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Notch Filter Bandwidth';
-
 }

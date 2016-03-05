@@ -68,5 +68,4 @@ class USMLensElectronicMF extends AbstractTag
             'Label' => 'Disable in AF mode',
         ),
     );
-
 }

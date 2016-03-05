@@ -39,5 +39,4 @@ class SubjectName extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Subject Name';
-
 }

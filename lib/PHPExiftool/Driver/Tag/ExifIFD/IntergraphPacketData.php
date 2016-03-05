@@ -41,5 +41,4 @@ class IntergraphPacketData extends AbstractTag
     protected $Description = 'Intergraph Packet Data';
 
     protected $local_g1 = 'ExifIFD';
-
 }

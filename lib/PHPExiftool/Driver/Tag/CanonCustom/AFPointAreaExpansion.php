@@ -82,5 +82,4 @@ class AFPointAreaExpansion extends AbstractTag
     );
 
     protected $Index = 'mixed';
-
 }

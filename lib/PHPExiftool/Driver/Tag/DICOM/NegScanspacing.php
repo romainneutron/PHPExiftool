@@ -39,5 +39,4 @@ class NegScanspacing extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Neg Scanspacing';
-
 }

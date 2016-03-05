@@ -39,5 +39,4 @@ class BlockContinuityCount extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Block Continuity Count';
-
 }

@@ -39,5 +39,4 @@ class PhototimerSetting extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Phototimer Setting';
-
 }

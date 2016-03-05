@@ -39,5 +39,4 @@ class ShutterRightVerticalEdge extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Shutter Right Vertical Edge';
-
 }

@@ -41,5 +41,4 @@ class FocusSetting extends AbstractTag
     protected $Description = 'Focus Setting';
 
     protected $flag_Permanent = true;
-
 }

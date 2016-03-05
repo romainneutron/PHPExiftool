@@ -39,5 +39,4 @@ class TagThickness extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Tag Thickness';
-
 }

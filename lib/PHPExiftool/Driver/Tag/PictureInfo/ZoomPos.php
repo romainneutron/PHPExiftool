@@ -39,5 +39,4 @@ class ZoomPos extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Zoom Pos';
-
 }

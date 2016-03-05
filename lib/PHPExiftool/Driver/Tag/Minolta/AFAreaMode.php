@@ -56,5 +56,4 @@ class AFAreaMode extends AbstractTag
             'Label' => 'Spot',
         ),
     );
-
 }

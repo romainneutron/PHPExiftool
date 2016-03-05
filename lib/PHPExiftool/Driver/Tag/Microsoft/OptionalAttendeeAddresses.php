@@ -39,5 +39,4 @@ class OptionalAttendeeAddresses extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Optional Attendee Addresses';
-
 }

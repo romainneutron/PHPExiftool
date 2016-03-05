@@ -39,5 +39,4 @@ class WindowWidth extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Window Width';
-
 }

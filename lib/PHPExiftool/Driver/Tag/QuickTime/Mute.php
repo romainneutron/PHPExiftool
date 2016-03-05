@@ -50,5 +50,4 @@ class Mute extends AbstractTag
             'Label' => 'On',
         ),
     );
-
 }

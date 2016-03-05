@@ -39,5 +39,4 @@ class CameraName extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Camera Name';
-
 }

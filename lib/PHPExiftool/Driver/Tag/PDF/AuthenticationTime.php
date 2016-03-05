@@ -39,5 +39,4 @@ class AuthenticationTime extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Authentication Time';
-
 }

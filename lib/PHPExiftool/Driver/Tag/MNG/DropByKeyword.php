@@ -41,5 +41,4 @@ class DropByKeyword extends AbstractTag
     protected $Description = 'Drop By Keyword';
 
     protected $flag_Binary = true;
-
 }

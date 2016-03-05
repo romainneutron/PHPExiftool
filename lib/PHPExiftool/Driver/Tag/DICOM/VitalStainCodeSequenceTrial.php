@@ -39,5 +39,4 @@ class VitalStainCodeSequenceTrial extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Vital Stain Code Sequence Trial';
-
 }

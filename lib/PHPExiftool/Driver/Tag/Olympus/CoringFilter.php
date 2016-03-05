@@ -41,5 +41,4 @@ class CoringFilter extends AbstractTag
     protected $Description = 'Coring Filter';
 
     protected $flag_Permanent = true;
-
 }

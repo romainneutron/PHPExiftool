@@ -39,5 +39,4 @@ class SOPAuthorizationDateAndTime extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'SOP Authorization Date And Time';
-
 }

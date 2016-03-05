@@ -39,5 +39,4 @@ class ConsumerRightsToCopy extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Consumer Rights To Copy';
-
 }

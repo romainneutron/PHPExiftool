@@ -39,5 +39,4 @@ class DefaultAudioStream extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Default Audio Stream';
-
 }

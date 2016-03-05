@@ -50,5 +50,4 @@ class YCbCrPositioning extends AbstractTag
             'Label' => 'Co-sited',
         ),
     );
-
 }

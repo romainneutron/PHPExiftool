@@ -39,5 +39,4 @@ class HasCorrectionALang extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Has Correction A-lang';
-
 }

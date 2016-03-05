@@ -39,5 +39,4 @@ class BlockVirtual extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Block Virtual';
-
 }

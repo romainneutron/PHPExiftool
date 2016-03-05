@@ -41,5 +41,4 @@ class AdventScale extends AbstractTag
     protected $Description = 'Advent Scale';
 
     protected $local_g1 = 'ExifIFD';
-
 }

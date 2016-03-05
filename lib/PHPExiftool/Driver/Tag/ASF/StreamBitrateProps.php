@@ -39,5 +39,4 @@ class StreamBitrateProps extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Stream Bitrate Props';
-
 }

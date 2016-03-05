@@ -39,5 +39,4 @@ class ExposureTimeInMilliSec extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Exposure Time In Milli Sec';
-
 }

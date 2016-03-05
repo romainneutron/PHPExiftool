@@ -54,5 +54,4 @@ class MPImageFlags extends AbstractTag
             'Label' => 'Dependent parent image',
         ),
     );
-
 }

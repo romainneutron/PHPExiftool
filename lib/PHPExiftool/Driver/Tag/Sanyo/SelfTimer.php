@@ -52,5 +52,4 @@ class SelfTimer extends AbstractTag
             'Label' => 'On',
         ),
     );
-
 }

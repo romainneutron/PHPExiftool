@@ -39,5 +39,4 @@ class MydriaticAgentCodeSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Mydriatic Agent Code Sequence';
-
 }

@@ -60,5 +60,4 @@ class FocalType extends AbstractTag
             'Label' => 'Zoom',
         ),
     );
-
 }

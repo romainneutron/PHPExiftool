@@ -48,5 +48,4 @@ class SharpnessMonochrome extends AbstractTag
             'Label' => 'n/a',
         ),
     );
-
 }

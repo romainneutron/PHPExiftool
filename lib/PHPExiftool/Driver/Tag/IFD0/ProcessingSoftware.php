@@ -39,5 +39,4 @@ class ProcessingSoftware extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Processing Software';
-
 }

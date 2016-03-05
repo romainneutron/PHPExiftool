@@ -39,5 +39,4 @@ class MakeAndModel extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Make And Model';
-
 }

@@ -39,5 +39,4 @@ class TripletSequenceNumber extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Triplet Sequence Number';
-
 }

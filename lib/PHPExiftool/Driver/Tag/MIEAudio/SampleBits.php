@@ -39,5 +39,4 @@ class SampleBits extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Sample Bits';
-
 }

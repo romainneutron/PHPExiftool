@@ -39,5 +39,4 @@ class MRImageFrameTypeSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'MR Image Frame Type Sequence';
-
 }

@@ -39,5 +39,4 @@ class UnderlineThickness extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Underline Thickness';
-
 }

@@ -41,5 +41,4 @@ class FineTuneOptCenterWeighted extends AbstractTag
     protected $Description = 'Fine Tune Opt Center Weighted';
 
     protected $flag_Permanent = true;
-
 }

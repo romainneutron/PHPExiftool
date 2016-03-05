@@ -74,5 +74,4 @@ class ColorMode extends AbstractTag
             'Label' => 'Lab',
         ),
     );
-
 }

@@ -41,5 +41,4 @@ class LAEnable extends AbstractTag
     protected $Description = 'LA Enable';
 
     protected $flag_Permanent = true;
-
 }

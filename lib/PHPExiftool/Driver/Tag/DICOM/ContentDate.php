@@ -39,5 +39,4 @@ class ContentDate extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Content Date';
-
 }

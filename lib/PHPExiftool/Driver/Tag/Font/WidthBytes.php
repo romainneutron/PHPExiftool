@@ -39,5 +39,4 @@ class WidthBytes extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Width Bytes';
-
 }

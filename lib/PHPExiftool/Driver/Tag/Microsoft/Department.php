@@ -39,5 +39,4 @@ class Department extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Department';
-
 }

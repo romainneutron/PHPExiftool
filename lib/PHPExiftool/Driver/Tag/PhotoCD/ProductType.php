@@ -41,5 +41,4 @@ class ProductType extends AbstractTag
     protected $Description = 'Product Type';
 
     protected $MaxLength = 20;
-
 }

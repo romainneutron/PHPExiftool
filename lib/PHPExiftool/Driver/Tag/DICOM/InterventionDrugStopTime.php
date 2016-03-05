@@ -39,5 +39,4 @@ class InterventionDrugStopTime extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Intervention Drug Stop Time';
-
 }

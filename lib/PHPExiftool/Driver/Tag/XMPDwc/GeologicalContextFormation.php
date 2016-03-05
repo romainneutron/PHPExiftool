@@ -39,5 +39,4 @@ class GeologicalContextFormation extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Geological Context Formation';
-
 }

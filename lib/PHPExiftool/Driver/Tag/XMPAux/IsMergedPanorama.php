@@ -39,5 +39,4 @@ class IsMergedPanorama extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Is Merged Panorama';
-
 }

@@ -39,5 +39,4 @@ class CountRate extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Count Rate';
-
 }

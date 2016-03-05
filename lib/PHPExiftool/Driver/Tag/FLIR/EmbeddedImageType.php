@@ -41,5 +41,4 @@ class EmbeddedImageType extends AbstractTag
     protected $Description = 'Embedded Image Type';
 
     protected $MaxLength = 4;
-
 }

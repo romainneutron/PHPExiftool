@@ -39,5 +39,4 @@ class ManagedFromManageUI extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Managed From Manage UI';
-
 }

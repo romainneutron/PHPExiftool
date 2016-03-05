@@ -39,5 +39,4 @@ class TotalSamplesperLine extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Total Samplesper Line';
-
 }

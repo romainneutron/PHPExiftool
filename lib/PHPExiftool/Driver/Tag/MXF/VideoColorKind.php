@@ -39,5 +39,4 @@ class VideoColorKind extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Video Color Kind';
-
 }

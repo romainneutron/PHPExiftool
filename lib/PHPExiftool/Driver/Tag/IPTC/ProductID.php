@@ -43,5 +43,4 @@ class ProductID extends AbstractTag
     protected $flag_List = true;
 
     protected $MaxLength = 32;
-
 }

@@ -39,5 +39,4 @@ class EventElapsedTimes extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Event Elapsed Times';
-
 }

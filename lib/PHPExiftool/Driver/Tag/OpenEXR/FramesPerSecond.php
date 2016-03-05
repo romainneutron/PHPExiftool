@@ -39,5 +39,4 @@ class FramesPerSecond extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Frames Per Second';
-
 }

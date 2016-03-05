@@ -39,5 +39,4 @@ class ColorAverages extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Color Averages';
-
 }

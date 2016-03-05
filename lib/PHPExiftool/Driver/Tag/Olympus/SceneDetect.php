@@ -41,5 +41,4 @@ class SceneDetect extends AbstractTag
     protected $Description = 'Scene Detect';
 
     protected $flag_Permanent = true;
-
 }

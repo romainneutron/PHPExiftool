@@ -39,5 +39,4 @@ class WMShadowFileSourceFileType extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'WM Shadow File Source File Type';
-
 }

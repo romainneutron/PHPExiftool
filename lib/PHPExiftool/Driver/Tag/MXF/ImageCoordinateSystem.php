@@ -39,5 +39,4 @@ class ImageCoordinateSystem extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Image Coordinate System';
-
 }

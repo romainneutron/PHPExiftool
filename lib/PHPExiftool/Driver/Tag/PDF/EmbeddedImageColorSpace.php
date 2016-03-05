@@ -41,5 +41,4 @@ class EmbeddedImageColorSpace extends AbstractTag
     protected $Description = 'Embedded Image Color Space';
 
     protected $flag_List = true;
-
 }

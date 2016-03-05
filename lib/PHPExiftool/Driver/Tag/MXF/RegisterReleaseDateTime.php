@@ -41,5 +41,4 @@ class RegisterReleaseDateTime extends AbstractTag
     protected $Description = 'Register Release Date Time';
 
     protected $local_g2 = 'Time';
-
 }

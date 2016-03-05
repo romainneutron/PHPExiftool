@@ -52,5 +52,4 @@ class FlashButtonFunction extends AbstractTag
             'Label' => 'ISO speed',
         ),
     );
-
 }

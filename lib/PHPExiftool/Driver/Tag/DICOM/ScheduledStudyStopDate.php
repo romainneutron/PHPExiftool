@@ -39,5 +39,4 @@ class ScheduledStudyStopDate extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Scheduled Study Stop Date';
-
 }

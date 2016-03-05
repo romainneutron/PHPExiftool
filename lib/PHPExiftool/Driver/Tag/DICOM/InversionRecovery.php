@@ -39,5 +39,4 @@ class InversionRecovery extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Inversion Recovery';
-
 }

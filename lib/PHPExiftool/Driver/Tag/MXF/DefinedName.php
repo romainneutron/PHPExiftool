@@ -39,5 +39,4 @@ class DefinedName extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Defined Name';
-
 }

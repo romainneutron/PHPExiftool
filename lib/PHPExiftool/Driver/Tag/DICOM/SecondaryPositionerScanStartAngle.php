@@ -39,5 +39,4 @@ class SecondaryPositionerScanStartAngle extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Secondary Positioner Scan Start Angle';
-
 }

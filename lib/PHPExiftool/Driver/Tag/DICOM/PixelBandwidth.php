@@ -39,5 +39,4 @@ class PixelBandwidth extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Pixel Bandwidth';
-
 }

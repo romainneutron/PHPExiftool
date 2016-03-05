@@ -41,5 +41,4 @@ class YhiYloConvLumaV0 extends AbstractTag
     protected $Description = 'Yhi Ylo Conv Luma V0';
 
     protected $flag_Permanent = true;
-
 }

@@ -41,5 +41,4 @@ class RedCurveLimits extends AbstractTag
     protected $Description = 'Red Curve Limits';
 
     protected $MaxLength = 4;
-
 }

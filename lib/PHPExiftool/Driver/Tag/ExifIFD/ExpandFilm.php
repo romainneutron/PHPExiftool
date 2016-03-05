@@ -41,5 +41,4 @@ class ExpandFilm extends AbstractTag
     protected $Description = 'Expand Film';
 
     protected $local_g1 = 'ExifIFD';
-
 }

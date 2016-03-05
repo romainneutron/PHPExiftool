@@ -41,5 +41,4 @@ class ObjectTypeReference extends AbstractTag
     protected $Description = 'Object Type Reference';
 
     protected $MaxLength = 67;
-
 }

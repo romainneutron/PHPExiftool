@@ -41,5 +41,4 @@ class BadFaxLines extends AbstractTag
     protected $Description = 'Bad Fax Lines';
 
     protected $local_g1 = 'ExifIFD';
-
 }

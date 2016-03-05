@@ -45,5 +45,4 @@ class InteropVersion extends AbstractTag
     protected $flag_Unsafe = true;
 
     protected $flag_Mandatory = true;
-
 }

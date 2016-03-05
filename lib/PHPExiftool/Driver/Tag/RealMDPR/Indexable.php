@@ -50,5 +50,4 @@ class Indexable extends AbstractTag
             'Label' => True,
         ),
     );
-
 }

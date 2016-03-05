@@ -39,5 +39,4 @@ class EPSOptions extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'EPS Options';
-
 }

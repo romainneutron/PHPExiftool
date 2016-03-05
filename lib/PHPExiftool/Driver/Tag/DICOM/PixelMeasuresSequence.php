@@ -39,5 +39,4 @@ class PixelMeasuresSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Pixel Measures Sequence';
-
 }

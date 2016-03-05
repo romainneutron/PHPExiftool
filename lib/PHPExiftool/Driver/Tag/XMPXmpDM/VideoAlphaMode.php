@@ -54,5 +54,4 @@ class VideoAlphaMode extends AbstractTag
             'Label' => 'Straight',
         ),
     );
-
 }

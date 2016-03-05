@@ -39,5 +39,4 @@ class SourceContainerFormat extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Source Container Format';
-
 }

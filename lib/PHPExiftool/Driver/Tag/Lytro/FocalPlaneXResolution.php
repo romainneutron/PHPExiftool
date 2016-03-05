@@ -39,5 +39,4 @@ class FocalPlaneXResolution extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Focal Plane X Resolution';
-
 }

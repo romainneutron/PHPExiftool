@@ -64,5 +64,4 @@ class ActionAdvised extends AbstractTag
             'Label' => '',
         ),
     );
-
 }

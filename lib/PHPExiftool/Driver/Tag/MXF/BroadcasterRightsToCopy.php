@@ -39,5 +39,4 @@ class BroadcasterRightsToCopy extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Broadcaster Rights To Copy';
-
 }

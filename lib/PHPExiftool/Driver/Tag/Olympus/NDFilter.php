@@ -52,5 +52,4 @@ class NDFilter extends AbstractTag
             'Label' => 'On',
         ),
     );
-
 }

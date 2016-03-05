@@ -39,5 +39,4 @@ class ColorNoiseReduction extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Color Noise Reduction';
-
 }

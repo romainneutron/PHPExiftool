@@ -39,5 +39,4 @@ class CountsIncluded extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Counts Included';
-
 }

@@ -39,5 +39,4 @@ class SubDescriptor extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Sub Descriptor';
-
 }

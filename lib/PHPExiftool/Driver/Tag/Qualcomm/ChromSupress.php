@@ -41,5 +41,4 @@ class ChromSupress extends AbstractTag
     protected $Description = 'Chrom Supress';
 
     protected $flag_Permanent = true;
-
 }

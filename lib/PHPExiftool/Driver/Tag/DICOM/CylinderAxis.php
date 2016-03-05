@@ -39,5 +39,4 @@ class CylinderAxis extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Cylinder Axis';
-
 }

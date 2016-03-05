@@ -39,5 +39,4 @@ class ShutterShape extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Shutter Shape';
-
 }

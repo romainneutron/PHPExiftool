@@ -39,5 +39,4 @@ class PitchAndFamily extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Pitch And Family';
-
 }

@@ -112,5 +112,4 @@ class IDCCreativeStyle extends AbstractTag
             'Label' => 'Sepia',
         ),
     );
-
 }

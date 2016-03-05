@@ -39,5 +39,4 @@ class HeadingPairs extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Heading Pairs';
-
 }

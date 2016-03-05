@@ -41,5 +41,4 @@ class DietaryNeeds extends AbstractTag
     protected $Description = 'Dietary Needs';
 
     protected $flag_Avoid = true;
-
 }

@@ -41,5 +41,4 @@ class PictInfo extends AbstractTag
     protected $Description = 'Pict Info';
 
     protected $flag_Permanent = true;
-
 }

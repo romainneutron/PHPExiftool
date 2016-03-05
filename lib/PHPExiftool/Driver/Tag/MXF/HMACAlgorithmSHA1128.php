@@ -39,5 +39,4 @@ class HMACAlgorithmSHA1128 extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'HMAC Algorithm SHA1128';
-
 }

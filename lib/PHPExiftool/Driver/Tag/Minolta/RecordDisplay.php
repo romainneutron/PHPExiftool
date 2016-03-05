@@ -52,5 +52,4 @@ class RecordDisplay extends AbstractTag
             'Label' => 'Horizontal',
         ),
     );
-
 }

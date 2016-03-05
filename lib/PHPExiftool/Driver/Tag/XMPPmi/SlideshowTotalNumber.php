@@ -41,5 +41,4 @@ class SlideshowTotalNumber extends AbstractTag
     protected $Description = 'Slideshow Total Number';
 
     protected $flag_Avoid = true;
-
 }

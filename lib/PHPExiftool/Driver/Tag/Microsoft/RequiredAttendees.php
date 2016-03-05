@@ -39,5 +39,4 @@ class RequiredAttendees extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Required Attendees';
-
 }

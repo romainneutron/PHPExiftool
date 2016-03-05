@@ -41,5 +41,4 @@ class RightsOwner extends AbstractTag
     protected $Description = 'Rights Owner';
 
     protected $flag_Avoid = true;
-
 }

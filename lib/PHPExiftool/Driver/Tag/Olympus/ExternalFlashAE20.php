@@ -41,5 +41,4 @@ class ExternalFlashAE20 extends AbstractTag
     protected $Description = 'External Flash AE2 0';
 
     protected $flag_Permanent = true;
-
 }

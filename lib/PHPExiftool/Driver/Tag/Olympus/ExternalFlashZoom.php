@@ -41,5 +41,4 @@ class ExternalFlashZoom extends AbstractTag
     protected $Description = 'External Flash Zoom';
 
     protected $flag_Permanent = true;
-
 }

@@ -39,5 +39,4 @@ class WaveformSampleInterpretation extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Waveform Sample Interpretation';
-
 }

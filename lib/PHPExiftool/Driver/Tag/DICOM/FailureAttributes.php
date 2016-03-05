@@ -39,5 +39,4 @@ class FailureAttributes extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Failure Attributes';
-
 }

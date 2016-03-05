@@ -52,5 +52,4 @@ class ColorAdjustmentMode extends AbstractTag
             'Label' => 'On',
         ),
     );
-
 }

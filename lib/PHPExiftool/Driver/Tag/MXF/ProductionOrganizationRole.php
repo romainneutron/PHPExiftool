@@ -39,5 +39,4 @@ class ProductionOrganizationRole extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Production Organization Role';
-
 }

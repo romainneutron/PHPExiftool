@@ -41,5 +41,4 @@ class SequenceFileNumber extends AbstractTag
     protected $Description = 'Sequence File Number';
 
     protected $flag_Permanent = true;
-
 }

@@ -92,5 +92,4 @@ class FlashMode extends AbstractTag
             'Label' => 'Auto, Did not fire',
         ),
     );
-
 }

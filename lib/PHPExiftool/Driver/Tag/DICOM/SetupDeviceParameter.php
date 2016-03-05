@@ -39,5 +39,4 @@ class SetupDeviceParameter extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Setup Device Parameter';
-
 }

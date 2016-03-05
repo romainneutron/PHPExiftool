@@ -39,5 +39,4 @@ class CTXRayDetailsSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'CTX Ray Details Sequence';
-
 }

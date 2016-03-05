@@ -39,5 +39,4 @@ class CellSpacing extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Cell Spacing';
-
 }

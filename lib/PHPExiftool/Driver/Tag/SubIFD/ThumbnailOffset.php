@@ -45,5 +45,4 @@ class ThumbnailOffset extends AbstractTag
     protected $flag_Protected = true;
 
     protected $Index = 2;
-
 }

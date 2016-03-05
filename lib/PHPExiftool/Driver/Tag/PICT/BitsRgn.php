@@ -39,5 +39,4 @@ class BitsRgn extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'CopyBits with Clipped Region';
-
 }

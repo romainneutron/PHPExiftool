@@ -346,5 +346,4 @@ class DestinationCity extends AbstractTag
             'Label' => 'Budapest',
         ),
     );
-
 }

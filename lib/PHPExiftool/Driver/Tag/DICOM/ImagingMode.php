@@ -39,5 +39,4 @@ class ImagingMode extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Imaging Mode';
-
 }

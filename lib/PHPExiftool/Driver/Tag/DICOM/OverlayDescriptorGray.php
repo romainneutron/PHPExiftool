@@ -39,5 +39,4 @@ class OverlayDescriptorGray extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Overlay Descriptor Gray';
-
 }

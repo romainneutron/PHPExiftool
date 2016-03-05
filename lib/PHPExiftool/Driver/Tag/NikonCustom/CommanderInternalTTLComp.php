@@ -41,5 +41,4 @@ class CommanderInternalTTLComp extends AbstractTag
     protected $Description = 'Commander Internal TTL Comp';
 
     protected $flag_Permanent = true;
-
 }

@@ -39,5 +39,4 @@ class RedTRC extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Red Tone Reproduction Curve';
-
 }

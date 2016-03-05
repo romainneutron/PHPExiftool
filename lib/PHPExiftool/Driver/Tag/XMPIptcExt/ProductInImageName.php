@@ -41,5 +41,4 @@ class ProductInImageName extends AbstractTag
     protected $Description = 'Product In Image Name';
 
     protected $flag_List = true;
-
 }

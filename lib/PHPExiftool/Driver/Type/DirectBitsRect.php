@@ -19,5 +19,4 @@ class DirectBitsRect extends AbstractType
     protected $ExiftoolName = 'DirectBitsRect';
 
     protected $PHPMap = 'string';
-
 }

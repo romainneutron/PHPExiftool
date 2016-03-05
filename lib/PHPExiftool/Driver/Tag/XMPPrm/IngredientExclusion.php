@@ -41,5 +41,4 @@ class IngredientExclusion extends AbstractTag
     protected $Description = 'Ingredient Exclusion';
 
     protected $flag_Avoid = true;
-
 }

@@ -39,5 +39,4 @@ class SubjectDistance extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Subject Distance';
-
 }

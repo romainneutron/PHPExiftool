@@ -56,5 +56,4 @@ class Thresholding extends AbstractTag
             'Label' => 'Randomized dither',
         ),
     );
-
 }

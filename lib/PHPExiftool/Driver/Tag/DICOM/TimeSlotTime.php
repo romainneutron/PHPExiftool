@@ -39,5 +39,4 @@ class TimeSlotTime extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Time Slot Time';
-
 }

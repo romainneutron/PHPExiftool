@@ -41,5 +41,4 @@ class TargetDistanceSetting extends AbstractTag
     protected $Description = 'Target Distance Setting';
 
     protected $flag_Permanent = true;
-
 }

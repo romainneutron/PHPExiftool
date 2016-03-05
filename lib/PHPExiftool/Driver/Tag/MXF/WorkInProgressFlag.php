@@ -39,5 +39,4 @@ class WorkInProgressFlag extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Work-in-Progress Flag';
-
 }

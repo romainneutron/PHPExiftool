@@ -96,5 +96,4 @@ class AdvancedFilter extends AbstractTag
             'Label' => 'Low Key',
         ),
     );
-
 }

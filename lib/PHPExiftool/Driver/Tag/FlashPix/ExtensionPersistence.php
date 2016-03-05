@@ -54,5 +54,4 @@ class ExtensionPersistence extends AbstractTag
             'Label' => 'Potentially Invalidated By Modification',
         ),
     );
-
 }

@@ -41,5 +41,4 @@ class R2TL84Cy extends AbstractTag
     protected $Description = 'R2 TL84 Cy';
 
     protected $flag_Permanent = true;
-
 }

@@ -60,5 +60,4 @@ class SonyQuality extends AbstractTag
             'Label' => 'Standard',
         ),
     );
-
 }

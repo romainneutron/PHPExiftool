@@ -41,5 +41,4 @@ class AtmosphericTemperature extends AbstractTag
     protected $Description = 'Atmospheric Temperature';
 
     protected $flag_Permanent = 'mixed';
-
 }

@@ -86,5 +86,4 @@ class ExposureProgram extends AbstractTag
             'Label' => 'Bulb',
         ),
     );
-
 }

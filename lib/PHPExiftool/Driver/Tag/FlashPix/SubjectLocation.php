@@ -41,5 +41,4 @@ class SubjectLocation extends AbstractTag
     protected $Description = 'Subject Location';
 
     protected $local_g2 = 'Camera';
-
 }

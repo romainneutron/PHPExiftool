@@ -39,5 +39,4 @@ class ObjectIdentificationConfidence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Object Identification Confidence';
-
 }

@@ -39,5 +39,4 @@ class LogComment extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Log Comment';
-
 }

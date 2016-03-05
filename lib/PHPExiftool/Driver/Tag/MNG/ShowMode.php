@@ -39,5 +39,4 @@ class ShowMode extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Show Mode';
-
 }

@@ -41,5 +41,4 @@ class ImageUniqueID extends AbstractTag
     protected $Description = 'Image Unique ID';
 
     protected $MaxLength = 16;
-
 }

@@ -39,5 +39,4 @@ class NumberFractionPatternDigitsPerDay extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Number Fraction Pattern Digits Per Day';
-
 }

@@ -80,5 +80,4 @@ class BleachBypassToning extends AbstractTag
             'Label' => 'Off',
         ),
     );
-
 }

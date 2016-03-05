@@ -39,5 +39,4 @@ class MaximumDensityRange extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Maximum Density Range';
-
 }

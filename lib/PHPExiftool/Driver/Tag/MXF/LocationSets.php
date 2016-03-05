@@ -39,5 +39,4 @@ class LocationSets extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Location Sets';
-
 }

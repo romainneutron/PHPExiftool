@@ -39,5 +39,4 @@ class LayerGroupsEnabledID extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Layer Groups Enabled ID';
-
 }

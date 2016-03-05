@@ -41,5 +41,4 @@ class WBRedLevel extends AbstractTag
     protected $Description = 'WB Red Level';
 
     protected $flag_Permanent = true;
-
 }

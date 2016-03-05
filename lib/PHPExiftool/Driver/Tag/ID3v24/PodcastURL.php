@@ -39,5 +39,4 @@ class PodcastURL extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Podcast URL';
-
 }

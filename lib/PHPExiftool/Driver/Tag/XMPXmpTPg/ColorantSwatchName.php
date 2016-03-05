@@ -41,5 +41,4 @@ class ColorantSwatchName extends AbstractTag
     protected $Description = 'Colorant Swatch Name';
 
     protected $flag_List = true;
-
 }

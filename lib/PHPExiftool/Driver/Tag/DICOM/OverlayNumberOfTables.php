@@ -39,5 +39,4 @@ class OverlayNumberOfTables extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Overlay Number Of Tables';
-
 }

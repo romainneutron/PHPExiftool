@@ -39,5 +39,4 @@ class StandardRawHighlightPoint extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Standard Raw Highlight Point';
-
 }

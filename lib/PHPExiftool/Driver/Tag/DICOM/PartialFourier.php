@@ -39,5 +39,4 @@ class PartialFourier extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Partial Fourier';
-
 }

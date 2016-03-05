@@ -41,5 +41,4 @@ class LC1 extends AbstractTag
     protected $Description = 'LC1';
 
     protected $flag_Permanent = true;
-
 }

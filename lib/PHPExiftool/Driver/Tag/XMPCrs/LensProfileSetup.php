@@ -39,5 +39,4 @@ class LensProfileSetup extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Lens Profile Setup';
-
 }

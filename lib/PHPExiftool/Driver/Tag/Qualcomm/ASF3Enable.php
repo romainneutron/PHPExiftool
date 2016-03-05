@@ -41,5 +41,4 @@ class ASF3Enable extends AbstractTag
     protected $Description = 'ASF3 Enable';
 
     protected $flag_Permanent = true;
-
 }

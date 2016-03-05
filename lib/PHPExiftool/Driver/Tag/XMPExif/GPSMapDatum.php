@@ -41,5 +41,4 @@ class GPSMapDatum extends AbstractTag
     protected $Description = 'GPS Map Datum';
 
     protected $local_g2 = 'Location';
-
 }

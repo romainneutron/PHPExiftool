@@ -39,5 +39,4 @@ class LuminanceAdjustmentAqua extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Luminance Adjustment Aqua';
-
 }

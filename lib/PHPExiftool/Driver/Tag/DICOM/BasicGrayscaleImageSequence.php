@@ -39,5 +39,4 @@ class BasicGrayscaleImageSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Basic Grayscale Image Sequence';
-
 }

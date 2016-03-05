@@ -39,5 +39,4 @@ class DoubleExposureFieldDelta extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Double Exposure Field Delta';
-
 }

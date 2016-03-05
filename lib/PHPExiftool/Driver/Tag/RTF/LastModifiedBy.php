@@ -39,5 +39,4 @@ class LastModifiedBy extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Last Modified By';
-
 }

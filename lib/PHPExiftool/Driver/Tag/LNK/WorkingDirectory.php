@@ -39,5 +39,4 @@ class WorkingDirectory extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Working Directory';
-
 }

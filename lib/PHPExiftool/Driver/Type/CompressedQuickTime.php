@@ -19,5 +19,4 @@ class CompressedQuickTime extends AbstractType
     protected $ExiftoolName = 'CompressedQuickTime';
 
     protected $PHPMap = 'string';
-
 }

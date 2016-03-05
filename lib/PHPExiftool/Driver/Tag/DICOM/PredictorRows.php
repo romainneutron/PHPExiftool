@@ -39,5 +39,4 @@ class PredictorRows extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Predictor Rows';
-
 }

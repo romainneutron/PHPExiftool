@@ -39,5 +39,4 @@ class Properties extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Properties';
-
 }

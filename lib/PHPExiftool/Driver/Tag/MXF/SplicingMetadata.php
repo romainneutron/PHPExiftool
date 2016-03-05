@@ -39,5 +39,4 @@ class SplicingMetadata extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Splicing Metadata';
-
 }

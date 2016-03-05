@@ -39,5 +39,4 @@ class ReferencedPatientSetupNumber extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Referenced Patient Setup Number';
-
 }

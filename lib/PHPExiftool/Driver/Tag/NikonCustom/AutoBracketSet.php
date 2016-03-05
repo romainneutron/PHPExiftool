@@ -230,5 +230,4 @@ class AutoBracketSet extends AbstractTag
     );
 
     protected $Index = 'mixed';
-
 }

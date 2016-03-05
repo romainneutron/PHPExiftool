@@ -41,5 +41,4 @@ class ExternalFlashGValue extends AbstractTag
     protected $Description = 'External Flash G Value';
 
     protected $flag_Permanent = true;
-
 }

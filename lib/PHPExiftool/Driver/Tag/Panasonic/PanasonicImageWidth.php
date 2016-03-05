@@ -41,5 +41,4 @@ class PanasonicImageWidth extends AbstractTag
     protected $Description = 'Panasonic Image Width';
 
     protected $flag_Permanent = true;
-
 }

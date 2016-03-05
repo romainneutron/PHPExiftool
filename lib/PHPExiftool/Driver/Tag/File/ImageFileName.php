@@ -41,5 +41,4 @@ class ImageFileName extends AbstractTag
     protected $Description = 'Image File Name';
 
     protected $MaxLength = 100;
-
 }

@@ -39,5 +39,4 @@ class SceneNumber extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Scene Number';
-
 }

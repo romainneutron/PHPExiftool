@@ -39,5 +39,4 @@ class ViewName extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'View Name';
-
 }

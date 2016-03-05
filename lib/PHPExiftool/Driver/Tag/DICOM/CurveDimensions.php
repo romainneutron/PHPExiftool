@@ -39,5 +39,4 @@ class CurveDimensions extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Curve Dimensions';
-
 }

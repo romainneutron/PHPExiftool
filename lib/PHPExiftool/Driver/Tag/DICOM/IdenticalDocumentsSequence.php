@@ -39,5 +39,4 @@ class IdenticalDocumentsSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Identical Documents Sequence';
-
 }

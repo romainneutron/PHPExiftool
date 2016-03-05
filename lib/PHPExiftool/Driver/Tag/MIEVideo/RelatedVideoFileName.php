@@ -39,5 +39,4 @@ class RelatedVideoFileName extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Related Video File Name';
-
 }

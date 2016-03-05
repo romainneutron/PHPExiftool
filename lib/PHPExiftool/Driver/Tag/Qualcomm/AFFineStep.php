@@ -41,5 +41,4 @@ class AFFineStep extends AbstractTag
     protected $Description = 'AF Fine Step';
 
     protected $flag_Permanent = true;
-
 }

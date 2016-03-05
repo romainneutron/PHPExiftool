@@ -39,5 +39,4 @@ class CompensatorID extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Compensator ID';
-
 }

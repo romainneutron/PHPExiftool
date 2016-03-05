@@ -41,5 +41,4 @@ class PF2Value extends AbstractTag
     protected $Description = 'PF2 Value';
 
     protected $flag_Permanent = true;
-
 }

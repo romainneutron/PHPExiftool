@@ -39,5 +39,4 @@ class Underline extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Underline';
-
 }

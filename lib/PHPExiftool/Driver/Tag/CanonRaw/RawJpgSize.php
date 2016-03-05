@@ -56,5 +56,4 @@ class RawJpgSize extends AbstractTag
             'Label' => 'Small',
         ),
     );
-
 }

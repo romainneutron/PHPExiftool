@@ -43,5 +43,4 @@ class ColorMap extends AbstractTag
     protected $local_g1 = 'ExifIFD';
 
     protected $flag_Binary = true;
-
 }

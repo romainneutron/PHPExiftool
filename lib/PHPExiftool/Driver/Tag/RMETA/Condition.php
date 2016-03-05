@@ -58,5 +58,4 @@ class Condition extends AbstractTag
             'Label' => 'Damaged',
         ),
     );
-
 }

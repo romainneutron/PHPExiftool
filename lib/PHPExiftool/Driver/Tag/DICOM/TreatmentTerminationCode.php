@@ -39,5 +39,4 @@ class TreatmentTerminationCode extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Treatment Termination Code';
-
 }

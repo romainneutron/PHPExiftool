@@ -39,5 +39,4 @@ class MovieDataSize extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Movie Data Size';
-
 }

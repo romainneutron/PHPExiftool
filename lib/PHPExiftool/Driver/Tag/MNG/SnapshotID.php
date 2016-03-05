@@ -39,5 +39,4 @@ class SnapshotID extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Snapshot ID';
-
 }

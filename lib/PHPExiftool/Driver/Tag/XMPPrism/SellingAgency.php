@@ -41,5 +41,4 @@ class SellingAgency extends AbstractTag
     protected $Description = 'Selling Agency';
 
     protected $flag_Avoid = true;
-
 }

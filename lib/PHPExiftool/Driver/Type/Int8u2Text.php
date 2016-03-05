@@ -19,5 +19,4 @@ class Int8u2Text extends AbstractType
     protected $ExiftoolName = 'Int8u2Text';
 
     protected $PHPMap = 'int';
-
 }

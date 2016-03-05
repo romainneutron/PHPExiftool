@@ -39,5 +39,4 @@ class SpectroscopyOutOfPlanePhaseSteps extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Spectroscopy Out Of Plane Phase Steps';
-
 }

@@ -41,5 +41,4 @@ class SlaveFlashMeteringSegments extends AbstractTag
     protected $Description = 'Slave Flash Metering Segments';
 
     protected $flag_Permanent = true;
-
 }

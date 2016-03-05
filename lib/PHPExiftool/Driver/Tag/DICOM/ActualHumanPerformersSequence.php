@@ -39,5 +39,4 @@ class ActualHumanPerformersSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Actual Human Performers Sequence';
-
 }

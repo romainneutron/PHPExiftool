@@ -39,5 +39,4 @@ class Label1 extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Label 1';
-
 }

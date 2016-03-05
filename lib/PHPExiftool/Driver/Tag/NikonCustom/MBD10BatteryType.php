@@ -60,5 +60,4 @@ class MBD10BatteryType extends AbstractTag
             'Label' => 'ZR6 (AA Ni-Mn)',
         ),
     );
-
 }

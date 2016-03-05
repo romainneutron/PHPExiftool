@@ -39,5 +39,4 @@ class ParallelReductionFactSecondInPlane extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Parallel Reduction Fact Second In Plane';
-
 }

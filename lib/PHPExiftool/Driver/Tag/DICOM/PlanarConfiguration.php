@@ -39,5 +39,4 @@ class PlanarConfiguration extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Planar Configuration';
-
 }

@@ -64,5 +64,4 @@ class AFIlluminator extends AbstractTag
             'Label' => 'n/a',
         ),
     );
-
 }

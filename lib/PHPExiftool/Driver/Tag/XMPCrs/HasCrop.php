@@ -39,5 +39,4 @@ class HasCrop extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Has Crop';
-
 }

@@ -41,5 +41,4 @@ class BookEdition extends AbstractTag
     protected $Description = 'Book Edition';
 
     protected $flag_Avoid = true;
-
 }

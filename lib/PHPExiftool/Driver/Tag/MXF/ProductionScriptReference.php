@@ -39,5 +39,4 @@ class ProductionScriptReference extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Production Script Reference';
-
 }

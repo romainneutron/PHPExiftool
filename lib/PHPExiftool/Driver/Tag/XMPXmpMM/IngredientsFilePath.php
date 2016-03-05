@@ -41,5 +41,4 @@ class IngredientsFilePath extends AbstractTag
     protected $Description = 'Ingredients File Path';
 
     protected $flag_List = true;
-
 }

@@ -39,5 +39,4 @@ class ClassificationSets extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Classification Sets';
-
 }

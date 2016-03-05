@@ -52,5 +52,4 @@ class ContrastDetectAF extends AbstractTag
             'Label' => 'On',
         ),
     );
-
 }

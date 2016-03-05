@@ -76,5 +76,4 @@ class ProfileClass extends AbstractTag
             'Label' => 'ColorSpace Conversion Profile',
         ),
     );
-
 }

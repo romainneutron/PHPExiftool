@@ -46,5 +46,4 @@ class SceneType extends AbstractTag
             'Label' => 'Directly photographed',
         ),
     );
-
 }

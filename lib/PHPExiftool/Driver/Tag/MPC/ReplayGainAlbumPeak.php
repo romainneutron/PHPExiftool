@@ -39,5 +39,4 @@ class ReplayGainAlbumPeak extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Replay Gain Album Peak';
-
 }

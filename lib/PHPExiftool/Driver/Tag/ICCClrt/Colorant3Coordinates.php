@@ -41,5 +41,4 @@ class Colorant3Coordinates extends AbstractTag
     protected $Description = 'Colorant 3 Coordinates';
 
     protected $MaxLength = 3;
-
 }

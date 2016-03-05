@@ -41,5 +41,4 @@ class OldXMP extends AbstractTag
     protected $Description = 'Old XMP';
 
     protected $flag_Binary = true;
-
 }

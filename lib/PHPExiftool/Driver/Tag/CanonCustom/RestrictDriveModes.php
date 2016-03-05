@@ -54,5 +54,4 @@ class RestrictDriveModes extends AbstractTag
             'Label' => 'Enable',
         ),
     );
-
 }

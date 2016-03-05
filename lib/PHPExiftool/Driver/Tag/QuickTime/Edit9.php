@@ -39,5 +39,4 @@ class Edit9 extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Edit 9';
-
 }

@@ -41,5 +41,4 @@ class ItemLocation extends AbstractTag
     protected $Description = 'Item Location';
 
     protected $flag_Binary = true;
-
 }

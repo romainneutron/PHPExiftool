@@ -39,5 +39,4 @@ class LocalTagValue extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Local Tag Value';
-
 }

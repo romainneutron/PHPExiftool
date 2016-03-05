@@ -39,5 +39,4 @@ class DVHMeanDose extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'DVH Mean Dose';
-
 }

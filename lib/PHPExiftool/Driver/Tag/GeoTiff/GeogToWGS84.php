@@ -39,5 +39,4 @@ class GeogToWGS84 extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Geog To WGS84';
-
 }

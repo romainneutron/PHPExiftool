@@ -39,5 +39,4 @@ class RequestedMediaApplicationProfile extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Requested Media Application Profile';
-
 }

@@ -41,5 +41,4 @@ class ColorTempTungsten extends AbstractTag
     protected $Description = 'Color Temp Tungsten';
 
     protected $flag_Permanent = true;
-
 }

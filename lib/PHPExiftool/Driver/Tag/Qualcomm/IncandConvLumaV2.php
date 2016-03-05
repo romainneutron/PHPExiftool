@@ -41,5 +41,4 @@ class IncandConvLumaV2 extends AbstractTag
     protected $Description = 'Incand Conv Luma V2';
 
     protected $flag_Permanent = true;
-
 }

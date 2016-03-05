@@ -39,5 +39,4 @@ class SynchronizedScrollingSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Synchronized Scrolling Sequence';
-
 }

@@ -41,5 +41,4 @@ class RowsPerStrip extends AbstractTag
     protected $Description = 'Rows Per Strip';
 
     protected $flag_Unsafe = true;
-
 }

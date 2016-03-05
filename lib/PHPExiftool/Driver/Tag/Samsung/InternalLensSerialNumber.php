@@ -41,5 +41,4 @@ class InternalLensSerialNumber extends AbstractTag
     protected $Description = 'Internal Lens Serial Number';
 
     protected $flag_Permanent = true;
-
 }

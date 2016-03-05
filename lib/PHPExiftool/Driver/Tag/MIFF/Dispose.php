@@ -39,5 +39,4 @@ class Dispose extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Dispose';
-
 }

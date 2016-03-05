@@ -56,5 +56,4 @@ class AFAreaIllumination extends AbstractTag
             'Label' => 'Off',
         ),
     );
-
 }

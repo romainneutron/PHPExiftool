@@ -41,5 +41,4 @@ class Hue extends AbstractTag
     protected $Description = 'Hue';
 
     protected $flag_Permanent = true;
-
 }

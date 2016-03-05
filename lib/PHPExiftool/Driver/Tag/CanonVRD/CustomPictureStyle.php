@@ -39,5 +39,4 @@ class CustomPictureStyle extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Custom Picture Style';
-
 }

@@ -39,5 +39,4 @@ class PaintSameOval extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Paint Same Oval';
-
 }

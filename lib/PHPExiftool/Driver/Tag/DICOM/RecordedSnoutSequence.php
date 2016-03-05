@@ -39,5 +39,4 @@ class RecordedSnoutSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Recorded Snout Sequence';
-
 }

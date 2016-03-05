@@ -39,5 +39,4 @@ class BroadcastDate extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Broadcast Date';
-
 }

@@ -39,5 +39,4 @@ class ParameterPointer extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Parameter Pointer';
-
 }

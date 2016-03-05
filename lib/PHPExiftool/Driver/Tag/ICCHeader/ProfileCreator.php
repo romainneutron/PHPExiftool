@@ -41,5 +41,4 @@ class ProfileCreator extends AbstractTag
     protected $Description = 'Profile Creator';
 
     protected $MaxLength = 4;
-
 }

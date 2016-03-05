@@ -39,5 +39,4 @@ class FluoroscopyFlag extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Fluoroscopy Flag';
-
 }

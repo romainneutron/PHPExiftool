@@ -39,5 +39,4 @@ class EventStartTimeOffset extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Event Start Time Offset';
-
 }

@@ -41,5 +41,4 @@ class LicensorCountry extends AbstractTag
     protected $Description = 'Licensor Country';
 
     protected $flag_List = true;
-
 }

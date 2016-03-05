@@ -41,5 +41,4 @@ class AWBAlgorithm extends AbstractTag
     protected $Description = 'AWB Algorithm';
 
     protected $flag_Permanent = true;
-
 }

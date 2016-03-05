@@ -39,5 +39,4 @@ class DoseReferenceNumber extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Dose Reference Number';
-
 }

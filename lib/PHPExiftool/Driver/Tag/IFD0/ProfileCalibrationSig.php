@@ -41,5 +41,4 @@ class ProfileCalibrationSig extends AbstractTag
     protected $Description = 'Profile Calibration Sig';
 
     protected $flag_Unsafe = true;
-
 }

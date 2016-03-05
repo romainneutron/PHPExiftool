@@ -41,5 +41,4 @@ class PF9ChangeBracketSequence extends AbstractTag
     protected $Description = 'PF9 Change Bracket Sequence';
 
     protected $flag_Permanent = true;
-
 }

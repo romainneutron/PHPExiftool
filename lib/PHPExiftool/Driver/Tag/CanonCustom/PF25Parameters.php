@@ -41,5 +41,4 @@ class PF25Parameters extends AbstractTag
     protected $Description = 'PF25 Parameters';
 
     protected $flag_Permanent = true;
-
 }

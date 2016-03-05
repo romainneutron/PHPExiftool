@@ -39,5 +39,4 @@ class FrameNumbersOfInterest extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Frame Numbers Of Interest';
-
 }

@@ -39,5 +39,4 @@ class SpecimenShortDescription extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Specimen Short Description';
-
 }

@@ -41,5 +41,4 @@ class CompressorName extends AbstractTag
     protected $Description = 'Compressor Name';
 
     protected $MaxLength = 32;
-
 }

@@ -39,5 +39,4 @@ class Producer extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Producer';
-
 }

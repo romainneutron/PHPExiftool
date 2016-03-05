@@ -62,5 +62,4 @@ class SceneCaptureType extends AbstractTag
             'Label' => 'Night',
         ),
     );
-
 }

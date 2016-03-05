@@ -39,5 +39,4 @@ class TapeBatchNumber extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Tape Batch Number';
-
 }

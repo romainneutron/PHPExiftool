@@ -39,5 +39,4 @@ class Focus extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Focus';
-
 }

@@ -41,5 +41,4 @@ class XPDIPXML extends AbstractTag
     protected $Description = 'XP DIP XML';
 
     protected $local_g1 = 'ExifIFD';
-
 }

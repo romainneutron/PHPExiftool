@@ -50,5 +50,4 @@ class HyperlinksChanged extends AbstractTag
             'Label' => 'Yes',
         ),
     );
-
 }

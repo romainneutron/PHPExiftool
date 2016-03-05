@@ -68,5 +68,4 @@ class ReleaseMode extends AbstractTag
             'Label' => 'n/a',
         ),
     );
-
 }

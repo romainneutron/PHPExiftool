@@ -39,5 +39,4 @@ class CompressionRecognitionCode extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Compression Recognition Code';
-
 }

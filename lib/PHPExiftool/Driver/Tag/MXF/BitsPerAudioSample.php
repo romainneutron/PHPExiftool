@@ -41,5 +41,4 @@ class BitsPerAudioSample extends AbstractTag
     protected $Description = 'Bits Per Audio Sample';
 
     protected $local_g2 = 'Audio';
-
 }

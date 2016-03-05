@@ -41,5 +41,4 @@ class LensSerialNumber extends AbstractTag
     protected $Description = 'Lens Serial Number';
 
     protected $local_g1 = 'ExifIFD';
-
 }

@@ -39,5 +39,4 @@ class SeriesFromWhichPrescribed extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Series From Which Prescribed';
-
 }

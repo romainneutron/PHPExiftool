@@ -39,5 +39,4 @@ class InterventionDrugName extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Intervention Drug Name';
-
 }

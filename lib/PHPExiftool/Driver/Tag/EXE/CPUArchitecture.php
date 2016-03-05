@@ -60,5 +60,4 @@ class CPUArchitecture extends AbstractTag
     );
 
     protected $MaxLength = 'mixed';
-
 }

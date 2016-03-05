@@ -41,5 +41,4 @@ class LinearizationCoefficients1 extends AbstractTag
     protected $Description = 'Linearization Coefficients 1';
 
     protected $flag_Permanent = true;
-
 }

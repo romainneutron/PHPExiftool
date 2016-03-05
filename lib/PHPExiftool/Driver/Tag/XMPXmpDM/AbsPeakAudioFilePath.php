@@ -39,5 +39,4 @@ class AbsPeakAudioFilePath extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Abs Peak Audio File Path';
-
 }

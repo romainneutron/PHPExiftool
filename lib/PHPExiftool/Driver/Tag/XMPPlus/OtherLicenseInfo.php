@@ -39,5 +39,4 @@ class OtherLicenseInfo extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Other License Info';
-
 }

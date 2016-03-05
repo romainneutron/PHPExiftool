@@ -66,5 +66,4 @@ class AudioChannelType extends AbstractTag
             'Label' => 'Stereo',
         ),
     );
-
 }

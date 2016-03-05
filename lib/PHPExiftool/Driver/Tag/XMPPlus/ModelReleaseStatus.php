@@ -58,5 +58,4 @@ class ModelReleaseStatus extends AbstractTag
             'Label' => 'Unlimited Model Releases',
         ),
     );
-
 }

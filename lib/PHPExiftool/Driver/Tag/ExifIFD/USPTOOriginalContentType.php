@@ -56,5 +56,4 @@ class USPTOOriginalContentType extends AbstractTag
             'Label' => 'Color',
         ),
     );
-
 }

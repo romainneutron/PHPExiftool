@@ -41,5 +41,4 @@ class AudioDeviceKind extends AbstractTag
     protected $Description = 'Audio Device Kind';
 
     protected $local_g2 = 'Audio';
-
 }

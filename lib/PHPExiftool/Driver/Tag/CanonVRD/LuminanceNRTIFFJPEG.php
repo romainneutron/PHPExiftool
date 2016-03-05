@@ -39,5 +39,4 @@ class LuminanceNRTIFFJPEG extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Luminance NR TIFF JPEG';
-
 }

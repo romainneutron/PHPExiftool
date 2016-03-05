@@ -39,5 +39,4 @@ class Sync07 extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Sync 07';
-
 }

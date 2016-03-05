@@ -39,5 +39,4 @@ class RegisterAdministrationObject extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Register Administration Object';
-
 }

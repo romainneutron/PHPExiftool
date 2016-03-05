@@ -39,5 +39,4 @@ class VectorDimensionality extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Vector Dimensionality';
-
 }

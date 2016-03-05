@@ -39,5 +39,4 @@ class CostumeDesigner extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Costume Designer';
-
 }

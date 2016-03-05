@@ -39,5 +39,4 @@ class TaggingDelay extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Tagging Delay';
-
 }

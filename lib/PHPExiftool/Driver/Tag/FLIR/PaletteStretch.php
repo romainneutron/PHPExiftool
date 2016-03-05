@@ -39,5 +39,4 @@ class PaletteStretch extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Palette Stretch';
-
 }

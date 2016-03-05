@@ -39,5 +39,4 @@ class MaxBand extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Max Band';
-
 }

@@ -41,5 +41,4 @@ class ASF3EdgeFilterA32 extends AbstractTag
     protected $Description = 'ASF3 Edge Filter A32';
 
     protected $flag_Permanent = true;
-
 }

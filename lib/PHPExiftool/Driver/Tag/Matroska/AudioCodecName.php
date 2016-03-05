@@ -41,5 +41,4 @@ class AudioCodecName extends AbstractTag
     protected $Description = 'Audio Codec Name';
 
     protected $Index = 1;
-
 }

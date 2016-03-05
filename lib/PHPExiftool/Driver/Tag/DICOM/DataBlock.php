@@ -39,5 +39,4 @@ class DataBlock extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Data Block';
-
 }

@@ -19,5 +19,4 @@ class Float0 extends AbstractType
     protected $ExiftoolName = 'float';
 
     protected $PHPMap = 'float';
-
 }

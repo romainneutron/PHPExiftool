@@ -41,5 +41,4 @@ class ImageWidth extends AbstractTag
     protected $Description = 'Image Width';
 
     protected $flag_Permanent = true;
-
 }

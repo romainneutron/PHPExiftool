@@ -39,5 +39,4 @@ class ShowGrayscaleInverted extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Show Grayscale Inverted';
-
 }

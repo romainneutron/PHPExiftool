@@ -39,5 +39,4 @@ class AvgOverrangesAllViews extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Avg Overranges All Views';
-
 }

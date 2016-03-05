@@ -43,5 +43,4 @@ class PeakSpectralSensitivity extends AbstractTag
     protected $local_g1 = 'FLIR';
 
     protected $local_g2 = 'Camera';
-
 }

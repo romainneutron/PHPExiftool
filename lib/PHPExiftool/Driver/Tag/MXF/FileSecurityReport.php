@@ -39,5 +39,4 @@ class FileSecurityReport extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'File Security Report';
-
 }

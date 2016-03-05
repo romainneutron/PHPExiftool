@@ -39,5 +39,4 @@ class ImageSetNumber extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Image Set Number';
-
 }

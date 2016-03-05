@@ -39,5 +39,4 @@ class GrayMixerGreen extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Gray Mixer Green';
-
 }

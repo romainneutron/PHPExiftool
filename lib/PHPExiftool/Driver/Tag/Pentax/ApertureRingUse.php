@@ -52,5 +52,4 @@ class ApertureRingUse extends AbstractTag
             'Label' => 'Permitted',
         ),
     );
-
 }

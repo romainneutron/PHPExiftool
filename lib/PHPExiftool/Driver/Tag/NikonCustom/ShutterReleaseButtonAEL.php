@@ -84,5 +84,4 @@ class ShutterReleaseButtonAEL extends AbstractTag
             'Label' => 'On',
         ),
     );
-
 }

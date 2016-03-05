@@ -39,5 +39,4 @@ class XPTitle extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'XP Title';
-
 }

@@ -52,5 +52,4 @@ class PeripheralIlluminationCorr extends AbstractTag
             'Label' => 'On',
         ),
     );
-
 }

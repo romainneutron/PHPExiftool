@@ -41,5 +41,4 @@ class AudioDelay extends AbstractTag
     protected $Description = 'Audio Delay';
 
     protected $local_g2 = 'Audio';
-
 }

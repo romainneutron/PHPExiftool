@@ -54,5 +54,4 @@ class ColorTransform extends AbstractTag
             'Label' => 'YCCK',
         ),
     );
-
 }

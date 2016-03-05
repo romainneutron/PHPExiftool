@@ -39,5 +39,4 @@ class ObjectAreaDimension extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Object Area Dimension';
-
 }

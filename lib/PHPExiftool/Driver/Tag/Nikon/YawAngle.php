@@ -41,5 +41,4 @@ class YawAngle extends AbstractTag
     protected $Description = 'Yaw Angle';
 
     protected $flag_Permanent = true;
-
 }

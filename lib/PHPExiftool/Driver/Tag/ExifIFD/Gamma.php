@@ -41,5 +41,4 @@ class Gamma extends AbstractTag
     protected $Description = 'Gamma';
 
     protected $local_g1 = 'ExifIFD';
-
 }

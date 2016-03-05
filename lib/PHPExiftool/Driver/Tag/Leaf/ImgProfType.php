@@ -39,5 +39,4 @@ class ImgProfType extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Img Prof Type';
-
 }

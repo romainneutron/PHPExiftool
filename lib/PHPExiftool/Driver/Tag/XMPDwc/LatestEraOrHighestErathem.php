@@ -39,5 +39,4 @@ class LatestEraOrHighestErathem extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Latest Era Or Highest Erathem';
-
 }

@@ -41,5 +41,4 @@ class PanoramaSourceWidth extends AbstractTag
     protected $Description = 'Panorama Source Width';
 
     protected $flag_Permanent = true;
-
 }

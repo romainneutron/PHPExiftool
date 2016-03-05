@@ -41,5 +41,4 @@ class LensFStops extends AbstractTag
     protected $Description = 'Lens F Stops';
 
     protected $flag_Permanent = true;
-
 }

@@ -39,5 +39,4 @@ class UncompressedSize extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Uncompressed Size';
-
 }

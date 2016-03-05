@@ -39,5 +39,4 @@ class AngioFlag extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Angio Flag';
-
 }

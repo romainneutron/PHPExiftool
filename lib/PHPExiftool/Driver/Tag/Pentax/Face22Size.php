@@ -43,5 +43,4 @@ class Face22Size extends AbstractTag
     protected $flag_Permanent = true;
 
     protected $MaxLength = 2;
-
 }

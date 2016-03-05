@@ -39,5 +39,4 @@ class ContractTermsOfBusiness extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Contract Terms Of Business';
-
 }

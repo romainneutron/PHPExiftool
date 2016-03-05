@@ -39,5 +39,4 @@ class MemoryAllocation extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Memory Allocation';
-
 }

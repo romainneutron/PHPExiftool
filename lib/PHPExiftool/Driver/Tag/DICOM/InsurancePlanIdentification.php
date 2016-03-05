@@ -39,5 +39,4 @@ class InsurancePlanIdentification extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Insurance Plan Identification';
-
 }

@@ -39,5 +39,4 @@ class DoseValue extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Dose Value';
-
 }

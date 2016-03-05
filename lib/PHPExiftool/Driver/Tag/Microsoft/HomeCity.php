@@ -39,5 +39,4 @@ class HomeCity extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Home City';
-
 }

@@ -39,5 +39,4 @@ class ImageBoxNumber extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Image Box Number';
-
 }

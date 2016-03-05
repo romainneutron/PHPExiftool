@@ -50,5 +50,4 @@ class PixelRepresentation extends AbstractTag
             'Label' => 'Signed',
         ),
     );
-
 }

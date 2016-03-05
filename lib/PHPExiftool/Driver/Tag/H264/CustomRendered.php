@@ -52,5 +52,4 @@ class CustomRendered extends AbstractTag
             'Label' => 'Custom',
         ),
     );
-
 }

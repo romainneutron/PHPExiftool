@@ -39,5 +39,4 @@ class CleanApertureHeight extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Clean Aperture Height';
-
 }

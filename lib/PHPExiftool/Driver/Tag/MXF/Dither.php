@@ -41,5 +41,4 @@ class Dither extends AbstractTag
     protected $Description = 'Dither';
 
     protected $local_g2 = 'Audio';
-
 }

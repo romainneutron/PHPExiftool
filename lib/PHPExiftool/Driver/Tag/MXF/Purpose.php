@@ -39,5 +39,4 @@ class Purpose extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Purpose';
-
 }

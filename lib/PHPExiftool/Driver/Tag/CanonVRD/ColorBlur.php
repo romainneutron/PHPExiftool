@@ -50,5 +50,4 @@ class ColorBlur extends AbstractTag
             'Label' => 'Yes',
         ),
     );
-
 }

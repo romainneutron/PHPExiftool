@@ -39,5 +39,4 @@ class OriginalTHMCreator extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Original THM Creator';
-
 }

@@ -39,5 +39,4 @@ class RefGenPurSchedProcStepTransUID extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Ref Gen Pur Sched Proc Step Trans UID';
-
 }

@@ -41,5 +41,4 @@ class StripRowCounts extends AbstractTag
     protected $Description = 'Strip Row Counts';
 
     protected $local_g1 = 'ExifIFD';
-
 }

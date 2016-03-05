@@ -41,5 +41,4 @@ class PF20MaxContinousShots extends AbstractTag
     protected $Description = 'PF20 Max Continous Shots';
 
     protected $flag_Permanent = true;
-
 }

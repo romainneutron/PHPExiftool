@@ -39,5 +39,4 @@ class IterboneOptionFlag extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Iterbone Option Flag';
-
 }

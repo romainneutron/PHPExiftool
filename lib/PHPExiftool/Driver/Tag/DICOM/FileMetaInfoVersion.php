@@ -39,5 +39,4 @@ class FileMetaInfoVersion extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'File Meta Info Version';
-
 }

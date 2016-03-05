@@ -41,5 +41,4 @@ class TileWidth extends AbstractTag
     protected $Description = 'Tile Width';
 
     protected $flag_Unsafe = true;
-
 }

@@ -39,5 +39,4 @@ class PartialSyncSamples extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Partial Sync Samples';
-
 }

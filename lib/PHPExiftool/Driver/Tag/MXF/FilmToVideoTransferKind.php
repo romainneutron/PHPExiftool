@@ -39,5 +39,4 @@ class FilmToVideoTransferKind extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Film To Video Transfer Kind';
-
 }

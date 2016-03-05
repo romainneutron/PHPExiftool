@@ -41,5 +41,4 @@ class FlashExposureComp3 extends AbstractTag
     protected $Description = 'Flash Exposure Comp 3';
 
     protected $flag_Permanent = true;
-
 }

@@ -39,5 +39,4 @@ class SegmentFileName extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Segment File Name';
-
 }

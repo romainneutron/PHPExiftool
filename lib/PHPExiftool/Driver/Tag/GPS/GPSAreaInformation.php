@@ -39,5 +39,4 @@ class GPSAreaInformation extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'GPS Area Information';
-
 }

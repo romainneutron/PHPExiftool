@@ -41,5 +41,4 @@ class PaletteHistogram extends AbstractTag
     protected $Description = 'Palette Histogram';
 
     protected $flag_Binary = true;
-
 }

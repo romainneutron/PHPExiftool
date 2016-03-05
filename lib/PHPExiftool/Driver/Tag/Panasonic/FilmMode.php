@@ -84,5 +84,4 @@ class FilmMode extends AbstractTag
             'Label' => 'Vibrant',
         ),
     );
-
 }

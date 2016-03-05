@@ -41,5 +41,4 @@ class ThumbnailClip extends AbstractTag
     protected $Description = 'Thumbnail Clip';
 
     protected $flag_Binary = true;
-
 }

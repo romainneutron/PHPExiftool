@@ -39,5 +39,4 @@ class BeamLimitingDevicePositionTol extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Beam Limiting Device Position Tol';
-
 }

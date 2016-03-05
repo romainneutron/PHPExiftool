@@ -39,5 +39,4 @@ class DuotoneTransferFuncs extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Duotone Transfer Funcs';
-
 }

@@ -39,5 +39,4 @@ class TotalEditingTime extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Total Editing Time';
-
 }

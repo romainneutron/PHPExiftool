@@ -39,5 +39,4 @@ class SharpenEdgeMasking extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Sharpen Edge Masking';
-
 }

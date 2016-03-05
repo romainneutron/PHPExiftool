@@ -39,5 +39,4 @@ class StudyCompletionTime extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Study Completion Time';
-
 }

@@ -39,5 +39,4 @@ class FujiLayout extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Fuji Layout';
-
 }

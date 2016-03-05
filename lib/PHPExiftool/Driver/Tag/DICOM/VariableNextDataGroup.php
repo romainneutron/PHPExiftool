@@ -39,5 +39,4 @@ class VariableNextDataGroup extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Variable Next Data Group';
-
 }

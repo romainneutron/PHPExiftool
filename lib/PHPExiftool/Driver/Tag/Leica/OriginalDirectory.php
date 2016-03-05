@@ -41,5 +41,4 @@ class OriginalDirectory extends AbstractTag
     protected $Description = 'Original Directory';
 
     protected $flag_Permanent = true;
-
 }

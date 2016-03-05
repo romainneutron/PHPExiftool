@@ -39,5 +39,4 @@ class ShadowAdj extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Shadow Adj';
-
 }

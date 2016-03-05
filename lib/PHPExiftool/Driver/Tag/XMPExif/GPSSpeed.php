@@ -41,5 +41,4 @@ class GPSSpeed extends AbstractTag
     protected $Description = 'GPS Speed';
 
     protected $local_g2 = 'Location';
-
 }

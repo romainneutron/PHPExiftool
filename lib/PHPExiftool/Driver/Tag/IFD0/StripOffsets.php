@@ -39,5 +39,4 @@ class StripOffsets extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Strip Offsets';
-
 }

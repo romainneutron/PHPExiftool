@@ -39,5 +39,4 @@ class ReportedValuesOrigin extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Reported Values Origin';
-
 }

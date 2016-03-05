@@ -41,5 +41,4 @@ class VegasVersionMajor extends AbstractTag
     protected $Description = 'Vegas Version Major';
 
     protected $local_g2 = 'Video';
-
 }

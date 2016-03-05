@@ -39,5 +39,4 @@ class ViewCompressionFactor extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'View Compression Factor';
-
 }

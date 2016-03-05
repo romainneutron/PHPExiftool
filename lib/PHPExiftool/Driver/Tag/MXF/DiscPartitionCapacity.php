@@ -39,5 +39,4 @@ class DiscPartitionCapacity extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Disc Partition Capacity';
-
 }

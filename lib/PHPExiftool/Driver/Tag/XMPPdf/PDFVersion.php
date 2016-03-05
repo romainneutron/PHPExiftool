@@ -39,5 +39,4 @@ class PDFVersion extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'PDF Version';
-
 }

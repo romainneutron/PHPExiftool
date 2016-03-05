@@ -52,5 +52,4 @@ class Uncompressed extends AbstractTag
             'Label' => 'Yes',
         ),
     );
-
 }

@@ -39,5 +39,4 @@ class PatientOrientationModifierCodeSeq extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Patient Orientation Modifier Code Seq';
-
 }

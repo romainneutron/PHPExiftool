@@ -39,5 +39,4 @@ class ExternalTriggerCount extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'External Trigger Count';
-
 }

@@ -39,5 +39,4 @@ class ImageBoxLayoutType extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Image Box Layout Type';
-
 }

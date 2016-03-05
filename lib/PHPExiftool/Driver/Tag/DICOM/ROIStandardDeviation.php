@@ -39,5 +39,4 @@ class ROIStandardDeviation extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'ROI Standard Deviation';
-
 }

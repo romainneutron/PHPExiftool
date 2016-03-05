@@ -39,5 +39,4 @@ class PerceivedDisplayFormatName extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Perceived Display Format Name';
-
 }

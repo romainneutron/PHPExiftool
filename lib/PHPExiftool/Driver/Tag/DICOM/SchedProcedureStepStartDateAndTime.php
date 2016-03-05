@@ -39,5 +39,4 @@ class SchedProcedureStepStartDateAndTime extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Sched Procedure Step Start Date And Time';
-
 }

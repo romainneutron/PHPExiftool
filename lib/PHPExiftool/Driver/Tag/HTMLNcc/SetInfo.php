@@ -39,5 +39,4 @@ class SetInfo extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Set Info';
-
 }

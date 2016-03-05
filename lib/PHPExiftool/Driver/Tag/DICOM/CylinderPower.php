@@ -39,5 +39,4 @@ class CylinderPower extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Cylinder Power';
-
 }

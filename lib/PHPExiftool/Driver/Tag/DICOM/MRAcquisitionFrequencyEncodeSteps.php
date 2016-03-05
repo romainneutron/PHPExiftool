@@ -39,5 +39,4 @@ class MRAcquisitionFrequencyEncodeSteps extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'MR Acquisition Frequency Encode Steps';
-
 }

@@ -39,5 +39,4 @@ class SOPInstanceStatus extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'SOP Instance Status';
-
 }

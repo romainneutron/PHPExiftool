@@ -50,5 +50,4 @@ class ContentSignatureAlgorithm extends AbstractTag
             'Label' => 'RSA',
         ),
     );
-
 }

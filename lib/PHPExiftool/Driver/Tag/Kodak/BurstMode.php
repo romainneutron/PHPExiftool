@@ -52,5 +52,4 @@ class BurstMode extends AbstractTag
             'Label' => 'On',
         ),
     );
-
 }

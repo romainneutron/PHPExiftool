@@ -41,5 +41,4 @@ class AudioEnhancementOrModificationDescription extends AbstractTag
     protected $Description = 'Audio Enhancement Or Modification Description';
 
     protected $local_g2 = 'Audio';
-
 }

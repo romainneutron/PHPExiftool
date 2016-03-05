@@ -39,5 +39,4 @@ class NumberOfBBHChainsToBlend extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Number Of BBH Chains To Blend';
-
 }

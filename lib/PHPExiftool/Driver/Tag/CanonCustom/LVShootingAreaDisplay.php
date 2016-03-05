@@ -52,5 +52,4 @@ class LVShootingAreaDisplay extends AbstractTag
             'Label' => 'Outlined',
         ),
     );
-
 }

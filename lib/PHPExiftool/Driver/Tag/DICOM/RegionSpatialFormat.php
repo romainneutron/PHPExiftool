@@ -39,5 +39,4 @@ class RegionSpatialFormat extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Region Spatial Format';
-
 }

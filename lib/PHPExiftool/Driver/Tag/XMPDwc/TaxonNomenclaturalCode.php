@@ -39,5 +39,4 @@ class TaxonNomenclaturalCode extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Taxon Nomenclatural Code';
-
 }

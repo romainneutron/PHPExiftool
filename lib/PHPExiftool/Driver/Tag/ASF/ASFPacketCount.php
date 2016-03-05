@@ -39,5 +39,4 @@ class ASFPacketCount extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'ASF Packet Count';
-
 }

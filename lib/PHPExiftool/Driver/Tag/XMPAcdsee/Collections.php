@@ -41,5 +41,4 @@ class Collections extends AbstractTag
     protected $Description = 'Collections';
 
     protected $flag_Avoid = true;
-
 }

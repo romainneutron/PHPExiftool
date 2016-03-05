@@ -39,5 +39,4 @@ class HasVideo extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Has Video';
-
 }

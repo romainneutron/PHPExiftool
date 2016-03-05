@@ -39,5 +39,4 @@ class Vary extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Vary';
-
 }

@@ -41,5 +41,4 @@ class SRFDataOffset extends AbstractTag
     protected $Description = 'SRF Data Offset';
 
     protected $flag_Permanent = true;
-
 }

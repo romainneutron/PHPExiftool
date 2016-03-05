@@ -39,5 +39,4 @@ class Npts extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Npts';
-
 }

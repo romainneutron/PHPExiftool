@@ -39,5 +39,4 @@ class AveragePulseWidth extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Average Pulse Width';
-
 }

@@ -43,5 +43,4 @@ class SerialNumber extends AbstractTag
     protected $local_g2 = 'Camera';
 
     protected $MaxLength = 16;
-
 }

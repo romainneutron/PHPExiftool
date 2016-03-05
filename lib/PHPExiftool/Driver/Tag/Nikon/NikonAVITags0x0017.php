@@ -41,5 +41,4 @@ class NikonAVITags0x0017 extends AbstractTag
     protected $Description = 'Nikon AVI Tags 0x0017';
 
     protected $flag_Permanent = true;
-
 }

@@ -41,5 +41,4 @@ class MinApertureValue extends AbstractTag
     protected $Description = 'Min Aperture Value';
 
     protected $flag_Permanent = true;
-
 }

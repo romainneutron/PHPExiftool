@@ -39,5 +39,4 @@ class ClipKind extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Clip Kind';
-
 }

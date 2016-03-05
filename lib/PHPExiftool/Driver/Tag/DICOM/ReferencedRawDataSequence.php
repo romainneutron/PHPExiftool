@@ -39,5 +39,4 @@ class ReferencedRawDataSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Referenced Raw Data Sequence';
-
 }

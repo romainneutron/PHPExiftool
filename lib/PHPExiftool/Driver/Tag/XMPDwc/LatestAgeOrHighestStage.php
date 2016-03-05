@@ -39,5 +39,4 @@ class LatestAgeOrHighestStage extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Latest Age Or Highest Stage';
-
 }

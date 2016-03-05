@@ -39,5 +39,4 @@ class ANCWrappingType extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'ANC Wrapping Type';
-
 }

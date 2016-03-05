@@ -39,5 +39,4 @@ class MinDensity extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Min Density';
-
 }

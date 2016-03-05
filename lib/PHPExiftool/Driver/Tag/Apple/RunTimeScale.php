@@ -41,5 +41,4 @@ class RunTimeScale extends AbstractTag
     protected $Description = 'Run Time Scale';
 
     protected $flag_Permanent = true;
-
 }

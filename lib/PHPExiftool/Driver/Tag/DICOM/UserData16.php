@@ -39,5 +39,4 @@ class UserData16 extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'User Data 16';
-
 }

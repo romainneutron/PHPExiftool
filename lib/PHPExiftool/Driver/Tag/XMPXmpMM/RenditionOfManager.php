@@ -39,5 +39,4 @@ class RenditionOfManager extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Rendition Of Manager';
-
 }

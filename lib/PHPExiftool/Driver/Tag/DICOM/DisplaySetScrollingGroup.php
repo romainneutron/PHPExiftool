@@ -39,5 +39,4 @@ class DisplaySetScrollingGroup extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Display Set Scrolling Group';
-
 }

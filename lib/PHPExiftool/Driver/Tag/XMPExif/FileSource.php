@@ -54,5 +54,4 @@ class FileSource extends AbstractTag
             'Label' => 'Digital Camera',
         ),
     );
-
 }

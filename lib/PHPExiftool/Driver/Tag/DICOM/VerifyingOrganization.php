@@ -39,5 +39,4 @@ class VerifyingOrganization extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Verifying Organization';
-
 }

@@ -39,5 +39,4 @@ class MaterialID extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Material ID';
-
 }

@@ -39,5 +39,4 @@ class PatientOrientationInFrameSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Patient Orientation In Frame Sequence';
-
 }

@@ -39,5 +39,4 @@ class NominalFrameCount extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Nominal Frame Count';
-
 }

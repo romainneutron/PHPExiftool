@@ -41,5 +41,4 @@ class DateTimeStart extends AbstractTag
     protected $Description = 'Date Time Start';
 
     protected $local_g2 = 'Time';
-
 }

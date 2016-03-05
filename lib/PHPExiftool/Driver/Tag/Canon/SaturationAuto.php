@@ -48,5 +48,4 @@ class SaturationAuto extends AbstractTag
             'Label' => 'n/a',
         ),
     );
-
 }

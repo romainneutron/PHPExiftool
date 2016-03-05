@@ -39,5 +39,4 @@ class Illumination extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Illumination';
-
 }

@@ -39,5 +39,4 @@ class RelatedRTROIObservationsSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Related RTROI Observations Sequence';
-
 }

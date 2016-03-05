@@ -68,5 +68,4 @@ class NikonImageSize extends AbstractTag
             'Label' => 'Small (2.5 M)',
         ),
     );
-
 }

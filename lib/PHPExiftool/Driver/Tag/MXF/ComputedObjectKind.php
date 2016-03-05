@@ -39,5 +39,4 @@ class ComputedObjectKind extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Computed Object Kind';
-
 }

@@ -39,5 +39,4 @@ class EditUnitFlags extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Edit Unit Flags';
-
 }

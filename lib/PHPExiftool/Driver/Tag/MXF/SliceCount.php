@@ -39,5 +39,4 @@ class SliceCount extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Slice Count';
-
 }

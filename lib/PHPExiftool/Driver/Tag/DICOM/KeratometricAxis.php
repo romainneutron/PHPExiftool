@@ -39,5 +39,4 @@ class KeratometricAxis extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Keratometric Axis';
-
 }

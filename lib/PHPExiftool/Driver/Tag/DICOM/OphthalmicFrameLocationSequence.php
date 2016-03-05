@@ -39,5 +39,4 @@ class OphthalmicFrameLocationSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Ophthalmic Frame Location Sequence';
-
 }

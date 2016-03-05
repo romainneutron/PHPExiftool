@@ -88,5 +88,4 @@ class FlashMode extends AbstractTag
             'Label' => 'Red-Eye',
         ),
     );
-
 }

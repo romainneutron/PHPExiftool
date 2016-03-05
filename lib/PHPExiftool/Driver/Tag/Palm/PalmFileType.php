@@ -156,5 +156,4 @@ class PalmFileType extends AbstractTag
             'Label' => 'Weasel',
         ),
     );
-
 }

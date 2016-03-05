@@ -39,5 +39,4 @@ class LastNumberInSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Last Number In Sequence';
-
 }

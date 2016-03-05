@@ -39,5 +39,4 @@ class EssenceLength extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Essence Length';
-
 }

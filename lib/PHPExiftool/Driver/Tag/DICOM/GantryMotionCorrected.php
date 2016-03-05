@@ -39,5 +39,4 @@ class GantryMotionCorrected extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Gantry Motion Corrected';
-
 }

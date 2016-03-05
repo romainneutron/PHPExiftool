@@ -39,5 +39,4 @@ class EventTrackEditRate extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Event Track Edit Rate';
-
 }

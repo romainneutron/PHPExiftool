@@ -41,5 +41,4 @@ class PhaseOne0x025a extends AbstractTag
     protected $Description = 'Phase One 0x025a';
 
     protected $flag_Permanent = true;
-
 }

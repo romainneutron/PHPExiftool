@@ -41,5 +41,4 @@ class StartTimecode extends AbstractTag
     protected $Description = 'Start Timecode';
 
     protected $local_g2 = 'Video';
-
 }

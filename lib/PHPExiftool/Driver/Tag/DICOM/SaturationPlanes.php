@@ -39,5 +39,4 @@ class SaturationPlanes extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Saturation Planes';
-
 }

@@ -39,5 +39,4 @@ class ShootObjName extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Shoot Obj Name';
-
 }

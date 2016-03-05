@@ -41,5 +41,4 @@ class TextColor extends AbstractTag
     protected $Description = 'Text Color';
 
     protected $MaxLength = 3;
-
 }

@@ -39,5 +39,4 @@ class VelocityEncodingMinimumValue extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Velocity Encoding Minimum Value';
-
 }

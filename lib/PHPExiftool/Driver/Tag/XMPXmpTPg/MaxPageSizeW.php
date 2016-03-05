@@ -39,5 +39,4 @@ class MaxPageSizeW extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Max Page Size W';
-
 }

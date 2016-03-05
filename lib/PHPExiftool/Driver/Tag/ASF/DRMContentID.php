@@ -39,5 +39,4 @@ class DRMContentID extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'DRM Content ID';
-
 }

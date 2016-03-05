@@ -43,5 +43,4 @@ class CreationDate extends AbstractTag
     protected $local_g2 = 'Time';
 
     protected $flag_Avoid = true;
-
 }

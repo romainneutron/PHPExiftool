@@ -41,5 +41,4 @@ class HasAudio extends AbstractTag
     protected $Description = 'Has Audio';
 
     protected $local_g2 = 'Audio';
-
 }

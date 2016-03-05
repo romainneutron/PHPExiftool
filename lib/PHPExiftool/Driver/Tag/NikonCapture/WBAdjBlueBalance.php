@@ -41,5 +41,4 @@ class WBAdjBlueBalance extends AbstractTag
     protected $Description = 'WB Adj Blue Balance';
 
     protected $flag_Permanent = true;
-
 }

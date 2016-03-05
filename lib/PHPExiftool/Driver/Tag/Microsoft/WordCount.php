@@ -39,5 +39,4 @@ class WordCount extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Word Count';
-
 }

@@ -39,5 +39,4 @@ class CaptProfBackType extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Capt Prof Back Type';
-
 }

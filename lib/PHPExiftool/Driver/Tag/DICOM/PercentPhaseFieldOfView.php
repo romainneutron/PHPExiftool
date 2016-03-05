@@ -39,5 +39,4 @@ class PercentPhaseFieldOfView extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Percent Phase Field Of View';
-
 }

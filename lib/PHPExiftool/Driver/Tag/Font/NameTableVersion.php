@@ -39,5 +39,4 @@ class NameTableVersion extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Name Table Version';
-
 }

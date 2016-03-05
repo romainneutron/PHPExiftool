@@ -39,5 +39,4 @@ class VBEEndOffset extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'VBE End Offset';
-
 }

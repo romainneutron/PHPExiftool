@@ -41,5 +41,4 @@ class HalftoneHints extends AbstractTag
     protected $Description = 'Halftone Hints';
 
     protected $MaxLength = 2;
-
 }

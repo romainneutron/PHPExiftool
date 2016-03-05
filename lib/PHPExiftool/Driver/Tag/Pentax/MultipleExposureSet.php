@@ -52,5 +52,4 @@ class MultipleExposureSet extends AbstractTag
             'Label' => 'On',
         ),
     );
-
 }

@@ -130,5 +130,4 @@ class WhiteBalance extends AbstractTag
     );
 
     protected $Index = 'mixed';
-
 }

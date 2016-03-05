@@ -39,5 +39,4 @@ class ElementaryStreamTrack extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Elementary Stream Track';
-
 }

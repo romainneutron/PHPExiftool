@@ -41,5 +41,4 @@ class GammaCurveOutputRange extends AbstractTag
     protected $Description = 'Gamma Curve Output Range';
 
     protected $MaxLength = 2;
-
 }

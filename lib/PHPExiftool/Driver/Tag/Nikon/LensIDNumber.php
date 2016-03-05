@@ -41,5 +41,4 @@ class LensIDNumber extends AbstractTag
     protected $Description = 'Lens ID Number';
 
     protected $flag_Permanent = true;
-
 }

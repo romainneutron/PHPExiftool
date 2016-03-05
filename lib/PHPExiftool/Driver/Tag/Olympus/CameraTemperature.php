@@ -41,5 +41,4 @@ class CameraTemperature extends AbstractTag
     protected $Description = 'Camera Temperature';
 
     protected $flag_Permanent = true;
-
 }

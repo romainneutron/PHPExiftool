@@ -39,5 +39,4 @@ class AudioCodecPrimeMethod extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Audio Codec Prime Method';
-
 }

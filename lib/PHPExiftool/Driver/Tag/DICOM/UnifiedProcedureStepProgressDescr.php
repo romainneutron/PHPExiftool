@@ -39,5 +39,4 @@ class UnifiedProcedureStepProgressDescr extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Unified Procedure Step Progress Descr';
-
 }

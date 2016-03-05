@@ -41,5 +41,4 @@ class WangTag4 extends AbstractTag
     protected $Description = 'Wang Tag 4';
 
     protected $local_g1 = 'ExifIFD';
-
 }

@@ -39,5 +39,4 @@ class VC1BPictureCount extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'VC-1B Picture Count';
-
 }

@@ -41,5 +41,4 @@ class CRC32 extends AbstractTag
     protected $Description = 'CRC-32';
 
     protected $flag_Binary = true;
-
 }

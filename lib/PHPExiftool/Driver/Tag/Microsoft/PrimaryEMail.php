@@ -39,5 +39,4 @@ class PrimaryEMail extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Primary E-mail';
-
 }

@@ -41,5 +41,4 @@ class BaselineExposure extends AbstractTag
     protected $Description = 'Baseline Exposure';
 
     protected $flag_Unsafe = true;
-
 }

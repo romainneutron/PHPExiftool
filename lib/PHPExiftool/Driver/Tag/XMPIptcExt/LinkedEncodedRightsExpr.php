@@ -41,5 +41,4 @@ class LinkedEncodedRightsExpr extends AbstractTag
     protected $Description = 'Linked Encoded Rights Expr';
 
     protected $flag_List = true;
-
 }

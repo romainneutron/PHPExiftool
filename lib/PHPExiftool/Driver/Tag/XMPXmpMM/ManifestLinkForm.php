@@ -41,5 +41,4 @@ class ManifestLinkForm extends AbstractTag
     protected $Description = 'Manifest Link Form';
 
     protected $flag_List = true;
-
 }

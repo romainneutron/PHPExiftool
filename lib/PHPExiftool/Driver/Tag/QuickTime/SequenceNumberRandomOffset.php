@@ -39,5 +39,4 @@ class SequenceNumberRandomOffset extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Sequence Number Random Offset';
-
 }

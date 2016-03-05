@@ -39,5 +39,4 @@ class ObjectCountryCode extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Object Country Code';
-
 }

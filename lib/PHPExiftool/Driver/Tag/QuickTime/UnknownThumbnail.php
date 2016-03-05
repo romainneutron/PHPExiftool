@@ -45,5 +45,4 @@ class UnknownThumbnail extends AbstractTag
     protected $flag_Binary = true;
 
     protected $Index = 4;
-
 }

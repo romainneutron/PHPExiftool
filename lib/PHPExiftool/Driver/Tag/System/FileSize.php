@@ -41,5 +41,4 @@ class FileSize extends AbstractTag
     protected $Description = 'File Size';
 
     protected $local_g1 = 'System';
-
 }

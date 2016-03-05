@@ -72,5 +72,4 @@ class FlashStatus extends AbstractTag
             'Label' => 'Internal, Fired',
         ),
     );
-
 }

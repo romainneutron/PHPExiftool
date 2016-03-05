@@ -39,5 +39,4 @@ class TVNetworkName extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'TV Network Name';
-
 }

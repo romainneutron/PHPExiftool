@@ -39,5 +39,4 @@ class ScanSpotTuneID extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Scan Spot Tune ID';
-
 }

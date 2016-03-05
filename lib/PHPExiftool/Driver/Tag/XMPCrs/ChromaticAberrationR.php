@@ -39,5 +39,4 @@ class ChromaticAberrationR extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Chromatic Aberration R';
-
 }

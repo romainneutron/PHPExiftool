@@ -52,5 +52,4 @@ class ImageType extends AbstractTag
             'Label' => 'Page',
         ),
     );
-
 }

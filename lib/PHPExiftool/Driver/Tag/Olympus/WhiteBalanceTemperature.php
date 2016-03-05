@@ -41,5 +41,4 @@ class WhiteBalanceTemperature extends AbstractTag
     protected $Description = 'White Balance Temperature';
 
     protected $flag_Permanent = true;
-
 }

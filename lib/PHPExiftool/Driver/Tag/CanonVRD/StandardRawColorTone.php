@@ -39,5 +39,4 @@ class StandardRawColorTone extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Standard Raw Color Tone';
-
 }

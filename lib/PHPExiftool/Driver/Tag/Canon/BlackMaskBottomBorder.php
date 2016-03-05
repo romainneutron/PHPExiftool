@@ -41,5 +41,4 @@ class BlackMaskBottomBorder extends AbstractTag
     protected $Description = 'Black Mask Bottom Border';
 
     protected $flag_Permanent = true;
-
 }

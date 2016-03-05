@@ -39,5 +39,4 @@ class NormalizationFactorFormat extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Normalization Factor Format';
-
 }

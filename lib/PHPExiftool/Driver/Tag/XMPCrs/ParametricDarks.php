@@ -39,5 +39,4 @@ class ParametricDarks extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Parametric Darks';
-
 }

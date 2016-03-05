@@ -39,5 +39,4 @@ class RedMatrixColumn extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Red Matrix Column';
-
 }

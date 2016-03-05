@@ -39,5 +39,4 @@ class ReferencedBeamSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Referenced Beam Sequence';
-
 }

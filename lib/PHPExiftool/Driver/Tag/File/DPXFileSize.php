@@ -39,5 +39,4 @@ class DPXFileSize extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'DPX File Size';
-
 }

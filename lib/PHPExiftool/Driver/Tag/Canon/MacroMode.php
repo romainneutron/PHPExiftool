@@ -52,5 +52,4 @@ class MacroMode extends AbstractTag
             'Label' => 'Normal',
         ),
     );
-
 }

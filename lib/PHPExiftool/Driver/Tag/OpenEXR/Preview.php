@@ -39,5 +39,4 @@ class Preview extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Preview';
-
 }

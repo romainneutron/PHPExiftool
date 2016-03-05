@@ -39,5 +39,4 @@ class SourceToCompensatorTrayDistance extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Source To Compensator Tray Distance';
-
 }

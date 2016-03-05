@@ -39,5 +39,4 @@ class ExtendedStreamProps extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Extended Stream Props';
-
 }

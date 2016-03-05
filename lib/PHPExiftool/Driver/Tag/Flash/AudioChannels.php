@@ -50,5 +50,4 @@ class AudioChannels extends AbstractTag
             'Label' => '2 (stereo)',
         ),
     );
-
 }

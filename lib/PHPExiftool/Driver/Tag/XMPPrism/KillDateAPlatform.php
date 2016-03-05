@@ -39,5 +39,4 @@ class KillDateAPlatform extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Kill Date A-platform';
-
 }

@@ -39,5 +39,4 @@ class CaptureObjVersion extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Capture Obj Version';
-
 }

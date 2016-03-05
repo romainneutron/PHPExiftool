@@ -41,5 +41,4 @@ class AsShotNeutral extends AbstractTag
     protected $Description = 'As Shot Neutral';
 
     protected $flag_Unsafe = true;
-
 }

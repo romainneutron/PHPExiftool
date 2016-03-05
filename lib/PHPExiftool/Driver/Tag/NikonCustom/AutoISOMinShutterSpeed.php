@@ -120,5 +120,4 @@ class AutoISOMinShutterSpeed extends AbstractTag
             'Label' => '1 s',
         ),
     );
-
 }

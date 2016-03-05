@@ -39,5 +39,4 @@ class StdHotFolder extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Std Hot Folder';
-
 }

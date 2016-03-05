@@ -39,5 +39,4 @@ class SpiralPitchFactor extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Spiral Pitch Factor';
-
 }

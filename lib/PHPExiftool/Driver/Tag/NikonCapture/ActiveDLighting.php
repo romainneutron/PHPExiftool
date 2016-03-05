@@ -52,5 +52,4 @@ class ActiveDLighting extends AbstractTag
             'Label' => 'On',
         ),
     );
-
 }

@@ -39,5 +39,4 @@ class RawCustomSaturation extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Raw Custom Saturation';
-
 }

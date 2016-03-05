@@ -1014,5 +1014,4 @@ class AudioCodecID extends AbstractTag
             'Label' => 'Development',
         ),
     );
-
 }

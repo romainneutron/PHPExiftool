@@ -39,5 +39,4 @@ class StreamMaxPacketSize extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Stream Max Packet Size';
-
 }

@@ -41,5 +41,4 @@ class MaxAperture extends AbstractTag
     protected $Description = 'Max Aperture';
 
     protected $flag_Permanent = true;
-
 }

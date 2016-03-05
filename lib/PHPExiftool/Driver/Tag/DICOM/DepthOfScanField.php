@@ -39,5 +39,4 @@ class DepthOfScanField extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Depth Of Scan Field';
-
 }

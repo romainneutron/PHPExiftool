@@ -86,5 +86,4 @@ class ChartFormat extends AbstractTag
             'Label' => 'Inset',
         ),
     );
-
 }

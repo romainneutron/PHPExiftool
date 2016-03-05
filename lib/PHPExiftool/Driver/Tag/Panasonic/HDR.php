@@ -72,5 +72,4 @@ class HDR extends AbstractTag
             'Label' => '3 EV (Auto)',
         ),
     );
-
 }

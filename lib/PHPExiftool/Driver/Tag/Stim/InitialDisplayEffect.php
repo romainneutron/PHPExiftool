@@ -50,5 +50,4 @@ class InitialDisplayEffect extends AbstractTag
             'Label' => 'On',
         ),
     );
-
 }

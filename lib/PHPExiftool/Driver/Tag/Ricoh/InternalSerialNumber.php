@@ -45,5 +45,4 @@ class InternalSerialNumber extends AbstractTag
     protected $MaxLength = 16;
 
     protected $Index = 1;
-
 }

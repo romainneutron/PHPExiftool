@@ -39,5 +39,4 @@ class AltTimecode extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Alt Timecode';
-
 }

@@ -39,5 +39,4 @@ class EncoderSettings extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Encoder Settings';
-
 }

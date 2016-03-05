@@ -52,5 +52,4 @@ class SRActive extends AbstractTag
             'Label' => 'Yes',
         ),
     );
-
 }

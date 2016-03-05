@@ -48,5 +48,4 @@ class EditorialUpdate extends AbstractTag
             'Label' => 'Additional language',
         ),
     );
-
 }

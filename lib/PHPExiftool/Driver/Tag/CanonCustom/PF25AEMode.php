@@ -41,5 +41,4 @@ class PF25AEMode extends AbstractTag
     protected $Description = 'PF25 AE Mode';
 
     protected $flag_Permanent = true;
-
 }

@@ -64,5 +64,4 @@ class AutoExposureBracketing extends AbstractTag
             'Label' => 'On (shot 3)',
         ),
     );
-
 }

@@ -39,5 +39,4 @@ class SegmentNumber extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Segment Number';
-
 }

@@ -39,5 +39,4 @@ class ProductLotIdentifier extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Product Lot Identifier';
-
 }

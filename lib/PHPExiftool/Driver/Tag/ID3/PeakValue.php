@@ -39,5 +39,4 @@ class PeakValue extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Peak Value';
-
 }

@@ -39,5 +39,4 @@ class AttachedFileMIMEType extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Attached File MIME Type';
-
 }

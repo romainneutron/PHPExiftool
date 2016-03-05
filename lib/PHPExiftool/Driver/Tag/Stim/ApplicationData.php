@@ -41,5 +41,4 @@ class ApplicationData extends AbstractTag
     protected $Description = 'Application Data';
 
     protected $flag_Binary = true;
-
 }

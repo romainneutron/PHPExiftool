@@ -39,5 +39,4 @@ class SpectralWidth extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Spectral Width';
-
 }

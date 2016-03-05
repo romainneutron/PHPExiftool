@@ -39,5 +39,4 @@ class ROIContourSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'ROI Contour Sequence';
-
 }

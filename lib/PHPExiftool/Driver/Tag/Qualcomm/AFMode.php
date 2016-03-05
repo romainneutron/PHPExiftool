@@ -41,5 +41,4 @@ class AFMode extends AbstractTag
     protected $Description = 'AF Mode';
 
     protected $flag_Permanent = true;
-
 }

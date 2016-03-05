@@ -580,5 +580,4 @@ class PentaxModelID extends AbstractTag
             'Label' => 'K-3 II',
         ),
     );
-
 }

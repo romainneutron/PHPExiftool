@@ -39,5 +39,4 @@ class SourceToDataCollectionCenterDist extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Source To Data Collection Center Dist';
-
 }

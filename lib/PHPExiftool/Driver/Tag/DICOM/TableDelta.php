@@ -39,5 +39,4 @@ class TableDelta extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Table Delta';
-
 }

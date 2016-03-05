@@ -39,5 +39,4 @@ class VertexPointIndexList extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Vertex Point Index List';
-
 }

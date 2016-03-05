@@ -39,5 +39,4 @@ class CircGradBasedCorrExposure2012 extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Circ Grad Based Corr Exposure 2012';
-
 }

@@ -41,5 +41,4 @@ class CropOutputResolution extends AbstractTag
     protected $Description = 'Crop Output Resolution';
 
     protected $flag_Permanent = true;
-
 }

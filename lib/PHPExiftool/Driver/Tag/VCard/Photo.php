@@ -41,5 +41,4 @@ class Photo extends AbstractTag
     protected $Description = 'Photo';
 
     protected $local_g2 = 'Preview';
-
 }

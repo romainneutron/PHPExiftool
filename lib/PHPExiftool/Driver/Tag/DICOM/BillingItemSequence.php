@@ -39,5 +39,4 @@ class BillingItemSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Billing Item Sequence';
-
 }

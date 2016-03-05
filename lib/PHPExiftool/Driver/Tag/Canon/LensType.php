@@ -1364,5 +1364,4 @@ class LensType extends AbstractTag
             'Label' => 'n/a',
         ),
     );
-
 }

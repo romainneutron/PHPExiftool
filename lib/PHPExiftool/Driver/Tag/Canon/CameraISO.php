@@ -41,5 +41,4 @@ class CameraISO extends AbstractTag
     protected $Description = 'Camera ISO';
 
     protected $flag_Permanent = true;
-
 }

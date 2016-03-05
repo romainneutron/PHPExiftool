@@ -52,5 +52,4 @@ class FlashReturn extends AbstractTag
             'Label' => 'Subject Inside Flash Range',
         ),
     );
-
 }

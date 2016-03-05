@@ -39,5 +39,4 @@ class PerFrameFunctionalGroupsSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Per Frame Functional Groups Sequence';
-
 }

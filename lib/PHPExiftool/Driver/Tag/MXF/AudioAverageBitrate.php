@@ -41,5 +41,4 @@ class AudioAverageBitrate extends AbstractTag
     protected $Description = 'Audio Average Bitrate';
 
     protected $local_g2 = 'Audio';
-
 }

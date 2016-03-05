@@ -39,5 +39,4 @@ class LookHeadVersion extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Look Head Version';
-
 }

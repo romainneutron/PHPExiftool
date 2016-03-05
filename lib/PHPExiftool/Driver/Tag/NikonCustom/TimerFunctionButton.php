@@ -128,5 +128,4 @@ class TimerFunctionButton extends AbstractTag
             'Label' => 'Auto Bracketing',
         ),
     );
-
 }

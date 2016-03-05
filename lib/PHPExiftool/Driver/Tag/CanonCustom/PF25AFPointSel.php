@@ -41,5 +41,4 @@ class PF25AFPointSel extends AbstractTag
     protected $Description = 'PF25 AF Point Sel';
 
     protected $flag_Permanent = true;
-
 }

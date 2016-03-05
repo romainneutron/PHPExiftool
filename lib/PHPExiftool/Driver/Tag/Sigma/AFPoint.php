@@ -41,5 +41,4 @@ class AFPoint extends AbstractTag
     protected $Description = 'AF Point';
 
     protected $flag_Permanent = true;
-
 }

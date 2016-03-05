@@ -41,5 +41,4 @@ class AFPointsInFocus1D extends AbstractTag
     protected $Description = 'AF Points In Focus 1D';
 
     protected $flag_Permanent = true;
-
 }

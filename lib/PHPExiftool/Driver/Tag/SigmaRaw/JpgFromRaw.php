@@ -45,5 +45,4 @@ class JpgFromRaw extends AbstractTag
     protected $flag_Binary = true;
 
     protected $Index = 1;
-
 }

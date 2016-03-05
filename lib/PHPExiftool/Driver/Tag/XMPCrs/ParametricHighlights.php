@@ -39,5 +39,4 @@ class ParametricHighlights extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Parametric Highlights';
-
 }

@@ -41,5 +41,4 @@ class FontFileName extends AbstractTag
     protected $Description = 'Font File Name';
 
     protected $flag_List = true;
-
 }

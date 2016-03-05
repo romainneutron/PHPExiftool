@@ -41,5 +41,4 @@ class DateTimeDropFrameFlag extends AbstractTag
     protected $Description = 'Date Time Drop Frame Flag';
 
     protected $local_g2 = 'Time';
-
 }

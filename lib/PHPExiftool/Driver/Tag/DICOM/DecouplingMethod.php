@@ -39,5 +39,4 @@ class DecouplingMethod extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Decoupling Method';
-
 }

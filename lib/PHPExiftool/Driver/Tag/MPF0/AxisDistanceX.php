@@ -39,5 +39,4 @@ class AxisDistanceX extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Axis Distance X';
-
 }

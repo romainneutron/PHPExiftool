@@ -52,5 +52,4 @@ class PlayDisplay extends AbstractTag
             'Label' => 'Manual Rotate',
         ),
     );
-
 }

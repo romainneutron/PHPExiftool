@@ -39,5 +39,4 @@ class DeviceID extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Device ID';
-
 }

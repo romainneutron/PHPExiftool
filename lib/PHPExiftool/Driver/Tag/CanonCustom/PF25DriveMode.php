@@ -41,5 +41,4 @@ class PF25DriveMode extends AbstractTag
     protected $Description = 'PF25 Drive Mode';
 
     protected $flag_Permanent = true;
-
 }

@@ -39,5 +39,4 @@ class ApprovalStatus extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Approval Status';
-
 }

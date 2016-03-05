@@ -39,5 +39,4 @@ class PositionerPrimaryAngle extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Positioner Primary Angle';
-
 }

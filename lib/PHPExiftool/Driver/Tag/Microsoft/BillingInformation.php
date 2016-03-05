@@ -39,5 +39,4 @@ class BillingInformation extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Billing Information';
-
 }

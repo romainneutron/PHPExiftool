@@ -48,5 +48,4 @@ class ColorTonePortrait extends AbstractTag
             'Label' => 'n/a',
         ),
     );
-
 }

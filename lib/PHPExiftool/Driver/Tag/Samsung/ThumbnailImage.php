@@ -43,5 +43,4 @@ class ThumbnailImage extends AbstractTag
     protected $local_g2 = 'Preview';
 
     protected $flag_Permanent = true;
-
 }

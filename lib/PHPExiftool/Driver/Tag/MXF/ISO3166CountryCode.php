@@ -39,5 +39,4 @@ class ISO3166CountryCode extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'ISO3166 Country Code';
-
 }

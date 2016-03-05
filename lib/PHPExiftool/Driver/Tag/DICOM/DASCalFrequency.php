@@ -39,5 +39,4 @@ class DASCalFrequency extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'DAS Cal Frequency';
-
 }

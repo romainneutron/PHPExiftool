@@ -39,5 +39,4 @@ class DiffusionGradientDirectionSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Diffusion Gradient Direction Sequence';
-
 }

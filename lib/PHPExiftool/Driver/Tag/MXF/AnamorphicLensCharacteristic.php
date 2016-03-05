@@ -39,5 +39,4 @@ class AnamorphicLensCharacteristic extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Anamorphic Lens Characteristic';
-
 }

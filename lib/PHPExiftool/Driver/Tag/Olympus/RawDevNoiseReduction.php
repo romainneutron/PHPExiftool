@@ -60,5 +60,4 @@ class RawDevNoiseReduction extends AbstractTag
             'Label' => 'Noise Filter (ISO Boost)',
         ),
     );
-
 }

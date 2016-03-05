@@ -41,5 +41,4 @@ class SubVersionFileName extends AbstractTag
     protected $Description = 'Sub Version File Name';
 
     protected $flag_List = true;
-
 }

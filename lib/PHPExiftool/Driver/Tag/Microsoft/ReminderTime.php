@@ -39,5 +39,4 @@ class ReminderTime extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Reminder Time';
-
 }

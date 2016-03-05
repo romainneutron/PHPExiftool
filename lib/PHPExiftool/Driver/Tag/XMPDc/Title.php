@@ -41,5 +41,4 @@ class Title extends AbstractTag
     protected $Description = 'Title';
 
     protected $local_g2 = 'Image';
-
 }

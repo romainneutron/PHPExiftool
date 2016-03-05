@@ -39,5 +39,4 @@ class Narrator extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Narrator';
-
 }

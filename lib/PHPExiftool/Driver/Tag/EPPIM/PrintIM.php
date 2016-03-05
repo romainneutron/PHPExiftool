@@ -39,5 +39,4 @@ class PrintIM extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Print Image Matching';
-
 }

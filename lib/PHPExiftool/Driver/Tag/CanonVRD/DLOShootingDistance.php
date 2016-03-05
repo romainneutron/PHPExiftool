@@ -39,5 +39,4 @@ class DLOShootingDistance extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'DLO Shooting Distance';
-
 }

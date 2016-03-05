@@ -41,5 +41,4 @@ class FontType extends AbstractTag
     protected $Description = 'Font Type';
 
     protected $flag_List = true;
-
 }

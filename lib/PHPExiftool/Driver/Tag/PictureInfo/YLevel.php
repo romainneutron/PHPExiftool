@@ -39,5 +39,4 @@ class YLevel extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Y Level';
-
 }

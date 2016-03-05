@@ -41,5 +41,4 @@ class ColorHue extends AbstractTag
     protected $Description = 'Color Hue';
 
     protected $flag_Permanent = true;
-
 }

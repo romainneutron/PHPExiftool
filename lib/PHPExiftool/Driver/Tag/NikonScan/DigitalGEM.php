@@ -41,5 +41,4 @@ class DigitalGEM extends AbstractTag
     protected $Description = 'Digital GEM';
 
     protected $flag_Permanent = true;
-
 }

@@ -39,5 +39,4 @@ class DesignerURL extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Designer URL';
-
 }

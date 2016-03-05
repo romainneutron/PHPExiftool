@@ -66,5 +66,4 @@ class FileFlags extends AbstractTag
             'Label' => 'Special build',
         ),
     );
-
 }

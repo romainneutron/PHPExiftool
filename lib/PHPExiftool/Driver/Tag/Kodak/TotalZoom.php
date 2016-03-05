@@ -41,5 +41,4 @@ class TotalZoom extends AbstractTag
     protected $Description = 'Total Zoom';
 
     protected $flag_Permanent = true;
-
 }

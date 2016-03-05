@@ -41,5 +41,4 @@ class DjVuVersion extends AbstractTag
     protected $Description = 'DjVu Version';
 
     protected $MaxLength = 2;
-
 }

@@ -39,5 +39,4 @@ class RawDataOffset extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Raw Data Offset';
-
 }

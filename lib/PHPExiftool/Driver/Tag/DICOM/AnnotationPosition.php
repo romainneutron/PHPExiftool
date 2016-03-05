@@ -39,5 +39,4 @@ class AnnotationPosition extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Annotation Position';
-
 }

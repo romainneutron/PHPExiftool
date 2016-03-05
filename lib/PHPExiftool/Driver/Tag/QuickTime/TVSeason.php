@@ -39,5 +39,4 @@ class TVSeason extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'TV Season';
-
 }

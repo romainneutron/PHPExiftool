@@ -39,5 +39,4 @@ class ImageLaterality extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Image Laterality';
-
 }

@@ -39,5 +39,4 @@ class LandmarkCounter extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Landmark Counter';
-
 }

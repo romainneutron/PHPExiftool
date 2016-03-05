@@ -41,5 +41,4 @@ class Yield extends AbstractTag
     protected $Description = 'Yield';
 
     protected $flag_Avoid = true;
-
 }

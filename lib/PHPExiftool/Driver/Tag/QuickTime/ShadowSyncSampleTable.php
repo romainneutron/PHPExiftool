@@ -41,5 +41,4 @@ class ShadowSyncSampleTable extends AbstractTag
     protected $Description = 'Shadow Sync Sample Table';
 
     protected $flag_Binary = true;
-
 }

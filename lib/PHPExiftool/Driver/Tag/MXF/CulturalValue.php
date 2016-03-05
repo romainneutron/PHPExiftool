@@ -39,5 +39,4 @@ class CulturalValue extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Cultural Value';
-
 }

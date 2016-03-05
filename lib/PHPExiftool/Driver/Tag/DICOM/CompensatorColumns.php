@@ -39,5 +39,4 @@ class CompensatorColumns extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Compensator Columns';
-
 }

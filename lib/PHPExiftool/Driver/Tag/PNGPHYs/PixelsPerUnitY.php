@@ -39,5 +39,4 @@ class PixelsPerUnitY extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Pixels Per Unit Y';
-
 }

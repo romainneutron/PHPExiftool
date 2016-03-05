@@ -39,5 +39,4 @@ class EncodingSettings extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Encoding Settings';
-
 }

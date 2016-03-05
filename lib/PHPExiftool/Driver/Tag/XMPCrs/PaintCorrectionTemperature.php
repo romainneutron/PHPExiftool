@@ -39,5 +39,4 @@ class PaintCorrectionTemperature extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Paint Correction Temperature';
-
 }

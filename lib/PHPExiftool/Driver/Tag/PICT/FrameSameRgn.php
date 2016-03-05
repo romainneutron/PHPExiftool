@@ -39,5 +39,4 @@ class FrameSameRgn extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Frame Same Rgn';
-
 }

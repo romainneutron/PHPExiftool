@@ -39,5 +39,4 @@ class ItemDesignatorID extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Item Designator ID';
-
 }

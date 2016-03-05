@@ -39,5 +39,4 @@ class AutoWindowLevelAlpha extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Auto Window Level Alpha';
-
 }

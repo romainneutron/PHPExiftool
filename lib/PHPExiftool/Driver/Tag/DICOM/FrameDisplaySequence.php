@@ -39,5 +39,4 @@ class FrameDisplaySequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Frame Display Sequence';
-
 }

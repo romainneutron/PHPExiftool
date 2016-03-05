@@ -39,5 +39,4 @@ class StructureSetTime extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Structure Set Time';
-
 }

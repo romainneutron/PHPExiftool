@@ -52,5 +52,4 @@ class ISOSpeedExpansion extends AbstractTag
             'Label' => 'Yes',
         ),
     );
-
 }

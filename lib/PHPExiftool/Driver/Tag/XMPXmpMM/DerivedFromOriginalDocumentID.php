@@ -39,5 +39,4 @@ class DerivedFromOriginalDocumentID extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Derived From Original Document ID';
-
 }

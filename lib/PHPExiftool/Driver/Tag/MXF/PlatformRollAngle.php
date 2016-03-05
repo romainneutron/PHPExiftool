@@ -39,5 +39,4 @@ class PlatformRollAngle extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Platform Roll Angle';
-
 }

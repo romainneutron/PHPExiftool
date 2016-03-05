@@ -39,5 +39,4 @@ class ConfidentialityCode extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Confidentiality Code';
-
 }

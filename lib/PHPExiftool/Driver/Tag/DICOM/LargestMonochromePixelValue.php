@@ -39,5 +39,4 @@ class LargestMonochromePixelValue extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Largest Monochrome Pixel Value';
-
 }

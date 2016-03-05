@@ -39,5 +39,4 @@ class SliceOffsetOnFreqAxis extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Slice Offset On Freq Axis';
-
 }

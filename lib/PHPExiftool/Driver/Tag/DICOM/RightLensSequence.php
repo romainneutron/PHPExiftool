@@ -39,5 +39,4 @@ class RightLensSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Right Lens Sequence';
-
 }

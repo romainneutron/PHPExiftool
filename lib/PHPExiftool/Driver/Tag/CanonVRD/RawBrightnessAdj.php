@@ -39,5 +39,4 @@ class RawBrightnessAdj extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Raw Brightness Adj';
-
 }

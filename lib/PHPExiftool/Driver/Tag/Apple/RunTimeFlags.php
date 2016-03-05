@@ -64,5 +64,4 @@ class RunTimeFlags extends AbstractTag
             'Label' => 'Indefinite',
         ),
     );
-
 }

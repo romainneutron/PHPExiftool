@@ -39,5 +39,4 @@ class IsOptional extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Is Optional';
-
 }

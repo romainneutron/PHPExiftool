@@ -41,5 +41,4 @@ class SampleSizes extends AbstractTag
     protected $Description = 'Sample Sizes';
 
     protected $flag_Binary = true;
-
 }

@@ -41,5 +41,4 @@ class FocalLengthIn35mmFormat extends AbstractTag
     protected $Description = 'Focal Length In 35mm Format';
 
     protected $local_g2 = 'Camera';
-
 }

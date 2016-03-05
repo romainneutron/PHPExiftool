@@ -39,5 +39,4 @@ class DeconKernelParameters extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Decon Kernel Parameters';
-
 }

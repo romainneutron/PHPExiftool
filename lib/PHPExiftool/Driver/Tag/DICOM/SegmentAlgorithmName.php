@@ -39,5 +39,4 @@ class SegmentAlgorithmName extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Segment Algorithm Name';
-
 }

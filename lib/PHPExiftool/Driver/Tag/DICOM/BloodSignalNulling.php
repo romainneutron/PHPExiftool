@@ -39,5 +39,4 @@ class BloodSignalNulling extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Blood Signal Nulling';
-
 }

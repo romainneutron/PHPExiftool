@@ -39,5 +39,4 @@ class Alignment extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Alignment';
-
 }

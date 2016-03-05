@@ -70,5 +70,4 @@ class Requires extends AbstractTag
             'Label' => 'Source Code',
         ),
     );
-
 }

@@ -39,5 +39,4 @@ class PlatformPitchAngle extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Platform Pitch Angle';
-
 }

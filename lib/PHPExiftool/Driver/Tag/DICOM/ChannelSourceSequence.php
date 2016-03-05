@@ -39,5 +39,4 @@ class ChannelSourceSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Channel Source Sequence';
-
 }

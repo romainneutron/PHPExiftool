@@ -41,5 +41,4 @@ class SceneMode extends AbstractTag
     protected $Description = 'Scene Mode';
 
     protected $flag_Permanent = true;
-
 }

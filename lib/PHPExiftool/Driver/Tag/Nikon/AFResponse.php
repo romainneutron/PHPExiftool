@@ -41,5 +41,4 @@ class AFResponse extends AbstractTag
     protected $Description = 'AF Response';
 
     protected $flag_Permanent = true;
-
 }

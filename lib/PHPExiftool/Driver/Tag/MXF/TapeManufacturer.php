@@ -39,5 +39,4 @@ class TapeManufacturer extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Tape Manufacturer';
-
 }

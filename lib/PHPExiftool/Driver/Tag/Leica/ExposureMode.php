@@ -66,5 +66,4 @@ class ExposureMode extends AbstractTag
             'Label' => 'Manual',
         ),
     );
-
 }

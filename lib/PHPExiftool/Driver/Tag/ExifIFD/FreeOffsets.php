@@ -41,5 +41,4 @@ class FreeOffsets extends AbstractTag
     protected $Description = 'Free Offsets';
 
     protected $local_g1 = 'ExifIFD';
-
 }

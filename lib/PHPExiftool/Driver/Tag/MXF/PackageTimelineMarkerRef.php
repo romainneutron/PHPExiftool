@@ -39,5 +39,4 @@ class PackageTimelineMarkerRef extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Package Timeline Marker Ref';
-
 }

@@ -39,5 +39,4 @@ class VerticalSubSampling extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Vertical Sub-sampling';
-
 }

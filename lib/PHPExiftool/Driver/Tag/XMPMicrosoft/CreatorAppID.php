@@ -39,5 +39,4 @@ class CreatorAppID extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Creator App ID';
-
 }

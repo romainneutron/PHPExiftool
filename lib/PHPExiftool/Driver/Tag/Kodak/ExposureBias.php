@@ -41,5 +41,4 @@ class ExposureBias extends AbstractTag
     protected $Description = 'Exposure Bias';
 
     protected $flag_Permanent = true;
-
 }

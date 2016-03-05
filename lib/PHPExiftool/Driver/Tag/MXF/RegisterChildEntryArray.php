@@ -39,5 +39,4 @@ class RegisterChildEntryArray extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Register Child Entry Array';
-
 }

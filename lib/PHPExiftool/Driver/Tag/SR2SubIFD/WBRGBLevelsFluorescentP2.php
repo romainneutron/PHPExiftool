@@ -41,5 +41,4 @@ class WBRGBLevelsFluorescentP2 extends AbstractTag
     protected $Description = 'WB RGB Levels Fluorescent P2';
 
     protected $flag_Permanent = true;
-
 }

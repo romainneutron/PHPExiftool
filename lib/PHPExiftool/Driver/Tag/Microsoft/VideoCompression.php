@@ -39,5 +39,4 @@ class VideoCompression extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Video Compression';
-
 }

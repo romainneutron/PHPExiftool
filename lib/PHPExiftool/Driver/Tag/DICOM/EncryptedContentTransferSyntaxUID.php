@@ -39,5 +39,4 @@ class EncryptedContentTransferSyntaxUID extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Encrypted Content Transfer Syntax UID';
-
 }

@@ -39,5 +39,4 @@ class Temporary extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Temporary';
-
 }

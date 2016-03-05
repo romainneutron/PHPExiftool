@@ -50,5 +50,4 @@ class LinksUpToDate extends AbstractTag
             'Label' => 'Yes',
         ),
     );
-
 }

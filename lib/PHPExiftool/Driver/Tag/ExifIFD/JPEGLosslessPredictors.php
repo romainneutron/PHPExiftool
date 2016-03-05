@@ -41,5 +41,4 @@ class JPEGLosslessPredictors extends AbstractTag
     protected $Description = 'JPEG Lossless Predictors';
 
     protected $local_g1 = 'ExifIFD';
-
 }

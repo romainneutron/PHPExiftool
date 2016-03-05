@@ -39,5 +39,4 @@ class EdgeCodeFormat extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Edge Code Format';
-
 }

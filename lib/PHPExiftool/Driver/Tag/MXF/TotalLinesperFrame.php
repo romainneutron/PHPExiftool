@@ -39,5 +39,4 @@ class TotalLinesperFrame extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Total Linesper Frame';
-
 }

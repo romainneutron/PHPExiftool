@@ -39,5 +39,4 @@ class TableSpeed extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Table Speed';
-
 }

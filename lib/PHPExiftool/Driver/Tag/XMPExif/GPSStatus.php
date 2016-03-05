@@ -52,5 +52,4 @@ class GPSStatus extends AbstractTag
             'Label' => 'Measurement Void',
         ),
     );
-
 }

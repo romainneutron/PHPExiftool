@@ -39,5 +39,4 @@ class ReversePlay extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Reverse Play';
-
 }

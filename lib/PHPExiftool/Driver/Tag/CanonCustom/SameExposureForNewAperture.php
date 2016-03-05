@@ -56,5 +56,4 @@ class SameExposureForNewAperture extends AbstractTag
             'Label' => 'Shutter Speed',
         ),
     );
-
 }

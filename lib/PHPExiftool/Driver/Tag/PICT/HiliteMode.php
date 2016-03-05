@@ -39,5 +39,4 @@ class HiliteMode extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Highlight Mode Flag';
-
 }

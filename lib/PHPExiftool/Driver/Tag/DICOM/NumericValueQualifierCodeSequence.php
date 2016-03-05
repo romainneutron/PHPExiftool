@@ -39,5 +39,4 @@ class NumericValueQualifierCodeSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Numeric Value Qualifier Code Sequence';
-
 }

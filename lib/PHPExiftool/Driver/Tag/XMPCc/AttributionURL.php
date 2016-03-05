@@ -39,5 +39,4 @@ class AttributionURL extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Attribution URL';
-
 }

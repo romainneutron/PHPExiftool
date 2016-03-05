@@ -52,5 +52,4 @@ class AutoFocus extends AbstractTag
             'Label' => 'On',
         ),
     );
-
 }

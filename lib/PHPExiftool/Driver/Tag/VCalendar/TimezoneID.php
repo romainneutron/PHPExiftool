@@ -41,5 +41,4 @@ class TimezoneID extends AbstractTag
     protected $Description = 'Timezone ID';
 
     protected $local_g2 = 'Time';
-
 }

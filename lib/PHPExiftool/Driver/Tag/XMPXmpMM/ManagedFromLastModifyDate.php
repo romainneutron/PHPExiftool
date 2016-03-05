@@ -41,5 +41,4 @@ class ManagedFromLastModifyDate extends AbstractTag
     protected $Description = 'Managed From Last Modify Date';
 
     protected $local_g2 = 'Time';
-
 }

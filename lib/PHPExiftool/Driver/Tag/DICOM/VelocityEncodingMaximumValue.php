@@ -39,5 +39,4 @@ class VelocityEncodingMaximumValue extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Velocity Encoding Maximum Value';
-
 }

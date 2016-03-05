@@ -52,5 +52,4 @@ class IntervalMode extends AbstractTag
             'Label' => 'Time-lapse Movie',
         ),
     );
-
 }

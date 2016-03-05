@@ -39,5 +39,4 @@ class WhiteLuminance extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'White Luminance';
-
 }

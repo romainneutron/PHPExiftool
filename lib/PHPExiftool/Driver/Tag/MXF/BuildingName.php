@@ -39,5 +39,4 @@ class BuildingName extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Building Name';
-
 }

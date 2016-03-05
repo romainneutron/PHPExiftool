@@ -39,5 +39,4 @@ class AudioBitrate extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Audio Bitrate';
-
 }

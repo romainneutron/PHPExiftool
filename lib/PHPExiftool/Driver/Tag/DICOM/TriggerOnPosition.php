@@ -39,5 +39,4 @@ class TriggerOnPosition extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Trigger On Position';
-
 }

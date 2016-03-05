@@ -52,5 +52,4 @@ class DateImprint extends AbstractTag
             'Label' => 'On',
         ),
     );
-
 }

@@ -39,5 +39,4 @@ class EncodedWith extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Encoded With';
-
 }

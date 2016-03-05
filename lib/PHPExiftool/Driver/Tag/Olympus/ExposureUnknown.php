@@ -41,5 +41,4 @@ class ExposureUnknown extends AbstractTag
     protected $Description = 'Exposure Unknown';
 
     protected $flag_Permanent = true;
-
 }

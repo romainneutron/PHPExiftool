@@ -39,5 +39,4 @@ class DoseSummationType extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Dose Summation Type';
-
 }

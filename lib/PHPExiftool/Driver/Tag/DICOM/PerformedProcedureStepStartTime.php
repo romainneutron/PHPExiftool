@@ -39,5 +39,4 @@ class PerformedProcedureStepStartTime extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Performed Procedure Step Start Time';
-
 }

@@ -39,5 +39,4 @@ class SourceApplicatorWallNomTrans extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Source Applicator Wall Nom Trans';
-
 }

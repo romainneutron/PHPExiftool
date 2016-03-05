@@ -39,5 +39,4 @@ class ColorCorrection extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Color Correction';
-
 }

@@ -39,5 +39,4 @@ class Profile1VideoCodec extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Profile 1 Video Codec';
-
 }

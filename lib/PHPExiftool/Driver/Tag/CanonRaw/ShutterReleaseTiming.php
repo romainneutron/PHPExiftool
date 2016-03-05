@@ -52,5 +52,4 @@ class ShutterReleaseTiming extends AbstractTag
             'Label' => 'Priority on focus',
         ),
     );
-
 }

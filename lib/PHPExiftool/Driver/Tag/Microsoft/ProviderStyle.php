@@ -39,5 +39,4 @@ class ProviderStyle extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Provider Style';
-
 }

@@ -56,5 +56,4 @@ class AFMicroAdjMode extends AbstractTag
             'Label' => 'Adjust by lens',
         ),
     );
-
 }

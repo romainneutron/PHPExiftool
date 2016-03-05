@@ -41,5 +41,4 @@ class ContentEncryptionKeyID extends AbstractTag
     protected $Description = 'Content Encryption Key ID';
 
     protected $flag_Binary = true;
-
 }

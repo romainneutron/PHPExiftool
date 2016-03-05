@@ -39,5 +39,4 @@ class ChannelAssignment extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Channel Assignment';
-
 }

@@ -41,5 +41,4 @@ class Cuisine extends AbstractTag
     protected $Description = 'Cuisine';
 
     protected $flag_Avoid = true;
-
 }

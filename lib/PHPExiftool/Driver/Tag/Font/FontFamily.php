@@ -39,5 +39,4 @@ class FontFamily extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Font Family';
-
 }

@@ -39,5 +39,4 @@ class ShadowFilePath extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Shadow File Path';
-
 }

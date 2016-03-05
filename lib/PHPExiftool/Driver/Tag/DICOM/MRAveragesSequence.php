@@ -39,5 +39,4 @@ class MRAveragesSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'MR Averages Sequence';
-
 }

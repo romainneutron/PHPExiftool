@@ -39,5 +39,4 @@ class CrossReference extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Cross-Reference';
-
 }

@@ -39,5 +39,4 @@ class DataEssenceCodingID extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Data Essence Coding ID';
-
 }

@@ -39,5 +39,4 @@ class LastPulseSequenceUsed extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Last Pulse Sequence Used';
-
 }

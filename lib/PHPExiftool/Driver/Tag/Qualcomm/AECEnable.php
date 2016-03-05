@@ -41,5 +41,4 @@ class AECEnable extends AbstractTag
     protected $Description = 'AEC Enable';
 
     protected $flag_Permanent = true;
-
 }

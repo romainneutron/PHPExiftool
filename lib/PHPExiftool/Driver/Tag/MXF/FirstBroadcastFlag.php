@@ -39,5 +39,4 @@ class FirstBroadcastFlag extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'First Broadcast Flag';
-
 }

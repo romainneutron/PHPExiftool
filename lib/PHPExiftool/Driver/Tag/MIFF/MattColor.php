@@ -39,5 +39,4 @@ class MattColor extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Matt Color';
-
 }

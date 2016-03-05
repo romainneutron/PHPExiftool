@@ -39,5 +39,4 @@ class CroppedAreaLeftPixels extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Cropped Area Left Pixels';
-
 }

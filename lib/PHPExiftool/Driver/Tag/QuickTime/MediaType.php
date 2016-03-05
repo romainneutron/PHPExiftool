@@ -82,5 +82,4 @@ class MediaType extends AbstractTag
             'Label' => 'Podcast',
         ),
     );
-
 }

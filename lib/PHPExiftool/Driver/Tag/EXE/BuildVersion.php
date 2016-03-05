@@ -39,5 +39,4 @@ class BuildVersion extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Build Version';
-
 }

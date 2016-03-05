@@ -39,5 +39,4 @@ class HasICC extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Has ICC';
-
 }

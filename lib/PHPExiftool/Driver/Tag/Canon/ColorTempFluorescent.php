@@ -41,5 +41,4 @@ class ColorTempFluorescent extends AbstractTag
     protected $Description = 'Color Temp Fluorescent';
 
     protected $flag_Permanent = true;
-
 }

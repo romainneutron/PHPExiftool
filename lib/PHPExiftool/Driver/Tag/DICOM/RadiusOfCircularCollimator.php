@@ -39,5 +39,4 @@ class RadiusOfCircularCollimator extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Radius Of Circular Collimator';
-
 }

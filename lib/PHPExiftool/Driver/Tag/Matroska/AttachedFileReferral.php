@@ -41,5 +41,4 @@ class AttachedFileReferral extends AbstractTag
     protected $Description = 'Attached File Referral';
 
     protected $flag_Binary = true;
-
 }

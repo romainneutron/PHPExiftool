@@ -60,5 +60,4 @@ class DynamicAFArea extends AbstractTag
             'Label' => '51 Points (3D-tracking)',
         ),
     );
-
 }

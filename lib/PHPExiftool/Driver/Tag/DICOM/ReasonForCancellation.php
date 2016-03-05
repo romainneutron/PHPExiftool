@@ -39,5 +39,4 @@ class ReasonForCancellation extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Reason For Cancellation';
-
 }

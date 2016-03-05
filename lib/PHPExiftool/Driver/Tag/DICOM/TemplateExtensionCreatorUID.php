@@ -39,5 +39,4 @@ class TemplateExtensionCreatorUID extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Template Extension Creator UID';
-
 }

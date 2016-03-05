@@ -39,5 +39,4 @@ class ContentDistributorDuration extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Content Distributor Duration';
-
 }

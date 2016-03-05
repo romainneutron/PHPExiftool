@@ -52,5 +52,4 @@ class ImageColorIndicator extends AbstractTag
             'Label' => 'Specified Image Color',
         ),
     );
-
 }

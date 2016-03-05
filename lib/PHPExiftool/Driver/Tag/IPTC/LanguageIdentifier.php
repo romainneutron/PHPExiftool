@@ -41,5 +41,4 @@ class LanguageIdentifier extends AbstractTag
     protected $Description = 'Language Identifier';
 
     protected $MaxLength = 3;
-
 }

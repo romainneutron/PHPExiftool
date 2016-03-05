@@ -52,5 +52,4 @@ class AIServoTrackingMethod extends AbstractTag
             'Label' => 'Continuous AF track priority',
         ),
     );
-
 }

@@ -56,5 +56,4 @@ class LiveViewAFSetting extends AbstractTag
             'Label' => 'Contrast AF',
         ),
     );
-
 }

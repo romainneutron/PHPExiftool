@@ -39,5 +39,4 @@ class TaxonPhylum extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Taxon Phylum';
-
 }

@@ -39,5 +39,4 @@ class QltyEndOfModulation extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Qlty End Of Modulation';
-
 }

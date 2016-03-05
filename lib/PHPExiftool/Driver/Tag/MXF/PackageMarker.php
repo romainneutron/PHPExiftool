@@ -39,5 +39,4 @@ class PackageMarker extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Package Marker';
-
 }

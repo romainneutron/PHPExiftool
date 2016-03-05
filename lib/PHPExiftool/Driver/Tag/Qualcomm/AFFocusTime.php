@@ -41,5 +41,4 @@ class AFFocusTime extends AbstractTag
     protected $Description = 'AF Focus Time';
 
     protected $flag_Permanent = true;
-
 }

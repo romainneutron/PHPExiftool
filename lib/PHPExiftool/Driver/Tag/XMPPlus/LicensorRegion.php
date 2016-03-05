@@ -41,5 +41,4 @@ class LicensorRegion extends AbstractTag
     protected $Description = 'Licensor Region';
 
     protected $flag_List = true;
-
 }

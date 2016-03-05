@@ -82,5 +82,4 @@ class ContrastHighlight extends AbstractTag
             'Label' => 4,
         ),
     );
-
 }

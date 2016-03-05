@@ -41,5 +41,4 @@ class WBGRGBLevelsWarmWhiteFluor extends AbstractTag
     protected $Description = 'WB GRGB Levels Warm White Fluor';
 
     protected $MaxLength = 4;
-
 }

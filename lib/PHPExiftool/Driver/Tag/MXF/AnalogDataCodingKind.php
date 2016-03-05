@@ -39,5 +39,4 @@ class AnalogDataCodingKind extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Analog Data Coding Kind';
-
 }

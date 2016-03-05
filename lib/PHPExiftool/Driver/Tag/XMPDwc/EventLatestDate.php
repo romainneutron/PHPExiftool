@@ -41,5 +41,4 @@ class EventLatestDate extends AbstractTag
     protected $Description = 'Event Latest Date';
 
     protected $local_g2 = 'Time';
-
 }

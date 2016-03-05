@@ -58,5 +58,4 @@ class ChannelMode extends AbstractTag
             'Label' => 'Single Channel',
         ),
     );
-
 }

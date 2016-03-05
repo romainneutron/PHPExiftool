@@ -39,5 +39,4 @@ class TimeScaleParamsFrameSize extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Time Scale Params Frame Size';
-
 }

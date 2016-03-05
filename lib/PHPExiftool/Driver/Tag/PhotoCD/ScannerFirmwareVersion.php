@@ -41,5 +41,4 @@ class ScannerFirmwareVersion extends AbstractTag
     protected $Description = 'Scanner Firmware Version';
 
     protected $MaxLength = 4;
-
 }

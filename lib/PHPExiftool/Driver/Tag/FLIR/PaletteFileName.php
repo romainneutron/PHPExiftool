@@ -41,5 +41,4 @@ class PaletteFileName extends AbstractTag
     protected $Description = 'Palette File Name';
 
     protected $MaxLength = 32;
-
 }

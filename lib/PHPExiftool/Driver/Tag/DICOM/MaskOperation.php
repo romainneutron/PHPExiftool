@@ -39,5 +39,4 @@ class MaskOperation extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Mask Operation';
-
 }

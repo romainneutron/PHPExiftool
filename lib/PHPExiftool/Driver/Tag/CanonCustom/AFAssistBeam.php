@@ -130,5 +130,4 @@ class AFAssistBeam extends AbstractTag
     );
 
     protected $Index = 'mixed';
-
 }

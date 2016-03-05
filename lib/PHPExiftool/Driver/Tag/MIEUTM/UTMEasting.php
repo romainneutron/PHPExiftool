@@ -39,5 +39,4 @@ class UTMEasting extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'UTM Easting';
-
 }

@@ -39,5 +39,4 @@ class ChartRasterEdition extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Chart Raster Edition';
-
 }

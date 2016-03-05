@@ -39,5 +39,4 @@ class TimeCode extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Time Code';
-
 }

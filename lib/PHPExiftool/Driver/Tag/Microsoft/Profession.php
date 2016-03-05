@@ -39,5 +39,4 @@ class Profession extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Profession';
-
 }

@@ -43,5 +43,4 @@ class BodyBatteryADNoLoad extends AbstractTag
     protected $flag_Permanent = true;
 
     protected $Index = 'mixed';
-
 }

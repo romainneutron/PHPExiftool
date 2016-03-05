@@ -41,5 +41,4 @@ class Section extends AbstractTag
     protected $Description = 'Section';
 
     protected $flag_Avoid = true;
-
 }

@@ -39,5 +39,4 @@ class AutoWindowLevelWindow extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Auto Window Level Window';
-
 }

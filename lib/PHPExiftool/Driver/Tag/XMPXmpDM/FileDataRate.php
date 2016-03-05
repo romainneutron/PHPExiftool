@@ -39,5 +39,4 @@ class FileDataRate extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'File Data Rate';
-
 }

@@ -39,5 +39,4 @@ class LayerComps extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Layer Comps';
-
 }

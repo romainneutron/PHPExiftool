@@ -39,5 +39,4 @@ class SaveObjVersion extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Save Obj Version';
-
 }

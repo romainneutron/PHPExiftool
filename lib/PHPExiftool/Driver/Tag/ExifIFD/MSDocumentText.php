@@ -41,5 +41,4 @@ class MSDocumentText extends AbstractTag
     protected $Description = 'MS Document Text';
 
     protected $local_g1 = 'ExifIFD';
-
 }

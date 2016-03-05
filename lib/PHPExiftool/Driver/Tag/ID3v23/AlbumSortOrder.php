@@ -39,5 +39,4 @@ class AlbumSortOrder extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Album Sort Order';
-
 }

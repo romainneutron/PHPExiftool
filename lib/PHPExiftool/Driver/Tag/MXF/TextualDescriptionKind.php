@@ -39,5 +39,4 @@ class TextualDescriptionKind extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Textual Description Kind';
-
 }

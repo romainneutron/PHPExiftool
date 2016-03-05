@@ -39,5 +39,4 @@ class DRMDRMHeaderLicenseAcqURL extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'DRM DRM Header License Acq URL';
-
 }

@@ -1170,5 +1170,4 @@ class CameraType extends AbstractTag
     );
 
     protected $local_g2 = 'mixed';
-
 }

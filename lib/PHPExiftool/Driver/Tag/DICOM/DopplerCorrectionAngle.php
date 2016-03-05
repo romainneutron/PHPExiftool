@@ -39,5 +39,4 @@ class DopplerCorrectionAngle extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Doppler Correction Angle';
-
 }

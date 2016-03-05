@@ -39,5 +39,4 @@ class ContextGroupExtensionCreatorUID extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Context Group Extension Creator UID';
-
 }

@@ -39,5 +39,4 @@ class IdentificationUL extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Identification UL';
-
 }

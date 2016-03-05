@@ -39,5 +39,4 @@ class CopyrightStatus extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Copyright Status';
-
 }

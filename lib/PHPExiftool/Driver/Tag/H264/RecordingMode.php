@@ -62,5 +62,4 @@ class RecordingMode extends AbstractTag
             'Label' => 'MXP',
         ),
     );
-
 }

@@ -39,5 +39,4 @@ class RawFileName extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Raw File Name';
-
 }

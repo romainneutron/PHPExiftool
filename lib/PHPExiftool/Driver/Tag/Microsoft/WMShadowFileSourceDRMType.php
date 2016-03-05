@@ -39,5 +39,4 @@ class WMShadowFileSourceDRMType extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'WM Shadow File Source DRM Type';
-
 }

@@ -39,5 +39,4 @@ class CalibratedFieldStrength extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Calibrated Field Strength';
-
 }

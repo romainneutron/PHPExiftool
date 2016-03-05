@@ -48,5 +48,4 @@ class SharpnessAuto extends AbstractTag
             'Label' => 'n/a',
         ),
     );
-
 }

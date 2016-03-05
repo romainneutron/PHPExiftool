@@ -39,5 +39,4 @@ class SupportOrganizationRole extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Support Organization Role';
-
 }

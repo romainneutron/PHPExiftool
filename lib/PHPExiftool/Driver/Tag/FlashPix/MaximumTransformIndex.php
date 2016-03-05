@@ -39,5 +39,4 @@ class MaximumTransformIndex extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Maximum Transform Index';
-
 }

@@ -39,5 +39,4 @@ class OverlayPlaneOrigin extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Overlay Plane Origin';
-
 }

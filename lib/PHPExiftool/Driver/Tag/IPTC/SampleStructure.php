@@ -54,5 +54,4 @@ class SampleStructure extends AbstractTag
             'Label' => 'CompressionDependent',
         ),
     );
-
 }

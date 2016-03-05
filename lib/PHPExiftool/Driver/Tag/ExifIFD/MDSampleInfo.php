@@ -41,5 +41,4 @@ class MDSampleInfo extends AbstractTag
     protected $Description = 'MD Sample Info';
 
     protected $local_g1 = 'ExifIFD';
-
 }

@@ -39,5 +39,4 @@ class ToneObjVersion extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Tone Obj Version';
-
 }

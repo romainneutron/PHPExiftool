@@ -41,5 +41,4 @@ class GPSImgDirection extends AbstractTag
     protected $Description = 'GPS Img Direction';
 
     protected $local_g2 = 'Location';
-
 }

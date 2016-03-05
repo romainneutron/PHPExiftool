@@ -39,5 +39,4 @@ class ApplicationSetupSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Application Setup Sequence';
-
 }

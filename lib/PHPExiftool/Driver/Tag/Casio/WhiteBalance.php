@@ -128,5 +128,4 @@ class WhiteBalance extends AbstractTag
             'Label' => 'Flash',
         ),
     );
-
 }

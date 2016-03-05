@@ -39,5 +39,4 @@ class TapeShellKind extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Tape Shell Kind';
-
 }

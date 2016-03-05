@@ -39,5 +39,4 @@ class ImageBounds extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Image Bounds';
-
 }

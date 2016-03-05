@@ -45,5 +45,4 @@ class ISO extends AbstractTag
     protected $local_g2 = 'mixed';
 
     protected $MaxLength = 'mixed';
-
 }

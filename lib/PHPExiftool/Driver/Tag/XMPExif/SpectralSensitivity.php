@@ -41,5 +41,4 @@ class SpectralSensitivity extends AbstractTag
     protected $Description = 'Spectral Sensitivity';
 
     protected $local_g2 = 'Camera';
-
 }

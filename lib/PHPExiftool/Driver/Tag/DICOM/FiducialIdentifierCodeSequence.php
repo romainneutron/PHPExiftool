@@ -39,5 +39,4 @@ class FiducialIdentifierCodeSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Fiducial Identifier Code Sequence';
-
 }

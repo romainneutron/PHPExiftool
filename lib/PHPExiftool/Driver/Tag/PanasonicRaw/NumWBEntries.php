@@ -39,5 +39,4 @@ class NumWBEntries extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Num WB Entries';
-
 }

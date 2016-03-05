@@ -39,5 +39,4 @@ class CatalogPrefixNumber extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Catalog Prefix Number';
-
 }

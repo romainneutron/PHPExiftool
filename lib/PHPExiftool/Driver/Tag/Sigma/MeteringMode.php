@@ -56,5 +56,4 @@ class MeteringMode extends AbstractTag
             'Label' => 'Center-weighted average',
         ),
     );
-
 }

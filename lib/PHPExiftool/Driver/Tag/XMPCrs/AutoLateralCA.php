@@ -39,5 +39,4 @@ class AutoLateralCA extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Auto Lateral CA';
-
 }

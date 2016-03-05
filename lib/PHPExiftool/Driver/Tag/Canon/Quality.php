@@ -76,5 +76,4 @@ class Quality extends AbstractTag
             'Label' => 'Movie (2)',
         ),
     );
-
 }

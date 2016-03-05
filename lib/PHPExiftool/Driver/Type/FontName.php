@@ -19,5 +19,4 @@ class FontName extends AbstractType
     protected $ExiftoolName = 'FontName';
 
     protected $PHPMap = 'string';
-
 }

@@ -41,5 +41,4 @@ class ImageModulationExposureBias extends AbstractTag
     protected $Description = 'Image Modulation Exposure Bias';
 
     protected $local_g2 = 'Image';
-
 }

@@ -41,5 +41,4 @@ class TracksFrameRate extends AbstractTag
     protected $Description = 'Tracks Frame Rate';
 
     protected $flag_List = true;
-
 }

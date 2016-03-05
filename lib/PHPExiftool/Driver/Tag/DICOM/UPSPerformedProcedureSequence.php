@@ -39,5 +39,4 @@ class UPSPerformedProcedureSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'UPS Performed Procedure Sequence';
-
 }

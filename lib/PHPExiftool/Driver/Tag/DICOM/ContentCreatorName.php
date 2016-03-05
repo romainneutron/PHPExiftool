@@ -39,5 +39,4 @@ class ContentCreatorName extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Content Creator Name';
-
 }

@@ -39,5 +39,4 @@ class FrameTime extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Frame Time';
-
 }

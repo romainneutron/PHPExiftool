@@ -39,5 +39,4 @@ class VectorAccuracy extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Vector Accuracy';
-
 }

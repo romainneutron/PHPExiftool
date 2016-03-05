@@ -108,5 +108,4 @@ class GridDisplay extends AbstractTag
             'Label' => 'On',
         ),
     );
-
 }

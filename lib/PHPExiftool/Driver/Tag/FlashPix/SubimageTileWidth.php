@@ -39,5 +39,4 @@ class SubimageTileWidth extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Subimage Tile Width';
-
 }

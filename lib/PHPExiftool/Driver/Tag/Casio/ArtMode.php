@@ -96,5 +96,4 @@ class ArtMode extends AbstractTag
             'Label' => 'Light Tone',
         ),
     );
-
 }

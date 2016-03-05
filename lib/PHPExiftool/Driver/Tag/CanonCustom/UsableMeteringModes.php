@@ -54,5 +54,4 @@ class UsableMeteringModes extends AbstractTag
             'Label' => 'Enable',
         ),
     );
-
 }

@@ -41,5 +41,4 @@ class FlashFirmwareVersion extends AbstractTag
     protected $Description = 'Flash Firmware Version';
 
     protected $flag_Permanent = true;
-
 }

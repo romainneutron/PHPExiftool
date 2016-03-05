@@ -41,5 +41,4 @@ class ResourceForkSize extends AbstractTag
     protected $Description = 'Resource Fork Size';
 
     protected $local_g1 = 'System';
-
 }

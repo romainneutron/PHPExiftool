@@ -39,5 +39,4 @@ class BarcodeSymbology extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Barcode Symbology';
-
 }

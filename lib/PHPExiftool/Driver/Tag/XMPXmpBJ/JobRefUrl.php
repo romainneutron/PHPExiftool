@@ -41,5 +41,4 @@ class JobRefUrl extends AbstractTag
     protected $Description = 'Job Ref Url';
 
     protected $flag_List = true;
-
 }

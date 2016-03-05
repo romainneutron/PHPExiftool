@@ -39,5 +39,4 @@ class RadiationChargeState extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Radiation Charge State';
-
 }

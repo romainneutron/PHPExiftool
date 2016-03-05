@@ -54,5 +54,4 @@ class PhotoshopFormat extends AbstractTag
             'Label' => 'Progressive',
         ),
     );
-
 }

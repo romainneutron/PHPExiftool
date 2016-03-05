@@ -60,5 +60,4 @@ class AutoLightingOptimizer extends AbstractTag
             'Label' => 'Off',
         ),
     );
-
 }

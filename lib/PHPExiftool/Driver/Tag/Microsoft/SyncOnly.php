@@ -39,5 +39,4 @@ class SyncOnly extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Sync Only';
-
 }

@@ -39,5 +39,4 @@ class ResultsID extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Results ID';
-
 }

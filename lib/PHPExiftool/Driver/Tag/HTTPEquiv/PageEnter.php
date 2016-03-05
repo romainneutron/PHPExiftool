@@ -39,5 +39,4 @@ class PageEnter extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Page Enter';
-
 }

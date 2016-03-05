@@ -41,5 +41,4 @@ class LensModel extends AbstractTag
     protected $Description = 'Lens Model';
 
     protected $local_g1 = 'ExifIFD';
-
 }

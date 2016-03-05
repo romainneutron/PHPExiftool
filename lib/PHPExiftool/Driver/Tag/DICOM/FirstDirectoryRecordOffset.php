@@ -39,5 +39,4 @@ class FirstDirectoryRecordOffset extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'First Directory Record Offset';
-
 }

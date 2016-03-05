@@ -39,5 +39,4 @@ class RawThermalImageWidth extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Raw Thermal Image Width';
-
 }

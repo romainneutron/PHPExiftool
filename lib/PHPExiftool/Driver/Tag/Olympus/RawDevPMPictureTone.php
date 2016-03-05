@@ -64,5 +64,4 @@ class RawDevPMPictureTone extends AbstractTag
             'Label' => 'Green',
         ),
     );
-
 }

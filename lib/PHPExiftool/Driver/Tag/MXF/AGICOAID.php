@@ -39,5 +39,4 @@ class AGICOAID extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'AGICOAID';
-
 }

@@ -39,5 +39,4 @@ class AudioMode extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Audio Mode';
-
 }

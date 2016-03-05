@@ -39,5 +39,4 @@ class VideoProfileVersion extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Video Profile Version';
-
 }

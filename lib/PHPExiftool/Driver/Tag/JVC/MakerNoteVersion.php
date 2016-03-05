@@ -41,5 +41,4 @@ class MakerNoteVersion extends AbstractTag
     protected $Description = 'Maker Note Version';
 
     protected $flag_Permanent = true;
-
 }

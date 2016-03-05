@@ -39,5 +39,4 @@ class PStringCaption extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'P String Caption';
-
 }

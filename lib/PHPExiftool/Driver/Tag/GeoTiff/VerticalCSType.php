@@ -202,5 +202,4 @@ class VerticalCSType extends AbstractTag
             'Label' => 'User Defined',
         ),
     );
-
 }

@@ -39,5 +39,4 @@ class IntendedRecipientsOfResultsIDSeq extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Intended Recipients Of Results ID Seq';
-
 }

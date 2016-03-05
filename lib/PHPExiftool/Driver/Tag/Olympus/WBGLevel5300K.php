@@ -41,5 +41,4 @@ class WBGLevel5300K extends AbstractTag
     protected $Description = 'WB G Level 5300K';
 
     protected $flag_Permanent = true;
-
 }

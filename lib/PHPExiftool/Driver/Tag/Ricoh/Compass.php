@@ -41,5 +41,4 @@ class Compass extends AbstractTag
     protected $Description = 'Compass';
 
     protected $flag_Permanent = true;
-
 }

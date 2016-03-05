@@ -76,5 +76,4 @@ class ActiveDLightingMode extends AbstractTag
             'Label' => 'Extra High 2',
         ),
     );
-
 }

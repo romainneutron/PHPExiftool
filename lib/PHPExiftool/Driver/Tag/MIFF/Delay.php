@@ -39,5 +39,4 @@ class Delay extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Delay';
-
 }

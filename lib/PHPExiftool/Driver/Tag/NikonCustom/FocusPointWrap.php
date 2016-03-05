@@ -52,5 +52,4 @@ class FocusPointWrap extends AbstractTag
             'Label' => 'Wrap',
         ),
     );
-
 }

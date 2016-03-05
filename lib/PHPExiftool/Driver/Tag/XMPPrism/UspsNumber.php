@@ -41,5 +41,4 @@ class UspsNumber extends AbstractTag
     protected $Description = 'Usps Number';
 
     protected $flag_Avoid = true;
-
 }

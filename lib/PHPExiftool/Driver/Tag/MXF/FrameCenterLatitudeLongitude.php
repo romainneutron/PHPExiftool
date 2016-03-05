@@ -41,5 +41,4 @@ class FrameCenterLatitudeLongitude extends AbstractTag
     protected $Description = 'Frame Center Latitude Longitude';
 
     protected $local_g2 = 'Location';
-
 }

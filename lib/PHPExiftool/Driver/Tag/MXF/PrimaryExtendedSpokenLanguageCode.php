@@ -39,5 +39,4 @@ class PrimaryExtendedSpokenLanguageCode extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Primary Extended Spoken Language Code';
-
 }

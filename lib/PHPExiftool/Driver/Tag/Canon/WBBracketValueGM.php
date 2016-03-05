@@ -41,5 +41,4 @@ class WBBracketValueGM extends AbstractTag
     protected $Description = 'WB Bracket Value GM';
 
     protected $flag_Permanent = true;
-
 }

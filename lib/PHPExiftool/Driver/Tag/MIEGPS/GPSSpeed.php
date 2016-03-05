@@ -39,5 +39,4 @@ class GPSSpeed extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'GPS Speed';
-
 }

@@ -39,5 +39,4 @@ class WatermarkType extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Watermark Type';
-
 }

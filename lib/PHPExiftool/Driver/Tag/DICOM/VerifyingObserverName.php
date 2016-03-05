@@ -39,5 +39,4 @@ class VerifyingObserverName extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Verifying Observer Name';
-
 }

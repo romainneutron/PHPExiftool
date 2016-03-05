@@ -39,5 +39,4 @@ class PrimaryPhone extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Primary Phone';
-
 }

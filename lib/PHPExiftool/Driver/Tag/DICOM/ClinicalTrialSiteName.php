@@ -39,5 +39,4 @@ class ClinicalTrialSiteName extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Clinical Trial Site Name';
-
 }

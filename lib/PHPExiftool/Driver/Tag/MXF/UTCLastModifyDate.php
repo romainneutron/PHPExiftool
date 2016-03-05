@@ -41,5 +41,4 @@ class UTCLastModifyDate extends AbstractTag
     protected $Description = 'UTC Last Modify Date';
 
     protected $local_g2 = 'Time';
-
 }

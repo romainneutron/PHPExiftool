@@ -39,5 +39,4 @@ class ChannelTimeSkew extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Channel Time Skew';
-
 }

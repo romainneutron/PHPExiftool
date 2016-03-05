@@ -41,5 +41,4 @@ class AFCollectEndStat extends AbstractTag
     protected $Description = 'AF Collect End Stat';
 
     protected $flag_Permanent = true;
-
 }

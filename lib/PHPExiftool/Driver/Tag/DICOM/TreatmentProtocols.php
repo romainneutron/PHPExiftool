@@ -39,5 +39,4 @@ class TreatmentProtocols extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Treatment Protocols';
-
 }

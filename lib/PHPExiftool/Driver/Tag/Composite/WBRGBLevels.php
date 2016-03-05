@@ -41,5 +41,4 @@ class WBRGBLevels extends AbstractTag
     protected $Description = 'WB RGB Levels';
 
     protected $local_g2 = 'Camera';
-
 }

@@ -39,5 +39,4 @@ class Rating extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Rating';
-
 }

@@ -39,5 +39,4 @@ class PresentationPixelMagRatio extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Presentation Pixel Mag Ratio';
-
 }

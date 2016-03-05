@@ -41,5 +41,4 @@ class AFResetLensAfterSnap extends AbstractTag
     protected $Description = 'AF Reset Lens After Snap';
 
     protected $flag_Permanent = true;
-
 }

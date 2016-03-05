@@ -52,5 +52,4 @@ class QuickFix extends AbstractTag
             'Label' => 'On',
         ),
     );
-
 }

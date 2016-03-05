@@ -39,5 +39,4 @@ class CameraMove extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Camera Move';
-
 }

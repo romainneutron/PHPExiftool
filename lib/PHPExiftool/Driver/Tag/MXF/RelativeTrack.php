@@ -39,5 +39,4 @@ class RelativeTrack extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Relative Track';
-
 }

@@ -39,5 +39,4 @@ class ContractInstallmentPercentage extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Contract Installment Percentage';
-
 }

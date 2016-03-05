@@ -41,5 +41,4 @@ class PageImageFormat extends AbstractTag
     protected $Description = 'Page Image Format';
 
     protected $flag_List = true;
-
 }

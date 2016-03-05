@@ -39,5 +39,4 @@ class StatReconFlag extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Stat Recon Flag';
-
 }

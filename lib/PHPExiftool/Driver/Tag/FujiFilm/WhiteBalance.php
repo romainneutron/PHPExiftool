@@ -112,5 +112,4 @@ class WhiteBalance extends AbstractTag
             'Label' => 'Kelvin',
         ),
     );
-
 }

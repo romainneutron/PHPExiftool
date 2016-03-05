@@ -39,5 +39,4 @@ class RightImageSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Right Image Sequence';
-
 }

@@ -39,5 +39,4 @@ class Param3 extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Param 3';
-
 }

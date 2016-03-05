@@ -39,5 +39,4 @@ class CollimatorGridName extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Collimator Grid Name';
-
 }

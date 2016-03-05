@@ -19,5 +19,4 @@ class Struct extends AbstractType
     protected $ExiftoolName = 'struct';
 
     protected $PHPMap = '';
-
 }

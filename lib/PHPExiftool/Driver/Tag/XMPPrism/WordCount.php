@@ -41,5 +41,4 @@ class WordCount extends AbstractTag
     protected $Description = 'Word Count';
 
     protected $flag_Avoid = true;
-
 }

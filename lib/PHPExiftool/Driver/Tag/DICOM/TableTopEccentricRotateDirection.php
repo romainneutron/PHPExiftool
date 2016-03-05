@@ -39,5 +39,4 @@ class TableTopEccentricRotateDirection extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Table Top Eccentric Rotate Direction';
-
 }

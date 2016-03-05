@@ -39,5 +39,4 @@ class CaptureAspectRatio extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Capture Aspect Ratio';
-
 }

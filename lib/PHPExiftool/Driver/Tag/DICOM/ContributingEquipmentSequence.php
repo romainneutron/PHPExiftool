@@ -39,5 +39,4 @@ class ContributingEquipmentSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Contributing Equipment Sequence';
-
 }

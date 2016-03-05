@@ -39,5 +39,4 @@ class WAVESummary extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'WAVE Summary';
-
 }

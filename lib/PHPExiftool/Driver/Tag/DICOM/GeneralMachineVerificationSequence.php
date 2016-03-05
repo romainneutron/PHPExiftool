@@ -39,5 +39,4 @@ class GeneralMachineVerificationSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'General Machine Verification Sequence';
-
 }

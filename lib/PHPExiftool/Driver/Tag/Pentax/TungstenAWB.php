@@ -52,5 +52,4 @@ class TungstenAWB extends AbstractTag
             'Label' => 'Strong Correction',
         ),
     );
-
 }

@@ -39,5 +39,4 @@ class BaseViewpointNum extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Base Viewpoint Num';
-
 }

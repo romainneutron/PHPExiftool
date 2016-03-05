@@ -39,5 +39,4 @@ class NeutObjBackType extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Neut Obj Back Type';
-
 }

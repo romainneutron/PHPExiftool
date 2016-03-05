@@ -118,5 +118,4 @@ class LensType extends AbstractTag
             'Label' => 'Samsung NX 300mm F2.8 ED OIS',
         ),
     );
-
 }

@@ -39,5 +39,4 @@ class RecordLabelURL extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Record Label URL';
-
 }

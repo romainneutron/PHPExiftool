@@ -39,5 +39,4 @@ class VideoMaxBitrate extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Video Max Bitrate';
-
 }

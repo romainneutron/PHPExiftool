@@ -41,5 +41,4 @@ class SensorLeftBorder extends AbstractTag
     protected $Description = 'Sensor Left Border';
 
     protected $flag_Permanent = true;
-
 }

@@ -52,5 +52,4 @@ class GPSImgDirectionRef extends AbstractTag
             'Label' => 'True North',
         ),
     );
-
 }

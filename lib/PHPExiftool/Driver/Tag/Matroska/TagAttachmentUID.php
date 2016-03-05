@@ -39,5 +39,4 @@ class TagAttachmentUID extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Tag Attachment UID';
-
 }

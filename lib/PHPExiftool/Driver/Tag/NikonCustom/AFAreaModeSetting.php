@@ -100,5 +100,4 @@ class AFAreaModeSetting extends AbstractTag
             'Label' => '3D-tracking (11 points)',
         ),
     );
-
 }

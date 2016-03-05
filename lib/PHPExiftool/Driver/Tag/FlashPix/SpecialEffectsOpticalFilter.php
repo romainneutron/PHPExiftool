@@ -70,5 +70,4 @@ class SpecialEffectsOpticalFilter extends AbstractTag
             'Label' => 'Star',
         ),
     );
-
 }

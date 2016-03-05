@@ -39,5 +39,4 @@ class ProjectionEponymousNameCodeSeq extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Projection Eponymous Name Code Seq';
-
 }

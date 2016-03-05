@@ -56,5 +56,4 @@ class LocationRole extends AbstractTag
             'Label' => 'Fictional Location',
         ),
     );
-
 }

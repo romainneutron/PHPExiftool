@@ -39,5 +39,4 @@ class PrintPriority extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Print Priority';
-
 }

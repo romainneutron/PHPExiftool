@@ -39,5 +39,4 @@ class MappingScheme extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Mapping Scheme';
-
 }

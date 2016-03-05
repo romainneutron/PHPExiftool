@@ -60,5 +60,4 @@ class AFAssistLamp extends AbstractTag
             'Label' => 'Disabled and Not Required',
         ),
     );
-
 }

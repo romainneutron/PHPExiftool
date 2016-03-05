@@ -41,5 +41,4 @@ class MiniatureFilterParameter extends AbstractTag
     protected $Description = 'Miniature Filter Parameter';
 
     protected $flag_Permanent = true;
-
 }

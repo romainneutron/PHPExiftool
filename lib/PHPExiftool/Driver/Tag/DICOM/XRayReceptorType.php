@@ -39,5 +39,4 @@ class XRayReceptorType extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'X Ray Receptor Type';
-
 }

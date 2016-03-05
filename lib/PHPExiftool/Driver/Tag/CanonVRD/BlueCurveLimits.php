@@ -41,5 +41,4 @@ class BlueCurveLimits extends AbstractTag
     protected $Description = 'Blue Curve Limits';
 
     protected $MaxLength = 4;
-
 }

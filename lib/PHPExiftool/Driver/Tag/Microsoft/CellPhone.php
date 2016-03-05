@@ -39,5 +39,4 @@ class CellPhone extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Cell Phone';
-
 }

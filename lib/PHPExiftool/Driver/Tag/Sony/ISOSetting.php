@@ -52,5 +52,4 @@ class ISOSetting extends AbstractTag
             'Label' => 'n/a',
         ),
     );
-
 }

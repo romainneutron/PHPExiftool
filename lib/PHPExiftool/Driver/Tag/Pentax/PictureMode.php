@@ -526,5 +526,4 @@ class PictureMode extends AbstractTag
     );
 
     protected $MaxLength = 'mixed';
-
 }

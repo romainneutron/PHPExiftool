@@ -94,5 +94,4 @@ class AudioEncoding extends AbstractTag
             'Label' => 'Device-specific sound',
         ),
     );
-
 }

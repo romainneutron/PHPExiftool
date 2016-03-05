@@ -50,5 +50,4 @@ class ToneCurveOriginal extends AbstractTag
             'Label' => 'Yes',
         ),
     );
-
 }

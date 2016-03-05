@@ -39,5 +39,4 @@ class DCTEncodeVersion extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'DCT Encode Version';
-
 }

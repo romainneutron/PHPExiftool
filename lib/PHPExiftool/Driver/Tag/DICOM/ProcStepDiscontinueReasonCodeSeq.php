@@ -39,5 +39,4 @@ class ProcStepDiscontinueReasonCodeSeq extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Proc Step Discontinue Reason Code Seq';
-
 }

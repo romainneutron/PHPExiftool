@@ -39,5 +39,4 @@ class BusinessAddress extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Business Address';
-
 }

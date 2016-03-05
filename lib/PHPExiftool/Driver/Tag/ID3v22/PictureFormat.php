@@ -41,5 +41,4 @@ class PictureFormat extends AbstractTag
     protected $Description = 'Picture Format';
 
     protected $local_g2 = 'Image';
-
 }

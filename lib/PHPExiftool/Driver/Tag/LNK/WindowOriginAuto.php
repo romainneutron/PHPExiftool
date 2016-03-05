@@ -39,5 +39,4 @@ class WindowOriginAuto extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Window Origin Auto';
-
 }

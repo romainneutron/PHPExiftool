@@ -52,5 +52,4 @@ class CenterAFArea extends AbstractTag
             'Label' => 'Wide Zone',
         ),
     );
-
 }

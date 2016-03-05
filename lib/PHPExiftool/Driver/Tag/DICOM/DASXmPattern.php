@@ -39,5 +39,4 @@ class DASXmPattern extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'DAS Xm Pattern';
-
 }

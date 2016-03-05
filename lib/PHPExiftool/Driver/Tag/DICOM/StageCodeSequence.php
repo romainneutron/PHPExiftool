@@ -39,5 +39,4 @@ class StageCodeSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Stage Code Sequence';
-
 }

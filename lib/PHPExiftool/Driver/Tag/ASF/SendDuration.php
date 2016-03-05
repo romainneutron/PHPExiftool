@@ -39,5 +39,4 @@ class SendDuration extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Send Duration';
-
 }

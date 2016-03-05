@@ -41,5 +41,4 @@ class VersionsModifier extends AbstractTag
     protected $Description = 'Versions Modifier';
 
     protected $flag_List = true;
-
 }

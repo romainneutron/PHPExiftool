@@ -43,5 +43,4 @@ class MeterInfo1Row5 extends AbstractTag
     protected $flag_Permanent = true;
 
     protected $MaxLength = 27;
-
 }

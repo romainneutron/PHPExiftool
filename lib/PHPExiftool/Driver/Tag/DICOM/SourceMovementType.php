@@ -39,5 +39,4 @@ class SourceMovementType extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Source Movement Type';
-
 }

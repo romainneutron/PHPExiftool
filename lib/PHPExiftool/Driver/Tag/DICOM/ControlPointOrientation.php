@@ -39,5 +39,4 @@ class ControlPointOrientation extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Control Point Orientation';
-
 }

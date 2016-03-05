@@ -120,5 +120,4 @@ class VendorID extends AbstractTag
             'Label' => 'Sanyo',
         ),
     );
-
 }

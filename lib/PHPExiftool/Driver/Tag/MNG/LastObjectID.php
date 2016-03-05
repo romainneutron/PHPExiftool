@@ -39,5 +39,4 @@ class LastObjectID extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Last Object ID';
-
 }

@@ -94,5 +94,4 @@ class FileOS extends AbstractTag
             'Label' => 'Windows NT 32-bit',
         ),
     );
-
 }

@@ -39,5 +39,4 @@ class TIDOffset extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'TID Offset';
-
 }

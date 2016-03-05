@@ -54,5 +54,4 @@ class VideoColorSpace extends AbstractTag
             'Label' => 'sRGB',
         ),
     );
-
 }

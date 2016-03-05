@@ -39,5 +39,4 @@ class Impressions extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Impressions';
-
 }

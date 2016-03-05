@@ -41,5 +41,4 @@ class ToneLevel extends AbstractTag
     protected $Description = 'Tone Level';
 
     protected $flag_Permanent = true;
-
 }

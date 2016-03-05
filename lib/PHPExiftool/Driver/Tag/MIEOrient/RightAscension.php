@@ -39,5 +39,4 @@ class RightAscension extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Right Ascension';
-
 }

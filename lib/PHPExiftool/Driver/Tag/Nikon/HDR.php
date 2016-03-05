@@ -56,5 +56,4 @@ class HDR extends AbstractTag
             'Label' => 'Auto',
         ),
     );
-
 }

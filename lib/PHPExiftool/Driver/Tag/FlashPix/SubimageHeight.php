@@ -39,5 +39,4 @@ class SubimageHeight extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Subimage Height';
-
 }

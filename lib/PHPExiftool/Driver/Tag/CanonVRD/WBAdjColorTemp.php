@@ -39,5 +39,4 @@ class WBAdjColorTemp extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'WB Adj Color Temp';
-
 }

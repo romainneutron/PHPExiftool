@@ -41,5 +41,4 @@ class GEMake extends AbstractTag
     protected $Description = 'GE Make';
 
     protected $flag_Permanent = true;
-
 }

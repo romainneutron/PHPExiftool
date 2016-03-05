@@ -41,5 +41,4 @@ class WrapModes extends AbstractTag
     protected $Description = 'Wrap Modes';
 
     protected $local_g1 = 'ExifIFD';
-
 }

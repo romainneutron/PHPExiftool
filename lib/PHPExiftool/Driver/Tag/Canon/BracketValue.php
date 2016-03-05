@@ -41,5 +41,4 @@ class BracketValue extends AbstractTag
     protected $Description = 'Bracket Value';
 
     protected $flag_Permanent = true;
-
 }

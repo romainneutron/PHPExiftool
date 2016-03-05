@@ -41,5 +41,4 @@ class MakerNoteType extends AbstractTag
     protected $Description = 'Maker Note Type';
 
     protected $flag_Permanent = true;
-
 }

@@ -39,5 +39,4 @@ class CreatorWorkTelephone extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Creator Work Telephone';
-
 }

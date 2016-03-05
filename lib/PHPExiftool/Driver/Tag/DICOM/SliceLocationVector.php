@@ -39,5 +39,4 @@ class SliceLocationVector extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Slice Location Vector';
-
 }

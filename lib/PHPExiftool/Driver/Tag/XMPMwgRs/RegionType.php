@@ -60,5 +60,4 @@ class RegionType extends AbstractTag
             'Label' => 'Pet',
         ),
     );
-
 }

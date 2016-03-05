@@ -39,5 +39,4 @@ class MIC extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'MIC';
-
 }

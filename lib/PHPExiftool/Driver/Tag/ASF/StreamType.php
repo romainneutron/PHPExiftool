@@ -72,5 +72,4 @@ class StreamType extends AbstractTag
             'Label' => 'Audio',
         ),
     );
-
 }

@@ -39,5 +39,4 @@ class PartialViewCodeSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Partial View Code Sequence';
-
 }

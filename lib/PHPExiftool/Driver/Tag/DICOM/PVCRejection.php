@@ -39,5 +39,4 @@ class PVCRejection extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'PVC Rejection';
-
 }

@@ -39,5 +39,4 @@ class CaptionDescriptionSets extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Caption Description Sets';
-
 }

@@ -41,5 +41,4 @@ class StreamSampleRate extends AbstractTag
     protected $Description = 'Stream Sample Rate';
 
     protected $Index = 2;
-
 }

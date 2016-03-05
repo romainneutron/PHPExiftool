@@ -39,5 +39,4 @@ class PS2RenderingIntent extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'PS2 Rendering Intent';
-
 }

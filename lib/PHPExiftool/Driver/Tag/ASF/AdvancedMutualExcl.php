@@ -39,5 +39,4 @@ class AdvancedMutualExcl extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Advanced Mutual Excl';
-
 }

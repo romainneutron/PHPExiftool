@@ -52,5 +52,4 @@ class ProfileHueSatMapEncoding extends AbstractTag
             'Label' => 'sRGB',
         ),
     );
-
 }

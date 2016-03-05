@@ -52,5 +52,4 @@ class WhiteBalanceAutoAdjustment extends AbstractTag
             'Label' => 'On',
         ),
     );
-
 }

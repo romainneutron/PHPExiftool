@@ -39,5 +39,4 @@ class SocialProfile extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Social Profile';
-
 }

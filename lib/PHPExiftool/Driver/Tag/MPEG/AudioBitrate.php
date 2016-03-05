@@ -41,5 +41,4 @@ class AudioBitrate extends AbstractTag
     protected $Description = 'Audio Bitrate';
 
     protected $Index = 'mixed';
-
 }

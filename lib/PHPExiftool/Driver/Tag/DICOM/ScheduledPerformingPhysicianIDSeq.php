@@ -39,5 +39,4 @@ class ScheduledPerformingPhysicianIDSeq extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Scheduled Performing Physician ID Seq';
-
 }

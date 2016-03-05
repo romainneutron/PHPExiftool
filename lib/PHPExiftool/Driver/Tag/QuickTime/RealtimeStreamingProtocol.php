@@ -39,5 +39,4 @@ class RealtimeStreamingProtocol extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Realtime Streaming Protocol';
-
 }

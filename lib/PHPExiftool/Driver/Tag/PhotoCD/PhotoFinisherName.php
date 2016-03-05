@@ -41,5 +41,4 @@ class PhotoFinisherName extends AbstractTag
     protected $Description = 'Photo Finisher Name';
 
     protected $MaxLength = 60;
-
 }

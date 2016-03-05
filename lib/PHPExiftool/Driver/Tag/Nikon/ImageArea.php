@@ -72,5 +72,4 @@ class ImageArea extends AbstractTag
             'Label' => '5:4 (30.0 x 23.9 mm)',
         ),
     );
-
 }

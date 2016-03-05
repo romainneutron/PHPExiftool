@@ -39,5 +39,4 @@ class IncludeNonDICOMObjects extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Include Non DICOM Objects';
-
 }

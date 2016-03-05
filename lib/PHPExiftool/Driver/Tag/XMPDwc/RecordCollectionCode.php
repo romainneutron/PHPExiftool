@@ -39,5 +39,4 @@ class RecordCollectionCode extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Record Collection Code';
-
 }

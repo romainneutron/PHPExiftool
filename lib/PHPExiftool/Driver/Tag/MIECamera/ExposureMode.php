@@ -39,5 +39,4 @@ class ExposureMode extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Exposure Mode';
-
 }

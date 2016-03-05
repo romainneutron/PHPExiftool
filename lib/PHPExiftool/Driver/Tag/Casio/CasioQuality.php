@@ -60,5 +60,4 @@ class CasioQuality extends AbstractTag
             'Label' => 'Super Fine',
         ),
     );
-
 }

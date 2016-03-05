@@ -39,5 +39,4 @@ class ClassificationAndMarkingSystem extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Classification And Marking System';
-
 }

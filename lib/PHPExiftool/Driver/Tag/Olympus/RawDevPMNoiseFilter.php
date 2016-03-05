@@ -41,5 +41,4 @@ class RawDevPMNoiseFilter extends AbstractTag
     protected $Description = 'Raw Dev PM Noise Filter';
 
     protected $flag_Permanent = true;
-
 }

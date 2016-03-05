@@ -58,5 +58,4 @@ class IPTCImageRotation extends AbstractTag
             'Label' => 270,
         ),
     );
-
 }

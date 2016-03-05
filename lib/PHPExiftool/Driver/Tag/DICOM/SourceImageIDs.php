@@ -39,5 +39,4 @@ class SourceImageIDs extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Source Image I Ds';
-
 }

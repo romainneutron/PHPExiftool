@@ -39,5 +39,4 @@ class XRayTubeCurrentInMicroAmps extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'X Ray Tube Current In Micro Amps';
-
 }

@@ -39,5 +39,4 @@ class WhiteReferenceLevel extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'White Reference Level';
-
 }

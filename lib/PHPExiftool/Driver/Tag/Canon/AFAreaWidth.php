@@ -41,5 +41,4 @@ class AFAreaWidth extends AbstractTag
     protected $Description = 'AF Area Width';
 
     protected $flag_Permanent = true;
-
 }

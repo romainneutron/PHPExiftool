@@ -41,5 +41,4 @@ class FocalRange extends AbstractTag
     protected $Description = 'Focal Range';
 
     protected $flag_Permanent = true;
-
 }

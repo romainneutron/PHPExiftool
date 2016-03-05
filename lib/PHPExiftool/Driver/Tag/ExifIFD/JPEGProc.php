@@ -52,5 +52,4 @@ class JPEGProc extends AbstractTag
             'Label' => 'Lossless',
         ),
     );
-
 }

@@ -41,5 +41,4 @@ class ManifestPlacedResolutionUnit extends AbstractTag
     protected $Description = 'Manifest Placed Resolution Unit';
 
     protected $flag_List = true;
-
 }

@@ -39,5 +39,4 @@ class ReferencedOverlayPlaneGroups extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Referenced Overlay Plane Groups';
-
 }

@@ -54,5 +54,4 @@ class ISOExpansion extends AbstractTag
             'Label' => 'On',
         ),
     );
-
 }

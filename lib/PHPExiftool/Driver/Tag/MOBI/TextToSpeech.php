@@ -50,5 +50,4 @@ class TextToSpeech extends AbstractTag
             'Label' => 'Disabled',
         ),
     );
-
 }

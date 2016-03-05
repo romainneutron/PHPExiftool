@@ -39,5 +39,4 @@ class IntellectualPropertyLicenseRegionCode extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Intellectual Property License Region Code';
-
 }

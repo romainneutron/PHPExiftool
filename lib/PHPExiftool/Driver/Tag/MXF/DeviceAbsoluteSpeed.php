@@ -39,5 +39,4 @@ class DeviceAbsoluteSpeed extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Device Absolute Speed';
-
 }

@@ -39,5 +39,4 @@ class IconImageSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Icon Image Sequence';
-
 }

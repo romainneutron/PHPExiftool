@@ -39,5 +39,4 @@ class Kinds extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Kinds';
-
 }

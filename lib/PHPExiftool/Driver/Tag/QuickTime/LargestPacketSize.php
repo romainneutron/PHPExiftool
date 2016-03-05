@@ -39,5 +39,4 @@ class LargestPacketSize extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Largest Packet Size';
-
 }

@@ -41,5 +41,4 @@ class TracksTrackType extends AbstractTag
     protected $Description = 'Tracks Track Type';
 
     protected $flag_List = true;
-
 }

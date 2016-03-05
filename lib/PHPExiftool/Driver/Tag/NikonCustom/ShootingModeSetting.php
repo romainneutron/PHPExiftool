@@ -64,5 +64,4 @@ class ShootingModeSetting extends AbstractTag
             'Label' => 'Quick-response Remote',
         ),
     );
-
 }

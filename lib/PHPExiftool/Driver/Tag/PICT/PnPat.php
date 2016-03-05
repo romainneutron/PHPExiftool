@@ -41,5 +41,4 @@ class PnPat extends AbstractTag
     protected $Description = 'Pen Pattern';
 
     protected $MaxLength = 8;
-
 }

@@ -41,5 +41,4 @@ class ClipBoundary extends AbstractTag
     protected $Description = 'Clip Boundary';
 
     protected $MaxLength = 4;
-
 }

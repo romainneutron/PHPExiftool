@@ -39,5 +39,4 @@ class ExtenderMake extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Extender Make';
-
 }

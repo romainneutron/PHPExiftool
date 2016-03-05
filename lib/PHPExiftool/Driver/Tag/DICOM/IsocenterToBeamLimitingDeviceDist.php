@@ -39,5 +39,4 @@ class IsocenterToBeamLimitingDeviceDist extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Isocenter To Beam Limiting Device Dist';
-
 }

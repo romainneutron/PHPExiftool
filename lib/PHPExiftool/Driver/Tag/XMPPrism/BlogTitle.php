@@ -41,5 +41,4 @@ class BlogTitle extends AbstractTag
     protected $Description = 'Blog Title';
 
     protected $flag_Avoid = true;
-
 }

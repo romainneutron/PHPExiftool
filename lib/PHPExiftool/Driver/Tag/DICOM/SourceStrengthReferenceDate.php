@@ -39,5 +39,4 @@ class SourceStrengthReferenceDate extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Source Strength Reference Date';
-
 }

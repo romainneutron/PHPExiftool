@@ -52,5 +52,4 @@ class MultiSelector extends AbstractTag
             'Label' => 'Reset Meter-off Delay',
         ),
     );
-
 }

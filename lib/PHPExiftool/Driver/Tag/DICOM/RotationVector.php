@@ -39,5 +39,4 @@ class RotationVector extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Rotation Vector';
-
 }

@@ -41,5 +41,4 @@ class MaterialAbsoluteDuration extends AbstractTag
     protected $Description = 'Material Absolute Duration';
 
     protected $local_g2 = 'mixed';
-
 }

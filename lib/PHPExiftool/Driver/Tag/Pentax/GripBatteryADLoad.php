@@ -41,5 +41,4 @@ class GripBatteryADLoad extends AbstractTag
     protected $Description = 'Grip Battery A/D Load';
 
     protected $flag_Permanent = true;
-
 }

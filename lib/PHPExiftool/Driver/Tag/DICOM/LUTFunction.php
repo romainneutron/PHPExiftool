@@ -39,5 +39,4 @@ class LUTFunction extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'LUT Function';
-
 }

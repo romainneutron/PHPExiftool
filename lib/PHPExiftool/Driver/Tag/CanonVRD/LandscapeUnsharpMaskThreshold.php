@@ -39,5 +39,4 @@ class LandscapeUnsharpMaskThreshold extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Landscape Unsharp Mask Threshold';
-
 }

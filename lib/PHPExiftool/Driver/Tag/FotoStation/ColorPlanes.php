@@ -39,5 +39,4 @@ class ColorPlanes extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Color Planes';
-
 }

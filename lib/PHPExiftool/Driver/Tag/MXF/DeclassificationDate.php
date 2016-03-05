@@ -41,5 +41,4 @@ class DeclassificationDate extends AbstractTag
     protected $Description = 'Declassification Date';
 
     protected $local_g2 = 'Time';
-
 }

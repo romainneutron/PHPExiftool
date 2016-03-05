@@ -39,5 +39,4 @@ class GainDeadMapImage extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Gain Dead Map Image';
-
 }

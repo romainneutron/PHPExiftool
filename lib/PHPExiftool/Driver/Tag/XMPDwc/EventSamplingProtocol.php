@@ -39,5 +39,4 @@ class EventSamplingProtocol extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Event Sampling Protocol';
-
 }

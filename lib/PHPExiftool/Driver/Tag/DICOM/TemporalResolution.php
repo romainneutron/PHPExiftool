@@ -39,5 +39,4 @@ class TemporalResolution extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Temporal Resolution';
-
 }

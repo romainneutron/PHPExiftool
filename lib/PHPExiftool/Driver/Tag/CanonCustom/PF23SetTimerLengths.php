@@ -41,5 +41,4 @@ class PF23SetTimerLengths extends AbstractTag
     protected $Description = 'PF23 Set Timer Lengths';
 
     protected $flag_Permanent = true;
-
 }

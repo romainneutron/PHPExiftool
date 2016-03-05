@@ -39,5 +39,4 @@ class ItemTool extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Item Tool';
-
 }

@@ -39,5 +39,4 @@ class PhysicalUnitsYDirection extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Physical Units Y Direction';
-
 }

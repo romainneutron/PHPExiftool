@@ -41,5 +41,4 @@ class R2TL84BlueCtbl23 extends AbstractTag
     protected $Description = 'R2 TL84 Blue Ctbl 23';
 
     protected $flag_Permanent = true;
-
 }

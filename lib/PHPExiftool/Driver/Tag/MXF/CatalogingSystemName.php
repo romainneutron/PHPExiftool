@@ -39,5 +39,4 @@ class CatalogingSystemName extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Cataloging System Name';
-
 }

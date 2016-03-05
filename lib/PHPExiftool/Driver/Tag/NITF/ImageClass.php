@@ -50,5 +50,4 @@ class ImageClass extends AbstractTag
             'Label' => 'Tactical Imagery',
         ),
     );
-
 }

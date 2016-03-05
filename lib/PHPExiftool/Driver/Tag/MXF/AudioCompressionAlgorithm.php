@@ -41,5 +41,4 @@ class AudioCompressionAlgorithm extends AbstractTag
     protected $Description = 'Audio Compression Algorithm';
 
     protected $local_g2 = 'Audio';
-
 }

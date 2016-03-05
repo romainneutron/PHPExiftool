@@ -98,5 +98,4 @@ class DeltaType extends AbstractTag
             'Label' => 'Relative',
         ),
     );
-
 }

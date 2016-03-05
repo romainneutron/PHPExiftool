@@ -39,5 +39,4 @@ class TaxonRank extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Taxon Rank';
-
 }

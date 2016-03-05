@@ -39,5 +39,4 @@ class TotalNoOfRefChannels extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Total No Of Ref Channels';
-
 }

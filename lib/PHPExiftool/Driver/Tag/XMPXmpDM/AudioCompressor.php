@@ -39,5 +39,4 @@ class AudioCompressor extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Audio Compressor';
-
 }

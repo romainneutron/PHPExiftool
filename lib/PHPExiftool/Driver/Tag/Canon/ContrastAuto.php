@@ -48,5 +48,4 @@ class ContrastAuto extends AbstractTag
             'Label' => 'n/a',
         ),
     );
-
 }

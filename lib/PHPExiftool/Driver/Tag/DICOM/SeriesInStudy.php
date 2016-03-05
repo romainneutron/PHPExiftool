@@ -39,5 +39,4 @@ class SeriesInStudy extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Series In Study';
-
 }

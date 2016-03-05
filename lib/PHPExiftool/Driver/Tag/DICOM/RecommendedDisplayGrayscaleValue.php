@@ -39,5 +39,4 @@ class RecommendedDisplayGrayscaleValue extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Recommended Display Grayscale Value';
-
 }

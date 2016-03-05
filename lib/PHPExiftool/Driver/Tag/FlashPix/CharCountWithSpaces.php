@@ -39,5 +39,4 @@ class CharCountWithSpaces extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Char Count With Spaces';
-
 }

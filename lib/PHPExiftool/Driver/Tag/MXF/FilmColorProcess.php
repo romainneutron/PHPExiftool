@@ -39,5 +39,4 @@ class FilmColorProcess extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Film Color Process';
-
 }

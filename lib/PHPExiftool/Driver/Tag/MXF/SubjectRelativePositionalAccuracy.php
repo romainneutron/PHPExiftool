@@ -39,5 +39,4 @@ class SubjectRelativePositionalAccuracy extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Subject Relative Positional Accuracy';
-
 }

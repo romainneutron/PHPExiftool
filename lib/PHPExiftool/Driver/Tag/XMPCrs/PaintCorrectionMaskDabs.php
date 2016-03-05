@@ -39,5 +39,4 @@ class PaintCorrectionMaskDabs extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Paint Correction Mask Dabs';
-
 }

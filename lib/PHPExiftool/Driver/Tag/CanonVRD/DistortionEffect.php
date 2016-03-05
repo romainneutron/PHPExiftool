@@ -62,5 +62,4 @@ class DistortionEffect extends AbstractTag
             'Label' => 'Emphasize Center',
         ),
     );
-
 }

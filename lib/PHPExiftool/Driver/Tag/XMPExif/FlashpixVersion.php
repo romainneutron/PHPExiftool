@@ -39,5 +39,4 @@ class FlashpixVersion extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Flashpix Version';
-
 }

@@ -39,5 +39,4 @@ class SegmentationFractionalType extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Segmentation Fractional Type';
-
 }

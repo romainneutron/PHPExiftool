@@ -41,5 +41,4 @@ class Acknowledged extends AbstractTag
     protected $Description = 'Acknowledged';
 
     protected $local_g2 = 'Time';
-
 }

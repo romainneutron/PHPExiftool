@@ -60,5 +60,4 @@ class Sharpness extends AbstractTag
     );
 
     protected $flag_Avoid = 'mixed';
-
 }

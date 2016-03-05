@@ -39,5 +39,4 @@ class WaveformPresentationGroupSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Waveform Presentation Group Sequence';
-
 }

@@ -58,5 +58,4 @@ class ImageOrientation extends AbstractTag
             'Label' => 'Square',
         ),
     );
-
 }

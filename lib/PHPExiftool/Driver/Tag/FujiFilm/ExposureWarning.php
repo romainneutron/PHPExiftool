@@ -52,5 +52,4 @@ class ExposureWarning extends AbstractTag
             'Label' => 'Bad exposure',
         ),
     );
-
 }

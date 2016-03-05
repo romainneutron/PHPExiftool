@@ -41,5 +41,4 @@ class AWBIndoorSampleInfluence extends AbstractTag
     protected $Description = 'AWB Indoor Sample Influence';
 
     protected $flag_Permanent = true;
-
 }

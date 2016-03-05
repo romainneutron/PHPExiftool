@@ -41,5 +41,4 @@ class CalibrationDateTime extends AbstractTag
     protected $Description = 'Calibration Date Time';
 
     protected $local_g2 = 'Time';
-
 }

@@ -39,5 +39,4 @@ class OverriddenAttributesSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Overridden Attributes Sequence';
-
 }

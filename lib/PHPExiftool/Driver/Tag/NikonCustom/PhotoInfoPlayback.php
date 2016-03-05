@@ -60,5 +60,4 @@ class PhotoInfoPlayback extends AbstractTag
             'Label' => 'On',
         ),
     );
-
 }

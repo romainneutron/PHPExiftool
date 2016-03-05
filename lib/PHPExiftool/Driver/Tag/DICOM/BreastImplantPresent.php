@@ -39,5 +39,4 @@ class BreastImplantPresent extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Breast Implant Present';
-
 }

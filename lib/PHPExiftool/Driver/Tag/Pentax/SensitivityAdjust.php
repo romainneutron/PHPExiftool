@@ -41,5 +41,4 @@ class SensitivityAdjust extends AbstractTag
     protected $Description = 'Sensitivity Adjust';
 
     protected $flag_Permanent = true;
-
 }

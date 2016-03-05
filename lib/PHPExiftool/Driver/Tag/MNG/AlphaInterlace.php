@@ -46,5 +46,4 @@ class AlphaInterlace extends AbstractTag
             'Label' => 'Noninterlaced',
         ),
     );
-
 }

@@ -39,5 +39,4 @@ class DistanceSourceToDetector extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Distance Source To Detector';
-
 }

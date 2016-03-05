@@ -39,5 +39,4 @@ class LayerSelectionIDs extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Layer Selection IDs';
-
 }

@@ -39,5 +39,4 @@ class TubeAngle extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Tube Angle';
-
 }

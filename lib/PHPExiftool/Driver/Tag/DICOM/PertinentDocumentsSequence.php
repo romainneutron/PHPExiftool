@@ -39,5 +39,4 @@ class PertinentDocumentsSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Pertinent Documents Sequence';
-
 }

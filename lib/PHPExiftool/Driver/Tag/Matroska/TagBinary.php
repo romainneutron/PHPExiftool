@@ -41,5 +41,4 @@ class TagBinary extends AbstractTag
     protected $Description = 'Tag Binary';
 
     protected $flag_Binary = true;
-
 }

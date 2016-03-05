@@ -39,5 +39,4 @@ class StartingChannelOfView extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Starting Channel Of View';
-
 }

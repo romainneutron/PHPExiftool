@@ -72,5 +72,4 @@ class AddAspectRatioInfo extends AbstractTag
             'Label' => '5:7',
         ),
     );
-
 }

@@ -39,5 +39,4 @@ class ReplyTo extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Reply To';
-
 }

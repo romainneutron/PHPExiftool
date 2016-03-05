@@ -39,5 +39,4 @@ class JPEGDigest extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'JPEG Digest';
-
 }

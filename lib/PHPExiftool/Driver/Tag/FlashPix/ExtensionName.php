@@ -39,5 +39,4 @@ class ExtensionName extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Extension Name';
-
 }

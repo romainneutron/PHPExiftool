@@ -39,5 +39,4 @@ class NielsenStreamIdentifier extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Nielsen Stream Identifier';
-
 }

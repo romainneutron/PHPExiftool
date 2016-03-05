@@ -39,5 +39,4 @@ class StreamPositionIndicator extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Stream Position Indicator';
-
 }

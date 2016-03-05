@@ -128,5 +128,4 @@ class DriveMode extends AbstractTag
             'Label' => 'White Balance Bracketing High',
         ),
     );
-
 }

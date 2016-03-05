@@ -41,5 +41,4 @@ class EIssn extends AbstractTag
     protected $Description = 'E Issn';
 
     protected $flag_Avoid = true;
-
 }

@@ -39,5 +39,4 @@ class NonUSClassifyingCountryCode extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Non-US Classifying Country Code';
-
 }

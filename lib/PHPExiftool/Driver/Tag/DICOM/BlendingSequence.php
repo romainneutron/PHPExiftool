@@ -39,5 +39,4 @@ class BlendingSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Blending Sequence';
-
 }

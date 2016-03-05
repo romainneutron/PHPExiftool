@@ -39,5 +39,4 @@ class PanasonicTitle2 extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Panasonic Title 2';
-
 }

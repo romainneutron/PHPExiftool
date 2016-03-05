@@ -39,5 +39,4 @@ class GridPeriod extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Grid Period';
-
 }

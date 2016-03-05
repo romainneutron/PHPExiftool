@@ -41,5 +41,4 @@ class RepeatingFlashRateExternal extends AbstractTag
     protected $Description = 'Repeating Flash Rate External';
 
     protected $flag_Permanent = true;
-
 }

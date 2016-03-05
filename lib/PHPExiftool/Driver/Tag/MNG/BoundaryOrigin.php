@@ -50,5 +50,4 @@ class BoundaryOrigin extends AbstractTag
             'Label' => 'Target Origin',
         ),
     );
-
 }

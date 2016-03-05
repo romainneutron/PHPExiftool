@@ -52,5 +52,4 @@ class DistortionControl extends AbstractTag
             'Label' => 'On',
         ),
     );
-
 }

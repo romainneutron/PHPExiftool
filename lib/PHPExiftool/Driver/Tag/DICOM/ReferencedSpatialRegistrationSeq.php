@@ -39,5 +39,4 @@ class ReferencedSpatialRegistrationSeq extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Referenced Spatial Registration Seq';
-
 }

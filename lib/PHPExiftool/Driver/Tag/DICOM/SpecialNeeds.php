@@ -39,5 +39,4 @@ class SpecialNeeds extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Special Needs';
-
 }

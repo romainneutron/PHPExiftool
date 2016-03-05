@@ -50,5 +50,4 @@ class AlphaCompression extends AbstractTag
             'Label' => 'Lossless',
         ),
     );
-
 }

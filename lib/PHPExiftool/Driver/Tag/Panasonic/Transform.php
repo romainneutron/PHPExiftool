@@ -66,5 +66,4 @@ class Transform extends AbstractTag
             'Label' => 'Stretch High',
         ),
     );
-
 }

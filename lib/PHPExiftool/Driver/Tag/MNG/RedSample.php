@@ -39,5 +39,4 @@ class RedSample extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Red Sample';
-
 }

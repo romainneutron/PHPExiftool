@@ -39,5 +39,4 @@ class StdOutputBitDepth extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Std Output Bit Depth';
-
 }

@@ -39,5 +39,4 @@ class NeutralRawShadowPoint extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Neutral Raw Shadow Point';
-
 }

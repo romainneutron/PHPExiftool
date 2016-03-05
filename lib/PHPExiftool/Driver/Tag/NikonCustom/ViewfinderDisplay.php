@@ -60,5 +60,4 @@ class ViewfinderDisplay extends AbstractTag
             'Label' => 'Exposures Remaining',
         ),
     );
-
 }

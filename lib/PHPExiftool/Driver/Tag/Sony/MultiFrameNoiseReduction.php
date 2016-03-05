@@ -88,5 +88,4 @@ class MultiFrameNoiseReduction extends AbstractTag
             'Label' => 'None',
         ),
     );
-
 }

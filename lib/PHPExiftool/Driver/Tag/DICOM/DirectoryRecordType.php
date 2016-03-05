@@ -39,5 +39,4 @@ class DirectoryRecordType extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Directory Record Type';
-
 }

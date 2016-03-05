@@ -39,5 +39,4 @@ class PlaneOrientationSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Plane Orientation Sequence';
-
 }

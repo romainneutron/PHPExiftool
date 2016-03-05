@@ -41,5 +41,4 @@ class FlashGroupCOutput extends AbstractTag
     protected $Description = 'Flash Group C Output';
 
     protected $flag_Permanent = true;
-
 }

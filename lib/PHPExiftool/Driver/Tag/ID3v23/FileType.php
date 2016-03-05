@@ -39,5 +39,4 @@ class FileType extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'File Type';
-
 }

@@ -39,5 +39,4 @@ class AudienceShare extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Audience Share';
-
 }

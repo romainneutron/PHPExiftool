@@ -41,5 +41,4 @@ class AvgBitrate extends AbstractTag
     protected $Description = 'Avg Bitrate';
 
     protected $local_g2 = 'Video';
-
 }

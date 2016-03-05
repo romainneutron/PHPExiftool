@@ -39,5 +39,4 @@ class DataOffsets extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Data Offsets';
-
 }

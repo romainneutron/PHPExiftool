@@ -39,5 +39,4 @@ class PlatformDesignation extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Platform Designation';
-
 }

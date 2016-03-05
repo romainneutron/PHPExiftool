@@ -39,5 +39,4 @@ class SourceClip extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Source Clip';
-
 }

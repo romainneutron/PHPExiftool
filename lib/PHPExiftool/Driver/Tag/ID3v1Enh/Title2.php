@@ -41,5 +41,4 @@ class Title2 extends AbstractTag
     protected $Description = 'Title 2';
 
     protected $MaxLength = 60;
-
 }

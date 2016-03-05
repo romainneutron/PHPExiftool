@@ -39,5 +39,4 @@ class OverlayRepeatInterval extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Overlay Repeat Interval';
-
 }

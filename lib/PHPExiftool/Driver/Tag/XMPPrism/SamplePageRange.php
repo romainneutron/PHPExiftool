@@ -41,5 +41,4 @@ class SamplePageRange extends AbstractTag
     protected $Description = 'Sample Page Range';
 
     protected $flag_Avoid = true;
-
 }

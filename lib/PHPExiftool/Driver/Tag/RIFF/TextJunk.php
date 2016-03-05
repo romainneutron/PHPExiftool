@@ -41,5 +41,4 @@ class TextJunk extends AbstractTag
     protected $Description = 'Text Junk';
 
     protected $Index = 5;
-
 }

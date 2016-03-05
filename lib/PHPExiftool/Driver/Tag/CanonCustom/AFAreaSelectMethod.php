@@ -52,5 +52,4 @@ class AFAreaSelectMethod extends AbstractTag
             'Label' => 'Main dial',
         ),
     );
-
 }

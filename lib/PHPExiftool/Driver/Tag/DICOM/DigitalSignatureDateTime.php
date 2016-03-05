@@ -39,5 +39,4 @@ class DigitalSignatureDateTime extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Digital Signature Date Time';
-
 }

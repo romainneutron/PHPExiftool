@@ -39,5 +39,4 @@ class ZTrackingMaximumError extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Z Tracking Maximum Error';
-
 }

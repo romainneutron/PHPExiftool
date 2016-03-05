@@ -80,5 +80,4 @@ class DriveMode2 extends AbstractTag
             'Label' => 'Multiple Exposure',
         ),
     );
-
 }

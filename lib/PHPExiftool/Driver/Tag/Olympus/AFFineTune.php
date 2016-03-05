@@ -52,5 +52,4 @@ class AFFineTune extends AbstractTag
             'Label' => 'On',
         ),
     );
-
 }

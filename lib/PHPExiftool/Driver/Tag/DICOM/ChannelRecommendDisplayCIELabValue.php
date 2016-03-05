@@ -39,5 +39,4 @@ class ChannelRecommendDisplayCIELabValue extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Channel Recommend Display CIE Lab Value';
-
 }

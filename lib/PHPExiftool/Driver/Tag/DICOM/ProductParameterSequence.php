@@ -39,5 +39,4 @@ class ProductParameterSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Product Parameter Sequence';
-
 }

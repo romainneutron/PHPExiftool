@@ -41,5 +41,4 @@ class MPImage extends AbstractTag
     protected $Description = 'MP Image';
 
     protected $local_g2 = 'Preview';
-
 }

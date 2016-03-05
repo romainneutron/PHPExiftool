@@ -39,5 +39,4 @@ class RenditionOf extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Rendition Of';
-
 }

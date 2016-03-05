@@ -39,5 +39,4 @@ class OriginPathInfo extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Origin Path Info';
-
 }

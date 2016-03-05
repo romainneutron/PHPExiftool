@@ -39,5 +39,4 @@ class AdmissionID extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Admission ID';
-
 }

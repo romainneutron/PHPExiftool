@@ -60,5 +60,4 @@ class LCDPanels extends AbstractTag
             'Label' => 'Shots in folder/Remain. shots',
         ),
     );
-
 }

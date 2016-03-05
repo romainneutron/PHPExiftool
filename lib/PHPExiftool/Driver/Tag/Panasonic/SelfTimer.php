@@ -60,5 +60,4 @@ class SelfTimer extends AbstractTag
             'Label' => '10 s / 3 pictures',
         ),
     );
-
 }

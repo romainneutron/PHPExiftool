@@ -39,5 +39,4 @@ class HangingProtocolUserIDCodeSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Hanging Protocol User ID Code Sequence';
-
 }

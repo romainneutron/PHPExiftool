@@ -39,5 +39,4 @@ class ComponentMapping extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Component Mapping';
-
 }

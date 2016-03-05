@@ -76,5 +76,4 @@ class CanonExposureMode extends AbstractTag
             'Label' => 'Bulb',
         ),
     );
-
 }

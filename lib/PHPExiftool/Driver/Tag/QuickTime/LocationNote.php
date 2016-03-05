@@ -41,5 +41,4 @@ class LocationNote extends AbstractTag
     protected $Description = 'Location Note';
 
     protected $local_g2 = 'Location';
-
 }

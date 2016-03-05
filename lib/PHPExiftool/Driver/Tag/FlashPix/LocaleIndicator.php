@@ -41,5 +41,4 @@ class LocaleIndicator extends AbstractTag
     protected $Description = 'Locale Indicator';
 
     protected $local_g2 = 'Other';
-
 }

@@ -41,5 +41,4 @@ class BurstSpeed extends AbstractTag
     protected $Description = 'Burst Speed';
 
     protected $flag_Permanent = true;
-
 }

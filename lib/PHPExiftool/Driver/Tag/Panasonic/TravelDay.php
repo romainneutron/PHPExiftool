@@ -41,5 +41,4 @@ class TravelDay extends AbstractTag
     protected $Description = 'Travel Day';
 
     protected $flag_Permanent = true;
-
 }

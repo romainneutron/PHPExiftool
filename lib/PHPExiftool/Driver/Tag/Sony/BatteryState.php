@@ -84,5 +84,4 @@ class BatteryState extends AbstractTag
             'Label' => 'Full',
         ),
     );
-
 }

@@ -56,5 +56,4 @@ class PowerSource extends AbstractTag
             'Label' => 'External Power Supply',
         ),
     );
-
 }

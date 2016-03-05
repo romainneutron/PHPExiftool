@@ -39,5 +39,4 @@ class FlashCompensation extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Flash Compensation';
-
 }

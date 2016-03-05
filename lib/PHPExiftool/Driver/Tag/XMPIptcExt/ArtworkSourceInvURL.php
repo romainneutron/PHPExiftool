@@ -41,5 +41,4 @@ class ArtworkSourceInvURL extends AbstractTag
     protected $Description = 'Artwork Source Inv URL';
 
     protected $flag_List = true;
-
 }

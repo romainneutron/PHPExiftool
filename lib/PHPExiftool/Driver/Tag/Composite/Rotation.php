@@ -41,5 +41,4 @@ class Rotation extends AbstractTag
     protected $Description = 'Rotation';
 
     protected $local_g2 = 'Video';
-
 }

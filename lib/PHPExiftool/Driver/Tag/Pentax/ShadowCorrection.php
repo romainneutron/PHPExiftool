@@ -76,5 +76,4 @@ class ShadowCorrection extends AbstractTag
             'Label' => 'Auto',
         ),
     );
-
 }

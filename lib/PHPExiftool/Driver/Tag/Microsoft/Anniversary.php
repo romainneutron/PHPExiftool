@@ -39,5 +39,4 @@ class Anniversary extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Anniversary';
-
 }

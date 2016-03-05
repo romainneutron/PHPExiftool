@@ -41,5 +41,4 @@ class ChannelSubchannel3 extends AbstractTag
     protected $Description = 'Channel Subchannel 3';
 
     protected $flag_List = true;
-
 }

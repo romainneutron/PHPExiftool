@@ -39,5 +39,4 @@ class WindowsDEVMODE extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Windows DEVMODE';
-
 }

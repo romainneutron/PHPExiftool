@@ -39,5 +39,4 @@ class CountryOfResidence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Country Of Residence';
-
 }

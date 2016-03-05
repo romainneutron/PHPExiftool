@@ -39,5 +39,4 @@ class AssociatedMetadataDefinition extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Associated Metadata Definition';
-
 }

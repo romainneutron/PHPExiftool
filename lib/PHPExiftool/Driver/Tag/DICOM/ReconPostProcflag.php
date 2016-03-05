@@ -39,5 +39,4 @@ class ReconPostProcflag extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Recon Post Procflag';
-
 }

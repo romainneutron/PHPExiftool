@@ -39,5 +39,4 @@ class HumanPerformersOrganization extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Human Performers Organization';
-
 }

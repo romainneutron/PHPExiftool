@@ -156,5 +156,4 @@ class SequenceLength extends AbstractTag
             'Label' => '10 files',
         ),
     );
-
 }

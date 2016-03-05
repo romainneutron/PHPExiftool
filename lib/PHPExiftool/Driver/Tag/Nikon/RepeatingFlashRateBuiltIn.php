@@ -41,5 +41,4 @@ class RepeatingFlashRateBuiltIn extends AbstractTag
     protected $Description = 'Repeating Flash Rate Built-in';
 
     protected $flag_Permanent = true;
-
 }

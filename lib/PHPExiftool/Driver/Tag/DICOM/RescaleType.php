@@ -39,5 +39,4 @@ class RescaleType extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Rescale Type';
-
 }

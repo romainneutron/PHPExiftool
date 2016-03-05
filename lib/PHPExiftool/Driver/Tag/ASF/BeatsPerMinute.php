@@ -39,5 +39,4 @@ class BeatsPerMinute extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Beats Per Minute';
-
 }

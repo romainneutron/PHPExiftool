@@ -39,5 +39,4 @@ class ScheduledProcedureStepLocation extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Scheduled Procedure Step Location';
-
 }

@@ -39,5 +39,4 @@ class TotalCurrencyAmount extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Total Currency Amount';
-
 }

@@ -41,5 +41,4 @@ class Unsharp2Threshold extends AbstractTag
     protected $Description = 'Unsharp 2 Threshold';
 
     protected $flag_Permanent = true;
-
 }

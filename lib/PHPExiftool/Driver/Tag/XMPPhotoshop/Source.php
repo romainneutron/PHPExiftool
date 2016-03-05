@@ -41,5 +41,4 @@ class Source extends AbstractTag
     protected $Description = 'Source';
 
     protected $local_g2 = 'Author';
-
 }

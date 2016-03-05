@@ -39,5 +39,4 @@ class ExposureControlMode extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Exposure Control Mode';
-
 }

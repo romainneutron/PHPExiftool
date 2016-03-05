@@ -39,5 +39,4 @@ class ZipUncompressedSize extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Zip Uncompressed Size';
-
 }

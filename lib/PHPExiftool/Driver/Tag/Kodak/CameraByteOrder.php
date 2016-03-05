@@ -52,5 +52,4 @@ class CameraByteOrder extends AbstractTag
             'Label' => 'Big-endian (Motorola, MM)',
         ),
     );
-
 }

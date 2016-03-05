@@ -39,5 +39,4 @@ class StudyVerifiedTime extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Study Verified Time';
-
 }

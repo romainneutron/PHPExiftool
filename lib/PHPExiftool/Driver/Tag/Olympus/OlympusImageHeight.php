@@ -41,5 +41,4 @@ class OlympusImageHeight extends AbstractTag
     protected $Description = 'Olympus Image Height';
 
     protected $flag_Permanent = true;
-
 }

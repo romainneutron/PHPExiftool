@@ -39,5 +39,4 @@ class IntervalsAcquired extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Intervals Acquired';
-
 }

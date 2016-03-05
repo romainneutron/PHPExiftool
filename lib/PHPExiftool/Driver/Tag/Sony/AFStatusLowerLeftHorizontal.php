@@ -52,5 +52,4 @@ class AFStatusLowerLeftHorizontal extends AbstractTag
             'Label' => 'In Focus',
         ),
     );
-
 }

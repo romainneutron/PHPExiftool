@@ -39,5 +39,4 @@ class LateralSpreadingDevWaterEquivThick extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Lateral Spreading Dev Water Equiv Thick';
-
 }

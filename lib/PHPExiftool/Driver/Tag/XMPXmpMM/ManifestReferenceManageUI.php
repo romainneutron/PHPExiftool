@@ -41,5 +41,4 @@ class ManifestReferenceManageUI extends AbstractTag
     protected $Description = 'Manifest Reference Manage UI';
 
     protected $flag_List = true;
-
 }

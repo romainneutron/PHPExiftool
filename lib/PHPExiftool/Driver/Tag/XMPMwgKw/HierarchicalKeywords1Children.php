@@ -43,5 +43,4 @@ class HierarchicalKeywords1Children extends AbstractTag
     protected $flag_List = true;
 
     protected $flag_Bag = true;
-
 }

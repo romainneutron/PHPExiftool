@@ -41,5 +41,4 @@ class AudioCodingSchemeCode extends AbstractTag
     protected $Description = 'Audio Coding Scheme Code';
 
     protected $local_g2 = 'Audio';
-
 }

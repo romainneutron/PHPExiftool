@@ -39,5 +39,4 @@ class ExifImageWidth extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Exif Image Width';
-
 }

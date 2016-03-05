@@ -39,5 +39,4 @@ class VisitStatusID extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Visit Status ID';
-
 }

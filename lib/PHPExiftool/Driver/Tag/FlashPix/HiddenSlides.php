@@ -39,5 +39,4 @@ class HiddenSlides extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Hidden Slides';
-
 }

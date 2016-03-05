@@ -39,5 +39,4 @@ class XPKeywords extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'XP Keywords';
-
 }

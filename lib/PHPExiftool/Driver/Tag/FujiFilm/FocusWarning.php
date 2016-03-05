@@ -52,5 +52,4 @@ class FocusWarning extends AbstractTag
             'Label' => 'Out of focus',
         ),
     );
-
 }

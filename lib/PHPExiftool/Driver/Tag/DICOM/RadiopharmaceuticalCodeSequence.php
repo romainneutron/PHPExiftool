@@ -39,5 +39,4 @@ class RadiopharmaceuticalCodeSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Radiopharmaceutical Code Sequence';
-
 }

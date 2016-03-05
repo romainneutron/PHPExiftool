@@ -41,5 +41,4 @@ class ASF3EdgeDetect extends AbstractTag
     protected $Description = 'ASF3 Edge Detect';
 
     protected $flag_Permanent = true;
-
 }

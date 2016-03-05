@@ -76,5 +76,4 @@ class SensingMethod extends AbstractTag
             'Label' => 'Color sequential linear',
         ),
     );
-
 }

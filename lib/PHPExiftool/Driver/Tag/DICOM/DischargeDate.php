@@ -39,5 +39,4 @@ class DischargeDate extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Discharge Date';
-
 }

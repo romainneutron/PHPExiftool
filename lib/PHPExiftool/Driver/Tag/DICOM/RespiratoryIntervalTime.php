@@ -39,5 +39,4 @@ class RespiratoryIntervalTime extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Respiratory Interval Time';
-
 }

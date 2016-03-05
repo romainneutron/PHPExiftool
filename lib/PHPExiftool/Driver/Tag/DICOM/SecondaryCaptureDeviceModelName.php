@@ -39,5 +39,4 @@ class SecondaryCaptureDeviceModelName extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Secondary Capture Device Model Name';
-
 }

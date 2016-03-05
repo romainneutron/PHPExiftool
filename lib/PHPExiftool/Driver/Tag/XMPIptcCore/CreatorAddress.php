@@ -39,5 +39,4 @@ class CreatorAddress extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Creator Address';
-
 }

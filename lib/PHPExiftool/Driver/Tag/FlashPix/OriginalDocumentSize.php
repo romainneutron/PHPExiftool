@@ -39,5 +39,4 @@ class OriginalDocumentSize extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Original Document Size';
-
 }

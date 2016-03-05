@@ -39,5 +39,4 @@ class OverlayCompressionCode extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Overlay Compression Code';
-
 }

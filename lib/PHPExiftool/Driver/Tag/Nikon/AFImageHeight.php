@@ -41,5 +41,4 @@ class AFImageHeight extends AbstractTag
     protected $Description = 'AF Image Height';
 
     protected $flag_Permanent = true;
-
 }

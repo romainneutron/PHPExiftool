@@ -41,5 +41,4 @@ class Tagged extends AbstractTag
     protected $Description = 'Tagged';
 
     protected $flag_Avoid = true;
-
 }

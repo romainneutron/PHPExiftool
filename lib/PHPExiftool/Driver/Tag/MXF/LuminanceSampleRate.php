@@ -39,5 +39,4 @@ class LuminanceSampleRate extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Luminance Sample Rate';
-
 }

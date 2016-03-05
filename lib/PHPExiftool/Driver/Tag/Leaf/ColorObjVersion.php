@@ -39,5 +39,4 @@ class ColorObjVersion extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Color Obj Version';
-
 }

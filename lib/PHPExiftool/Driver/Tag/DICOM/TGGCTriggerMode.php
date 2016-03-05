@@ -39,5 +39,4 @@ class TGGCTriggerMode extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'TGGC Trigger Mode';
-
 }

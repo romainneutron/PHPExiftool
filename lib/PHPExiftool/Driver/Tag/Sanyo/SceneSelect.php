@@ -72,5 +72,4 @@ class SceneSelect extends AbstractTag
             'Label' => 'Lamp',
         ),
     );
-
 }

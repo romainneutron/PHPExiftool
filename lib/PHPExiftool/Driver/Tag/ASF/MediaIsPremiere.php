@@ -39,5 +39,4 @@ class MediaIsPremiere extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Media Is Premiere';
-
 }

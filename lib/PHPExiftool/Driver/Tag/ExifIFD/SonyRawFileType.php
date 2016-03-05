@@ -60,5 +60,4 @@ class SonyRawFileType extends AbstractTag
             'Label' => 'Sony Lossless Compressed RAW',
         ),
     );
-
 }

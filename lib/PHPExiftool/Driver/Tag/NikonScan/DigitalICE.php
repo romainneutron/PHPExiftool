@@ -41,5 +41,4 @@ class DigitalICE extends AbstractTag
     protected $Description = 'Digital ICE';
 
     protected $flag_Permanent = true;
-
 }

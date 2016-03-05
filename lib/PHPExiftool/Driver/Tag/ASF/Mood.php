@@ -39,5 +39,4 @@ class Mood extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Mood';
-
 }

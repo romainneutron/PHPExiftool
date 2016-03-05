@@ -39,5 +39,4 @@ class NoViewsRefChansBlocked extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'No Views Ref Chans Blocked';
-
 }

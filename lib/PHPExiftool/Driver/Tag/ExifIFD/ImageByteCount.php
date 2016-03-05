@@ -41,5 +41,4 @@ class ImageByteCount extends AbstractTag
     protected $Description = 'Image Byte Count';
 
     protected $local_g1 = 'ExifIFD';
-
 }

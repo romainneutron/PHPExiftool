@@ -39,5 +39,4 @@ class OtherPOBox extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Other PO Box';
-
 }

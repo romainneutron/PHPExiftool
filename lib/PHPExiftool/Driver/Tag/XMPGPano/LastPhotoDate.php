@@ -41,5 +41,4 @@ class LastPhotoDate extends AbstractTag
     protected $Description = 'Last Photo Date';
 
     protected $local_g2 = 'Time';
-
 }

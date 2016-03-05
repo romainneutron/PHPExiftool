@@ -52,5 +52,4 @@ class FlashCommanderMode extends AbstractTag
             'Label' => 'On',
         ),
     );
-
 }

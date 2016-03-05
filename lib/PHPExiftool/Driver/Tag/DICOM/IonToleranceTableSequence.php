@@ -39,5 +39,4 @@ class IonToleranceTableSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Ion Tolerance Table Sequence';
-
 }

@@ -39,5 +39,4 @@ class CalibrationImage extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Calibration Image';
-
 }

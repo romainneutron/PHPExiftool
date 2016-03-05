@@ -39,5 +39,4 @@ class RawCropLeft extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Raw Crop Left';
-
 }

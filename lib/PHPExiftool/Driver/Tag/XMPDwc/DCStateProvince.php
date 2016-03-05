@@ -41,5 +41,4 @@ class DCStateProvince extends AbstractTag
     protected $Description = 'DC State Province';
 
     protected $local_g2 = 'Location';
-
 }

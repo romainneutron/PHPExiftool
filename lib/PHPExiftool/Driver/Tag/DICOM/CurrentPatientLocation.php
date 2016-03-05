@@ -39,5 +39,4 @@ class CurrentPatientLocation extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Current Patient Location';
-
 }

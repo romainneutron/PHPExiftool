@@ -39,5 +39,4 @@ class ActiveSourceDiameter extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Active Source Diameter';
-
 }

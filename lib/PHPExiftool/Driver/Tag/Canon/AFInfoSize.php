@@ -41,5 +41,4 @@ class AFInfoSize extends AbstractTag
     protected $Description = 'AF Info Size';
 
     protected $flag_Permanent = true;
-
 }

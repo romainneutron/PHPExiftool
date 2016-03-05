@@ -39,5 +39,4 @@ class InkNumber extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Ink Number';
-
 }

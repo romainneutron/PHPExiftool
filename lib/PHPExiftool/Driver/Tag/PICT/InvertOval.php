@@ -39,5 +39,4 @@ class InvertOval extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Invert Oval';
-
 }

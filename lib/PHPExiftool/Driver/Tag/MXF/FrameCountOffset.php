@@ -39,5 +39,4 @@ class FrameCountOffset extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Frame Count Offset';
-
 }

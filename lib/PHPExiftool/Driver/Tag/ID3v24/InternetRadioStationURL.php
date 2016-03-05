@@ -39,5 +39,4 @@ class InternetRadioStationURL extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Internet Radio Station URL';
-
 }

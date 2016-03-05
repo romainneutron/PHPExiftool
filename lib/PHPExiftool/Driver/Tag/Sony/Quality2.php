@@ -104,5 +104,4 @@ class Quality2 extends AbstractTag
             'Label' => 'JPEG + MPO',
         ),
     );
-
 }

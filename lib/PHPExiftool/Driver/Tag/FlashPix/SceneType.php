@@ -54,5 +54,4 @@ class SceneType extends AbstractTag
             'Label' => 'Digital Scene Generation',
         ),
     );
-
 }

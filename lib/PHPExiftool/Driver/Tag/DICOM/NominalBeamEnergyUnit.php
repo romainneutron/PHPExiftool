@@ -39,5 +39,4 @@ class NominalBeamEnergyUnit extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Nominal Beam Energy Unit';
-
 }

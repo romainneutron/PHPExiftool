@@ -39,5 +39,4 @@ class AttributeItemSelector extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Attribute Item Selector';
-
 }

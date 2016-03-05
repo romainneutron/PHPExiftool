@@ -41,5 +41,4 @@ class ColorBoostLevel extends AbstractTag
     protected $Description = 'Color Boost Level';
 
     protected $flag_Permanent = true;
-
 }

@@ -39,5 +39,4 @@ class NoMSSmartTags extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'No MS Smart Tags';
-
 }

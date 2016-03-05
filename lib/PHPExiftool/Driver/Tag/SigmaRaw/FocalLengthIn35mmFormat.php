@@ -39,5 +39,4 @@ class FocalLengthIn35mmFormat extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Focal Length In 35mm Format';
-
 }

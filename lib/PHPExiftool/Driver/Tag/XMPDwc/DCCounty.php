@@ -41,5 +41,4 @@ class DCCounty extends AbstractTag
     protected $Description = 'DC County';
 
     protected $local_g2 = 'Location';
-
 }

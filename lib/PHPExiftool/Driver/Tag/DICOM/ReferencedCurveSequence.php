@@ -39,5 +39,4 @@ class ReferencedCurveSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Referenced Curve Sequence';
-
 }

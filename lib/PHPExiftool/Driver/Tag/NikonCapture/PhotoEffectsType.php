@@ -60,5 +60,4 @@ class PhotoEffectsType extends AbstractTag
             'Label' => 'Tinted',
         ),
     );
-
 }

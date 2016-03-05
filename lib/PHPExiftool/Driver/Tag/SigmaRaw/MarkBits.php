@@ -42,5 +42,4 @@ class MarkBits extends AbstractTag
 
     protected $Values = array(
     );
-
 }

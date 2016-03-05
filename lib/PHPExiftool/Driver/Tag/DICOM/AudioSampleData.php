@@ -39,5 +39,4 @@ class AudioSampleData extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Audio Sample Data';
-
 }

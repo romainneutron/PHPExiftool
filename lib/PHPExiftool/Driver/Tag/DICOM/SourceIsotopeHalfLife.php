@@ -39,5 +39,4 @@ class SourceIsotopeHalfLife extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Source Isotope Half Life';
-
 }

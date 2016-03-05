@@ -39,5 +39,4 @@ class ContourSlabThickness extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Contour Slab Thickness';
-
 }

@@ -39,5 +39,4 @@ class CCDRect extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'CCD Rect';
-
 }

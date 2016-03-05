@@ -41,5 +41,4 @@ class ShotDate extends AbstractTag
     protected $Description = 'Shot Date';
 
     protected $local_g2 = 'Time';
-
 }

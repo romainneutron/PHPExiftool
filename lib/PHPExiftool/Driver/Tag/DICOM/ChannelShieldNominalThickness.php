@@ -39,5 +39,4 @@ class ChannelShieldNominalThickness extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Channel Shield Nominal Thickness';
-
 }

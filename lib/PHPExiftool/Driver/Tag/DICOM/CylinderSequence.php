@@ -39,5 +39,4 @@ class CylinderSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Cylinder Sequence';
-
 }

@@ -39,5 +39,4 @@ class ReferencedPrintJobSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Referenced Print Job Sequence';
-
 }

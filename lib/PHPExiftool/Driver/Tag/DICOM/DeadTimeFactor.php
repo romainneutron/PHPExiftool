@@ -39,5 +39,4 @@ class DeadTimeFactor extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Dead Time Factor';
-
 }

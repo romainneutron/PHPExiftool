@@ -39,5 +39,4 @@ class OrganizerName extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Organizer Name';
-
 }

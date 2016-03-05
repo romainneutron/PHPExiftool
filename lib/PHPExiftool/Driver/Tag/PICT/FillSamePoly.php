@@ -39,5 +39,4 @@ class FillSamePoly extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Fill Same Poly';
-
 }

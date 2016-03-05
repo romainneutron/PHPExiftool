@@ -39,5 +39,4 @@ class BitsAllocated extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Bits Allocated';
-
 }

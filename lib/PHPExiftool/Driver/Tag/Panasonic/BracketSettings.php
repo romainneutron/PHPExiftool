@@ -72,5 +72,4 @@ class BracketSettings extends AbstractTag
             'Label' => '7 Images, Sequence -/0/+',
         ),
     );
-
 }

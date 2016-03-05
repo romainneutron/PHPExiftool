@@ -39,5 +39,4 @@ class ExtCache extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Ext Cache';
-
 }

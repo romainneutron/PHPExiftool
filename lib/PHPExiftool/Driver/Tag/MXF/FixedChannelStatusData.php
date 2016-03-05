@@ -39,5 +39,4 @@ class FixedChannelStatusData extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Fixed Channel Status Data';
-
 }

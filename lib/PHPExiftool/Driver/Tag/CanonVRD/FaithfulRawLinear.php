@@ -50,5 +50,4 @@ class FaithfulRawLinear extends AbstractTag
             'Label' => 'Yes',
         ),
     );
-
 }

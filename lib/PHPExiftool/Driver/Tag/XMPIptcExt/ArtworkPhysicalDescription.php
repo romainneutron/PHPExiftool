@@ -41,5 +41,4 @@ class ArtworkPhysicalDescription extends AbstractTag
     protected $Description = 'Artwork Physical Description';
 
     protected $flag_List = true;
-
 }

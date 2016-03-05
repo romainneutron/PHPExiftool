@@ -39,5 +39,4 @@ class StreamDuration extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Stream Duration';
-
 }

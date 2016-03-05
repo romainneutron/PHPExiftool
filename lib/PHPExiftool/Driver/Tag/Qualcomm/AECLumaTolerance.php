@@ -41,5 +41,4 @@ class AECLumaTolerance extends AbstractTag
     protected $Description = 'AEC Luma Tolerance';
 
     protected $flag_Permanent = true;
-
 }

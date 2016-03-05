@@ -76,5 +76,4 @@ class AFPointRegistration extends AbstractTag
             'Label' => 'Top',
         ),
     );
-
 }

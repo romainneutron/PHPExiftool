@@ -39,5 +39,4 @@ class CylinderLensPower extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Cylinder Lens Power';
-
 }

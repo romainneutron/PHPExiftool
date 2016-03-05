@@ -41,5 +41,4 @@ class NoiseReduction extends AbstractTag
     protected $Description = 'Noise Reduction';
 
     protected $flag_Permanent = true;
-
 }

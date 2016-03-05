@@ -41,5 +41,4 @@ class AudioModDate extends AbstractTag
     protected $Description = 'Audio Mod Date';
 
     protected $local_g2 = 'Time';
-
 }

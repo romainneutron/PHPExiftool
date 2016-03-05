@@ -41,5 +41,4 @@ class AudioFormat extends AbstractTag
     protected $Description = 'Audio Format';
 
     protected $MaxLength = 4;
-
 }

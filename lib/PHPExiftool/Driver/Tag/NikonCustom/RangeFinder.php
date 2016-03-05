@@ -60,5 +60,4 @@ class RangeFinder extends AbstractTag
             'Label' => 'On',
         ),
     );
-
 }

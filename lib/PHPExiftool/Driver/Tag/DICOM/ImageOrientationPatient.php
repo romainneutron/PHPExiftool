@@ -39,5 +39,4 @@ class ImageOrientationPatient extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Image Orientation Patient';
-
 }

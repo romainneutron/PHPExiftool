@@ -41,5 +41,4 @@ class AWBLowLigColCorEna extends AbstractTag
     protected $Description = 'AWB Low Lig Col Cor Ena';
 
     protected $flag_Permanent = true;
-
 }

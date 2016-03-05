@@ -39,5 +39,4 @@ class EssenceIsIdentified extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Essence Is Identified';
-
 }

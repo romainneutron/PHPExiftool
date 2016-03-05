@@ -41,5 +41,4 @@ class ConsecutiveBadFaxLines extends AbstractTag
     protected $Description = 'Consecutive Bad Fax Lines';
 
     protected $local_g1 = 'ExifIFD';
-
 }

@@ -56,5 +56,4 @@ class DynamicRangeOptimizerBracket extends AbstractTag
             'Label' => 'High',
         ),
     );
-
 }

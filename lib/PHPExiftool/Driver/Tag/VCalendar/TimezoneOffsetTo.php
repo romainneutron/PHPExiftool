@@ -41,5 +41,4 @@ class TimezoneOffsetTo extends AbstractTag
     protected $Description = 'Timezone Offset To';
 
     protected $local_g2 = 'Time';
-
 }

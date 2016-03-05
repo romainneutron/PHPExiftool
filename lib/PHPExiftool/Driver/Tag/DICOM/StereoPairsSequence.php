@@ -39,5 +39,4 @@ class StereoPairsSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Stereo Pairs Sequence';
-
 }

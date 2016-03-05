@@ -41,5 +41,4 @@ class ColorSpace extends AbstractTag
     protected $Description = 'Color Space';
 
     protected $flag_Permanent = true;
-
 }

@@ -39,5 +39,4 @@ class EncodingScheme extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Encoding Scheme';
-
 }

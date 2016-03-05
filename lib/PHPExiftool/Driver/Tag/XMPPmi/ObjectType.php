@@ -41,5 +41,4 @@ class ObjectType extends AbstractTag
     protected $Description = 'Object Type';
 
     protected $flag_Avoid = true;
-
 }

@@ -39,5 +39,4 @@ class MacAtom extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Mac Atom';
-
 }

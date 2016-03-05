@@ -39,5 +39,4 @@ class CryptographicFrameworkLabel extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Cryptographic Framework Label';
-
 }

@@ -60,5 +60,4 @@ class Gradation extends AbstractTag
             'Label' => 'High Key',
         ),
     );
-
 }

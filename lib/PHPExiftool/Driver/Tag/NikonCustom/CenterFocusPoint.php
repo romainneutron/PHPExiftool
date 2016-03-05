@@ -52,5 +52,4 @@ class CenterFocusPoint extends AbstractTag
             'Label' => 'Wide Zone',
         ),
     );
-
 }

@@ -156,5 +156,4 @@ class RemoteOnDuration extends AbstractTag
             'Label' => '15 min',
         ),
     );
-
 }

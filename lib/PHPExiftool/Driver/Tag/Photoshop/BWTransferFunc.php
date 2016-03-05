@@ -39,5 +39,4 @@ class BWTransferFunc extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'BW Transfer Func';
-
 }

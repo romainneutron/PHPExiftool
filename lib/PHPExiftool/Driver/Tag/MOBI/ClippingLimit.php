@@ -39,5 +39,4 @@ class ClippingLimit extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Clipping Limit';
-
 }

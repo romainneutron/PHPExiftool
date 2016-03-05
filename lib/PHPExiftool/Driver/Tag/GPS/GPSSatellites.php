@@ -47,5 +47,4 @@ class GPSSatellites extends AbstractTag
     protected $flag_Permanent = 'mixed';
 
     protected $MaxLength = 'mixed';
-
 }

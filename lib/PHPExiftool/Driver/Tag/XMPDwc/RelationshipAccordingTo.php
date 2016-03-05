@@ -39,5 +39,4 @@ class RelationshipAccordingTo extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Relationship According To';
-
 }

@@ -41,5 +41,4 @@ class OcadRevision extends AbstractTag
     protected $Description = 'Ocad Revision';
 
     protected $MaxLength = 6;
-
 }

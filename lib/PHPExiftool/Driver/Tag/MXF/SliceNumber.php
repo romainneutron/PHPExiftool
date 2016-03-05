@@ -39,5 +39,4 @@ class SliceNumber extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Slice Number';
-
 }

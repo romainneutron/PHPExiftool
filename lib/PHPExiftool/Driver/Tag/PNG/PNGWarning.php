@@ -39,5 +39,4 @@ class PNGWarning extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'PNG Warning';
-
 }

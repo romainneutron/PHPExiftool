@@ -62,5 +62,4 @@ class ProfileID extends AbstractTag
             'Label' => 'Continuous-tone Facsimile',
         ),
     );
-
 }

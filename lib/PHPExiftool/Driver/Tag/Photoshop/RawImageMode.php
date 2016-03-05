@@ -39,5 +39,4 @@ class RawImageMode extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Raw Image Mode';
-
 }

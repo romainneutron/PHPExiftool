@@ -39,5 +39,4 @@ class RetouchAreaMaskPerimeterValue extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Retouch Area Mask Perimeter Value';
-
 }

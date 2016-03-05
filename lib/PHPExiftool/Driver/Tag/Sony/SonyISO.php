@@ -41,5 +41,4 @@ class SonyISO extends AbstractTag
     protected $Description = 'Sony ISO';
 
     protected $flag_Permanent = true;
-
 }

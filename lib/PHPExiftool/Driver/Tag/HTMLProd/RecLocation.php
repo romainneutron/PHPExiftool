@@ -39,5 +39,4 @@ class RecLocation extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Rec Location';
-
 }

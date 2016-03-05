@@ -96,5 +96,4 @@ class ImageEffects extends AbstractTag
             'Label' => 'High Key',
         ),
     );
-
 }

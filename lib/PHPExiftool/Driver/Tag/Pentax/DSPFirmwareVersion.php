@@ -41,5 +41,4 @@ class DSPFirmwareVersion extends AbstractTag
     protected $Description = 'DSP Firmware Version';
 
     protected $flag_Permanent = true;
-
 }

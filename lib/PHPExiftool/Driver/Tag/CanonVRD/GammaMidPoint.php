@@ -39,5 +39,4 @@ class GammaMidPoint extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Gamma Mid Point';
-
 }

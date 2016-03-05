@@ -39,5 +39,4 @@ class SecurityClassification extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Security Classification';
-
 }

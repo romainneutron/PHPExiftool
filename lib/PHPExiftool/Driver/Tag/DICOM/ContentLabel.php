@@ -39,5 +39,4 @@ class ContentLabel extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Content Label';
-
 }

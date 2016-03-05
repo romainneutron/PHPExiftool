@@ -41,5 +41,4 @@ class System extends AbstractTag
     protected $Description = 'System';
 
     protected $flag_Permanent = true;
-
 }

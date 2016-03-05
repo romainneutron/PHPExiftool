@@ -39,5 +39,4 @@ class RotationOfScannedFilm extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Rotation Of Scanned Film';
-
 }

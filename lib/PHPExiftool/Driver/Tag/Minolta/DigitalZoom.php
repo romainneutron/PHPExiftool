@@ -56,5 +56,4 @@ class DigitalZoom extends AbstractTag
             'Label' => '2x',
         ),
     );
-
 }

@@ -54,5 +54,4 @@ class AEMicroadjustment extends AbstractTag
             'Label' => 'Enable',
         ),
     );
-
 }

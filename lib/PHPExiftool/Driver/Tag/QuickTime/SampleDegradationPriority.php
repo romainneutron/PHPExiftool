@@ -41,5 +41,4 @@ class SampleDegradationPriority extends AbstractTag
     protected $Description = 'Sample Degradation Priority';
 
     protected $flag_Binary = true;
-
 }

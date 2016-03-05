@@ -39,5 +39,4 @@ class WindowsAtomUncProjectPath extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Windows Atom Unc Project Path';
-
 }

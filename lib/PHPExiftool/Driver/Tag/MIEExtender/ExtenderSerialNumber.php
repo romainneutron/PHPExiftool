@@ -39,5 +39,4 @@ class ExtenderSerialNumber extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Extender Serial Number';
-
 }

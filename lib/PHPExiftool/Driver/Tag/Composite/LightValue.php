@@ -41,5 +41,4 @@ class LightValue extends AbstractTag
     protected $Description = 'Light Value';
 
     protected $local_g2 = 'Image';
-
 }

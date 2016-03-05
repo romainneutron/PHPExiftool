@@ -56,5 +56,4 @@ class T4Options extends AbstractTag
             'Label' => 'Fill bits added',
         ),
     );
-
 }

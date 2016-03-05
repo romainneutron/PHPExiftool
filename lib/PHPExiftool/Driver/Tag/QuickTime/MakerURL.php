@@ -39,5 +39,4 @@ class MakerURL extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Maker URL';
-
 }

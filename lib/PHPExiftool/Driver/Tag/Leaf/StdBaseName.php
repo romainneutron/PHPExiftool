@@ -39,5 +39,4 @@ class StdBaseName extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Std Base Name';
-
 }

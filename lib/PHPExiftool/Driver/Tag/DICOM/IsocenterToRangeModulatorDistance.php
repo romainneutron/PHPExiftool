@@ -39,5 +39,4 @@ class IsocenterToRangeModulatorDistance extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Isocenter To Range Modulator Distance';
-
 }

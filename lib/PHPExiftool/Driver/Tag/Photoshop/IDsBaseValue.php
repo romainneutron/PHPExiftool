@@ -39,5 +39,4 @@ class IDsBaseValue extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'IDs Base Value';
-
 }

@@ -56,5 +56,4 @@ class VignettingCorrection extends AbstractTag
             'Label' => 'n/a',
         ),
     );
-
 }

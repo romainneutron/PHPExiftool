@@ -41,5 +41,4 @@ class Model extends AbstractTag
     protected $Description = 'Model';
 
     protected $flag_Avoid = true;
-
 }

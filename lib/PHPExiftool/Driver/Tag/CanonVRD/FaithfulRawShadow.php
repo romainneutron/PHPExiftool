@@ -39,5 +39,4 @@ class FaithfulRawShadow extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Faithful Raw Shadow';
-
 }

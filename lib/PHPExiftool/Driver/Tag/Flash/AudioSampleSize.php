@@ -41,5 +41,4 @@ class AudioSampleSize extends AbstractTag
     protected $Description = 'Audio Sample Size';
 
     protected $local_g2 = 'Audio';
-
 }

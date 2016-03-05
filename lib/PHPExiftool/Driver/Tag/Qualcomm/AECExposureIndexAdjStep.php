@@ -41,5 +41,4 @@ class AECExposureIndexAdjStep extends AbstractTag
     protected $Description = 'AEC Exposure Index Adj Step';
 
     protected $flag_Permanent = true;
-
 }

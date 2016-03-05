@@ -39,5 +39,4 @@ class DetectorSecondaryAngle extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Detector Secondary Angle';
-
 }

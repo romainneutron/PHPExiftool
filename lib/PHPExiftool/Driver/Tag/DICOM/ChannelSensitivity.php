@@ -39,5 +39,4 @@ class ChannelSensitivity extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Channel Sensitivity';
-
 }

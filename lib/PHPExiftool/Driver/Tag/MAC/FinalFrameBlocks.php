@@ -39,5 +39,4 @@ class FinalFrameBlocks extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Final Frame Blocks';
-
 }

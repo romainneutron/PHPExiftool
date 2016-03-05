@@ -39,5 +39,4 @@ class FacetSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Facet Sequence';
-
 }

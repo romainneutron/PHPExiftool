@@ -132,5 +132,4 @@ class ModifiedWhiteBalance extends AbstractTag
             'Label' => 'Auto (ambience priority)',
         ),
     );
-
 }

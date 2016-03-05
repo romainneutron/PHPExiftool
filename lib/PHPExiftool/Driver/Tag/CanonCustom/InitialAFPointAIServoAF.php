@@ -56,5 +56,4 @@ class InitialAFPointAIServoAF extends AbstractTag
             'Label' => 'Manual AF point',
         ),
     );
-
 }

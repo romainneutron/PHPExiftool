@@ -39,5 +39,4 @@ class ReferencedOtherPlaneSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Referenced Other Plane Sequence';
-
 }

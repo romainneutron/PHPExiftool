@@ -39,5 +39,4 @@ class ScatterCorrectionMethod extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Scatter Correction Method';
-
 }

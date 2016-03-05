@@ -39,5 +39,4 @@ class EraseSameArc extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Erase Same Arc';
-
 }

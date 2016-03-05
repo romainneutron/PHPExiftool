@@ -41,5 +41,4 @@ class FineTuneOptHighlightWeighted extends AbstractTag
     protected $Description = 'Fine Tune Opt Highlight Weighted';
 
     protected $flag_Permanent = true;
-
 }

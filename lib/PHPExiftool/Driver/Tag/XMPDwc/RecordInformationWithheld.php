@@ -39,5 +39,4 @@ class RecordInformationWithheld extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Record Information Withheld';
-
 }

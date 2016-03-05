@@ -39,5 +39,4 @@ class TaxonNameAccordingTo extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Taxon Name According To';
-
 }

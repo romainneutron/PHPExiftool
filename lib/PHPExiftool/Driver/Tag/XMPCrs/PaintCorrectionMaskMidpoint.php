@@ -39,5 +39,4 @@ class PaintCorrectionMaskMidpoint extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Paint Correction Mask Midpoint';
-
 }

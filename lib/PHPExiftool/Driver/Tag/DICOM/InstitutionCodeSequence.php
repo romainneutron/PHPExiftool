@@ -39,5 +39,4 @@ class InstitutionCodeSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Institution Code Sequence';
-
 }

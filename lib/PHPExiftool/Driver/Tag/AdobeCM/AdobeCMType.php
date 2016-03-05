@@ -39,5 +39,4 @@ class AdobeCMType extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Adobe CM Type';
-
 }

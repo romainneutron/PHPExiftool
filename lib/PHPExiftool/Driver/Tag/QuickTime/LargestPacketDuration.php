@@ -39,5 +39,4 @@ class LargestPacketDuration extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Largest Packet Duration';
-
 }

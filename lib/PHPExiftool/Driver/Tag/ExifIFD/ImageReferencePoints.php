@@ -41,5 +41,4 @@ class ImageReferencePoints extends AbstractTag
     protected $Description = 'Image Reference Points';
 
     protected $local_g1 = 'ExifIFD';
-
 }

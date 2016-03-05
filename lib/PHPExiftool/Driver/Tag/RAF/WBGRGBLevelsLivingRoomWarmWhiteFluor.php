@@ -41,5 +41,4 @@ class WBGRGBLevelsLivingRoomWarmWhiteFluor extends AbstractTag
     protected $Description = 'WB GRGB Levels Living Room Warm White Fluor';
 
     protected $MaxLength = 4;
-
 }

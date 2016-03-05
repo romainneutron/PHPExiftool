@@ -39,5 +39,4 @@ class SynchronizedLyricsDescription extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Synchronized Lyrics Description';
-
 }

@@ -41,5 +41,4 @@ class CoverDisplayDate extends AbstractTag
     protected $Description = 'Cover Display Date';
 
     protected $flag_Avoid = true;
-
 }

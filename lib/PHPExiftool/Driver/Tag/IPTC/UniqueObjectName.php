@@ -41,5 +41,4 @@ class UniqueObjectName extends AbstractTag
     protected $Description = 'Unique Object Name';
 
     protected $MaxLength = 80;
-
 }

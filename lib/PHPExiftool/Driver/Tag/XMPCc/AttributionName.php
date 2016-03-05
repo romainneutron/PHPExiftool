@@ -39,5 +39,4 @@ class AttributionName extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Attribution Name';
-
 }

@@ -39,5 +39,4 @@ class TubeFocalSpotPosition extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Tube Focal Spot Position';
-
 }

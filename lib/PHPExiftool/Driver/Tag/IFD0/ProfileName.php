@@ -41,5 +41,4 @@ class ProfileName extends AbstractTag
     protected $Description = 'Profile Name';
 
     protected $flag_Unsafe = true;
-
 }

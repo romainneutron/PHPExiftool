@@ -39,5 +39,4 @@ class NumFonts extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Num Fonts';
-
 }

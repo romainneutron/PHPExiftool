@@ -39,5 +39,4 @@ class StartTimeSecsInFirstAxial extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Start Time Secs In First Axial';
-
 }

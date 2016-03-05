@@ -39,5 +39,4 @@ class PatientSupportRotationDirection extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Patient Support Rotation Direction';
-
 }

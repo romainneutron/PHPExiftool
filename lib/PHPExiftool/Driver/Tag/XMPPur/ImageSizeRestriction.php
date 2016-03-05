@@ -41,5 +41,4 @@ class ImageSizeRestriction extends AbstractTag
     protected $Description = 'Image Size Restriction';
 
     protected $flag_Avoid = true;
-
 }

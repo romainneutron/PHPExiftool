@@ -41,5 +41,4 @@ class SMaxSampleValue extends AbstractTag
     protected $Description = 'S Max Sample Value';
 
     protected $local_g1 = 'ExifIFD';
-
 }

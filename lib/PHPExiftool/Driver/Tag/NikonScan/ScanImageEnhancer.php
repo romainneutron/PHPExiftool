@@ -52,5 +52,4 @@ class ScanImageEnhancer extends AbstractTag
             'Label' => 'On',
         ),
     );
-
 }

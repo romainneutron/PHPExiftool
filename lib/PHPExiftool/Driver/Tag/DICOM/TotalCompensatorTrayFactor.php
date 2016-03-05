@@ -39,5 +39,4 @@ class TotalCompensatorTrayFactor extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Total Compensator Tray Factor';
-
 }

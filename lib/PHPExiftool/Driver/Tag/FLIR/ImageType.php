@@ -58,5 +58,4 @@ class ImageType extends AbstractTag
             'Label' => 'Object Signal Difference',
         ),
     );
-
 }

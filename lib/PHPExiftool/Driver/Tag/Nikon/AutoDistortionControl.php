@@ -56,5 +56,4 @@ class AutoDistortionControl extends AbstractTag
             'Label' => 'On (underwater)',
         ),
     );
-
 }

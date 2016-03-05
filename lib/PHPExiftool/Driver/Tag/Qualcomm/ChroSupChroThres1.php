@@ -41,5 +41,4 @@ class ChroSupChroThres1 extends AbstractTag
     protected $Description = 'Chro Sup Chro Thres 1';
 
     protected $flag_Permanent = true;
-
 }

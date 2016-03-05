@@ -41,5 +41,4 @@ class CornerLatitudePoint1 extends AbstractTag
     protected $Description = 'Corner Latitude Point 1';
 
     protected $local_g2 = 'Location';
-
 }

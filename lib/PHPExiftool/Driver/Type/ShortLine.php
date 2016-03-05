@@ -19,5 +19,4 @@ class ShortLine extends AbstractType
     protected $ExiftoolName = 'ShortLine';
 
     protected $PHPMap = 'string';
-
 }

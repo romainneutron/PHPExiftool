@@ -41,5 +41,4 @@ class AttachedFileData extends AbstractTag
     protected $Description = 'Attached File Data';
 
     protected $flag_Binary = true;
-
 }

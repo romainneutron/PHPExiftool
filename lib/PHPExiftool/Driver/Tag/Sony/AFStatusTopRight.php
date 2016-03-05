@@ -54,5 +54,4 @@ class AFStatusTopRight extends AbstractTag
     );
 
     protected $Index = 'mixed';
-
 }

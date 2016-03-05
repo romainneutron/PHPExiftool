@@ -39,5 +39,4 @@ class FlashPixStreamPathname extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Flash Pix Stream Pathname';
-
 }

@@ -39,5 +39,4 @@ class CompletionFlagDescription extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Completion Flag Description';
-
 }

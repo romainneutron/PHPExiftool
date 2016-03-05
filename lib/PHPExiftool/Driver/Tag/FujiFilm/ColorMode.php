@@ -56,5 +56,4 @@ class ColorMode extends AbstractTag
             'Label' => 'B & W',
         ),
     );
-
 }

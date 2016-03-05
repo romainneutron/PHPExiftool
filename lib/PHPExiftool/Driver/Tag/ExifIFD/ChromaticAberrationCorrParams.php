@@ -41,5 +41,4 @@ class ChromaticAberrationCorrParams extends AbstractTag
     protected $Description = 'Chromatic Aberration Corr Params';
 
     protected $local_g1 = 'ExifIFD';
-
 }

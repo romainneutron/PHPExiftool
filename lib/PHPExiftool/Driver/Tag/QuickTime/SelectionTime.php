@@ -39,5 +39,4 @@ class SelectionTime extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Selection Time';
-
 }

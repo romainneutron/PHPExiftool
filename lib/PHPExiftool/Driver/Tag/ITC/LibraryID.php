@@ -41,5 +41,4 @@ class LibraryID extends AbstractTag
     protected $Description = 'Library ID';
 
     protected $MaxLength = 8;
-
 }

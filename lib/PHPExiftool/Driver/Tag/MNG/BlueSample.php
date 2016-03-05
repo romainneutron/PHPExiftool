@@ -39,5 +39,4 @@ class BlueSample extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Blue Sample';
-
 }

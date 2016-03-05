@@ -39,5 +39,4 @@ class ClipFileName extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Clip File Name';
-
 }

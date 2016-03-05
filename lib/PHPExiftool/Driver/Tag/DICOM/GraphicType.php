@@ -39,5 +39,4 @@ class GraphicType extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Graphic Type';
-
 }

@@ -39,5 +39,4 @@ class GeoTiffVersion extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Geo Tiff Version';
-
 }

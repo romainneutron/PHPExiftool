@@ -39,5 +39,4 @@ class PrinterStatusInfo extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Printer Status Info';
-
 }

@@ -39,5 +39,4 @@ class TotalBlockTrayWaterEquivThickness extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Total Block Tray Water Equiv Thickness';
-
 }

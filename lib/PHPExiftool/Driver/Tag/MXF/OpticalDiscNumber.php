@@ -39,5 +39,4 @@ class OpticalDiscNumber extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Optical Disc Number';
-
 }

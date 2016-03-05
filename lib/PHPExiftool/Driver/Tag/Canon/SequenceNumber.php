@@ -41,5 +41,4 @@ class SequenceNumber extends AbstractTag
     protected $Description = 'Shot Number In Continuous Burst';
 
     protected $flag_Permanent = true;
-
 }

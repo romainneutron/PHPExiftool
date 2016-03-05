@@ -62,5 +62,4 @@ class FileSource extends AbstractTag
             'Label' => 'Computer Graphics',
         ),
     );
-
 }

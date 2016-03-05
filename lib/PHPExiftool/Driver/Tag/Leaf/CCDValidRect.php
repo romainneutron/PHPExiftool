@@ -39,5 +39,4 @@ class CCDValidRect extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'CCD Valid Rect';
-
 }

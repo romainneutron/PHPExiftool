@@ -39,5 +39,4 @@ class EighthLanguage extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Eighth Language';
-
 }

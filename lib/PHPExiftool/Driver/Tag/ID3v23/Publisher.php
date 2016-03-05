@@ -39,5 +39,4 @@ class Publisher extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Publisher';
-
 }

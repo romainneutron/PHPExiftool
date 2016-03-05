@@ -39,5 +39,4 @@ class PageNormal extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Page Normal';
-
 }

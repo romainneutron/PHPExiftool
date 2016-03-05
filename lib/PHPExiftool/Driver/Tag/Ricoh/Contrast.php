@@ -48,5 +48,4 @@ class Contrast extends AbstractTag
             'Label' => 'MAX',
         ),
     );
-
 }

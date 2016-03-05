@@ -54,5 +54,4 @@ class ProgressiveScans extends AbstractTag
             'Label' => '5 Scans',
         ),
     );
-
 }

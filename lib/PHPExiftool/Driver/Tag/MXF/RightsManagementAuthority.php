@@ -39,5 +39,4 @@ class RightsManagementAuthority extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Rights Management Authority';
-
 }

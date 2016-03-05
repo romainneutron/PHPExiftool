@@ -39,5 +39,4 @@ class OriginalAttributesSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Original Attributes Sequence';
-
 }

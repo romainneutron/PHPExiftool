@@ -39,5 +39,4 @@ class DetectorTemperature extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Detector Temperature';
-
 }

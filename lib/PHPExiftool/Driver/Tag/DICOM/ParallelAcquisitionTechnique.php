@@ -39,5 +39,4 @@ class ParallelAcquisitionTechnique extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Parallel Acquisition Technique';
-
 }

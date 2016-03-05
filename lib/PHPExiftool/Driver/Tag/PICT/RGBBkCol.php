@@ -39,5 +39,4 @@ class RGBBkCol extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Background Color';
-
 }

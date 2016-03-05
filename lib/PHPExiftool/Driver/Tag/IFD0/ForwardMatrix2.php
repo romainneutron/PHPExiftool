@@ -41,5 +41,4 @@ class ForwardMatrix2 extends AbstractTag
     protected $Description = 'Forward Matrix 2';
 
     protected $flag_Unsafe = true;
-
 }

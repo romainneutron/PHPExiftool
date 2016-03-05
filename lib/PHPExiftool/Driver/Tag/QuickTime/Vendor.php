@@ -39,5 +39,4 @@ class Vendor extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Vendor';
-
 }

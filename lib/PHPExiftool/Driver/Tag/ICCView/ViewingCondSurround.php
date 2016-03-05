@@ -41,5 +41,4 @@ class ViewingCondSurround extends AbstractTag
     protected $Description = 'Viewing Cond Surround';
 
     protected $MaxLength = 3;
-
 }

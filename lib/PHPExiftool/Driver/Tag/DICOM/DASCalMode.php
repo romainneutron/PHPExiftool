@@ -39,5 +39,4 @@ class DASCalMode extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'DAS Cal Mode';
-
 }

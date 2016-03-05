@@ -39,5 +39,4 @@ class ForeignImageRevision extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Foreign Image Revision';
-
 }

@@ -39,5 +39,4 @@ class InputProfile extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Input Profile';
-
 }

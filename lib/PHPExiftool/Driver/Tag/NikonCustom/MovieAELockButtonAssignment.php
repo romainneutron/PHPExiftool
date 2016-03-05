@@ -72,5 +72,4 @@ class MovieAELockButtonAssignment extends AbstractTag
             'Label' => 'AF Lock Only',
         ),
     );
-
 }

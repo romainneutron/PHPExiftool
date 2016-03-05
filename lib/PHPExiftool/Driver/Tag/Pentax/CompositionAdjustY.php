@@ -41,5 +41,4 @@ class CompositionAdjustY extends AbstractTag
     protected $Description = 'Composition Adjust Y';
 
     protected $flag_Permanent = true;
-
 }

@@ -47,5 +47,4 @@ class CanonDR4 extends AbstractTag
     protected $flag_Binary = true;
 
     protected $flag_Unsafe = true;
-
 }

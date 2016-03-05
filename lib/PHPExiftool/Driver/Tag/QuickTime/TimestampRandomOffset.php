@@ -39,5 +39,4 @@ class TimestampRandomOffset extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Timestamp Random Offset';
-
 }

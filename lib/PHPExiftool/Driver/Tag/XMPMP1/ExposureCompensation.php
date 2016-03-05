@@ -41,5 +41,4 @@ class ExposureCompensation extends AbstractTag
     protected $Description = 'Exposure Compensation';
 
     protected $flag_Avoid = true;
-
 }

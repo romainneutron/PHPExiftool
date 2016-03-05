@@ -41,5 +41,4 @@ class SeriesTitle extends AbstractTag
     protected $Description = 'Series Title';
 
     protected $flag_Avoid = true;
-
 }

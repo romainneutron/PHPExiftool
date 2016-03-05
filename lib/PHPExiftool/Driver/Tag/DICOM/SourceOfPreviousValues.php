@@ -39,5 +39,4 @@ class SourceOfPreviousValues extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Source Of Previous Values';
-
 }

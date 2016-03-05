@@ -41,5 +41,4 @@ class OriginalTHMImage extends AbstractTag
     protected $Description = 'Original THM Image';
 
     protected $flag_Binary = true;
-
 }

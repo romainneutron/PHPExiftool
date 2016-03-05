@@ -39,5 +39,4 @@ class CoincidenceWindowWidth extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Coincidence Window Width';
-
 }

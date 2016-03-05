@@ -39,5 +39,4 @@ class WedgeNumber extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Wedge Number';
-
 }

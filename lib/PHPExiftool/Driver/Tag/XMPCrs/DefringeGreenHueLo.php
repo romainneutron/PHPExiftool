@@ -39,5 +39,4 @@ class DefringeGreenHueLo extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Defringe Green Hue Lo';
-
 }

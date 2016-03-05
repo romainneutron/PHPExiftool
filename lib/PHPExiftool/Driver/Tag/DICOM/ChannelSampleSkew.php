@@ -39,5 +39,4 @@ class ChannelSampleSkew extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Channel Sample Skew';
-
 }

@@ -39,5 +39,4 @@ class BorderName extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Border Name';
-
 }

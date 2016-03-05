@@ -39,5 +39,4 @@ class PredictorColumns extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Predictor Columns';
-
 }

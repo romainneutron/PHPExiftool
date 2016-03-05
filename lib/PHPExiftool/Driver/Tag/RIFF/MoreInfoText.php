@@ -39,5 +39,4 @@ class MoreInfoText extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'More Info Text';
-
 }

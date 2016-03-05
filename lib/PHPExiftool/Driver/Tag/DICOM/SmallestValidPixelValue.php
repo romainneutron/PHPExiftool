@@ -39,5 +39,4 @@ class SmallestValidPixelValue extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Smallest Valid Pixel Value';
-
 }

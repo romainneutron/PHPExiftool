@@ -39,5 +39,4 @@ class PaintCorrectionClarity extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Paint Correction Clarity';
-
 }

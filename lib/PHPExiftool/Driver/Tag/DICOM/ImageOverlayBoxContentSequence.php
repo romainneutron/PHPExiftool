@@ -39,5 +39,4 @@ class ImageOverlayBoxContentSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Image Overlay Box Content Sequence';
-
 }

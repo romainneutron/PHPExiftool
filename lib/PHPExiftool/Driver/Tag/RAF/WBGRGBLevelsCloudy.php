@@ -41,5 +41,4 @@ class WBGRGBLevelsCloudy extends AbstractTag
     protected $Description = 'WB GRGB Levels Cloudy';
 
     protected $MaxLength = 4;
-
 }

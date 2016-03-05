@@ -39,5 +39,4 @@ class AbsoluteChannelDisplayScale extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Absolute Channel Display Scale';
-
 }

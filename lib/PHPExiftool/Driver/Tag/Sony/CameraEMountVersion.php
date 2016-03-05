@@ -41,5 +41,4 @@ class CameraEMountVersion extends AbstractTag
     protected $Description = 'Camera E-mount Version';
 
     protected $flag_Permanent = true;
-
 }

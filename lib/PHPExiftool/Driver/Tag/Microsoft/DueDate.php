@@ -39,5 +39,4 @@ class DueDate extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Due Date';
-
 }

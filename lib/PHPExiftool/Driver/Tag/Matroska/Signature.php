@@ -41,5 +41,4 @@ class Signature extends AbstractTag
     protected $Description = 'Signature';
 
     protected $flag_Binary = true;
-
 }

@@ -82,5 +82,4 @@ class FlashMode extends AbstractTag
     );
 
     protected $Index = 'mixed';
-
 }

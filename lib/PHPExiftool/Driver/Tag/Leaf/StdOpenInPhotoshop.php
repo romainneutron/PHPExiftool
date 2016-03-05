@@ -39,5 +39,4 @@ class StdOpenInPhotoshop extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Std Open In Photoshop';
-
 }

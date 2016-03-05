@@ -39,5 +39,4 @@ class CertificateOfSigner extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Certificate Of Signer';
-
 }

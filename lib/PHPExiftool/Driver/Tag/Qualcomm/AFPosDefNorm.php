@@ -41,5 +41,4 @@ class AFPosDefNorm extends AbstractTag
     protected $Description = 'AF Pos Def Norm';
 
     protected $flag_Permanent = true;
-
 }

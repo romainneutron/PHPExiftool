@@ -39,5 +39,4 @@ class EmbeddedImageByteOrder extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Embedded Image Byte Order';
-
 }

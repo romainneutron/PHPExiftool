@@ -41,5 +41,4 @@ class POILevel extends AbstractTag
     protected $Description = 'POI Level';
 
     protected $flag_Permanent = true;
-
 }

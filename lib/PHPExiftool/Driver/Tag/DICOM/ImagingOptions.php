@@ -39,5 +39,4 @@ class ImagingOptions extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Imaging Options';
-
 }

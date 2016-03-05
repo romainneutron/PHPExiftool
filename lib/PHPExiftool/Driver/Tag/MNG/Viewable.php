@@ -39,5 +39,4 @@ class Viewable extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Viewable';
-
 }

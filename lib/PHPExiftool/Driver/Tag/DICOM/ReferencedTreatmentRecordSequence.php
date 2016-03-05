@@ -39,5 +39,4 @@ class ReferencedTreatmentRecordSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Referenced Treatment Record Sequence';
-
 }

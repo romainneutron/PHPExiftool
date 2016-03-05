@@ -108,5 +108,4 @@ class MonitorOffTime extends AbstractTag
             'Label' => '10 min',
         ),
     );
-
 }

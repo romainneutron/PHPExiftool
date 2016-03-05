@@ -39,5 +39,4 @@ class PeakRateOfChangeOfGradientField extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Peak Rate Of Change Of Gradient Field';
-
 }

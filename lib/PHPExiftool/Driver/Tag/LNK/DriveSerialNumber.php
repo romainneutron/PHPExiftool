@@ -39,5 +39,4 @@ class DriveSerialNumber extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Drive Serial Number';
-
 }

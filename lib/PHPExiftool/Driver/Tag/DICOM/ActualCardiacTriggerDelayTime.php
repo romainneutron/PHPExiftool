@@ -39,5 +39,4 @@ class ActualCardiacTriggerDelayTime extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Actual Cardiac Trigger Delay Time';
-
 }

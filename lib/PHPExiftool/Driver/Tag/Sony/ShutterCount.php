@@ -41,5 +41,4 @@ class ShutterCount extends AbstractTag
     protected $Description = 'Shutter Count';
 
     protected $flag_Permanent = true;
-
 }

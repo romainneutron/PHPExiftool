@@ -39,5 +39,4 @@ class TotalNumberMediaPiecesCreated extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Total Number Media Pieces Created';
-
 }

@@ -39,5 +39,4 @@ class MetadataServerLocators extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Metadata Server Locators';
-
 }

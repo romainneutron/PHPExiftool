@@ -64,5 +64,4 @@ class ModifiedSaturation extends AbstractTag
             'Label' => 'CM4 (Skin Tones)',
         ),
     );
-
 }

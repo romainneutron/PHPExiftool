@@ -78,5 +78,4 @@ class Compression extends AbstractTag
             'Label' => 'JBIG2',
         ),
     );
-
 }

@@ -39,5 +39,4 @@ class RACordOfTargetReconCenter extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'RA Cord Of Target Recon Center';
-
 }

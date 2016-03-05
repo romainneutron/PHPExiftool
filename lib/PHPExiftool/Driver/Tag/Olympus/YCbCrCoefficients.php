@@ -41,5 +41,4 @@ class YCbCrCoefficients extends AbstractTag
     protected $Description = 'Y Cb Cr Coefficients';
 
     protected $flag_Permanent = true;
-
 }

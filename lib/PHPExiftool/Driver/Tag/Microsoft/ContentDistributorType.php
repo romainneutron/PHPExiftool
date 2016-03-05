@@ -39,5 +39,4 @@ class ContentDistributorType extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Content Distributor Type';
-
 }

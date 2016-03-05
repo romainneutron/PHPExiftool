@@ -39,5 +39,4 @@ class SetIfFatqEstimatesWereUsed extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Set If Fatq Estimates Were Used';
-
 }

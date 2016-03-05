@@ -39,5 +39,4 @@ class MainCatalogNumber extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Main Catalog Number';
-
 }

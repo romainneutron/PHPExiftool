@@ -52,5 +52,4 @@ class VRMode extends AbstractTag
             'Label' => 'Active',
         ),
     );
-
 }

@@ -39,5 +39,4 @@ class ANCPayloadSampleCoding extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'ANC Payload Sample Coding';
-
 }

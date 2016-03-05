@@ -39,5 +39,4 @@ class MobileLocationNumber extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Mobile Location Number';
-
 }

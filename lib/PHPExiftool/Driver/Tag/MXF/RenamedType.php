@@ -39,5 +39,4 @@ class RenamedType extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Renamed Type';
-
 }

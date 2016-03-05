@@ -39,5 +39,4 @@ class SortAlbumArtist extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Sort Album Artist';
-
 }

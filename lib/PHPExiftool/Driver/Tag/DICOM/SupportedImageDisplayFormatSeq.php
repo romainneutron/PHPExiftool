@@ -39,5 +39,4 @@ class SupportedImageDisplayFormatSeq extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Supported Image Display Format Seq';
-
 }

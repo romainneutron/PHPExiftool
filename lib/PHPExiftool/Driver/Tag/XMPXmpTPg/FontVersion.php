@@ -41,5 +41,4 @@ class FontVersion extends AbstractTag
     protected $Description = 'Font Version';
 
     protected $flag_List = true;
-
 }

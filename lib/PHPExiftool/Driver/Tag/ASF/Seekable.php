@@ -39,5 +39,4 @@ class Seekable extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Seekable';
-
 }

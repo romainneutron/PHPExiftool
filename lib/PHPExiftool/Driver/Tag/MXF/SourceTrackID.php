@@ -39,5 +39,4 @@ class SourceTrackID extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Source Track ID';
-
 }

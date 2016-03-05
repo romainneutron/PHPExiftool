@@ -50,5 +50,4 @@ class TrackLacing extends AbstractTag
             'Label' => 'Yes',
         ),
     );
-
 }

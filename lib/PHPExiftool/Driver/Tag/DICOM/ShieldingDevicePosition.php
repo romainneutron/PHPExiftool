@@ -39,5 +39,4 @@ class ShieldingDevicePosition extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Shielding Device Position';
-
 }

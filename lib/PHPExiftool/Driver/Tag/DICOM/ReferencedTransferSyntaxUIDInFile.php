@@ -39,5 +39,4 @@ class ReferencedTransferSyntaxUIDInFile extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Referenced Transfer Syntax UID In File';
-
 }

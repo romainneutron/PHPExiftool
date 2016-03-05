@@ -41,5 +41,4 @@ class ContentCompressionSettings extends AbstractTag
     protected $Description = 'Content Compression Settings';
 
     protected $flag_Binary = true;
-
 }

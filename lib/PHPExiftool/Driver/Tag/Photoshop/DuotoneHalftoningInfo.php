@@ -39,5 +39,4 @@ class DuotoneHalftoningInfo extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Duotone Halftoning Info';
-
 }

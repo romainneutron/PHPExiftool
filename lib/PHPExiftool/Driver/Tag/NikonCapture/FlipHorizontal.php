@@ -52,5 +52,4 @@ class FlipHorizontal extends AbstractTag
             'Label' => 'Yes',
         ),
     );
-
 }

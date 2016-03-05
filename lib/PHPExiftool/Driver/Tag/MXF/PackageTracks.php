@@ -39,5 +39,4 @@ class PackageTracks extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Package Tracks';
-
 }

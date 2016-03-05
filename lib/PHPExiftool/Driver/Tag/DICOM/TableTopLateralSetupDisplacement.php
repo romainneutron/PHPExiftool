@@ -39,5 +39,4 @@ class TableTopLateralSetupDisplacement extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Table Top Lateral Setup Displacement';
-
 }

@@ -41,5 +41,4 @@ class ManifestReferenceOriginalDocumentID extends AbstractTag
     protected $Description = 'Manifest Reference Original Document ID';
 
     protected $flag_List = true;
-
 }

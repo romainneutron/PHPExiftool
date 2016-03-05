@@ -39,5 +39,4 @@ class WedgeThinEdgePosition extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Wedge Thin Edge Position';
-
 }

@@ -39,5 +39,4 @@ class DestinationID extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Destination ID';
-
 }

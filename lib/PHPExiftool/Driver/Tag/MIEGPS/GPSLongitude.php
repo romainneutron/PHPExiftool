@@ -39,5 +39,4 @@ class GPSLongitude extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'GPS Longitude';
-
 }

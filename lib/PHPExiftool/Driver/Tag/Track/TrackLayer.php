@@ -39,5 +39,4 @@ class TrackLayer extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Track Layer';
-
 }

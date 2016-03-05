@@ -39,5 +39,4 @@ class OccurrenceStatus extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Occurrence Status';
-
 }

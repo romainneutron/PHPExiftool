@@ -41,5 +41,4 @@ class ASF5MaxExposureIndex extends AbstractTag
     protected $Description = 'ASF5 Max Exposure Index';
 
     protected $flag_Permanent = true;
-
 }

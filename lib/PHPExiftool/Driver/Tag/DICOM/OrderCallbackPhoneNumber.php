@@ -39,5 +39,4 @@ class OrderCallbackPhoneNumber extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Order Callback Phone Number';
-
 }

@@ -39,5 +39,4 @@ class ScanVelocity extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Scan Velocity';
-
 }

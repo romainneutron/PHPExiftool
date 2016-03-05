@@ -39,5 +39,4 @@ class AnchorOffset extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Anchor Offset';
-
 }

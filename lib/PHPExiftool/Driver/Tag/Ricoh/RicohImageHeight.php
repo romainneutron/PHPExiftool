@@ -41,5 +41,4 @@ class RicohImageHeight extends AbstractTag
     protected $Description = 'Ricoh Image Height';
 
     protected $flag_Permanent = true;
-
 }

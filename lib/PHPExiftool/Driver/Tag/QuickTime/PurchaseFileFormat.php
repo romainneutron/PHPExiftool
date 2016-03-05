@@ -39,5 +39,4 @@ class PurchaseFileFormat extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Purchase File Format';
-
 }

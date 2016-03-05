@@ -52,5 +52,4 @@ class MagnifiedView extends AbstractTag
             'Label' => 'Image review and playback',
         ),
     );
-
 }

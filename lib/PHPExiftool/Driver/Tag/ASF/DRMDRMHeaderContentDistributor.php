@@ -39,5 +39,4 @@ class DRMDRMHeaderContentDistributor extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'DRM DRM Header Content Distributor';
-
 }

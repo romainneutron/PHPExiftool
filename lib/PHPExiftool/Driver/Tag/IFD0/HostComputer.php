@@ -39,5 +39,4 @@ class HostComputer extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Host Computer';
-
 }

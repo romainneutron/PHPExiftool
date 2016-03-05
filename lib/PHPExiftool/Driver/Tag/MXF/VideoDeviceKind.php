@@ -39,5 +39,4 @@ class VideoDeviceKind extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Video Device Kind';
-
 }

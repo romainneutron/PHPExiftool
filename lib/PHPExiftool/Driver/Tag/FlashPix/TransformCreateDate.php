@@ -41,5 +41,4 @@ class TransformCreateDate extends AbstractTag
     protected $Description = 'Transform Create Date';
 
     protected $local_g2 = 'Time';
-
 }

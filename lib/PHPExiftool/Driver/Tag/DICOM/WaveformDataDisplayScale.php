@@ -39,5 +39,4 @@ class WaveformDataDisplayScale extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Waveform Data Display Scale';
-
 }

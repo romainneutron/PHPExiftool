@@ -39,5 +39,4 @@ class ContributionDescription extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Contribution Description';
-
 }

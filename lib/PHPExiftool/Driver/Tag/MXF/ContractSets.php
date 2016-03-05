@@ -39,5 +39,4 @@ class ContractSets extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Contract Sets';
-
 }

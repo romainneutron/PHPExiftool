@@ -41,5 +41,4 @@ class WhiteLevel extends AbstractTag
     protected $Description = 'White Level';
 
     protected $flag_Permanent = true;
-
 }

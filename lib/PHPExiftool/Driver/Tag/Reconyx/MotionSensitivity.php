@@ -41,5 +41,4 @@ class MotionSensitivity extends AbstractTag
     protected $Description = 'Motion Sensitivity';
 
     protected $flag_Permanent = true;
-
 }

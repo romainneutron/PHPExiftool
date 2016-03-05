@@ -39,5 +39,4 @@ class EchoPlanarPulseSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Echo Planar Pulse Sequence';
-
 }

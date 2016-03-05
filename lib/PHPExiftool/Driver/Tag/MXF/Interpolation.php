@@ -39,5 +39,4 @@ class Interpolation extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Interpolation';
-
 }

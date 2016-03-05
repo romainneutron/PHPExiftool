@@ -41,5 +41,4 @@ class ISO extends AbstractTag
     protected $Description = 'ISO';
 
     protected $local_g2 = 'Camera';
-
 }

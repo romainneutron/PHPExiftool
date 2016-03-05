@@ -39,5 +39,4 @@ class PostboxNumber extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Postbox Number';
-
 }

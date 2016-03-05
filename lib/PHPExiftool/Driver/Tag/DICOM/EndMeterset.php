@@ -39,5 +39,4 @@ class EndMeterset extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'End Meterset';
-
 }

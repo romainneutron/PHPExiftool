@@ -39,5 +39,4 @@ class Category extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Category';
-
 }

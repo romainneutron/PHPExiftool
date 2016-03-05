@@ -41,5 +41,4 @@ class OriginalArtist extends AbstractTag
     protected $Description = 'Original Artist';
 
     protected $local_g2 = 'Author';
-
 }

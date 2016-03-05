@@ -39,5 +39,4 @@ class PreviewCropLeft extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Preview Crop Left';
-
 }

@@ -41,5 +41,4 @@ class RelationshipEstablishedDate extends AbstractTag
     protected $Description = 'Relationship Established Date';
 
     protected $local_g2 = 'Time';
-
 }

@@ -39,5 +39,4 @@ class ContentPackageMetadataLink extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Content Package Metadata Link';
-
 }

@@ -41,5 +41,4 @@ class Junk extends AbstractTag
     protected $Description = 'Junk';
 
     protected $flag_Binary = true;
-
 }

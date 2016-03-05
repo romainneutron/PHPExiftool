@@ -39,5 +39,4 @@ class RegionOfResidence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Region Of Residence';
-
 }

@@ -39,5 +39,4 @@ class RelationshipType extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Relationship Type';
-
 }

@@ -39,5 +39,4 @@ class TrackingID extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Tracking ID';
-
 }

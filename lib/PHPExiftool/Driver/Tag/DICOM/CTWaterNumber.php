@@ -39,5 +39,4 @@ class CTWaterNumber extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'CT Water Number';
-
 }

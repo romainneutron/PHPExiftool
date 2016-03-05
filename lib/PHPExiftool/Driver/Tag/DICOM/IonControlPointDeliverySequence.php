@@ -39,5 +39,4 @@ class IonControlPointDeliverySequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Ion Control Point Delivery Sequence';
-
 }

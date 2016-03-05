@@ -41,5 +41,4 @@ class PictureDescription extends AbstractTag
     protected $Description = 'Picture Description';
 
     protected $local_g2 = 'Image';
-
 }

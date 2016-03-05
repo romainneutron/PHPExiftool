@@ -41,5 +41,4 @@ class DLightingHSAdjustment extends AbstractTag
     protected $Description = 'D-Lighting HS Adjustment';
 
     protected $flag_Permanent = true;
-
 }

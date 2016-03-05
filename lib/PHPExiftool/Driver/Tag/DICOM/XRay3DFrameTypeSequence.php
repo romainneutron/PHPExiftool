@@ -39,5 +39,4 @@ class XRay3DFrameTypeSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'X Ray 3D Frame Type Sequence';
-
 }

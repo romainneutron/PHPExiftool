@@ -39,5 +39,4 @@ class PrintScale extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Print Scale';
-
 }

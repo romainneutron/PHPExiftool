@@ -39,5 +39,4 @@ class LightroomWorkflow extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Lightroom Workflow';
-
 }

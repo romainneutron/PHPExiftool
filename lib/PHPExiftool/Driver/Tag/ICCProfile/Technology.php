@@ -146,5 +146,4 @@ class Technology extends AbstractTag
             'Label' => 'Video Monitor',
         ),
     );
-
 }

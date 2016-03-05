@@ -39,5 +39,4 @@ class CollimatorUpperHorizontalEdge extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Collimator Upper Horizontal Edge';
-
 }

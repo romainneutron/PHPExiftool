@@ -128,5 +128,4 @@ class ColorMode extends AbstractTag
             'Label' => 'n/a',
         ),
     );
-
 }

@@ -39,5 +39,4 @@ class LargeRedPaletteColorTableDescr extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Large Red Palette Color Table Descr';
-
 }

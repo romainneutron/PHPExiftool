@@ -39,5 +39,4 @@ class VolumeLabel extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Volume Label';
-
 }

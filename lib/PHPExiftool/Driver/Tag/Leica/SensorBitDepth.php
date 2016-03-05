@@ -41,5 +41,4 @@ class SensorBitDepth extends AbstractTag
     protected $Description = 'Sensor Bit Depth';
 
     protected $flag_Permanent = true;
-
 }

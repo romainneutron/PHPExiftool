@@ -39,5 +39,4 @@ class MetersetRateSet extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Meterset Rate Set';
-
 }

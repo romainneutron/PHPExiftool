@@ -39,5 +39,4 @@ class IsocenterToWedgeTrayDistance extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Isocenter To Wedge Tray Distance';
-
 }

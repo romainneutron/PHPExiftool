@@ -41,5 +41,4 @@ class PF21EnableQuietOperation extends AbstractTag
     protected $Description = 'PF21 Enable Quiet Operation';
 
     protected $flag_Permanent = true;
-
 }

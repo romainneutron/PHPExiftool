@@ -78,5 +78,4 @@ class HotKey extends AbstractTag
             'Label' => 'F1-F24',
         ),
     );
-
 }

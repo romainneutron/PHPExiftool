@@ -39,5 +39,4 @@ class MaxPDUSize extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Max PDU Size';
-
 }

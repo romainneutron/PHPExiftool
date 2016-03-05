@@ -39,5 +39,4 @@ class UpdatedTitle extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Updated Title';
-
 }

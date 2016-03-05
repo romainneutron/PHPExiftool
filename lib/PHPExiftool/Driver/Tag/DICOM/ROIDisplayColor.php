@@ -39,5 +39,4 @@ class ROIDisplayColor extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'ROI Display Color';
-
 }

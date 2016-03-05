@@ -39,5 +39,4 @@ class EndNumberForEnhancedScans extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'End Number For Enhanced Scans';
-
 }

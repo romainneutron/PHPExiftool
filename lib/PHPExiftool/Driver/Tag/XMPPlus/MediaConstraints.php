@@ -39,5 +39,4 @@ class MediaConstraints extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Media Constraints';
-
 }

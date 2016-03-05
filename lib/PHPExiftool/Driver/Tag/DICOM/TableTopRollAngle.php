@@ -39,5 +39,4 @@ class TableTopRollAngle extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Table Top Roll Angle';
-
 }

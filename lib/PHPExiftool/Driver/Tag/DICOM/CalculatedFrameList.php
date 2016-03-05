@@ -39,5 +39,4 @@ class CalculatedFrameList extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Calculated Frame List';
-
 }

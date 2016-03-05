@@ -39,5 +39,4 @@ class MeasurementType extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Measurement Type';
-
 }

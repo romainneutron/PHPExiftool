@@ -39,5 +39,4 @@ class InitialCineRunState extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Initial Cine Run State';
-
 }

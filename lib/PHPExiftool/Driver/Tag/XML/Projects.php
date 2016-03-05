@@ -41,5 +41,4 @@ class Projects extends AbstractTag
     protected $Description = 'Projects';
 
     protected $flag_List = true;
-
 }

@@ -39,5 +39,4 @@ class OpEndPic extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'End of picture';
-
 }

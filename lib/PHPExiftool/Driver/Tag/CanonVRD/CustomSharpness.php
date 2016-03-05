@@ -39,5 +39,4 @@ class CustomSharpness extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Custom Sharpness';
-
 }

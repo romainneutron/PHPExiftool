@@ -39,5 +39,4 @@ class AnimationLoopCount extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Animation Loop Count';
-
 }

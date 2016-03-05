@@ -39,5 +39,4 @@ class ReferencedInterpretationSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Referenced Interpretation Sequence';
-
 }

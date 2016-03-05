@@ -39,5 +39,4 @@ class StartTimeScale extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Start Time Scale';
-
 }

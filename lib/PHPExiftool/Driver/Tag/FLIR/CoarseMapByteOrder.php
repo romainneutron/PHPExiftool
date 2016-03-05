@@ -39,5 +39,4 @@ class CoarseMapByteOrder extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Coarse Map Byte Order';
-
 }

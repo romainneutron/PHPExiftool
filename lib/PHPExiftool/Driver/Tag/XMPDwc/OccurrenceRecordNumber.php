@@ -39,5 +39,4 @@ class OccurrenceRecordNumber extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Occurrence Record Number';
-
 }

@@ -39,5 +39,4 @@ class ChannelDescriptionCodeSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Channel Description Code Sequence';
-
 }

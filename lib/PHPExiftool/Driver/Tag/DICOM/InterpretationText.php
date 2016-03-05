@@ -39,5 +39,4 @@ class InterpretationText extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Interpretation Text';
-
 }

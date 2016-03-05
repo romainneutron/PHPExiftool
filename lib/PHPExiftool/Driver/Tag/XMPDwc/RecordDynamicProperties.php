@@ -39,5 +39,4 @@ class RecordDynamicProperties extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Record Dynamic Properties';
-
 }

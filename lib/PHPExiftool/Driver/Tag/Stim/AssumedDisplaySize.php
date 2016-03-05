@@ -39,5 +39,4 @@ class AssumedDisplaySize extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Assumed Display Size';
-
 }

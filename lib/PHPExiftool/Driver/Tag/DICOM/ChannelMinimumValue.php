@@ -39,5 +39,4 @@ class ChannelMinimumValue extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Channel Minimum Value';
-
 }

@@ -39,5 +39,4 @@ class PreferredVolume extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Preferred Volume';
-
 }

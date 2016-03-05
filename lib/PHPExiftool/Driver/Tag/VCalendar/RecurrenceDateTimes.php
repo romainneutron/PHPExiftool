@@ -41,5 +41,4 @@ class RecurrenceDateTimes extends AbstractTag
     protected $Description = 'Recurrence Date Times';
 
     protected $local_g2 = 'Time';
-
 }

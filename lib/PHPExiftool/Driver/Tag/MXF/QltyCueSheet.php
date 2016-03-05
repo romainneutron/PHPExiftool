@@ -39,5 +39,4 @@ class QltyCueSheet extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Qlty Cue Sheet';
-
 }

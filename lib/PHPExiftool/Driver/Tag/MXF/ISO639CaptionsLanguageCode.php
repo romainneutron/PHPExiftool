@@ -39,5 +39,4 @@ class ISO639CaptionsLanguageCode extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'ISO639 Captions Language Code';
-
 }

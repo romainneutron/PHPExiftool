@@ -39,5 +39,4 @@ class AudioTrackID extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Audio Track ID';
-
 }

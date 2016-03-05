@@ -39,5 +39,4 @@ class MediaClassSecondaryID extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Media Class Secondary ID';
-
 }

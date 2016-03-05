@@ -41,5 +41,4 @@ class InternalSerialNumber extends AbstractTag
     protected $Description = 'Internal Serial Number';
 
     protected $flag_Permanent = true;
-
 }

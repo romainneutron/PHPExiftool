@@ -39,5 +39,4 @@ class LargestValidInteriorRectHeight extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Largest Valid Interior Rect Height';
-
 }

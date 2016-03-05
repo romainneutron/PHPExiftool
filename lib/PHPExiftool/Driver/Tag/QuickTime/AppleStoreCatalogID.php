@@ -39,5 +39,4 @@ class AppleStoreCatalogID extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Apple Store Catalog ID';
-
 }

@@ -41,5 +41,4 @@ class SeekTable extends AbstractTag
     protected $Description = 'Seek Table';
 
     protected $flag_Binary = true;
-
 }

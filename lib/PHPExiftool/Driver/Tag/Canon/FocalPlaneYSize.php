@@ -41,5 +41,4 @@ class FocalPlaneYSize extends AbstractTag
     protected $Description = 'Focal Plane Y Size';
 
     protected $flag_Permanent = true;
-
 }

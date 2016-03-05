@@ -39,5 +39,4 @@ class GraphicLayerRecDisplayRGBValue extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Graphic Layer Rec Display RGB Value';
-
 }

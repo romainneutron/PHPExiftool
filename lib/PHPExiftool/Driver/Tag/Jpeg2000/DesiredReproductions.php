@@ -39,5 +39,4 @@ class DesiredReproductions extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Desired Reproductions';
-
 }

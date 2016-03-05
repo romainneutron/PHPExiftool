@@ -39,5 +39,4 @@ class ImageDataTypeSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Image Data Type Sequence';
-
 }

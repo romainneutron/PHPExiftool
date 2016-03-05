@@ -39,5 +39,4 @@ class OperatingModeSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Operating Mode Sequence';
-
 }

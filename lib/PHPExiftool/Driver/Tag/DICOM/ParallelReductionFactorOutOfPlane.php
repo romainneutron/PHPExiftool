@@ -39,5 +39,4 @@ class ParallelReductionFactorOutOfPlane extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Parallel Reduction Factor Out Of Plane';
-
 }

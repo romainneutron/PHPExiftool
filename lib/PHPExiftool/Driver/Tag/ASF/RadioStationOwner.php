@@ -39,5 +39,4 @@ class RadioStationOwner extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Radio Station Owner';
-
 }

@@ -39,5 +39,4 @@ class Iterations extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Iterations';
-
 }

@@ -39,5 +39,4 @@ class ProtectionType extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Protection Type';
-
 }

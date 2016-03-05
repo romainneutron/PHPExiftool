@@ -39,5 +39,4 @@ class MultiCoilDefinitionSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Multi Coil Definition Sequence';
-
 }

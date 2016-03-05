@@ -39,5 +39,4 @@ class OccurrenceLifeStage extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Occurrence Life Stage';
-
 }

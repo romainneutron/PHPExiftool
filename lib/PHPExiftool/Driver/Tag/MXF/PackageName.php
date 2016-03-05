@@ -39,5 +39,4 @@ class PackageName extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Package Name';
-
 }

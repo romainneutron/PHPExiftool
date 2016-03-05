@@ -39,5 +39,4 @@ class Geosync extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Geosync';
-
 }

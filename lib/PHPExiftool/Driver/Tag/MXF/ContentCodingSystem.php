@@ -39,5 +39,4 @@ class ContentCodingSystem extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Content Coding System';
-
 }

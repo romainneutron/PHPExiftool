@@ -39,5 +39,4 @@ class CurrentIPTCDigest extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Current IPTC Digest';
-
 }

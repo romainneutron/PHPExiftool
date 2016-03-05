@@ -39,5 +39,4 @@ class SlabThickness extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Slab Thickness';
-
 }

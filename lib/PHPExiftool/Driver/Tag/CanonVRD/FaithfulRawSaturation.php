@@ -39,5 +39,4 @@ class FaithfulRawSaturation extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Faithful Raw Saturation';
-
 }

@@ -39,5 +39,4 @@ class UniformDataFlag extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Uniform Data Flag';
-
 }

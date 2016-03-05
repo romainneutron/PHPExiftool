@@ -39,5 +39,4 @@ class IdentifyingComments extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Identifying Comments';
-
 }

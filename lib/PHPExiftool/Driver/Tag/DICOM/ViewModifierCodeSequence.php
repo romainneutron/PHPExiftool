@@ -39,5 +39,4 @@ class ViewModifierCodeSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'View Modifier Code Sequence';
-
 }

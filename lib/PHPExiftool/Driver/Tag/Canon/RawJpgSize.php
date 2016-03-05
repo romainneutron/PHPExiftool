@@ -116,5 +116,4 @@ class RawJpgSize extends AbstractTag
             'Label' => '1920x1080 Movie',
         ),
     );
-
 }

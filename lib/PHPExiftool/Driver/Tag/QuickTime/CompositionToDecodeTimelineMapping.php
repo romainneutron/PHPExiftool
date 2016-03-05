@@ -41,5 +41,4 @@ class CompositionToDecodeTimelineMapping extends AbstractTag
     protected $Description = 'Composition To Decode Timeline Mapping';
 
     protected $flag_Binary = true;
-
 }

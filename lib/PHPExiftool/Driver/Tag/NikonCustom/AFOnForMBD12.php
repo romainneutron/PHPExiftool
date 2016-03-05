@@ -76,5 +76,4 @@ class AFOnForMBD12 extends AbstractTag
             'Label' => 'Same As Fn Button',
         ),
     );
-
 }

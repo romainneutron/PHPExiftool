@@ -39,5 +39,4 @@ class UnknownAdzc extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Unknown adzc';
-
 }

@@ -39,5 +39,4 @@ class SupplierIdentificationKind extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Supplier Identification Kind';
-
 }

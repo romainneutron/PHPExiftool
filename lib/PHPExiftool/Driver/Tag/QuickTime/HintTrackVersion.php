@@ -39,5 +39,4 @@ class HintTrackVersion extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Hint Track Version';
-
 }

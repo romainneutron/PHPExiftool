@@ -39,5 +39,4 @@ class StimVersion extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Stim Version';
-
 }

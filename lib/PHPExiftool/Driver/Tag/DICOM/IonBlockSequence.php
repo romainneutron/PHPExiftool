@@ -39,5 +39,4 @@ class IonBlockSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Ion Block Sequence';
-
 }

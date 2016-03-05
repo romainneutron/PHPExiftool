@@ -39,5 +39,4 @@ class PageFront extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Page Front';
-
 }

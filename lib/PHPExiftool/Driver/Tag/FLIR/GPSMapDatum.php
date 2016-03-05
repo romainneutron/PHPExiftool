@@ -41,5 +41,4 @@ class GPSMapDatum extends AbstractTag
     protected $Description = 'GPS Map Datum';
 
     protected $MaxLength = 16;
-
 }

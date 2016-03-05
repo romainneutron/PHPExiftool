@@ -39,5 +39,4 @@ class BiopsyPosition extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Biopsy Position';
-
 }

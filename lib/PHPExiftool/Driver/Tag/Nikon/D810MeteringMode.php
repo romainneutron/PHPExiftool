@@ -60,5 +60,4 @@ class D810MeteringMode extends AbstractTag
             'Label' => 'Highlight',
         ),
     );
-
 }

@@ -39,5 +39,4 @@ class XFocusCenter extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'X Focus Center';
-
 }

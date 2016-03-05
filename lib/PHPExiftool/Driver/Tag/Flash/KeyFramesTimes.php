@@ -39,5 +39,4 @@ class KeyFramesTimes extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Key Frames Times';
-
 }

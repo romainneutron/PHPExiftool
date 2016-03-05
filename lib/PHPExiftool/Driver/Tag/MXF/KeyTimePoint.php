@@ -39,5 +39,4 @@ class KeyTimePoint extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Key Time Point';
-
 }

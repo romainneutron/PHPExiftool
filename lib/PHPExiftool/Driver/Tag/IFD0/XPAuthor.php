@@ -41,5 +41,4 @@ class XPAuthor extends AbstractTag
     protected $Description = 'XP Author';
 
     protected $local_g2 = 'Author';
-
 }

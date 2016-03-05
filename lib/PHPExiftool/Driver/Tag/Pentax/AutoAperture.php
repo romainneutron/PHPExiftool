@@ -52,5 +52,4 @@ class AutoAperture extends AbstractTag
             'Label' => 'Off',
         ),
     );
-
 }

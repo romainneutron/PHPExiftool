@@ -39,5 +39,4 @@ class Dimensions extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Dimensions';
-
 }

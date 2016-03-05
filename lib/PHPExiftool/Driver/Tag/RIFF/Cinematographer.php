@@ -39,5 +39,4 @@ class Cinematographer extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Cinematographer';
-
 }

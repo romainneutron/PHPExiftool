@@ -39,5 +39,4 @@ class ModifierCodeSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Modifier Code Sequence';
-
 }

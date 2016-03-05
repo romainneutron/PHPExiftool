@@ -39,5 +39,4 @@ class RelatedReferenceRTImageSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Related Reference RT Image Sequence';
-
 }

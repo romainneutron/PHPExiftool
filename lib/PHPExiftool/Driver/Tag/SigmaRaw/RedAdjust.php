@@ -39,5 +39,4 @@ class RedAdjust extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Red Adjust';
-
 }

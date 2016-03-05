@@ -39,5 +39,4 @@ class RequestStatus extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Request Status';
-
 }

@@ -39,5 +39,4 @@ class DVHMinimumDose extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'DVH Minimum Dose';
-
 }

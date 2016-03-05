@@ -41,5 +41,4 @@ class ChannelALang extends AbstractTag
     protected $Description = 'Channel A-lang';
 
     protected $flag_List = true;
-
 }

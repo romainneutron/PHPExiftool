@@ -41,5 +41,4 @@ class AECOdoorIdx extends AbstractTag
     protected $Description = 'AEC Odoor Idx';
 
     protected $flag_Permanent = true;
-
 }

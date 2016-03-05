@@ -41,5 +41,4 @@ class AECSnapshotLineCount extends AbstractTag
     protected $Description = 'AEC Snapshot Line Count';
 
     protected $flag_Permanent = true;
-
 }

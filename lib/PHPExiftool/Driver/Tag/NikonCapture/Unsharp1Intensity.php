@@ -41,5 +41,4 @@ class Unsharp1Intensity extends AbstractTag
     protected $Description = 'Unsharp 1 Intensity';
 
     protected $flag_Permanent = true;
-
 }

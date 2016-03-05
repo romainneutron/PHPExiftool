@@ -39,5 +39,4 @@ class TargetUnderdoseVolumeFraction extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Target Underdose Volume Fraction';
-
 }

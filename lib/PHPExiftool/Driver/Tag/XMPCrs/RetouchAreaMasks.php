@@ -43,5 +43,4 @@ class RetouchAreaMasks extends AbstractTag
     protected $flag_List = true;
 
     protected $flag_Seq = true;
-
 }

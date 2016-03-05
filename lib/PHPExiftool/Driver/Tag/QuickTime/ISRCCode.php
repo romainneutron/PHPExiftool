@@ -39,5 +39,4 @@ class ISRCCode extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'ISRC Code';
-
 }

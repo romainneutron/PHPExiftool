@@ -41,5 +41,4 @@ class SaveObjects extends AbstractTag
     protected $Description = 'Save Objects';
 
     protected $flag_Binary = true;
-
 }

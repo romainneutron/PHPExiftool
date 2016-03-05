@@ -39,5 +39,4 @@ class ClipShotSets extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Clip Shot Sets';
-
 }

@@ -54,5 +54,4 @@ class PixelFormat extends AbstractTag
             'Label' => '4:4:4',
         ),
     );
-
 }

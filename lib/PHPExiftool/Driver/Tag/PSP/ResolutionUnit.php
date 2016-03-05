@@ -54,5 +54,4 @@ class ResolutionUnit extends AbstractTag
             'Label' => 'cm',
         ),
     );
-
 }

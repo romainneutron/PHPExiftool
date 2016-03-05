@@ -41,5 +41,4 @@ class LensMake extends AbstractTag
     protected $Description = 'Lens Make';
 
     protected $local_g1 = 'ExifIFD';
-
 }

@@ -39,5 +39,4 @@ class PatientStatus extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Patient Status';
-
 }

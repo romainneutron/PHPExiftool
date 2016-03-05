@@ -41,5 +41,4 @@ class MDPrepTime extends AbstractTag
     protected $Description = 'MD Prep Time';
 
     protected $local_g1 = 'ExifIFD';
-
 }

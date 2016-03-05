@@ -39,5 +39,4 @@ class ShotPersonSets extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Shot Person Sets';
-
 }

@@ -39,5 +39,4 @@ class BitsPerComponent extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Bits Per Component';
-
 }

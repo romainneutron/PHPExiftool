@@ -60,5 +60,4 @@ class FlashControlMode extends AbstractTag
             'Label' => 'Manual',
         ),
     );
-
 }

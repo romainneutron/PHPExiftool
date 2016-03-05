@@ -62,5 +62,4 @@ class DestinationDST extends AbstractTag
             'Label' => 'Yes',
         ),
     );
-
 }

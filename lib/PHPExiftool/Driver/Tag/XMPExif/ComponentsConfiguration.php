@@ -74,5 +74,4 @@ class ComponentsConfiguration extends AbstractTag
             'Label' => 'B',
         ),
     );
-
 }

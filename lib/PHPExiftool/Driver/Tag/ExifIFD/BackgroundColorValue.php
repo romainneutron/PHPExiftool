@@ -41,5 +41,4 @@ class BackgroundColorValue extends AbstractTag
     protected $Description = 'Background Color Value';
 
     protected $local_g1 = 'ExifIFD';
-
 }

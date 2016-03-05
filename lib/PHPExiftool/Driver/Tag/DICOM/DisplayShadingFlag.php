@@ -39,5 +39,4 @@ class DisplayShadingFlag extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Display Shading Flag';
-
 }

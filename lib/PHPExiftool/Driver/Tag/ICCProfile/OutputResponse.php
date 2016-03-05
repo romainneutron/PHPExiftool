@@ -39,5 +39,4 @@ class OutputResponse extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Output Response';
-
 }

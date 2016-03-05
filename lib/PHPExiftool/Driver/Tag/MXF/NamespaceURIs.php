@@ -39,5 +39,4 @@ class NamespaceURIs extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Namespace UR Is';
-
 }

@@ -41,5 +41,4 @@ class RPP extends AbstractTag
     protected $Description = 'RPP';
 
     protected $flag_Binary = true;
-
 }

@@ -41,5 +41,4 @@ class OriginalReleaseYear extends AbstractTag
     protected $Description = 'Original Release Year';
 
     protected $local_g2 = 'Time';
-
 }

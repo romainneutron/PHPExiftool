@@ -39,5 +39,4 @@ class ProcedureStepLabel extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Procedure Step Label';
-
 }

@@ -39,5 +39,4 @@ class RetouchAreaOpacity extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Retouch Area Opacity';
-
 }

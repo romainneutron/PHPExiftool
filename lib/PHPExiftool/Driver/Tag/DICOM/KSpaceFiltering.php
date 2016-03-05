@@ -39,5 +39,4 @@ class KSpaceFiltering extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'K Space Filtering';
-
 }

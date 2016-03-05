@@ -39,5 +39,4 @@ class AlphaSample extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Alpha Sample';
-
 }

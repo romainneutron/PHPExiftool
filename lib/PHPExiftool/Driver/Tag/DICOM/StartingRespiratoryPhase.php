@@ -39,5 +39,4 @@ class StartingRespiratoryPhase extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Starting Respiratory Phase';
-
 }

@@ -39,5 +39,4 @@ class TimepointValue extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Timepoint Value';
-
 }

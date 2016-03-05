@@ -39,5 +39,4 @@ class FocusMode extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Focus Mode';
-
 }

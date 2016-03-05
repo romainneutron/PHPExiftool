@@ -39,5 +39,4 @@ class RelativePeakAudioFilePath extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Relative Peak Audio File Path';
-
 }

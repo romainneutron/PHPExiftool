@@ -41,5 +41,4 @@ class UIC1Tag extends AbstractTag
     protected $Description = 'UIC1 Tag';
 
     protected $local_g1 = 'ExifIFD';
-
 }

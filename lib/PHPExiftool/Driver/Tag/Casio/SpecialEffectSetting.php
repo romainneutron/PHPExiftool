@@ -64,5 +64,4 @@ class SpecialEffectSetting extends AbstractTag
             'Label' => 'Art Shot',
         ),
     );
-
 }

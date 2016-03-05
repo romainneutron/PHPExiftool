@@ -39,5 +39,4 @@ class GammaColorTone extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Gamma Color Tone';
-
 }

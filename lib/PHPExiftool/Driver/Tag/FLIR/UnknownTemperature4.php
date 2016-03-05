@@ -39,5 +39,4 @@ class UnknownTemperature4 extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Unknown Temperature 4';
-
 }

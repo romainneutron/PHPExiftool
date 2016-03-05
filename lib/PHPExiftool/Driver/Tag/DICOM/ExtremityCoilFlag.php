@@ -39,5 +39,4 @@ class ExtremityCoilFlag extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Extremity Coil Flag';
-
 }

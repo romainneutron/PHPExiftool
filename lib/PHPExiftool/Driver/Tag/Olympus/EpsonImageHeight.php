@@ -41,5 +41,4 @@ class EpsonImageHeight extends AbstractTag
     protected $Description = 'Epson Image Height';
 
     protected $flag_Permanent = true;
-
 }

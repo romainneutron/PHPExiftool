@@ -39,5 +39,4 @@ class ReferringPhysicianIDSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Referring Physician ID Sequence';
-
 }

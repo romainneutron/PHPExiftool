@@ -39,5 +39,4 @@ class RecordedLateralSpreadingDeviceSeq extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Recorded Lateral Spreading Device Seq';
-
 }

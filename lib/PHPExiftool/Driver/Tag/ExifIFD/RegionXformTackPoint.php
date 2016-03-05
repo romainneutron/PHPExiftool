@@ -41,5 +41,4 @@ class RegionXformTackPoint extends AbstractTag
     protected $Description = 'Region Xform Tack Point';
 
     protected $local_g1 = 'ExifIFD';
-
 }

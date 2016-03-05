@@ -39,5 +39,4 @@ class ContrastBolusAdministrationRoute extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Contrast Bolus Administration Route';
-
 }

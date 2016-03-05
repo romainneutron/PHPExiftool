@@ -39,5 +39,4 @@ class NPages extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'N Pages';
-
 }

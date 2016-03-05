@@ -39,5 +39,4 @@ class Exposure2012 extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Exposure 2012';
-
 }

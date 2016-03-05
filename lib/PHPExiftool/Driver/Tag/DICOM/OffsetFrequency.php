@@ -39,5 +39,4 @@ class OffsetFrequency extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Offset Frequency';
-
 }

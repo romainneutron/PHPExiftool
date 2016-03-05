@@ -41,5 +41,4 @@ class BlckLvlOddCols extends AbstractTag
     protected $Description = 'Blck Lvl Odd Cols';
 
     protected $flag_Permanent = true;
-
 }

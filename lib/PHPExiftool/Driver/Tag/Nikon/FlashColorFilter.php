@@ -80,5 +80,4 @@ class FlashColorFilter extends AbstractTag
             'Label' => 'Amber',
         ),
     );
-
 }

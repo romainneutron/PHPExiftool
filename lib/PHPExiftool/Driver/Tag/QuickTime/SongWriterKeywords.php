@@ -39,5 +39,4 @@ class SongWriterKeywords extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Song Writer Keywords';
-
 }

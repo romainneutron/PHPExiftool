@@ -52,5 +52,4 @@ class EasyExposureComp extends AbstractTag
             'Label' => 'On',
         ),
     );
-
 }

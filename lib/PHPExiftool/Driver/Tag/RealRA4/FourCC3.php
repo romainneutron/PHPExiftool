@@ -41,5 +41,4 @@ class FourCC3 extends AbstractTag
     protected $Description = 'Four CC3';
 
     protected $MaxLength = 4;
-
 }

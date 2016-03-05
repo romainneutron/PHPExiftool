@@ -39,5 +39,4 @@ class PixelPresentation extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Pixel Presentation';
-
 }

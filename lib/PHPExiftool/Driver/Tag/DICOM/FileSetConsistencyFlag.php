@@ -39,5 +39,4 @@ class FileSetConsistencyFlag extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'File Set Consistency Flag';
-
 }

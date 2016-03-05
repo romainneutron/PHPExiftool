@@ -9138,5 +9138,4 @@ class GenreID extends AbstractTag
             'Label' => 'Books|Comics & Graphic Novels|Comics',
         ),
     );
-
 }

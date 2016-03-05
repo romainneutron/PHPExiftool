@@ -60,5 +60,4 @@ class RawJpgQuality extends AbstractTag
             'Label' => 'Superfine',
         ),
     );
-
 }

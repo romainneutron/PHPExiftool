@@ -41,5 +41,4 @@ class AsShotProfileName extends AbstractTag
     protected $Description = 'As Shot Profile Name';
 
     protected $flag_Unsafe = true;
-
 }

@@ -39,5 +39,4 @@ class GeneralAccessoryNumber extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'General Accessory Number';
-
 }

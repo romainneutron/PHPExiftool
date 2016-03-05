@@ -216,5 +216,4 @@ class ExposureMode extends AbstractTag
             'Label' => 'Macro',
         ),
     );
-
 }

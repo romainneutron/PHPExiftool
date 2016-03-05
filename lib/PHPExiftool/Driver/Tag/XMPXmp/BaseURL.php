@@ -39,5 +39,4 @@ class BaseURL extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Base URL';
-
 }

@@ -39,5 +39,4 @@ class DVHNormalizationDoseValue extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'DVH Normalization Dose Value';
-
 }

@@ -41,5 +41,4 @@ class NullRecord extends AbstractTag
     protected $Description = 'Null Record';
 
     protected $flag_Permanent = true;
-
 }

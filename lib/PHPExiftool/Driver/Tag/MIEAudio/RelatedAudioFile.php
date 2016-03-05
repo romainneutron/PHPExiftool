@@ -41,5 +41,4 @@ class RelatedAudioFile extends AbstractTag
     protected $Description = 'Related Audio File';
 
     protected $flag_Binary = true;
-
 }

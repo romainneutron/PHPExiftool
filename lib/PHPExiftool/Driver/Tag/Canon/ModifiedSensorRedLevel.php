@@ -41,5 +41,4 @@ class ModifiedSensorRedLevel extends AbstractTag
     protected $Description = 'Modified Sensor Red Level';
 
     protected $flag_Permanent = true;
-
 }

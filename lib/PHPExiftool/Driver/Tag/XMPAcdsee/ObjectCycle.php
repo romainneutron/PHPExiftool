@@ -41,5 +41,4 @@ class ObjectCycle extends AbstractTag
     protected $Description = 'Object Cycle';
 
     protected $flag_Avoid = true;
-
 }

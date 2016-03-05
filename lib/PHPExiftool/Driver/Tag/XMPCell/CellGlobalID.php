@@ -39,5 +39,4 @@ class CellGlobalID extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Cell Global ID';
-
 }

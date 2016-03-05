@@ -39,5 +39,4 @@ class ROIElementalCompAtomicMassFraction extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'ROI Elemental Comp Atomic Mass Fraction';
-
 }

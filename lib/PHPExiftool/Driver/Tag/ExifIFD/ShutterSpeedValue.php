@@ -41,5 +41,4 @@ class ShutterSpeedValue extends AbstractTag
     protected $Description = 'Shutter Speed Value';
 
     protected $local_g1 = 'ExifIFD';
-
 }

@@ -39,5 +39,4 @@ class BrandMainTitle extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Brand Main Title';
-
 }

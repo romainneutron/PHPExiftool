@@ -39,5 +39,4 @@ class ImageDisplayFormat extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Image Display Format';
-
 }

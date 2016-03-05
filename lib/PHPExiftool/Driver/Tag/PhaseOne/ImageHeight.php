@@ -41,5 +41,4 @@ class ImageHeight extends AbstractTag
     protected $Description = 'Image Height';
 
     protected $flag_Permanent = true;
-
 }

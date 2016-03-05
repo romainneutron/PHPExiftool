@@ -39,5 +39,4 @@ class MacintoshPrintInfo extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Macintosh Print Info';
-
 }

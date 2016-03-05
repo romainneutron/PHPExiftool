@@ -39,5 +39,4 @@ class SmartScanOnOffFlag extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Smart Scan On Off Flag';
-
 }

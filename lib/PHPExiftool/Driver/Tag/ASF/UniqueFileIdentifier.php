@@ -39,5 +39,4 @@ class UniqueFileIdentifier extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Unique File Identifier';
-
 }

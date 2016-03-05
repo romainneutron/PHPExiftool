@@ -39,5 +39,4 @@ class RightsSets extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Rights Sets';
-
 }

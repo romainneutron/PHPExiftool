@@ -56,5 +56,4 @@ class FlashStatusExternal extends AbstractTag
             'Label' => 'On',
         ),
     );
-
 }

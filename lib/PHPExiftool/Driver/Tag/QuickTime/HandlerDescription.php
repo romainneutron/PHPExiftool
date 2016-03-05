@@ -39,5 +39,4 @@ class HandlerDescription extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Handler Description';
-
 }

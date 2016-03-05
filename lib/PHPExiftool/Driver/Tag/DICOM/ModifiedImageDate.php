@@ -39,5 +39,4 @@ class ModifiedImageDate extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Modified Image Date';
-
 }

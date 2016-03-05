@@ -43,5 +43,4 @@ class Credit extends AbstractTag
     protected $local_g2 = 'Author';
 
     protected $MaxLength = 32;
-
 }

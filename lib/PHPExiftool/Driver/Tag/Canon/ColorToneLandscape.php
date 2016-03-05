@@ -48,5 +48,4 @@ class ColorToneLandscape extends AbstractTag
             'Label' => 'n/a',
         ),
     );
-
 }

@@ -41,5 +41,4 @@ class Parallax extends AbstractTag
     protected $Description = 'Parallax';
 
     protected $flag_Permanent = true;
-
 }

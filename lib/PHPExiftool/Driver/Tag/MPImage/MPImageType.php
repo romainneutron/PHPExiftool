@@ -70,5 +70,4 @@ class MPImageType extends AbstractTag
             'Label' => 'Baseline MP Primary Image',
         ),
     );
-
 }

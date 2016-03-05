@@ -39,5 +39,4 @@ class InstitutionalDepartmentName extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Institutional Department Name';
-
 }

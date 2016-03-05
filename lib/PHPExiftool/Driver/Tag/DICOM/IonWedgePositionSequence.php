@@ -39,5 +39,4 @@ class IonWedgePositionSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Ion Wedge Position Sequence';
-
 }

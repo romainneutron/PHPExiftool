@@ -39,5 +39,4 @@ class AcquisitionsInSeries extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Acquisitions In Series';
-
 }

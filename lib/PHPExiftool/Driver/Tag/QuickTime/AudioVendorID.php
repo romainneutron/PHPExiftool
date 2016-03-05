@@ -120,5 +120,4 @@ class AudioVendorID extends AbstractTag
             'Label' => 'Sanyo',
         ),
     );
-
 }

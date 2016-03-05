@@ -39,5 +39,4 @@ class RequestedProcedureID extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Requested Procedure ID';
-
 }

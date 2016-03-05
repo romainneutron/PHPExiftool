@@ -39,5 +39,4 @@ class TableOfParameterValues extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Table Of Parameter Values';
-
 }

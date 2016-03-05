@@ -39,5 +39,4 @@ class SpectroscopyAcqPhaseColumns extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Spectroscopy Acq Phase Columns';
-
 }

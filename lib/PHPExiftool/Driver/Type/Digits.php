@@ -19,5 +19,4 @@ class Digits extends AbstractType
     protected $ExiftoolName = 'digits';
 
     protected $PHPMap = 'int';
-
 }

@@ -41,5 +41,4 @@ class SharedData extends AbstractTag
     protected $Description = 'Shared Data';
 
     protected $local_g1 = 'ExifIFD';
-
 }

@@ -64,5 +64,4 @@ class AssignFuncButton extends AbstractTag
             'Label' => 'Live view function settings',
         ),
     );
-
 }

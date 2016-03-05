@@ -41,5 +41,4 @@ class DeviceAttributes extends AbstractTag
     protected $Description = 'Device Attributes';
 
     protected $MaxLength = 2;
-
 }

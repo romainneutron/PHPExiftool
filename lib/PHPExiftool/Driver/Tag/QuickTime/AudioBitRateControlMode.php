@@ -39,5 +39,4 @@ class AudioBitRateControlMode extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Audio Bit Rate Control Mode';
-
 }

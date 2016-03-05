@@ -64,5 +64,4 @@ class AFPointActivationArea extends AbstractTag
             'Label' => 'Expanded',
         ),
     );
-
 }

@@ -39,5 +39,4 @@ class MonoSourceTrackIDs extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Mono Source Track I Ds';
-
 }

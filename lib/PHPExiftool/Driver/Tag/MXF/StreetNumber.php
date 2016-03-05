@@ -39,5 +39,4 @@ class StreetNumber extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Street Number';
-
 }

@@ -39,5 +39,4 @@ class DisplayEnvironmentSpatialPosition extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Display Environment Spatial Position';
-
 }

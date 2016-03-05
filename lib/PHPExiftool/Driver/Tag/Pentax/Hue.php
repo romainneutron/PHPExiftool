@@ -84,5 +84,4 @@ class Hue extends AbstractTag
             'Label' => 'None',
         ),
     );
-
 }

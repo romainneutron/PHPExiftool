@@ -41,5 +41,4 @@ class TimeCreated extends AbstractTag
     protected $Description = 'Time Created';
 
     protected $local_g2 = 'Time';
-
 }

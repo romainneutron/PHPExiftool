@@ -52,5 +52,4 @@ class LCDDisplayReturnToShoot extends AbstractTag
             'Label' => 'Also with * etc.',
         ),
     );
-
 }

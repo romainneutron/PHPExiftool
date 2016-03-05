@@ -64,5 +64,4 @@ class AutoRotate extends AbstractTag
             'Label' => 'Rotate 270 CW',
         ),
     );
-
 }

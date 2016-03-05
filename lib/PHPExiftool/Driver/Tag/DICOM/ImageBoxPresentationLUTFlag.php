@@ -39,5 +39,4 @@ class ImageBoxPresentationLUTFlag extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Image Box Presentation LUT Flag';
-
 }

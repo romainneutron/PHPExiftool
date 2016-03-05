@@ -39,5 +39,4 @@ class Codec extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Codec';
-
 }

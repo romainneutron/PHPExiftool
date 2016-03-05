@@ -39,5 +39,4 @@ class StartNumberForEnhancedScans extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Start Number For Enhanced Scans';
-
 }

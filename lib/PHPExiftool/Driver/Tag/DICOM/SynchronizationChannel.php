@@ -39,5 +39,4 @@ class SynchronizationChannel extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Synchronization Channel';
-
 }

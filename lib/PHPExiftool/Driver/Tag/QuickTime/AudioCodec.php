@@ -41,5 +41,4 @@ class AudioCodec extends AbstractTag
     protected $Description = 'Audio Codec';
 
     protected $MaxLength = 4;
-
 }

@@ -41,5 +41,4 @@ class LastFileNumber extends AbstractTag
     protected $Description = 'Last File Number';
 
     protected $flag_Permanent = true;
-
 }

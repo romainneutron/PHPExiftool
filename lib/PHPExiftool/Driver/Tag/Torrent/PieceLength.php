@@ -39,5 +39,4 @@ class PieceLength extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Piece Length';
-
 }

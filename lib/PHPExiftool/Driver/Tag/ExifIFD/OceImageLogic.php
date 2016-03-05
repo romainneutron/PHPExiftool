@@ -41,5 +41,4 @@ class OceImageLogic extends AbstractTag
     protected $Description = 'Oce Image Logic';
 
     protected $local_g1 = 'ExifIFD';
-
 }

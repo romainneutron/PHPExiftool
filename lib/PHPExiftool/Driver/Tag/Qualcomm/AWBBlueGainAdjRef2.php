@@ -41,5 +41,4 @@ class AWBBlueGainAdjRef2 extends AbstractTag
     protected $Description = 'AWB Blue Gain Adj Ref2';
 
     protected $flag_Permanent = true;
-
 }

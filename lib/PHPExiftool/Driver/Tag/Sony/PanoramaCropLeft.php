@@ -41,5 +41,4 @@ class PanoramaCropLeft extends AbstractTag
     protected $Description = 'Panorama Crop Left';
 
     protected $flag_Permanent = true;
-
 }

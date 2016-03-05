@@ -41,5 +41,4 @@ class IPTCLastEdited extends AbstractTag
     protected $Description = 'IPTC Last Edited';
 
     protected $local_g2 = 'Time';
-
 }

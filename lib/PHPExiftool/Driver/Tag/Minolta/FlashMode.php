@@ -104,5 +104,4 @@ class FlashMode extends AbstractTag
             'Label' => 'Fill Flash',
         ),
     );
-
 }

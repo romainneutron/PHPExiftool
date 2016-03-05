@@ -39,5 +39,4 @@ class TotalEpisodeCount extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Total Episode Count';
-
 }

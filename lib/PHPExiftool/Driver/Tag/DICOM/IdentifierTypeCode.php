@@ -39,5 +39,4 @@ class IdentifierTypeCode extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Identifier Type Code';
-
 }

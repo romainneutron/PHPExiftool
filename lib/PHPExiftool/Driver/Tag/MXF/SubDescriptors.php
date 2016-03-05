@@ -39,5 +39,4 @@ class SubDescriptors extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'mixed';
-
 }

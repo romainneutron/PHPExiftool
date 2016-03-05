@@ -39,5 +39,4 @@ class LensesCodeSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Lenses Code Sequence';
-
 }

@@ -41,5 +41,4 @@ class Address extends AbstractTag
     protected $Description = 'Address';
 
     protected $local_g2 = 'Location';
-
 }

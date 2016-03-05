@@ -52,5 +52,4 @@ class GroupAreaAFIllumination extends AbstractTag
             'Label' => 'Dots',
         ),
     );
-
 }

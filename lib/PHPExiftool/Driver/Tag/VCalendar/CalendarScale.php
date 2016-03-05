@@ -39,5 +39,4 @@ class CalendarScale extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Calendar Scale';
-
 }

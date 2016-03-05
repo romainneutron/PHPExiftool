@@ -39,5 +39,4 @@ class LensManufacturer extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Lens Manufacturer';
-
 }

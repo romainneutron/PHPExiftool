@@ -41,5 +41,4 @@ class ClipPath extends AbstractTag
     protected $Description = 'Clip Path';
 
     protected $local_g1 = 'ExifIFD';
-
 }

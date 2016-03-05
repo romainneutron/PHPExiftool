@@ -39,5 +39,4 @@ class GreenX extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Green X';
-
 }

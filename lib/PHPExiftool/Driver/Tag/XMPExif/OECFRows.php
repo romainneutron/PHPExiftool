@@ -41,5 +41,4 @@ class OECFRows extends AbstractTag
     protected $Description = 'OECF Rows';
 
     protected $local_g2 = 'Camera';
-
 }

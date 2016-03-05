@@ -41,5 +41,4 @@ class UUIDUnknown extends AbstractTag
     protected $Description = 'UUID-Unknown';
 
     protected $Index = 7;
-
 }

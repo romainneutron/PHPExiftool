@@ -52,5 +52,4 @@ class DynamicAreaAFDisplay extends AbstractTag
             'Label' => 'On',
         ),
     );
-
 }

@@ -50,5 +50,4 @@ class BackgroundTiling extends AbstractTag
             'Label' => 'Yes',
         ),
     );
-
 }

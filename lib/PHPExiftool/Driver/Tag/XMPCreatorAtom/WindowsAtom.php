@@ -39,5 +39,4 @@ class WindowsAtom extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Windows Atom';
-
 }

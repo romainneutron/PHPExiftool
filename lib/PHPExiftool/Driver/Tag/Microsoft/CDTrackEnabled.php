@@ -39,5 +39,4 @@ class CDTrackEnabled extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'CD Track Enabled';
-
 }

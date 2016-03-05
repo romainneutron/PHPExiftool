@@ -41,5 +41,4 @@ class ConnectionSpaceIlluminant extends AbstractTag
     protected $Description = 'Connection Space Illuminant';
 
     protected $MaxLength = 3;
-
 }

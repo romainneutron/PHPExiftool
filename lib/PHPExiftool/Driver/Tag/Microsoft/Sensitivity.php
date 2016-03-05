@@ -39,5 +39,4 @@ class Sensitivity extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Sensitivity';
-
 }

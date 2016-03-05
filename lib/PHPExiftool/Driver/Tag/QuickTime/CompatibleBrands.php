@@ -39,5 +39,4 @@ class CompatibleBrands extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Compatible Brands';
-
 }

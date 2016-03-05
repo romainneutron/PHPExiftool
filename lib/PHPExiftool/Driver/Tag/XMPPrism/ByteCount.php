@@ -41,5 +41,4 @@ class ByteCount extends AbstractTag
     protected $Description = 'Byte Count';
 
     protected $flag_Avoid = true;
-
 }

@@ -39,5 +39,4 @@ class GrainFrequency extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Grain Frequency';
-
 }

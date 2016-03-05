@@ -41,5 +41,4 @@ class ICCProfile extends AbstractTag
     protected $Description = 'ICC Profile';
 
     protected $flag_Binary = true;
-
 }

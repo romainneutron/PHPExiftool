@@ -41,5 +41,4 @@ class DocumentHistory extends AbstractTag
     protected $Description = 'Document History';
 
     protected $MaxLength = 256;
-
 }

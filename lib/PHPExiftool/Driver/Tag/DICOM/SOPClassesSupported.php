@@ -39,5 +39,4 @@ class SOPClassesSupported extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'SOP Classes Supported';
-
 }

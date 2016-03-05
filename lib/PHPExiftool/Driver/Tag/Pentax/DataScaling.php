@@ -41,5 +41,4 @@ class DataScaling extends AbstractTag
     protected $Description = 'Data Scaling';
 
     protected $flag_Permanent = true;
-
 }

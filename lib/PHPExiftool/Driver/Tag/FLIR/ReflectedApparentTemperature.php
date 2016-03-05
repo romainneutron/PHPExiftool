@@ -41,5 +41,4 @@ class ReflectedApparentTemperature extends AbstractTag
     protected $Description = 'Reflected Apparent Temperature';
 
     protected $flag_Permanent = 'mixed';
-
 }

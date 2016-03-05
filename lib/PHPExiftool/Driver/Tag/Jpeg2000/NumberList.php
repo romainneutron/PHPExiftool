@@ -39,5 +39,4 @@ class NumberList extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Number List';
-
 }

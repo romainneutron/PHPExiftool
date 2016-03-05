@@ -39,5 +39,4 @@ class OverlayOrImageMagnification extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Overlay Or Image Magnification';
-
 }

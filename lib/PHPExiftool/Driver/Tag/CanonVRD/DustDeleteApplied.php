@@ -50,5 +50,4 @@ class DustDeleteApplied extends AbstractTag
             'Label' => 'Yes',
         ),
     );
-
 }

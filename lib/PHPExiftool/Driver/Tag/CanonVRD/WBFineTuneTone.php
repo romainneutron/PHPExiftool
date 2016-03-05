@@ -39,5 +39,4 @@ class WBFineTuneTone extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'WB Fine Tune Tone';
-
 }

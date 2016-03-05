@@ -39,5 +39,4 @@ class CreationPathVector extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Creation Path Vector';
-
 }

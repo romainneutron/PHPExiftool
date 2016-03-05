@@ -39,5 +39,4 @@ class XMLFileType extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'XML File Type';
-
 }

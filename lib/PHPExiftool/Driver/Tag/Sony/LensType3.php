@@ -224,5 +224,4 @@ class LensType3 extends AbstractTag
             'Label' => 'Zeiss Loxia 21mm F2.8',
         ),
     );
-
 }

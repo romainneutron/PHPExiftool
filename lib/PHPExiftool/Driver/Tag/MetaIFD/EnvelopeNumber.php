@@ -39,5 +39,4 @@ class EnvelopeNumber extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Envelope Number';
-
 }

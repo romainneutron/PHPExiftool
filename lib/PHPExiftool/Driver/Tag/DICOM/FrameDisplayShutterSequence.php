@@ -39,5 +39,4 @@ class FrameDisplayShutterSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Frame Display Shutter Sequence';
-
 }

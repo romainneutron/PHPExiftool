@@ -39,5 +39,4 @@ class SecondaryOriginalLanguageCode extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Secondary Original Language Code';
-
 }

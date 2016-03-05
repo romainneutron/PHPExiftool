@@ -39,5 +39,4 @@ class Modality extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Modality';
-
 }

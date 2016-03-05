@@ -54,5 +54,4 @@ class ExternalFlash extends AbstractTag
             'Label' => 'On',
         ),
     );
-
 }

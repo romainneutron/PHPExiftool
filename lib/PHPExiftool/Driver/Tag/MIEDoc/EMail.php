@@ -41,5 +41,4 @@ class Email extends AbstractTag
     protected $Description = 'Email';
 
     protected $local_g2 = 'Author';
-
 }

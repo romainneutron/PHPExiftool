@@ -39,5 +39,4 @@ class PoseRollDegrees extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Pose Roll Degrees';
-
 }

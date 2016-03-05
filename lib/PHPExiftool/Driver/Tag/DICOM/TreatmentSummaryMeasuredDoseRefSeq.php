@@ -39,5 +39,4 @@ class TreatmentSummaryMeasuredDoseRefSeq extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Treatment Summary Measured Dose Ref Seq';
-
 }

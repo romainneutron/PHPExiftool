@@ -39,5 +39,4 @@ class DeliveredNumberOfPulses extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Delivered Number Of Pulses';
-
 }

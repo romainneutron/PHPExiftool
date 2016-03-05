@@ -136,5 +136,4 @@ class WhiteBalance2 extends AbstractTag
             'Label' => 'Custom WB 4',
         ),
     );
-
 }

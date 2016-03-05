@@ -39,5 +39,4 @@ class VerticesOfTheRegion extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Vertices Of The Region';
-
 }

@@ -41,5 +41,4 @@ class RGBCurvePoints extends AbstractTag
     protected $Description = 'RGB Curve Points';
 
     protected $MaxLength = 21;
-
 }

@@ -128,5 +128,4 @@ class StandbyTimer extends AbstractTag
             'Label' => '30 min',
         ),
     );
-
 }

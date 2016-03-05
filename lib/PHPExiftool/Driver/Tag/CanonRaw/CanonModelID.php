@@ -1256,5 +1256,4 @@ class CanonModelID extends AbstractTag
             'Label' => 'EOS 5DS R',
         ),
     );
-
 }

@@ -134,5 +134,4 @@ class ExposureLevelIncrements extends AbstractTag
     );
 
     protected $Index = 'mixed';
-
 }

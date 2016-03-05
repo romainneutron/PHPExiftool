@@ -41,5 +41,4 @@ class FlashOutput extends AbstractTag
     protected $Description = 'Flash Output';
 
     protected $flag_Permanent = true;
-
 }

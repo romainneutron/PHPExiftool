@@ -41,5 +41,4 @@ class PF6PresetShootingModes extends AbstractTag
     protected $Description = 'PF6 Preset Shooting Modes';
 
     protected $flag_Permanent = true;
-
 }

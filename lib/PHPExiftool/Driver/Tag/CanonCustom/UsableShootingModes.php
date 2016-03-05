@@ -54,5 +54,4 @@ class UsableShootingModes extends AbstractTag
             'Label' => 'Enable',
         ),
     );
-
 }

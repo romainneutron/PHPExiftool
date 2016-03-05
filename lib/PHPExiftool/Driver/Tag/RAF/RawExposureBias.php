@@ -39,5 +39,4 @@ class RawExposureBias extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Raw Exposure Bias';
-
 }

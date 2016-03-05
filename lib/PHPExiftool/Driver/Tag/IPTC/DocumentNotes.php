@@ -41,5 +41,4 @@ class DocumentNotes extends AbstractTag
     protected $Description = 'Document Notes';
 
     protected $MaxLength = 1024;
-
 }

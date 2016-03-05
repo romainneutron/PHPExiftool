@@ -120,5 +120,4 @@ class CommandDialsChangeMainSub extends AbstractTag
             'Label' => 'Autofocus On, Exposure On (Mode A)',
         ),
     );
-
 }

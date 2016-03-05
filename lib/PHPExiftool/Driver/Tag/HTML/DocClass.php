@@ -39,5 +39,4 @@ class DocClass extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Doc Class';
-
 }

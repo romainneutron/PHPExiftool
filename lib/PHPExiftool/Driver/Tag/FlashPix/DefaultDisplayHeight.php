@@ -39,5 +39,4 @@ class DefaultDisplayHeight extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Default Display Height';
-
 }

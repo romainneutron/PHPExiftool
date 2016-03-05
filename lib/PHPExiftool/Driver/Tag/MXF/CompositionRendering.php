@@ -39,5 +39,4 @@ class CompositionRendering extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Composition Rendering';
-
 }

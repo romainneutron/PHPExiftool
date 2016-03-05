@@ -39,5 +39,4 @@ class MultipleSpinEcho extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Multiple Spin Echo';
-
 }

@@ -39,5 +39,4 @@ class DegreesOfAzimuth extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Degrees Of Azimuth';
-
 }

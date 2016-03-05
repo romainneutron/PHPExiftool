@@ -41,5 +41,4 @@ class AntibandingEnable extends AbstractTag
     protected $Description = 'Antibanding Enable';
 
     protected $flag_Permanent = true;
-
 }

@@ -41,5 +41,4 @@ class ParentReference5 extends AbstractTag
     protected $Description = 'Parent Reference 5';
 
     protected $flag_List = true;
-
 }

@@ -39,5 +39,4 @@ class PETFrameTypeSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'PET Frame Type Sequence';
-
 }

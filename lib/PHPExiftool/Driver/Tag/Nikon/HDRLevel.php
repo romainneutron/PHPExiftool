@@ -64,5 +64,4 @@ class HDRLevel extends AbstractTag
             'Label' => 'n/a',
         ),
     );
-
 }

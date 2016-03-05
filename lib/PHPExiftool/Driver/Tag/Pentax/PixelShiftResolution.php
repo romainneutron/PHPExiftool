@@ -52,5 +52,4 @@ class PixelShiftResolution extends AbstractTag
             'Label' => 'On',
         ),
     );
-
 }

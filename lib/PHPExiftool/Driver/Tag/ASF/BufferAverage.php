@@ -39,5 +39,4 @@ class BufferAverage extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Buffer Average';
-
 }

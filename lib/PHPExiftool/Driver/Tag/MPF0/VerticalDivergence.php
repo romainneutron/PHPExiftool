@@ -39,5 +39,4 @@ class VerticalDivergence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Vertical Divergence';
-
 }

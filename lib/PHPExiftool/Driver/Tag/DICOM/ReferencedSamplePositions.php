@@ -39,5 +39,4 @@ class ReferencedSamplePositions extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Referenced Sample Positions';
-
 }

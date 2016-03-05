@@ -41,5 +41,4 @@ class EmbeddedImageName extends AbstractTag
     protected $Description = 'Embedded Image Name';
 
     protected $flag_Permanent = true;
-
 }

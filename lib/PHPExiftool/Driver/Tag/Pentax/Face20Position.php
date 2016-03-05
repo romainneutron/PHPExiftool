@@ -43,5 +43,4 @@ class Face20Position extends AbstractTag
     protected $flag_Permanent = true;
 
     protected $MaxLength = 2;
-
 }

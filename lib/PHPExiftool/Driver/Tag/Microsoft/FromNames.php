@@ -39,5 +39,4 @@ class FromNames extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'From Names';
-
 }

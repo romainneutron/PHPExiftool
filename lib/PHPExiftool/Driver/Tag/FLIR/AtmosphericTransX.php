@@ -39,5 +39,4 @@ class AtmosphericTransX extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Atmospheric Trans X';
-
 }

@@ -39,5 +39,4 @@ class RadionuclidePositronFraction extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Radionuclide Positron Fraction';
-
 }

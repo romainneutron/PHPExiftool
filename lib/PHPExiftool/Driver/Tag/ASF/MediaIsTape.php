@@ -39,5 +39,4 @@ class MediaIsTape extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Media Is Tape';
-
 }

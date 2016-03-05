@@ -39,5 +39,4 @@ class ROIMean extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'ROI Mean';
-
 }

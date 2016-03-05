@@ -39,5 +39,4 @@ class SubstanceAdminParameterSeq extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Substance Admin Parameter Seq';
-
 }

@@ -39,5 +39,4 @@ class FileInfoLen extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'File Info Len';
-
 }

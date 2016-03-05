@@ -39,5 +39,4 @@ class LuminanceAdjustmentMagenta extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Luminance Adjustment Magenta';
-
 }

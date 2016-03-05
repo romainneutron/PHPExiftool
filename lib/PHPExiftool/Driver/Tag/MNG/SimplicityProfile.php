@@ -39,5 +39,4 @@ class SimplicityProfile extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Simplicity Profile';
-
 }

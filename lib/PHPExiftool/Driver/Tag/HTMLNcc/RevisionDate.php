@@ -41,5 +41,4 @@ class RevisionDate extends AbstractTag
     protected $Description = 'Revision Date';
 
     protected $local_g2 = 'Time';
-
 }

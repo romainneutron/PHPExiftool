@@ -60,5 +60,4 @@ class NoiseReduction2 extends AbstractTag
             'Label' => 'Noise Filter (ISO Boost)',
         ),
     );
-
 }

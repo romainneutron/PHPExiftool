@@ -39,5 +39,4 @@ class AltTapeName extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Alt Tape Name';
-
 }

@@ -41,5 +41,4 @@ class CustomPictureStyleData extends AbstractTag
     protected $Description = 'Custom Picture Style Data';
 
     protected $flag_Binary = true;
-
 }

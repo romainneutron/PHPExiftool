@@ -39,5 +39,4 @@ class EditHint extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Edit Hint';
-
 }

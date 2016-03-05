@@ -39,5 +39,4 @@ class TamperProofKeys extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Tamper-proof Keys';
-
 }

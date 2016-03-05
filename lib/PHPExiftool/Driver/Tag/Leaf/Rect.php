@@ -39,5 +39,4 @@ class Rect extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Rect';
-
 }

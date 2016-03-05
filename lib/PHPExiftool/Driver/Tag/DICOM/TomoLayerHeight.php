@@ -39,5 +39,4 @@ class TomoLayerHeight extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Tomo Layer Height';
-
 }

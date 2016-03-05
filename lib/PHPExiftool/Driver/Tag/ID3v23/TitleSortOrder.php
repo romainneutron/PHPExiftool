@@ -39,5 +39,4 @@ class TitleSortOrder extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Title Sort Order';
-
 }

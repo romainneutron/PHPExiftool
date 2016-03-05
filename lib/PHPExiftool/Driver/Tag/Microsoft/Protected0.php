@@ -39,5 +39,4 @@ class Protected0 extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Protected';
-
 }

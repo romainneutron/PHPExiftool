@@ -41,5 +41,4 @@ class RicohModel extends AbstractTag
     protected $Description = 'Ricoh Model';
 
     protected $flag_Permanent = true;
-
 }

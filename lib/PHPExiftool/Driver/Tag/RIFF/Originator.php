@@ -41,5 +41,4 @@ class Originator extends AbstractTag
     protected $Description = 'Originator';
 
     protected $MaxLength = 32;
-
 }

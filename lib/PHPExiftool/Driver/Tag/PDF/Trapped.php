@@ -41,5 +41,4 @@ class Trapped extends AbstractTag
     protected $Description = 'Trapped';
 
     protected $flag_Unsafe = true;
-
 }

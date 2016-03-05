@@ -39,5 +39,4 @@ class GridID extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Grid ID';
-
 }

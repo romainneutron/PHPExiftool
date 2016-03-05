@@ -64,5 +64,4 @@ class ExposureMode extends AbstractTag
             'Label' => 'Shutter Priority',
         ),
     );
-
 }

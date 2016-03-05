@@ -39,5 +39,4 @@ class TxRatio extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Text Ratio';
-
 }

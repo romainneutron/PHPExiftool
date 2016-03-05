@@ -39,5 +39,4 @@ class SphericalLensPower extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Spherical Lens Power';
-
 }

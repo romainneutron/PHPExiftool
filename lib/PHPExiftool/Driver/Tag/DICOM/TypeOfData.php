@@ -39,5 +39,4 @@ class TypeOfData extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Type Of Data';
-
 }

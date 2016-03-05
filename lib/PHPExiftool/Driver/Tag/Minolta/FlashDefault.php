@@ -52,5 +52,4 @@ class FlashDefault extends AbstractTag
             'Label' => 'Fill Flash',
         ),
     );
-
 }

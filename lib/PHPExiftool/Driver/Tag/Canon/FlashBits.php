@@ -84,5 +84,4 @@ class FlashBits extends AbstractTag
             'Label' => 'External',
         ),
     );
-
 }

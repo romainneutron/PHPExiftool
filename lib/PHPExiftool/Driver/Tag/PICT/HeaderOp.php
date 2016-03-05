@@ -41,5 +41,4 @@ class HeaderOp extends AbstractTag
     protected $Description = 'Header Op';
 
     protected $MaxLength = 12;
-
 }

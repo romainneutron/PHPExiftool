@@ -39,5 +39,4 @@ class ShutterPresentationColorCIELabVal extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Shutter Presentation Color CIE Lab Val';
-
 }

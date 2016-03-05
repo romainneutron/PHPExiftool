@@ -48,5 +48,4 @@ class ColorToneUserDef2 extends AbstractTag
             'Label' => 'n/a',
         ),
     );
-
 }

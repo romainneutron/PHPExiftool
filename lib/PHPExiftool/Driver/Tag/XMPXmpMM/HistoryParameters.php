@@ -41,5 +41,4 @@ class HistoryParameters extends AbstractTag
     protected $Description = 'History Parameters';
 
     protected $flag_List = true;
-
 }

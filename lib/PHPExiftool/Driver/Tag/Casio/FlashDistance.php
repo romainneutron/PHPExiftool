@@ -41,5 +41,4 @@ class FlashDistance extends AbstractTag
     protected $Description = 'Flash Distance';
 
     protected $flag_Permanent = true;
-
 }

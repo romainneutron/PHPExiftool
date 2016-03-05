@@ -39,5 +39,4 @@ class LUTData extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'LUT Data';
-
 }

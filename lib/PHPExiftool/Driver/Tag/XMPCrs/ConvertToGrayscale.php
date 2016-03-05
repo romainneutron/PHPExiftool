@@ -39,5 +39,4 @@ class ConvertToGrayscale extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Convert To Grayscale';
-
 }

@@ -39,5 +39,4 @@ class Genre extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Genre';
-
 }

@@ -41,5 +41,4 @@ class SamplesPerPixel extends AbstractTag
     protected $Description = 'Samples Per Pixel';
 
     protected $flag_Unsafe = true;
-
 }

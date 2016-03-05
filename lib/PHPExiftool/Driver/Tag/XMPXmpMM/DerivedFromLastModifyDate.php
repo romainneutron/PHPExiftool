@@ -41,5 +41,4 @@ class DerivedFromLastModifyDate extends AbstractTag
     protected $Description = 'Derived From Last Modify Date';
 
     protected $local_g2 = 'Time';
-
 }

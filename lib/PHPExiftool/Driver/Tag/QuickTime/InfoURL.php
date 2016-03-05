@@ -39,5 +39,4 @@ class InfoURL extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Info URL';
-
 }

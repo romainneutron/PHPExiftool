@@ -39,5 +39,4 @@ class DataPointColumns extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Data Point Columns';
-
 }

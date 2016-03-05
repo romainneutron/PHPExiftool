@@ -39,5 +39,4 @@ class ChannelIdentificationCode extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Channel Identification Code';
-
 }

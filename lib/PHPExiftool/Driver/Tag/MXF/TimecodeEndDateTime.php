@@ -41,5 +41,4 @@ class TimecodeEndDateTime extends AbstractTag
     protected $Description = 'Timecode End Date Time';
 
     protected $local_g2 = 'Time';
-
 }

@@ -39,5 +39,4 @@ class HasAudio extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Has Audio';
-
 }

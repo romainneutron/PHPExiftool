@@ -39,5 +39,4 @@ class TotalWedgeTrayWaterEquivThickness extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Total Wedge Tray Water Equiv Thickness';
-
 }

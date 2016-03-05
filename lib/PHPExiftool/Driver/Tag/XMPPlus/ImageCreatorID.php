@@ -41,5 +41,4 @@ class ImageCreatorID extends AbstractTag
     protected $Description = 'Image Creator ID';
 
     protected $flag_List = true;
-
 }

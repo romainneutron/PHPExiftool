@@ -39,5 +39,4 @@ class GenericPayloads extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Generic Payloads';
-
 }

@@ -39,5 +39,4 @@ class LeafJawPositions extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Leaf Jaw Positions';
-
 }

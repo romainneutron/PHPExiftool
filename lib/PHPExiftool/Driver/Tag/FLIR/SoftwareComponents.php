@@ -41,5 +41,4 @@ class SoftwareComponents extends AbstractTag
     protected $Description = 'Software Components';
 
     protected $Index = 6;
-
 }

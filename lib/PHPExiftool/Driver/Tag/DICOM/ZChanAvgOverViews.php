@@ -39,5 +39,4 @@ class ZChanAvgOverViews extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Z Chan Avg Over Views';
-
 }

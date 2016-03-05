@@ -41,5 +41,4 @@ class WBRGBLevels2 extends AbstractTag
     protected $Description = 'WB RGB Levels 2';
 
     protected $MaxLength = 3;
-
 }

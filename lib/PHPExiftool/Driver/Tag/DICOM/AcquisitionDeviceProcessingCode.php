@@ -39,5 +39,4 @@ class AcquisitionDeviceProcessingCode extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Acquisition Device Processing Code';
-
 }

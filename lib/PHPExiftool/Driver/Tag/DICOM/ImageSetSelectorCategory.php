@@ -39,5 +39,4 @@ class ImageSetSelectorCategory extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Image Set Selector Category';
-
 }

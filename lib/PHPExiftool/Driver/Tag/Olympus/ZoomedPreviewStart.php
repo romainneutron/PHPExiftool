@@ -43,5 +43,4 @@ class ZoomedPreviewStart extends AbstractTag
     protected $flag_Permanent = true;
 
     protected $flag_Protected = true;
-
 }

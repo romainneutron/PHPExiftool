@@ -41,5 +41,4 @@ class AFDefocus extends AbstractTag
     protected $Description = 'AF Defocus';
 
     protected $flag_Permanent = true;
-
 }

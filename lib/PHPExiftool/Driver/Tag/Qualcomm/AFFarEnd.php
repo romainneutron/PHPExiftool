@@ -41,5 +41,4 @@ class AFFarEnd extends AbstractTag
     protected $Description = 'AF Far End';
 
     protected $flag_Permanent = true;
-
 }

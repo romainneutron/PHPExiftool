@@ -39,5 +39,4 @@ class CTReconstructionSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'CT Reconstruction Sequence';
-
 }

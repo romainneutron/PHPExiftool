@@ -39,5 +39,4 @@ class OccurrenceCatalogNumber extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Occurrence Catalog Number';
-
 }

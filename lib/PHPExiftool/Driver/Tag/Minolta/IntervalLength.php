@@ -41,5 +41,4 @@ class IntervalLength extends AbstractTag
     protected $Description = 'Interval Length';
 
     protected $flag_Permanent = true;
-
 }

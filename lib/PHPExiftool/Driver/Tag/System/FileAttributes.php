@@ -104,5 +104,4 @@ class FileAttributes extends AbstractTag
             'Label' => 'BSD Whiteout',
         ),
     );
-
 }

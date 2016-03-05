@@ -41,5 +41,4 @@ class AudioCodecID extends AbstractTag
     protected $Description = 'Audio Codec ID';
 
     protected $local_g2 = 'Audio';
-
 }

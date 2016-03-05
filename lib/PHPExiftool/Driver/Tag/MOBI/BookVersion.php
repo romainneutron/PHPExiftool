@@ -39,5 +39,4 @@ class BookVersion extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Book Version';
-
 }

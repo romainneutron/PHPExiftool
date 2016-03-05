@@ -39,5 +39,4 @@ class BlockDuration extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Block Duration';
-
 }

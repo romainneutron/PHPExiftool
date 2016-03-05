@@ -39,5 +39,4 @@ class StrobeTime extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Strobe Time';
-
 }

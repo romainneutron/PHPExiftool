@@ -39,5 +39,4 @@ class NearPupillaryDistance extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Near Pupillary Distance';
-
 }

@@ -39,5 +39,4 @@ class SurfaceComments extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Surface Comments';
-
 }

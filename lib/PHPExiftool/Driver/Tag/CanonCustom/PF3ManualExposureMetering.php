@@ -41,5 +41,4 @@ class PF3ManualExposureMetering extends AbstractTag
     protected $Description = 'PF3 Manual Exposure Metering';
 
     protected $flag_Permanent = true;
-
 }

@@ -41,5 +41,4 @@ class MeterMode extends AbstractTag
     protected $Description = 'Meter Mode';
 
     protected $flag_Permanent = true;
-
 }

@@ -39,5 +39,4 @@ class NumberOfPatientRelatedStudies extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Number Of Patient Related Studies';
-
 }

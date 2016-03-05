@@ -39,5 +39,4 @@ class MediaStorageSOPInstanceUID extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Media Storage SOP Instance UID';
-
 }

@@ -39,5 +39,4 @@ class ReformattingOpInitialViewDir extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Reformatting Op Initial View Dir';
-
 }

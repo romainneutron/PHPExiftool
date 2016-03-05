@@ -39,5 +39,4 @@ class NumPackets extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Num Packets';
-
 }

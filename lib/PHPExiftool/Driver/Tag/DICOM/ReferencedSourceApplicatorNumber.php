@@ -39,5 +39,4 @@ class ReferencedSourceApplicatorNumber extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Referenced Source Applicator Number';
-
 }

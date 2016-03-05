@@ -39,5 +39,4 @@ class UnknownSlmt extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Unknown slmt';
-
 }

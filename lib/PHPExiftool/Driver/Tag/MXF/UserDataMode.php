@@ -39,5 +39,4 @@ class UserDataMode extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'User Data Mode';
-
 }

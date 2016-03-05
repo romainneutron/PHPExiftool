@@ -39,5 +39,4 @@ class TriggerTime extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Trigger Time';
-
 }

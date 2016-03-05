@@ -39,5 +39,4 @@ class FragmentTable extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Fragment Table';
-
 }

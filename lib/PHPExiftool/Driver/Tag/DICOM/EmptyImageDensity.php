@@ -39,5 +39,4 @@ class EmptyImageDensity extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Empty Image Density';
-
 }

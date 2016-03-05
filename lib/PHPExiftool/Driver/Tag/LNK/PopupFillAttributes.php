@@ -39,5 +39,4 @@ class PopupFillAttributes extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Popup Fill Attributes';
-
 }

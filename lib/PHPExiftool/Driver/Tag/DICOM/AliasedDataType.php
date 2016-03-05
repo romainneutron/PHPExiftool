@@ -39,5 +39,4 @@ class AliasedDataType extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Aliased Data Type';
-
 }

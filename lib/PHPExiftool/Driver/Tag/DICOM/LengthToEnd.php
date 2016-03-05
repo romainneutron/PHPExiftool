@@ -39,5 +39,4 @@ class LengthToEnd extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Length To End';
-
 }

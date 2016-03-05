@@ -140,5 +140,4 @@ class SubSelector extends AbstractTag
             'Label' => 'Flash Disable/Enable',
         ),
     );
-
 }

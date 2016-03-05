@@ -43,5 +43,4 @@ class FrameHeight extends AbstractTag
     protected $local_g2 = 'Video';
 
     protected $flag_Permanent = true;
-
 }

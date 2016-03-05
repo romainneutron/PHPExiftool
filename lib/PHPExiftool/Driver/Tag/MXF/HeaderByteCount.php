@@ -39,5 +39,4 @@ class HeaderByteCount extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Header Byte Count';
-
 }

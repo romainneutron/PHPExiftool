@@ -39,5 +39,4 @@ class ReplayGainTrackPeak extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Replay Gain Track Peak';
-
 }

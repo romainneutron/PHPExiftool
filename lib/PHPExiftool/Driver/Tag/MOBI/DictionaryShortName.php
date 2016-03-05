@@ -39,5 +39,4 @@ class DictionaryShortName extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Dictionary Short Name';
-
 }

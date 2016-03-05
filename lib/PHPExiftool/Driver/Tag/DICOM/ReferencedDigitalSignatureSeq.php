@@ -39,5 +39,4 @@ class ReferencedDigitalSignatureSeq extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Referenced Digital Signature Seq';
-
 }

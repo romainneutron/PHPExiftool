@@ -39,5 +39,4 @@ class ISMN extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'ISMN';
-
 }

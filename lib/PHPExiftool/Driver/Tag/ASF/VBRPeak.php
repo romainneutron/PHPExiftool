@@ -39,5 +39,4 @@ class VBRPeak extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'VBR Peak';
-
 }

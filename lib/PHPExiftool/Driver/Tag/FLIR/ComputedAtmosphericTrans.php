@@ -39,5 +39,4 @@ class ComputedAtmosphericTrans extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Computed Atmospheric Trans';
-
 }

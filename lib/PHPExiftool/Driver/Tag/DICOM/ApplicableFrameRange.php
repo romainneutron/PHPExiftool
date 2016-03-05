@@ -39,5 +39,4 @@ class ApplicableFrameRange extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Applicable Frame Range';
-
 }

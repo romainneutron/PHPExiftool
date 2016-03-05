@@ -41,5 +41,4 @@ class AFAccelDecelTracking extends AbstractTag
     protected $Description = 'AF Accel/Decel Tracking';
 
     protected $flag_Permanent = true;
-
 }

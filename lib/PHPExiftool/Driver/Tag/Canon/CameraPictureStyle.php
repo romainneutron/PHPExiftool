@@ -80,5 +80,4 @@ class CameraPictureStyle extends AbstractTag
             'Label' => 'Monochrome',
         ),
     );
-
 }

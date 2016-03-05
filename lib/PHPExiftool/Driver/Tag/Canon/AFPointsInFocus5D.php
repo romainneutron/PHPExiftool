@@ -108,5 +108,4 @@ class AFPointsInFocus5D extends AbstractTag
             'Label' => 'AI Servo6',
         ),
     );
-
 }

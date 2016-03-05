@@ -39,5 +39,4 @@ class AutoSaveFormat extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Auto Save Format';
-
 }

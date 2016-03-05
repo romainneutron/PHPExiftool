@@ -39,5 +39,4 @@ class GradientBasedCorrMaskRight extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Gradient Based Corr Mask Right';
-
 }

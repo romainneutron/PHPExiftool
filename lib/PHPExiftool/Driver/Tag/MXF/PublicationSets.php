@@ -39,5 +39,4 @@ class PublicationSets extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Publication Sets';
-
 }

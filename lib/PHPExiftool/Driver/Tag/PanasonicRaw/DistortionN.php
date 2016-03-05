@@ -39,5 +39,4 @@ class DistortionN extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Distortion N';
-
 }

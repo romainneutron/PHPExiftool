@@ -41,5 +41,4 @@ class ArtworkCircaDateCreated extends AbstractTag
     protected $Description = 'Artwork Circa Date Created';
 
     protected $flag_List = true;
-
 }

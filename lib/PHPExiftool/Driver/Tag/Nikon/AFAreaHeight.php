@@ -41,5 +41,4 @@ class AFAreaHeight extends AbstractTag
     protected $Description = 'AF Area Height';
 
     protected $flag_Permanent = true;
-
 }

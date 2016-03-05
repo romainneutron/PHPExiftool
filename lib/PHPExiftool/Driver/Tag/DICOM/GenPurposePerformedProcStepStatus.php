@@ -39,5 +39,4 @@ class GenPurposePerformedProcStepStatus extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Gen Purpose Performed Proc Step Status';
-
 }

@@ -39,5 +39,4 @@ class TemplateVersion extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Template Version';
-
 }

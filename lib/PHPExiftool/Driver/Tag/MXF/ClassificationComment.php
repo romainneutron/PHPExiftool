@@ -39,5 +39,4 @@ class ClassificationComment extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Classification Comment';
-
 }

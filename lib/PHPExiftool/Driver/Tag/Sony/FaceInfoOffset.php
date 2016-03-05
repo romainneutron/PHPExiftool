@@ -41,5 +41,4 @@ class FaceInfoOffset extends AbstractTag
     protected $Description = 'Face Info Offset';
 
     protected $flag_Permanent = true;
-
 }

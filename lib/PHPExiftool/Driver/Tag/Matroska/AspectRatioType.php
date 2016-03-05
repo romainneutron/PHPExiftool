@@ -54,5 +54,4 @@ class AspectRatioType extends AbstractTag
             'Label' => 'Fixed',
         ),
     );
-
 }

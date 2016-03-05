@@ -39,5 +39,4 @@ class AbstractPriorCodeSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Abstract Prior Code Sequence';
-
 }

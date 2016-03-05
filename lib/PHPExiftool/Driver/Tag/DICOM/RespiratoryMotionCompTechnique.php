@@ -39,5 +39,4 @@ class RespiratoryMotionCompTechnique extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Respiratory Motion Comp Technique';
-
 }

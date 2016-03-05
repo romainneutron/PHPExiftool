@@ -39,5 +39,4 @@ class OccurrenceID extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Occurrence ID';
-
 }

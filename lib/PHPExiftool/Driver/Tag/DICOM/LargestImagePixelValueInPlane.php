@@ -39,5 +39,4 @@ class LargestImagePixelValueInPlane extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Largest Image Pixel Value In Plane';
-
 }

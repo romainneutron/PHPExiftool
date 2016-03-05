@@ -41,5 +41,4 @@ class Shadows extends AbstractTag
     protected $Description = 'Shadows';
 
     protected $flag_Avoid = true;
-
 }

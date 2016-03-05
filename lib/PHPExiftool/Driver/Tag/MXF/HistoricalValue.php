@@ -39,5 +39,4 @@ class HistoricalValue extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Historical Value';
-
 }

@@ -39,5 +39,4 @@ class SlideIdentifier extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Slide Identifier';
-
 }

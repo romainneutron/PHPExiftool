@@ -39,5 +39,4 @@ class TIFFHandling extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'TIFF Handling';
-
 }

@@ -39,5 +39,4 @@ class NumberOfWedges extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Number Of Wedges';
-
 }

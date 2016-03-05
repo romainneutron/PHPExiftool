@@ -39,5 +39,4 @@ class DynamicRangeMax extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Dynamic Range Max';
-
 }

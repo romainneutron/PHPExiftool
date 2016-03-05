@@ -41,5 +41,4 @@ class ToneMatrix extends AbstractTag
     protected $Description = 'ICC To Tone Matrix';
 
     protected $flag_Binary = true;
-
 }

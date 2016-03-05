@@ -39,5 +39,4 @@ class EncryptedContainerLabel extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Encrypted Container Label';
-
 }

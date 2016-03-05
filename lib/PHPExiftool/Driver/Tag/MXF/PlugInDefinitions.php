@@ -39,5 +39,4 @@ class PlugInDefinitions extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Plug-In Definitions';
-
 }

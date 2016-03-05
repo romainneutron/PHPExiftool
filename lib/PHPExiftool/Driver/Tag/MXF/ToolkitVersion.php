@@ -39,5 +39,4 @@ class ToolkitVersion extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Toolkit Version';
-
 }

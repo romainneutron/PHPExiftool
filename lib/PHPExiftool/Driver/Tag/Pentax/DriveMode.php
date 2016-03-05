@@ -70,5 +70,4 @@ class DriveMode extends AbstractTag
             'Label' => 'Video',
         ),
     );
-
 }

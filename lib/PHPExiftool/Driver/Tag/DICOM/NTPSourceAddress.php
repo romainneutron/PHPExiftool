@@ -39,5 +39,4 @@ class NTPSourceAddress extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'NTP Source Address';
-
 }

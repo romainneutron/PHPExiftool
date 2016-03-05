@@ -39,5 +39,4 @@ class ConstantVolumeFlag extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Constant Volume Flag';
-
 }

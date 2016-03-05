@@ -39,5 +39,4 @@ class GeogAngularUnitSize extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Geog Angular Unit Size';
-
 }

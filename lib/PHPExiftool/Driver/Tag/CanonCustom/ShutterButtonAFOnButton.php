@@ -66,5 +66,4 @@ class ShutterButtonAFOnButton extends AbstractTag
             'Label' => 'Metering + AF start/disable',
         ),
     );
-
 }

@@ -60,5 +60,4 @@ class BeepVolume extends AbstractTag
             'Label' => 3,
         ),
     );
-
 }

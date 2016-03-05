@@ -66,5 +66,4 @@ class PackingMethod extends AbstractTag
             'Label' => 'Best Compression',
         ),
     );
-
 }

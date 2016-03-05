@@ -43,5 +43,4 @@ class FlashExposureCompSet2 extends AbstractTag
     protected $flag_Permanent = true;
 
     protected $Index = 'mixed';
-
 }

@@ -41,5 +41,4 @@ class ShutterSpeed extends AbstractTag
     protected $Description = 'Shutter Speed';
 
     protected $flag_Permanent = true;
-
 }

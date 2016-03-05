@@ -39,5 +39,4 @@ class CreatorOpenWithUIOptions extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Creator Open With UI Options';
-
 }

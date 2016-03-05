@@ -39,5 +39,4 @@ class SetCookie extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Set Cookie';
-
 }

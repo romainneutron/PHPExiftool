@@ -41,5 +41,4 @@ class FedexEDR extends AbstractTag
     protected $Description = 'Fedex EDR';
 
     protected $local_g1 = 'ExifIFD';
-
 }

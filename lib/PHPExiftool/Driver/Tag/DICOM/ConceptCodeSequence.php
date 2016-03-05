@@ -39,5 +39,4 @@ class ConceptCodeSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Concept Code Sequence';
-
 }

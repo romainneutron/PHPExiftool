@@ -144,5 +144,4 @@ class SceneMode extends AbstractTag
             'Label' => 'n/a',
         ),
     );
-
 }

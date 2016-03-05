@@ -39,5 +39,4 @@ class UnknownAACR extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Unknown AACR';
-
 }

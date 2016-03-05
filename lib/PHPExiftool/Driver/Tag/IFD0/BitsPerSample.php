@@ -41,5 +41,4 @@ class BitsPerSample extends AbstractTag
     protected $Description = 'Bits Per Sample';
 
     protected $flag_Unsafe = true;
-
 }

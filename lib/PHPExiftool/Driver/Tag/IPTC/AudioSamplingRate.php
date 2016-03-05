@@ -41,5 +41,4 @@ class AudioSamplingRate extends AbstractTag
     protected $Description = 'Audio Sampling Rate';
 
     protected $MaxLength = 6;
-
 }

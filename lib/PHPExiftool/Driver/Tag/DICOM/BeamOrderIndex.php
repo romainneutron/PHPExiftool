@@ -39,5 +39,4 @@ class BeamOrderIndex extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Beam Order Index';
-
 }

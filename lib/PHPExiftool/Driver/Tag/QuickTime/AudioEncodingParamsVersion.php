@@ -39,5 +39,4 @@ class AudioEncodingParamsVersion extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Audio Encoding Params Version';
-
 }

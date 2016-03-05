@@ -41,5 +41,4 @@ class PF0CustomFuncRegistration extends AbstractTag
     protected $Description = 'PF0 Custom Func Registration';
 
     protected $flag_Permanent = true;
-
 }

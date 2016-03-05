@@ -19,5 +19,4 @@ class Rational extends AbstractType
     protected $ExiftoolName = 'rational';
 
     protected $PHPMap = 'int';
-
 }

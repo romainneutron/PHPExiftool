@@ -39,5 +39,4 @@ class ImagesInAcquisition extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Images In Acquisition';
-
 }

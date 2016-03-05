@@ -39,5 +39,4 @@ class OccurrenceEstablishmentMeans extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Occurrence Establishment Means';
-
 }

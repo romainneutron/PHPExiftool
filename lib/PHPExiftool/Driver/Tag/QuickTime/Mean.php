@@ -39,5 +39,4 @@ class Mean extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Mean';
-
 }

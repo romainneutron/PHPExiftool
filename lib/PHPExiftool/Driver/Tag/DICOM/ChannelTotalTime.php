@@ -39,5 +39,4 @@ class ChannelTotalTime extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Channel Total Time';
-
 }

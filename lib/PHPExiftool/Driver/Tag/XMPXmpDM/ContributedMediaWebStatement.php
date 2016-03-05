@@ -41,5 +41,4 @@ class ContributedMediaWebStatement extends AbstractTag
     protected $Description = 'Contributed Media Web Statement';
 
     protected $flag_List = true;
-
 }

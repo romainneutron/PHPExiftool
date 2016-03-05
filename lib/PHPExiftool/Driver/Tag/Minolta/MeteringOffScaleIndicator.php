@@ -56,5 +56,4 @@ class MeteringOffScaleIndicator extends AbstractTag
             'Label' => 'Out of Range',
         ),
     );
-
 }

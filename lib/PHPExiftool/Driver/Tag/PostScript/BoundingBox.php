@@ -39,5 +39,4 @@ class BoundingBox extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Bounding Box';
-
 }

@@ -41,5 +41,4 @@ class MatrixWorldToCamera extends AbstractTag
     protected $Description = 'Matrix World To Camera';
 
     protected $local_g1 = 'ExifIFD';
-
 }

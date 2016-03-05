@@ -41,5 +41,4 @@ class ExpandSoftware extends AbstractTag
     protected $Description = 'Expand Software';
 
     protected $local_g1 = 'ExifIFD';
-
 }

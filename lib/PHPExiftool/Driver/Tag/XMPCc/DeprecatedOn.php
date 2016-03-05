@@ -41,5 +41,4 @@ class DeprecatedOn extends AbstractTag
     protected $Description = 'Deprecated On';
 
     protected $local_g2 = 'Time';
-
 }

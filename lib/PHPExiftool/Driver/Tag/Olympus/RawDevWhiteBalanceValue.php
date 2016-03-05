@@ -41,5 +41,4 @@ class RawDevWhiteBalanceValue extends AbstractTag
     protected $Description = 'Raw Dev White Balance Value';
 
     protected $flag_Permanent = true;
-
 }

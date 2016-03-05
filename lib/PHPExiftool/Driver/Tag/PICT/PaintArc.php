@@ -39,5 +39,4 @@ class PaintArc extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Paint Arc';
-
 }

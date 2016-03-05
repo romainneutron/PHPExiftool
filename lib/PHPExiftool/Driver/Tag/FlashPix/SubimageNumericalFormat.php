@@ -54,5 +54,4 @@ class SubimageNumericalFormat extends AbstractTag
             'Label' => '32-bit, Unsigned',
         ),
     );
-
 }

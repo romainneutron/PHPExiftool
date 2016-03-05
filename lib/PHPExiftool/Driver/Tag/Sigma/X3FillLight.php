@@ -43,5 +43,4 @@ class X3FillLight extends AbstractTag
     protected $flag_Permanent = true;
 
     protected $Index = 'mixed';
-
 }

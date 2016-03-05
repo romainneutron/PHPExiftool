@@ -41,5 +41,4 @@ class Sport extends AbstractTag
     protected $Description = 'Sport';
 
     protected $flag_Avoid = true;
-
 }

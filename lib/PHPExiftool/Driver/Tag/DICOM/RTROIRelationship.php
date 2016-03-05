@@ -39,5 +39,4 @@ class RTROIRelationship extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'RTROI Relationship';
-
 }

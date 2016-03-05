@@ -41,5 +41,4 @@ class DCFootprintSRS extends AbstractTag
     protected $Description = 'DC Footprint SRS';
 
     protected $local_g2 = 'Location';
-
 }

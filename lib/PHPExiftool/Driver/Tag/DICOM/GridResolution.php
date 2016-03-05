@@ -39,5 +39,4 @@ class GridResolution extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Grid Resolution';
-
 }

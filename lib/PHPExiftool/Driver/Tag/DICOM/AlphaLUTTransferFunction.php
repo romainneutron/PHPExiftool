@@ -39,5 +39,4 @@ class AlphaLUTTransferFunction extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Alpha LUT Transfer Function';
-
 }

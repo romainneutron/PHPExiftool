@@ -39,5 +39,4 @@ class DischargeDiagnosisCodeSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Discharge Diagnosis Code Sequence';
-
 }

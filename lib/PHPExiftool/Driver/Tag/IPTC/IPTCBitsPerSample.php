@@ -39,5 +39,4 @@ class IPTCBitsPerSample extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'IPTC Bits Per Sample';
-
 }

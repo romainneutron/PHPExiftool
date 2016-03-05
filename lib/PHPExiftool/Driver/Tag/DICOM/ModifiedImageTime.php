@@ -39,5 +39,4 @@ class ModifiedImageTime extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Modified Image Time';
-
 }

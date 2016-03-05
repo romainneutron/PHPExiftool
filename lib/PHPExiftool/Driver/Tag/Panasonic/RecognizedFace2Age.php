@@ -43,5 +43,4 @@ class RecognizedFace2Age extends AbstractTag
     protected $flag_Permanent = true;
 
     protected $MaxLength = 20;
-
 }

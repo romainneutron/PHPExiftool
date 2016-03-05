@@ -39,5 +39,4 @@ class RTPlanTime extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'RT Plan Time';
-
 }

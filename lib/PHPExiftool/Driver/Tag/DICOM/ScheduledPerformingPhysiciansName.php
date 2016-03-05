@@ -39,5 +39,4 @@ class ScheduledPerformingPhysiciansName extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Scheduled Performing Physicians Name';
-
 }

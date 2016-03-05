@@ -39,5 +39,4 @@ class RecommendedViewingMode extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Recommended Viewing Mode';
-
 }

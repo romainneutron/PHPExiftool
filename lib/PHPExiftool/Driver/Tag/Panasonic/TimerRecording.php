@@ -56,5 +56,4 @@ class TimerRecording extends AbstractTag
             'Label' => 'Stop-motion Animation',
         ),
     );
-
 }

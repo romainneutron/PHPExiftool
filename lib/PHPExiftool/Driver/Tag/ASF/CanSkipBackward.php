@@ -39,5 +39,4 @@ class CanSkipBackward extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Can Skip Backward';
-
 }

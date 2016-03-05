@@ -41,5 +41,4 @@ class BurstUUID extends AbstractTag
     protected $Description = 'Burst UUID';
 
     protected $flag_Permanent = true;
-
 }

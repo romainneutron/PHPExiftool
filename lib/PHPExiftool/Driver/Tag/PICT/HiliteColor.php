@@ -39,5 +39,4 @@ class HiliteColor extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Highlight Color';
-
 }

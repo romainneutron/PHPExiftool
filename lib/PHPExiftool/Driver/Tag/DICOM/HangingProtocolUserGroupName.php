@@ -39,5 +39,4 @@ class HangingProtocolUserGroupName extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Hanging Protocol User Group Name';
-
 }

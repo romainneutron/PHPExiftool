@@ -39,5 +39,4 @@ class InterpretationID extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Interpretation ID';
-
 }

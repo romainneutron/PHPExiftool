@@ -39,5 +39,4 @@ class LandscapeRawContrast extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Landscape Raw Contrast';
-
 }

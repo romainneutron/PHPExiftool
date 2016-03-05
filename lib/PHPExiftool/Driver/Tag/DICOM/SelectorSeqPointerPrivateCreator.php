@@ -39,5 +39,4 @@ class SelectorSeqPointerPrivateCreator extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Selector Seq Pointer Private Creator';
-
 }

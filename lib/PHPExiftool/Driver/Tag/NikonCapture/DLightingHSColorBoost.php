@@ -41,5 +41,4 @@ class DLightingHSColorBoost extends AbstractTag
     protected $Description = 'D-Lighting HS Color Boost';
 
     protected $flag_Permanent = true;
-
 }

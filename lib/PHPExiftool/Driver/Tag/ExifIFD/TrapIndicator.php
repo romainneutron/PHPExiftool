@@ -41,5 +41,4 @@ class TrapIndicator extends AbstractTag
     protected $Description = 'Trap Indicator';
 
     protected $local_g1 = 'ExifIFD';
-
 }

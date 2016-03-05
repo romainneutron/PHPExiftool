@@ -39,5 +39,4 @@ class PrimaryPositionerScanArc extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Primary Positioner Scan Arc';
-
 }

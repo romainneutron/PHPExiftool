@@ -82,5 +82,4 @@ class BodyBatteryState extends AbstractTag
     );
 
     protected $Index = 'mixed';
-
 }

@@ -52,5 +52,4 @@ class ReleaseButtonToUseDial extends AbstractTag
             'Label' => 'Yes',
         ),
     );
-
 }

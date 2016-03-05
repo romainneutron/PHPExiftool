@@ -54,5 +54,4 @@ class Encryption extends AbstractTag
             'Label' => 'Mobipocket',
         ),
     );
-
 }

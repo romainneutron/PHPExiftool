@@ -39,5 +39,4 @@ class ShotDuration extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Shot Duration';
-
 }

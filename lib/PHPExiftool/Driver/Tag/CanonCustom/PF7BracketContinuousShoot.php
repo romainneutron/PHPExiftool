@@ -41,5 +41,4 @@ class PF7BracketContinuousShoot extends AbstractTag
     protected $Description = 'PF7 Bracket Continuous Shoot';
 
     protected $flag_Permanent = true;
-
 }

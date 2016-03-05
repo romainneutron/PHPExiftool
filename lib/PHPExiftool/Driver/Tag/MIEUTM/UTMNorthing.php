@@ -39,5 +39,4 @@ class UTMNorthing extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'UTM Northing';
-
 }

@@ -39,5 +39,4 @@ class HDRToningInfo extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'HDR Toning Info';
-
 }

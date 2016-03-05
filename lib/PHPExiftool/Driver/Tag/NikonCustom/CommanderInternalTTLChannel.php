@@ -60,5 +60,4 @@ class CommanderInternalTTLChannel extends AbstractTag
             'Label' => '4 ch',
         ),
     );
-
 }

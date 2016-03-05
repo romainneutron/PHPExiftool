@@ -41,5 +41,4 @@ class PF30EnlargementMode extends AbstractTag
     protected $Description = 'PF30 Enlargement Mode';
 
     protected $flag_Permanent = true;
-
 }

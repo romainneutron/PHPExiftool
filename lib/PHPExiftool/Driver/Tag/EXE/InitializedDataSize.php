@@ -39,5 +39,4 @@ class InitializedDataSize extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Initialized Data Size';
-
 }

@@ -46,5 +46,4 @@ class AlphaFilter extends AbstractTag
             'Label' => 'Adaptive MNG (N/A for JPEG)',
         ),
     );
-
 }

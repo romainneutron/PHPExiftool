@@ -39,5 +39,4 @@ class SecondaryCountsAccumulated extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Secondary Counts Accumulated';
-
 }

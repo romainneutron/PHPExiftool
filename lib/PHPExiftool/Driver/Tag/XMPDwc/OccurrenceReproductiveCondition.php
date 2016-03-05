@@ -39,5 +39,4 @@ class OccurrenceReproductiveCondition extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Occurrence Reproductive Condition';
-
 }

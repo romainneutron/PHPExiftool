@@ -39,5 +39,4 @@ class RestrictionsonUse extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Restrictionson Use';
-
 }

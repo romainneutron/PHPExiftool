@@ -39,5 +39,4 @@ class FlashModel extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Flash Model';
-
 }

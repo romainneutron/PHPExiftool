@@ -39,5 +39,4 @@ class ProcessingSet extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Processing Set';
-
 }

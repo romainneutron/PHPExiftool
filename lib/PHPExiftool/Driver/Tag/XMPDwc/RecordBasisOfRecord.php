@@ -39,5 +39,4 @@ class RecordBasisOfRecord extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Record Basis Of Record';
-
 }

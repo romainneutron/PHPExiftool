@@ -50,5 +50,4 @@ class MonochromeLinear extends AbstractTag
             'Label' => 'Yes',
         ),
     );
-
 }

@@ -132,5 +132,4 @@ class ImageStyle extends AbstractTag
             'Label' => 'B&W',
         ),
     );
-
 }

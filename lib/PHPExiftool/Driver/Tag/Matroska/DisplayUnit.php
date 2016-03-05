@@ -54,5 +54,4 @@ class DisplayUnit extends AbstractTag
             'Label' => 'inches',
         ),
     );
-
 }

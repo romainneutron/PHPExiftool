@@ -39,5 +39,4 @@ class WindowsAtomExtension extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Windows Atom Extension';
-
 }

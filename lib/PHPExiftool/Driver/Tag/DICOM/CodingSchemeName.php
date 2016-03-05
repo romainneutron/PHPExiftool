@@ -39,5 +39,4 @@ class CodingSchemeName extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Coding Scheme Name';
-
 }

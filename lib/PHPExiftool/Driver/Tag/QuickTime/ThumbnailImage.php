@@ -45,5 +45,4 @@ class ThumbnailImage extends AbstractTag
     protected $flag_Binary = true;
 
     protected $Index = 'mixed';
-
 }

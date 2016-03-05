@@ -50,5 +50,4 @@ class HasRealMergedData extends AbstractTag
             'Label' => 'Yes',
         ),
     );
-
 }

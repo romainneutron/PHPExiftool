@@ -39,5 +39,4 @@ class EventTimerSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Event Timer Sequence';
-
 }

@@ -41,5 +41,4 @@ class SigningDate extends AbstractTag
     protected $Description = 'Signing Date';
 
     protected $local_g2 = 'Time';
-
 }

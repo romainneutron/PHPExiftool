@@ -41,5 +41,4 @@ class MetadataDate extends AbstractTag
     protected $Description = 'Metadata Date';
 
     protected $local_g2 = 'Time';
-
 }

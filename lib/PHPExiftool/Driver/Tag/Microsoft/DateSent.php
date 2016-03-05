@@ -41,5 +41,4 @@ class DateSent extends AbstractTag
     protected $Description = 'Date Sent';
 
     protected $local_g2 = 'Time';
-
 }

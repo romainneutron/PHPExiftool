@@ -39,5 +39,4 @@ class KeyFramePositions extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Key Frame Positions';
-
 }

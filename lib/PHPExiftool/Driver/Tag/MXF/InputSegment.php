@@ -39,5 +39,4 @@ class InputSegment extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Input Segment';
-
 }

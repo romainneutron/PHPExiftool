@@ -39,5 +39,4 @@ class CustomOutputHighlightPoint extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Custom Output Highlight Point';
-
 }

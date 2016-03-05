@@ -39,5 +39,4 @@ class MachineID extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Machine ID';
-
 }

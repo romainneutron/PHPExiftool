@@ -41,5 +41,4 @@ class AccelerometerX extends AbstractTag
     protected $Description = 'Accelerometer X';
 
     protected $flag_Permanent = true;
-
 }

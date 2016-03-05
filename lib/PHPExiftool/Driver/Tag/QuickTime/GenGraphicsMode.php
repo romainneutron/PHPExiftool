@@ -166,5 +166,4 @@ class GenGraphicsMode extends AbstractTag
             'Label' => 'Component Alpha',
         ),
     );
-
 }

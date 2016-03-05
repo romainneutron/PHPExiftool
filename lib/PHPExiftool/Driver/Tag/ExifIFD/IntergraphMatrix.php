@@ -41,5 +41,4 @@ class IntergraphMatrix extends AbstractTag
     protected $Description = 'Intergraph Matrix';
 
     protected $local_g1 = 'ExifIFD';
-
 }

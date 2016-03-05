@@ -39,5 +39,4 @@ class ScatterFractionFactor extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Scatter Fraction Factor';
-
 }

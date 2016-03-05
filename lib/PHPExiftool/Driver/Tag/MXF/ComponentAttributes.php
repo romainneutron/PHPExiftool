@@ -39,5 +39,4 @@ class ComponentAttributes extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Component Attributes';
-
 }

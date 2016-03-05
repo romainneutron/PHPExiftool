@@ -39,5 +39,4 @@ class OutputDataObjectList extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Output Data Object List';
-
 }

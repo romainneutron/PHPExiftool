@@ -41,5 +41,4 @@ class VideoModDate extends AbstractTag
     protected $Description = 'Video Mod Date';
 
     protected $local_g2 = 'Time';
-
 }

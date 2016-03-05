@@ -41,5 +41,4 @@ class ThumbnailWidth extends AbstractTag
     protected $Description = 'Thumbnail Width';
 
     protected $flag_List = true;
-
 }

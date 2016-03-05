@@ -39,5 +39,4 @@ class OverlayTime extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Overlay Time';
-
 }

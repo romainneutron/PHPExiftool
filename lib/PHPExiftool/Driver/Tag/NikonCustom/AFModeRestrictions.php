@@ -68,5 +68,4 @@ class AFModeRestrictions extends AbstractTag
             'Label' => 'AF-S',
         ),
     );
-
 }

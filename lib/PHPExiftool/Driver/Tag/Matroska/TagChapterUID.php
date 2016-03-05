@@ -39,5 +39,4 @@ class TagChapterUID extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Tag Chapter UID';
-
 }

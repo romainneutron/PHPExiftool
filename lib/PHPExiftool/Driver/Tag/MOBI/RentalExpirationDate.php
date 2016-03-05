@@ -39,5 +39,4 @@ class RentalExpirationDate extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Rental Expiration Date';
-
 }

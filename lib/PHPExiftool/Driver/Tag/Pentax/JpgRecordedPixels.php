@@ -56,5 +56,4 @@ class JpgRecordedPixels extends AbstractTag
             'Label' => '2 MP',
         ),
     );
-
 }

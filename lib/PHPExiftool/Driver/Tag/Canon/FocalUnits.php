@@ -41,5 +41,4 @@ class FocalUnits extends AbstractTag
     protected $Description = 'Focal Units';
 
     protected $flag_Permanent = true;
-
 }

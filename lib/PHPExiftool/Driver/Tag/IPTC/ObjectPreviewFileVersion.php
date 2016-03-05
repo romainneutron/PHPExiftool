@@ -41,5 +41,4 @@ class ObjectPreviewFileVersion extends AbstractTag
     protected $Description = 'Object Preview File Version';
 
     protected $local_g2 = 'Image';
-
 }

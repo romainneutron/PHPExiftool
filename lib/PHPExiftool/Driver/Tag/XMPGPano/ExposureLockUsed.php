@@ -39,5 +39,4 @@ class ExposureLockUsed extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Exposure Lock Used';
-
 }

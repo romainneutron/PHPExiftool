@@ -39,5 +39,4 @@ class FPFVersion extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'FPF Version';
-
 }

@@ -39,5 +39,4 @@ class RelatedImageFile extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Related Image File';
-
 }

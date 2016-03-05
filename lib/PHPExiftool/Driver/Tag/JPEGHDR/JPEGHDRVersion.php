@@ -39,5 +39,4 @@ class JPEGHDRVersion extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'JPEG-HDR Version';
-
 }

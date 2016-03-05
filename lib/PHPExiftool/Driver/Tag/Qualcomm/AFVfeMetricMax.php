@@ -41,5 +41,4 @@ class AFVfeMetricMax extends AbstractTag
     protected $Description = 'AF Vfe Metric Max';
 
     protected $flag_Permanent = true;
-
 }

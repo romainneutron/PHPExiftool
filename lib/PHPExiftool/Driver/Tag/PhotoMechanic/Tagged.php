@@ -50,5 +50,4 @@ class Tagged extends AbstractTag
             'Label' => 'Yes',
         ),
     );
-
 }

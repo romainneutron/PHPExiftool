@@ -39,5 +39,4 @@ class ARDroneTelemetry extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'AR Drone Telemetry';
-
 }

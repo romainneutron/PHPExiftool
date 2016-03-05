@@ -39,5 +39,4 @@ class UnifiedProcedureStepState extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Unified Procedure Step State';
-
 }

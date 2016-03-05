@@ -39,5 +39,4 @@ class UnknownRawShadow extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Unknown Raw Shadow';
-
 }

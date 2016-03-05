@@ -41,5 +41,4 @@ class MaxApertureValue extends AbstractTag
     protected $Description = 'Max Aperture Value';
 
     protected $local_g2 = 'Camera';
-
 }

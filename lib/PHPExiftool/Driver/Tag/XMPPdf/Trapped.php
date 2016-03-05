@@ -54,5 +54,4 @@ class Trapped extends AbstractTag
             'Label' => 'Unknown',
         ),
     );
-
 }

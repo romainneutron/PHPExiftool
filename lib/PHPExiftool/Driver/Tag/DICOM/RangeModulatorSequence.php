@@ -39,5 +39,4 @@ class RangeModulatorSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Range Modulator Sequence';
-
 }

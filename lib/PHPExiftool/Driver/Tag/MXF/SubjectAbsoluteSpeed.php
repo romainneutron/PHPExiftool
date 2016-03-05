@@ -39,5 +39,4 @@ class SubjectAbsoluteSpeed extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Subject Absolute Speed';
-
 }

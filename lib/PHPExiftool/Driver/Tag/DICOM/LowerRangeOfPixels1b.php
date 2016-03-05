@@ -39,5 +39,4 @@ class LowerRangeOfPixels1b extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Lower Range Of Pixels 1b';
-
 }

@@ -39,5 +39,4 @@ class ShotLocationSets extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Shot Location Sets';
-
 }

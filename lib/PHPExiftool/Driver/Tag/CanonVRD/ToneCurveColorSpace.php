@@ -50,5 +50,4 @@ class ToneCurveColorSpace extends AbstractTag
             'Label' => 'Luminance',
         ),
     );
-
 }

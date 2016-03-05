@@ -39,5 +39,4 @@ class NeutralRawColorTone extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Neutral Raw Color Tone';
-
 }

@@ -41,5 +41,4 @@ class DigitalDEEShadowAdj extends AbstractTag
     protected $Description = 'Digital DEE Shadow Adj';
 
     protected $flag_Permanent = true;
-
 }

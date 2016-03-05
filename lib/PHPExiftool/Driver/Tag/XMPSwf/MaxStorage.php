@@ -39,5 +39,4 @@ class MaxStorage extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Max Storage';
-
 }

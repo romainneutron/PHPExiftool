@@ -39,5 +39,4 @@ class ControlPointTime extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Control Point Time';
-
 }

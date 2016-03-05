@@ -39,5 +39,4 @@ class DRMDRMHeaderIndividualizedVersion extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'DRM DRM Header Individualized Version';
-
 }

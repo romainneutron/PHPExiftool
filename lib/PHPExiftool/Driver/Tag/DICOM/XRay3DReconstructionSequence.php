@@ -39,5 +39,4 @@ class XRay3DReconstructionSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'X Ray 3D Reconstruction Sequence';
-
 }

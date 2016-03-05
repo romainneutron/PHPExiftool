@@ -60,5 +60,4 @@ class EVSteps extends AbstractTag
             'Label' => '1/3 EV Steps',
         ),
     );
-
 }

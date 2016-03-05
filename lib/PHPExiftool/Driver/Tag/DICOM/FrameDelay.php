@@ -39,5 +39,4 @@ class FrameDelay extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Frame Delay';
-
 }

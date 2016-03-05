@@ -39,5 +39,4 @@ class LowerLevelDirectoryEntityOffset extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Lower Level Directory Entity Offset';
-
 }

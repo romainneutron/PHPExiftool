@@ -39,5 +39,4 @@ class EMailDisplayName extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'E-mail Display Name';
-
 }

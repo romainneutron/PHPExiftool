@@ -39,5 +39,4 @@ class RoyaltyIncomeInformation extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Royalty Income Information';
-
 }

@@ -39,5 +39,4 @@ class EventAbsoluteDurationFrameCount extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Event Absolute Duration Frame Count';
-
 }

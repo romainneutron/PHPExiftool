@@ -39,5 +39,4 @@ class CompleteFooter extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Complete Footer';
-
 }

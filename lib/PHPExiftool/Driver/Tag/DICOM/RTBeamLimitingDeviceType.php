@@ -39,5 +39,4 @@ class RTBeamLimitingDeviceType extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'RT Beam Limiting Device Type';
-
 }

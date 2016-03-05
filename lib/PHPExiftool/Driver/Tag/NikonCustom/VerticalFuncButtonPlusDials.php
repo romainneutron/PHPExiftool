@@ -88,5 +88,4 @@ class VerticalFuncButtonPlusDials extends AbstractTag
             'Label' => 'Metering',
         ),
     );
-
 }

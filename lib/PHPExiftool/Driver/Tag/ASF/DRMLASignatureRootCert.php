@@ -39,5 +39,4 @@ class DRMLASignatureRootCert extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'DRM LA Signature Root Cert';
-
 }

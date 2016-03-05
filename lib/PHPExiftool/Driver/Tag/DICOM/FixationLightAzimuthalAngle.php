@@ -39,5 +39,4 @@ class FixationLightAzimuthalAngle extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Fixation Light Azimuthal Angle';
-
 }

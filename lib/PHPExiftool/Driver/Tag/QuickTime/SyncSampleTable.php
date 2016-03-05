@@ -41,5 +41,4 @@ class SyncSampleTable extends AbstractTag
     protected $Description = 'Sync Sample Table';
 
     protected $flag_Binary = true;
-
 }

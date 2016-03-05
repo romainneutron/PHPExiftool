@@ -39,5 +39,4 @@ class CodecInfoURL extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Codec Info URL';
-
 }

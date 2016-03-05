@@ -41,5 +41,4 @@ class BatteryLevelGrip1 extends AbstractTag
     protected $Description = 'Battery Level Grip 1';
 
     protected $flag_Permanent = true;
-
 }

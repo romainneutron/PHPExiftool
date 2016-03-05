@@ -39,5 +39,4 @@ class OtherCodecDescription extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Other Codec Description';
-
 }

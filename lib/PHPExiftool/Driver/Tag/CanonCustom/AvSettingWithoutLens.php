@@ -52,5 +52,4 @@ class AvSettingWithoutLens extends AbstractTag
             'Label' => 'Enable',
         ),
     );
-
 }

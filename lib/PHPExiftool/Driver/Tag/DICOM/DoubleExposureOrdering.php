@@ -39,5 +39,4 @@ class DoubleExposureOrdering extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Double Exposure Ordering';
-
 }

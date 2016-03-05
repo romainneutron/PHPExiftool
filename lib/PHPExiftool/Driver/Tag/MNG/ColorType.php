@@ -78,5 +78,4 @@ class ColorType extends AbstractTag
             'Label' => 'Color Alpha',
         ),
     );
-
 }

@@ -56,5 +56,4 @@ class SuperMacro extends AbstractTag
             'Label' => 'On (2)',
         ),
     );
-
 }

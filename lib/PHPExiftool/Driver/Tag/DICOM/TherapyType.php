@@ -39,5 +39,4 @@ class TherapyType extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Therapy Type';
-
 }

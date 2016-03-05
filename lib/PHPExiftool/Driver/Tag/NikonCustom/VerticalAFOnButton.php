@@ -104,5 +104,4 @@ class VerticalAFOnButton extends AbstractTag
             'Label' => 'None',
         ),
     );
-
 }

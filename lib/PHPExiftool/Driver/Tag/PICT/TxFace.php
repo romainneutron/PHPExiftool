@@ -39,5 +39,4 @@ class TxFace extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Text Font Style';
-
 }

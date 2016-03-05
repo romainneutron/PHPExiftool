@@ -39,5 +39,4 @@ class NumProperties extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Num Properties';
-
 }

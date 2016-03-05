@@ -41,5 +41,4 @@ class Software extends AbstractTag
     protected $Description = 'Software';
 
     protected $flag_Permanent = true;
-
 }

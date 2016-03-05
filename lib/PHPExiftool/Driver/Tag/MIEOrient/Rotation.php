@@ -39,5 +39,4 @@ class Rotation extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Rotation';
-
 }

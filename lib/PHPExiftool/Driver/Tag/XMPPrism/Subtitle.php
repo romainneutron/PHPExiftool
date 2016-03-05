@@ -41,5 +41,4 @@ class Subtitle extends AbstractTag
     protected $Description = 'Subtitle';
 
     protected $flag_Avoid = true;
-
 }

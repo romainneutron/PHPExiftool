@@ -39,5 +39,4 @@ class ScanFOVType extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Scan FOV Type';
-
 }

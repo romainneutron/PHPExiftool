@@ -39,5 +39,4 @@ class TagSpacingFirstDimension extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Tag Spacing First Dimension';
-
 }

@@ -39,5 +39,4 @@ class RelativeXRayExposure extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Relative X Ray Exposure';
-
 }

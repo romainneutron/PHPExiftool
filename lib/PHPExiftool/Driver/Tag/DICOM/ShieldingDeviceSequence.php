@@ -39,5 +39,4 @@ class ShieldingDeviceSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Shielding Device Sequence';
-
 }

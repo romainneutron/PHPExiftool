@@ -52,5 +52,4 @@ class EDialInProgram extends AbstractTag
             'Label' => 'P Shift',
         ),
     );
-
 }

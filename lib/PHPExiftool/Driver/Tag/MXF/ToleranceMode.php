@@ -39,5 +39,4 @@ class ToleranceMode extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Tolerance Mode';
-
 }

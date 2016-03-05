@@ -39,5 +39,4 @@ class GraphicObjectSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Graphic Object Sequence';
-
 }

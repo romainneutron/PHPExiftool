@@ -39,5 +39,4 @@ class CardiacFramingType extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Cardiac Framing Type';
-
 }

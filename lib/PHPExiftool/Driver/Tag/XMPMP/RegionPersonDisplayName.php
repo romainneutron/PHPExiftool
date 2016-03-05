@@ -41,5 +41,4 @@ class RegionPersonDisplayName extends AbstractTag
     protected $Description = 'Region Person Display Name';
 
     protected $flag_List = true;
-
 }

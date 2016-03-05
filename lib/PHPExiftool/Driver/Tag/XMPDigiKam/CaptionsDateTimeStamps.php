@@ -41,5 +41,4 @@ class CaptionsDateTimeStamps extends AbstractTag
     protected $Description = 'Captions Date Time Stamps';
 
     protected $local_g2 = 'Time';
-
 }

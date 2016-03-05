@@ -39,5 +39,4 @@ class CodingSchemeDesignator extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Coding Scheme Designator';
-
 }

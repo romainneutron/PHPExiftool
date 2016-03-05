@@ -39,5 +39,4 @@ class UserEffectiveRating extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'User Effective Rating';
-
 }

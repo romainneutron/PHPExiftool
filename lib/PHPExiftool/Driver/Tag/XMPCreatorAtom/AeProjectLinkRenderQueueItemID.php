@@ -39,5 +39,4 @@ class AeProjectLinkRenderQueueItemID extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Ae Project Link Render Queue Item ID';
-
 }

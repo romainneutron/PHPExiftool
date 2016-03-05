@@ -39,5 +39,4 @@ class FramePositionalAccuracy extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Frame Positional Accuracy';
-
 }

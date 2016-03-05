@@ -39,5 +39,4 @@ class GenerationID extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Generation ID';
-
 }

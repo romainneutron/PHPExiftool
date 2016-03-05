@@ -39,5 +39,4 @@ class RelatedFrameOfReferenceUID extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Related Frame Of Reference UID';
-
 }

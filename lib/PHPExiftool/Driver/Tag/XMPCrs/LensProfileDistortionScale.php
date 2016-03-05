@@ -39,5 +39,4 @@ class LensProfileDistortionScale extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Lens Profile Distortion Scale';
-
 }

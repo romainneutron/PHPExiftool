@@ -41,5 +41,4 @@ class DigitalZoom extends AbstractTag
     protected $Description = 'Digital Zoom';
 
     protected $flag_Permanent = true;
-
 }

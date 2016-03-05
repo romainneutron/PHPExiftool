@@ -41,5 +41,4 @@ class ImageOffset extends AbstractTag
     protected $Description = 'Image Offset';
 
     protected $local_g1 = 'ExifIFD';
-
 }

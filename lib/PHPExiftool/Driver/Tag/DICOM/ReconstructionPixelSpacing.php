@@ -39,5 +39,4 @@ class ReconstructionPixelSpacing extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Reconstruction Pixel Spacing';
-
 }

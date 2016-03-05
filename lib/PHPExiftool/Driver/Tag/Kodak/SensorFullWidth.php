@@ -41,5 +41,4 @@ class SensorFullWidth extends AbstractTag
     protected $Description = 'Sensor Full Width';
 
     protected $flag_Permanent = true;
-
 }

@@ -39,5 +39,4 @@ class PaymentURL extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Payment URL';
-
 }

@@ -39,5 +39,4 @@ class Manifold extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Manifold';
-
 }

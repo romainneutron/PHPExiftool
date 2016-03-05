@@ -39,5 +39,4 @@ class ContrastAdministrationProfileSeq extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Contrast Administration Profile Seq';
-
 }

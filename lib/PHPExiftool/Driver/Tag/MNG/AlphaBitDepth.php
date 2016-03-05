@@ -39,5 +39,4 @@ class AlphaBitDepth extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Alpha Bit Depth';
-
 }

@@ -39,5 +39,4 @@ class LeafPositionBoundaries extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Leaf Position Boundaries';
-
 }

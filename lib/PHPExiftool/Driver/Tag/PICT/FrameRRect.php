@@ -39,5 +39,4 @@ class FrameRRect extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Frame R Rect';
-
 }

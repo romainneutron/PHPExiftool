@@ -39,5 +39,4 @@ class DealerIDNumber extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Dealer ID Number';
-
 }

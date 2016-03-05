@@ -41,5 +41,4 @@ class AudioDeviceParameter extends AbstractTag
     protected $Description = 'Audio Device Parameter';
 
     protected $local_g2 = 'Audio';
-
 }

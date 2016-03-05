@@ -39,5 +39,4 @@ class BiopsyTLocation extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Biopsy T Location';
-
 }

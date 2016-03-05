@@ -39,5 +39,4 @@ class AppVersion extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'App Version';
-
 }

@@ -41,5 +41,4 @@ class Matteing extends AbstractTag
     protected $Description = 'Matteing';
 
     protected $local_g1 = 'ExifIFD';
-
 }

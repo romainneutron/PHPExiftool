@@ -39,5 +39,4 @@ class BrachyApplicationSetupDose extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Brachy Application Setup Dose';
-
 }

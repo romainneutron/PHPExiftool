@@ -39,5 +39,4 @@ class BitmapDefiningCVs extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Bitmap Defining C Vs';
-
 }

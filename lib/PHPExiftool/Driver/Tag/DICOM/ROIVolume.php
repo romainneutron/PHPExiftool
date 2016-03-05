@@ -39,5 +39,4 @@ class ROIVolume extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'ROI Volume';
-
 }

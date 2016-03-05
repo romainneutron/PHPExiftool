@@ -39,5 +39,4 @@ class HangingProtocolCreationDateTime extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Hanging Protocol Creation Date Time';
-
 }

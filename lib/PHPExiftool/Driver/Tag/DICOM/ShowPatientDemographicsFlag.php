@@ -39,5 +39,4 @@ class ShowPatientDemographicsFlag extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Show Patient Demographics Flag';
-
 }

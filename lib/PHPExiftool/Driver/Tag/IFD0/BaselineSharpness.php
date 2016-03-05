@@ -41,5 +41,4 @@ class BaselineSharpness extends AbstractTag
     protected $Description = 'Baseline Sharpness';
 
     protected $flag_Unsafe = true;
-
 }

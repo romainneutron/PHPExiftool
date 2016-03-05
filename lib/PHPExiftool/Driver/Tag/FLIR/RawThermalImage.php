@@ -41,5 +41,4 @@ class RawThermalImage extends AbstractTag
     protected $Description = 'Raw Thermal Image';
 
     protected $local_g2 = 'Preview';
-
 }

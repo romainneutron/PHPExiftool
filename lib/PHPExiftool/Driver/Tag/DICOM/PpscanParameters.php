@@ -39,5 +39,4 @@ class PpscanParameters extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Ppscan Parameters';
-
 }

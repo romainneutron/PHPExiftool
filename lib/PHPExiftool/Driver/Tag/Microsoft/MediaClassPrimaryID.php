@@ -58,5 +58,4 @@ class MediaClassPrimaryID extends AbstractTag
             'Label' => 'Other (not audio or video)',
         ),
     );
-
 }

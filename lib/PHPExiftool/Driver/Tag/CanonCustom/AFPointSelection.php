@@ -60,5 +60,4 @@ class AFPointSelection extends AbstractTag
             'Label' => 'H=FEL+Main/V=FEL+Command',
         ),
     );
-
 }

@@ -39,5 +39,4 @@ class IssuerOfAdmissionID extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Issuer Of Admission ID';
-
 }

@@ -56,5 +56,4 @@ class MajorBrand extends AbstractTag
             'Label' => 'JPEG 2000 with extensions (.JPX)',
         ),
     );
-
 }

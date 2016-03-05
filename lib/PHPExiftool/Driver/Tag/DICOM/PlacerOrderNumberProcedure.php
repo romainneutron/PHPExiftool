@@ -39,5 +39,4 @@ class PlacerOrderNumberProcedure extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Placer Order Number-Procedure';
-
 }

@@ -41,5 +41,4 @@ class Categories extends AbstractTag
     protected $Description = 'Categories';
 
     protected $flag_Avoid = true;
-
 }

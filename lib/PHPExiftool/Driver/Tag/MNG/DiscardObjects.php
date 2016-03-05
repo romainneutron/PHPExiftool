@@ -39,5 +39,4 @@ class DiscardObjects extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Discard Objects';
-
 }

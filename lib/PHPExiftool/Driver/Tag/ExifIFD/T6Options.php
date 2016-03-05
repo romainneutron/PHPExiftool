@@ -48,5 +48,4 @@ class T6Options extends AbstractTag
             'Label' => 'Uncompressed',
         ),
     );
-
 }

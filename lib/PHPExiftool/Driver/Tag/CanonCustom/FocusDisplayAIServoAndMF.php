@@ -52,5 +52,4 @@ class FocusDisplayAIServoAndMF extends AbstractTag
             'Label' => 'Disable',
         ),
     );
-
 }

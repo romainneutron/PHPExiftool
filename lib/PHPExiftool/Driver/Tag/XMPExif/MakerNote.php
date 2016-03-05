@@ -39,5 +39,4 @@ class MakerNote extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Maker Note';
-
 }

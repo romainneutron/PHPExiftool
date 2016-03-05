@@ -39,5 +39,4 @@ class SynchronizedImageBoxList extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Synchronized Image Box List';
-
 }

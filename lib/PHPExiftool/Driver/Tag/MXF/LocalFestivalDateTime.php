@@ -41,5 +41,4 @@ class LocalFestivalDateTime extends AbstractTag
     protected $Description = 'Local Festival Date Time';
 
     protected $local_g2 = 'Time';
-
 }

@@ -198,5 +198,4 @@ class ArtFilter extends AbstractTag
             'Label' => 'Partial Color III',
         ),
     );
-
 }

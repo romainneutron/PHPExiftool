@@ -39,5 +39,4 @@ class PeakEnvelopeBlockSize extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Peak Envelope Block Size';
-
 }

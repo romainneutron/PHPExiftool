@@ -47,5 +47,4 @@ class OtherImageLength extends AbstractTag
     protected $flag_Protected = true;
 
     protected $Index = 7;
-
 }

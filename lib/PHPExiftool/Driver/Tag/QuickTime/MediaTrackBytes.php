@@ -39,5 +39,4 @@ class MediaTrackBytes extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Media Track Bytes';
-
 }

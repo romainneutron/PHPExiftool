@@ -39,5 +39,4 @@ class PeakSAR extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Peak SAR';
-
 }

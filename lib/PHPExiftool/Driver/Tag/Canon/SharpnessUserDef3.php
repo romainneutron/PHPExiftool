@@ -48,5 +48,4 @@ class SharpnessUserDef3 extends AbstractTag
             'Label' => 'n/a',
         ),
     );
-
 }

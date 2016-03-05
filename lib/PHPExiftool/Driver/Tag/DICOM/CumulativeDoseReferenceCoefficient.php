@@ -39,5 +39,4 @@ class CumulativeDoseReferenceCoefficient extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Cumulative Dose Reference Coefficient';
-
 }

@@ -39,5 +39,4 @@ class PatientSetupSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Patient Setup Sequence';
-
 }

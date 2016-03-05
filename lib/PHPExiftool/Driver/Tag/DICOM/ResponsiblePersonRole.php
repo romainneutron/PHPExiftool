@@ -39,5 +39,4 @@ class ResponsiblePersonRole extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Responsible Person Role';
-
 }

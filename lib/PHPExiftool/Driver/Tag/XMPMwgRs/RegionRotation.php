@@ -41,5 +41,4 @@ class RegionRotation extends AbstractTag
     protected $Description = 'Region Rotation';
 
     protected $flag_List = true;
-
 }

@@ -39,5 +39,4 @@ class OtherMagnificationTypesAvailable extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Other Magnification Types Available';
-
 }

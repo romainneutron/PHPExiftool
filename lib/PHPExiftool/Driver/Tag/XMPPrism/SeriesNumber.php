@@ -41,5 +41,4 @@ class SeriesNumber extends AbstractTag
     protected $Description = 'Series Number';
 
     protected $flag_Avoid = true;
-
 }

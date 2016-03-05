@@ -39,5 +39,4 @@ class DataObjectID extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Data Object ID';
-
 }

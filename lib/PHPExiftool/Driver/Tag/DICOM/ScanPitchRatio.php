@@ -39,5 +39,4 @@ class ScanPitchRatio extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Scan Pitch Ratio';
-
 }

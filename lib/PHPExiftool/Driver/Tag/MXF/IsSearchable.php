@@ -39,5 +39,4 @@ class IsSearchable extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Is Searchable';
-
 }

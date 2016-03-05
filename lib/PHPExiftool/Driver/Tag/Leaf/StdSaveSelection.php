@@ -39,5 +39,4 @@ class StdSaveSelection extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Std Save Selection';
-
 }

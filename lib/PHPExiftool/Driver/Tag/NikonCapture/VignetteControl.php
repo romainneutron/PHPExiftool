@@ -52,5 +52,4 @@ class VignetteControl extends AbstractTag
             'Label' => 'On',
         ),
     );
-
 }

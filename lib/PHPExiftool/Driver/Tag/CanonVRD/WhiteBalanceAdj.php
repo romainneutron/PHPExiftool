@@ -122,5 +122,4 @@ class WhiteBalanceAdj extends AbstractTag
             'Label' => 'Shot Settings',
         ),
     );
-
 }

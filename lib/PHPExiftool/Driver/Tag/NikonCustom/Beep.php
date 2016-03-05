@@ -160,5 +160,4 @@ class Beep extends AbstractTag
             'Label' => 'On',
         ),
     );
-
 }

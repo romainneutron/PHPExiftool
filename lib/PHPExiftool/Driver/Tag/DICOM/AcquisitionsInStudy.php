@@ -39,5 +39,4 @@ class AcquisitionsInStudy extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Acquisitions In Study';
-
 }

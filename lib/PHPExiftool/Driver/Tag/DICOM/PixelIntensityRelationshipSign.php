@@ -39,5 +39,4 @@ class PixelIntensityRelationshipSign extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Pixel Intensity Relationship Sign';
-
 }

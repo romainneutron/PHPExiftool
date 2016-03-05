@@ -41,5 +41,4 @@ class CommanderChannel extends AbstractTag
     protected $Description = 'Commander Channel';
 
     protected $flag_Permanent = true;
-
 }

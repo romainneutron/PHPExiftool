@@ -56,5 +56,4 @@ class EXRMode extends AbstractTag
             'Label' => 'DR (Dynamic Range priority)',
         ),
     );
-
 }

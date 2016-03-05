@@ -39,5 +39,4 @@ class WorkflowURL extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Workflow URL';
-
 }

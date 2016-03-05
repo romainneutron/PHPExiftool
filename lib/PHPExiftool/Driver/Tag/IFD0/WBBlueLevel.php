@@ -39,5 +39,4 @@ class WBBlueLevel extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'WB Blue Level';
-
 }

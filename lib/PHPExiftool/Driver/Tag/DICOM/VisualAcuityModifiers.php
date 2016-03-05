@@ -39,5 +39,4 @@ class VisualAcuityModifiers extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Visual Acuity Modifiers';
-
 }

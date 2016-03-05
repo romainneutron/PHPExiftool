@@ -52,5 +52,4 @@ class LiveViewExposureSimulation extends AbstractTag
             'Label' => 'Enable (simulates exposure)',
         ),
     );
-
 }

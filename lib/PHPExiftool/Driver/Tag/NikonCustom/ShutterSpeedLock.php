@@ -52,5 +52,4 @@ class ShutterSpeedLock extends AbstractTag
             'Label' => 'On',
         ),
     );
-
 }

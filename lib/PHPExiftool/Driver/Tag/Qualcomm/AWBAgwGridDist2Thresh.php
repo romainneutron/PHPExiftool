@@ -41,5 +41,4 @@ class AWBAgwGridDist2Thresh extends AbstractTag
     protected $Description = 'AWB Agw Grid Dist 2 Thresh';
 
     protected $flag_Permanent = true;
-
 }

@@ -39,5 +39,4 @@ class ASFSecurityObjectsSize extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'ASF Security Objects Size';
-
 }

@@ -39,5 +39,4 @@ class InterventionDrugInformationSeq extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Intervention Drug Information Seq';
-
 }

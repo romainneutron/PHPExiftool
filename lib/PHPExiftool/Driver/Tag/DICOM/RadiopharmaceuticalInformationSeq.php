@@ -39,5 +39,4 @@ class RadiopharmaceuticalInformationSeq extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Radiopharmaceutical Information Seq';
-
 }

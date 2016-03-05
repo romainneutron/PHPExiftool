@@ -41,5 +41,4 @@ class AFMicroAdj extends AbstractTag
     protected $Description = 'AF Micro Adj';
 
     protected $flag_Permanent = true;
-
 }

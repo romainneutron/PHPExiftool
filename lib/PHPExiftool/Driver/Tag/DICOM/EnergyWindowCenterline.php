@@ -39,5 +39,4 @@ class EnergyWindowCenterline extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Energy Window Centerline';
-
 }

@@ -43,5 +43,4 @@ class Directory extends AbstractTag
     protected $local_g1 = 'System';
 
     protected $flag_Unsafe = true;
-
 }

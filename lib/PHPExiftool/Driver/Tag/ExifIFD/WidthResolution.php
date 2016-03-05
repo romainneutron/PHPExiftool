@@ -41,5 +41,4 @@ class WidthResolution extends AbstractTag
     protected $Description = 'Width Resolution';
 
     protected $local_g1 = 'ExifIFD';
-
 }

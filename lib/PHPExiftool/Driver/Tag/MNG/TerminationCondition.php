@@ -74,5 +74,4 @@ class TerminationCondition extends AbstractTag
             'Label' => 'External signal, cacheable',
         ),
     );
-
 }

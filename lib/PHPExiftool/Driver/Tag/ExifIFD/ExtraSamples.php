@@ -56,5 +56,4 @@ class ExtraSamples extends AbstractTag
             'Label' => 'Unassociated Alpha',
         ),
     );
-
 }

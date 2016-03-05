@@ -19,5 +19,4 @@ class Rational32u extends AbstractType
     protected $ExiftoolName = 'rational32u';
 
     protected $PHPMap = 'int';
-
 }

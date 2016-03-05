@@ -140,5 +140,4 @@ class LuminanceNoiseReduction extends AbstractTag
     );
 
     protected $Index = 'mixed';
-
 }

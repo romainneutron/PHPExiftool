@@ -52,5 +52,4 @@ class AELock extends AbstractTag
             'Label' => 'On',
         ),
     );
-
 }

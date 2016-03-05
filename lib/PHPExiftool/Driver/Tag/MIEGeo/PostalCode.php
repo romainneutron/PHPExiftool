@@ -39,5 +39,4 @@ class PostalCode extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Postal Code';
-
 }

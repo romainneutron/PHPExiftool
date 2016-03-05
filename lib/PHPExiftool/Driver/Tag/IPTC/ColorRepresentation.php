@@ -98,5 +98,4 @@ class ColorRepresentation extends AbstractTag
             'Label' => '4 Components, Special Interleaving',
         ),
     );
-
 }

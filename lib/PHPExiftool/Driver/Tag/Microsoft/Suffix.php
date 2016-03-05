@@ -39,5 +39,4 @@ class Suffix extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Suffix';
-
 }

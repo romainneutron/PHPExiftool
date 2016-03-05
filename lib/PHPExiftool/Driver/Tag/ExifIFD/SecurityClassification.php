@@ -64,5 +64,4 @@ class SecurityClassification extends AbstractTag
             'Label' => 'Unclassified',
         ),
     );
-
 }

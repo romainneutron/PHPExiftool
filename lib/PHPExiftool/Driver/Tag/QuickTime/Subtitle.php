@@ -39,5 +39,4 @@ class Subtitle extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Subtitle';
-
 }

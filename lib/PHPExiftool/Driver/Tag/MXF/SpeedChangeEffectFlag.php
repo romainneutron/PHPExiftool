@@ -39,5 +39,4 @@ class SpeedChangeEffectFlag extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Speed Change Effect Flag';
-
 }

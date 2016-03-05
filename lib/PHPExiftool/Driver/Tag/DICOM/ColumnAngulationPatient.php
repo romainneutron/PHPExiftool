@@ -39,5 +39,4 @@ class ColumnAngulationPatient extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Column Angulation Patient';
-
 }

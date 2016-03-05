@@ -39,5 +39,4 @@ class ImageFromWhichPrescribed extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Image From Which Prescribed';
-
 }

@@ -41,5 +41,4 @@ class JPEGPointTransforms extends AbstractTag
     protected $Description = 'JPEG Point Transforms';
 
     protected $local_g1 = 'ExifIFD';
-
 }

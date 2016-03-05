@@ -39,5 +39,4 @@ class TableTopLongitudinalSetupDisplace extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Table Top Longitudinal Setup Displace';
-
 }

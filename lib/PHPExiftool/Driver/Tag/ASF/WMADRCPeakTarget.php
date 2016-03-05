@@ -39,5 +39,4 @@ class WMADRCPeakTarget extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'WMADRC Peak Target';
-
 }

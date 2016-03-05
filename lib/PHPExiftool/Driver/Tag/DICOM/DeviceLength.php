@@ -39,5 +39,4 @@ class DeviceLength extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Device Length';
-
 }

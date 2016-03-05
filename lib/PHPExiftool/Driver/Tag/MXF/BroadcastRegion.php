@@ -39,5 +39,4 @@ class BroadcastRegion extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Broadcast Region';
-
 }

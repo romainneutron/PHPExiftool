@@ -41,5 +41,4 @@ class DefConvLumaV2 extends AbstractTag
     protected $Description = 'Def Conv Luma V2';
 
     protected $flag_Permanent = true;
-
 }

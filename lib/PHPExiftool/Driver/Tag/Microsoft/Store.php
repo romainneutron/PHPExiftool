@@ -39,5 +39,4 @@ class Store extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Store';
-
 }

@@ -50,5 +50,4 @@ class UnsharpMask extends AbstractTag
             'Label' => 'On',
         ),
     );
-
 }

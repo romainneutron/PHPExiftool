@@ -39,5 +39,4 @@ class EraseOval extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Erase Oval';
-
 }

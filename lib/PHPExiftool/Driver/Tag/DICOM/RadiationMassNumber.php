@@ -39,5 +39,4 @@ class RadiationMassNumber extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Radiation Mass Number';
-
 }

@@ -48,5 +48,4 @@ class ContrastMonochrome extends AbstractTag
             'Label' => 'n/a',
         ),
     );
-
 }

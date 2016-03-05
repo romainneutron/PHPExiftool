@@ -41,5 +41,4 @@ class OtherInfo extends AbstractTag
     protected $Description = 'Other Info';
 
     protected $flag_Permanent = true;
-
 }

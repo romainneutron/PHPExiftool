@@ -39,5 +39,4 @@ class VideoWatermarkKind extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Video Watermark Kind';
-
 }

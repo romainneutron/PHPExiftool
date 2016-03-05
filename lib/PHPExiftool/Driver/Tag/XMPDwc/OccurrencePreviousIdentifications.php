@@ -39,5 +39,4 @@ class OccurrencePreviousIdentifications extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Occurrence Previous Identifications';
-
 }

@@ -39,5 +39,4 @@ class UprightFocalMode extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Upright Focal Mode';
-
 }

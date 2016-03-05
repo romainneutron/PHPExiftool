@@ -39,5 +39,4 @@ class LegalTrademarks extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Legal Trademarks';
-
 }

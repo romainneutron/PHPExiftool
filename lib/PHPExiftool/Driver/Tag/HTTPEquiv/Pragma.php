@@ -39,5 +39,4 @@ class Pragma extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Pragma';
-
 }

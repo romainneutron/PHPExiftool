@@ -52,5 +52,4 @@ class IngredientsMaskMarkers extends AbstractTag
             'Label' => 'None',
         ),
     );
-
 }

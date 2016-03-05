@@ -39,5 +39,4 @@ class LargePaletteColorLookupTableUID extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Large Palette Color Lookup Table UID';
-
 }

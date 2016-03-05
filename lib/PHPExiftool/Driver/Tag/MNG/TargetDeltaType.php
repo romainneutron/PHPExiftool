@@ -50,5 +50,4 @@ class TargetDeltaType extends AbstractTag
             'Label' => 'Relative',
         ),
     );
-
 }

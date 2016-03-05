@@ -41,5 +41,4 @@ class MDLabName extends AbstractTag
     protected $Description = 'MD Lab Name';
 
     protected $local_g1 = 'ExifIFD';
-
 }

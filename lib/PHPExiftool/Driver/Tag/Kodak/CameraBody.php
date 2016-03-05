@@ -41,5 +41,4 @@ class CameraBody extends AbstractTag
     protected $Description = 'Camera Body';
 
     protected $flag_Permanent = true;
-
 }

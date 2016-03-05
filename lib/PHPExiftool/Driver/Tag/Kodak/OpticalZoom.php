@@ -41,5 +41,4 @@ class OpticalZoom extends AbstractTag
     protected $Description = 'Optical Zoom';
 
     protected $flag_Permanent = true;
-
 }

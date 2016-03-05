@@ -39,5 +39,4 @@ class CropYViewpointNumber extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Crop Y Viewpoint Number';
-
 }

@@ -39,5 +39,4 @@ class TableVerticalIncrement extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Table Vertical Increment';
-
 }

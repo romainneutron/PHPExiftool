@@ -39,5 +39,4 @@ class TreatmentControlPointDate extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Treatment Control Point Date';
-
 }

@@ -39,5 +39,4 @@ class BrandingSets extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Branding Sets';
-
 }

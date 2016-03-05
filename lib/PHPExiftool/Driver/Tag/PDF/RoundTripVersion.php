@@ -39,5 +39,4 @@ class RoundTripVersion extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Round Trip Version';
-
 }

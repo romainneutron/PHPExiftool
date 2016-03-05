@@ -39,5 +39,4 @@ class DimensionDescriptionLabel extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Dimension Description Label';
-
 }

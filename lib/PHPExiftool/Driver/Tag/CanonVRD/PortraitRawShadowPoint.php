@@ -39,5 +39,4 @@ class PortraitRawShadowPoint extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Portrait Raw Shadow Point';
-
 }

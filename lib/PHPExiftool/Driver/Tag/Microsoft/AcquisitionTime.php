@@ -41,5 +41,4 @@ class AcquisitionTime extends AbstractTag
     protected $Description = 'Acquisition Time';
 
     protected $local_g2 = 'Time';
-
 }

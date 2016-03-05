@@ -39,5 +39,4 @@ class MorePermissions extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'More Permissions';
-
 }

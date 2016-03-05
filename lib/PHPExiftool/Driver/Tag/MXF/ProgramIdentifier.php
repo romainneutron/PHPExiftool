@@ -39,5 +39,4 @@ class ProgramIdentifier extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Program Identifier';
-
 }

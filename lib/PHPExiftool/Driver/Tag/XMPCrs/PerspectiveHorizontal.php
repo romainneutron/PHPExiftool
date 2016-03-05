@@ -39,5 +39,4 @@ class PerspectiveHorizontal extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Perspective Horizontal';
-
 }

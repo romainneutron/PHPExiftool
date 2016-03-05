@@ -39,5 +39,4 @@ class RandomIndexMetadataV10 extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Random Index Metadata V10';
-
 }

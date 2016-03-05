@@ -39,5 +39,4 @@ class PurchaserIdentificationValue extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Purchaser Identification Value';
-
 }

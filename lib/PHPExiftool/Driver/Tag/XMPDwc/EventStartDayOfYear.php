@@ -41,5 +41,4 @@ class EventStartDayOfYear extends AbstractTag
     protected $Description = 'Event Start Day Of Year';
 
     protected $local_g2 = 'Time';
-
 }

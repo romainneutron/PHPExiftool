@@ -41,5 +41,4 @@ class DishType extends AbstractTag
     protected $Description = 'Dish Type';
 
     protected $flag_Avoid = true;
-
 }

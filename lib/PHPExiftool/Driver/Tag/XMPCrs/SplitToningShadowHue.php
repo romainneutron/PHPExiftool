@@ -39,5 +39,4 @@ class SplitToningShadowHue extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Split Toning Shadow Hue';
-
 }

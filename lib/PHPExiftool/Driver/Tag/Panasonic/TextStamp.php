@@ -52,5 +52,4 @@ class TextStamp extends AbstractTag
             'Label' => 'On',
         ),
     );
-
 }

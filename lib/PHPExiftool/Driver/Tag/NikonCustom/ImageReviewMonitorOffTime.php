@@ -100,5 +100,4 @@ class ImageReviewMonitorOffTime extends AbstractTag
             'Label' => '10 min',
         ),
     );
-
 }

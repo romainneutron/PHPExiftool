@@ -39,5 +39,4 @@ class ClassifyingCountryCode extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Classifying Country Code';
-
 }

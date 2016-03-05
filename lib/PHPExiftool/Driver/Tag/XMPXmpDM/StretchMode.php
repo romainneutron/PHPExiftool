@@ -62,5 +62,4 @@ class StretchMode extends AbstractTag
             'Label' => 'Time-Scale',
         ),
     );
-
 }

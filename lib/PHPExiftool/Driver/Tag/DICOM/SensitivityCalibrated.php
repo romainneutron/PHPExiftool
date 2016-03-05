@@ -39,5 +39,4 @@ class SensitivityCalibrated extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Sensitivity Calibrated';
-
 }

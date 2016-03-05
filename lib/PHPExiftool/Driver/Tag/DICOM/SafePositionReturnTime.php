@@ -39,5 +39,4 @@ class SafePositionReturnTime extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Safe Position Return Time';
-
 }

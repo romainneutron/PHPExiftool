@@ -41,5 +41,4 @@ class Subject extends AbstractTag
     protected $Description = 'Subject';
 
     protected $flag_List = true;
-
 }

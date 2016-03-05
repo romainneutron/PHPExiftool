@@ -39,5 +39,4 @@ class IntensifierSize extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Intensifier Size';
-
 }

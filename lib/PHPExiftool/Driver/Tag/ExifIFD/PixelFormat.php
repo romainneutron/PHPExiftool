@@ -264,5 +264,4 @@ class PixelFormat extends AbstractTag
             'Label' => '32-bit Gray Fixed Point',
         ),
     );
-
 }

@@ -41,5 +41,4 @@ class UTCEventEndDateTime extends AbstractTag
     protected $Description = 'UTC Event End Date Time';
 
     protected $local_g2 = 'Time';
-
 }

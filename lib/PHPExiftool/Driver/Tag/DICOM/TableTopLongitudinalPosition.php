@@ -39,5 +39,4 @@ class TableTopLongitudinalPosition extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Table Top Longitudinal Position';
-
 }

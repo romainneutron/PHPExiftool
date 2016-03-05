@@ -39,5 +39,4 @@ class DataEnhancementOrModificationDescription extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Data Enhancement Or Modification Description';
-
 }

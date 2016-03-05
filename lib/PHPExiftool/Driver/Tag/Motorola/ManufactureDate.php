@@ -41,5 +41,4 @@ class ManufactureDate extends AbstractTag
     protected $Description = 'Manufacture Date';
 
     protected $flag_Permanent = true;
-
 }

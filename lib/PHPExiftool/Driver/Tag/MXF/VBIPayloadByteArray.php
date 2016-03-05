@@ -39,5 +39,4 @@ class VBIPayloadByteArray extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'VBI Payload Byte Array';
-
 }

@@ -52,5 +52,4 @@ class FocusHoldButton extends AbstractTag
             'Label' => 'DOF Preview',
         ),
     );
-
 }

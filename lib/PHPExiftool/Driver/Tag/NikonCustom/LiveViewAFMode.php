@@ -52,5 +52,4 @@ class LiveViewAFMode extends AbstractTag
             'Label' => 'AF-F',
         ),
     );
-
 }

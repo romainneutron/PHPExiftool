@@ -132,5 +132,4 @@ class CalibrationIlluminant2 extends AbstractTag
             'Label' => 'Other',
         ),
     );
-
 }

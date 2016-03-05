@@ -39,5 +39,4 @@ class CISACLegalEntityID extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'CISAC Legal Entity ID';
-
 }

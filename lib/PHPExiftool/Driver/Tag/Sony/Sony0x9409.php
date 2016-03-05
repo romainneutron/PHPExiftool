@@ -41,5 +41,4 @@ class Sony0x9409 extends AbstractTag
     protected $Description = 'Sony 0x9409';
 
     protected $flag_Permanent = true;
-
 }

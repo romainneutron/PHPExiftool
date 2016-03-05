@@ -39,5 +39,4 @@ class ScannerSerialNumber extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Scanner Serial Number';
-
 }

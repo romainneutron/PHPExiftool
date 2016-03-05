@@ -41,5 +41,4 @@ class TempTest1 extends AbstractTag
     protected $Description = 'Temp Test 1';
 
     protected $flag_Permanent = true;
-
 }

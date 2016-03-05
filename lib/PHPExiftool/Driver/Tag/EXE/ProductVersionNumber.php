@@ -41,5 +41,4 @@ class ProductVersionNumber extends AbstractTag
     protected $Description = 'Product Version Number';
 
     protected $MaxLength = 4;
-
 }

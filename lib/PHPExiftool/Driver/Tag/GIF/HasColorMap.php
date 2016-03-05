@@ -50,5 +50,4 @@ class HasColorMap extends AbstractTag
             'Label' => 'Yes',
         ),
     );
-
 }

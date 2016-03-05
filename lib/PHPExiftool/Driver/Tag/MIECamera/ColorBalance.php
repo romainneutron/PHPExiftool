@@ -41,5 +41,4 @@ class ColorBalance extends AbstractTag
     protected $Description = 'Color Balance';
 
     protected $MaxLength = 3;
-
 }

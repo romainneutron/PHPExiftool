@@ -39,5 +39,4 @@ class OriginalFileSize extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Original File Size';
-
 }

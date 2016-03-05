@@ -39,5 +39,4 @@ class StartTimeSampleSize extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Start Time Sample Size';
-
 }

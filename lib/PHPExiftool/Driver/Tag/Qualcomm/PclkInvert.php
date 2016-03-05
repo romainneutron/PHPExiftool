@@ -41,5 +41,4 @@ class PclkInvert extends AbstractTag
     protected $Description = 'Pclk Invert';
 
     protected $flag_Permanent = true;
-
 }

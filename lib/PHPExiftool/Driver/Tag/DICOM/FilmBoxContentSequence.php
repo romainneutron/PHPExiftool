@@ -39,5 +39,4 @@ class FilmBoxContentSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Film Box Content Sequence';
-
 }

@@ -39,5 +39,4 @@ class MetadataEncodingSchemeCode extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Metadata Encoding Scheme Code';
-
 }

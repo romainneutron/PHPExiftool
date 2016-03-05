@@ -41,5 +41,4 @@ class FacesDetected extends AbstractTag
     protected $Description = 'Faces Detected';
 
     protected $flag_Permanent = true;
-
 }

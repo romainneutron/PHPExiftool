@@ -60,5 +60,4 @@ class LockMicrophoneButton extends AbstractTag
             'Label' => 'Rating (protect/memo:disable)',
         ),
     );
-
 }

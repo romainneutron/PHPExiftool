@@ -39,5 +39,4 @@ class ProductTypeCodeSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Product Type Code Sequence';
-
 }

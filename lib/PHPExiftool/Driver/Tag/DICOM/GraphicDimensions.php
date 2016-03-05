@@ -39,5 +39,4 @@ class GraphicDimensions extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Graphic Dimensions';
-
 }

@@ -39,5 +39,4 @@ class ProtocolName extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Protocol Name';
-
 }

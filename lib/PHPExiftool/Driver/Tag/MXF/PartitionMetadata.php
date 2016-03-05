@@ -39,5 +39,4 @@ class PartitionMetadata extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Partition Metadata';
-
 }

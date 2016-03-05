@@ -39,5 +39,4 @@ class RelativePositionInSequenceName extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Relative Position In Sequence Name';
-
 }

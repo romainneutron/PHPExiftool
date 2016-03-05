@@ -39,5 +39,4 @@ class WritingApp extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Writing App';
-
 }

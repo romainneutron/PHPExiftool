@@ -41,5 +41,4 @@ class SampleToChunk extends AbstractTag
     protected $Description = 'Sample To Chunk';
 
     protected $flag_Binary = true;
-
 }

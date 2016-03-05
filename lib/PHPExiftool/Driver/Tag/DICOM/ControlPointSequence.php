@@ -39,5 +39,4 @@ class ControlPointSequence extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Control Point Sequence';
-
 }

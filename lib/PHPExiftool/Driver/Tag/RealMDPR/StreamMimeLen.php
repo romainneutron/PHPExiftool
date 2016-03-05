@@ -39,5 +39,4 @@ class StreamMimeLen extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Stream Mime Len';
-
 }

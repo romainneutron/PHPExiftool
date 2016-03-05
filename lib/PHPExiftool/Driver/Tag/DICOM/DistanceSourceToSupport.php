@@ -39,5 +39,4 @@ class DistanceSourceToSupport extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Distance Source To Support';
-
 }

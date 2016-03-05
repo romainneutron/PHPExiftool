@@ -41,5 +41,4 @@ class DateTimeStamp extends AbstractTag
     protected $Description = 'Date Time Stamp';
 
     protected $local_g2 = 'Time';
-
 }

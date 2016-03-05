@@ -186,5 +186,4 @@ class AudioStreamType extends AbstractTag
             'Label' => 'Private ES (VC-1)',
         ),
     );
-
 }

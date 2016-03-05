@@ -39,5 +39,4 @@ class NumberOfCellsIInDetector extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Number Of Cells I In Detector';
-
 }

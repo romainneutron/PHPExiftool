@@ -186,5 +186,4 @@ class VideoStreamType extends AbstractTag
             'Label' => 'Private ES (VC-1)',
         ),
     );
-
 }

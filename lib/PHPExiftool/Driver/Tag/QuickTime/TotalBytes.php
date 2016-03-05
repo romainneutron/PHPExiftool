@@ -39,5 +39,4 @@ class TotalBytes extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Total Bytes';
-
 }

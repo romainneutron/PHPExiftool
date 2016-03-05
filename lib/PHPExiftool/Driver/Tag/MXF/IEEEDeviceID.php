@@ -39,5 +39,4 @@ class IEEEDeviceID extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'IEEE Device ID';
-
 }

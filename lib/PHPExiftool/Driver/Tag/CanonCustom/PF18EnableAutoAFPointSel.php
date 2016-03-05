@@ -41,5 +41,4 @@ class PF18EnableAutoAFPointSel extends AbstractTag
     protected $Description = 'PF18 Enable Auto AF Point Sel';
 
     protected $flag_Permanent = true;
-
 }

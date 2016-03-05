@@ -39,5 +39,4 @@ class ActualScaleMax extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Actual Scale Max';
-
 }

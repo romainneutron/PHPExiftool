@@ -39,5 +39,4 @@ class VideoFrameSizeUnit extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Video Frame Size Unit';
-
 }

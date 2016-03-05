@@ -39,5 +39,4 @@ class DisplayUnits extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Display Units';
-
 }

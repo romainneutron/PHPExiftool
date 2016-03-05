@@ -41,5 +41,4 @@ class ExpandFlashLamp extends AbstractTag
     protected $Description = 'Expand Flash Lamp';
 
     protected $local_g1 = 'ExifIFD';
-
 }

@@ -39,5 +39,4 @@ class TimeSource extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Time Source';
-
 }

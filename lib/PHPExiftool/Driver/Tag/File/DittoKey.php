@@ -50,5 +50,4 @@ class DittoKey extends AbstractTag
             'Label' => 'New',
         ),
     );
-
 }

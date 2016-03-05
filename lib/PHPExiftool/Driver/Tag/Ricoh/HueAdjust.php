@@ -72,5 +72,4 @@ class HueAdjust extends AbstractTag
             'Label' => 'Cool',
         ),
     );
-
 }

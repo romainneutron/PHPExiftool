@@ -39,5 +39,4 @@ class TransmissionReference extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Transmission Reference';
-
 }

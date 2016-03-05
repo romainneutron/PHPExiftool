@@ -39,5 +39,4 @@ class PreviousRepeatNumber extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Previous Repeat Number';
-
 }

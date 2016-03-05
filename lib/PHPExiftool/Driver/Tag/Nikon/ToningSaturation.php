@@ -41,5 +41,4 @@ class ToningSaturation extends AbstractTag
     protected $Description = 'Toning Saturation';
 
     protected $flag_Permanent = true;
-
 }

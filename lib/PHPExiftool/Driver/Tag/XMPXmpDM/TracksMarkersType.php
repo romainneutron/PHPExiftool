@@ -41,5 +41,4 @@ class TracksMarkersType extends AbstractTag
     protected $Description = 'Tracks Markers Type';
 
     protected $flag_List = true;
-
 }

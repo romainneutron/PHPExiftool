@@ -41,5 +41,4 @@ class WBGRGBLevels extends AbstractTag
     protected $Description = 'WB GRGB Levels';
 
     protected $local_g1 = 'ExifIFD';
-
 }

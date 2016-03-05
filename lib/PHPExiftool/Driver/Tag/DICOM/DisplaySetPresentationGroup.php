@@ -39,5 +39,4 @@ class DisplaySetPresentationGroup extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Display Set Presentation Group';
-
 }

@@ -39,5 +39,4 @@ class AllowLossyCompression extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Allow Lossy Compression';
-
 }

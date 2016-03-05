@@ -39,5 +39,4 @@ class SliceVector extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Slice Vector';
-
 }

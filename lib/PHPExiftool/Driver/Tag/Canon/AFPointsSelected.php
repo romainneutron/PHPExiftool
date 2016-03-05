@@ -41,5 +41,4 @@ class AFPointsSelected extends AbstractTag
     protected $Description = 'AF Points Selected';
 
     protected $flag_Permanent = true;
-
 }

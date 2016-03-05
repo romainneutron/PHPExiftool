@@ -39,5 +39,4 @@ class ITunSMPB extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'iTunSMPB';
-
 }

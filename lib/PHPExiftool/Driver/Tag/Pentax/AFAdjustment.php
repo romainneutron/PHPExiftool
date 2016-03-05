@@ -41,5 +41,4 @@ class AFAdjustment extends AbstractTag
     protected $Description = 'AF Adjustment';
 
     protected $flag_Permanent = true;
-
 }

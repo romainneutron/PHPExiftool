@@ -52,5 +52,4 @@ class DisplayAllAFPoints extends AbstractTag
             'Label' => 'Disable',
         ),
     );
-
 }

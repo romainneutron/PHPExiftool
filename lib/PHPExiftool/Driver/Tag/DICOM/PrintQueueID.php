@@ -39,5 +39,4 @@ class PrintQueueID extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Print Queue ID';
-
 }

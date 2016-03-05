@@ -39,5 +39,4 @@ class GlobalNumber extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Global Number';
-
 }

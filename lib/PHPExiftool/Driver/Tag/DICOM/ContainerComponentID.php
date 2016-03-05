@@ -39,5 +39,4 @@ class ContainerComponentID extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Container Component ID';
-
 }

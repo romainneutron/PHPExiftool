@@ -60,5 +60,4 @@ class DynamicRangeExpansion extends AbstractTag
             'Label' => 'Strong',
         ),
     );
-
 }

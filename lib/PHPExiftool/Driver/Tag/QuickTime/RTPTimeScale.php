@@ -39,5 +39,4 @@ class RTPTimeScale extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'RTP Time Scale';
-
 }

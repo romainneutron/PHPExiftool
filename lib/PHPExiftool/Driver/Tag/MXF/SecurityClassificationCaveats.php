@@ -39,5 +39,4 @@ class SecurityClassificationCaveats extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Security Classification Caveats';
-
 }

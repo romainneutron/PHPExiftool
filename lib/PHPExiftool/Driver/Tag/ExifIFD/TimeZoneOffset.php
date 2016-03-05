@@ -41,5 +41,4 @@ class TimeZoneOffset extends AbstractTag
     protected $Description = 'Time Zone Offset';
 
     protected $local_g1 = 'ExifIFD';
-
 }

@@ -39,5 +39,4 @@ class EpisodicItemSets extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Episodic Item Sets';
-
 }

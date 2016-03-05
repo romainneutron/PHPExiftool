@@ -39,5 +39,4 @@ class SignalNumber extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Signal Number';
-
 }

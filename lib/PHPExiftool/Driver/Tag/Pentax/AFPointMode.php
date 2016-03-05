@@ -56,5 +56,4 @@ class AFPointMode extends AbstractTag
             'Label' => 'Fixed Center',
         ),
     );
-
 }

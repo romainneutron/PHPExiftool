@@ -52,5 +52,4 @@ class FaceRecognition extends AbstractTag
             'Label' => 'On',
         ),
     );
-
 }

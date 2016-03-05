@@ -41,5 +41,4 @@ class AFAperture extends AbstractTag
     protected $Description = 'AF Aperture';
 
     protected $flag_Permanent = true;
-
 }

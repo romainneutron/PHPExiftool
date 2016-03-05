@@ -39,5 +39,4 @@ class SegmentedBlueColorTableData extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Segmented Blue Color Table Data';
-
 }

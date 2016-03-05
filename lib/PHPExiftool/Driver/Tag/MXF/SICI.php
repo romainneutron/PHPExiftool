@@ -39,5 +39,4 @@ class SICI extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'SICI';
-
 }

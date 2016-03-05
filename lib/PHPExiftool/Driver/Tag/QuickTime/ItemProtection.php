@@ -41,5 +41,4 @@ class ItemProtection extends AbstractTag
     protected $Description = 'Item Protection';
 
     protected $flag_Binary = true;
-
 }

@@ -39,5 +39,4 @@ class CropOriginalHeight extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Crop Original Height';
-
 }

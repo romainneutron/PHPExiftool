@@ -39,5 +39,4 @@ class SequenceOfCompressedData extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Sequence Of Compressed Data';
-
 }

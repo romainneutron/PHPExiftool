@@ -43,5 +43,4 @@ class CameraTemperature extends AbstractTag
     protected $flag_Permanent = true;
 
     protected $local_g2 = 'mixed';
-
 }

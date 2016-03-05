@@ -82,5 +82,4 @@ class CheckMark extends AbstractTag
             'Label' => 3,
         ),
     );
-
 }

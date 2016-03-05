@@ -39,5 +39,4 @@ class MaximumObjectSize extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Maximum Object Size';
-
 }

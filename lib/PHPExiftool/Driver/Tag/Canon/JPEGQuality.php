@@ -41,5 +41,4 @@ class JPEGQuality extends AbstractTag
     protected $Description = 'JPEG Quality';
 
     protected $flag_Permanent = true;
-
 }

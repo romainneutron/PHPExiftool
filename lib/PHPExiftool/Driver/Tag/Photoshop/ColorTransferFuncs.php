@@ -39,5 +39,4 @@ class ColorTransferFuncs extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Color Transfer Funcs';
-
 }

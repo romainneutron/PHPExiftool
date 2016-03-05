@@ -39,5 +39,4 @@ class PerformerSortOrder extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Performer Sort Order';
-
 }

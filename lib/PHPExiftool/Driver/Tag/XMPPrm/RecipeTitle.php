@@ -41,5 +41,4 @@ class RecipeTitle extends AbstractTag
     protected $Description = 'Recipe Title';
 
     protected $flag_Avoid = true;
-
 }

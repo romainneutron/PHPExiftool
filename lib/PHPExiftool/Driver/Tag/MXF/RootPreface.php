@@ -39,5 +39,4 @@ class RootPreface extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Root Preface';
-
 }

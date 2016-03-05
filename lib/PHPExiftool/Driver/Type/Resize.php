@@ -19,5 +19,4 @@ class Resize extends AbstractType
     protected $ExiftoolName = 'resize';
 
     protected $PHPMap = 'string';
-
 }

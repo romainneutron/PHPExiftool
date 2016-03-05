@@ -47,5 +47,4 @@ class GPSDateStamp extends AbstractTag
     protected $local_g1 = 'mixed';
 
     protected $flag_Permanent = 'mixed';
-
 }

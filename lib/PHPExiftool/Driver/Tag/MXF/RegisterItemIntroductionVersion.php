@@ -39,5 +39,4 @@ class RegisterItemIntroductionVersion extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Register Item Introduction Version';
-
 }

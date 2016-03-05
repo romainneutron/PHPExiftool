@@ -39,5 +39,4 @@ class GradientBasedCorrShadows2012 extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Gradient Based Corr Shadows 2012';
-
 }

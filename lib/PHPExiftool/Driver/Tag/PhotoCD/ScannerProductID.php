@@ -41,5 +41,4 @@ class ScannerProductID extends AbstractTag
     protected $Description = 'Scanner Product ID';
 
     protected $MaxLength = 16;
-
 }

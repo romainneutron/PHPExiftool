@@ -202,5 +202,4 @@ class VerticalDatum extends AbstractTag
             'Label' => 'User Defined',
         ),
     );
-
 }

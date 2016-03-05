@@ -39,5 +39,4 @@ class CropRotatedOriginalHeight extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'Crop Rotated Original Height';
-
 }

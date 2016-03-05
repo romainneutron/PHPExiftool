@@ -39,5 +39,4 @@ class ContextGroupVersion extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Context Group Version';
-
 }

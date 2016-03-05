@@ -41,5 +41,4 @@ class ClassifyState extends AbstractTag
     protected $Description = 'Classify State';
 
     protected $MaxLength = 64;
-
 }

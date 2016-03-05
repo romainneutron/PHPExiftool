@@ -50,5 +50,4 @@ class VideoScanType extends AbstractTag
             'Label' => 'Interlaced',
         ),
     );
-
 }

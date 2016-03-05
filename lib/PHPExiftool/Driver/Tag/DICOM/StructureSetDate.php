@@ -39,5 +39,4 @@ class StructureSetDate extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Structure Set Date';
-
 }

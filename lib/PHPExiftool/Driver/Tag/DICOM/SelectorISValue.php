@@ -39,5 +39,4 @@ class SelectorISValue extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Selector IS Value';
-
 }

@@ -39,5 +39,4 @@ class ImageGeometryType extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Image Geometry Type';
-
 }

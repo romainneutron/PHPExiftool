@@ -39,5 +39,4 @@ class TotalDuration extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Total Duration';
-
 }

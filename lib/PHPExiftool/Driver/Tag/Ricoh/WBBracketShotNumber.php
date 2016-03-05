@@ -41,5 +41,4 @@ class WBBracketShotNumber extends AbstractTag
     protected $Description = 'WB Bracket Shot Number';
 
     protected $flag_Permanent = true;
-
 }

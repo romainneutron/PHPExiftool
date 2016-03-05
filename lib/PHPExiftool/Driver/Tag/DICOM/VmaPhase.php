@@ -39,5 +39,4 @@ class VmaPhase extends AbstractTag
     protected $Writable = false;
 
     protected $Description = 'Vma Phase';
-
 }

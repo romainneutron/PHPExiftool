@@ -82,5 +82,4 @@ class StartTimecodeTimeFormat extends AbstractTag
             'Label' => '60 fps',
         ),
     );
-
 }

@@ -96,5 +96,4 @@ class AFPointsInFocus extends AbstractTag
             'Label' => 'All 11 Points',
         ),
     );
-
 }

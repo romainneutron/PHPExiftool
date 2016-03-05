@@ -19,5 +19,4 @@ class BitsRgn extends AbstractType
     protected $ExiftoolName = 'BitsRgn#';
 
     protected $PHPMap = 'string';
-
 }

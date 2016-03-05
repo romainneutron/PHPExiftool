@@ -39,5 +39,4 @@ class GPSTrack extends AbstractTag
     protected $Writable = true;
 
     protected $Description = 'GPS Track';
-
 }

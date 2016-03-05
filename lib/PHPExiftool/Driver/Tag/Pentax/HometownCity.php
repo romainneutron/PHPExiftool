@@ -346,5 +346,4 @@ class HometownCity extends AbstractTag
             'Label' => 'Budapest',
         ),
     );
-
 }

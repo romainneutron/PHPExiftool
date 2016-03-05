@@ -50,5 +50,4 @@ class PlayGap extends AbstractTag
             'Label' => 'No Gap',
         ),
     );
-
 }

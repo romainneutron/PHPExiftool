@@ -41,5 +41,4 @@ class PrevUID extends AbstractTag
     protected $Description = 'Prev UID';
 
     protected $flag_Binary = true;
-
 }
