@@ -115,6 +115,26 @@ class AELockButtonPlusDials extends AbstractTag
             'Id' => 112,
             'Label' => 'Shutter speed & Aperture lock',
         ),
+        18 => array(
+            'Id' => 0,
+            'Label' => 'None',
+        ),
+        19 => array(
+            'Id' => 1,
+            'Label' => 'Choose Image Area (FX/DX/5:4)',
+        ),
+        20 => array(
+            'Id' => 2,
+            'Label' => 'Shutter Speed & Aperture Lock',
+        ),
+        21 => array(
+            'Id' => 4,
+            'Label' => 'Choose Non-CPU Lens Number',
+        ),
+        22 => array(
+            'Id' => 8,
+            'Label' => 'Exposure Delay Mode',
+        ),
     );
 
     protected $Index = 'mixed';

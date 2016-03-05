@@ -20,11 +20,11 @@ use PHPExiftool\Driver\AbstractTag;
 class AFOnButton extends AbstractTag
 {
 
-    protected $Id = '3.1';
+    protected $Id = 'mixed';
 
     protected $Name = 'AFOnButton';
 
-    protected $FullName = 'NikonCustom::SettingsD3';
+    protected $FullName = 'mixed';
 
     protected $GroupName = 'NikonCustom';
 
@@ -66,6 +66,34 @@ class AFOnButton extends AbstractTag
         5 => array(
             'Id' => 5,
             'Label' => 'AF Lock Only',
+        ),
+        6 => array(
+            'Id' => 0,
+            'Label' => 'AF On',
+        ),
+        7 => array(
+            'Id' => 16,
+            'Label' => 'AE/AF Lock',
+        ),
+        8 => array(
+            'Id' => 32,
+            'Label' => 'AE Lock Only',
+        ),
+        9 => array(
+            'Id' => 48,
+            'Label' => 'AE Lock (reset on release)',
+        ),
+        10 => array(
+            'Id' => 64,
+            'Label' => 'AE Lock (hold)',
+        ),
+        11 => array(
+            'Id' => 80,
+            'Label' => 'AF Lock Only',
+        ),
+        12 => array(
+            'Id' => 96,
+            'Label' => 'None',
         ),
     );
 

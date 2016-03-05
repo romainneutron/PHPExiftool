@@ -231,6 +231,10 @@ class SceneMode extends AbstractTag
             'Id' => 51,
             'Label' => 'HDR',
         ),
+        52 => array(
+            'Id' => 52,
+            'Label' => 'Peripheral Defocus',
+        ),
         55 => array(
             'Id' => 55,
             'Label' => 'Handheld Night Shot',

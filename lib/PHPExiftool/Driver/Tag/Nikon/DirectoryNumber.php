@@ -20,7 +20,7 @@ use PHPExiftool\Driver\AbstractTag;
 class DirectoryNumber extends AbstractTag
 {
 
-    protected $Id = 6;
+    protected $Id = 3;
 
     protected $Name = 'DirectoryNumber';
 

@@ -20,11 +20,11 @@ use PHPExiftool\Driver\AbstractTag;
 class ChromaticAberrationBlue extends AbstractTag
 {
 
-    protected $Id = 107;
+    protected $Id = 'mixed';
 
     protected $Name = 'ChromaticAberrationBlue';
 
-    protected $FullName = 'CanonVRD::Ver2';
+    protected $FullName = 'mixed';
 
     protected $GroupName = 'CanonVRD';
 
@@ -34,7 +34,7 @@ class ChromaticAberrationBlue extends AbstractTag
 
     protected $g2 = 'Image';
 
-    protected $Type = 'int16s';
+    protected $Type = 'mixed';
 
     protected $Writable = true;
 

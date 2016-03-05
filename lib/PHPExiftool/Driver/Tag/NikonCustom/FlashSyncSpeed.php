@@ -112,111 +112,179 @@ class FlashSyncSpeed extends AbstractTag
             'Label' => '1/60 s',
         ),
         17 => array(
-            'Id' => 0,
-            'Label' => '1/320 s (auto FP)',
+            'Id' => 16,
+            'Label' => '1/250 s (auto FP)',
         ),
         18 => array(
-            'Id' => 16,
-            'Label' => '1/250 s (auto FP)',
+            'Id' => 32,
+            'Label' => '1/250 s',
         ),
         19 => array(
-            'Id' => 32,
-            'Label' => '1/250 s',
+            'Id' => 48,
+            'Label' => '1/200 s',
         ),
         20 => array(
-            'Id' => 48,
-            'Label' => '1/200 s',
+            'Id' => 64,
+            'Label' => '1/160 s',
         ),
         21 => array(
-            'Id' => 64,
-            'Label' => '1/160 s',
+            'Id' => 80,
+            'Label' => '1/125 s',
         ),
         22 => array(
-            'Id' => 80,
-            'Label' => '1/125 s',
+            'Id' => 96,
+            'Label' => '1/100 s',
         ),
         23 => array(
-            'Id' => 96,
-            'Label' => '1/100 s',
+            'Id' => 112,
+            'Label' => '1/80 s',
         ),
         24 => array(
-            'Id' => 112,
-            'Label' => '1/80 s',
+            'Id' => 128,
+            'Label' => '1/60 s',
         ),
         25 => array(
-            'Id' => 128,
-            'Label' => '1/60 s',
+            'Id' => 0,
+            'Label' => '1/320 s (auto FP)',
         ),
         26 => array(
-            'Id' => 0,
-            'Label' => '1/320 s (auto FP)',
-        ),
-        27 => array(
             'Id' => 16,
             'Label' => '1/250 s (auto FP)',
         ),
-        28 => array(
+        27 => array(
             'Id' => 32,
             'Label' => '1/250 s',
         ),
-        29 => array(
+        28 => array(
             'Id' => 48,
             'Label' => '1/200 s',
         ),
-        30 => array(
+        29 => array(
             'Id' => 64,
             'Label' => '1/160 s',
         ),
-        31 => array(
+        30 => array(
             'Id' => 80,
             'Label' => '1/125 s',
         ),
-        32 => array(
+        31 => array(
             'Id' => 96,
             'Label' => '1/100 s',
         ),
-        33 => array(
+        32 => array(
             'Id' => 112,
             'Label' => '1/80 s',
         ),
-        34 => array(
+        33 => array(
             'Id' => 128,
             'Label' => '1/60 s',
         ),
-        35 => array(
+        34 => array(
             'Id' => 0,
             'Label' => '1/320 s (auto FP)',
         ),
-        36 => array(
+        35 => array(
             'Id' => 16,
             'Label' => '1/250 s (auto FP)',
         ),
-        37 => array(
+        36 => array(
             'Id' => 32,
             'Label' => '1/250 s',
         ),
-        38 => array(
+        37 => array(
             'Id' => 48,
             'Label' => '1/200 s',
         ),
-        39 => array(
+        38 => array(
             'Id' => 64,
             'Label' => '1/160 s',
         ),
-        40 => array(
+        39 => array(
             'Id' => 80,
             'Label' => '1/125 s',
         ),
-        41 => array(
+        40 => array(
             'Id' => 96,
             'Label' => '1/100 s',
         ),
-        42 => array(
+        41 => array(
             'Id' => 112,
             'Label' => '1/80 s',
         ),
-        43 => array(
+        42 => array(
             'Id' => 128,
+            'Label' => '1/60 s',
+        ),
+        43 => array(
+            'Id' => 0,
+            'Label' => '1/320 s (auto FP)',
+        ),
+        44 => array(
+            'Id' => 16,
+            'Label' => '1/250 s (auto FP)',
+        ),
+        45 => array(
+            'Id' => 32,
+            'Label' => '1/250 s',
+        ),
+        46 => array(
+            'Id' => 48,
+            'Label' => '1/200 s',
+        ),
+        47 => array(
+            'Id' => 64,
+            'Label' => '1/160 s',
+        ),
+        48 => array(
+            'Id' => 80,
+            'Label' => '1/125 s',
+        ),
+        49 => array(
+            'Id' => 96,
+            'Label' => '1/100 s',
+        ),
+        50 => array(
+            'Id' => 112,
+            'Label' => '1/80 s',
+        ),
+        51 => array(
+            'Id' => 128,
+            'Label' => '1/60 s',
+        ),
+        52 => array(
+            'Id' => 0,
+            'Label' => '1/320 s (auto FP)',
+        ),
+        53 => array(
+            'Id' => 32,
+            'Label' => '1/250 s (auto FP)',
+        ),
+        54 => array(
+            'Id' => 48,
+            'Label' => '1/250 s',
+        ),
+        55 => array(
+            'Id' => 80,
+            'Label' => '1/200 s',
+        ),
+        56 => array(
+            'Id' => 96,
+            'Label' => '1/160 s',
+        ),
+        57 => array(
+            'Id' => 112,
+            'Label' => '1/125 s',
+        ),
+        58 => array(
+            'Id' => 128,
+            'Label' => '1/100 s',
+        ),
+        59 => array(
+            'Id' => 144,
+            'Label' => '1/80 s',
+        ),
+        60 => array(
+            'Id' => 160,
             'Label' => '1/60 s',
         ),
     );

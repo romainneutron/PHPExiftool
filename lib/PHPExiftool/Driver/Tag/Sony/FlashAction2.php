@@ -20,11 +20,11 @@ use PHPExiftool\Driver\AbstractTag;
 class FlashAction2 extends AbstractTag
 {
 
-    protected $Id = 48;
+    protected $Id = 'mixed';
 
     protected $Name = 'FlashAction2';
 
-    protected $FullName = 'Sony::MoreSettings';
+    protected $FullName = 'mixed';
 
     protected $GroupName = 'Sony';
 
@@ -34,7 +34,7 @@ class FlashAction2 extends AbstractTag
 
     protected $g2 = 'Camera';
 
-    protected $Type = 'int8u';
+    protected $Type = 'mixed';
 
     protected $Writable = true;
 
@@ -44,12 +44,56 @@ class FlashAction2 extends AbstractTag
 
     protected $Values = array(
         0 => array(
+            'Id' => 1,
+            'Label' => 'Fired, Autoflash',
+        ),
+        1 => array(
+            'Id' => 2,
+            'Label' => 'Fired, Fill-flash',
+        ),
+        2 => array(
+            'Id' => 3,
+            'Label' => 'Fired, Rear Sync',
+        ),
+        3 => array(
+            'Id' => 4,
+            'Label' => 'Fired, Wireless',
+        ),
+        4 => array(
+            'Id' => 5,
+            'Label' => 'Did not fire',
+        ),
+        5 => array(
+            'Id' => 6,
+            'Label' => 'Fired, Slow Sync',
+        ),
+        6 => array(
+            'Id' => 17,
+            'Label' => 'Fired, Autoflash, Red-eye reduction',
+        ),
+        7 => array(
+            'Id' => 18,
+            'Label' => 'Fired, Fill-flash, Red-eye reduction',
+        ),
+        8 => array(
+            'Id' => 34,
+            'Label' => 'Fired, Fill-flash, HSS',
+        ),
+        9 => array(
             'Id' => 0,
             'Label' => 'Did not fire',
         ),
-        1 => array(
-            'Id' => 1,
-            'Label' => 'Fired',
+        10 => array(
+            'Id' => 2,
+            'Label' => 'External Flash fired (2)',
+        ),
+        11 => array(
+            'Id' => 3,
+            'Label' => 'Built-in Flash fired',
+        ),
+        12 => array(
+            'Id' => 4,
+            'Label' => 'External Flash fired (4)',
         ),
     );
 

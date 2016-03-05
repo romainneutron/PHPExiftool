@@ -40,6 +40,6 @@ class ZoomedPreviewImage extends AbstractTag
 
     protected $Description = 'Zoomed Preview Image';
 
-    protected $local_g2 = 'Camera';
+    protected $local_g2 = 'Preview';
 
 }

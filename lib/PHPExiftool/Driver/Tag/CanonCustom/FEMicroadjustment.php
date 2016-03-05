@@ -20,7 +20,7 @@ use PHPExiftool\Driver\AbstractTag;
 class FEMicroadjustment extends AbstractTag
 {
 
-    protected $Id = 272;
+    protected $Id = 273;
 
     protected $Name = 'FEMicroadjustment';
 

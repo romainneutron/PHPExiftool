@@ -47,13 +47,53 @@ class MultiSelectorShootMode extends AbstractTag
             'Id' => 0,
             'Label' => 'Select Center Focus Point',
         ),
-        64 => array(
+        1 => array(
             'Id' => 64,
             'Label' => 'Highlight Active Focus Point',
         ),
-        128 => array(
+        2 => array(
             'Id' => 128,
             'Label' => 'Not Used',
+        ),
+        3 => array(
+            'Id' => 0,
+            'Label' => 'Select Center Focus Point (Reset)',
+        ),
+        4 => array(
+            'Id' => 128,
+            'Label' => 'Preset Focus Point (Pre)',
+        ),
+        5 => array(
+            'Id' => 192,
+            'Label' => 'Not Used (None)',
+        ),
+        6 => array(
+            'Id' => 0,
+            'Label' => 'Select Center Focus Point',
+        ),
+        7 => array(
+            'Id' => 64,
+            'Label' => 'Highlight Active Focus Point',
+        ),
+        8 => array(
+            'Id' => 128,
+            'Label' => 'Not Used',
+        ),
+        9 => array(
+            'Id' => 0,
+            'Label' => 'Select Center Focus Point (Reset)',
+        ),
+        10 => array(
+            'Id' => 64,
+            'Label' => 'Highlight Active Focus Point',
+        ),
+        11 => array(
+            'Id' => 128,
+            'Label' => 'Preset Focus Point (Pre)',
+        ),
+        12 => array(
+            'Id' => 192,
+            'Label' => 'Not Used (None)',
         ),
     );
 

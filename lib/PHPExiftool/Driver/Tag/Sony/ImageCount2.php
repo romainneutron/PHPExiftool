@@ -20,7 +20,7 @@ use PHPExiftool\Driver\AbstractTag;
 class ImageCount2 extends AbstractTag
 {
 
-    protected $Id = 76;
+    protected $Id = 'mixed';
 
     protected $Name = 'ImageCount2';
 

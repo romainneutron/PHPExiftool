@@ -34,9 +34,9 @@ class BlackLevel extends AbstractTag
 
     protected $g2 = 'Camera';
 
-    protected $Type = '?';
+    protected $Type = 'int32s';
 
-    protected $Writable = false;
+    protected $Writable = true;
 
     protected $Description = 'Black Level';
 

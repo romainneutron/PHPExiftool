@@ -168,150 +168,174 @@ class ISO extends AbstractTag
             'Label' => 51200,
         ),
         31 => array(
+            'Id' => 34,
+            'Label' => 64000,
+        ),
+        32 => array(
+            'Id' => 35,
+            'Label' => 80000,
+        ),
+        33 => array(
+            'Id' => 36,
+            'Label' => 102400,
+        ),
+        34 => array(
+            'Id' => 37,
+            'Label' => 128000,
+        ),
+        35 => array(
+            'Id' => 38,
+            'Label' => 160000,
+        ),
+        36 => array(
+            'Id' => 39,
+            'Label' => 204800,
+        ),
+        37 => array(
             'Id' => 50,
             'Label' => 50,
         ),
-        32 => array(
+        38 => array(
             'Id' => 100,
             'Label' => 100,
         ),
-        33 => array(
+        39 => array(
             'Id' => 200,
             'Label' => 200,
         ),
-        34 => array(
+        40 => array(
             'Id' => 258,
             'Label' => 50,
         ),
-        35 => array(
+        41 => array(
             'Id' => 259,
             'Label' => 70,
         ),
-        36 => array(
+        42 => array(
             'Id' => 260,
             'Label' => 100,
         ),
-        37 => array(
+        43 => array(
             'Id' => 261,
             'Label' => 140,
         ),
-        38 => array(
+        44 => array(
             'Id' => 262,
             'Label' => 200,
         ),
-        39 => array(
+        45 => array(
             'Id' => 263,
             'Label' => 280,
         ),
-        40 => array(
+        46 => array(
             'Id' => 264,
             'Label' => 400,
         ),
-        41 => array(
+        47 => array(
             'Id' => 265,
             'Label' => 560,
         ),
-        42 => array(
+        48 => array(
             'Id' => 266,
             'Label' => 800,
         ),
-        43 => array(
+        49 => array(
             'Id' => 267,
             'Label' => 1100,
         ),
-        44 => array(
+        50 => array(
             'Id' => 268,
             'Label' => 1600,
         ),
-        45 => array(
+        51 => array(
             'Id' => 269,
             'Label' => 2200,
         ),
-        46 => array(
+        52 => array(
             'Id' => 270,
             'Label' => 3200,
         ),
-        47 => array(
+        53 => array(
             'Id' => 271,
             'Label' => 4500,
         ),
-        48 => array(
+        54 => array(
             'Id' => 272,
             'Label' => 6400,
         ),
-        49 => array(
+        55 => array(
             'Id' => 273,
             'Label' => 9000,
         ),
-        50 => array(
+        56 => array(
             'Id' => 274,
             'Label' => 12800,
         ),
-        51 => array(
+        57 => array(
             'Id' => 275,
             'Label' => 18000,
         ),
-        52 => array(
+        58 => array(
             'Id' => 276,
             'Label' => 25600,
         ),
-        53 => array(
+        59 => array(
             'Id' => 277,
             'Label' => 36000,
         ),
-        54 => array(
+        60 => array(
             'Id' => 278,
             'Label' => 51200,
         ),
-        55 => array(
+        61 => array(
             'Id' => 400,
             'Label' => 400,
         ),
-        56 => array(
+        62 => array(
             'Id' => 800,
             'Label' => 800,
         ),
-        57 => array(
+        63 => array(
             'Id' => 1600,
             'Label' => 1600,
         ),
-        58 => array(
+        64 => array(
             'Id' => 3200,
             'Label' => 3200,
         ),
-        59 => array(
+        65 => array(
             'Id' => 10,
             'Label' => 100,
         ),
-        60 => array(
+        66 => array(
             'Id' => 16,
             'Label' => 200,
         ),
-        61 => array(
+        67 => array(
             'Id' => 50,
             'Label' => 50,
         ),
-        62 => array(
+        68 => array(
             'Id' => 100,
             'Label' => 100,
         ),
-        63 => array(
+        69 => array(
             'Id' => 200,
             'Label' => 200,
         ),
-        64 => array(
+        70 => array(
             'Id' => 400,
             'Label' => 400,
         ),
-        65 => array(
+        71 => array(
             'Id' => 800,
             'Label' => 800,
         ),
-        66 => array(
+        72 => array(
             'Id' => 1600,
             'Label' => 1600,
         ),
-        67 => array(
+        73 => array(
             'Id' => 3200,
             'Label' => 3200,
         ),

@@ -34,9 +34,9 @@ class MaxApertureValue extends AbstractTag
 
     protected $g2 = 'Camera';
 
-    protected $Type = '?';
+    protected $Type = 'float';
 
-    protected $Writable = false;
+    protected $Writable = true;
 
     protected $Description = 'Max Aperture Value';
 

@@ -20,11 +20,11 @@ use PHPExiftool\Driver\AbstractTag;
 class ContrastAdj extends AbstractTag
 {
 
-    protected $Id = 277;
+    protected $Id = 'mixed';
 
     protected $Name = 'ContrastAdj';
 
-    protected $FullName = 'CanonVRD::Ver1';
+    protected $FullName = 'mixed';
 
     protected $GroupName = 'CanonVRD';
 
@@ -34,7 +34,7 @@ class ContrastAdj extends AbstractTag
 
     protected $g2 = 'Image';
 
-    protected $Type = 'int8s';
+    protected $Type = 'mixed';
 
     protected $Writable = true;
 

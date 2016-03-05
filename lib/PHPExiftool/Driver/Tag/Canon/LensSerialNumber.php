@@ -20,11 +20,11 @@ use PHPExiftool\Driver\AbstractTag;
 class LensSerialNumber extends AbstractTag
 {
 
-    protected $Id = 0;
+    protected $Id = 'mixed';
 
     protected $Name = 'LensSerialNumber';
 
-    protected $FullName = 'Canon::LensInfo';
+    protected $FullName = 'mixed';
 
     protected $GroupName = 'Canon';
 

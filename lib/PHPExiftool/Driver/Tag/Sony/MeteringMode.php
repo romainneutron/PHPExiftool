@@ -163,6 +163,18 @@ class MeteringMode extends AbstractTag
             'Id' => 3,
             'Label' => 'Spot',
         ),
+        30 => array(
+            'Id' => 0,
+            'Label' => 'Multi-segment',
+        ),
+        31 => array(
+            'Id' => 2,
+            'Label' => 'Center-weighted average',
+        ),
+        32 => array(
+            'Id' => 3,
+            'Label' => 'Spot',
+        ),
     );
 
 }

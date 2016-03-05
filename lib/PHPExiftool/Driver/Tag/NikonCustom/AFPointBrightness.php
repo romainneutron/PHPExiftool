@@ -20,11 +20,11 @@ use PHPExiftool\Driver\AbstractTag;
 class AFPointBrightness extends AbstractTag
 {
 
-    protected $Id = '2.4';
+    protected $Id = 'mixed';
 
     protected $Name = 'AFPointBrightness';
 
-    protected $FullName = 'NikonCustom::SettingsD3';
+    protected $FullName = 'mixed';
 
     protected $GroupName = 'NikonCustom';
 
@@ -47,17 +47,45 @@ class AFPointBrightness extends AbstractTag
             'Id' => 0,
             'Label' => 'Low',
         ),
-        2 => array(
+        1 => array(
             'Id' => 2,
             'Label' => 'Normal',
         ),
-        4 => array(
+        2 => array(
             'Id' => 4,
             'Label' => 'High',
         ),
-        6 => array(
+        3 => array(
             'Id' => 6,
             'Label' => 'Extra High',
+        ),
+        4 => array(
+            'Id' => 0,
+            'Label' => 'Low',
+        ),
+        5 => array(
+            'Id' => 1,
+            'Label' => 'Normal',
+        ),
+        6 => array(
+            'Id' => 2,
+            'Label' => 'High',
+        ),
+        7 => array(
+            'Id' => 3,
+            'Label' => 'Extra High',
+        ),
+        8 => array(
+            'Id' => 0,
+            'Label' => 'Auto',
+        ),
+        9 => array(
+            'Id' => 2,
+            'Label' => 'On',
+        ),
+        10 => array(
+            'Id' => 4,
+            'Label' => 'Off',
         ),
     );
 

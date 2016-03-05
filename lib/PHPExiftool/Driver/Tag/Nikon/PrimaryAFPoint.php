@@ -1008,6 +1008,22 @@ class PrimaryAFPoint extends AbstractTag
             'Label' => '(none)',
         ),
         241 => array(
+            'Id' => 82,
+            'Label' => 'F8 (Center)',
+        ),
+        242 => array(
+            'Id' => 0,
+            'Label' => '(none)',
+        ),
+        243 => array(
+            'Id' => 115,
+            'Label' => 'F11 (Center)',
+        ),
+        244 => array(
+            'Id' => 0,
+            'Label' => '(none)',
+        ),
+        245 => array(
             'Id' => 1,
             'Label' => 'Center',
         ),

@@ -231,21 +231,13 @@ class AdvancedSceneMode extends AbstractTag
             'Id' => '90 10',
             'Label' => 'Silky Monochrome',
         ),
+        '92 1' => array(
+            'Id' => '92 1',
+            'Label' => 'Handheld Night Shot',
+        ),
         'DMC-TZ40 90 1' => array(
             'Id' => 'DMC-TZ40 90 1',
             'Label' => 'Expressive',
-        ),
-        'DMC-TZ40 90 10' => array(
-            'Id' => 'DMC-TZ40 90 10',
-            'Label' => 'Toy Effect',
-        ),
-        'DMC-TZ40 90 11' => array(
-            'Id' => 'DMC-TZ40 90 11',
-            'Label' => 'Dynamic Monochrome',
-        ),
-        'DMC-TZ40 90 12' => array(
-            'Id' => 'DMC-TZ40 90 12',
-            'Label' => 'Soft',
         ),
         'DMC-TZ40 90 2' => array(
             'Id' => 'DMC-TZ40 90 2',
@@ -270,6 +262,18 @@ class AdvancedSceneMode extends AbstractTag
         'DMC-TZ40 90 9' => array(
             'Id' => 'DMC-TZ40 90 9',
             'Label' => 'Low Key',
+        ),
+        'DMC-TZ40 90 10' => array(
+            'Id' => 'DMC-TZ40 90 10',
+            'Label' => 'Toy Effect',
+        ),
+        'DMC-TZ40 90 11' => array(
+            'Id' => 'DMC-TZ40 90 11',
+            'Label' => 'Dynamic Monochrome',
+        ),
+        'DMC-TZ40 90 12' => array(
+            'Id' => 'DMC-TZ40 90 12',
+            'Label' => 'Soft',
         ),
     );
 

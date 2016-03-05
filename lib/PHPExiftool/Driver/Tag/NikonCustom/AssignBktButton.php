@@ -20,11 +20,11 @@ use PHPExiftool\Driver\AbstractTag;
 class AssignBktButton extends AbstractTag
 {
 
-    protected $Id = '4.2';
+    protected $Id = 'mixed';
 
     protected $Name = 'AssignBktButton';
 
-    protected $FullName = 'NikonCustom::SettingsD3';
+    protected $FullName = 'mixed';
 
     protected $GroupName = 'NikonCustom';
 
@@ -47,9 +47,41 @@ class AssignBktButton extends AbstractTag
             'Id' => 0,
             'Label' => 'Auto Bracketing',
         ),
-        8 => array(
+        1 => array(
             'Id' => 8,
             'Label' => 'Multiple Exposure',
+        ),
+        2 => array(
+            'Id' => 0,
+            'Label' => 'Auto Bracketing',
+        ),
+        3 => array(
+            'Id' => 1,
+            'Label' => 'Multiple Exposure',
+        ),
+        4 => array(
+            'Id' => 2,
+            'Label' => 'HDR (high dynamic range)',
+        ),
+        5 => array(
+            'Id' => 3,
+            'Label' => 'None',
+        ),
+        6 => array(
+            'Id' => 0,
+            'Label' => 'Auto Bracketing',
+        ),
+        7 => array(
+            'Id' => 1,
+            'Label' => 'Multiple Exposure',
+        ),
+        8 => array(
+            'Id' => 2,
+            'Label' => 'HDR (high dynamic range)',
+        ),
+        9 => array(
+            'Id' => 3,
+            'Label' => 'None',
         ),
     );
 

@@ -215,6 +215,10 @@ class MajorBrand extends AbstractTag
             'Id' => 'XAVC',
             'Label' => 'Sony XAVC',
         ),
+        'aax ' => array(
+            'Id' => 'aax ',
+            'Label' => 'Audible Enhanced Audiobook (.AAX)',
+        ),
         'avc1' => array(
             'Id' => 'avc1',
             'Label' => 'MP4 Base w/ AVC ext [ISO 14496-12:2005]',

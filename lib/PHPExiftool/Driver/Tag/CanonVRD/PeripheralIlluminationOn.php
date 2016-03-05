@@ -20,11 +20,11 @@ use PHPExiftool\Driver\AbstractTag;
 class PeripheralIlluminationOn extends AbstractTag
 {
 
-    protected $Id = 100;
+    protected $Id = 'mixed';
 
     protected $Name = 'PeripheralIlluminationOn';
 
-    protected $FullName = 'CanonVRD::Ver2';
+    protected $FullName = 'mixed';
 
     protected $GroupName = 'CanonVRD';
 
@@ -34,10 +34,21 @@ class PeripheralIlluminationOn extends AbstractTag
 
     protected $g2 = 'Image';
 
-    protected $Type = 'int16s';
+    protected $Type = 'mixed';
 
     protected $Writable = true;
 
     protected $Description = 'Peripheral Illumination On';
+
+    protected $Values = array(
+        0 => array(
+            'Id' => 0,
+            'Label' => 'No',
+        ),
+        1 => array(
+            'Id' => 1,
+            'Label' => 'Yes',
+        ),
+    );
 
 }

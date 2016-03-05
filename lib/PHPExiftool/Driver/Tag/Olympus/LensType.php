@@ -75,7 +75,7 @@ class LensType extends AbstractTag
         ),
         '0 03 10' => array(
             'Id' => '0 03 10',
-            'Label' => 'Olympus M.Zuiko Digital ED 14-150mm F4.0-5.6',
+            'Label' => 'Olympus M.Zuiko Digital ED 14-150mm F4.0-5.6 [II]',
         ),
         '0 04 10' => array(
             'Id' => '0 04 10',
@@ -185,6 +185,10 @@ class LensType extends AbstractTag
             'Id' => '0 20 00',
             'Label' => 'Olympus Zuiko Digital 35mm F3.5 Macro',
         ),
+        '0 20 10' => array(
+            'Id' => '0 20 10',
+            'Label' => 'Olympus M.Zuiko Digital ED 40-150mm F2.8 Pro',
+        ),
         '0 21 10' => array(
             'Id' => '0 21 10',
             'Label' => 'Olympus M.Zuiko Digital ED 14-42mm F3.5-5.6 EZ',
@@ -201,9 +205,21 @@ class LensType extends AbstractTag
             'Id' => '0 23 00',
             'Label' => 'Olympus Zuiko Digital ED 14-42mm F3.5-5.6',
         ),
+        '0 23 10' => array(
+            'Id' => '0 23 10',
+            'Label' => 'Olympus M.Zuiko Digital ED 7-14mm F2.8 Pro',
+        ),
         '0 24 00' => array(
             'Id' => '0 24 00',
             'Label' => 'Olympus Zuiko Digital ED 40-150mm F4.0-5.6',
+        ),
+        '0 24 10' => array(
+            'Id' => '0 24 10',
+            'Label' => 'Olympus M.Zuiko Digital ED 300mm F4.0 IS Pro',
+        ),
+        '0 25 10' => array(
+            'Id' => '0 25 10',
+            'Label' => 'Olympus M.Zuiko Digital ED 8mm F1.8 Fisheye Pro',
         ),
         '0 30 00' => array(
             'Id' => '0 30 00',
@@ -424,6 +440,18 @@ class LensType extends AbstractTag
         '2 22 10' => array(
             'Id' => '2 22 10',
             'Label' => 'Leica DG Summilux 15mm F1.7 Asph.',
+        ),
+        '2 24 10' => array(
+            'Id' => '2 24 10',
+            'Label' => 'Lumix G Macro 30mm F2.8 Asph. Mega OIS',
+        ),
+        '2 25 10' => array(
+            'Id' => '2 25 10',
+            'Label' => 'Lumix G 42.5mm F1.7 Asph. Power OIS',
+        ),
+        '2 27 10' => array(
+            'Id' => '2 27 10',
+            'Label' => 'Leica DG Vario-Elmar 100-400mm F4.0-6.3 Asph. Power OIS',
         ),
         '3 01 00' => array(
             'Id' => '3 01 00',

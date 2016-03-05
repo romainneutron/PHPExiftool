@@ -36,7 +36,7 @@ class UnknownDate extends AbstractTag
 
     protected $Type = 'int32u';
 
-    protected $Writable = false;
+    protected $Writable = true;
 
     protected $Description = 'Unknown Date';
 

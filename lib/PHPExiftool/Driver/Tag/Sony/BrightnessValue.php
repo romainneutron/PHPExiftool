@@ -32,9 +32,9 @@ class BrightnessValue extends AbstractTag
 
     protected $g1 = 'Sony';
 
-    protected $g2 = 'Image';
+    protected $g2 = 'mixed';
 
-    protected $Type = 'int16u';
+    protected $Type = 'mixed';
 
     protected $Writable = true;
 

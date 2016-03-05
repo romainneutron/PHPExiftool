@@ -20,11 +20,11 @@ use PHPExiftool\Driver\AbstractTag;
 class CHModeShootingSpeed extends AbstractTag
 {
 
-    protected $Id = '10.3';
+    protected $Id = 'mixed';
 
     protected $Name = 'CHModeShootingSpeed';
 
-    protected $FullName = 'NikonCustom::SettingsD3';
+    protected $FullName = 'mixed';
 
     protected $GroupName = 'NikonCustom';
 
@@ -47,12 +47,20 @@ class CHModeShootingSpeed extends AbstractTag
             'Id' => 0,
             'Label' => '9 fps',
         ),
-        16 => array(
+        1 => array(
             'Id' => 16,
             'Label' => '10 fps',
         ),
-        32 => array(
+        2 => array(
             'Id' => 32,
+            'Label' => '11 fps',
+        ),
+        3 => array(
+            'Id' => 0,
+            'Label' => '10 fps',
+        ),
+        4 => array(
+            'Id' => 16,
             'Label' => '11 fps',
         ),
     );

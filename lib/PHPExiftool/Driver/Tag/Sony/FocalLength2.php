@@ -20,7 +20,7 @@ use PHPExiftool\Driver\AbstractTag;
 class FocalLength2 extends AbstractTag
 {
 
-    protected $Id = 41;
+    protected $Id = 'mixed';
 
     protected $Name = 'FocalLength2';
 
@@ -41,5 +41,7 @@ class FocalLength2 extends AbstractTag
     protected $Description = 'Focal Length 2';
 
     protected $flag_Permanent = true;
+
+    protected $Index = 'mixed';
 
 }

@@ -22,7 +22,7 @@ class EMailAddress extends AbstractTag
 
     protected $Id = 'mixed';
 
-    protected $Name = 'E-MailAddress';
+    protected $Name = 'E-mailAddress';
 
     protected $FullName = 'MXF::Main';
 
@@ -38,6 +38,6 @@ class EMailAddress extends AbstractTag
 
     protected $Writable = false;
 
-    protected $Description = 'E-Mail Address';
+    protected $Description = 'E-mail Address';
 
 }

@@ -20,7 +20,7 @@ use PHPExiftool\Driver\AbstractTag;
 class ExposureCompensation2 extends AbstractTag
 {
 
-    protected $Id = 42;
+    protected $Id = 'mixed';
 
     protected $Name = 'ExposureCompensation2';
 
@@ -41,5 +41,7 @@ class ExposureCompensation2 extends AbstractTag
     protected $Description = 'Exposure Compensation 2';
 
     protected $flag_Permanent = true;
+
+    protected $Index = 'mixed';
 
 }

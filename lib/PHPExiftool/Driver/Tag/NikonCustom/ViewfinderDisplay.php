@@ -20,11 +20,11 @@ use PHPExiftool\Driver\AbstractTag;
 class ViewfinderDisplay extends AbstractTag
 {
 
-    protected $Id = '12.4';
+    protected $Id = 'mixed';
 
     protected $Name = 'ViewfinderDisplay';
 
-    protected $FullName = 'NikonCustom::SettingsD3';
+    protected $FullName = 'mixed';
 
     protected $GroupName = 'NikonCustom';
 
@@ -47,8 +47,16 @@ class ViewfinderDisplay extends AbstractTag
             'Id' => 0,
             'Label' => 'Frame Count',
         ),
-        64 => array(
+        1 => array(
             'Id' => 64,
+            'Label' => 'Exposures Remaining',
+        ),
+        2 => array(
+            'Id' => 0,
+            'Label' => 'Frame Count',
+        ),
+        3 => array(
+            'Id' => 32,
             'Label' => 'Exposures Remaining',
         ),
     );

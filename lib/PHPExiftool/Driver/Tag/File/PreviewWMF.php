@@ -40,6 +40,8 @@ class PreviewWMF extends AbstractTag
 
     protected $Description = 'Preview WMF';
 
+    protected $local_g2 = 'Preview';
+
     protected $flag_Binary = true;
 
 }

@@ -20,7 +20,7 @@ use PHPExiftool\Driver\AbstractTag;
 class AlbumSortOrder extends AbstractTag
 {
 
-    protected $Id = 'TSOA';
+    protected $Id = 'mixed';
 
     protected $Name = 'AlbumSortOrder';
 

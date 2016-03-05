@@ -89,37 +89,45 @@ class FocusingScreen extends AbstractTag
         ),
         11 => array(
             'Id' => 0,
-            'Label' => 'Ec-CV',
+            'Label' => 'Eh-A',
         ),
         12 => array(
             'Id' => 1,
-            'Label' => 'Ec-A,B,D,H,I,L',
+            'Label' => 'Eh-S',
         ),
         13 => array(
             'Id' => 0,
-            'Label' => 'Ec-CIV',
+            'Label' => 'Ec-CV',
         ),
         14 => array(
             'Id' => 1,
-            'Label' => 'Ec-A,B,C,CII,CIII,D,H,I,L',
+            'Label' => 'Ec-A,B,D,H,I,L',
         ),
         15 => array(
+            'Id' => 0,
+            'Label' => 'Ec-CIV',
+        ),
+        16 => array(
+            'Id' => 1,
+            'Label' => 'Ec-A,B,C,CII,CIII,D,H,I,L',
+        ),
+        17 => array(
             'Id' => 2,
             'Label' => 'Ec-S',
         ),
-        16 => array(
+        18 => array(
             'Id' => 3,
             'Label' => 'Ec-N,R',
         ),
-        17 => array(
+        19 => array(
             'Id' => 0,
             'Label' => 'Ee-A',
         ),
-        18 => array(
+        20 => array(
             'Id' => 1,
             'Label' => 'Ee-D',
         ),
-        19 => array(
+        21 => array(
             'Id' => 2,
             'Label' => 'Ee-S',
         ),

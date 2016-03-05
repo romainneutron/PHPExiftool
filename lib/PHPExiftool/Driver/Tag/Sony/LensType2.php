@@ -69,7 +69,11 @@ class LensType2 extends AbstractTag
         ),
         78 => array(
             'Id' => 78,
-            'Label' => 'Metabones Canon EF Smart Adapter Mark III',
+            'Label' => 'Metabones Canon EF Smart Adapter Mark III or Other Adapter',
+        ),
+        234 => array(
+            'Id' => 234,
+            'Label' => 'Metabones Canon EF Smart Adapter Mark IV',
         ),
         239 => array(
             'Id' => 239,
@@ -139,6 +143,10 @@ class LensType2 extends AbstractTag
             'Id' => 32800,
             'Label' => 'Sony E PZ 18-105mm F4 G OSS',
         ),
+        32802 => array(
+            'Id' => 32802,
+            'Label' => 'Sony FE 90mm F2.8 Macro G OSS',
+        ),
         32803 => array(
             'Id' => 32803,
             'Label' => 'Sony E 18-50mm F4-5.6',
@@ -155,9 +163,65 @@ class LensType2 extends AbstractTag
             'Id' => 32810,
             'Label' => 'Sony FE 70-200mm F4 G OSS',
         ),
+        32811 => array(
+            'Id' => 32811,
+            'Label' => 'Sony FE 16-35mm F4 ZA OSS',
+        ),
         32813 => array(
             'Id' => 32813,
             'Label' => 'Sony FE 28-70mm F3.5-5.6 OSS',
+        ),
+        32814 => array(
+            'Id' => 32814,
+            'Label' => 'Sony FE 35mm F1.4 ZA',
+        ),
+        32815 => array(
+            'Id' => 32815,
+            'Label' => 'Sony FE 24-240mm F3.5-6.3 OSS',
+        ),
+        32816 => array(
+            'Id' => 32816,
+            'Label' => 'Sony FE 28mm F2',
+        ),
+        32817 => array(
+            'Id' => 32817,
+            'Label' => 'Sony FE PZ 28-135mm F4 G OSS',
+        ),
+        32821 => array(
+            'Id' => 32821,
+            'Label' => 'Sony FE 24-70mm F2.8 GM',
+        ),
+        32823 => array(
+            'Id' => 32823,
+            'Label' => 'Sony FE 85mm F1.4 GM',
+        ),
+        32826 => array(
+            'Id' => 32826,
+            'Label' => 'Sony FE 21mm F2.8 (SEL28F20 + SEL075UWC)',
+        ),
+        32827 => array(
+            'Id' => 32827,
+            'Label' => 'Sony FE 16mm F3.5 Fisheye (SEL28F20 + SEL057FEC)',
+        ),
+        32830 => array(
+            'Id' => 32830,
+            'Label' => 'Sony FE 70-200mm F2.8 GM OSS',
+        ),
+        49216 => array(
+            'Id' => 49216,
+            'Label' => 'Zeiss Batis 25mm F2',
+        ),
+        49217 => array(
+            'Id' => 49217,
+            'Label' => 'Zeiss Batis 85mm F1.8',
+        ),
+        49232 => array(
+            'Id' => 49232,
+            'Label' => 'Zeiss Loxia 50mm F2',
+        ),
+        49234 => array(
+            'Id' => 49234,
+            'Label' => 'Zeiss Loxia 21mm F2.8',
         ),
     );
 

@@ -45,49 +45,53 @@ class Contrast extends AbstractTag
     protected $Values = array(
         0 => array(
             'Id' => 0,
-            'Label' => 'Low',
+            'Label' => '-2 (low)',
         ),
         1 => array(
             'Id' => 1,
-            'Label' => 'Normal',
+            'Label' => '0 (normal)',
         ),
         2 => array(
             'Id' => 2,
-            'Label' => 'High',
+            'Label' => '+2 (high)',
         ),
         3 => array(
             'Id' => 3,
-            'Label' => 'Med Low',
+            'Label' => '-1 (med low)',
         ),
         4 => array(
             'Id' => 4,
-            'Label' => 'Med High',
+            'Label' => '+1 (med high)',
         ),
         5 => array(
             'Id' => 5,
-            'Label' => 'Very Low',
+            'Label' => '-3 (very low)',
         ),
         6 => array(
             'Id' => 6,
-            'Label' => 'Very High',
+            'Label' => '+3 (very high)',
         ),
         7 => array(
             'Id' => 7,
-            'Label' => '-4',
+            'Label' => '-4 (minimum)',
         ),
         8 => array(
             'Id' => 8,
-            'Label' => '+4',
+            'Label' => '+4 (maximum)',
         ),
         9 => array(
+            'Id' => 65535,
+            'Label' => 'n/a',
+        ),
+        10 => array(
             'Id' => 0,
             'Label' => 'Normal',
         ),
-        10 => array(
+        11 => array(
             'Id' => 1,
             'Label' => 'Low',
         ),
-        11 => array(
+        12 => array(
             'Id' => 2,
             'Label' => 'High',
         ),

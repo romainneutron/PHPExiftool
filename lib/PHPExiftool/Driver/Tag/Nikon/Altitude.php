@@ -32,7 +32,7 @@ class Altitude extends AbstractTag
 
     protected $g1 = 'Nikon';
 
-    protected $g2 = 'Image';
+    protected $g2 = 'Location';
 
     protected $Type = 'int32s';
 

@@ -527,6 +527,70 @@ class DynamicRangeOptimizer extends AbstractTag
             'Id' => 8,
             'Label' => 'n/a',
         ),
+        121 => array(
+            'Id' => 0,
+            'Label' => 'Off',
+        ),
+        122 => array(
+            'Id' => 1,
+            'Label' => 'Auto',
+        ),
+        123 => array(
+            'Id' => 3,
+            'Label' => 'Lv1',
+        ),
+        124 => array(
+            'Id' => 4,
+            'Label' => 'Lv2',
+        ),
+        125 => array(
+            'Id' => 5,
+            'Label' => 'Lv3',
+        ),
+        126 => array(
+            'Id' => 6,
+            'Label' => 'Lv4',
+        ),
+        127 => array(
+            'Id' => 7,
+            'Label' => 'Lv5',
+        ),
+        128 => array(
+            'Id' => 8,
+            'Label' => 'n/a',
+        ),
+        129 => array(
+            'Id' => 0,
+            'Label' => 'Off',
+        ),
+        130 => array(
+            'Id' => 1,
+            'Label' => 'Auto',
+        ),
+        131 => array(
+            'Id' => 3,
+            'Label' => 'Lv1',
+        ),
+        132 => array(
+            'Id' => 4,
+            'Label' => 'Lv2',
+        ),
+        133 => array(
+            'Id' => 5,
+            'Label' => 'Lv3',
+        ),
+        134 => array(
+            'Id' => 6,
+            'Label' => 'Lv4',
+        ),
+        135 => array(
+            'Id' => 7,
+            'Label' => 'Lv5',
+        ),
+        136 => array(
+            'Id' => 8,
+            'Label' => 'n/a',
+        ),
     );
 
 }

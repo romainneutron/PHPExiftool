@@ -20,7 +20,7 @@ use PHPExiftool\Driver\AbstractTag;
 class WBRGBLevelsDaylight extends AbstractTag
 {
 
-    protected $Id = 30752;
+    protected $Id = 'mixed';
 
     protected $Name = 'WB_RGBLevelsDaylight';
 

@@ -34,7 +34,7 @@ class BaselineExposureOffset extends AbstractTag
 
     protected $g2 = 'Image';
 
-    protected $Type = 'rational64u';
+    protected $Type = 'rational64s';
 
     protected $Writable = true;
 

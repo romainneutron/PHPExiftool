@@ -87,6 +87,38 @@ class MultiSelectorPlaybackMode extends AbstractTag
             'Id' => 48,
             'Label' => 'Choose Folder',
         ),
+        11 => array(
+            'Id' => 0,
+            'Label' => 'Thumbnail On/Off',
+        ),
+        12 => array(
+            'Id' => 16,
+            'Label' => 'View Histograms',
+        ),
+        13 => array(
+            'Id' => 32,
+            'Label' => 'Zoom On/Off',
+        ),
+        14 => array(
+            'Id' => 48,
+            'Label' => 'Choose Folder',
+        ),
+        15 => array(
+            'Id' => 0,
+            'Label' => 'Thumbnail On/Off',
+        ),
+        16 => array(
+            'Id' => 16,
+            'Label' => 'View Histograms',
+        ),
+        17 => array(
+            'Id' => 32,
+            'Label' => 'Zoom On/Off',
+        ),
+        18 => array(
+            'Id' => 48,
+            'Label' => 'Choose Folder',
+        ),
     );
 
 }

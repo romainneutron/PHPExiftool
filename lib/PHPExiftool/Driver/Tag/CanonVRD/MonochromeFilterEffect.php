@@ -20,11 +20,11 @@ use PHPExiftool\Driver\AbstractTag;
 class MonochromeFilterEffect extends AbstractTag
 {
 
-    protected $Id = 58;
+    protected $Id = 'mixed';
 
     protected $Name = 'MonochromeFilterEffect';
 
-    protected $FullName = 'CanonVRD::Ver2';
+    protected $FullName = 'mixed';
 
     protected $GroupName = 'CanonVRD';
 
@@ -34,30 +34,50 @@ class MonochromeFilterEffect extends AbstractTag
 
     protected $g2 = 'Image';
 
-    protected $Type = 'int16s';
+    protected $Type = 'mixed';
 
     protected $Writable = true;
 
     protected $Description = 'Monochrome Filter Effect';
 
     protected $Values = array(
-        '-2' => array(
-            'Id' => '-2',
-            'Label' => 'None',
-        ),
-        '-1' => array(
-            'Id' => '-1',
-            'Label' => 'Yellow',
-        ),
         0 => array(
             'Id' => 0,
-            'Label' => 'Orange',
+            'Label' => 'None',
         ),
         1 => array(
             'Id' => 1,
-            'Label' => 'Red',
+            'Label' => 'Yellow',
         ),
         2 => array(
+            'Id' => 2,
+            'Label' => 'Orange',
+        ),
+        3 => array(
+            'Id' => 3,
+            'Label' => 'Red',
+        ),
+        4 => array(
+            'Id' => 4,
+            'Label' => 'Green',
+        ),
+        5 => array(
+            'Id' => '-2',
+            'Label' => 'None',
+        ),
+        6 => array(
+            'Id' => '-1',
+            'Label' => 'Yellow',
+        ),
+        7 => array(
+            'Id' => 0,
+            'Label' => 'Orange',
+        ),
+        8 => array(
+            'Id' => 1,
+            'Label' => 'Red',
+        ),
+        9 => array(
             'Id' => 2,
             'Label' => 'Green',
         ),

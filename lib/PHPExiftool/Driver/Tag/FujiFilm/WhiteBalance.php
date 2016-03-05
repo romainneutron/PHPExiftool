@@ -83,6 +83,10 @@ class WhiteBalance extends AbstractTag
             'Id' => 1280,
             'Label' => 'Flash',
         ),
+        1536 => array(
+            'Id' => 1536,
+            'Label' => 'Underwater',
+        ),
         3840 => array(
             'Id' => 3840,
             'Label' => 'Custom',

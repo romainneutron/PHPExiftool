@@ -61,33 +61,49 @@ class GridDisplay extends AbstractTag
         ),
         4 => array(
             'Id' => 0,
-            'Label' => 'Off',
+            'Label' => 'On',
         ),
         5 => array(
             'Id' => 2,
-            'Label' => 'On',
+            'Label' => 'Off',
         ),
         6 => array(
             'Id' => 0,
-            'Label' => 'On',
+            'Label' => 'Off',
         ),
         7 => array(
             'Id' => 2,
-            'Label' => 'Off',
+            'Label' => 'On',
         ),
         8 => array(
             'Id' => 0,
-            'Label' => 'Off',
+            'Label' => 'On',
         ),
         9 => array(
-            'Id' => 128,
-            'Label' => 'On',
+            'Id' => 2,
+            'Label' => 'Off',
         ),
         10 => array(
             'Id' => 0,
             'Label' => 'Off',
         ),
         11 => array(
+            'Id' => 128,
+            'Label' => 'On',
+        ),
+        12 => array(
+            'Id' => 0,
+            'Label' => 'On',
+        ),
+        13 => array(
+            'Id' => 2,
+            'Label' => 'Off',
+        ),
+        14 => array(
+            'Id' => 0,
+            'Label' => 'Off',
+        ),
+        15 => array(
             'Id' => 2,
             'Label' => 'On',
         ),

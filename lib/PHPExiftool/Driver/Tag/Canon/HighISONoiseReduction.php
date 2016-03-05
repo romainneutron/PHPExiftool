@@ -34,7 +34,7 @@ class HighISONoiseReduction extends AbstractTag
 
     protected $g2 = 'Camera';
 
-    protected $Type = 'int8u';
+    protected $Type = 'mixed';
 
     protected $Writable = true;
 

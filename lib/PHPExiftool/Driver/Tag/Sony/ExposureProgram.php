@@ -1619,6 +1619,130 @@ class ExposureProgram extends AbstractTag
             'Id' => 43,
             'Label' => 'Cont. Priority AE',
         ),
+        394 => array(
+            'Id' => 0,
+            'Label' => 'Program AE',
+        ),
+        395 => array(
+            'Id' => 1,
+            'Label' => 'Aperture-priority AE',
+        ),
+        396 => array(
+            'Id' => 2,
+            'Label' => 'Shutter speed priority AE',
+        ),
+        397 => array(
+            'Id' => 3,
+            'Label' => 'Manual',
+        ),
+        398 => array(
+            'Id' => 4,
+            'Label' => 'Auto',
+        ),
+        399 => array(
+            'Id' => 5,
+            'Label' => 'iAuto',
+        ),
+        400 => array(
+            'Id' => 6,
+            'Label' => 'Superior Auto',
+        ),
+        401 => array(
+            'Id' => 7,
+            'Label' => 'iAuto+',
+        ),
+        402 => array(
+            'Id' => 8,
+            'Label' => 'Portrait',
+        ),
+        403 => array(
+            'Id' => 9,
+            'Label' => 'Landscape',
+        ),
+        404 => array(
+            'Id' => 10,
+            'Label' => 'Twilight',
+        ),
+        405 => array(
+            'Id' => 11,
+            'Label' => 'Twilight Portrait',
+        ),
+        406 => array(
+            'Id' => 12,
+            'Label' => 'Sunset',
+        ),
+        407 => array(
+            'Id' => 14,
+            'Label' => 'Action (High speed)',
+        ),
+        408 => array(
+            'Id' => 16,
+            'Label' => 'Sports',
+        ),
+        409 => array(
+            'Id' => 17,
+            'Label' => 'Handheld Night Shot',
+        ),
+        410 => array(
+            'Id' => 18,
+            'Label' => 'Anti Motion Blur',
+        ),
+        411 => array(
+            'Id' => 19,
+            'Label' => 'High Sensitivity',
+        ),
+        412 => array(
+            'Id' => 21,
+            'Label' => 'Beach',
+        ),
+        413 => array(
+            'Id' => 22,
+            'Label' => 'Snow',
+        ),
+        414 => array(
+            'Id' => 23,
+            'Label' => 'Fireworks',
+        ),
+        415 => array(
+            'Id' => 26,
+            'Label' => 'Underwater',
+        ),
+        416 => array(
+            'Id' => 27,
+            'Label' => 'Gourmet',
+        ),
+        417 => array(
+            'Id' => 28,
+            'Label' => 'Pet',
+        ),
+        418 => array(
+            'Id' => 29,
+            'Label' => 'Macro',
+        ),
+        419 => array(
+            'Id' => 30,
+            'Label' => 'Backlight Correction HDR',
+        ),
+        420 => array(
+            'Id' => 33,
+            'Label' => 'Sweep Panorama',
+        ),
+        421 => array(
+            'Id' => 36,
+            'Label' => 'Background Defocus',
+        ),
+        422 => array(
+            'Id' => 37,
+            'Label' => 'Soft Skin',
+        ),
+        423 => array(
+            'Id' => 42,
+            'Label' => '3D Image',
+        ),
+        424 => array(
+            'Id' => 43,
+            'Label' => 'Cont. Priority AE',
+        ),
     );
 
     protected $Index = 'mixed';

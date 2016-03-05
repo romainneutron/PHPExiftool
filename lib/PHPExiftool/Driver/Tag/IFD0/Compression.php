@@ -113,6 +113,10 @@ class Compression extends AbstractTag
             'Id' => 32771,
             'Label' => 'CCIRLEW',
         ),
+        32772 => array(
+            'Id' => 32772,
+            'Label' => 'Samsung SRW Compressed 2',
+        ),
         32773 => array(
             'Id' => 32773,
             'Label' => 'PackBits',

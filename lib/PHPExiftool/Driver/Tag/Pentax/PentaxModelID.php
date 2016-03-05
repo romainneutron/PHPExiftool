@@ -551,6 +551,34 @@ class PentaxModelID extends AbstractTag
             'Id' => 77850,
             'Label' => 'K-S1',
         ),
+        77860 => array(
+            'Id' => 77860,
+            'Label' => 'K-S2',
+        ),
+        77870 => array(
+            'Id' => 77870,
+            'Label' => 'Q-S1',
+        ),
+        77910 => array(
+            'Id' => 77910,
+            'Label' => 'WG-30',
+        ),
+        77950 => array(
+            'Id' => 77950,
+            'Label' => 'WG-30W',
+        ),
+        77960 => array(
+            'Id' => 77960,
+            'Label' => 'WG-5 GPS',
+        ),
+        77970 => array(
+            'Id' => 77970,
+            'Label' => 'K-1',
+        ),
+        77980 => array(
+            'Id' => 77980,
+            'Label' => 'K-3 II',
+        ),
     );
 
 }

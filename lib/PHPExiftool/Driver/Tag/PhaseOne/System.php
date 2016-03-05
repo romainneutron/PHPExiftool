@@ -34,9 +34,9 @@ class System extends AbstractTag
 
     protected $g2 = 'Camera';
 
-    protected $Type = '?';
+    protected $Type = 'string';
 
-    protected $Writable = false;
+    protected $Writable = true;
 
     protected $Description = 'System';
 

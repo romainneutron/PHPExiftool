@@ -20,11 +20,11 @@ use PHPExiftool\Driver\AbstractTag;
 class TrackNumber extends AbstractTag
 {
 
-    protected $Id = 'trkn';
+    protected $Id = 'mixed';
 
     protected $Name = 'TrackNumber';
 
-    protected $FullName = 'QuickTime::ItemList';
+    protected $FullName = 'mixed';
 
     protected $GroupName = 'QuickTime';
 
@@ -34,7 +34,7 @@ class TrackNumber extends AbstractTag
 
     protected $g2 = 'Audio';
 
-    protected $Type = 'undef';
+    protected $Type = 'mixed';
 
     protected $Writable = false;
 

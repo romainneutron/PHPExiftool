@@ -20,11 +20,11 @@ use PHPExiftool\Driver\AbstractTag;
 class SharpnessAdj extends AbstractTag
 {
 
-    protected $Id = 602;
+    protected $Id = 'mixed';
 
     protected $Name = 'SharpnessAdj';
 
-    protected $FullName = 'CanonVRD::Ver1';
+    protected $FullName = 'mixed';
 
     protected $GroupName = 'CanonVRD';
 
@@ -34,10 +34,21 @@ class SharpnessAdj extends AbstractTag
 
     protected $g2 = 'Image';
 
-    protected $Type = 'int16u';
+    protected $Type = 'mixed';
 
     protected $Writable = true;
 
     protected $Description = 'Sharpness Adj';
+
+    protected $Values = array(
+        0 => array(
+            'Id' => 0,
+            'Label' => 'Sharpness',
+        ),
+        1 => array(
+            'Id' => 1,
+            'Label' => 'Unsharp Mask',
+        ),
+    );
 
 }

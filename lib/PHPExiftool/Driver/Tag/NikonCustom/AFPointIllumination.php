@@ -73,37 +73,61 @@ class AFPointIllumination extends AbstractTag
         ),
         7 => array(
             'Id' => 0,
-            'Label' => 'Auto',
-        ),
-        8 => array(
-            'Id' => 2,
             'Label' => 'Off',
         ),
+        8 => array(
+            'Id' => 32,
+            'Label' => 'On in Continuous Shooting Modes',
+        ),
         9 => array(
-            'Id' => 4,
-            'Label' => 'On',
+            'Id' => 64,
+            'Label' => 'On During Manual Focusing',
         ),
         10 => array(
+            'Id' => 96,
+            'Label' => 'On in Continuous Shooting and Manual Focusing',
+        ),
+        11 => array(
             'Id' => 0,
             'Label' => 'Auto',
         ),
-        11 => array(
-            'Id' => 2,
-            'Label' => 'On',
-        ),
         12 => array(
-            'Id' => 4,
+            'Id' => 2,
             'Label' => 'Off',
         ),
         13 => array(
+            'Id' => 4,
+            'Label' => 'On',
+        ),
+        14 => array(
             'Id' => 0,
             'Label' => 'Auto',
         ),
-        14 => array(
+        15 => array(
             'Id' => 2,
             'Label' => 'On',
         ),
-        15 => array(
+        16 => array(
+            'Id' => 4,
+            'Label' => 'Off',
+        ),
+        17 => array(
+            'Id' => 0,
+            'Label' => 'Off',
+        ),
+        18 => array(
+            'Id' => 64,
+            'Label' => 'On During Manual Focusing',
+        ),
+        19 => array(
+            'Id' => 0,
+            'Label' => 'Auto',
+        ),
+        20 => array(
+            'Id' => 2,
+            'Label' => 'On',
+        ),
+        21 => array(
             'Id' => 4,
             'Label' => 'Off',
         ),

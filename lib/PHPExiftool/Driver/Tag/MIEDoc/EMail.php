@@ -17,12 +17,12 @@ use PHPExiftool\Driver\AbstractTag;
 /**
  * @ExclusionPolicy("all")
  */
-class EMail extends AbstractTag
+class Email extends AbstractTag
 {
 
     protected $Id = 'EMail';
 
-    protected $Name = 'EMail';
+    protected $Name = 'Email';
 
     protected $FullName = 'MIE::Doc';
 
@@ -38,7 +38,7 @@ class EMail extends AbstractTag
 
     protected $Writable = true;
 
-    protected $Description = 'E Mail';
+    protected $Description = 'Email';
 
     protected $local_g2 = 'Author';
 

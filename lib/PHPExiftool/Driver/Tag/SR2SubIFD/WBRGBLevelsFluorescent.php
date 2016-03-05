@@ -20,7 +20,7 @@ use PHPExiftool\Driver\AbstractTag;
 class WBRGBLevelsFluorescent extends AbstractTag
 {
 
-    protected $Id = 30758;
+    protected $Id = 'mixed';
 
     protected $Name = 'WB_RGBLevelsFluorescent';
 

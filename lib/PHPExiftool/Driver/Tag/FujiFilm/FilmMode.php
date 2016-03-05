@@ -83,6 +83,10 @@ class FilmMode extends AbstractTag
             'Id' => 1281,
             'Label' => 'Pro Neg. Hi',
         ),
+        1536 => array(
+            'Id' => 1536,
+            'Label' => 'Classic Chrome',
+        ),
     );
 
 }

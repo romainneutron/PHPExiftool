@@ -20,11 +20,11 @@ use PHPExiftool\Driver\AbstractTag;
 class CustomPictureStyleData extends AbstractTag
 {
 
-    protected $Id = 88;
+    protected $Id = 'mixed';
 
     protected $Name = 'CustomPictureStyleData';
 
-    protected $FullName = 'CanonVRD::Ver2';
+    protected $FullName = 'mixed';
 
     protected $GroupName = 'CanonVRD';
 
@@ -34,7 +34,7 @@ class CustomPictureStyleData extends AbstractTag
 
     protected $g2 = 'Image';
 
-    protected $Type = 'var_int16u';
+    protected $Type = 'mixed';
 
     protected $Writable = true;
 

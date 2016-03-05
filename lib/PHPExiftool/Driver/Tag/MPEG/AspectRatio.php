@@ -77,6 +77,10 @@ class AspectRatio extends AbstractTag
             'Id' => 1,
             'Label' => '1:1',
         ),
+        '1.095' => array(
+            'Id' => '1.095',
+            'Label' => '4:3, 525 line, NTSC, CCIR601',
+        ),
         '1.0255' => array(
             'Id' => '1.0255',
             'Label' => '1.0255',
@@ -84,10 +88,6 @@ class AspectRatio extends AbstractTag
         '1.0695' => array(
             'Id' => '1.0695',
             'Label' => '1.0695',
-        ),
-        '1.095' => array(
-            'Id' => '1.095',
-            'Label' => '4:3, 525 line, NTSC, CCIR601',
         ),
         '1.1575' => array(
             'Id' => '1.1575',

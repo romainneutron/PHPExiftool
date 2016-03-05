@@ -40,6 +40,8 @@ class JpgFromRaw extends AbstractTag
 
     protected $Description = 'Jpg From Raw';
 
+    protected $local_g2 = 'Preview';
+
     protected $flag_Binary = true;
 
     protected $Index = 1;

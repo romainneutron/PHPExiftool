@@ -20,11 +20,11 @@ use PHPExiftool\Driver\AbstractTag;
 class WBAdjRGGBLevels extends AbstractTag
 {
 
-    protected $Id = 6;
+    protected $Id = 'mixed';
 
     protected $Name = 'WBAdjRGGBLevels';
 
-    protected $FullName = 'CanonVRD::Ver1';
+    protected $FullName = 'mixed';
 
     protected $GroupName = 'CanonVRD';
 
@@ -34,12 +34,12 @@ class WBAdjRGGBLevels extends AbstractTag
 
     protected $g2 = 'Image';
 
-    protected $Type = 'int16u';
+    protected $Type = 'mixed';
 
     protected $Writable = true;
 
     protected $Description = 'WB Adj RGGB Levels';
 
-    protected $MaxLength = 4;
+    protected $MaxLength = 'mixed';
 
 }

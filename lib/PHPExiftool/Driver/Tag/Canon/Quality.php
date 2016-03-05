@@ -71,6 +71,10 @@ class Quality extends AbstractTag
             'Id' => 130,
             'Label' => 'Normal Movie',
         ),
+        131 => array(
+            'Id' => 131,
+            'Label' => 'Movie (2)',
+        ),
     );
 
 }

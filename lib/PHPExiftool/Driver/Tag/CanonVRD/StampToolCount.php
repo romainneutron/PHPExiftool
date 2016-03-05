@@ -20,11 +20,11 @@ use PHPExiftool\Driver\AbstractTag;
 class StampToolCount extends AbstractTag
 {
 
-    protected $Id = 0;
+    protected $Id = 'mixed';
 
     protected $Name = 'StampToolCount';
 
-    protected $FullName = 'CanonVRD::StampTool';
+    protected $FullName = 'mixed';
 
     protected $GroupName = 'CanonVRD';
 

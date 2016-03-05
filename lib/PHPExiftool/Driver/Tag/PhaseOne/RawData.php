@@ -34,9 +34,9 @@ class RawData extends AbstractTag
 
     protected $g2 = 'Camera';
 
-    protected $Type = '?';
+    protected $Type = 'undef';
 
-    protected $Writable = false;
+    protected $Writable = true;
 
     protected $Description = 'Raw Data';
 

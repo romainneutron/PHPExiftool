@@ -20,11 +20,11 @@ use PHPExiftool\Driver\AbstractTag;
 class VerticalAFOnButton extends AbstractTag
 {
 
-    protected $Id = '3.2';
+    protected $Id = 'mixed';
 
     protected $Name = 'VerticalAFOnButton';
 
-    protected $FullName = 'NikonCustom::SettingsD3';
+    protected $FullName = 'mixed';
 
     protected $GroupName = 'NikonCustom';
 
@@ -47,29 +47,61 @@ class VerticalAFOnButton extends AbstractTag
             'Id' => 0,
             'Label' => 'AF On',
         ),
-        16 => array(
+        1 => array(
             'Id' => 16,
             'Label' => 'AE/AF Lock',
         ),
-        32 => array(
+        2 => array(
             'Id' => 32,
             'Label' => 'AE Lock Only',
         ),
-        48 => array(
+        3 => array(
             'Id' => 48,
             'Label' => 'AE Lock (reset on release)',
         ),
-        64 => array(
+        4 => array(
             'Id' => 64,
             'Label' => 'AE Lock (hold)',
         ),
-        80 => array(
+        5 => array(
             'Id' => 80,
             'Label' => 'AF Lock Only',
         ),
-        112 => array(
+        6 => array(
             'Id' => 112,
             'Label' => 'Same as AF On',
+        ),
+        7 => array(
+            'Id' => 0,
+            'Label' => 'Same as AF On',
+        ),
+        8 => array(
+            'Id' => 1,
+            'Label' => 'AF On',
+        ),
+        9 => array(
+            'Id' => 2,
+            'Label' => 'AE/AF Lock',
+        ),
+        10 => array(
+            'Id' => 3,
+            'Label' => 'AE Lock Only',
+        ),
+        11 => array(
+            'Id' => 4,
+            'Label' => 'AE Lock (reset on release)',
+        ),
+        12 => array(
+            'Id' => 5,
+            'Label' => 'AE Lock (hold)',
+        ),
+        13 => array(
+            'Id' => 6,
+            'Label' => 'AF Lock Only',
+        ),
+        14 => array(
+            'Id' => 7,
+            'Label' => 'None',
         ),
     );
 

@@ -20,7 +20,7 @@ use PHPExiftool\Driver\AbstractTag;
 class SonyDateTime2 extends AbstractTag
 {
 
-    protected $Id = 81;
+    protected $Id = 'mixed';
 
     protected $Name = 'SonyDateTime2';
 

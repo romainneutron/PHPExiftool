@@ -34,7 +34,7 @@ class PartOfCompilation extends AbstractTag
 
     protected $g2 = 'Image';
 
-    protected $Type = 'string';
+    protected $Type = 'boolean';
 
     protected $Writable = true;
 

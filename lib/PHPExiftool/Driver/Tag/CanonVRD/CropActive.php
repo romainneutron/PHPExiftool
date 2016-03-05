@@ -20,11 +20,11 @@ use PHPExiftool\Driver\AbstractTag;
 class CropActive extends AbstractTag
 {
 
-    protected $Id = 580;
+    protected $Id = 'mixed';
 
     protected $Name = 'CropActive';
 
-    protected $FullName = 'CanonVRD::Ver1';
+    protected $FullName = 'mixed';
 
     protected $GroupName = 'CanonVRD';
 
@@ -34,7 +34,7 @@ class CropActive extends AbstractTag
 
     protected $g2 = 'Image';
 
-    protected $Type = 'int16u';
+    protected $Type = 'mixed';
 
     protected $Writable = true;
 

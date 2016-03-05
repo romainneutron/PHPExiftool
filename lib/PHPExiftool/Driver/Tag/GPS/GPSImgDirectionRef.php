@@ -34,7 +34,7 @@ class GPSImgDirectionRef extends AbstractTag
 
     protected $g2 = 'mixed';
 
-    protected $Type = 'string';
+    protected $Type = 'mixed';
 
     protected $Writable = false;
 
@@ -56,5 +56,7 @@ class GPSImgDirectionRef extends AbstractTag
     protected $local_g1 = 'mixed';
 
     protected $local_g2 = 'mixed';
+
+    protected $flag_Permanent = 'mixed';
 
 }

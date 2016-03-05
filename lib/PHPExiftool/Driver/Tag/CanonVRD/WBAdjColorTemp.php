@@ -20,11 +20,11 @@ use PHPExiftool\Driver\AbstractTag;
 class WBAdjColorTemp extends AbstractTag
 {
 
-    protected $Id = 26;
+    protected $Id = 'mixed';
 
     protected $Name = 'WBAdjColorTemp';
 
-    protected $FullName = 'CanonVRD::Ver1';
+    protected $FullName = 'mixed';
 
     protected $GroupName = 'CanonVRD';
 
@@ -34,7 +34,7 @@ class WBAdjColorTemp extends AbstractTag
 
     protected $g2 = 'Image';
 
-    protected $Type = 'int16u';
+    protected $Type = 'mixed';
 
     protected $Writable = true;
 

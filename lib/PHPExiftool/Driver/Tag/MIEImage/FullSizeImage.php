@@ -40,6 +40,8 @@ class FullSizeImage extends AbstractTag
 
     protected $Description = 'Full Size Image';
 
+    protected $local_g2 = 'Preview';
+
     protected $flag_Binary = true;
 
 }

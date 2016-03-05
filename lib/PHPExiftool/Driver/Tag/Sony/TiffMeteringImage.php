@@ -20,11 +20,11 @@ use PHPExiftool\Driver\AbstractTag;
 class TiffMeteringImage extends AbstractTag
 {
 
-    protected $Id = 263;
+    protected $Id = 'mixed';
 
     protected $Name = 'TiffMeteringImage';
 
-    protected $FullName = 'Sony::MoreInfo';
+    protected $FullName = 'mixed';
 
     protected $GroupName = 'Sony';
 
@@ -32,14 +32,16 @@ class TiffMeteringImage extends AbstractTag
 
     protected $g1 = 'Sony';
 
-    protected $g2 = 'Camera';
+    protected $g2 = 'mixed';
 
-    protected $Type = '?';
+    protected $Type = 'mixed';
 
     protected $Writable = false;
 
     protected $Description = 'Tiff Metering Image';
 
     protected $flag_Permanent = true;
+
+    protected $MaxLength = 'mixed';
 
 }

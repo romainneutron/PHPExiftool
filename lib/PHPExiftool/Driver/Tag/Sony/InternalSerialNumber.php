@@ -20,7 +20,7 @@ use PHPExiftool\Driver\AbstractTag;
 class InternalSerialNumber extends AbstractTag
 {
 
-    protected $Id = 240;
+    protected $Id = 'mixed';
 
     protected $Name = 'InternalSerialNumber';
 
@@ -36,12 +36,12 @@ class InternalSerialNumber extends AbstractTag
 
     protected $Type = 'int8u';
 
-    protected $Writable = true;
+    protected $Writable = false;
 
     protected $Description = 'Internal Serial Number';
 
     protected $flag_Permanent = true;
 
-    protected $MaxLength = 5;
+    protected $MaxLength = 'mixed';
 
 }

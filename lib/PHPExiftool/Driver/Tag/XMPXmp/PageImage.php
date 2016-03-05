@@ -40,6 +40,8 @@ class PageImage extends AbstractTag
 
     protected $Description = 'Page Image';
 
+    protected $local_g2 = 'Preview';
+
     protected $flag_List = true;
 
 }

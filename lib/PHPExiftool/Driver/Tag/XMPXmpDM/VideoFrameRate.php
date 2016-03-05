@@ -34,7 +34,7 @@ class VideoFrameRate extends AbstractTag
 
     protected $g2 = 'Image';
 
-    protected $Type = 'string';
+    protected $Type = 'real';
 
     protected $Writable = true;
 

@@ -40,6 +40,8 @@ class FirmwareVersion extends AbstractTag
 
     protected $Description = 'Firmware Version';
 
+    protected $local_g2 = 'Camera';
+
     protected $flag_Permanent = true;
 
 }

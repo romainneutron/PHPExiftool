@@ -20,7 +20,7 @@ use PHPExiftool\Driver\AbstractTag;
 class Orientation2 extends AbstractTag
 {
 
-    protected $Id = 46;
+    protected $Id = 'mixed';
 
     protected $Name = 'Orientation2';
 
@@ -60,5 +60,7 @@ class Orientation2 extends AbstractTag
             'Label' => 'Rotate 270 CW',
         ),
     );
+
+    protected $Index = 'mixed';
 
 }

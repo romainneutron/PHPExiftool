@@ -42,4 +42,8 @@ class ISBN extends AbstractTag
 
     protected $flag_Avoid = true;
 
+    protected $flag_List = true;
+
+    protected $flag_Bag = true;
+
 }

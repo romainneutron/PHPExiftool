@@ -36,7 +36,7 @@ class PreviewImageSize extends AbstractTag
 
     protected $Type = 'int16u';
 
-    protected $Writable = false;
+    protected $Writable = true;
 
     protected $Description = 'Preview Image Size';
 

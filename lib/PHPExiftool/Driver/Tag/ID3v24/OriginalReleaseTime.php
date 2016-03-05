@@ -20,7 +20,7 @@ use PHPExiftool\Driver\AbstractTag;
 class OriginalReleaseTime extends AbstractTag
 {
 
-    protected $Id = 'TDOR';
+    protected $Id = 'mixed';
 
     protected $Name = 'OriginalReleaseTime';
 

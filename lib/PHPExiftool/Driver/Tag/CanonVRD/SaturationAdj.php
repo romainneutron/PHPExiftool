@@ -20,11 +20,11 @@ use PHPExiftool\Driver\AbstractTag;
 class SaturationAdj extends AbstractTag
 {
 
-    protected $Id = 278;
+    protected $Id = 'mixed';
 
     protected $Name = 'SaturationAdj';
 
-    protected $FullName = 'CanonVRD::Ver1';
+    protected $FullName = 'mixed';
 
     protected $GroupName = 'CanonVRD';
 
@@ -34,7 +34,7 @@ class SaturationAdj extends AbstractTag
 
     protected $g2 = 'Image';
 
-    protected $Type = 'int16s';
+    protected $Type = 'mixed';
 
     protected $Writable = true;
 

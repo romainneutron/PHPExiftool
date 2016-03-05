@@ -20,11 +20,11 @@ use PHPExiftool\Driver\AbstractTag;
 class AngleAdj extends AbstractTag
 {
 
-    protected $Id = 139;
+    protected $Id = 'mixed';
 
     protected $Name = 'AngleAdj';
 
-    protected $FullName = 'CanonVRD::Ver2';
+    protected $FullName = 'mixed';
 
     protected $GroupName = 'CanonVRD';
 
@@ -34,7 +34,7 @@ class AngleAdj extends AbstractTag
 
     protected $g2 = 'Image';
 
-    protected $Type = 'int32s';
+    protected $Type = 'mixed';
 
     protected $Writable = true;
 

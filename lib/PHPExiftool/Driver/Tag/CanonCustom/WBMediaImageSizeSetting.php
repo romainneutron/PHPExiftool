@@ -51,6 +51,10 @@ class WBMediaImageSizeSetting extends AbstractTag
             'Id' => 1,
             'Label' => 'LCD monitor',
         ),
+        2 => array(
+            'Id' => 2,
+            'Label' => 'Off (disable button)',
+        ),
     );
 
 }

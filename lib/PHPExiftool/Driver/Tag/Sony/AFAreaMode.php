@@ -212,14 +212,18 @@ class AFAreaMode extends AbstractTag
             'Label' => 'Zone',
         ),
         42 => array(
+            'Id' => 12,
+            'Label' => 'Expanded Flexible Spot',
+        ),
+        43 => array(
             'Id' => 14,
             'Label' => 'Tracking',
         ),
-        43 => array(
+        44 => array(
             'Id' => 15,
             'Label' => 'Face Tracking',
         ),
-        44 => array(
+        45 => array(
             'Id' => 255,
             'Label' => 'Manual',
         ),

@@ -71,6 +71,14 @@ class LensID extends AbstractTag
             'Id' => '00 3C 1F 37 30 30 00 06',
             'Label' => 'Tokina AT-X 124 AF PRO DX (AF 12-24mm f/4)',
         ),
+        '00 3C 2B 44 30 30 00 06' => array(
+            'Id' => '00 3C 2B 44 30 30 00 06',
+            'Label' => 'Tokina AT-X 17-35 F4 PRO FX (AF 17-35mm f/4)',
+        ),
+        '00 3C 5C 80 30 30 00 0E' => array(
+            'Id' => '00 3C 5C 80 30 30 00 0E',
+            'Label' => 'Tokina AT-X 70-200 F4 FX VCM-S (AF 70-200mm f/4)',
+        ),
         '00 3E 80 A0 38 3F 00 02' => array(
             'Id' => '00 3E 80 A0 38 3F 00 02',
             'Label' => 'Tamron SP AF 200-500mm f/5-6.3 Di LD (IF) (A08)',
@@ -143,6 +151,10 @@ class LensID extends AbstractTag
             'Id' => '00 47 25 25 24 24 00 02',
             'Label' => 'Tamron SP AF 14mm f/2.8 Aspherical (IF) (69E)',
         ),
+        '00 47 3C 3C 24 24 00 00' => array(
+            'Id' => '00 47 3C 3C 24 24 00 00',
+            'Label' => 'Nikkor 28mm f/2.8 AiS',
+        ),
         '00 47 44 44 24 24 00 06' => array(
             'Id' => '00 47 44 44 24 24 00 06',
             'Label' => 'Tokina AT-X M35 PRO DX (AF 35mm f/2.8 Macro)',
@@ -167,6 +179,14 @@ class LensID extends AbstractTag
             'Id' => '00 48 32 32 24 24 00 00',
             'Label' => 'Carl Zeiss Distagon T* 2.8/21 ZF.2',
         ),
+        '00 48 37 5C 24 24 00 06' => array(
+            'Id' => '00 48 37 5C 24 24 00 06',
+            'Label' => 'Tokina AT-X 24-70 F2.8 PRO FX (AF 24-70mm f/2.8)',
+        ),
+        '00 48 3C 3C 24 24 00 00' => array(
+            'Id' => '00 48 3C 3C 24 24 00 00',
+            'Label' => 'Voigtlander Color Skopar 28mm F2.8 SL II',
+        ),
         '00 48 3C 60 24 24 00 02' => array(
             'Id' => '00 48 3C 60 24 24 00 02',
             'Label' => 'Tokina AT-X 280 AF PRO (AF 28-80mm f/2.8)',
@@ -182,6 +202,10 @@ class LensID extends AbstractTag
         '00 48 50 72 24 24 00 06' => array(
             'Id' => '00 48 50 72 24 24 00 06',
             'Label' => 'Tokina AT-X 535 PRO DX (AF 50-135mm f/2.8)',
+        ),
+        '00 48 5C 80 30 30 00 0E' => array(
+            'Id' => '00 48 5C 80 30 30 00 0E',
+            'Label' => 'Tokina AT-X 70-200 F4 FX VCM-S (AF 70-200mm f/4)',
         ),
         '00 48 5C 8E 30 3C 00 06' => array(
             'Id' => '00 48 5C 8E 30 3C 00 06',
@@ -221,7 +245,7 @@ class LensID extends AbstractTag
         ),
         '00 54 44 44 0C 0C 00 00' => array(
             'Id' => '00 54 44 44 0C 0C 00 00',
-            'Label' => 'Nikkor 35mm f/1.4 AiS',
+            'Label' => 'Carl Zeiss Distagon T* 1.4/35 ZF.2',
         ),
         '00 54 44 44 18 18 00 00' => array(
             'Id' => '00 54 44 44 18 18 00 00',
@@ -238,6 +262,10 @@ class LensID extends AbstractTag
         '00 54 50 50 18 18 00 00' => array(
             'Id' => '00 54 50 50 18 18 00 00',
             'Label' => 'Carl Zeiss Makro-Planar T* 2/50 ZF.2',
+        ),
+        '00 54 53 53 0C 0C 00 00' => array(
+            'Id' => '00 54 53 53 0C 0C 00 00',
+            'Label' => 'Zeiss Otus 1.4/55',
         ),
         '00 54 55 55 0C 0C 00 00' => array(
             'Id' => '00 54 55 55 0C 0C 00 00',
@@ -259,9 +287,17 @@ class LensID extends AbstractTag
             'Id' => '00 54 68 68 24 24 00 02',
             'Label' => 'Tokina AT-X M100 AF PRO D (AF 100mm f/2.8 Macro)',
         ),
+        '00 54 72 72 18 18 00 00' => array(
+            'Id' => '00 54 72 72 18 18 00 00',
+            'Label' => 'Carl Zeiss Apo Sonnar T* 2/135 ZF.2',
+        ),
         '00 54 8E 8E 24 24 00 02' => array(
             'Id' => '00 54 8E 8E 24 24 00 02',
             'Label' => 'Tokina AT-X 300 AF PRO (AF 300mm f/2.8)',
+        ),
+        '00 57 50 50 14 14 00 00' => array(
+            'Id' => '00 57 50 50 14 14 00 00',
+            'Label' => 'Nikkor 50mm f/1.8 AI',
         ),
         '00 58 64 64 20 20 00 00' => array(
             'Id' => '00 58 64 64 20 20 00 00',
@@ -274,6 +310,10 @@ class LensID extends AbstractTag
         '01 00 00 00 00 00 08 00' => array(
             'Id' => '01 00 00 00 00 00 08 00',
             'Label' => 'TC-16A',
+        ),
+        '01 54 62 62 0C 0C 00 00' => array(
+            'Id' => '01 54 62 62 0C 0C 00 00',
+            'Label' => 'Zeiss Otus 1.4/85',
         ),
         '01 58 50 50 14 14 02 00' => array(
             'Id' => '01 58 50 50 14 14 02 00',
@@ -491,6 +531,10 @@ class LensID extends AbstractTag
             'Id' => '12 36 69 97 35 42 09 00',
             'Label' => 'Soligor AF Zoom 100-400mm 1:4.5-6.7 MC',
         ),
+        '12 38 69 97 35 42 09 02' => array(
+            'Id' => '12 38 69 97 35 42 09 02',
+            'Label' => 'Promaster Spectrum 7 100-400mm F4.5-6.7',
+        ),
         '12 39 5C 8E 34 3D 08 02' => array(
             'Id' => '12 39 5C 8E 34 3D 08 02',
             'Label' => 'Cosina AF Zoom 70-300mm F4.5-5.6 MC Macro',
@@ -637,6 +681,10 @@ class LensID extends AbstractTag
         ),
         '25 48 44 5C 24 24 1B 02' => array(
             'Id' => '25 48 44 5C 24 24 1B 02',
+            'Label' => 'AF Zoom-Nikkor 35-70mm f/2.8D',
+        ),
+        '25 48 44 5C 24 24 3A 02' => array(
+            'Id' => '25 48 44 5C 24 24 3A 02',
             'Label' => 'AF Zoom-Nikkor 35-70mm f/2.8D',
         ),
         '25 48 44 5C 24 24 52 02' => array(
@@ -1107,6 +1155,10 @@ class LensID extends AbstractTag
             'Id' => '4A 40 11 11 2C 0C 4D 02',
             'Label' => 'Samyang 8mm f/3.5 Fish-Eye CS',
         ),
+        '4A 48 1E 1E 24 0C 4D 02' => array(
+            'Id' => '4A 48 1E 1E 24 0C 4D 02',
+            'Label' => 'Samyang 12mm f/2.8 ED AS NCS Fish-Eye',
+        ),
         '4A 48 24 24 24 0C 4D 02' => array(
             'Id' => '4A 48 24 24 24 0C 4D 02',
             'Label' => 'Samyang AE 14mm f/2.8 ED AS IF UMC',
@@ -1147,6 +1199,10 @@ class LensID extends AbstractTag
             'Id' => '4C 40 37 6E 2C 3C 4F 02',
             'Label' => 'AF Zoom-Nikkor 24-120mm f/3.5-5.6D IF',
         ),
+        '4D 3E 3C 80 2E 3C 62 02' => array(
+            'Id' => '4D 3E 3C 80 2E 3C 62 02',
+            'Label' => 'Tamron AF 28-200mm F/3.8-5.6 XR Aspherical (IF) Macro (A03N)',
+        ),
         '4D 40 3C 80 2C 3C 62 02' => array(
             'Id' => '4D 40 3C 80 2C 3C 62 02',
             'Label' => 'AF Zoom-Nikkor 28-200mm f/3.5-5.6D IF',
@@ -1171,6 +1227,10 @@ class LensID extends AbstractTag
             'Id' => '50 48 56 7C 30 3C 54 06',
             'Label' => 'IX-Nikkor 60-180mm f/4-5.6',
         ),
+        '52 54 44 44 18 18 00 00' => array(
+            'Id' => '52 54 44 44 18 18 00 00',
+            'Label' => 'Zeiss Milvus 35mm f/2',
+        ),
         '53 48 60 80 24 24 57 02' => array(
             'Id' => '53 48 60 80 24 24 57 02',
             'Label' => 'AF Zoom-Nikkor 80-200mm f/2.8D ED',
@@ -1178,6 +1238,10 @@ class LensID extends AbstractTag
         '53 48 60 80 24 24 60 02' => array(
             'Id' => '53 48 60 80 24 24 60 02',
             'Label' => 'AF Zoom-Nikkor 80-200mm f/2.8D ED',
+        ),
+        '53 54 50 50 0C 0C 00 00' => array(
+            'Id' => '53 54 50 50 0C 0C 00 00',
+            'Label' => 'Zeiss Milvus 50mm f/1.4',
         ),
         '54 44 5C 7C 34 3C 58 02' => array(
             'Id' => '54 44 5C 7C 34 3C 58 02',
@@ -1187,6 +1251,14 @@ class LensID extends AbstractTag
             'Id' => '54 44 5C 7C 34 3C 61 02',
             'Label' => 'AF Zoom-Micro Nikkor 70-180mm f/4.5-5.6D ED',
         ),
+        '54 54 50 50 18 18 00 00' => array(
+            'Id' => '54 54 50 50 18 18 00 00',
+            'Label' => 'Zeiss Milvus 50mm f/2 Macro',
+        ),
+        '55 54 62 62 0C 0C 00 00' => array(
+            'Id' => '55 54 62 62 0C 0C 00 00',
+            'Label' => 'Zeiss Milvus 85mm f/1.4',
+        ),
         '56 3C 5C 8E 30 3C 1C 02' => array(
             'Id' => '56 3C 5C 8E 30 3C 1C 02',
             'Label' => 'Sigma 70-300mm F4-5.6 APO Macro Super II',
@@ -1194,6 +1266,10 @@ class LensID extends AbstractTag
         '56 48 5C 8E 30 3C 5A 02' => array(
             'Id' => '56 48 5C 8E 30 3C 5A 02',
             'Label' => 'AF Zoom-Nikkor 70-300mm f/4-5.6D ED',
+        ),
+        '56 54 68 68 18 18 00 00' => array(
+            'Id' => '56 54 68 68 18 18 00 00',
+            'Label' => 'Zeiss Milvus 100mm f/2 Macro',
         ),
         '59 48 98 98 24 24 5D 02' => array(
             'Id' => '59 48 98 98 24 24 5D 02',
@@ -1359,6 +1435,10 @@ class LensID extends AbstractTag
             'Id' => '7A 3C 1F 37 30 30 7E 06.2',
             'Label' => 'Tokina AT-X 124 AF PRO DX II (AF 12-24mm f/4)',
         ),
+        '7A 3C 1F 3C 30 30 7E 06' => array(
+            'Id' => '7A 3C 1F 3C 30 30 7E 06',
+            'Label' => 'Tokina AT-X 12-28 PRO DX (AF 12-28mm F/4)',
+        ),
         '7A 40 2D 50 2C 3C 4B 06' => array(
             'Id' => '7A 40 2D 50 2C 3C 4B 06',
             'Label' => 'Sigma 18-50mm F3.5-5.6 DC HSM',
@@ -1374,6 +1454,14 @@ class LensID extends AbstractTag
         '7A 47 50 76 24 24 4B 06' => array(
             'Id' => '7A 47 50 76 24 24 4B 06',
             'Label' => 'Sigma 50-150mm F2.8 EX APO DC HSM',
+        ),
+        '7A 48 1C 29 24 24 7E 06' => array(
+            'Id' => '7A 48 1C 29 24 24 7E 06',
+            'Label' => 'Tokina AT-X 116 PRO DX II (AF 11-16mm f/2.8)',
+        ),
+        '7A 48 1C 30 24 24 7E 06' => array(
+            'Id' => '7A 48 1C 30 24 24 7E 06',
+            'Label' => 'Tokina AT-X 11-20 F2.8 PRO DX (AF 11-20mm f/2.8)',
         ),
         '7A 48 2B 5C 24 34 4B 06' => array(
             'Id' => '7A 48 2B 5C 24 34 4B 06',
@@ -1415,9 +1503,17 @@ class LensID extends AbstractTag
             'Id' => '80 48 1A 1A 24 24 85 06',
             'Label' => 'AF DX Fisheye-Nikkor 10.5mm f/2.8G ED',
         ),
+        '81 34 76 A6 38 40 4B 0E' => array(
+            'Id' => '81 34 76 A6 38 40 4B 0E',
+            'Label' => 'Sigma 150-600mm F5-6.3 DG OS HSM | S',
+        ),
         '81 54 80 80 18 18 86 0E' => array(
             'Id' => '81 54 80 80 18 18 86 0E',
             'Label' => 'AF-S VR Nikkor 200mm f/2G IF-ED',
+        ),
+        '82 34 76 A6 38 40 4B 0E' => array(
+            'Id' => '82 34 76 A6 38 40 4B 0E',
+            'Label' => 'Sigma 150-600mm F5-6.3 DG OS HSM | C',
         ),
         '82 48 8E 8E 24 24 87 0E' => array(
             'Id' => '82 48 8E 8E 24 24 87 0E',
@@ -1427,9 +1523,17 @@ class LensID extends AbstractTag
             'Id' => '83 00 B0 B0 5A 5A 88 04',
             'Label' => 'FSA-L2, EDG 65, 800mm F13 G',
         ),
+        '88 54 50 50 0C 0C 4B 06' => array(
+            'Id' => '88 54 50 50 0C 0C 4B 06',
+            'Label' => 'Sigma 50mm F1.4 DG HSM | A',
+        ),
         '89 3C 53 80 30 3C 8B 06' => array(
             'Id' => '89 3C 53 80 30 3C 8B 06',
             'Label' => 'AF-S DX Zoom-Nikkor 55-200mm f/4-5.6G ED',
+        ),
+        '8A 3C 37 6A 30 30 4B 0E' => array(
+            'Id' => '8A 3C 37 6A 30 30 4B 0E',
+            'Label' => 'Sigma 24-105mm F4 DG OS HSM',
         ),
         '8A 54 6A 6A 24 24 8C 0E' => array(
             'Id' => '8A 54 6A 6A 24 24 8C 0E',
@@ -1471,6 +1575,10 @@ class LensID extends AbstractTag
             'Id' => '90 3B 53 80 30 3C 92 0E',
             'Label' => 'AF-S DX VR Zoom-Nikkor 55-200mm f/4-5.6G IF-ED',
         ),
+        '90 40 2D 80 2C 40 4B 0E' => array(
+            'Id' => '90 40 2D 80 2C 40 4B 0E',
+            'Label' => 'Sigma 18-200mm F3.5-6.3 II DC OS HSM',
+        ),
         '91 54 44 44 0C 0C 4B 06' => array(
             'Id' => '91 54 44 44 0C 0C 4B 06',
             'Label' => 'Sigma 35mm F1.4 DG HSM',
@@ -1511,9 +1619,17 @@ class LensID extends AbstractTag
             'Id' => '97 3C A0 A0 30 30 99 0E',
             'Label' => 'AF-S VR Nikkor 500mm f/4G ED',
         ),
+        '97 48 6A 6A 24 24 4B 0E' => array(
+            'Id' => '97 48 6A 6A 24 24 4B 0E',
+            'Label' => 'Sigma Macro 105mm F2.8 EX DG OS HSM',
+        ),
         '98 3C A6 A6 30 30 9A 0E' => array(
             'Id' => '98 3C A6 A6 30 30 9A 0E',
             'Label' => 'AF-S VR Nikkor 600mm f/4G ED',
+        ),
+        '98 48 50 76 24 24 4B 0E' => array(
+            'Id' => '98 48 50 76 24 24 4B 0E',
+            'Label' => 'Sigma 50-150mm F2.8 EX APO DC OS HSM',
         ),
         '99 40 29 62 2C 3C 9B 0E' => array(
             'Id' => '99 40 29 62 2C 3C 9B 0E',
@@ -1601,7 +1717,7 @@ class LensID extends AbstractTag
         ),
         'A2 40 2D 53 2C 3C BD 0E' => array(
             'Id' => 'A2 40 2D 53 2C 3C BD 0E',
-            'Label' => 'AF-S DX VR Nikkor 18-55mm f/3.5-5.6G II',
+            'Label' => 'AF-S DX Nikkor 18-55mm f/3.5-5.6G VR II',
         ),
         'A2 48 5C 80 24 24 A4 0E' => array(
             'Id' => 'A2 48 5C 80 24 24 A4 0E',
@@ -1614,6 +1730,10 @@ class LensID extends AbstractTag
         'A3 3C 5C 8E 30 3C 4B 0E' => array(
             'Id' => 'A3 3C 5C 8E 30 3C 4B 0E',
             'Label' => 'Sigma 70-300mm F4-5.6 DG OS',
+        ),
+        'A4 40 2D 8E 2C 40 BF 0E' => array(
+            'Id' => 'A4 40 2D 8E 2C 40 BF 0E',
+            'Label' => 'AF-S DX Nikkor 18-300mm f/3.5-6.3G ED VR',
         ),
         'A4 47 2D 50 24 34 4B 0E' => array(
             'Id' => 'A4 47 2D 50 24 34 4B 0E',
@@ -1631,6 +1751,10 @@ class LensID extends AbstractTag
             'Id' => 'A5 40 3C 8E 2C 3C A7 0E',
             'Label' => 'AF-S Nikkor 28-300mm f/3.5-5.6G ED VR',
         ),
+        'A5 4C 44 44 14 14 C0 06' => array(
+            'Id' => 'A5 4C 44 44 14 14 C0 06',
+            'Label' => 'AF-S Nikkor 35mm f/1.8G ED',
+        ),
         'A6 48 37 5C 24 24 4B 06' => array(
             'Id' => 'A6 48 37 5C 24 24 4B 06',
             'Label' => 'Sigma 24-70mm F2.8 IF EX DG HSM',
@@ -1638,6 +1762,14 @@ class LensID extends AbstractTag
         'A6 48 8E 8E 24 24 A8 0E' => array(
             'Id' => 'A6 48 8E 8E 24 24 A8 0E',
             'Label' => 'AF-S VR Nikkor 300mm f/2.8G IF-ED II',
+        ),
+        'A6 48 98 98 24 24 C1 0E' => array(
+            'Id' => 'A6 48 98 98 24 24 C1 0E',
+            'Label' => 'AF-S Nikkor 400mm f/2.8E FL ED VR',
+        ),
+        'A7 3C 53 80 30 3C C2 0E' => array(
+            'Id' => 'A7 3C 53 80 30 3C C2 0E',
+            'Label' => 'AF-S DX Nikkor 55-200mm f/4-5.6G ED VR II',
         ),
         'A7 49 80 A0 24 24 4B 06' => array(
             'Id' => 'A7 49 80 A0 24 24 4B 06',
@@ -1651,6 +1783,18 @@ class LensID extends AbstractTag
             'Id' => 'A8 48 80 98 30 30 AA 0E',
             'Label' => 'AF-S VR Zoom-Nikkor 200-400mm f/4G IF-ED II',
         ),
+        'A8 48 8E 8E 30 30 C3 0E' => array(
+            'Id' => 'A8 48 8E 8E 30 30 C3 0E',
+            'Label' => 'AF-S Nikkor 300mm f/4E PF ED VR',
+        ),
+        'A8 48 8E 8E 30 30 C3 4E' => array(
+            'Id' => 'A8 48 8E 8E 30 30 C3 4E',
+            'Label' => 'AF-S Nikkor 300mm f/4E PF ED VR',
+        ),
+        'A9 4C 31 31 14 14 C4 06' => array(
+            'Id' => 'A9 4C 31 31 14 14 C4 06',
+            'Label' => 'AF-S Nikkor 20mm f/1.8G ED',
+        ),
         'A9 54 80 80 18 18 AB 0E' => array(
             'Id' => 'A9 54 80 80 18 18 AB 0E',
             'Label' => 'AF-S Nikkor 200mm f/2G ED VR II',
@@ -1659,17 +1803,49 @@ class LensID extends AbstractTag
             'Id' => 'AA 3C 37 6E 30 30 AC 0E',
             'Label' => 'AF-S Nikkor 24-120mm f/4G ED VR',
         ),
+        'AA 48 37 5C 24 24 C5 4E' => array(
+            'Id' => 'AA 48 37 5C 24 24 C5 4E',
+            'Label' => 'AF-S Nikkor 24-70mm f/2.8E ED VR',
+        ),
+        'AB 3C A0 A0 30 30 C6 4E' => array(
+            'Id' => 'AB 3C A0 A0 30 30 C6 4E',
+            'Label' => 'AF-S Nikkor 500mm f/4E FL ED VR',
+        ),
         'AC 38 53 8E 34 3C AE 0E' => array(
             'Id' => 'AC 38 53 8E 34 3C AE 0E',
-            'Label' => 'AF-S DX VR Nikkor 55-300mm 4.5-5.6G ED',
+            'Label' => 'AF-S DX VR Nikkor 55-300mm f/4.5-5.6G ED',
+        ),
+        'AC 3C A6 A6 30 30 C7 4E' => array(
+            'Id' => 'AC 3C A6 A6 30 30 C7 4E',
+            'Label' => 'AF-S Nikkor 600mm f/4E FL ED VR',
         ),
         'AD 3C 2D 8E 2C 3C AF 0E' => array(
             'Id' => 'AD 3C 2D 8E 2C 3C AF 0E',
-            'Label' => 'AF-S DX Nikkor 18-300mm 3.5-5.6G ED VR',
+            'Label' => 'AF-S DX Nikkor 18-300mm f/3.5-5.6G ED VR',
+        ),
+        'AD 48 28 60 24 30 C8 0E' => array(
+            'Id' => 'AD 48 28 60 24 30 C8 0E',
+            'Label' => 'AF-S DX Nikkor 16-80mm f/2.8-4E ED VR',
+        ),
+        'AD 48 28 60 24 30 C8 4E' => array(
+            'Id' => 'AD 48 28 60 24 30 C8 4E',
+            'Label' => 'AF-S DX Nikkor 16-80mm f/2.8-4E ED VR',
+        ),
+        'AE 3C 80 A0 3C 3C C9 0E' => array(
+            'Id' => 'AE 3C 80 A0 3C 3C C9 0E',
+            'Label' => 'AF-S Nikkor 200-500mm f/5.6E ED VR',
+        ),
+        'AE 3C 80 A0 3C 3C C9 4E' => array(
+            'Id' => 'AE 3C 80 A0 3C 3C C9 4E',
+            'Label' => 'AF-S Nikkor 200-500mm f/5.6E ED VR',
         ),
         'AE 54 62 62 0C 0C B0 06' => array(
             'Id' => 'AE 54 62 62 0C 0C B0 06',
             'Label' => 'AF-S Nikkor 85mm f/1.4G',
+        ),
+        'AF 4C 37 37 14 14 CC 06' => array(
+            'Id' => 'AF 4C 37 37 14 14 CC 06',
+            'Label' => 'AF-S Nikkor 24mm f/1.8G ED',
         ),
         'AF 54 44 44 0C 0C B1 06' => array(
             'Id' => 'AF 54 44 44 0C 0C B1 06',
@@ -1698,6 +1874,10 @@ class LensID extends AbstractTag
         'B5 4C 3C 3C 14 14 B7 06' => array(
             'Id' => 'B5 4C 3C 3C 14 14 B7 06',
             'Label' => 'AF-S Nikkor 28mm f/1.8G',
+        ),
+        'B6 3C B0 B0 3C 3C B8 0E' => array(
+            'Id' => 'B6 3C B0 B0 3C 3C B8 0E',
+            'Label' => 'AF-S VR Nikkor 800mm f/5.6E FL ED',
         ),
         'B6 48 37 56 24 24 1C 02' => array(
             'Id' => 'B6 48 37 56 24 24 1C 02',
@@ -1751,9 +1931,21 @@ class LensID extends AbstractTag
             'Id' => 'E6 41 3C 8E 2C 40 1C 02',
             'Label' => 'Sigma 28-300mm F3.5-6.3 DG Macro',
         ),
+        'E8 4C 44 44 14 14 DF 0E' => array(
+            'Id' => 'E8 4C 44 44 14 14 DF 0E',
+            'Label' => 'Tamron SP 35mm f/1.8 VC',
+        ),
+        'E9 48 27 3E 24 24 DF 0E' => array(
+            'Id' => 'E9 48 27 3E 24 24 DF 0E',
+            'Label' => 'Tamron SP 15-30mm f/2.8 Di VC USD (A012)',
+        ),
         'E9 54 37 5C 24 24 1C 02' => array(
             'Id' => 'E9 54 37 5C 24 24 1C 02',
             'Label' => 'Sigma 24-70mm F2.8 EX DG Macro',
+        ),
+        'EA 40 29 8E 2C 40 DF 0E' => array(
+            'Id' => 'EA 40 29 8E 2C 40 DF 0E',
+            'Label' => 'Tamron AF 16-300mm f/3.5-6.3 Di II VC PZD (B016)',
         ),
         'EA 48 27 27 24 24 1C 02' => array(
             'Id' => 'EA 48 27 27 24 24 1C 02',
@@ -1809,6 +2001,10 @@ class LensID extends AbstractTag
         ),
         'F6 3F 18 37 2C 34 84 06' => array(
             'Id' => 'F6 3F 18 37 2C 34 84 06',
+            'Label' => 'Tamron SP AF 10-24mm f/3.5-4.5 Di II LD Aspherical (IF) (B001)',
+        ),
+        'F6 3F 18 37 2C 34 DF 06' => array(
+            'Id' => 'F6 3F 18 37 2C 34 DF 06',
             'Label' => 'Tamron SP AF 10-24mm f/3.5-4.5 Di II LD Aspherical (IF) (B001)',
         ),
         'F6 48 2D 50 24 24 4B 06' => array(

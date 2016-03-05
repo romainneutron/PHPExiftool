@@ -401,25 +401,117 @@ class AELockButton extends AbstractTag
         ),
         89 => array(
             'Id' => 0,
-            'Label' => 'AE/AF Lock',
+            'Label' => 'None',
         ),
         90 => array(
+            'Id' => 1,
+            'Label' => 'Preview',
+        ),
+        91 => array(
+            'Id' => 2,
+            'Label' => 'FV Lock',
+        ),
+        92 => array(
+            'Id' => 3,
+            'Label' => 'AE/AF Lock',
+        ),
+        93 => array(
+            'Id' => 4,
+            'Label' => 'AE Lock Only',
+        ),
+        94 => array(
+            'Id' => 5,
+            'Label' => 'AE Lock (reset on release)',
+        ),
+        95 => array(
+            'Id' => 6,
+            'Label' => 'AE Lock (hold)',
+        ),
+        96 => array(
+            'Id' => 7,
+            'Label' => 'AF Lock Only',
+        ),
+        97 => array(
+            'Id' => 8,
+            'Label' => 'AF-On',
+        ),
+        98 => array(
+            'Id' => 10,
+            'Label' => 'Bracketing Burst',
+        ),
+        99 => array(
+            'Id' => 11,
+            'Label' => 'Matrix Metering',
+        ),
+        100 => array(
+            'Id' => 12,
+            'Label' => 'Center-weighted Metering',
+        ),
+        101 => array(
+            'Id' => 13,
+            'Label' => 'Spot Metering',
+        ),
+        102 => array(
+            'Id' => 14,
+            'Label' => 'Playback',
+        ),
+        103 => array(
+            'Id' => 15,
+            'Label' => 'My Menu Top Item',
+        ),
+        104 => array(
+            'Id' => 16,
+            'Label' => '+NEF(RAW)',
+        ),
+        105 => array(
+            'Id' => 17,
+            'Label' => 'Virtual Horizon',
+        ),
+        106 => array(
+            'Id' => 19,
+            'Label' => 'Grid Display',
+        ),
+        107 => array(
+            'Id' => 20,
+            'Label' => 'My Menu',
+        ),
+        108 => array(
+            'Id' => 21,
+            'Label' => 'Disable Synchronized Release',
+        ),
+        109 => array(
+            'Id' => 22,
+            'Label' => 'Remote Release Only',
+        ),
+        110 => array(
+            'Id' => 26,
+            'Label' => 'Flash Disable/Enable',
+        ),
+        111 => array(
+            'Id' => 27,
+            'Label' => 'Highlight-weighted Metering',
+        ),
+        112 => array(
+            'Id' => 0,
+            'Label' => 'AE/AF Lock',
+        ),
+        113 => array(
             'Id' => 8,
             'Label' => 'AE Lock Only',
         ),
-        91 => array(
+        114 => array(
             'Id' => 16,
             'Label' => 'AF Lock Only',
         ),
-        92 => array(
+        115 => array(
             'Id' => 24,
             'Label' => 'AE Lock (hold)',
         ),
-        93 => array(
+        116 => array(
             'Id' => 32,
             'Label' => 'AF-ON',
         ),
-        94 => array(
+        117 => array(
             'Id' => 40,
             'Label' => 'FV Lock',
         ),

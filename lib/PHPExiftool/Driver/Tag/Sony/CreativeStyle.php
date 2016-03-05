@@ -288,10 +288,14 @@ class CreativeStyle extends AbstractTag
             'Label' => 'Sunset',
         ),
         45 => array(
+            'Id' => 10,
+            'Label' => 'Night View/Portrait',
+        ),
+        46 => array(
             'Id' => 11,
             'Label' => 'Autumn Leaves',
         ),
-        46 => array(
+        47 => array(
             'Id' => 13,
             'Label' => 'Sepia',
         ),

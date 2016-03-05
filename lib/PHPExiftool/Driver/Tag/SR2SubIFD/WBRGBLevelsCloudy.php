@@ -20,7 +20,7 @@ use PHPExiftool\Driver\AbstractTag;
 class WBRGBLevelsCloudy extends AbstractTag
 {
 
-    protected $Id = 30753;
+    protected $Id = 'mixed';
 
     protected $Name = 'WB_RGBLevelsCloudy';
 

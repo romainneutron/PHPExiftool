@@ -20,11 +20,11 @@ use PHPExiftool\Driver\AbstractTag;
 class RawBrightnessAdj extends AbstractTag
 {
 
-    protected $Id = 56;
+    protected $Id = 'mixed';
 
     protected $Name = 'RawBrightnessAdj';
 
-    protected $FullName = 'CanonVRD::Ver1';
+    protected $FullName = 'mixed';
 
     protected $GroupName = 'CanonVRD';
 
@@ -34,7 +34,7 @@ class RawBrightnessAdj extends AbstractTag
 
     protected $g2 = 'Image';
 
-    protected $Type = 'int32s';
+    protected $Type = 'mixed';
 
     protected $Writable = true;
 

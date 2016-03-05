@@ -289,11 +289,35 @@ class LensType extends AbstractTag
         ),
         '33.7' => array(
             'Id' => '33.7',
-            'Label' => 'Carl Zeiss Distagon T* 28mm f/2 ZE',
+            'Label' => 'Carl Zeiss Distagon T* 25mm f/2 ZE',
         ),
         '33.8' => array(
             'Id' => '33.8',
+            'Label' => 'Carl Zeiss Distagon T* 28mm f/2 ZE',
+        ),
+        '33.9' => array(
+            'Id' => '33.9',
             'Label' => 'Carl Zeiss Distagon T* 35mm f/2 ZE',
+        ),
+        '33.10' => array(
+            'Id' => '33.10',
+            'Label' => 'Carl Zeiss Distagon T* 35mm f/1.4 ZE',
+        ),
+        '33.11' => array(
+            'Id' => '33.11',
+            'Label' => 'Carl Zeiss Planar T* 50mm f/1.4 ZE',
+        ),
+        '33.12' => array(
+            'Id' => '33.12',
+            'Label' => 'Carl Zeiss Makro-Planar T* 50mm f/2 ZE',
+        ),
+        '33.13' => array(
+            'Id' => '33.13',
+            'Label' => 'Carl Zeiss Makro-Planar T* 100mm f/2 ZE',
+        ),
+        '33.14' => array(
+            'Id' => '33.14',
+            'Label' => 'Carl Zeiss Apo-Sonnar T* 135mm f/2 ZE',
         ),
         35 => array(
             'Id' => 35,
@@ -362,6 +386,14 @@ class LensType extends AbstractTag
         46 => array(
             'Id' => 46,
             'Label' => 'Canon EF 28-90mm f/4-5.6',
+        ),
+        47 => array(
+            'Id' => 47,
+            'Label' => 'Zeiss Milvus 35mm f/2 or 50mm f/2',
+        ),
+        '47.1' => array(
+            'Id' => '47.1',
+            'Label' => 'Zeiss Milvus 50mm f/2 Makro',
         ),
         48 => array(
             'Id' => 48,
@@ -479,30 +511,6 @@ class LensType extends AbstractTag
             'Id' => '137.1',
             'Label' => 'Sigma 18-50mm f/2.8-4.5 DC OS HSM',
         ),
-        '137.10' => array(
-            'Id' => '137.10',
-            'Label' => 'Sigma 8-16mm f/4.5-5.6 DC HSM',
-        ),
-        '137.11' => array(
-            'Id' => '137.11',
-            'Label' => 'Tamron SP 17-50mm f/2.8 XR Di II VC',
-        ),
-        '137.12' => array(
-            'Id' => '137.12',
-            'Label' => 'Tamron SP 60mm f/2 Macro Di II',
-        ),
-        '137.13' => array(
-            'Id' => '137.13',
-            'Label' => 'Sigma 10-20mm f/3.5 EX DC HSM',
-        ),
-        '137.14' => array(
-            'Id' => '137.14',
-            'Label' => 'Tamron SP 24-70mm f/2.8 Di VC USD',
-        ),
-        '137.15' => array(
-            'Id' => '137.15',
-            'Label' => 'Sigma 18-35mm f/1.8 DC HSM',
-        ),
         '137.2' => array(
             'Id' => '137.2',
             'Label' => 'Sigma 50-200mm f/4-5.6 DC OS HSM',
@@ -529,11 +537,39 @@ class LensType extends AbstractTag
         ),
         '137.8' => array(
             'Id' => '137.8',
-            'Label' => 'Sigma 18-200mm f/3.5-6.3 II DC OS HSM',
+            'Label' => 'Sigma 18-200mm f/3.5-6.3 DC OS HSM [II]',
         ),
         '137.9' => array(
             'Id' => '137.9',
             'Label' => 'Tamron AF 18-270mm f/3.5-6.3 Di II VC PZD',
+        ),
+        '137.10' => array(
+            'Id' => '137.10',
+            'Label' => 'Sigma 8-16mm f/4.5-5.6 DC HSM',
+        ),
+        '137.11' => array(
+            'Id' => '137.11',
+            'Label' => 'Tamron SP 17-50mm f/2.8 XR Di II VC',
+        ),
+        '137.12' => array(
+            'Id' => '137.12',
+            'Label' => 'Tamron SP 60mm f/2 Macro Di II',
+        ),
+        '137.13' => array(
+            'Id' => '137.13',
+            'Label' => 'Sigma 10-20mm f/3.5 EX DC HSM',
+        ),
+        '137.14' => array(
+            'Id' => '137.14',
+            'Label' => 'Tamron SP 24-70mm f/2.8 Di VC USD',
+        ),
+        '137.15' => array(
+            'Id' => '137.15',
+            'Label' => 'Sigma 18-35mm f/1.8 DC HSM',
+        ),
+        '137.16' => array(
+            'Id' => '137.16',
+            'Label' => 'Sigma 12-24mm f/4.5-5.6 DG HSM II',
         ),
         138 => array(
             'Id' => 138,
@@ -599,6 +635,10 @@ class LensType extends AbstractTag
             'Id' => '150.3',
             'Label' => 'Sigma 24mm f/1.8 DG Macro EX',
         ),
+        '150.4' => array(
+            'Id' => '150.4',
+            'Label' => 'Sigma 28mm f/1.8 DG Macro EX',
+        ),
         151 => array(
             'Id' => 151,
             'Label' => 'Canon EF 200mm f/2.8L',
@@ -645,7 +685,11 @@ class LensType extends AbstractTag
         ),
         154 => array(
             'Id' => 154,
-            'Label' => 'Canon EF 20mm f/2.8 USM',
+            'Label' => 'Canon EF 20mm f/2.8 USM or Zeiss Lens',
+        ),
+        '154.1' => array(
+            'Id' => '154.1',
+            'Label' => 'Zeiss Milvus 21mm f/2.8',
         ),
         155 => array(
             'Id' => 155,
@@ -706,6 +750,10 @@ class LensType extends AbstractTag
         '161.6' => array(
             'Id' => '161.6',
             'Label' => 'Tamron SP AF 17-35mm f/2.8-4 Di LD Aspherical IF',
+        ),
+        '161.7' => array(
+            'Id' => '161.7',
+            'Label' => 'Tamron SP AF 28-75mm f/2.8 XR Di LD Aspherical [IF] Macro',
         ),
         162 => array(
             'Id' => 162,
@@ -777,7 +825,11 @@ class LensType extends AbstractTag
         ),
         172 => array(
             'Id' => 172,
-            'Label' => 'Canon EF 400mm f/5.6L',
+            'Label' => 'Canon EF 400mm f/5.6L or Sigma Lens',
+        ),
+        '172.1' => array(
+            'Id' => '172.1',
+            'Label' => 'Sigma 150-600mm f/5-6.3 DG OS HSM | S',
         ),
         173 => array(
             'Id' => 173,
@@ -793,7 +845,7 @@ class LensType extends AbstractTag
         ),
         174 => array(
             'Id' => 174,
-            'Label' => 'Canon EF 135mm f/2L or Sigma Lens',
+            'Label' => 'Canon EF 135mm f/2L or Other Lens',
         ),
         '174.1' => array(
             'Id' => '174.1',
@@ -806,6 +858,10 @@ class LensType extends AbstractTag
         '174.3' => array(
             'Id' => '174.3',
             'Label' => 'Sigma 150-500mm f/5-6.3 APO DG OS HSM',
+        ),
+        '174.4' => array(
+            'Id' => '174.4',
+            'Label' => 'Zeiss Milvus 100mm f/2 Makro',
         ),
         175 => array(
             'Id' => 175,
@@ -829,19 +885,43 @@ class LensType extends AbstractTag
         ),
         180 => array(
             'Id' => 180,
-            'Label' => 'Canon EF 35mm f/1.4L or Sigma Lens',
+            'Label' => 'Canon EF 35mm f/1.4L or Other Lens',
         ),
         '180.1' => array(
             'Id' => '180.1',
             'Label' => 'Sigma 50mm f/1.4 DG HSM | A',
         ),
+        '180.2' => array(
+            'Id' => '180.2',
+            'Label' => 'Sigma 24mm f/1.4 DG HSM | A',
+        ),
+        '180.3' => array(
+            'Id' => '180.3',
+            'Label' => 'Zeiss Milvus 50mm f/1.4',
+        ),
+        '180.4' => array(
+            'Id' => '180.4',
+            'Label' => 'Zeiss Milvus 85mm f/1.4',
+        ),
+        '180.5' => array(
+            'Id' => '180.5',
+            'Label' => 'Zeiss Otus 28mm f/1.4 ZE',
+        ),
         181 => array(
             'Id' => 181,
-            'Label' => 'Canon EF 100-400mm f/4.5-5.6L IS + 1.4x',
+            'Label' => 'Canon EF 100-400mm f/4.5-5.6L IS + 1.4x or Sigma Lens',
+        ),
+        '181.1' => array(
+            'Id' => '181.1',
+            'Label' => 'Sigma 150-600mm f/5-6.3 DG OS HSM | S + 1.4x',
         ),
         182 => array(
             'Id' => 182,
-            'Label' => 'Canon EF 100-400mm f/4.5-5.6L IS + 2x',
+            'Label' => 'Canon EF 100-400mm f/4.5-5.6L IS + 2x or Sigma Lens',
+        ),
+        '182.1' => array(
+            'Id' => '182.1',
+            'Label' => 'Sigma 150-600mm f/5-6.3 DG OS HSM | S + 2x',
         ),
         183 => array(
             'Id' => 183,
@@ -854,6 +934,14 @@ class LensType extends AbstractTag
         '183.2' => array(
             'Id' => '183.2',
             'Label' => 'Sigma 105mm f/2.8 EX DG OS HSM Macro',
+        ),
+        '183.3' => array(
+            'Id' => '183.3',
+            'Label' => 'Sigma 180mm f/2.8 EX DG OS HSM APO Macro',
+        ),
+        '183.4' => array(
+            'Id' => '183.4',
+            'Label' => 'Sigma 150-600mm f/5-6.3 DG OS HSM | C',
         ),
         184 => array(
             'Id' => 184,
@@ -915,6 +1003,10 @@ class LensType extends AbstractTag
             'Id' => '198.1',
             'Label' => 'Zeiss Otus 55mm f/1.4 ZE',
         ),
+        '198.2' => array(
+            'Id' => '198.2',
+            'Label' => 'Zeiss Otus 85mm f/1.4 ZE',
+        ),
         199 => array(
             'Id' => 199,
             'Label' => 'Canon EF 28-80mm f/3.5-5.6 USM',
@@ -962,6 +1054,14 @@ class LensType extends AbstractTag
         '213.2' => array(
             'Id' => '213.2',
             'Label' => 'Tamron 16-300mm f/3.5-6.3 Di II VC PZD Macro',
+        ),
+        '213.3' => array(
+            'Id' => '213.3',
+            'Label' => 'Tamron SP 35mm f/1.8 Di VC USD',
+        ),
+        '213.4' => array(
+            'Id' => '213.4',
+            'Label' => 'Tamron SP 45mm f/1.8 Di VC USD',
         ),
         214 => array(
             'Id' => 214,
@@ -1017,7 +1117,11 @@ class LensType extends AbstractTag
         ),
         234 => array(
             'Id' => 234,
-            'Label' => 'Canon EF-S 17-85mm f4-5.6 IS USM',
+            'Label' => 'Canon EF-S 17-85mm f/4-5.6 IS USM or Tokina Lens',
+        ),
+        '234.1' => array(
+            'Id' => '234.1',
+            'Label' => 'Tokina AT-X 12-28mm f/4 PRO DX',
         ),
         235 => array(
             'Id' => 235,
@@ -1073,7 +1177,11 @@ class LensType extends AbstractTag
         ),
         248 => array(
             'Id' => 248,
-            'Label' => 'Canon EF 200mm f/2L IS',
+            'Label' => 'Canon EF 200mm f/2L IS or Sigma Lens',
+        ),
+        '248.1' => array(
+            'Id' => '248.1',
+            'Label' => 'Sigma 24-35mm f/2 DG HSM | A',
         ),
         249 => array(
             'Id' => 249,
@@ -1081,7 +1189,11 @@ class LensType extends AbstractTag
         ),
         250 => array(
             'Id' => 250,
-            'Label' => 'Canon EF 24 f/1.4L II',
+            'Label' => 'Canon EF 24mm f/1.4L II or Sigma Lens',
+        ),
+        '250.1' => array(
+            'Id' => '250.1',
+            'Label' => 'Sigma 20mm f/1.4 DG HSM | A',
         ),
         251 => array(
             'Id' => 251,
@@ -1101,7 +1213,11 @@ class LensType extends AbstractTag
         ),
         255 => array(
             'Id' => 255,
-            'Label' => 'Sigma 24-105mm f/4 DG OS HSM | A',
+            'Label' => 'Sigma 24-105mm f/4 DG OS HSM | A or Other Sigma Lens',
+        ),
+        '255.1' => array(
+            'Id' => '255.1',
+            'Label' => 'Sigma 180mm f/2.8 EX DG OS HSM APO Macro',
         ),
         488 => array(
             'Id' => 488,
@@ -1113,7 +1229,7 @@ class LensType extends AbstractTag
         ),
         490 => array(
             'Id' => 490,
-            'Label' => 'Canon EF 8-15mm f/4L USM',
+            'Label' => 'Canon EF 8-15mm f/4L Fisheye USM',
         ),
         491 => array(
             'Id' => 491,
@@ -1125,6 +1241,10 @@ class LensType extends AbstractTag
         ),
         493 => array(
             'Id' => 493,
+            'Label' => 'Canon EF 500mm f/4L IS II USM or EF 24-105mm f4L IS USM',
+        ),
+        '493.1' => array(
+            'Id' => '493.1',
             'Label' => 'Canon EF 24-105mm f/4L IS USM',
         ),
         494 => array(
@@ -1159,9 +1279,25 @@ class LensType extends AbstractTag
             'Id' => 505,
             'Label' => 'Canon EF 35mm f/2 IS USM',
         ),
+        506 => array(
+            'Id' => 506,
+            'Label' => 'Canon EF 400mm f/4 DO IS II USM',
+        ),
         507 => array(
             'Id' => 507,
             'Label' => 'Canon EF 16-35mm f/4L IS USM',
+        ),
+        508 => array(
+            'Id' => 508,
+            'Label' => 'Canon EF 11-24mm f/4L USM',
+        ),
+        747 => array(
+            'Id' => 747,
+            'Label' => 'Canon EF 100-400mm f/4.5-5.6L IS II USM',
+        ),
+        750 => array(
+            'Id' => 750,
+            'Label' => 'Canon EF 35mm f/1.4L II USM',
         ),
         4142 => array(
             'Id' => 4142,
@@ -1169,7 +1305,11 @@ class LensType extends AbstractTag
         ),
         4143 => array(
             'Id' => 4143,
-            'Label' => 'Canon EF-M 18-55mm f/3.5-5.6 IS STM',
+            'Label' => 'Canon EF-M 18-55mm f/3.5-5.6 IS STM or Tamron Lens',
+        ),
+        '4143.1' => array(
+            'Id' => '4143.1',
+            'Label' => 'Tamron 18-200mm F/3.5-6.3 Di III VC',
         ),
         4144 => array(
             'Id' => 4144,
@@ -1198,6 +1338,30 @@ class LensType extends AbstractTag
         4150 => array(
             'Id' => 4150,
             'Label' => 'Canon EF-S 10-18mm f/4.5-5.6 IS STM',
+        ),
+        4152 => array(
+            'Id' => 4152,
+            'Label' => 'Canon EF 24-105mm f/3.5-5.6 IS STM',
+        ),
+        4153 => array(
+            'Id' => 4153,
+            'Label' => 'Canon EF-M 15-45mm f/3.5-6.3 IS STM',
+        ),
+        4154 => array(
+            'Id' => 4154,
+            'Label' => 'Canon EF-S 24mm f/2.8 STM',
+        ),
+        4156 => array(
+            'Id' => 4156,
+            'Label' => 'Canon EF 50mm f/1.8 STM',
+        ),
+        36912 => array(
+            'Id' => 36912,
+            'Label' => 'Canon EF-S 18-135mm f/3.5-5.6 IS USM',
+        ),
+        65535 => array(
+            'Id' => 65535,
+            'Label' => 'n/a',
         ),
     );
 

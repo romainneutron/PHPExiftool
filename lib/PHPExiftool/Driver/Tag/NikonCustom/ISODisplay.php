@@ -75,6 +75,18 @@ class ISODisplay extends AbstractTag
             'Id' => 12,
             'Label' => 'Show Frame Count',
         ),
+        8 => array(
+            'Id' => 0,
+            'Label' => 'Show ISO/Easy ISO',
+        ),
+        9 => array(
+            'Id' => 4,
+            'Label' => 'Show ISO Sensitivity',
+        ),
+        10 => array(
+            'Id' => 12,
+            'Label' => 'Show Frame Count',
+        ),
     );
 
 }

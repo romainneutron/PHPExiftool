@@ -20,11 +20,11 @@ use PHPExiftool\Driver\AbstractTag;
 class RearDisplay extends AbstractTag
 {
 
-    protected $Id = '12.3';
+    protected $Id = 'mixed';
 
     protected $Name = 'RearDisplay';
 
-    protected $FullName = 'NikonCustom::SettingsD3';
+    protected $FullName = 'mixed';
 
     protected $GroupName = 'NikonCustom';
 
@@ -47,8 +47,16 @@ class RearDisplay extends AbstractTag
             'Id' => 0,
             'Label' => 'ISO',
         ),
-        128 => array(
+        1 => array(
             'Id' => 128,
+            'Label' => 'Exposures Remaining',
+        ),
+        2 => array(
+            'Id' => 0,
+            'Label' => 'ISO',
+        ),
+        3 => array(
+            'Id' => 64,
             'Label' => 'Exposures Remaining',
         ),
     );

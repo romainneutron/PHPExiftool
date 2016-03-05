@@ -205,123 +205,303 @@ class PreviewButton extends AbstractTag
         ),
         40 => array(
             'Id' => 64,
-            'Label' => 'AF-ON',
+            'Label' => 'AF-On',
         ),
         41 => array(
-            'Id' => 72,
-            'Label' => 'Flash Off',
-        ),
-        42 => array(
             'Id' => 80,
             'Label' => 'Bracketing Burst',
         ),
-        43 => array(
+        42 => array(
             'Id' => 88,
             'Label' => 'Matrix Metering',
         ),
-        44 => array(
+        43 => array(
             'Id' => 96,
             'Label' => 'Center-weighted Metering',
         ),
-        45 => array(
+        44 => array(
             'Id' => 104,
             'Label' => 'Spot Metering',
         ),
-        46 => array(
+        45 => array(
             'Id' => 112,
-            'Label' => 'My Menu Top',
+            'Label' => 'Playback',
+        ),
+        46 => array(
+            'Id' => 120,
+            'Label' => 'My Menu Top Item',
         ),
         47 => array(
-            'Id' => 120,
-            'Label' => 'Live View',
+            'Id' => 128,
+            'Label' => '+NEF(RAW)',
         ),
         48 => array(
-            'Id' => 128,
-            'Label' => '+ NEF (RAW)',
-        ),
-        49 => array(
             'Id' => 136,
             'Label' => 'Virtual Horizon',
         ),
+        49 => array(
+            'Id' => 144,
+            'Label' => 'My Menu',
+        ),
         50 => array(
-            'Id' => 0,
+            'Id' => 160,
             'Label' => 'Grid Display',
         ),
         51 => array(
-            'Id' => 8,
-            'Label' => 'FV Lock',
+            'Id' => 168,
+            'Label' => 'Disable Synchronized Release',
         ),
         52 => array(
-            'Id' => 16,
-            'Label' => 'Flash Off',
+            'Id' => 176,
+            'Label' => 'Remote Release Only',
         ),
         53 => array(
-            'Id' => 24,
-            'Label' => 'Matrix Metering',
+            'Id' => 208,
+            'Label' => 'Flash Disable/Enable',
         ),
         54 => array(
-            'Id' => 32,
-            'Label' => 'Center-weighted Metering',
+            'Id' => 0,
+            'Label' => 'None',
         ),
         55 => array(
-            'Id' => 40,
-            'Label' => 'Spot Metering',
-        ),
-        56 => array(
-            'Id' => 48,
-            'Label' => 'My Menu Top',
-        ),
-        57 => array(
-            'Id' => 56,
-            'Label' => '+ NEF (RAW)',
-        ),
-        58 => array(
-            'Id' => 64,
-            'Label' => 'Active D-Lighting',
-        ),
-        59 => array(
-            'Id' => 72,
+            'Id' => 8,
             'Label' => 'Preview',
         ),
-        60 => array(
-            'Id' => 80,
+        56 => array(
+            'Id' => 16,
+            'Label' => 'FV Lock',
+        ),
+        57 => array(
+            'Id' => 24,
             'Label' => 'AE/AF Lock',
         ),
-        61 => array(
-            'Id' => 88,
+        58 => array(
+            'Id' => 32,
             'Label' => 'AE Lock Only',
         ),
-        62 => array(
-            'Id' => 96,
-            'Label' => 'AF Lock Only',
+        59 => array(
+            'Id' => 40,
+            'Label' => 'AE Lock (reset on release)',
         ),
-        63 => array(
-            'Id' => 104,
+        60 => array(
+            'Id' => 48,
             'Label' => 'AE Lock (hold)',
         ),
+        61 => array(
+            'Id' => 56,
+            'Label' => 'AF Lock Only',
+        ),
+        62 => array(
+            'Id' => 64,
+            'Label' => 'AF-ON',
+        ),
+        63 => array(
+            'Id' => 72,
+            'Label' => 'Flash Off',
+        ),
         64 => array(
-            'Id' => 112,
+            'Id' => 80,
             'Label' => 'Bracketing Burst',
         ),
         65 => array(
+            'Id' => 88,
+            'Label' => 'Matrix Metering',
+        ),
+        66 => array(
+            'Id' => 96,
+            'Label' => 'Center-weighted Metering',
+        ),
+        67 => array(
+            'Id' => 104,
+            'Label' => 'Spot Metering',
+        ),
+        68 => array(
+            'Id' => 112,
+            'Label' => 'My Menu Top',
+        ),
+        69 => array(
+            'Id' => 120,
+            'Label' => 'Live View',
+        ),
+        70 => array(
+            'Id' => 128,
+            'Label' => '+ NEF (RAW)',
+        ),
+        71 => array(
+            'Id' => 136,
+            'Label' => 'Virtual Horizon',
+        ),
+        72 => array(
+            'Id' => 0,
+            'Label' => 'Grid Display',
+        ),
+        73 => array(
+            'Id' => 8,
+            'Label' => 'FV Lock',
+        ),
+        74 => array(
+            'Id' => 16,
+            'Label' => 'Flash Off',
+        ),
+        75 => array(
+            'Id' => 24,
+            'Label' => 'Matrix Metering',
+        ),
+        76 => array(
+            'Id' => 32,
+            'Label' => 'Center-weighted Metering',
+        ),
+        77 => array(
+            'Id' => 40,
+            'Label' => 'Spot Metering',
+        ),
+        78 => array(
+            'Id' => 48,
+            'Label' => 'My Menu Top',
+        ),
+        79 => array(
+            'Id' => 56,
+            'Label' => '+ NEF (RAW)',
+        ),
+        80 => array(
+            'Id' => 64,
+            'Label' => 'Active D-Lighting',
+        ),
+        81 => array(
+            'Id' => 72,
+            'Label' => 'Preview',
+        ),
+        82 => array(
+            'Id' => 80,
+            'Label' => 'AE/AF Lock',
+        ),
+        83 => array(
+            'Id' => 88,
+            'Label' => 'AE Lock Only',
+        ),
+        84 => array(
+            'Id' => 96,
+            'Label' => 'AF Lock Only',
+        ),
+        85 => array(
+            'Id' => 104,
+            'Label' => 'AE Lock (hold)',
+        ),
+        86 => array(
+            'Id' => 112,
+            'Label' => 'Bracketing Burst',
+        ),
+        87 => array(
             'Id' => 120,
             'Label' => 'Playback',
         ),
-        66 => array(
+        88 => array(
             'Id' => 128,
             'Label' => '1EV Step Speed/Aperture',
         ),
-        67 => array(
+        89 => array(
             'Id' => 136,
             'Label' => 'Choose Non-CPU Lens',
         ),
-        68 => array(
+        90 => array(
             'Id' => 144,
             'Label' => 'Virtual Horizon',
         ),
-        69 => array(
+        91 => array(
             'Id' => 152,
             'Label' => 'Start Movie Recording',
+        ),
+        92 => array(
+            'Id' => 0,
+            'Label' => 'None',
+        ),
+        93 => array(
+            'Id' => 1,
+            'Label' => 'Preview',
+        ),
+        94 => array(
+            'Id' => 2,
+            'Label' => 'FV Lock',
+        ),
+        95 => array(
+            'Id' => 3,
+            'Label' => 'AE/AF Lock',
+        ),
+        96 => array(
+            'Id' => 4,
+            'Label' => 'AE Lock Only',
+        ),
+        97 => array(
+            'Id' => 5,
+            'Label' => 'AE Lock (reset on release)',
+        ),
+        98 => array(
+            'Id' => 6,
+            'Label' => 'AE Lock (hold)',
+        ),
+        99 => array(
+            'Id' => 7,
+            'Label' => 'AF Lock Only',
+        ),
+        100 => array(
+            'Id' => 8,
+            'Label' => 'AF-On',
+        ),
+        101 => array(
+            'Id' => 10,
+            'Label' => 'Bracketing Burst',
+        ),
+        102 => array(
+            'Id' => 11,
+            'Label' => 'Matrix Metering',
+        ),
+        103 => array(
+            'Id' => 12,
+            'Label' => 'Center-weighted Metering',
+        ),
+        104 => array(
+            'Id' => 13,
+            'Label' => 'Spot Metering',
+        ),
+        105 => array(
+            'Id' => 14,
+            'Label' => 'Playback',
+        ),
+        106 => array(
+            'Id' => 15,
+            'Label' => 'My Menu Top Item',
+        ),
+        107 => array(
+            'Id' => 16,
+            'Label' => '+NEF(RAW)',
+        ),
+        108 => array(
+            'Id' => 17,
+            'Label' => 'Virtual Horizon',
+        ),
+        109 => array(
+            'Id' => 19,
+            'Label' => 'Grid Display',
+        ),
+        110 => array(
+            'Id' => 20,
+            'Label' => 'My Menu',
+        ),
+        111 => array(
+            'Id' => 21,
+            'Label' => 'Disable Synchronized Release',
+        ),
+        112 => array(
+            'Id' => 22,
+            'Label' => 'Remote Release Only',
+        ),
+        113 => array(
+            'Id' => 26,
+            'Label' => 'Flash Disable/Enable',
+        ),
+        114 => array(
+            'Id' => 27,
+            'Label' => 'Highlight-weighted Metering',
         ),
     );
 

@@ -71,7 +71,7 @@ class GenreID extends AbstractTag
         ),
         9 => array(
             'Id' => 9,
-            'Label' => 'Music|Opera',
+            'Label' => 'Music|Classical|Opera',
         ),
         10 => array(
             'Id' => 10,
@@ -203,7 +203,7 @@ class GenreID extends AbstractTag
         ),
         51 => array(
             'Id' => 51,
-            'Label' => 'Music|K-Pop',
+            'Label' => 'Music|Pop|K-Pop',
         ),
         52 => array(
             'Id' => 52,
@@ -287,7 +287,7 @@ class GenreID extends AbstractTag
         ),
         1018 => array(
             'Id' => 1018,
-            'Label' => 'Music|Classical|Baroque',
+            'Label' => 'Music|Classical|Baroque Era',
         ),
         1019 => array(
             'Id' => 1019,
@@ -315,7 +315,7 @@ class GenreID extends AbstractTag
         ),
         1025 => array(
             'Id' => 1025,
-            'Label' => 'Music|Classical|Medieval',
+            'Label' => 'Music|Classical|Medieval Era',
         ),
         1026 => array(
             'Id' => 1026,
@@ -323,7 +323,7 @@ class GenreID extends AbstractTag
         ),
         1027 => array(
             'Id' => 1027,
-            'Label' => 'Music|Classical|Modern Composition',
+            'Label' => 'Music|Classical|Modern Era',
         ),
         1028 => array(
             'Id' => 1028,
@@ -339,7 +339,7 @@ class GenreID extends AbstractTag
         ),
         1031 => array(
             'Id' => 1031,
-            'Label' => 'Music|Classical|Romantic',
+            'Label' => 'Music|Classical|Romantic Era',
         ),
         1032 => array(
             'Id' => 1032,
@@ -675,7 +675,7 @@ class GenreID extends AbstractTag
         ),
         1117 => array(
             'Id' => 1117,
-            'Label' => 'Music|Latino|Pop Latino',
+            'Label' => 'Music|Latino|Latin Pop',
         ),
         1118 => array(
             'Id' => 1118,
@@ -691,7 +691,7 @@ class GenreID extends AbstractTag
         ),
         1121 => array(
             'Id' => 1121,
-            'Label' => 'Music|Latino|Alternativo & Rock Latino',
+            'Label' => 'Music|Latino|Latin Alternative & Rock',
         ),
         1122 => array(
             'Id' => 1122,
@@ -931,7 +931,7 @@ class GenreID extends AbstractTag
         ),
         1183 => array(
             'Id' => 1183,
-            'Label' => 'Music|Reggae|Dancehall',
+            'Label' => 'Music|Reggae|Modern Dancehall',
         ),
         1184 => array(
             'Id' => 1184,
@@ -1441,6 +1441,10 @@ class GenreID extends AbstractTag
             'Id' => 1325,
             'Label' => 'Podcasts|Government & Organizations',
         ),
+        1337 => array(
+            'Id' => 1337,
+            'Label' => 'Music Videos|Classical|Piano',
+        ),
         1401 => array(
             'Id' => 1401,
             'Label' => 'Podcasts|Arts|Literature',
@@ -1663,7 +1667,7 @@ class GenreID extends AbstractTag
         ),
         1609 => array(
             'Id' => 1609,
-            'Label' => 'Music Videos|Opera',
+            'Label' => 'Music Videos|Classical|Opera',
         ),
         1610 => array(
             'Id' => 1610,
@@ -1951,11 +1955,11 @@ class GenreID extends AbstractTag
         ),
         1685 => array(
             'Id' => 1685,
-            'Label' => 'Music Videos|Jazz|MZGenre.MusicVideo.Jazz.BigBand',
+            'Label' => 'Music Videos|Jazz|Big Band',
         ),
         1686 => array(
             'Id' => 1686,
-            'Label' => 'Music Videos|K-Pop',
+            'Label' => 'Music Videos|Pop|K-Pop',
         ),
         1687 => array(
             'Id' => 1687,
@@ -2243,7 +2247,7 @@ class GenreID extends AbstractTag
         ),
         1759 => array(
             'Id' => 1759,
-            'Label' => 'Music Videos|Classical|Baroque',
+            'Label' => 'Music Videos|Classical|Baroque Era',
         ),
         1760 => array(
             'Id' => 1760,
@@ -2271,7 +2275,7 @@ class GenreID extends AbstractTag
         ),
         1766 => array(
             'Id' => 1766,
-            'Label' => 'Music Videos|Classical|Medieval',
+            'Label' => 'Music Videos|Classical|Medieval Era',
         ),
         1767 => array(
             'Id' => 1767,
@@ -2279,7 +2283,7 @@ class GenreID extends AbstractTag
         ),
         1768 => array(
             'Id' => 1768,
-            'Label' => 'Music Videos|Classical|Modern Composition',
+            'Label' => 'Music Videos|Classical|Modern Era',
         ),
         1769 => array(
             'Id' => 1769,
@@ -2291,7 +2295,7 @@ class GenreID extends AbstractTag
         ),
         1771 => array(
             'Id' => 1771,
-            'Label' => 'Music Videos|Classical|Romantic',
+            'Label' => 'Music Videos|Classical|Romantic Era',
         ),
         1772 => array(
             'Id' => 1772,
@@ -2563,7 +2567,7 @@ class GenreID extends AbstractTag
         ),
         1840 => array(
             'Id' => 1840,
-            'Label' => 'Music Videos|Latin|Alternativo & Rock Latino',
+            'Label' => 'Music Videos|Latin|Alternative & Rock in Spanish',
         ),
         1841 => array(
             'Id' => 1841,
@@ -2583,7 +2587,7 @@ class GenreID extends AbstractTag
         ),
         1845 => array(
             'Id' => 1845,
-            'Label' => 'Music Videos|Latin|Pop Latino',
+            'Label' => 'Music Videos|Latin|Pop in Spanish',
         ),
         1846 => array(
             'Id' => 1846,
@@ -2667,7 +2671,7 @@ class GenreID extends AbstractTag
         ),
         1866 => array(
             'Id' => 1866,
-            'Label' => 'Music Videos|Reggae|Dancehall',
+            'Label' => 'Music Videos|Reggae|Modern Dancehall',
         ),
         1867 => array(
             'Id' => 1867,
@@ -2909,6 +2913,90 @@ class GenreID extends AbstractTag
             'Id' => 1926,
             'Label' => 'Music Videos|Christian & Gospel',
         ),
+        1928 => array(
+            'Id' => 1928,
+            'Label' => 'Music Videos|Classical|Art Song',
+        ),
+        1929 => array(
+            'Id' => 1929,
+            'Label' => 'Music Videos|Classical|Brass & Woodwinds',
+        ),
+        1930 => array(
+            'Id' => 1930,
+            'Label' => 'Music Videos|Classical|Solo Instrumental',
+        ),
+        1931 => array(
+            'Id' => 1931,
+            'Label' => 'Music Videos|Classical|Contemporary Era',
+        ),
+        1932 => array(
+            'Id' => 1932,
+            'Label' => 'Music Videos|Classical|Oratorio',
+        ),
+        1933 => array(
+            'Id' => 1933,
+            'Label' => 'Music Videos|Classical|Cantata',
+        ),
+        1934 => array(
+            'Id' => 1934,
+            'Label' => 'Music Videos|Classical|Electronic',
+        ),
+        1935 => array(
+            'Id' => 1935,
+            'Label' => 'Music Videos|Classical|Sacred',
+        ),
+        1936 => array(
+            'Id' => 1936,
+            'Label' => 'Music Videos|Classical|Guitar',
+        ),
+        1938 => array(
+            'Id' => 1938,
+            'Label' => 'Music Videos|Classical|Violin',
+        ),
+        1939 => array(
+            'Id' => 1939,
+            'Label' => 'Music Videos|Classical|Cello',
+        ),
+        1940 => array(
+            'Id' => 1940,
+            'Label' => 'Music Videos|Classical|Percussion',
+        ),
+        1941 => array(
+            'Id' => 1941,
+            'Label' => 'Music Videos|Electronic|Dubstep',
+        ),
+        1942 => array(
+            'Id' => 1942,
+            'Label' => 'Music Videos|Electronic|Bass',
+        ),
+        1943 => array(
+            'Id' => 1943,
+            'Label' => 'Music Videos|Hip-Hop/Rap|UK Hip-Hop',
+        ),
+        1944 => array(
+            'Id' => 1944,
+            'Label' => 'Music Videos|Reggae|Lovers Rock',
+        ),
+        1945 => array(
+            'Id' => 1945,
+            'Label' => 'Music Videos|Alternative|EMO',
+        ),
+        1946 => array(
+            'Id' => 1946,
+            'Label' => 'Music Videos|Alternative|Pop Punk',
+        ),
+        1947 => array(
+            'Id' => 1947,
+            'Label' => 'Music Videos|Alternative|Indie Pop',
+        ),
+        1948 => array(
+            'Id' => 1948,
+            'Label' => 'Music Videos|New Age|Yoga',
+        ),
+        1949 => array(
+            'Id' => 1949,
+            'Label' => 'Music Videos|Pop|Tribute',
+        ),
         4000 => array(
             'Id' => 4000,
             'Label' => 'TV Shows|Comedy',
@@ -3087,7 +3175,7 @@ class GenreID extends AbstractTag
         ),
         4433 => array(
             'Id' => 4433,
-            'Label' => 'Movies|MiddleEastern',
+            'Label' => 'Movies|Middle Eastern',
         ),
         4434 => array(
             'Id' => 4434,
@@ -3339,7 +3427,7 @@ class GenreID extends AbstractTag
         ),
         8021 => array(
             'Id' => 8021,
-            'Label' => 'Tones|Ringtones|Opera',
+            'Label' => 'Tones|Ringtones|Classical|Opera',
         ),
         8022 => array(
             'Id' => 8022,
@@ -3627,7 +3715,7 @@ class GenreID extends AbstractTag
         ),
         8112 => array(
             'Id' => 8112,
-            'Label' => 'Tones|Ringtones|Classical|Baroque',
+            'Label' => 'Tones|Ringtones|Classical|Baroque Era',
         ),
         8113 => array(
             'Id' => 8113,
@@ -3659,7 +3747,7 @@ class GenreID extends AbstractTag
         ),
         8120 => array(
             'Id' => 8120,
-            'Label' => 'Tones|Ringtones|Classical|Medieval',
+            'Label' => 'Tones|Ringtones|Classical|Medieval Era',
         ),
         8121 => array(
             'Id' => 8121,
@@ -3667,7 +3755,7 @@ class GenreID extends AbstractTag
         ),
         8122 => array(
             'Id' => 8122,
-            'Label' => 'Tones|Ringtones|Classical|Modern Composition',
+            'Label' => 'Tones|Ringtones|Classical|Modern Era',
         ),
         8123 => array(
             'Id' => 8123,
@@ -3679,7 +3767,7 @@ class GenreID extends AbstractTag
         ),
         8125 => array(
             'Id' => 8125,
-            'Label' => 'Tones|Ringtones|Classical|Romantic',
+            'Label' => 'Tones|Ringtones|Classical|Romantic Era',
         ),
         8126 => array(
             'Id' => 8126,
@@ -4031,7 +4119,7 @@ class GenreID extends AbstractTag
         ),
         8214 => array(
             'Id' => 8214,
-            'Label' => 'Tones|Ringtones|K-Pop',
+            'Label' => 'Tones|Ringtones|Pop|K-Pop',
         ),
         8215 => array(
             'Id' => 8215,
@@ -4059,7 +4147,7 @@ class GenreID extends AbstractTag
         ),
         8221 => array(
             'Id' => 8221,
-            'Label' => 'Tones|Ringtones|Latin|Alternativo & Rock Latino',
+            'Label' => 'Tones|Ringtones|Latin|Alternative & Rock in Spanish',
         ),
         8222 => array(
             'Id' => 8222,
@@ -4079,7 +4167,7 @@ class GenreID extends AbstractTag
         ),
         8226 => array(
             'Id' => 8226,
-            'Label' => 'Tones|Ringtones|Latin|Pop Latino',
+            'Label' => 'Tones|Ringtones|Latin|Pop in Spanish',
         ),
         8227 => array(
             'Id' => 8227,
@@ -4219,7 +4307,7 @@ class GenreID extends AbstractTag
         ),
         8261 => array(
             'Id' => 8261,
-            'Label' => 'Tones|Ringtones|Reggae|Dancehall',
+            'Label' => 'Tones|Ringtones|Reggae|Modern Dancehall',
         ),
         8262 => array(
             'Id' => 8262,
@@ -4549,6 +4637,94 @@ class GenreID extends AbstractTag
             'Id' => 8343,
             'Label' => 'Tones|Ringtones|World|Zydeco',
         ),
+        8345 => array(
+            'Id' => 8345,
+            'Label' => 'Tones|Ringtones|Classical|Art Song',
+        ),
+        8346 => array(
+            'Id' => 8346,
+            'Label' => 'Tones|Ringtones|Classical|Brass & Woodwinds',
+        ),
+        8347 => array(
+            'Id' => 8347,
+            'Label' => 'Tones|Ringtones|Classical|Solo Instrumental',
+        ),
+        8348 => array(
+            'Id' => 8348,
+            'Label' => 'Tones|Ringtones|Classical|Contemporary Era',
+        ),
+        8349 => array(
+            'Id' => 8349,
+            'Label' => 'Tones|Ringtones|Classical|Oratorio',
+        ),
+        8350 => array(
+            'Id' => 8350,
+            'Label' => 'Tones|Ringtones|Classical|Cantata',
+        ),
+        8351 => array(
+            'Id' => 8351,
+            'Label' => 'Tones|Ringtones|Classical|Electronic',
+        ),
+        8352 => array(
+            'Id' => 8352,
+            'Label' => 'Tones|Ringtones|Classical|Sacred',
+        ),
+        8353 => array(
+            'Id' => 8353,
+            'Label' => 'Tones|Ringtones|Classical|Guitar',
+        ),
+        8354 => array(
+            'Id' => 8354,
+            'Label' => 'Tones|Ringtones|Classical|Piano',
+        ),
+        8355 => array(
+            'Id' => 8355,
+            'Label' => 'Tones|Ringtones|Classical|Violin',
+        ),
+        8356 => array(
+            'Id' => 8356,
+            'Label' => 'Tones|Ringtones|Classical|Cello',
+        ),
+        8357 => array(
+            'Id' => 8357,
+            'Label' => 'Tones|Ringtones|Classical|Percussion',
+        ),
+        8358 => array(
+            'Id' => 8358,
+            'Label' => 'Tones|Ringtones|Electronic|Dubstep',
+        ),
+        8359 => array(
+            'Id' => 8359,
+            'Label' => 'Tones|Ringtones|Electronic|Bass',
+        ),
+        8360 => array(
+            'Id' => 8360,
+            'Label' => 'Tones|Ringtones|Hip-Hop/Rap|UK Hip Hop',
+        ),
+        8361 => array(
+            'Id' => 8361,
+            'Label' => 'Tones|Ringtones|Reggae|Lovers Rock',
+        ),
+        8362 => array(
+            'Id' => 8362,
+            'Label' => 'Tones|Ringtones|Alternative|EMO',
+        ),
+        8363 => array(
+            'Id' => 8363,
+            'Label' => 'Tones|Ringtones|Alternative|Pop Punk',
+        ),
+        8364 => array(
+            'Id' => 8364,
+            'Label' => 'Tones|Ringtones|Alternative|Indie Pop',
+        ),
+        8365 => array(
+            'Id' => 8365,
+            'Label' => 'Tones|Ringtones|New Age|Yoga',
+        ),
+        8366 => array(
+            'Id' => 8366,
+            'Label' => 'Tones|Ringtones|Pop|Tribute',
+        ),
         9002 => array(
             'Id' => 9002,
             'Label' => 'Books|Nonfiction',
@@ -4867,7 +5043,7 @@ class GenreID extends AbstractTag
         ),
         10056 => array(
             'Id' => 10056,
-            'Label' => 'Books|Romance|Erotica',
+            'Label' => 'Books|Romance|Erotic Romance',
         ),
         10057 => array(
             'Id' => 10057,
@@ -4875,7 +5051,7 @@ class GenreID extends AbstractTag
         ),
         10058 => array(
             'Id' => 10058,
-            'Label' => 'Books|Romance|Fantasy, Futuristic & Ghost',
+            'Label' => 'Books|Romance|Paranormal',
         ),
         10059 => array(
             'Id' => 10059,
@@ -5276,6 +5452,1182 @@ class GenreID extends AbstractTag
         11009 => array(
             'Id' => 11009,
             'Label' => 'Books|Professional & Technical|Education|Language Arts & Disciplines',
+        ),
+        11010 => array(
+            'Id' => 11010,
+            'Label' => 'Books|Communications & Media',
+        ),
+        11011 => array(
+            'Id' => 11011,
+            'Label' => 'Books|Communications & Media|Broadcasting',
+        ),
+        11012 => array(
+            'Id' => 11012,
+            'Label' => 'Books|Communications & Media|Digital Media',
+        ),
+        11013 => array(
+            'Id' => 11013,
+            'Label' => 'Books|Communications & Media|Journalism',
+        ),
+        11014 => array(
+            'Id' => 11014,
+            'Label' => 'Books|Communications & Media|Photojournalism',
+        ),
+        11015 => array(
+            'Id' => 11015,
+            'Label' => 'Books|Communications & Media|Print',
+        ),
+        11016 => array(
+            'Id' => 11016,
+            'Label' => 'Books|Communications & Media|Speech',
+        ),
+        11017 => array(
+            'Id' => 11017,
+            'Label' => 'Books|Communications & Media|Writing',
+        ),
+        11018 => array(
+            'Id' => 11018,
+            'Label' => 'Books|Arts & Entertainment|Art & Architecture|Urban Planning',
+        ),
+        11019 => array(
+            'Id' => 11019,
+            'Label' => 'Books|Arts & Entertainment|Dance',
+        ),
+        11020 => array(
+            'Id' => 11020,
+            'Label' => 'Books|Arts & Entertainment|Fashion',
+        ),
+        11021 => array(
+            'Id' => 11021,
+            'Label' => 'Books|Arts & Entertainment|Film',
+        ),
+        11022 => array(
+            'Id' => 11022,
+            'Label' => 'Books|Arts & Entertainment|Interior Design',
+        ),
+        11023 => array(
+            'Id' => 11023,
+            'Label' => 'Books|Arts & Entertainment|Media Arts',
+        ),
+        11024 => array(
+            'Id' => 11024,
+            'Label' => 'Books|Arts & Entertainment|Radio',
+        ),
+        11025 => array(
+            'Id' => 11025,
+            'Label' => 'Books|Arts & Entertainment|TV',
+        ),
+        11026 => array(
+            'Id' => 11026,
+            'Label' => 'Books|Arts & Entertainment|Visual Arts',
+        ),
+        11027 => array(
+            'Id' => 11027,
+            'Label' => 'Books|Biographies & Memoirs|Arts & Entertainment',
+        ),
+        11028 => array(
+            'Id' => 11028,
+            'Label' => 'Books|Biographies & Memoirs|Business',
+        ),
+        11029 => array(
+            'Id' => 11029,
+            'Label' => 'Books|Biographies & Memoirs|Culinary',
+        ),
+        11030 => array(
+            'Id' => 11030,
+            'Label' => 'Books|Biographies & Memoirs|Gay & Lesbian',
+        ),
+        11031 => array(
+            'Id' => 11031,
+            'Label' => 'Books|Biographies & Memoirs|Historical',
+        ),
+        11032 => array(
+            'Id' => 11032,
+            'Label' => 'Books|Biographies & Memoirs|Literary',
+        ),
+        11033 => array(
+            'Id' => 11033,
+            'Label' => 'Books|Biographies & Memoirs|Media & Journalism',
+        ),
+        11034 => array(
+            'Id' => 11034,
+            'Label' => 'Books|Biographies & Memoirs|Military',
+        ),
+        11035 => array(
+            'Id' => 11035,
+            'Label' => 'Books|Biographies & Memoirs|Politics',
+        ),
+        11036 => array(
+            'Id' => 11036,
+            'Label' => 'Books|Biographies & Memoirs|Religious',
+        ),
+        11037 => array(
+            'Id' => 11037,
+            'Label' => 'Books|Biographies & Memoirs|Science & Technology',
+        ),
+        11038 => array(
+            'Id' => 11038,
+            'Label' => 'Books|Biographies & Memoirs|Sports',
+        ),
+        11039 => array(
+            'Id' => 11039,
+            'Label' => 'Books|Biographies & Memoirs|Women',
+        ),
+        11040 => array(
+            'Id' => 11040,
+            'Label' => 'Books|Romance|New Adult',
+        ),
+        11042 => array(
+            'Id' => 11042,
+            'Label' => 'Books|Romance|Romantic Comedy',
+        ),
+        11043 => array(
+            'Id' => 11043,
+            'Label' => 'Books|Romance|Gay & Lesbian',
+        ),
+        11044 => array(
+            'Id' => 11044,
+            'Label' => 'Books|Fiction & Literature|Essays',
+        ),
+        11045 => array(
+            'Id' => 11045,
+            'Label' => 'Books|Fiction & Literature|Anthologies',
+        ),
+        11046 => array(
+            'Id' => 11046,
+            'Label' => 'Books|Fiction & Literature|Comparative Literature',
+        ),
+        11047 => array(
+            'Id' => 11047,
+            'Label' => 'Books|Fiction & Literature|Drama',
+        ),
+        11049 => array(
+            'Id' => 11049,
+            'Label' => 'Books|Fiction & Literature|Fairy Tales, Myths & Fables',
+        ),
+        11050 => array(
+            'Id' => 11050,
+            'Label' => 'Books|Fiction & Literature|Family',
+        ),
+        11051 => array(
+            'Id' => 11051,
+            'Label' => 'Books|Comics & Graphic Novels|Manga|School Drama',
+        ),
+        11052 => array(
+            'Id' => 11052,
+            'Label' => 'Books|Comics & Graphic Novels|Manga|Human Drama',
+        ),
+        11053 => array(
+            'Id' => 11053,
+            'Label' => 'Books|Comics & Graphic Novels|Manga|Family Drama',
+        ),
+        11054 => array(
+            'Id' => 11054,
+            'Label' => 'Books|Sports & Outdoors|Boxing',
+        ),
+        11055 => array(
+            'Id' => 11055,
+            'Label' => 'Books|Sports & Outdoors|Cricket',
+        ),
+        11056 => array(
+            'Id' => 11056,
+            'Label' => 'Books|Sports & Outdoors|Cycling',
+        ),
+        11057 => array(
+            'Id' => 11057,
+            'Label' => 'Books|Sports & Outdoors|Equestrian',
+        ),
+        11058 => array(
+            'Id' => 11058,
+            'Label' => 'Books|Sports & Outdoors|Martial Arts & Self Defense',
+        ),
+        11059 => array(
+            'Id' => 11059,
+            'Label' => 'Books|Sports & Outdoors|Motor Sports',
+        ),
+        11060 => array(
+            'Id' => 11060,
+            'Label' => 'Books|Sports & Outdoors|Rugby',
+        ),
+        11061 => array(
+            'Id' => 11061,
+            'Label' => 'Books|Sports & Outdoors|Running',
+        ),
+        11062 => array(
+            'Id' => 11062,
+            'Label' => 'Books|Health, Mind & Body|Diet & Nutrition',
+        ),
+        11063 => array(
+            'Id' => 11063,
+            'Label' => 'Books|Science & Nature|Agriculture',
+        ),
+        11064 => array(
+            'Id' => 11064,
+            'Label' => 'Books|Science & Nature|Atmosphere',
+        ),
+        11065 => array(
+            'Id' => 11065,
+            'Label' => 'Books|Science & Nature|Biology',
+        ),
+        11066 => array(
+            'Id' => 11066,
+            'Label' => 'Books|Science & Nature|Ecology',
+        ),
+        11067 => array(
+            'Id' => 11067,
+            'Label' => 'Books|Science & Nature|Environment',
+        ),
+        11068 => array(
+            'Id' => 11068,
+            'Label' => 'Books|Science & Nature|Geography',
+        ),
+        11069 => array(
+            'Id' => 11069,
+            'Label' => 'Books|Science & Nature|Geology',
+        ),
+        11070 => array(
+            'Id' => 11070,
+            'Label' => 'Books|Nonfiction|Social Science|Anthropology',
+        ),
+        11071 => array(
+            'Id' => 11071,
+            'Label' => 'Books|Nonfiction|Social Science|Archaeology',
+        ),
+        11072 => array(
+            'Id' => 11072,
+            'Label' => 'Books|Nonfiction|Social Science|Civics',
+        ),
+        11073 => array(
+            'Id' => 11073,
+            'Label' => 'Books|Nonfiction|Social Science|Government',
+        ),
+        11074 => array(
+            'Id' => 11074,
+            'Label' => 'Books|Nonfiction|Social Science|Social Studies',
+        ),
+        11075 => array(
+            'Id' => 11075,
+            'Label' => 'Books|Nonfiction|Social Science|Social Welfare',
+        ),
+        11076 => array(
+            'Id' => 11076,
+            'Label' => 'Books|Nonfiction|Social Science|Society',
+        ),
+        11077 => array(
+            'Id' => 11077,
+            'Label' => 'Books|Nonfiction|Philosophy|Aesthetics',
+        ),
+        11078 => array(
+            'Id' => 11078,
+            'Label' => 'Books|Nonfiction|Philosophy|Epistemology',
+        ),
+        11079 => array(
+            'Id' => 11079,
+            'Label' => 'Books|Nonfiction|Philosophy|Ethics',
+        ),
+        11080 => array(
+            'Id' => 11080,
+            'Label' => 'Books|Nonfiction|Philosophy|Language',
+        ),
+        11081 => array(
+            'Id' => 11081,
+            'Label' => 'Books|Nonfiction|Philosophy|Logic',
+        ),
+        11082 => array(
+            'Id' => 11082,
+            'Label' => 'Books|Nonfiction|Philosophy|Metaphysics',
+        ),
+        11083 => array(
+            'Id' => 11083,
+            'Label' => 'Books|Nonfiction|Philosophy|Political',
+        ),
+        11084 => array(
+            'Id' => 11084,
+            'Label' => 'Books|Nonfiction|Philosophy|Religion',
+        ),
+        11085 => array(
+            'Id' => 11085,
+            'Label' => 'Books|Reference|Manuals',
+        ),
+        11086 => array(
+            'Id' => 11086,
+            'Label' => 'Books|Kids',
+        ),
+        11087 => array(
+            'Id' => 11087,
+            'Label' => 'Books|Kids|Animals',
+        ),
+        11088 => array(
+            'Id' => 11088,
+            'Label' => 'Books|Kids|Basic Concepts',
+        ),
+        11089 => array(
+            'Id' => 11089,
+            'Label' => 'Books|Kids|Basic Concepts|Alphabet',
+        ),
+        11090 => array(
+            'Id' => 11090,
+            'Label' => 'Books|Kids|Basic Concepts|Body',
+        ),
+        11091 => array(
+            'Id' => 11091,
+            'Label' => 'Books|Kids|Basic Concepts|Colors',
+        ),
+        11092 => array(
+            'Id' => 11092,
+            'Label' => 'Books|Kids|Basic Concepts|Counting & Numbers',
+        ),
+        11093 => array(
+            'Id' => 11093,
+            'Label' => 'Books|Kids|Basic Concepts|Date & Time',
+        ),
+        11094 => array(
+            'Id' => 11094,
+            'Label' => 'Books|Kids|Basic Concepts|General',
+        ),
+        11095 => array(
+            'Id' => 11095,
+            'Label' => 'Books|Kids|Basic Concepts|Money',
+        ),
+        11096 => array(
+            'Id' => 11096,
+            'Label' => 'Books|Kids|Basic Concepts|Opposites',
+        ),
+        11097 => array(
+            'Id' => 11097,
+            'Label' => 'Books|Kids|Basic Concepts|Seasons',
+        ),
+        11098 => array(
+            'Id' => 11098,
+            'Label' => 'Books|Kids|Basic Concepts|Senses & Sensation',
+        ),
+        11099 => array(
+            'Id' => 11099,
+            'Label' => 'Books|Kids|Basic Concepts|Size & Shape',
+        ),
+        11100 => array(
+            'Id' => 11100,
+            'Label' => 'Books|Kids|Basic Concepts|Sounds',
+        ),
+        11101 => array(
+            'Id' => 11101,
+            'Label' => 'Books|Kids|Basic Concepts|Words',
+        ),
+        11102 => array(
+            'Id' => 11102,
+            'Label' => 'Books|Kids|Biography',
+        ),
+        11103 => array(
+            'Id' => 11103,
+            'Label' => 'Books|Kids|Careers & Occupations',
+        ),
+        11104 => array(
+            'Id' => 11104,
+            'Label' => 'Books|Kids|Computers & Technology',
+        ),
+        11105 => array(
+            'Id' => 11105,
+            'Label' => 'Books|Kids|Cooking & Food',
+        ),
+        11106 => array(
+            'Id' => 11106,
+            'Label' => 'Books|Kids|Arts & Entertainment',
+        ),
+        11107 => array(
+            'Id' => 11107,
+            'Label' => 'Books|Kids|Arts & Entertainment|Art',
+        ),
+        11108 => array(
+            'Id' => 11108,
+            'Label' => 'Books|Kids|Arts & Entertainment|Crafts',
+        ),
+        11109 => array(
+            'Id' => 11109,
+            'Label' => 'Books|Kids|Arts & Entertainment|Music',
+        ),
+        11110 => array(
+            'Id' => 11110,
+            'Label' => 'Books|Kids|Arts & Entertainment|Performing Arts',
+        ),
+        11111 => array(
+            'Id' => 11111,
+            'Label' => 'Books|Kids|Family',
+        ),
+        11112 => array(
+            'Id' => 11112,
+            'Label' => 'Books|Kids|Fiction',
+        ),
+        11113 => array(
+            'Id' => 11113,
+            'Label' => 'Books|Kids|Fiction|Action & Adventure',
+        ),
+        11114 => array(
+            'Id' => 11114,
+            'Label' => 'Books|Kids|Fiction|Animals',
+        ),
+        11115 => array(
+            'Id' => 11115,
+            'Label' => 'Books|Kids|Fiction|Classics',
+        ),
+        11116 => array(
+            'Id' => 11116,
+            'Label' => 'Books|Kids|Fiction|Comics & Graphic Novels',
+        ),
+        11117 => array(
+            'Id' => 11117,
+            'Label' => 'Books|Kids|Fiction|Culture, Places & People',
+        ),
+        11118 => array(
+            'Id' => 11118,
+            'Label' => 'Books|Kids|Fiction|Family & Relationships',
+        ),
+        11119 => array(
+            'Id' => 11119,
+            'Label' => 'Books|Kids|Fiction|Fantasy',
+        ),
+        11120 => array(
+            'Id' => 11120,
+            'Label' => 'Books|Kids|Fiction|Fairy Tales, Myths & Fables',
+        ),
+        11121 => array(
+            'Id' => 11121,
+            'Label' => 'Books|Kids|Fiction|Favorite Characters',
+        ),
+        11122 => array(
+            'Id' => 11122,
+            'Label' => 'Books|Kids|Fiction|Historical',
+        ),
+        11123 => array(
+            'Id' => 11123,
+            'Label' => 'Books|Kids|Fiction|Holidays & Celebrations',
+        ),
+        11124 => array(
+            'Id' => 11124,
+            'Label' => 'Books|Kids|Fiction|Monsters & Ghosts',
+        ),
+        11125 => array(
+            'Id' => 11125,
+            'Label' => 'Books|Kids|Fiction|Mysteries',
+        ),
+        11126 => array(
+            'Id' => 11126,
+            'Label' => 'Books|Kids|Fiction|Nature',
+        ),
+        11127 => array(
+            'Id' => 11127,
+            'Label' => 'Books|Kids|Fiction|Religion',
+        ),
+        11128 => array(
+            'Id' => 11128,
+            'Label' => 'Books|Kids|Fiction|Sci-Fi',
+        ),
+        11129 => array(
+            'Id' => 11129,
+            'Label' => 'Books|Kids|Fiction|Social Issues',
+        ),
+        11130 => array(
+            'Id' => 11130,
+            'Label' => 'Books|Kids|Fiction|Sports & Recreation',
+        ),
+        11131 => array(
+            'Id' => 11131,
+            'Label' => 'Books|Kids|Fiction|Transportation',
+        ),
+        11132 => array(
+            'Id' => 11132,
+            'Label' => 'Books|Kids|Games & Activities',
+        ),
+        11133 => array(
+            'Id' => 11133,
+            'Label' => 'Books|Kids|General Nonfiction',
+        ),
+        11134 => array(
+            'Id' => 11134,
+            'Label' => 'Books|Kids|Health',
+        ),
+        11135 => array(
+            'Id' => 11135,
+            'Label' => 'Books|Kids|History',
+        ),
+        11136 => array(
+            'Id' => 11136,
+            'Label' => 'Books|Kids|Holidays & Celebrations',
+        ),
+        11137 => array(
+            'Id' => 11137,
+            'Label' => 'Books|Kids|Holidays & Celebrations|Birthdays',
+        ),
+        11138 => array(
+            'Id' => 11138,
+            'Label' => 'Books|Kids|Holidays & Celebrations|Christmas & Advent',
+        ),
+        11139 => array(
+            'Id' => 11139,
+            'Label' => 'Books|Kids|Holidays & Celebrations|Easter & Lent',
+        ),
+        11140 => array(
+            'Id' => 11140,
+            'Label' => 'Books|Kids|Holidays & Celebrations|General',
+        ),
+        11141 => array(
+            'Id' => 11141,
+            'Label' => 'Books|Kids|Holidays & Celebrations|Halloween',
+        ),
+        11142 => array(
+            'Id' => 11142,
+            'Label' => 'Books|Kids|Holidays & Celebrations|Hanukkah',
+        ),
+        11143 => array(
+            'Id' => 11143,
+            'Label' => 'Books|Kids|Holidays & Celebrations|Other',
+        ),
+        11144 => array(
+            'Id' => 11144,
+            'Label' => 'Books|Kids|Holidays & Celebrations|Passover',
+        ),
+        11145 => array(
+            'Id' => 11145,
+            'Label' => 'Books|Kids|Holidays & Celebrations|Patriotic Holidays',
+        ),
+        11146 => array(
+            'Id' => 11146,
+            'Label' => 'Books|Kids|Holidays & Celebrations|Ramadan',
+        ),
+        11147 => array(
+            'Id' => 11147,
+            'Label' => 'Books|Kids|Holidays & Celebrations|Thanksgiving',
+        ),
+        11148 => array(
+            'Id' => 11148,
+            'Label' => 'Books|Kids|Holidays & Celebrations|Valentine\'s Day',
+        ),
+        11149 => array(
+            'Id' => 11149,
+            'Label' => 'Books|Kids|Humor',
+        ),
+        11150 => array(
+            'Id' => 11150,
+            'Label' => 'Books|Kids|Humor|Jokes & Riddles',
+        ),
+        11151 => array(
+            'Id' => 11151,
+            'Label' => 'Books|Kids|Poetry',
+        ),
+        11152 => array(
+            'Id' => 11152,
+            'Label' => 'Books|Kids|Learning to Read',
+        ),
+        11153 => array(
+            'Id' => 11153,
+            'Label' => 'Books|Kids|Learning to Read|Chapter Books',
+        ),
+        11154 => array(
+            'Id' => 11154,
+            'Label' => 'Books|Kids|Learning to Read|Early Readers',
+        ),
+        11155 => array(
+            'Id' => 11155,
+            'Label' => 'Books|Kids|Learning to Read|Intermediate Readers',
+        ),
+        11156 => array(
+            'Id' => 11156,
+            'Label' => 'Books|Kids|Nursery Rhymes',
+        ),
+        11157 => array(
+            'Id' => 11157,
+            'Label' => 'Books|Kids|Government',
+        ),
+        11158 => array(
+            'Id' => 11158,
+            'Label' => 'Books|Kids|Reference',
+        ),
+        11159 => array(
+            'Id' => 11159,
+            'Label' => 'Books|Kids|Religion',
+        ),
+        11160 => array(
+            'Id' => 11160,
+            'Label' => 'Books|Kids|Science & Nature',
+        ),
+        11161 => array(
+            'Id' => 11161,
+            'Label' => 'Books|Kids|Social Issues',
+        ),
+        11162 => array(
+            'Id' => 11162,
+            'Label' => 'Books|Kids|Social Studies',
+        ),
+        11163 => array(
+            'Id' => 11163,
+            'Label' => 'Books|Kids|Sports & Recreation',
+        ),
+        11164 => array(
+            'Id' => 11164,
+            'Label' => 'Books|Kids|Transportation',
+        ),
+        11165 => array(
+            'Id' => 11165,
+            'Label' => 'Books|Young Adult',
+        ),
+        11166 => array(
+            'Id' => 11166,
+            'Label' => 'Books|Young Adult|Animals',
+        ),
+        11167 => array(
+            'Id' => 11167,
+            'Label' => 'Books|Young Adult|Biography',
+        ),
+        11168 => array(
+            'Id' => 11168,
+            'Label' => 'Books|Young Adult|Careers & Occupations',
+        ),
+        11169 => array(
+            'Id' => 11169,
+            'Label' => 'Books|Young Adult|Computers & Technology',
+        ),
+        11170 => array(
+            'Id' => 11170,
+            'Label' => 'Books|Young Adult|Cooking & Food',
+        ),
+        11171 => array(
+            'Id' => 11171,
+            'Label' => 'Books|Young Adult|Arts & Entertainment',
+        ),
+        11172 => array(
+            'Id' => 11172,
+            'Label' => 'Books|Young Adult|Arts & Entertainment|Art',
+        ),
+        11173 => array(
+            'Id' => 11173,
+            'Label' => 'Books|Young Adult|Arts & Entertainment|Crafts',
+        ),
+        11174 => array(
+            'Id' => 11174,
+            'Label' => 'Books|Young Adult|Arts & Entertainment|Music',
+        ),
+        11175 => array(
+            'Id' => 11175,
+            'Label' => 'Books|Young Adult|Arts & Entertainment|Performing Arts',
+        ),
+        11176 => array(
+            'Id' => 11176,
+            'Label' => 'Books|Young Adult|Family',
+        ),
+        11177 => array(
+            'Id' => 11177,
+            'Label' => 'Books|Young Adult|Fiction',
+        ),
+        11178 => array(
+            'Id' => 11178,
+            'Label' => 'Books|Young Adult|Fiction|Action & Adventure',
+        ),
+        11179 => array(
+            'Id' => 11179,
+            'Label' => 'Books|Young Adult|Fiction|Animals',
+        ),
+        11180 => array(
+            'Id' => 11180,
+            'Label' => 'Books|Young Adult|Fiction|Classics',
+        ),
+        11181 => array(
+            'Id' => 11181,
+            'Label' => 'Books|Young Adult|Fiction|Comics & Graphic Novels',
+        ),
+        11182 => array(
+            'Id' => 11182,
+            'Label' => 'Books|Young Adult|Fiction|Culture, Places & People',
+        ),
+        11183 => array(
+            'Id' => 11183,
+            'Label' => 'Books|Young Adult|Fiction|Dystopian',
+        ),
+        11184 => array(
+            'Id' => 11184,
+            'Label' => 'Books|Young Adult|Fiction|Family & Relationships',
+        ),
+        11185 => array(
+            'Id' => 11185,
+            'Label' => 'Books|Young Adult|Fiction|Fantasy',
+        ),
+        11186 => array(
+            'Id' => 11186,
+            'Label' => 'Books|Young Adult|Fiction|Fairy Tales, Myths & Fables',
+        ),
+        11187 => array(
+            'Id' => 11187,
+            'Label' => 'Books|Young Adult|Fiction|Favorite Characters',
+        ),
+        11188 => array(
+            'Id' => 11188,
+            'Label' => 'Books|Young Adult|Fiction|Historical',
+        ),
+        11189 => array(
+            'Id' => 11189,
+            'Label' => 'Books|Young Adult|Fiction|Holidays & Celebrations',
+        ),
+        11190 => array(
+            'Id' => 11190,
+            'Label' => 'Books|Young Adult|Fiction|Horror, Monsters & Ghosts',
+        ),
+        11191 => array(
+            'Id' => 11191,
+            'Label' => 'Books|Young Adult|Fiction|Crime & Mystery',
+        ),
+        11192 => array(
+            'Id' => 11192,
+            'Label' => 'Books|Young Adult|Fiction|Nature',
+        ),
+        11193 => array(
+            'Id' => 11193,
+            'Label' => 'Books|Young Adult|Fiction|Religion',
+        ),
+        11194 => array(
+            'Id' => 11194,
+            'Label' => 'Books|Young Adult|Fiction|Romance',
+        ),
+        11195 => array(
+            'Id' => 11195,
+            'Label' => 'Books|Young Adult|Fiction|Sci-Fi',
+        ),
+        11196 => array(
+            'Id' => 11196,
+            'Label' => 'Books|Young Adult|Fiction|Coming of Age',
+        ),
+        11197 => array(
+            'Id' => 11197,
+            'Label' => 'Books|Young Adult|Fiction|Sports & Recreation',
+        ),
+        11198 => array(
+            'Id' => 11198,
+            'Label' => 'Books|Young Adult|Fiction|Transportation',
+        ),
+        11199 => array(
+            'Id' => 11199,
+            'Label' => 'Books|Young Adult|Games & Activities',
+        ),
+        11200 => array(
+            'Id' => 11200,
+            'Label' => 'Books|Young Adult|General Nonfiction',
+        ),
+        11201 => array(
+            'Id' => 11201,
+            'Label' => 'Books|Young Adult|Health',
+        ),
+        11202 => array(
+            'Id' => 11202,
+            'Label' => 'Books|Young Adult|History',
+        ),
+        11203 => array(
+            'Id' => 11203,
+            'Label' => 'Books|Young Adult|Holidays & Celebrations',
+        ),
+        11204 => array(
+            'Id' => 11204,
+            'Label' => 'Books|Young Adult|Holidays & Celebrations|Birthdays',
+        ),
+        11205 => array(
+            'Id' => 11205,
+            'Label' => 'Books|Young Adult|Holidays & Celebrations|Christmas & Advent',
+        ),
+        11206 => array(
+            'Id' => 11206,
+            'Label' => 'Books|Young Adult|Holidays & Celebrations|Easter & Lent',
+        ),
+        11207 => array(
+            'Id' => 11207,
+            'Label' => 'Books|Young Adult|Holidays & Celebrations|General',
+        ),
+        11208 => array(
+            'Id' => 11208,
+            'Label' => 'Books|Young Adult|Holidays & Celebrations|Halloween',
+        ),
+        11209 => array(
+            'Id' => 11209,
+            'Label' => 'Books|Young Adult|Holidays & Celebrations|Hanukkah',
+        ),
+        11210 => array(
+            'Id' => 11210,
+            'Label' => 'Books|Young Adult|Holidays & Celebrations|Other',
+        ),
+        11211 => array(
+            'Id' => 11211,
+            'Label' => 'Books|Young Adult|Holidays & Celebrations|Passover',
+        ),
+        11212 => array(
+            'Id' => 11212,
+            'Label' => 'Books|Young Adult|Holidays & Celebrations|Patriotic Holidays',
+        ),
+        11213 => array(
+            'Id' => 11213,
+            'Label' => 'Books|Young Adult|Holidays & Celebrations|Ramadan',
+        ),
+        11214 => array(
+            'Id' => 11214,
+            'Label' => 'Books|Young Adult|Holidays & Celebrations|Thanksgiving',
+        ),
+        11215 => array(
+            'Id' => 11215,
+            'Label' => 'Books|Young Adult|Holidays & Celebrations|Valentine\'s Day',
+        ),
+        11216 => array(
+            'Id' => 11216,
+            'Label' => 'Books|Young Adult|Humor',
+        ),
+        11217 => array(
+            'Id' => 11217,
+            'Label' => 'Books|Young Adult|Humor|Jokes & Riddles',
+        ),
+        11218 => array(
+            'Id' => 11218,
+            'Label' => 'Books|Young Adult|Poetry',
+        ),
+        11219 => array(
+            'Id' => 11219,
+            'Label' => 'Books|Young Adult|Politics & Government',
+        ),
+        11220 => array(
+            'Id' => 11220,
+            'Label' => 'Books|Young Adult|Reference',
+        ),
+        11221 => array(
+            'Id' => 11221,
+            'Label' => 'Books|Young Adult|Religion',
+        ),
+        11222 => array(
+            'Id' => 11222,
+            'Label' => 'Books|Young Adult|Science & Nature',
+        ),
+        11223 => array(
+            'Id' => 11223,
+            'Label' => 'Books|Young Adult|Coming of Age',
+        ),
+        11224 => array(
+            'Id' => 11224,
+            'Label' => 'Books|Young Adult|Social Studies',
+        ),
+        11225 => array(
+            'Id' => 11225,
+            'Label' => 'Books|Young Adult|Sports & Recreation',
+        ),
+        11226 => array(
+            'Id' => 11226,
+            'Label' => 'Books|Young Adult|Transportation',
+        ),
+        11227 => array(
+            'Id' => 11227,
+            'Label' => 'Books|Communications & Media',
+        ),
+        11228 => array(
+            'Id' => 11228,
+            'Label' => 'Books|Military & Warfare',
+        ),
+        11229 => array(
+            'Id' => 11229,
+            'Label' => 'Books|Romance|Inspirational',
+        ),
+        11231 => array(
+            'Id' => 11231,
+            'Label' => 'Books|Romance|Holiday',
+        ),
+        11232 => array(
+            'Id' => 11232,
+            'Label' => 'Books|Romance|Wholesome',
+        ),
+        11233 => array(
+            'Id' => 11233,
+            'Label' => 'Books|Romance|Military',
+        ),
+        11234 => array(
+            'Id' => 11234,
+            'Label' => 'Books|Arts & Entertainment|Art History',
+        ),
+        11236 => array(
+            'Id' => 11236,
+            'Label' => 'Books|Arts & Entertainment|Design',
+        ),
+        11243 => array(
+            'Id' => 11243,
+            'Label' => 'Books|Business & Personal Finance|Accounting',
+        ),
+        11244 => array(
+            'Id' => 11244,
+            'Label' => 'Books|Business & Personal Finance|Hospitality',
+        ),
+        11245 => array(
+            'Id' => 11245,
+            'Label' => 'Books|Business & Personal Finance|Real Estate',
+        ),
+        11246 => array(
+            'Id' => 11246,
+            'Label' => 'Books|Humor|Jokes & Riddles',
+        ),
+        11247 => array(
+            'Id' => 11247,
+            'Label' => 'Books|Religion & Spirituality|Comparative Religion',
+        ),
+        11255 => array(
+            'Id' => 11255,
+            'Label' => 'Books|Cookbooks, Food & Wine|Culinary Arts',
+        ),
+        11259 => array(
+            'Id' => 11259,
+            'Label' => 'Books|Mysteries & Thrillers|Cozy',
+        ),
+        11260 => array(
+            'Id' => 11260,
+            'Label' => 'Books|Politics & Current Events|Current Events',
+        ),
+        11261 => array(
+            'Id' => 11261,
+            'Label' => 'Books|Politics & Current Events|Foreign Policy & International Relations',
+        ),
+        11262 => array(
+            'Id' => 11262,
+            'Label' => 'Books|Politics & Current Events|Local Government',
+        ),
+        11263 => array(
+            'Id' => 11263,
+            'Label' => 'Books|Politics & Current Events|National Government',
+        ),
+        11264 => array(
+            'Id' => 11264,
+            'Label' => 'Books|Politics & Current Events|Political Science',
+        ),
+        11265 => array(
+            'Id' => 11265,
+            'Label' => 'Books|Politics & Current Events|Public Administration',
+        ),
+        11266 => array(
+            'Id' => 11266,
+            'Label' => 'Books|Politics & Current Events|World Affairs',
+        ),
+        11273 => array(
+            'Id' => 11273,
+            'Label' => 'Books|Nonfiction|Family & Relationships|Family & Childcare',
+        ),
+        11274 => array(
+            'Id' => 11274,
+            'Label' => 'Books|Nonfiction|Family & Relationships|Love & Romance',
+        ),
+        11275 => array(
+            'Id' => 11275,
+            'Label' => 'Books|Sci-Fi & Fantasy|Fantasy|Urban',
+        ),
+        11276 => array(
+            'Id' => 11276,
+            'Label' => 'Books|Reference|Foreign Languages|Arabic',
+        ),
+        11277 => array(
+            'Id' => 11277,
+            'Label' => 'Books|Reference|Foreign Languages|Bilingual Editions',
+        ),
+        11278 => array(
+            'Id' => 11278,
+            'Label' => 'Books|Reference|Foreign Languages|African Languages',
+        ),
+        11279 => array(
+            'Id' => 11279,
+            'Label' => 'Books|Reference|Foreign Languages|Ancient Languages',
+        ),
+        11280 => array(
+            'Id' => 11280,
+            'Label' => 'Books|Reference|Foreign Languages|Chinese',
+        ),
+        11281 => array(
+            'Id' => 11281,
+            'Label' => 'Books|Reference|Foreign Languages|English',
+        ),
+        11282 => array(
+            'Id' => 11282,
+            'Label' => 'Books|Reference|Foreign Languages|French',
+        ),
+        11283 => array(
+            'Id' => 11283,
+            'Label' => 'Books|Reference|Foreign Languages|German',
+        ),
+        11284 => array(
+            'Id' => 11284,
+            'Label' => 'Books|Reference|Foreign Languages|Hebrew',
+        ),
+        11285 => array(
+            'Id' => 11285,
+            'Label' => 'Books|Reference|Foreign Languages|Hindi',
+        ),
+        11286 => array(
+            'Id' => 11286,
+            'Label' => 'Books|Reference|Foreign Languages|Italian',
+        ),
+        11287 => array(
+            'Id' => 11287,
+            'Label' => 'Books|Reference|Foreign Languages|Japanese',
+        ),
+        11288 => array(
+            'Id' => 11288,
+            'Label' => 'Books|Reference|Foreign Languages|Korean',
+        ),
+        11289 => array(
+            'Id' => 11289,
+            'Label' => 'Books|Reference|Foreign Languages|Linguistics',
+        ),
+        11290 => array(
+            'Id' => 11290,
+            'Label' => 'Books|Reference|Foreign Languages|Other Languages',
+        ),
+        11291 => array(
+            'Id' => 11291,
+            'Label' => 'Books|Reference|Foreign Languages|Portuguese',
+        ),
+        11292 => array(
+            'Id' => 11292,
+            'Label' => 'Books|Reference|Foreign Languages|Russian',
+        ),
+        11293 => array(
+            'Id' => 11293,
+            'Label' => 'Books|Reference|Foreign Languages|Spanish',
+        ),
+        11294 => array(
+            'Id' => 11294,
+            'Label' => 'Books|Reference|Foreign Languages|Speech Pathology',
+        ),
+        11295 => array(
+            'Id' => 11295,
+            'Label' => 'Books|Science & Nature|Mathematics|Advanced Mathematics',
+        ),
+        11296 => array(
+            'Id' => 11296,
+            'Label' => 'Books|Science & Nature|Mathematics|Algebra',
+        ),
+        11297 => array(
+            'Id' => 11297,
+            'Label' => 'Books|Science & Nature|Mathematics|Arithmetic',
+        ),
+        11298 => array(
+            'Id' => 11298,
+            'Label' => 'Books|Science & Nature|Mathematics|Calculus',
+        ),
+        11299 => array(
+            'Id' => 11299,
+            'Label' => 'Books|Science & Nature|Mathematics|Geometry',
+        ),
+        11300 => array(
+            'Id' => 11300,
+            'Label' => 'Books|Science & Nature|Mathematics|Statistics',
+        ),
+        11301 => array(
+            'Id' => 11301,
+            'Label' => 'Books|Professional & Technical|Medical|Veterinary',
+        ),
+        11302 => array(
+            'Id' => 11302,
+            'Label' => 'Books|Professional & Technical|Medical|Neuroscience',
+        ),
+        11303 => array(
+            'Id' => 11303,
+            'Label' => 'Books|Professional & Technical|Medical|Immunology',
+        ),
+        11304 => array(
+            'Id' => 11304,
+            'Label' => 'Books|Professional & Technical|Medical|Nursing',
+        ),
+        11305 => array(
+            'Id' => 11305,
+            'Label' => 'Books|Professional & Technical|Medical|Pharmacology & Toxicology',
+        ),
+        11306 => array(
+            'Id' => 11306,
+            'Label' => 'Books|Professional & Technical|Medical|Anatomy & Physiology',
+        ),
+        11307 => array(
+            'Id' => 11307,
+            'Label' => 'Books|Professional & Technical|Medical|Dentistry',
+        ),
+        11308 => array(
+            'Id' => 11308,
+            'Label' => 'Books|Professional & Technical|Medical|Emergency Medicine',
+        ),
+        11309 => array(
+            'Id' => 11309,
+            'Label' => 'Books|Professional & Technical|Medical|Genetics',
+        ),
+        11310 => array(
+            'Id' => 11310,
+            'Label' => 'Books|Professional & Technical|Medical|Psychiatry',
+        ),
+        11311 => array(
+            'Id' => 11311,
+            'Label' => 'Books|Professional & Technical|Medical|Radiology',
+        ),
+        11312 => array(
+            'Id' => 11312,
+            'Label' => 'Books|Professional & Technical|Medical|Alternative Medicine',
+        ),
+        11317 => array(
+            'Id' => 11317,
+            'Label' => 'Books|Nonfiction|Philosophy|Political Philosophy',
+        ),
+        11319 => array(
+            'Id' => 11319,
+            'Label' => 'Books|Nonfiction|Philosophy|Philosophy of Language',
+        ),
+        11320 => array(
+            'Id' => 11320,
+            'Label' => 'Books|Nonfiction|Philosophy|Philosophy of Religion',
+        ),
+        11327 => array(
+            'Id' => 11327,
+            'Label' => 'Books|Nonfiction|Social Science|Sociology',
+        ),
+        11329 => array(
+            'Id' => 11329,
+            'Label' => 'Books|Professional & Technical|Engineering|Aeronautics',
+        ),
+        11330 => array(
+            'Id' => 11330,
+            'Label' => 'Books|Professional & Technical|Engineering|Chemical & Petroleum Engineering',
+        ),
+        11331 => array(
+            'Id' => 11331,
+            'Label' => 'Books|Professional & Technical|Engineering|Civil Engineering',
+        ),
+        11332 => array(
+            'Id' => 11332,
+            'Label' => 'Books|Professional & Technical|Engineering|Computer Science',
+        ),
+        11333 => array(
+            'Id' => 11333,
+            'Label' => 'Books|Professional & Technical|Engineering|Electrical Engineering',
+        ),
+        11334 => array(
+            'Id' => 11334,
+            'Label' => 'Books|Professional & Technical|Engineering|Environmental Engineering',
+        ),
+        11335 => array(
+            'Id' => 11335,
+            'Label' => 'Books|Professional & Technical|Engineering|Mechanical Engineering',
+        ),
+        11336 => array(
+            'Id' => 11336,
+            'Label' => 'Books|Professional & Technical|Engineering|Power Resources',
+        ),
+        11337 => array(
+            'Id' => 11337,
+            'Label' => 'Books|Comics & Graphic Novels|Manga|Boys',
+        ),
+        11338 => array(
+            'Id' => 11338,
+            'Label' => 'Books|Comics & Graphic Novels|Manga|Men',
+        ),
+        11339 => array(
+            'Id' => 11339,
+            'Label' => 'Books|Comics & Graphic Novels|Manga|Girls',
+        ),
+        11340 => array(
+            'Id' => 11340,
+            'Label' => 'Books|Comics & Graphic Novels|Manga|Women',
+        ),
+        11341 => array(
+            'Id' => 11341,
+            'Label' => 'Books|Comics & Graphic Novels|Manga|Other',
         ),
         12001 => array(
             'Id' => 12001,
@@ -6407,11 +7759,11 @@ class GenreID extends AbstractTag
         ),
         15214 => array(
             'Id' => 15214,
-            'Label' => 'Textbooks|Romance|Erotica',
+            'Label' => 'Textbooks|Romance|Erotic Romance',
         ),
         15215 => array(
             'Id' => 15215,
-            'Label' => 'Textbooks|Romance|Fantasy, Futuristic & Ghost',
+            'Label' => 'Textbooks|Romance|Paranormal',
         ),
         15216 => array(
             'Id' => 15216,
@@ -6804,6 +8156,94 @@ class GenreID extends AbstractTag
         100000 => array(
             'Id' => 100000,
             'Label' => 'Music|Christian & Gospel',
+        ),
+        100001 => array(
+            'Id' => 100001,
+            'Label' => 'Music|Classical|Art Song',
+        ),
+        100002 => array(
+            'Id' => 100002,
+            'Label' => 'Music|Classical|Brass & Woodwinds',
+        ),
+        100003 => array(
+            'Id' => 100003,
+            'Label' => 'Music|Classical|Solo Instrumental',
+        ),
+        100004 => array(
+            'Id' => 100004,
+            'Label' => 'Music|Classical|Contemporary Era',
+        ),
+        100005 => array(
+            'Id' => 100005,
+            'Label' => 'Music|Classical|Oratorio',
+        ),
+        100006 => array(
+            'Id' => 100006,
+            'Label' => 'Music|Classical|Cantata',
+        ),
+        100007 => array(
+            'Id' => 100007,
+            'Label' => 'Music|Classical|Electronic',
+        ),
+        100008 => array(
+            'Id' => 100008,
+            'Label' => 'Music|Classical|Sacred',
+        ),
+        100009 => array(
+            'Id' => 100009,
+            'Label' => 'Music|Classical|Guitar',
+        ),
+        100010 => array(
+            'Id' => 100010,
+            'Label' => 'Music|Classical|Piano',
+        ),
+        100011 => array(
+            'Id' => 100011,
+            'Label' => 'Music|Classical|Violin',
+        ),
+        100012 => array(
+            'Id' => 100012,
+            'Label' => 'Music|Classical|Cello',
+        ),
+        100013 => array(
+            'Id' => 100013,
+            'Label' => 'Music|Classical|Percussion',
+        ),
+        100014 => array(
+            'Id' => 100014,
+            'Label' => 'Music|Electronic|Dubstep',
+        ),
+        100015 => array(
+            'Id' => 100015,
+            'Label' => 'Music|Electronic|Bass',
+        ),
+        100016 => array(
+            'Id' => 100016,
+            'Label' => 'Music|Hip-Hop/Rap|UK Hip-Hop',
+        ),
+        100017 => array(
+            'Id' => 100017,
+            'Label' => 'Music|Reggae|Lovers Rock',
+        ),
+        100018 => array(
+            'Id' => 100018,
+            'Label' => 'Music|Alternative|EMO',
+        ),
+        100019 => array(
+            'Id' => 100019,
+            'Label' => 'Music|Alternative|Pop Punk',
+        ),
+        100020 => array(
+            'Id' => 100020,
+            'Label' => 'Music|Alternative|Indie Pop',
+        ),
+        100021 => array(
+            'Id' => 100021,
+            'Label' => 'Music|New Age|Yoga',
+        ),
+        100022 => array(
+            'Id' => 100022,
+            'Label' => 'Music|Pop|Tribute',
         ),
         40000000 => array(
             'Id' => 40000000,
@@ -7692,6 +9132,10 @@ class GenreID extends AbstractTag
         50000089 => array(
             'Id' => 50000089,
             'Label' => 'Books|Comics & Graphic Novels|Manga|Horror',
+        ),
+        50000090 => array(
+            'Id' => 50000090,
+            'Label' => 'Books|Comics & Graphic Novels|Comics',
         ),
     );
 

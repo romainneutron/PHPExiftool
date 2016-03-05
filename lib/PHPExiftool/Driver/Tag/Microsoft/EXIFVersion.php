@@ -17,12 +17,12 @@ use PHPExiftool\Driver\AbstractTag;
 /**
  * @ExclusionPolicy("all")
  */
-class EXIFVersion extends AbstractTag
+class ExifVersion extends AbstractTag
 {
 
     protected $Id = '{D35F743A-EB2E-47F2-A286-844132CB1427} 100';
 
-    protected $Name = 'EXIFVersion';
+    protected $Name = 'ExifVersion';
 
     protected $FullName = 'Microsoft::Xtra';
 
@@ -38,6 +38,6 @@ class EXIFVersion extends AbstractTag
 
     protected $Writable = false;
 
-    protected $Description = 'EXIF Version';
+    protected $Description = 'Exif Version';
 
 }

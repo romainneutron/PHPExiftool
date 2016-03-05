@@ -95,7 +95,7 @@ class ArtFilterEffect extends AbstractTag
         ),
         15 => array(
             'Id' => 15,
-            'Label' => 'Tender Light',
+            'Label' => 'Pale & Light Color II',
         ),
         16 => array(
             'Id' => 16,
@@ -137,6 +137,10 @@ class ArtFilterEffect extends AbstractTag
             'Id' => 25,
             'Label' => 'Key Line',
         ),
+        26 => array(
+            'Id' => 26,
+            'Label' => 'Key Line II',
+        ),
         27 => array(
             'Id' => 27,
             'Label' => 'Miniature',
@@ -149,13 +153,49 @@ class ArtFilterEffect extends AbstractTag
             'Id' => 29,
             'Label' => 'Fragmented',
         ),
+        31 => array(
+            'Id' => 31,
+            'Label' => 'Cross Process II',
+        ),
         32 => array(
             'Id' => 32,
-            'Label' => 'Dramatic Tone B&W',
+            'Label' => 'Dramatic Tone II',
         ),
         33 => array(
             'Id' => 33,
+            'Label' => 'Watercolor I',
+        ),
+        34 => array(
+            'Id' => 34,
             'Label' => 'Watercolor II',
+        ),
+        35 => array(
+            'Id' => 35,
+            'Label' => 'Diorama II',
+        ),
+        36 => array(
+            'Id' => 36,
+            'Label' => 'Vintage',
+        ),
+        37 => array(
+            'Id' => 37,
+            'Label' => 'Vintage II',
+        ),
+        38 => array(
+            'Id' => 38,
+            'Label' => 'Vintage III',
+        ),
+        39 => array(
+            'Id' => 39,
+            'Label' => 'Partial Color',
+        ),
+        40 => array(
+            'Id' => 40,
+            'Label' => 'Partial Color II',
+        ),
+        41 => array(
+            'Id' => 41,
+            'Label' => 'Partial Color III',
         ),
     );
 

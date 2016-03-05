@@ -61,11 +61,11 @@ class ModelingFlash extends AbstractTag
         ),
         4 => array(
             'Id' => 0,
-            'Label' => 'Off',
+            'Label' => 'On',
         ),
         5 => array(
-            'Id' => 2,
-            'Label' => 'On',
+            'Id' => 1,
+            'Label' => 'Off',
         ),
         6 => array(
             'Id' => 0,
@@ -77,9 +77,33 @@ class ModelingFlash extends AbstractTag
         ),
         8 => array(
             'Id' => 0,
-            'Label' => 'On',
+            'Label' => 'Off',
         ),
         9 => array(
+            'Id' => 2,
+            'Label' => 'On',
+        ),
+        10 => array(
+            'Id' => 0,
+            'Label' => 'On',
+        ),
+        11 => array(
+            'Id' => 32,
+            'Label' => 'Off',
+        ),
+        12 => array(
+            'Id' => 0,
+            'Label' => 'On',
+        ),
+        13 => array(
+            'Id' => 32,
+            'Label' => 'Off',
+        ),
+        14 => array(
+            'Id' => 0,
+            'Label' => 'On',
+        ),
+        15 => array(
             'Id' => 32,
             'Label' => 'Off',
         ),

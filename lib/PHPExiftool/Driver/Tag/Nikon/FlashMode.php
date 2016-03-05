@@ -20,11 +20,11 @@ use PHPExiftool\Driver\AbstractTag;
 class FlashMode extends AbstractTag
 {
 
-    protected $Id = 135;
+    protected $Id = 'mixed';
 
     protected $Name = 'FlashMode';
 
-    protected $FullName = 'Nikon::Main';
+    protected $FullName = 'mixed';
 
     protected $GroupName = 'Nikon';
 

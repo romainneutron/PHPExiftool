@@ -20,11 +20,11 @@ use PHPExiftool\Driver\AbstractTag;
 class GreenCurvePoints extends AbstractTag
 {
 
-    protected $Id = 410;
+    protected $Id = 'mixed';
 
     protected $Name = 'GreenCurvePoints';
 
-    protected $FullName = 'CanonVRD::Ver1';
+    protected $FullName = 'mixed';
 
     protected $GroupName = 'CanonVRD';
 
@@ -34,7 +34,7 @@ class GreenCurvePoints extends AbstractTag
 
     protected $g2 = 'Image';
 
-    protected $Type = 'int16u';
+    protected $Type = 'mixed';
 
     protected $Writable = true;
 

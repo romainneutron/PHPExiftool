@@ -20,7 +20,7 @@ use PHPExiftool\Driver\AbstractTag;
 class BlackLevel extends AbstractTag
 {
 
-    protected $Id = 29456;
+    protected $Id = 'mixed';
 
     protected $Name = 'BlackLevel';
 

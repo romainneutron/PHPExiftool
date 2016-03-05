@@ -34,7 +34,7 @@ class CameraOrientation extends AbstractTag
 
     protected $g2 = 'Camera';
 
-    protected $Type = '?';
+    protected $Type = 'int32s';
 
     protected $Writable = false;
 

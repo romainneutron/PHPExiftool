@@ -46,6 +46,6 @@ class MakerNoteReconyx extends AbstractTag
 
     protected $flag_Permanent = true;
 
-    protected $Index = 57;
+    protected $Index = 61;
 
 }

@@ -24,7 +24,7 @@ class WBRGGBLevelsUnknown19 extends AbstractTag
 
     protected $Name = 'WB_RGGBLevelsUnknown19';
 
-    protected $FullName = 'Canon::ColorData7';
+    protected $FullName = 'mixed';
 
     protected $GroupName = 'Canon';
 

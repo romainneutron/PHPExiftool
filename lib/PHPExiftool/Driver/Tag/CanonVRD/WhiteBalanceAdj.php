@@ -20,11 +20,11 @@ use PHPExiftool\Driver\AbstractTag;
 class WhiteBalanceAdj extends AbstractTag
 {
 
-    protected $Id = 24;
+    protected $Id = 'mixed';
 
     protected $Name = 'WhiteBalanceAdj';
 
-    protected $FullName = 'CanonVRD::Ver1';
+    protected $FullName = 'mixed';
 
     protected $GroupName = 'CanonVRD';
 
@@ -34,7 +34,7 @@ class WhiteBalanceAdj extends AbstractTag
 
     protected $g2 = 'Image';
 
-    protected $Type = 'int16u';
+    protected $Type = 'mixed';
 
     protected $Writable = true;
 
@@ -42,42 +42,82 @@ class WhiteBalanceAdj extends AbstractTag
 
     protected $Values = array(
         0 => array(
+            'Id' => '-1',
+            'Label' => 'Manual (Click)',
+        ),
+        1 => array(
             'Id' => 0,
             'Label' => 'Auto',
         ),
-        1 => array(
+        2 => array(
             'Id' => 1,
             'Label' => 'Daylight',
         ),
-        2 => array(
+        3 => array(
             'Id' => 2,
             'Label' => 'Cloudy',
         ),
-        3 => array(
+        4 => array(
             'Id' => 3,
             'Label' => 'Tungsten',
         ),
-        4 => array(
+        5 => array(
             'Id' => 4,
             'Label' => 'Fluorescent',
         ),
-        5 => array(
+        6 => array(
             'Id' => 5,
             'Label' => 'Flash',
         ),
-        8 => array(
+        7 => array(
             'Id' => 8,
             'Label' => 'Shade',
         ),
-        9 => array(
+        8 => array(
             'Id' => 9,
             'Label' => 'Kelvin',
         ),
-        30 => array(
+        9 => array(
+            'Id' => 255,
+            'Label' => 'Shot Settings',
+        ),
+        10 => array(
+            'Id' => 0,
+            'Label' => 'Auto',
+        ),
+        11 => array(
+            'Id' => 1,
+            'Label' => 'Daylight',
+        ),
+        12 => array(
+            'Id' => 2,
+            'Label' => 'Cloudy',
+        ),
+        13 => array(
+            'Id' => 3,
+            'Label' => 'Tungsten',
+        ),
+        14 => array(
+            'Id' => 4,
+            'Label' => 'Fluorescent',
+        ),
+        15 => array(
+            'Id' => 5,
+            'Label' => 'Flash',
+        ),
+        16 => array(
+            'Id' => 8,
+            'Label' => 'Shade',
+        ),
+        17 => array(
+            'Id' => 9,
+            'Label' => 'Kelvin',
+        ),
+        18 => array(
             'Id' => 30,
             'Label' => 'Manual (Click)',
         ),
-        31 => array(
+        19 => array(
             'Id' => 31,
             'Label' => 'Shot Settings',
         ),

@@ -20,11 +20,11 @@ use PHPExiftool\Driver\AbstractTag;
 class DLOVersion extends AbstractTag
 {
 
-    protected $Id = 229;
+    protected $Id = 5;
 
     protected $Name = 'DLOVersion';
 
-    protected $FullName = 'CanonVRD::Ver2';
+    protected $FullName = 'CanonVRD::DLOInfo';
 
     protected $GroupName = 'CanonVRD';
 

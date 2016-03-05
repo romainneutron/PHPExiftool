@@ -40,6 +40,8 @@ class TIFFPreview extends AbstractTag
 
     protected $Description = 'TIFF Preview';
 
+    protected $local_g2 = 'Preview';
+
     protected $flag_Binary = true;
 
 }

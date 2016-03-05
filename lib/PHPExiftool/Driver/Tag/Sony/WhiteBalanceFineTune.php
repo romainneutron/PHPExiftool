@@ -36,7 +36,7 @@ class WhiteBalanceFineTune extends AbstractTag
 
     protected $Type = 'mixed';
 
-    protected $Writable = true;
+    protected $Writable = false;
 
     protected $Description = 'White Balance Fine Tune';
 

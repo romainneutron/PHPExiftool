@@ -40,6 +40,8 @@ class SanyoThumbnail extends AbstractTag
 
     protected $Description = 'Sanyo Thumbnail';
 
+    protected $local_g2 = 'Preview';
+
     protected $flag_Permanent = true;
 
 }

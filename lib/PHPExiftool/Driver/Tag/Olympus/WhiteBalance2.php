@@ -47,6 +47,10 @@ class WhiteBalance2 extends AbstractTag
             'Id' => 0,
             'Label' => 'Auto',
         ),
+        1 => array(
+            'Id' => 1,
+            'Label' => 'Auto (Keep Warm Color Off)',
+        ),
         16 => array(
             'Id' => 16,
             'Label' => '7500K (Fine Weather with Shade)',
@@ -67,6 +71,14 @@ class WhiteBalance2 extends AbstractTag
             'Id' => 21,
             'Label' => '3600K (Tungsten light-like)',
         ),
+        22 => array(
+            'Id' => 22,
+            'Label' => 'Auto Setup',
+        ),
+        23 => array(
+            'Id' => 23,
+            'Label' => '5500K (Flash)',
+        ),
         33 => array(
             'Id' => 33,
             'Label' => '6600K (Daylight fluorescent)',
@@ -79,37 +91,49 @@ class WhiteBalance2 extends AbstractTag
             'Id' => 35,
             'Label' => '4000K (Cool white fluorescent)',
         ),
+        36 => array(
+            'Id' => 36,
+            'Label' => 'White Fluorescent',
+        ),
         48 => array(
             'Id' => 48,
             'Label' => '3600K (Tungsten light-like)',
         ),
+        67 => array(
+            'Id' => 67,
+            'Label' => 'Underwater',
+        ),
         256 => array(
             'Id' => 256,
-            'Label' => 'Custom WB 1',
+            'Label' => 'One Touch WB 1',
         ),
         257 => array(
             'Id' => 257,
-            'Label' => 'Custom WB 2',
+            'Label' => 'One Touch WB 2',
         ),
         258 => array(
             'Id' => 258,
-            'Label' => 'Custom WB 3',
+            'Label' => 'One Touch WB 3',
         ),
         259 => array(
             'Id' => 259,
-            'Label' => 'Custom WB 4',
+            'Label' => 'One Touch WB 4',
         ),
         512 => array(
             'Id' => 512,
-            'Label' => 'Custom WB 5400K',
+            'Label' => 'Custom WB 1',
         ),
         513 => array(
             'Id' => 513,
-            'Label' => 'Custom WB 2900K',
+            'Label' => 'Custom WB 2',
         ),
         514 => array(
             'Id' => 514,
-            'Label' => 'Custom WB 8000K',
+            'Label' => 'Custom WB 3',
+        ),
+        515 => array(
+            'Id' => 515,
+            'Label' => 'Custom WB 4',
         ),
     );
 

@@ -46,6 +46,6 @@ class MakerNoteSonySRF extends AbstractTag
 
     protected $flag_Permanent = true;
 
-    protected $Index = 74;
+    protected $Index = 78;
 
 }

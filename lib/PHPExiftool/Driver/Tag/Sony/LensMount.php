@@ -121,15 +121,11 @@ class LensMount extends AbstractTag
         ),
         19 => array(
             'Id' => 1,
-            'Label' => 'A-mount (1)',
+            'Label' => 'A-mount',
         ),
         20 => array(
-            'Id' => 4,
+            'Id' => 2,
             'Label' => 'E-mount',
-        ),
-        21 => array(
-            'Id' => 5,
-            'Label' => 'A-mount (5)',
         ),
     );
 

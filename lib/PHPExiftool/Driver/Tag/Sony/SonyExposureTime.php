@@ -20,7 +20,7 @@ use PHPExiftool\Driver\AbstractTag;
 class SonyExposureTime extends AbstractTag
 {
 
-    protected $Id = 58;
+    protected $Id = 70;
 
     protected $Name = 'SonyExposureTime';
 

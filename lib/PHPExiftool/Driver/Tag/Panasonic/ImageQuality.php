@@ -67,6 +67,14 @@ class ImageQuality extends AbstractTag
             'Id' => 9,
             'Label' => 'Motion Picture',
         ),
+        11 => array(
+            'Id' => 11,
+            'Label' => 'Full HD Movie',
+        ),
+        12 => array(
+            'Id' => 12,
+            'Label' => '4k Movie',
+        ),
     );
 
 }

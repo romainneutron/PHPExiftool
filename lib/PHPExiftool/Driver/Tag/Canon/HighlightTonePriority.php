@@ -20,7 +20,7 @@ use PHPExiftool\Driver\AbstractTag;
 class HighlightTonePriority extends AbstractTag
 {
 
-    protected $Id = 7;
+    protected $Id = 'mixed';
 
     protected $Name = 'HighlightTonePriority';
 
@@ -34,7 +34,7 @@ class HighlightTonePriority extends AbstractTag
 
     protected $g2 = 'Camera';
 
-    protected $Type = 'int8u';
+    protected $Type = 'mixed';
 
     protected $Writable = true;
 

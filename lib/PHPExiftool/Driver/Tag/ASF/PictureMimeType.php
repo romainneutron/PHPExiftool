@@ -17,12 +17,12 @@ use PHPExiftool\Driver\AbstractTag;
 /**
  * @ExclusionPolicy("all")
  */
-class PictureMimeType extends AbstractTag
+class PictureMIMEType extends AbstractTag
 {
 
     protected $Id = 1;
 
-    protected $Name = 'PictureMimeType';
+    protected $Name = 'PictureMIMEType';
 
     protected $FullName = 'ASF::Picture';
 
@@ -38,6 +38,6 @@ class PictureMimeType extends AbstractTag
 
     protected $Writable = false;
 
-    protected $Description = 'Picture Mime Type';
+    protected $Description = 'Picture MIME Type';
 
 }

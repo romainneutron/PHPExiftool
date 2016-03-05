@@ -46,6 +46,6 @@ class MakerNotePhaseOne extends AbstractTag
 
     protected $flag_Permanent = true;
 
-    protected $Index = 56;
+    protected $Index = 60;
 
 }

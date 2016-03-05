@@ -61,7 +61,39 @@ class CommandDialsMenuAndPlayback extends AbstractTag
         ),
         4 => array(
             'Id' => 16,
+            'Label' => 'On (Image Review Excluded)',
+        ),
+        5 => array(
+            'Id' => 0,
+            'Label' => 'Off',
+        ),
+        6 => array(
+            'Id' => 16,
+            'Label' => 'On',
+        ),
+        7 => array(
+            'Id' => 0,
+            'Label' => 'On',
+        ),
+        8 => array(
+            'Id' => 8,
+            'Label' => 'Off',
+        ),
+        9 => array(
+            'Id' => 16,
             'Label' => 'On (Image Review Exclude)',
+        ),
+        10 => array(
+            'Id' => 0,
+            'Label' => 'On',
+        ),
+        11 => array(
+            'Id' => 8,
+            'Label' => 'Off',
+        ),
+        12 => array(
+            'Id' => 16,
+            'Label' => 'On (Image Review Excluded)',
         ),
     );
 

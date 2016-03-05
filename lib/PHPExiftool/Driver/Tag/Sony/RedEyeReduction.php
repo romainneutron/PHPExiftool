@@ -20,11 +20,11 @@ use PHPExiftool\Driver\AbstractTag;
 class RedEyeReduction extends AbstractTag
 {
 
-    protected $Id = 40;
+    protected $Id = 'mixed';
 
     protected $Name = 'RedEyeReduction';
 
-    protected $FullName = 'Sony::CameraSettings3';
+    protected $FullName = 'mixed';
 
     protected $GroupName = 'Sony';
 
@@ -34,7 +34,7 @@ class RedEyeReduction extends AbstractTag
 
     protected $g2 = 'Camera';
 
-    protected $Type = 'int8u';
+    protected $Type = 'mixed';
 
     protected $Writable = true;
 
@@ -43,11 +43,19 @@ class RedEyeReduction extends AbstractTag
     protected $flag_Permanent = true;
 
     protected $Values = array(
+        0 => array(
+            'Id' => 0,
+            'Label' => 'Off',
+        ),
         1 => array(
+            'Id' => 1,
+            'Label' => 'On',
+        ),
+        2 => array(
             'Id' => 1,
             'Label' => 'Off',
         ),
-        16 => array(
+        3 => array(
             'Id' => 16,
             'Label' => 'On',
         ),

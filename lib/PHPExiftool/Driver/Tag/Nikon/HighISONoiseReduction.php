@@ -20,11 +20,11 @@ use PHPExiftool\Driver\AbstractTag;
 class HighISONoiseReduction extends AbstractTag
 {
 
-    protected $Id = 177;
+    protected $Id = 'mixed';
 
     protected $Name = 'HighISONoiseReduction';
 
-    protected $FullName = 'Nikon::Main';
+    protected $FullName = 'mixed';
 
     protected $GroupName = 'Nikon';
 

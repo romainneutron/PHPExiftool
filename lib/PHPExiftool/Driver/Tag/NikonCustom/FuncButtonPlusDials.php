@@ -102,28 +102,84 @@ class FuncButtonPlusDials extends AbstractTag
             'Label' => 'None',
         ),
         14 => array(
+            'Id' => 1,
+            'Label' => 'Choose Image Area (FX/DX/5:4)',
+        ),
+        15 => array(
+            'Id' => 2,
+            'Label' => 'Shutter Speed & Aperture Lock',
+        ),
+        16 => array(
+            'Id' => 3,
+            'Label' => 'One Step Speed / Aperture',
+        ),
+        17 => array(
+            'Id' => 4,
+            'Label' => 'Choose Non-CPU Lens Number',
+        ),
+        18 => array(
+            'Id' => 5,
+            'Label' => 'Active D-Lighting',
+        ),
+        19 => array(
+            'Id' => 6,
+            'Label' => 'Shooting Bank Menu',
+        ),
+        20 => array(
+            'Id' => 0,
+            'Label' => 'None',
+        ),
+        21 => array(
             'Id' => 16,
             'Label' => 'Choose Image Area',
         ),
-        15 => array(
+        22 => array(
             'Id' => 32,
             'Label' => 'One Step Speed/Aperture',
         ),
-        16 => array(
+        23 => array(
             'Id' => 48,
             'Label' => 'Choose Non-CPU Lens Number',
         ),
-        17 => array(
+        24 => array(
             'Id' => 80,
             'Label' => 'Auto bracketing',
         ),
-        18 => array(
+        25 => array(
             'Id' => 96,
             'Label' => 'Dynamic AF Area',
         ),
-        19 => array(
+        26 => array(
             'Id' => 112,
             'Label' => 'Shutter speed & Aperture lock',
+        ),
+        27 => array(
+            'Id' => 0,
+            'Label' => 'None',
+        ),
+        28 => array(
+            'Id' => 1,
+            'Label' => 'Choose Image Area (FX/DX/5:4)',
+        ),
+        29 => array(
+            'Id' => 2,
+            'Label' => 'Shutter Speed & Aperture Lock',
+        ),
+        30 => array(
+            'Id' => 3,
+            'Label' => 'One Step Speed / Aperture',
+        ),
+        31 => array(
+            'Id' => 4,
+            'Label' => 'Choose Non-CPU Lens Number',
+        ),
+        32 => array(
+            'Id' => 5,
+            'Label' => 'Active D-Lighting',
+        ),
+        33 => array(
+            'Id' => 8,
+            'Label' => 'Exposure Delay Mode',
         ),
     );
 

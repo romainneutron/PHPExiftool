@@ -20,11 +20,11 @@ use PHPExiftool\Driver\AbstractTag;
 class PreviewImage extends AbstractTag
 {
 
-    protected $Id = 4;
+    protected $Id = 'mixed';
 
     protected $Name = 'PreviewImage';
 
-    protected $FullName = 'Kodak::Scrn';
+    protected $FullName = 'mixed';
 
     protected $GroupName = 'Kodak';
 
@@ -34,12 +34,16 @@ class PreviewImage extends AbstractTag
 
     protected $g2 = 'Image';
 
-    protected $Type = 'undef';
+    protected $Type = 'mixed';
 
     protected $Writable = false;
 
     protected $Description = 'Preview Image';
 
+    protected $local_g2 = 'Preview';
+
     protected $flag_Permanent = true;
+
+    protected $flag_Binary = false;
 
 }

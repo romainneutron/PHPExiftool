@@ -20,11 +20,11 @@ use PHPExiftool\Driver\AbstractTag;
 class StandbyTimer extends AbstractTag
 {
 
-    protected $Id = '18.1';
+    protected $Id = 'mixed';
 
     protected $Name = 'StandbyTimer';
 
-    protected $FullName = 'NikonCustom::SettingsD5200';
+    protected $FullName = 'mixed';
 
     protected $GroupName = 'NikonCustom';
 
@@ -47,20 +47,84 @@ class StandbyTimer extends AbstractTag
             'Id' => 0,
             'Label' => '4 s',
         ),
-        32 => array(
-            'Id' => 32,
-            'Label' => '8 s',
+        1 => array(
+            'Id' => 16,
+            'Label' => '6 s',
         ),
-        64 => array(
-            'Id' => 64,
-            'Label' => '20 s',
+        2 => array(
+            'Id' => 48,
+            'Label' => '10 s',
         ),
-        96 => array(
+        3 => array(
+            'Id' => 80,
+            'Label' => '30 s',
+        ),
+        4 => array(
             'Id' => 96,
             'Label' => '1 min',
         ),
-        128 => array(
+        5 => array(
+            'Id' => 112,
+            'Label' => '5 min',
+        ),
+        6 => array(
             'Id' => 128,
+            'Label' => '10 min',
+        ),
+        7 => array(
+            'Id' => 144,
+            'Label' => '30 min',
+        ),
+        8 => array(
+            'Id' => 0,
+            'Label' => '4 s',
+        ),
+        9 => array(
+            'Id' => 32,
+            'Label' => '8 s',
+        ),
+        10 => array(
+            'Id' => 64,
+            'Label' => '20 s',
+        ),
+        11 => array(
+            'Id' => 96,
+            'Label' => '1 min',
+        ),
+        12 => array(
+            'Id' => 128,
+            'Label' => '30 min',
+        ),
+        13 => array(
+            'Id' => 0,
+            'Label' => '4 s',
+        ),
+        14 => array(
+            'Id' => 16,
+            'Label' => '6 s',
+        ),
+        15 => array(
+            'Id' => 48,
+            'Label' => '10 s',
+        ),
+        16 => array(
+            'Id' => 80,
+            'Label' => '30 s',
+        ),
+        17 => array(
+            'Id' => 96,
+            'Label' => '1 min',
+        ),
+        18 => array(
+            'Id' => 112,
+            'Label' => '5 min',
+        ),
+        19 => array(
+            'Id' => 128,
+            'Label' => '10 min',
+        ),
+        20 => array(
+            'Id' => 144,
             'Label' => '30 min',
         ),
     );

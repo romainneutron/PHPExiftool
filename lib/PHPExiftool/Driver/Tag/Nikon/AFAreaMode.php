@@ -121,7 +121,7 @@ class AFAreaMode extends AbstractTag
         ),
         19 => array(
             'Id' => 128,
-            'Label' => 'Single (135 points)',
+            'Label' => 'Single',
         ),
         20 => array(
             'Id' => 129,
@@ -154,6 +154,22 @@ class AFAreaMode extends AbstractTag
         27 => array(
             'Id' => 4,
             'Label' => 'Contrast-detect (subject tracking)',
+        ),
+        28 => array(
+            'Id' => 128,
+            'Label' => 'Single',
+        ),
+        29 => array(
+            'Id' => 129,
+            'Label' => 'Auto (41 points)',
+        ),
+        30 => array(
+            'Id' => 130,
+            'Label' => 'Subject Tracking (41 points)',
+        ),
+        31 => array(
+            'Id' => 131,
+            'Label' => 'Face Priority (41 points)',
         ),
     );
 

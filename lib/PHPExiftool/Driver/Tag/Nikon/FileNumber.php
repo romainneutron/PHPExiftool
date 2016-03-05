@@ -20,7 +20,7 @@ use PHPExiftool\Driver\AbstractTag;
 class FileNumber extends AbstractTag
 {
 
-    protected $Id = 8;
+    protected $Id = 4;
 
     protected $Name = 'FileNumber';
 

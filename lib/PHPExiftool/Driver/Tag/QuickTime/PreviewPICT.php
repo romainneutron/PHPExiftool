@@ -40,6 +40,8 @@ class PreviewPICT extends AbstractTag
 
     protected $Description = 'Preview PICT';
 
+    protected $local_g2 = 'Preview';
+
     protected $flag_Binary = true;
 
 }

@@ -115,6 +115,14 @@ class AFAssist extends AbstractTag
             'Id' => 1,
             'Label' => 'Off',
         ),
+        18 => array(
+            'Id' => 0,
+            'Label' => 'On',
+        ),
+        19 => array(
+            'Id' => 1,
+            'Label' => 'Off',
+        ),
     );
 
 }

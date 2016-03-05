@@ -47,7 +47,7 @@ class PhotoshopFormat extends AbstractTag
         ),
         1 => array(
             'Id' => 1,
-            'Label' => 'Optimised',
+            'Label' => 'Optimized',
         ),
         257 => array(
             'Id' => 257,

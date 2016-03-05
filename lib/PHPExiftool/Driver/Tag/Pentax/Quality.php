@@ -68,18 +68,22 @@ class Quality extends AbstractTag
             'Label' => 'Premium',
         ),
         6 => array(
+            'Id' => 7,
+            'Label' => 'RAW (pixel shift enabled)',
+        ),
+        7 => array(
             'Id' => 65535,
             'Label' => 'n/a',
         ),
-        7 => array(
+        8 => array(
             'Id' => 0,
             'Label' => 'Good',
         ),
-        8 => array(
+        9 => array(
             'Id' => 1,
             'Label' => 'Better',
         ),
-        9 => array(
+        10 => array(
             'Id' => 2,
             'Label' => 'Best',
         ),

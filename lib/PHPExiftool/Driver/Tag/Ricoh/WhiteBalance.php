@@ -123,6 +123,10 @@ class WhiteBalance extends AbstractTag
             'Id' => 11,
             'Label' => 'Kelvin',
         ),
+        20 => array(
+            'Id' => 12,
+            'Label' => 'Shade',
+        ),
     );
 
     protected $Index = 'mixed';

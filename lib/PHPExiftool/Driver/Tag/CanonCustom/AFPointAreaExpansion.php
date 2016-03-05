@@ -57,13 +57,25 @@ class AFPointAreaExpansion extends AbstractTag
         ),
         3 => array(
             'Id' => 1,
-            'Label' => 'Left/right AF points',
+            'Label' => 'Enable (left/right Assist AF points)',
         ),
         4 => array(
             'Id' => 2,
-            'Label' => 'Surrounding AF points',
+            'Label' => 'Enable (surrounding Assist AF points)',
         ),
         5 => array(
+            'Id' => 0,
+            'Label' => 'Disable',
+        ),
+        6 => array(
+            'Id' => 1,
+            'Label' => 'Left/right AF points',
+        ),
+        7 => array(
+            'Id' => 2,
+            'Label' => 'Surrounding AF points',
+        ),
+        8 => array(
             'Id' => 3,
             'Label' => 'All 45 points area',
         ),

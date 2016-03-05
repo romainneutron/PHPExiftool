@@ -20,11 +20,11 @@ use PHPExiftool\Driver\AbstractTag;
 class CheckMark extends AbstractTag
 {
 
-    protected $Id = 618;
+    protected $Id = 'mixed';
 
     protected $Name = 'CheckMark';
 
-    protected $FullName = 'CanonVRD::Ver1';
+    protected $FullName = 'mixed';
 
     protected $GroupName = 'CanonVRD';
 
@@ -34,7 +34,7 @@ class CheckMark extends AbstractTag
 
     protected $g2 = 'Image';
 
-    protected $Type = 'int16u';
+    protected $Type = 'mixed';
 
     protected $Writable = true;
 
@@ -54,6 +54,30 @@ class CheckMark extends AbstractTag
             'Label' => 2,
         ),
         3 => array(
+            'Id' => 3,
+            'Label' => 3,
+        ),
+        4 => array(
+            'Id' => 4,
+            'Label' => 4,
+        ),
+        5 => array(
+            'Id' => 5,
+            'Label' => 5,
+        ),
+        6 => array(
+            'Id' => 0,
+            'Label' => 'Clear',
+        ),
+        7 => array(
+            'Id' => 1,
+            'Label' => 1,
+        ),
+        8 => array(
+            'Id' => 2,
+            'Label' => 2,
+        ),
+        9 => array(
             'Id' => 3,
             'Label' => 3,
         ),

@@ -221,6 +221,10 @@ class LensType extends AbstractTag
             'Id' => '3 41.1',
             'Label' => 'Sigma 50mm F2.8 Macro',
         ),
+        '3 42' => array(
+            'Id' => '3 42',
+            'Label' => 'Sigma 300mm F2.8 EX DG APO IF',
+        ),
         '3 44' => array(
             'Id' => '3 44',
             'Label' => 'Sigma or Tamron Lens (3 44)',
@@ -941,6 +945,42 @@ class LensType extends AbstractTag
             'Id' => '8 32',
             'Label' => 'Sigma 30mm F1.4 DC HSM | A',
         ),
+        '8 34' => array(
+            'Id' => '8 34',
+            'Label' => 'Sigma 18-300mm F3.5-6.3 DC Macro HSM',
+        ),
+        '8 59' => array(
+            'Id' => '8 59',
+            'Label' => 'HD PENTAX-D FA 150-450mm F4.5-5.6 ED DC AW',
+        ),
+        '8 60' => array(
+            'Id' => '8 60',
+            'Label' => 'HD PENTAX-D FA* 70-200mm F2.8 ED DC AW',
+        ),
+        '8 61' => array(
+            'Id' => '8 61',
+            'Label' => 'HD PENTAX-D FA 28-105mm F3.5-5.6 ED DC WR',
+        ),
+        '8 62' => array(
+            'Id' => '8 62',
+            'Label' => 'HD PENTAX-D FA 24-70mm F2.8 ED SDM WR',
+        ),
+        '8 63' => array(
+            'Id' => '8 63',
+            'Label' => 'HD PENTAX-D FA 15-30mm F2.8 ED SDM WR',
+        ),
+        '8 198' => array(
+            'Id' => '8 198',
+            'Label' => 'smc PENTAX-DA L 18-50mm F4-5.6 DC WR RE',
+        ),
+        '8 199' => array(
+            'Id' => '8 199',
+            'Label' => 'HD PENTAX-DA 18-50mm F4-5.6 DC WR RE',
+        ),
+        '8 200' => array(
+            'Id' => '8 200',
+            'Label' => 'HD PENTAX-DA 16-85mm F3.5-5.6 ED DC WR',
+        ),
         '8 209' => array(
             'Id' => '8 209',
             'Label' => 'HD PENTAX-DA 20-40mm F2.8-4 ED Limited DC WR',
@@ -1076,6 +1116,10 @@ class LensType extends AbstractTag
         '11 17' => array(
             'Id' => '11 17',
             'Label' => 'smc PENTAX-FA 645 150-300mm F5.6 ED [IF]',
+        ),
+        '11 21' => array(
+            'Id' => '11 21',
+            'Label' => 'HD PENTAX-D FA 645 35mm F3.5 AL [IF]',
         ),
         '13 18' => array(
             'Id' => '13 18',

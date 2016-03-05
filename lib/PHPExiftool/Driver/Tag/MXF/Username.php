@@ -17,12 +17,12 @@ use PHPExiftool\Driver\AbstractTag;
 /**
  * @ExclusionPolicy("all")
  */
-class Username extends AbstractTag
+class UserName extends AbstractTag
 {
 
     protected $Id = 'mixed';
 
-    protected $Name = 'Username';
+    protected $Name = 'UserName';
 
     protected $FullName = 'MXF::Main';
 
@@ -38,6 +38,6 @@ class Username extends AbstractTag
 
     protected $Writable = false;
 
-    protected $Description = 'Username';
+    protected $Description = 'User Name';
 
 }

@@ -20,7 +20,7 @@ use PHPExiftool\Driver\AbstractTag;
 class VFDisplayIllumination extends AbstractTag
 {
 
-    protected $Id = 1296;
+    protected $Id = 'mixed';
 
     protected $Name = 'VFDisplayIllumination';
 

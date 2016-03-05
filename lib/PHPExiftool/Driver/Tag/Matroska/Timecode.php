@@ -17,12 +17,12 @@ use PHPExiftool\Driver\AbstractTag;
 /**
  * @ExclusionPolicy("all")
  */
-class Timecode extends AbstractTag
+class TimeCode extends AbstractTag
 {
 
     protected $Id = 103;
 
-    protected $Name = 'Timecode';
+    protected $Name = 'TimeCode';
 
     protected $FullName = 'Matroska::Main';
 
@@ -38,6 +38,6 @@ class Timecode extends AbstractTag
 
     protected $Writable = false;
 
-    protected $Description = 'Timecode';
+    protected $Description = 'Time Code';
 
 }

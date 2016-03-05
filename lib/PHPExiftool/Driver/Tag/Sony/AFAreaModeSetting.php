@@ -76,22 +76,26 @@ class AFAreaModeSetting extends AbstractTag
             'Label' => 'Zone',
         ),
         8 => array(
+            'Id' => 12,
+            'Label' => 'Expanded Flexible Spot',
+        ),
+        9 => array(
             'Id' => 0,
             'Label' => 'Wide',
         ),
-        9 => array(
+        10 => array(
             'Id' => 4,
             'Label' => 'Flexible Spot',
         ),
-        10 => array(
+        11 => array(
             'Id' => 8,
             'Label' => 'Zone',
         ),
-        11 => array(
+        12 => array(
             'Id' => 9,
             'Label' => 'Center',
         ),
-        12 => array(
+        13 => array(
             'Id' => 12,
             'Label' => 'Expanded Flexible Spot',
         ),

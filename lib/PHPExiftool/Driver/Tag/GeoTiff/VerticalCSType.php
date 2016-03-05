@@ -41,6 +41,10 @@ class VerticalCSType extends AbstractTag
     protected $Description = 'Vertical CS Type';
 
     protected $Values = array(
+        0 => array(
+            'Id' => 0,
+            'Label' => 'Undefined',
+        ),
         5001 => array(
             'Id' => 5001,
             'Label' => 'Airy 1830 ellipsoid',

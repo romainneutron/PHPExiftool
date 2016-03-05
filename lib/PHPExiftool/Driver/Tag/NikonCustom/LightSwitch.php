@@ -24,7 +24,7 @@ class LightSwitch extends AbstractTag
 
     protected $Name = 'LightSwitch';
 
-    protected $FullName = 'NikonCustom::SettingsD90';
+    protected $FullName = 'mixed';
 
     protected $GroupName = 'NikonCustom';
 

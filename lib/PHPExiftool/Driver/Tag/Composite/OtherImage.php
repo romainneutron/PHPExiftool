@@ -40,6 +40,6 @@ class OtherImage extends AbstractTag
 
     protected $Description = 'Other Image';
 
-    protected $local_g2 = 'Image';
+    protected $local_g2 = 'Preview';
 
 }

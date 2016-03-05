@@ -17,14 +17,14 @@ use PHPExiftool\Driver\AbstractTag;
 /**
  * @ExclusionPolicy("all")
  */
-class Timecode extends AbstractTag
+class TimeCode extends AbstractTag
 {
 
     protected $Id = 'ISMP';
 
-    protected $Name = 'Timecode';
+    protected $Name = 'TimeCode';
 
-    protected $FullName = 'RIFF::Hdrl';
+    protected $FullName = 'mixed';
 
     protected $GroupName = 'RIFF';
 
@@ -32,12 +32,12 @@ class Timecode extends AbstractTag
 
     protected $g1 = 'RIFF';
 
-    protected $g2 = 'Image';
+    protected $g2 = 'mixed';
 
     protected $Type = '?';
 
     protected $Writable = false;
 
-    protected $Description = 'Timecode';
+    protected $Description = 'Time Code';
 
 }

@@ -34,9 +34,9 @@ class SerialNumber extends AbstractTag
 
     protected $g2 = 'Camera';
 
-    protected $Type = 'mixed';
+    protected $Type = 'string';
 
-    protected $Writable = false;
+    protected $Writable = true;
 
     protected $Description = 'Serial Number';
 

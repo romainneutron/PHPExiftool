@@ -60,34 +60,62 @@ class AFCPrioritySelection extends AbstractTag
             'Label' => 'Release',
         ),
         4 => array(
-            'Id' => 128,
-            'Label' => 'Focus',
+            'Id' => 64,
+            'Label' => 'Release + Focus',
         ),
         5 => array(
-            'Id' => 0,
-            'Label' => 'Release',
-        ),
-        6 => array(
             'Id' => 128,
             'Label' => 'Focus',
+        ),
+        6 => array(
+            'Id' => 192,
+            'Label' => 'Focus + Release',
         ),
         7 => array(
             'Id' => 0,
             'Label' => 'Release',
         ),
         8 => array(
-            'Id' => 64,
-            'Label' => 'Release + Focus',
-        ),
-        9 => array(
             'Id' => 128,
             'Label' => 'Focus',
         ),
-        10 => array(
+        9 => array(
             'Id' => 0,
             'Label' => 'Release',
         ),
+        10 => array(
+            'Id' => 128,
+            'Label' => 'Focus',
+        ),
         11 => array(
+            'Id' => 0,
+            'Label' => 'Release',
+        ),
+        12 => array(
+            'Id' => 64,
+            'Label' => 'Release + Focus',
+        ),
+        13 => array(
+            'Id' => 128,
+            'Label' => 'Focus',
+        ),
+        14 => array(
+            'Id' => 0,
+            'Label' => 'Release',
+        ),
+        15 => array(
+            'Id' => 128,
+            'Label' => 'Focus',
+        ),
+        16 => array(
+            'Id' => 0,
+            'Label' => 'Release',
+        ),
+        17 => array(
+            'Id' => 64,
+            'Label' => 'Release + Focus',
+        ),
+        18 => array(
             'Id' => 128,
             'Label' => 'Focus',
         ),

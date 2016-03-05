@@ -34,13 +34,11 @@ class KillDate extends AbstractTag
 
     protected $g2 = 'Document';
 
-    protected $Type = 'date';
+    protected $Type = 'struct';
 
     protected $Writable = true;
 
     protected $Description = 'Kill Date';
-
-    protected $local_g2 = 'Time';
 
     protected $flag_Avoid = true;
 

@@ -251,6 +251,10 @@ class LensType extends AbstractTag
             'Id' => '53 2',
             'Label' => 'Apo-Telyt-M 135mm f/3.4',
         ),
+        '53 3' => array(
+            'Id' => '53 3',
+            'Label' => 'Apo-Summicron-M 50mm f/2 (VI)',
+        ),
     );
 
 }

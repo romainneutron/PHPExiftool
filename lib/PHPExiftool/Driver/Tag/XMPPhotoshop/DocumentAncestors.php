@@ -34,7 +34,7 @@ class DocumentAncestors extends AbstractTag
 
     protected $g2 = 'Image';
 
-    protected $Type = 'struct';
+    protected $Type = 'string';
 
     protected $Writable = true;
 

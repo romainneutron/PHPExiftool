@@ -20,11 +20,11 @@ use PHPExiftool\Driver\AbstractTag;
 class DLOOn extends AbstractTag
 {
 
-    protected $Id = 220;
+    protected $Id = 'mixed';
 
     protected $Name = 'DLOOn';
 
-    protected $FullName = 'CanonVRD::Ver2';
+    protected $FullName = 'mixed';
 
     protected $GroupName = 'CanonVRD';
 
@@ -34,7 +34,7 @@ class DLOOn extends AbstractTag
 
     protected $g2 = 'Image';
 
-    protected $Type = 'int16s';
+    protected $Type = 'mixed';
 
     protected $Writable = true;
 

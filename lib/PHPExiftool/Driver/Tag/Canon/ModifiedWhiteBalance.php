@@ -127,6 +127,10 @@ class ModifiedWhiteBalance extends AbstractTag
             'Id' => 21,
             'Label' => 'PC Set5',
         ),
+        23 => array(
+            'Id' => 23,
+            'Label' => 'Auto (ambience priority)',
+        ),
     );
 
 }

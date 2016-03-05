@@ -20,11 +20,11 @@ use PHPExiftool\Driver\AbstractTag;
 class Duration extends AbstractTag
 {
 
-    protected $Id = 512;
+    protected $Id = 'mixed';
 
     protected $Name = 'Duration';
 
-    protected $FullName = 'Olympus::WAV';
+    protected $FullName = 'mixed';
 
     protected $GroupName = 'Olympus';
 
@@ -34,12 +34,14 @@ class Duration extends AbstractTag
 
     protected $g2 = 'Audio';
 
-    protected $Type = 'int32u';
+    protected $Type = 'mixed';
 
     protected $Writable = false;
 
     protected $Description = 'Duration';
 
     protected $flag_Permanent = true;
+
+    protected $MaxLength = 6;
 
 }

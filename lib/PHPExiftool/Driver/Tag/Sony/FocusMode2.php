@@ -20,7 +20,7 @@ use PHPExiftool\Driver\AbstractTag;
 class FocusMode2 extends AbstractTag
 {
 
-    protected $Id = 50;
+    protected $Id = 'mixed';
 
     protected $Name = 'FocusMode2';
 

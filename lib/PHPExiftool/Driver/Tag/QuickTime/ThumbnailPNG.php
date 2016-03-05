@@ -40,6 +40,8 @@ class ThumbnailPNG extends AbstractTag
 
     protected $Description = 'Thumbnail PNG';
 
+    protected $local_g2 = 'Preview';
+
     protected $Index = 3;
 
 }

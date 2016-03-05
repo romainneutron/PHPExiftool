@@ -34,10 +34,14 @@ class PhotoshopBGRThumbnail extends AbstractTag
 
     protected $g2 = 'Image';
 
-    protected $Type = '?';
+    protected $Type = 'undef';
 
-    protected $Writable = false;
+    protected $Writable = true;
 
     protected $Description = 'Photoshop BGR Thumbnail';
+
+    protected $local_g2 = 'Preview';
+
+    protected $flag_Unsafe = true;
 
 }

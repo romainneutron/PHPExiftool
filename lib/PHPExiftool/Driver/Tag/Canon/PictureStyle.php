@@ -127,6 +127,10 @@ class PictureStyle extends AbstractTag
             'Id' => 135,
             'Label' => 'Auto',
         ),
+        136 => array(
+            'Id' => 136,
+            'Label' => 'Fine Detail',
+        ),
     );
 
 }

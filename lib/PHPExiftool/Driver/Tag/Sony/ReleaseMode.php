@@ -59,6 +59,10 @@ class ReleaseMode extends AbstractTag
             'Id' => 6,
             'Label' => 'White Balance Bracketing',
         ),
+        8 => array(
+            'Id' => 8,
+            'Label' => 'DRO Bracketing',
+        ),
         65535 => array(
             'Id' => 65535,
             'Label' => 'n/a',

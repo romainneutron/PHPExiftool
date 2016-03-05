@@ -51,6 +51,14 @@ class MultiFunctionLock extends AbstractTag
             'Id' => 1,
             'Label' => 'On',
         ),
+        2 => array(
+            'Id' => 2,
+            'Label' => 'On (quick control dial)',
+        ),
+        3 => array(
+            'Id' => 3,
+            'Label' => 'On (main dial and quick control dial)',
+        ),
     );
 
 }

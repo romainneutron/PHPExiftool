@@ -20,7 +20,7 @@ use PHPExiftool\Driver\AbstractTag;
 class LVShootingAreaDisplay extends AbstractTag
 {
 
-    protected $Id = 1035;
+    protected $Id = 'mixed';
 
     protected $Name = 'LVShootingAreaDisplay';
 

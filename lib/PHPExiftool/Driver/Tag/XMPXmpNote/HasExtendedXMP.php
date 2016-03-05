@@ -34,7 +34,7 @@ class HasExtendedXMP extends AbstractTag
 
     protected $g2 = 'Other';
 
-    protected $Type = 'boolean';
+    protected $Type = 'string';
 
     protected $Writable = true;
 

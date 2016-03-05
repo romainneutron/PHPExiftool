@@ -61,112 +61,174 @@ class AutoBracketSet extends AbstractTag
         ),
         4 => array(
             'Id' => 0,
-            'Label' => 'Exposure',
+            'Label' => 'AE & Flash',
         ),
         5 => array(
-            'Id' => 64,
-            'Label' => 'Active D-Lighting',
+            'Id' => 32,
+            'Label' => 'AE Only',
         ),
         6 => array(
-            'Id' => 128,
-            'Label' => 'WB Bracketing',
+            'Id' => 64,
+            'Label' => 'Flash Only',
         ),
         7 => array(
-            'Id' => 0,
-            'Label' => 'Exposure',
+            'Id' => 96,
+            'Label' => 'WB Bracketing',
         ),
         8 => array(
-            'Id' => 64,
-            'Label' => 'WB Bracketing',
+            'Id' => 128,
+            'Label' => 'ADL Bracketing',
         ),
         9 => array(
-            'Id' => 128,
-            'Label' => 'Active D-Lighting',
-        ),
-        10 => array(
-            'Id' => 0,
-            'Label' => 'Exposure',
-        ),
-        11 => array(
-            'Id' => 64,
-            'Label' => 'WB Bracketing',
-        ),
-        12 => array(
-            'Id' => 128,
-            'Label' => 'Active D-Lighting',
-        ),
-        13 => array(
             'Id' => 0,
             'Label' => 'AE & Flash',
         ),
-        14 => array(
-            'Id' => 64,
+        10 => array(
+            'Id' => 32,
             'Label' => 'AE Only',
         ),
-        15 => array(
-            'Id' => 128,
+        11 => array(
+            'Id' => 64,
             'Label' => 'Flash Only',
         ),
+        12 => array(
+            'Id' => 96,
+            'Label' => 'WB Bracketing',
+        ),
+        13 => array(
+            'Id' => 128,
+            'Label' => 'Active D-Lighting',
+        ),
+        14 => array(
+            'Id' => 0,
+            'Label' => 'Exposure',
+        ),
+        15 => array(
+            'Id' => 64,
+            'Label' => 'Active D-Lighting',
+        ),
         16 => array(
-            'Id' => 192,
+            'Id' => 128,
             'Label' => 'WB Bracketing',
         ),
         17 => array(
             'Id' => 0,
-            'Label' => 'AE & Flash',
+            'Label' => 'Exposure',
         ),
         18 => array(
-            'Id' => 32,
-            'Label' => 'AE Only',
-        ),
-        19 => array(
             'Id' => 64,
-            'Label' => 'Flash Only',
-        ),
-        20 => array(
-            'Id' => 96,
             'Label' => 'WB Bracketing',
         ),
-        21 => array(
+        19 => array(
             'Id' => 128,
             'Label' => 'Active D-Lighting',
         ),
+        20 => array(
+            'Id' => 0,
+            'Label' => 'Exposure',
+        ),
+        21 => array(
+            'Id' => 64,
+            'Label' => 'WB Bracketing',
+        ),
         22 => array(
+            'Id' => 128,
+            'Label' => 'Active D-Lighting',
+        ),
+        23 => array(
             'Id' => 0,
             'Label' => 'AE & Flash',
         ),
-        23 => array(
+        24 => array(
             'Id' => 64,
             'Label' => 'AE Only',
         ),
-        24 => array(
+        25 => array(
             'Id' => 128,
             'Label' => 'Flash Only',
         ),
-        25 => array(
+        26 => array(
             'Id' => 192,
             'Label' => 'WB Bracketing',
         ),
-        26 => array(
+        27 => array(
             'Id' => 0,
             'Label' => 'AE & Flash',
         ),
-        27 => array(
+        28 => array(
             'Id' => 32,
             'Label' => 'AE Only',
         ),
-        28 => array(
+        29 => array(
             'Id' => 64,
             'Label' => 'Flash Only',
         ),
-        29 => array(
+        30 => array(
             'Id' => 96,
             'Label' => 'WB Bracketing',
         ),
-        30 => array(
+        31 => array(
+            'Id' => 128,
+            'Label' => 'Active D-Lighting',
+        ),
+        32 => array(
+            'Id' => 0,
+            'Label' => 'AE & Flash',
+        ),
+        33 => array(
+            'Id' => 64,
+            'Label' => 'AE Only',
+        ),
+        34 => array(
+            'Id' => 128,
+            'Label' => 'Flash Only',
+        ),
+        35 => array(
+            'Id' => 192,
+            'Label' => 'WB Bracketing',
+        ),
+        36 => array(
+            'Id' => 0,
+            'Label' => 'AE & Flash',
+        ),
+        37 => array(
+            'Id' => 32,
+            'Label' => 'AE Only',
+        ),
+        38 => array(
+            'Id' => 64,
+            'Label' => 'Flash Only',
+        ),
+        39 => array(
+            'Id' => 96,
+            'Label' => 'WB Bracketing',
+        ),
+        40 => array(
+            'Id' => 128,
+            'Label' => 'Active D-Lighting',
+        ),
+        41 => array(
+            'Id' => 0,
+            'Label' => 'AE & Flash',
+        ),
+        42 => array(
+            'Id' => 32,
+            'Label' => 'AE Only',
+        ),
+        43 => array(
+            'Id' => 64,
+            'Label' => 'Flash Only',
+        ),
+        44 => array(
+            'Id' => 96,
+            'Label' => 'WB Bracketing',
+        ),
+        45 => array(
             'Id' => 128,
             'Label' => 'Active D-Lighting',
         ),
     );
+
+    protected $Index = 'mixed';
 
 }

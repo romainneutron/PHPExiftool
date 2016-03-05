@@ -97,9 +97,25 @@ class LensType extends AbstractTag
             'Id' => 12,
             'Label' => 'Samsung NX 12-24mm F4-5.6 ED',
         ),
+        13 => array(
+            'Id' => 13,
+            'Label' => 'Saumsun NX 16-50mm F2-2.8 S ED OIS',
+        ),
         14 => array(
             'Id' => 14,
             'Label' => 'Samsung NX 10mm F3.5 Fisheye',
+        ),
+        15 => array(
+            'Id' => 15,
+            'Label' => 'Samsung NX 16-50mm F3.5-5.6 Power Zoom ED OIS',
+        ),
+        20 => array(
+            'Id' => 20,
+            'Label' => 'Samsung NX 50-150mm F2.8 S ED OIS',
+        ),
+        21 => array(
+            'Id' => 21,
+            'Label' => 'Samsung NX 300mm F2.8 ED OIS',
         ),
     );
 

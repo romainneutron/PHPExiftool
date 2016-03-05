@@ -36,10 +36,12 @@ class ColorMatrix1 extends AbstractTag
 
     protected $Type = 'float';
 
-    protected $Writable = false;
+    protected $Writable = true;
 
     protected $Description = 'Color Matrix 1';
 
     protected $flag_Permanent = true;
+
+    protected $MaxLength = 9;
 
 }

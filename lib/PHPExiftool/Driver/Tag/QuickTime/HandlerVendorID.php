@@ -43,6 +43,10 @@ class HandlerVendorID extends AbstractTag
     protected $MaxLength = 4;
 
     protected $Values = array(
+        ' KD ' => array(
+            'Id' => ' KD ',
+            'Label' => 'Kodak',
+        ),
         'AR.D' => array(
             'Id' => 'AR.D',
             'Label' => 'Parrot AR.Drone',

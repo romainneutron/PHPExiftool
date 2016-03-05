@@ -40,6 +40,8 @@ class UnknownThumbnail extends AbstractTag
 
     protected $Description = 'Unknown Thumbnail';
 
+    protected $local_g2 = 'Preview';
+
     protected $flag_Binary = true;
 
     protected $Index = 4;

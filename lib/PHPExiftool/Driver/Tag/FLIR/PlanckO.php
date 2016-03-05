@@ -34,7 +34,7 @@ class PlanckO extends AbstractTag
 
     protected $g2 = 'Camera';
 
-    protected $Type = 'int16s';
+    protected $Type = 'int32s';
 
     protected $Writable = false;
 

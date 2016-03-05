@@ -20,11 +20,11 @@ use PHPExiftool\Driver\AbstractTag;
 class CustomWBRGBLevels extends AbstractTag
 {
 
-    protected $Id = 25;
+    protected $Id = 'mixed';
 
     protected $Name = 'CustomWB_RGBLevels';
 
-    protected $FullName = 'Sony::CameraSettings3';
+    protected $FullName = 'mixed';
 
     protected $GroupName = 'Sony';
 
@@ -34,7 +34,7 @@ class CustomWBRGBLevels extends AbstractTag
 
     protected $g2 = 'Camera';
 
-    protected $Type = 'int16uRev';
+    protected $Type = 'mixed';
 
     protected $Writable = true;
 

@@ -53,13 +53,25 @@ class AspectRatio extends AbstractTag
             'Id' => '1 4',
             'Label' => '1:1',
         ),
+        '2 1' => array(
+            'Id' => '2 1',
+            'Label' => '3:2 (RAW)',
+        ),
         '2 2' => array(
             'Id' => '2 2',
             'Label' => '3:2',
         ),
+        '3 1' => array(
+            'Id' => '3 1',
+            'Label' => '16:9 (RAW)',
+        ),
         '3 3' => array(
             'Id' => '3 3',
             'Label' => '16:9',
+        ),
+        '4 1' => array(
+            'Id' => '4 1',
+            'Label' => '1:1 (RAW)',
         ),
         '4 4' => array(
             'Id' => '4 4',
@@ -80,6 +92,10 @@ class AspectRatio extends AbstractTag
         '8 8' => array(
             'Id' => '8 8',
             'Label' => '7:5',
+        ),
+        '9 1' => array(
+            'Id' => '9 1',
+            'Label' => '3:4 (RAW)',
         ),
         '9 9' => array(
             'Id' => '9 9',

@@ -20,7 +20,7 @@ use PHPExiftool\Driver\AbstractTag;
 class WBRGBLevelsTungsten extends AbstractTag
 {
 
-    protected $Id = 30754;
+    protected $Id = 'mixed';
 
     protected $Name = 'WB_RGBLevelsTungsten';
 

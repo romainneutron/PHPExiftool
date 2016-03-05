@@ -48,23 +48,23 @@ class PlaybackMonitorOffTime extends AbstractTag
             'Label' => '4 s',
         ),
         1 => array(
-            'Id' => 8,
+            'Id' => 4,
             'Label' => '10 s',
         ),
         2 => array(
-            'Id' => 16,
+            'Id' => 8,
             'Label' => '20 s',
         ),
         3 => array(
-            'Id' => 24,
+            'Id' => 12,
             'Label' => '1 min',
         ),
         4 => array(
-            'Id' => 32,
+            'Id' => 16,
             'Label' => '5 min',
         ),
         5 => array(
-            'Id' => 40,
+            'Id' => 20,
             'Label' => '10 min',
         ),
         6 => array(
@@ -96,22 +96,94 @@ class PlaybackMonitorOffTime extends AbstractTag
             'Label' => '4 s',
         ),
         13 => array(
-            'Id' => 4,
+            'Id' => 8,
             'Label' => '10 s',
         ),
         14 => array(
-            'Id' => 8,
+            'Id' => 16,
             'Label' => '20 s',
         ),
         15 => array(
-            'Id' => 12,
+            'Id' => 24,
             'Label' => '1 min',
         ),
         16 => array(
-            'Id' => 16,
+            'Id' => 32,
             'Label' => '5 min',
         ),
         17 => array(
+            'Id' => 40,
+            'Label' => '10 min',
+        ),
+        18 => array(
+            'Id' => 0,
+            'Label' => '4 s',
+        ),
+        19 => array(
+            'Id' => 32,
+            'Label' => '10 s',
+        ),
+        20 => array(
+            'Id' => 64,
+            'Label' => '20 s',
+        ),
+        21 => array(
+            'Id' => 96,
+            'Label' => '1 min',
+        ),
+        22 => array(
+            'Id' => 128,
+            'Label' => '5 min',
+        ),
+        23 => array(
+            'Id' => 160,
+            'Label' => '10 min',
+        ),
+        24 => array(
+            'Id' => 0,
+            'Label' => '4 s',
+        ),
+        25 => array(
+            'Id' => 32,
+            'Label' => '10 s',
+        ),
+        26 => array(
+            'Id' => 64,
+            'Label' => '20 s',
+        ),
+        27 => array(
+            'Id' => 96,
+            'Label' => '1 min',
+        ),
+        28 => array(
+            'Id' => 128,
+            'Label' => '5 min',
+        ),
+        29 => array(
+            'Id' => 160,
+            'Label' => '10 min',
+        ),
+        30 => array(
+            'Id' => 0,
+            'Label' => '4 s',
+        ),
+        31 => array(
+            'Id' => 4,
+            'Label' => '10 s',
+        ),
+        32 => array(
+            'Id' => 8,
+            'Label' => '20 s',
+        ),
+        33 => array(
+            'Id' => 12,
+            'Label' => '1 min',
+        ),
+        34 => array(
+            'Id' => 16,
+            'Label' => '5 min',
+        ),
+        35 => array(
             'Id' => 20,
             'Label' => '10 min',
         ),

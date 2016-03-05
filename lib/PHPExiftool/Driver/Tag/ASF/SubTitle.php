@@ -17,12 +17,12 @@ use PHPExiftool\Driver\AbstractTag;
 /**
  * @ExclusionPolicy("all")
  */
-class SubTitle extends AbstractTag
+class Subtitle extends AbstractTag
 {
 
     protected $Id = 'SubTitle';
 
-    protected $Name = 'SubTitle';
+    protected $Name = 'Subtitle';
 
     protected $FullName = 'ASF::ExtendedDescr';
 
@@ -38,6 +38,6 @@ class SubTitle extends AbstractTag
 
     protected $Writable = false;
 
-    protected $Description = 'Sub Title';
+    protected $Description = 'Subtitle';
 
 }

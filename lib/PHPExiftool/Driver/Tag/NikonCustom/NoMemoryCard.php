@@ -88,7 +88,7 @@ class NoMemoryCard extends AbstractTag
             'Label' => 'Release Locked',
         ),
         11 => array(
-            'Id' => 2,
+            'Id' => 32,
             'Label' => 'Enable Release',
         ),
         12 => array(
@@ -96,7 +96,7 @@ class NoMemoryCard extends AbstractTag
             'Label' => 'Release Locked',
         ),
         13 => array(
-            'Id' => 32,
+            'Id' => 2,
             'Label' => 'Enable Release',
         ),
         14 => array(
@@ -112,6 +112,22 @@ class NoMemoryCard extends AbstractTag
             'Label' => 'Release Locked',
         ),
         17 => array(
+            'Id' => 32,
+            'Label' => 'Enable Release',
+        ),
+        18 => array(
+            'Id' => 0,
+            'Label' => 'Release Locked',
+        ),
+        19 => array(
+            'Id' => 32,
+            'Label' => 'Enable Release',
+        ),
+        20 => array(
+            'Id' => 0,
+            'Label' => 'Release Locked',
+        ),
+        21 => array(
             'Id' => 32,
             'Label' => 'Enable Release',
         ),

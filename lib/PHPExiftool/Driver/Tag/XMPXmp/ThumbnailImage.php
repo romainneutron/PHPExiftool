@@ -40,6 +40,8 @@ class ThumbnailImage extends AbstractTag
 
     protected $Description = 'Thumbnail Image';
 
+    protected $local_g2 = 'Preview';
+
     protected $flag_Avoid = true;
 
     protected $flag_List = true;

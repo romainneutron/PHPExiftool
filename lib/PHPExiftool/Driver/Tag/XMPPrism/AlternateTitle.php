@@ -34,7 +34,7 @@ class AlternateTitle extends AbstractTag
 
     protected $g2 = 'Document';
 
-    protected $Type = 'string';
+    protected $Type = 'struct';
 
     protected $Writable = true;
 

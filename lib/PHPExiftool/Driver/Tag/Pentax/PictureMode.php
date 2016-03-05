@@ -268,10 +268,14 @@ class PictureMode extends AbstractTag
             'Label' => 'Fisheye',
         ),
         52 => array(
+            'Id' => 85,
+            'Label' => 'Digital Filter 4',
+        ),
+        53 => array(
             'Id' => 221,
             'Label' => 'P',
         ),
-        53 => array(
+        54 => array(
             'Id' => 255,
             'Label' => 'PICT',
         ),

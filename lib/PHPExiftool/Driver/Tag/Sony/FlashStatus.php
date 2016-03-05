@@ -20,11 +20,11 @@ use PHPExiftool\Driver\AbstractTag;
 class FlashStatus extends AbstractTag
 {
 
-    protected $Id = 49;
+    protected $Id = 'mixed';
 
     protected $Name = 'FlashStatus';
 
-    protected $FullName = 'Sony::Tag9050';
+    protected $FullName = 'mixed';
 
     protected $GroupName = 'Sony';
 
@@ -32,7 +32,7 @@ class FlashStatus extends AbstractTag
 
     protected $g1 = 'Sony';
 
-    protected $g2 = 'Image';
+    protected $g2 = 'mixed';
 
     protected $Type = 'int8u';
 
@@ -45,29 +45,77 @@ class FlashStatus extends AbstractTag
     protected $Values = array(
         0 => array(
             'Id' => 0,
-            'Label' => 'No Flash present',
+            'Label' => 'None',
+        ),
+        1 => array(
+            'Id' => 2,
+            'Label' => 'External',
         ),
         2 => array(
+            'Id' => 0,
+            'Label' => 'None',
+        ),
+        3 => array(
+            'Id' => 1,
+            'Label' => 'Built-in',
+        ),
+        4 => array(
+            'Id' => 2,
+            'Label' => 'External',
+        ),
+        5 => array(
+            'Id' => 0,
+            'Label' => 'No Flash present',
+        ),
+        6 => array(
             'Id' => 2,
             'Label' => 'Flash Inhibited',
         ),
-        64 => array(
+        7 => array(
             'Id' => 64,
             'Label' => 'Built-in Flash present',
         ),
-        65 => array(
+        8 => array(
             'Id' => 65,
             'Label' => 'Built-in Flash Fired',
         ),
-        66 => array(
+        9 => array(
             'Id' => 66,
             'Label' => 'Built-in Flash Inhibited',
         ),
-        128 => array(
+        10 => array(
             'Id' => 128,
             'Label' => 'External Flash present',
         ),
-        129 => array(
+        11 => array(
+            'Id' => 129,
+            'Label' => 'External Flash Fired',
+        ),
+        12 => array(
+            'Id' => 0,
+            'Label' => 'No Flash present',
+        ),
+        13 => array(
+            'Id' => 2,
+            'Label' => 'Flash Inhibited',
+        ),
+        14 => array(
+            'Id' => 64,
+            'Label' => 'Built-in Flash present',
+        ),
+        15 => array(
+            'Id' => 65,
+            'Label' => 'Built-in Flash Fired',
+        ),
+        16 => array(
+            'Id' => 66,
+            'Label' => 'Built-in Flash Inhibited',
+        ),
+        17 => array(
+            'Id' => 128,
+            'Label' => 'External Flash present',
+        ),
+        18 => array(
             'Id' => 129,
             'Label' => 'External Flash Fired',
         ),

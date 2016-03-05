@@ -20,11 +20,11 @@ use PHPExiftool\Driver\AbstractTag;
 class AutoLightingOptimizer extends AbstractTag
 {
 
-    protected $Id = 111;
+    protected $Id = 'mixed';
 
     protected $Name = 'AutoLightingOptimizer';
 
-    protected $FullName = 'CanonVRD::Ver2';
+    protected $FullName = 'mixed';
 
     protected $GroupName = 'CanonVRD';
 
@@ -34,26 +34,38 @@ class AutoLightingOptimizer extends AbstractTag
 
     protected $g2 = 'Image';
 
-    protected $Type = 'int16s';
+    protected $Type = 'mixed';
 
     protected $Writable = true;
 
     protected $Description = 'Auto Lighting Optimizer';
 
     protected $Values = array(
-        100 => array(
+        0 => array(
+            'Id' => 0,
+            'Label' => 'Low',
+        ),
+        1 => array(
+            'Id' => 1,
+            'Label' => 'Standard',
+        ),
+        2 => array(
+            'Id' => 2,
+            'Label' => 'Strong',
+        ),
+        3 => array(
             'Id' => 100,
             'Label' => 'Low',
         ),
-        200 => array(
+        4 => array(
             'Id' => 200,
             'Label' => 'Standard',
         ),
-        300 => array(
+        5 => array(
             'Id' => 300,
             'Label' => 'Strong',
         ),
-        32767 => array(
+        6 => array(
             'Id' => 32767,
             'Label' => 'n/a',
         ),

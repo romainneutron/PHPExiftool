@@ -20,11 +20,11 @@ use PHPExiftool\Driver\AbstractTag;
 class MultiSelectorLiveView extends AbstractTag
 {
 
-    protected $Id = '4.3';
+    protected $Id = 'mixed';
 
     protected $Name = 'MultiSelectorLiveView';
 
-    protected $FullName = 'NikonCustom::SettingsD3';
+    protected $FullName = 'mixed';
 
     protected $GroupName = 'NikonCustom';
 
@@ -47,15 +47,27 @@ class MultiSelectorLiveView extends AbstractTag
             'Id' => 0,
             'Label' => 'Reset',
         ),
-        64 => array(
+        1 => array(
             'Id' => 64,
             'Label' => 'Zoom On/Off',
         ),
-        128 => array(
+        2 => array(
             'Id' => 128,
             'Label' => 'Start Movie Recording',
         ),
-        192 => array(
+        3 => array(
+            'Id' => 192,
+            'Label' => 'Not Used',
+        ),
+        4 => array(
+            'Id' => 0,
+            'Label' => 'Reset',
+        ),
+        5 => array(
+            'Id' => 64,
+            'Label' => 'Zoom',
+        ),
+        6 => array(
             'Id' => 192,
             'Label' => 'Not Used',
         ),

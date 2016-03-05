@@ -20,11 +20,11 @@ use PHPExiftool\Driver\AbstractTag;
 class WorkColorSpace extends AbstractTag
 {
 
-    protected $Id = 624;
+    protected $Id = 'mixed';
 
     protected $Name = 'WorkColorSpace';
 
-    protected $FullName = 'CanonVRD::Ver1';
+    protected $FullName = 'mixed';
 
     protected $GroupName = 'CanonVRD';
 
@@ -34,7 +34,7 @@ class WorkColorSpace extends AbstractTag
 
     protected $g2 = 'Image';
 
-    protected $Type = 'int16u';
+    protected $Type = 'mixed';
 
     protected $Writable = true;
 
@@ -42,22 +42,42 @@ class WorkColorSpace extends AbstractTag
 
     protected $Values = array(
         0 => array(
-            'Id' => 0,
+            'Id' => 1,
             'Label' => 'sRGB',
         ),
         1 => array(
-            'Id' => 1,
+            'Id' => 2,
             'Label' => 'Adobe RGB',
         ),
         2 => array(
-            'Id' => 2,
+            'Id' => 3,
             'Label' => 'Wide Gamut RGB',
         ),
         3 => array(
-            'Id' => 3,
+            'Id' => 4,
             'Label' => 'Apple RGB',
         ),
         4 => array(
+            'Id' => 5,
+            'Label' => 'ColorMatch RGB',
+        ),
+        5 => array(
+            'Id' => 0,
+            'Label' => 'sRGB',
+        ),
+        6 => array(
+            'Id' => 1,
+            'Label' => 'Adobe RGB',
+        ),
+        7 => array(
+            'Id' => 2,
+            'Label' => 'Wide Gamut RGB',
+        ),
+        8 => array(
+            'Id' => 3,
+            'Label' => 'Apple RGB',
+        ),
+        9 => array(
             'Id' => 4,
             'Label' => 'ColorMatch RGB',
         ),

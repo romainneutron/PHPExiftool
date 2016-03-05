@@ -47,13 +47,17 @@ class AFAreaMode extends AbstractTag
             'Id' => 0,
             'Label' => 'Off (Manual Focus)',
         ),
+        1 => array(
+            'Id' => 1,
+            'Label' => 'AF Point Expansion (surround)',
+        ),
         2 => array(
             'Id' => 2,
             'Label' => 'Single-point AF',
         ),
         4 => array(
             'Id' => 4,
-            'Label' => 'Multi-point AF or AI AF',
+            'Label' => 'Auto',
         ),
         5 => array(
             'Id' => 5,
@@ -69,11 +73,15 @@ class AFAreaMode extends AbstractTag
         ),
         8 => array(
             'Id' => 8,
-            'Label' => 'AF Point Expansion',
+            'Label' => 'AF Point Expansion (4 point)',
         ),
         9 => array(
             'Id' => 9,
             'Label' => 'Spot AF',
+        ),
+        10 => array(
+            'Id' => 10,
+            'Label' => 'AF Point Expansion (8 point)',
         ),
         11 => array(
             'Id' => 11,
@@ -82,6 +90,10 @@ class AFAreaMode extends AbstractTag
         13 => array(
             'Id' => 13,
             'Label' => 'Flexizone Single',
+        ),
+        14 => array(
+            'Id' => 14,
+            'Label' => 'Large Zone AF',
         ),
     );
 

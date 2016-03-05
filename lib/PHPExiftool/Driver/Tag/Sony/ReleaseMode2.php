@@ -57,7 +57,7 @@ class ReleaseMode2 extends AbstractTag
         ),
         3 => array(
             'Id' => 3,
-            'Label' => 'Continuous - White Balance Bracketing',
+            'Label' => 'DRO or White Balance Bracketing',
         ),
         5 => array(
             'Id' => 5,

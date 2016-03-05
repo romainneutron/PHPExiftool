@@ -316,12 +316,324 @@ class AFPointSelected extends AbstractTag
             'Label' => 'Upper Far Left',
         ),
         68 => array(
-            'Id' => 0,
+            'Id' => '-1',
             'Label' => 'Auto',
         ),
         69 => array(
+            'Id' => 0,
+            'Label' => 'A5',
+        ),
+        70 => array(
+            'Id' => 1,
+            'Label' => 'A6',
+        ),
+        71 => array(
+            'Id' => 2,
+            'Label' => 'A7',
+        ),
+        72 => array(
+            'Id' => 3,
+            'Label' => 'B2',
+        ),
+        73 => array(
+            'Id' => 4,
+            'Label' => 'B3',
+        ),
+        74 => array(
+            'Id' => 5,
+            'Label' => 'B4',
+        ),
+        75 => array(
+            'Id' => 6,
+            'Label' => 'B5',
+        ),
+        76 => array(
+            'Id' => 7,
+            'Label' => 'B6',
+        ),
+        77 => array(
+            'Id' => 8,
+            'Label' => 'B7',
+        ),
+        78 => array(
+            'Id' => 9,
+            'Label' => 'B8',
+        ),
+        79 => array(
+            'Id' => 10,
+            'Label' => 'B9',
+        ),
+        80 => array(
+            'Id' => 11,
+            'Label' => 'B10',
+        ),
+        81 => array(
+            'Id' => 12,
+            'Label' => 'C1',
+        ),
+        82 => array(
+            'Id' => 13,
+            'Label' => 'C2',
+        ),
+        83 => array(
+            'Id' => 14,
+            'Label' => 'C3',
+        ),
+        84 => array(
+            'Id' => 15,
+            'Label' => 'C4',
+        ),
+        85 => array(
+            'Id' => 16,
+            'Label' => 'C5',
+        ),
+        86 => array(
+            'Id' => 17,
+            'Label' => 'C6',
+        ),
+        87 => array(
+            'Id' => 18,
+            'Label' => 'C7',
+        ),
+        88 => array(
+            'Id' => 19,
+            'Label' => 'C8',
+        ),
+        89 => array(
+            'Id' => 20,
+            'Label' => 'C9',
+        ),
+        90 => array(
+            'Id' => 21,
+            'Label' => 'C10',
+        ),
+        91 => array(
+            'Id' => 22,
+            'Label' => 'C11',
+        ),
+        92 => array(
+            'Id' => 23,
+            'Label' => 'D1',
+        ),
+        93 => array(
+            'Id' => 24,
+            'Label' => 'D2',
+        ),
+        94 => array(
+            'Id' => 25,
+            'Label' => 'D3',
+        ),
+        95 => array(
+            'Id' => 26,
+            'Label' => 'D4',
+        ),
+        96 => array(
+            'Id' => 27,
+            'Label' => 'D5',
+        ),
+        97 => array(
+            'Id' => 28,
+            'Label' => 'D6',
+        ),
+        98 => array(
+            'Id' => 29,
+            'Label' => 'D7',
+        ),
+        99 => array(
+            'Id' => 30,
+            'Label' => 'D8',
+        ),
+        100 => array(
+            'Id' => 31,
+            'Label' => 'D9',
+        ),
+        101 => array(
+            'Id' => 32,
+            'Label' => 'D10',
+        ),
+        102 => array(
+            'Id' => 33,
+            'Label' => 'D11',
+        ),
+        103 => array(
+            'Id' => 34,
+            'Label' => 'E1',
+        ),
+        104 => array(
+            'Id' => 35,
+            'Label' => 'E2',
+        ),
+        105 => array(
+            'Id' => 36,
+            'Label' => 'E3',
+        ),
+        106 => array(
+            'Id' => 37,
+            'Label' => 'E4',
+        ),
+        107 => array(
+            'Id' => 38,
+            'Label' => 'E5',
+        ),
+        108 => array(
+            'Id' => 39,
+            'Label' => 'E6 (Center)',
+        ),
+        109 => array(
             'Id' => 40,
-            'Label' => 'Center',
+            'Label' => 'E7',
+        ),
+        110 => array(
+            'Id' => 41,
+            'Label' => 'E8',
+        ),
+        111 => array(
+            'Id' => 42,
+            'Label' => 'E9',
+        ),
+        112 => array(
+            'Id' => 43,
+            'Label' => 'E10',
+        ),
+        113 => array(
+            'Id' => 44,
+            'Label' => 'E11',
+        ),
+        114 => array(
+            'Id' => 45,
+            'Label' => 'F1',
+        ),
+        115 => array(
+            'Id' => 46,
+            'Label' => 'F2',
+        ),
+        116 => array(
+            'Id' => 47,
+            'Label' => 'F3',
+        ),
+        117 => array(
+            'Id' => 48,
+            'Label' => 'F4',
+        ),
+        118 => array(
+            'Id' => 49,
+            'Label' => 'F5',
+        ),
+        119 => array(
+            'Id' => 50,
+            'Label' => 'F6',
+        ),
+        120 => array(
+            'Id' => 51,
+            'Label' => 'F7',
+        ),
+        121 => array(
+            'Id' => 52,
+            'Label' => 'F8',
+        ),
+        122 => array(
+            'Id' => 53,
+            'Label' => 'F9',
+        ),
+        123 => array(
+            'Id' => 54,
+            'Label' => 'F10',
+        ),
+        124 => array(
+            'Id' => 55,
+            'Label' => 'F11',
+        ),
+        125 => array(
+            'Id' => 56,
+            'Label' => 'G1',
+        ),
+        126 => array(
+            'Id' => 57,
+            'Label' => 'G2',
+        ),
+        127 => array(
+            'Id' => 58,
+            'Label' => 'G3',
+        ),
+        128 => array(
+            'Id' => 59,
+            'Label' => 'G4',
+        ),
+        129 => array(
+            'Id' => 60,
+            'Label' => 'G5',
+        ),
+        130 => array(
+            'Id' => 61,
+            'Label' => 'G6',
+        ),
+        131 => array(
+            'Id' => 62,
+            'Label' => 'G7',
+        ),
+        132 => array(
+            'Id' => 63,
+            'Label' => 'G8',
+        ),
+        133 => array(
+            'Id' => 64,
+            'Label' => 'G9',
+        ),
+        134 => array(
+            'Id' => 65,
+            'Label' => 'G10',
+        ),
+        135 => array(
+            'Id' => 66,
+            'Label' => 'G11',
+        ),
+        136 => array(
+            'Id' => 67,
+            'Label' => 'H2',
+        ),
+        137 => array(
+            'Id' => 68,
+            'Label' => 'H3',
+        ),
+        138 => array(
+            'Id' => 69,
+            'Label' => 'H4',
+        ),
+        139 => array(
+            'Id' => 70,
+            'Label' => 'H5',
+        ),
+        140 => array(
+            'Id' => 71,
+            'Label' => 'H6',
+        ),
+        141 => array(
+            'Id' => 72,
+            'Label' => 'H7',
+        ),
+        142 => array(
+            'Id' => 73,
+            'Label' => 'H8',
+        ),
+        143 => array(
+            'Id' => 74,
+            'Label' => 'H9',
+        ),
+        144 => array(
+            'Id' => 75,
+            'Label' => 'H10',
+        ),
+        145 => array(
+            'Id' => 76,
+            'Label' => 'I5',
+        ),
+        146 => array(
+            'Id' => 77,
+            'Label' => 'I6',
+        ),
+        147 => array(
+            'Id' => 78,
+            'Label' => 'I7',
         ),
     );
 

@@ -47,7 +47,79 @@ class CommandDialsReverseRotation extends AbstractTag
             'Id' => 0,
             'Label' => 'No',
         ),
-        128 => array(
+        1 => array(
+            'Id' => 128,
+            'Label' => 'Yes',
+        ),
+        2 => array(
+            'Id' => 0,
+            'Label' => 'No',
+        ),
+        3 => array(
+            'Id' => 8,
+            'Label' => 'Shutter Speed & Aperture',
+        ),
+        4 => array(
+            'Id' => 16,
+            'Label' => 'Exposure Compensation',
+        ),
+        5 => array(
+            'Id' => 24,
+            'Label' => 'Exposure Compensation, Shutter Speed & Aperture',
+        ),
+        6 => array(
+            'Id' => 0,
+            'Label' => 'No',
+        ),
+        7 => array(
+            'Id' => 128,
+            'Label' => 'Yes',
+        ),
+        8 => array(
+            'Id' => 0,
+            'Label' => 'No',
+        ),
+        9 => array(
+            'Id' => 128,
+            'Label' => 'Yes',
+        ),
+        10 => array(
+            'Id' => 0,
+            'Label' => 'No',
+        ),
+        11 => array(
+            'Id' => 128,
+            'Label' => 'Yes',
+        ),
+        12 => array(
+            'Id' => 0,
+            'Label' => 'No',
+        ),
+        13 => array(
+            'Id' => 128,
+            'Label' => 'Yes',
+        ),
+        14 => array(
+            'Id' => 0,
+            'Label' => 'No',
+        ),
+        15 => array(
+            'Id' => 8,
+            'Label' => 'Shutter Speed & Aperture',
+        ),
+        16 => array(
+            'Id' => 16,
+            'Label' => 'Exposure Compensation',
+        ),
+        17 => array(
+            'Id' => 24,
+            'Label' => 'Exposure Compensation, Shutter Speed & Aperture',
+        ),
+        18 => array(
+            'Id' => 0,
+            'Label' => 'No',
+        ),
+        19 => array(
             'Id' => 128,
             'Label' => 'Yes',
         ),

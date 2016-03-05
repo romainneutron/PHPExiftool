@@ -83,6 +83,14 @@ class ColorDataVersion extends AbstractTag
             'Id' => 10,
             'Label' => '10 (1DX/5DmkIII/6D/70D/100D/650D/700D/M)',
         ),
+        10 => array(
+            'Id' => 11,
+            'Label' => '11 (7DmkII/750D/760D)',
+        ),
+        11 => array(
+            'Id' => 12,
+            'Label' => '12 (5DS/5DSR)',
+        ),
     );
 
 }

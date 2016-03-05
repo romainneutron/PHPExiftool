@@ -20,11 +20,11 @@ use PHPExiftool\Driver\AbstractTag;
 class DLOData extends AbstractTag
 {
 
-    protected $Id = 234;
+    protected $Id = 10;
 
     protected $Name = 'DLOData';
 
-    protected $FullName = 'CanonVRD::Ver2';
+    protected $FullName = 'CanonVRD::DLOInfo';
 
     protected $GroupName = 'CanonVRD';
 
@@ -34,7 +34,7 @@ class DLOData extends AbstractTag
 
     protected $g2 = 'Image';
 
-    protected $Type = 'var_undef';
+    protected $Type = 'undef';
 
     protected $Writable = true;
 

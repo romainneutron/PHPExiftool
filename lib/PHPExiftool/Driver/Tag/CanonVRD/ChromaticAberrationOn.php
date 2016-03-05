@@ -20,11 +20,11 @@ use PHPExiftool\Driver\AbstractTag;
 class ChromaticAberrationOn extends AbstractTag
 {
 
-    protected $Id = 98;
+    protected $Id = 'mixed';
 
     protected $Name = 'ChromaticAberrationOn';
 
-    protected $FullName = 'CanonVRD::Ver2';
+    protected $FullName = 'mixed';
 
     protected $GroupName = 'CanonVRD';
 
@@ -34,10 +34,21 @@ class ChromaticAberrationOn extends AbstractTag
 
     protected $g2 = 'Image';
 
-    protected $Type = 'int16s';
+    protected $Type = 'mixed';
 
     protected $Writable = true;
 
     protected $Description = 'Chromatic Aberration On';
+
+    protected $Values = array(
+        0 => array(
+            'Id' => 0,
+            'Label' => 'No',
+        ),
+        1 => array(
+            'Id' => 1,
+            'Label' => 'Yes',
+        ),
+    );
 
 }

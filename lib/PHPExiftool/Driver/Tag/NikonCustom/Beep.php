@@ -57,73 +57,105 @@ class Beep extends AbstractTag
         ),
         3 => array(
             'Id' => 0,
-            'Label' => 'On',
+            'Label' => 'Off',
         ),
         4 => array(
-            'Id' => 128,
-            'Label' => 'Off',
-        ),
-        5 => array(
-            'Id' => 0,
-            'Label' => 'Off',
-        ),
-        6 => array(
-            'Id' => 64,
+            'Id' => 1,
             'Label' => 'Low',
         ),
-        7 => array(
-            'Id' => 128,
+        5 => array(
+            'Id' => 2,
+            'Label' => 'Medium',
+        ),
+        6 => array(
+            'Id' => 3,
             'Label' => 'High',
         ),
-        8 => array(
+        7 => array(
             'Id' => 0,
+            'Label' => 'On',
+        ),
+        8 => array(
+            'Id' => 128,
             'Label' => 'Off',
         ),
         9 => array(
-            'Id' => 64,
-            'Label' => 'Low',
-        ),
-        10 => array(
-            'Id' => 128,
-            'Label' => 'High',
-        ),
-        11 => array(
             'Id' => 0,
             'Label' => 'Off',
         ),
-        12 => array(
+        10 => array(
             'Id' => 64,
             'Label' => 'Low',
         ),
-        13 => array(
+        11 => array(
             'Id' => 128,
             'Label' => 'High',
         ),
-        14 => array(
+        12 => array(
             'Id' => 0,
+            'Label' => 'Off',
+        ),
+        13 => array(
+            'Id' => 64,
+            'Label' => 'Low',
+        ),
+        14 => array(
+            'Id' => 128,
             'Label' => 'High',
         ),
         15 => array(
+            'Id' => 0,
+            'Label' => 'Off',
+        ),
+        16 => array(
             'Id' => 64,
             'Label' => 'Low',
         ),
-        16 => array(
+        17 => array(
+            'Id' => 128,
+            'Label' => 'High',
+        ),
+        18 => array(
+            'Id' => 0,
+            'Label' => 'High',
+        ),
+        19 => array(
+            'Id' => 64,
+            'Label' => 'Low',
+        ),
+        20 => array(
             'Id' => 128,
             'Label' => 'Off',
         ),
-        17 => array(
+        21 => array(
             'Id' => 0,
             'Label' => 'On',
         ),
-        18 => array(
+        22 => array(
             'Id' => 128,
             'Label' => 'Off',
         ),
-        19 => array(
+        23 => array(
             'Id' => 0,
             'Label' => 'Off',
         ),
-        20 => array(
+        24 => array(
+            'Id' => 1,
+            'Label' => 'Low',
+        ),
+        25 => array(
+            'Id' => 2,
+            'Label' => 'Medium',
+        ),
+        26 => array(
+            'Id' => 3,
+            'Label' => 'High',
+        ),
+        27 => array(
+            'Id' => 0,
+            'Label' => 'Off',
+        ),
+        28 => array(
             'Id' => 64,
             'Label' => 'On',
         ),

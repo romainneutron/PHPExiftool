@@ -75,6 +75,14 @@ class ShutterReleaseButtonAEL extends AbstractTag
             'Id' => 2,
             'Label' => 'On',
         ),
+        8 => array(
+            'Id' => 0,
+            'Label' => 'Off',
+        ),
+        9 => array(
+            'Id' => 2,
+            'Label' => 'On',
+        ),
     );
 
 }

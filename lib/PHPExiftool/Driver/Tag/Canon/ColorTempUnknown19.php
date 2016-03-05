@@ -24,7 +24,7 @@ class ColorTempUnknown19 extends AbstractTag
 
     protected $Name = 'ColorTempUnknown19';
 
-    protected $FullName = 'Canon::ColorData7';
+    protected $FullName = 'mixed';
 
     protected $GroupName = 'Canon';
 

@@ -20,7 +20,7 @@ use PHPExiftool\Driver\AbstractTag;
 class LiveViewMonitorOffTime extends AbstractTag
 {
 
-    protected $Id = '20.2';
+    protected $Id = 'mixed';
 
     protected $Name = 'LiveViewMonitorOffTime';
 
@@ -45,71 +45,119 @@ class LiveViewMonitorOffTime extends AbstractTag
     protected $Values = array(
         0 => array(
             'Id' => 0,
-            'Label' => '3 min',
+            'Label' => '5 min',
         ),
         1 => array(
             'Id' => 4,
-            'Label' => '5 min',
+            'Label' => '10 min',
         ),
         2 => array(
             'Id' => 8,
-            'Label' => '10 min',
+            'Label' => '15 min',
         ),
         3 => array(
             'Id' => 12,
-            'Label' => '15 min',
+            'Label' => '20 min',
         ),
         4 => array(
             'Id' => 16,
-            'Label' => '20 min',
+            'Label' => '30 min',
         ),
         5 => array(
             'Id' => 20,
-            'Label' => '30 min',
+            'Label' => 'No Limit',
         ),
         6 => array(
+            'Id' => 0,
+            'Label' => '3 min',
+        ),
+        7 => array(
             'Id' => 4,
             'Label' => '5 min',
         ),
-        7 => array(
+        8 => array(
             'Id' => 8,
             'Label' => '10 min',
         ),
-        8 => array(
+        9 => array(
             'Id' => 12,
             'Label' => '15 min',
         ),
-        9 => array(
+        10 => array(
             'Id' => 16,
             'Label' => '20 min',
         ),
-        10 => array(
+        11 => array(
             'Id' => 20,
             'Label' => '30 min',
         ),
-        11 => array(
-            'Id' => 0,
-            'Label' => '4 s',
-        ),
         12 => array(
             'Id' => 4,
-            'Label' => '10 s',
+            'Label' => '5 min',
         ),
         13 => array(
             'Id' => 8,
-            'Label' => '20 s',
+            'Label' => '10 min',
         ),
         14 => array(
             'Id' => 12,
-            'Label' => '1 min',
+            'Label' => '15 min',
         ),
         15 => array(
             'Id' => 16,
-            'Label' => '5 min',
+            'Label' => '20 min',
         ),
         16 => array(
             'Id' => 20,
+            'Label' => '30 min',
+        ),
+        17 => array(
+            'Id' => 0,
+            'Label' => '4 s',
+        ),
+        18 => array(
+            'Id' => 4,
+            'Label' => '10 s',
+        ),
+        19 => array(
+            'Id' => 8,
+            'Label' => '20 s',
+        ),
+        20 => array(
+            'Id' => 12,
+            'Label' => '1 min',
+        ),
+        21 => array(
+            'Id' => 16,
+            'Label' => '5 min',
+        ),
+        22 => array(
+            'Id' => 20,
             'Label' => '10 min',
+        ),
+        23 => array(
+            'Id' => 4,
+            'Label' => '5 min',
+        ),
+        24 => array(
+            'Id' => 8,
+            'Label' => '10 min',
+        ),
+        25 => array(
+            'Id' => 12,
+            'Label' => '15 min',
+        ),
+        26 => array(
+            'Id' => 16,
+            'Label' => '20 min',
+        ),
+        27 => array(
+            'Id' => 20,
+            'Label' => '30 min',
+        ),
+        28 => array(
+            'Id' => 24,
+            'Label' => 'No Limit',
         ),
     );
 

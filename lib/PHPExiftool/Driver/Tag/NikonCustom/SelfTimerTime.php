@@ -64,15 +64,15 @@ class SelfTimerTime extends AbstractTag
             'Label' => '2 s',
         ),
         5 => array(
-            'Id' => 1,
+            'Id' => 64,
             'Label' => '5 s',
         ),
         6 => array(
-            'Id' => 2,
+            'Id' => 128,
             'Label' => '10 s',
         ),
         7 => array(
-            'Id' => 3,
+            'Id' => 192,
             'Label' => '20 s',
         ),
         8 => array(
@@ -80,15 +80,15 @@ class SelfTimerTime extends AbstractTag
             'Label' => '2 s',
         ),
         9 => array(
-            'Id' => 64,
+            'Id' => 1,
             'Label' => '5 s',
         ),
         10 => array(
-            'Id' => 128,
+            'Id' => 2,
             'Label' => '10 s',
         ),
         11 => array(
-            'Id' => 192,
+            'Id' => 3,
             'Label' => '20 s',
         ),
         12 => array(
@@ -128,15 +128,15 @@ class SelfTimerTime extends AbstractTag
             'Label' => '2 s',
         ),
         21 => array(
-            'Id' => 16,
+            'Id' => 64,
             'Label' => '5 s',
         ),
         22 => array(
-            'Id' => 32,
+            'Id' => 128,
             'Label' => '10 s',
         ),
         23 => array(
-            'Id' => 48,
+            'Id' => 192,
             'Label' => '20 s',
         ),
         24 => array(
@@ -144,15 +144,15 @@ class SelfTimerTime extends AbstractTag
             'Label' => '2 s',
         ),
         25 => array(
-            'Id' => 64,
+            'Id' => 16,
             'Label' => '5 s',
         ),
         26 => array(
-            'Id' => 128,
+            'Id' => 32,
             'Label' => '10 s',
         ),
         27 => array(
-            'Id' => 192,
+            'Id' => 48,
             'Label' => '20 s',
         ),
         28 => array(
@@ -160,15 +160,15 @@ class SelfTimerTime extends AbstractTag
             'Label' => '2 s',
         ),
         29 => array(
-            'Id' => 1,
+            'Id' => 64,
             'Label' => '5 s',
         ),
         30 => array(
-            'Id' => 2,
+            'Id' => 128,
             'Label' => '10 s',
         ),
         31 => array(
-            'Id' => 3,
+            'Id' => 192,
             'Label' => '20 s',
         ),
         32 => array(
@@ -176,14 +176,46 @@ class SelfTimerTime extends AbstractTag
             'Label' => '2 s',
         ),
         33 => array(
-            'Id' => 64,
+            'Id' => 1,
             'Label' => '5 s',
         ),
         34 => array(
-            'Id' => 128,
+            'Id' => 2,
             'Label' => '10 s',
         ),
         35 => array(
+            'Id' => 3,
+            'Label' => '20 s',
+        ),
+        36 => array(
+            'Id' => 0,
+            'Label' => '2 s',
+        ),
+        37 => array(
+            'Id' => 64,
+            'Label' => '5 s',
+        ),
+        38 => array(
+            'Id' => 128,
+            'Label' => '10 s',
+        ),
+        39 => array(
+            'Id' => 192,
+            'Label' => '20 s',
+        ),
+        40 => array(
+            'Id' => 0,
+            'Label' => '2 s',
+        ),
+        41 => array(
+            'Id' => 64,
+            'Label' => '5 s',
+        ),
+        42 => array(
+            'Id' => 128,
+            'Label' => '10 s',
+        ),
+        43 => array(
             'Id' => 192,
             'Label' => '20 s',
         ),

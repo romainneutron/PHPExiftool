@@ -17,12 +17,12 @@ use PHPExiftool\Driver\AbstractTag;
 /**
  * @ExclusionPolicy("all")
  */
-class BitsperPixel extends AbstractTag
+class BitsPerPixel extends AbstractTag
 {
 
     protected $Id = 'mixed';
 
-    protected $Name = 'BitsperPixel';
+    protected $Name = 'BitsPerPixel';
 
     protected $FullName = 'MXF::Main';
 
@@ -38,6 +38,6 @@ class BitsperPixel extends AbstractTag
 
     protected $Writable = false;
 
-    protected $Description = 'Bitsper Pixel';
+    protected $Description = 'Bits Per Pixel';
 
 }

@@ -34,7 +34,7 @@ class ColorTemperatureSetting extends AbstractTag
 
     protected $g2 = 'Camera';
 
-    protected $Type = 'mixed';
+    protected $Type = 'int8u';
 
     protected $Writable = true;
 

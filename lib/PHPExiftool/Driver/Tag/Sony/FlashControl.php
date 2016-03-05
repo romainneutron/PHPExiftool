@@ -20,11 +20,11 @@ use PHPExiftool\Driver\AbstractTag;
 class FlashControl extends AbstractTag
 {
 
-    protected $Id = 33;
+    protected $Id = 'mixed';
 
     protected $Name = 'FlashControl';
 
-    protected $FullName = 'Sony::CameraSettings3';
+    protected $FullName = 'mixed';
 
     protected $GroupName = 'Sony';
 
@@ -34,7 +34,7 @@ class FlashControl extends AbstractTag
 
     protected $g2 = 'Camera';
 
-    protected $Type = 'int8u';
+    protected $Type = 'mixed';
 
     protected $Writable = true;
 
@@ -43,11 +43,23 @@ class FlashControl extends AbstractTag
     protected $flag_Permanent = true;
 
     protected $Values = array(
+        0 => array(
+            'Id' => 0,
+            'Label' => 'ADI',
+        ),
         1 => array(
+            'Id' => 1,
+            'Label' => 'Pre-flash TTL',
+        ),
+        2 => array(
+            'Id' => 2,
+            'Label' => 'Manual',
+        ),
+        3 => array(
             'Id' => 1,
             'Label' => 'ADI Flash',
         ),
-        2 => array(
+        4 => array(
             'Id' => 2,
             'Label' => 'Pre-flash TTL',
         ),

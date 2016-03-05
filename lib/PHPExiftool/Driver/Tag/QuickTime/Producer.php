@@ -20,11 +20,11 @@ use PHPExiftool\Driver\AbstractTag;
 class Producer extends AbstractTag
 {
 
-    protected $Id = '\\xa9prd';
+    protected $Id = 'mixed';
 
     protected $Name = 'Producer';
 
-    protected $FullName = 'QuickTime::UserData';
+    protected $FullName = 'mixed';
 
     protected $GroupName = 'QuickTime';
 
@@ -32,7 +32,7 @@ class Producer extends AbstractTag
 
     protected $g1 = 'QuickTime';
 
-    protected $g2 = 'Video';
+    protected $g2 = 'mixed';
 
     protected $Type = '?';
 

@@ -36,7 +36,7 @@ class DateTimeOriginal extends AbstractTag
 
     protected $Type = 'int32u';
 
-    protected $Writable = false;
+    protected $Writable = true;
 
     protected $Description = 'Date/Time Original';
 

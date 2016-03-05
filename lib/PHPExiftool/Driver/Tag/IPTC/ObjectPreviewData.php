@@ -40,7 +40,7 @@ class ObjectPreviewData extends AbstractTag
 
     protected $Description = 'Object Preview Data';
 
-    protected $local_g2 = 'Image';
+    protected $local_g2 = 'Preview';
 
     protected $flag_Binary = true;
 

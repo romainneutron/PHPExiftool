@@ -34,7 +34,7 @@ class FNumber extends AbstractTag
 
     protected $g2 = 'Camera';
 
-    protected $Type = 'rational64u';
+    protected $Type = 'mixed';
 
     protected $Writable = false;
 

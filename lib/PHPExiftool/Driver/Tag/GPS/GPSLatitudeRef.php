@@ -34,7 +34,7 @@ class GPSLatitudeRef extends AbstractTag
 
     protected $g2 = 'mixed';
 
-    protected $Type = 'string';
+    protected $Type = 'mixed';
 
     protected $Writable = false;
 

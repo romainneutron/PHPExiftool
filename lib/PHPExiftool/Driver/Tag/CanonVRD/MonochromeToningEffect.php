@@ -20,11 +20,11 @@ use PHPExiftool\Driver\AbstractTag;
 class MonochromeToningEffect extends AbstractTag
 {
 
-    protected $Id = 59;
+    protected $Id = 'mixed';
 
     protected $Name = 'MonochromeToningEffect';
 
-    protected $FullName = 'CanonVRD::Ver2';
+    protected $FullName = 'mixed';
 
     protected $GroupName = 'CanonVRD';
 
@@ -34,30 +34,50 @@ class MonochromeToningEffect extends AbstractTag
 
     protected $g2 = 'Image';
 
-    protected $Type = 'int16s';
+    protected $Type = 'mixed';
 
     protected $Writable = true;
 
     protected $Description = 'Monochrome Toning Effect';
 
     protected $Values = array(
-        '-2' => array(
-            'Id' => '-2',
-            'Label' => 'None',
-        ),
-        '-1' => array(
-            'Id' => '-1',
-            'Label' => 'Sepia',
-        ),
         0 => array(
             'Id' => 0,
-            'Label' => 'Blue',
+            'Label' => 'None',
         ),
         1 => array(
             'Id' => 1,
-            'Label' => 'Purple',
+            'Label' => 'Sepia',
         ),
         2 => array(
+            'Id' => 2,
+            'Label' => 'Blue',
+        ),
+        3 => array(
+            'Id' => 3,
+            'Label' => 'Purple',
+        ),
+        4 => array(
+            'Id' => 4,
+            'Label' => 'Green',
+        ),
+        5 => array(
+            'Id' => '-2',
+            'Label' => 'None',
+        ),
+        6 => array(
+            'Id' => '-1',
+            'Label' => 'Sepia',
+        ),
+        7 => array(
+            'Id' => 0,
+            'Label' => 'Blue',
+        ),
+        8 => array(
+            'Id' => 1,
+            'Label' => 'Purple',
+        ),
+        9 => array(
             'Id' => 2,
             'Label' => 'Green',
         ),

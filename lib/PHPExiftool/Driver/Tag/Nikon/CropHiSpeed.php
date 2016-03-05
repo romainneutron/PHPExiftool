@@ -20,11 +20,11 @@ use PHPExiftool\Driver\AbstractTag;
 class CropHiSpeed extends AbstractTag
 {
 
-    protected $Id = 27;
+    protected $Id = 'mixed';
 
     protected $Name = 'CropHiSpeed';
 
-    protected $FullName = 'Nikon::Main';
+    protected $FullName = 'mixed';
 
     protected $GroupName = 'Nikon';
 

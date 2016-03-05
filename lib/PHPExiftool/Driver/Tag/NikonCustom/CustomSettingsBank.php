@@ -20,7 +20,7 @@ use PHPExiftool\Driver\AbstractTag;
 class CustomSettingsBank extends AbstractTag
 {
 
-    protected $Id = '0.1';
+    protected $Id = 'mixed';
 
     protected $Name = 'CustomSettingsBank';
 

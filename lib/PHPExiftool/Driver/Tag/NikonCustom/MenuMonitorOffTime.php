@@ -48,23 +48,23 @@ class MenuMonitorOffTime extends AbstractTag
             'Label' => '4 s',
         ),
         1 => array(
-            'Id' => 1,
+            'Id' => 32,
             'Label' => '10 s',
         ),
         2 => array(
-            'Id' => 2,
+            'Id' => 64,
             'Label' => '20 s',
         ),
         3 => array(
-            'Id' => 3,
+            'Id' => 96,
             'Label' => '1 min',
         ),
         4 => array(
-            'Id' => 4,
+            'Id' => 128,
             'Label' => '5 min',
         ),
         5 => array(
-            'Id' => 5,
+            'Id' => 160,
             'Label' => '10 min',
         ),
         6 => array(
@@ -72,23 +72,23 @@ class MenuMonitorOffTime extends AbstractTag
             'Label' => '4 s',
         ),
         7 => array(
-            'Id' => 32,
+            'Id' => 1,
             'Label' => '10 s',
         ),
         8 => array(
-            'Id' => 64,
+            'Id' => 2,
             'Label' => '20 s',
         ),
         9 => array(
-            'Id' => 96,
+            'Id' => 3,
             'Label' => '1 min',
         ),
         10 => array(
-            'Id' => 128,
+            'Id' => 4,
             'Label' => '5 min',
         ),
         11 => array(
-            'Id' => 160,
+            'Id' => 5,
             'Label' => '10 min',
         ),
         12 => array(
@@ -112,6 +112,54 @@ class MenuMonitorOffTime extends AbstractTag
             'Label' => '5 min',
         ),
         17 => array(
+            'Id' => 160,
+            'Label' => '10 min',
+        ),
+        18 => array(
+            'Id' => 0,
+            'Label' => '4 s',
+        ),
+        19 => array(
+            'Id' => 64,
+            'Label' => '10 s',
+        ),
+        20 => array(
+            'Id' => 128,
+            'Label' => '20 s',
+        ),
+        21 => array(
+            'Id' => 160,
+            'Label' => '1 min',
+        ),
+        22 => array(
+            'Id' => 192,
+            'Label' => '5 min',
+        ),
+        23 => array(
+            'Id' => 224,
+            'Label' => '10 min',
+        ),
+        24 => array(
+            'Id' => 0,
+            'Label' => '4 s',
+        ),
+        25 => array(
+            'Id' => 32,
+            'Label' => '10 s',
+        ),
+        26 => array(
+            'Id' => 64,
+            'Label' => '20 s',
+        ),
+        27 => array(
+            'Id' => 96,
+            'Label' => '1 min',
+        ),
+        28 => array(
+            'Id' => 128,
+            'Label' => '5 min',
+        ),
+        29 => array(
             'Id' => 160,
             'Label' => '10 min',
         ),

@@ -44,6 +44,6 @@ class MakerNoteUnknownText extends AbstractTag
 
     protected $flag_Permanent = true;
 
-    protected $Index = 75;
+    protected $Index = 79;
 
 }

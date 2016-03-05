@@ -53,15 +53,71 @@ class CommandDialsChangeMainSub extends AbstractTag
         ),
         2 => array(
             'Id' => 0,
-            'Label' => 'Off',
+            'Label' => 'Autofocus Off, Exposure Off',
         ),
         3 => array(
             'Id' => 32,
-            'Label' => 'On',
+            'Label' => 'Autofocus Off, Exposure On',
         ),
         4 => array(
             'Id' => 64,
+            'Label' => 'Autofocus Off, Exposure On (Mode A)',
+        ),
+        5 => array(
+            'Id' => 128,
+            'Label' => 'Autofocus On, Exposure Off',
+        ),
+        6 => array(
+            'Id' => 160,
+            'Label' => 'Autofocus On, Exposure On',
+        ),
+        7 => array(
+            'Id' => 192,
+            'Label' => 'Autofocus On, Exposure On (Mode A)',
+        ),
+        8 => array(
+            'Id' => 0,
+            'Label' => 'Off',
+        ),
+        9 => array(
+            'Id' => 64,
+            'Label' => 'On',
+        ),
+        10 => array(
+            'Id' => 0,
+            'Label' => 'Off',
+        ),
+        11 => array(
+            'Id' => 32,
+            'Label' => 'On',
+        ),
+        12 => array(
+            'Id' => 64,
             'Label' => 'On (A mode only)',
+        ),
+        13 => array(
+            'Id' => 0,
+            'Label' => 'Autofocus Off, Exposure Off',
+        ),
+        14 => array(
+            'Id' => 32,
+            'Label' => 'Autofocus Off, Exposure On',
+        ),
+        15 => array(
+            'Id' => 64,
+            'Label' => 'Autofocus Off, Exposure On (Mode A)',
+        ),
+        16 => array(
+            'Id' => 128,
+            'Label' => 'Autofocus On, Exposure Off',
+        ),
+        17 => array(
+            'Id' => 160,
+            'Label' => 'Autofocus On, Exposure On',
+        ),
+        18 => array(
+            'Id' => 192,
+            'Label' => 'Autofocus On, Exposure On (Mode A)',
         ),
     );
 

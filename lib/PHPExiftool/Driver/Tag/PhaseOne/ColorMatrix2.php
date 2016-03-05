@@ -34,12 +34,14 @@ class ColorMatrix2 extends AbstractTag
 
     protected $g2 = 'Camera';
 
-    protected $Type = '?';
+    protected $Type = 'float';
 
-    protected $Writable = false;
+    protected $Writable = true;
 
     protected $Description = 'Color Matrix 2';
 
     protected $flag_Permanent = true;
+
+    protected $MaxLength = 9;
 
 }

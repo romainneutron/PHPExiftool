@@ -17,12 +17,12 @@ use PHPExiftool\Driver\AbstractTag;
 /**
  * @ExclusionPolicy("all")
  */
-class Timezone extends AbstractTag
+class TimeZone extends AbstractTag
 {
 
     protected $Id = 0;
 
-    protected $Name = 'Timezone';
+    protected $Name = 'TimeZone';
 
     protected $FullName = 'Nikon::WorldTime';
 
@@ -38,7 +38,7 @@ class Timezone extends AbstractTag
 
     protected $Writable = true;
 
-    protected $Description = 'Timezone';
+    protected $Description = 'Time Zone';
 
     protected $flag_Permanent = true;
 

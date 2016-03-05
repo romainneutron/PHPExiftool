@@ -24,7 +24,7 @@ class WhiteBalance extends AbstractTag
 
     protected $Name = 'WhiteBalance';
 
-    protected $FullName = 'Sony::Main';
+    protected $FullName = 'mixed';
 
     protected $GroupName = 'Sony';
 
@@ -44,92 +44,140 @@ class WhiteBalance extends AbstractTag
 
     protected $Values = array(
         0 => array(
-            'Id' => 0,
+            'Id' => 2,
             'Label' => 'Auto',
         ),
         1 => array(
-            'Id' => 1,
-            'Label' => 'Color Temperature/Color Filter',
-        ),
-        2 => array(
-            'Id' => 16,
+            'Id' => 4,
             'Label' => 'Daylight',
         ),
-        3 => array(
-            'Id' => 32,
-            'Label' => 'Cloudy',
-        ),
-        4 => array(
-            'Id' => 48,
-            'Label' => 'Shade',
-        ),
-        5 => array(
-            'Id' => 64,
-            'Label' => 'Tungsten',
-        ),
-        6 => array(
-            'Id' => 80,
-            'Label' => 'Flash',
-        ),
-        7 => array(
-            'Id' => 96,
+        2 => array(
+            'Id' => 5,
             'Label' => 'Fluorescent',
         ),
-        8 => array(
-            'Id' => 112,
+        3 => array(
+            'Id' => 6,
+            'Label' => 'Tungsten',
+        ),
+        4 => array(
+            'Id' => 7,
+            'Label' => 'Flash',
+        ),
+        5 => array(
+            'Id' => 12,
+            'Label' => 'Color Temperature',
+        ),
+        6 => array(
+            'Id' => 13,
+            'Label' => 'Color Filter',
+        ),
+        7 => array(
+            'Id' => 14,
             'Label' => 'Custom',
         ),
+        8 => array(
+            'Id' => 16,
+            'Label' => 'Cloudy',
+        ),
         9 => array(
+            'Id' => 17,
+            'Label' => 'Shade',
+        ),
+        10 => array(
             'Id' => 0,
             'Label' => 'Auto',
         ),
-        10 => array(
+        11 => array(
+            'Id' => 1,
+            'Label' => 'Color Temperature/Color Filter',
+        ),
+        12 => array(
+            'Id' => 16,
+            'Label' => 'Daylight',
+        ),
+        13 => array(
+            'Id' => 32,
+            'Label' => 'Cloudy',
+        ),
+        14 => array(
+            'Id' => 48,
+            'Label' => 'Shade',
+        ),
+        15 => array(
+            'Id' => 64,
+            'Label' => 'Tungsten',
+        ),
+        16 => array(
+            'Id' => 80,
+            'Label' => 'Flash',
+        ),
+        17 => array(
+            'Id' => 96,
+            'Label' => 'Fluorescent',
+        ),
+        18 => array(
+            'Id' => 112,
+            'Label' => 'Custom',
+        ),
+        19 => array(
+            'Id' => 128,
+            'Label' => 'Underwater',
+        ),
+        20 => array(
+            'Id' => 0,
+            'Label' => 'Auto',
+        ),
+        21 => array(
             'Id' => 4,
             'Label' => 'Custom',
         ),
-        11 => array(
+        22 => array(
             'Id' => 5,
             'Label' => 'Daylight',
         ),
-        12 => array(
+        23 => array(
             'Id' => 6,
             'Label' => 'Cloudy',
         ),
-        13 => array(
+        24 => array(
             'Id' => 7,
             'Label' => 'Cool White Fluorescent',
         ),
-        14 => array(
+        25 => array(
             'Id' => 8,
             'Label' => 'Day White Fluorescent',
         ),
-        15 => array(
+        26 => array(
             'Id' => 9,
             'Label' => 'Daylight Fluorescent',
         ),
-        16 => array(
+        27 => array(
             'Id' => 10,
             'Label' => 'Incandescent2',
         ),
-        17 => array(
+        28 => array(
             'Id' => 11,
             'Label' => 'Warm White Fluorescent',
         ),
-        18 => array(
+        29 => array(
             'Id' => 14,
             'Label' => 'Incandescent',
         ),
-        19 => array(
+        30 => array(
             'Id' => 15,
             'Label' => 'Flash',
         ),
-        20 => array(
+        31 => array(
             'Id' => 17,
             'Label' => 'Underwater 1 (Blue Water)',
         ),
-        21 => array(
+        32 => array(
             'Id' => 18,
             'Label' => 'Underwater 2 (Green Water)',
+        ),
+        33 => array(
+            'Id' => 19,
+            'Label' => 'Underwater Auto',
         ),
     );
 

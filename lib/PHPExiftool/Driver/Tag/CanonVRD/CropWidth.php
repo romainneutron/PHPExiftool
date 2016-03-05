@@ -20,11 +20,11 @@ use PHPExiftool\Driver\AbstractTag;
 class CropWidth extends AbstractTag
 {
 
-    protected $Id = 586;
+    protected $Id = 'mixed';
 
     protected $Name = 'CropWidth';
 
-    protected $FullName = 'CanonVRD::Ver1';
+    protected $FullName = 'mixed';
 
     protected $GroupName = 'CanonVRD';
 
@@ -34,7 +34,7 @@ class CropWidth extends AbstractTag
 
     protected $g2 = 'Image';
 
-    protected $Type = 'int16u';
+    protected $Type = 'mixed';
 
     protected $Writable = true;
 
