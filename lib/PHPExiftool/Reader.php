@@ -193,8 +193,7 @@ class Reader implements \IteratorAggregate
         );
 
         foreach ((array) $by as $sort) {
-
-            if ( ! in_array($sort, $availableSorts)) {
+            if (! in_array($sort, $availableSorts)) {
                 continue;
             }
             $this->sort[] = $sort;
@@ -245,7 +244,7 @@ class Reader implements \IteratorAggregate
     {
         $this->resetResults();
 
-        if ( ! is_null($this->extensionsToggle)) {
+        if (! is_null($this->extensionsToggle)) {
             if ((boolean) $restrict !== $this->extensionsToggle) {
                 throw new LogicException('You cannot restrict extensions AND exclude extension at the same time');
             }
@@ -454,7 +453,7 @@ class Reader implements \IteratorAggregate
                         continue;
                     }
 
-                    if ( ! trim($supposedRelative)) {
+                    if (! trim($supposedRelative)) {
                         continue;
                     }
 

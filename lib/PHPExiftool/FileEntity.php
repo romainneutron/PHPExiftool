@@ -114,5 +114,4 @@ class FileEntity implements \IteratorAggregate
     {
         return $this->parser->Query($query);
     }
-
 }

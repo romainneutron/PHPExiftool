@@ -109,7 +109,6 @@ abstract class AbstractWriterTest extends \PHPUnit_Framework_TestCase
         );
 
         foreach ($reader->files($this->out)->first()->getMetadatas() as $meta) {
-
             $found = false;
 
             foreach ($acceptedMetas as $accepted) {
@@ -119,7 +118,7 @@ abstract class AbstractWriterTest extends \PHPUnit_Framework_TestCase
                 }
             }
 
-            if ( ! $found) {
+            if (! $found) {
                 $this->fail(sprintf('Unexpected meta %s found', $meta->getTag()->getTagname()));
             }
         }
@@ -163,7 +162,6 @@ abstract class AbstractWriterTest extends \PHPUnit_Framework_TestCase
         );
 
         foreach ($reader->files($this->out)->first()->getMetadatas() as $meta) {
-
             $found = false;
 
             foreach ($acceptedMetas as $accepted) {
@@ -173,7 +171,7 @@ abstract class AbstractWriterTest extends \PHPUnit_Framework_TestCase
                 }
             }
 
-            if ( ! $found) {
+            if (! $found) {
                 $this->fail(sprintf('Unexpected meta %s found', $meta->getTag()->getTagname()));
             }
         }

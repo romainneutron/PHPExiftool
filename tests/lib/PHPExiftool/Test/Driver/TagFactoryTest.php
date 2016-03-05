@@ -27,7 +27,6 @@ class TagFactoryTest extends \PHPUnit_Framework_TestCase
             $tag = TagFactory::getFromRDFTagname('XMPExif:AnunexistingTag');
             $this->fail('Should raise a TagUnknown exception');
         } catch (\PHPExiftool\Exception\TagUnknown $e) {
-
         }
     }
 

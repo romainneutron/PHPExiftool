@@ -44,5 +44,4 @@ class MetadataTest extends \PHPUnit_Framework_TestCase
 
 class TagTest extends AbstractTag
 {
-
 }

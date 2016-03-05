@@ -34,7 +34,7 @@ class Builder
     protected $uses;
     protected $classAnnotations;
 
-    public function __construct($namespace, $classname, array $properties, $extends = null, Array $uses = array(), Array $classAnnotations = array())
+    public function __construct($namespace, $classname, array $properties, $extends = null, array $uses = array(), array $classAnnotations = array())
     {
         $namespace = trim($namespace, '\\');
 
@@ -43,11 +43,11 @@ class Builder
                 continue;
             }
 
-            if ( ! $this->checkPHPVarName($piece)) {
+            if (! $this->checkPHPVarName($piece)) {
                 throw new \Exception(sprintf('Invalid namespace %s', $namespace));
             }
         }
-        if ( ! $this->checkPHPVarName($classname)) {
+        if (! $this->checkPHPVarName($classname)) {
             throw new \Exception(sprintf('Invalid namespace %s', $namespace));
         }
 
@@ -90,8 +90,9 @@ class Builder
 
     public function write($force = false)
     {
-        if ( ! $force && file_exists($this->getPathfile()))
+        if (! $force && file_exists($this->getPathfile())) {
             throw new \Exception(sprintf('%s already exists', $this->getPathfile()));
+        }
 
         if (file_exists($this->getPathfile())) {
             unlink($this->getPathfile());
@@ -133,14 +134,12 @@ class Builder
 
         $content .= "}\n";
 
-        if ( ! is_dir(dirname($this->getPathfile()))) {
+        if (! is_dir(dirname($this->getPathfile()))) {
             mkdir(dirname($this->getPathfile()), 0754, true);
         }
 
         $content = str_replace(
-            array('<license>', '<namespace>', '<classname>', '<spaces>', '<extends>')
-            , array($this->license, $this->namespace, $this->classname, '    ', $this->extends)
-            , $content
+            array('<license>', '<namespace>', '<classname>', '<spaces>', '<extends>'), array($this->license, $this->namespace, $this->classname, '    ', $this->extends), $content
         );
 
         return $content;

@@ -156,7 +156,7 @@ class Writer
      */
     public function write($file, MetadataBag $metadatas, $destination = null)
     {
-        if ( ! file_exists($file)) {
+        if (! file_exists($file)) {
             throw new InvalidArgumentException(sprintf('%s does not exists', $file));
         }
 

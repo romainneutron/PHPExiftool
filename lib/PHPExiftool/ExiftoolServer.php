@@ -78,7 +78,6 @@ class ExiftoolServer extends Exiftool
 //        }
 
         foreach (explode(' ', $commands) as $command) {
-
             if ($command == '-q') {
                 continue;
             }
@@ -123,7 +122,6 @@ class ExiftoolServer extends Exiftool
 
     private function setUp()
     {
-
         $this->pipefile = tempnam(sys_get_temp_dir(), 'exiftool-pipe');
         $this->server = new Process(self::getBinary() . ' -stay_open True -@ ' . $this->pipefile);
     }

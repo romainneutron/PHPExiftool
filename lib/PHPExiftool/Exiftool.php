@@ -51,7 +51,7 @@ class Exiftool implements LoggerAwareInterface
 
         $process->run();
 
-        if ( ! $process->isSuccessful()) {
+        if (! $process->isSuccessful()) {
             throw new RuntimeException(sprintf('Command %s failed : %s, exitcode %s', $command, $process->getErrorOutput(), $process->getExitCode()));
         }
 
@@ -78,7 +78,6 @@ class Exiftool implements LoggerAwareInterface
         $packaged = __DIR__ . '/../../../../phpexiftool/exiftool/exiftool';
 
         foreach (array($packaged, $dev) as $location) {
-
             if (defined('PHP_WINDOWS_VERSION_BUILD')) {
                 $location .= '.exe';
             }

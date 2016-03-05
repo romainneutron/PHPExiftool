@@ -92,7 +92,7 @@ class ClassesBuilder extends Command
 
         $this->extractDump($dump);
 
-        if ( ! $input->getOption('write')) {
+        if (! $input->getOption('write')) {
             $this->output->writeln(
                 'These classes were not written. Use --write to write on disk'
             );
@@ -108,8 +108,7 @@ class ClassesBuilder extends Command
 
         $this->output->writeln(
             sprintf(
-                '%d classes generated in %d seconds (%d Mb)'
-                , count($this->classes), (microtime(true) - $start), memory_get_peak_usage() >> 20
+                '%d classes generated in %d seconds (%d Mb)', count($this->classes), (microtime(true) - $start), memory_get_peak_usage() >> 20
             )
         );
     }
@@ -127,19 +126,17 @@ class ClassesBuilder extends Command
 
         foreach ($this->classes as $class) {
             try {
-
                 $class->write($force);
 
                 if (strpos($class->getNamespace(), 'PHPExiftool\\Driver\\Tag') === 0) {
-
-                    if ( ! isset($buffer[$class->getProperty('GroupName')])) {
+                    if (! isset($buffer[$class->getProperty('GroupName')])) {
                         $buffer[$class->getProperty('GroupName')] = array();
                     }
 
                     $buffer[$class->getProperty('GroupName')][$class->getProperty('Name')] = $class->getNamespace() . '\\' . $class->getClassname();
                 }
 
-                $this->output->write(sprintf("\rwriting class #%5d", $n ++ ));
+                $this->output->write(sprintf("\rwriting class #%5d", $n ++));
             } catch (\Exception $e) {
                 $this->output->writeln(
                     sprintf("\n<error>Error while writing class %s</error>", $class->getPathfile())
@@ -159,8 +156,9 @@ class ClassesBuilder extends Command
     protected function generateTypes()
     {
         foreach ($this->types as $type => $data) {
-            if ($type == '?')
+            if ($type == '?') {
                 $type = 'unknown';
+            }
 
             $classname = self::generateClassname($type);
 
@@ -302,13 +300,11 @@ class ClassesBuilder extends Command
             foreach ($properties as $property => $value) {
                 if ($this->classes[$classpath]->getProperty($property) != $value) {
                     if (in_array($property, array('Writable', 'flag_Binary', 'flag_List'))) {
-
                         $this->classes[$classpath]->setProperty($property, 'false');
                     } elseif ($property === 'Values') {
-
                         $new_value = array();
 
-                        if ( ! is_array($this->classes[$classpath]->getProperty($property))) {
+                        if (! is_array($this->classes[$classpath]->getProperty($property))) {
                             if (is_array($value)) {
                                 $new_value = $value;
                             }
@@ -351,7 +347,6 @@ class ClassesBuilder extends Command
             $tags = $table_crawler->filter('tag');
 
             foreach ($tags as $tag) {
-
                 $tag_crawler = new Crawler();
                 $tag_crawler->addNode($tag);
 
@@ -488,7 +483,6 @@ class ClassesBuilder extends Command
         $values = preg_split('/\\ |-|_|\\#/', ltrim($name, '0123456789'));
 
         foreach ($values as $key => $value) {
-
             $values[$key] = ucfirst($value);
         }
 

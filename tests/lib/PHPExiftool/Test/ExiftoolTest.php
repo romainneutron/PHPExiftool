@@ -37,4 +37,3 @@ class ExiftoolTest extends \PHPUnit_Framework_TestCase
         return $logger;
     }
 }
-

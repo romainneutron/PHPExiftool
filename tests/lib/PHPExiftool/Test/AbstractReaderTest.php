@@ -4,7 +4,8 @@ namespace PHPExiftool\Test;
 
 use PHPExiftool\Reader;
 
-abstract class AbstractReaderTest extends \PHPUnit_Framework_TestCase {
+abstract class AbstractReaderTest extends \PHPUnit_Framework_TestCase
+{
 
     /**
      * @var Reader
@@ -59,7 +60,6 @@ abstract class AbstractReaderTest extends \PHPUnit_Framework_TestCase {
         if (defined('PHP_WINDOWS_VERSION_BUILD')) {
             self::$disableSymLinkTest = true;
         } elseif (!is_link(self::$tmpDir . '/symlink')) {
-
             if (!@symlink($tmpDir2, self::$tmpDir . '/symlink')) {
                 self::$disableSymLinkTest = true;
             }
@@ -434,5 +434,4 @@ abstract class AbstractReaderTest extends \PHPUnit_Framework_TestCase {
     }
 
     abstract protected function getReader();
-
 }

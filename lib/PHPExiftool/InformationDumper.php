@@ -63,7 +63,7 @@ class InformationDumper
             , self::LISTTYPE_DELETABLE_GROUPS, self::LISTTYPE_GROUPS,
         );
 
-        if ( ! in_array($type, $available)) {
+        if (! in_array($type, $available)) {
             throw new InvalidArgumentException('Unknown list attribute');
         }
 

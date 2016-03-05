@@ -159,7 +159,7 @@ class RDFParser
 
         $DomXpath = $this->getDomXpath();
 
-        if ( ! in_array($QueryParts[0], $this->registeredPrefixes)) {
+        if (! in_array($QueryParts[0], $this->registeredPrefixes)) {
             return null;
         }
 
@@ -240,7 +240,6 @@ class RDFParser
         }
 
         if ($node->getElementsByTagNameNS(self::RDF_NAMESPACE, 'Bag')->length > 0) {
-
             $ret = array();
 
             foreach ($node->getElementsByTagNameNS(self::RDF_NAMESPACE, 'li') as $nodeElement) {
@@ -253,15 +252,13 @@ class RDFParser
                 return new Mono(implode(' ', $ret));
             }
         } elseif ($node->getAttribute('rdf:datatype') === 'http://www.w3.org/2001/XMLSchema#base64Binary') {
-
             if (is_null($tag) || $tag->isBinary()) {
                 return Binary::loadFromBase64(trim($node->nodeValue));
             } else {
                 return new Mono(base64_decode(trim($node->nodeValue)));
             }
         } else {
-
-            if ( ! is_null($tag) && $tag->isMulti()) {
+            if (! is_null($tag) && $tag->isMulti()) {
                 return new Multi($node->nodeValue);
             } else {
                 return new Mono($node->nodeValue);
@@ -283,14 +280,13 @@ class RDFParser
         }
 
         if (! $this->DOM) {
-
             $this->DOM = new \DOMDocument;
 
             /**
              * We shut up the warning to exclude an exception in case Warnings are
              * transformed in exception
              */
-            if ( ! @$this->DOM->loadXML($this->XML)) {
+            if (! @$this->DOM->loadXML($this->XML)) {
                 throw new ParseError('Unable to load XML');
             }
         }

@@ -25,11 +25,11 @@ class PreviewExtractor extends Exiftool
 
     public function extract($pathfile, $outputDir)
     {
-        if ( ! file_exists($pathfile)) {
+        if (! file_exists($pathfile)) {
             throw new LogicException(sprintf('%s does not exists', $pathfile));
         }
 
-        if ( ! is_dir($outputDir) || ! is_writable($outputDir)) {
+        if (! is_dir($outputDir) || ! is_writable($outputDir)) {
             throw new LogicException(sprintf('%s is not writable', $outputDir));
         }
 
@@ -44,7 +44,6 @@ class PreviewExtractor extends Exiftool
         try {
             $this->exiftool->executeCommand($command);
         } catch (RuntimeException $e) {
-
         }
 
         return new \DirectoryIterator($outputDir);

@@ -189,5 +189,4 @@ abstract class AbstractTag implements TagInterface
     {
         return $this->getTagname();
     }
-
 }

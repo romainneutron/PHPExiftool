@@ -35,7 +35,7 @@ class TagFactory
     {
         $classname = self::classnameFromTagname($tagname);
 
-        if ( ! class_exists($classname)) {
+        if (! class_exists($classname)) {
             throw new TagUnknown(sprintf('Unknown tag %s', $tagname));
         }
 

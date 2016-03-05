@@ -39,7 +39,6 @@ class TagProviderBuilder extends Builder
         $content .= "\n<spaces>public function __construct()\n<spaces>{\n";
 
         foreach ($this->classes as $groupname => $group) {
-
             $content .= "<spaces><spaces>\$this['$groupname'] = \$this->share(function(){\n";
             $content .= "<spaces><spaces><spaces>return array(\n";
 
@@ -58,7 +57,6 @@ class TagProviderBuilder extends Builder
         $content .= "\n<spaces><spaces>return array(\n";
 
         foreach ($this->classes as $groupname => $group) {
-
             $content .= "<spaces><spaces><spaces>'$groupname' => \$this['$groupname'],\n";
         }
 
@@ -71,14 +69,13 @@ class TagProviderBuilder extends Builder
         $content .= "\n<spaces><spaces>return array(\n";
 
         foreach ($this->classes as $groupname => $group) {
-
             $content .= "<spaces><spaces><spaces>'" . strtolower($groupname) . "' => array(\n";
 
             foreach ($group as $tagname => $tagclass) {
-                $content .= "<spaces><spaces><spaces><spaces>'" . str_replace(array('\'', '\\'),array('\\\'','\\\\'),strtolower($tagname)) . "' => array(\n";
+                $content .= "<spaces><spaces><spaces><spaces>'" . str_replace(array('\'', '\\'), array('\\\'','\\\\'), strtolower($tagname)) . "' => array(\n";
                 $content .= "<spaces><spaces><spaces><spaces><spaces>'namespace' => '$groupname',\n";
                 $content .= "<spaces><spaces><spaces><spaces><spaces>'tagname' => '$tagname',\n";
-                $content .= "<spaces><spaces><spaces><spaces><spaces>'classname' => '".str_replace('\'','\\\'',$tagclass)."',\n";
+                $content .= "<spaces><spaces><spaces><spaces><spaces>'classname' => '".str_replace('\'', '\\\'', $tagclass)."',\n";
                 $content .= "<spaces><spaces><spaces><spaces>),\n";
             }
 
@@ -91,20 +88,18 @@ class TagProviderBuilder extends Builder
 
         $content .= "\n}\n";
 
-        if ( ! is_dir(dirname($this->getPathfile()))) {
+        if (! is_dir(dirname($this->getPathfile()))) {
             mkdir(dirname($this->getPathfile()), 0754, true);
         }
 
         $content = str_replace(
-            array('<license>', '<namespace>', '<classname>', '<spaces>', '<extends>')
-            , array($this->license, $this->namespace, $this->classname, '    ', $this->extends)
-            , $content
+            array('<license>', '<namespace>', '<classname>', '<spaces>', '<extends>'), array($this->license, $this->namespace, $this->classname, '    ', $this->extends), $content
         );
 
         return $content;
     }
 
-    public function setClasses(Array $classes)
+    public function setClasses(array $classes)
     {
         $this->classes = $classes;
     }
