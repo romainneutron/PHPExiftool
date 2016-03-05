@@ -13,11 +13,11 @@ namespace PHPExiftool\Driver\Type;
 
 use PHPExiftool\Driver\AbstractType;
 
-class String extends AbstractType
+class Null0 extends AbstractType
 {
 
-    protected $ExiftoolName = 'string';
+    protected $ExiftoolName = 'null';
 
-    protected $PHPMap = 'string';
+    protected $PHPMap = 'binary';
 
 }
