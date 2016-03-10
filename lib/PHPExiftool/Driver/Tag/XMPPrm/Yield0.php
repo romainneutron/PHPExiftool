@@ -17,7 +17,7 @@ use PHPExiftool\Driver\AbstractTag;
 /**
  * @ExclusionPolicy("all")
  */
-class Yield extends AbstractTag
+class Yield0 extends AbstractTag
 {
 
     protected $Id = 'yield';

@@ -470,7 +470,7 @@ class ClassesBuilder extends Command
         , 'switch', 'throw', 'try', 'use', 'var', 'while', 'xor'
         , 'int', 'float', 'bool', 'string'
         , 'true', 'false', 'null', 'resource'
-        , 'object', 'mixed', 'numeric'
+        , 'object', 'mixed', 'numeric', 'yield'
     );
 
     /**
