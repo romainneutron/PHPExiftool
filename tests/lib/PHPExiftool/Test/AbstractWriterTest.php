@@ -303,10 +303,10 @@ abstract class AbstractWriterTest extends \PHPUnit_Framework_TestCase
         $this->assertNotContains('@ xmp2iptc', $writer->getSyncCommandTester());
 
         $writer->setModule(WriterTester::MODULE_MWG, true);
-        $this->assertContains(' -use MWG', $writer->addMetadatasArgTester($metadatas));
+        $this->assertContains('-use MWG', $writer->addMetadatasArgTester($metadatas));
 
         $writer->setModule(WriterTester::MODULE_MWG, false);
-        $this->assertNotContains(' -use MWG', $writer->addMetadatasArgTester($metadatas));
+        $this->assertNotContains('-use MWG', $writer->addMetadatasArgTester($metadatas));
 
         $this->assertRegExp("/\ -XMP-iptcExt:PersonInImage=['\"]Nicolas['\"]/", $writer->addMetadatasArgTester($metadatas));
     }
