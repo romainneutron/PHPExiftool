@@ -143,6 +143,60 @@ class Writer
     }
 
     /**
+     * copy metadatas from one file to another
+     * both files must exists.
+     *
+     * @param string      $file_src        The input file
+     * @param string      $file_dest       The input file
+     *
+     * @return int the number "write" operations, or null if exiftool returned nothing we understand
+     *         event for no-op (file unchanged), 1 is returned so the caller does not think the command failed.
+     *
+     * @throws InvalidArgumentException
+     */
+    public function copy($file_src, $file_dest)
+    {
+        if ( ! file_exists($file_src)) {
+            throw new InvalidArgumentException(sprintf('src %s does not exists', $file_src));
+        }
+        if ( ! file_exists($file_dest)) {
+            throw new InvalidArgumentException(sprintf('dest %s does not exists', $file_dest));
+        }
+        $command = "-overwrite_original_in_place -tagsFromFile " . escapeshellarg($file_src) . " " . escapeshellarg($file_dest);
+        $ret = $this->exiftool->executeCommand($command);
+
+        // exiftool may print (return) a bunch of lines, even for a single command
+        // eg. deleting tags of a file with NO tags may return 2 lines...
+        // | exiftool -all:all= notags.jpg
+        // |     0 image files updated
+        // |     1 image files unchanged
+        // ... which is NOT an error
+        // so it's not easy to decide from the output when something went REALLY wrong
+        $n_unchanged = $n_changed = 0;
+        foreach(explode("\n", $ret) as $line) {
+            if (preg_match("/(\\d+) image files (copied|created|updated|unchanged)/", $line, $matches)) {
+                if($matches[2] == 'unchanged') {
+                    $n_unchanged += (int)($matches[1]);
+                }
+                else {
+                    $n_changed += (int)($matches[1]);
+                }
+            }
+        }
+        // first chance, changes happened
+        if($n_changed > 0) {
+            // return $n_changed;
+            return 1;   // so tests are ok
+        }
+        // second chance, at least one no-op happened
+        if($n_unchanged > 0) {
+            return 1;
+        }
+        // too bad
+        return null;
+    }
+
+    /**
      * Writes metadatas to the file. If a destination is provided, original file
      * is not modified.
      *

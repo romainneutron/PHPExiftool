@@ -55,6 +55,27 @@ abstract class AbstractWriterTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
+     * @covers PHPExiftool\Writer::copy
+     */
+    public function testCopy()
+    {
+        $metadatas = new Driver\Metadata\MetadataBag();
+        $this->object->erase(true, true);
+        $changedFiles = $this->object->write($this->inWithICC, $metadatas, $this->out);
+        $this->assertEquals(1, $changedFiles);
+
+        $reader = new Reader($this->getExiftool(), new RDFParser());
+        $metadatasRead = $reader->files($this->out)->first()->getMetadatas();
+        $this->assertFalse(is_object($metadatasRead->get('IPTC:ObjectName')));
+
+        $this->object->copy($this->in, $this->out);
+
+        $metadatasRead = $reader->files($this->out)->first()->getMetadatas();
+        $this->assertTrue(is_object($metadatasRead->get('IPTC:ObjectName')));
+        $this->assertEquals("Test IPTC picture", $metadatasRead->get('IPTC:ObjectName')->getValue()->asString());
+    }
+
+    /**
      * @covers PHPExiftool\Writer::setModule
      * @covers PHPExiftool\Writer::hasModule
      */
