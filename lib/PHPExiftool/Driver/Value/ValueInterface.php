@@ -13,7 +13,7 @@ namespace PHPExiftool\Driver\Value;
 
 interface ValueInterface
 {
-    const TYPE_BINARY = 'bianry';
+    const TYPE_BINARY = 'binary';
     const TYPE_MONO = 'mono';
     const TYPE_MULTI = 'multi';
 
