@@ -174,7 +174,7 @@ class Writer
              * anything else.
              */
             if (! $destination) {
-                $command .= ' -all:all= ' . ($this->eraseProfile ? '' : '--icc_profile:all ') . '' . $file . ' -execute';
+                $command .= ' -all:all= ' . ($this->eraseProfile ? '' : '--icc_profile:all ') . '' . escapeshellarg($file) . ' -execute';
 
                 /**
                  * If no destination, all commands will overwrite in place
@@ -187,7 +187,7 @@ class Writer
                  * If destination was specified, we start by creating the blank
                  * destination, we will write in it at next step
                  */
-                $command .= ' -all:all= ' . ($this->eraseProfile ? '' : '--icc_profile:all ') . '-o ' . $destination . ' ' . $file . ' -execute';
+                $command .= ' -all:all= ' . ($this->eraseProfile ? '' : '--icc_profile:all ') . '-o ' . escapeshellarg($destination) . ' ' . escapeshellarg($file) . ' -execute';
 
                 $file = $destination;
                 $destination = null;
@@ -197,7 +197,7 @@ class Writer
         $command .= $this->addMetadatasArg($metadatas);
 
         if ($destination) {
-            $command .= ' -o ' . escapeshellarg($destination) . ' ' . $file;
+            $command .= ' -o ' . escapeshellarg($destination) . ' ' . escapeshellarg($file);
         } else {
 
             /**
@@ -207,11 +207,11 @@ class Writer
              * option. For these systems, the -overwrite_original_in_place option
              * may be used to preserve the creation date.
              */
-            $command .= ' -overwrite_original_in_place ' . $file;
+            $command .= ' -overwrite_original_in_place ' . escapeshellarg($file);
         }
 
         if ('' !== $syncCommand = $this->getSyncCommand()) {
-            $command .= ' -execute -overwrite_original_in_place ' . $syncCommand . ' ' . $file;
+            $command .= ' -execute -overwrite_original_in_place ' . $syncCommand . ' ' . escapeshellarg($file);
         }
 
         $command .= ' -common_args' . $common_args;
